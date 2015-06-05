@@ -1,0 +1,50 @@
+ 
+consider problem joint universal variable-rate lossy coding identification parametric classes stationary mixing sources general polish alphabets
+compression performance measured terms lagrangians while identification performance measured variational distance between true source estimated source
+provided sources mixing at sufficiently fast rate satisfy certain smoothness vapnik--chervonenkis learnability conditions shown bounded metric distortions there exist universal schemes joint lossy compression identification whose lagrangian redundancies converge zero block length tends infinity where vapnik--chervonenkis dimension certain class decision regions defined dimensional marginal distributions sources; furthermore each  decoder identify dimensional marginal active source up ball radius variational distance eventually probability one
+results supplemented several examples parametric sources satisfying regularity conditions \\ \\ index terms learning minimum-distance density estimation two-stage codes universal vector quantization vapnik--chervonenkis dimension
+ introduction 
+well known lossless source coding statistical modeling complementary objectives
+fact captured kraft inequality see section~5 2 cover thomas  provides correspondence between uniquely decodable codes probability distributions discrete alphabet
+if one full knowledge source statistics then one design optimal lossless code source vice versa
+however practice unreasonable expect source statistics known precisely so one design universal schemes perform asymptotically optimally within given class sources
+universal coding too rissanen shown  coding modeling objectives accomplished jointly: given sufficiently regular parametric family discrete-alphabet sources encoder acquire source statistics via maximum-likelihood estimation sufficiently long data sequence use knowledge select appropriate coding scheme
+even nonparametric settings e g  class all stationary ergodic discrete-alphabet sources universal schemes ziv--lempel amount constructing probabilistic model source
+reverse direction kieffer merhav  among others addressed problem statistical modeling parameter estimation model identification via universal lossless coding
+once consider lossy coding though relationship between coding modeling no longer so simple
+one hand having full knowledge source statistics certainly helpful designing optimal rate-distortion codebooks
+other hand apart some special cases e g  iid
+bernoulli sources hamming distortion measure iid
+gaussian sources squared-error distortion measure not at all clear how extract reliable statistical model source its reproduction via rate-distortion code although shown recently weissman ordentlich  joint empirical distribution source realization corresponding codeword ``good" rate-distortion code converges distribution solving rate-distortion problem source
+not problem when emphasis compression but there situations one would like compress source identify its statistics at same time
+instance indirect adaptive control see eg  chapter~7 tao  parameters plant controlled system estimated basis observation controller modified accordingly
+consider discrete-time stochastic setting plant state sequence random process whose statistics governed finite set parameters
+suppose controller geographically separated plant connected via noiseless digital channel whose capacity bits per use
+then given time horizon  objective design encoder decoder controller obtain reliable estimates both plant parameters plant state sequence possible outputs decoder
+state problem general terms consider information source emitting sequence random variables taking values alphabet
+suppose process distribution not specified completely but known member some parametric class
+wish answer following two questions: class universally encodable respect given single-letter distortion measure  codes given structure e g  all fixed-rate block codes given per-letter rate all variable-rate block codes etc 
+other words does there exist scheme asymptotically optimal each 
+if answer question 1 positive codes constructed way decoder not only reconstruct source but also identify its process distribution  asymptotically optimal fashion
+previous work  addressed two questions context fixed-rate lossy block coding stationary memoryless  iid  continuous-alphabet sources parameter space bounded subset some finite
+shown under appropriate regularity conditions distortion measure source models there exist joint universal schemes lossy coding source identification whose redundancies gap between actual performance theoretical optimum given shannon distortion-rate function source estimation fidelity both converge zero  block length tends infinity
+code operates coding each block code matched source parameters estimated preceding block
+comparing convergence rate convergence rate optimal redundancies fixed-rate lossy block codes  see there general price paid doing compression identification simultaneously
+furthermore constant hidden notation increases ``richness" model class  measured vapnik--chervonenkis vc dimension certain class measurable subsets source alphabet associated sources
+main limitation results iid
+assumption rather restrictive excludes many practically relevant model classes e g  autoregressive sources markov hidden markov processes
+furthermore assumption parameter space bounded may not always hold at least sense may not know diameter priori
+paper relax both assumptions study existence performance universal schemes joint lossy coding identification stationary sources satisfying mixing condition when sources assumed belong parametric model class  being open subset some finite
+because parameter space not bounded use variable-rate codes countably infinite codebooks performance code assessed composite lagrangian functional captures trade-off between expected distortion expected rate code
+our result under certain regularity conditions distortion measure model class there exist universal schemes joint lossy source coding identification block length tends infinity gap between actual lagrangian performance optimal lagrangian performance achievable variable-rate codes at block length well source estimation fidelity at decoder converge zero  where vc dimension certain class decision regions induced collection dimensional marginals source process distributions
+result shows very clearly price paid universality terms both compression identification grows richness underlying model class captured vc dimension sequence
+richer model class harder learn affects compression performance our scheme because use source parameters learned past data decide how encode current block
+furthermore comparing rate at lagrangian redundancy decays zero under our scheme result chou effros gray  whose universal scheme not aimed at identification immediately see ensuring satisfy twin objectives compression modeling inevitably sacrifice some compression performance
+paper organized follows
+section introduces notation basic concepts related sources codes vapnik--chervonenkis classes
+section lists discusses regularity conditions satisfied source model class contains statement our result
+result proved section
+next section give three examples parametric source families namely iid
+gaussian sources gaussian autoregressive sources hidden markov processes fit framework paper under suitable regularity conditions
+conclude section outline directions future research
+finally appendix contains some technical results lagrange-optimal variable-rate quantizers

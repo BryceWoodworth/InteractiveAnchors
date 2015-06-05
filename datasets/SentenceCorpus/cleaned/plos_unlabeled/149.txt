@@ -1,0 +1,75 @@
+ 
+first efficacy trials named step t cell vaccine against hiv/aids began 2004
+unprecedented structure trials raised new modeling statistical challenges
+plausible memory t cells opposed antibodies actually prevent infection
+if they fail at prevention what extent they ameliorate disease
+how do estimate efficacy vaccine trial two primary endpoints one traditional one entirely novel where latter may influenced selection bias due former
+preparation step trials biostatisticians developed novel techniques estimating causal effect vaccine viral load while accounting post-randomization selection bias
+but techniques not been tested biologically plausible scenarios
+introduce new stochastic models t cell hiv kinetics making use new estimates rate cytotoxic t lymphocytes ctls; so-called killer t cells kill hiv-infected cells
+based models make surprising discovery not entirely implausible hiv-specific ctls might prevent infection designers explicitly acknowledged when they chose endpoints step trials
+simulating thousands trials demonstrate new statistical methods correctly identify efficacious vaccine while protecting against false conclusion vaccine exacerbates disease
+addition uncovering surprising immunological scenario our results illustrate utility mechanistic modeling biostatistics
+ introduction 
+first generation vaccines against human immunodeficiency virus designed prevent hiv acquisition stimulating neutralizing antibodies failed protect efficacy trials
+second-generation vaccines been designed elicit hiv-specific cellular immune responses
+candidates supported evidence so-called killer t cells cytotoxic t lymphocytes bearing cd8 membrane-molecule react kill infected target cells play crucial role controlling hiv infection 
+first efficacy trial named step t cell directed hiv vaccine began december 2004; being conducted merck research laboratories collaboration hiv vaccine trials network division aids at us national institutes health
+candidate vaccine consists three vectors ferry hiv proteins into human cells
+vaccine elicits broad t cell responses majority vaccinated hiv-uninfected adults
+step trial will randomize 3,000 hiv uninfected volunteers receive mrkad5 placebo 1:1 ratio follow participants until 100 hiv infections occur
+mehrotra li gilbert provide details trial
+second step trial mrkad5 nearly identical design will begin south africa 2006
+co-primary endpoints step trials hiv infection clinical measure disease: setpoint viral load
+terminology reflects typical course hiv disease appears first flu-like illness progresses through stable asymptomatic phase then progresses aids
+viral load typically measured blood drawn sometime after primary stage
+even without preventing infection vaccine suppresses viral load could confer benefit individual slowing progression aids preventing need antiretroviral treatment; community reducing hiv transmission
+second primary analysis step compares viral load setpoints among hiv-infected subjects vaccine placebo groups
+besides unprecedented nature trials nontraditional design presented statistical challenge
+because subjects included viral-load comparison determined post-randomization event hiv infection analysis susceptible selection bias
+specifically conventional analysis viral load differences would not uniquely assess causal effect vaccine but rather mixture causal vaccine-effect effects variables correlated viral load
+latter may unevenly distributed between infected-vaccinated infected-placebo groups
+example selection bias would occur if vaccine protects hiv infection only vaccinees relatively strong immune system implies infected vaccine group would weaker immunologically than infected placebo group
+consequently even if vaccine no causal effect viremia viral loads vaccine group would expected higher than those placebo group
+failing account selection bias would lead incorrect inference vaccine harmfully increases viral load
+preparation analysis step trials gilbert bosch hudgens other investigators developed statistical techniques assessing vaccine effect viral load allow plausible levels selection bias
+however papers did not consider underlying biological mechanisms could account causal vaccine effects
+rather they simulated arbitrary effects studied purely statistical operating characteristics methodology
+evaluate statistical methods more biologically relevant manner consider here various mechanistic hypotheses vaccine effects
+at their present stage development mathematical models hiv infection immune system made few compelling predictions primarily because uncertainty about most important mechanisms values rate-constants
+nevertheless models attained enough maturity they quantitatively reproduce drop primary viremia after appearance hiv-specific ctls lag between peak viremia peak immune response formation steady state other aspects hiv infection
+addition exploit recent estimate rate at hiv-specific ctls kill hiv-infected cells
+building developments constructed new stochastic models primary infection immune response made surprising observation: does not appear implausible ctls might abort hiv infection
+using infection co-primary endpoint setpoint viral load designers step trials explicitly acknowledged possibility
+purposes discussion let us distinguish prevention eradication infection
+prevention will mean either no productively infected target cells arise at all pool does not expand beyond some small number cells; afterward driven extinction
+number pits at any time insufficient cause disease
+favorable outcome might described transient infection sterilizing immunity depending assays employed detect exposure
+eradication restrict consistent common usage clearing infection after primary symptomatic viremia
+because cd8 t cells require priming step expansion period before they clear infected cells most immunologists regard preventing infection defined unlikely
+vaccines against simian immunodeficiency virus not prevented infection may consequence large inoculums used experiments
+more relevant hiv observation t cell memory hiv antigens frequently exposed but seronegative sex workers kenya
+one mechanistic interpretation finding productive cellular infection was initially established but was either cleared ctls went extinct due chance
+transient infection left behind small pool latently infected resting cd4 t cells due occasional activation events continuously expose immune system hiv antigens maintaining ctl memory
+however investigators could not prove hiv-specific ctls actually protected women
+but vaccine-derived adoptively transferred ctls prevented infection other viruses; particular sendai ebola mice
+however may judge plausibility prevention t cells interested here impact statistical estimation incorporate some biological mechanism into our simulations
+combined stochastic deterministic models so simulate impact t cells both probability infection given exposure viral load assuming infection vaccinated unvaccinated subjects
+course concatenation requires more hypotheses particular about vaccine action
+again because extent uncertainty about mechanisms do not claim predict outcome vaccine trials
+rather models provide cases where influence selection bias present absent when present magnitude resulting biological scenarios rather than ad hoc assumptions
+then generate thousands hypothetical step trials put gbh method test
+step trials two vaccine efficacy parameters will assessed; one-minus-relative-risk hiv infection difference mean viral load setpoint hiv-infected subjects where setpoint viral load defined average two log10 plasma hiv rna levels measured at month 2 3 visits after diagnosis hiv infection
+data will analyzed using adaption gbh method estimates causal vaccine effect viral load while accounting plausible levels selection bias
+technique was developed potential outcomes framework causal inference
+framework each trial participant two potential hiv infection outcomes: one under assignment vaccine one under assignment placebo
+following gbh causal effect viral load defined subpopulation always-infected subjects who would become hiv-infected regardless randomization vaccine placebo
+effect causal because always-infected subpopulations two study arms identical characteristics except vaccine/placebo assignment therefore observed differences directly attributable vaccination
+methods estimate average causal effect vaccine viral load equal difference mean setpoint viral loads always-infected subpopulation
+fundamental difficulty evaluating ace lack knowledge about infected subjects always-infected group knowing would require data subjects' hiv infection outcome both under assignment vaccine under assignment placebo but each subject only one outcomes observed
+address identifiability problem gbh made simplifying assumption vaccine does not increase risk infection any subject posited model whether infected placebo recipient setpoint viral load y would been infected had they been assigned vaccine
+model indexed sensitivity parameter log odds ratio infection under assignment vaccine comparing two infected placebo recipients setpoint viral loads y y 1
+value 0 reflects case no selection bias case naive analysis assesses causal vaccine effect positive values reflect selection bias odds infection higher larger setpoint viral loads y parameter fixed investigator at each possible value within plausible range each gbh provided procedures estimating ace confidence interval
+see materials methods mathematical details
+first step trial panel ten experts proposed plausible range log log; see discussion section
+cautious our analysis will estimate ace over somewhat wider range namely log log; i.e 1,2 

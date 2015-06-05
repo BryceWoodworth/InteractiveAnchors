@@ -1,0 +1,66 @@
+
+combination often needed effective outcomes complex but they generally based empirical experience
+here suggest novel application search algorithms developed communication
+biological experiments function found search algorithms identified optimal four using only tests performed search
+experiments three up human cancer cells search algorithms highly significant compared random
+simulations using network model cell found search algorithms identified optimal percent tests compared percent random search
+findings suggest search algorithms information theory potential discovery novel drug
+report also problem will effort suggests general strategy its solution
+introduction
+problem combination aspects
+still not able provide effective most complex main able address human functional
+when biological involves complex biological networks multiple targets likely required
+because effect depends several need studied number possible
+example many cancer more more than used even larger might
+if were study all out at different would
+example shows problem requires new approach rather than simply more efficient
+combined drug common strategy complex cancer
+out recently cancer most were developed effective single agents only later combined
+possible approach new not present individual based study all possible pairs
+approach many novel pairs but resulting number larger
+several authors recently future combination development accurate quantitative network models interactions cellular
+et al do not yet know what models will like systems biology research still
+indeed their recent review does not report any application approach combination
+here suggest novel solution problem combination drug making use search algorithms developed communication
+when several key aspects search strategies used find more effective combined without need experimental design
+algorithms may also provide framework upon information molecular data computational networks models
+understand our work important consider even if simulations might play role use algorithms not but using biological measurements organisms cells
+approach relevant because developed drug large now more more available
+useful information processing our experimental systems biological since algorithms using indeed derived algorithms were other
+measurements
+there computational complexity algorithms limit choice approaches
+discussed more results
+both number computational unique algorithms should considered
+algorithm design requires application appropriate structure data
+although there many options represent space possible drug used tree representation drug nodes all possible one drug next level
+individual form base tree maximum size at
+when drug combination tree smaller larger algorithms suggest more weight drug interactions
+consistent data available drug interactions reported
+optimal size combination different problem examined
+effect combination also due components multiple effects
+search algorithms suggest derived sequential algorithms
+were chosen part because among data biological applications
+sequential algorithms used nodes data tree related different but
+another feature sequential algorithms our use memory taken each
+provide detailed algorithm should able all available information state system obtained measurements
+integration should take place at every within algorithm rather than being average different methods applied
+presence each provides our algorithms natural mean information integration
+both show 1 complex structure biological networks being systems biology measurements along data tree
+therefore algorithms search within solution space
+if relation among combination were linear best algorithm would simply determine best single drug measurements use obtain best combination
+if were use stochastic algorithms might
+stochastic algorithms multiple local solution space but they do so random
+requires terms computational cost performance stochastic algorithms therefore often not good more algorithms
+algorithms suggest variable previous nodes tree
+sequential algorithm was developed search optimal field describe test algorithms used search optimal combination number testing only small subset all possible
+algorithms useful large where datasets not
+present results obtained simulations computational model cell experiments using two models biological function human cancer cells
+first experimental model advantage including complexity whole while second model potential higher testing
+models also two different general types one type at function while other based cell network function
+results suggest optimal found systems only small number tests design significantly higher than random
+work
+novel problem search drug using novel approach systems biology
+experimental measurements sufficient solve problem
+computational method solve problem experimental measurements
+suggested algorithms algorithms used other while our main original their novel application
+additional experiments support approach

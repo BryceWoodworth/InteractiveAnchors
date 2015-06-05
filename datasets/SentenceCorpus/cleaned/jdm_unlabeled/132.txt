@@ -1,0 +1,20 @@
+ 
+research identified loss aversion strong robust phenomenon but also revealed some moderators affecting magnitude its effect decision making
+current article draw attention fact even measurement loss aversion itself may affect its magnitude inducing focus either losses gains
+three studies provide empirical evidence measurement-induced focus
+all studies used coin-toss gambles-in there number number chance win lose-to assess gain loss ratios measure loss aversion
+participants either filled out loss side gain side gain loss ratio
+studies consistently showed that-using within between-subject designs anticipated real coin-toss gambles-the strength loss aversion depended measurement format fill-in-the-loss versus fill-in-the-gain filling loss side increased loss aversion
+moreover loss aversion was more affected stakes gamble fill-in-the-loss format than fill-in-the-gain format
+ introduction 
+when making decisions decision-makers consider potential outcomes thus consider potential losses gains may occur
+example when speculating stock exchange consider potential losses should stock go down potential gains should stocks go up
+when making decisions-especially when people directly compare potential losses gains-people often give more weight losses
+larger weight given negative outcomes generally referred loss aversion i e losses loom larger than gains
+addition stock market decisions loss aversion been used explain many effects observed context decision making sunk cost effect status quo bias endowment effect
+although existence loss aversion well-accepted there still work done developing better accounts its causes boundaries consequences
+example researchers generally assume potential gains need approximately twice large offset potential losses
+they introduced loss aversion coefficient-the ratio g l gains losses makes even chance gain g lose l just acceptable
+they observed gain loss ratio number number number their experiments showing gains average need twice large losses make even chance gain g lose l acceptable
+current paper however will argue show loss aversion ratio not constant but fact influenced how measured
+show ratio approximately number when people focus gains compared loss but ratio increases when people focus losses compared gain

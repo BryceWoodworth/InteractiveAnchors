@@ -1,0 +1,47 @@
+ 
+several decision-making models predict should possible affect real binary choices manipulating relative amount visual attention decision-makers pay two alternatives
+present results three behavioral experiments testing prediction
+visual attention controlled manipulating amount time subjects fixate two items
+manipulation differential impact appetitive aversive items
+appetitive items number number percent more likely chosen long fixation condition
+contrast aversive items number percent less likely chosen long fixation condition
+effect present primary goods foods higher-order durable goods posters
+ introduction 
+many behavioral scientists believe individuals make choices first assigning values objects then selecting option highest value perhaps some noise
+raises several questions how values guide decisions henceforth called decision values computed
+how values compared
+what properties those processes
+questions receiving increasing amounts attention psychology behavioral neuroscience neuroeconomics
+particular several models how decision values computed compared been proposed
+models based simple idea
+decision value forecast made prior consumption actual value will derived consuming item
+models assume decision values computed making repeated noisy estimates consumption value then integrated over time
+interestingly some models received considerable empirical support both human behavioral monkey electrophysiology experiments
+models make some striking predictions important behavioral economic implications
+example they predict decision value assigned item thus willingness-to-pay depend amount time spent computing
+series experiments testing prediction armel rangel showed willingness-to-pay appetitive items increases significantly computation time opposite true aversive items
+krajbich armel rangel extended class models investigate role visual attention binary choice
+their model described next section makes two stark predictions about impact choice exogenous changes visual attention
+firt predicts should possible increase probability item chosen changing relative amount time subjects fixate item during decision-making process
+second predicts effect should positive appetitive items negative aversive items
+paper describes results three behavioral experiments testing predictions
+large extent results consistent predictions
+properties value computation comparison processes should interest behavioral scientists since they determine extent individuals able make quality choices circumstances they able do so
+example results paper suggest incidental variables affect visual attention displays lighting conditions migh affect choices made
+addition properties processes could important implications behavioral welfare effects practices in-store marketing
+our work related literature construction preference behavioral economics marketing studied impact several incidental variables computation decision values
+example weber kirsner asked subjects make choices between pairs lotteries graphical display compared two conditions one larger payoffs were depicted larger fonts one smaller payoffs were depicted larger fonts
+they found subjects were more willing choose riskier gamble potentially larger payoffs first condition
+common interpretation results outcomes larger font size received more attention lead relative overweithting those outcomes
+related tversky kahneman argued s-shaped probability weighting function prospect theory driven perceptual biases place excessive relative attention very low very high probability events result overweighted relative mid-range probabilities
+all results what manipulated relative attention received different dimensions choice problem e g probabilities gains
+contrast paper show changes relative amount visual attention received entire items also affect likelihood they chosen
+thus our results do not depend one dimension choice being overweighted at expense another but highlighted model described next section process relative value comparison favoring one option at expense other
+our work also related literature mere exposure effect
+typical experiment shows subjects' reports about how much they like seeing stimulus e g chinese ideogram foreign language word increased through repeated brief previous exposures items
+there two important differences between mee processes studied paper
+first mee about how previous exposures affect actual consumption experience seeing item whereas study how visual attention during process decision making affects choices made
+thus whereas mee about impact repeated exposures learning across trials effect investigate about impact exposure time within single decision trial
+second whereas mee defined ramping up positive liking ratings result consuming items even if they aversive our effect looks more like amplification effect positive appetitive items but negative aversive ones
+far know first experimental study impact decisions exogenously explicitly manipulated fixation durations during process choice
+closest experiment work shimojo et al who study role visual attention judgments about facial attractiveness

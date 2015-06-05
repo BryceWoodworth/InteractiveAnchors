@@ -1,0 +1,39 @@
+ 
+g-quadruplex dna four-stranded dna structure formed non-watson-crick base pairing between stacked sets four guanines
+many possible functions been proposed structure but its vivo role cell still largely unresolved
+carried out genome-wide survey evolutionary conservation regions potential form g-quadruplex dna structures across seven yeast species
+found g4 dna motifs were significantly more conserved than expected chance nucleotide-level conservation patterns suggested motif conservation was result formation g4 dna structures
+characterized association conserved non-conserved g4 dna motifs saccharomyces cerevisiae more than 40 known genome features gene classes
+our comprehensive integrated evolutionary functional analysis confirmed previously observed associations g4 dna motifs promoter regions rdna identified several previously unrecognized associations g4 dna motifs genomic features mitotic meiotic double-strand break sites
+conserved g4 dna motifs maintained strong associations promoters rdna but not dsbs
+also performed first analysis g4 dna motifs mitochondria surprisingly found tenfold higher concentration motifs at-rich yeast mitochondrial dna than nuclear dna
+evolutionary conservation g4 dna motif its association specific genome features supports hypothesis g4 dna vivo functions under evolutionary constraint
+ introduction 
+dna primarily exists double helix
+however dna also adopt other structural conformations potential play critical roles range biological processes
+one structure g-quadruplex dna was discovered late 1980s when biochemical experiments demonstrated oligodeoxynucleotides contain four separated runs two three four guanines spontaneously form four-stranded structures
+g4 dna structures consist stacked planar g-quartets held together hoogsteen hydrogen bonding between four guanines each g-tracts
+guanines come single nucleic acid strand multiple strands strands may oriented parallel anti-parallel orientation
+g4 dna structures compact highly stable under physiological ph salt conditions resistant degradation nucleases melting temperatures even higher than duplex dna
+g4 dna structures formed runs two guanines but they less stable than those longer runs
+g4 dna structure considerable interest because its potential influence variety biological processes
+example telomeric dna most eukaryotic organisms consists g-rich repeated sequence ending 3 single stranded g-rich overhang form g-quadruplexes vitro
+first direct evidence presence g4 dna structures vivo came studies using g4 dna-specific antibodies detect intermolecular structures at ciliate telomeres where their formation dissolution cell cycle regulated 
+however described detail paper telomeric dnas not only chromosomal sequences ability form g4 dna structures
+because experimental characterization vivo functions g4 dna structures proved difficult especially at non-telomeric loci genome-wide computational analyses played increasing role identification regions potential form g4 dna structures
+distribution g4 dna motifs been investigated s cerevisiae human number prokaryotic genomes hope patterns occurrence will provide insight into functional roles structures
+each case computational search variations g4 dna motif usually four tracts three more guanines separated loop regions any nucleotide was performed
+across wide range species g4 dna motifs were found telomeres g-rich micro mini-satellites near promoters within ribosomal dna
+human genome genes near g4 dna motifs fall into specific functional classes; example oncogenes tumor suppressor genes particularly high low g4 dna forming potential
+recently human g4 dna motifs were reported associated recombination prone regions show mutational patterns preserved potential form g4 dna structures
+computational analysis s cerevisiae identified several hundred g4 dna motifs found them significantly associated promoter regions lesser extent open reading frames
+thus studies wide range organisms led proposal g4 dna structures affect multiple cellular processes beyond their roles at telomeres
+however direct support formation function g4 dna structures vivo still largely unavailable
+study integrated genome sequence data experimental analysis computational exploration genome annotations investigate conservation function g4 dna structures s cerevisiae
+evolutionary conservation across related species played vital role defining functional elements genes regulatory sites
+identified sequence motifs potential form g-quadruplex structures s cerevisiae six other fungal species assessed evolutionary sequence conservation motifs across seven species
+found g4 dna motifs nucleotides comprising them were more evolutionarily conserved than expected chance; however they were not strongly conserved genes many known regulatory sites
+additionally patterns nucleotide conservation within motifs indicated evolutionary constraint was likely result pressure maintain ability motifs form g4 dna structures
+analysis provides strong evidence many computationally identified g4 dna motifs form functional g4 dna structures vivo
+characterize possible functions structures evaluated association conserved non-conserved g4 dna motifs range genomic features
+tests corroborated previous observations significant associations g4 dna motifs gene promoters rdna suggested several new potential biological functions roles double strand break repair mitochondrial genome

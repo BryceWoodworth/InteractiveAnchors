@@ -1,0 +1,67 @@
+ 
+general-purpose intelligent learning agents cycle through sequences observations actions rewards complex uncertain unknown non-markovian
+other hand reinforcement learning well-developed small finite state markov decision processes mdps
+up now extracting right state representations out bare observations reducing general agent setup mdp framework art involves significant effort designers
+primary goal work automate reduction process thereby significantly expand scope many existing reinforcement learning algorithms agents employ them
+before think mechanizing search suitable mdps need formal objective criterion
+main contribution article develop criterion
+i also integrate various parts into one learning algorithm
+extensions more realistic dynamic bayesian networks developed part ii
+role pomdps also considered there
+ introduction 
+artificial general intelligence agi concerned designing agents perform well wide range environments
+among well-established ``narrow'' artificial intelligence ai approaches  arguably reinforcement learning rl pursues most directly same goal
+rl considers general agent-environment setup agent interacts environment acts observes cycles receives occasional rewards
+agent's objective collect much reward possible
+most if not all ai problems formulated framework
+since future generally unknown uncertain agent needs learn model environment based past experience allows predict future rewards use maximize expected long-term reward
+simplest interesting environmental class consists finite state fully observable markov decision processes mdps  reasonably well understood
+extensions continuous states non)linear function approximation  partial observability pomdp  structured mdps dbns  others been considered but algorithms much more brittle
+way tackle complex real-world problems reduce them finite mdps know how deal efficiently
+approach leaves lot work designer namely extract right state representation ``features'' out bare observations initial formal informal problem description
+even if potentially useful representations been found usually not clear ones will turn out better except situations where already know perfect model
+think mobile robot equipped camera plunged into unknown environment
+while imagine image features will potentially useful cannot know advance ones will actually useful
+primary goal paper develop investigate method automatically selects those features necessary sufficient reducing complex real-world problem computationally tractable mdp
+formally consider maps past observation-reward-action history agent mdp state
+histories not worth being distinguished mapped same state i e \ induces partition set histories
+call model mdp
+state may simply label partition but more often itself structured object like discrete vector
+each vector component describes one feature history
+example state may 3-vector containing shape,color,size object robot tracks
+reason call reduction  feature rl  although part i only simpler unstructured case considered
+maps agent's experience over time into sequence mdp states
+rather than informally constructing hand our goal develop formal objective criterion evaluating different reductions
+obviously at any point time if want criterion effective only depend agent's past experience possibly generic background knowledge
+``cost'' shall small iff leads ``good'' mdp representation
+establishment criterion transforms general ill-defined rl problem formal optimization problem minimizing cost efficient algorithms need developed
+another important question problems profitably reduced mdps
+real world does not conform itself nice models: reality non-ergodic partially observable uncertain unknown environment acquiring experience expensive
+so should exploit data past experience at hand well possible cannot generate virtual samples since model not given need learned itself there no reset-option
+no criterion general setup exists
+course there previous work one another way related mdp
+partly detailed later suggested mdp model interesting connections many important ideas approaches rl beyond: \parskip=0ex\parsep=0exsep=0ex mdp side-steps open problem learning pomdps  % unlike bayesian rl algorithms  mdp avoids learning complete stochastic observation model % mdp scaled-down practical instantiation aixi  % mdp extends idea state-aggregation planning based bi-simulation metrics  rl based information % mdp generalizes u-tree arbitrary features % mdp extends model selection criteria general rl problems  % mdp alternative psrs proper learning algorithms yet developed % mdp extends feature selection supervised learning rl
+learning agents via rewards much more demanding task than ``classical'' machine learning independently identically distributed  iid  data largely due temporal credit assignment exploration problem
+nevertheless rl closely related adaptive control theory engineering been applied often unrivaled variety real-world problems occasionally stunning success backgammon checkers  helicopter control 
+mdp overcomes several limitations approaches items above thus broadens applicability rl
+mdp owes its general-purpose learning planning ability its information complexity theoretical foundations
+implementation mdp based specialized general search optimization algorithms used finding good reductions
+given mdp aims at general ai problems one may wonder about role other aspects traditionally considered ai : knowledge representation kr logic may useful representing complex reductions
+agent interface fields like robotics  computer vision  natural language processing speedup learning pre\&post-processing raw observations actions into more structured formats
+representational interface aspects will only barely discussed paper
+following diagram illustrates mdp perspective \end{center} section formalizes our mdp setup consists agent model map observation-reward-action histories mdp states
+section develops our core selection principle illustrated section tiny example
+section discusses general search algorithms finding approximations optimal  concretized context tree mdps
+section i find optimal action mdp present overall algorithm
+section improves selection criterion ``integrating'' out states
+section contains brief discussion mdp including relations prior work incremental algorithms outlook more realistic structured mdps dynamic bayesian networks dbn treated part ii
+rather than leaving parts mdp vague unspecified i decided give at very least simplistic concrete algorithm each building block may assembled one sound system one build
+throughout article denotes binary logarithm % empty string % if else kronecker
+% i generally omit separating commas if no confusion arises particular indices
+any suitable type string,vector,set i define string  % sum  union  vector  % where ranges over full range length dimension size
+% denotes estimate
+% denotes probability over states rewards parts thereof
+i do not distinguish between random variables realizations  abbreviation never leads confusion
+more specifically denotes number states % any state index % current time % any time history
+% further order not get distracted at several places i gloss over initial conditions special cases where inessential
+also 0 undefined=0 infinity:=0

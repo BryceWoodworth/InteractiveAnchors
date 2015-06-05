@@ -1,0 +1,42 @@
+
+comparison network model predictions experimental data provided important role network global dynamics proteins
+most studies focused residues most known structural
+however increasing structural data position perform more critical proteins gain understanding major not only frequency but between higher
+study large set proteins using novel method based entropy maximization demonstrate next level network model description proteins take into properties contact order secondary structure types residues whereas types amino do not play critical role
+most optimal description observed requires interactions functional local dynamics
+study provides us understanding structural basis experimentally observed behavior way development more accurate models protein dynamics
+introduction
+associated each protein set global involve
+number systems been shown intrinsic play important role protein function events recognition binding regulation
+time scales usually simulations
+they instead techniques interactions
+network model example model predicting global dynamics proteins other
+central idea minimum potential energy system
+network model each network identified amino each provides linear structure
+dynamics therefore expressed terms normal system about its information about protein values defined network
+few methods used but most at their two underlying all at their distance between nodes among other variables
+models network model were taken all nodes distance less than distance greater
+models were proposed power distance where interactions residues
+although lead between predictions certain experimental data there still no clear best method
+common approach performance their been compare corresponding observed between models
+because often focus study been
+indeed been shown well those predicted detailed experimentally determined dynamics
+however information information been during results experimental data
+further complex dynamics structures global when only considered
+predicted relatively lower confidence but may important while its global
+finally while studies shown network factor especially those low frequency there may other structural properties not but may provide more description dynamics if
+here examine structural models determined proteins evaluate each their mean values
+present technique within network so provide most accurate representation experimentally observed data
+our method based concept entropy when form unknown probability distribution one least form data entropy subject constraints available data
+method been applied variety biological problems including neural networks gene interaction networks protein
+resulting used model optimal
+shown when constraints maximization pair probability distribution form
+further only terms probability distribution those pairs explicitly considered constraints entropy maximization
+terms means given network there exists unique set experimentally observed between all pairs residues along their
+our technique physical factors sequence spatial distance been found influence constant
+sequence expressed terms contact order number residues along sequence between two residues
+further our analysis against test set proteins suggests additional factors including formation secondary structure type should also more accurate description experimental data
+also factors little dynamics conditions
+amino out one distributions obtained different types amino
+version factors proposed perform better than existing models especially
+finally study importance higher role protein dynamics discussed model development protein design

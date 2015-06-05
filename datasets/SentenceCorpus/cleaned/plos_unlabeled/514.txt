@@ -1,0 +1,48 @@
+ 
+merging network theory microarray data analysis techniques spawned new field: gene coexpression network analysis
+while network methods increasingly used biology network vocabulary computational biologists tends far more limited than say social network theorists
+here review propose several potentially useful network concepts
+take advantage relationship between network theory field microarray data analysis clarify meaning relationship among network concepts gene coexpression networks
+network theory offers wealth intuitive concepts describing pairwise relationships among genes depicted cluster trees heat maps
+conversely microarray data analysis techniques also used address difficult problems network theory
+describe conditions when close relationship exists between network analysis microarray data analysis techniques provide rough dictionary translating between two fields
+using angular interpretation correlations provide geometric interpretation network theoretic concepts derive unexpected relationships among them
+use singular value decomposition module expression data characterize approximately factorizable gene coexpression networks i.e adjacency matrices factor into node specific contributions
+high low level views coexpression networks allow us study relationships among modules among module genes respectively
+characterize coexpression networks where hub genes significant respect microarray sample trait show network concept intramodular connectivity interpreted fuzzy measure module membership
+illustrate our results using human mouse yeast microarray gene expression data
+unification coexpression network methods traditional data mining methods inform application development systems biologic methods
+ introduction 
+many biological networks share topological properties
+common global properties include modular organization presence highly connected hub nodes approximate scale free topology
+common local topological properties include presence recurring patterns interconnections regulation networks 
+one goal article describe existing novel network concepts used describe local global network properties
+example clustering coefficient network concept measures cohesiveness neighborhood node
+particularly interested network concepts defined regard gene significance measure
+gene significance measures great practical importance since they allow one incorporate external gene information into network analysis
+functional enrichment analysis gene significance measure could indicate pathway membership
+gene knock-out experiments gene significance could indicate knock-out essentiality
+study gene significance measures since microarray sample trait gives rise statistical measure gene significance
+example student t-test differential expression leads gene significance measure
+many traditional microarray data analysis methods focus relationship between microarray sample trait gene expression data
+example gene filtering methods aim find list genes significantly associated microarray sample trait; another example microarray-based prediction methods aim accurately predict sample trait basis gene expression data
+gene expression profiles across microarray samples highly correlated natural describe their pairwise relations using network language
+genes similar expression patterns may form complexes pathways participate regulatory signaling circuits
+gene coexpression networks been used describe transcriptome many organisms e.g yeast flies worms plants mice humans
+gene coexpression network methods also been used typical microarray data analysis tasks gene filtering outcome prediction 
+while utility network methods analyzing microarray data been demonstrated numerous publications utility microarray data analysis techniques solving network theoretic problems not yet been fully appreciated
+one goal article show simple geometric arguments used derive network theoretic results if networks defined basis correlation matrix
+although many our network concepts will useful general networks particularly interested gene coexpression networks
+gene coexpression networks built basis gene coexpression measure
+network nodes correspond genes more precisely gene expression profiles
+ith gene expression profile x i vector whose components report gene expression values across m microarrays
+define coexpression similarity s ij between genes i j absolute value correlation coefficient between their expression profiles:formula
+using thresholding procedure coexpression similarity transformed into measure connection strength
+unweighted network adjacency ij between gene expression profiles x i x j defined hard thresholding coexpression similarity s ij followsformulawhere hard threshold parameter
+thus two genes linked if absolute correlation between their expression profiles exceeds threshold
+hard thresholding correlation leads simple network concepts but may lead loss information: if been set 0.8 there will no link between two genes if their correlation equals 0.799
+preserve continuous nature coexpression information one could simply define weighted adjacency matrix absolute value gene expression correlation matrix i.e ij s ij
+however since microarray data noisy number samples often small others found useful emphasize strong correlations punish weak correlations
+natural define adjacency between two genes power absolute value correlation coefficient :formulawith 1
+soft thresholding approach leads weighted gene coexpression network
+present empirical results weighted unweighted networks main text text s1 text s2 text s3

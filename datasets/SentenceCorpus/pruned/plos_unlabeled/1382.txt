@@ -1,0 +1,33 @@
+
+specific dna sequences
+because sequences genomic dna identify key elements determine patterns gene expression
+detection differences among sequences understanding molecular basis both gene expression evolution
+here address problem target protein 2 several species
+particularly highly conserved different not only genes but also expression genes differ species species
+our approach dna binding site sequences given into motifs using machine learning method strategy
+into computational classification were produced resulting discovery new problem functional sites dna analysis
+moreover found certain were useful biological properties binding site sequences including gains losses binding sites through evolutionary events well species
+high within well regulatory protein them suggests major between related species not due binding sites was previously suggested other
+instead may fast evolution target genes resulting interaction those binding sites rna
+introduction
+whole genome sequences well data provide understanding underlying regulatory systems
+still however sequence elements relevant gene expression those corresponding binding sites factors rna when they genomic dna sequences do not play role gene expression
+how does single sequences when major expression
+also how does given there targets
+methods matching pattern been used identify particular
+tools discovery designed find unknown relatively short sequence patterns regions genomes
+because performed context short signals high statistical noise current tools tend relevant number samples only
+moreover used methods while increasing lower sensitivity but still functional
+because single pattern derived dna sequences often might define distinct regulatory mechanisms
+overall use sequence motifs among even across species discovery key features within across species
+methods motifs into classical strategy
+then compared different motifs into motifs computational clustering perspective
+so amount useful genomic information through effective biological experimental data then combined them into accurate predictor
+although there computational was not clear if motifs were just computational if they could provide into regulatory process out its targets
+address problem ability gene expression both within across genomes
+first used between functional using combination expression experiments
+then determined evolutionary their rate evolution gain loss events along tree
+variation genes regulatory protein well us evaluate major between species
+applied our approach analyze genes system adaptation low 2 environments several species including species species species species species
+systems represent primary signal organisms
+although proteins systems often well conserved different species like control expression many genes one major sources genomic variation

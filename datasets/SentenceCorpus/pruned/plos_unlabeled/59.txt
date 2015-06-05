@@ -1,0 +1,38 @@
+
+cellular signaling networks subject regulation under both physiological conditions
+example expression proteins subject known upon cellular during
+however how protein expression about large changes signal transmission example observed case where expression signaling proteins cellular function
+modeling fundamental signal cycle show concentration protein subject affect signal transmission highly
+strongly observed experimentally measured rate
+furthermore show transcription multiple proteins within protein kinase results even more behavior respect signal transmission
+finally demonstrate account regulation cellular signal
+result decisions highly specific cellular regulation
+known noise reduction cellular
+introduction
+cellular signal two stimuli signaling turn responses
+type regulation usually time scale will fast regulation paper
+fast regulation involves protein order signals
+responses fast regulation transcription factors often turn total their own
+example signal pathways system concentration their own positive negative feedback about
+signaling via kinase
+long most proteins type regulation time scale most cases thus will regulation here
+shows view signal stimuli gene expression turn cellular signal processing
+previous theoretical experimental studies how fast regulation regulation while effects impact regulation fast regulation less well investigated
+however regulation important since expression during variety physiological processes development cell cycle
+furthermore expression been shown correlated cancer
+at first one may expression 1 signal transmission via 1 linear
+however recent research suggests strong observed at least some variety genes involved cellular signal do not hypothesis they do not require loss both support
+instead loss single protein expression sufficient function phenomenon been
+suggests expression signaling proteins signal transmission highly
+increased signal transmission been regulation will here
+available experimental data suggest different cellular responses known sets early genes although early
+allows cells differences early gene expression thus kinase signaling
+addition even target less than
+thus transcription significant activation so relatively towards
+cases increase cellular effects may help decisions
+finally strong known noise reduction cellular
+most common information been estimated one third all cellular proteins
+several were whether occur simple cycle
+show here possible experimentally measured particularly parameter range where subject
+furthermore show transcription multiple proteins within kinase result even more
+finally demonstrate account regulation cellular signal

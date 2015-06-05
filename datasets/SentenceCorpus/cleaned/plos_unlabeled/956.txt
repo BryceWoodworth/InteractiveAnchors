@@ -1,0 +1,39 @@
+ 
+nucleoside analogs used antiretroviral treatment been associated mitochondrial toxicity
+polymerase hypothesis states toxicity stems analogs' inhibition mitochondrial dna polymerase leading mitochondrial dna depletion
+constructed computational model interaction polymerase activated nucleoside nucleotide analog drugs based experimentally measured reaction rates base excision rates together mtdna genome size human mtdna sequence mitochondrial dntp concentrations
+model predicts approximately 1000-fold difference activated drug concentration required 50 percent probability mtdna strand termination between activated di-deoxy analogs d4t ddc ddi activated forms analogs 3tc tdf azt ftc abc
+predictions supported experimental clinical data showing significantly greater mtdna depletion cell culture patient samples caused di-deoxy analog drugs
+zidovudine calculated very low mtdna replication termination probability contrast its reported mitochondrial toxicity vitro clinically
+therefore azt mitochondrial toxicity likely due mechanism does not involve strand termination mtdna replication
+ introduction 
+current guidelines highly active anti-retroviral treatment regimens hiv-positive patients recommend two drugs nucleoside reverse transcriptase inhibitor class
+class currently consists of: stavudine lamivudine zidovudine zalcitabine didanosine abacavir emtricitabine tenofovir
+though zalcitabine at time writing still technically approved treatment its distribution united states was discontinued roche 2006
+their activated tri-phosphorylated forms each nrti acts nucleotide analog interacting hiv viral reverse transcriptase alternative substrate natural nucleotides
+each analogs lacks 3 oh group necessary incorporation next nucleotide thereby terminating viral dna strand elongation
+although nrtis effective drugs helped usher hiv into category controllable chronic disease they also often toxic inducing side effects lactic acidosis neuropathy nausea lypodistrophy myopathy patients
+intolerance side effects common reason treatment discontinuation
+any decrease patient compliance treatment regimen serious concern lead increase viral resistance ultimately treatment failure
+first step ameliorating side effects preventing them future antiviral treatments understand mechanisms behind mitochondrial toxicity nrtis use today
+discuss below many mechanisms mitochondrial toxicity been proposed
+paper specifically consider plausibility currently most widely accepted hypothesis toxicity mechanism class drugs; interference mitochondrial dna replication activated drug
+polymerase only polymerase responsible mitochondrial dna replication
+while pol not believed directly regulate mtdna levels pathogenic mutations gene polg do affect stability mtdna cause mtdna depletion
+polymorphisms found polg gene human population may cause natural variability activity complex enzyme may conceivably play role patient variability nrti drug toxicities
+study conducted martin et al approved nrtis were shown inhibit various host dna polymerases
+after hiv reverse transcriptase highest affinity nrtis was polymerase
+along fact many nrti side-effects resemble symptoms mitochondrial genetic disorders implicated interaction polymerase subsequent depletion mtdna potential cause nrti toxicity giving rise polymerase hypothesis
+indeed experiments demonstrated decreased mtdna amounts various tissue types nrti-treated hiv positive patients
+addition mtdna depletion was observed parallel cell death mitochondrial morphological changes increased lactate production liver heart neuron skeletal muscle adipose blood cell cultures after incubation different nrtis
+possible polymerase dependent toxicity mechanisms comprise polymerase hypothesis direct inhibition polymerase nrti-triphosphate without incorporation into mtdna chain termination mtdna replication following incorporation nrti triphosphate incorporation analog triphosphate into mtdna without chain-termination allowing nrti continue point mutation mtdna 
+however there also exists substantial body data not consistent toxicity mechanisms resulting depletion mtdna
+martin et al showed no association between inhibition polymerase nrtis mtdna depletion
+mitochondrial dysfunction been observed vitro mouse muscle white adipose brain liver heart tissue hepatoma cell lines well cd4 cells after incubation nrtis although no significant decrease mtdna amount was observed
+particularly incubation liver skeletal muscle cells ddc ddi d4t azt show higher rate lactate production presence azt but least amount mtdna depletion
+clinical settings mtdna depletion been seen parallel normal cytochrome c oxidase activity sign correct mitochondrial function was not associated lipoatrophy
+taken together findings indicate weak relationship between mtdna copy number nucleoside analog toxicity
+warrants deeper look at data concerning interaction different nrtis polymerase
+end simulated dna replication process mitochondria
+using enzyme kinetics data gathered johnson et al feng et al hanes et al carried out series simulations mtdna replication presence various nucleoside analogs interact polymerase
+simulations bridge gap between basic enzyme kinetics data probability failure mtdna replication process

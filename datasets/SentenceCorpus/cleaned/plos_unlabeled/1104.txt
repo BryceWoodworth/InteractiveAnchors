@@ -1,0 +1,52 @@
+ 
+simultaneous spike-counts neural populations typically modeled gaussian distribution
+short time scales however distribution too restrictive describe analyze multivariate distributions discrete spike-counts
+present alternative based copulas account arbitrary marginal distributions including poisson negative binomial distributions well second higher-order interactions
+describe maximum likelihood-based procedures fitting copula-based models spike-count data derive so-called flashlight transformation makes possible move tail dependence arbitrary copula into arbitrary orthant multivariate probability distribution
+mixtures copulas combine different dependence structures thereby model different driving processes simultaneously also introduced
+first apply copula-based models populations integrate-and-fire neurons receiving partially correlated input show best fitting copulas provide information about functional connectivity coupled neurons extracted using flashlight transformation
+then apply new method data were recorded macaque prefrontal cortex using multi-tetrode array
+find copula-based distributions negative binomial marginals provide appropriate stochastic model multivariate spike-count distributions rather than multivariate poisson latent variables distribution often used multivariate normal distribution
+dependence structure distributions provides evidence common inhibitory input all recorded stimulus encoding neurons
+finally show copula-based models successfully used evaluate neural codes e.g characterize stimulus-dependent spike-count distributions information measures
+demonstrates copula-based models not only versatile class models multivariate distributions spike-counts but those models exploited understand functional dependencies
+ introduction 
+so far still unknown statistics crucial analysis order understand neural code
+one approach analyze simultaneous spike-counts neural populations
+responses populations sensory neurons vary even when same stimulus presented repeatedly variations between simultaneous spike-counts usually correlated at least neighboring neurons
+noise correlations been subject substantial number studies
+computational reasons however studies typically assume gaussian noise
+thus correlated spike rates generally modeled multivariate normal distributions specific covariance matrix describes all pairwise linear correlations
+long time intervals high firing rates average number spikes sufficiently large central limit theorem apply normal distribution good approximation spike-count distributions
+several experimental findings however suggest processing sensory information take place shorter time scales involving only tens hundreds milliseconds
+regime normal distribution no longer valid approximation:
+its marginals continuous symmetric shape whereas empirical distributions real spike-counts tend positive skew 
+normal distribution heuristically modified order avoid positive probabilities negative values not meaningful spike-counts
+major issue low rates probability negative values would high
+dependence structure multivariate normal distribution always elliptical whereas spike-count data often show so-called tail-dependence probability mass concentrated one corners 
+multivariate normal distribution assumes second order correlations only
+although was shown pairwise interactions sufficient describing spike-count distributions retinal ganglion cells cortex cells vitro there evidence significant higher order interactions spike-counts recorded cortical areas vivo 
+though not widespread modeling spike-counts alternative models been proposed previous studies poisson distributed marginals separate parameters higher order correlations e.g multiple interaction process model compound poisson model
+both models point processes
+terms their induced spike-count distributions models special cases multivariate poisson latent variables distribution first introduced kawamura presented compact matrix notation karlis meligkotsidou
+similar multivariate normal distribution model also couple shortcomings spike-count modeling: only poisson-marginals modeled
+negative correlations cannot represented
+dependence structure inflexible: features like tail dependence cannot modeled
+use extend versatile class models multivariate discrete distributions overcome shortcomings afore-mentioned models
+models based concept copulas allow combine arbitrary marginal distributions using rich set dependence structures
+neuroscience they were also applied model distribution continuous first-spike-latencies 
+figure 1 illustrates copula concept using spike-count data two real neurons
+figure 1a shows bivariate empirical distribution its two marginals
+distribution counts depends length time bin used count spikes here formula
+case considered correlation at low counts higher than at high counts
+called lower tail dependence
+figure 1b shows discretized rectified multivariate normal distribution
+other hand spike-count probabilities copula-based distribution correspond well empirical distribution figure 1a
+paper organized follows
+next section materials methods contains description methodological details regarding multivariate normal distribution multivariate poisson latent variables distribution copula approach spike-counts model fitting procedures
+section will also introduce novel transformation copula families
+method innovative yields novel result
+will then describe computational model used generate synthetic data experimental recording analysis procedures
+section results copula-based models will applied artificial data generated integrate-and-fire models coupled neural populations data recorded macaque prefrontal cortex during visual memory task
+appropriateness models also investigated
+paper concludes discussion strengths weaknesses copula approach spike-counts

@@ -1,0 +1,68 @@
+ 
+study problem online regression
+do not make any assumptions about input vectors outcomes
+prove theoretical bound square loss ridge regression
+also show bayesian ridge regression thought online algorithm competing all gaussian linear experts
+then consider case infinite-dimensional hilbert spaces prove relative loss bounds popular non-parametric kernelized bayesian ridge regression kernelized ridge regression
+our main theoretical guarantees form equalities
+ introduction 
+online prediction framework provided some input at each step try predict outcome using input information previous steps
+simple case statistics assumed each outcome value corrupted gaussian noise linear function input
+competitive prediction learner compares his loss at each step loss any expert certain class experts instead making statistical assumptions about data generating process
+experts may follow certain strategies
+learner wishes predict almost well best expert all sequences
+our main result theorem next section
+compares cumulative weighted square loss ridge regression
+applied on-line mode
+regularized cumulative loss best linear predictor
+power result best appreciated looking at range its implications
+both known new
+example corollary answers question
+asked several researchers see 
+whether ridge regression relative loss bound
+regret term order under square loss function
+where number steps outcomes assumed bounded;
+corollary well all other implications stated section
+explicit inequality rather than asymptotic result
+theorem itself much stronger
+stating equality
+rather than inequality
+not assuming outcomes bounded
+since equality unites upper lower bounds loss
+appears all natural bounds square loss ridge regression
+easily deduced our theorem; give some examples next section
+most previous research online prediction considers experts disregard
+presence noise observations
+consider experts predicting
+distribution outcomes
+use
+bayesian ridge regression prove predict well best
+regularized expert; our theorem
+loss theoretical guarantee logarithmic
+loss
+algorithm apply was first used
+
+similar bounds ours were obtained
+theorem later used deduce theorem
+ridge regression predicts mean bayesian ridge regression predictive distribution
+logarithmic loss bayesian ridge regression close scaled square loss
+ridge regression
+extend our main result case infinite dimensional
+hilbert spaces functions
+algorithm used becomes analogue
+non-parametric bayesian methods
+theorem theorem deduce relative loss bounds
+logarithmic loss kernelized bayesian ridge regression square
+loss kernelized ridge regression comparison loss any function
+reproducing kernel hilbert space
+both bounds form equalities
+there lot research done prove upper lower relative loss bounds under different loss functions
+if outcomes assumed bounded strongest known theoretical guarantees square loss given algorithm call vaw vovk-azoury-warmuth following
+%(this not apt name since ridge regression also special case aggregating algorithm corresponding logarithmic loss function learning rate 1; will call algorithm vovk-azoury-warmuth vaw algorithm following 
+case when inputs outcomes not restricted any way like our main guarantees possible prove certain loss bounds gradient descent;
+see
+section paper present online regression framework main theoretical guarantee square loss ridge regression
+section describes what call bayesian algorithm
+section show bayesian ridge regression competitive experts take into account presence noise observations
+section prove main theorem
+section describes case infinite-dimensional hilbert spaces

@@ -1,0 +1,51 @@
+
+understanding mechanisms cell function drug action major
+drug effects intrinsic properties drug specific signaling network
+here describe approach identify drug effects
+our proposed method drug effects investigated under signaling network
+pathway made specific key signals under experimental conditions
+performed via linear program solution standard procedure previous
+then same key signals under presence drug specific
+prove our case make evaluate effects growth factor receptor drug
+effects main target but also effects due either drug specific
+finding signaling effect cannot binding approaches
+our method approach identify drug effects small size pathways larger any type signaling
+method drug effects pathways mechanisms
+introduction
+drug discovery focus
+primary objective target protein within cells order cell
+other pathways within cells well similar other cell types should approach
+however despite new potential targets sequencing human genome rather few effective
+major understand mechanisms drug actions either due complex signaling networks cells due drug
+finding targets based using protein
+main goal biochemical activity them
+most cases target known effect signaling pathway activity protein
+however little know how signaling network affected
+addition drug effects several most kinase there between binding there additional between binding activity signals
+address drug effects more physiological conditions novel genomic tools recently been developed
+genomic analysis computational approaches drug target been developed
+despite genomic approaches discovery step function cell
+towards goal strategy target identification
+approach support cellular binding proteins identified
+however experiments usually require large protein more proteins result several due interactions
+order interaction problem another strategy uses quantitative
+while approach significantly interaction problem also space those
+more recently quantitative using search space all targets do not drug
+however requires population thus application primary cells limited
+taken together all techniques above best case all targets drug but no information provided whether binding transmission signal protein how those affect signaling network cell
+here describe significantly different approach identify drug effects where they signaling pathways
+instead binding pathway following key events under several
+presented 1
+experimental using measure key events under more than different conditions generated treatment stimuli
+based signaling response set possible reactions specific pathway using efficient optimization known linear
+approach upon optimization approach proposed
+using standard global
+evaluate drug effects subject cells same stimuli presence same key events
+then without assumption drug target changes pathway without drug presence
+demonstrate our approach construct data cell
+then identify effects four two kinase kinase
+when our method applied those find their main target effect also several unknown but active effects
+case find pathway
+contrast previously developed techniques our method based actual effect events into signaling network
+applied any type kinase etc computational our approach more efficient than current algorithms pathway optimization identify main drug effects well unknown effects pathways between measured proteins
+our fast drug actions into potential mechanisms

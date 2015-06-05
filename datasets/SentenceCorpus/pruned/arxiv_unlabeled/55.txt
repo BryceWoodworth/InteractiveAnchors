@@ -1,0 +1,61 @@
+
+work discovery structure data represented graphs example genomic networks
+novel algorithm structure graph presented clear known case structure dna
+work graphs some well approaches inference previously applied only
+graph problem related maximum maximum matching problem
+algorithm variety graph types including graphs graphs nodes
+resulting structure could used representation classification graphs
+introduction
+growth data example data about genes drug molecules proteins their functions interactions efficient mathematical algorithms tools
+there large body literature subject variety theoretical computer computational
+however one issue so far
+given network complex interaction network how its structure first
+paper data processing
+let us method through description dna molecular structure way most us learned class
+dna made four t g each two one among all difference between all contain components further reduced individual
+way description not unique may according level but description whole structure
+after years discovery who applied their natural generalization
+hence structural elements also make functional sense point view } properties description applied other domains computer
+result process finite set elements into novel complex objects combined turn produce next level description
+rules process determined process itself
+case dna above elements
+they into i e according some set rules defined properties
+now alternative description same object any domain knowledge context simply objects binary objects corresponding
+would human along any structure present
+elements without any prior knowledge size frequency
+make sense data up small like protein interaction networks regulatory metabolic pathways small networks etc
+our goal able approach tasks
+describe paper example
+will use example paper more mathematical out
+graph contains structure
+let us human not graph find
+thus would graph into graph
+graph two
+first graph single graph two nodes same type
+second } description data known graphs while structures described graph
+paper literature field graph g
+
+field graphs i e graph according some known graph rather than data
+work related presented here due d
+
+their e g see several
+their work however not structure given graph data
+rather they not only but also bound generate objects not original data
+thus their approach relation here
+moreover authors present negative result their algorithm just biological data use paper
+another similar work application hidden markov models
+there many other structure data graphs but method considered here
+our method between understanding
+indeed understand some phenomenon data means find some pattern structure turn could data way
+work graphs some well approaches inference previously applied only
+two methods particularly context sequences
+also take sequence algorithms often all computer form like
+%
+let us algorithms many
+although different all algorithms common very similar computational complexity bounds
+first one all algorithms bound heuristics since finding best related complexity
+heuristics turn related minimum description length principle work way described } difference how statistics used will new
+some cases strategy used see eg i e will reduce size at current step other cases simple principle used any see eg
+methods graph structure out several
+first up different graphs
+second directly approach due interactions graph

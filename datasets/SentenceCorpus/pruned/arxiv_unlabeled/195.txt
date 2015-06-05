@@ -1,0 +1,40 @@
+
+discovery popular framework pattern discovery event
+set nodes each associated event type
+efficient algorithms exist discovery when associated order total
+paper propose efficient algorithms general
+algorithms
+also algorithms space certain
+point out there order most frequency not sufficient measure
+propose new measure general order discovery method based measure out
+simulations demonstrate our algorithms
+introduction
+discovery popular framework temporal patterns time series data applications several domains like biology detection etc
+data framework single long events each temporal pattern called small nodes each associated called
+order events should appear data order events
+patterns total order their nodes called while those order called
+task all whose frequency data threshold
+algorithms exist literature data while no algorithms available case general
+related work found context sequential patterns where data multiple sequences sequential pattern small
+sequential pattern considered if there sequences data pattern occurs
+contrast discovery patterns often single long events
+makes computational task different sequential patterns
+paper develop algorithms general order constraints over their nodes
+our attention patterns called where cannot appear more than given
+design efficient algorithms no
+further our algorithms time constraints limit some maximum value
+our algorithms either only only
+moreover also method focus discovery process certain classes order what call property specific examples classes property
+point out here one efficient discovery general there number any given size
+because any order nodes there number also size all would occur at least often note problem does not eg discovery because cannot any
+thus frequency measure general
+propose new measure called evidence some notion entropy relative pairs events either order observed
+procedure now requires threshold evidence addition frequency threshold
+demonstrate utility our algorithms through empirical studies
+paper follows
+review define
+finite state its associated properties
+algorithms order described
+described
+our new measure
+present simulation results

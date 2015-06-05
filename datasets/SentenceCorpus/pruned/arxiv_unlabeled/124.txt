@@ -1,0 +1,37 @@
+
+% propose framework comparing distributions us design statistical tests determine if two samples different distributions
+our test difference over functions kernel space
+present two tests based large bounds test while third based distribution
+test time although efficient linear time available
+several classical distributions when function space used difference more general eg space
+apply our tests variety problems including matching using method where they perform strongly
+performance also obtained when comparing distributions over graphs first tests
+introduction
+address problem comparing samples two probability distributions statistical tests hypothesis distributions different called problem
+tests application variety
+interest compare data types measured different whether data may whether differences experimental procedure differences data distributions
+interest between data different types either determine whether two cancer may perspective differences
+database matching multiple where not known similarity distributions their
+test whether distributions different basis samples each them finding well e g \ function large points small negative possible points
+use our test difference between mean function values two when large samples likely different distributions
+call maximum mean
+quality depends class functions define
+one hand must so population if only if
+other hand test consistent empirical estimate its sample size increases
+use universal kernel our function classes since will shown both properties also review classical distributions based different function classes
+more practical note computational cost when compared other given points cost time
+also propose less efficient algorithm computational cost performance at given computational cost at larger data
+define three statistical tests based
+first two use convergence bounds provide finite sample test performance at being differences between
+third test based distribution practice more differences distribution at small sample
+present work results who turn work
+note latter only third test approach more accurate approximation distribution test
+our section population if only if when universal
+also review alternative function classes metric probability distributions
+section give hypothesis testing problem review other approaches problem
+present our first two hypothesis tests section based two different bounds between population empirical
+take different approach section where use distribution empirical estimate basis third test
+when large data available cost sample size may therefore propose section version linear cost number samples associated test
+section provide methods related statistics machine learning literature
+finally section demonstrate performance tests problems matching using method
+our approach well high data low sample addition able distributions graph data first proposed test

@@ -1,0 +1,31 @@
+
+most genes able several phenomenon known alternative
+alternative occur cancer leading expression multiple
+most studies alternative focused identification potential targets
+here examine instead analyze their level using measure uncertainty called entropy
+compare expression entropy normal cancer same site different classes alternative transcription
+whereas alternative show no significant gain loss entropy between normal cancer alternative shows highly significant entropy gains studied
+entropy gain characterized expression normal correlated level estimated cellular cancer
+genes present entropy gain factors
+provide here first quantitative estimate cancer
+expression normal widely significantly at least studied
+may develop part key factors turn significantly impact multiple target genes
+introduction
+genes produce alternative part their normal expression program
+alternative include transcription expressed different gene expression required cell functions
+alternative especially at level known affect cell
+large body evidence between alternative cancer so identification now considered important cancer
+expression cancer may result very different underlying genetic events
+one hand mutations sequences lead expression specific observed example gene cancer
+another class event processing its pathway
+may affect specific genes but may also expression processing multiple genes affected
+evidence changes alternative transcription cancer present instance where large actually
+however while most studies cancer significant disease cells no work focused potentially when
+aim present study evaluate extent alternative cancer
+instead distribution all single gene given
+where distribution may more disordered than control
+measure level notion entropy information theory
+applied measure all three types alternative transcription comparing distributions pairs disease normal
+our results show alternative alternative transcription associated disordered expression
+however studied alternative showed highly significant entropy gain relative corresponding normal
+analyze entropy gain discuss its possible

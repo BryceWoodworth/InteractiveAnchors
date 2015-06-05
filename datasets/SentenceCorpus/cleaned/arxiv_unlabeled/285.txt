@@ -1,0 +1,8 @@
+ 
+investigate problem learning topic model  well-known latent dirichlet allocation  distributed manner using cluster c processors dividing corpus learned equally among them
+propose simple approximated method tuned trading speed accuracy according task at hand
+our approach asynchronous therefore suitable clusters heterogenous machines
+ introduction 
+very large datasets becoming increasingly common  specific collections reuters pubmed very broad large ones images metadata sites like flickr scanned books sites like google books whole internet content itself
+topic models latent dirichlet allocation lda proved useful tool model collections but suffer scalability limitations
+even though there been some recent advances speeding up inference models still remains fundamental open problem

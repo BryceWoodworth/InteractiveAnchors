@@ -1,0 +1,68 @@
+
+study problem online regression
+do not make any assumptions about input vectors outcomes
+prove theoretical bound loss regression
+also show bayesian regression thought online algorithm all linear
+then consider case prove relative loss bounds popular bayesian regression regression
+our main theoretical form
+introduction
+online prediction framework provided some input at each step predict outcome using input information previous
+simple case statistics assumed each outcome value noise linear function input
+prediction his loss at each step loss any certain class instead making statistical assumptions about data process
+may certain strategies
+predict almost well best all sequences
+our main result theorem next section
+loss regression
+applied
+loss best linear predictor
+power result best at range its
+both known new
+example question
+asked several researchers see
+whether regression relative loss bound
+regret term order under loss function
+where number outcomes assumed
+well all other section
+rather than result
+theorem itself much
+
+rather than
+not outcomes
+since lower bounds loss
+all natural bounds loss regression
+our give some examples next section
+most previous research online prediction
+presence noise observations
+consider predicting
+distribution outcomes
+use
+bayesian regression prove predict well best
+our theorem
+loss theoretical
+loss
+algorithm apply was first used
+
+similar bounds were obtained
+theorem later used theorem
+regression predicts mean bayesian regression predictive distribution
+loss bayesian regression close loss
+regression
+our main result case
+functions
+algorithm used
+bayesian methods
+theorem theorem relative loss bounds
+loss bayesian regression
+loss regression comparison loss any function
+kernel space
+both bounds form
+there research prove lower relative loss bounds under different loss functions
+if outcomes assumed known theoretical loss given algorithm call following
+not since regression also special case algorithm corresponding loss function learning rate will call algorithm algorithm following
+case when outcomes not any way like our main possible prove certain loss bounds
+see
+section paper present online regression framework main theoretical loss regression
+section what call bayesian algorithm
+section show bayesian regression take into account presence noise observations
+section prove main theorem
+section case

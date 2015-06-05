@@ -1,0 +1,33 @@
+
+computational methods identify genome problem potentially transcription factor binding sites while knowledge specific interactions involved remains limited
+without comparison their performance accuracy tools remains
+large number different tools address problem them based search strategy input data
+methods were chosen applied predict database across human regions
+our results show optimal choice method depending species sequences question
+when regions those methods evolutionary predictive power than methods designed single genome
+different search strategies rely different properties different methods one another
+example some clusters binding sites while others perform best short
+furthermore most methods appear structure genome they applied
+analyze features methods performed well identify leading performance provide
+also propose key development evaluation future methods
+introduction
+regulation involves binding transcription factors dna
+most cases multiple transcription factors control transcription single transcription site
+limited transcription factors complex regulatory step through various spatial temporal interactions between themselves their binding sites
+scale transcription factor binding interactions distinct rather than distributed
+called
+dna sequences others examples
+appropriate transcription factors elements
+generally few long few several transcription factors each transcription factors multiple binding sites
+et al demonstrated sequence analysis
+they genome clusters potential binding sites gene transcription factors known together early
+they found more than third clusters binding sites early gene genes transcription factors
+property many contain clusters similar transcription factor binding sites et al predicted over genomic regions genes interest transcription factors identified both known novel within gene network
+recent study importance functions revealed how changes original elements affect its function
+et al found elements gene appear similar seen thus mutations generate between species
+later study they showed distinct regulatory elements same gene lead same change
+et al investigated genetic protein expression
+they functional difference case not only binding sites but also their
+there also evidence within specific lead disease
+one example given et al
+any regulatory elements changes its expression level brain human

@@ -1,0 +1,18 @@
+ 
+individual true error theory assumes responses same person same choice problem within block trials based same true preferences but may show preference reversals due random error
+between blocks person's true preferences may differ stay same
+theory illustrated studies testing two critical properties distinguish models risky decision making number restricted branch independence implied original prospect theory violated specific way both cumulative prospect theory priority heuristic number stochastic dominance implied cumulative prospect theory
+corrected random error most individuals systematically violated stochastic dominance ruling out cumulative prospect theory
+furthermore most people violated restricted branch independence opposite way predicted theory priority heuristic
+both violations consistent transfer attention exchange model
+no one was found whose data were compatible cumulative prospect theory except those were also compatible expected utility no one satisfied priority heuristic
+ introduction 
+when offered choice different individuals express different preferences
+example given choice between number sure fifty-fifty gamble win either number number some people choose sure cash others prefer gamble
+when same person presented same choice problem two occasions individual may give two different responses
+given two phenomena between within-person variability possible part all what called individual differences may actually attributable variability instability choice behavior
+furthermore when test structural properties theories apparent violations theory may due instability responses rather than true flaws theory
+therefore study individual differences need separate true differences between people differences might due variation within person
+furthermore study behavioral properties theories need determine whether violations real might instead attributed instability response
+report investigates two critical properties distinguish models risky decision making first order stochastic dominance sd restricted branch independence rbi
+apply individual true error theory itet permits separation random variability true violations models risky decision making

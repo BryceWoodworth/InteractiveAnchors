@@ -1,0 +1,26 @@
+
+learn multiple related tasks under relationship between tasks
+domain adaptation classifier structure but learning structure
+our model seen several previously proposed learning models well three distinct data sets
+introduction
+consider two related but distinct domain adaptation learning
+both involve learning related multiple data sets
+learn multiple same problem over data different distributions
+learn multiple different problems over data same distribution
+seen bayesian perspective natural solution model
+however when there more than two learned i e more than two domains more than two tasks question all related
+if not what their relationship
+address two models one one models
+
+derive algorithm makes use recently developed efficient inference algorithms
+several problems show our model
+our models common structure based unknown
+key difference between model model what information across
+consider case linear regression linear regression
+extended processes
+domain useful model assume there single classifier all domains
+context bayesian modeling weight vector associated linear classifier generated according structure
+other hand one does not same weight vector do well all problems
+instead common assumption features similar ways between tasks
+bayesian model structure associated linear generated according structure
+

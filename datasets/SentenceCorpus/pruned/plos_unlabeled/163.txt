@@ -1,0 +1,22 @@
+
+developed program weights specific properties genes so they may drug targets
+applied produce three drug target agent disease new drug needed
+each based individual criterion
+first metabolic drug targets their their similarity known protein classes
+second targets would specifically those conserved within class but lack close
+its many years state
+potential targets involved
+current proposed drug targets respect
+some features were found more accurate than others studied targets
+also shown targets using evolutionary weights each property
+demonstrate approach targets
+introduction
+cost research development been but amount time required new remains years
+problem been length time drug discovery
+target identification first step drug discovery process provide years research
+all other drug discovery fact identified drug target must variety next
+important factors context include between target activity target state target growth
+values some selection found available including metabolic pathway protein classification sets proteins
+approaches literature integration multiple become
+more effective alternative computational integration over different function
+article describe application genes genome according given set

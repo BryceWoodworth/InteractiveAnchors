@@ -1,0 +1,63 @@
+
+knowledge social contact patterns still most critical step understanding directly
+data social contact patterns however obtain
+major issue then whether simulation might data
+paper variety contact matrices through simulation simple model
+model time use data data
+model little because each agent real person
+other words each one observed corresponding real individual time use
+also generated contact matrices model underlying prediction
+matrices then against recently data
+their performance compared other matrices available matrix
+matrices show same features ones estimated sample example strong presence related between
+against data little matrices than one but better than matrices
+first where contact matrices compared real ones against data
+results suggest simple designed matrices provide approach matrices
+paper also idea depending level either number different may key factor transmission
+introduction
+after first mathematical after years fast growth since first health modeling recently further
+first potentially then finally recent all development more more detailed predictive tools
+range models network analysis highly detailed large scale models
+highly tools policy they allow define measures at possible levels
+first time model scale been proposed
+critical common all models social contact patterns how people each other
+social contact patterns key factors underlying transmission dynamics directly
+different models their level complexity scale social contact patterns
+relatively simple case where individuals only contact patterns represented form contact matrices whose represent average number individuals group i individuals group per time
+recently contact patterns were estimated contact matrices using observed data case data
+two major examples approach matrix approach
+approaches important population n groups contact matrix contains n 2 unknown
+therefore order estimate n 2 parameters n data points some assumptions about structure matrix needed
+addition approaches only estimate transmission rates parameters given between contact rate corresponding risk per contact
+recently important been made area through direct contact data means sample
+direct approach based appropriate at risk event
+then asked relevant characteristics all individuals they had contact during other factors where contact
+data social contact patterns available
+addition contact matrices time contact matrices been estimated secondary data sources time use data available
+case time use data underlying hypothesis amount time people same activity same place relevant transmission disease
+time use data they usually do not give direct information about number social time they
+they only give information time individuals various
+therefore data need other data assumptions produce estimates contact matrices
+way time use data sources provide information size distribution where take place
+example often know average class size average all
+within information size
+most other however there little information
+assumptions therefore necessary give some contact patterns
+however approach structure social networks where
+approach then networks simulation appropriate social networks
+first example social network generated population
+case contact time contact matrices social dynamics model
+matrices standard expected population most other close their own etc however matrices were compared other contact matrices against empirical data
+thus no actual evaluation their transmission available
+paper same aim contact matrices model
+model time use data time use other data
+model each agent real individual there between each agent one corresponding real
+since sample population but size model population small model little
+point view our model model model
+little world agents during order their various corresponding
+agents contact other agents
+defined contact having same physical environment during given time
+our approach generate three different types contact matrices distinct aspects biology matrix time contact matrix number contact matrix average number different number different social
+addition contact matrix model underlying prediction
+contact matrices simulation little tested against recently data
+their compared other contact matrices available time use matrices

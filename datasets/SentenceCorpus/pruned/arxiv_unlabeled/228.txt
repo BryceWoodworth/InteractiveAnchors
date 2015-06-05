@@ -1,0 +1,30 @@
+
+experimental been method choice stability learning algorithm number agents theoretical analysis complex
+agents where goal some global metric stability usually evolution global performance metric over time
+if global metric considered stability
+main note need better experimental measures stability adaptive systems
+show experimental case study where stability global performance metric rather underlying system later leads significant performance
+then propose alternative metric local show experimentally our proposed metric more effective than global performance metric algorithms
+introduction
+term convergence learning context stability learning process underlying model over time
+similar single agent learning algorithms convergence learning algorithm important property attention
+however convergence algorithm via theoretical analysis significantly more than convergence single agent case
+presence other agents also learning environment therefore assumption single agent learning
+fact convergence algorithm even games class systems domains been
+experimental usually method choice number agents theoretical analysis complex
+agents researchers typically stability algorithm evolution some global performance metric
+not since goal system some global metric
+examples global performance include total number problems average turn time tasks task problems average reward agents general
+if global metric over time usually considered convergence
+even if underlying agent not stable one could argue at end global performance all system
+paper above practice need better experimental measures stability systems
+show experimental case study where stability global performance metric underlying system
+hidden later leads significant global performance metric itself
+propose alternative measure local policy entropy
+experimentally show proposed metric more effective than global performance metric algorithms systems
+paper follows
+section case study will using paper
+section algorithms particular focus two algorithms use our experimental evaluation
+section our initial experimental results where global performance metric leads algorithm
+section our proposed measure how used hidden algorithm
+section

@@ -1,0 +1,38 @@
+ 
+median clustering extends popular neural data analysis methods self-organizing map neural gas general data structures given dissimilarity matrix only
+offers flexible robust global data inspection methods particularly suited variety data occurs biomedical domains
+chapter give overview about median clustering its properties extensions particular focus efficient implementations adapted large scale data analysis
+ introduction 
+tremendous growth electronic information biological medical domains turned automatic data analysis data inspection tools towards key technology many application scenarios
+clustering data visualization constitute one fundamental problem arrange data way understandable humans
+biomedical domains prototype based methods particularly well suited since they represent data terms typical values directly inspected humans visualized plane if additional low-dimensional neighborhood embedding present
+popular methodologies include k-means clustering self-organizing map neural gas affinity propagation etc
+successfully been applied various problems biomedical domain gene expression analysis inspection mass spectrometric data health-care analysis microarray data protein sequences medical image analysis etc \
+many popular prototype-based clustering algorithms however been derived euclidean data embedded real-vector space
+biomedical applications data diverse including temporal signals eeg ekg signals functional data mass spectra sequential data dna sequences complex graph structures biological networks etc
+often euclidean metric not appropriate compare data rather problem dependent similarity dissimilarity measure should used alignment correlation graph distances functional metrics general kernels
+various extensions prototype-based methods towards more general data structures exist extensions recurrent recursive data structures functional versions kernelized formulations see eg \ overview
+very general approach relies matrix characterizes pairwise similarities dissimilarities data
+way any distance measure kernel generalization thereof might violate symmetry triangle inequality positive definiteness dealt including discrete settings cannot embedded euclidean space alignment sequences empirical measurements pairwise similarities without explicit underlying metric
+several approaches extend popular clustering algorithms k-means self-organizing map towards setting means relational dual formulation kernelization approaches
+methods drawback they partially require specific properties dissimilarity matrix positive definiteness they represent data terms prototypes given possibly implicit mixtures training points thus they cannot easily interpreted directly
+another general approach leverages mean field annealing techniques way optimize modified criterion does not rely anymore use prototypes
+relational kernel approaches main drawback those solutions reduced interpretability
+alternative offered representation classes median centroid i e \ prototype locations restricted discrete set given training data
+way distance data points prototypes well-defined
+resulting learning problem connected well-studied optimization problem k-median problem: given set data points pairwise dissimilarities find points forming centroids assignment data into k classes average dissimilarities points their respective closest centroid minimized
+problem np hard general unless dissimilarities special form e g \ tree metrics there exist constant factor approximations specific settings e g \ metrics
+popular k-medoid clustering extends batch optimization scheme k-means restricted setting prototypes: turn assigns data points respective closest prototypes determines optimum prototypes assignments
+unlike k-means there does not exist closed form optimum prototypes given fixed assignments exhaustive search used
+results complexity one epoch k-centers clustering instead k-means being number data points
+like k-means k-centers clustering highly sensitive initialization
+various approaches optimize cost function k-means k-median different methods avoid local optima much possible lagrange relaxations corresponding integer linear program vertex substitution heuristics affinity propagation
+past years simple but powerful extensions neural based clustering general dissimilarities been proposed seen generalizations k-centers clustering include neighborhood cooperation topology data taken into account
+more precisely median clustering been integrated into popular self-organizing map som its applicability been demonstrated large scale experiment bioinformatics
+later same idea been integrated into neural gas ng clustering together proof convergence median som median ng clustering
+like k-centers clustering methods require exhaustive search obtain optimum prototypes given fixed assignments complexity standard implementation one epoch reduced median som see section 
+unlike k-means local optima overfitting widely avoided due neighborhood cooperation fast reliable methods result robust respect noise data
+apart numerical stability methods further benefits: they given simple formulas they very easy implement they rely underlying cost functions extended towards setting partial supervision many situations considerable speed-up algorithm obtained demonstrated  example
+chapter present overview about neural based median clustering
+present principle methods based cost functions ng som respectively discuss applications extensions properties
+afterwards discuss several possibilities speed-up clustering algorithms including exact methods well single pass approximations large data sets

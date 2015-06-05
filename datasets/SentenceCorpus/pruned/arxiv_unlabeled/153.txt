@@ -1,0 +1,29 @@
+
+introduce information theory also known theory complexity
+explain main quantitative approach
+discuss extent information theory common where they different
+how recent within theory allow one between measured structure function leads mathematical inference
+end some theory
+introduction
+how should measure amount information about phenomenon given us observation phenomenon
+both information theory see information theory idea amount measured minimum number needed describe observation
+but whereas theory description methods optimal relative some given probability distribution theory different any computer program first observation then description
+amount information then defined size measured computer program then
+similar given but case program after
+thus long sequence } contains little information because program size about
+
+
+
+would appear make amount information other object depend particular used
+shown all choices lead amount information individual objects up constant
+call object
+while small complexity random complexity about their own length
+complexity information terms program size out very idea applications theoretical computer probability theory statistics complexity was introduced different n g
+
+during years subject developed into major area research
+here give subject towards specifically information
+recent work structure function all discuss here also found standard
+section define complexity its most important properties
+do much yet correct manner both all questions why not another one
+section provides more discussed later
+section well section inference less should over before into

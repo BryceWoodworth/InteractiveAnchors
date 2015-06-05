@@ -1,0 +1,61 @@
+
+there at least two similarity
+similarity between contrast similarity between attributes
+when two words high degree similarity call them
+when two pairs words high degree similarity their
+example pair pair
+paper analysis method similarity
+potential applications many including information sense information
+recently vector space model information been similarity questions
+approach relation between pair words characterized vector patterns large
+approach three 1 patterns derived 2 value used frequency data generated used explore pairs
+questions average human
+related problem similar gains over
+introduction
+there at least two similarity
+similarity between attributes similarity between
+when two words high degree similarity call them
+when two pairs high degree similarity they
+often form b c d example
+over over
+
+there high degree similarity between pair pair
+fact basis several mathematical theories
+section more at between similarity
+seems similarity reduced similarity since similar
+general reduction
+consider
+not similar
+only similar
+many algorithms been proposed similarity between two words
+measures similarity been studied due their applications problems information sense
+other hand since measures similarity not well developed measures similarity potential applications similarity not well known
+many problems involve would algorithm similarity
+discuss related problems natural processing information information more section
+paper vector space model information
+given search
+order similarity between each
+almost all search measure similarity using approach similarity
+they used vector patterns represent relation between pair words
+section approach similarity
+section present algorithm similarity call analysis
+algorithm large without
+approach three 1 patterns derived instead using fixed set patterns 2 value used frequency data given pair pair generated one words
+section our experimental evaluation questions
+example question
+testing literature first pair called
+correct choice called solution choices
+evaluate testing its ability solution
+average performance high questions accuracy about
+accuracy about
+same questions } one application similarity pairs
+section evaluate performance set pairs
+problem pair according relation between
+pairs been classes
+example uses
+approach task pairs learning problem
+pairs into training testing sets testing pair according its single training set
+used measure distance i e similarity
+accuracy problem problem
+same pairs had
+discuss experimental results future work section section

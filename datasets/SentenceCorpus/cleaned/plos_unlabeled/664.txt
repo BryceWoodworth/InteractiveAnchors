@@ -1,0 +1,31 @@
+ 
+most mammalian genes able express several splice variants phenomenon known alternative splicing
+serious alterations alternative splicing occur cancer tissues leading expression multiple aberrant splice forms
+most studies alternative splicing defects focused identification cancer-specific splice variants potential therapeutic targets
+here examine instead bulk non-specific transcript isoforms analyze their level disorder using measure uncertainty called shannon's entropy
+compare isoform expression entropy normal cancer tissues same anatomical site different classes transcript variations: alternative splicing polyadenylation transcription initiation
+whereas alternative initiation polyadenylation show no significant gain loss entropy between normal cancer tissues alternative splicing shows highly significant entropy gains 13 27 cancers studied
+entropy gain characterized flattening expression profile normal isoforms correlated level estimated cellular proliferation cancer tissue
+interestingly genes present highest entropy gain enriched splicing factors
+provide here first quantitative estimate splicing disruption cancer
+expression normal splice variants widely significantly disrupted at least half cancers studied
+postulate splicing disorders may develop part splicing alteration key splice factors turn significantly impact multiple target genes
+ introduction 
+majority mammalian genes produce alternative transcripts part their normal expression program
+alternative transcripts include splicing polyadenylation transcription initiation variants expressed differentially different tissues providing fine tuning gene expression required cell differentiation tissue-specific functions
+disruptions balance alternative transcripts especially at splicing level known affect angiogenesis cell differentiation invasion
+large body evidence established connections between alternative splicing defects cancer so identification transcript isoforms now considered important avenue cancer diagnosis therapy 
+disruption splicing isoform expression cancer may result very different underlying genetic events
+one hand mutations cis-regulatory sequences lead abnormal expression specific isoforms observed example brca1 gene breast ovarian cancer
+another class event includes alterations mrna processing machinery its signalling pathway
+may affect splicing specific genes cd44 but may also cause wider perturbations isoform expression processing multiple genes simultaneously affected
+evidence wider changes alternative transcription linked cancer present instance est databases where large fraction splice variant actually tumor-specific
+however while most studies splicing cancer attempt isolate signature splice variants significant over-expression disease cells no published work date focused bulk splicing disruption potentially arises when splicing machinery impaired
+aim present study evaluate extent modalities non-specific alternative transcript disruptions cancer
+instead seeking interesting signature isoforms analyzed distribution all isoforms single gene given tissue
+postulated tissue where splicing machinery impaired distribution isoforms may more disordered than control tissue
+measure level disorder cdna cdna tag libraries borrowed notion entropy information theory
+applied measure all three types alternative transcription comparing isoform distributions pairs disease normal tissues
+our results show neither alternative polyadenylation nor alternative transcription initiation associated disordered isoform expression
+however half cancers studied alternative splicing showed highly significant entropy gain relative corresponding normal tissues
+analyze entropy gain discuss its possible causes

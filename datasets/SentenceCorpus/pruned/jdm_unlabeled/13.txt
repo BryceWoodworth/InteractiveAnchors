@@ -1,0 +1,29 @@
+
+judgments decisions under uncertainty prior sequential search relevant information
+cases subject when search information
+evidence models social cognitive assume active sequential information search evidence been decision threshold
+theories evidence threshold level confidence person
+model tested against fixed rule decision making against class information models
+series experiments using information advantage proposed model individual each subject its two
+addition better understanding rule within framework simple heuristics results individual levels might relevant factor when decision making task analysis statistical environments
+introduction
+some use
+short empirical research heuristic
+fast heuristic was introduced provide alternative proposed strategies judgment decision making research
+according models rational decision requires integration all available information about all alternatives
+integration become complex information cues probabilistic
+however were able show simulation binary cue choosing best alternative out two very simple when available cues sequential order validity probability cue will lead correct decision given between alternatives direction first cue
+stimulus environment they used their population size number features being present not simple search rule rule decision rule decisions same quality computational integration set cue information
+information search after having found first cue therefore been called decision making
+term was chosen clear contrast models integration all available information usually not how information was
+models complexity simple complex multiple linear regression
+what they common at least two information need present comparison case several cues same option integration available information
+contrast class class under term decision making because search more than one information information integration
+most high number correct predictions compared models
+mathematical results allow rank rational strategies used probabilistic decision making especially but not only when information
+however empirical findings use compared models were
+while some studies were generally against use because they found only particular use strategy more recent studies shows more evidence use
+one question fact participants showed using single strategy
+so far there been no statistical environments all participants experiment according using
+but what even more use rule
+most effect was reported testing sequential search using only two available cues they found number participants number percent their sample information search some even when more cue hence fact second cue would not able first information

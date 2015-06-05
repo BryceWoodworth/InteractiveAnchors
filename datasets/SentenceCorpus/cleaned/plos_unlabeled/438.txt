@@ -1,0 +1,46 @@
+ 
+micrornas important post-transcriptional regulators but extent regulation uncertain both regard number mirna genes their targets
+using algorithm based intragenomic matching potential mirnas their targets coupled support vector machine classification mirna precursors explore potential regulation mirnas three plant genomes: arabidopsis thaliana populus trichocarpa oryza sativa
+find intragenomic matching conjunction supervised learning approach contains enough information allow reliable computational prediction mirna candidates without requiring conservation across species
+using method identify 1,200 2,500 2,100 mirna candidate genes capable extensive base-pairing potential target mrnas thaliana p trichocarpa o sativa respectively
+more than five times number currently annotated mirnas plants
+many candidates derived repeat regions yet they seem contain features necessary correct processing mirna machinery
+conservation analysis indicates only few candidates conserved between species
+conclude there large potential mirna-mediated regulatory interactions encoded genomes investigated plants
+hypothesize some interactions may realized under special environmental conditions while others readily recruited when organisms diverge adapt new niches
+ introduction 
+small rnas now accepted major players control eukaryotic gene expression
+most well known micrornas small interfering rnas both derived processing dsrna molecules members drosha/dicer family endonucleases
+plants sirna mirna distinguished mainly their biogenesis not their mechanism action
+mirnas arise stem-loop precursors encoded genome their major mechanism action plants thought post-transcriptional regulation through near-complementary base-pairing target mrnas leading specific endonucleolytic cleavage degradation target 
+most initially discovered mirnas were so highly conserved evolution defining characteristic mirna was had conserved
+attribute those mirnas discovered early been used successfully number groups computationally predict new mirna genes
+basically methods scan genome inverted repeats potential form mirna precursors
+scans typically find order hundreds thousands millions hairpins depending genome size search parameters
+high number then reduced only keeping hairpins conserved other species
+another approach search only transcribed sequences form expressed sequence tags
+method works nonsequenced genomes efficiently reduces search space probably leading lower number false positives but method also misses candidates not covered expressed sequence tag libraries
+mirbase version 8.2 arabidopsis thaliana 118 mirna genes listed most conserved down monocot oryza sativa
+however studies noncoding rna shown lack conservation does not necessarily mean lack function
+potentially all takes evolve mirna one many inverted repeats genome transcribed necessary structure sequence features recognized processed drosha/dicer
+indeed large numbers more narrowly conserved mirnas also exist
+recent bioinformatic study human identified patterns associated mirna precursors suggested number mirna precursors larger than 25,000
+plants similar situation could exist
+deep sequencing effort arabidopsis using massively parallel signature sequence technique revealed 75,000 distinct small rna species mapping large variety genomic contexts including exons introns repetitive dna intergenic regions
+perhaps not surprising considering other studies finding unexpectedly large fractions eukaryotic genomes transcribed also outside antisense annotated protein-coding genes 
+necessary feature any functional mirna must target at least one mrna
+plants means mirna must almost complementary some part spliced mrna transcript
+set rules allowing mismatches only certain positions been suggested based experimental observations
+requirement target previously been used predict plant mirnas : instead relying phylogenetic conservation methods successfully used intragenomic matches potential target mrnas find hairpins potentially capable producing mirnas regulate target
+intragenomic matches will inherently arise structure dynamics genome: retrotransposons formation pseudogenes other duplicative events provide sequences almost ready regulate originally copied gene ; likewise reverse strand one gene complementary other paralogous genes
+not relying conservation between species intragenomic matching capable more fully charting potential post-transcriptional regulation mirnas
+effort reduce spurious predictions earlier screens new mirnas removed candidates overlapping existing annotation repeats protein-coding regions
+although filters probably increase signal-to-noise ratio they also introduce biases assuming repeat-derived sequences not functional each sequence segment only one function
+however transposon-derived conventional mirnas been demonstrated arabidopsis recent work several groups show repeat-associated mirnas quite common mammals
+borchert et al point 50 human mirnas associated alu repeats polymerase iii transcription
+piriyapongsa et al link 55 experimentally characterized human mirnas different types transposable elements
+18 conserved other vertebrate genomes authors predict additional 85 novel transposable element derived mirnas
+observations along evidence very complex widespread transcriptional patterns eukaryotes including nested transcripts antisense transcription underlines importance enumerating all possible mirna/target interactions order explore full potential mirna-mediated regulation
+paper develop apply mimatcher pipeline perform intragenomic matching followed classification mirna candidates using support vector machines
+using method three plant genomes thaliana o sativa p trichocarpa find species-specific mirna-like hairpins almost perfect complementarity mrna targets
+present indications many active hypothesize remainder forms pool regulators easily recruited natural selection adapting organisms

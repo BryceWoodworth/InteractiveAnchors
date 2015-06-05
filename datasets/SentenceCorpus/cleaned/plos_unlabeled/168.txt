@@ -1,0 +1,32 @@
+ 
+convoluted cortex primates instantly recognizable its principal morphologic features yet puzzling its complex finer structure
+various hypotheses been proposed about mechanisms its formation
+based analysis databases quantitative architectonic connection data primate prefrontal cortices offer support hypothesis tension exerted corticocortical connections significant factor shaping cerebral cortical landscape
+moreover forces generated cortical folding influence laminar morphology appear previously unsuspected impact cellular migration during cortical development
+evidence significant role mechanical factors cortical morphology opens possibility constructing computational models cortical develoment based physical principles
+models particularly relevant understanding relationship cortical morphology connectivity normal brains structurally altered brains diseases developmental origin schizophrenia autism
+ introduction 
+popular image human brain closely associated intricate folds cerebral cortex
+cortical landscape been described measured interpreted since age phrenology
+mammalian cerebral cortex evolved expanded tangentially folded accommodate large surface area measuring 1,600 2,000 cm 2 humans three times larger than inner surface skull 
+classic studies described cortical morphology frequently reference its geometric regularity
+various hypotheses were proposed development convolutions active growth pressure friction expanding cortex tangentially against skull underlying brain structures mechanical bulging unequal regional expansion
+other concepts suggested cortical buckling results differential laminar growth convolutions shaped through attached axonal fibers
+more specifically been proposed but not yet rigorously tested 3-d shape brain reflects viscoelastic tension exerted axonal fibers
+according hypothesis global competition mechanical forces results formation gyri between densely linked regions sulci between weakly connected unconnected regions
+axonal tension hypothesis particularly attractive since implies characteristic cortical morphology arises automatically interconnections different cortical areas without need individual specification convolutions
+moreover cortical folding through axonal tension implicitly achieves desirable reduction volume cortical fibers 
+mechanical factors been invoked most models development cortical convolutions but see also discussion active growth convolutions
+mechanical forces may also role observed trends laminar cortical morphology deformation neurons blood vessels different parts cortical landscape
+nevertheless rapid progress research into genetic control brain development during recent decades sidelined mechanical concepts favor genetic models explaining morphology convoluted cortex
+beause apparent complexity cortical morphology fact many aspects cortical development still poorly understood there great need establishing systematic reliable quantitative data architecture brain order evaluate different morphological concepts
+here address two questions related role mechanical factors cortical morphology: overall pattern connections adult convoluted cortex consistent hypothesis axonal tension underlies formation cortical convolutions
+systematic variations adult cortical architecture related cortical convolutions
+both questions addressed through analysis quantitative data connections architecture prefrontal cortex adult nonhuman primates
+quantitative tract tracing animals convoluted cortex offers most detailed reliable information currently available about density trajectories cortical projections
+retrograde tract tracing particular ideal purpose because each projection neuron labeled transport tracer through individual axons injection site back parent cell body
+count labeled neurons therefore provides good estimate number axons link given pair cortices
+over last two decades systematically accumulated quantitative data connections prefrontal cortex gyrencephalic nonhuman primate rhesus monkey
+addition obtained quantitative architectonic data all prefrontal areas same species
+using databases provide quantitative evidence consistent key role mechanical factors three interrelated aspects cortical morphology: formation cortical convolutions through axonal tension; shaping laminar morphology through cortical folding; nonuniform distribution neurons cortical layers may result interaction tensile compressive folding forces neuronal migration during development
+some findings were previously reported conference proceedings 

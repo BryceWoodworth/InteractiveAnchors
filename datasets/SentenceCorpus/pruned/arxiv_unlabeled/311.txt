@@ -1,0 +1,91 @@
+
+one most popular algorithms clustering space means means difficult analyze few theoretical known about particularly when data
+paper literature behavior means data
+particular study case when each distributed different other words when input mixture
+analyze three aspects means algorithm under assumption
+first show when input mixture two means algorithm means mixture components
+second show exact expression convergence our means algorithm when input very large number samples mixture
+our analysis does not require any lower bound between mixture components
+finally study sample mixture show bound number samples required means close true solution
+sample increasing data between means
+our bound show lower bound any algorithm two our lower bound case when between probability two distributions small sample means
+introduction
+one most popular algorithms clustering space means algorithm simple algorithm input points convergence
+like many algorithms means difficult analyze few theoretical known about
+there been three work means algorithm
+first quality solution produced means comparison optimal solution
+while been general quality solution conditions under means optimal solution data not
+second work number required means shows there exists set points means many points
+analysis bound been but bound still much higher than what observed practice where number
+moreover analysis bound small arbitrary question whether one convergence still
+third question considered statistics literature statistical means
+input some simple distribution means then how many samples required means
+there other consistent better sample
+paper study all three aspects means behavior means clusters
+data mixture mixture weights
+sample mixture first probability then random sample
+clustering data then problem learning mixture here given only ability sample mixture our goal learn parameters each well determine each sample
+our results follows
+first show when input mixture two means algorithm means
+second show exact expression convergence means algorithm when input large number samples mixture two
+our analysis shows dimension increasing between mixture components
+finally address sample mixture show bound number samples required means close true solution
+sample increasing data between means distributions
+our bound show lower bound any algorithm two our lower bound case when between probability two distributions small sample means
+make some towards means more general case show if our means mixture then vector means
+key our analysis novel potential function minimum between means normal means
+show our means convergence rates sample rate potential
+one most popular algorithms clustering space means algorithm
+means algorithm initial input points convergence
+paper perform probabilistic analysis means when applied problem learning mixture models
+mixture model distributions weights
+sample mixture obtained probability then random sample
+given only ability sample mixture problem learning mixture parameters distributions mixture b samples according source distribution
+most previous work analysis means studies problem statistical setting shows consistency when number samples tend
+means algorithm also related algorithm learning mixture models main difference between means being allows sample multiple clusters means does not
+most previous work view optimization procedure over likelihood study its convergence properties likelihood
+paper perform probabilistic analysis means when input generated mixture
+instead likelihood examine input use structure show algorithm makes towards correct solution each high probability
+previous probabilistic analysis due when input mixture two samples same space than two samples different
+contrast our analysis much while still two more under any
+moreover number samples required means work our results } more specifically our results follows
+perform probabilistic analysis our version means means when very large number samples mixture two weights
+means algorithm between two clusters always use between normal mean mixture component measure potential each
+note when at correct solution
+first section consider case when at our very large number samples mixture weights
+show exact relationship between any value
+using relationship approximate rate convergence means different values well different
+our means very fast at least constant factor high each when one far actual solution when actual solution very close
+next section sample our means when input mixture two
+case two weight our results when when samples used each means algorithm makes at same rate section
+sample complexity lower bound learning mixture well experimental results
+when our means makes each when number samples at least
+then section provide lower bound sample any algorithm learning mixture two standard weight
+show when any algorithm requires samples vector within true solution where constant
+means sample when
+finally section examine performance means when input mixture
+show case normal two clusters vector means mixture components
+rate convergence very similar bounds section related work } means algorithm been analysis settings shows means may even complexity bound performance means when data however their condition very different moreover they examine conditions under found
+statistics literature means algorithm been shown consistent shows means objective function between each point consistent given many samples
+means objective one cannot always exact solution
+two either convergence rate exact sample means
+there been two previous work theoretical analysis algorithm related means
+learning only difference between means uses whereas means does not
+first learning optimization problem optimization procedure over likelihood
+they analyze structure likelihood convergence
+optimization procedure parameter convergence if where estimate at time step using samples maximum likelihood using samples some fixed constant between
+contrast our analysis also when one far
+second work probabilistic analysis due they show correct samples when input generated mixture
+their analysis work they require mixture components two samples same little space than two samples different
+contrast our analysis when much smaller
+sample learning been previously studied literature but not context means provides algorithm mixture two binary distributions weights when between mixture components at least constant so long samples available distributions standard at most their algorithm similar means some but different they use different sets each very their analysis
+show algorithm mixture binary distributions when distributions small probability sample size at least
+shows at least samples required learn mixture two one dimension
+note although our lower bound seems bound not actually case
+our lower bound number samples required find vector at vector means
+however order constant points only need find vector at vector means
+since goal simply constant samples their bound less than
+addition theoretical analysis there been very experimental work due studies sample mixture
+they problem learning three depending number samples less than about samples learning more than about samples between but sense
+finally there been work provides algorithms different means learn under certain conditions see example
+two our result best results terms smaller sample

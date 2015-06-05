@@ -1,0 +1,53 @@
+
+behavioral evidence suggests humans make optimal decisions despite uncertainty tasks
+key question how populations neurons probabilistic
+article develop framework optimal integration memory dynamic environment
+propose probability distributions networks neurons
+result networks cues state stimulus evidence over much than time constant single neurons
+propose population responses memory states represent probability distributions not only single stimulus values
+patterns activity make relevant information available neurons within their short time integration
+model neurons predictive only firing account new information not yet been
+thus times signal prediction error rate times considered random samples underlying firing rate
+patterns same information
+results correlated initial conditions but robust even high levels neural noise
+one observed but cannot noise
+optimal inference
+contrast show models perform when neurons
+introduction
+our us information about world noise
+taking uncertainty into account interaction our environment
+studies shown humans optimal bayesian they cues their own predictions prior order expected outcome their actions
+several theoretical neural mechanisms could probabilistic
+variables activity populations neurons whose activity highly variable correlated
+individual while distributed
+characteristics models probability distributions their average firing rates
+previous studies examined how information population how how population combined
+particular optimal cue combination simple linear combination neural family neural including noise
+however most studies dimension time
+most stimuli natural environment requires combined
+inference thus cannot based rates measured during fixed temporal used most previous population
+at same time decisions typically require integration evidence over time constant single neurons
+how could time scale tasks
+problem even more if decision compared information
+variables direction motion stimulus memory significant time even input
+neural memory appear neural activity brain exhibit firing statistics similar those found responses
+activity been stable state neural network dynamics
+however patterns activity only represent single stimulus value
+example position object position stable activity
+would though information about cue cannot used cue combination decision making
+instead stimuli same input probability distribution
+question how probability distributions population neurons remains
+here approach using new population context temporal integration
+consider rather than rates basic probabilistic representation
+show how networks neurons construct probability distributions dynamic variables
+neurons results between integration evidence prediction
+therefore predictive only if its input cannot predicted its own its past activity
+demonstrate networks without information stimulus dynamics even input over much than neural time
+framework thus provides first theory optimal integration memory
+contrast rate models neurons model does not require large levels noise stochastic
+similar neurons model neurons activity
+times variable despite rule
+however contrast rate each
+does not intrinsic source noise requires but predictive
+while times at level single they represent probability distribution at level population
+leads us signal noise neural responses

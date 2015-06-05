@@ -1,0 +1,50 @@
+ 
+extracellular matrix plays critical role orchestrating events necessary wound healing muscle repair morphogenesis new blood vessel growth cancer invasion
+study investigate influence extracellular matrix topography coordination multi-cellular interactions context angiogenesis
+do validate our spatio-temporal mathematical model angiogenesis against empirical data within framework vary density matrix fibers simulate different tissue environments explore possibility manipulating extracellular matrix achieve pro anti-angiogenic effects
+model predicts specific ranges matrix fiber densities maximize sprout extension speed induce branching interrupt normal angiogenesis independently confirmed experiment
+then explore matrix fiber alignment key factor contributing peak sprout velocities mediating cell shape orientation
+also quantify effects proteolytic matrix degradation tip cell sprout velocity demonstrate degradation promotes sprout growth at high matrix densities but inhibitory effect at lower densities
+our results discussed context ecm targeted pro anti-angiogenic therapies tested empirically
+ introduction 
+extracellular matrix major component extravascular tissue region stroma plays central role morphogenesis including embryogenesis tissue repair wound healing new blood vessel growth cancer invasion
+large body research concentrated understanding how cell-ecm interactions impact regulate morphogenic processes
+results investigations illuminate active role ecm transmitting biochemical signals mechanical forces mediate cell survival phenotype shape orientation
+area continues target intense investigation
+cells equipped upregulate transmembrane receptors enable them receive signals interact their environment
+integrins one receptor stimulated various proteins ecm
+endothelial cells attach directly collagen fibers ecm through formula integrin receptors
+biochemical signals originating within cell affect integrin-ligand binding affinity consequently modulate cellular adhesion matrix
+focal adhesion complexes form bind directly cell's cytoskeleton
+once assembled focal adhesion anchors cell ecm used cell movement
+focal adhesions assembled disassembled dynamically facilitate cell migration
+migratory guidance via focal adhesion binding sites ecm phenomenon referred contact guidance plays key role guiding new vessel growth 
+physical properties ecm density heterogeneity stiffness affect cell behavior also area current investigation
+matrigel popular gelatinous protein substrate vitro experiments angiogenesis largely composed collagen laminin contains growth factors all provide environment conducive cell survival
+experiments endothelial cells matrigel increasing stiffness gel disrupting organization cellular cytoskeleton inhibits formation vascular cell networks
+cells respond alterations mechanical properties ecm example upregulating their focal adhesions stiffer substrates
+anchorage-dependent cells including endothelial cells increasing stiffness ecm therefore results increased cell traction slower migration speeds
+measurements matrigel stiffness function density show positive relationship between two mechanical properties
+density increases so does matrix stiffness
+light two findings not surprising experimental study also shows slower cell migration speeds matrix density increases
+moreover matrices higher fiber density transfer less strain cell experiments endothelial cells cultured collagen gels demonstrate directional sprouting called branching induced collagen matrix tension
+thus via integrin receptors mechanical properties ecm influence cell-matrix interactions modulate cell shape cell migration speed formation vascular networks
+understanding how individual cells interpret biochemical mechanical signals ecm only part whole picture
+morphogenic processes also require multicellular coordination
+addition guidance cues cells receive ecm they also receive signals each other
+during new vessel growth cells adhere each other through cell-cell junctions called cadherins order migrate cells must coordinate integrin mediated focal adhesions cell-cell bonds
+process referred collective cluster migration
+during collective migration cell clusters often organize two-dimensional sheets 
+cells also ability condition ecm invasion producing proteolytic enzymes degrade specific ecm proteins
+addition cells synthesize ecm components collagen fibronectin further reorganize ecm forces they exert during migration
+collagen fibrils align response mechanical loading cells reorient direction applied load
+tractional forces exerted vascular endothelial cells matrigel cause cords tracks aligned fibers form promoting cell elongation motility
+more experimental data amassed ecm emerging vital component morphogenic processes
+work extend our cellular model angiogenesis validate against empirical measurements sprout extension speeds
+then use our model investigate effect ecm topography vascular morphogenesis focus mechanisms controlling cell shape orientation sprout extension speeds sprout morphology
+show dependence sprout extension speed morphology matrix density fiber network connectedness fiber orientation
+notably observe varying matrix fiber density affects likelihood capillary sprout branching
+model predicts optimal density capillary network formation suggests matrix heterogeneity mechanism sprout branching
+also identify unique ranges matrix density promote sprout extension interrupt normal angiogenesis show maximal sprout extension speeds achieved within density range similar density collagen found cornea
+finally quantify effects proteolytic matrix degradation tip cell sprout velocity demonstrate degradation promotes sprout growth at high densities but inhibitory effect at lower densities
+based findings suggest discuss several ecm targeted pro anti-angiogenesis therapies tested empirically

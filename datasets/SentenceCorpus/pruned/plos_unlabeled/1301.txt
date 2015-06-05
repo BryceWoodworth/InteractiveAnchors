@@ -1,0 +1,50 @@
+
+yeast environmental
+through regulation both gene expression protein activity various physiological
+evolutionary specific gene expression adaptive response each environmental change
+although some specific likely others common various situations
+evolutionary might properties proteins whose gene expression during adaptive responses
+test hypothesis analyze existing yeast data responses investigate how several properties proteins changes gene expression
+our results consistent protein during adaptive response yeast various types
+two groups adaptive responses respect how cells protein
+one group significant towards large proteins small ones observed
+other group find no
+results consistent being important evolution first group responses
+introduction
+organisms environmental
+their against changes adaptive response involving at different cellular levels
+appropriate adaptive responses require signaling changes activity proteins changes transcription genes etc
+many cellular any adaptive response due need new protein while other protein not required new conditions
+changes mechanisms processes allow cell function under environments
+various functional physiological constraints
+functional result specific cell environment
+other hand physiological constraints defined within cell activity its component functional
+global point view adaptive responses seen problem because cells appropriate responses different types while different its each those responses
+example cells increase concentration specific proteins while concentration other components increase concentration
+increase could cell increase levels
+other functional constraints likely provide evolutionary specific gene expression leads adaptive responses
+thus important identify functional quantitative physiological constraints may significantly adaptive responses
+among others important role cells
+several consistent metabolic cost been identified properties set proteins expressed when cells
+example genes proteins highly under conditions pattern well relative yeast s
+another found genes highly expressed under conditions sequence bias
+metabolic cost further observed relative amino proteins under same conditions
+proteins amino
+example general bias long genes
+bias probability errors reduced during
+biases suggest overall possible may significantly increase cellular
+view consistent observation small changes gene expression levels protein influence specific e
+body results strongly notion metabolic cost properties cells environmental
+thus one might if metabolic cost also important factor evolution adaptive responses conditions
+evolutionary might adaptive responses require use higher cell adaptation
+three cases been reported due high energy
+given protein one cell metabolic cost might properties proteins whose expression change during adaptation
+therefore here following questions
+there consistent metabolic cost proteins during adaptive responses
+one find general properties proteins expression patterns genes involved adaptive response different environmental
+if so what physiological constraints consistent those
+address questions how value several properties proteins related changes gene expression levels during various environmental changes
+find genes whose expression during different types adaptive responses tend proteins small while genes whose expression during same responses tend proteins large
+consistent metabolic cost proteins
+more significant adaptive responses where changes gene expression levels affect large genome
+our knowledge first general global been identified properties proteins involved adaptive responses

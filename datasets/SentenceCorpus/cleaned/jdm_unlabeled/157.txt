@@ -1,0 +1,66 @@
+ 
+analyze behavior two basic classes decision tasks description-based experience-based
+particular compare prediction power number decision learning models both kinds tasks
+unlike most previous studies focus individual rather than aggregate behavioral characteristics
+carry out experiment involving battery both description experience-based choices between two mixed binary prospects made each participants employ number formal models explaining predicting participants' choices prospect theory pt expectancy-valence model evl three combinations well-established models
+document pt evl models best predicting people's decisions description experience-based tasks respectively not surprising two models designed specially kinds tasks
+furthermore find models involving linear weighting gains losses perform better both kinds tasks point view generalizability individual parameter consistency
+therefore conclude overall when both prospects mixed assumption diminishing sensitivity does not improve models' prediction power individual decision-makers
+finally some models' parameters document consistency at individual level between description experience-based tasks
+ introduction 
+all our lives make decisions
+choose where go vacation when replace our old car pair shoes buy
+fact each step make our life result decision made
+even if do nothing probably our personal choice
+course would happy if could always make correct decisions order maximize resulting utility yet sometimes fail result objectively insufficient information subjective behavioral biases
+therefore understanding systematically describing people's behavior extremely important both predicting their future decisions potentially improving decision quality
+decisions make may classified into two main categories
+when study newspaper daily weather forecasts drug package inserts mutual funds' brochures enjoy convenient descriptions risky prospects including probabilities possible outcomes
+respectively decisions based statistical descriptions called description-based decisions
+when decide whether backup their computer's hard drive cross busy street go blind date put belt during driving typically denied benefit convenient descriptions possible outcomes example probabilities hard disk failure accident meeting desirable partner blind date never explicitly provided
+many decisions all rely our own past experience
+respectively decisions based past personal experience called experience-based decisions
+tasks typically studied under description-based paradigm tend focus one-shot decisions based detailed information concerning relevant outcome distributions
+tasks typically studied under experience-based paradigm do not provide objective prior information concerning payoff distributions could tasks' drawback
+other hand decisions repeated thus decision-makers get chance learn experience
+distinction between risky description-based experience-based decisions attracted recent attention because ostensibly same information lead different choices depending how information acquired
+difference sometimes referred description-experience gap usually attributed difference treatment rare outcomes two paradigms
+one hand description-based tasks according presentation effect low-probability events likely overweighted if their probabilities explicitly presented
+other hand experience-based tasks low-probability outcomes may underweighted either because recency effect-since low-probability events not likely occur recently availability personal experience tends reduce weighting events simply because small sample size may cause rare events not occur at all during relatively short intervals time
+example description-experience gap may cite classic example given weber consider decision whether vaccinate child against diphtheria tetanus pertussis dtp
+parents who research side effects dtp vaccine consulting national immunization programweb site brochure provided their pediatrician will learn up number child out number number will suffer high fever about number child out number number will suffer seizures result immunization
+increasing number parents after reading information decide not immunize their child
+although doctors same statistics at their disposal they also access information not available parents-namely personal experience gathered across many patients
+information tells them vaccination very unlikely result side effects
+few doctors will encountered one rare cases high fever seizures
+if they encountered one experience dwarfed hundreds memories side-effect free immunizations
+one sources differences between doctors vaccine resisters may result differences weight given rare events like likelihood seizure function whether likelihood acquired through experience statistical description
+naturally occurring situations decision-makers often base their decisions both descriptions their own experience
+laboratory settings possible construct choice tasks based purely descriptions experience
+our major goal determine models best explain behavior two classes decision tasks
+unlike previous studies focusing aggregate behavioral characteristics groups people our study analyzes choice evaluation parameters individual decision-makers
+moreover examine connection between choices same decision-makers description experience-based tasks
+carry out experiment involving battery description-based experience-based choices
+so our decision tasks more representative real-world situations each choices made between two binary prospects involving probabilities both gains losses
+examine common behavioral characteristics kinds tasks employ number formal decision learning models incorporating number factors parameters namely loss aversion diminishing sensitivity probability weighting choice consistency degree randomness choice recency tendency relate past information current choice
+first use two well-established models i prospect theory pt was developed mainly description-based tasks ii expectancy-valence model evl was designed specially experience-based tasks
+addition create three combinations basic models find out what parameters would most suitable describing human behavior at individual level comparing same person's choices two types tasks i pt-no-s model similar pt without assumption diminishing sensitivity gains losses ii evl-s model similar evl but assumption diminishing sensitivity iii evl-pt model utility function similar pt except loss aversion parameter
+description-based tasks order account presentation effect learning model should contain possibility non-linear weighting explicitly stated probabilities
+therefore employ models possessing probability weighting parameter pt pt-no-s kind tasks
+other hand order reflect recency effect learning models dealing experience-based decisions should contain recency parameter
+evl evl-s evl-pt models meet criterion
+first all expect classical pt evl models were specially designed description experience-based tasks respectively will prove more suitable than their possible combinations respective tasks
+our findings based models' fit support expectation
+furthermore expect people tend behave consistently terms decision-making model parameters
+thus expect better fitting models should also provide higher individual parameter consistency
+other words hypothesize individual who according certain model reveals relatively high low values certain decision parameters certain task should reveal according same model relatively high low values same parameters other tasks same choice paradigm
+additionally expect contribution diminishing sensitivity assumption explaining decision-makers' behavior our experiment may rather limited due mixed nature prospects employ
+former surmise partially supported since description-based tasks combined pt-no-s model found outperform pt model terms parameter consistency
+finding line other results indicating models involving linear weighting gains losses perform better both kinds tasks
+finally expect individuals' behavior should also consistent between different choice paradigms individual parameters having similar functionality description experience-based tasks should positively correlated
+hypothesis only partially supported suggesting widely-used learning models may still need further improvement
+rest paper structured follows
+section number present models decision-making employ
+section number describe our experimental design research approach
+section number describes empirical tests perform provides results
+section number concludes provides brief discussion

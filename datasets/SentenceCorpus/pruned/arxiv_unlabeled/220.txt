@@ -1,0 +1,35 @@
+
+study regret optimal strategies online convex optimization games
+using theorem show optimal regret setting related behavior empirical algorithm stochastic process maximum over distributions action sequence difference between expected losses empirical loss
+show optimal regret natural since over actions expected set probability distributions
+use expression obtain lower bounds regret optimal strategy variety online learning problems
+our method provides bounds without need construct learning lower bounds provide optimal strategies
+introduction
+within theory learning two particular significant over past statistical learning online learning
+typically study generalization bounds convergence rates complexity measures function under assumption examples typically
+manner some underlying distribution
+under assumption statistical learning its statistics probability theory one argue main questions now relatively
+online learning while having its early recently popular area research
+one might argue assumptions lack make online learning
+indeed often assumed observed data generated rather than being some fixed distribution
+moreover contrast statistical learning sequential nature online problem change its strategy interaction
+no learning seems more difficult than its statistical
+case analysis does provide modeling learning scenarios network applications detection network etc interest area
+upon review central results online found recent one cannot help but between performance online algorithms under stochastic assumptions
+however
+some important problems bounds learning theory only amount than bounds some stochastic strategies nature
+paper between online learning statistical learning
+using theorem show optimal regret algorithm online convex optimization difference between expected losses empirical loss under choice stochastic process data
+leads lower bounds optimal regret exhibit several results statistical learning
+online convex optimization game
+at each predicts vector some convex set convex function loss at chosen point
+order relationship stochastic setting choice choice
+note instance
+convex class functions set choices
+his choices set
+also define continuous loss function assume convex second
+associated loss class
+let set all probability distributions
+sequence
+distribution its distributions
+online convex optimization interaction described follows convex optimization game } at each time step loss } objective out many online learning scenarios including prediction data sequential forecasting information see example

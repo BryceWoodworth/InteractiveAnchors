@@ -1,0 +1,47 @@
+ 
+recognition heuristic rh  predicts non-compensatory reliance recognition comparative judgments  attracted much research some disagreement at times
+most studies dealt whether under conditions rh truly used paired-comparisons
+however even though rh precise descriptive model there been less attention concerning precision methods applied measure rh-use
+current work i provide overview different measures rh-use tailored paradigm natural recognition emerged preferred way studying rh
+measures compared respect different criteria  particular emphasis how well they uncover true use rh
+end both simulations re-analysis empirical data presented
+results indicate adherence rate  been pervasively applied measure rh-use  severely biased measure
+alternative recently developed formal measurement model emerges recommended candidate assessment rh-use
+ introduction 
+past decade since was baptized recognition heuristic inspired much innovative research
+been studied extensively normative descriptive point view provoked some controversial debate at times
+many other interesting investigations notwithstanding majority empirical studies dealt descriptive question whether what extent recognition cue considered isolation  how often rh actually used
+whereas some aimed show rarely case altogether others concentrated bounding conditions determinants rh-use possible individual differences tests alternative cognitive process models
+clearly rh precise model makes exact predictions about choices underlying processes
+however gain insight about whether under conditions predictions actually correct measurement must also precise
+although many agree promising fruitful research strategy uncover situational individual determinants fast-and-frugal heuristics broder press yet much less clear how study measure rh-use
+what may at first glance appear rather trivial question turns out represent substantial challenge my view source much controversy surrounding rh
+so far emphasis been put paradigms materials appropriate studying rh
+indeed pachur et al provided extensive discussion questions
+they suggested no less than eight critical methodological necessities adequate investigation test rh should their view comprise
+also they reviewed extant literature argued many previously published studies yield drawbacks respect eight points
+however even if their list studies problematic features had not been somewhat incomplete does bear dilemma proposed necessities if taken seriously leave rather small niche empirical investigations rh worse yet severe problems when attempting measure rh-use
+i will sketch problem what follows
+central point pachur et al argue rh more likely used when objects naturally recognized cues must retrieved memory
+line assumption inferences memory more often based simple heuristics assumption received support past
+central argument favoring naturally recognized objects rh hinges decision makers acquiring recognition-criterion-relation through experience thus learning trust recognition when appropriate
+those who  like myself  buy into arguments rule out teaching participants artificial objects providing them cues faced severe obstacle how measure use rh when there no control over participants' cue knowledge
+assume participant faced judgment two cities larger recognizes one but not other
+if she provides judgment recognized object higher criterion value choice line rh produced
+however cases adherence cannot imply recognition was considered isolation thus do not provide information about use rh
+more generally participant may adhered prediction cue question actually considering some entirely different piece information points same direction hilbig press
+case comparing recognized unrecognized city example decision maker may chosen recognized city based knowledge city international airport large university like
+thus so long there no control over participants' further knowledge specific paired-comparisons adherence prediction rh non-diagnostic
+broder schiffer put simple counting choices compatible model tells us almost nothing about underlying strategy p number
+best remedy caveat course unconfound recognition further knowledge if participants taught certain objects cue patterns  typically done when studying other fast-and-frugal heuristics alternative approaches  experimenter full control investigate whether additional cues alter degree participants adhere rh
+indeed unconfounding different cues vital when considering adherence simple one-cue strategies
+moreover full experimental control over cue patterns allows application sophisticated methods strategy classification broder schiffer proposed bridge gap between theories multi-attribute decision making empirically observed choices means formal measurement model
+bayesian approach provides information about decision strategy most likely generated data vector
+recently approach been extended considering choice outcomes response latencies confidence ratings
+however both elegant approaches necessitate teaching providing all cue patterns set artificial objects so discriminate between different strategies
+clearly at odds central methodological recommendations pachur et al who call using naturally recognized objects without teaching providing any further information
+overall paradigm most favored pachur colleagues only three pieces information available researchers must base assessment whether rh was used i objects were presented given trial including their true position criterion dimension ii objects recognized participant iii object chosen judged higher criterion value
+how based pieces information measure rh-use
+so far three classes measures been applied viz
+adherence rate enhanced measures based adherence rates formal measurement model
+what follows i will introduce measures briefly discuss their theoretical advantages limitations present simulations re-analysis existing empirical data evaluate them

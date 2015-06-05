@@ -1,0 +1,45 @@
+
+evolution world us
+at core every evolutionary process population individuals
+outcome evolutionary process depends population structure
+here provide general formula evolutionary dynamics wide class populations
+class recently introduced games space evolutionary set theory
+there local interactions relative individuals but require global means all individuals
+study two strategies context evolutionary game determine strategy limit selection
+derive formula structure provide method efficient numerical
+introduction
+constant selection individuals does not depend population
+general however individuals affected what others
+then game theory evolutionary game theory
+latter study frequency dependent individuals typically assumed linear function strategies population
+population dynamic changes population over
+there also close relationship between evolutionary game theory species depends its own other species
+classical approach evolutionary game dynamics based large populations
+population any two individuals likely
+some recent approaches consider stochastic evolutionary dynamics populations finite size
+evolutionary game dynamics also affected population structure
+example population typically evolution while population
+there also long spatial models population theory
+evolutionary graph theory spatial games studied general graphs
+graph who physical structure social networks
+payoff individuals derived local interactions their graph
+moreover individuals their
+two processes also described graphs
+games space represent another type spatial model evolutionary dynamics idea based
+addition behavioral strategies individuals other features identification
+one version model individuals only those who same
+approach lead clustering space evolution
+evolutionary set theory another type spatial model
+each individual several sets
+at particular time some sets many while others
+individuals others same set derive payoff
+individuals their set strategies global comparison others
+strategies sets more
+therefore population structure described graph
+evolutionary dynamics set populations over
+all three evolutionary graph theory games space evolutionary set theory individuals local interactions
+evolutionary graph theory there also local individuals learn their graph individuals
+evolutionary set theory however global individuals learn all others population their strategies set
+global also feature model games space
+approach presented paper requires global
+therefore our result evolutionary set theory games space but does not apply evolutionary graph theory

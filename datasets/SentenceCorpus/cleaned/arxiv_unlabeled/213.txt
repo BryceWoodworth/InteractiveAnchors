@@ -1,0 +1,56 @@
+ 
+detecting outliers grossly different inconsistent remaining dataset major challenge real-world kdd applications
+existing outlier detection methods ineffective scattered real-world datasets due implicit data patterns parameter setting issues
+define novel local distance-based outlier factor ldof measure {outlier-ness} objects scattered datasets addresses issues
+ldof uses relative location object its neighbours determine degree object deviates its neighbourhood
+properties ldof theoretically analysed including ldof's lower bound its false-detection probability well parameter settings
+order facilitate parameter settings real-world applications employ top technique our outlier detection approach where only objects highest ldof values regarded outliers
+compared conventional approaches top knn top lof our method top ldof more effective at detecting outliers scattered data
+also easier set parameters since its performance relatively stable over large range parameter values illustrated experimental results both real-world synthetic datasets
+ introduction 
+all data mining techniques vogue outlier detection comes closest metaphor mining nuggets information real-world data
+concerned discovering exceptional behavior certain objects
+outlier detection techniques widely been applied medicine e g adverse reactions analysis finance e g financial fraud detection security e g counter-terrorism information security e g intrusions detection so
+recent decades many outlier detection approaches been proposed broadly classified into several categories: distribution-based  depth-based  distance-based e g knn  cluster-based e g dbscan density-based e g lof methods
+however methods often unsuitable real-world applications due number reasons
+firstly real-world data usually scattered distribution where objects loosely distributed domain feature space
+`local' point view objects cannot represent explicit patterns e g clusters indicate normal data `behavior'
+however `global' point view scattered objects constitute several {mini-clusters} represent pattern subset objects
+only objects do not belong any other object groups genuine outliers
+unfortunately existing outlier definitions depend assumption most objects crowded few main clusters
+they incapable dealing scattered datasets because {mini-clusters} dataset evoke high false-detection rate low precision
+secondly difficult current outlier detection approaches set accurate parameters real-world datasets
+most outlier algorithms must tuned through {trial-and-error}
+impractical because real-world data usually do not contain labels anomalous objects
+addition hard evaluate detection performance without confirmation domain experts
+therefore detection result will uncontrollable if parameters not properly chosen
+alleviate parameter setting problem researchers proposed top style outlier detection methods
+instead binary outlier indicator top outlier methods provide ranked list objects represent degree {`outlier-ness'} each object
+users domain experts {re-examine} selected top where typically far smaller than cardinality dataset anomalous objects locate real outliers
+since detection procedure provide good interaction between data mining experts users top outlier detection methods become popular real-world applications
+distance-based top { nearest} neighbour distance typical top style outlier detection approach
+order distinguish original {distance-based} outlier detection method  denote { nearest} neighbour distance outlier {top knn} paper
+{top knn} outlier distance object its nearest neighbour denoted { distance} short indicates {outlier-ness} object
+intuitively larger { distance} higher {outlier-ness} object {top knn} outlier regards objects highest values { distance} outliers
+{density-based} outlier local outlier factor lof  was proposed same year top knn
+lof outlier factor assigned each object w r t its surrounding neighbourhood
+outlier factor depends how data object closely packed its locally reachable neighbourhood
+since lof uses threshold differentiate outliers normal objects  same problem parameter setting arises
+lower {outlier-ness} threshold will produce high false-detection rate while high threshold value will result missing genuine outliers
+recent real-world applications researchers found more reliable use lof top manner  i e \ only objects highest lof values will considered outliers
+hereafter call top lof
+besides top knn top lof researchers proposed other methods deal real-world data {connectivity-based} cof  resolution {cluster-based} {rb-outlier}
+although existing top style outlier detection techniques alleviate difficulty parameter setting detection precision methods paper take {top knn} top lof typical examples low scattered data
+section will discuss further problems top knn top lof
+paper propose new outlier detection definition named local distance-based outlier factor ldof sensitive outliers scattered datasets
+ldof uses relative distance object its neighbours measure how much objects deviate their scattered neighbourhood
+higher violation degree object more likely object outlier
+addition theoretically analyse properties ldof including its lower bound false-detection probability provide guidelines choosing suitable neighbourhood size
+order simplify parameter setting real-world applications top technique employed our approach
+validate ldof perform various experiments both synthetic real-world datasets compare our outlier detection performance top knn top lof
+experimental results illustrate our proposed top ldof represents significant improvement outlier detection capability scattered datasets
+paper organised follows: section illustrate discuss problems top knn top lof real-world data
+section formally introduce outlier definition our approach mathematically analyse properties our {outlier-ness} factor section
+section top ldof outlier detection algorithm described together analysis its complexity
+experiments reported section show superiority our method previous approaches at least considered datasets
+finally conclusions presented section

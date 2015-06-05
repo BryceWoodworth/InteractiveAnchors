@@ -1,0 +1,31 @@
+ 
+paper focuses problem kernelizing existing supervised mahalanobis distance learner
+following features included paper
+firstly three popular learners namely ``neighborhood component analysis'' ``large margin nearest neighbors'' ``discriminant neighborhood embedding'' do not kernel versions kernelized order improve their classification performances
+secondly alternative kernelization framework called ``kpca trick'' presented
+implementing learner new framework gains several advantages over standard framework eg no mathematical formulas no reprogramming required kernel implementation framework avoids troublesome problems singularity etc
+thirdly while truths representer theorems just assumptions previous papers related ours here representer theorems formally proven
+proofs validate both kernel trick kpca trick context mahalanobis distance learning
+fourthly unlike previous works always apply brute force methods select kernel investigate two approaches efficiently adopted construct appropriate kernel given dataset
+finally numerical results various real-world datasets presented
+ introduction 
+recently many mahalanobis distance learners invented \shortcite{chen:cvpr05,goldberger:nips05,weinberger:nips06,yang:aaai06,sugiyama:icml06,yan:pami07,wei:icml07,torresani:nips07,xing:nips03}
+recently proposed learners carefully designed so they handle class problems where data one class form multi-modality where classical learners principal component analysis pca fisher discriminant analysis fda cannot handle
+therefore promisingly new learners usually outperform classical learners experiments reported recent papers
+nevertheless since learning mahalanobis distance equivalent learning linear map inability learn non-linear transformation one important limitation all mahalanobis distance learners
+research mahalanobis distance learning just recently begun several issues left open 1 some efficient learners do not non-linear extensions 2 kernel trick  standard non-linearization method not fully automatic sense new mathematical formulas derived new programming codes implemented; not convenient non-experts 3 existing algorithms ``assume'' truth representer theorem \shortcite[chapter 4]{scholkopf:book01}; however our knowledge there no formal proof theorem context mahalanobis distance learning 4 problem how select efficient kernel function been left untouched previous works; currently best kernel achieved via brute-force method cross validation
+paper highlight following key contributions: three popular learners recently proposed literatures namely neighborhood component analysis nca \shortcite{goldberger:nips05} large margin nearest neighbors lmnn \shortcite{weinberger:nips06} discriminant neighborhood embedding dne \shortcite{wei:icml07} kernelized order improve their classification performances respect knn algorithm
+kpca trick framework presented alternative choice kernel-trick framework
+contrast kernel trick kpca trick does not require users derive new mathematical formulas
+also whenever implementation original learner available users not required re-implement kernel version original learner
+moreover new framework avoids problems singularity eigen-decomposition provides convenient way speed up learner
+two representer theorems context mahalanobis distance learning proven
+our theorems justify both kernel-trick kpca-trick frameworks
+moreover theorems validate kernelized algorithms learning mahalanobis distance any separable hilbert space also cover kernelized algorithms performing dimensionality reduction
+problem efficient kernel selection dealt
+firstly investigate kernel alignment method proposed previous works \shortcite{lanckriet:jmlr04,zhu:nips05} see whether appropriate kernelized mahalanobis distance learner not
+secondly investigate simple method constructs unweighted combination base kernels
+theoretical result provided support simple approach
+kernel constructions based our two approaches require much shorter running time when comparing standard cross validation approach
+knn already non-linear classifier there some doubts about usefulness kernelizing mahalanobis distance learners \shortcite[pp 8]{weinberger:nips06}
+provide explanation conduct extensive experiments real-world datasets prove usefulness kernelization

@@ -1,0 +1,67 @@
+ 
+goal present paper provide systematic comprehensive study rational stochastic languages over semiring
+rational stochastic language probability distribution over free monoid rational over  generated multiplicity automata parameters
+study relations between classes rational stochastic languages
+define notion residual stochastic language use investigate properties several subclasses rational stochastic languages
+lastly study representation rational stochastic languages means multiplicity automata
+ introduction 
+probabilistic grammatical inference data often arise form finite sequence words over some predefined alphabet
+words assumed independently drawn according fixed but unknown probability distribution over
+probability distributions over free monoids called stochastic languages
+usual goal grammatical inference try infer approximation distribution some class probabilistic models probabilistic automata
+probabilistic automaton pa composed structure  finite automaton nfa parameters associated states transitions represent probability state initial terminal probability transition chosen
+easily shown probabilistic automata same expressivity hidden markov models hmm heavily used statistical inference
+given structure probabilistic automaton sequence words  computing parameters maximize likelihood np-hard
+practical cases however algorithms based e m  expectation-maximization  method used compute approximate values
+other hand inferring probabilistic automaton structure parameters sequence words widely open field research
+most results obtained so far only deal restricted subclasses pa probabilistic deterministic automata pda i e probabilistic automata whose structure deterministic dfa probabilistic residual automata pra i e probabilistic automata whose structure residual finite state automaton rfsa
+other respects noticed stochastic languages particular cases formal power series probabilistic automata also particular cases multiplicity automata  notions been extensively studied field formal language theory
+therefore stochastic languages generated multiplicity automata special cases rational languages
+call them rational stochastic languages
+goal present paper provide systematic comprehensive study rational stochastic languages so bring out properties could useful grammatical inference purpose
+indeed considering objects infer special cases rational languages makes possible use powerful theoretical tools been developed field hence give answers many questions naturally arise when working them: possible decide within polynomial time whether two probabilistic automata generate same stochastic language
+does allowing negative coefficients probabilistic automata extend class generated stochastic languages
+rational stochastic language takes all its values always generated multiplicity automata coefficients
+so forth
+also studying rational stochastic languages themselves considered objects language theory helps bring out notions properties important grammatical inference pespective: example show notion residual language derivative so important grammatical inference  natural counterpart stochastic languages  used express many properties classes stochastic languages
+formal power series take their values semiring : let us denote set all formal power series
+here only consider semirings  
+any semiring  define set rational stochastic languages set stochastic languages over rational languages over
+any two distinct semirings  corresponding sets rational stochastic languages distinct
+show fatou extension stochastic languages means any rational stochastic language over takes its values also rational over
+however not fatou extension stochastic languages: there exists rational stochastic language over takes its values not rational over
+any stochastic language over any word  let us define residual language respect : residual languages clearly stochastic languages
+show residual languages rational stochastic language over also rational over
+residual subsemimodule spanned residual languages any stochastic language may used express rationality : rational iff included finitely generated subsemimodule
+but when positive i e  may happen itself not finitely generated
+study properties two subclasses : set composed rational stochastic languages over whose residual subsemimodule finitely generated set composed rational stochastic languages over finitely many residual languages
+show any two classes fatou extension : any stochastic language resp
+ takes its values element resp
+
+also show any element  there exists unique minimal subset residual languages generates
+then study representation rational stochastic languages means multiplicity automata
+first show set multiplicity automata parameters generate stochastic languages not recursive
+moreover contains no recursively enumerable subset capable generate whole set rational stochastic languages over
+stochastic language formal series two properties: i any word  ii
+show undecidability comes first requirement since second one decided within polynomial time
+show set stochastic languages generated probabilistic automata parameters resp
+ exactly coincides resp
+
+probabilistic automaton called probabilistic residual automaton pra if stochastic languages associated its states residual languages stochastic languages generated
+show set stochastic languages generated probabilistic residual automata parameters resp
+ exactly coincides resp
+
+do not know whether class pra decidable
+however describe two decidable subclasses pra capable generating when : class reduced pra class prefixial pra
+first one provides minimal representation class pra but show membership problem pspace-complete
+second one produces more cumbersome representation but membership problem polynomial
+finally show set stochastic languages generated probabilistic deterministic automata parameters resp
+ exactly coincides  also equal resp
+ also equal 
+recall some properties rational series stochastic languages multiplicity automata section
+define study rational stochastic languages section
+relations between classes rational stochastic languages studied subsection
+properties residual languages rational stochastic languages studied subsection
+characterisation rational stochastic languages terms stable subsemimodule given subsection
+classes defined studied subsection
+representation rational stochastic languages means multiplicity automata given section

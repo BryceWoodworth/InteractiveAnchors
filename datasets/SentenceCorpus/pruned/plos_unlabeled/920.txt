@@ -1,0 +1,38 @@
+
+proteins at one site resulting functional change at second site
+communication proteins upon networks
+argue networks necessary communication
+algorithm between active structures networks
+then networks representation contact form global communication networks
+communication among all sites proteins while networks exhibit communication only proteins
+furthermore proteins percent more via do not exist via either network
+pathways typically not linear but rather networks clusters
+results argue communication based structural changes demonstrate utility
+global communication networks may variety experiments proteins well design into proteins
+introduction
+concept models et al et al account based upon properties transition between two
+more recent models population conformational more there experimental evidence states solution
+individual molecules properties proteins
+individual molecules pathways structural changes dynamic must sites
+structures revealed most proteins complex systems both structural changes
+previously communication through structure graphs form transition between active state structures
+network protein structure between residues space identified
+networks contact networks identified proteins tested changes play significant but role communication
+work approach more mechanisms structure
+specifically develop network representation structural changes representation
+information about mechanism properties differences between active structures
+our work approaches but mechanism order events transition between active structural
+most current computational approaches protein dynamics predict associated structure theoretical models like network potential functions
+while predictions address important problems most approaches do not predict pathways
+contrast problems will argue pathway identification network representation protein structural transition
+network protein structures previously been used dynamic properties
+example predicted normal analysis network known conformational changes
+addition regions protein structures been predicted network contact constraints single protein structure
+furthermore residues important short contact network experimentally known signaling proteins
+however communication pathways not previously been derived network representation structural transition
+paper develop hypothesis via networks
+differences between active structures algorithm form network based between them
+representation communication mechanisms how communication through networks through contact networks structure
+then networks representation form global communication networks
+describe range several proteins set then communication via network proteins each protein based connectivity
+analysis provides theory proteins may drug design experiments simulations

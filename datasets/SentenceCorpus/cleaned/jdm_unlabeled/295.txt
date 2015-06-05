@@ -1,0 +1,98 @@
+ 
+group-diffusion effect tendency people judge themselves less likely experience negative outcome total number people exposed threat increases  even when probability outcome explicitly presented
+experiment number replicated effect two health threat scenarios using variant yamaguchi's original experimental paradigm
+experiment number showed people also judge themselves less likely selected lottery number people playing lottery increases
+experiment number showed explicitly presenting number people expected selected eliminates group-diffusion effect experiment number showed presenting number expected affected health threat without presenting total number exposed threat produces reverse effect
+propose therefore group-diffusion effect related ratio bias
+both effects occur when people make risk likelihood judgments based information presented ratio
+difference group-diffusion effect occurs when denominator relevant ratio more salient than numerator while ratio bias occurs when numerator more salient than denominator
+ introduction 
+many situations there safety numbers
+person group less susceptible wide variety threats than person who alone
+consider example traveler who walking strange city at night
+if person group he she probably less likely get lost less likely mugged more likely receive help event he she twists ankle
+however there many other kinds threats being part group makes no difference
+imagine example traveler who eats at local restaurant
+if food restaurant were found contaminated e
+coli then person would just likely get sick after dining group after dining alone
+there evidence however people tend confuse latter type situation former
+people sometimes perceive illusory safety numbers
+first demonstration effect yamaguchi presented college students one six scenarios they were exposed threat e g carcinogen financial risk asked them judge probability they would experience associated negative outcome
+one his scenarios example read follows
+infectious disease prevalent foreign city
+disease comprises fever temperatures over number degrees more than week together severe diarrhea
+although death rate not high disease after-effects total hair loss
+city authorities afraid losing tourists abroad kept matter confidential
+group number japanese tourists including yourself arrived city plan stay one week
+how likely do you think you will catch disease if you stay planned one week
+each scenario there was alone condition participant was exposed threat alone you arrived city small-group condition participant was one number people exposed large-group condition anywhere number number million people were exposed depending scenario
+across all scenarios there was strong tendency participants give lower probability judgments number people exposed threat increased
+furthermore function relating group size perceived risk was roughly logarithmic
+there was large drop perceived risk alone small-group condition smaller drop small-group large-group condition
+yamaguchi referred group-diffusion effect he proposed occurs because people use interdependence heuristic
+they apply general rule i am safer larger group even when group size irrelevant
+according yamaguchi interdependence heuristic could evolved cognitive concomitant motivational mechanisms lead humans  many other animals  form maintain social groups
+course mechanisms evolved because there often safety numbers
+individuals groups better able fend off attacks find mates find create shelter forage successfully
+but group-diffusion effect result over-applying generally useful rule
+our purpose conducting present research group-diffusion effect was twofold
+first wanted replicate because there been only two published studies since yamaguchi's was conducted japan
+one replicated basic effect hong kong
+other was only partially successful replicating effect united states group-diffusion effect being observed only two six scenarios tested
+results leave open possibility  yamaguchi himself pointed out  culture might play role group-diffusion effect
+because both japan hong kong culturally more collectivist than united states participants those countries might more attentive number people exposed threat more likely apply interdependence heuristic perhaps because their greater sense collective control opposed individual control
+important therefore replicate group-diffusion effect individualistic culture united states
+our second purpose conducting research was consider alternative explanation group-diffusion effect
+specifically thought might result people's attending weighting number people exposed risk more heavily than other information making their likelihood judgments
+consider two scenarios
+one number person expected taken ill out number people exposed virus
+other number people expected taken ill out number people exposed
+probability any individual will taken ill given ratio number people expected affected number people exposed course two probabilities example same number number number number number percent
+however if people attend weight number people exposed denominator fraction more than number expected affected numerator then they would perceive lower risk when number people exposed number than when number
+note there no motivational component our theory
+people do not attend weight denominator more than numerator because makes them feel safe
+they attend weight more because more attentionally salient
+potential problem idea there considerable research phenomenon called ratio bias seems show just opposite
+when reasoning about likelihoods based ratios people attend weight numerators more than denominators
+example denes-raj epstein asked people choose between two gambles
+one they would win if they selected red jelly bean bin containing number jelly beans where one them was red
+other they would win if they selected red jelly bean bin containing number jelly beans where between number number them were red
+surprisingly many people preferred select second bin implying they were focusing greater number red jelly beans bin
+yamagishi shown something similar domain risk perception
+his participants judged riskiness various causes death when death rates were presented ratios they appeared attend weight numerators more than denominators
+example they judged risk dying cancer greater when told kills number number people out number number than when told kills number number people out number
+ratio bias also been shown influence elicitation health-state utilities perceived guilt defendant based dna evidence
+our proposal however although people attend weight numerator more than denominator many situations they do opposite others
+furthermore mainly consequence relative salience numerator denominator
+terms classic jelly bean scenario been used demonstrate ratio bias people might exhibit group-diffusion effect  judging likelihood selecting red jelly bean lower when there number jelly beans bin than when there number  if their attention drawn primarily total number jelly beans rather than number red ones
+one way do might present number red jelly beans implicitly rather than explicitly giving total number jelly beans along probability selecting red one number percent
+consider analogous situation described following letter popular media columnist who answers people's mathematical scientific technical questions
+family friends ganged up me but agree believe what you say
+i say odds winning six-number lottery you choose numbers same whether number number number tickets sold
+they say chances better if only number sold
+who's right
+although chances winning same regardless how many tickets sold letter writer's family friends appear influenced number  perhaps because most salient one presented explicitly scenario
+scenarios used yamaguchi similar our hypothetical jelly bean example lottery example above they seem draw attention denominator relevant ratio  number people exposed threat
+while all six yamaguchi's scenarios prominently featured number people exposed threat none them explicitly presented number people expected affected
+one his scenarios probability negative outcome was presented e g number percent chance developing cancer but given difficulty people understanding single-event probabilities seems likely number exposed threat remained highly salient piece information  certainly more salient than non-presented implicitly presented number people expected affected
+similar ideas been explored other researchers although not connection group-diffusion effect
+example stone et al speculated greater impact certain graphical risk communication methods occurs because graphical methods emphasize number people expected affected more than number exposed
+example bar graph compared gum-disease risk associated two brands toothpaste terms number people expected affected produced relatively large differences what people were willing pay two products
+however stone et al found stacked bar graph shows both number expected affected total number who use each toothpaste produced much smaller differences par differences produced presenting risks terms probabilities
+bonner newell however found no effect conceptually similar manipulation
+they presented people information about various causes death terms number people who die per day cause number who die per year
+example frequency death cancer australia was presented number deaths per day number number deaths per year
+essence ratios number deaths numerator time period denominator
+researchers also included condition number deaths numerator was made more salient e g number people australia die every day cancer
+condition time frame denominator was made more salient every day australia number people die cancer
+
+consistent research ratio bias they found most people rated causes death riskier per-year condition than per-day condition  minority showing opposite effect
+salience manipulation however had no effect
+began our research replicating group-diffusion effect college students united states two health scenarios sure occurs participants more individualistic culture
+continued replicating again experiment number but new context
+instead health-threat scenarios used lottery scenarios participants had chance lose win money
+our rationale was if participants exhibited group-diffusion effect positive outcome i e winning money then unlikely effect result interdependence heuristic applied response threat
+result would consistent however idea people simply attend weight denominator relevant ratio more than numerator
+experiment number show group-diffusion effect eliminated when change scenarios slightly include explicit presentation numerator relevant ratio well denominator
+finally experiment number show explicitly presenting numerator but not denominator produces effect opposite direction  ratio bias
+all results consistent our proposal group-diffusion effect result people's attending weighting denominator relevant ratio more than numerator

@@ -1,0 +1,59 @@
+
+interest recently machine learning because performance classification regression problems
+algorithms may terms theory
+recently been shown generalization error obtained explicitly taking distribution training data into account
+most current algorithms practice usually convex loss function do not make use distribution
+work design new algorithm directly average at same time
+way distribution
+optimization algorithm based proposed
+experiments various datasets show most cases
+introduction
+method existing classification algorithms
+given training strong classifier using only learning algorithm
+typically base classifier generated learning algorithm error better than random
+strong classifier much better test error
+sense algorithms learning algorithm obtain much classifier
+was proposed learning method depends multiple individual
+later observed many algorithms optimization functional space
+developed arbitrary loss functions similar idea
+despite large practice algorithms there still open questions about why how
+theory kernel methods presented bound theory
+although theory provides bounds
+recent work new bounds may useful quantitative predictions
+algorithm was designed test convergence properties
+very similar only different associated each classifier increases even more than
+experiments show results always minimum larger than but terms test error
+observed same phenomenon
+literature much work focused minimum
+recently experiments complexity
+they found better distribution more important than minimum
+importance large minimum but not at other factors
+they thus average rather than minimum may lead algorithms
+work
+recently introduced distribution based complexity measure learning developed distribution based generalization bounds
+classification results been shown bound
+another relevant work
+method distribution based generalization bound obtained
+experiments show new methods achieve over
+optimization new method based framework
+propose new algorithm through optimization distribution
+instead distribution based generalization bound directly average at same time distribution
+theoretical proposed actually average
+main our work follows
+propose new algorithm distribution directly
+optimization procedure based idea been widely used linear
+demonstrate most datasets used our experiments
+
+our results also show similar better classification performance compared
+also sense all linear during training
+advantage at each program while solve general convex program
+paper matrix vector
+
+use matrix
+vectors
+their will clear context
+use
+paper follows
+section present main idea
+section optimization problem derived us design based algorithm
+provide experimental comparison algorithms data section paper section

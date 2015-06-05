@@ -1,0 +1,31 @@
+
+protein identification using computational life
+increase use strategies understand biology systems need more effective efficient accurate computational methods protein identification
+wide range computational methods each various available different approaches
+knowledge range algorithms available more accuracy techniques essential many proteins possible within any particular experiment identified
+here review available methods algorithms biological data associated protein identification
+computational solutions they corresponding
+evolution algorithms protein identification also discussed focus relative performance different techniques
+also consider relative different techniques particular biological
+finally present our perspective future area computational protein identification most recent literature new approaches problem well yet potential application methods other computational biology
+introduction
+relatively new but within life research understanding biology via study proteins expressed
+there body literature many different biochemical interest study development treatment wide range
+protein identification key essential step field
+patterns protein expression lead important including example classification samples basis particular pattern
+however without proteins known involved system under not possible into biological patterns develop underlying biology system interest
+thus while protein identification may often taken remains key initial step biology its protein expression
+our ability life research often dependent our ability identify full proteins found our samples interest
+growth dna sequence protein similar growth machine critical nature protein identification process seen interest protein identification
+example both number protein identification seen growth past
+primary protein identification
+while was first used almost use biological applications its use identification
+accuracy sample weight range seen many recent making one
+no than been their work
+accuracy make them applications required not just but also many other life resulting data
+when consider use protein identification lead number analysis algorithms data
+often important number research
+computational especially often expected data understanding most methods available true protein their particular application
+into protein identification algorithms important because often results may biases chosen make problem affect result
+despite protein identification several studies involving range datasets identification algorithms shown each case than proteins complex sample identified
+given critical role protein identification analysis review explore limit current protein identification algorithms give relevant information practical computational life so best possible protein

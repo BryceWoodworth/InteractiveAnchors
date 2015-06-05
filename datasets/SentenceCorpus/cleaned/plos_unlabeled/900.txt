@@ -1,0 +1,44 @@
+ 
+cells wing blade drosophila melanogaster exhibit in-plane polarization causing distal orientation hairs
+establishment planar cell polarity involves intercellular interactions well global orienting signal
+many genetic molecular components underlying process been experimentally identified recently advanced system-level model suggested observed mutant phenotypes understood terms intercellular interactions involving asymmetric localization membrane bound proteins
+among key open questions understanding emergence ordered polarization effect stochasticity role global orienting signal
+issues relate closely our understanding ferromagnetism physical systems
+here pursue analogy understand emergence pcp order
+end develop semi-phenomenological representation underlying molecular processes define phase diagram model provides global view dependence phenotype parameters
+show dynamics pcp two regimes: rapid growth amplitude local polarization followed slower process alignment progresses small large scales
+discuss response tissue various types orienting signals show global pcp order achieved weak orienting signal provided acts during early phase process
+finally define discuss some experimental predictions model
+ introduction 
+epithelia diverse tissues addition their apico-basal polarization acquire polarization within two-dimensional layer cells phenomenon called planar cell polarity
+developing wing drosophila pcp determines growth direction small hairs extend radially cell boundaries
+wild-type wing where cells approximately hexagonal form regular honeycomb lattice all hairs point distal direction
+series recent experiments show several key proteins including transmembrane proteins frizzled van-gogh cytosolic proteins dishevelled prickled localize asymmetrically cell boundaries  defining direction plane within each cell forming characteristic zig-zag pattern protein localization lattice 
+other experiments show local pcp orientation depends inter-cellular signaling
+first mutant clones fz vang activity suppressed amplified cause characteristic reproducible inversion polarity large patches cells proximal distal clone
+observations summarized figs
+1 c,d second fat mutant clones hairs do not all point correctly distal direction yet their orientation strongly correlated between nearby cells varies gradually across tissue creating characteristic swirling pattern
+thus experimental evidence suggests interaction between neighboring cells tends locally align their polarity
+local polarity need not point distally unless addition there global orienting signal picks out distal direction throughout wing
+yet aside clear involvement protocadherin fat molecular details pathway remains now unknown
+swirling patterns fat mutants recent evidence suggest orienting field related presence gradient fat four-jointed dachs pathway
+observations evoke analogy between pcp behavior ferromagnets extensively studied physics well understood terms statistical mechanics relatively simple models
+models each atomic site assigned magnetic dipole spin assume different orientation
+salient properties ferromagnets arise opposing influence interaction between neighboring spins tends co-align their orientation influence thermal fluctuations tend randomize spin direction
+ferromagnets typically exhibit two phases behavior: high temperature phase where spins disordered low temperature ferromagnetic phase where interactions dominate over thermal fluctuations leading spontaneous polarization arbitrary direction
+state even small external magnetic field big effect magnetic polarization spontaneous polarization aligns itself external field yet dynamics leading global alignment quite slow
+essential lesson statistical mechanics ordered disordered states exist broad class models discussed general context focusing classification different regimes function few parameters
+follow lesson focusing study competition between intercellular interaction disordering influence fluctuations introduced noisy molecular interactions
+statistical mechanics define phase diagram identifies different regimes behavior space most relevant parameters
+then address role global directional signal dynamics global alignment
+molecular model pcp formation was recently proposed ref
+was shown reproduce number experimental findings
+model involves 38 parameters were adjusted successfully reproduce set wild-type mutant phenotypes
+here pursue alternative approach instead moving more more complex models develop model smaller number degrees freedom smaller number parameters
+instead fixing particular set parameters fitting data explore generic behavior model function parameters defining quantitative features characteristic different phases
+formulating model identify several essential ingredients required obtain characteristic zig-zag pattern non-autonomy fz vang mutant clones
+expect our simplified model capture important properties pcp although does not incorporate all molecular details
+after discussing essential ingredients model obtain phase diagram describing its steady state properties
+then consider dynamics local polarization strength orientation absence presence global orienting signal
+show global alignment achieved weak global orienting signal provided present throughout tissue at earliest stage pcp dynamics
+finally discuss experimental predictions coming out model tools required test predictions

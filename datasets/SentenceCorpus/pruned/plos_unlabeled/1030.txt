@@ -1,0 +1,40 @@
+
+involved several biological processes including development
+protein process place here use simulations investigate model its target protein
+our results allow us propose novel hypothesis finally consistent all available molecular biology data
+introduction
+part several fundamental biological processes including protein response cellular
+process also associated development variety including
+best characterized occurs human protein
+at structural level features while made several
+structure complex
+although structure studies shown percent solution
+rather significant population could not only but also different conditions along different two experiments
+free energy further support hypothesis significant population
+thus population likely increase where percent complex solution
+measurements show free energy solution
+free energy based either classical long point similar
+addition they suggest between well interactions between transition state
+consistent associated position
+studies along further suggested several residues activity
+free energy characterized network protein associated its active site network
+process key need
+studies suggested overall process involves solution complex protein
+however studies so far consider
+most current proposed mechanism cannot explain molecular biology data
+studies show residues not involved proposed mechanisms important function their mutations indeed 1 s 1 type 1 s 1 conserved
+although mutation was proposed was out computational so far no functional role been
+addition mutation along although residues not involved
+here use molecular simulations address
+free energy associated long complex
+free energy function two reaction been suggested describe best process well other pairs different our results
+use here been predict interactions
+potential used effective one
+choice allows very efficient sampling because its relatively small computational cost
+its field expected relatively accurate describe key our problem
+accuracy field transition states comparing our results first principle
+based comparison find biases whereas their influence more significant
+therefore here free energy differences between used predict relative populations only compared at level most likely
+out populations one specific relative ones instead far most stable solution
+addition free energy specific one way
+findings allow us propose hypothesis process consistent all available experimental data

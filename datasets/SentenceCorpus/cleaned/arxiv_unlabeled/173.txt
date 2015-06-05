@@ -1,0 +1,45 @@
+ 
+enormous successes been made quantum algorithms during last decade
+paper combine quantum game problem data clustering then develop quantum-game-based clustering algorithm data points dataset considered players who make decisions implement quantum strategies quantum games
+after each round quantum game each player's expected payoff calculated
+later he uses link-removing-and-rewiring lrr function change his neighbors adjust strength links connecting them order maximize his payoff
+further algorithms discussed analyzed two cases strategies two payoff matrixes two lrr functions
+consequently simulation results demonstrated data points datasets clustered reasonably efficiently clustering algorithms fast rates convergence
+moreover comparison other algorithms also provides indication effectiveness proposed approach \\ \\ keywords : unsupervised learning; data clustering; quantum computation; quantum game
+ introduction 
+quantum computation extremely exciting rapidly growing field
+more recently increasing number researchers different backgrounds ranging physics computer sciences information theory mathematics philosophy involved researching properties quantum-based computation
+during last decade series significant breakthroughs had been made
+one was 1994 peter shor surprised world proposing polynomial-time quantum algorithm integer factorization  while classical world best-known classical factoring algorithm works superpolynomial time
+three years later 1997 lov grover proved quantum computer could search unsorted database square root time
+meanwhile gilles brassard et al combined ideas grover's shor's quantum algorithms propose quantum counting algorithm
+recent years many interests focus quantum game theory considerable work been done
+instance d meyer studied penny flip game quantum world firstly
+his result showed if player was allowed implement quantum strategies he would always defeat his opponent who played classical strategies increase his expected payoff well j eisert et al  quantized prisoners' dilemma demonstrated dilemma could escaped when both players resort quantum strategies p
+flitney et al  generalized eisert's result miracle move i e  result game would move towards quantum player's preferred result while other player used classical strategies l marinatto et al  investigated battle sexes game quantum domain
+their result showed there existed unique equilibrium game when entangled strategies were allowed c f
+lee et al  reported quantum game more efficient than classical game they found upper bound efficiency
+besides some experiments about quantum games also been implemented different quantum computers
+more details about quantum games see
+successes achieved quantum algorithms make us guess powerful quantum computers figure out solutions faster better than best known classical counterparts certain types problems
+furthermore more important they offer new way find potentially dramatic algorithmic speed-ups
+therefore may ask naturally: construct quantum versions classical algorithms present new quantum algorithms solve problems pattern recognition faster better quantum computer
+following idea some researchers proposed their novel methods demonstrated exciting results
+addition data clustering main branch pattern recognition widely used many fields pattern analysis data mining information retrieval image segmentation
+fields however there usually little priori knowledge available about data
+response restrictions clustering methodology come into being particularly suitable exploration interrelationships among data points
+data clustering formal study algorithms methods grouping classifying unlabeled data points
+other words its task find inherent structure given collection unlabeled data points group them into meaningful clusters
+paper attempt combine quantum game problem data clustering order establish novel clustering algorithm based quantum games
+our algorithms unlabeled data points dataset regarded players who make decisions quantum games
+time-varying network formed players each player permitted use quantum strategies plays entangled quantum game against every one his neighbors respectively
+later he applies link-removing-and-rewiring lrr function remove links neighbors small payoffs create new links neighbors higher payoffs at same time
+furthermore strength links between player his neighbors different one another updated grover iteration
+during quantum games structure network strength links between players tend toward stability gradually
+finally if each player only connects neighbor highest strength network will naturally divide into several separate parts each corresponds cluster
+remainder paper organized follows: section 2 introduces some important concepts about quantum computation quantum prisoners' dilemma briefly
+section 3 algorithms established two cases strategies payoff matrices link-removing-and-rewiring lrr functions then they elaborated analyzed
+section 4 relationship between number nearest neighbors number clusters discussed
+next effect cost sd-like payoff matrix analyzed relationship between total payoffs rates convergence algorithms explained
+section 5 those datasets used simulations introduced briefly then results algorithms demonstrated
+conclusion given section 6

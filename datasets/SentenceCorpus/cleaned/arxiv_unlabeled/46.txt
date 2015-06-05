@@ -1,0 +1,18 @@
+ 
+approximation optimal two-part mdl code given data through successive monotonically length-decreasing two-part mdl codes following properties: i computation each step may take arbitrarily long; ii may not know when reach optimum whether will reach optimum at all; iii sequence models generated may not monotonically improve goodness fit; but iv model associated optimum almost best goodness fit
+express practically interesting goodness fit individual models individual data sets rely kolmogorov complexity
+ introduction 
+machine learning pure applications mdl rare partially because difficulties one encounters trying define adequate model code data-to-model code partially because operational difficulties poorly understood
+analyze aspects both power perils mdl precisely formally
+let us first resurrect familiar problem our childhood illustrate some issues involved
+process solving jigsaw puzzle involves incremental reduction entropy  serves illustrate analogous features learning problems main issues work
+initially when pieces come out box they completely random ordering
+gradually combine pieces thus reducing entropy increasing order until puzzle solved
+last stage found maximal ordering
+suppose alice bob both start solve two versions same puzzle but they follow different strategies
+initially alice sorts all pieces according color bob starts sorting pieces according shape sake argument assume puzzle no recognizable edge pieces  crucial insight shared experienced puzzle aficionados alice's strategy efficient whereas bob's strategy not fact even worse than random strategy
+alice's strategy efficient since probability pieces about same color match much greater than unconditional probability match
+other hand information about shape pieces only used relatively late stage puzzle process
+bob's effort beginning waste time because he must reorder pieces before he proceed solve puzzle
+example shows if solution problem depends finding maximal reduction entropy does not mean every reduction entropy brings us closer solution
+consequently reduction entropy not all cases good strategy

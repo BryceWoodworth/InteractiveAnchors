@@ -1,0 +1,50 @@
+
+one most popular classification methods but often work well choice distance metric due presence features
+linear feature methods been widely applied information improve classification very limited many applications
+been used learn feature but methods scale large datasets
+paper present feature method based neural network classification framework call
+used both classification reduction
+experimental results two datasets show much better performance than using linear based
+introduction
+one most popular classification methods due its require model been shown good performance many types data
+however good classification performance highly dependent metric used between data points
+practice often use similarity metric data points interest
+data real applications often need learn choose good distance metric
+previous work metric learning global linear matrix original feature space data points make similar data points while making data points using additional similarity information
+global linear applied original feature space data points learn requires all data points same class one point
+making data points same class one point classification
+may produce performance when data points cannot points often true some class multiple patterns
+based approach used learn linear
+global linear learned directly improve classification achieve goal large
+method been shown significant over classification but linear often give good performance space reduction step often required
+many situations linear not underlying data thus need more so each data point will its having same class itself than any other data feature space
+kernel been used some above methods order improve classification
+method work perform linear reduction improve classification method
+however approaches almost like approaches
+if chosen kernel cannot well true structure data resulting performance will
+approaches often difficulty large datasets
+might achieve learning belief then perform classification using hidden distributed original input data
+however belief often effect hidden become dependent makes inference learning because lower output often very
+recent research shown training model called belief using type model called machine
+produce make inference process belief much using simple efficient learning rule
+strategy made learning models possible
+moreover idea also been applied weights learn very reduction
+idea learning researchers use models learn better models
+paper idea learning learning propose new classification reduction method called
+feature directly achieve goal classification based network shown 2
+our approach work
+given some all training data allows us learn feature each data other classification directly
+previous researchers used reduction improve
+approaches used objective function direct what use here classification
+approach discussed uses learn similarity metric but was
+our approach based general neural networks more weight matrices between learned data
+applied datasets classification
+test error obtained better than obtained belief
+addition our process very fast good local minimum within several
+our experimental results show 1 good model used improve 2 models way makes possible learn good model makes learning process much than without find much better local minimum than without
+consistent results previous research trials networks
+paper section 2 introduce classification using linear framework
+section describe previous work training models
+section present network classification
+section present our experimental results datasets
+section paper some propose possible our current method

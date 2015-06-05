@@ -1,0 +1,56 @@
+
+increasing number rna elements been found gene expression various biological processes systems
+effective computational tools identification novel regulatory strongly our gene regulation mechanisms regulatory networks
+present new computational program support vector efficient identification functional rna motifs random rna secondary structures
+uses set features represent common rna secondary structure structural alignment predicted rna accurate common rna secondary structure prediction functional variety rna wide range sequence
+when tested large number known random rna motifs shows significantly higher sensitivity than other leading rna identification while same positive rate
+particularly well sets low sequence
+combination rna provides new fast efficient discovery regulatory rna motifs
+applied multiple genomes identified regulatory rna motifs regions s important potential alternative energy
+sets identified regulatory rna motifs including known rna motifs additional rna motifs literature evidence rna motifs predicted transcription other regulatory rna motifs
+our study provides novel regulatory rna motifs potentially involved gene regulation
+combined previous dna study s discovery rna motifs may more gene regulation at different level
+predictions analysis results genomes available at
+introduction
+rna not only genetic information dna protein but also critical structural components cell
+more been found play important regulatory
+they gene expression two one target their expression other form structural gene expression transcription
+regulatory make them drug targets efficient tools drug development gene
+past few years many rna structural motifs been identified
+they often regions sense factors including proteins small even changes transcription stability
+functions regulatory their secondary structures
+moreover regulatory often conserved during similar regulatory rna elements multiple genes same metabolic pathway conserved genes across related species
+experimental highly time
+demonstrated previous studies way find good experimental
+because functional regulatory often conserved their secondary structures identify them finding significantly conserved rna secondary structures genes across related species
+need two one predict common rna secondary structures multiple related sequences other functional rna secondary structures random rna sequences
+number algorithms been developed common rna secondary structure prediction
+recently new algorithm called rna predicting common rna secondary structures structural multiple sequences
+both our study independent studies other researchers demonstrated rna provides more accurate structure predictions better structural sequences wide range than other leading similar
+moreover rna fast common rna secondary structure prediction genome scale
+studies shown single sequence rna secondary structure not sufficient functional rna random sequence
+however multiple rna sequences related species comparative approaches provide additional power identify functional rna structures
+one strategy design function predicted rna secondary structures examine difference between distributions real structures structures rna identification based
+but one approach generate large number random sequence sets each set real sequences structure predictions sequence sets usually time
+difficult find make call between functional random
+another strategy classification model based features common structures known functional those random then apply classification model predicted common rna structures determine whether they functional random
+rna classification algorithms strategy include
+sequence alignment probabilities three probabilistic models rna
+both support vector classification models
+classification model still generate large number random sequence sets negative training sets make structure predictions them but classification model directly model identify functional without need generate perform random sequences
+type sequences used classification models essential their classification performance new sequences
+only use their training rna structures multiple rna database but only uses sequence sets high
+classification model specific classes using training sets wide range sequence variety rna more
+addition training classification model using more predicted rna common structures more classification functional random ones
+uses common rna structure prediction
+when using sequence its input predicting rna structures sequence sets low
+structure prediction accuracy may using structural but might need use structural
+paper present new based functional rna
+set features represent common rna secondary structures structural generated rna predicts rna structures more than other approaches
+rna sets wide range sequence all rna database
+more real functional than other leading rna classification including at same positive rate
+applied multiple genomes identify rna motifs genes
+
+use wide variety molecules potential applied both
+complete genomic sequences multiple other species provide good using comparative approaches
+recent predictions dna motifs s will more complete view gene regulation s at different regulation levels

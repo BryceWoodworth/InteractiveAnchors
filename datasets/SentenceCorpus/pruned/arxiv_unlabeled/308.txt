@@ -1,0 +1,23 @@
+
+% adaptive behavior central problem research
+here adaptive agents mixture distributions over sequences
+each distribution mixture but agent does not know possible actually
+problem way true world
+natural measure adaptation obtained between distribution true world distribution expected agent about possible
+case input bayesian mixture provides solution problem
+show however case solution because agent itself require different probabilistic provided
+based obtain bayesian control rule allows modeling adaptive behavior mixture distributions over
+rule might allow novel approach adaptive control based minimum
+introduction
+ability unknown environments often considered
+agent environment two systems every time step agent action whereas environment observation
+thus both agent environment probability distributions over sequences actions observations
+if environment known then probability distribution agent particular environment
+however if environment unknown but known set possible environments then agent adaptation problem
+consider example been set behavioral now problem how while being correct
+since model both agent environment probability distributions over sequences natural way measure degree adaptation would measure probability space between distribution represented agent distribution true environment
+measure terms its provided
+case prediction adaptation problem solution
+distribution bayesian mixture distribution over all possible environments
+aim paper result distributions over both
+main result paper only possible if consider special actions probability theory been suggested

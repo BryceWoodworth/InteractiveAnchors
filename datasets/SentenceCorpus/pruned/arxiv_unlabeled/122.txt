@@ -1,0 +1,30 @@
+
+several researchers recently investigated between learning classification
+approximate policy without value functions focus policy representation using address policy learning learning problem
+paper policy core sampling problem policy through simulation machine
+resulting algorithm performance previous algorithm however significantly less computational effort
+order demonstrated experimentally two standard learning
+introduction
+learning two learning been
+recent studies investigated use learning methods learning either value policy
+initial results shown represented using either binary therefore possible classification algorithms within several learning
+allows performance learning algorithms terms performance classification
+while variety become possible through there been limited practical algorithms
+our work work who suggested approximate policy algorithm learning good policy represented classifier any value function
+at each new produced using training data obtained through simulation previous policy model process
+aim at better action choices over subset states order form set data training classifier policy
+similar algorithm was proposed et al at same time
+key differences between two algorithms related types learning problems they choice underlying classifier type exact form classifier training
+main training data using over same
+even though both studies into distribution training states over state space their major remains large amount sampling at each training state
+however could sampling
+our paper suggests sampling procedure within above algorithm goal training sets therefore similar quality but significantly less effort terms number effort
+setting problem over states states using
+algorithms problems confidence allow optimal trials states
+our techniques b suggest statistical test early high confidence states actions
+obtain up order over original algorithm terms effort needed training data each classifier
+makes resulting algorithm who need address large problems
+paper follows
+section provides necessary section original algorithm based
+our approach presented section
+finally section experimental results obtained learning domains

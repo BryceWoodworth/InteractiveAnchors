@@ -1,0 +1,45 @@
+
+network analysis approaches data analysis context components network graph taken into account
+approaches being applied data where functional used genes proteins
+however while gene expression datasets now high quality few approaches been developed analysis data network context
+present novel approach analysis networks generated data
+networks nodes their expression similarity across multiple conditions
+gene transcription across describe large highly networks produced demonstrate how they used large datasets
+approach fast allows identification biological relationships may analysis techniques
+work been available application
+introduction
+complete genome sequencing model organisms provided required studies gene function
+data nature genes proteins their interactions cell now been generated techniques including but not limited gene analysis yeast rna
+functional approaches when combined computational biology systems biology finally allow us cellular molecular networks pathways
+one main how best data sources use them better understand biological systems health disease
+analysis biological data networks important approach explore wide variety biological relationships
+approaches been used study sequence similarity protein structure protein interactions evolution
+biological data into allows one use algorithms techniques statistics previously developed graph theory computer computational systems biology
+classical graph theory graph network nodes
+biological networks nodes usually genes proteins while tend represent experimentally determined functional between them
+analysis techniques generally where individual relationship between two biological studied without interactions their
+graph network analysis techniques allow position biological context its local graph network whole
+another important advantage techniques datasets tend not form structure graph but instead although may not case data generated techniques biases
+because many network analysis techniques local structure networks between related nodes they far less noise may approaches
+one example network analysis clustering protein protein similarity interaction networks
+techniques graph clustering well allows discovery novel aspects biological function
+techniques hence provide into both local features networks also global features network
+although network analysis biological data shown little attention been gene expression data
+data now generally high quality type data approaches
+principle gene expression data into network graph few
+similarity between individual expression may determined one number possible statistical techniques correlation
+networks based arbitrary correlation threshold
+indeed number groups previously apply network data relationships between genes based correlation expression
+while studies suggested power approach tools their limited their approaches general application
+describe development application new network analysis clustering analysis gene expression data
+specifically research gene expression demonstrate approach
+data was generated so provide analysis across wide range normal cell types
+one most complete studies expression
+however common other large datasets analysis data significant
+certain genes known only expressed single cell type at specific times during development response stimuli
+others thought expressed all cells at about same level
+between two there many other genes expressed most number cell types but whose transcription may give specific temporal spatial pattern expression
+also known genes play distinct common pathway biological process often expressed similar they
+hence when genes found expression may genes functional
+better understand aspects gene regulation functional role proteins explore utility network analysis explore structure
+demonstrate approach clusters genes similar network connectivity relationships between clusters statistical analysis functional

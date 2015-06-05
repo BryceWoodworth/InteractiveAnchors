@@ -1,0 +1,20 @@
+ 
+investigated extent human capacity recognition helps forecast political elections compared naive recognition-based election forecasts computed convenience samples citizens' recognition party names i standard polling forecasts computed representative samples citizens' voting intentions ii simple-and typically very accurate-wisdom-of-crowds-forecasts computed same convenience samples citizens' aggregated hunches about election results
+results four major german elections show mere recognition party names forecast parties' electoral success fairly well
+recognition-based forecasts were most competitive other models when forecasting smaller parties' success small sample sizes
+however wisdom-of-crowds-forecasts outperformed recognition-based forecasts most cases
+seems wisdom-of-crowds-forecasts able draw benefits recognition while at same time avoiding its downsides lack discrimination among very famous parties recognition caused factors unrelated electoral success
+yet seems simple extension recognition-based forecasts-asking people what proportion population would recognize party instead whether they themselves recognize it-is also able eliminate downsides
+ introduction 
+trouble free elections you never know who going win former political leader soviet union leonid brezhnev supposed said once
+did not only bother brezhnev but also keeps polling agencies busy around world
+they usually rely intention-based election forecasts generated interviewing large representative samples citizens about their voting intentions
+instance germany potential voters typically asked political party they will vote upcoming election
+resulting responses used extrapolate likely election results
+here investigate how far one get much simpler almost naive method does not require large representative samples
+specifically test how well citizens' memories they heard party name before citizens' mere recognition party names allows forecasting outcomes major political elections
+compare performance recognition-based election forecasts computed small unrepresentative convenience samples citizens other forecasting methods including i traditional polls computed large representative samples citizens' voting intentions ii simple-but typically very accurate-forecasting method builds aggregated judgments many wisdom crowds
+article structured follows
+first review previous research showing recognition allows making accurate forecasts many domains
+second explain why recognition could accurate predictor variable forecasting elections why recognition-based election forecasts could particularly useful forecasting smaller political parties' electoral success
+third introduce election forecasts based wisdoms crowds

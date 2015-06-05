@@ -1,0 +1,42 @@
+
+consider setting
+each shows then either not
+value value information
+any information about likelihood
+goal design strategies mechanism social
+if their true values our problem problem thus version latter
+particular both problems quality algorithm characterized regret difference social between algorithm always same
+investigate how design algorithms affected resulting mechanism must
+find mechanisms certain strong structural properties they must they much higher regret than optimal algorithms
+moreover provide mechanism our lower bound regret
+introduction
+recent years there been much interest understanding behavior performance algorithms whose input distributed among agents
+study was main large scale interaction agents
+field mechanism design studies design mechanisms computational settings see recent
+much attention been search e g every second
+research search focus second most used practice e g design
+all rely rates at different
+rates do not consider process learned over time behavior
+argue agents would take process into account their utility
+while prior work focused influence methods learning agents
+thus consider problem search when process learning part game
+between online learning
+issue consider following setting natural version problem
+setting there agents
+each agent single value every
+mechanism online algorithm first agents then
+each mechanism agent using observed past feedback if there was not
+after
+each agent own value
+assume no information known about likelihood each agent particular there no bayesian
+mechanisms every agent utility any others any would been
+goal social since out total value derived where total value times number
+call setting behavior problem standard algorithm one alternatives associated corresponding if
+problems between more information using current information choose good agent
+problems been studied past three
+particular above terms regret relative always same alternative
+notion regret setting above total payoff being social regret being loss social relative
+thus one directly compare algorithms mechanisms terms loss regret
+how design algorithms affected what difference between best algorithms best mechanisms
+both terms structural properties performance terms regret
+not any prior work online learning algorithms negative results their performance

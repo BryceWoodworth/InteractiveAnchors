@@ -1,0 +1,36 @@
+
+understanding performed requires dynamics between individual neurons
+typically correlation activity two neurons
+developed new measure connectivity based information theory information
+out temporal responses individual neurons before between them standard measures several important potential statistical between neurons those other sources provided appropriate study early systems does not require responses trials does not assume between neurons linear
+describe theory demonstrate its utility experimental visual system
+introduction
+understand function systems essential between individual neurons
+major between within many brain been through studies but only existence not their dynamics
+dynamics between two neurons requires physiological experiments activity both neurons measured
+most direct experiments involves allow between two neurons directly investigated
+however difficult perform obtain more than few cells at time
+instead most physiological studies connectivity rely
+experiments not usually possible explicitly connectivity directly
+instead dynamics functional connectivity must through statistical methods
+method dynamics between two neurons correlation function measures linear correlation between two signals over range
+while c its been used number studies must considered when between neurons
+c fact measure total between two signals thus all between them due their
+case neurons there fact many potential sources stimuli intrinsic cellular network properties etc c cannot those due actual
+several c been proposed address
+example if activity response trials same stimulus available analysis often case early systems used some due stimulus
+further c also been proposed due activity activity
+while approaches upon standard c due those other sources remains general problem
+addition methods there several other approaches between two signals used study between two neurons
+methods generally into two
+most common approach
+one signal predicted two different using model based its own past using model based its own past past second signal
+given difference predictive power two models dynamics regression parameters influence second signal
+power approaches dependent validity underlying if between two signals linear then provided will accurate but situations where properties complex unknown often case neurons approach may more appropriate
+most common approach entropy
+measures reduction entropy one signal its own past past second signal relative reduction entropy its own past
+overall but not its dynamics
+paper new approach both dynamics out temporal both signals before at different
+approach some common studies connectivity potential statistical between neurons those other sources provided appropriate
+following theory our measure call information its activity experimental visual system consider its relationship other common measures
+information available at

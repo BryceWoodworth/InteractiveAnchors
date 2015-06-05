@@ -1,0 +1,71 @@
+ 
+study boosting algorithms new perspective
+show lagrange dual problems norm regularized \adaboost soft-margin generalized hinge loss all entropy maximization problems
+looking at dual problems boosting algorithms show success boosting algorithms understood terms maintaining better margin distribution maximizing margins at same time controlling margin variance
+also theoretically prove approximately norm regularized maximizes average margin instead minimum margin
+duality formulation also enables us develop column generation based optimization algorithms totally corrective
+show they exhibit almost identical classification results standard stage-wise additive boosting algorithms but much faster convergence rates
+therefore fewer weak classifiers needed build ensemble using our proposed optimization technique
+ introduction 
+\ieeeparstart{b}{oosting} attracted lot research interests since first practical boosting algorithm \adaboost was introduced freund schapire
+machine learning community spent much effort understanding how algorithm works
+however up date there still questions about success boosting left unanswered
+boosting one given set training examples  binary labels being either
+boosting algorithm finds convex linear combination weak classifiers base learners weak hypotheses achieve much better classification accuracy than individual base classifier
+do so there two unknown variables optimized
+first one base classifiers
+oracle needed produce base classifiers
+second one positive weights associated each base classifier
+one first most popular boosting algorithms classification
+later various boosting algorithms been advocated
+example friedman replaces \adaboost's exponential cost function function logistic regression
+madaboost instead uses modified exponential loss
+authors consider boosting algorithms generalized additive model framework
+schapire showed converges large margin solution
+however recently pointed out does not converge maximum margin solution
+motivated success margin theory associated support vector machines svms was invented intuition maximizing minimum margin all training examples
+final optimization problem formulated linear program lp
+observed hard-margin does not perform well most cases although usually produces larger minimum margins
+more often worse generalization performance
+other words higher minimum margin would not necessarily imply lower test error
+breiman also noticed same phenomenon: his algorithm minimum margin provably converges optimal but inferior terms generalization capability
+experiments put margin theory into serious doubt
+until recently reyzin schapire re-ran breiman's experiments controlling weak classifiers' complexity
+they found minimum margin indeed larger \arcgv but overall margin distribution typically better \adaboost
+conclusion minimum margin important but not always at expense other factors
+they also conjectured maximizing average margin instead minimum margin may result better boosting algorithms
+recent theoretical work shown important role margin distribution bounding generalization error combined classifiers boosting bagging
+soft-margin svm usually better classification accuracy than hard-margin svm soft-margin also performs better relaxing constraints all training examples must correctly classified
+cross-validation required determine optimal value soft-margin trade-off parameter
+r\"atsch showed equivalence between svms boosting-like algorithms
+comprehensive overviews boosting given
+show work lagrange duals norm regularized \adaboost generalized hinge loss all entropy maximization problems
+previous work like noticed connection between boosting techniques entropy maximization based bregman distances
+they did not show duals boosting algorithms actually entropy regularized show \eqref{eq:dual_ada0} \eqref{eq:lpboost10} \eqref{eq:dual_logit1}
+knowing duality equivalence derive general column generation cg based optimization framework used optimize arbitrary convex loss functions
+other words easily design totally-corrective \adaboost boosting generalized hinge loss \etc
+our major contributions following: derive lagrangian duals boosting algorithms show most them entropy maximization problems
+authors conjectured ``it may fruitful consider boosting algorithms greedily maximize average median margin rather than minimum one''
+theoretically prove actually norm regularized approximately maximizes average margin instead minimum margin
+important result sense provides alternative theoretical explanation consistent margins theory agrees empirical observations made
+propose \adaboost-qp directly optimizes asymptotic cost function \adaboost
+experiments confirm our theoretical analysis
+furthermore based duals derive design column generation based optimization techniques boosting learning
+show new algorithms almost identical results standard stage-wise additive boosting algorithms but much faster convergence rates
+therefore fewer weak classifiers needed build ensemble
+following notation used
+typically use bold letters denote vectors opposed scalars lower case letters
+use capital letters denote matrices
+all vectors column vectors unless otherwise specified
+inner product two column vectors
+component-wise inequalities expressed using symbols ; \eg means all entries
+column vectors each entry being respectively
+length will clear context
+abbreviation means ``subject to''
+denote domain function
+paper organized follows
+section briefly reviews several boosting algorithms self-completeness
+their corresponding duals derived section
+our main results also presented section
+section  then present numerical experiments illustrate various aspects our new algorithms obtained section
+conclude paper last section

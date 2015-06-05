@@ -1,0 +1,25 @@
+
+appear population at mutation selection
+concept recently attention because many rna appear generate high levels genetic variation may evolution drug
+literature important evolutionary processes however
+here use simple models mutation selection theory most novel property error threshold mutation rate below populations mutation selection above population error loss through mutations
+models show single may contain multiple error error threshold affected extent mutation
+error threshold distinct threshold complete loss population through mutations
+based framework argue not true error but
+introduction
+concept mutation selection one most fundamental population natural selection increases frequency while mutations introduce distribution between two effects
+mutation selection been explain genes example those underlying genetic even
+despite long history concept some its were only when studied mutation selection dynamics long genomes
+found populations do not mutation selection most common but rather
+later called at
+concept not only mutation selection theory based simple one systems but also novel into impact mutation rate evolutionary dynamics
+particular found there states mutation rate lead fundamental change population
+change phase transition terms called error
+error been applied high mutation rates likely life rna genomes
+model populations mutation model been explain populations robust regions
+error concept much literature rna evolution now uses high mutation rate
+short review its relationship population theory provided
+were developed context genomes many each mutation
+since been considered context
+yet many its much case few our approach here
+our results not new per but our models should correct some common

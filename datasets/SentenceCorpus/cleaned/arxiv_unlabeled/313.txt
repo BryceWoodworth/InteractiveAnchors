@@ -1,0 +1,51 @@
+ 
+despite conventional wisdom proactive security superior reactive security show reactive security competitive proactive security long reactive defender learns past attacks instead myopically overreacting last attack
+our game-theoretic model follows common practice security literature making worst-case assumptions about attacker: grant attacker complete knowledge defender's strategy do not require attacker act rationally
+model bound competitive ratio between reactive defense algorithm inspired online learning theory best fixed proactive defense
+additionally show unlike proactive defenses reactive strategy robust lack information about attacker's incentives knowledge
+ introduction 
+many enterprises employ chief information security officer~(ciso manage enterprise's information security risks
+typically enterprise many more security vulnerabilities than realistically repair
+instead declaring enterprise ``insecure'' until every last vulnerability plugged cisos typically perform cost-benefit analysis identify risks address but what constitutes effective ciso strategy
+conventional wisdom cisos ought adopt ``forward-looking'' proactive approach mitigating security risk examining enterprise vulnerabilities might exploited future
+advocates proactive security often equate reactive security myopic bug-chasing consider ineffective
+establish sufficient conditions when reacting strategically attacks effective discouraging attackers
+study efficacy reactive strategies economic model ciso's security cost-benefit trade-offs
+unlike previously proposed economic models security see section do not assume attacker acts according fixed probability distribution
+instead consider game-theoretic model strategic attacker who responds defender's strategy
+standard security literature make worst-case assumptions about attacker
+example grant attacker complete knowledge defender's strategy do not require attacker act rationally
+further make conservative assumptions about reactive defender's knowledge do not assume defender knows all vulnerabilities system attacker's incentives
+however do assume defender observe attacker's past actions example via intrusion detection system user metrics
+our model find two properties sufficient reactive strategy perform well best proactive strategies
+first no single attack catastrophic meaning defender survive number attacks
+consistent situations where intrusions say steal credit card numbers regrettable but not business-ending
+second defender's budget \term{liquid} meaning defender re-allocate resources without penalty
+example ciso reassign members security team managing firewall rules improving database access controls at relatively low switching costs
+because our model abstracts many vulnerabilities into single graph edge view act defense increasing attacker's \term{cost} mounting attack instead preventing attack e g  patching single bug
+making assumption choose not study tactical patch-by-patch interaction attacker defender
+instead model enterprise security at more level appropriate ciso
+example ciso might allocate portion his her budget engage consultancy whitehat isec partners find fix cross-site scripting particular web application require employees use securid tokens during authentication
+make technical assumption attacker costs linearly dependent defense investments locally
+assumption does not reflect patch-by-patch interaction would better represented step function step placed at cost deploy patch
+instead assumption reflects ciso's higher-level viewpoint where staircase summed step functions fades into slope
+evaluate defender's strategy measuring attacker's cumulative return-on-investment \term{return-on-attack}~(roa been proposed previously
+studying metric focus defenders who seek ``cut off attacker's oxygen,'' reduce attacker's incentives attacking enterprise
+do not distinguish between ``successful'' ``unsuccessful'' attacks
+instead compare payoff attacker receives his her nefarious deeds cost performing said deeds
+imagine sufficiently disincentivized attackers will seek alternatives attacking different organization starting legitimate business
+our main result show sufficient conditions learning-based reactive strategy competitive best fixed proactive defense sense competitive ratio between reactive roa proactive roa at most  all  provided game lasts sufficiently many rounds at least 
+prove our theorems draw techniques online learning literature
+extend techniques case where learner does not know all game matrix rows priori  letting us analyze situations where defender does not know all vulnerabilities advance
+although our main results graph-based model single attacker our results generalize model based horn clauses multiple attackers
+our results also robust switching roa attacker profit allowing proactive defender revise defense allocation fixed number times
+although myopic bug chasing most likely ineffective reactive strategy find some situations strategic reactive strategy effective optimal fixed proactive defense
+fact find natural strategy gradually reinforcing attacked edges shifting budget unattacked edges ``learns'' attacker's incentives constructs effective defense
+strategic reactive strategy both easier implement than proactive strategy---because does not presume defender knows attacker's intent capabilities---and less wasteful than proactive strategy because defender does not expend budget attacks do not actually occur
+based our results encourage cisos question assumption proactive risk management inherently superior reactive risk management \paragraph{organization } section formalizes our model
+section shows perimeter defense defense-in-depth arise naturally our model
+section presents our main results bounding competitive ratio reactive versus proactive defense strategies
+section outlines scenarios reactive security out-performs proactive security
+section generalizes our results horn clauses multiple attackers
+section relates related work
+section concludes }

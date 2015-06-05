@@ -1,0 +1,21 @@
+
+consider problem parameter estimation prediction markov random model parameters estimated basis initial set data then model used perform prediction e g new observation
+under limited analyze method same convex used construct parameters perform approximate prediction step
+key result paper setting using parameter i e model even data limit since resulting errors errors made using approximate prediction technique
+result analyze properties based convex stability property class methods
+show based algorithm used heuristic based
+introduction
+models markov random widely used many application domains including spatial statistics statistical signal processing communication theory
+fundamental their practical use various statistical e g data etc interest both bayesian settings
+methods especially those markov variety represent one approach stochastic
+sampling methods their relatively high computational cost
+instance applications delay computational e g methods likely
+thus interest various application domains consider less methods other relevant statistical
+methods one class techniques used generate markov random
+at methods fact class likelihood probabilities convex optimization problem see
+although optimization problem solve general suggests original optimization problem taking optimal solutions problem exact values
+many cases optimization problem out algorithms nodes markov random field statistical information e g functions vectors
+parameters markov random field data another significant
+direct instance via maximum likelihood function general markov random
+one option method shown produce consistent parameter estimates under assumptions though associated loss statistical
+other researchers studied algorithms estimation based stochastic approximation consistent under appropriate assumptions but

@@ -1,0 +1,26 @@
+ 
+persistent activity states observed several neocortical areas after removal sensory stimulus believed neuronal basis working memory
+one possible mechanisms underlie persistent activity recurrent excitation mediated intracortical synaptic connections
+recent experimental study revealed connections between pyramidal cells prefrontal cortex exhibit various degrees synaptic depression facilitation
+here analyze effect synaptic dynamics emergence persistence attractor states interconnected neural networks
+show different combinations synaptic depression facilitation result qualitatively different network dynamics respect emergence attractor states
+analysis raises possibility framework attractor neural networks extended represent time-dependent stimuli
+ introduction 
+working memory enables us hold trace fleeting stimulus few seconds after gone thus enabling manipulation information over time
+recordings neurons monkeys performing working memory tasks reveal stimulus-selective spiking activity persists after removal stimulus
+persistent activity states considered neuronal substrate working memory 
+sustained persistent activity believed achieved excitatory interpyramidal connections either prewired formed during learning task
+vitro studies connections cortex revealed pronounced short-term plasticity effects
+sensory areas cortex dominant effect synaptic depression expressed rapid decay synaptic efficacy following presynaptic firing
+several theoretical studies investigated effects synaptic depression existence stability attractor states
+wang et al recently performed experiments investigate short-term synaptic plasticity prefrontal cortex one cortical areas where persistent activity observed
+they found interpyramidal connections area exhibit various degrees synaptic facilitation three different classes connections identified
+while synaptic facilitation was recently mentioned stabilizing factor network attractors there yet no systematic study its effect dynamics recurrent neural networks undergoing transition background persistent states after presentation stimulus
+contribution consider attractor neural network connections already been formed learning several stimuli
+assume network comprises set neuronal populations each responding primarily certain stimulus
+scheme via hebbian learning strengthen synaptic connections within population form stable activity state
+drawing recent experimental results assume neurons within each population differ dynamic properties their synapses thus exhibit different temporal response profiles same stimuli
+firing then lead further differentiation synaptic strengths within population whereby neurons similar synaptic dynamics connected more strongly one another than ones dissimilar synaptic dynamics
+thus consider network comprising several attractor populations each divided into subpopulations different synaptic dynamics
+populations interact via both excitatory dynamic synapses inhibition generate rich dynamics response external stimuli
+since synaptic dynamics differ between subpopulations expect them respond differently different temporal profiles input could result greater computational power network

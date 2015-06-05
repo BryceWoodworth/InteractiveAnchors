@@ -1,0 +1,65 @@
+
+process finite set observations subject conditions its computational complexity
+theoretical practical wide range biological applications including analysis data dna experiments
+present novel algorithm called probabilistic interaction network evidence robust probabilistic data
+computational core uses estimates evidence derived empirical distributions previously observed data along consistency measures system state probabilistic relevant data
+demonstrate application key task protein various experiments into associated probabilities their
+application called available computer
+input sequence protein data corresponding provides output probabilistic signals probabilistic protein secondary structure
+prior information about stable
+part analysis problems related input data
+robust consistent results been shown effective structure
+introduction
+set fixed data another set description large family problems
+family clustering reduction approach original represented set typically far lower dimension
+set often parameter vector set data points simply mean may include additional parameters
+problem important because many applications involving data analysis particularly where prior knowledge probability distributions
+instance problem along one two major methods protein structures
+although not highly more field over structural studies small proteins disordered exist multiple stable solution exhibit interactions provided signals specific structure protein
+problem known problem been one major protein
+protein structure generally through series
+approach first data used
+then used data order determine constraints used structure
+process one more parameters physical process parameters constraints define conformational states
+between
+strategies been developed use data direct structure without
+addition demonstrated recently structures small proteins determined directly process
+all available data should used process best set best structure consistent experiment probabilistic analysis provides levels confidence
+approach solution problem multiple sets number datasets
+after time domain data frequency domain each analysis
+methods been developed global analysis models known frequency phase rate
+case resulting identify two more their
+must way best specific amino sequence protein
+practice do not report all noise
+examples here level between percent percent while level noise between percent percent
+large number well typically present data result during
+common feature among prior approaches been into sequence apply methods at each step
+typically include step secondary structure step step
+step measure possible presence values
+other further into tasks
+example out processes
+some approaches rely reduced set input data prior subset selection prior system
+conformational states yet another step
+example determined reduced
+problem been highly most optimization problem using variety algorithms
+review order algorithms additional approaches given review
+prior methods stochastic approaches algorithms genetic algorithms search algorithms heuristic comparison predicted derived proteins heuristic algorithms system use heuristic algorithm
+most used
+wide range methods been used predict protein secondary structural elements play important role proteins
+prior approaches secondary structure each protein method method database approach empirical method machine learning approach probabilistic approach local statistical potential predictive derived sequence
+recently approach protein structure been described standard structure
+approach making use information each step achieve high number
+our goal approach network model rather than model probabilistic analysis results
+optimization problem each associated but unknown probability
+algorithm full integration information achieve probabilistic analysis
+use probabilities provides means information among current standard introduced future
+addition probabilistic analysis directly multiple problem cases where data does not support single optimal state
+common example protein two stable conformational states
+described here first step goal full probabilistic approach protein
+input sequence protein derived one more experiments chosen
+provides output probabilistic secondary structure protein
+at same time if needed problems related consistency determined secondary structure
+make use prior information derived other means patterns system
+principle model both within protein structure combined adaptive data at structure at end
+should lead approach structure would structure most consistent all available data confidence explicitly represented
+addition its application approach should classification biological data other domains interest systems biology data various types need data function time environmental variables

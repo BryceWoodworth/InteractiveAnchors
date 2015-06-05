@@ -1,0 +1,42 @@
+ 
+intrinsically disordered regions serve molecular recognition elements play important role control many cellular processes signaling pathways
+useful able predict positions disordered regions protein chains
+statistical analysis disordered residues was done considering 34,464 unique protein chains taken pdb database
+database 4.95 percent residues disordered
+statistics were obtained separately n c-termini well central part protein chain
+been shown frequencies occurrence disordered residues 20 types at termini protein chains differ ones middle part protein chain
+our systematic analysis disordered regions pdb revealed 109 disordered patterns different lengths
+each them disordered occurrences at least five protein chains identity less than 20 percent
+vast majority all occurrences each disordered pattern disordered
+allows one use library disordered patterns predicting status residue given protein ordered disordered
+analyzed occurrence selected patterns three eukaryotic three bacterial proteomes
+ introduction 
+prediction protein structure function one general directions structural genomics
+special interest prediction so-called disordered regions protein chain
+disordered regions often play important functional role
+should emphasized one type disordered regions structured only when they bind other molecules  under changing conditions biochemical medium but other kinds disordered regions always disordered never become structured
+disordered regions protein chains often cause complications upon expression purification crystallization proteins
+at present more than 500 proteins disordered regions described disprot database
+proteins domains either entirely unstructured native state lengthy disordered regions
+at functionally important protein regions proteins outside globular domains i.e just disordered regions 
+since disordered regions protein chain play important role protein functioning much attention being paid their examination prediction
+indeed been shown disordered proteins certain properties distinguish them proteins well-defined structures
+abundance intrinsic disorder pdb was discussed recent study
+typically disordered regions low aromatic content high net charge well low sequence complexity high flexibility 
+prediction methods aim identify disordered regions through analysis amino acid sequences using mainly physico-chemical properties amino acids evolutionary conservation 
+suggested if one same pattern corresponds disordered regions protein structures then highly probable pattern will disordered other proteins
+search disordered patterns important task prediction disordered regions search functioning considered motifs
+identification essential features within protein domains greatly facilitate their functional characterization
+there well established databases protein motif domain information prosite interpro pfam 
+creation library disordered patterns one primary tasks respect
+there no information about library
+until now known pest motif most cases degradation motif rgd motif found extracellular matrix proteins fibronectin fibrinogen prothrombin tenascin thrombospondin vitronectin etc
+exposed rgd motif constitutes major recognition site integrin binding 
+work been interested stretches disordered residues
+rule stretches short loops inside globular domains present only one type disorder because disordered proteins range molten globules chains having no structural preferences whatsoever 2 3 residues several hundreds even thousands residues
+analyzed disordered regions created library disordered motifs their positions protein chains entire protein databank
+taking into account consideration library disordered patterns will help improving accuracies predictions residues structured unstructured inside given region
+moreover our new statistics occurrence unstructured residues will useful those who dealing prediction status residues ordered disordered
+combining motif discovery disorder protein segment identification pdb new promising approach further studying understanding functional role obtained patterns different proteomes
+question about specificity patterns more important biological functioning
+analyzed occurrence obtained patterns some eukaryotic proteomes some bacterial proteomes 

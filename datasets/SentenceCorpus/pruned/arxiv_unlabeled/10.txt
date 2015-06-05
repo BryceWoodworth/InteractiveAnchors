@@ -1,0 +1,52 @@
+
+address problem learning observations may exhibit arbitrary form stochastic past observations actions
+task agent best possible reward where true environment unknown but known family environments
+find some sufficient conditions class environments under agent exists best reward any environment class
+analyze how conditions how they different probabilistic assumptions known learning related markov decision processes conditions
+introduction
+many problems like learning game agent environment its behavior
+agents perform well sense having high reward also called value agent environment
+if known computational problem determine optimal agent
+far less clear what agent means if unknown
+objective single policy high value many environments
+will call criterion later
+learning sequential decision theory adaptive control theory active theories problem
+they but different core learning algorithms developed learn directly its value
+temporal difference learning very efficient but only small
+others finite state
+there algorithms optimal any finite class environments considered
+sequential decision theory agent considered where mixture environments class environments contains true environment
+policy arbitrary class provided allows
+adaptive control theory very simple perspective special systems e g \ linear loss function allow data efficient solutions
+action agent called well best agent best some class any environment
+important special case sequence prediction arbitrary unknown environments where do not affect environment
+difficulty active learning problems identified at least classes environments
+agent does not know so taking initial actions
+class any action history every state
+aim paper general possible classes possible more general than
+do need classes environments
+instance exact state sufficient being able high rewards states
+further many real world problems there no information available about environment e g \ environment may exhibit long history
+rather than model environment e g identify conditions sufficient learning
+towards aim propose consider only environments after any arbitrary finite sequence actions best value still
+performance criterion here average reward
+thus consider environments there exists policy whose average reward exists average reward any other policy
+moreover same property should after any finite sequence actions been taken no
+yet property itself not sufficient optimal behavior
+require further any sequence actions possible optimal level reward above conditions will probabilistic form environments property called strongly
+show any class environments there exists policy best possible value any environments class i e class
+also show strong certain sense necessary
+also consider examples environments strong
+particular any shown property
+condition also demonstrated
+finally provide examples environments not finite thus class environments general
+important our class environments policy although class all environments
+find set conditions necessary sufficient learning do not rely class yet open problem
+however computational perspective classes large e g \ class all probability measures
+paper follows
+section necessary agent framework
+section define explain notion central paper
+section theorem about classes environments theorem examples strongly environments
+section discuss conditions main theorem
+section provides some results future research
+main theorem given while section contains only

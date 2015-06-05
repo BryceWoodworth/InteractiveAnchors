@@ -1,0 +1,23 @@
+
+point sets points two three
+most kernel methods learning sets points not yet specific practical constraints associated point computer
+paper present graph point allow use kernel methods objects any point
+order design efficient few free parameters possible use between matrices their models
+derive time dynamic present applications recognition few training examples
+introduction
+recent years data been designed many domains processing processing computer
+they provide way including known information using directly natural structure objects
+using knowledge through because allows reduce number training examples existing data well developed those domains
+paper propose kernel between point applications classification
+natural structure point represent few features particular because required local global b lack point i e points one not points another c noise only two point compared
+following one leading between data propose at all possible between two point
+more assume each point graph structure most often graph consider recently introduced graph
+consider all possible compare matching
+however set even set size cannot described so larger sets used eg
+shown choosing appropriate local efficient dynamic allow over number time
+kernel thus provides efficient way very large feature see eg
+however context computer sets points local use local kernel cannot expressed terms each pair points dynamic approaches cannot then applied
+main paper design local kernel not but instead according graph underlying
+through models design positive matrices models
+novel local kernel derive new time dynamic
+present simulations recognition

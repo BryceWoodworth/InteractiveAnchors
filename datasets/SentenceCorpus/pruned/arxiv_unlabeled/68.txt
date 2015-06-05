@@ -1,0 +1,55 @@
+
+prediction uses past experience determine levels confidence new predictions
+given error probability together method makes prediction set typically also contains probability
+prediction applied any method method machine regression etc
+prediction designed setting predicted each one being revealed before next predicted
+most novel feature prediction if examples same distribution then predictions will time even though they based rather than independent datasets
+addition model under examples other models also use prediction
+widely used linear model one
+account theory prediction through several numerical examples
+more treatment provided learning random world
+introduction
+how good prediction
+if you predicting new object how you
+if number how close do you
+machine learning questions usually way past experience
+new predictions about well past predictions
+prediction uses past experience determine levels confidence predictions
+given method making prediction prediction prediction region set contains probability at least
+typically also contains prediction
+call point prediction call region prediction
+case regression where number typically
+case classification where limited number possible values may few values case just one
+prediction used any method point prediction classification regression including decision neural networks bayesian prediction
+method point prediction construct measure measures how example relative previous examples algorithm measure into prediction regions
+given measure algorithm prediction region every probability error
+region prediction region contains probability at least
+regions different when so lower level confidence than
+if contains only single outcome case classification may how small made before must second corresponding value confidence predicted
+explain algorithm designed setting predict objects each after predicted before predict next one
+our prediction may use observed features object examples
+size prediction region may also depend
+most algorithm may turn directly examples then turn more general needed
+explain leads new concept validity prediction confidence
+method finding prediction regions was considered if had probability predicted because large numbers would then correct time when applied independent datasets
+but apply method not independent datasets but
+after using predict use predict so
+method predictions must correct
+under assumptions prediction new sense
+one setting where prediction new sense one examples constant e fixed but unknown probability distribution
+also under assumption examples see under other models including widely used linear model see
+validity prediction under models demonstrated
+addition validity method prediction regions also its
+efficient if prediction region usually relatively small therefore
+classification would like see prediction region so small contains only single predicted
+regression would like see very predicted number
+confidence prediction region under no what probability distribution examples no what measure used construct prediction region
+but prediction will depend measure
+if know may choose measure will efficient if
+if prior probabilities may use prior probabilities construct point predictor measure
+regression case might use mean distribution given first examples classification case might use probability
+strategy first validity under relatively assumption then under assumptions long given others
+prediction studied learning random world
+recent theory bayesian methods
+article concept validity generalization other models
+many important learning random world including

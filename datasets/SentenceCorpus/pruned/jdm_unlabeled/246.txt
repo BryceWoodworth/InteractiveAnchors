@@ -1,0 +1,68 @@
+
+demonstrated previously seen games biases choices predictions current game
+effects were mean games action b contrast games depending range rank order their
+demonstrate when against choice strategies not factors biases only bias
+suggests learning source interaction may not even if other efficient
+introduction
+explain need model decision-making
+understand how agents people need model strategies people e g when outcome situation depends also decisions others agents
+thus understanding various interaction between indeed at large requires understanding how people payoff uncertainty when they each other
+when decisions outcomes depend also decisions other people choice process quality each makes decisions context assumptions about decisions other but other may choose basis assumptions about decisions first
+game theory concept pair decisions if would obtain higher expected utility making different decision given other decision fixed game theory notion
+using experimental methods tested how assumptions found between actual predictions game theory
+example any game both real life problem but people risk being
+however many studies showed people game theoretical predictions i e people more than expected
+there various some including factors game role play resulting communication so
+more recently tested one basic assumptions game theory not typically experimental work each game considered resulting choice strategy should based only attributes current game
+study presented psychological phenomenon game theories decision-making
+specifically reported results people do not notion utility strategy game particular instead people's perceived utility strategy highly depends other recently games
+experiments were based research fundamental cognitive processes related perception representation weight
+note utility decision strategies games people must risk associated each strategy
+respect had some factors determine how people might similar factors underlying
+there evidence people at stable judgments other options presented them recent past available at time choice
+context effects consistent people making judgments basis relative information rather than information
+decision making games if representation game also similar representation simple i e similar underlying cognitive processes involved then might expected influence current judgments decisions games does case
+tested whether attributes like measured like those stimuli they found similar context effects
+here provide experiments essential understanding study presented article
+various experiments conditions study participants games tested whether properties distribution like mean range rank would affect rate predicted other
+experiment number tested theory
+contrast predictions theory did not find contrast effects depending whether particular game above below mean i e adaptation level games above below mean were not perceived more less
+instead condition higher mean more rather than less across all game types
+effect mean simply assumption amount frequency observed participants independent game they
+game including predict more games average would lead more feedback each more across all games
+other words mean may observed effects
+experiments number range difference between games along scale was while their constant
+range presented games produced contrast effect so games were further minimum value sequence were perceived more
+experiment number rank order between games along scale while their range differences constant found rank had significant impact prediction choice
+same game presented high rank other games sequence condition produced significantly higher prediction than when same game had low rank
+thus results experiments number number predictions about contrast range frequency theory according point judgment scale did not mean events but rather between defined range distribution
+point thus distribution was affected rank particular stimulus distribution
+example judgments would different two distributions different their quality levels hence will different rank stimuli even if means two distributions same
+effects mean range rank distribution our effects due some general underlying cognitive mechanisms
+one related perception particular representation discussed
+second fundamental mechanism related response action because agents tend actions e g c d according average degree each action associated i e utility agent outcome game chosen strategy
+psychological point view following effect degree they positive outcomes out degree they negative outcomes
+example context will strategy higher payoff without about structure game other words follows more choice instead strategy
+demonstrate when people make decisions two action related biases terms particular attributes games like depending environmental distribution
+existing studies however investigated whether context effects also when against consistent
+here do not mean rational who should
+consistent mean whose responses determined current game not either structure previous games history past responses
+thus consistent across
+because consistent context they may potentially rather than effects experimental may if both human participants same factors hence potentially over due response biases
+our study consistent was computer algorithm not human participants were although algorithm not
+most natural model consistent probability depends game related each also related other if one
+here use provides good measure level observed experimentally games
+test described article important because measures power response biases will whether biases real where any
+other words good when situation both would better if both but being additional other less you
+was play participants had play against computer
+setting computer was frequency probability values each game
+example computer was number percent time when games number
+alternative design would program computer i e number percent time
+however design would not evidence about biases under question because computer generated feedback more about various games
+thus will feedback signal when games less more various biases more likely environment
+other policy according less about various games
+note even if people they game i e they themselves program every time rather than different person each time should not affect our key because given program prior context then does not if game not
+actually if game seen then should make effect consistent even should turn further context effects because would more likely their consistent
+our research objective design three experiments described
+particular variables were parameters statistical distribution games sequence mean range rank were experiments number number number
+here present three studies together

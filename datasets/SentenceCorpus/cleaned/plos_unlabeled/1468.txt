@@ -1,0 +1,62 @@
+ 
+central challenge computational modeling biological systems determination model parameters
+typically only fraction parameters experimentally measured while rest often fitted
+fitting process usually based experimental time course measurements observables used assign parameter values minimize some measure error between measurements corresponding model prediction
+measurements come immunoblotting assays fluorescent markers etc tend very noisy taken at limited number time points
+work present new approach problem parameter selection biological models
+show how one use dynamic recursive estimator known extended kalman filter arrive at estimates model parameters
+proposed method follows
+first use variation kalman filter particularly well suited biological applications obtain first guess unknown parameters
+secondly employ posteriori identifiability test check reliability estimates
+finally solve optimization problem refine first guess case should not accurate enough
+final estimates guaranteed statistically consistent measurements
+furthermore show how same tools used discriminate among alternate models same biological process
+demonstrate ideas applying our methods two examples namely model heat shock response e coli model synthetic gene regulation system
+methods presented quite general may applied wide class biological systems where noisy measurements used parameter estimation model selection
+ introduction 
+many biological processes modeled using ordinary differential equations describe evolution over time certain quantities interest
+at molecular level variables considered models often represent concentrations chemical species proteins mrna
+once pathway structure known corresponding equations relatively easy write down using widely accepted kinetic laws law mass action michaelis-menten law
+general equations will depend several parameters
+some them reaction rates production decay coefficients physical meaning
+others might come approximations reductions justified structure system therefore they might no direct biological biochemical interpretation
+both cases most parameters unknown
+while sometimes feasible measure them experimentally many cases very hard expensive time consuming even impossible
+however usually possible measure some other variables involved models using pcr immunoblotting assays fluorescent markers like
+reasons problem parameter estimation indirect determination unknown parameters measurements other quantities key issue computational systems biology
+knowledge parameter values crucial whenever one wants obtain quantitative even qualitative information models 
+last fifteen years lot attention been given problem systems biology community
+much research been conducted applications computational biology models several optimization techniques linear nonlinear least-squares fitting simulated annealing genetic algorithms evolutionary computation
+latter suggested method choice large parameter estimation problems
+starting suitable initial guess optimization methods search more less exhaustively parameter space attempt minimize certain cost function
+usually defined error some sense between output model data comes experiments
+result set parameters produce best fit between simulations experimental data
+one main problems associated optimization methods they tend computationally expensive may not perform well if noise measurements significant
+considerable interested also been raised bayesian methods extract information noisy uncertain data
+includes both measurement noise intrinsic noise well known play important role chemical kinetics when species present low copy numbers
+main advantage methods their ability infer whole probability distributions parameters rather than just point estimate
+also they handle estimation stochastic systems no substantial modification algorithms
+main obstacle their application computational since analytical approaches not feasible non-trivial problems numerical solutions also challenging due need solve high-dimensional integration problems
+nonetheless most recent advancements bayesian computation markov chain monte carlo techniques ensemble methods sequential monte carlo methods don't require likelihoods been successfully applied biological systems usually case lower-dimensional problems and/or availability relatively high number data samples
+maximum-likelihood estimation also been extensively applied
+more recently parameter estimation computational biology models been tackled framework control theory using state observers
+algorithms were originally developed problem state estimation one seeks estimate time evolution unobserved components state dynamical system
+controls literature subject vast but context biological biochemical systems classically used approaches include luenberger-like kalman filter based high-gain observers
+other methods been developed exploiting special structure specific problems
+state observers employed parameter estimation using technique state extension parameters transformed into states suitably expanding system under study
+context extended kalman filtering unscented kalman filtering methods been applied well
+when number unknown parameters very large often impossible find unique solution problem
+case one finds several sets parameters ranges values all equally likely give good fit
+situation usually referred model being non identifiable one that's most commonly encountered practice
+furthermore known large class systems biology models display sensitivities parameter values roughly evenly distributed over many orders magnitude
+sloppiness been suggested factor makes parameter estimation difficult
+similar results indicate search exact individual values parameters hopeless task most cases
+however also known even if estimation process not able tightly constrain any parameter values models still able yield significant quantitative predictions 
+purpose present contribution extend results parameter estimation kalman filtering introducing procedure applied large parameter spaces handle sparse noisy data provides evaluation statistical significance computed estimates
+achieve goal introduce constrained hybrid extended kalman filtering algorithm together measure accuracy estimation process based formula variance test
+furthermore show how techniques together also used address problem model selection one pick most plausible model given process among list candidates
+distinctive feature approach ability use information about statistics measurement noise order ensure estimated parameters statistically consistent available experimental data
+rest paper organized follows
+methods section introduce all theory associated our procedure namely constrained hybrid extended kalman filter accuracy measure its use estimation refinement application model selection problem
+results section demonstrate procedure two examples drawn molecular biology
+finally discussion section summarize new procedure give some additional remarks point out how findings will immediate interest researchers computational biology who use experimental data construct dynamical models biological phenomena

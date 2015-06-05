@@ -1,0 +1,45 @@
+ 
+there currently large number orphan g-protein-coupled receptors whose endogenous ligands unknown
+identification peptide hormones difficult important problem
+describe computational framework models spatial structure along genomic sequence simultaneously temporal evolutionary path structure across species show how models used discover new functional molecules particular peptide hormones via cross-genomic sequence comparisons
+computational framework incorporates priori high-level knowledge structural evolutionary constraints into hierarchical grammar evolutionary probabilistic models
+computational method was used identifying novel prohormones processed peptide sites producing sequence alignments across many species at functional-element level
+experimental results initial implementation algorithm were used identify potential prohormones comparing human non-human proteins swiss-prot database known annotated proteins
+proof concept identified 45 out 54 prohormones only 44 false positives
+comparison known hypothetical human mouse proteins resulted identification novel putative prohormone at least four potential neuropeptides
+finally order validate computational methodology present basic molecular biological characterization novel putative peptide hormone including its identification regional localization brain
+species comparison hmm-based computational approach succeeded identifying previously undiscovered neuropeptide whole genome protein sequences
+novel putative peptide hormone found discreet brain regions well other organs
+success approach will great impact our understanding gpcrs associated pathways help identify new targets drug development
+ introduction 
+g protein coupled receptors probably represent largest gene family making up 3 percent mammalian genome
+proteins made up several subfamilies including class rhodopsin-like class b secretin-like class c metabotropic glutamate/pheromone-like other nonmammalian receptors
+within each class there very large number smaller subclassifications family receptors peptide hormones within rhodopsin-like receptors
+there approximately 1,000 gpcrs vast majority olfactory receptors more than 650 gpcrs rhodopsin family alone
+large number receptors been identified only computational methods while others been cloned transfected into cells; however cognate neurotransmitter receptor functions many gpcrs currently unknown
+any receptor native neurotransmitter unknown considered orphan receptor
+all orphan receptors remain some percentage represents receptors peptide hormones
+large family proteins important not only basic science perspective but because their extracellular sites action importance first messengers cellular signaling gpcrs become primary target drug development
+fact over 30 percent all pharmaceuticals act either agonists antagonists gpcrs
+many pharmaceutical companies identifying cloning patenting new orphan gpcrs hope orphan receptors will ultimately lead new drug development new pharmaceutical agents
+although identification putative gpcrs accomplished relatively easily discovery endogenous ligands activate receptors far more difficult
+ligands exist small molecules lipids peptides proteins
+many atp may important functions other than activating gpcr
+even within class hormones there seldom obvious clues identify new candidate
+particularly true within family peptide hormones they processed larger species known preprohormones 
+peptide hormones neuropeptides string amino acids ranging approximately 3 50 residues
+they found within larger protein production actual hormone usually follows specific rules
+preprohormones secreted proteins each signal sequence necessary transport protein out golgi complex into secretory vesicle processing secretion where signal sequence removed revealing prohormone
+general hormones surrounded pair basic residues i.e arg-arg arg-lys lys-arg lys-lys found directly adjacent putative hormone
+double basic residues act recognition sites processing enzymes usually serine proteases cleave prohormone liberate active peptide
+many cases there more than single active peptide within one precursor protein 
+even common features identification peptide hormone dna protein sequence very difficult
+even though all gpcrs obviously related based upon dna protein sequence neuropeptides bind receptors only obviously related within discrete families prohormones
+instance family opioid-like peptides four members
+prohormones proopiomelanocortin proenkephalin prodynorphin pronociceptin share similar genomic structures very slight similarity protein sequence most notably yggf enkephalin endorphin dynorphin n/ofq
+however if one were conduct blast search genbank dna sequences similar proenkephalin one would not find any other neuropeptide
+simple search strategies within genbank not adequate identifying novel neuropeptides especially those not belonging known neuropepeptide families
+there additional feature neuropeptides may more clearly differentiate them other types molecules
+neuropeptides usually well conserved among various species while intervening sequences presumably because they simply discarded not well conserved
+here describe novel hidden markov model based computational framework match profile hmm method neuropeptide identification based upon approach models spatial structure along genomic sequence simultaneously temporal evolutionary path structure across species show how models used discover new functional molecules via cross-genomic sequence comparisons
+computational tool was used identify novel prohormone npq containing up four potential neuropeptides

@@ -1,0 +1,31 @@
+
+consider linear regression problem regularization norm problem usually
+paper present detailed analysis model consistency
+various regularization parameter probability correct model selection i e variable selection
+specific rate show all variables should model probability one fast while all other variables positive probability
+show property if several given sample then estimates leads consistent model selection
+novel variable selection algorithm compared other linear regression methods data datasets machine learning
+introduction
+regularization norm interest recent years machine learning statistics signal processing
+context linear regression problem usually
+much early effort been algorithms solve optimization problem
+particular algorithm allows find regularization i e set solutions all values regularization parameters at cost single matrix
+moreover regularization norm leads sparse solutions i e vectors many thus model selection
+recent at model consistency i e if know data were generated sparse vector does actually when number observed data points
+case fixed number does pattern if only if certain simple condition matrices
+particular low correlation settings indeed consistent
+however presence strong cannot consistent potential problems variable selection
+adaptive where weights norm then allow consistency all situations
+paper first derive detailed analysis pattern selection estimation procedure previous analysis specific regularization parameter
+show when where number observations then will all variables should model relevant variables probability one fast while all other variables variables positive probability
+if several datasets generated same distribution were available then latter property would suggest consider estimates each all relevant variables would always selected all datasets while variables would models many different datasets would simply them
+however practice only one but methods several datasets same unique
+paper show when using actually consistent model estimate without consistency condition required
+new procedure b s s
+finally our framework could seen applied however our procedure may rather considered combination subset variables all terms variable selection our case consistent also allows potential additional
+paper present analysis model selection describe algorithm well its model consistency while our results data where true sparse model known data machine learning
+found vector let norm norm norm
+defined if if if
+vector vector elements
+moreover given vector subset vector elements
+matrix elements whose

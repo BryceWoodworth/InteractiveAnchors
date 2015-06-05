@@ -1,0 +1,29 @@
+
+family proteins human genome involved many complex signal pathways typically binding subject
+class family known binding site although effects receptor not yet been described
+effort understand effects performed scale molecular dynamics simulations d 2 receptor finding receptor at site
+presence at site conformational change one found state human 2 receptor
+study provides detailed quantitative information about binding d 2 receptor important conformational change d 2 receptor function
+introduction
+highly signal able stimulus signaling pathways
+recent research field complexity mechanisms involved far being
+among mechanisms central role signaling
+experimental study regulatory processes difficult because techniques provide structural information sufficient spatial time scales specific aspects interactions
+computational methods like molecular dynamics simulation used provide unique into some aspects problem terms both spatial time scale needed
+present work application long simulations effect class mechanism involved their role
+class family been used drug targets treatment central system
+been studied experimentally receptor d 2 d
+been proposed site region below binding site
+high among suggests its structural importance function
+group via interaction
+indeed introduction residues position d 2 d presence negative site essential sensitivity
+et al proposed binding site network
+however experimental information available molecular mechanism activation remains unknown
+effort mechanism effect investigated d 2 receptor
+molecular dynamics simulations d 2 receptor were performed analyze more than s simulation data
+analysis single s long simulation one simulations simulations accurate free energy
+simulation into d 2 receptor receptor its into network binding site receptor
+most analysis all showed correlation between position
+part so called set residues known major conformational change upon activation
+propose based experimental data conformational state affected binding site particular receptor response
+our study shows conformational state also site conformational state structure experimentally derived 2 receptor

@@ -1,0 +1,26 @@
+ 
+ratio-bias rb phenomenon considered provide systematic evidence irrationality
+when judging probability low-probability event many people judge less likely when expressed ratio small numbers e g number number than when expressed ratio large numbers e g number number
+four experiments show phenomenon increased experimental paradigm misleads subjects regarding aim task inducing equal-ratio neglect
+one factor constant across texts experiment number  number particular sentence induces subjects neglect equal ratio invites them express feelings about outcome target event rather than giving rational answer
+intent strengthened formulation question experiment number explicitly asks subject express feeling connected lotteries absence third option experiment number number right one expresses indifference between two options
+experiment number task lacks only third option simply adding option allows subjects express correct answer rb disappears
+ introduction 
+ratio-bias rb phenomenon occurs when people judge unlikely event less likely more surprising when its probability presented form equivalent ratio smaller e g number number versus larger e g number number numbers
+phenomenon robust surprising special interest because seems demonstrate many people despite intellectually knowing better prefer behave certain situations according their intuitive impressions
+phenomenon seems provide compelling evidence existence two independent processing modes sometimes conflict each other often interact manner produces compromises
+typical experimental paradigm game chance subjects indicate two trays red white jellybeans one large e g number red out number jellybeans one small e g number red out number jellybeans they prefer draw hope obtaining winning red jellybean
+when two trays offer equal probabilities drawing red jellybean rational decision report no tray preference
+however most subjects select tray larger number red jellybeans many despite acknowledging they know better willing pay small sums money privilege doing so rather than having selection made randomly
+subjects were instructed indicate how they believed most people would behave others-perspective how they believed they themselves would behave self-perspective
+according authors judging others' behavior more revealing because circumvents subjects' desire present themselves rational people
+ratio bias been investigated health domain yamagishi pinto-prades et al
+yamagishi gave subjects mortality rates well-known causes death varying both percentage incidence rate population frame deaths per number number number people within subjects
+ratings risk were consistently higher frame number number than frame number regardless actual percentage incidence rate
+similarly pinto-prades et al investigated replicated ratio bias context choices between medical treatments given probability death
+many studies rb presented subjects choice between number number chance success number number chance success well choice between number number number number
+they found many individuals number percent number percent respectively preferred latter choice large urn even though former small urn offered greater probability success
+existence bias also been confirmed studies testing effect incentives
+recent study risky judgments also provides support rb effect over conflicting theory construal level theory clt
+given statements number people die cancer every day equivalent number number people die cancer every year construal level theory predicts former will result higher risk judgments whereas ratio-bias effect predicts higher risk judgments latter statement
+study showed ratio bias effect seems dominate construal level theory when two compared although one-third bonner newell's subjects show opposite effect

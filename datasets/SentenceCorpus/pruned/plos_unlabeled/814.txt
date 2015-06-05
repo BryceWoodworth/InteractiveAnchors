@@ -1,0 +1,41 @@
+
+generate energy
+previous study using metabolic model shown essential amino under conditions behavior lead growth than necessary
+here further investigate energy using extended patterns including those interactions among
+moreover our analysis include conditions explore between different
+found cells also essential amino even during when energy should
+also found under both conditions were taken up were into used several
+some likely
+addition our results also show what typically assumed occurs energy levels primary if not more
+findings approach growth here now even at cost
+behavior actually its natural environments where not only available but may extended may several years
+setting cells much possible when conditions become
+introduction
+environments higher
+most well known its
+only known structure allows
+being developed applications data
+its most aspects
+example structure been its complete cycle at molecular level
+however despite focus not only means generate energy
+well other mechanisms
+makes good model system between different energy
+also one few reported organisms use long term energy manner
+metabolic network genomic biochemical physiological data
+network known reactions take place within considered when most all genes known metabolic function
+previous study proposed network
+addition information metabolic networks gain system properties through use appropriate computational methods
+respect framework important modeling systems because does not require detailed information typically required full models
+rather models require only generally available information energy when available reaction
+one methods available under framework analysis
+uses linear optimization find distribution particular objective function growth rate
+been shown within under defined conditions describe metabolic networks including prediction
+include models introduce some degree dynamics through integration input rates model
+our aim study
+first set out investigate between energy under different
+second also relationships between different energy mechanisms themselves typically examined
+achieve used metabolic network different aspects
+our results include several findings assumptions typically particularly respect how
+more perspective also out existing framework metabolic models biological systems where growth rates time
+changes example result differences between growth interactions between
+demonstrate extended not only dynamics but several actually identification underlying

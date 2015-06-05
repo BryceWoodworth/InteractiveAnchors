@@ -1,0 +1,52 @@
+
+paper consider theory uncertainty represented through sets probability distributions focus problem modeling prior about random variable
+setting known result state prior not learning
+problem another state called been proposed
+very some necessary state allows learning take place
+what paper does provide new evidence also cannot way out problem statistical inference conditions very
+key result setting characterized variable interest
+argue setting far most common case practice provide case variables general variables condition if learning take place under prior
+condition shown even most common statistical problems
+results strong form evidence against condition prior real statistical problems
+introduction
+theories statistics often question prior
+prior means subject who about perform statistical analysis about underlying process
+yet subject would like available sample some statistical i e subject would like use data learn initial condition
+situation very important often statistical analysis assumptions about problem interest thus approach statistics
+fundamental question whether prior learning not
+negative answer case his theory statistics based modeling through sets probability distributions
+shows very general sense prior i e lead type amount observed data
+at same time different state called does learning take place
+subset functions random variables under see section
+way prior still one some functions interest at same time learn data
+fact learning possible under prior shown instance special case model
+popular model based set used case inference data generated process
+our aim paper investigate whether possible way out problem statistical inference conditions very
+out setting made data generated process like but consider sets general not only used
+interest fact sets appear play important role question modeling prior about random variable
+key point sets made two
+first well known principle second states if our prior event interest should not depend space event see section about two
+later both order condition about random variable
+if necessary sets should especially important subject who learn condition
+our setting where variable under
+means cannot so learn about only means another not variable related through known probability distribution
+variable assumed sense its observed see section
+considered made many real cases not possible directly value random variable instance when variable health result test
+cases need use variable test order obtain information about original variable health
+paper variable made process call process
+using introduced give condition section related likelihood function shown sufficient learning about under prior
+condition very general developed any set models thus including case very general probabilistic between
+show then simple examples condition even most common statistical problems
+order result important variables problems uncertainty
+key point here processes if consider even when directly obtain value variable interest what actually obtain observation value rather than value itself
+makes sense because practice process usually i e there very often could there always positive probability value another possible value thus observation error
+if probability observation error very small consider one common bayesian model proposed learn under prior then there little difference between results provided variable model modeling process results provided model where observations assumed
+process often practice between variable one not
+but other hand if consider sets probability distributions model our prior instead single probability distribution particular if consider sets then there difference between variable model model where observations considered so learning may first model possible second
+when sets probability distributions process may no even if probability observation error
+shown sense example section where analyze our results special case
+paper follows behavior determined presence set distributions
+question distributions usually not considered when bayesian models single prior cannot out without
+general present results hence about condition prior real applications statistics
+may make sense consider research about subject models very states belief however than
+might also involve idea both practice

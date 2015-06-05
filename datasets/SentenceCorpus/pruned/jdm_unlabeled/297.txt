@@ -1,0 +1,53 @@
+
+experiments suggested decisions experience differ decisions description
+decisions decision often their payoffs
+previous authors effect outcomes
+paper i provide further analysis effect experiment involves series simple binary choice
+current experiment decisions small times feedback each decision provided decision outcomes
+participants learn about outcome distributions through sampling they not explicitly provided prior information payoff structure
+current results suggest effect than suggested previous research important payoff effect effect outcomes decisions experience features must learned through sampling process
+introduction
+much attention been given between decisions description decisions experience
+decisions people experience difficulty understanding uncertainty
+two main determine effect events decisions experience
+first tendency rely small samples past
+tendency leads events most samples not likely include events
+second tendency rely recent
+when information available decision limited obtained payoffs tendency leads effect outcomes
+effect was first introduced his observation if then would
+however would even
+states effect fundamental problem learning likelihood decisions them
+effect bias against risky alternative binary decisions
+bias tendency actions been recent actions outcomes
+previous research decisions value effect
+whereas some studies demonstrate its importance other studies suggest effect
+paper i choice problems
+authors experiments three choice problems problem number number number were performed participants each involving number binary choice between alternative higher expected value alternative lower expected value
+number shows payoff structure each problem
+example one selection problem number made participants four points probability number number point
+participants their study were experiments many trials their goal each t t number number was one two computer
+each payoff random payoff distribution associated selected
+thus prior information was participants had base their decisions experience
+participants
+number shows rate overall choices each problem example overall choices was number number problem number
+data considered tendency rely small samples than effect
+support problem number used where number participants were asked between computer number each selection random payoff distribution associated different number choosing among possible options participants had rely feedback obtained similar situations past
+problem number outcome number also outcome probability number number
+problem number small samples effect lead predictions
+small samples outcome number will prediction will
+effect predicts learning their likelihood decisions they i e example thus outcome
+thus effect outcome number will prediction will
+reported observed choices over number trials was number number
+their results suggest tendency rely small samples than effect
+studies demonstrated value assumed tendency rely small samples effect
+example all leading models recent choice prediction focused decisions experience described alternative assumptions
+however some recent results appear question relative two effects
+review suggests events studies examine decisions experience complete feedback
+design effect complete feedback
+different however shown studies focus decisions experience limited feedback feedback limited obtained payoff payoff payoff option not presented
+studies strong events when small samples effect lead same predictions but no clear events when two lead predictions
+results consistent predictions leading models choice prediction
+example best model et al predicts only number number problem number
+main goal current paper effect than suggested
+order achieve goal i problem number number number
+note effect bias low option problem number number

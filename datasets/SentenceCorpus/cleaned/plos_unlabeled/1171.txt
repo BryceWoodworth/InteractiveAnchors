@@ -1,0 +1,57 @@
+ 
+key factor endemic epidemic dynamics geographical distribution viruses been frequently interpreted light their genetic histories
+unfortunately inference historical dispersal migration patterns viruses mainly been restricted model-free heuristic approaches provide little insight into temporal setting spatial dynamics
+introduction probabilistic models evolution however offers unique opportunities engage statistical endeavor
+here introduce bayesian framework inference visualization hypothesis testing phylogeographic history
+implementing character mapping bayesian software samples time-scaled phylogenies enable reconstruction timed viral dispersal patterns while accommodating phylogenetic uncertainty
+standard markov model inference extended stochastic search variable selection procedure identifies parsimonious descriptions diffusion process
+addition propose priors incorporate geographical sampling distributions characterize alternative hypotheses about spatial dynamics
+visualize spatial temporal information summarize inferences using virtual globe software
+describe how bayesian phylogeography compares previous parsimony analysis investigation influenza h5n1 origin h5n1 epidemiological linkage among sampling localities
+analysis rabies west african dog populations reveals how virus diffusion may enable endemic maintenance through continuous epidemic cycles
+analyses conclude our phylogeographic framework will make important asset molecular epidemiology easily generalized infer biogeogeography genetic data many organisms
+ introduction 
+phylogenetic inference molecular sequences becoming increasingly popular tool trace patterns pathogen dispersal
+time-scale epidemic spread usually provides ample time rapidly evolving viruses accumulate informative mutations their genomes
+consequence spatial diffusion among other processes leave measurable footprint sampled gene sequences viruses
+reconstructing both evolutionary history spatial process sequences provides fundamental understanding evolutionary dynamics underlying epidemics e.g
+also hoped insights translated effective intervention prevention strategies elucidating key factors viral transmission gene flow over larger distances central formulating strategies e.g 
+phylogeographic analyses common approach molecular ecology connecting historical processes evolution spatial distributions traditionally scale over millions years
+many popular phylogeographic approaches remiss ignoring interaction between evolutionary processes spatial-temporal domains
+one first reconstructs phylogeny omitting spatial information then conditions phylogeographic inferences reconstruction exploiting non-parametric tests evaluate significance conditional structure e.g
+draw conclusions about epidemic origin epidemiological linkage between locations however require reconstruction dispersal patterns process throughout evolutionary history
+considering locations discrete states boils down well-known problem ancestral state inference
+parsimony popular heuristic approach map characters onto single phylogenetic tree
+unfortunately parsimony reconstructions ignore important sources model uncertainty including both uncertainty dispersal process well unknown phylogeny
+addition minimizing number state exchanges over phylogeny misleading when rates evolution rapid when state exchange probabilities unequal 
+probabilistic methods draw explicit model state evolution permitting ability glimpse complete state history over entire phylogeny conveniently draw statistical inferences
+analyses typically employ continuous-time markov chain models discrete state evolution analogous common nucleotide codon amino acid substitution models
+contrast parsimony maximum likelihood-based reconstructions incorporate branch length differences calculating conditional probability each ancestral state given observed states at phylogeny tips
+bayesian reconstruction methods enable further generalization conditional probability analysis removing necessity fix markov model parameters obtain ancestral states necessity specify fixed tree topology known branch lengths
+bayesian inference integrates conclusions over all possible parameter values but achieve however requires prior probability distributions all aspects model
+while probabilistic methods been previously presented bio phylogeographic context particular bayesian methods integrate over phylogenetic uncertainty markov model parameter uncertainty viral phylogeography studies rarely made use developments
+may consequence low awareness existing software implementations arbitrary continuous-time markov chain models lack appreciation uncertainty intrinsic reconstructions ease one formally access epidemiological linkage through probabilistic approaches
+recent phylogeographic study influenza h5n1 introduces heuristic non-parametric test evaluate whether parsimony-inferred migration events between two particular locations occur at significantly high frequency
+null distributions frequencies arise randomizing tip localities after false discovery rate correction control simultaneous testing issues
+although procedure addresses concerns about statistical inference sparse frequency matrices multiple comparison correction still results conservative estimate significant migration events
+fully probabilistic approaches may further ease statistical inference yet similar tests remain lacking likelihood-based phylogeographic models
+advances evolutionary inference methodology frequently demonstrated how novel approaches appended sequence analyses many cases starting alignment parameter estimation conditional tree reconstructions
+example demographic inference involved genealogy reconstruction estimating time scale evolutionary history coalescent theory quantify demographic impact tree shape
+well acknowledged sequential procedures ignore important sources uncertainty because they generally purge error associated each intermediate estimate
+advent novel computational techniques like markov chain monte carlo sampling become feasible integrate many models involved simultaneously estimate parameters interest
+demographic inference well-known example genealogy-based population genetics benefited advances
+bayesian mcmc methods also enable ancestral state reconstruction while simultaneously accounting both phylogenetic mapping uncertainty
+although adds much needed credibility ancestral reconstruction phylogeographic analysis would benefit even more fully integrating spatial temporal demographic inference
+here implement ancestral reconstruction discrete states bayesian statistical framework evolutionary hypothesis testing geared towards rooted time-measured phylogenies
+allows character mapping natural time scales calibrated under strict relaxed molecular clock combination several models population size change
+use full probabilistic approach study viral phylogeography extend bayesian implementation mixture model exchange rates markov model allowed zero some probability
+bayesian stochastic search variable selection enables us construct bayes factor test identifies most parsimonious description phylogeographic diffusion process
+also demonstrate how geographical distribution sampling locations incorporated prior specifications
+through feature-rich visual summaries space-time process demonstrate how approach offer insights into spatial epidemic history avian influenza a-h5n1 rabies viruses africa
+highly pathogenic avian influenza a-h5n1 viruses been present over decade southern china spread multiple waves different types poultry countries across asia africa europe
+result highly pathogenic a-h5n1 now panzootic disease represents continuous threat human spill-over
+strong surveillance been place since viruses caused extensive outbreaks but source early dissemination pathways remained uncertain
+because parsimony analysis attempted shed light latter a-h5n1 provides ideal example comparison bayesian phylogeographic inference
+rabies endemic asia africa where primary reservoir vector rabies virus domestic dog
+phylogenetic analysis revealed several genotypes lyssaviruses ; genotype 1 been found responsible classical rabies fatal disease terrestrial mammals throughout world
+here explore phylogeographic history rabv domestic dogs west central africa using recently obtained sequence data evaluate role viral dispersal maintaining rabv epidemic cycles

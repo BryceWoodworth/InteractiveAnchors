@@ -1,0 +1,40 @@
+ 
+method topological grammars proposed multidimensional data approximation
+data complex topology define principal cubic complex low dimension given complexity gives best approximation dataset
+complex generalization linear non-linear principal manifolds includes them particular cases
+problem optimal principal complex construction transformed into series minimization problems quadratic functionals
+quadratic functionals physically transparent interpretation terms elastic energy
+energy computation whole complex represented system nodes springs
+topologically principal complex product one-dimensional continuums represented graphs grammars describe how continuums transform during process optimal complex construction
+factorization whole process onto one-dimensional transformations using minimization quadratic energy functionals allow us construct efficient algorithms
+ introduction 
+paper discuss classical problem: how approximate finite set relatively large finite subset regular low-dimensional object
+application finite set dataset problem arises many areas: data visualization fluid dynamics
+first hypothesis check is: whether dataset situated near low--dimensional affine manifold plane
+if look point straight line plane
+
+
+minimizes average squared distance datapoints immediately come principal component analysis pca
+pca one most seminal inventions data analysis
+now textbook material
+nonlinear generalization pca great challenge many attempts been made answer
+two them especially important our consideration: kohonen's self-organizing maps som principal manifolds
+som algorithm take finite metric space metric try map into best preservation initial structure image b best approximation dataset
+som algorithm several setup variables regulate compromise between goals
+start some initial approximation map
+each  th step algorithm datapoint current approximation
+define ``owner" :
+next approximation  } here step size monotonically decreasing cutting function
+there many ways combine steps  whole algorithm
+idea som very flexible seminal plenty applications generalizations but strictly speaking don't know what looking for: algorithm but no independent definition: som result algorithm work
+attempts define som solution minimization problem some energy functional were not very successful
+known probability distribution principal manifolds were introduced lines surfaces passing through ``the middle'' data distribution
+intuitive vision was transformed into mathematical notion self-consistency : every point principal manifold conditional expectation all points projected into
+neither manifold nor projection should linear: just differentiable projection data space usually domain  onto manifold self-consistency requirement conditional expectations: finite dataset  only one zero datapoints typically projected into point principal manifold
+order avoid overfitting introduce smoothers become essential part principal manifold construction algorithms
+soms give most popular approximations principal manifolds: take fragment regular dimensional grid consider resulting som approximation dimensional principal manifold see example 
+several original algorithms construction principal curves surfaces finite datasets were developed during last decade well many applications idea
+1996 discussion about som at 5th russian national seminar neuroinformatics method multidimensional data approximation based elastic energy minimization was proposed see bibliography there
+method based analogy between principal manifold elastic membrane plate
+following metaphor elasticity introduce two quadratic smoothness penalty terms
+allows one apply standard minimization quadratic functionals i e  solving system linear algebraic equations sparse matrix

@@ -1,0 +1,33 @@
+
+paper apply computer learning methods cancer using level standard information provided
+new data set over years
+using level our algorithm probability predictions disease
+estimate classification accuracy probability predictions into predictions
+our algorithm makes errors than almost any linear combination level one taken scale
+power our algorithm use test hypothesis do not contain useful information prediction disease at particular time before
+our algorithm values better than those produced algorithm been previously applied data set
+our proposed algorithm more prediction new data prediction algorithm cancer
+introduction
+early detection cancer important since do not appear disease
+leads treatment
+using significantly quality
+however less at early too make use
+our goal investigate whether existing methods online prediction improve quality detection disease demonstrate information useful cancer early disease
+combination decision rule form where level taken sets described below
+consider prediction each case sample two samples individuals chosen close possible case sample respect attributes conditions processing
+given samples different individuals one sample predict cancer
+framework was first described
+authors analyze cancer data set show information help provide more predictions than itself some before
+paper use same framework set decision rules combined derive algorithm better some sense than any rules
+our research use different more recent cancer data set authors larger number items than
+decision rules proposed using online prediction online prediction found } thus our own decision rule
+paper use algorithm described because allows us output probability measure given best theoretical type prediction
+order estimate classification accuracy probability predictions into predictions maximum rule weight 1 maximum predicted probability weight other samples then weights
+show our algorithm more predictions than particular fact more experiments not described here show all particular
+well different disease
+when testing hypothesis do not contain useful information prediction disease at its early our algorithm better values comparison algorithm best addition our algorithm requires
+our paper follows
+section describe methods use give predictions
+section short description data set work
+show our experiments results section into description probability prediction algorithm detection at different before
+section our paper

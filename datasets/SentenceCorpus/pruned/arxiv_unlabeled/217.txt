@@ -1,0 +1,16 @@
+
+variety optimization problems machine learning algorithms solution been developed recently
+most methods single parameter example support vector machine
+solution algorithms do not only solution one particular value regularization parameter but solutions making selection optimal parameter much
+been assumed linear solution only linear complexity \ many
+prove support vector machine complexity number training points case
+more strongly construct single instance input points at least many distinct support vectors % occur regularization parameter changes
+introduction
+regularization methods support vector related kernel methods % become very standard tools many optimization classification regression tasks variety example signal processing statistics biology computer computer well data
+regularization methods common they convex usually optimization problems special parameter their objective function called regularization parameter between two optimization
+machine learning two terms usually model complexity regularization term accuracy training data loss term other words between good generalization performance
+problems been studied both optimization machine learning resulting many algorithms able not only solutions at single value parameter but along whole solution parameter
+many known solution linear functions parameter however complexity unknown
+here prove complexity solution simple indeed case
+furthermore our example shows many distinct support vectors optimal solution occur regularization parameter changes
+here both terms number input points also dimension space points

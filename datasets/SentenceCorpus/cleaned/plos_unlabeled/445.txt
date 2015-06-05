@@ -1,0 +1,25 @@
+ 
+finding functional dna binding sites transcription factors throughout genome crucial step understanding transcriptional regulation
+unfortunately binding sites typically short degenerate posing significant statistical challenge: many more matches known tf motifs occur genome than actually functional
+however information about chromatin structure may help identify functional sites
+particular been shown active regulatory regions usually depleted nucleosomes thereby enabling tfs bind dna those regions
+here describe novel motif discovery algorithm employs informative prior over dna sequence positions based discriminative view nucleosome occupancy
+when gibbs sampling algorithm applied yeast sequence-sets identified chip-chip correct motif found 52 percent more cases our informative prior than commonly used uniform prior
+first demonstration nucleosome occupancy information used improve motif discovery
+improvement dramatic even though using only statistical model predict nucleosome occupancy; expect our results improve further high-resolution genome-wide experimental nucleosome occupancy data becomes increasingly available
+ introduction 
+finding functional dna binding sites transcription factors throughout genome necessary step understanding transcriptional regulation
+however despite explosion tf binding data high-throughput technologies like chip-chip dip-chip pbm gene expression arrays finding functional occurrences binding sites tfs remains difficult problem because binding sites most tfs short degenerate sequences occur frequently genome chance
+particular matches known tf motifs genome often do not appear bound respective tfs vivo
+one popular explanation when dna form chromatin not all parts dna equally accessible tfs
+state dna wrapped around histone octamers forming nucleosomes
+positioning nucleosomes along dna believed provide mechanism differential access tfs at potential binding sites
+indeed been shown functional binding sites tfs at regulatory regions typically depleted nucleosomes vivo 
+if knew precise positions nucleosomes throughout genome under various conditions could increase specificity motif finders restricting search functional binding sites nucleosome-free areas
+here describe method incorporating nucleosome positioning information into motif discovery algorithms constructing informative priors biased toward less-occupied promoter positions
+our method should improve motif discovery most when access high-resolution nucleosome occupancy data gathered under various vivo conditions
+unfortunately data not currently available any organism at whole-genome scale let alone under variety conditions
+nevertheless because our method probabilistic even noisy evidence regarding nucleosome positioning effectively exploited
+example segal et al recently published computational model based high-quality experimental nucleosome binding data predicts probability each nucleotide position yeast genome being bound nucleosome; predictions intrinsic dna sequence thus independent condition but were purported explain around half nucleosome positions observed vivo
+addition lee et al used chip-chip profile average nucleosome occupancy each yeast intergenic region
+show informative positional priors whether learned computational occupancy predictions low-resolution average occupancy data significantly outperform not only commonly used uniform positional prior but also state-of-the-art motif discovery programs

@@ -1,0 +1,49 @@
+
+show how theory provides mechanism theory between
+simple principle model variables should much possible future past independent
+construct objective function model making whose between structural complexity its predictive power
+solutions models at each level complexity achieve optimal predictive power at cost
+limit prediction resulting optimal model intrinsic underlying states
+limit complexity given statistical complexity known maximum prediction
+examples show how theory optimal structure noise at different levels representation
+introduction
+often discovery novel patterns
+mathematical models physical
+but new data sets
+examples include experiments but range social
+all data far what any human analyze directly hand
+new pattern discovery model
+understanding model making critical provide theoretical
+show how basic provide method models achieve different
+show appropriate method
+without would only another approach statistical inference its own assumptions about natural pattern
+our point observation natural systems process produce
+theory then information structures its
+any physical theory mechanism what part observed phenomenon due underlying structure what
+considered noise typically
+theory therefore depends what structure what often
+what good theory though
+information relevant
+one answer question time series information about future time series relevant
+forecasting though models often test how well they predict new data hence general importance model information prediction
+typically there many models explain given data set between two models predictive one smaller less complex model
+however more complex model achieve smaller prediction error than less complex model
+between model complexity prediction error finding between structure noise
+between mechanism event event being random long history but how one still very active
+time series analysis take one example account produced not assumptions independent distributed data
+requires directly notion structure pattern
+essential prediction structure part underlying states
+computational process communication information past future present
+forecasting future two different if they result same prediction
+general prediction probabilistic given future distribution
+resulting relation groups all give same future } resulting space states
+states model predictive means all information past time series contains about future
+result state past future independent property call because states property they past future } where
+related fact predictive
+see note
+furthermore note any states when past known then future distribution not } states thus
+therefore fact states all information between past entropy predictive information
+states unique sufficient statistics time series prediction all predictive information at maximum
+statistical complexity compared all other predictive
+measures amount information must order all entropy past future
+states basis against alternative models should compared

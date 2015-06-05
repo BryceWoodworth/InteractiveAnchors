@@ -1,0 +1,38 @@
+
+selection features relevant prediction classification problem important problem many domains involving data
+features prediction classification methods application
+context information widely used criterion features sets features
+at least three major information depend parameters there no criterion feature selection procedure estimation itself
+shows how problems
+two first ones using techniques provide statistical basis parameters search procedure
+third one information criterion into measure how features not only problem at hand
+introduction
+data found many applications image signal processing biological data analysis many others
+low cost other ways measure information increased lower cost many features idea being features only increase information at further analysis
+problem data general more difficult
+standard data analysis tools either when applied data provide results
+related data usually under terms many usually having mathematical
+simple like
+many problems some features highly correlated
+but if number features number measured data even simple linear model will lead problem more parameters than
+other related more common situations when dimension data space high even if many data available learning
+example data analysis tools use between data any distance i e most tools fact between two random close points between two random far ones tend same value average
+data analysis tools must address two ways them
+one develop tools able model data number effective parameters lower than dimension space
+example into
+other way some way dimension data space without significant loss information
+two ways first one algorithms while second data themselves
+two also exist reduce data features selected combined
+feature combination means data either component analysis linear analysis etc
+features i e some original features others less than particular case
+however number when
+indeed after selection resulting features among original ones allows data application
+example features may help features further
+original features may also help application data analysis results etc
+another selection some when dimension data high between features known identified strongly
+case indeed linear tools cannot while reduction widely used data its use quantitative data remains limited because lack standard method need use most existing tools computational cost some methods
+feature selection based information between features
+following follows
+section problem feature selection main selection procedure
+section information criterion related its estimation
+section shows how solve particular how choose parameter information how search procedure how information concept using when dimension search space increases

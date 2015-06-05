@@ -1,0 +1,40 @@
+ 
+consider multi-label prediction problems large output spaces under assumption output sparsity  target label vectors small support
+develop general theory variant popular error correcting output code scheme using ideas compressed sensing exploiting sparsity
+method regarded simple reduction multi-label regression problems binary regression problems
+show number subproblems need only logarithmic total number possible labels making approach radically more efficient than others
+also state prove robustness guarantees method form regret transform bounds general also provide more detailed analysis linear prediction setting
+ introduction 
+suppose large database images want learn predict who what any given one
+standard approach task collect sample images along corresponding labels  where if only if person object depicted image  then feed labeled sample multi-label learning algorithm
+here total number entities depicted entire database
+when very large  eg    simple one-against-all approach learning single predictor each entity become prohibitively expensive both at training testing time
+our motivation present work comes observation although output label space may very high dimensional actual labels often sparse
+each image only small number entities may present there may only small amount ambiguity who what they
+work consider how sparsity output space output sparsity  eases burden large-scale multi-label learning {exploiting output sparsity } subtle but critical point distinguishes output sparsity more common notions sparsity say feature weight vectors interested sparsity rather than
+general may sparse while actual outcome may not  eg if there much unbiased noise); vice versa may sparse probability one but may large support  eg if there little distinction between several labels
+conventional linear algebra suggests must predict parameters order find value dimensional vector each
+crucial observation  central area compressed sensing  methods exist recover just measurements when sparse
+basis our approach {our contributions } show how apply algorithms compressed sensing output coding approach
+at high level output coding approach creates collection subproblems form ``is label subset its complement
+'' solves problems then uses their solution predict final label
+role compressed sensing our application distinct its more conventional uses data compression
+although do employ sensing matrix compress training data ultimately not interested recovering data explicitly compressed way
+rather learn predict compressed label vectors  then use sparse reconstruction algorithms recover uncompressed labels predictions
+thus interested reconstruction accuracy predictions averaged over data distribution
+main contributions work are: formal application compressed sensing prediction problems output sparsity
+efficient output coding method number required predictions only logarithmic number labels  making applicable very large-scale problems
+robustness guarantees form regret transform bounds general further detailed analysis linear prediction setting {prior work } ubiquity multi-label prediction problems domains ranging multiple object recognition computer vision automatic keyword tagging content databases spurred development numerous general methods task
+perhaps most straightforward approach well-known one-against-all reduction  but too expensive when number possible labels large especially if applied power set label space 
+when structure imposed label space  eg class hierarchy efficient learning prediction methods often possible
+here focus different type structure namely output sparsity not addressed previous work
+moreover our method general enough take advantage structured notions sparsity  eg group sparsity when available
+recently heuristics been proposed discovering structure large output spaces empirically offer some degree efficiency
+previously mentioned our work most closely related class output coding method multi-class prediction was first introduced shown useful experimentally
+relative work expand scope approach multi-label prediction provide bounds regret error guide design codes
+loss based decoding approach suggests decoding so minimize loss
+however does not provide significant guidance choice encoding method feedback between encoding decoding analyze here
+output coding approach inconsistent when classifiers used underlying problems being encoded noisy
+proved analyzed  where also shown using hadamard code creates robust consistent predictor when reduced binary regression
+compared method our approach achieves same robustness guarantees up constant factor but requires training evaluating exponentially  fewer predictors
+our algorithms rely several methods compressed sensing detail where used

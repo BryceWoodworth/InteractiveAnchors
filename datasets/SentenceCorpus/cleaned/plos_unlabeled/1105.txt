@@ -1,0 +1,42 @@
+ 
+experimental work shown t cells immune system rapidly specifically respond antigenic molecules presented surface antigen-presenting-cells able discriminate between potential stimuli based kinetic parameters t cell receptor-antigen bond
+antigenic molecules presented among thousands chemically similar endogenous peptides raising question how t cells reliably make decision respond certain antigens but not others within minutes encountering antigen presenting cell
+theoretical study investigate role localized rebinding between t cell receptor antigen
+show allowing signaling state individual receptors persist during brief unbinding events t cells able discriminate antigens based both their unbinding rebinding rates
+demonstrate t cell receptor coreceptors but not receptor clustering important promoting localized rebinding show requiring rebinding productive signaling reduces signals high concentration endogenous pmhc
+developing our main results use relatively simple model based kinetic proofreading
+however additionally show all our results recapitulated when use detailed t cell receptor signaling model
+discuss our results context existing models recent experimental work propose new experiments test our findings
+ introduction 
+t cells adaptive immune system use their t cell receptors scan surfaces antigen-presenting-cells antigen form specific peptides bound major-histocompatibility complexes
+scanning apcs t cells rapid estimates suggesting individual t cell spends only 1 5 minutes interacting single apc if lacks specific pmhc
+experiments demonstrated t cells extremely sensitive specific pmhc responding few 1 10 pmhc sea thousands chemically similar self pmhc
+also been demonstrated single amino acid substitution presented peptide dramatically alter t cell response
+speed sensitivity specificity been dubbed s 3 characteristics antigen detection t cells 
+observation t cells transiently interact apcs do not express specific pmhc suggests decision respond occurs within seconds encounter
+rapid turnover t cell-apc contacts vivo accelerates search specific pmhc allowing numerous unique t cell-apc interactions
+decision respond gives rise stop signal commonly followed formation immune synapse stable adhesion between t cell apc persists upwards 30 minutes facilitates second sustained phase signaling
+experiments mathematical modeling been extensively used understand efficiency t cell activation
+during sustained signaling phase serial binding many tcr single pmhc been postulated increase t cell sensitivity
+serial binding expected because bonds formed between tcr agonist pmhc transient half-lives range 1 100 s
+other hand t cell specificity been addressed kinetic proofreading model
+model postulates series tcr-proximal steps binding subsequent phosphorylation tcr associated immunoreceptor tyrosine-based activation motifs signaling molecules occur upon pmhc binding signaling events require continued tcr engagement proceed
+productive signal transduced only after several transformations taken place
+model t cells able discriminate between different pmhc imposing threshold tcr-pmhc dissociation rate constant 
+combining serial binding kinetic proofreading reveals balance between sensitivity specificity gives rise optimal formula efficient t cell activation effect been experimentally observed
+efficiency t cell activation models others usually quantified number activated tcrs integrated over whole cell after relatively long period interaction apc
+additionally several studies reported correlations between tcr/pmhc bond dissociation constant but not formula efficiency t cell activation measured after formula hour cytoxicity and/or cytokine assays 
+however t cells been observed respond stimulatory pmhc less than minute at least cytotoxic t cells stable contact interface not required pmhc detection
+serial binding/kinetic proofreading models do not predict specificity short time scales part because signals generated high concentrations weakly binding self pmhc found comparable signals generated low concentrations high affinity agonist pmhc
+moreover early t cell response unlikely determined equilibrium parameter formula quite unlikely t cell-apc interface attains equilibrium at short times
+more likely formula important determinant efficiency t cell activation during sustained phase signaling well after initial decision respond
+paper investigate putative mechanism antigen discrimination during early phase tcr signaling
+specifically examine role tcr/pmhc rebinding allowing t cells make rapid reliable decisions respond
+explicitly accounting tcr/pmhc rebinding within existing formulations diffusion-limited membrane reactions find rebinding very little effect canonical proofreading models
+simple modification accounts signal persistence at tcr allows individual tcr integrate duration multiple rebinding events
+consequence scheme discrimination sum-of-binding model now sensitive both association dissociation rate constants tcr-pmhc bond
+enhanced sensitivity leads finding t cell discriminate between wider spectrum antigens than would predicted traditional serial binding/kinetic proofreading model
+further show coreceptors but not tcr clustering important achieve rapid rebinding events
+addition show signal persistence at tcr does not allow high concentrations endogenous pmhc generate spurious signals
+finally show our general conclusions unchanged when our cartoon kinetic proofreading model replaced detailed model tcr-proximal signaling
+propose t cells discriminate antigen based formula formula via threshold sum-of-binding allows rapid reliable t cell responses specific pmhc

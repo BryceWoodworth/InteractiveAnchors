@@ -1,0 +1,18 @@
+ 
+although many models risky choices between gambles assume information somehow integrated recently proposed priority heuristic ph claims choices based one piece information only
+although current reason choice according ph vary all other reasons claimed ignored
+however choices predicted ph other pieces information often confounded thus rendering critical tests whether decisions actually based one reason only impossible
+current study aims remedy problem manipulating number reasons additionally line choice implied ph
+results show participants' choices decision times depend heavily number reasons line ph  thus contradicting notion non-compensatory one-reason decision making
+ introduction 
+adaptive toolbox metaphor put forward gigerenzer co-workers implies decision makers possess use collection simple rules thumb  so-called fast-and-frugal heuristics  achieve very good results very little effort
+since was originally formulated toolbox been rapidly growing new heuristics introduced almost regularly
+despite broder's criticism inventing more more new heuristics may soon become futile if they not seriously tested empirically p number adaptive toolbox was recently extended preferential decisions means priority heuristic  simple lexicographic rule choices between gambles
+although idea adaptive decision making choice itself not novel ph represents new development area
+brandstatter et al concluded ph outperforms both normative other heuristic models predicting participants choices
+also they claim represents process model choice describing sequence steps taken decision maker's cognitive apparatus
+both claims been seriously questioned substantial debates about properties ph more generally plausibility fast-and-frugal-heuristics approach arisen
+one serious caveat studies investigating ph lies selection gambles used choice predicted ph gamble favored other pieces information often confounded
+thus adherence rates ph modal choices studied brandstatter et al might biased measures whether participants' decisions truly based one reason only claimed ph
+current study aims remedy problem
+first choice rule ph will introduced along description problem confounded information gamble-pairs

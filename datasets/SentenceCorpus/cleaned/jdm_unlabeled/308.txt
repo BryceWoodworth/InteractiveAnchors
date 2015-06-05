@@ -1,0 +1,24 @@
+ 
+designed experiment test robustness dana weber kuang's dwk number results
+dwk observed when participants were given costless way  click button  ignore consequences their actions others' payoffs they chose remain ignorant fair behavior diminished
+implementing double-blind experiment together design controls alternative explanations observed behavior confirmed dwk's findings
+ introduction 
+previous works indicated although individuals often act altruistically they also engage strategic ignorance thus avoid situations where altruism might expected required them
+recent paper dana weber kuang  henceforth dwk  presented results experiment where participants were given choice either remaining uninformed about effects their actions someone else's earnings clicking button computer screen learn about how their decisions could affect another participant's earnings
+despite costless mechanism half participants their experiment chose strategic ignorance subsequently selfish actions
+contrast when participants' did not choice remain ignorant behavior was mostly altruistic
+based data dwk argue generosity observed many experiments may not due preference fair outcome but may result people feeling compelled give due situational factors while not really valuing corresponding outcome p number
+indeed dwk observed when one-to-one mapping between actions outcomes was relaxed fair behavior diminished
+given potential significance findings reshaping discussion motives fair altruistic behavior role situational factors may play influencing them here check robustness dwk's results alternative experimental design
+dwk's experiment subjects were asked click button screen make consequences their actions transparent
+addition preference strategic ignorance there alternative reasons why subjects their experiments may chosen not click button remain ignorant behaved selfishly
+first subjects may perceived click button costly not costless
+extra click requires additional effort click
+secondly click may been avoided because generated delay consumption
+dwk's experiment participant who chooses reveal other's payoffs forced wait learn about other's earnings before being able consume her own payoff
+finally more importantly possible omission bias may caused curious results
+indeed one reasonably expect more generosity experimental design where transparency default choice its avoidance click option
+paper altering way ask participants reveal not reveal information about others' earnings control decision costs consumption delay some caveats omission bias
+indeed our experiment reveal not reveal information about other's payoffs required same amount effort time both options required action commission
+also implement double-blind experiment generate most reliable environment test participant's decisions
+interestingly overall our results confirm results data weber kuang

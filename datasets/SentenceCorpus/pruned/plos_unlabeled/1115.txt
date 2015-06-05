@@ -1,0 +1,72 @@
+
+discovery small molecules specific pathways
+however often due evolution
+one question cancer research identification strategies so risk
+paper investigate optimal drug at least delay
+design analyze stochastic mathematical model evolutionary dynamics cell population during
+consider drug due single genetic probability during specific strategies
+then treatment risk while drug effects constraints
+our used identify drug one genetic any cancer treatment type
+introduction
+normal regulation at processes
+detailed molecular understanding processes provides design agents
+term focused mechanism specifically protein targets biological pathways when cancer cells
+examples type include pathway agents like
+approach drug development more empirical approach used develop past few years power concept
+responses many cases however importance basic studies into mechanisms their
+drug important
+due drug drug drug target mutation
+depending cancer type its genetic one several genetic may necessary drug cells
+paper investigate drug due single
+example treatment agent due point mutations kinase domain
+different point mutations been identified each sufficient
+most mutations mutation however all kinase developed so far
+point mutation growth factor receptor kinase used cell cancer
+other mechanisms include gene family membrane drug changes cellular proteins involved activation drug changes molecules involved dna activation well genes like
+design optimal drug risk important issue cancer research
+many at low so no drug necessary limit effects
+drug may at higher short allow
+studies different approaches been
+some found continuous strategy more effective while others more
+continuous approach often its effect cells rather than low rates
+continuous strategy often combination including second drug at higher
+significant amount research effort been mathematical models growth response
+paper proposed model specific growth
+authors used model rate cell was rate growth given size
+they suggested one way rate regression was increase treatment smaller thus increasing
+authors also review trials related their proposed strategy concept was
+later predictions model were effects strategy
+their model its predictions become known hypothesis generated interest mathematical modeling
+example model describe cell cycle model was then used treatment increase degree thus drug
+introduced another model dynamics cells investigate effect drug model was then used while
+other theoretical studies include mathematical model during control approach optimal strategies evaluation strategies their effects
+more models response
+there also been research mathematical models genetic genetic cancer cells
+since mutations random events during dna phase cell dynamics populations description stochastic mathematical models
+field stochastic models against treatment
+studied one two using process model growth
+model rates cells were each cell cell certain probability
+effect drug was additional probabilistic cell existing population drug could fixed at series fixed time points
+goal model was sequential both order probability
+later assumption between two was
+models were also extended include effects normal optimal control problem was probability without
+more recently used process model study probability due one multiple mutations populations under selection
+authors considered mutations determined strategy multiple
+was also investigated using process model work
+their models each drug was genetic within network
+rates each cell type were cells had additional rate if they were one more
+authors studied evolution cells both before after treatment probability treatment under continuous treatment scenarios variable number
+recently dynamics due one two genetic population cells prior were studied using process
+one common feature models genetic treatment effect additional probabilistic cell rate cells underlying process model constant rates
+under model assumptions drug cannot rate either however main effect many cancer cells
+turn leads reduced probability since cells generated during cell
+paper process model rates both cells dependent drug concentration
+study significant existing models since effect cell well more accurate description evolutionary dynamics system
+addition our model so drug may also effect rates cells
+our analysis also differ those previous work
+were finding optimal strategy multiple combination sequential they probability while
+was effect multiple probability
+contrast paper derive estimates expected size cell population well probability during full continuous treatment one drug
+then propose optimal strategy probability well delay disease expected size population while constraints
+many scenarios probability high strategy thus delay disease more objective than
+developed paper applied study any cancer treatment type

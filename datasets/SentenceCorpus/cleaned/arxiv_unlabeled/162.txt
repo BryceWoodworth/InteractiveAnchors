@@ -1,0 +1,17 @@
+ 
+repeatability efficiency corner detector determines how likely useful real-world application
+repeatability importand because same scene viewed different positions should yield features correspond same real-world 3d locations
+efficiency important because determines whether detector combined further processing operate at frame rate
+three advances described paper
+first present new heuristic feature detection using machine learning derive feature detector fully process live pal video using less than 5\% available processing time
+comparison most other detectors cannot even operate at frame rate harris detector 115\% sift 195\%
+second generalize detector allowing optimized repeatability little loss efficiency
+third carry out rigorous comparison corner detectors based above repeatability criterion applied 3d scenes
+show despite being principally constructed speed stringent tests our heuristic detector significantly outperforms existing feature detectors
+finally comparison demonstrates using machine learning produces significant improvements repeatability yielding detector both very fast very high quality
+ introduction 
+\parstart{c}{orner} detection used first step many vision tasks tracking localisation slam simultaneous localisation mapping image matching recognition
+need driven development large number corner detectors
+however despite massive increase computing power since inception corner detectors still true when processing live video streams at full frame rate existing feature detectors leave little if any time further processing
+applications described above corners typically detected matched into database thus important same real-world points detected repeatably multiple views
+amount variation viewpoint under condition should hold depends application

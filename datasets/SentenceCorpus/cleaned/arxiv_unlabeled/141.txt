@@ -1,0 +1,11 @@
+ 
+prove mutual information actually negative copula entropy based method mutual information estimation proposed
+ introduction 
+information theory mutual information mi difference concept entropy
+paper prove copula they essentially same  mutual information also kind entropy called copula entropy
+based insightful result propose simple method estimating mutual information
+copula theory dependence measurement association
+sklar proved joint distribution represented copula margins following form: *} derived separating margins joint distribution copula all dependence information random variables believed mutual information does well
+here gives notation
+denote copula function copula density; denotes joint distribution marginal distribution; denote entropy mutual information copula entropy respectively
+finally bold letters represent vectors while normal letters single variable

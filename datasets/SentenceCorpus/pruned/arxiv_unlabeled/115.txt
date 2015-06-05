@@ -1,0 +1,45 @@
+
+learning problems form important computational tasks many researchers apply large data sets
+what concept classes learned algorithm whose output does not depend too any one input specific training example
+more investigate learning algorithms notion provides strong where information about database information about individuals present several basic results demonstrate general learning several models previously studied standard learning
+our goal understanding required learning terms samples time interaction
+demonstrate computational constraints possible learn any concept class using sample size concept class
+therefore almost specifically if concept class algorithm sample complexity output size then learned using number samples
+also present efficient class functions
+result similarity between learning noise learning both must robust small changes since thought very learn given random classification noise
+local response algorithms practical class algorithms
+provide local learning algorithms
+show concept class local algorithm if only if statistical model
+therefore local learning algorithms similarity learning noise local learning learning algorithms include most known learning algorithms
+finally present between power local learning algorithms
+because learning result also adaptive learning
+introduction
+data problem similar statistical learn global analyses population while participants
+there body work problem statistics computer
+however recently most proposed literature analysis utility
+recent called data analysis place data theoretical been at strong yet
+notion work provides even presence arbitrary information
+requires whether individual actual information almost no effect outcome analysis
+given natural what computational tasks performed while
+research data extent focused function evaluation value
+how much possible if one approximation particular function database recent work using design mechanisms
+our goal utility other computational tasks performed manner learning } learning problems form important computational tasks many researchers apply large data sets
+work what learned algorithm whose output does not depend too any one input specific training example
+our goal understanding required learning terms samples time interaction
+examine two basic computational learning correct learning model statistical model
+concept function examples class if any distribution examples one given limited examples according some target concept find small hypothesis predicts high probability over future examples taken same distribution
+model learning algorithm number examples
+model instead examples directly some properties i e examples given estimate up small error probability random example chosen property
+learning than learning
+model statistical database vector where each been individual
+when how well algorithm concept class assume database random examples generated \ underlying distribution target concept
+how not
+instance example might history whether individual had
+algorithm learn predict whether individual had based history generated according
+require algorithm examples not only
+above not each history
+more output should not significantly affected if particular example arbitrary all
+contrast utility respect distribution notion
+hence when analyze our do not make any assumptions underlying distribution
+assumptions particular would presence knowledge also called knowledge information might knowledge distribution over examples might very different
+point full version

@@ -1,0 +1,73 @@
+
+compare judgments treatment treatment basis important attributes disease type decision model probabilities derived literature studies
+comparison based what call test whether judgments linear function value p probability condition if would treatment
+comparison allows validity judgments under assumption decision model validity decision model under assumption judgments
+under assumption results judgments large accurate
+under latter assumption results support idea constant treatment effect idea treatment constant over various levels disease
+our results also support idea judgments far judgments
+introduction
+judgments how appropriate perform procedure information how perform procedure play major role systems
+systems given scenarios disease e g along number e g size number nodes affected asked using certain procedure e g treatment each cases
+judgments later used whether not treatment should their patients
+view importance methods general particular paper judgments within framework decision model validity judgments their understanding models treatment
+our empirical work based judgment had been used whether use treatment
+there three relationship between decision model judgments could
+first if model assumed describe judgments could used rules underlying judgments
+policy view judgment modeling used weights judgment but also determine presence i e other rules underlying judgment
+second if our decision model model treatment consistency between model actual judgments could validity those judgments
+third if set judgments accurate between model judgments could model basic based
+thus whereas second third either model judgment first perspective
+term common difference between expected utility taking action expected utility not taking action
+thus when treatment number number not appropriate at all number very appropriate scale expected utility treatment higher than expected utility not whereas when number expected utility treatment much higher than expected utility not
+important note appropriate judgments support utility treatment
+they should direct i e linear utility should
+use example consider who asked
+appropriate judgment case should related test could test their validity
+consider now judgment treatment condition probability p e g number p
+assume treatment associated probability p p less than p probability number p
+number decision tree
+our model assume probability events under treatment one
+utility
+also assume utility under treatment where event associated treatment
+expected utility treatment expected utility not given number number
+thus difference between expected utility treatment expected utility not given number if judgment linear representation assumption further discussed below then could expressed number where level positive constant
+p p obtain number treatment defined p p p p number
+assumption p p constant treatment constant over various levels disease effect treatment constant over various levels disease
+example if treatment probability whose initial probability number number number percent number number will also reduce probability b initial probability number number number percent number number
+constant treatment effect although not true may describe effect treatment many situations
+assumption made many studies
+moreover studies where relative risk reduction estimated regression
+whereas our decision model judgments function p they usually obtained response scenarios include information about levels various
+therefore policy studies usually model judgments function level rather than p any other relevant probabilities
+approach two
+first does not allow policy model based decision model based probabilities
+second scales levels may not linear thus into results
+particular not clear whether relationships between judgment represent rule scale
+our study models judgment terms both scale terms scale levels expressed using p
+example if measured number low number high scale probability within years then levels could expressed terms probability associated each level rather than scale values
+process could scale
+whereas number number scale not scale changes scale not respect their impact e g change number number may differ change number number scale changes scale could terms their impact
+validity judgments taken either approach comparing methods whether decision process biases
+few studies also examined validity judgments comparing them models
+contrast approaches our basic test validity judgments based approach comparing function form environment model predicts criterion function form judgment model predicts judgments cues
+particular our test test involves whether model judgments linear function value p probability derived studies
+test test validity judgments since extent our decision model correct model judgments should test
+thus linear relation though does not prove validity judgments whereas relation provides some evidence against their validity
+note however relationship does not suggest judgments not
+particular may result our model being e g assumption constant treatment effect rather than judgments being e g judgments rely probability utility correct integration two
+thus our test could test validity our model judgment validity judgments themselves
+both need occur
+basic question decision making whether judgments result more judgments
+despite fundamental importance question not much relevant empirical evidence available because problems associated will allow evaluation utility
+context current study criterion evaluation utility not judgments linear
+thus our empirical test utility judgments whether not judgments test better than individual judgments
+our so far focused judgments under assumption our decision model model treatment
+however perspective model under assumption judgments
+particular if judgments assumed assumption constant treatment effect
+study examine validity judgments specific setting number b
+common cancer world
+during number years agents been series both trials
+patients who number b
+based trials associated number percent but also high
+other words at increased frequency
+so judgments must perceived between

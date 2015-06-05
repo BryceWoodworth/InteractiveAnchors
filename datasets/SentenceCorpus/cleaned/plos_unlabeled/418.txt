@@ -1,0 +1,52 @@
+ 
+previous modeling studies identified vaccination coverage level necessary preventing influenza epidemics but not shown whether critical coverage reached
+here use computational modeling determine first time whether critical coverage influenza achieved voluntary vaccination
+construct novel individual-level model human cognition behavior; individuals characterized two biological attributes they use when making vaccination decisions
+couple model population-level model influenza includes vaccination dynamics
+coupled models allow individual-level decisions influence influenza epidemiology conversely influenza epidemiology influence individual-level decisions
+including effects adaptive decision-making within epidemic model reproduce two essential characteristics influenza epidemiology: annual variation epidemic severity sporadic occurrence severe epidemics
+suggest individual-level adaptive decision-making may important causal factor driving influenza epidemiology
+find severe epidemics cannot prevented unless vaccination programs offer incentives
+frequency severe epidemics could reduced if programs provide incentive vaccinated several years free vaccines individuals who pay one year vaccination
+magnitude epidemic amelioration will determined number years free vaccination individuals' adaptability decision-making their memory
+type incentive program could control epidemics if individuals very adaptable long-term memories
+however incentive-based programs provide free vaccination families could increase frequency severe epidemics
+conclude incentive-based vaccination programs necessary control influenza but some may detrimental
+surprisingly find individuals' memories flexibility adaptive decision-making extremely important factors determining success influenza vaccination programs
+finally discuss implication our results controlling pandemics
+ introduction 
+previously both complex simple models influenza transmission dynamics been analyzed determine what proportion population would need vaccinated prevent influenza epidemics pandemics
+however none modeling studies shown whether critical coverage actually reached
+here investigate modeling vaccination decisions made individuals whether critical coverage achieved through voluntary vaccination
+construct individual-level model human cognition behavior link epidemic model influenza includes vaccination dynamics
+assume decision each individual based upon self-interest s/he wishes avoid catching influenza preferably without having vaccinated
+since protective immunity against influenza lasts less than one year individuals must decide every year whether not participate voluntary vaccination program
+individuals who get vaccinated protect themselves infection but if they do not get vaccinated they may still avoid infection if sufficient numbers their peers get vaccinated
+poses yearly dilemma self-interested individual whether vaccination necessary
+model each individual's strategy making yearly vaccination decisions adaptive process trial error
+track both individual-level decisions population-level variables
+use our model address following question: influenza epidemics prevented voluntary vaccination
+our individual-level adaptive decision-making model inspired minority game methodology
+minority game models how noncommunicating selfish individuals reach collective behavior respect common dilemma under adaptation each one's expectations
+past decade minority games been used model inductive reasoning systems financial markets
+our constructed model consists population n individuals acting their own self-interest who do not communicate their vaccination decisions each other
+every year individuals independently decide whether not get vaccinated against influenza using risk-free highly effective vaccine
+assumed vaccine presents no real risk individuals do not perceive any risk vaccination
+individuals model characterized two biological attributes they use when making vaccination decisions
+individuals adapt their vaccination behavior current season basis their memories consequences their past vaccination decisions: i.e they use cognition make decisions
+couple our individual-level model adaptive decision-making model influenza vaccination dynamics
+our coupled models show effect individual-level vaccination decisions influenza epidemiology conversely effect influenza epidemiology individual-level vaccination decisions
+first use our model assess whether vaccination programs without incentives could achieve critical coverage levels necessary control influenza epidemics
+then assess potential epidemiological impact two public heath programs use incentives encourage vaccination
+there two major classes incentive-based public health programs investigated our coupled models
+first class uses incentives correlate vaccination decisions same individual over many influenza seasons
+second class uses incentives correlate vaccination decisions amongst individuals population one influenza season
+many additional incentive-based vaccination programs formulated combining defining characteristics two classes
+first public health program investigate example first class incentive-based programs
+program offers free vaccination y number years individual who pays vaccination first year
+assume individual gets vaccinated each year during y years free vaccination but s/he also evaluates necessity vaccination every year
+at end y years each individual program then uses their evaluations decide whether not re-enroll program
+if they choose re-enroll they pay vaccination season receive free vaccinations further y years
+second public health program analyze example second class incentive-based programs
+program vaccinates family free if head family pays her/his own vaccination
+assume head family decides every year whether re-enroll program depending upon how many her/his family members were infected previous season

@@ -1,0 +1,44 @@
+
+shown existing processing motion perception difference over time well motion do not general solution problem local motion
+instead suggest local constraints combination other cues provide more framework solution problem
+context problem derive predictions two vector normal motion whereas average based motion
+predicting perceived motion motion provides between strategies motion processing
+our theoretical results suggest constraints feature needed solve problem motion perception
+seems motion input visual processing
+introduction
+representation world input fundamental problem visual system solve
+true well dynamic events space
+latter problem inference dynamic events world motion signals into
+following only consider observed motion
+space described motion direction
+motion direction measured terms motion direction together expressed motion vector system
+vector highly visual system because representation local estimates vector field provides basis perception object motion direction objects
+information essential events well actions dynamic environment
+if single point other unique feature input then together point provides unique solution problem
+if however stimulus spatial extent then local motion direction corresponding remains additional constraints needed solve problem
+problem problems computational especially context structure motion
+methods most widely used techniques image sequences
+they into local into more global methods
+both techniques constraints image estimate system
+important note only provides direction image normal component
+some form regularization needed
+similar techniques terms error regularization been detection
+algorithms processing
+computational studies motion algorithms usually fast efficient when tested against
+here less robustness particular
+instead understand predict behavioral characteristics human motion perception
+motion perception been context problem but there lack studies problem motion perception
+any solution motion problem rely sampling local information
+there at least three known cell types early visual may involved local simple complex motion cells cells over time motion cells
+therefore not three approaches motion perception difference over time motion
+three approaches generated body research but results been nature motion processing remains issue
+despite empirical studies motion there lack studies true motion stimuli
+previous studies typically stimulus motion direction
+problem local motion however features so motion perception been study motion perception
+large bias been found stimuli motion direction processing strategies different three main processing models
+seems investigate local motion stimuli motion direction because they local may motion processing
+aim paper evaluate existing models motion perception gain better understanding motion perception
+first show existing models motion perception solve problem motion
+second constraints demonstrate additional information necessary local constraints derive estimate
+third compare two strategies perceived motion when local motion direction
+shown critical stimulus conditions exist help determine whether motion perception motion motion

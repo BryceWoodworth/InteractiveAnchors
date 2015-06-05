@@ -1,0 +1,52 @@
+
+paper behavior individuals game choice data obtained games probabilities loss ability learn not learn about actions area recent interest experimental
+novel data set series experiments using bayesian methods first application methods research domain
+find individuals much more likely when payoffs than when outcomes probabilistic
+key factor difference subjects stochastic game not just what their did but also whether not they loss
+findings context behavioral theories
+work provides between bayesian statistics experimental
+introduction
+games social games stochastic payoffs where each must whether not own
+more specifically each even if measure may still subject losses being one other who not
+shown there wide variety significant current problems into framework against disease through individual when network risky could become current financial
+shown games either multiple just single
+both strategies best response each strategies
+paper results analysis experiments involving two game where there single
+if both measure there no either will loss
+however if either both do not measure then there some likelihood hence stochastic part both individuals will loss
+furthermore strategy both if they risk i e risk risk not measure despite fact had they taken step their expected values would been higher than if they had not
+game stochastic game area increased interest experimental
+standard game two against each other their own strategy each against each other even though both would better if they each other
+game measure game
+our experiment subjects were play one three types games i standard game full feedback stochastic game based model where feedback about their actions payoffs each feedback stochastic game where feedback only about their payoffs but not their actions
+subjects were play games their type against each other called game
+game there evidence experiments if play games against each other i e even though they would likely single game
+each subject our experiment multiple number number same type i e stochastic full feedback stochastic feedback chosen
+more our experimental design provided section number
+our interest research area both
+perspective would like compare behavior individuals standard their behavior based model
+our interest whether stochastic payoffs how feedback
+specifically compare behavior full feedback stochastic game where each about both actions payoffs behavior feedback game where each only about payoffs
+feedback game may may not able action based payoffs both so ability loss may
+behavior feedback game interest where each decision only what but
+social each individual higher payoff making choice e g environment than choice no what other individuals do
+furthermore all individuals better if they all than if they all
+perspective bayesian model understand more factors influence individuals measures over time whether there significant differences behavior when payoffs versus stochastic
+best our knowledge first time bayesian methods been applied analysis game experiments
+perspective analysis us understand more how different experimental design affect distribution parameters e g likelihood against
+there several features bayesian models game experiments
+they include ability perform exact inference where sample likely small data understand subjects context their decisions their parameters
+bayesian methods ones particularly relevant analysis game experiments
+results our detailed analysis key findings paper follows
+two person game individuals much more likely when payoffs game than games where outcomes stochastic
+key factor difference subjects games not just what their did but also whether not they loss
+when person does not but his does individual less likely next if does not loss
+comparing two games one full feedback behavior other only feedback behavior overall amount was similar
+however found pattern was different two types games
+particular when subjects feedback game could learn their actions they were less likely their behavior than situations full feedback game where subjects learned their behavior explicitly
+paper follows
+section number provides theoretical empirical studies social focus recent experiments stochastic environment
+section number describe general game under what conditions form stochastic game
+after our experimental design set experiments section number then set test them using regression analysis section number
+section number bayesian model us test respect behavior
+section number findings their suggests future research

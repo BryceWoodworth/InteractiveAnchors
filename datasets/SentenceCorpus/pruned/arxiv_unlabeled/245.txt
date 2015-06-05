@@ -1,0 +1,67 @@
+
+learning agents cycle through sequences observations actions rewards complex unknown
+other hand learning small finite state markov decision processes
+up now state out observations general agent framework involves significant effort
+primary goal work reduction process significantly many existing learning algorithms agents them
+before search need objective criterion
+main article develop criterion
+i also various into one learning algorithm
+more dynamic bayesian networks developed part
+role also considered there
+introduction
+general agents perform well wide range environments
+among approaches learning most directly same goal
+general agent environment rewards
+objective much reward possible
+most if not all problems framework
+since future generally unknown agent learn model environment based past experience allows predict future rewards use expected reward
+environmental class finite state markov decision processes well
+continuous states function approximation others been considered but algorithms much more
+way complex problems reduce them finite know how
+approach work state representation out observations initial problem description
+even if potentially useful been found usually not clear ones will turn out better situations where know model
+into unknown environment
+while image features will potentially useful cannot know ones will actually useful
+primary goal paper develop investigate method those features necessary sufficient complex problem
+consider past history agent state
+not being same state i e \ set
+call model
+state may simply but more often itself object like vector
+each vector component one feature history
+example state may object
+call reduction feature although part i only case considered
+experience over time into sequence states
+rather than hand our goal develop objective criterion different
+at any point time if criterion effective only depend past experience knowledge
+small leads representation
+criterion general problem optimization problem cost efficient algorithms need developed
+another important question problems reduced
+real world does not itself unknown environment experience
+so should data past experience at hand well possible cannot generate samples since model not given need learned itself there no
+no criterion general exists
+there previous work one another way related
+detailed later suggested model many important approaches open problem learning % bayesian algorithms learning complete stochastic observation model % practical % idea based based information % arbitrary features % model selection general problems % alternative learning algorithms yet developed % feature selection learning
+learning agents via rewards much more task than machine learning distributed data due temporal problem
+related adaptive control theory been applied often variety problems control
+several approaches items above thus
+its learning ability its information complexity theoretical
+based general search optimization algorithms used finding good
+given at general problems one may about role other aspects considered knowledge representation may useful complex
+agent like computer natural processing learning observations actions into more
+aspects will only discussed paper
+following perspective section our agent model states
+section our core selection principle section example
+section general search algorithms finding optimal context tree
+section i find optimal action present overall algorithm
+section selection criterion out states
+section contains including prior work algorithms more dynamic bayesian networks part
+rather than i give at very least algorithm each may one system one
+article binary % % if
+% i generally if no particular
+any type i define % vector % where over full range length dimension size
+% estimate
+% probability over states rewards
+i do not between random variables leads
+more specifically number states % any state % current time % any time history
+% further order not at several i over initial conditions special cases where
+also

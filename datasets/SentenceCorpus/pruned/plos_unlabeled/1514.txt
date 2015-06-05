@@ -1,0 +1,39 @@
+
+often impact health
+large patterns simple requires detailed analysis each respect its agent corresponding transmission
+analysis introduce mathematical framework patterns dynamics underlying transmission network
+evolution both disease transmission network derived set without
+predictions simulations
+new method demonstrated several case studies allows us evolution contact behavior among individuals different disease
+both direction test strategies control
+mathematical framework provides analysis first
+allows fast modeling especially if empirical data
+introduction
+despite improve health still at there patterns between
+although recent been global there been differences its due effects
+another example specifically
+although many populations at low levels groups become highly other world
+cannot but only result several local factors conditions population density structure
+models aim mechanisms factors understanding underlying dynamic processes strategies
+useful context individuals may nodes network potentially among individuals
+major transmission networks corresponding
+models specific situations best
+because focus between transmission network will agents lead either their occur only
+described models
+related case where leads model
+original classical model type dynamic populations
+because generally not good approximation real world situations current models approach both information about disease relevant transmission network
+models their assumptions attention computational their application
+models consider different contact patterns them via contact matrix but often representation
+models consider distribution each number formula transmission network
+models allow study transmission networks strong number among individuals some cases also means they consider way made clustering
+although approaches focus networks recent approach networks arbitrary degree distributions allows temporal evolution number nodes set
+finally pair models very general approach networks
+they provide large amount way made but they become very
+assumption often made models through population at much time scales than time scale processes natural processes
+good approximation cases but
+processes into recent network models
+case study focus disease lead after individuals after several disease
+addition work our approach also allows study between structure dynamics underlying transmission network
+all approaches discussed only predict mean behavior within limit population
+however our finite size simulations show good efficient approximation population

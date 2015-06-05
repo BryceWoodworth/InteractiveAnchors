@@ -1,0 +1,41 @@
+ 
+numerous studies currently underway characterize microbial communities inhabiting our world
+studies aim dramatically expand our understanding microbial biosphere more importantly hope reveal secrets complex symbiotic relationship between us our commensal bacterial microflora
+important prerequisite discoveries computational tools able rapidly accurately compare large datasets generated complex bacterial communities identify features distinguish them
+present statistical method comparing clinical metagenomic samples two treatment populations basis count data detect differentially abundant features
+our method metastats employs false discovery rate improve specificity high-complexity environments separately handles sparsely-sampled features using fisher's exact test
+under variety simulations show metastats performs well compared previously used methods significantly outperforms other methods features sparse counts
+demonstrate utility our method several datasets including 16s rrna survey obese lean human gut microbiomes cog functional profiles infant mature gut microbiomes bacterial viral metabolic subsystem data inferred random sequencing 85 metagenomes
+application our method obesity dataset reveals differences between obese lean subjects not reported original study
+cog subsystem datasets provide first statistically rigorous assessment differences between populations
+methods described paper first address clinical metagenomic datasets comprising samples multiple subjects
+our methods robust across datasets varied complexity sampling level
+while designed metagenomic applications our software also applied digital gene expression studies
+web server implementation our methods freely available source code found at link
+ introduction 
+increasing availability high-throughput inexpensive sequencing technologies led birth new scientific field metagenomics encompassing large-scale analyses microbial communities
+broad sequencing bacterial populations allows us first glimpse at many microbes cannot analyzed through traditional means
+studies environmental samples initially focused targeted sequencing individual genes particular 16s subunit ribosomal rna though more recent studies take advantage high-throughput shotgun sequencing methods assess not only taxonomic composition but also functional capacity microbial community 
+several software tools been developed recent years comparing different environments basis sequence data
+dotur libshuff libshuff sons megan unifrac treeclimber all focus different aspects analysis
+dotur clusters sequences into operational taxonomic units provides estimates diversity microbial population thereby providing coarse measure comparing different communities
+sons extends dotur statistic estimating similarity between two environments specifically fraction otus shared between two communities
+libshuff libshuff provide hypothesis test deciding whether two communities different treeclimber unifrac frame question phylogenetic context
+note methods aim assess whether rather than how two communities differ
+latter question particularly important begin analyze contribution microbiome human health
+metagenomic analysis clinical trials will require information at individual taxonomic levels guide future experiments treatments
+example would like identify bacteria whose presence absence contributes human disease develop antibiotic probiotic treatments
+question was first addressed rodriguez-brito et al who use bootstrapping estimate p-value associated differences between abundance biological subsytems
+more recently software megan huson et al provides graphical interface allows users compare taxonomic composition different environments
+note megan only one among programs mentioned above applied data other than obtained 16s rrna surveys
+tools share one common limitation they all designed comparing exactly two samples therefore limited applicability clinical setting where goal compare two treatment populations each comprising multiple samples
+paper describe rigorous statistical approach detecting differentially abundant features between clinical metagenomic datasets
+method applicable both high-throughput metagenomic data 16s rrna surveys
+our approach extends statistical methods originally developed microarray analysis
+specifically adapt methods discrete count data correct sparse counts
+our research was motivated increasing focus metagenomic projects clinical applications 
+note similar problem been addressed context digital gene expression studies
+lu et al employ overdispersed log-linear model robinson smyth use negative binomial distribution analysis multiple sage libraries
+both approaches applied metagenomic datasets
+compare our tool prior methodologies through comprehensive simulations demonstrate performance our approach analyzing publicly available datasets including 16s surveys human gut microbiota random sequencing-based functional surveys infant mature gut microbiomes microbial viral metagenomes
+methods described paper been implemented web server also available free source-code link

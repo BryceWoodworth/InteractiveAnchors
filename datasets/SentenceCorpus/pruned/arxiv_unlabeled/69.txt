@@ -1,0 +1,24 @@
+
+bounds risk play role statistical learning theory
+they usually involve measure model studied dimension one its
+classification exist models taking values
+introduce appropriate case one models values
+provides us new risk existing one
+introduction
+statistical learning theory three types pattern recognition regression estimation density estimation
+however theory bounds been developed only
+central theory notion classes functions
+case binary measure dimension
+also been proposed models models taking values set
+no dimension was available so far taking their values
+was all more many exhibit property support vector
+paper introduced
+generalization given numbers standard risk large models one dimension
+latter dimension then above all proposed so far
+provides us bound their sample complexity
+paper follows
+section basic bound risk large models
+section defined
+bound dimension then described section
+lack space
+they found

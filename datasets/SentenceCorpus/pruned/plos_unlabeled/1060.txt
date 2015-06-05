@@ -1,0 +1,35 @@
+
+one most important features natural underlying perception
+however temporal dynamics processing still
+previous studies suggest system uses wide range time scales information effective integration time both task
+existing models processing account task processing time scales
+study model provides account multiple time scales observed perception
+model using range studies not previously been single model new results experiment
+contrast other approaches current model contains integration uses feedback effective time scales processing at each response changes input stimulus
+model features common process suggests key role central temporal dynamics processing
+introduction
+neural processing essential understanding
+one most important features perception usually associated
+hence number models perception based upon temporal analysis neural activity stimulus
+most models form activity using integration time
+models been able predict reported wide range complex stimuli
+however choosing appropriate integration time been previous models been able explain wide range time scales data
+data show certain conditions system information over time scales several while at same time being able changes only few
+temporal perception also been detection performance function frequency rate main being system limited ability process
+between temporal integration not perception but general temporal processing
+instance long integration time several required explain way perceived increases increasing
+contrast much integration times necessary explain fact system events only few
+therefore integration time processing stimulus task
+previously was proposed integration processing different integration times
+more recently order data temporal integration tasks was suggested system makes its decisions based multiple at stimulus using relatively short time
+however our knowledge no model yet stimulus integration time
+another major data
+functional studies strongly suggest manner structures up through
+within processing there increasing response lower response than higher
+suggests time over system information depends itself
+however no yet been made explain
+study present account multiple time scales involved processing
+suggest within processing structure important effective integration time information
+highly model terms neural presented
+model natural previous models form process higher levels responses lower levels via feedback
+without model account not only wide range data but also novel data processing

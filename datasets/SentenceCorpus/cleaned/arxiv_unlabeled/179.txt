@@ -1,0 +1,34 @@
+ 
+feature markov decision processes  mdps well-suited learning agents general environments
+nevertheless unstructured  mdps limited relatively simple environments
+structured mdps like dynamic bayesian networks dbns used large-scale real-world problems
+article i extend mdp dbn
+primary contribution derive cost criterion allows automatically extract most relevant features environment leading ``best'' dbn representation
+i discuss all building blocks required complete general learning algorithm
+keywords: reinforcement learning; dynamic bayesian network; structure learning; feature learning; global vs local reward; explore-exploit
+ introduction 
+agent-environment setup agent interacts environment very general prevalent framework studying intelligent learning systems
+cycles  environment provides regular observation e g \ camera image agent; then agent chooses action e g \ limb movement); finally environment provides real-valued reward agent
+reward may very scarce eg \ just 1 1 winning losing chess game 0 at all other times
+then next cycle starts
+agent's objective maximize his reward
+example sequence prediction concerned environments do not react agents actions e g \ weather-forecasting ``action''  planning deals case where environmental function known  classification regression conditionally independent observations  markov decision processes mdps assume only depend  pomdps deal partially observable mdps  dynamic bayesian networks dbns structured mdps
+concrete real-world problems often modeled mdps
+purpose designer extracts relevant features history e g \ position velocity all objects i e \ history summarized feature vector
+feature vectors regarded states mdp assumed approximately markov
+artificial general intelligence agi concerned designing agents perform well very large range environments  including all mentioned ones above more
+general situation not priori clear what useful features
+indeed any observation far past may relevant future
+solution suggested learn itself
+if keeps too much history e g \  resulting mdp too large infinite cannot learned
+if keeps too little resulting state sequence not markov
+cost criterion i develop formalizes tradeoff minimized ``best''
+at any time  best one minimizes markov code length
+reminds but actually quite different mdl minimizes model+data code length
+use ``unstructured'' mdps  even our optimal ones clearly limited relatively simple tasks
+real-world problems structured often represented dynamic bayesian networks dbns reasonable number nodes
+bayesian networks general dbns particular powerful tools modeling solving complex real-world problems
+advances theory increase computation power constantly broaden their range applicability
+primary contribution work extend selection principle developed mdps conceptually much more demanding dbn case
+major extra complications approximating learning coding rewards dependence cost criterion dbn structure learning dbn structure how store find optimal value function policy
+although article self-contained recommended read first

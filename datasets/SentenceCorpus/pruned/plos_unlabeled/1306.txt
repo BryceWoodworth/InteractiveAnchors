@@ -1,0 +1,54 @@
+
+activity principle neurons important
+previous theoretical studies fast other brain proposed principle
+provides time principle neurons thus
+however cells produce long small input thus time required does not exist
+instead been suggested correlated output cells could cells through mechanism called stochastic through correlation two neural
+almost all work due correlation fixed
+theory experiments others developed show increased cells could produce increase cell activity those cells group cells
+common cell input increases input correlation cells hence their positive feedback correlation
+thus demonstrate temporal evolution input correlation networks feedback
+explore several theoretical models idea models model
+introduction
+neural activity been suggested activity
+activity long been known occur system
+activity been proposed play role tasks
+similar
+using genetic performance tasks
+system cell local field example system increases between cells increase power local field potential
+cells been shown during responses during
+although previous experimental modeling studies role cells exact mechanism cell occurs cell network remains unknown
+possible mechanism cells suggested recent experimental evidence
+cells activation cell fast second cell
+due synaptic activation cells via cell
+although individual fast they output cells not time stimulus
+produced response first cell results long second cell
+there variable delay between second cell times first cell
+thus occur average show time constant
+addition average small
+been shown result long long cell cells
+furthermore recent experimental studies into between cells suggests common cells primary mechanism cell
+measured properties cell interactions suggest novel mechanism cells
+previous studies proposed noise
+neurons they should firing should some fast their
+recent studies mechanism activity long revealed novel role noise
+was shown two cells firing frequency range upon common input cells
+degree was shown depend degree correlation input two neurons
+although was noise itself was
+all experimental theoretical studies stochastic degree correlation fixed
+our study degree input correlation within network over time due dynamics network
+addition our study derived probability distribution phase difference noise investigate conditions necessary existence input correlation
+here consider case correlated cells cells many cells
+input correlation any pair cells could increase if cells increased their stochastic firing rate thus greater amount common noise
+between cells almost always
+thus if cell pair cells those cells also cell
+since pair cells correlated input more likely pair also more likely provide correlated input their common cell
+turn common cell could then increases its increasing correlation cells
+result feedback provides correlation
+goal paper use computational techniques show feedback will increase correlation between cells
+describe three models feedback correlation stochastic
+first study one pair cells one common cell
+cells simple phase through their
+cell synaptic input cell
+second model each phase
+finally allow approaches reduce first two models time study using technique

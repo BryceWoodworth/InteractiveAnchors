@@ -1,0 +1,52 @@
+
+paper cognitive networks game subject
+secondary result primary activity
+furthermore each secondary cost upon
+knowledge other secondary activity limited due distributed nature network
+resulting thus dynamic game information
+paper efficient learning algorithm proposed based outcome past
+demonstrated through simulations proposed distributed algorithm achieve good between
+introduction
+recent studies shown despite actual remains long time
+thus cognitive systems been proposed order
+secondary their environment hence they able primary
+three key design active research cognitive networks distributed between
+previous studies various aspects
+performance terms investigated when their knowledge
+work studies performance different while spatial methods proposed probability
+other aspects discussed
+furthermore also increased attention eg
+dynamic approach proposed allow their time while taking into account factor any
+work practice time networks large performance
+authors model problem game propose learning algorithms find correlated game
+solutions dynamic also proposed while taking into account changes environment new among others
+when multiple
+one hand high
+other hand effective rate when many over most available
+system
+therefore should explore transmission other if available transmission same all time
+both frequency more time continuous transmission would among multiple conditions not long
+objective paper design mechanism efficient among
+model cognitive networks game
+out
+at each each based its view past history
+knowledge other secondary limited due distributed nature network
+resulting thus dynamic game information
+gains
+all who outcome
+also choose out so current case no
+at end each information made available all turn
+achieve efficient learning algorithm proposed based outcome past
+each local actions objective increasing its cost
+demonstrated through simulations proposed distributed algorithm where always game both single networks
+order approach practice
+due different functional cognitive signaling under within including systems
+cognitive attention potential techniques between secondary primary communication systems well mechanism support data across networks
+common control used provide information corresponding given area
+thus control outcome
+main paper problem cognitive networks game
+distributed learning algorithm proposed networks learning algorithm investigated networks
+paper follows
+section system model introduced
+mechanism design learning presented section
+simulation results given section future work section

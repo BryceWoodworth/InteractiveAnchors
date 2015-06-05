@@ -1,0 +1,37 @@
+ 
+recently number advanced screening technologies allowed comprehensive quantification aggravating alleviating genetic interactions among gene pairs
+parallel tap-ms studies been successful at identifying physical protein interactions indicate proteins participating same molecular complex
+here propose method joint learning protein complexes their functional relationships integration quantitative genetic interactions tap-ms data
+using 3 independent benchmark datasets demonstrate method 50 percent more accurate at identifying functionally related protein pairs than previous approaches
+application genes involved yeast chromosome organization identifies functional map 91 multimeric complexes number novel been substantially expanded addition new subunits
+interestingly find complexes enriched aggravating genetic interactions more likely contain essential genes linking each interactions underlying mechanism
+results demonstrate importance both large-scale genetic physical interaction data mapping pathway architecture function
+ introduction 
+genetic interactions logical relationships between genes occur when mutating two more genes combination produces unexpected phenotype
+recently rapid screening genetic interactions become feasible using synthetic genetic arrays diploid synthetic lethality analysis microarray
+sga pairs gene deletion interest against deletion every other gene genome
+growth/no growth phenotype measured over all pairings defines genetic interaction profile gene no growth indicating synthetic-lethal genetic interaction
+alternatively all combinations double deletions analyzed among functionally-related group genes
+recent variant sga termed e-map made possible measure continuous rates growth varying degrees epistasis
+aggravating interactions indicated if growth rate double gene deletion slower than expected while alleviating interactions opposite true 
+one popular method analyze genetic interaction data been hierarchically cluster genes using distance between their genetic interaction profiles
+clusters genes similar profiles manually searched identify known pathways complexes they contain well any genetic interactions between complexes
+approach been applied several large-scale genetic interaction screens yeast including genes involved secretory pathway chromosome organization
+segr et al extended basic hierarchical clustering concept monochromaticity genes were merged into same cluster based minimizing number interactions other clusters do not share same classification 
+another set methods sought interpret genetic relationships using physical protein-protein interactions
+among kelley ideker used physical interactions identify both within-module between-module explanations genetic interactions
+both cases modules were detected clusters proteins physically interact each other more often than expected chance
+within-module model predicts clusters directly overlap clusters genetic interactions
+between-module model predicts genetic interactions run between two physical clusters functionally related
+approach was improved ulitsky et al using relaxed definition physical modules
+related work zhang et al screened known complexes annotated munich information center protein sequences identify pairs complexes dense genetic interactions between them
+one concern above approaches works kelley ulitsky particular they make assumptions about density interactions within between modules not been justified biologically
+ideally parameters should learned directly data
+second between-module relationships identified separate independent searches network seeded each genetic interaction
+local search strategy lead set modules highly overlapping even completely redundant one another
+finally genetic interactions assumed binary growth/no growth events while e-map technology now made possible measure continuous values genetic interaction varying degrees epistasis
+here present new approach integrating quantitative genetic physical interaction data addresses several shortcomings
+interactions analyzed infer set modules set inter-module links module represents protein complex coherent cellular function inter-module links capture functional relationships between modules vary quantitatively strength sign
+our approach supervised appropriate pattern physical genetic interactions not predetermined but learned examples known complexes
+rather than identify each module independent searches all modules identified simultaneously within single unified map modules inter-module functional relationships
+show method outperforms number alternative approaches when applied analyze recent emap study yeast chromosome function identifies numerous new protein complexes protein functional relationships

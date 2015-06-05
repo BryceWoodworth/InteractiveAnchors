@@ -1,0 +1,80 @@
+ 
+minimum description length mdl principle selects model shortest code data plus model
+show countable class models mdl predictions close true distribution strong sense
+result completely general
+no independence ergodicity stationarity identifiability other assumption model class need made
+more formally show any countable class models distributions selected mdl map asymptotically predict merge true measure class total variation distance
+implications non iid \ domains like time-series forecasting discriminative learning reinforcement learning discussed
+ introduction 
+minimum description length mdl principle recommends use among competing models one allows compress data+model most
+better compression more regularity been detected hence better will predictions
+mdl principle regarded formalization ockham's razor says select simplest model consistent data
+consider sequential prediction problems i e \ having observed sequence  predict  then observe
+classical prediction concerned  multi-step lookahead  total prediction
+paper consider last hardest case
+infamous problem category black raven paradox : having observed black ravens what likelihood all ravens black
+more computer science problem infinite horizon reinforcement learning where predicting infinite future necessary evaluating policy
+see section other applications
+let countable class models \linebreak[1]theories=\linebreak[1]hypotheses=\linebreak[1]probabilities over sequences  sorted w r t \ their complexity=codelength say containing unknown true sampling distribution
+our main result will arbitrary measurable spaces  but keep things simple introduction let us illustrate mdl finite
+case define probability data sequence
+possible code bits eg \ using huffman coding
+since sampled  code optimal shortest among all prefix codes
+since do not know  could select leads shortest code observed data
+order able reconstruct code need know been chosen so also need code  takes bits
+hence coded bits
+mdl selects model minimizer \mdl^x \;:=\; \arg\min_{q\in\m}\{-q(x)+k(q)\} given  true predictive probability
+since unknown use substitute
+our main concern how close latter former
+measure distance between two predictive distributions d_h(p,q|x \;=\; \sum_{z\in\x^h}\big|p(z|x)-q(z|x)\big|
+easy see monotone increasing twice total variation distance tvd defined \req{tvd}
+mdl closely related bayesian prediction so comparison existing results bayes interesting
+bayesians use prediction where bayesian mixture prior weights
+natural choice
+following results shown {\sum_{\l=0}^\e[d_h(p,\mdl^x|x_{1:\l} 21\,h\ \cdot\ 2^{k(p)},\sum_{\l=0}^\e[d_h(p,\bayes|x_{1:\l} h\ \cdot\
+w_p^{-1},} {d_\infty(p,\mdl^x|x 0 d_\infty(p,\bayes|x)0 } \;\;\left\{ {\mbox{almost surely} \mbox{for}\;\; \l(x)\ \to\ \infty} \right
+where expectation w r t \
+left statements imply almost surely including some form convergence rate
+bayes been proven ; mdl proof adapted
+far asymptotics concerned right results much stronger require more sophisticated proof techniques
+bayes result follows
+proof mdl primary novel contribution paper; more precisely arbitrary measurable total variation distance
+another general consistency result presented
+consistency shown only probability predictive implications result unclear
+stronger almost sure result alluded but given reference contains only results iid \ sequences do not generalize arbitrary classes
+so existing results discrete mdl far less satisfactory than elegant bayesian prediction tvd
+results above hold completely arbitrary countable model classes
+no independence ergodicity stationarity identifiability other assumption need made
+bulk previous results mdl continuous model classes
+much been shown classes independent identically distributed  iid  random variables
+many results naturally generalize stationary-ergodic sequences like  th-order markov
+instance asymptotic consistency been shown
+there many applications violating assumptions some them presented below section
+one often hear exaggerated claim e g \ unlike bayes mdl used even if true distribution not
+indeed used but question wether any good
+there some results supporting claim eg \ if closure  but similar results exist bayes
+essentially needs at least close some mdl work there interesting environments not even close being stationary-ergodic iid
+non iid \ data pervasive ; includes all time-series prediction problems like weather forecasting stock market prediction
+indeed also perfect examples non-ergodic processes
+too much green house gases massive volcanic eruption asteroid impact another world war could change climate/economy irreversibly
+life also not ergodic; one inattentive second car irreversible consequences
+also stationarity easily violated multi-agent scenarios: environment itself contains learning agent non-stationary during relevant learning phase
+extensive games multi-agent reinforcement learning classical examples
+often assumed true distribution uniquely identified asymptotically
+non-ergodic environments asymptotic distinguishability depend realized observations prevent prior reduction partitioning
+even if principally possible practically burdensome do so eg \ presence approximate symmetries
+indeed problem primary reason considering predictive mdl
+mdl might never identify true distribution but our main result shows sequentially selected models become predictively indistinguishable
+countability severest restriction our result
+nevertheless countable case useful
+semi-parametric problem class say reduced countable class our result holds where bayes nml other estimate
+alternatively could reduced countable class considering only computable parameters
+essentially all interesting model classes contain countable topologically dense subset
+under certain circumstances mdl still works non-computable parameters
+alternatively one may simply reject non-computable parameters philosophical grounds
+finally techniques countable case might aid proving general results continuous  possibly along lines
+paper organized follows: section provide some insights how mdl bayes work restricted settings what breaks down general countable  how circumvent problems
+formal development starts section  introduces notation our main result
+proof finite presented section denumerable section
+section show how result applied sequence prediction classification regression discriminative learning reinforcement learning
+section discusses some mdl variations

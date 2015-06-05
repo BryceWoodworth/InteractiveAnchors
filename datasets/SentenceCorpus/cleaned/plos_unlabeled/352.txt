@@ -1,0 +1,43 @@
+ 
+noncoding rnas important functional rnas do not code proteins
+present highly efficient computational pipeline discovering cis-regulatory ncrna motifs de novo
+pipeline differs previous methods structure-oriented does not require multiple-sequence alignment input capable detecting rna motifs low sequence conservation
+also integrate rna motif prediction rna homolog search improves quality rna motifs significantly
+here report results applying pipeline firmicute bacteria
+our top-ranking motifs include most known firmicute elements found rna family database
+comparing our motif models rfam's hand-curated motif models achieve high accuracy both membership prediction base-pair level secondary structure prediction
+ncrna candidates not rfam find compelling evidence some them functional analyze several potential ribosomal protein leaders depth
+ introduction 
+recent discoveries novel noncoding rnas micrornas riboswitches suggest ncrnas important diverse functional regulatory roles impact gene transcription translation localization replication degradation
+last few years several groups performed genome-scale computational ncrna predictions based comparative genomic analysis
+particular barrick et al used pairwise blast-based approach discover novel riboswitch candidates bacterial genomes many now been experimentally verified
+similar studies been conducted various bacterial groups
+more recent work extended searches eukaryotes discovering large number known micrornas while producing thousands novel ncrna candidates
+some exceptions approaches follow similar paradigm search conserved secondary structures multiple-sequence alignments constructed based sequence similarity alone
+typically schemes use measures mutual information between pairs alignment columns signal base-paired regions
+however signals methods seek namely compensatory base-pair mutations exactly signals may cause sequence-based alignment methods misalign alternatively refuse align homologous ncrna sequences
+even local misalignments may weaken key structural signal making methods sensitive alignment quality especially problematic diverged sequences
+paper present novel structure-oriented computational pipeline genome-scale prediction cis-regulatory ncrnas
+exploits but does not require sequence conservation
+pipeline differs previous methods three respects
+first searches unaligned upstream sequences homologous genes instead well-aligned regions constructed sequence-based methods
+second predict rna motifs unaligned sequences using tool called cmfinder very sensitive rna motifs low sequence conservation robust inclusion long flanking regions unrelated sequences
+finally integrate rna motif prediction rna homology search
+every predicted motif scan genome database more homologs then used refine model
+iterative process improves model expands motif families automatically
+study apply pipeline discover ncrna elements prokaryotes
+chose prokaryotes mainly because large number fully sequenced genomes great sequence divergence among species well-exploited our approach
+our approach two key advantages
+first efficient highly automated
+earlier steps more computationally efficient than later steps apply filters between steps so poor candidates eliminated subsequent analysis
+thus even though use some computationally expensive algorithms pipeline scalable larger problems
+besides providing rna motif prediction pipeline also integrates gene context functional analysis facilitates manual biological evaluation
+second pipeline highly accurate finding prokaryotic ncrnas especially rna cis-regulatory elements
+demonstrate performance approach report our search results firmicutes gram-positive bacterial division includes bacillus subtilis relatively well-studied model organism many known ncrnas
+method exhibits low false-positive rates negative controls low false-negative rates known firmicute ncrnas
+rna family database partially hand-curated database noncoding rnas includes 13 ncrna families categorized cis-regulatory elements representatives b subtilis
+11 included among our top 50 predictions 12th appears somewhat lower our ranking
+two other rfam families also represented among our top 50 predictions
+addition both secondary structure prediction identified family members excellent agreement rfam annotation
+14 rfam families mentioned above achieved 91 percent specificity 84 percent sensitivity average identifying family members 77 percent specificity 75 percent sensitivity secondary structure prediction
+many promising novel ncrna candidates were also discovered discussed below

@@ -1,0 +1,48 @@
+ 
+gambler's fallacy hot hand belief been classified two exemplars human misperceptions random sequential events
+article examines times pattern occurrences where fair biased coin tossed repeatedly
+demonstrate due different pattern composition two different statistics mean time waiting time arise same independent bernoulli trials
+when coin fair mean time equal all patterns same length but waiting time longest streak patterns
+when coin biased both mean time waiting time change more rapidly probability heads streak pattern than non-streak pattern
+facts might provide new insight understanding why people view streak patterns rare remarkable
+statistics waiting time may not justify prediction gambler's fallacy but paying attention streaks hot hand belief appears meaningful detecting changes underlying process
+ introduction 
+gambler's fallacy hot hand belief been classified two exemplars human misperceptions random sequential events widely studied multiple disciplines psychology sports behavioral economics neuroeconomics
+often manifested more intricate forms two phenomena demonstrated independent identically distributed bernoulli trials
+suppose fair coin equal probabilities coming up head h tail t tossed repeatedly first three outcomes produce three heads h h h
+predicting next outcome one gambler's fallacy would predict h h h t  reversal streak
+contrast one hot hand belief would predict h h h h  continuation streak
+fact people exhibit two opposing expectations upon same past information  negative recency gambler's fallacy positive recency hot hand belief  been center attention research perception randomness pattern detection judgment uncertainty
+among existing theories prevailing account representativeness heuristic attributes both gambler's fallacy hot hand belief false belief law small numbers
+account people tend believe local sample should resemble underlying population chance perceived self-correcting process deviation one direction induces deviation opposite direction restore equilibrium
+thus gambler's fallacy tail due reverse streak heads
+hot hand belief streak successes may indicate existence hot hand streak tends prolonged
+however representativeness account been criticized its incompleteness testability
+ayton fischer suggest gambler's fallacy arises experience negative recency sequences natural events roulette games but hot hand belief arises experience positive recency serial fluctuations human performance
+similarly been proposed hot hand belief arise when people evaluate performance mutual fund manager rather than fluctuations portfolio gambler's luck rather than outcomes roulette game
+moreover burns corpus show subjects assume positive recency forecasting scenarios they rated nonrandom negative recency scenarios they rated random
+burns further argues hot hand belief fast frugal heuristic detect changes shooting accuracy basketball players
+argument consistent finding residual nonstationarity sun suggested fluctuations players' performance obscured real-time adjustments based detection hot hand
+example after making several shots row player might try more difficult shot opponent players may increase defense effort
+compared representativeness account alternative interpretations distinguish hot hand belief gambler's fallacy deviations random process
+when underlying process truly random statistically impossible tell apart independent stationary bernoulli trials both beliefs considered biases misperceptions randomness
+particular both beliefs appear share common intuition streak patterns rare remarkable  streak heads unlikely occur if coin fair basketball player unlikely make shots streaks unless he she hot hand
+however independence assumption bernoulli trials states fair coin streak will occur often any other patterns same length its exact order
+then what so special about streak patterns people normally tend avoid them only expect them when they feel hot
+present paper show streak patterns do possess set properties set them apart other patterns properties may provide alternative explanation particular role streak patterns people's perception judgment randomness
+exemplify comparing two patterns h h h t h h h h
+when fair coin tossed repeatedly both patterns same probability occurrence any four successive trials
+however takes average number tosses encounter first occurrence h h h t but number tosses encounter first occurrence h h h h
+other words streak pattern h h h h been delayed its first occurrence
+expected number trials required first occurrence particular pattern statistical property known waiting time different among patterns due different pattern compositions
+while probability occurrence frequency describes how often pattern occurs waiting time describes when pattern will occur time at monitoring begins
+interestingly different statistical properties clearly bear different psychological relevance
+example passenger who waiting bus when first bus arrives probably more relevant than how often bus arrives
+goal paper demonstrate plausible link between statistics pattern times people's perception randomness
+important note concept waiting time recently received attention psychology literature
+hahn warren show global sequence moderate length streak patterns h h h h higher probabilities nonoccurrence than h h h t
+base result they argue given people's limited exposure environment e g number coin tosses limited misperceptions randomness gambler's fallacy might actually emerge apt reflections environmental statistics
+sun tweney wang criticize hahn warren's interpretation clarifying relationship between probability nonoccurrence waiting time
+particular sun et al argue probability nonoccurrence manifestation waiting time independent length global sequence neither statistic would justify prediction reverting streak gambler's fallacy
+notwithstanding debate argument treating waiting time part environmental statistics appears quite plausible
+given different statistics arise same process coin tossing basketball shooting likely they been actually experienced people different effects people's perception randomness

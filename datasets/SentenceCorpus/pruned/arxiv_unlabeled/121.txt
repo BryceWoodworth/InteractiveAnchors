@@ -1,0 +1,55 @@
+
+article methods high sparse signals three error noise
+treatment given noise settings two
+results paper improve existing results literature conditions error bounds
+conditions shows signals larger support
+paper also between property property
+some results extended
+introduction
+problem sparse signal based small number measurements noise much recent attention
+problem many different settings including model selection linear regression approximation problems
+observations form where matrix given vector errors
+goal unknown vector
+depending settings error vector either case where
+now well provides effective way sparse signal all three settings
+special case particular interest when no noise present
+system linear more variables than number
+clear problem there generally many solutions
+however many applications vector known sparse sparse sense contains only small number
+assumption changes problem making unique solution possible
+indeed many cases unique sparse solution found through p
+problem been studied example
+understanding case not only significant interest its own also provides into problem sparse signals case
+see example
+when noise present there two well known methods
+one under
+terms function related finding solution least
+latter often called statistics literature
+detailed treatment least problem
+another method called recently proposed
+sparse problem through correlation between vectors } showed linear program performance procedure up factor
+clear conditions needed order problems well
+over few years many results sparse signals been obtained framework property
+their work considered sparse problems framework
+they provided solutions problem under some conditions constant constant defined section
+several different conditions been various settings
+paper consider methods sparse problem three error noise
+both under considered
+give treatment two methods under three noise settings
+our results improve existing results conditions error bounds
+all cases solve problems under condition where constant constant defined section
+condition shows signals larger support
+although our main interest sparse signals state results general setting arbitrary signal
+another widely used condition sparse so called property requires among vectors small
+see
+between
+application present recent result
+paper follows
+section after basic two allow us make analysis sparse problem introduced
+analysis methods sparse exact case section
+our result main result using conditions error bounds
+analysis case provides case when observations noise
+then consider case error section
+between also
+case noise section
+contains some results

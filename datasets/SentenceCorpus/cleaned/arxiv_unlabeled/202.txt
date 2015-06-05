@@ -1,0 +1,41 @@
+ 
+problem completing low-rank matrix subset its entries often encountered analysis incomplete data sets exhibiting underlying factor model applications collaborative filtering computer vision control
+most recent work had been focused constructing efficient algorithms exact approximate recovery missing matrix entries proving lower bounds number known entries guarantee successful recovery high probability
+related problem both mathematical algorithmic point view distance geometry problem realizing points euclidean space given subset their pairwise distances
+rigidity theory answers basic questions regarding uniqueness realization satisfying given partial set distances
+observe basic ideas tools rigidity theory adapted determine uniqueness low-rank matrix completion where inner products play role distances play rigidity theory
+observation leads efficient randomized algorithm testing both local global unique completion
+crucial our analysis new matrix call completion matrix  serves analogue rigidity matrix
+ introduction 
+missing entries incomplete real valued matrix recovered
+clearly matrix completed infinite number ways replacing missing entries arbitrary values
+order completion question any value must restrict matrix belong certain class matrices
+popular class matrices matrices limited rank problem completing low-rank matrix subset its entries received great deal attention lately
+completion problem comes up naturally variety settings
+one netflix problem  where users submit rankings only small subset movies one would like infer their preference unrated movies
+data matrix all user-ratings may approximately low-rank because believed only few factors contribute individual's preferences
+completion problem also arises computer vision problem inferring three-dimensional structure motion  well many other data analysis machine learning  control other problems modeled factor model
+numerous completion algorithms been proposed over years see eg 
+many algorithms relax non-convex rank constraint convex set semidefinite positive matrices solve convex optimization problem using semidefinite programming sdp
+recently using techniques compressed sensing  cand\`es recht proved if pattern missing entries random then minimization convex nuclear norm norm singular values vector finds high probability exact completion most matrices rank long number observed entries satisfies  where some function
+even more recently keshavan oh montanari improved bound also provided efficient completion algorithm
+fascinating recent results do not provide however solution more practical case pattern missing entries non-random
+given specific pattern missing entries extremely desirable would algorithm determine uniqueness rank matrix completion
+prior running any numerous existing completion algorithms sdp important analyst know if completion indeed unique
+building ideas rigidity theory see eg   propose efficient randomized algorithm determines whether not possible uniquely complete incomplete matrix matrix specified rank
+our proposed algorithm does not attempt complete matrix but only determines if unique completion possible
+introduce new matrix call completion matrix serves analogue rigidity matrix rigidity theory
+rank completion matrix determines property call infinitesimal completion
+whenever completion matrix large sparse its rank efficiently determined using iterative methods lsqr
+rigidity theory will also make distinction between local completion global completion
+analogy between rigidity completion quite striking believe many results rigidity theory usefully translated completion setup
+our randomized algorithm testing local completion based similar randomized algorithm testing local rigidity was suggested hendrickson  whereas our randomized algorithm testing global completion based recent randomized global rigidity testing algorithm gortler healy thurston who proved conjecture connelly characterization globally rigid frameworks
+due large body existing work rigidity theory postpone some translation efforts future
+organization paper follows
+section contains glossary definitions results rigidity theory our algorithms based
+section analyze low-rank completion problem particular case positive semidefinite gram matrices present algorithms testing local global completion matrices
+section analysis generalized more common completion problem general low-rank rectangular matrices corresponding algorithms provided
+section concerned combinatorial characterization entry patterns either locally completed globally completed
+particular present simple combinatorial characterization rank-1 matrices comment rank-2 rank   cases
+section detail results extensive numerical simulations tested performance our algorithms while verifying theoretical bounds matrices random missing patterns
+finally section summary discussion

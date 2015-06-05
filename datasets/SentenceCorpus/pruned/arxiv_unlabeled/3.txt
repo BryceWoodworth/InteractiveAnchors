@@ -1,0 +1,12 @@
+
+paper problem distributed learning under communication constraints distributed signal processing networks data distributed
+after general model distributed learning algorithm training kernel regression derived
+algorithm application algorithms its convergence properties investigated statistical behavior discussed theoretical setting
+introduction
+paper address problem distributed learning under communication constraints distributed signal processing networks data distributed
+designed make environments they however they typically characterized constraints energy limit ability data each other
+data distributed multiple agents e g make optimal however may them information
+methods studied within machine learning demonstrated empirical many i e communication signal processing applications
+thus both applications natural question power machine learning methods inference distributed learning under communication constraints
+paper address question general model distributed learning then distributed algorithm training kernel regression
+algorithm algorithms thus into statistical behavior algorithms standard analyses mathematical

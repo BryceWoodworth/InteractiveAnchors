@@ -1,0 +1,81 @@
+ 
+consider regularized support vector machines svms show they precisely equivalent new robust optimization formulation
+show equivalence robust optimization regularization implications both algorithms analysis
+terms algorithms equivalence suggests more general svm-like algorithms classification explicitly build protection noise at same time control overfitting
+analysis front equivalence robustness regularization provides robust optimization interpretation success regularized svms
+use new robustness interpretation svms give new proof consistency kernelized svms thus establishing robustness reason regularized svms generalize well
+ introduction 
+support vector machines svms short originated traced back early
+they continue one most successful algorithms classification
+svms address classification problem finding hyperplane feature space achieves maximum sample margin when training samples separable leads minimizing norm classifier
+when samples not separable penalty term approximates total training error considered
+well known minimizing training error itself lead poor classification performance new unlabeled data; approach may poor generalization error because essentially overfitting
+variety modifications been proposed combat problem one most popular methods being minimizing combination training-error regularization term
+latter typically chosen norm classifier
+resulting regularized classifier performs better new data
+phenomenon often interpreted statistical learning theory view: regularization term restricts complexity classifier hence deviation testing error training error controlled
+paper consider different setup assuming training data generated true underlying distribution but some non iid potentially adversarial disturbance then added samples observe
+follow robust optimization approach i e  minimizing worst possible empirical error under disturbances
+use robust optimization classification not new
+robust classification models studied past considered only box-type uncertainty sets allow possibility data all been skewed some non-neutral manner correlated disturbance
+made difficult obtain non-conservative generalization bounds
+moreover there not been explicit connection regularized classifier although at high-level known regularization robust optimization related
+main contribution paper solving robust classification problem class non-box-typed uncertainty sets providing linkage between robust classification standard regularization scheme svms
+particular our contributions include following: solve robust svm formulation class non-box-type uncertainty sets
+permits finer control adversarial disturbance restricting satisfy aggregate constraints across data points therefore reducing possibility highly correlated disturbance
+show standard regularized svm classifier special case our robust classification thus explicitly relating robustness regularization
+provides alternative explanation success regularization also suggests new physically motivated ways construct regularization terms
+relate our robust formulation several probabilistic formulations
+consider chance-constrained classifier i e  classifier probabilistic constraints misclassification show our robust formulation approximate far less conservatively than previous robust formulations could possibly do
+also consider bayesian setup show used provide principled means selecting regularization coefficient without cross-validation
+show robustness perspective stemming non iid
+analysis useful standard learning  iid  setup using prove consistency standard svm classification without using vc-dimension stability arguments
+result implies generalization ability direct result robustness local disturbances; therefore suggests new justification good performance consequently allows us construct learning algorithms generalize well robustifying non-consistent algorithms \subsubsection*{robustness regularization} comment here explicit equivalence robustness regularization
+briefly explain how observation different previous work why interesting
+certain equivalence relationships between robustness regularization been established problems other than classification  but their results do not directly apply classification problem
+indeed research classifier regularization mainly discusses its effect bounding complexity function class
+meanwhile research robust classification not attempted relate robustness regularization  part due robustness formulations used those papers
+fact they all consider robustified versions regularized classifications
+considers robust formulation box-type uncertainty relates robust formulation regularized svm
+however formulation involves non-standard loss function does not bound loss hence its physical interpretation not clear
+connection robustness regularization svm context important following reasons
+first gives alternative potentially powerful explanation generalization ability regularization term
+classical machine learning literature regularization term bounds complexity class classifiers
+robust view regularization regards testing samples perturbed copy training samples
+show when total perturbation given bounded regularization term bounds gap between classification errors svm two sets samples
+contrast standard pac approach bound depends neither how rich class candidate classifiers nor assumption all samples picked iid
+manner
+addition suggests novel approaches designing good classification algorithms particular designing regularization term
+pac structural-risk minimization approach regularization chosen minimize bound generalization error based training error complexity term
+complexity term typically leads overly emphasizing regularizer indeed approach known often too pessimistic problems more structure
+robust approach offers another avenue
+since both noise robustness physical processes close investigation application noise characteristics at hand provide insights into how properly robustify therefore regularize classifier
+example known normalizing samples so variance among all features roughly same process commonly used eliminate scaling freedom individual features often leads good generalization performance
+robustness perspective simply says noise anisotropic ellipsoidal rather than spherical hence appropriate robustification must designed fit anisotropy
+also show using robust optimization viewpoint obtain some probabilistic results outside pac setup
+section bound probability noisy training sample correctly labeled
+bound considers behavior corrupted samples hence different known pac bounds
+helpful when training samples testing samples drawn different distributions some adversary manipulates samples prevent them being correctly labeled e g  spam senders change their patterns time time avoid being labeled filtered
+finally connection robustification regularization also provides us new proof techniques well see section
+need point out there several different definitions robustness literature
+paper well aforementioned robust classification papers robustness mainly understood robust optimization perspective where min-max optimization performed over all possible disturbances
+alternative interpretation robustness stems rich literature robust statistics  studies how estimator algorithm behaves under small perturbation statistics model
+example influence function approach proposed  measures impact infinitesimal amount contamination original distribution quantity interest
+based notion robustness showed many kernel classification algorithms including svm robust sense having finite influence function
+similar result regression algorithms shown smooth loss functions non-smooth loss functions where relaxed version influence function applied
+machine learning literature another widely used notion closely related robustness stability  where algorithm required robust sense output function does not change significantly under specific perturbation: deleting one sample training set
+now well known stable algorithm svm desirable generalization properties statistically consistent under mild technical conditions; see example details
+one main difference between robust optimization other robustness notions former constructive rather than analytical
+contrast robust statistics stability approach measures robustness given algorithm robust optimization robustify algorithm: converts given algorithm robust one
+example show paper ro version naive empirical-error minimization well known svm
+constructive process ro approach also leads additional flexibility algorithm design especially when nature perturbation known well estimated {structure paper:} paper organized follows
+section investigate correlated disturbance case show equivalence between robust classification regularization process
+develop connections probabilistic formulations section prove consistency result based robustness analysis section
+kernelized version investigated section
+some concluding remarks given section {notation:} capital letters used denote matrices boldface letters used denote column vectors
+given norm  use denote its dual norm i e 
+vector positive semi-definite matrix same dimension denotes
+use denote disturbance affecting samples
+use superscript denote true value uncertain variable so true but unknown noise sample
+set non-negative scalars denoted
+set integers denoted

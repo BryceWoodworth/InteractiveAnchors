@@ -1,0 +1,39 @@
+
+present new approach large data where cell function described at population level global distribution mean variation experimental data
+here real data computer simulation cell cycle evolution individual cells within larger population associated changes functional
+model based stochastic cell cycle cell uses evolutionary algorithms further experimental data sets system variables
+at population level cells provide same statistical distributions their real addition model information at single cell level
+cell model demonstrated analysis cell cycle human cells using
+simulation continuous temporal description between experimental analysis points quantitative time variation drug interaction time within normal cell
+simulations model accuracy percent
+development cell model reference experimental data provides analysis biological knowledge obtained directly via cell population
+approach study cell biology cell population data available applied including experimental data
+introduction
+widely used study cell cycle its context both basic research analysis
+analyses may use wide range expression key molecular components cell cycle dependent dna
+particular used quantitative biological knowledge based statistical analyses experimental data sets
+single variable distributions may include increasing provide mean etc test
+more complex approaches may involve function component analysis space
+all approaches there common data statistical set biological form function correlated
+work present alternative based computational simulation experiment
+stochastic simulation cell cycle dynamics within large population reference data set then using evolutionary computer algorithms measures derived data sets
+information then directly populations
+development cell population approach been evolution large numbers cells over multiple through cell cycle provide means both whole cell population distinct
+context cell cycle response events effects cell designed cell
+report present basis cell
+demonstrate application technique its potential use cell cycle cell cell cycle
+aim simulation predict dynamic evolution large population cells through life cycle corresponding their
+furthermore model account cell cycle population
+spatial position within cell cycle determined real data set
+information each temporal position within mean time cell cycle events dna cell predicted
+after given they may compared further experimental data set important simulation parameters their evolution so between data sets
+standard approaches cell cycle involve statistical analysis distributions either involving when further cell cycle molecular also
+thus whole population measures only describe cell via global parameters standard mean
+approaches been developed order reduce analyses still involve data set identify cells
+population provides temporal further cells different g 1 s g within normal
+quantitative become extent subjective they based either identification various components distributions g 1 s g dna
+current computational approach where at biology not data
+no new data approach computer simulations could form data analysis
+however does new process continuous simulation dynamic evolution cellular system between fixed sampling points
+respect provides physical when various experimental data
+also some way variation between individual cells biological stochastic simulation report population dynamics each every cell

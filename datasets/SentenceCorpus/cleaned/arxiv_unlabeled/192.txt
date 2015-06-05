@@ -1,0 +1,28 @@
+ 
+gaussian belief propagation gabp iterative message-passing algorithm inference gaussian graphical models
+known when gabp converges converges correct map estimate gaussian random vector simple sufficient conditions its convergence been established
+paper develop double-loop algorithm forcing convergence gabp
+our method computes correct map estimate even cases where standard gabp would not converged
+further extend construction compute least-squares solutions over-constrained linear systems
+believe our construction numerous applications since gabp algorithm linked solution linear systems equations fundamental problem computer science engineering
+case study discuss linear detection problem
+show using our new construction able force convergence montanari's linear detection algorithm cases where would originally fail
+consequence able increase significantly number users transmit concurrently
+ introduction 
+gaussian belief propagation algorithm efficient distributed message-passing algorithm inference over gaussian graphical model
+gabp also linked canonical problem solving systems linear equations  one fundamental problems computer science engineering explains large number algorithm variants applications
+example gabp algorithm applied signal processing  multiuser detection  linear programming  ranking social networks  support vector machines furthermore was recently shown some existing algorithms specific instances gabp algorithm including consensus propagation  local probability propagation  multiuser detection  quadratic min-sum algorithm  turbo decoding gaussian densities others
+two general sufficient conditions convergence gabp loopy graphs known: diagonal-dominance walk-summability
+see also numerous studies specific settings
+work propose novel construction fixes convergence gabp algorithm any gaussian model positive-definite information matrix inverse covariance matrix even when currently known sufficient convergence conditions do not hold
+prove our construction converges correct solution
+furthermore consider how method may used solve least-squares solution general linear systems
+specific application discuss montanari's multiuser detection algorithm
+using our construction able show convergence practical cdma settings where original algorithm did not converge supporting significantly higher number users each cell
+paper organized follows
+section outlines problem model
+section gives brief introduction gabp algorithm
+section describes our novel double-loop construction positive definite matrices
+section extends construction computing least-squares solution general linear systems
+provide experimental results deploying our construction linear detection context section
+conclude section

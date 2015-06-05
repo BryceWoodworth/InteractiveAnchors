@@ -1,0 +1,49 @@
+ 
+consider problem high-dimensional non-linear variable selection supervised learning
+our approach based performing linear selection among exponentially many appropriately defined positive definite kernels characterize non-linear interactions between original variables
+select efficiently many kernels use natural hierarchical structure problem extend multiple kernel learning framework kernels embedded directed acyclic graph; show then possible perform kernel selection through graph-adapted sparsity-inducing norm polynomial time number selected kernels
+moreover study consistency variable selection high-dimensional settings showing under certain assumptions our regularization framework allows number irrelevant variables exponential number observations
+our simulations synthetic datasets datasets uci repository show state-of-the-art predictive performance non-linear regression problems
+ introduction 
+high-dimensional problems represent recent important topic machine learning statistics signal processing
+settings some notion sparsity fruitful way avoiding overfitting example through variable feature selection
+led many algorithmic theoretical advances
+particular regularization sparsity-inducing norms norm attracted lot interest recent years
+while early work focused efficient algorithms solve convex optimization problems recent research looked at model selection properties predictive performance methods linear case within constrained non-linear settings multiple kernel learning framework generalized additive models
+however most recent work dealt linear high-dimensional variable selection while focus much earlier work machine learning statistics was non-linear low-dimensional problems: indeed last two decades kernel methods been prolific theoretical algorithmic machine learning framework
+using appropriate regularization hilbertian norms representer theorems enable consider large potentially infinite-dimensional feature spaces while working within implicit feature space no larger than number observations
+led numerous works kernel design adapted specific data types generic kernel-based algorithms many learning tasks
+however while non-linearity required many domains computer vision bioinformatics most theoretical results related non-parametric methods do not scale well input dimensions
+paper our goal bridge gap between linear non-linear methods tackling high-dimensional non-linear problems
+task non-linear variable section hard problem few approaches both good theoretical algorithmic properties particular high-dimensional settings
+among classical methods some implicitly explicitly based sparsity model selection boosting  multivariate additive regression splines  decision trees  random forests  cosso gaussian process based methods  while some others do not rely sparsity nearest neighbors kernel methods
+first attempts were made combine non-linearity sparsity-inducing norms considering generalized additive models  where predictor function assumed sparse linear combination non-linear functions each variable
+however shown \mysec{universal} higher orders interactions needed universal consistency i e  adapt potential high complexity interactions between relevant variables; need potentially allow them variables all possible subsets variables
+theoretical results suggest appropriate assumptions sparse methods greedy methods methods based norm would able deal correctly features if order number observations 
+however presence more than few dozen variables order deal many features even simply enumerate those certain form factorization recursivity needed
+paper propose use hierarchical structure based directed acyclic graphs natural our context non-linear variable selection
+consider positive definite kernel expressed large sum positive definite basis local kernels
+exactly corresponds situation where large feature space concatenation smaller feature spaces aim do selection among many kernels equivalently feature spaces may done through multiple kernel learning
+one major difficulty however number smaller kernels usually exponential dimension input space applying multiple kernel learning directly decomposition would intractable
+shown \mysec{decompositions} non-linear variable selection consider sum kernels indexed set subsets all considered variables more generally 
+order perform selection efficiently make extra assumption small kernels embedded directed acyclic graph dag
+following  consider \mysec{mkl} specific combination norms adapted dag will restrict authorized sparsity patterns certain configurations; our specific kernel-based framework able use dag design optimization algorithm polynomial complexity number selected kernels \mysec{optimization}
+simulations \mysec{simulations} focus directed grids  where our framework allows perform non-linear variable selection
+provide some experimental validation our novel regularization framework; particular compare regular regularization greedy forward selection non-kernel-based methods shows always competitive often leads better performance both synthetic examples standard regression datasets uci repository
+finally extend \mysec{consistency} some known consistency results lasso multiple kernel learning  give partial answer model selection capabilities our regularization framework giving necessary sufficient conditions model consistency
+particular show our framework adapted estimating consistently only hull relevant variables
+hence restricting statistical power our method gain computational efficiency
+moreover show obtain scalings between number variables number observations similar linear case : indeed show our regularization framework may achieve non-linear variable selection consistency even number variables exponential number observations
+since deal kernels achieve consistency number kernels doubly exponential
+moreover general directed acyclic graphs show total number vertices may grow unbounded long maximal out-degree number children dag less than exponential number observations
+paper extends previous work  providing more background multiple kernel learning detailing all proofs providing new consistency results high dimension comparing our non-linear predictors non-kernel-based methods \paragraph{notation } throughout paper consider hilbertian norms elements hilbert spaces where specific hilbert space always inferred context unless otherwise stated
+rectangular matrices  denote its largest singular value
+denote largest smallest eigenvalue symmetric matrix
+naturally extended compact self-adjoint operators
+moreover given vector product space subset  denotes vector elements indexed
+similarly matrix defined blocks adapted  denotes submatrix composed blocks whose rows columns
+moreover denotes cardinal set denotes dimension hilbert space
+denote dimensional vector ones
+denote positive part real number
+besides given matrices  subset  denotes block-diagonal matrix composed blocks indexed
+finally let denote general probability measures expectations

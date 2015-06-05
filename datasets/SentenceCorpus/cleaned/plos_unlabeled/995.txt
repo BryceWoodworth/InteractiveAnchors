@@ -1,0 +1,57 @@
+ 
+t cell populations regulated both signals specific t-cell receptor signals resources cytokines space act independently tcr specificity
+although been demonstrated disruption either pathways profound effect t-cell development do not yet understanding dynamical interactions pathways their joint shaping t cell repertoire
+complete digeorge anomaly developmental abnormality results failure thymus develop absence t cells profound immune deficiency
+after receiving thymic tissue grafts patients suffering digeorge anomaly develop t cells derived their own precursors but matured donor tissue
+followed three digeorge patients after thymus transplantation utilize remarkable opportunity subjects provide elucidate human t-cell developmental regulation
+our goal determination respective roles tcr-specific vs tcr-nonspecific regulatory signals growth emerging t-cell populations
+during course study measured peripheral blood t-cell concentrations tcr v gene-segment usage cdr3-length spectratypes over two years more each subjects
+find through statistical analysis based novel stochastic population-dynamic t-cell model carrying capacity corresponding tcr-specific resources approximately 1000-fold larger than tcr-nonspecific resources implying size peripheral t-cell pool at steady state determined almost entirely tcr-nonspecific mechanisms
+nevertheless diversity tcr repertoire depends crucially tcr-specific regulation
+estimated strength tcr-specific regulation sufficient ensure rapid establishment tcr repertoire diversity early phase t cell population growth maintain tcr repertoire diversity face substantial clonal expansion-induced perturbation steady state
+ introduction 
+essential characteristic t lymphocytes their ability population recognize enormous number peptide antigens
+capability essential function adaptive immune system attributable diversity t-cell receptors they express
+diversity turn comes about through stochastic assembly tcr genomic libraries gene segments tcr alpha beta chains two polypeptides together make up most common form tcr
+rearrangement process takes place thymus ultimate source tcr repertoire diversity though many other forces shape raw materials thus provided
+other forces concerned study
+peripheral t-cell population maintained at constant size spite substantial continual turnover ongoing thymic production clonal expansion response immunological challenges
+although detailed understanding t-cell homeostasis not yet complete clear maintenance t cell population size results interplay several mechanisms acting both enhance population growth at low population density limit population growth at high population density
+healthy individual absence overt immune activation rate t cell division periphery small regulated through competition resources including growth signals
+t cell-deficient host however so-called lymphopenia-induced proliferation rapidly restores system steady-state numbers 
+diverse lines investigation imply signals delivered resources provided through both tcr-specific tcr-nonspecific channels essential establishment maintenance size diversity t cell populations
+experiments performed thus far been performed non-human animals represent limiting cases one more signals resources entirely eliminated
+interested understanding phenomena humans more natural setting regulation via both tcr-specific tcr-non-specific mechanisms intact their interplay jointly determine size t cell population diversity tcr repertoire
+our intent paper elucidate mechanisms lead expansion diversification tcr repertoire recovering t-cell-deficient host: our case complete digeorge subject received unrelated unmatched thymus transplant
+after transplantation host t-cell precursors migrate bone marrow donor thymus where they develop via thymopoiesis into host t cells then emigrate into peripheral blood
+here t cells capacity undergo spontaneous clonal expansion thus leading restoration peripheral t-cell pool
+expansion continues until steady state reached
+throughout process selective pressure survival emerges among within clones through competition stimulatory signals
+steady state t-cell population size arises balance among several phenomena including rapid extensive expansion rare clones through activation-induced peripheral division their subsequent contraction relatively slow turnover diverse pool naive cells through continuous thymic emigration cell death
+specific memory t cells arise result clonal expansion appear regulated largely independently naive cells
+t cells arising through lymphopenia-induced proliferation acquire markers ordinarily indicate memory phenotype may regulated memory cells though hypothesis not been definitively tested
+both size diversity peripheral t cell populations controlled through competition limiting resources
+may also controlled directly activities regulatory t cells
+been shown example normal t-cell population growth dependent stimulation self-peptide major histocompatibility complex complexes through tcr requiring tcr specific spmhc complex
+but t-cell population growth also depends cytokines il7 il15 act independently tcr specificity
+furthermore growth survival all cells require adequate space nutrients utilization independent tcr specificity 
+our current understanding lymphopenia-induced proliferation due studies mice demonstrating t cells divide rapidly after transfer into t cell-deficient irradiated mice but not after transfer normal mice
+moreover overall t cell numbers t cell-deficient animals after transfer clonal expansion similar t cell numbers normal animals suggesting control mechanisms acting total t cell numbers rather than clone-specific manner
+importance tcr specific signals been studied at length showing competition within t cell clones important maintaining tcr repertoire diversity
+been shown example t-cell-deficient host t cell must interact antigen-presenting cells bearing mhc allele responsible cell's thymic selection order proliferate
+t-cell sufficient host tcr-spmhc interaction necessary t cell survival
+furthermore naive polyclonal t cells divide when transferred tcr-transgenic hosts do monoclonal t cells transferred tcr-transgenic hosts differing clonotype
+t cells do not divide however hosts identical clonotype
+mice lacking mhc class ii expression do not repopulate periphery cd4 t cells at all suggesting peripheral mhc class ii expression needed survival cd4 t cells
+present context important note mhc class ii matching thymic grafts complete digeorge subjects not necessary development cd4 t cells 
+tcr-nonspecific signals include cytokines cytokine interleukin-7 necessary survival nave t cells
+lymphopenia-induced proliferation memory cells requires il7 il15
+t cells lost ability respond il7 after leaving thymus no longer able proliferate produce cytokines acquire memory cell phenotype
+mice il7 signaling been completely abrogated few mature t cells found peripheral blood behave abnormally
+experiments il7-receptor formula deficient mice shown reduction t-cell capacity proliferate upon stimulation leading six seven-fold reduction frequency clonogenic t cells compared t cells il7r-sufficient mice well 50 percent reduction average clone size single il7r / t cells compared il7r / t cells
+another study mice lacking interleukin 2 receptor formula chain and/or jak family tyrosine kinase had severe combined immune defects lack t lymphocyte maturation function
+phenomenon presumably attributable fact formula part receptor il7 il15 ; its loss leads abrogation both cytokine signaling pathways others well
+moreover humans absence formula jak-3 family periphery lacks t cells completely 
+assess contributions thymic emigration rate steady-state t-cell population size berzins et al engrafted variable numbers thymuses into mice observed size naive t-cell population increased proportion number thymic grafts while size memory population remained unchanged
+may importance note thymus grafts themselves produced il7
+humans transplantation thymic tissue at varying doses into complete digeorge anomaly subjects showed no significant effect nave cd4 cd8 t cell numbers 

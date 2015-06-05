@@ -1,0 +1,27 @@
+ 
+simian virus 40 large tumor antigen efficient helicase motor unwinds translocates dna
+dna unwinding translocation ltag powered atp binding hydrolysis at nucleotide pocket between two adjacent subunits ltag hexamer
+based set high-resolution hexameric structures ltag helicase different nucleotide binding states simulated conformational transition pathway atp binding process using targeted molecular dynamics method calculated corresponding energy profile using linear response approximation version semi-macroscopic protein dipoles langevin dipoles method
+simulation results suggest three-step process atp binding initial interaction final tight binding at nucleotide pocket atp eventually locked three pairs charge-charge interactions across pocket
+cross-locking atp binding process similar binding zipper model reported f1-atpase hexameric motor
+simulation also shows transition mechanism mg 2 coordination form mg-atp complex during atp binding accompanied large conformational changes ltag
+simulation study atp binding process ltag accompanying conformational changes context hexamer leads refined cooperative iris model been proposed previously
+ introduction 
+helicases family atpase motors couple energy atp binding hydrolysis conformation changes turn coupled unwinding translocation dna
+simian virus 40 large tumor antigen efficient hexameric helicase belongs helicase superfamily iii well aaa protein family
+high resolution structures ltag hexameric helicase different nucleotide binding states been previously reported including apo atp-bound adp-bound states
+three structures reveal iris-like motion hexamer helicase during drastic conformational switches triggered atp binding hydrolysis
+accompanying iris-motion ltag hexamer longitudinal movements six hairpins along central channel
+despite advancement ltag helicase studies mentioned above detailed paths conformational switches corresponding energetics associated atp binding process unknown simulated computational approach using molecular dynamics targeted molecular dynamics
+molecular dynamics propagates molecular system under laws classic mechanics suitable studying conformational changes
+however current computational capability restricts size studied system time scale md simulation
+studies larger more complex systems targeted molecular dynamics been used accelerate simulation adopts additional holonomic constraint physical potential reduce root mean square deviation between current structure final structure
+tmd suitable calculate transition pathways between two known protein conformations
+combination md tmd methods been widely applied dynamics studies various systems ras p21 signal transition pathway f1-atpase system groel complex human a-7 nachr receptor
+here adopted tmd calculate whole transition pathway used md simulate accurate conformational change certain key time slots
+order understand energetic aspects atp triggered conformational changes ltag hexameric helicase simulated atp binding process ltag associated conformational changes
+first built apo state six atps placed 20 away binding pocket original apo structure
+then used tmd approach calculate transition pathway apo state atp bound state examined atp binding process powered conformational transition
+results suggest atp molecule goes through three-step process before being locked inside nucleotide pocket
+meanwhile configurations binding pocket along atp binding pathway were evaluated using linear response approximation version semi-macroscopic protein dipoles langevin dipoles method method capable evaluating binding free energies significantly faster than microscopic methods comparable accuracy
+addition simulation results conformational transition reveal refined pathway cooperative iris-like movement ltag hexamer helicase previously observed crystal structures

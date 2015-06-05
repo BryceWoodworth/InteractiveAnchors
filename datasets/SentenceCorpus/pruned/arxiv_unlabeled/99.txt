@@ -1,0 +1,35 @@
+
+consider problem choosing density estimate set distributions distance unknown distribution
+analyze two algorithms minimum distance estimate
+estimate requires than minimum distance estimate but than latter
+focus computational density estimation
+present two algorithms both same minimum distance estimate
+first one minimum distance estimate uses same number
+second one called minimum uses only linear number
+also give examples algorithms cannot explore algorithms density estimation
+introduction
+study following density estimation problem considered
+there unknown distribution given not independent samples define empirical distribution
+given finite class distributions our objective output error
+use norm well many useful properties example scale fact approximate identification distribution norm estimate probability every event
+following two parameters influence error possible distance empirical error
+first parameter required since no control over hence cannot distribution better than distribution one norm
+not how define second error respect
+see section
+analyze two algorithms minimum distance estimate
+minimum distance estimate defined special case minimum distance principle
+minimum distance estimate example was used obtain estimates factor kernel density estimates also hypothesis testing
+algorithm requires than minimum distance estimate but terms two parameters above than latter
+our main two estimate both same minimum distance estimate but more efficient
+first cost matching cost algorithm
+second one even using many after
+now paper
+section give required introduce notion set
+then section previous density estimation algorithms minimum distance estimate using
+next section present our algorithms
+first one estimate computational cost
+second one call minimum only linear computational cost after
+section explore density estimation algorithms
+section give examples previous
+paper focus case when finite order compare computational our estimates previous ones
+however our results way classes well if computational complexity

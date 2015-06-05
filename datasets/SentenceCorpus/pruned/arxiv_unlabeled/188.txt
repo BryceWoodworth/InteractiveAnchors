@@ -1,0 +1,52 @@
+
+consider linear regression problem regularization norm problem usually
+paper first present detailed analysis model consistency settings
+various regularization parameter probability correct model selection
+specific rate show all variables should model probability one fast while all other variables positive probability
+show property if several given sample then estimates leads consistent model selection
+novel variable selection procedure extended settings consistent procedure
+introduction
+regularization norm interest recent years statistics machine learning signal processing
+context linear regression problem usually basis
+much early effort been algorithms solve optimization problem either through methods through methods leads regularization i e set solutions all values regularization parameters at cost single matrix
+property regularization norm solutions i e leads vectors many thus model selection regularization
+recent at model consistency i e if know data were generated sparse vector does actually pattern when number observations
+case fixed number i e settings does pattern if only if certain simple condition matrices
+particular low correlation settings indeed consistent
+however presence strong between relevant variables variables cannot potential problems variable selection
+various been designed its based weights
+main paper propose analyze alternative approach based
+note recent work also at methods but weights norm rather than observations see more
+paper first derive detailed analysis pattern selection estimation procedure previous analysis specific regularization parameter
+settings where number variables much smaller than number observations show when then will all variables should model relevant variables probability one fast while all other variables variables positive probability
+if several datasets generated same distribution were available then latter property would suggest consider estimates each all relevant variables would always selected all datasets while variables would models many different datasets would simply them
+however practice only one but methods several datasets same unique
+paper show when using actually consistent model estimate without consistency condition required
+new procedure b s s
+finally our framework could seen applied however our procedure may rather considered combination subset variables all terms variable selection our case consistent also allows potential additional
+consider two ways using regression settings pairs
+show two types lead consistent model selection settings
+moreover provide empirical evidence settings pairs does not lead consistent estimation while still does
+while prove consistency settings prove model consistency related original data larger regularization parameter then pairs within support first estimation
+show procedure consistent
+order do so consider new sufficient conditions consistency do not rely sparse low conditions
+particular our new assumptions allow prove will not only few variables when regularization parameter chosen but always same variables high probability
+derive efficient algorithms
+when pairs simply efficient algorithm multiple however when more efficient ways may designed obtain time complexity less than multiple times
+finally our results examples settings
+work work particular analysis settings its norm defined
+also its norm
+matrices its value all its elements its norm
+let matrix
+defined if if if
+vector vector elements
+given set function set
+also elements
+moreover given vector subset vector elements
+matrix elements whose
+moreover set
+positive matrix size two matrix variables given variables vector matrix
+finally let general probability measures regression norm paper consider pairs observations
+data given form vector design matrix
+consider loss function \
+when much smaller than one setting estimation while other cases where potentially much larger than one setting problem see

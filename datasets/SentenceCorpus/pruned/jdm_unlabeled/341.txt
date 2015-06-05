@@ -1,0 +1,47 @@
+
+recognition heuristic predicts recognition comparative judgments much research some at times
+most studies whether under conditions used
+however even though model there been less attention methods applied measure
+current work i provide different measures natural recognition way
+measures compared respect different particular how well they true use
+end both simulations empirical data presented
+results rate been applied measure measure
+alternative recently developed model
+introduction
+past since was recognition heuristic much research
+been studied point view some at times
+many other empirical studies question whether what extent recognition cue considered how often actually used
+whereas some show case others conditions possible individual differences tests alternative cognitive process models
+model makes exact predictions about choices underlying processes
+however gain about whether under conditions predictions actually correct must also
+although many research strategy individual heuristics yet much less clear how study measure
+what may at first appear rather question out represent view source much
+so far been appropriate
+indeed et al provided questions
+they suggested no less than critical test should their view
+also they literature many previously studies respect points
+however even if their studies features had not been does proposed if taken rather small empirical yet problems when measure
+i will problem what follows
+central point et al argue more likely used when objects cues must memory
+assumption memory more often based simple heuristics assumption support past
+central objects decision through experience thus learning recognition when appropriate
+those who like into rule out participants objects them cues how measure use when there no control over cue knowledge
+assume judgment two larger one but not other
+if provides judgment object higher criterion value choice produced
+however cases cannot recognition was considered thus do not provide information about use
+more generally may prediction cue question actually some different information points same direction
+case comparing example decision may chosen based knowledge large like
+thus so long there no control over further knowledge specific prediction
+simple choices model us almost about underlying strategy p number
+best recognition further knowledge if participants certain objects cue patterns typically when other heuristics alternative approaches full control investigate whether additional cues degree participants
+indeed different cues when simple strategies
+moreover full experimental control over cue patterns allows application methods strategy classification proposed between theories decision making observed choices means model
+bayesian approach provides information about decision strategy most likely generated data vector
+recently approach been extended choice outcomes response confidence
+however both approaches all cue patterns set objects so between different strategies
+at central et al who call using objects without any further information
+overall most only three information available researchers must base whether was used i objects were presented given including their true position criterion dimension objects object chosen higher criterion value
+how based information measure
+so far three classes measures been applied
+rate measures based rates model
+what follows i will introduce measures discuss their theoretical present simulations existing empirical data evaluate them

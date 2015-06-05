@@ -1,0 +1,19 @@
+
+process mixture models provide bayesian framework density estimation
+their at inference mixture models even when distributions used
+common case when one only maximum data points clusters show search algorithms provide practical alternative techniques
+when true sample solution found search good
+experimental results show using techniques possible apply mixture models very large data sets
+introduction
+process mixture models provide bayesian solution density estimation
+their fact one need not number mixture components
+practice mixture models been used problems learning data
+despite mixture models at high computational cost
+standard algorithms based those described take long time distribution
+techniques alternative but difficult
+paper show standard search algorithms search provide alternative techniques
+our algorithms allows one apply mixture models very large data sets
+like approaches mixture models focus distributions family
+techniques produce samples corresponding our techniques will only find approximate
+do not strong practice applications above all use techniques sample then simply choose sample single probability
+if one samples then solution found our methods could

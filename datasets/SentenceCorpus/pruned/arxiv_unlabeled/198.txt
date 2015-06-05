@@ -1,0 +1,68 @@
+
+present family class classification binary classification
+robust against constant binary errors matching best possible regret
+also best choices
+previous results more than previously while new form analysis
+setting error while using both optimal up small constant
+introduction
+consider classical problem classification where given instance goal predict most likely according some unknown probability distribution
+common general approach learning reduce problem set binary classification problems
+approach any binary learning algorithm including online algorithms bayesian algorithms even humans alternative design learning algorithm directly typically existing algorithm binary classification
+difficulty direct approach some algorithms cannot different learning problem
+example first still used support vector machine may not even best possible predictor no how many examples used see
+single reduction number different algorithms way
+key technique regret analysis regret resulting terms regret binary binary problems
+regret difference loss between predictor best possible predictor same problem
+regret analysis more than loss analysis bounds only loss thus bounds problems high noise } key technique regret analysis bounds regret resulting classifier terms average classification regret binary problems
+here regret defined section difference between loss loss problem i e loss due prediction
+most applied reduction binary classification problem each classes
+classifier class predict whether predictions then each binary classifier over those predict over all if all
+simple reduction sense given optimal binary reduction may not optimal classifier presence noise
+loss binary predictions instead loss makes approach consistent but resulting regret scales case where average loss regret problems
+reduction bounds average binary classification regret
+consistent reduction binary classification but binary regret between 1
+probabilistic output approach class classification learning binary examples per example at both training test time test time
+resulting regret number classes
+when only constant number probability given features reduced per example
+state problem several there consistent reduction binary classification does not
+example average binary regret just may regret
+level there consistent reduction requires just matching information lower bound
+tree reduction between using binary tree each predicting correct not
+
+shown section method
+above reduction only between classes
+one associated approach binary problems form probability given random subset may solve
+although regret analysis latter only loss some cases still some especially larger values
+family presented here all questions
+provides method prediction resulting regret where average binary every binary classifier two distinct class
+result based basic observation if predict its binary may due noise distribution nodes between should no preference class prediction
+observation construct reduction called tree uses per example at both training test time whose regret times average binary regret
+decision process tree up set
+using multiple independent no use does not affect average regret binary
+possible complete between no same
+%
+first pairs among first phase
+tree test time evaluation at
+also useful problem robust search first algorithm allows constant time setting where any comparison
+previous work either applied case where but not setting where fixed known bound number fixed errors so far
+indeed might even appear algorithm robust constant full errors since error always comparison
+comparison times strategy
+result here also useful actual problem games real
+our analysis does not assume errors known noise distributions known outcome distributions given
+construct robust against bias some
+furthermore construct than do not provided here
+all
+after determined one losses they losses
+pair against process only one remains
+method does not scale well large phase
+even our smaller maximum than
+see does not our goal note could first first single then more phase need control only two basic some section
+section shows simple tree approach tree algorithm described section more general problems
+section algorithm best possible computational two bounds regret classifier
+some experimental evidence tree indeed practical approach classification
+section family between robustness large small
+setting tree while binary regret
+setting regret
+results here provide free generalization work robust search setting more well
+% only according two section algorithm independent lower bound 2 regret large
+when number binary classifier independent independent predicted lower bound large

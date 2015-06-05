@@ -1,0 +1,50 @@
+
+d features group proteins contain significant disordered regions not present
+group number proteins dna
+here focus family d n exhibit sequence intrinsic unknown function
+thought play important role d during phase after
+use molecular dynamics simulations study dynamics protein study its free energy using
+show presence disordered significantly free energy whole protein
+increase protein cell where effects function
+other disordered regions proteins propose novel function disordered regions increase domains they making them whole more potentially way their cellular activity
+introduction
+proteins molecular conformational changes while out their function
+however over past few years become clear much more complex there proteins simply do not defined structure yet still out different important functions
+disordered proteins protein also called disordered difficult study using classical methods structural biology but they recent years significant attention due two
+first become clear proteins
+using approaches been shown about percent all proteins disordered about percent long
+among signaling proteins particular about percent long disordered
+numbers even if some predicted disordered regions actually prove likely far example population membrane proteins
+second factor fact involved important cellular functions molecular recognition protein functions
+example complex cellular cell signaling regulation often required actions many key molecular through interaction recognition based unique features case signaling proteins often regions
+when recognition multiple binding binding required choice molecular level often involves regions
+finally large numbers known involved human cancer
+thus far some study been through data approaches
+been shown sequences tend exhibit high low sequence entropy lack amino residues
+based features several tools been developed predict level intrinsic given sequence
+moreover using different methods basic structural features been including their molecular size level structural role structure events presence structure
+particular combination computer simulation provided some first
+however compared our knowledge structure mechanism proteins our understanding still because their structural dynamic complexity
+present study use molecular dynamics simulations free energy focus role
+d
+family
+characterized ability high
+example more than dna no effect its
+however molecular mechanisms underlying high d thought effect mechanisms environments
+over years evidence there exists no single mechanism nature d but rather combination different mechanisms at play
+range structural increased genome number high concentration active mechanisms including base dna
+however important mechanisms may also possible major structural order environmental
+one potential strategy address compare d those its differences
+recently one us taken approach focused presence biological role regions d
+subset proteins d was identified contain highly low sequence complexity intrinsic
+proteins including dna proteins
+further finding here focus analyze properties its regions
+large class present all organisms wide range including
+some family way potentially effects would if into
+other family concentration metabolic signaling molecules
+d different types about three times more than what would expected given size its genome number per any genome known
+particular been reported d genes strongly during phase been metabolic
+regions dynamic very difficult study
+however computer simulations molecular dynamics techniques provide complete dynamic
+here using sequence analysis methods molecular dynamics simulations free energy show regions protein significantly its properties making whole protein significantly more
+fact functional role regions they key functional under conditions

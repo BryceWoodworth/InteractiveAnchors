@@ -1,0 +1,43 @@
+
+important step understanding gene regulation identify dna binding sites each transcription factor
+approaches prediction binding sites involve sequences weight matrices rely statistical analysis dna sequences known binding sites
+here present method called dna structure prediction computational machine learning applied develop models binding sites
+approach binary between true binding sites based structural features dna
+features determined via molecular dynamics consider each base different local
+each at least dna binding sites binding sites genome sequence feature vectors used training
+according analysis comparison computational predictions against data available three matrix search method
+also method similar involves learning algorithm
+main advantage lower positive rate
+introduction
+important step genetic regulatory network cell identify dna binding sites each transcription factor protein genome
+typically genes specific dna sequences
+although other factors binding interactions affect gene expression important identify sequences directly best our ability understand genes
+better understanding gene regulation central role cellular responses environmental changes key cellular behavior variety useful metabolic applications
+number computational methods been developed predicting binding sites given set known binding sites
+used methods involve sequence weight matrix where dna binding sites represented sequences t c
+more approaches further set potential binding sites given addition each free energy protein binding additional relevant information correlation between different sequence binding
+not widely used sequence analysis idea structural data predicting binding sites been considered
+most methods use structures rather than dna itself
+training sets large useful even only small sets known binding sites typically available
+new been used identify large numbers binding sites particular but there remains need methods predict binding sites given small number positive examples
+methods used example analysis data
+binding sites methods compared predicted binding sites studies at importance sites gene expression
+structure dna sequence dependent interactions depend various parameters between amino residues base pair
+parameters not methods predicting binding sites rely sequence information
+dna sequences do not underlying interactions
+given does not dna sequence but particular sequence because its structural features better predictions binding sites might generated explicitly features algorithm predicting binding sites
+mechanisms dna sequences into two direct
+dna sequence via sequence determined local base pair dna sequence interactions
+direct dna sequence through direct between specific sequence amino residues
+two classes recognition mechanisms not
+study introduce method predicting binding sites basis structural features short dna sequences
+using molecular dynamics methods features set known potential binding sites given vectors structural features
+use features positive negative examples binding sites support vector machine between true binding sites
+negative examples derived selected dna sequences
+positive examples taken information about
+e developed through approach classifier tested against binding sites
+provide information about binding scale
+also evaluate performance against four other computational method matrix search
+matrix search methods rely approach preferences binding sites
+method similar learning algorithm
+case show significantly estimated provides higher prediction accuracy than other computational approaches

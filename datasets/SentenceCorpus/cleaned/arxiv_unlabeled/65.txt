@@ -1,0 +1,43 @@
+ 
+observations consisting measurements relationships pairs objects arise many settings protein interaction gene regulatory networks collections author-recipient email social networks
+analyzing data probabilisic models delicate because simple exchangeability assumptions underlying many boilerplate models no longer hold
+paper describe latent variable model data called mixed membership stochastic blockmodel
+model extends blockmodels relational data ones capture mixed membership latent relational structure thus providing object-specific low-dimensional representation
+develop general variational inference algorithm fast approximate posterior inference
+explore applications social protein interaction networks
+keywords: hierarchical bayes latent variables mean-field approximation statistical network analysis social networks protein interaction networks
+ introduction 
+modeling relational information among objects pairwise relations represented graphs becoming important problem modern data analysis machine learning
+many data sets contain interrelated observations
+example scientific literature connects papers web connects pages links protein-protein interaction data connects proteins physical interaction records
+settings often wish infer hidden attributes objects observed measurements pairwise properties
+example might want compute clustering web-pages predict functions protein assess degree relevance scientific scholar's query
+unlike traditional attribute data collected over individual objects relational data violate classical independence exchangeability assumptions typically made machine learning statistics
+fact observations interdependent their very nature interdependence necessitates developing special-purpose statistical machinery analysis
+there history research devoted end
+one problem been heavily studied clustering objects uncover group structure based observed patterns interactions
+standard model-based clustering methods eg  mixture models not immediately applicable relational data because they assume objects conditionally independent given their cluster assignments
+latent stochastic blockmodel represents adaptation mixture modeling dyadic data
+model each object belongs cluster relationships between objects governed corresponding pair clusters
+via posterior inference model one identify latent roles objects possibly play govern their relationships each other
+model originates stochastic blockmodel where roles objects known advance
+recent extension model relaxed finite-cardinality assumption latent clusters via nonparametric hierarchical bayesian formalism based dirichlet process prior
+latent stochastic blockmodel suffers limitation each object only belong one cluster other words play single latent role
+real life not uncommon encounter more intriguing data entities multi-facet
+example when protein social actor interacts different partners different functional social contexts may apply thus protein actor may acting according different latent roles they possible play
+paper relax assumption single-latent-role actors develop mixed membership model relational data
+mixed membership models latent dirichlet allocation  emerged recent years flexible modeling tool data where single cluster assumption violated heterogeneity within data point
+they been successfully applied many domains document analysis  surveys  image processing  transcriptional regulation  population genetics
+mixed membership model associates each unit observation multiple clusters rather than single cluster via membership probability-like vector
+concurrent membership data different clusters capture its different aspects different underlying topics words constituting each document
+mixed membership formalism particularly natural idea relational data where objects bear multiple latent roles cluster-memberships influence their relationships others
+will demonstrate mixed membership approach relational data lets us describe interaction between objects playing multiple roles
+example some protein's interactions may governed one function; other interactions may governed another function
+existing mixed membership models not appropriate relational data because they assume data conditionally independent given their latent membership vectors
+relational data where each object described its relationships others would like assume ensemble mixed membership vectors help govern relationships each object
+conditional independence assumptions modern mixed membership models do not apply
+paper develop mixed membership models relational data develop fast variational inference algorithm inference estimation demonstrate application our technique large scale protein interaction networks social networks
+our model captures multiple roles objects exhibit interaction others relationships between those roles determining observed interaction matrix
+mixed membership latent block structure reliably recovered relational data section 
+application friendship network among students tests model real data set where well-defined latent block structure exists section 
+application protein interaction network tests what extent our model reduce dimensionality data while revealing substantive information about functionality proteins used inform subsequent analyses section 

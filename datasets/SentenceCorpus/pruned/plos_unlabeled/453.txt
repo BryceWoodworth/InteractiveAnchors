@@ -1,0 +1,77 @@
+
+become clear play important cells studies there might large number unknown genomes
+there exist computational methods used search comparing sequences different genomes
+one main problem methods their computational complexity heuristics therefore
+two heuristics very
+however heuristics not dependent sequence similarity may not present comparative information
+here matrix presented alternative novel heuristic
+all do not minimum matrix out thus advantage constraints
+been new algorithm local global structural alignment rna sequences
+shown time memory while overall performance
+furthermore new method introduced limit memory during global alignment local alignment
+all points rna structure found used structure into smaller
+each then normal
+finally algorithm also been better memory energy model
+algorithm provides molecular efficient new
+available at
+introduction
+rna genes regulatory structures been shown both highly highly genome
+one theory many part regulatory systems
+recently several about rna genes motifs using comparative been
+there potentially many unknown structures still hidden genomes
+been shown alignment requires information about secondary structure when sequence similarity below percent
+mutations change primary sequence without structure
+algorithm rna sequences principle applied
+however algorithm too high even few short sequences
+two sequences length time complexity memory complexity heuristics therefore needed before algorithms rna sequences become fast useful
+was first algorithm
+simple matrices
+had three length alignment could not than maximum length difference between two being was limited could only structures
+second version algorithm uses combination energy model two sequences
+also uses constraints but structures
+algorithm was used one
+two types heuristics very popular
+methods use sequence similarity limit search space alignment must contain
+length short called full sequences
+methods require sequences before structure predicted not methods they alignment
+uses limit structures found comparative algorithms
+popular method use probabilities found limit base pairs conserved structure
+methods methods using taken where alignment
+one example combination methods
+some methods use both heuristics
+methods alignment prediction rna sequences into two methods probabilistic methods
+methods based free energy
+based physical model how different elements rna structure free energy
+parameters found experimentally estimated multiple
+probabilistic models usually based stochastic context free see introduction
+methods include
+stochastic context free parameters estimated multiple
+each methods uses different heuristics
+previous version uses alignment length local number ways
+uses based using hidden markov model
+number potential base pairs only using base pairs probability above given
+uses similar strategy but further base pairs
+uses short normal sequence
+uses n 1 best predicted structures n 2 best limit combined alignment structure prediction
+paper dynamic matrix introduced new heuristic algorithm
+all its dynamic any does not above threshold
+similar one heuristics used
+advantage method compared methods used when there not sequence similarity make necessary
+advantage compared methods comparative information step
+shown leads increase while algorithm its good performance
+increase makes studies like much more
+method simple general
+should therefore possible use many other methods available rna sequences
+feature dynamic method may used any algorithm using dynamic
+addition been significantly
+up algorithm points now also used lower memory during
+during algorithm more information needed
+limit memory during step used
+step all points conserved structure then used structure into
+structures then
+structures usually than full structure memory reduced
+use method increases time algorithm but not much since
+addition energy model been well
+consistent way
+also more base pairs
+lead better structure predictions

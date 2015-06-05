@@ -1,0 +1,43 @@
+ 
+many protein functions directly linked conformational changes
+inside cells equilibria transition rates between different conformations may affected macromolecular crowding
+recently developed new approach modeling crowding effects enables atomistic representation test proteins
+here approach applied study how crowding affects equilibria transition rates between open closed conformations seven proteins: yeast protein disulfide isomerase adenylate kinase orotidine phosphate decarboxylase trp repressor hemoglobin dna glucosyltransferase ap 4a hydrolase
+each protein molecular dynamics simulations open closed states separately run
+representative open closed conformations then used calculate crowding-induced changes chemical potential two states
+difference chemical-potential change between two states finally predicts effects crowding population ratio two states
+crowding found reduce open population various extents
+presence crowders 15 radius occupying 35 percent volume open-to-closed population ratios ypdi adk odcase trpr reduced 79 percent 78 percent 62 percent 55 percent respectively
+reductions remaining three proteins 20 44 percent
+expected four proteins experiencing stronger crowding effects those larger conformational changes between open closed states
+larger proteins also tend experience stronger crowding effects than smaller ones e.g comparing ypdi trpr
+potentials mean force along open-closed reaction coordinate apo ligand-bound odcase altered crowding suggesting transition rates also affected
+quantitative results qualitative trends will serve valuable guides expected crowding effects protein conformation changes inside cells
+ introduction 
+increasingly recognized protein dynamics serves critical link between structure function
+important manifestation protein dynamics sampling alternative conformations
+conformational changes triggered substrate binding post-translational modifications phosphorylation
+increasingly structures same proteins at different functional states becoming available
+structures provide atomistic details conformational changes
+example adenylate kinase enzyme catalyzes phosphoryl transfer atp amp undergoes significant conformational transition open conformation apo form closed conformation ligand-bound form
+main differences between two conformations occur atp amp-binding domains core domain relatively rigid
+other examples well-characterized conformational transitions include proteins responsible signal transduction across cell membranes ion channels 
+biophysical characterizations protein conformational changes mostly been carried out under dilute conditions
+however environments where proteins perform their biological functions i.e extracellular space cell membrane cytoplasm crowded macromolecules
+example cytoplasm escherichia coli contains about 300 400 g/l macromolecules estimated occupy over 30 percent total volume
+cell membranes membrane proteins occupy similar level total surface area
+how crowded cellular environments affect equilibria transition rates between different conformations proteins still poorly understood
+qualitatively one expects macromolecular crowding will significantly modify energy landscapes conformational changes favoring more compact structures over more open ones
+effects crowding been scrutinized experimentally
+molecular dynamics simulations also been carried out investigate energy landscapes number proteins under crowding context either conformational change folding-unfolding transition
+speed up conformational sampling proteins studies were represented at coarse-grained level
+recently developed approach referred postprocessing opens door atomistic modeling proteins under crowding
+approach motions test protein simulated absence crowders
+conformations simulation then used calculate change chemical potential if they transferred crowded solution
+dependence change chemical potential reaction coordinates then captures influence crowding energy landscape
+postprocessing approach been applied study effects crowding protein folding binding stability open-closed equilibrium hiv-1 protease dimer
+latter application been shown postprocessing approach yields results identical those obtained direct simulations protein presence crowders 
+here apply postprocessing approach investigate impact macromolecular crowding open-closed equilibria seven proteins: adk yeast protein disulfide isomerase orotidine phosphate decarboxylase trp repressor hemoglobin dna glucosyltransferase ap 4a hydrolase
+biological functions subcellular locations proteins listed table 1
+find crowding reduce open-to-closed population ratios various extents; potentials mean force along open-closed reaction coordinate apo ligand-bound odcase hence transition rates similarly affected
+biological implications results discussed below

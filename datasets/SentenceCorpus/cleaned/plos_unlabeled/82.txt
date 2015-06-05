@@ -1,0 +1,25 @@
+ 
+well established various cortical regions implement wide array neural processes yet mechanisms integrate processes into behavior-producing brain-scale activity remain elusive
+propose important role respect might played executive structures controlling traffic information between cortical regions involved
+illustrate hypothesis present neural network model comprising set interconnected structures harboring stimulus-related activity group executive units task-related activity patterns manage information flowing between them
+resulting dynamics allows network perform dual task either retaining image during delay recalling image another one been associated during training
+model reproduces behavioral electrophysiological data gathered inferior temporal prefrontal cortices primates performing same tasks
+also makes predictions how neural activity coding recall image associated sample emerges becomes prospective during training phase
+network dynamics proves very stable against perturbations exhibits signs scale-invariant organization cooperativity
+present network represents possible neural implementation active top-down prospective memory retrieval primates
+model suggests brain activity leading performance cognitive tasks might organized modular fashion simple neural functions becoming integrated into more complex behavior executive structures harbored prefrontal cortex and/or basal ganglia
+ introduction 
+important unanswered question neurobiology how neural activity organizes itself produce coherent behavior
+lesion electrophysiological imaging studies targeting specific cognitive functions provided very detailed insights into how different regions brain contribute behavior
+more specifically they shown role various regions cortex implementing functions visual representation stimuli sustainment memory stimulus representation tasks rules selection response among set possibilities shielding memory distractions planning movements
+however remains unclear how different regions cortex interact together build even simplest behavior
+indeed even elementary action looking at object preparing reach requires cascade neural processes take place right order proper timing successful
+here propose adequate behavior generated set functions mentioned above if information cortical regions contain exchange each other managed executive control structures manner suiting task at hand
+brain-scale activity coding integrated behavior might then constructed executive units repertoire simple neurocognitive functions would selected recruited ordered synchronized implement necessary neural computations
+illustrate hypothesis present neural network model able pass mixed-delayed response task was introduced study memory retrieval monkey using visual associations
+task consists randomly mixed delayed-matching sample delayed-pair association trials require subject either maintain memory image during delay remember image associated respectively
+type trial performed signaled subject during delay
+network contains structures harboring image-related activities each them implementing one elementary functions crucial task execution: visual representation working memory planning memory
+areas complemented executive units control activity held layers regulate information flow between them
+neural computations necessary perform tasks encoded firing patterns control units coordinated depend strongly both trial type phase trial
+resulting dynamics allows network trained dms then dpa task while reproducing electrophysiological data gathered inferior temporal prefrontal cortices monkeys performing similar tasks

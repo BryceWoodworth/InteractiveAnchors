@@ -1,0 +1,55 @@
+
+role variety physiological conditions including cancer disease
+growth factor critical
+multiple vegf expressed cells including signaling receptor
+only vegf thus potential target vegf signaling
+using first detailed computational model vegf its shown previously interactions explain observed effects vegf vegf signaling demonstrated vegf does not binding but receptor
+present study computational model simulation vegf binding predict several vegf vegf binding
+model predicts significantly more effective than other approaches vegf signaling
+addition types different receptor expression levels each
+human mechanism target significant role strategies tested here similar properties predicted most effective
+type target also significant each studied
+introduction
+growth new critical physiological process growth during
+may while cancer targets
+expression suggests work may also relevant development system
+our goal propose effective using accurate detailed computational models growth factors involved
+study predict three methods same result distinct outcomes one methods more effective than others
+thus identification target must rational design obtain characteristics potential
+addition drug example expression level critical factor impact
+growth factor family critical
+vegf increases cell
+increases cells
+multiple vegf two most human vegf vegf
+both vegf receptor signals
+vegf also matrix
+binding sites vegf so vegf may both
+there thus two pathways vegf its signaling binding directly binding vegf
+vegf only form directly
+vegf interaction thus particular value target because vegf vegf been identified signaling may while normal levels physiological vegf signaling
+previous work developed computational models vegf interactions cell previously experimental data estimate rate vegf
+showed sufficient account observed effects vegf multiple cell types our model distinct vegf binding signaling effects each cell types
+addition used model between molecular mechanisms action demonstrated under not vegf binding
+here model molecular interactions vegf family its predict behavior system including well multiple cell types parameters
+three methods vegf interaction here
+first expression may use other methods protein cells
+second protein vegf binding site vegf binding receptor
+example growth factor 2
+2
+2 here contains only binding site does not
+protein been used vegf binding
+alternative would vegf itself
+third may interaction between vegf signaling receptor but
+may using previously characterized vegf binding but
+each three strategies been demonstrated vegf signaling here predict their
+first computational model our knowledge include interactions vegf family their explicitly
+model all receptor interactions allows us examine both behavior system
+all parameters model been obtained previously experimental data
+analysis parameters shows vegf interactions than process so assumed fast construct model cells vegf into space vegf binding cell
+parameters under here also into space cell area area
+changes parameters would result changes parameters model
+results presented here therefore but model may applied other
+primary signaling receptor vegf first analyze results model cells but not effect considered later
+system state vegf cells cells resulting through space
+one three at time time vegf binding
+vegf vegf binding taken vegf signaling

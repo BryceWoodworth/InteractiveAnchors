@@ -1,0 +1,60 @@
+ 
+open-ended methods elicit willingness-to-pay wtp terms absolute dollars often result high rates questionable highly skewed responses insensitivity changes health state raise ethical issue related its association personal income
+conducted number x number randomized trial over internet test number wtp formats number wtp dollars number wtp percentage financial resources number wtp terms monthly payments number wtp single lump-sum amount
+wtp percentage financial resources generated fewer questionable values had better distribution properties greater sensitivity severity health states was not associated income
+wtp elicited monthly basis also showed promise
+ introduction 
+many economists elicit people's willingness pay wtp healthcare interventions through contingent valuation surveys so benefits those interventions valued monetary terms
+despite many known biases occur when attempting elicit dollar value people good not usually directly available market e g perfect health
+much literature focuses developing consensus most valid method eliciting wtp putting aside any philosophical issues question validity eliciting wtp through single elicitation
+early wtp surveys elicited values using open-ended question self-interest perspective obtain personal use values e g how much would you willing pay cured
+
+open-ended formats ask wtp values without presenting starting point value without using search routine help respondents determine value
+respondents simply asked give dollar value
+however researchers questioned validity format because responses prone high number non-response zero values because responses heavily skewed toward high values perhaps part due strategic bias
+response concerns u s federal panel number led kenneth arrow concluded both experience logic suggest responses open-ended questions will erratic biased
+since then researchers moved away eliciting wtp using open-ended format developed three types closed-ended formats attempt overcome shortcomings open-ended format
+close-ended formats ask respondents say yes no series questions select value pre-specified list
+all three methods methodological issues however
+bidding game prone starting-point bias wtp changes depending starting value used begin bidding payment card method prone range bias wtp changes depending range values presented
+single-bounded discrete choice format statistically inefficient studies using approach very expensive conduct because all else being equal requires larger sample size more sophisticated design analysis techniques
+addition format prone several biases including yea-saying where respondents tendency agree amount presented
+double-bounded choice format was derived increase statistical efficiency
+however even responses people who report high level certainty about their willingness pay exhibit significant anomalies increase uncertainty increases
+believe open-ended format deserves further exploration
+despite strong statement quoted earlier against using some researchers do not agree call abandon open-ended format
+although different formats produce different responses not clear format superior
+recent study comparing alternate elicitation formats concluded
+
+
+would seem most informative elicitation format present context
+
+
+appear s open-ended format
+
+
+though format nowadays distinctly unfashionable health economics having long since given way supposedly-superior elicitation formats
+advantages open-ended format does not introduce range starting-point biases highly statistically efficient compared discrete choice formats
+open-ended format also several clear disadvantages however
+format may place heavy cognitive demand respondents
+fact other formats were developed part make elicitation simpler more realistic respondents
+furthermore asking wtp terms dollars using open-ended format requires using unbounded response scale scale starts at zero but no defined upper end naturally contributes highly variable skewed responses typically seen open-ended wtp elicitations
+addition people may more likely give strategic values unbounded scale respondent may believe treatment high intrinsic social value thus places very high value not grounded reality actually paying figure form taxes out-of-pocket expense
+conversely respondent may give artificially low response attempt influence actual price eventually charged
+could more constrained but still essentially open-ended approach might avoid some problems reviewed above
+specifically eliciting wtp percentage financial resources two potential advantages
+first percentage measure will force use bounded numbernumber response scale creating more statistically efficient scale measure
+generally people unable map their preference health effect using scale consisting dollars starts at zero but no clear maximum amount unbounded scale
+second percentages involve smaller numbers numbernumber scale percentage formats versus number undefined maximum dollar formats people process smaller whole numbers more reliably
+one study thompson read liang found percentage measure exhibited more significant associations key independent variables number symptoms suffered respondents medications taken than did wtp expressed dollars
+purpose current study was compare wtp values elicited percentage financial resources values elicited dollars using open-ended formats
+predicted percentage method would less prone inconsistent responses would more sensitive differences severity across health states would show more desirable distributional properties
+asked percentages based financial resources rather than income because realistic expect many people would consider savings borrowing power other financial resources pay cure condition they want avoid
+thinking about paying out amounts monthly basis rather than single lump sum enables respondents think smaller quantities amounts proposed likely more salient because many people budget their finances monthly basis
+advantages percentage format could reduced eliminated when monthly payments rather than lump sum payments considered
+thus also introduced second dimension against compare elicitation formats monthly timeframe versus single lump sum amount
+current study extends studies done thompson colleagues largest study date elicited wtp percentage several ways
+first introduce within-subjects measure sensitivity
+second compare effects using monthly timeframe elicit wtp single lump-sum amount
+third focus specifically distributional properties responses further assess percentage formats more efficient measure
+finally current study utilizes larger sample surveys general public instead patients

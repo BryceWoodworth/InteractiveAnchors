@@ -1,0 +1,31 @@
+
+disease leading
+found several nodes correlated but their neural basis remains
+here used dynamic model examine effective connectivity underlying
+measures local field potential made used data models
+increased effective connectivity pathway connectivity
+moreover analysis between processes revealed how effective connectivity along pathway importance
+findings provide novel perspective how connectivity between predicts potential new targets
+introduction
+disease neurons activity studies shown at key feature when at level activity local field several key nodes
+nodes include brain where after observed primary associated activity following power moreover recent report shown at similar findings patients
+how leads power unknown
+recent work revealed after loss but not after receptor here examine whether changes effective connectivity between nodes network account following loss
+test hypothesis used dynamic
+approach allows one distributed underlying activity
+framework brain data making about parameters models using bayesian approach
+range models been developed various output data features
+current event related state responses
+current paper based designed data features
+using data multiple asked whether changes neural produce observed model models using data
+specifically used neural models main cell types at each
+neural models describe dynamics terms average states over populations neurons
+inference effective connectivity differences observed between control cases was based estimates connectivity synaptic parameters
+using estimates sensitivity changes particular identify may represent targets
+measures functional connectivity been applied previously examine signal between nodes network
+measures between between models while functional connectivity effective connectivity measures some aspects likelihood models bayesian underlying different between functional connectivity effective connectivity analysis time et al used term effective connectivity define interactions could explain observed using minimum simple model
+what follows minimum model approach using key elements known interactions
+our model predicts output where assume observed responses interactions among populations sources known
+point analyses effective connectivity paper end point classical functional connectivity observed
+other words place special how functional connectivity terms particular model interactions
+what follows approach when applied system

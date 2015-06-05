@@ -1,0 +1,31 @@
+
+literature source knowledge associations between genes cellular processes
+used method relationships between literature
+its use knowledge method also new hidden relationships between following simple c no direct relationship but via
+paper describe discovery literature new relationships between
+statistical analysis using showed discovery performed well over wide range settings
+used discovery search new relationships between genes pathways
+several found relationships were using independent literature sources
+addition new predicted relationships between cell were experimentally cell
+results show discovery able identify novel associations between genes pathways high probability being
+makes discovery useful mechanisms disease find novel drug targets find novel applications existing
+introduction
+knowledge function genes their role biological processes present literature full database
+various approaches been developed information gene function body literature been applied genes proteins experimental results
+common method relationships between genes pathways
+method assumption same body some way related
+methods also used new hidden relationships if c both b c might also relationship even if there no relationship between c provided example his study found patients disease finding was experimentally few years later
+hidden literature relationships used hypothesis about relationship between c so called discovery process
+process provides hypothesis related c then tested literature support hypothesis
+hidden relationships also used generate novel about relationship between c open discovery process
+process provides point literature hidden relationships other c
+tools available open discovery experiments often limited certain domains only limited number terms hidden relationships less
+moreover all open discovery tools identify true hidden relationships
+previous paper described database
+database statistical all makes possible perform statistical analyses hidden relationships between
+addition contains several genes etc database use discovery hidden relationships
+paper describe discovery method uses database open discovery hidden literature relationships
+statistical analysis results using show discovery true hidden relationships true
+application method open hidden novel about process relationships were
+moreover used discovery identify two novel would cell
+experimental showed

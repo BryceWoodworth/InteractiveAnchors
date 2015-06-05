@@ -1,0 +1,56 @@
+
+different major applications
+existing detection methods datasets due data patterns parameter setting
+define novel local factor measure objects datasets
+uses relative object its determine degree object its
+properties including lower bound its probability well parameter settings
+order parameter settings applications technique our detection approach where only objects values
+compared approaches our method more effective at data
+also set parameters since its performance relatively stable over large range parameter values experimental results both datasets
+introduction
+all data techniques detection information data
+behavior certain objects
+detection techniques widely been applied e g reactions analysis e g financial detection e g information e g detection so
+recent many detection approaches been proposed into several e g e g e g methods
+however methods often applications due number
+data usually distribution where objects distributed domain feature space
+point view objects cannot represent patterns e g clusters normal data
+however point view objects several represent pattern subset objects
+only objects do not any other object groups
+existing depend assumption most objects few main clusters
+they datasets because high rate low
+difficult current detection approaches set accurate parameters datasets
+most algorithms must through
+because data usually do not contain objects
+addition evaluate detection performance without domain
+therefore detection result will if parameters not chosen
+parameter setting problem researchers proposed detection methods
+instead binary methods provide objects represent degree each object
+domain selected where typically far smaller than objects real
+since detection procedure provide good interaction between data detection methods become popular applications
+distance detection approach
+order original detection method distance paper
+distance object its short object
+larger higher object objects values
+local factor was proposed same
+factor each object t its
+factor depends how data object its
+since uses threshold normal objects same problem parameter setting
+lower threshold will produce high rate while high threshold value will result
+recent applications researchers found more use manner i e \ only objects values will considered
+call
+researchers proposed other methods data
+although existing detection techniques difficulty parameter setting detection methods paper take examples low data
+section will discuss further problems
+paper propose new detection local factor datasets
+uses relative distance object its measure how much objects their
+higher degree object more likely object
+addition properties including its lower bound probability provide choosing size
+order parameter setting applications technique our approach
+perform various experiments both datasets compare our detection performance
+experimental results our proposed significant detection datasets
+paper section discuss problems data
+section introduce our approach properties our factor section
+section detection algorithm described together analysis its complexity
+experiments reported section show our method previous approaches at least considered datasets
+finally presented section

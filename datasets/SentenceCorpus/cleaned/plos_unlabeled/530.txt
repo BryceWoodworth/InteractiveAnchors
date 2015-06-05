@@ -1,0 +1,45 @@
+ 
+rna molecules will tend adopt folded conformation through pairing bases single strand; resulting so-called secondary structure critical function many types rna
+secondary structure particular substring functional rna may depend its surrounding sequence
+yet some rnas micrornas retain their specific structures during biogenesis involves extraction substructure larger structural context while other functional rnas may composed fusion independent substructures
+observations raise question whether particular functional rna substructures may selected invariance secondary structure their surrounding nucleotide context
+define property self containment tendency rna sequence robustly adopt same optimal secondary structure regardless whether exists isolation substring longer sequence arbitrary nucleotide content
+measured degree self containment using scoring method call self-containment index found mirna stem loops exhibit high self containment consistent requirement structural invariance imposed mirna biogenesis pathway while most other structured rnas do not
+further analysis revealed trend toward higher self containment among clustered conserved mirnas suggesting high self containment may characteristic novel mirnas acquiring new genomic contexts
+found mirnas display significantly enhanced self containment compared other functional rnas but also found trend toward natural selection self containment most functional rna classes
+suggest self containment arises out selection robustness against perturbations invariance during biogenesis modular composition structural function
+analysis self containment will important both annotation design functional rnas
+python implementation web interface calculate self-containment index available at link
+ introduction 
+our understanding significance noncoding rnas increased dramatically over last decade notably marked discovery endogenously coded micrornas
+along increased awareness diversity ncrnas come corresponding heightened attention rna sequence structural measures characterize known novel rnas
+secondary structure rna consisting energy-minimizing base interactions along length molecule direct effect its function fact been well-characterized variety rna classes
+ribosomal rnas among largest examples illustrate functional importance rna structure several rrnas along associated proteins assemble into large small subunits ribosome structural specificity direct protein translation
+cloverleaf transfer rna structure allows associate ribosome properly orient its bound amino acid during aminoacylation
+various small nuclear rnas small nucleolar rnas involved rna editing splicing basis their shape specificity while stem-loop structure precursor mirnas allows them recognized ribonuclease dicer during mirna maturation process
+structure-derived functionality not limited nonprotein coding rnas; however some messenger rnas contain structural regulatory motifs hairpin selenocysteine insertion sequence occurs predominantly 3 untranslated regions mrnas coding selenoproteins internal ribosome entry site viral 5 utrs promotes translation initiation middle mrna
+additionally recognition specific mrnas rna binding proteins well pre-mrna splicing all involve molecular interactions folded rna structure 
+importance structural specificity not limited end product sequence structural specificity during various stages rna biogenesis also critical
+eukaryotic trnas example transcribed longer precursor transcripts recognized cleaved both 5 3 ends rnasep uncharacterized endonuclease respectively ; some trnas also contain introns disrupt canonical cloverleaf structure spliced out before mature trna exported out nucleus
+eukaryotic 18s 5.8s 28s rrnas transcribed single unit subsequently cleaved apart
+hammerhead ribozyme example self-splicing rna its three helices mediate cleavage motif occurs same rna molecule 
+case mirnas biogenesis begins transcription long primary transcripts fold into large structures serve substrates endonuclease drosha
+drosha complex pasha form microprocessor complex recognizes specific hairpin substructures pri-mirna cleaves them at base helical stem region yielding pre-mirna hairpins
+range size 60 120 nucleotides subsequently processed dicer targets pre-mirnas basis their hairpin shape
+mirnas notable sequence pre-mirna hairpin remains robust structure through biogenesis steps regardless sequence context: when embedded larger primary sequence pre-mirna subsequence folds into hairpin when cleaved off form independent unit sequence folds into same hairpin 
+need context-independent structural conservation exemplified mirna biogenesis pathway hallmark broader phenomenon modular composability i.e generation biopolymers through combinatorial composition structural motifs
+now well recognized novel proteins arise shuffling structural domains most vivid example being circularly permuted proteins
+given critical role structural features rna function already recognized motifs compiled databases rfam conceivable many rnas might also arisen evolutionary steps domain shuffling domain fusions
+process would require novel molecule reach folded state composition structural features its parts i.e structural features combinatorial pieces need invariant composition other sequences
+one hand structural context robustness may product specific relationship between each sequence its genomic context property been exploited computational mirna finders
+other hand certain subsequences may some intrinsic tendency structurally indifferent their surrounding sequence irrespective particular identity surrounding sequence e.g pre-mirna would still structurally robust if were inserted into different context
+call property intrinsic structural invariance self containment
+self-contained structural rna potential modular building block larger structure carry out consistent function through biochemical modifications surrounding sequences potentially maintain function when inserted into novel contexts might occur viral elements
+previously while studying general mutational robustness 170 structural elements rna viral genomes wagner stadler found there was trend toward higher structural robustness conserved elements than nonconserved elements when placed short nongenomic contexts
+using similar approach ancel fontana studied intrinsic context insensitivity set canalized artificial rnas selected reduced environmental plasticity found positive relationship between environmental canalization modularity
+other work rna proteins suggests there intimate relationship between mutational robustness domain modularity folding kinetics thermodynamic stability well other biogenerative processes
+work analyze self containment over broad range biological rnas using intuitive scoring method quantify different degrees context robustness
+show fact pre-mirnas do exhibit high degree intrinsic self containment while most other biologically relevant rnas tend not show self containment
+relate self containment other sequence structural features rna find no simple combination features completely explain self containment
+finally show variation among mirnas degree self containment correlated genomic location mirna-family membership well their biogenerative process illustrated mirnas produced alternate mirtron pathway
+propose high self containment intrinsic property particular rna sequences may evolutionarily selected characteristic molecules need maintain structural robustness some aspect their function face genetic perturbations generative perturbations modular composition combinatorial contexts

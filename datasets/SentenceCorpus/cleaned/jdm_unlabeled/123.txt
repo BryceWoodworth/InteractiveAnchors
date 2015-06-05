@@ -1,0 +1,27 @@
+ 
+background domain-specific risk taking scale dospert widely used instrument measures perceived risk benefit attitude toward risk activities several domains but does not include medical risks
+objective develop medical risk domain subscale dospert
+methods sixteen candidate risk items were developed through expert discussion
+conducted cognitive telephone interviews online survey random-digit dialing rdd telephone survey reduce refine scale explore its factor structure obtain estimates reliability
+participants eight patients recruited uic medical center waiting rooms participated number  number minute cognitive interviews
+thirty amazon mechanical turk workers completed online survey
+one hundred chicago-area residents completed rdd telephone survey
+results basis cognitive interviews eliminated five items due poor variance participant misunderstanding
+online survey suggested two additional items were negatively correlated scale considered them candidates removal
+factor analysis responses rdd telephone survey non-statistical factors led us recommend final set number items represent medical risk domain
+final set items included blood donation kidney donation daily medication use allergies knee replacement surgery general anesthesia dentistry clinical trial participation
+interitem reliability cronbach's alpha final set number items ranged number number  number number depending response task
+older respondents gave lower overall ratings expected benefit activities
+conclusion refined set items measure risk benefit perceptions medical activities
+our next step will add items complete dospert scale confirm scale's psychometric properties determine whether medical risks constitute psychologically distinct domain other risky activities characterize individual differences medical risk attitudes
+ introduction 
+perceptions risk benefit preference risk important constructs decision making under uncertainty
+dospert widely used instrument measures conventional risk attitudes likelihood engaging activities defined objectively risky perceived risk attitudes likelihood engaging activities perceived risky respondent under assumption constructs may differ domain risk
+dospert encompasses six risk domains ethical gambling health safety investing recreational social risk taking
+each domain risk perception benefit perception risk attitude measured using number point category rating scale responses six items per domain
+notably although dospert one very few measures recommended use assessing risks health-related clinical decisions recent review only measure extensive psychometric evidence measures risk perception benefit perception risk attitude dospert's health safety scale focuses preventive safety behaviors wearing seatbelt does not include items sample types risk activities commonly encountered health care settings
+example young et al found no differences dospert health safety subscale among potential living kidney donors potential recipients transplant specialists despite marked differences their expressed tolerance donation-related health risks
+blais weber two dospert developers also reported dospert health safety scale may require revision appears primarily measure variance also associated ethical domain perhaps because several health safety items reflect socially proscribed behaviors unprotected sex heavy drinking
+goal study was develop six-item add-on dospert subscale designed measure attitudes toward risky medical activities
+manuscript reports our work developing subscale obtaining initial psychometric results subscale itself through three studies cognitive interviews online pilot survey random-digit-dialing telephone survey
+studies incorporate what been termed substantive validity structural validity phases scale development

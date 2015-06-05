@@ -1,0 +1,40 @@
+ 
+describe preliminary investigation into learning chess player's style game records
+method based attempting learn features player's individual evaluation function using method temporal differences aid conventional chess engine architecture
+some encouraging results were obtained learning styles two recent chess world champions report our attempt use learnt styles discriminate between players game records trying detect who was playing white who was playing black
+also discuss some limitations our approach propose possible directions future research
+method presented may also applicable other strategic games may even generalisable other domains where sequences agents' actions recorded
+ introduction 
+chess other popular strategic board games players different styles
+example chess some players more ``positional'' other more ``tactical'' difference style will affect their move choice any given board position more generally their overall plan
+problem tackle paper applying machine learning teach computer discriminate between players based their style
+before explain our methodology briefly review method temporal difference learning central our approach
+temporal difference learning machine learning technique originating seminal work samuel  learning occurs minimising differences between predictions actual outcomes temporal sequence observations
+samuel used game checkers vehicle study feasibility computer learning experience
+although program written samuel did not achieve master strength was precursor checkers program chinook  was first computer program win match against human world champion see detailed but less technical description machine learning samuel's checkers program  tesauro demonstrated power technique showing temporal difference learning combined using neural network enable program learn play backgammon at expert level through self-play
+following approach there been similar efforts applying technique games chess  go  othello chinese chess
+self-play time consuming so natural try make use existing game records strong players train evaluation function however temporal difference training did not employ minimax lookahead
+learning game records also been used game go extract patterns move prediction using methods other than temporal difference learning
+here our aim not necessarily train computer competent game player but rather teach play style particular player learning records games played player principle system could learn interacting player but when sufficient game records exist learning generally accomplished faster more conveniently off-line  important note information available during learning should not include any meta-features date when game was played name opening variation played result game
+all learning module observes sequence moves played each game
+looking at different perspective view problem one classification
+assume train computer play styles two chess players say kasparov kramnik
+problem then reformulated follows: inspecting record game played between kasparov kramnik computer detect some confidence player was playing white pieces black pieces
+at even higher level problem recast turing test chess  where computer may fool human human player
+some sense may already true strongest available computer chess programs  computers already surpassed humans their playing strength mainly due increased computing power relying brute-force calculations
+moreover there seems high correlation between choices made top human chess grandmasters world class chess engines see 
+will not discuss turing test debate further now will concentrate classification problem within domain chess
+far know new problem paper suggest tackling using temporal difference learning
+all previous uses temporal difference learning games some cited above attempt learn weights evaluation function order improve play computer program
+our scenario still attempt learn weights evaluation function but objective imitate style given player rather than improve program's play
+course if player under consideration very strong example kasparov kramnik then resulting program likely improve; but method could also used learn evaluation functions weaker players
+learning algorithm described section based sutton's td(0  corresponds simplest rule updates only current predictions
+note more general formulation proposed sutton td ; utilises decay factor between 0 1 forces algorithm also take into account earlier predictions
+accelerate training utilise both adaptive learning rate momentum term  describe subsection
+section present proof concept where attempt learn styles two recent chess world champions kasparov kramnik make use learnt feature weights guess game played between two players who was white who was black
+despite some encouraging results there also some fundamental limitations our approach defining player's ``style''
+particular pointed out us chess grandmaster pablo san segundo  our choice features described subsection probably too low-level since all strong players seek optimise placement their pieces maintain combination pieces according sound tactical positional criteria
+higher level tempting classify kasparov more ``tactical'' player kramnik more ``positional'' player
+however concepts difficult formulate precise manner moreover not clear how translate them into algorithmic framework
+discuss other issues subsection
+section give our concluding remarks

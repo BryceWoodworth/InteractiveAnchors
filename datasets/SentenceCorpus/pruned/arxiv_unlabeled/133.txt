@@ -1,0 +1,12 @@
+
+method stable random using low memory where parameter
+method statistical estimation task various been proposed based mean mean power etc
+study optimal whose main less than taking power main previous
+our experiments report optimal one order more efficient than previous
+learning tasks should
+addition its computational optimal theoretical properties
+more accurate than previous when }
+derive its theoretical error bounds i e no hidden sample complexity bound
+introduction
+method stable random efficient data provides mechanism some machine learning
+paper provide algorithm stable random both accurate efficient

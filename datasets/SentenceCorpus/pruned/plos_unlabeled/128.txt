@@ -1,0 +1,52 @@
+
+many alternative events sequences binding sites regulatory factors
+elements alternative under evolutionary
+using genomic alignment identified exhibit short regions high alternative
+experiments gene conserved regions important alternative regulation
+conserved sequences were into each was
+compared frequency conserved elements all c sequences order identify short motifs more likely associated alternative
+motifs were examined preferences alternative
+many high motifs known regulatory sequences mechanism alternative regulation well conserved
+comparison analysis conserved elements analysis same increase sensitivity regulatory motifs
+approach also identified novel sequences whose role under us take step regulatory elements
+experiments one novel sequence our analysis important alternative regulation gene
+introduction
+one learned analysis human genome may than genes
+one mechanism increase complexity human number genes allow some genes multiple proteins
+process alternative rna
+studies use expressed sequence identify genes researchers predict up percent human genes
+alternative events additional mechanisms regulation gene expression
+understanding alternative its regulation key component understanding genomes
+current models alternative regulation based interactions rna sequences known elements regulatory proteins known factors
+binding factors ability alternative
+role elements well been shown work based factors present
+example human gene control sequence found
+sequence site both factors
+protein also alternative through interactions rna sequence sequence been shown important alternative regulation
+many other examples complex regulation alternative through elements been demonstrated interactions between proteins binding protein specific sequences important alternative regulation
+sequences therefore they should less evolutionary their sequence
+should sequences alternative
+analysis human was found average sequence either tend highly conserved between human genomes percent sequences percent sequences
+some potential regulatory motifs studies
+example found sequence was second most common first percent regions
+another study alternative found most conserved region alternative
+third study found alternative its presence highly conserved genes
+using model system been take advantage comparative identify alternative
+c gene structure gene expression regulation similar other higher average size smaller
+our previously developed methods identification genes c genome sequence sequence
+developed algorithm genome between c related
+hidden markov model identify regions high low no
+also factors at c into its when region high
+c c years yet
+alignment two genomes revealed sequences highly conserved between species but sequences conserved
+found high sequences more likely occur than total
+conserved regions were regulatory elements alternative
+alignment relatively limited regions high provides more specific regulatory elements than much conserved regions alternative
+paper present analysis conserved regions c conserved regions alternative regulation
+conserved sequence regions into database relative total database similar method used group identify
+us potential alternative motifs
+since many rna recognition factors specific sequences order length motifs may represent specific binding sites particular factors
+several our motifs analysis known regulatory elements example but several not been previously identified
+number identified method were tested system c
+used analysis identify new highly conserved alternative regulatory
+show sequence alternative gene

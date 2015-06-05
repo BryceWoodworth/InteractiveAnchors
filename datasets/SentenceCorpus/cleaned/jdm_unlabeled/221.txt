@@ -1,0 +1,44 @@
+ 
+our previous research suggests people reporting stronger desire maximize obtain worse life outcomes
+here examine whether finding may explained decision-making styles self-reported maximizers
+expanding schwartz et al find self-reported maximizers more likely show problematic decision-making styles evidenced self-reports less behavioral coping greater dependence others when making decisions more avoidance decision making greater tendency experience regret
+contrary predictions self-reported maximizers were more likely report spontaneous decision making
+however relationship between self-reported maximizing worse life outcomes largely unaffected controls measures other decision-making styles decision-making competence demographic variables
+ introduction 
+behavioral decision research characterizes behavior terms its consistency axioms utility maximization
+half-century research revealed both consistency departures norm
+latter include satisficing choosing alternative good enough rather than maximizing selecting option highest expected utility
+strategies beneficialif they save enough cognitive effort justify any loss expected payoff
+historically decision-making research focused general processes underlying deviations normative theory satisficing instead maximizing
+more recently attention turned individual differences decision making asking whether through preference ability individuals make decisions consistent ways across tasks situations
+individual differences been examined include risk aversion risk judgments preference rational intuitive dependent avoidant spontaneous decision-making styles decision-making competence
+building simon's work schwartz et al developed scale measuring degree individuals report trying maximize rather than satisfice
+includes items when i watch tv i channel surf often scanning through options even while attempting watch one program
+other items capture ways one might explore much information possible when making choice
+given many options often available modern life e g tv channels cars jobs prospective mates maximizing no small feat
+perhaps because challenges successfully implementing maximizing strategy people who attempt do so fare less well life sense experiencing less happiness optimism self-esteem life satisfaction while incurring more depression perfectionism regret
+moreover individuals who try maximize may less constructive decision-making styles
+example aspiring maximizers make more upward social comparisons thereby inducing regret counterfactual thinking about what might been
+they rely more external information sources might lead them further question their choices
+thus decision-making styles may undermine very satisfaction attempted maximizers try so hard achieve
+even when maximizing pays off better outcomes satisfaction those outcomes still may not follow
+iyengar wells schwartz found recent college graduates who described themselves maximizers secured jobs number percent higher starting salaries but felt less satisfied during job search afterward
+one possible explanation attempting maximize encourages focusing one easily compared feature salary while neglecting other features important job satisfaction
+were case then those who attempt maximize may make poorer decisions despite strongly desiring opposite
+conversely decisions lack easily compared criteria would-be maximizers may face cognitively intractable situations like those led simon propose advisability satisficing
+consistent hypotheses bruine de bruin et al found people higher self-ratings schwartz et al 's maximizing scale had lower scores measure decision-making competence dmc described below r number p less than number
+addition self-identified maximizers also reported worse outcomes decision outcome inventory doi includes number negative life events might reflect poor decision making
+events range broadly their impacts frequency include ruining clothes laundry having check bounce having mortgage loan foreclosed being jail overnight having been diagnosed type number diabetes more likely among people who made poor lifestyle choices
+analyses bruine de bruin et al focused developing validating dmc doi measures
+context schwartz et al 's self-reported maximization scale was one several comparison measures
+result paper reported zero-order correlations maximizing dmc doi but not other decision-making styles demographic characteristics
+particular analyses did not examine extent lower dmc scores problematic decision-making styles account correlation between self-reported maximizing poorer life outcomes
+here examine question using bruine de bruin et al 's diverse community sample rich dataset
+begin asking whether self-reported maximizers tend report several decision-making styles
+one measure behavioral coping taking action resolve difficult tasks rather than working around them
+because self-reported maximizers may set unattainable goals they should report less coping
+five other measures come scott bruce's suite decision-making style scales
+self-reported maximizers should report engaging number more rational decision making reflecting their perception systematic deliberation about their choices number less intuitive decision making attempting avoid relying feelings instincts number more dependence others reflecting interpersonal comparisons quest information number more avoidant decision making postponing decisions search more information ponder possibilities number less spontaneous decision making sense taking more time carefully decide
+finally expect self-reported maximizers report greater regret about their past decisions replicating schwartz et al 's finding diverse community sample
+subsequently take advantage diversity bruine de bruin et al 's sample examine how self-reported maximizing varies socio-demographic variables
+finally examine whether correlations between self-reported maximizing two performance measures a-dmc doi reduced after controlling other styles demographics

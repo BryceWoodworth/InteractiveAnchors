@@ -1,0 +1,40 @@
+
+method proposed data approximation
+data complex define complex low dimension given complexity best approximation
+complex generalization linear them particular cases
+problem optimal complex into series problems
+terms energy
+energy whole complex represented system nodes
+complex represented graphs describe how during process optimal complex
+whole process using energy allow us construct efficient algorithms
+introduction
+paper discuss classical how approximate finite set relatively large finite subset object
+application finite set problem many data dynamics
+first hypothesis whether
+if point
+
+
+average distance component analysis
+one most data analysis
+now
+generalization many been made answer
+two them especially important our
+algorithm take finite metric space metric into best initial structure image b best approximation
+algorithm several variables between
+some initial approximation
+each step algorithm current approximation
+define
+next approximation } here step size function
+there many ways whole algorithm
+idea very applications but know what algorithm but no independent result algorithm work
+define solution problem some energy functional were not very
+known probability distribution were introduced through data distribution
+was into mathematical notion every point all points into
+should just data space usually domain finite only one typically into point
+order introduce become essential part algorithms
+give most popular take consider resulting approximation see example
+several original algorithms finite datasets were developed during well many applications idea
+about at method data approximation based energy was proposed see there
+method based between membrane
+following introduce two terms
+allows one apply standard i e system linear sparse matrix

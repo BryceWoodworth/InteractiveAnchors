@@ -1,0 +1,29 @@
+ 
+letor website contains three information retrieval datasets used benchmark testing machine learning ideas ranking
+algorithms participating challenge required assign score values search results collection queries measured using standard ir ranking measures ndcg precision map depend only relative score-induced order results
+similarly many ideas proposed participating algorithms train linear classifier
+contrast other participating algorithms define additional free variable intercept benchmark each query
+allows expressing fact results different queries incomparable purpose determining relevance
+cost idea addition relatively few nuisance parameters
+our approach simple used standard logistic regression library test
+results beat reported participating algorithms
+hence seems promising combine our approach other more complex ideas
+ introduction 
+letor benchmark dataset {http://research
+microsoft
+com/users/letor/} version 2 0 contains three information retrieval datasets used benchmark testing machine learning ideas ranking
+algorithms participating challenge required assign score values search results collection queries measured using standard ir ranking measures ndcg@  precision@ map  see details designed way only relative order results matters
+input learning problem list query-result records where each record vector standard ir features together relevance label query id
+label either binary irrelevant relevant trinary irrelevant relevant very relevant
+all reported algorithms used task letor website rely fact records corresponding same query id some sense comparable each other cross query records incomparable
+rationale ir measures computed sum over queries where each query nonlinear function computed
+example ranksvm rankboost use pairs results same query penalize cost function but never cross-query pairs results
+following approach seems at first too naive compared others: since training information given relevance labels why not simply train linear classifier predict relevance labels use prediction confidence score
+unfortunately approach fares poorly
+hypothesized reason judges' relevance response may depend query
+check hypothesis define additional free variable  intercept benchmark  each query
+allows expressing fact results different queries incomparable purpose determining relevance
+cost idea addition relatively few nuisance parameters
+our approach extremely simple used standard logistic regression library test data
+work not first suggest query dependent ranking but arguably simplest most immediate way address dependence using linear classification before other complicated ideas should tested
+based our judgment other reported algorithms used challenge more complicated our solution overall better given data

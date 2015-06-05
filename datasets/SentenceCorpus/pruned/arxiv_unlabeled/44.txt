@@ -1,0 +1,26 @@
+
+develop new method both previously known preferences standard well attributes classical function approximation predict given interest particular
+our method low rank matrix problem where learn function whose pairs vectors standard low rank matrix problem being special case where function matrix
+solve matrix problem using also standard kernel properties
+experiments show our matrix method over standard matrix one no information about people well over standard single task learning methods
+introduction
+task predicting preferences given based their previously known preferences well preferences other
+system example one would like suggest new based what others recently
+problem matrix objects e g corresponding preferences one would like
+case preference could binary variable even more quantitative scale 1
+standard known about objects preferences expressed so far
+setting most common assumption preferences into small number factors both objects resulting search matrix observed matrix preferences
+problem usually difficult problem only heuristic algorithms exist
+convex been obtained rank norm matrix
+many practical applications however description objects through attributes e g measures similarity available
+case take advantage both known preferences model preferences
+important framework over potentially allows prediction preferences new new objects
+seen learning preference function examples problem any algorithm classification regression taking input pair object
+if example positive kernel between pairs description object then learning algorithms like support vector kernel regression applied
+algorithms empirical risk over kernel space defined kernel
+both rank norm regularization based prior hypothesis about nature preferences
+rank based hypothesis preferences limited number factors describe objects
+norm preferences between similar similar objects where similarity terms kernel pairs
+main work propose framework both one hand between approach approaches other hand
+particular framework matrix learning classical over
+show experiment resulting algorithm lead significant over other methods

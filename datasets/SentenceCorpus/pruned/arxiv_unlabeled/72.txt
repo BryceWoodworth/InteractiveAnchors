@@ -1,0 +1,48 @@
+
+given sample matrix examine problem linear combination input variables while number combination
+known sparse component analysis wide applications machine learning
+new problem derive algorithm full set good solutions all target numbers total complexity where number variables
+then use same derive sufficient conditions global solution tested per pattern
+discuss applications subset selection sparse show examples biological data our algorithm does provide optimal solutions many cases
+introduction
+component analysis data analysis wide range applications
+data set linear variables called components corresponding data
+full involves value data matrix
+one key factors linear all original most factor
+means while model information few factors factors themselves still using all variables hence often
+many applications involved factors direct physical
+financial biological applications each might specific gene
+problems natural between two statistical most data making factors involve only few
+solutions only few components usually
+moreover some applications direct cost hence there may direct between statistical
+our aim here derive sparse components i
+e set sparse vectors explain maximum amount
+our belief many applications statistical required obtain sparse factors small relatively
+what follows will focus problem finding sparse factors explain maximum amount 1 } variable where positive sample matrix parameter norm i e number
+while each factor requires leading sparse problem
+fact show subset selection problem least reduced sparse problem sparse particular
+techniques used results find underlying particular see
+another simple solution threshold small value
+more approach problem recent years various researchers algorithms e g d c based methods find components
+algorithm based representation optimization problem allows application technique based norm
+simple all algorithms above require convex problems
+recently also derived based sparse problem complexity given
+finally used search methods solve small problem good solutions larger ones
+each step algorithm complexity leading total complexity full set solutions
+our here
+first derive algorithm full set good solutions one each target between 1 at total numerical cost based matrix
+then derive sufficient conditions vector global
+means practice given vector support test if optimal solution problem few binary search solve one convex problem
+fact take any pattern any algorithm test its
+paper version new conditions applications subset selection sparse
+while there case made maximum focus here
+however was shown recently see among others there fact between type variable selection algorithms
+sufficient conditions based sparse also called consistent variable selection case sparse problem
+results derive here produce bounds sparse thus used prove consistency estimation prove sparse problems prove particular solution subset selection problem optimal
+our conditions only sufficient not necessary would subset selection bounds produce sparse cannot always but often small
+paper follows
+sparse problem section
+section efficient algorithm full set solutions problem total complexity
+then convex sparse problem use section derive sufficient conditions global particular pattern
+section applications subset selection sparse variable selection
+finally section test numerical performance results

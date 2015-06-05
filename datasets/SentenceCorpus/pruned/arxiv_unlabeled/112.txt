@@ -1,0 +1,29 @@
+
+show how models prediction defined using hidden markov models standard algorithms then used among other how predictions should according model
+many existing models best known times each case
+also describe two new distribution was recently developed improve description length model selection new fixed algorithm based
+give loss bounds all models new their relationships
+introduction
+cannot predict how processes social interactions so will develop into future
+people do make all time
+predictions based models human
+may even choose between basis combination
+scenarios typically cannot considered
+thus may well end up position where whole prediction strategies each some into some aspects process interest
+address question how given set combined into single predictive strategy good if possible even better than best individual
+follows
+let finite set
+each distribution next outcome given previous observations
+here each outcome some space random variables
+probability sequence outcomes given
+standard bayesian approach predictions define prior distribution function
+inference then based distribution
+probability data b predictive distribution next outcome prediction strategy those individual c distribution us how predictions should
+simple probabilistic approach advantage predicting outcomes using requires only time
+bayesian strategy overall probability data only factor smaller than probability data according best available
+strategy do any better than means potentially other not used our advantage
+more prediction strategies found literature under various including bayesian statistics source universal prediction
+latter predictions not probabilistic using arbitrary loss function
+paper consider only loss although our results framework described eg \
+introduce allows description existing new models
+time evaluation models directly size their representation

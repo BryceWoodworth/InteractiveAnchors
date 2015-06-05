@@ -1,0 +1,30 @@
+ 
+major dna constituent primate centromeres alpha satellite dna
+much 2 percent 5 percent sequence generated part primate genome sequencing projects consists material fragmented not assembled part published genome sequences due its highly repetitive nature
+here develop computational methods rapidly recover categorize alpha-satellite sequences previously uncharacterized whole-genome shotgun sequence data
+present algorithm computationally predict potential higher-order array structure based paired-end sequence data then experimentally validate its organization distribution experimental analyses
+using whole-genome shotgun data human chimpanzee macaque genomes examine phylogenetic relationship sequences provide further support model their evolution mutation over last 25 million years
+our results confirm fundamental differences dispersal evolution centromeric satellites old world monkey ape lineages evolution
+ introduction 
+alpha-satellite only functional dna sequence associated all naturally occurring human centromeres
+alpha satellite consists tandem repetitions 171-bp at-rich sequence motif
+humans two distinct forms alpha-satellite recognized based their organization sequence properties
+humans large fraction arranged into higher-order repeat arrays where alpha-satellite monomers organized multimeric repeat units ranging size 3 5 mb
+while individual human alpha satellite monomer units show 20 percent 40 percent single-nucleotide variation sequence divergence between higher-order repeat units typically less than 2 percent
+number multimeric repeats within any centromere varies between different human individuals source considerable chromosome length polymorphism
+unequal crossover satellite dna between sister chromatid pairs between homologous chromosomes during meiosis largely responsible copy-number differences thought fundamental evolution hor arrays
+organization unit periodicity arrays specific each human chromosome individual monomer units classified into one five different suprafamilies based their sequence properties
+interestingly studies closely related primates chimpanzee orangutan indicate particular associations do not persist among centromeres homologous chromosome implying structure content centromeric dna changes very quickly over relatively short periods evolutionary time
+addition higher-order arrays large tracts alpha-satellite dna more recently been described devoid any hor structure
+individual repeats within segments show extensive sequence divergence been classified monomeric alpha-satellite dna
+monomeric tracts frequently located at periphery centromeric dna
+consequently unlike higher-order arrays some regions been accurately sequenced assembled because they localize transition regions between euchromatin heterochromatin
+phylogenetic probabilistic analyses suggest higher-order alpha-satellite dna emerged more recently displaced existing monomeric repeat sequence opposed having arisen unequal crossing-over local monomeric dna 
+centromeres pericentromeric regions frequently poorly assembled primate whole-genome sequence assemblies
+regions generally regarded too difficult accurately sequence assemble strictly whole-genome shotgun sequence
+however most wgs sequencing efforts include substantial amounts alpha-satellite repeat sequence
+indeed much 2 percent 5 percent sequence generated underlying wgs consists centromeric satellite sequences data most often remain unassembled public database repositories
+study develop computational methods systematically identify classify alpha-satellite sequences primate wgs sequence
+predict novel hor structures uncharacterized primate genomes define phylogenetic relationship sequences within context known human hor satellite sequences
+finally take advantage publicly available cloned resources experimentally validate dispersal newly described alpha-satellite sequences within various primate genomes
+data provide first genome-wide sequence analysis alpha-satellite dna among primates wgs data framework identify characterize more repeat-rich complex regions genomes part genome sequencing projects

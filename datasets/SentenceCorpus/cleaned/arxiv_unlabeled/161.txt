@@ -1,0 +1,24 @@
+ 
+support vector machines svms extremely successful type classification regression algorithms
+building svm entails solving constrained convex quadratic programming problem quadratic number training samples
+introduce efficient parallel implementation support vector regression solver based gaussian belief propagation algorithm gabp
+paper demonstrate methods complex system domain could utilized performing efficient distributed computation
+compare proposed algorithm previously proposed distributed single-node svm solvers
+our comparison shows proposed algorithm just accurate solvers while being significantly faster especially large datasets
+demonstrate scalability proposed algorithm up 1,024 computing nodes hundreds thousands data points using ibm blue gene supercomputer
+far know our work largest parallel implementation belief propagation ever done demonstrating applicability algorithm large scale distributed computing systems
+ introduction 
+support-vector machines svms class algorithms recent years exhibited superior performance compared other pattern classification algorithms
+there several formulations svm problem depending specific application svm e g  classification regression etc 
+one difficulties using svms building svm requires solving constrained quadratic programming problem whose size quadratic number training examples
+fact led extensive research efficient svm solvers
+recently several researchers suggested using multiple computing nodes order increase computational power available solving svms
+article introduce distributed svm solver based gaussian belief propagation gabp algorithm
+improve original gabp algorithm reducing communication load represented number messages sent each optimization iteration aggregated messages where number data points
+previously was known gabp algorithm very efficient sparse matrices
+using our novel construction demonstrate algorithm exhibits very good performance dense matrices well
+also show gabp algorithm used kernels thus making algorithm more powerful than what was considered previously thought possible
+using extensive simulation demonstrate applicability our protocol vs state-of-the-art existing parallel svm solvers
+using linux cluster up hundred machines ibm blue gene supercomputer managed solve very large data sets up hundreds thousands data point using up 1,024 cpus working parallel
+our comparison shows proposed algorithm just accurate previous solvers while being significantly faster
+preliminary version paper appeared poster

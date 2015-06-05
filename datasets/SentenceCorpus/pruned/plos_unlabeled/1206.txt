@@ -1,0 +1,46 @@
+
+threshold firing frequency feature its turn its role activity brain
+two main types dynamics been identified brain neurons
+type 1 dynamics shows continuous relationship between frequency current thus low frequency at threshold type 2 shows relationship minimum threshold frequency
+previous study model demonstrated its dynamics could both type 1 type 2 depending density
+present study effect density threshold firing frequency two
+moreover model more
+models all based studies thus experimentally parameters
+choice effects density due their physiological
+show using analysis both models type 2 dynamics density
+both models region characterized relationship
+our results suggest two represent two distinct dependent between type 1 2 dynamics independent dynamics
+difference between two membrane types suggests functional differences more role membrane than membrane
+introduction
+now more than years since firing his classical study
+many his experiments still form basis analysis firing patterns systems
+using threshold dynamics maximum frequency parameters identified two major classes firing class 1 firing very low frequency at threshold continuous relationship whereas class 2 firing relatively high frequency at threshold relationship
+basis similar neurons also been into main classes one class 1 characteristics another class 2 characteristics
+class neurons latter
+classification been shown corresponding models been used properties neurons
+following use terms type 1 type 2 dynamics when continuous relationships
+classification threshold dynamics fast neurons class 1 2 into account but not all aspects classes
+interactions between many factors involved regulation firing
+idea different types explain different patterns
+previous study proposed
+showed both type 1 type 2 model membrane density
+model used was based detailed experimental study thus experimentally estimated parameters
+choice parameters was due their physiological
+many specifically density both at at level
+most used local drug
+increasing number studies suggest role physiological regulation even at relatively short time scale
+each type dynamics type 1 2 was found associated distinct regions density corresponding formula formula i space
+regions high formula low formula values model type 1 dynamics whereas regions higher formula values model type 2 dynamics
+analysis showed type 1 dynamics model due
+model using region values
+type 2 dynamics was found due either local global limit cycle
+dynamics model associated region b values due limit cycle while dynamics associated region due limit cycle
+limit cycle limit cycle part structure central stable point those stable limit cycle
+however suggested structure at between regions b more complex than previously described
+when more parameters more loss stability occurs
+thus obtain better understanding processes model more
+furthermore extended analysis two other
+found associated region model show type 2 dynamics both models show type 2 dynamics
+investigated mathematical findings using techniques theory
+results suggest two studied represent two distinct types membrane respect dependent between type 1 2 dynamics independent dynamics
+difference between two membrane types suggests functional differences more role membrane than membrane

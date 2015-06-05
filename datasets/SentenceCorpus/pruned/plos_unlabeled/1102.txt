@@ -1,0 +1,71 @@
+
+use computational modeling simulation increased many biological but despite their potential techniques only applied
+recent applications modeling been important questions cellular up physiological levels
+complexity important research questions modeling become experimental data at widely scales space time
+review discuss selection available modeling approaches applications relevant
+then models into perspective them according their space time domain
+through process identified models consider processes between scale
+propose strategy develop required computational models
+accurate use concept development identified key elements systems biology modeling approach research one physiological mechanisms data at multiple space time scales
+introduction
+data increasing number studies methods
+however how datasets related physiological using research methods body methods
+thus fundamental research data at different spatial temporal scales
+although statistical analysis still method choice high datasets systems biology computational modeling approaches quantitative relationships between various measurements
+large variety computational modeling approaches been applied levels molecules humans
+processes include molecular interactions signaling pathways metabolic pathways cellular growth structures physiological processes
+computational approaches differ widely application
+review discuss current future applications computational modeling research
+end first introduce important modeling field
+then give review some modeling approaches key questions
+then identify knowledge suggest how computational approaches may extended address systems biology modeling important step future
+research processes necessary life health
+research processes at level whole
+all organisms exist state far
+state central importance sufficient energy
+energy protein
+principle expressed dynamic energy theory energy distributed body processes essential life
+processes include across cell structural
+energy world
+principle clear
+contrast energy sources elements also play key role overall health
+some been demonstrated
+third class various essential exist used both energy structural well specific
+include essential amino essential
+many health not but more generally between
+while there general various understanding health effects specific
+first difficult control over long time often relatively effects over time scales typically investigated
+second very difficult interest when other components
+third difficult interest especially at level specific target cells
+problem at whole body level had long history mathematical modeling specifically elements
+computational methods were introduced along use stable where data required development appropriate mathematical models
+typically modeling approaches used describe distribution
+common most models high level where body described only few
+together models aim provide rational basis body understanding differences different
+while modeling methods been very useful real modeling help understand complex relationship between health determined responses whole body levels over time scales years
+difficulty problems current role metabolic
+at long time scale whole body level more energy than results development increases risk metabolic
+study revealed function at level occurs time scale
+example output other physiological effects occur time scale
+methods developed molecular mechanisms underlying effects shown complex signal pathways changes gene expression molecular
+furthermore cells occurs response amino all
+unique properties cells while behavior time scales
+thus understanding how mechanisms underlying requires quantitative analysis description highly regulatory network components over whole body levels time scales years
+although perspective above derived literature without too much effort difficult develop quantitative understanding complexity mechanisms involved
+principle mathematical models therefore required more understand physiological basis not only metabolic but role health disease general
+without quantitative approach one will models find relative importance each component interaction overall physiological
+field mathematical modeling very no single mathematical allows one generate required quantitative understanding above
+therefore our what needed years now review several models key questions together may help point way more modeling approach
+first review modeling approaches processes at cellular level biochemical processes into energy cell fundamental life
+into processes us how at its most basic level
+furthermore modeling at cellular level provides point complexity data
+second review use metabolic analysis framework quantitative analysis within single cell well between different cell populations up whole body level
+thus natural between different levels different time scales
+review models because major between many processes associated metabolic
+finally review mathematical models body weight regulation complex relationship at whole body level
+modeling at whole body physiological level importance long time scales like metabolic
+cannot all modeling field review
+instance will not review models processes components into important
+another important area will not review models regulation
+models review process space time years
+therefore four modeling discuss provide basis our goal review available computational approaches key central questions development more systems models

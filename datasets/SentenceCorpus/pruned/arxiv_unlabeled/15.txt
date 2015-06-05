@@ -1,0 +1,48 @@
+
+consider classification when part available data
+data useful classification problem when make assumption behavior regression function distribution
+proposed assumption one
+propose mathematical assumption method based density level sets estimation advantage achieve fast rates convergence both number examples number examples
+introduction
+classification been interest over past few years many methods been proposed
+methods give answer improve classification accuracy using data together data
+
+data used different ways depending assumptions model
+there two types assumptions
+first one set potential them
+case data used measure between complexity resulting classifier see eg
+second approach one use here
+data contains clusters observations used identify clusters
+assumption
+idea practice several ways various methods
+one presented estimate clusters then each
+most methods use clusters components density level sets
+however they use usually mixture model estimate underlying density far
+moreover no generalization error bounds available methods
+same propose methods learn distance using data order smaller than
+whole family methods also at using data learn between points
+graphs between points
+detailed graph methods
+finally kernel methods where data used kernel
+kernel measures between points methods also learning distance using data see
+assumption another way i e decision low density regions
+been widely used learning since used design standard algorithms related kernel methods above
+algorithms greater given decision
+more see eg
+although most methods make assumption no probabilistic terms been provided so far
+propose paper remains very close its original allows derive generalization error bounds
+also discuss what cannot using data
+one whole too need smaller part classification over standard classification
+paper
+after model assumption discuss why how improve classification performance next section
+section study population case when density known idea our target
+indeed population case some way case when amount data
+section contains main propose algorithm derive rates convergence measure performance
+consistent density level set given section
+section choice possible
+results section
+
+paper positive
+set
+two sequences paper will if there exists constant if some
+thus if any

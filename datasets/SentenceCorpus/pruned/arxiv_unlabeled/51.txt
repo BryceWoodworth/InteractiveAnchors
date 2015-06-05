@@ -1,0 +1,64 @@
+
+propose simple strategies sequential decision prediction under when decision does not past outcomes but rather feedback signal
+proposed strategies consistent sense they achieve best possible average reward among all fixed actions
+was who first existence consistent
+presented here first consistency
+moreover proposed algorithms efficient
+also bounds rates convergence
+case feedback signals rates optimal up terms
+introduction
+sequential decision problems decision predict outcome certain unknown process at each time instance action
+depending outcome predicted event action taken decision reward
+very often probabilistic modeling underlying process difficult
+situations prediction problem game between decision environment
+when showed decision strategy outcome sequence average reward high reward one could empirical distribution outcome sequence
+strategies called consistent
+prove result assumed decision full past outcomes
+case full information case
+however many important applications decision limited information about past elements sequence predicted
+various models limited feedback been considered literature
+best known them problem only its own reward but not actual see
+example shown consistency case well
+sequential decision problems like ones considered paper been studied different under various games regret learning prediction individual sequences sequential prediction
+different differ
+used learning
+general introduction sequential prediction problem
+paper consider general model information available general given function outcome decision
+well under what conditions consistency see
+possible after problem reward matrix expressed linear function matrix expected feedback signals
+however condition not always then natural question what best performance decision
+question was who characterized average reward all possible outcome sequences almost sense
+however not
+uses due seems his method give efficient prediction algorithms
+efficient strategy special case where feedback function action nature was shown
+general case strategy short average reward characterized
+goal paper develop efficient general prediction problem under achieve best possible performance
+introduce several forecasting strategies some specific properties problem at hand
+four cases according whether feedback signal only depends outcome both outcome action whether feedback signal not
+design different prediction algorithms all four cases
+also obtain performance bounds rates convergence terms number prediction game
+case feedback signals rates optimal up factors
+random feedback signal case do not know if possible construct significantly smaller regret
+example prediction problem both networks
+networks communication between multiple decision
+often difficult between decision
+particular several allow multiple agents use same may each other
+more specifically consider system where multiple agents choose data at any given time
+quality each may different other using other may affect
+agent may choose use how much power every transmission
+agent between amount power transmission cost having its only
+agent may not feedback how much data were base even if feedback often much higher communication
+instead agent other agents
+however since agent far other agents information about chosen other agents amount power they used
+online learning problem
+paper follows
+next section prediction problem investigate introduce target best reward notion regret
+section describe some properties key function defined section
+function possible average reward given vector observations needed our analysis
+section consider special case when actions do not influence feedback signal moreover
+case full information case obtain regret bound order high probability where number prediction game
+section study random feedback signals but still only determined outcome
+here able obtain regret order
+most general case section
+introduced there regret order
+finally section show may case feedback signals known optimal see

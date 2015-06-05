@@ -1,0 +1,31 @@
+ 
+scientific literature represents rich source retrieval knowledge associations between biomedical concepts genes diseases cellular processes
+commonly used method establish relationships between biomedical concepts literature co-occurrence
+apart its use knowledge retrieval co-occurrence method also well-suited discover new hidden relationships between biomedical concepts following simple abc-principle c no direct relationship but connected via shared b-intermediates
+paper describe copub discovery tool mines literature new relationships between biomedical concepts
+statistical analysis using roc curves showed copub discovery performed well over wide range settings keyword thesauri
+subsequently used copub discovery search new relationships between genes drugs pathways diseases
+several newly found relationships were validated using independent literature sources
+addition new predicted relationships between compounds cell proliferation were validated confirmed experimentally vitro cell proliferation assay
+results show copub discovery able identify novel associations between genes drugs pathways diseases high probability being biologically valid
+makes copub discovery useful tool unravel mechanisms behind disease find novel drug targets find novel applications existing drugs
+ introduction 
+wealth knowledge concerning function genes their role biological processes present biomedical literature embodied full text articles medline database
+various text mining approaches been developed extract information gene function body literature been successfully applied annotate genes proteins interpretation experimental results 
+common method establish relationships between biomedical concepts genes pathways co-occurrence
+method built assumption biomedical concepts occurring same body text some way biologically related
+co-occurrence-based methods also used discover new hidden relationships assuming if c both connected b c might also relationship even if there no published relationship between c swanson provided classic example his study he found fish-oil intake beneficial patients suffering raynaud's disease finding was confirmed experimentally few years later
+hidden literature relationships used confirm hypothesis about relationship between c so called closed discovery process
+process user provides hypothesis related c then tested mining literature shared biomedical concepts support hypothesis
+hidden relationships also used generate novel hypotheses about relationship between c so-called open discovery process
+process user provides starting point examines literature hidden relationships other biomedical concepts bridged intermediates share co-occurrences c 
+tools currently available performing open discovery experiments often limited certain biomedical domains only limited number keywords describing biomedical terms retrieve hidden relationships formed uninformative concepts vitro microarray biologically less interesting
+moreover bottleneck all open discovery tools identify true biologically informative hidden relationships spurious hits
+previous paper described copub database co-occurrences 250.000 keywords medline abstracts
+copub database statistical relevance all co-occurrences pre-computed makes possible perform statistical analyses significance retrieved hidden relationships between biomedical concepts
+addition copub contains several categories controlled vocabularies genes drugs diseases etc database ideally suited use discovery hidden relationships
+paper describe copub discovery method uses copub database open closed discovery hidden literature relationships
+statistical analysis results using roc curves show copub discovery true hidden relationships distinguished true negatives
+application method open ended retrieval hidden relations yielded novel hypotheses about gene-disease drug-disease drug-biological process relationships were validated bibliographically
+moreover used copub discovery identify two novel compounds would interact cell proliferation
+experimental validation showed compounds dose dependently inhibited t-cell proliferation

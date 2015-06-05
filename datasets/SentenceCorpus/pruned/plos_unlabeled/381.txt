@@ -1,0 +1,45 @@
+
+computational methods discovery sequence elements target set compared set fundamental molecular biology research
+one example discovery transcription factor binding motifs measurements
+several major sequence discovery still require need approach data into target lack models exact need appropriate framework tendency many existing methods report significant motifs even when applied generated data
+paper present statistical framework sequence elements four
+demonstrate framework application sequence motifs dna sequences
+applied data obtained following results
+identification novel transcription factor binding sites yeast data
+biological function some them was further investigated gain new transcription regulation networks yeast
+example our network
+another finding binding sequences
+discovery novel motifs human cancer data
+most motifs similar dna sequence elements bound complex
+our findings thus support model
+overall demonstrate statistical framework highly effective regulatory sequence elements variety applications expression data
+available at
+introduction
+paper problem sequence motifs biological sequence data
+widely more task given target set set sequences identify sequence motifs target set compared set
+paper make more so target set data manner
+discovery sequences attributes target set compared set become useful wide range applications molecular biology research
+example discovery dna sequence motifs set regions genes suggest
+another example discovery dna sequences set regions certain transcription factor strongly measurements
+same principle may extended many other applications discovery genomic elements set highly sequences
+due its importance task dna their corresponding much attention literature
+any approach discovery must address several fundamental
+first issue way motifs represented
+there several strategies using where each fixed set possible at single position using position weight matrix probability each at each position
+both assume base position
+higher order been proposed
+while position assumption they more lack data model parameters
+method described paper uses model above
+second issue
+many strategies motifs been suggested literature
+one simple yet approach uses distribution set sequences then motifs using algorithm
+framework described paper natural approach
+search algorithm each
+uses sampling algorithm finding global sequence
+metric used determine alignment
+uses maximization strategy relative entropy associated each
+defined search space motifs significantly high identified
+determine statistical obtained many methods simulations
+several different strategies detection use quantitative compare their performance
+related discovery paper properties clusters binding sites
+examples approaches search patterns underlying binding gene expression include

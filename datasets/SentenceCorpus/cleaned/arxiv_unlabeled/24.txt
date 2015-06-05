@@ -1,0 +1,35 @@
+ 
+standard approach pattern classification estimate distributions label classes then apply bayes classifier estimates distributions order classify unlabeled examples
+one might expect better our estimates label class distributions better resulting classifier will
+paper make observation precise identifying risk bounds classifier terms quality estimates label class distributions
+show how pac learnability relates estimates distributions pac guarantee their distance true distribution bound increase negative log likelihood risk terms pac bounds kl-divergence
+give inefficient but general-purpose smoothing method converting estimated distribution good under metric into distribution good under kl-divergence
+ introduction 
+consider general approach pattern classification elements each class first used train probabilistic model via some unsupervised learning method
+resulting models each class then used assign discriminant scores unlabeled instance label chosen one associated model giving highest score
+example uses approach classify protein sequences via training well-known probabilistic suffix tree model ron et al  each sequence class
+indeed even where unsupervised technique mainly being used gain insight into process generated two more data sets still sometimes instructive try out associated classifier since misclassification rate provides quantitative measure accuracy estimated distributions
+work led further related algorithms learning classes probabilistic finite state automata pdfas objective learning been formalized estimation true underlying distribution over strings output target pdfa  distribution represented hypothesis pdfa
+natural discriminant score assign string probability hypothesis would generate string at random
+one might expect better one's estimates label class distributions class-conditional densities better should associated classifier
+contribution paper make precise observation
+give bounds risk associated bayes classifier terms quality estimated distributions
+results partly motivated our interest relative merits estimating class-conditional distribution using variation distance opposed kl-divergence defined next section
+been shown how learn class pdfas using kl-divergence time polynomial set parameters includes expected length strings output automaton
+show how learn class respect variation distance polynomial sample-size bound independent length output strings
+furthermore shown necessary switch weaker criterion variation distance order achieve
+show here leads different---but still useful---performance guarantee bayes classifier
+abe warmuth study problem learning probability distributions using kl-divergence via classes probabilistic automata
+their criterion learnability that---for unrestricted input distribution hypothesis pdfa should almost i e within  close possible
+abe takeuchi warmuth study negative log-likelihood loss function context learning stochastic rules  i e rules associate element domain probability distribution over range
+show here if two more label class distributions learnable sense  then resulting stochastic rule conditional distribution over given  learnable sense
+show if instead label class distributions well estimated using variation distance then associated classifier may not good negative log likelihood risk but will misclassification rate close optimal
+result general class classification where distributions may overlap i e optimum misclassification rate may positive
+also incorporate variable misclassification penalties sometimes one might wish false positive cost more than false negative show more general loss function still approximately minimized provided discriminant likelihood scores rescaled appropriately
+result show pac-learnability more generally p-concept learnability  follows ability learn class distributions setting kearns et al 
+papers study problem learning various classes probability distributions respect kl-divergence variation distance setting
+well-known noted  learnability respect kl-divergence stronger than learnability respect variation distance
+furthermore kl-divergence usually used example  due property when minimized respect sample empirical likelihood sample maximized
+algorithm learns respect variation distance sometimes converted one learns respect kl-divergence smoothing technique  when domain  parameter learning problem
+paper give related smoothing rule applies version pdfa learning problem where seem ``need'' use variation distance
+however smoothed distribution does not efficient representation requires probabilities used target pdfa limited precision

@@ -1,0 +1,77 @@
+ 
+article i will show how several observed biases human probabilistic reasoning partially explained good heuristics making inferences environment where probabilities uncertainties associated them
+previous results show weight functions observed violations coalescing stochastic dominance understood bayesian point view
+will review those results see bayesian methods should also used part explanation behind other known biases
+means although observed errors still errors under laboratory conditions they demonstrated they percent xx understood adaptations solution real life problems
+heuristics allow fast evaluations mimic bayesian inference would evolutionary advantage since they would give us efficient way making decisions
+ introduction 
+well known fact humans make mistakes when presented probabilistic problems
+famous paradoxes allais ellsberg was observed when faced choice between different gambles people make their choices way not compatible normative decision theory
+several attempts describe behavior exist literature including prospect theory cumulative prospect theory number configural weighting models
+all models use idea when analyzing probabilistic gambles people alter stated probabilistic values using s-shaped weighting function wp use altered values order calculate gamble would provide maximum expected return
+exact details all operations involved calculations values associated each branch bet coalescing equal branches aspects framing dealt differently each model but models agree people do not use exact known probabilistic values when making their decisions
+there also models based different approaches decision sampling model
+decision sampling proposes people make their decision making comparisons attribute values remembered them describe many characteristics human reasoning well
+recently strong evidence appeared indicating configural weighting models describe human behavior better than prospect theory
+several tests shown people don't obey simple decision rules
+if bet presented two equal possible outcomes example number percent chance getting number one outcome number percent chance getting same return number another possible result should make no difference if both outcomes were combined into one single possibility number percent chance obtaining number
+property called coalescing branches been observed not always respected
+other strong requirement decision theory violated laboratory experiments people should obey stochastic dominance
+stochastic dominance happens when there two bets available possible gains one them good other one at least one possibility gain more
+per example given bets g number number number number number number g number number number number number number number number number g clearly dominates g since first outcome same second outcome g split into two possibilities g returning same more than g depending luck
+only rational choice here g but laboratory tests show people do not always follow simple rule
+since rank-dependent models prospect theory cumulative prospect theory obey both stochastic dominance coalescing branches configural weight models predict those violations probably better description real behavior
+configural weight models each branch bet given different weight so branches worst outcome will given more weight decider
+allows those basic principles violated
+however although configural weight models good descriptive models telling how reason problem understanding why reason way do not solved them
+violations normative theory predicts violations very simple strong principles makes sense ask why people would make obvious mistakes
+until recently reason why humans make mistakes was still not completely clear
+evolutionary psychologists suggested makes no sense humans would module their brains made wrong probability assessments therefore there must some logical explanation those biases
+was also suggested since our ancestors had deal observed frequencies instead probability values observed biases might disappear if people were presented data form observed frequencies typical bayes theorem problem
+gigerenzer hoffrage conducted experiment confirming idea
+however other studies checking those claims shown frequency formats seem improve reasoning only under some circumstances
+if those circumstances not met frequency formats either no effect might even cause worse probability evaluations tested subjects
+other hand proponents heuristics biases point view claim given our intellectual powers necessarily limited errors should expected best one hope humans would use heuristics efficient but prone error
+matter fact they shown decision problems there simple heuristics do surprisingly good job
+but since many calculations involved laboratory experiments not too difficult perform question reasons behind our probabilistic reasoning mistakes still needed answering
+if using reasonable heuristics perform probabilistic calculations understanding when good heuristic why fails tests important question
+course na number ve idea people should simply use observed frequencies instead probability values certainly improved bayesian point view
+argument our ancestors should well adapted deal uncertainty their own observations quite compelling but make complete ask what would happen if our ancestors minds therefore our own were actually more sophisticated than simple frequentistic mind
+if they had brain although possibly using rules thumb behaved way mimicked bayesian inference instead frequentistic evaluation they would better equipped make sound decisions therefore would been good adaptation
+other words our ancestors who were approximately bayesians would better adapted than any possible cousins who didn't consider uncertainty their analysis
+would eventually lead those cousins extinction
+course another possibility learn those heuristics grow up adjusting them provide better answers
+but even if dynamics behind our heuristics good learning should lead us closer bayesian answer than afrequentistic one
+so makes sense ask if humans actually smarter than current literature describes them
+evidence supporting idea our reasoning resembles bayesian reasoning already exists
+tenenbaum et al press shown observed inductive reasoning modeled theory-based bayesian models those models provide approximately optimal inference
+tests human cognitive judgments about everyday phenomena seems suggest our inferences provide very good prediction real statistics
+recent work i proposed adaptive probability theory apt
+apt claims biases human probabilistic reasoning actually understood approximation bayesian inference
+if one supposes people treat all probability values if they were uncertain even when they not make some assumptions about sample size where those probabilities would been observed frequencies follows observed shape weighting functions obtained
+here i will review those results also show extend ideas were introduced explain weighting functions explain other observed biases
+i will show some those biases partially explained result mind adapted make inferences environment where probabilities uncertainties associated them
+weighting functions prospect theory whole class models use weighting functions describe our behavior understood predicted bayesian point view
+even observed violations descriptive prospect theory violations coalescing stochastic dominance need configural weight models properly described also predicted using apt
+i will propose bayesian methods should used part explanation behind number other biases
+finally note what apt really epistemological point view needed
+usually science involves working theories should describe set data making predictions those theories testing them experiments
+decision theory however requires broader definition proper scientific work
+happens because unlike other areas normative decision theory tells us how should reason
+does not necessarily describe real behavior since based assumptions about what best choice not about how real people behave
+its testing against other decision strategies long provides optimal decisions normative theory correct even if does not predict behavior any kind agents
+means certain actions labeled wrong sense they far optimal decisions even though they correspond real actions real people
+peculiarity decision theory means not every model needs actually predict behavior
+given non-optimal observed behavior understanding what makes deciders behave way also valid line inquiry
+where apt stands
+its main purpose show apparently irrational behavior based analysis decision problem follows normative theory
+assumptions behind analysis might wrong therefore observed behavior would not optimal
+means our common sense not perfect
+however if works well most real life problems either good adaptation well learned
+apt intends make bridge between normative descriptive theories
+means exploratory work sense trying understand problems led our minds reason way they do
+while based normative theory was designed agree observed biases
+means apt does not claim best actual description real behavior although might
+even if other theories configural weight models decision sampling actually describe correctly way our minds really work long their predictions compatible apt apt will show actual behavior predicted those theories reasonable approximation optimal decisions
+laboratory tests show if apt actually best description not will see apt suggests new experiments problem base rate neglect order understand better our reasoning
+but main goal apt show real behavior reasonable does well

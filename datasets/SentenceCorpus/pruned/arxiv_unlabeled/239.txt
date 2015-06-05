@@ -1,0 +1,62 @@
+
+variable contain large numbers time series data domain
+objects classes important step towards discovery new classes objects
+most detection methods time series data assume either single continuous time series set time series whose
+data use methods any given pair may out
+one may use existing detection method if prior similarity one two scales data sets
+paper detection method large sets data both global local
+its each relation set produced clustering algorithm
+our method able scale large data sets through use sampling
+our method both data other time series data sets
+demonstrate its at finding known discuss effect sample size number our results
+compare our method solutions existing time series detection methods data show reported better than all other methods
+finally our true might novel detection time series
+introduction
+were all who while data primary whose further study
+were possible when had close their data
+data sets through if not
+detection may discovery identify novel objects our research detection time series data called data
+our specific application find sets variable
+most like our own almost constant whereas variable significant
+there over variable more being
+general variable known variable our own well other
+variable
+common types variable include found
+study variable importance
+example study most method constant study binary discovery true
+finding new class variable will value
+shows each class before after perform our techniques described section
+measures
+observation thus values
+measures time
+where all single why there may multiple points single time point
+describe process more section } our research detection large sets variable
+several common many time series data sets
+there large number each high low data
+indeed new response system produce
+any technique developed must scale very large data sets
+unique data not because each generated different source
+understand why detection domain consider how two similar may appear under similarity measure like distance if phase not performed
+shows two similar whose not
+shows correlation function phase
+maximum similarity occurs at phase
+shows two after amount
+define optimal phase between two maximum similarity value
+problem both general detection techniques those developed specifically time series
+general detection method even metric data may not work out
+time series detection techniques our task finding distinct time series most work single time series not
+our solution problem detection large sets time series
+clustering algorithm called sampling data
+each time series prior similarity
+because provide does not convergence properties
+sampling data
+use sampling scale large data sets
+online each time series set produced
+linear size data set
+another advantage its two types local global
+define terms local global provide methods both
+each time series time series review
+our knowledge only detection method developed specifically time series data output both global local
+our paper empirical evidence four data sets known better when compared solutions other detection methods time series
+discuss effect sample size parameter used detection results show experimental results data unknown number
+our paper found

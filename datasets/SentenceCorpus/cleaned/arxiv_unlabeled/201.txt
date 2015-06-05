@@ -1,0 +1,33 @@
+ 
+discuss multi-task online learning when decision maker deal simultaneously tasks
+tasks related modeled imposing tuple actions taken decision maker needs satisfy certain constraints
+give natural examples restrictions then discuss general class tractable constraints introduce computationally efficient ways selecting actions essentially reducing on-line shortest path problem
+briefly discuss ``tracking'' ``bandit'' versions problem extend model various ways including non-additive global losses uncountably infinite sets tasks
+ introduction 
+multi-task learning recently received considerable attention see
+multi-task learning problems one simultaneously learns several tasks related some sense
+relationship tasks been modeled different ways literature
+our setting decision maker chooses action simultaneously each given tasks repeated manner each tasks corresponds game will use interchangeably concepts game task  relatedness accounted putting some hard constraints simultaneous actions
+motivating example consider distance-selling company designs several commercial offers its numerous customers customers ordered say age
+company choose whom send offer
+loss earnings suffered whenever customer does not receive commercial offer would been best him
+basic marketing considerations suggest offers given customers similar age should not very different so company selects batch offers satisfy constraint
+additional budget constraint may limit further set batches company may select
+after offers sent out customers' responses observed at least partially new offers selected sent
+model situations playing many repeated games simultaneously restriction vector actions selected at time needs belong previously given set
+set determined beforehand budget marketing constraints discussed above
+goal decision maker minimize total accumulated regret across many games through time perform long run almost well best constant vector actions satisfying constraint
+problem playing repeatedly several games simultaneously been considered who studies convergence nash equilibria but does not address issue computational feasibility when large number games played
+on-line multi-task learning problems were also studied
+latter reference consider minimizing regret simultaneously parallel enforcing however some hard constraints
+ measure total loss sum losses suffered each game but assume all tasks performed at each round assumption however relaxed section  where consider global losses more general than sums losses  main additional difficulty face requirement decision maker chooses restricted subset vectors actions
+previous models restrictions were only considered comparison class but not way decision maker plays
+formulate problem framework on-line regret minimization see survey
+main challenge construct strategy playing many games simultaneously small regret strategy manageable computational complexity
+show various natural examples computational problem may reduced online shortest path problem associated graph well-known efficient algorithms exist however propose specific scheme implementation slightly more effective  results extended easily ``tracking'' case goal decision maker perform well best strategy change vector actions taken restricted set at limited number times
+also consider ``bandit'' version problem when decision maker instead observing losses all actions all games only learns sum losses chosen actions
+finally also consider cases when there infinitely many tasks indexed real numbers
+cases decision maker chooses function certain restricted class functions
+show examples natural extensions cases consider finitely many tasks discuss computational issues closely related theory exact simulation continuous-time markov chains
+concentrate exponentially weighted average forecasters because when compared its most likely competitors follow-the-leader-type algorithms they better performance guarantees especially case bandit feedback
+besides two families forecasters pointed out  usually implementation complexities same order

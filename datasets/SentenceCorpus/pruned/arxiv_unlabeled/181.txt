@@ -1,0 +1,36 @@
+
+paper model based upon games network three clustering algorithms according
+clustering algorithms data points clustering who make decisions games
+network relationships among data points function explore data point small payoffs new larger payoffs
+among data points over time
+during evolution network some strategies network
+clusters data points same stable strategy so number stable strategies number clusters
+moreover experimental results demonstrated data points datasets comparison other algorithms also provides proposed algorithms learning data clustering evolutionary game theory stable strategy
+introduction
+analysis important pattern recognition widely used many pattern analysis data information image
+past years many clustering algorithms been presented means support vector clustering clustering etc data points clustering fixed various functions designed find
+recent years however significant change been made
+some researchers thought about why not those data points could themselves just like agents together
+therefore following their they few algorithms data points space according certain simple local rules
+game theory into being games
+game was widely studied
+two present theory game proposed concept existence finite game
+although game was required game must rational even
+if assumption could not might not
+other hand evolutionary game theory biology analyze between
+classical game theory dynamics strategy change more than properties strategy does not require rational
+important concept stable strategy evolutionary game theory was defined introduced
+was often used explain evolution social behavior
+best our knowledge problem data clustering not been investigated based evolutionary game theory
+so if data points considered games could clusters games among them
+question answer
+our clustering algorithm each his own payoff so his strategies payoffs
+strategies some strategies network
+finally some will each same strategy used
+according different strategies data points several different clusters
+paper section 2 some basic methods about evolutionary game theory evolutionary game graph
+section model based upon games network proposed described specifically
+section three algorithms based model algorithms
+section those datasets used experiments then experimental results algorithms
+further relationship between number clusters number discussed three functions clustering algorithms compared
+given section

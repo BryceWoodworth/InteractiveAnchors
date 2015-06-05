@@ -1,0 +1,81 @@
+
+consider support vector show they new robust optimization
+show robust optimization regularization both algorithms analysis
+terms algorithms suggests more general algorithms classification explicitly noise at same time control
+analysis robustness regularization provides robust optimization
+use new robustness give new consistency thus robustness well
+introduction
+support vector short early
+they one most algorithms classification
+address classification problem finding feature space maximum sample when training samples leads norm classifier
+when samples not term total training error considered
+well known training error itself lead classification performance new approach may generalization error because
+variety been proposed problem one most popular methods being combination regularization term
+latter typically chosen norm classifier
+resulting classifier better new data
+phenomenon often statistical learning theory regularization term complexity classifier hence testing error training error
+paper consider different training data generated true underlying distribution but some potentially then samples
+robust optimization approach i e possible empirical error under
+use robust optimization classification not new
+robust classification models studied past considered only uncertainty sets allow data all been some manner correlated
+made difficult obtain generalization bounds
+moreover there not been classifier although at known regularization robust optimization related
+main paper robust classification problem class uncertainty sets between robust classification standard regularization
+particular our include solve robust class uncertainty sets
+control constraints across data points therefore highly correlated
+show standard classifier special case our robust classification thus explicitly robustness regularization
+provides alternative regularization also suggests new ways construct regularization terms
+our robust several probabilistic
+consider classifier i e classifier probabilistic constraints show our robust approximate far less than previous robust could do
+also consider bayesian show used provide means regularization without
+show robustness perspective
+analysis useful standard learning using prove consistency standard classification without using stability
+result generalization ability direct result robustness local therefore suggests new good performance allows us construct learning algorithms well algorithms here robustness regularization
+explain how observation different previous work why
+certain relationships between robustness regularization been problems other than classification but their results do not directly apply classification problem
+indeed research classifier regularization its effect complexity function class
+research robust classification not robustness regularization part due robustness used those
+fact they all consider
+robust uncertainty robust
+however involves loss function does not bound loss hence its physical not clear
+robustness regularization context important following
+first alternative potentially generalization ability regularization term
+classical machine learning literature regularization term bounds complexity class
+robust view regularization testing samples training samples
+show when total given regularization term bounds between classification errors two sets samples
+contrast standard approach bound depends how class assumption all samples
+manner
+addition suggests novel approaches good classification algorithms particular regularization term
+approach regularization chosen bound generalization error based training error complexity term
+complexity term typically leads indeed approach known often too problems more structure
+robust approach another
+since both noise robustness physical processes close application noise characteristics at hand provide into how therefore classifier
+example known samples so among all features same process used individual features often leads good generalization performance
+robustness perspective simply noise rather than hence appropriate must designed
+also show using robust optimization obtain some probabilistic results
+section bound probability training sample
+bound behavior samples hence different known bounds
+when training samples testing samples different distributions some samples them being e g change their patterns time time being
+finally regularization also provides us new techniques well see section
+need point out there several different robustness literature
+paper well robust classification robustness robust optimization perspective where optimization performed over all possible
+alternative robustness literature robust statistics studies how algorithm under small statistics model
+example influence function approach proposed measures impact amount original distribution interest
+based notion robustness showed many kernel classification algorithms including robust sense having finite influence function
+similar result regression algorithms shown loss functions loss functions where version influence function applied
+machine learning literature another widely used notion related robustness stability where algorithm required robust sense output function does not change significantly under specific one sample training set
+now well known stable algorithm generalization properties consistent under see example
+one main difference between robust optimization other robustness rather than
+contrast robust statistics stability approach measures robustness given algorithm robust optimization given algorithm robust one
+example show paper version well known
+process approach also leads additional algorithm design especially when nature known well estimated paper follows
+section investigate correlated case show between robust classification regularization process
+develop probabilistic section prove consistency result based robustness analysis section
+version investigated section
+some given section used matrices used vectors
+given norm use its norm i e
+vector positive matrix same dimension
+use samples
+use true value variable so true but unknown noise sample
+set
+set

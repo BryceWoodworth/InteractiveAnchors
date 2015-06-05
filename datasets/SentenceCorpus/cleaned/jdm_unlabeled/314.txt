@@ -1,0 +1,31 @@
+ 
+often research judgment decision making requires comparison multiple competing models
+researchers invoke global measures rate correct predictions sum squared absolute deviations various models part evaluation process
+reliance measures hides often very high level agreement between predictions various models does not highlight properly relative performance competing models those critical cases where they make distinct predictions
+address important problem propose use pair-wise comparisons models produce more informative targeted comparisons their performance illustrate procedure data two recently published papers
+use multidimensional scaling comparisons map competing models
+also demonstrate how intransitive cycles pair-wise model performance signal certain models perform better given subset decision problems
+ introduction 
+field behavioral decision making large degree phenomena driven
+after certain empirical regularity discovered validated researchers test multiple models some old some new explain result
+example every model decision making under risk expected account classical allais paradox
+when new models proposed researchers often justify them series comparisons against older models field
+there several approaches testing decision models
+context axiomatic models there focus small subsets problems judiciously chosen diagnostic differentiate optimally between certain models
+others seek data multiple published studies involving decision problems selected different researchers various often unspecified criteria compare how well models predict them
+alternative approach compare models' ability predict decision behavior sample problems sampled randomly well defined universe problems
+all methods researcher assembles data set consisting array n decision problems m models
+each problem there one empirical response decision di number n take one many forms binary choice probability choice pattern numerical value probability estimate certainty equivalent etc
+set predictions di number n generated various models
+there numerous ways evaluate fit models full review well beyond scope note
+our purposes sufficient say most them based some discrepancy function fd d between responses predictions summarizes discrepancies across all n decisions formulated take its optimal desirable value case n perfect predictions
+thus one always rank some cases also scale models according how close distant they perfect fit
+some simple examples functions proportion correct predictions predictions corrected chance b mean median fd d where f could rely squared deviations d-d absolute deviations d-d ratios d d their logarithms logd d c relative measures relative squared deviations d-d d d measures based likelihood function data under certain model etc
+illustrate approach review some detail few studies brandstatter gigerenzer hertwig report results four model contests using different data sets total n number decision problems n number n number n number n number
+they compared m number models used several sets parameters models free parameters cumulative prospect theory
+their measure fit was percent correct prediction majority subjects henceforth majority choice averaged across all n decision problems each data set
+they also report percent correct prediction majority choice percent agreement between all model pairs across n number decision problems
+similar approach used several chapters gigerenzer todd abc research group
+hau pleskac kiefer hertwig considered n number decision problems involving number subjects three experiments compared m number models see figure number their paper
+their measure fit was overall percent correct predictions
+erev et al analyzed three model contests each using different decision paradigm two problem sets n number each set

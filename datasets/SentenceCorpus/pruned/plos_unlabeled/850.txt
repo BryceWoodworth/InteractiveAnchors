@@ -1,0 +1,50 @@
+
+predicting protein function structure remains active area interest particularly structural where number structures little no functional
+although global structure comparison methods used functional relationship between function complex particularly through different secondary structure common structural core
+prediction algorithms local known predicted functional residues
+here present novel method structural motifs associated different functional within domain
+basis their given method makes no prior prediction functional sites specific properties residues
+able between domains different functions popular structure comparison methods leading function prediction method
+large data set all three major protein classes demonstrate functional motifs
+also provide novel predictions activity large number structures protein structure
+overall show able similar protein domain structures using patterns structural all residues
+introduction
+prediction protein function structure become increasing interest significant structures structural lack functional
+furthermore approaches particular interest predicting binding sites sites protein development
+many current methods focus functional residues then whole structures
+problems taking approach what functional increasing number available protein structures being
+site hand residues directly involved whereas generate based active site residues defined authors
+although whether sufficient when required
+address problem all protein structures there number methods aim do
+example method structure into then against set structures using search algorithm
+according sequence similarity local environment
+method uses genetic algorithm construct based their ability between different protein against database
+graph theoretical approach structural patterns associated given family proteins binding motifs
+provide structures through multiple structure alignment
+recent evolutionary method binding site prediction was used structural based predicted functional residues
+matching properties residues binding site
+well other approaches compare properties binding sites often active sites
+one complexity using structures between binding state protein example structures transition states
+matching active site region due conformational changes occur binding
+address issue methods above use variety approaches graph matching various levels
+method alternative approach using potential given set c account both local global relationships between residues across protein structure
+recent site comparison analysis was able between very different protein binding range
+despite many methods present literature very few available general
+hence first step function structure often use global structure comparison methods evolutionary relationships even where sequence similarity
+methods been specifically applied function prediction confidence values when terms between related structures
+however very remains structure comparison methods generally give measure structural distance at one two proteins perform related functions results many relationships
+analyses shown although function structure well conserved there significant number highly where not case
+moreover latter represented both genomes tend exhibit wide range core biological functions across large range species
+analysis et al showed within tend common evolutionary core but core different secondary structure elements often changes function
+however although structural might change some function others found still other aspects common
+therefore global measure structural similarity distance between two proteins less than structural motifs relevant given function
+algorithm presented here was designed derive structural functional within
+first global structure alignment across structural patterns associated each based patterns
+new functional then using global structural each but only similarity over identified
+approach very well between different functions compared global methods another approach
+although here method
+test generated large data set domains
+our data set allows us at variation results between importance using large test data set methods
+against give how comparison other standard methods function prediction
+also present some examples structural motifs identified explain their functional
+finally use make novel predictions function proteins protein structure

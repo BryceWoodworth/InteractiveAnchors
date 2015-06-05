@@ -1,0 +1,40 @@
+ 
+many learning machines hierarchical structure hidden variables now being used information science artificial intelligence bioinformatics
+however several learning machines used fields not regular but singular statistical models hence their generalization performance still left unknown
+overcome problems previous papers proved new equations statistical learning estimate bayes generalization loss bayes training loss functional variance condition true distribution singularity contained learning machine
+paper prove same equations hold even if true distribution not contained parametric model
+also prove proposed equations regular case asymptotically equivalent takeuchi information criterion
+therefore proposed equations always applicable without any condition unknown true distribution
+ introduction 
+nowadays lot learning machines being used information science artificial intelligence bioinformatics
+however several learning machines used fields example three-layer neural networks hidden markov models normal mixtures binomial mixtures boltzmann machines reduced rank regressions hierarchical structure hidden variables result mapping parameter probability distribution not one-to-one
+learning machines was pointed out maximum likelihood estimator not subject normal distribution  posteriori distribution not approximated any gaussian distribution
+hence conventional statistical methods model selection hypothesis test hyperparameter optimization not applicable learning machines
+other words not yet established theoretical foundation learning machines extract hidden structures random samples
+statistical learning theory study problem learning generalization based several assumptions
+let true probability density function learning machine represented probability density function parameter
+paper examine following two assumptions \\ 1 first parametrizability condition
+true distribution said parametrizable learning machine  if there parameter satisfies
+if otherwise called nonparametrizable \\ 2 second regularity condition
+true distribution said regular learning machine  if parameter minimizes log loss function } unique if hessian matrix positive definite
+if true distribution not regular learning machine then said singular
+study layered neural networks normal mixtures both conditions important
+fact if learning machine redundant compared true distribution then true distribution parametrizable singular
+if learning machine too simple approximate true distribution then true distribution nonparametrizable regular
+practical applications need method determine optimal learning machine therefore general formula desirable generalization loss estimated training loss without regard conditions
+previous papers  studied case when true distribution parametrizable singular proved new formulas enable us estimate generalization loss training loss functional variance
+since new formulas hold arbitrary set true distribution learning machine priori distribution they called equations states statistical estimation
+however not been clarified whether they hold not nonparametrizable case
+paper study case when true distribution nonparametrizable regular prove same equations states also hold
+moreover show nonparametrizable regular case equations states asymptotically equivalent takeuchi information criterion tic maximum likelihood method
+here tic was derived model selection criterion case when true distribution not contained statistical model
+network information criterion was devised generalizing arbitrary loss function regular case
+if true distribution singular learning machine tic ill-defined whereas equations states well-defined equal average generalization losses
+therefore equations states understood generalized version tic maximum likelihood method regular case bayes method regular singular cases
+paper consists six sections
+section 2 summarized framework bayes learning results previous papers
+section 3 show main results paper
+section 4 some lemmas prepared used proofs main results
+proofs lemmas given appendix
+section 5 prove main theorems
+section 5 6 discuss conclude paper

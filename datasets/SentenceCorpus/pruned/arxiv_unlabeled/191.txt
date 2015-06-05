@@ -1,0 +1,32 @@
+
+model \ data classical model set
+several fundamental problems other approaches uncertainty
+yet useful practice one efficient ways sets
+main objective work derive exact approximate robust estimates under large class statistical including entropy information
+introduction
+work estimates under model large class statistical
+one \ process unknown outcome
+prior uncertainty about set % typically chosen between 1 2
+sets probability distributions often called probabilities hence model
+term use robust instead
+several fundamental problems other approaches uncertainty
+instance representation principle principle bayesian treatment prior
+form sufficient data size
+statistical usually also depend chosen so set leads set
+instance expected lead robust estimate
+robust mean also been derived
+bayesian like depend only through i e \
+main objective work derive approximate exact general expected also called predictive entropy expected information particular
+results key
+suggests instance use inference problems decision problems where some function
+one application inference robust structures based information
+section introduction our problem
+section derive exact robust functions entropy
+section approximate robust arbitrary
+section show how bounds functions used bounds function especially functions
+results used section robust information
+issue how set up models discussed section
+section problem how bayesian robust
+given section
+properties function occurs expected entropy information
+contains used

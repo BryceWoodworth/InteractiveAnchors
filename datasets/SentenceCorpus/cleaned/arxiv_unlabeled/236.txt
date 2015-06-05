@@ -1,0 +1,53 @@
+ 
+motivated philosophy phenomenal success compressed sensing problem reconstructing matrix sampling its entries attracted much attention recently
+problem viewed information--theoretic variant well--studied matrix completion problem main objective design efficient algorithm reconstruct matrix inspecting only small number its entries
+although impossible task general cand\`{e}s co--authors recently shown under so--called incoherence assumption rank matrix reconstructed using semidefinite programming sdp after one inspects its entries
+paper propose alternative approach much more efficient reconstruct larger class matrices inspecting significantly smaller number entries
+specifically first introduce class so--called stable matrices show includes all those satisfy incoherence assumption
+then propose randomized basis pursuit rbp algorithm show reconstruct stable rank matrix after inspecting its entries
+our sampling bound only logarithmic factor away information--theoretic limit essentially optimal
+moreover runtime rbp algorithm bounded  compares very favorably runtime sdp--based algorithm
+perhaps more importantly our algorithm will provide exact reconstruction input matrix polynomial time
+contrast sdp--based algorithm only provide approximate one polynomial time
+ introduction 
+fundamental problem arises frequently many disciplines reconstructing matrix certain properties some partial information
+typically problem motivated desire deduce global structure small number local observations
+instance consider following applications: {covariance estimation } areas statistics machine learning wireless communications often interest find maximum likelihood estimate covariance matrix random vector
+estimate used study relationship among variables  give some indication performance certain systems
+usually extra information available facilitate estimation
+instance may number independent samples drawn according distribution  well some structural constraints e g  certain entries prescribed values  matrix toeplitz structure some its entries prescribed values  etc 
+thus estimation problem becomes completing partially specified matrix so completion satisfies structural constraints maximizes certain likelihood function {graph realization } trivial matter see given coordinates points  distance between any two points computed efficiently
+however inverse problem  given subset interpoint distances find coordinates points called realization  where fixed fit those distances  turns out anything but trivial see eg  
+problem arises many different contexts sensor network localization see eg   molecular conformation see e
+g  equivalent problem completing partially specified matrix euclidean distance matrix certain rank cf   {recovering structure motion } fundamental problem computer vision reconstruct structure object analyzing its motion over time
+problem known structure motion sfm problem literature formulated finding low--rank approximation certain measurement matrix see eg  
+however due presence occlusion tracking failures measurement matrix often missing entries
+when one takes into account difficulties reconstruction problem becomes completing partially specified matrix one certain rank see eg   {recommendation systems } although electronic commerce offered great convenience customers merchants alike complicated task tracking predicting customers' preferences
+cope problem various recommendation systems been developed over years see eg  
+roughly speaking those systems maintain matrix preferences where rows correspond users columns correspond items
+when user purchases browses subset items she specify her preferences those items those preferences will then recorded corresponding entries matrix
+naturally if user not considered particular item then corresponding entry matrix will remain unspecified
+now order predict users' preferences unseen items one will complete partially specified matrix so completion maximizes certain performance measure each individual's utility 
+note all examples above forced take whatever information given us
+particular cannot instance specify entries unknown matrix examine
+result reconstruction problem ill--posed e g  there may not unique even any solution satisfies given criteria
+indeed important issue
+however shall not address paper see eg  related work
+instead take different approach consider information--theoretic aspects reconstruction problem
+specifically let rank matrix wish reconstruct
+sake simplicity suppose known
+initially no information about other than its rank available
+however allowed inspect any entry inspect many entries desire order complete reconstruction
+course if inspect all entries  then will able reconstruct exactly
+thus natural ask whether inspect only small number entries still able reconstruct efficient manner
+besides being theoretical curiosity problem does arise practical applications
+instance sensor network localization setting  aforementioned problem tantamount asking pairwise distances needed order guarantee successful reconstruction network topology
+turns out if number required pairwise distances small then will able efficiently reconstruct network topology performing just few distance measurements solving small semidefinite program sdp
+get idea what should aim let us first determine degrees freedom available specifying rank matrix
+will give us lower bound number entries need inspect order guarantee exact reconstruction
+towards end consider singular value decomposition svd  where orthonormal columns diagonal matrix
+clearly there degrees freedom specifying
+now observe  th column must orthogonal all previous columns must unit length
+thus there degrees freedom specifying th column  implies there degrees freedom specifying
+same argument there degrees freedom specifying
+hence have: \theta(\delta nn a=e_1e_1^t e_1=(1,0,\ldots,0)\in\r^n \theta(\delta a$

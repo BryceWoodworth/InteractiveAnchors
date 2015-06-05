@@ -1,0 +1,23 @@
+ 
+hierarchical bayesian methods offer principled comprehensive way relate psychological models data
+here use them model patterns information search stopping deciding simulated binary comparison judgment task
+simulation involves number subjects making number forced choice comparisons about relative magnitudes two objects two german cities more inhabitants
+two worked-examples show how hierarchical models developed account explain diversity both search stopping rules seen across simulated individuals
+discuss how results provide insight into current debates literature heuristic decision making argue they demonstrate power flexibility hierarchical bayesian methods modeling human decision-making
+ introduction 
+cognitive scientist individual differences behavior both intriguing annoying
+all familiar subjects our experiments who don't do what they supposed do
+sometimes different patterns behavior simply noise subject was cell phone during experiment but often they due legitimate responses our theories models failed anticipate cannot explain
+field judgment decision making no exception challenge individual differences
+brighton gigerenzer mention passing even theory important influential prospect theory typically predicts only number percent  number percent decisions two-alternative choice tasks many models do much worse
+how should field treat individual differences challenges they present our models theories
+one emerging approach tackling issues use hierarchical bayesian methods extend existing models apply them principled ways experimental observational data
+approach not only provide tools interpreting individual differences but also facilitates theory building providing model-based account why individual differences might arise
+think especially interesting important promising approach because deals fully developed models cognition without constraints theoretical assumptions used develop models
+taking existing successful models cognition embedding them within hierarchical bayesian framework opens vista potential extensions improvements current modeling because provides capability model rich structure cognition complicated settings
+demonstrate application hierarchical bayesian methods modeling heuristic decision-making use standard experimental setup requires subjects make judgments about relative magnitudes two objects size distance fame profitability so
+perform judgments often assumed subjects search their memory external sources information cues help differentiate objects
+example inference about relative size two cities might facilitated cues indicating two cities capital airport university so
+judgments then determined rules use presence absence cues provide estimates desired criterion i e number inhabitants
+tasks although apparently simple incorporate several important features need specification theories models wish describe how subjects perform them
+paper present two simple case studies first focuses information search second focuses stopping rules

@@ -1,0 +1,30 @@
+ 
+progress understanding brain mechanisms underlying vision requires construction computational models not only emulate brain's anatomy physiology but ultimately match its performance visual tasks
+recent years natural images become popular study vision been used show apparently impressive progress building models
+here challenge use uncontrolled natural images guiding progress
+particular show simple v1-like model neuroscientist's null model should perform poorly at real-world visual object recognition tasks outperforms state-of-the-art object recognition systems standard ostensibly natural image recognition test
+counterpoint designed simpler recognition test better span real-world variation object pose position scale show test correctly exposes inadequacy v1-like model
+taken together results demonstrate tests based uncontrolled natural images seriously misleading potentially guiding progress wrong direction
+instead reexamine what means images natural argue renewed focus core problem object recognition real-world image variation
+ introduction 
+visual object recognition extremely difficult computational problem
+core problem each object world cast infinite number different 2-d images onto retina object's position pose lighting background vary relative viewer
+yet brain solves problem effortlessly
+progress understanding brain's solution object recognition requires construction artificial recognition systems ultimately aim emulate our own visual abilities often biological inspiration
+computational approaches critically important because they provide experimentally testable hypotheses because instantiation working recognition system represents particularly effective measure success understanding object recognition
+however major challenge assessing recognition performance models
+ideally artificial systems should able do what our own visual systems but unclear how evaluate progress toward goal
+practice amounts choosing image set against test performance
+although controversial popular recent approach study vision use natural images part because they ostensibly capture essence problems encountered real world
+example computational vision caltech101 image set emerged gold standard testing natural object recognition performance
+set consists large number images divided into 101 object categories plus additional background category
+while number specific concerns been raised set its images still currently widely used neuroscientists both theoretical experimental contexts
+logic caltech101 sheer number categories diversity those images place high bar object recognition systems require them solve computational crux object recognition
+because there 102 object categories chance performance less than 1 percent correct
+recent years several object recognition models shown what appears impressively high performance test better than 60 percent correct suggesting approaches while still well below human performance at least heading right direction
+however argue here caution not clear what extent natural image tests actually engage core problem object recognition
+specifically while caltech101 set certainly contains large number images variations object view position size etc between within object category poorly defined not varied systematically
+furthermore image backgrounds strongly covary object category
+majority images also composed photographs human decided how shot should framed thus placement objects within image not random set may not properly reflect variation found real world
+furthermore if caltech101 object recognition task hard not easy know what makes hard different kinds variation all inextricably mixed together
+problems not unique caltech101 set but also apply other uncontrolled natural image sets 

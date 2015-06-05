@@ -1,0 +1,18 @@
+
+classification defined task predicting associated class unknown state states given finite number state
+state problem within framework machine learning use notion learning reduction classical solve different classification task binary
+introduction
+you given unknown state possible states where each state after class
+how well you predict class unknown state
+general question often literature state been studied at least far work field detection estimation theory
+answer will depend parameters structure knowledge states dimension space states number unknown state you
+paper take machine learning view problem learning task called classification
+our main goal so new help solve task some its
+other include learning tasks terms amount information needed complete them measured instance number states development framework used compare tasks
+approach learning states was taken defined where was algorithm task clustering where goal group clusters states similar using similarity measure while states different clusters
+model learning states paper model proposed where training not states
+model finite number unknown state goal state few produce high probability hypothesis accuracy training
+paper follows
+first model learning world introduced section along notion learning reduction allows us together different learning tasks
+section task binary classification described task defined
+finally section

@@ -1,0 +1,32 @@
+ 
+important element developing field proteomics understand protein-protein interactions other functional links amongst genes
+across-species correlation methods detecting functional links work premise functionally linked proteins will tend show common pattern presence absence across range genomes
+describe maximum likelihood statistical model predicting functional gene linkages
+method detects independent instances correlated gain loss pairs proteins phylogenetic trees reducing high rates false positives observed conventional across-species methods do not explicitly incorporate phylogeny
+show dataset 10,551 protein pairs phylogenetic method improves up 35 percent across-species analyses at identifying known functionally linked proteins
+method shows protein pairs at least two three correlated events gain loss almost certainly functionally linked
+contingent evolution one gene's presence absence depends upon presence another also detected phylogenetically may identify genes whose functional significance depends upon its interaction other genes
+incorporating phylogenetic information improves prediction functional linkages
+improvement derives having lower rate false positives detecting trends across-species analyses miss phylogenetic methods easily incorporated into screening large-scale bioinformatics datasets identify sets protein links characterise gene networks
+ introduction 
+evidence two more traits co-evolve across range species used test hypotheses about common selective pressures acting traits about functional adaptive relationship between them
+correlated evolution increasingly being applied at genetic level premise genes gained lost together  show similar expression patterns rates evolution  may form functional linkage
+provides computational approach screen large genomic datasets functional links help identify functions uncharacterised genes
+analyses also used describe metabolic networks  discover gene modules clusters genes engaged common function 
+genes their expression patterns evolve phylogenetic context functional links adaptive value tend conserved inherited descendant species
+among closely related species shared phylogenetic inheritance also produce correlated gene profiles genes not linked
+two more genes might arise independently common ancestor retained evolutionary descendants owing their individual adaptive functions
+figure 1 shows how produce spurious evidence functional link when measured across species
+comparison multiple independent phylogenetic events gain/loss pairs genes make compelling statistical case functional link
+phylogenetic methods uses beyond merely accounting shared inheritance: they make possible investigate ancestral states identify probable temporal ordering changes two traits
+knowledge two traits changed first evolutionary history phylogeny describes used test ideas about cause effect dependency one trait another 
+our interest evaluate whether incorporating phylogenetic information improves identification functional gene links
+need take account phylogenetic relationships comparative studies long been appreciated evolutionary biology but received less attention bioinformatics studies  apply phylogenetic-statistical method discrete  assessing correlated evolution among pairs discrete traits data presence absence pairs genes
+method identifies independent events correlated evolution phylogeny comparing statistical likelihood observed data under two alternative scenarios one two genes allowed evolve phylogeny independently another they co-evolve
+trait evolution modelled continuous-time markov process evidence model correlated evolution assessed means likelihood ratio statistic
+our dataset consists phylogeny 15 eukaryote species complete nearly complete sequenced genomes available
+there no limit number species used but important use fully sequenced well-annotated genomes ensure genes determined absent fact not genome
+compare phylogenetic method's predictions predictions derived across-species correlations; latter been used bioinformatics investigations predict functional gene links  use munich information center protein sequences database annotated complexes yeast proteins known criterion measure
+mips functional links been determined low-throughput laboratory procedures therefore provide reliable collection functional links species
+find incorporating phylogenetic information improves predictions up 35 percent over across-species correlations detecting functional links increasingly so pairs genes greater phylogenetic evidence functional link
+number times pair genes been independently gained lost phylogeny strong predictor functional linkage protein pairs at least two three correlated events almost certainly functionally linked

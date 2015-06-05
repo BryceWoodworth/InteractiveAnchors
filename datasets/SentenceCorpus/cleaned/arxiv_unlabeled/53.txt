@@ -1,0 +1,20 @@
+ 
+correspondence studies estimator conditional support distribution underlying set iid
+observations
+relation mutual information shown via extension fano's theorem combination generalization bound based compression argument
+extensions estimating conditional quantile interval statistical guarantees minimal convex hull given {keywords}:  statistical learning fano's inequality mutual information support vector machines
+ introduction 
+given set paired observations iid
+copies random vector possessing fixed but unknown joint distribution  letter concerns question values random variable possibly/likely take given covariate
+investigation predictive tolerance intervals motivated one often interested other characteristics joint distribution than conditional expectation regression): eg econometrics one often more interested volatility market than its precise prediction
+environmental sciences one typically concerned extremal behavior i e min max value magnitude its respective conditioning related environmental variables
+main contribution letter extension fano's classical inequality see eg  p 38 gives lower-bound mutual information two random variables
+classical result extended towards setting learning theory where random variables arbitrary fixed distribution
+derivation yields non-parametric estimator mutual information possessing probabilistic guarantee derived using classical compression argument
+described relationship differs other results relating estimators mutual information eg using fisher's information matrix based gaussian assumptions eg  distribution free context adopted
+aside i estimator conditional support derived extended setting conditional quantiles ii its theoretical properties derived iii relation method minimal convex hull made explicit iv shown how estimate computed efficiently solving linear program
+while studied literature eg quantile regression  argue question approached naturally setting statistical learning theory pattern recognition support vector machines svm see overview
+main conceptual difference existing literature classical regression other predictor methods no attempt made whatsoever reveal underlying conditional mean regression conditional quantile quantile regression minimal risk point prediction dependent variable pattern recognition
+here target instead change rough contour conditional distribution
+implies one becomes interested i what extent estimated conditional support tube conservative i e does overestimate actual conditional support  ii what probability covering actual conditional support i e what probability new sample occur outside estimated interval } section ii proofs main result explores relation convex hull
+practical perspective section iii provides further insight how optimal estimate found efficiently solving linear program

@@ -1,0 +1,57 @@
+
+many behavioral been found through social networks manner similar
+important difference between social however behavioral mechanisms well through social transmission
+introduce novel theoretical framework disease model include
+provide example use framework study network
+interaction assumptions model using network transmission data
+find current rate per increases points each social contact
+rate per does not depend number
+model predicts used evaluate effect different
+model predictions actual time
+find since rate relatively constant while rates both transmission increased over time
+suggests may increasing rates both rather than rates weight
+key feature model its ability relative importance social transmission comparing rates versus
+provides theoretical framework any state may also behaviors health states
+introduction
+social network effects importance understanding human behavior
+people number individuals some individuals more than others behavior fundamental ways
+long studied social influence through networks networks now appear other including health
+social networks analysis including their structure their effect social dynamics include
+networks also long been known important many biology including evolution
+social networks also been studied health patterns disease behavior online health
+studies suggest physical environment social environment also important health
+they lead health must designed work network structure network health related information
+within network studies much work focused how information behaviors other between individuals social networks
+processes generally
+dynamics possible network structure examined using mathematical models processes
+then used obtain accurate measures expected information
+many previous models been proposed study interactions between individuals
+most considered populations although more recent work focused populations
+most well studied models including populations
+various related processes been used model social influence important including same models models statistical type interactions threshold models
+each models however one more properties social
+many do not probabilistic nature disease
+others only consider populations where effect network structure
+most models not directly social other phenomenon because many social may also
+possible behavior obtain information source without directly contact network
+other words probability each contact there also probability independent local network
+not disease models
+models based early work do take into account
+individuals state new idea both social factors
+however models do not allow because assumed changes behavior individuals state
+results population at
+does not dynamics many may
+through multiple states individuals
+finally most previous models make assumptions about type interaction between individuals not usually real data
+yet long term behavior model strategies suggests depend interaction assumptions
+here introduce new model study social network all important properties above
+then analyze its characteristics show how applied different
+model classical disease model features other models above
+both through social transmission allows
+example focus study network
+interaction assumptions model will using network transmission data
+show how values rate versus determine extent social transmission important
+use predict
+results model very different models other interaction assumptions rules models
+will show components often small compared component but may still levels
+will use generate results populations well simulations using real social network

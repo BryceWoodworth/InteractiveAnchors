@@ -1,0 +1,44 @@
+ 
+study whether probability weighting observed when individuals presented series choices between lotteries consisting real non-monetary adverse outcomes electric shocks
+our estimation parameters probability weighting function proposed tversky kahneman similar those obtained previous studies lottery choice negative monetary payoffs negative hypothetical payoffs
+addition common ratio violations choice behavior widespread
+our results provide evidence probability weighting general phenomenon independent source disutility
+ introduction 
+expected utility theory eut standard theoretical model choice under risk used economic analysis
+eut posits utility assigned lottery prospect linear probability each possible outcome lottery
+while eut appealing formulation economic modeling number experiments called into question descriptive model choice under risk see starmer review literature
+other hand specifications allowing probabilities weighted function pip where pip inverted s-shape provide good empirical fit available experimental data
+inverted s-shape corresponds overweighting low probabilities underweighting high probabilities
+recognition empirical support probability weighting incorporated key assumption several theories choice under risk including prospect theory rank dependent expected utility theory cumulative prospect theory
+particularly striking phenomenon arise consequence probability weighting common ratio violation
+consider two lotteries individual utility function ux
+first yields payoff x not-equals number probability p zero payoff probability numberp second lottery yields x not-equals number probability p zero otherwise
+linearity assumption expected utility theory implies individual who chooses first lottery over second one must also choose lottery delivers x probability q p over lottery yields x probability q p
+clearly if pux greater than equal pux then q pux greater than equal q pux
+originally conjectured allais common ratio violations result indifference curves probability triangle explained later fan out fan been found widespread domain positive payoffs lotteries involving monetary outcomes
+empirical support underlying probability weighting common ratio violations comes primarily experimental studies all outcomes involve non-negative monetary payments
+however many economic decisions involve possibility losses
+examples include decision invest stock choose among alternative medical procedures trust another person institution business personal transaction
+few studies explored decisions domain losses they used one two techniques induce negative payoffs
+some studies researchers use hypothetical payoffs examples include kahneman tversky abdellaoui
+other studies participants given real cash endowment at beginning experiment real losses deducted initial balance examples include holt laury mason et al
+however many real life decisions involve negative outcomes not monetary
+consider cancer patient who asked make choice between two uncomfortable medical treatments involve tradeoffs between probabilities utilities different prospective states health e g radiation therapy versus extensive surgery
+another example decision defendant criminal case accept reject plea bargain reduced sentence prison
+defendant faces choice between lotteries over time incarceration
+however methodological challenge exists when studying decisions over non-monetary adverse outcomes how do induce real outcomes type laboratory
+some authors used aversive stimuli investigate other principles decision making
+example ariely et al used annoying sounds well having subjects place their fingers inside tightening vice study effects anchoring preferences
+coursey et al required individuals drink sucrose octa-acetate unpleasant tasting liquid study willingness-to-pay willingness-to-accept decisions bad good negative value
+paper use painful electric shocks induce negative payoffs
+pain good measure disutility almost everyone would rather avoid
+addition means inducing disutility use electric shocks satisfies smith's precepts pertaining appropriateness reward medium experiment monotonicity dominance
+presume larger shock either magnitude duration worse than smaller one
+fixed duration disutility shock monotonic current therefore monotonic its voltage
+furthermore our simple decision task described below given voltage levels applied our experiment quite reasonable presume differences between voltage levels alternative choices large enough dominate costs deciding between alternatives
+physical pain unlike cash payments also other advantages inducing individual incentives recipient consumes instantly cannot transfer other individuals
+paper consider whether phenomenon probability weighting particular inverted s-shaped pattern probability distortion observed when people face lotteries involve painful shocks whether common ratio violations been observed lotteries involving positive monetary payments also appear our setting
+addition although probability weighting predict complex pattern fanning fanning out inside probability triangle particular gambles consider expect see more risk aversion when gambles get better i e when there lower overall chance shock means indifference curves would tend fan-out
+find both probability weighting common ratio violations prominent features our data
+median probability weighting parameter estimate very similar those observed decisions over negative hypothetical monetary payoffs
+results suggest similar process probability weighting characterizes lottery choice both monetary non-monetary outcomes when payoffs negative

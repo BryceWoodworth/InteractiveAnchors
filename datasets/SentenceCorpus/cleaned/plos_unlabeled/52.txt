@@ -1,0 +1,37 @@
+ 
+amplification deletion loss heterozygosity genomic dna hallmarks cancer
+recent years variety studies emerged measuring total chromosomal copy number at increasingly high resolution
+similarly loss-of-heterozygosity events been finely mapped using high-throughput genotyping technologies
+developed probe-level allele-specific quantitation procedure extracts both copy number allelotype information single nucleotide polymorphism array data arrive at allele-specific copy number across genome
+our approach applies expectation-maximization algorithm model derived novel classification snp array probes
+method first our knowledge able determine generalized genotype aberrant samples at each snp site infer copy number each parental chromosome across genome
+method able determine not just where amplifications deletions occur but also haplotype region being amplified deleted
+merit our model general approach demonstrated very precise genotyping normal samples our allele-specific copy number inferences validated using pcr experiments
+applying our method collection lung cancer samples able conclude amplification essentially monoallelic would expected under mechanisms currently believed responsible gene amplification
+suggests specific parental chromosome may targeted amplification whether because germ line somatic variation
+r software package containing methods described paper freely available at link
+ introduction 
+genomic alterations believed major underlying cause cancer
+alterations include various types mutations translocations copy number alterations
+last category involves chromosomal regions either more than two copies one copy zero copies cell
+genes contained amplified regions natural candidates cancer-causing oncogenes while those regions deletion potential tumor-suppressor genes
+thus localization alterations cell lines tumor samples central aim cancer research
+recent years variety array-based technologies been developed identify classify genomic alterations
+studies using technologies typically analyze raw data produce estimates total copy number across genome
+however studies ignore individual contributions copy number each chromosome
+thus example if region containing heterozygous locus undergoes amplification question allele being amplified generally remains unanswered
+amplified allele interest because may been selected amplification because its oncogenic effect
+data array-based platforms also been employed identify loss-of-heterozygosity events
+studies loh typically inferred occurred where there allelic imbalance tumor sample at same site at matched normal sample heterozygous
+complicating issue imbalance may due amplification one alleles rather than deletion other thus loh may not fact present
+copy number analysis loh detection both improved combining copy number measurement allelotype data
+paper present probe-level allele-specific quantitation procedure infers allele-specific copy numbers 100k single nucleotide polymorphism array data
+our algorithm yields highly accurate genotypes at over 100,000 snp sites
+also able infer parent-specific copy numbers across genome making use fact pscn locally constant each chromosome
+our results also allow distinction made between true loh apparent loh due amplification portion only one chromosomes
+pscns 12 lung cancer samples initially analyzed reveal almost exclusively monoallelic amplification genomic dna result subsequently confirm 89 other lung cell lines tumors
+monoallelic amplification previously been noted literature single gene level wherein mutant forms known oncogenes amplified while their wild-type counterparts left unaltered
+our knowledge phenomenon not previously been described genome-wide scale though proposed mechanisms amplification unequal sister chromatid exchange would suggest monoallelic amplification expected result
+addition our ascns identify snp haplotypes being amplified
+haplotypes could conceivably serve markers deleterious germ line mutations via linkage disequilibrium
+indeed presence monoallelic amplification makes linkage studies statistically tractable 

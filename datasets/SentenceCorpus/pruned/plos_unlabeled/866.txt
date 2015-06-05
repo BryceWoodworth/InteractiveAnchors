@@ -1,0 +1,56 @@
+
+evolution described terms simple interactions attention recent years where several key results were obtained
+among those now well social interaction networks when terms games
+up now however social interactions into not been other aspects investigated
+here out study example game participants may
+show nature social network game made may become social context individual
+new numerical analysis networks no instead individuals general game
+find population structure evolutionary dynamics when each same cost among games
+work provides clear evidence while individual rational may actions nature social interactions may local into global problem
+introduction
+no like any other many popular
+one them states i situations individuals decision common expression above no
+amount given
+out often situations more important than amount given
+let us event some
+typically their given they shown large amount money
+at many same indeed mechanism common effective
+but what amount
+many despite being most likely small both also what overall amount
+but does large number participants who given fact their role model
+other words but not amount given
+also examples decisions often fact some people
+those who there also those who simply because they who
+many other examples real life could provided along similar up
+theoretical perspective many situations provide examples games often social moral
+nature complexity interactions among social
+involves two
+both cost c common
+one who
+total amount factor between two participants
+hence i using strategy s i payoff formula game leading following payoff
+formula
+2 no strategy well populations yet formula better play c despite fact pair d higher payoff than c formula game example many central results been obtained over years particular context evolutionary game theory been explicitly shown population structure despite its importance being form group selection
+makes difference whether likely population not
+evolutionary game theory finite populations may very populations even any population structure stable strategies population size dependent
+population structures play important role evolution under other social result number
+mathematical condition was obtained become populations along networks making use methods limited subset game payoff matrices
+result limit selection also important feature evolutionary game theoretical outcome depends evolutionary dynamics how individual strategy
+furthermore evolutionary game dynamics populations along multiple networks been well mechanisms under adaptive population structures been identified both games
+results amount research work
+common all studies settings underlying social view every c fixed cost c per game same b
+however if what not amount given then there no assume same cost c each game
+depending amount each individual overall result evolutionary dynamics may change
+two person game introduced above provides not only introduce but also between game dynamics social first individual cost c 1 if c
+hence i now following payoff different different individuals
+natural who will evolutionary under conditions
+often amount each individual correlated social context actually
+complex social networks some individuals play different more more often than others
+empirical studies demonstrated social networks both properties distribution
+where different individuals may very different social environments indeed every c will always provide same amount every game interaction hence problem standard studied so far
+context games social networks been found
+however similar relation between interactions physical games intrinsic complexity cannot words theory many person games may games relation
+here every c same cost c each game also explore limit every c same overall amount c however amount between all games defined social network
+instance c may amount each individual all
+hence each game will depend now social context each c will interactions two individuals may different same game
+sense will identified no amount given

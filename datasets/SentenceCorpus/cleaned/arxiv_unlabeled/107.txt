@@ -1,0 +1,62 @@
+ 
+kolmogorov argued concept information exists also problems no underlying stochastic model shannon's information representation instance information contained algorithm genome
+he introduced combinatorial notion entropy information conveyed binary string about unknown value variable
+current paper poses following questions: what relationship between information conveyed about description complexity
+there notion cost information
+there limits how efficient conveys information
+answer questions kolmogorov's definition extended new concept termed information width similar widths approximation theory introduced
+information any input source eg  sample-based general side-information hybrid both evaluated single common formula
+application space binary functions considered
+ introduction 
+kolmogorov sought measure information `finite objects'
+he considered three approaches so-called {combinatorial} {probabilistic} {algorithmic}
+probabilistic approach corresponds well-established definition shannon entropy applies stochastic settings where `object' represented random variable
+setting entropy object information conveyed one object about another well defined
+here necessary view object finite binary string realization stochastic process
+while often been used instance measure information english texts assuming some finite-order markov process not obvious modeling finite objects provides natural universal representation information kolmogorov states : what real meaning there example asking how much information contained book "war peace"
+reasonable
+
+
+postulate some probability distribution set
+other hand must assume individual scenes book form random sequence stochastic relations damp out quite rapidly over distance several pages
+questions led kolmogorov introduce alternate non-probabilistic algorithmic notion information contained finite binary string
+he defined length minimal-size program compute string
+been later developed into so-called kolmogorov complexity field
+combinatorial approach kolmogorov investigated another non stochastic measure information object
+here taken any element finite space objects
+he defines `entropy' where denotes cardinality all logarithms henceforth taken respect
+he writes if value known then much entropy `eliminated' providing bits `information'
+let general finite domain consider set ar consists all `allowed' values pairs
+entropy defined where \ \pi_\by(a \{y\by: x,y)a \text{ some } x\bx\} \ denotes projection
+consider restriction based defined y_x \{y\by: x,y a\} \; x\in\pi_\bx(a then conditional combinatorial entropy given defined h(\by|x  |y_x|
+kolmogorov defines information conveyed about quantity i(x:\by  h(\by  h(\by|x
+alternatively may view information set conveys about another set satisfying
+case let domain  set permissible pairs information defined i(y_x: \by  \log|\pi_\by(a)|^2  \log(|y_x| |\pi_\by(a)|
+will refer representation kolmogorov's information between sets
+clearly
+many applications knowing input only conveys partial information about unknown value
+instance problems involve analysis algorithms discrete classes structures sets binary vectors functions finite domain algorithmic search made some optimal element set based only partial information
+one paradigm area statistical pattern recognition where unknown target i e  pattern classifier seeked based information contained finite sample some side-information
+information implicit particular set classifiers form possible hypotheses
+example let positive integer consider domain
+let set all binary functions
+power set represents family all sets
+repeating collection all properties sets  i e  property set whose elements subsets
+denote property set write
+suppose seek know unknown target function
+any partial information about may expressed effectively reduce search space
+been long-standing problem try quantify value general side-information learning see references therein
+assert kolmogorov's combinatorial framework may serve basis
+let index possible properties subsets object represent unknown target may any element
+side information then represented knowing certain properties sets contain target
+input conveys some subset certain property
+principle kolmogorov's quantity should serve value information about unknown value
+however its current form  not general enough since requires target restricted fixed set knowledge
+see suppose set satisfies property
+consider collection all subsets property
+clearly hence may first consider but some useful information implicit collection ignored now show: consider two properties corresponding index sets
+suppose most sets  small while sets  large
+clearly property more informative than since starting knowledge set satisfies should take average less additional information once particular set becomes known order completely specify
+if above let then wrongly implies both properties equally informative
+knowing provides implicit information associated collection possible sets 
+implicit structural information cannot represented 

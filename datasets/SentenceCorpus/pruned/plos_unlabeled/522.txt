@@ -1,0 +1,46 @@
+
+rule nodes protein interaction network tend proteins essential suggests protein protein interaction network may good predictor its biological importance
+even though correlation between degree was many independent studies correlation remains
+several about between protein protein interaction networks been proposed but demonstrate not properties protein interaction networks
+identify main provide biological between network performed analysis protein interaction network obtained using different techniques
+demonstrated essential due their essential complex biological group proteins biological function essential proteins
+moreover two previously proposed rule one their role overall network connectivity another recently essential protein interactions model
+introduction
+question analysis biological networks whether biological characteristics protein its network whether biological importance
+one first between two context protein interaction network rule was observed who demonstrated nodes protein interaction network contain more essential proteins than would expected
+since then correlation between degree was other studies but recently there was no examine correlation
+particular what main
+number some other more global property essential proteins may protein interaction network
+suggested essential proteins among nodes central role play interactions among less proteins
+indeed connectivity network measured network size component more than number random nodes
+therefore under assumption function depends connectivity among various its would essential because they play central role connectivity
+recently hypothesis being function global network structure proposed proteins essential due their one more essential protein protein interactions distributed at random along network
+under hypothesis proposed essential because they involved more interactions thus more likely involved one essential
+work evaluate each proposed rule
+recently several structural properties protein interaction networks biological under main being observed properties due experimental other biases present networks lack any biological
+limit impact biases results reported our study use protein interaction network sources interaction evidence
+whether related their role network connectivity performed two tests
+first if were case then would essential more important network connectivity than
+found not case
+next addition degree consider several other measures demonstrate some them better role network connectivity than degree
+thus if were related network connectivity then one would better correlated measures than degree
+however found degree better predictor than any other measure tested
+essential protein interaction model used hypothesis testing approach
+observed model probability protein essential independent probability another protein essential
+however tested networks proteins interaction correlated
+thus assumption result essential protein interaction model high confidence
+our findings propose alternative rule
+our effect experiments function group related genes genes whose gene same complex
+well known proteins biological function
+therefore one would protein interaction networks should either essential proteins
+indeed observed essential proteins not distributed among set
+work same phenomenon potentially larger groups related proteins call complex biological
+demonstrate due distribution essential proteins among essential proteins those essential proteins call essential complex biological
+very contain relative their size more essential nodes than random group proteins same size
+but what all essential
+how does number what expected
+fact how does essential proteins values expected under
+propose essential proteins
+support hypothesis found essential proteins among depending network only percent almost low network average
+furthermore nodes not only correlated their degree
+finally using experiment demonstrated properties protein interaction network corresponding network

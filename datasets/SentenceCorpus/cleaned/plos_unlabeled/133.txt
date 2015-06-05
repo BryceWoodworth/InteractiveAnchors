@@ -1,0 +1,44 @@
+ 
+genes common functions often exhibit correlated expression levels used identify sets interacting genes microarray data
+microarrays typically measure expression across genomic space creating massive matrix co-expression must mined extract only most relevant gene interactions
+describe graph theoretical approach extracting co-expressed sets genes based computation cliques
+unlike results traditional clustering algorithms cliques not disjoint allow genes assigned multiple sets interacting partners consistent biological reality
+graph created thresholding correlation matrix include only correlations most likely signify functional relationships
+cliques computed graph correspond sets genes significant edges present between all members set representing potential members common interacting pathways
+clique membership used infer function about poorly annotated genes based known functions better-annotated genes they share clique membership
+illustrate our method applying microarray data collected spleens mice exposed low-dose ionizing radiation
+differential analysis used identify sets genes whose interactions impacted radiation exposure
+correlation graph also queried independently clique extract edges impacted radiation
+present several examples multiple gene interactions altered radiation exposure thus represent potential molecular pathways mediate radiation response
+ introduction 
+guilt-by-association assumption genes similar expression patterns participate common cellular functions drives growing body effort extract cellular pathways microarray data
+general tenet genes encoding proteins participating common pathway will display correlated expression levels when analyzed at sufficient scale identities known functions genes used highlight existing assimilate new functional pathways
+number recent studies validate concept guilt-by-association demonstrating genes co-expressed across multiple conditions more likely represent common functions than would expected chance alone
+date computational methods extract patterns lag far behind general agreement about their utility
+majority methods extract pathways co-regulation microarray data begin measure similarity e.g euclidean distance pearson's correlation coefficient describes degree expression levels between pairs genes correlated across multiple conditions
+matrix correlations across microarray typically representing pairwise similarity expression patterns thousands genes starting point organize genes into clusters
+clustering includes wide variety algorithms organizing multivariate data into groups approximately similar expression patterns wealth clustering approaches been proposed
+however there several important limitations vast majority clustering algorithms contrast reality biology
+first they disjoint requiring gene assigned only one cluster
+while simplifies amount data evaluated places artificial limitation biology under study many genes play important roles multiple but distinct pathways
+other main problem most measures similarity used clustering algorithms do not permit recognition negative correlations also common equally meaningful
+alternative assigning genes clusters correlation matrix thresholded create graph comprised only edges whose weights exceed predefined value
+allocco colleagues originally described graphs relevance networks
+relevance network both positive negative correlations exceeding specified threshold retained displayed graphically allowing visual recognition highly connected subsets genes
+recent studies mined relevance networks extract co-expressed genes cancer cells myopathic muscle biopsies
+while those efforts provided gene subsets biological relevance respective conditions they were limited pairwise relationships could extracted manually graphs
+relevance networks contain many dense sub-graphs tightly interconnected gene sets intuitively represent greatest potential identifying members common pathways
+without systematic means extract aggregate relationships between multiple genes however many most interesting relationships remain embedded within web correlations
+developed computational approach exploits graph theoretical algorithms identify comprehensively tightly connected subsets genes present relevance networks
+most extreme case sub-graph contains all possible edges between vertices sub-graph structure called clique
+terms gene expression clique represents most trusted potential identifying set interacting genes
+solving clique however nondeterministic polynomial-complete problem classic graph-theoretic problem its own right
+previously developed novel graph algorithms employ vertex cover allow clique solved polynomial time
+recently applied algorithms identify cliques co-expressed genes part effort annotate quantitative trait loci associated neural function
+here extend algorithms identify differential gene relationships i.e gene-gene interactions induced repressed specific treatment
+illustrate our approach using set microarray data was generated spleen mice exposed vivo low-dose ionizing radiation
+radiation well known agent dna damage at relatively high but sub-lethal doses
+response lower doses however those received medical imaging radiotherapy occupational exposures poorly defined largely dependent upon genetic background
+data used herein were derived study explored role genetic susceptibility response ir
+six strains inbred laboratory mice were exposed 10 cgy x-rays vivo after gene expression changes spleen were profiled using microarrays
+describe our graph theoretical-based toolchain identifying overlapping subsets genes tightly correlated expression levels demonstrate biological insight method provides

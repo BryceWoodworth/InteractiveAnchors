@@ -1,0 +1,31 @@
+
+recent clustering methods technique data clustering
+methods need solve whose computational complexity where number data samples
+paper based clustering method proposed clustering problem
+its performance clustering algorithms but more efficient computational complexity
+show distance observed property called our algorithm used data sets complex clusters noise
+moreover no parameters number clusters need set our algorithm
+introduction
+data clustering important technique many applications data image processing pattern recognition computer
+much effort been research
+basic principle assumption design clustering algorithm consistency data within same each other while data different clusters relatively far
+according principle approach clustering where every sample then most similar pairs clusters them into larger clusters
+technique depends local structure data without global function
+observed approach often when data set clusters
+above consistency assumption methods like also assume data set some underlying structures distribution thus any two clusters
+case distance clustering
+introduction many recent methods like clustering consider clusters data set may more complex other than sample
+general case techniques used achieve distance measure among samples
+distance matrix play key role clustering
+problems clusters proposed clustering local scale data structure distance matrix considered
+results been demonstrated clustering most clustering technique
+however most current kernel related clustering methods including clustering kernel framework need solve high computational cost when data set large
+paper clustering problem where clusters complex
+using distance measure observed property called show if consistency condition clusters arbitrary new space where clusters more algorithm
+performance algorithms our algorithm does not need solve more efficient computational complexity than algorithms whose where number samples data set
+paper follows
+section discuss distance measure through graph model data set
+section algorithm proposed its application our clustering algorithm
+section our algorithm reduce computational complexity
+section shows experimental results some data sets data sets together algorithm algorithms
+given section

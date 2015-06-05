@@ -1,0 +1,38 @@
+ 
+apparent occupancy levels proteins bound dna vivo now routinely measured genomic scale
+challenge relating occupancy levels assembly mechanisms defined biochemically isolated components lies veracity assumptions made regarding vivo system
+assumptions regarding behavior molecules vivo neither proven true nor false thus necessarily subjective
+nevertheless within those confines connecting vivo protein-dna interaction observations defined biochemical mechanisms important step towards fully defining understanding assembly/disassembly mechanisms vivo
+end developed computational program pathcom models vivo protein-dna occupancy data biochemical mechanisms under assumption occupancy levels related binding duration explicitly defined assembly/disassembly reactions
+exemplify process assembly general transcription factors at genes budding yeast saccharomyces
+within assumption inherent system our modeling suggests tbp occupancy at promoters rather transient compared other general factors despite importance tbp nucleating assembly preinitiation complex
+pathcom suitable modeling any assembly/disassembly pathway given all proteins come together form complex
+ introduction 
+eukaryotic genes thought regulated hundreds proteins assemble into pre-initiation complexes at promoters using ordered pathway
+one aspect pic assembly pathway involves recruitment general transcription factors tbp tfiib sequence-specific activators
+tbp tfiib then contribute recruitment rna polymerase ii other gtf's eventually start transcription
+fundamental question concerning our understanding gene regulation extent each assembly disassembly step distinct at every gene genome
+traditional biochemical view tbp locks commits promoter recurring manner nucleates pic formation valid vivo
+pic disassembly process vivo simply reverse assembly process
+parts assembly/disassembly pathway been rigorously defined vitro few purified proteins dna provided us our current parsimonious view pic regulation
+no case assembly disassembly reactions been reconstituted way fully recapitulates physiological setting at every gene so questions remain open regards extent vitro defined reactions mimic vivo events occurring throughout genome
+answer question not readily addressed vivo since reactions not definable nor quantifiable vitro biochemical reactions purified components
+nonetheless assays do exist measuring relative levels protein dna complex formation vivo so mechanistic inferences will sought
+goal here evaluate vivo occupancy data light biochemical mechanisms intended reflect corresponding vivo reaction
+extent biological insight predicated rather subjective assessments assumptions associated interpretation vivo data
+within context declared constraints assumptions propose means model vivo protein-dna occupancy data so better integrate conceptualize massive genomic datasets
+study focused means modeling assumptions inherent data using specific examples pic assembly
+currently perhaps most widely used assay measure occupancy proteins at genes vivo chromatin immunoprecipitation assay
+chip proteins crosslinked dna protein then purified bound dna identified either through directed pcr through genome-wide detection platforms
+way example relative occupancy level tbp tfiib pol ii many other proteins at every promoter genome population cells assayed
+recent studies using differential chip photobleaching experiments provided compelling evidence dynamic state pic components living cells
+therefore now within conceptual framework expect factors like rna polymerase ii tbp other gtfs undergo multiple assembly disassembly cycles at promoters each productive transcription event rather than traditional simple view gtf's remain locked place during multiple transcription cycles
+existence origins distinct occupancy levels pic components genes not been systematically explored thus impetus conducting modeling studies described here
+differential occupancy patterns gtfs been described may caused gene-specific regulators influence recruitment retention specific general transcription factors thus assembly/disassembly mechanisms might differ gene gene
+here attempt utilize chip-chip binding information gleaned at every promoter yeast genome either plausibly infer exclude pic assembly/disassembly mechanisms
+major limitation any approach number permutations possible assembly/disassembly mechanisms exceeds amount data available constrain mechanisms
+other words occupancy data alone insufficient uniquely specify ordered pic assembly disassembly pathway
+imposition additional constraints predefining either assembly pathway might however eliminate certain dissociation mechanisms incompatible data thus serves purpose plausibly excluding mechanisms rather than uniquely identifying mechanism
+here develop chip modeling program termed pathcom context fixed pic assembly pathway infer allowable dissociation mechanisms
+validate simulation using existing chemical kinetics simulator copasi
+within declared constraints discern compatibility different pic disassembly mechanisms at nearly every transcriptionally-active gene yeast genome existing chip-chip occupancy data

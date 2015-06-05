@@ -1,0 +1,32 @@
+
+prediction complex notion different people computer probabilistic theories very different
+paper i will review some popular prediction argue theory learning prediction now
+standard goal predictor learning theory small loss given loss function between predictions actual outcomes
+learning version predictor perform almost well best strategies given class prediction strategies
+predictions decisions made decision i e one whose decisions do not affect future outcomes
+predictions probability considered probability rather than loss function procedure testing
+two main approaches probability developed now mathematical probability theory but latter better uses learning theory discussed paper
+important probability was universal testing procedure there exists forecasting strategy
+forecasting strategy however not
+its more practical obtained results probability theory
+wide class forecasting shown any probability there exists forecasting strategy far probability
+choosing probability ways
+probability known used making good most procedure decisions optimal under principle minimum expected loss
+i will describe its use prediction algorithms property universal consistency its more practical
+paper i will discuss some learning possible further research changes i made compared
+still rather than main part paper
+introduction
+paper based at learning theory
+recent years aim at between learning work other game theory statistics information theory optimization
+following i will argue some probability applied learning
+paper i will use following predictions 2 decisions
+they true but good
+their quality typically loss function about
+they tested if found predictions between
+they if they various observed events
+learning theory general learning particular consider
+i will section simple result about there exists consistent prediction algorithm if loss function not required convex prediction
+section section
+will see more fundamental than
+section how so relevant
+section i will prove result section about universal consistency well its version

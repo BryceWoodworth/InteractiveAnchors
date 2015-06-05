@@ -1,0 +1,37 @@
+ 
+primary visual cortex pre-wired facilitate extraction behaviorally important visual features
+collinear edge detectors v1 instance mutually enhance each other improve perception lines against noisy background
+same pre-wiring facilitates line extraction however detrimental when subjects discriminate brightness different line segments
+how possible improve one task unsupervised practicing without getting worse other task
+classical view perceptual learning practicing modulates feedforward input stream through synaptic modifications onto within v1
+however any rewiring v1 would deteriorate other perceptual abilities different trained one
+propose general neuronal model showing perceptual learning modulate top-down input v1 task-specific way while feedforward lateral pathways remain intact
+consistent biological data model explains how context-dependent brightness discrimination improved top-down recruitment recurrent inhibition top-down induced increase neuronal gain within v1
+both top-down modulation inhibition neuronal gain suggested universal features cortical microcircuits enable perceptual learning
+ introduction 
+since plato's allegory cave kant's critique pure reason often suggested our perception objects outer world never tell us what they really
+if men had green glasses place their eyes they would perceive objects green never able tell whether color was intrinsic objects just our perception
+contemporary neuroscientific version empiricist's position one may argue perception visual objects always distorted nonlinearities visual pathway particular intrinsic circuitry primary visual cortex
+fact any visual input filtered neuronal processing v1 before reaching consciousness
+instance collinear edges enhanced intrinsic v1 circuitry our brightness perception will never match physical luminance
+nevertheless perceptual training without teacher feedback may still improve our brightness discrimination abilities casting certain doubts about strict empirical view
+how then possible reach more veridical perceptions just pure reason i.e intrinsically adapting cortical dynamics without being told about mismatch between percept true physical quality
+show model top-down modulation v1 during unsupervised perceptual learning suppress intrinsic nonlinearities v1
+top-down suppression leads faithful neuronal representation sensory input
+underlying neuronal mechanisms elaborated example brightness discrimination
+example flanking light bar closely aligned prolongation test bar acts visual context
+flanking bar biases brightness perception test bar
+presence flanking bar test bar perceived brighter than actually clearly enhanced brightness perception helpful when extracting collinear line elements against some noisy background
+however when task consists comparing brightness test bar displaced single reference bar then collinear flank distorts brightness comparison
+brightness test bar overestimated because underlying neuronal population representing test bar within v1 recurrently excited corresponding population representing collinear flanking bar
+show top-down input remove contextual bias activating recurrent inhibition within v1
+recurrent inhibition cancels lateral excitation linearizes brightness representation test bar allowing faithful perception
+additional top-down induced gain increase v1 further enhances sensitivity brightness differences
+perceptual learning i.e change perception following sensory experiences typically explained modification either feed-forward synaptic pathway v1 recurrent connections within v1 triggered repeated practicing
+because synaptic modifications would affect any input stream through v1 however perceptual learning would inevitably deteriorate information processing other situations
+although negative transfer learning other tasks known appear perceptual learning typically task-specific does not deteriorate perception other tasks; see e.g reviews
+while improving brightness discrimination between context-modulated test bar displaced reference bar instance edge detection capability expected not suffer
+fact mutual enhancement collinear light bars advantageous extracting lines noisy scene required contour integration everyday scenes
+hence models perceptual learning explain how improvement one task possible without interference others
+intriguing possibility perceptual learning might based modifying task-dependent top-down input sensory areas opposed permanent change bottom-up input stream
+taking up idea show how top-down signaling higher cortical area v1 could modify neuronal processing lower area consistent both electrophysiological recordings v1 psychophysical experiments perceptual learning

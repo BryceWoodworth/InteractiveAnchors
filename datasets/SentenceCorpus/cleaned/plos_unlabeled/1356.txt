@@ -1,0 +1,62 @@
+ 
+acute effects sex steroid hormones likely contribute observation post-pubescent males shorter qt intervals than females
+however specific role hormones modulating cardiac electrophysiological parameters arrhythmia vulnerability unclear
+here use computational modeling approach incorporate experimentally measured effects physiological concentrations testosterone estrogen progesterone cardiac ion channel targets
+then study hormone effects ventricular cell tissue dynamics comprised faber-rudy computational models
+female model predicts changes action potential duration at different stages menstrual cycle consistent clinically observed qt interval fluctuations
+male model predicts shortening apd qt interval at physiological testosterone concentrations
+model suggests increased susceptibility drug-induced arrhythmia when estradiol levels high while testosterone progesterone apparently protective
+simulations predict effects sex steroid hormones clinically observed qt intervals reveal mechanisms estrogen-mediated susceptibility prolongation qt interval
+simulations also indicate acute effects estrogen not alone sufficient cause arrhythmia triggers explain increased risk females torsades de pointes
+our results suggest acute effects sex steroid hormones cardiac ion channels sufficient account some aspects gender specific susceptibility long-qt linked arrhythmias
+ introduction 
+past decade studies suggested female gender independent risk factor long-qt dependent cardiac arrhythmias
+since differences qt intervals males females appear time puberty sex steroid hormone effects cardiac repolarization been implicated
+clinical studies found no difference qt interval male female children but shorter qt intervals men versus women under age 50
+international long qt syndrome registry 1998 reported females had higher risk first cardiac event between 15 40 years
+moreover clinical findings observed more than 68 percent drug-induced torsade de pointes occur women 
+known one way sex steroid hormones cause functional physiological changes via transcriptional regulation
+sex hormones may bind sex hormone receptors then translocate into nucleus
+nucleus ligand-bound sex hormone receptor acts transcription factor binding promoter region genes containing hormone responsive element leading regulation gene expression
+example heart lipocalin-type prostaglandli d synthase been found transcriptionally upregulated estradiol estrogen receptor
+genomic action requires several hours before effects observed
+addition genomic pathway sex steroid hormones may induce rapid activation mitogen-activated protein kinase leading transcription factor activation well activation membrane bound endothelial nitric oxide synthase 
+interestingly recent studies demonstrated sex steroid hormones may also act acutely rapidly modulate cardiac ion channel activity directly via pi3k/akt/enos pathway
+testosterone induced phosphorylation ser/thr kinase akt enos leads no synthase 3 activation production nitric oxide
+no leads s-nitrosylation cysteine residues channel underlying slow delayed rectifier k current
+l-type ca 2 current conversely suppressed no via cgmp dependent pathway
+regulation i ks i ca,l testosterone dose-dependent leads shortening action potential duration qt intervals
+adult men serum testosterone level reported 10 35 nm however circulating levels testosterone begin decline men young 40
+qt intervals shorter adult men than adult women until around age 50 suggesting likely role circulating testosterone
+females progesterone fluctuates through menstrual cycle
+reported serum progesterone level 2.5 nm follicular phase 40.6 nm luteal phase
+was recently shown nakamura et al progesterone increases i ks current through no production pathways prevents camp-enhancement i ca,l 
+apparent result acute effects progesterone testosterone shorten ventricular repolarization diminish incidence arrhythmias
+recently experiments suggested protective effects testosterone against arrhythmia
+vivo experiments show orchiectomized male rabbits treated dihydrotestosterone had shorter qt interval apd 90 compared non-dht treated rabbits
+also experiments testosterone treated female animals shown dht reduces drug-induced arrhythmia dofetilide 
+acute effects estradiol result suppression human ether-a-go-go-related gene underlying rapid delayed rectifier current directly binding channel altering channel kinetics reducing current
+kurokawa co-workers showed 17 estradiol increases channel rate closure lessens repolarizing current
+they also showed presence e2 herg more sensitive block drugs
+group proposed aromatic centroid e2 may responsible increasing sensitivity herg block e4031 via interaction aromatic side chain phe 656 aromatic rings herg blocker
+because concentration e2 not constant through menstrual cycle but rather fluctuates peak follicular phase serum e2 level 1 nm 0.7 nm luteal phase e2 dramatic effects sensitivity herg block within range stands reason susceptibility drug-induced arrhythmia herg block may vary through menstrual cycle
+although studies shown female hormones estradiol progesterone opposite effects cardiac repolarization: e2 prolongs qt intervals progesterone reduces qt interval question whether normal hormonal fluctuations sufficient account variability qt during menstrual cycle not known
+neither effects physiological concentrations hormones arrhythmia susceptibility well understood
+some studies do report dynamic fluctuations qt intervals during menstrual cycle related changes susceptibility tdp risk
+other studies postmenopausal women also suggest importance female hormones estrogen hormone replacement therapy prolongs qt intervals increases arrhythmia risk
+other data not found marked fluctuation qt interval during specific phases menstrual cycle
+burke et al found corrected qt interval does not significantly change through menstrual cycle pre-menopausal women; however qt c reduced luteal phase after autonomic blockade
+study drug-induced qt prolongation during menstrual cycle observed qt c did not vary during menstrual cycle but qt c shortening was more pronounced luteal phase ibutilide application
+nonetheless both clinical experimental data suggest women both longer qt intervals than men more likely develop long-qt dependent arrhythmias tdp arrhythmias
+women especially susceptible increased arrhythmia risk response qt-prolongation drugs 
+major challenge specifically determine relationship between sex steroid hormones arrhythmia susceptibility males females since cardiac system extraordinarily complex
+order attribute risk particular parameter case physiologically relevant concentrations sex steroid hormones specific effect must studied isolation without other perturbations system
+strength computational approach employ
+present study focus acute effects sex steroid hormones cardiac ion channel targets
+use guinea pig models incorporate effects hormones measured experimentally guinea pig then test changes specifically within complex cellular tissue milieu
+importantly use model make predictions about effects physiological concentrations sex steroid hormones gender specific cardiac physiology parameters arrhythmia susceptibility
+some recent experimental studies investigating functional effects sex hormones cardiac function utilized hormone concentrations micromolar range orders magnitude higher than nanomolar physiological circulating concentration e2
+critical consideration because micromolar concentrations e2 apparently cardioprotective via effects l-type ca 2 current
+although high hormone concentrations may relevant during phases pregnancy recent study showed e2 at 1 nm did not significant effects i ks i ca,l
+our model simulations reproduce observed fluctuations qt through menstrual cycle females both cell tissue-level
+simulations also predict effects testosterone progesterone ion channels hasten repolarization protect drug-induced arrhythmias

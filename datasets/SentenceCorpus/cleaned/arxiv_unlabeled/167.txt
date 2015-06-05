@@ -1,0 +1,37 @@
+ 
+develop concept abc boost  daptive b ase c lass boost multi-class classification present abc mart concrete implementation abc boost
+original mart  m ultiple dditive r egression t rees algorithm been very successful large-scale applications
+binary classification abc-mart recovers mart
+multi-class classification abc-mart considerably improves mart evaluated several public data sets
+ introduction 
+classification basic task machine learning
+training data set consists feature vectors samples  class labels 
+here number classes
+task predict class labels
+study focuses multi-class classification  
+many classification algorithms based boosting  regarded one most significant breakthroughs machine learning
+mart  m ultiple dditive r egression t rees successful boosting algorithm especially large-scale applications industry practice
+example regression-based ranking method developed yahoo
+used underlying learning algorithm based mart
+mcrank  classification-based ranking method also used mart underlying learning procedure
+study proposes abc boost  daptive b ase c lass boost multi-class classification
+present abc mart concrete implementation {abc}-boost
+abc-boost based following two key ideas: multi-class classification popular loss functions classes usually assume constraint only values classes needed
+therefore choose base class derive algorithms only classes
+at each boosting step although base class not explicitly trained will implicitly benefit training classes due constraint
+thus adaptively choose base class ``worst'' performance
+idea assuming constraint loss function using base class may not at all surprising
+binary   classification ``sum-to-zero'' constraint loss function automatically considered so only need train algorithm one instead  class
+multi-class   classification sum-to-zero constraint loss function also ubiquitously adopted
+particular multi-class logitboost algorithm was derived explicitly averaging over base classes
+loss function adopted our abc-mart same mart logitboost
+all three algorithms assume ``sum-to-zero'' constraint
+however obtain different first second derivatives loss function mart logitboost
+see section details
+terms implementation our proposed abc-mart differs original mart algorithm only few lines code
+since mart known successful algorithm much our work devoted empirical comparisons abc-mart mart
+our experiment results publicly available data sets will demonstrate abc-mart could considerably improves mart
+also abc-mart reduces both training testing time  may quite beneficial when small
+notice data sets industry applications often quite large e g  several million samples 
+publicly available data sets e g  uci repository however mostly small
+our study covertype data set uci repository reasonably large 581,012 observations \\ first review original mart algorithm functional gradient boosting

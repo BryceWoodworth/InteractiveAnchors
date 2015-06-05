@@ -1,0 +1,31 @@
+ 
+cerebellar purkinje cells display complex intrinsic dynamics
+they fire spontaneously exhibit bistability via mutual network interactions involved generation high frequency oscillations travelling waves activity
+probe dynamical properties purkinje cells measured their phase response curves
+prcs quantify change spike phase caused stimulus function its temporal position within interspike interval widely used predict neuronal responses more complex stimulus patterns
+significant variability interspike interval during spontaneous firing lead prcs low signal-to-noise ratio requiring averaging over thousands trials
+show using electrophysiological experiments simulations prc calculated traditional way sampling interspike interval brief current pulses biased
+introduce corrected approach calculating prcs eliminates bias
+using our new approach show purkinje cell prcs change qualitatively depending firing frequency cell
+at high firing rates purkinje cells exhibit single-peaked monophasic prcs
+surprisingly at low firing rates purkinje cell prcs largely independent phase resembling prcs ideal non-leaky integrate-and-fire neurons
+results indicate purkinje cells act perfect integrators at low firing rates integration mode purkinje cells depends their firing rate
+ introduction 
+cerebellar purkinje cells exhibit wide range dynamical phenomena
+they intrinsic neural oscillators firing spontaneously highly rhythmically absence synaptic input at rate 10 180 hz
+they also exhibit intrinsic bistability influences their responses sensory stimulation
+addition interactions between spontaneously firing purkinje cells result waves activity travelling down cerebellar folia high frequency oscillations may contribute generation precise temporal patterns cerebellar network
+hence firing purkinje cells highly time state-dependent thus they represent excellent targets dynamical systems analysis
+phase response curve powerful tool study neuronal dynamics at cellular level
+prc describes effect brief perturbation firing phase neuron used predict response neuron more complex stimulation patterns
+shape prc linked type neuronal excitability oscillatory stability network synchronization properties
+studying purkinje cell prcs therefore essential step explore their dynamic repertoire probe their biophysical mechanisms construct models purkinje cells determine their role information processing at network level
+prcs obtained directly perturbing membrane potential short square current pulses synaptic conductance pulses via indirect methods
+using direct method infinitesimal prcs obtained repeatedly injecting brief current pulses while neurons firing action potentials
+phase phase perturbation measured using ap immediately preceding current pulse reference refer prcs traditional prcs throughout paper
+show using electrophysiological experiments simulations interspike interval variability present purkinje cells introduces systematic bias traditional calculation prc
+bias results loss causality caused jitter aps surrounding current pulse gives rise empty triangular region prc plot call bermuda triangle
+introduce method calculating prc corrects bias using all spikes spike train reference one at time
+refer prcs obtained method corrected prcs
+note our study both traditional corrected prcs calculated using same experimental data: perturbation firing purkinje cells brief square current pulses
+using corrected method show shape purkinje cell prc changes fundamentally depending firing rate neuron

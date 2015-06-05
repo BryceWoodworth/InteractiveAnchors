@@ -1,0 +1,61 @@
+
+cellular key understand their robustness both mutations noise
+many biochemical parameters behavior thus not
+existing work area what extent function any one given robust
+but high robustness would expected many similar
+how high robustness about through evolution changes one interaction at time
+here questions model regulation networks explore different network
+robustness mutations noise correlated networks
+they show distribution very small number networks being more robust than
+all networks given gene expression state into graph whose nodes networks differ their
+graph changes network
+thus robustness property
+robust networks may general principle biological networks
+addition exists also rna protein structures may thus general principle all biological systems
+introduction
+biochemical parameters determine behavior cellular systems proteins regulatory networks change
+change two sources
+one them genetic mutations
+other noise environmental change
+contrast mutations relatively noise
+much stochastic variation gene expression expression regulation
+noise makes all biochemical parameters behavior appear
+environmental change change affect many parameters at
+observations suggest biological not their functions only values their biochemical parameters
+instead they must able function under range different parameters
+other words they must robust parameter change
+lead robustness processes development
+quantitative models cellular help us understand processes different cell cycle development behavior
+several classes models used represent biological networks
+first class models
+continuous state variables gene
+interactions gene represented through biochemical parameters binding dna rate
+universal problem quantitative information about biochemical parameters even experimentally systems
+other words some knowledge who may exist but interactions usually unknown
+even where measurements biochemical parameters available they often estimates rather than quantitative measurements known
+difficulty leads one second class models only nature state variables considered
+our focus here not consider any one but many
+because changes biochemical parameters lack quantitative information about their values approach appropriate fundamental properties cellular particular one may what features robustness
+work out analysis model regulation networks important functions processes
+despite its level model highly regulatory dynamics early genes well predicting
+also why often show genetic variation how adaptive evolution robustness occurs genetic networks given
+most recently explain how robustness
+model regulatory network n represented their expression patterns s at some time t during process one cell domain
+time scale expression dynamics time scale regulation order not order complete development
+influence each expression through interactions matrix elements matrix regulatory influence gene gene i influence either
+matrix system while expression state its
+model change expression state s network time t according difference where constant function whose values
+regulation gene expression other genes
+here networks whose expression dynamics initial state s at some time t during development at stable target expression state s will call networks networks
+initial state determined regulatory factors network may represent signals environment other domains
+expressed stable state s affect expression genes network
+modeling assumption their expression critical development
+thus s highly
+because our work framework s s play central contrast most studies properties random networks
+here examine relationship between robustness network networks different
+structure matrix because each one regulatory interaction among genes
+changes loss regulatory interaction new regulatory interaction was previously
+changes occur very short evolutionary time scales particular higher large regulatory regions
+need study their effects network robustness
+our analysis first how robustness mutations noise within networks different
+more also whether highly robust low robustness through changes

@@ -1,0 +1,37 @@
+
+theory two visual pathways lead visual processing world perception than those action
+others perception action much their visual processing
+but two neural evolution
+visual search here investigate evolution neural mechanisms perception actions visual search natural
+approximation bayesian two processing one other search decisions
+neural mechanisms two pathways linear primary visual making probability depend accuracy finding targets
+find variety targets target mechanisms two processing similar mechanisms perception lead search
+three no convergence were case targets across sufficient time all possible target model no based cell properties
+thus similar neural mechanisms perception actions during search optimal should expected effects natural selection limited time search not across its perception action neural pathways
+introduction
+studies support existence two distinct neural pathways brain processing visual information
+behavior patients brain perception primary visual temporal action primary visual
+although there been about whether into brain contains two distinct neural visual world there been no theoretical analysis about functional two different neural
+visual search requires their point region potentially regions decisions
+what impact having similar versus different neural mechanisms decisions visual search performance visual system
+consider two leading computational models human visual search bayesian model search task target one initial
+uses knowledge how target statistics spatial accuracy decision at end search
+model makes most target optimal if goal was target rather than information decision
+depending spatial possible target strategies lead similar
+example both models make possible target while make between possible target obtain processing more than one
+attention allows both models possible target contain target when making search decisions
+target decisions both models based visual information over whole across based evidence presence target
+models two processing pathways one where other processing visual information decision about target
+rather than having single linear mechanism each pathway model had its own neural mechanism compared visual data at each possible target
+likelihood observed responses each mechanisms under hypothesis target present at used make decisions about where decisions
+used genetic algorithm method find solutions perception action mechanisms but also effects evolutionary process natural selection neural mechanisms decisions during search
+computational complexity bayesian makes difficult model thus used recently proposed approximation
+model uncertainty probabilities over potential target
+decision rule choose maximum likelihood across potential target each its given
+model shown approximate patterns main characteristics patterns our task
+process evolution one individuals linear mechanisms perception
+each each individual was independent random four simple cells
+each individual was two before making search decision about target
+performance finding target one was probability individual was its performance accuracy
+new was then individuals through process mutation
+process was up

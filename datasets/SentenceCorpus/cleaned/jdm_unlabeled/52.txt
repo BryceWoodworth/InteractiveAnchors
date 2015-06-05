@@ -1,0 +1,98 @@
+ 
+been proposed recognition form basis simple but ecologically rational decision strategies
+borges goldstein ortmann gigerenzer found constructing share portfolios based simple name recognition alone often yielded better returns than market index
+describe four studies seven samples participants three countries total n number returns recognized unrecognized shares several stock markets were tracked over various periods time
+find no support claim simple strategy name recognition used general strategy select stocks yield better-than-average returns
+however there was some suggestion data recognition performs better when market falling worse when rising
+follow-up study indicated absence overall recognition effect could not easily attributed our reliance student participants smaller samples than borges et al had used
+conclude respect changes value selecting stocks basis name recognition near-random method portfolio construction offers little if any benefit personal investor
+ introduction 
+quick-and-dirty decisions reasonably expected result satisfactory outcomes do complex problems demand complex strategies
+extent array difficult choices face adequately tackled simple strategies been recurring theme five decades decision research
+one simplest choice inference strategies imaginable recognition heuristic
+quite simply if one two objects recognized other not then infer recognized object higher value
+thus when asked pick movie yielded greater gross takings sin city steget efter person who recognizes only one titles use recognition heuristic though person who recognises neither both movies must make their choice some other way
+when rate frequency exposure correlates positively value heuristic will lead choice inference accuracy above chance levels
+thus our example positive association between media coverage advertising movie attendances means recognition heuristic should some ecological validity choice question
+recent analysis schooler hertwig shows effectiveness recognition may even enhanced forgettingeven though leads failure recognize some previously seen objects
+if remembered objects more likely associated relevant characteristics environment than forgotten ones will enhance predictive inferential power recognition
+paper examine application recognition heuristic investment decisions where one many possible investments made
+here recognition heuristic demands when choosing set objects larger set choose subset recognized objects
+why might people use heuristic
+first some situations they may consciously accept logic expressed previous paragraph
+probably makes sense many people consumer products movies sports teams sports personalities they heard more successful than those they notand they will happy make inferences accordingly
+there occasions when failure generates notoriety ford's edsell car movie flop waterworld number jamaican bobsleigh team eddie eagle whose olympic ski-jumping preparation lacked only ski-jump
+nonetheless generally speaking people know success breeds personal exposure column inches will encourage recognition
+alternatively there may other occasions when absence deliberative reasoning about recognition more intuitive processes may drive recognition-based choices
+people reliably prefer familiar stimuli more so when they fail recognise previously presented stimuli at better than chance levels presumably not conscious prior exposure
+bornstein suggests preference familiar may adaptive unfamiliar stimuli situations greater potential risk than familiar ones do
+people also judge more fluent i e more easily processed stimuli positively often base their judgements how easily objects events recalled
+although not necessarily easy distinguish empirically accounts conceptually distinct recognition heuristicstimuli may more less familiar fluent available but simply recognised not recognised
+nonetheless recognised stimuli inevitably more familiar more available than unrecognised ones possibly average more fluent too
+features could explain why recognition-based choice may occur even when conditions make effective strategy certain circumstances unknown absent
+use recognition heuristic been subject several empirical investigations
+gigerenzer goldstein reported heuristic helped people make correct inferences when faced task assessing two foreign cities had greater population
+some modified experimental designs observation also been replicated additional samples cities rivers mountains
+assessing geographical objects associated stable characteristics true answer rarely changed living memory will usually not change many years come
+example correct answer question city larger colchester stockholm
+been same centuries unlikely different foreseeable future
+contrasts dynamic domains sports events where accuracy inferences varies over time
+instance tennis ace roger federer likely though not certain beat lowly-ranked ezequiel krivulin
+furthermore there may eventually come time when highly recognized superstar will begin lose regular basis younger unknown players
+nonetheless been shown recognition some extent predict outcome sports events
+paper re-examine effectiveness recognition heuristic using important but notoriously difficult taskstock picking
+task also associated variable characteristics so provides tough test recognition heuristic
+borges et al found name recognition surprisingly successful basis stock investment
+lay people business graduates usa germany indicated company names they recognized among largest companies listed new york frankfurt stock exchanges
+portfolios shares consisting most frequently recognized shares outperformed portfolios consisting shares recognized fewer than number percent participants over six-month period beginning december number
+portfolios frequently recognised shares outperformed market index six eight possible comparisons treating recognition data four pools participants across each two stock markets distinct comparisons
+only americans' recognition u s stocks did recognition-based investment under-perform market index
+was symptomatic general trend advantage highly recognised stocks was greatest when people were apparently most ignoranti e using recognition data foreign stock markets where recognition rates were unsurprisingly lower than domestic stocks
+simple strategy should prove effective was surprisingand therefore grabbed attention among financial press runs counter efficient market hypothesis anticipates index cannot consistently beaten simple investment strategies
+borges et al provide some speculation reasons their results instance possibility features market share company size prestige may all associated both recognition profitability limited recognition best exploits ability recognition heuristic discriminate profitable unprofitable shares
+put simply suggestion company success other features foster recognition also tend drive up share value
+hence recognized shares will yield higher average returns than unrecognized ones
+if individual recognizes few shares they probably only recognize elite companies whose size success made them household names good prospects share return
+however important question whether mechanism could sustainable market
+boyd failed replicate borges et al 's results falling bear market sample american students providing recognition data us stocks
+both boyd borges et al discuss possibility recognition may not good strategy markets when big firms often observed perform poorly
+merton's model capital market equilibrium predicts attempts replicate borges et al 's finding more likely fail than succeed
+merton points out investors acquire only those shares they recognize
+consequently demand value will tend higher company shares widely recognized
+however merton's theory predicts investment returns will correlate negatively recognitionmore highly recognized firms will yield lower returns implying recognition heuristic should under-perform market index
+consistent neglected firms effect whereby shares firms narrow investor bases outperform more widely held shares
+effect persists even when company size controlled may interpreted informational effect
+obvious reasons investors need information order predict future profits dividends stock returns
+less information investors greater chance important information predicts extreme changes value missing
+however investment-relevant information e g earnings releases will less abundant therefore more expensive obscure firms than high-profile corporations enjoy high levels recognition release detailed reports regular basis
+therefore order invest unfamiliar companies investors require risk premium their investment roughly corresponds their increased effort searching information about those companies
+risk aversion would make investing potentially risky shares relatively unknown firms comparatively unappealing unless better-than-average returns expected shares
+contrast market will sustain share returns well-known companies more modest investors feel they obtain sufficient information shares able guard against risk severe losses
+several studies examined factors ought affect recognition analyst coverage advertising expenditure exchange listing
+many found effect upon security value consistent merton
+instance barber odean showed private investors tended purchase high-profile stocks had previously experienced high volumes returns had been recent news reports
+strategy was shown under-perform market index
+weber siebenmorgen weber provide some insight into why investors might follow unprofitable investment strategy driven attention-grabbing features shares
+they found people tend perceive shares they recognize less risky than those they fail recognize
+more direct tests merton's theory tended focus breadth ownership among institutions holdings excess number million proxy recognition
+contrary predictions merton chen et al found low levels recognition predicted low returns
+however lehavy sloan showed changes breadth ownership do indeed positively predict current share value negatively predict future returns when autocorrelations value return over time controlled
+lehavy sloan others who examined breadth ownership recognize its limitations proxy recognition
+whilst plausible increases recognition will often result increases breadth ownership illogical decreases breadth ownership might imply some investors no longer recognize particular company they previously knew
+studies reported here employ direct measure recognition simply ask sample people whether they recognize name companies listed stock exchange
+thus share recognition considered at level individual potential investor rather than at level large corporate investor
+use data re-examine whether simple recognition alone form basis viable investment strategy
+particular two questions relate how well borges et al 's findings generalize considered
+firstly were their results simply function random variation prices applicable only particular period time
+end our studies commence at different time points track share value over differing periods time
+readers will see despite being at mercy markets allowed us test effectiveness recognition heuristic markets fell rose differing degreespermitting detailed re-evaluation borges et al 's boyd's findings under variety conditions
+secondly borges et al 's findings restricted only particular combinations populations participants stock markets
+thus one say recognition ecologically valid strategy stock selection simply recognition data germans americans selects better than average german stocks
+considering issue examine recognition data stocks five countries participants three countries
+all number number possible combinations could yield availableand some combinations examined more than one study recognition data different samples participants collected at different points time
+permits us test recognition heuristic over range recognition rates typically high domestic home shares low overseas away shares
+examination many participant-market combinations important order determine whether there might any general effect favours penalizes recognized over unrecognized shares
+although borges et al report eight comparisons between portfolios recognized unrecognized shares not independent comparisons
+instance there was some overlap shares always recognized laypeople business graduates given country
+summary re-examine two key findings borges et al data number overall validity recognition method stock selection number increased effectiveness recognition more ignorant participants lower levels recognition
+note not interested whether personal professional investors actually use recognition heuristicsimply whether if they did would effective

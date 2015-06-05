@@ -1,0 +1,86 @@
+
+learning improve generalization ability using multiple base
+
+construct good base should accurate well
+
+paper data learning
+among base
+specifically
+method proposed
+existing methods where
+estimated data data
+improve accuracy base data while
+among them data
+experiments show
+data learning highly
+methods
+introduction
+learning number base then
+combined prediction achieve strong generalization ability
+effective
+methods been proposed
+etc most methods work under setting
+where training examples known
+many tasks however
+training examples available while their would
+learning major data together
+training data improve learning performance without human
+
+paper learning
+data
+contrast learning
+learning only few work been study
+
+was different
+learning learning
+learning
+able performance strong
+using multiple so there no need use while
+learning able performance strong
+data so there no need use multiple
+however
+there several important why learning
+learning actually among important one
+data possible help among base
+following
+generalization error related average
+generalization error base among base
+generally
+lower average generalization error higher average accuracy base
+higher among base better
+previous
+methods work under setting achieve high average accuracy
+high using training set
+however high
+accuracy high may
+example two
+performance training set they would not since there
+no difference between their predictions training examples
+thus increase
+accuracy one classifier
+however when data might
+find two actually make different predictions data
+would
+important design
+example given two pairs if know all them accuracy training data then there
+will no difference taking either
+however if find make same predictions data
+while make different predictions some data then will know
+should better
+so contrast previous methods
+focus both high accuracy high using only data use
+data would open direction new methods
+paper propose data
+approach
+experiments show using data
+much better performance than its does not consider
+data
+moreover also highly performance other
+methods
+paper follows
+section related work
+
+section
+section
+our experimental results
+finally section

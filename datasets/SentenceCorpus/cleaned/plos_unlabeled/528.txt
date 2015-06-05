@@ -1,0 +1,47 @@
+ 
+long after new language been learned forgotten relearning few words seems trigger recall other words
+free-lunch learning effect been demonstrated both humans neural network models
+specifically previous work proved linear networks learn set associations then partially forget them all finally relearn some associations show improved performance remaining associations
+here prove relearning forgotten associations decreases performance nonrelearned associations; effect call negative free-lunch learning
+difference between free-lunch learning negative free-lunch learning presented here due particular method used induce forgetting
+specifically if forgetting induced isotropic drifting weight vectors then free-lunch learning observed
+however proved here if forgetting induced weight values simply decay fall towards zero then negative free-lunch learning observed
+biological perspective assuming nervous systems analogous networks used here suggests evolution may selected physiological mechanisms involve forgetting using form synaptic drift rather than synaptic decay because synaptic drift but not synaptic decay yields free-lunch learning
+ introduction 
+idea structural changes underpin formation new memories traced 19th century
+more recently hebb proposed when axon cell near enough excite b repeatedly persistently takes part firing some growth process metabolic change takes place one both cells a's efficiency one cells firing b increased
+now widely accepted learning involves some form hebbian adaptation growing body evidence suggests hebbian adaptation associated long-term potentiation observed neuronal systems
+ltp increase synaptic efficacy occurs presence pre-synaptic post-synaptic activity specific single synapse
+one consequence hebbian adaptation information regarding specific association distributed amongst many synaptic connections therefore gives rise distributed representation each association
+participants learned layout letters scrambled keyboard
+after period forgetting participants relearned subset letter positions
+crucially improved performance remaining letter positions
+however whereas relearning some associations shows evidence fll some studies not found not all studies
+discrepancy may because many studies performed investigate general phenomenon use wide variety different materials procedures some measuring recall others measuring recognition performance example
+however within realms psychology one relevant effect known part-set cueing inhibition
+part-set cueing inhibition occurs when subject exposed part set previously learned items found reduce recall nonrelearned items
+however showed learned row words was better recalled if cues consisted subset words placed their learned positions than if cue words were placed other positions
+case part-set cueing seems improve performance but only if each part appears spatial position was originally learned
+position-specificity consistent fll effect reported using scrambled keyboard procedure but no obvious concomitant network models 
+if brain stores information distributed representations then each neuron contributes storage many associations
+therefore relearning some old partially forgotten associations should affect integrity other associations learned at about same time
+noted above previous work shown relearning some forgotten associations does not disrupt other associations but partially restores them
+fll effect also been demonstrated neural network models where accelerate evolution adaptive behaviors
+crucially proof relearning some associations partially restores other associations assumes forgetting caused addition isotropic noise connection weights could result cumulative effect small random changes connection weights
+contrast here prove if forgetting induced shrinking weights towards zero so weights fall towards origin then relearning some associations disrupts other associations
+protocol used examine fll here same used follows
+first learn set n 1 n 2 associations 1 2 consisting two subsets 1 2 n 1 n 2 associations respectively
+after all learned associations been partially forgotten measure performance error subset 1
+finally relearn only subset 2 then remeasure performance subset 1
+fll occurs if relearning subset 2 improves performance 1
+order preclude common misunderstanding emphasize network n connection weights assumed n n 1 n 2 ; number connection weights each output unit not less than number n 1 n 2 learned associations
+using class linear network models described below up n associations learned perfectly 
+proofs below refer network one output unit
+however proofs apply networks multiple output units because n connections each output unit considered distinct network case our results applied network associated each output unit
+each association consists input vector x corresponding target value d network weight vector w response input vector x y w x define performance error input vectors x 1 x k desired outputs d 1 d k beformulawhere y i w x i output response input vector x i putting x t d t andformulawe write equation 1 succinctly asformula
+two subsets 1 2 consist n 1 n 2 associations respectively
+let w 0 network weight vector after 1 2 learned
+when 1 2 forgotten network weight vector changes w 1 say performance error 1 becomes e pre e finally relearning 2 yields new weight vector w 2 say performance error 1 e post e free-lunch learning occurred if performance error 1 less after relearning 2 than was before relearning 2 
+given weight vectors w 1 w 2 matrix x input vectors vector d desired outputs defineformulawhich shall also refer simply 
+previous work assumed forgetting vector v isotropic distribution
+here shall assume instead post-forgetting weight vector w 1 given byformulafor some scalar r so thatformulaand thereforeformulathe interpretation equation 6 forgetting consists making optimal weight vector w 0 fall towards origin falling factor 1 r

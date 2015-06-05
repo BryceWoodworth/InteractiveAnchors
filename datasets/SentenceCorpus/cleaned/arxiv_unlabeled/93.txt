@@ -1,0 +1,46 @@
+ 
+building rules top ontologies ultimate goal logical layer semantic web
+aim ad-hoc mark-up language layer currently under discussion
+intended follow tradition hybrid knowledge representation reasoning systems log integrates description logic function-free horn clausal language \textsc{datalog}
+paper consider problem automating acquisition rules semantic web
+propose general framework rule induction adopts methodological apparatus inductive logic programming relies expressive deductive power log
+framework valid whatever scope induction description vs prediction
+yet illustrative purposes also discuss instantiation framework aims at description turns out useful ontology refinement
+ introduction 
+during last decade increasing attention been paid ontologies their role knowledge engineering
+philosophical sense may refer ontology particular system categories accounting certain vision world
+system does not depend particular language: aristotle's ontology always same independently language used describe
+other hand its most prevalent use artificial intelligence ontology refers engineering artifact more precisely produced according principles ontological engineering  constituted specific vocabulary used describe certain reality plus set explicit assumptions regarding intended meaning vocabulary words
+set assumptions usually form first-order logical theory where vocabulary words appear unary binary predicate names respectively called concepts relations
+simplest case ontology describes hierarchy concepts related subsumption relationships; more sophisticated cases suitable axioms added order express other relationships between concepts constrain their intended interpretation
+two readings ontology described above indeed related each other but order solve terminological impasse word conceptualization used refer philosophical reading appear following definition based : ontology formal explicit specification shared conceptualization domain interest
+among other things definition emphasizes fact ontology specified language comes formal semantics
+only using formal approach ontologies provide machine interpretable meaning concepts relations expected when using ontology-based approach
+among formalisms proposed ontological engineering most currently used description logics dls
+note dls decidable fragments first order logic fol incomparable horn clausal logic hcl regards expressive power semantics } ontology engineering notably its dl-based approach playing relevant role definition semantic web
+semantic web vision world wide web enriched machine-processable information supports user his tasks
+architecture semantic web shown figure
+consists several layers each equipped ad-hoc mark-up language
+particular design mark-up language ontological layer  owl} been based very expressive dl
+whereas owl already undergoing standardization process at w3c debate around unified language rules still ongoing
+proposals like swrl} extend owl constructs inspired horn clauses order meet primary requirement logical layer : 'to build rules top ontologies'
+swrl intended bridge notorious gaps between dls hcl way similar spirit hybridization knowledge representation reasoning kr\&r systems log
+generally speaking hybrid systems kr\&r systems constituted two more subsystems dealing distinct portions single knowledge base performing specific reasoning procedures
+motivation investigating developing systems improve two basic features kr\&r formalisms namely representational adequacy deductive power  preserving other crucial feature i e decidability
+particular combining dls hcl easily yield undecidability if interface between them not reduced
+hybrid system log integrates \textsc{datalog} using concept assertions essentially type constraints variables
+been very recently mentioned blueprint well-founded semantic web rule mark-up languages because its underlying form integration called safe  assures semantic computational advantages swrl  though more expressive than log  currently not assure
+defining rules including ones semantic web been usually considered demanding task viewpoint knowledge engineering
+often supported machine learning algorithms vary approaches
+approach known under name inductive logic programming ilp seems promising case at hand due common roots logic programming
+ilp been historically concerned rule induction examples background knowledge within representation framework hcl aim prediction
+more recently ilp moved towards either different fol fragments e g  dls new learning goals e g  description
+paper resort methodological apparatus ilp define general framework learning rules top ontologies semantic web within kr\&r framework log
+framework proposed general sense valid whatever scope induction description vs prediction
+sake illustration concentrate instantiation framework case description
+paper organized follows
+section introduces basic notions log
+section defines framework learning rules log
+section illustrates instantiation framework
+section concludes paper final remarks
+clarifies links between owl dls

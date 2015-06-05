@@ -1,0 +1,35 @@
+
+paper theoretical analysis sample selection bias
+sample bias technique used machine learning cost error each training point sample more distribution
+weights derived various estimation techniques based finite samples
+analyze effect error estimation accuracy hypothesis learning algorithm two estimation estimation technique kernel mean matching
+also report results sample bias experiments several data sets using techniques
+our analysis based novel concept stability existing concept stability
+much our work techniques used analyze other importance techniques their effect accuracy when using stable algorithm
+introduction
+standard machine learning problems learning algorithm training test samples according same distribution
+however assumption often does not practice
+training sample available some way may due variety practical cost data
+problem occurs many species modeling
+common instance problem points according test distribution but not all them made available
+called sample selection bias problem
+often possible correct bias using large data
+problem sample selection bias linear regression been studied statistics work
+several recent machine learning also problem
+main technique used all cost training point errors more test distribution
+fact technique used statistics machine learning variety problems type
+exact weights could correct bias but practice weights based estimate sampling probability finite data sets
+thus important determine what extent error estimation affect accuracy hypothesis learning algorithm
+our knowledge problem not been general manner
+paper theoretical analysis sample selection bias
+our analysis based novel concept stability stability introduced previous authors
+show large learning algorithms including all regularization algorithms support vector regression kernel regression stable give expression their stability both distance
+then analyze two used sample bias estimation technique kernel mean matching
+each techniques derive bounds difference error rate hypothesis stable algorithm when using estimation technique versus using
+discuss compare bounds also report results experiments both estimation techniques several available machine learning data sets
+much our work techniques used analyze other importance techniques their effect accuracy when used combination stable algorithm
+paper follows
+section sample selection bias technique
+section concept stability stability regularization algorithms
+section effect estimation error using stable algorithms both estimation techniques
+section results experiments several data sets comparing estimation techniques

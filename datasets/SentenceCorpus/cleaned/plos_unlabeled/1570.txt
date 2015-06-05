@@ -1,0 +1,60 @@
+ 
+cerebral cortex divided into many functionally distinct areas
+emergence areas during neural development dependent expression patterns several genes
+along anterior-posterior axis gradients fgf8 emx2 pax6 coup-tfi sp8 play particularly strong role specifying areal identity
+however our understanding regulatory interactions between genes lead their confinement particular spatial patterns currently qualitative incomplete
+therefore used computational model interactions between five genes determine interactions combinations interactions occur networks reproduce anterior-posterior expression patterns observed experimentally
+model treats expression levels boolean reflecting qualitative nature expression data currently available
+simulated gene expression patterns created all formula possible networks containing five genes interest
+found only formula networks were able reproduce experimentally observed expression patterns
+networks all lacked certain interactions combinations interactions including auto-regulation inductive loops
+many higher order combinations interactions also never appeared networks satisfied our criteria good performance
+while there was remarkable diversity structure networks perform well analysis probability each interaction gave indication interactions most likely present gene network regulating cortical area development
+found general repressive interactions much more likely than inductive ones but mutually repressive loops not critical correct network functioning
+overall our model illuminates design principles gene network regulating cortical area development makes novel predictions tested experimentally
+ introduction 
+mammalian cerebral cortex complex but extremely precise structure
+adult divided into several functionally distinct areas characterised different combinations gene expression specialised cytoarchitecture specific patterns input output connections
+but how does functional specification arise
+there strong evidence both genetic activity-dependent mechanisms play role development specialised areas process also referred arealisation
+genetic component implicated spatial non-uniformity expression some genes prior thalamocortical innervation well fact altering expression some genes early development changes area position adult
+other hand manipulating thalamocortical inputs hence activity thalamus alter area size respecify area identity
+results accommodated current working model cortical arealisation multi-stage process where initial broad spatial patterns gene expression provide scaffold differential thalamocortical innervation
+patterned activity thalamocortical inputs then drives more complex spatially restricted gene expression turn regulates further area specific differentiation
+paper focuses earliest stage arealisation: how patterns gene expression form early cortical development
+experiments identified many genes expressed embryonically critical positioning cortical areas adult
+although arealisation occurs two-dimensional field most experiments focus anterior-posterior patterning hence here concentrate patterning along axis
+around embryonic day 8 mouse morphogen fgf8 expressed at anterior pole developing telencephalon
+immediately after fgf8 expression initiated mouse four transcription factors emx2 pax6 coup-tfi sp8 expressed gradients across surface cortex
+four tfs appealing research target because their complementary expression gradients could provide unique coordinate system arealisation equivalent positional information
+altered expression each fgf8 four tfs shifts area positions late embryonic stages adult ;
+furthermore during development altered expression each genes up down-regulates expression some other genes set along anterior-posterior axis
+large cohort experiments given rise hypothesised network regulatory interactions between five genes
+however only one interactions been directly demonstrated no analysis been performed at systems level
+interacting tfs known able form regulatory networks drive differential spatial development fulfilling role morphogens better known
+feedback loops crucial feature enable generation spatial patterns expression genes network
+since tfs regulate expression other genes local differences expression set tfs powerful method generating spatial patterns growth differentiation expression guidance cues developing more complex patterns gene expression
+arealisation genes form regulatory network many feedback loops principle capable generating spatial patterns
+establishing interactions critical correct arealisation great interest field but current experimental approaches limited their ability quickly assay importance each particular interaction
+computational modelling gene regulatory networks necessary because their complex behaviour difficult understand intuitively
+addition offers several other benefits
+currently many hypothesised interactions between arealisation genes represented arrow diagrams like seen figure 2a
+because intuition tends follow simple causal chains presence many feedback loops makes intuition about overall behaviour complex systems unreliable
+consequently more formal description than arrow diagram would test current conceptual model potential give greater understanding insight done many other regulatory networks
+unambiguous descriptions found mathematical computational models offer added benefit making assumptions explicit therefore allowing greater scrutiny
+computational experiments also performed quickly cheaply relative laboratory experiments consequently useful conducting thought experiments then tested experimentally
+way computational modelling experiments spur each other so both improved synergistic manner 
+here use boolean logical approach model arealisation regulatory network
+approach variables representing genes proteins take only two values zero one representing gene protein activity being below above some threshold effect
+while continuous models more realistic they many free parameters hard constrain experimental data offer formidable computational challenge investigate systematically
+contrast boolean models used when only qualitative expression interaction data available case arealisation
+boolean models at each point time state variable depends state its regulators at previous time step
+set logic equations capture regulatory relationships between variables dictate how system evolves time
+boolean idealisation greatly reduces number free parameters while still capturing network dynamics producing biologically pertinent predictions insights
+our model use only two spatial compartments one representing anterior pole another representing posterior pole
+anterior posterior expression levels after boolean discretisation shown figure 1c
+more than two expression levels more than two spatial compartments would more realistic but would result explosion number parameters currently unconstrained experimental data
+having only two expression levels only two compartments allows us systematically screen large number networks would impossible more complex model
+paper simulate dynamics all possible networks created different combinations interactions between fgf8 emx2 pax6 coup-tfi sp8 show only formula networks able reproduce expression patterns observed experimentally
+analysis identify structural elements common best performing networks well elements never appear networks perform well
+results reveal important logical principles underlying cortical arealisation gene network suggest potential directions future experimental investigations

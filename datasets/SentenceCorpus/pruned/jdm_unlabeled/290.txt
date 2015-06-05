@@ -1,0 +1,27 @@
+
+paper investigate decisions experience features learned through sampling process differ decisions description features explicitly described
+find not robust been previously assumed
+argue when large extent information events possible certain
+first find when decision sample events without error then what outcomes associated each possible event they risk gains risk gains decision making
+second find outcomes when outcomes but when number all distinct outcomes at least number outcomes described
+third find outcomes when decision previously experience both outcome makes them outcome certain but when they not previously
+introduction
+major behavioral decision research been identify situations people risk uncertainty
+studies decision under risk people choose between known probabilities outcomes e g number probability number versus number
+studies found people typically exhibit pattern risk risk gains losses e g most number number over number risk gains losses e g most number over number number predicted theory
+studies decision under uncertainty participants choose between natural events e g number if versus number
+studies generally themselves analysis risk because they rely natural events there no objective probabilities
+however when relative probabilities several studies similar pattern
+many decisions potential outcomes not known but must learned experience
+instance might choose work only after sampling alternative several
+paper situations participants learn about pair e g gain number points probability number gain number b gain number points sampling outcomes many times they associated payoff distributions see number all pairs
+after sampling phase participants play real money
+decision making pattern risk decision making people risk gains losses risk gains losses
+basis results authors called two different theories risky choice p number
+generalization difficult evaluate because no one yet defined decision making
+our literature several major authors single decision number decision knowledge possible outcomes probabilities number information derived at least part sampling process
+according any situation there uncertainty learning through sampling
+however most data contrast single decision under risk single design
+note decision under risk not only terms how information learned description versus sequential sampling but also what information available decision i e information experience may information corresponding objective probability distribution over outcomes
+according information hypothesis differences information available decision will when differences
+paper test information hypothesis better conditions under decisions experience differ decisions description

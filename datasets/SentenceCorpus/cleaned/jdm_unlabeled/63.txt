@@ -1,0 +1,27 @@
+ 
+binary sequences characterized various features
+two characteristics-alternation rate run length-have repeatedly been shown influence judgments randomness
+two characteristics however usually been investigated separately without controlling other feature
+because two features correlated but not identical seems critical analyze their unique impact well their interaction so understand more clearly what influences judgments randomness
+end two experiments perception binary sequences orthogonally manipulated alternation rate maximum run length i e length longest run within sequence
+results show alternation rate consistently exerts unique effect judgments randomness but effect alternation rate contingent length longest run within sequence
+effect maximum run length was found small less consistent
+together findings extend prior randomness research integrating literature realms perception categorization prediction well showing unique joint effects alternation rate maximum run length judgments randomness
+ introduction 
+everyday life individuals often encounter binary sequences outcomes tossing coins gains losses gambles black red outcomes roulette wheels birth orders families ups downs stock market
+whether sequences perceived either random lawful patterned important implications both level cognitive processes e g categorizations inferences level behavioral manifestations e g following up streak
+understanding how individuals form judgments randomness therefore critical
+present manuscript contributes goal investigating effects two critical features binary sequences-the length longest run alternation rate-on judgments randomness
+imagine coin being tossed five times
+first coin comes up heads
+then heads again
+same true third fourth fifth toss resulting sequence five heads hhhhh
+most individuals who perceive sequence would judge non-random because they evaluate randomness not based generating mechanism-a coin toss-but resulting sequence outcomes hhhhh hthth
+understand how judgments randomness formed therefore important analyze features outcome sequences
+two characteristics binary sequences outcomes alternation rate run length repeatedly been identified determining judgments randomness
+usually however two characteristics been investigated separate lines research without controlling other
+specifically research perception categorization randomness primarily focused alternation rate while neglecting run length
+contrast research prediction randomness primarily focused run length while neglecting alternation rate
+because two features correlated but not identical argue critical isolate separate effects two characteristics so understand more clearly what influences judgments randomness
+here offer evidence two characteristics may not only unique effects but effect one may contingent other
+particular argue effect alternation rate contingent run length

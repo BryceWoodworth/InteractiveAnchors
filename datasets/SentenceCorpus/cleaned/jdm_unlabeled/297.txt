@@ -1,0 +1,53 @@
+ 
+experiments suggested decisions experience differ decisions description
+experience-based decisions decision makers often fail maximise their payoffs
+previous authors ascribed effect underweighting rare outcomes deviation maximisation
+paper i re-examine provide further analysis effect experiment involves series simple binary choice gambles
+current experiment decisions bear small consequences repeated hundreds times feedback consequence each decision provided immediately decision outcomes accumulated
+participants learn about outcome distributions through sampling they not explicitly provided prior information payoff structure
+current results suggest hot stove effect stronger than suggested previous research important payoff variability effect effect underweighting rare outcomes analysing decisions experience features gambles must learned through sampling process
+ introduction 
+much attention been given distinction between decisions description decisions experience
+experience-based decisions people experience difficulty estimating understanding uncertainty
+erev barron hypothesised two main behavioural tendencies determine effect rare events repeated decisions experience
+first tendency rely small samples past experiences
+tendency leads underweighting rare events most samples not likely include rare events
+second tendency rely recent experiences
+when information available decision makers dms limited obtained payoffs tendency leads hot stove effect implies overweighting worst outcomes
+hot stove effect was first introduced mark twain his observation if cat jumped hot stove then she would never jump hot stove again
+however cat would never jump even cold stove
+coutu states hot stove effect fundamental problem learning reduces dms' likelihood repeating decisions got them trouble
+hot stove effect implies bias against risky alternative binary experience-based decisions
+bias product tendency reproduce actions been successful avoid recent actions led poor outcomes
+previous research experience-based decisions led mixed conclusions regard descriptive value hot stove effect
+whereas some studies demonstrate its importance other studies suggest effect weak
+paper i try clarify picture focusing choice problems barron erev erev barron
+authors conducted experiments three choice problems problem number number number were performed participants each involving number fold binary choice between h alternative higher expected value l alternative lower expected value
+table number shows payoff structure each problem
+example one selection h problem number made participants earn four points probability number number zero point otherwise
+participants their study were told experiments included many trials their goal each trial t t number number was select click one two unmarked buttons appeared computer screen
+each click resulted immediate payoff random draw payoff distribution associated selected button
+thus prior information was minimalistic participants had base their decisions experience
+participants deviated maximisation
+table number shows maximisation rate overall proportion h choices each problem example overall proportion h choices was number number problem number
+data considered erev barron tendency rely small samples appeared stronger than hot stove effect
+clearest support conclusion came problem number used clicking paradigm where number participants were asked select between unlabelled buttons computer screen number each selection click led random draw payoff distribution associated different buttons number choosing among possible options participants had rely immediate feedback obtained similar situations past
+notice problem number worst outcome number h also rare outcome probability number number
+problem number reliance small samples hot stove effect lead contradicting predictions
+reliance small samples implies rare outcome number h will underweighted prediction implies h will preferred
+hot stove effect predicts participants' learning reduces their likelihood repeating decisions they done poorly i e getting burned hot stove twain's example thus referring earning worst outcome h
+thus hot stove effect implies worst outcome number h will overweighted prediction implies l will preferred
+barron erev erev barron reported observed proportion h choices over number trials was number number
+their results suggest tendency rely small samples stronger than hot stove effect
+follow-up studies demonstrated descriptive value assumed tendency rely small samples hot stove effect
+example all leading models recent choice prediction competition focused repeated decisions experience described alternative quantifications assumptions
+however some recent results appear question erev barron's conclusions regard relative magnitude two effects
+review erev barron suggests clearest indications underweighting rare events come studies examine decisions experience complete feedback
+design controls hot stove effect provision complete feedback
+different picture however shown studies focus decisions experience limited feedback feedback limited obtained payoff foregone payoff payoff unselected option not presented
+studies reveal strong underweighting attractive rare events when reliance small samples hot stove effect lead same predictions but no clear indication underweighting unattractive rare events when two tendencies lead contradicting predictions
+verbal summary results consistent predictions leading models choice prediction competition
+example best baseline model explorative sampler recency erev et al predicts h-rate only number number problem number
+main goal current paper clarify picture picture hot stove effect stronger than suggested barron erev erev barron
+order achieve goal i implemented problem number number number
+note again hot stove effect implies bias toward l low variability option problem number number

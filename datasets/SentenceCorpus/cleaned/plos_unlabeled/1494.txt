@@ -1,0 +1,40 @@
+ 
+present molecular dynamics simulations unliganded human hemoglobin under physiological conditions starting r r2 t state
+simulations were carried out protonated deprotonated hc3 histidines his146 they sum up total length 5.6 s observe spontaneous reproducible t r quaternary transitions hb tetramer tertiary transitions subunits detected principal component projections rmsd measure rigid body rotation analysis
+simulations reveal marked asymmetry between subunits
+using mutual information correlation measure find subunits substantially more strongly linked quaternary transition than subunits
+addition tertiary populations subunits differ substantially subunits showing tendency towards r subunits showing tendency towards t based simulation results present transition pathway coupled quaternary tertiary transitions between r t conformations hb
+ introduction 
+conformational transitions allosteric proteins fundamental variety biological functions
+instance quaternary transitions hemoglobin give rise cooperativity ligand binding therefore drawn extensive ongoing scientific interest over many decades
+end points quaternary transition hb referred deoxy t state oxy r state hb characterized low high oxygen affinity respectively cooperativity ligand binding originates dependence quaternary population number liganded subunits
+oxygen affinity hb decreases lower ph phenomenon referred alkaline bohr effect
+approximately 40 percent bohr effect been attributed protonation terminal his146 residues subunits also denoted hc3 histidines 
+stereochemical explanation hb cooperativity characterization transition pathway were originally based hbco deoxyhb crystal structures corresponding r t state respectively
+according structures transition mainly described 12 15 rotation 1 1 dimer respect 1 2 dimer
+later second quaternary structure liganded hb termed r2 was found 1.1 larger distance between centers mass two subunits compared r structure
+differences between r r2 at 1 2 interface triggered still unresolved discussion whether r2 stable intermediate r-r2-t pathway
+nmr experiments indicate liganded hb solution equilibrium between r r2 structures
+more recently two additional liganded hb structures rr2 r3 were found using high-salt crystallization conditions perutz emphasizing consensus view liganded hb state solution far being reached
+rr2 represents intermediate structure between r r2 whereas distance between coms two subunits reduced 3.1 r3 compared r structure
+extensive efforts aimed identify transition pathway hb response ligand dissociation
+kinetics r t transition after photodissociation co adduct hbco been studied using time-resolved spectroscopic techniques including absorption raman circular dichroism spectroscopy
+picture derived experiments suggests multistep r t pathway via several metastable intermediates relaxation rates ranging tens nanoseconds tens microseconds time constant 21 s overall r t quaternary transition
+experiments provide extremely valuable insights into kinetics hb but they also bear limitations
+they do not directly detect global quaternary transitions but mainly measure formation hydrogen bonds aromatic residues trp37-asp94 tyr42-asp99 h-bonds must interpreted terms conformational transitions
+full-atomistic picture r t transition could so far exclusively derived mollusk dimeric hemoglobin using time-resolved x-ray crystallography
+experiments provide ensemble-averaged picture whereas hb may follow heterogeneous transition pathways may not fully reflected spectra
+furthermore contrast well-studied r t transition little known about kinetics t r transition because transition cannot triggered photolysis
+molecular dynamics simulations provide full-atomistic picture hb therefore well suited complement experimental efforts
+early md efforts focused photodissociation co were restricted dynamic treatment subset hb residues
+ramadas rifkind considered response hb perturbation heme several 100ps time scale mouawad coworkers enforced quaternary transitions within 200ps using technique called path exploration method
+addition set md simulation up 6ns were carried out focus mechanism effectors
+recently single 45-ns simulation hb was published without observing any conformational transitions
+complementary md studies normal mode analysis considered collective motions intrinsic hb tetramer elastic network study suggested t-r2 transition preferential quaternary transition pathway 
+so far no spontaneous quaternary tertiary transitions hb were observed during md simulations presumably since previous simulations were restricted too short time scales
+here apply extensive md simulations investigate deoxy r r2 t state human
+observe first time spontaneous reproducible quaternary transitions hb well tertiary transitions subunits
+hence simulations allow one study transition mechanism atomistic detail
+find t-r pathway primary quaternary transition pathway
+analyzing repeated t-r transitions find marked asymmetry between subunits
+based simulation results present schematic mechanism underlying preferential transition pathway between r t states hemoglobin

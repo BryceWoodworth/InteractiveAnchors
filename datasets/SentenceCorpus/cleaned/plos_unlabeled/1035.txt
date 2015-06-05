@@ -1,0 +1,37 @@
+ 
+perform large-scale study intrinsically disordered regions proteins protein complexes using non-redundant set hundreds different protein complexes
+accordance conventional view folding binding coupled many our cases disorder-to-order transition occurs upon complex formation localized binding interfaces
+moreover analysis disorder protein complexes depicts significant fraction intrinsically disordered regions up one third all residues being disordered
+find disorder homodimers especially symmetrical homodimers significantly higher than heterodimers offer explanation interesting phenomenon
+argue mechanisms regulation binding specificity through disordered regions complexes common unbound monomeric proteins
+fascinating diversity roles disordered regions various biological processes protein oligomeric forms shown our study may subject future endeavors area
+ introduction 
+many proteins protein regions been shown intrinsically disordered under native conditions; namely they contain no very little well-defined structure
+intrinsically disordered proteins been found wide scope organisms their disorder content was shown increase organism complexity
+comparative analysis functional roles disordered proteins suggest they predominantly located cell nucleus; involved transcription regulation cell signaling; also associated processes cell cycle control endocytosis replication biogenesis cytoskeleton 
+idps certain properties functions distinguish them proteins well-defined structures
+idps no unique three-dimensional structure isolated state but fold upon binding their interaction partners
+conformational changes upon binding proteins unstructured regions much larger than those structured proteins
+conformations disordered regions protein complex determined not only amino acid sequences but also interacting partners
+idps many different functions bind many different partners using same different interfaces
+idps accommodate larger interfaces smaller scaffolds compared proteins well-defined structure
+idps typically amino acid composition low aromatic content high net charge well low sequence complexity high flexibility
+intrinsic disorder provides rapid degradation unfolded proteins thereby enabling rapid response changes protein concentration
+finally intrinsic disorder offers elegant mechanism regulation through post-translational modifications many cellular processes 
+predictions disorder proteins take into account characteristic features unstructured proteins been shown rather successful especially case large regions
+according results casp7 best prediction groups successfully identified 50 70 percent disordered residues false positive rates 3 percent 16 percent
+prediction methods aim identify disordered regions through analysis amino acid sequences using mainly physico-chemical properties amino acids evolutionary conservation 
+protein interactions crucial protein function biological role disordered proteins should also studied context
+indeed folding disordered proteins into ordered structures may occur upon binding their specific partners may allow disordered regions structurally accommodate multiple interaction partners high specificity low affinity
+moreover been shown binding mechanism whether binding occurs between folded unfolded chains depends structural characteristics interface properties degree minimal frustration monomers
+binding through unfolded partially unfolded intermediates provide kinetic advantage through fly-casting mechanism
+according mechanism dimensionality reduction occurs when folding disordered protein coupled binding thereby speeding up search specific targets
+database continuous protein fragments been compiled protein data bank include short protein chains bound larger proteins
+been argued morfs participate coupling binding folding hypothesis was supported analysis composition predicted disorder morf segments
+result studying subtle structural differences same proteins different conditions functional states many so-called dual personality protein segments were found able exist both ordered disordered states
+there continuous range between completely structured completely disordered proteins intermediate cases rather common : proteins disordered but compact multi-domain proteins disordered linkers ordered proteins some local disorder
+examples proteins intrinsically disordered regions exhibit coupling between folding binding been described literature previously
+nevertheless universality phenomenon functional importance many disordered regions remains unclear
+question expanded further how much intrinsic disorder do protein complexes contain what its functional importance
+answer questions examine observed predicted disorder protein complexes unbound proteins using large-scale dataset protein structures
+atomic details structures conserved binding mode analysis introduced earlier allow us monitor changes happening near interaction interfaces infer their functional importance

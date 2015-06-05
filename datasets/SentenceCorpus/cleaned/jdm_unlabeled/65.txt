@@ -1,0 +1,18 @@
+ 
+hypotheses about decision processes often formulated qualitatively remain silent about interplay decision memorial other cognitive processes
+at same time existing decision models specified at varying levels detail making difficult compare them
+provide methodological primer how detailed cognitive architectures act-r allow remedying problems
+make our point address controversy namely whether noncompensatory compensatory processes better describe how people make decisions accessibility memories
+specify number models accessibility-based decision processes act-r including noncompensatory recognition heuristic various other popular noncompensatory compensatory decision models
+additionally illustrate how models tested conduct model comparison fitting models one experiment letting them generalize another
+behavioral data best accounted race models
+race models embody noncompensatory recognition heuristic compensatory models race between competing processes dissolving dichotomy between existing decision models
+ introduction 
+one way increase precision theories decision making specify cognitive processes decision-making mechanisms assumed draw
+corresponding process models predict not only what decision person will make but also how information used make decision will processed
+past decades seen repeated calls develop process models fact models become increasingly popular
+predictions made models motivated number debates example whether people rely noncompensatory lexicographic opposed compensatory weighted-additive processes inference choice estimation
+yet often process models underspecified relative process data against they tested
+article show how precision lent process models implementing them cognitive architecture
+will make our point focusing class models assume people make decisions exploiting accessibility memory contents
+models been at focus debate about what processes describe people's decisions best when they make inferences about unknown states world when predicting sports teams likely win competition politician will win election cities likely grow fastest number inhabitants

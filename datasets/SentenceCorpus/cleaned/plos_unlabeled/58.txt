@@ -1,0 +1,29 @@
+ 
+identification single nucleotide polymorphisms mutations important discovery genetic predisposition complex diseases
+pcr resequencing method choice de novo snp discovery
+however manual curation putative snps been major bottleneck application method high-throughput screening
+therefore critical develop more sensitive accurate computational method automated snp detection
+developed software tool snpdetector automated identification snps mutations fluorescence-based resequencing reads
+snpdetector was designed model process human visual inspection very low false positive false negative rate
+demonstrate superior performance snpdetector snp mutation analysis comparing its results those derived human inspection polyphred independent genotype assays three large-scale investigations
+first study identified validated inter intra-subspecies variations 4,650 traces 25 inbred mouse strains belong either mus musculus species m spretus species
+unexpected heterozgyosity cast/ei strain was observed two out 1,167 mouse snps
+second study identified 11,241 candidate snps five encode regions human genome covering 2.5 mb genomic sequence
+approximately 50 percent candidate snps were selected experimental genotyping; validation rate exceeded 95 percent
+third study detected enu-induced mutations 64,896 traces 1,236 zebra fish
+our analysis three large diverse test datasets demonstrated snpdetector effective tool genome-scale research large-sample clinical studies
+snpdetector runs unix/linux platform available publicly 
+ introduction 
+identification genetic variations mutations important discovery genetic predisposition complex diseases
+although wide variety methods available de novo single nucleotide polymorphism discovery dna sequencing method choice high-throughput screening studies
+dna sequencing may follow either random shotgun strategy directed strategy using pcr amplification specific target regions interest
+high-density haplotype map human genome nears completion demand large-scale snp surveys seeking genetic mutations linked causative wide variety human diseases expected greatly increase 
+direct sequencing pcr-amplified genomic fragments diploid samples results mixed sequencing templates
+therefore one most challenging issues snp discovery method distinguish bona fide heterozygous allelic variations sequencing artifacts give rise two overlapping fluorescence peaks similar true heterozygotes
+currently polyphred most widely used snp discovery software analysis
+reports heterozygous allele only when site shows decrease about 50 percent peak height compared average height homozygous individuals
+however inspection computational results human analysts often required ensure low false positive rate labor-intensive process
+provide sensitive accurate method snp detection fluorescence-based resequencing developed new software tool snpdetector aiming computerize manual review process
+report snpdetector's application three large-scale genetic variation studies compare its results those obtained human inspection polyphred experimental validation
+first study resequencing was used validate mouse snps discovered whole-genome shotgun sequencing
+second study identifies novel snps encode regions human genome third study aims discover mutations induced enu 1,236 zebra fish

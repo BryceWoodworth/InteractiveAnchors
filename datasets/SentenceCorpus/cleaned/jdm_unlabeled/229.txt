@@ -1,0 +1,41 @@
+ 
+when participants psychophysical experiments asked estimate identify stimuli differ single physical dimension their judgments influenced local experimental context  item presented judgment made previous trial
+been suggested similar sequential effects occur more naturalistic real-world judgments
+three experiments asked participants judge prices sequence items
+experiment number judgments were biased towards previous response assimilation but away true value previous item contrast pattern matches found psychophysical research
+experiments number number b manipulated provision feedback expertise participants found feedback reduced effect previous judgment shifted effect previous item's true price contrast assimilation
+finally all three experiments found judgments were biased towards centre range phenomenon known regression effect psychophysics
+results suggest most recently-presented item point reference current judgment
+findings inform our understanding judgment process constrain explanations local context effects put forward psychophysicists carry practical importance real-world situations contextual bias may degrade accuracy judgments
+ introduction 
+when people make basic perceptual judgments  about brightness light loudness tone example  their responses greatly influenced context stimuli presented square given size regarded large when most squares experiment smaller size but regarded small when most squares larger
+long been known insight psychophysics relevance more complex real world situations
+thus perceived severity moral transgression depends upon ensemble scenarios presented judgment even when participants explicitly instructed ignore context
+psychophysical studies therefore demonstrated importance what may termed global experimental context  set stimuli employed  determining perceptual judgments insight proven useful more complex naturalistic judgment tasks
+yet psychophysical judgments also influenced local context  stimuli presented past few trials  number authors provided evidence same principal applies more complex non-perceptual decisions too
+current article develops idea studying sequential effects complex judgment task using analytical tools experimental manipulations employed psychophysical research
+dependency perceptual judgments events last few trials been extensively researched psychophysicists
+typical approach employ regression model current judgment j dependent variable current stimulus stimuli responses trials earlier sequence predictors
+particular jesteadt luce green advocated use following regression model where p value stimulus presented current trial p value stimulus previous trial j value judgment made previous trial
+equation been applied data large number psychophysical experiments
+experiments participant presented sequence stimuli differ one physical attribute tones differ loudness asked form some judgment attribute precise nature judgment depends psychophysical task
+magnitude estimation experiments participant asked assign number indicates his her subjective impression loudness each tone either respect explicit standard absolute scale
+cross-modality matching experiments participant asked adjust magnitude one dimension loudness so matches magnitude another dimension brightness
+category judgment experiments participant asked put each stimulus into one several categories
+absolute identification experiments each stimulus given unique label  example stimuli numbered number  number  participant asked name stimulus presented each trial
+equation been used study sequential effects all paradigms
+details results depend somewhat experimental task but general pattern robust response current trial biased towards judgment made previous trial but away stimulus presented trial
+there assimilation immediately preceding response but contrast immediately preceding stimulus
+sequential effects been given various interpretations many assume there some kind perceptual interference previous stimulus previous item judgment assigned serve point reference when evaluating current stimulus
+argued even when participants asked judge stimuli respect long-term referents they use most recently experienced events framework judgment
+many real-world tasks structural similarity magnitude estimation category judgment people esimate classify sequence stimuli
+however stimuli very different
+tones lights lines used psychophysical investigations very simple notoriously difficult store long-term memory indeed frequently asserted our capacity processing stimuli limited about number items contrast our capacity recognise identify many thousands complex objects
+labile mental representations psychophysical stimuli may responsible observed sequential effects inability form accurate long-term representations may push people towards use recent items frame reference
+when people make real-world judgments about complex items when judgments type they very familiar may sequential effects eliminated people use only long-term referents stable internal scales judgment
+indeed many models sequential effects psychophysical judgment make assumptions explicitly concern perceptual tasks not readily extended other situations
+current article asks whether pattern sequential dependencies seen psychophysical tasks extends situations people make judgments about non-physical dimensions complex real-world objects
+three experiments asked participants judge prices various items
+chose task because corresponds reasonably well important aspect our economic lives routinely exposed sequences products implicitly explicitly assess their probable cost
+task was also attractive because allowed us use rich complex stimuli require judgments about property does not correspond simple physical aspect item presented judgment
+experiment number ask whether judgments price exhibit sequential dependencies type seen psychophysical experiments

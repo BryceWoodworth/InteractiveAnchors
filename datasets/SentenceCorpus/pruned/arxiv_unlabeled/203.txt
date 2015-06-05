@@ -1,0 +1,30 @@
+
+introduce new prediction each his own performance using loss function may change over time may different loss functions used other
+goal perform better not much than each all
+if loss functions used all rules all show forecasting algorithm same performance algorithm standard setting known optimal
+result also applied case
+case forecasting algorithm simple algorithm
+introduction
+consider problem online sequence prediction
+process outcomes step step
+at each step next outcome his prediction
+then actual outcome revealed
+quality prediction measured loss loss at step
+prediction framework does not make any assumptions about process
+performance compared performance several other called
+at each step each his prediction then his own prediction based predictions at step predictions outcomes at all previous losses
+there many algorithms review see
+practical applications algorithms prediction choosing loss function often problem
+task may no natural measure loss concept prediction outcome better
+thus one among several common loss functions example loss idea least methods loss information theory
+similar issue when themselves prediction algorithms some losses
+then when them according loss function
+paper new version framework prediction where there no single fixed loss function but some loss function every
+performance compared performance each according loss function
+each almost well better than
+prove known algorithm forecasting algorithm applied new setting same performance standard setting provided all loss functions rules only new all loss functions used must
+all rules particular loss functions similar each other sense another framework our methods applied see eg
+some known results case loss functions
+simple possible binary outcomes predictions finite number
+our results loss functions only
+however results more general settings outcomes arbitrary prediction many etc \ where methods work

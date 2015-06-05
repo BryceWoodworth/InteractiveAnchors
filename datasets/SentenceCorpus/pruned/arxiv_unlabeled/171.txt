@@ -1,0 +1,17 @@
+
+many data different types information about between
+field learning developed number new statistical models data
+paper focus learning model general database statistics over attributes objects e g given computer classes
+statistical relationships important themselves they support applications like policy making optimization
+most current methods find but their main task support predictions about attributes specific
+focus only prediction describe algorithms learning models task
+our algorithms learn structure
+evaluation our methods three data sets shows they learned structures represent statistical information well
+after learning database statistics into statistics via inference than does not depend size database
+introduction
+many applications data different their
+standard machine learning techniques applied data single
+field learning machine learning algorithms data
+one major machine learning tasks use data statistical model variables application domain
+learning setting goal often represent predictive between attributes single individual e g between
+setting goal often represent addition between attributes different individuals related each other e g between difficulty given

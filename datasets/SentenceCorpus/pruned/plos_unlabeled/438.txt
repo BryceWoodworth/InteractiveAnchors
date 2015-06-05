@@ -1,0 +1,46 @@
+
+important but extent regulation both number genes their targets
+using algorithm based matching potential their targets support vector machine classification explore potential regulation three
+find matching learning approach contains information allow computational prediction without across species
+using method identify genes potential target p
+more than times number
+many derived regions yet they contain features necessary correct processing
+analysis only few conserved between species
+there large potential regulatory interactions genomes investigated
+some interactions may under special environmental conditions while others when organisms new
+introduction
+small now major control gene expression
+most well known small both derived processing molecules family
+their not their mechanism action
+genome their major mechanism action thought regulation through target leading specific target
+most were so highly conserved evolution was had conserved
+those early been used number groups predict new genes
+methods genome potential form
+typically find order depending genome size search parameters
+high number then reduced only conserved other species
+another approach search only sequences form expressed sequence
+method genomes search space leading lower number but method also not expressed sequence
+version genes most conserved
+however studies rna shown lack does not mean lack function
+potentially all one many genome necessary structure sequence features
+indeed large numbers more conserved also exist
+recent study human identified patterns associated suggested number larger than
+similar situation could exist
+sequencing effort using sequence technique revealed distinct small rna species large variety genomic including dna regions
+not other studies finding large genomes also genes
+necessary feature any functional must target at least one
+means must almost some part
+set rules only certain been suggested based experimental observations
+target previously been used predict instead methods used potential target find potentially target
+will structure dynamics formation other events provide sequences almost gene one gene other genes
+not between species matching more potential regulation
+effort reduce predictions new existing regions
+although increase they also introduce biases sequences not functional each sequence only one function
+however been demonstrated recent work several groups show common
+et al point human associated transcription
+et al experimentally characterized human different types elements
+conserved other genomes authors predict additional novel derived
+observations along evidence very complex patterns including transcription importance all possible interactions order explore full potential regulation
+paper develop apply perform matching classification using support vector
+using method three genomes p find almost targets
+present many active natural selection organisms

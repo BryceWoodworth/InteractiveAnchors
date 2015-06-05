@@ -1,0 +1,47 @@
+ 
+higher-order tensor decompositions analogous familiar singular value decomposition svd but they transcend limitations matrices second-order tensors
+svd powerful tool achieved impressive results information retrieval collaborative filtering computational linguistics computational vision other fields
+however svd limited two-dimensional arrays data two modes many potential applications three more modes require higher-order tensor decompositions
+paper evaluates four algorithms higher-order tensor decomposition: higher-order singular value decomposition ho\nobreakdash-svd higher-order orthogonal iteration hooi slice projection sp multislice projection mp
+measure time elapsed run time space ram disk space requirements fit tensor reconstruction accuracy four algorithms under variety conditions
+find standard implementations ho\nobreakdash-svd hooi do not scale up larger tensors due increasing ram requirements
+recommend hooi tensors small enough available ram mp larger tensors
+ introduction 
+singular value decomposition svd growing increasingly popular tool analysis two-dimensional arrays data due its success wide variety applications information retrieval  collaborative filtering  computational linguistics  computational vision  genomics
+svd limited two-dimensional arrays matrices second-order tensors but many applications require higher-dimensional arrays known higher-order tensors
+there several higher-order tensor decompositions analogous svd able capture higher-order structure cannot modeled two dimensions two modes
+higher-order generalizations svd include higher-order singular value decomposition ho\nobreakdash-svd  tucker decomposition  parafac parallel factor analysis  also known candecomp canonical decomposition
+higher-order tensors quickly become unwieldy
+number elements matrix increases quadratically product number rows columns but number elements third-order tensor increases cubically product number rows columns tubes
+thus there need tensor decomposition algorithms handle large tensors
+paper evaluate four algorithms higher-order tensor decomposition: higher-order singular value decomposition ho\nobreakdash-svd  higher-order orthogonal iteration hooi  slice projection sp  multislice projection mp introduced here
+our main concern ability four algorithms scale up large tensors
+section motivate work listing some applications higher-order tensors
+any field where svd been useful there likely third fourth mode been ignored because svd only handles two modes
+tensor notation use paper presented section
+follow notational conventions \newcite{kolda2006moh}
+section presents four algorithms ho\nobreakdash-svd hooi sp mp
+ho\nobreakdash-svd hooi used implementations given matlab tensor toolbox
+sp mp created our own matlab implementations
+our implementation mp third-order tensors given appendix
+section presents our empirical evaluation four tensor decomposition algorithms
+experiments measure time elapsed run time space ram disk space requirements fit tensor reconstruction accuracy four algorithms under variety conditions
+first group experiments looks at how algorithms scale input tensors grow increasingly larger
+test algorithms random sparse third-order tensors input
+ho\nobreakdash-svd hooi exceed available ram when given larger tensors input but sp mp able process large tensors low ram usage good speed
+hooi provides best fit followed mp then sp lastly ho\nobreakdash-svd
+second group experiments examines sensitivity fit balance ratios core sizes defined section
+algorithms tested random sparse third-order tensors input
+general fit four algorithms follows same pattern first group experiments hooi gives best fit then mp sp ho\nobreakdash-svd but observe sp particularly sensitive unbalanced ratios core sizes
+third group explores fit varying ratios between size input tensor size core tensor
+group move third-order tensors fourth-order tensors
+algorithms tested random fourth-order tensors input tensor size fixed while core sizes vary
+fit algorithms follows same pattern previous two groups experiments spite move fourth-order tensors
+final group measures performance real nonrandom tensor was generated task computational linguistics
+fit follows same pattern previous three groups experiments
+furthermore differences fit reflected performance given task
+experiment validates use random tensors previous three groups experiments
+conclude section
+there tradeoffs time space fit four algorithms there no absolute winner among four algorithms
+choice will depend time space fit requirements given application
+if good fit primary concern recommend hooi smaller tensors fit available ram mp larger tensors

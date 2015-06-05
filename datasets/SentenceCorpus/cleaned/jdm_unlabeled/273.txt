@@ -1,0 +1,42 @@
+ 
+manipulating scale graphs study demonstrated new evaluation bias caused attribute salience graphical representations
+decompressing graph axis scale changed relative distance respect options given attribute thus changed salience information graphical representations
+experiment number showed differences graphical representations had significant impact evaluation
+experiment number repeated scale manipulation effect different scenario extended multi-options context
+experiment number disentangled effect scale distance manipulation other variables e g scale resolution assignment attributes axes further supported finding experiment number
+results indicated attribute salience graphical representations clearly affects evaluations graphs manipulated cause very different impressions same data
+finding not consistent axioms normative economic theory
+experiment number also tested attribute importance hypothesis but evidence indicated participants did not regard longer axis more important attribute
+finally related our findings impact visual processing decision making discussed them perspective two-system cognitive theory
+ introduction 
+people often focus single salient aspect problem overlook rest when making decision
+limited focus cause bias decision making process leads results violate axioms normative economic theory
+interestingly incidental information e g way preferences elicited wording options could some cases determine information perceived salient thus what people would focus decision making situations
+evidence indicated means preference elicitation e g choose vs reject likely shift focus decision makers
+hypothetical sole-custody case shafir found people who had option choose tended focus parents' positive attributes whereas people who were asked reject tended focus parents' negative attributes
+result preference-reversal occurs when same enriched option was majority choice both choosing rejecting
+line focusing view jones frisch yurak kim reported interesting framing effect caused description options
+when decision was described choice e g should i move new york stay chicago
+people paid equal attention each options
+however when same decision was described opportunity e g should i move new york
+people focused their attention single option was explicitly mentioned
+thus preference was changed when opportunity description made single option more salient
+levin levin gaeth evaluated associative effects various ways framing consumer information found consumers' evaluations were more favorable toward beef labeled number percent lean than labeled number percent fat because information about lean percentage was salient former but not latter
+kahneman tversky found there was pseudo-certainty effect two-stage risky choice showing individuals tended neglect earlier contingency only focus second contingent decision
+recently li su sun reported similar pseudo-immediacy effect two-stage intertemporal choice
+interestingly people also tend make biased spatial judgments result focusing only most salient aspects spatial stimuli ignoring other dimensions
+example piaget found children appeared use only height container when making volume judgments ignored diameter cylinder
+raghubir krishna even found similar results adults
+verge bogartz asked children adjust square match area rectangle found majority children tended equate side square either width height rectangle neglect other relevant dimension
+similarly raghubir krishna found people often use direct distance between endpoints nonstraight path proxy distance judgment little regard path configuration
+recent study direct distance bias was even able found real stock market situation information was presented using graphs
+stocks higher run lengths were often perceived riskier
+since people often focus most salient aspects spatial judgments tend biased focus attention choice reviewed above conjectured focusing bias would also appear decision making problems presented graphs if manipulated graphical representations options
+order appreciate significance manipulation see scholarship problem figures number number same information provided each figure but salience information spatial graphical representation differs function scale employed each graphs
+waiting time attribute appears relatively salient figure number whereas money amount attribute appears relatively salient figure number
+imagine you applied scholarship
+two types scholarships b were presented graphs involving two attributes money amounts waiting time
+obviously you would glad if you could get scholarship less waiting time but more money
+basis following data please indicate your preference strength number point scale ranging number not at all number extremely each type scholarship
+hypothesized evaluation two types would affected scale employed graphs since people tend focus salient attribute
+specifically preference strength type would higher participants who saw figure number than those who saw figure number but reverse would true type b

@@ -1,0 +1,49 @@
+
+given \ data unknown distribution consider problem predicting future items
+adaptive way estimate probability density domain appropriate
+bayesian inference one prior probability leads prior over many
+derive exact fast simple inference algorithm prior data evidence predictive distribution effective model dimension other
+prove convergence consistency results behavior our model some functions
+introduction
+consider problem inference \ data particular unknown distribution data
+case continuous domain means probability density data
+without structural assumption since finite amount data sufficient density model space model class
+estimation one family
+family characterized mean
+maximum likelihood estimate distribution data likelihood
+maximum likelihood if family too large especially if
+complex distributions prior order probability
+model likelihood times prior
+full bayesian procedure complete inference
+typically like mean reported } choose prior } finite small prior often
+case one typically model classes increasing dimension
+dimension often well due factor phenomenon case true model complex model classes since they contain models
+full bayesian treatment one would prior probability e g \ dimension over dimension
+model domain into assume constant distribution within each take frequency estimate probability each bayesian inference
+there heuristics choosing number function data size
+model very
+distributions its one dimension at most low more generally fixed heuristic choice number
+present full bayesian solution problems problem
+our model
+there alternative bayesian models some all
+examples % continuous process % % bayesian field theory % % bayesian % bayesian kernel density estimation % other mixture models universal % but exact solutions
+% markov sampling % maximization algorithms % methods % efficient % kernel density estimation % often used obtain approximate numerical solutions but time global convergence critical
+there also density see general density tree estimation particular
+idea model class discussed paper very some e g \ probability either domain two prior each part i e \ each part either
+many constant function many any distribution
+while prior over about versus will see if only if data
+method full bayesian tree approach adaptive present very simple fast algorithm all interest
+note not our model better practice than more models above
+main feature our model allows fast exact solution
+likely use complex problems where time bayesian integration major
+any case tree model attention also our model should
+section introduce our model compare
+also discuss some example domains like classification tasks
+% section data evidence
+% section
+% section introduce further interest including effective model dimension tree size cell present them
+% case discussed section where solve at data level
+% section together algorithm
+% section behavior our model some functions
+% section contains including natural our model
+% see program

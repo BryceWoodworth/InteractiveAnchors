@@ -1,0 +1,25 @@
+
+computational identify functional elements within genomes comparative sequence information regions exhibit evidence
+one way elements approach individual multiple alignment then elements highly
+here present new uses maximum likelihood evolutionary rate estimation contrast previous methods novel dynamic approach define elements
+set them based statistical need heuristic techniques
+using identify over elements over percent human genome
+predict higher than estimates due elements one one between predicted elements known functional sequences
+efficient effective provide both within multiple sequence
+introduction
+identification all functional elements human genome one main general particular
+comparative sequence analysis multiple sequence human genome species become goal sequence due negative selection often strong signal biological function
+after multiple sequence alignment one evolutionary rates at level individual identify alignment show significantly levels
+several computational methods detection been developed most into one two approaches explicitly model distribution within alignment approaches first estimate at individual then clusters highly
+widely used approach uses markov model find most likely alignment into hidden states
+while widely used modeling biological sequences they known transition probabilities specific state distribution context means predicted length
+may bias resulting estimates length total genomic under
+one leading approaches terms difference between rate observed rate estimated maximum likelihood manner
+however because its maximum likelihood uses maximization algorithm estimate new set each position step also because involves parameters data
+furthermore heuristic used may biases length predicted
+work present novel method detection like uses metric
+uses significantly more robust maximum likelihood estimation procedure expected rates evolution results more than reduction time
+addition introduce novel criterion into elements using statistical our predictions
+apply dynamic approach predict set elements their positive rate estimate
+using alignment human genome other species over elements over percent human genome high confidence
+compared previous methods predict larger human genome elements due many but elements very low positive rate

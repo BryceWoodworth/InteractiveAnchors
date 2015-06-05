@@ -1,0 +1,23 @@
+
+note show how method maximum entropy mean may used improve estimation when measurements large level noise
+method developed context estimation parameter distribution
+compare performance our method bayesian maximum likelihood approaches
+introduction
+you measure some some other random variable distribution time life time process
+assume well noise process random variable whose may same order rate measured
+make assume you only very few measurements
+if value variable one only measure where small noise
+other words assume you know sample specific distribution but noise
+what do
+one possible approach apply small sample statistical estimation
+but designed problems where due only random nature there no other noise still another one explore here apply method estimate both unknown variable noise level
+problem problem } where convex set some matrix depends how our problem
+could example consider following find } our case set could consider problems one every then estimation
+problem
+what important here output method itself unknown parameter
+then out noise
+method maximum entropy mean rather well problems like 1
+see early development full mathematical treatment
+below review what method about then apply obtain
+section obtain section examine some its properties particular examine what results would if either noise level were small number measurements were large
+section some simulations method compared bayesian maximum likelihood approaches

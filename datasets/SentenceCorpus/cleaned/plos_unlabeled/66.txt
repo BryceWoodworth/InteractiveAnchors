@@ -1,0 +1,27 @@
+ 
+massive amounts data being generated effort represent brain expression all genes at cellular resolution
+critical exploiting effort ability place data into common frame reference
+here developed computational method annotating gene expression patterns context digital atlas facilitate custom user queries comparisons type data
+procedure been applied 200 genes postnatal mouse brain
+illustration utility identify candidate genes may related parkinson disease using expression dopamine transporter substantia nigra search query pattern
+addition discover transcription factor rorb down-regulated barrelless mutant relative control mice quantitative comparison expression patterns layer iv somatosensory cortex
+semi-automated annotation method developed here applicable broad spectrum complex tissues data modalities
+ introduction 
+high-resolution maps gene expression provide important information about how genes regulate biological processes at cellular molecular levels
+therefore multitude efforts progress depict gene expression at single cell resolution specimens ranging organs embryos
+common genome-scale projects they generate vast numbers images expression patterns reveal presence transcripts proteins particular cell group cells within natural context
+however large collections images limited usefulness per se without efficient means mine images characterize compare gene protein expression patterns
+analogy requirements mining genomic sequence information meaningful retrieval expression patterns requires suitable annotation
+annotation mean associating sites strengths expression digital representation anatomy specimen
+annotation approach taken gene expression database hand-curate published gene expression patterns using extensive dictionary anatomical terms
+annotation facilitated edinburgh mouse atlas project provides anatomical ontology relationships using hierarchical tree
+visualization achieved associating terms locations volumetric model
+edinburgh mouse atlas project also provides tools map situ hybridization images directly into three-dimensional atlas
+although hand curation effective method annotation not efficient means handling large-scale datasets systematically collected robotic ish
+addition if future changes made anatomical designations updating annotation may require laborious review previously annotated data
+here present completely novel approach uses geometric modeling technique create digital atlas postnatal day 7 mouse brain
+deformable atlas then adjusted match major anatomical structures present p7 mouse brain tissue sections accurately define boundaries between structures provide smooth multi-resolution coordinate representation small structures
+when combining technique method detecting strength gene expression one efficiently automatically annotate large number gene expression patterns way subsequently allows queries comparisons expression patterns user-defined regions interest
+p7 mouse brain was selected specimen because at developmental stage many complex brain functions begin established yet existing information underlying molecular mechanisms still relatively limited
+describe here creation prototype 200-gene dataset generated using robotic ish application our deformable atlas-based annotation method dataset
+then demonstrate utility approach two examples: searching genes expressed substantia nigra identifying genes potentially involved functional regionalization cortex

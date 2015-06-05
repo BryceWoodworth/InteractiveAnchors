@@ -1,0 +1,53 @@
+ 
+physicians often encounter diagnostic problems ambiguous conflicting features
+what they likely do situations
+presented diagnostic scenario number family physicians traced their information gathering diagnoses management
+scenario contained ambiguous feature while other features supported either cardiac musculoskeletal diagnosis
+due risk death cardiac diagnosis should considered managed appropriately
+forty-seven participants number percent gave only musculoskeletal diagnosis number them managed patient inappropriately sent him home painkillers
+they elicited less information spent less time scenario than those who diagnosed cardiac cause
+no feedback was provided participants
+stimulated recall number physicians revealed differences way same information was interpreted function final diagnosis
+musculoskeletal group denigrated important cues making them coherent their representation pulled muscle whilst cardiac group saw them evidence cardiac problem
+most physicians indicated they were fairly very certain about their diagnosis
+observed behaviours described coherence-based reasoning whereby emerging judgment influences evaluation incoming information so confident judgments achieved even ambiguous uncertain conflicting information
+role coherence-based reasoning medical diagnosis diagnostic error needs systematically examined
+ introduction 
+diagnosis chest pain primary care notoriously difficult
+cause pain usually not life threatening
+however conditions acute coronary syndrome pulmonary embolism may fatal if unrecognised not promptly treated
+there evidence myocardial infarction mi may missed primary care
+missed mi commonest cause negligence claims against primary care physicians usa relates more deaths than other conditions claims against family physicians uk
+epidemiological studies found atypical presentations well patients attributing their symptoms non-cardiac cause significant factors missed diagnoses mi
+studied diagnosis atypical chest pain using simulated patient who attributes his pain pulled muscle
+scenario described detail later included conflicting features i e some features pointing cardiac diagnosis others pointing musculoskeletal diagnosis
+accounts coherence-based reasoning describe how people deal situations what they do order resolve conflict
+faced equivocal i e non-diagnostic information about two alternatives people will spontaneously form preference one alternative will distort information received subsequently so favors preferred alternative
+they may even distort information clearly favors one alternative order preserve earlier preference other alternative though distortion generally declines diagnosticity information increases
+if preferences judgments change result new incoming information distortion continues operate now favor new preference judgment
+seems distortion information psychological necessity helps individuals form maintain coherent judgments
+parallels medical diagnosis drawn studies legal decision making
+simon colleagues gave participants legal case conflicting information i e where each position was supported equal amounts probabilistic evidence asked them render verdict indicate their confidence
+they pre-disposed participants either guilt verdict innocence verdict presenting them dna evidence either incriminated exonerated defendant odds number number million dna evidence being wrong
+before seeing case participants had been asked rate diagnosticity each piece evidence presented them unrelated vignettes describing various social situations
+after they read rendered their verdict legal case participants were asked rate diagnosticity each piece evidence again time presented them context case
+new ratings were consistent verdict significantly differed ones made earlier unrelated vignettes
+seems whilst evidence was initially perceived truly equivocal non-diagnostic was subsequently contextualised became part mental model legal case
+its perceived diagnosticity thus increased line verdict
+authors argue dna match should bear no relationship other pieces evidence case reliability eyewitness' identification
+nevertherless now perceived related their evaluation shifts support final verdict  what authors call coherence shifts
+basic experimental procedure been repeated several variations order test whether different factors affected coherence-based reasoning
+coherence shifts were found even when participants were asked simply memorise ambiguous legal case
+when they were unexpectedly asked render verdict rate their agreement various arguments case agreement had shifted baseline function final verdict
+largest shifts however were observed between baseline interim phase after memorisation but before being asked render verdict indicate leaning towards verdict
+findings suggest coherence shifts happen pre-decisionally not simply result decision justification
+processing complex legal case contained conflicting arguments intention either make decision later receive further information memorise order communicate someone else resulted comparable coherence shifts
+was attributed intense attempt comprehend complex material represent mentally coherent way
+pre-decisional distortion information been investigated mostly college students tasks required no prior experience technical skill
+professionals people experience specific domain making judgments within their domain expertise rarely studied
+one study participants experienced horse race betting evaluated task-related information chances horses winning simulated race accordance their final choice either anticipation having place bet later consequence simply processing task information
+they distorted information greater extent than participants without experience betting horses
+wanted investigate how physicians deal difficult diagnostic problems contain conflicting information where diagnoses cannot confirmed excluded certainty
+diagnosis chest pain primary care lends itself type enquiry
+chest pain scenario was one seven scenarios built larger study investigated relationship between experience information search diagnostic accuracy difficult problems family medicine
+found across scenarios experience was not related diagnostic accuracy was predicted only number critical cues elicited i e cues diagnostic value relevant differential diagnoses

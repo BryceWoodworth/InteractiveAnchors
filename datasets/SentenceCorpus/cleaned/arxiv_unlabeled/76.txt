@@ -1,0 +1,30 @@
+ 
+supervised learning deals inference distribution over output label space conditioned points observation space  given training dataset pairs
+however lot applications interest acquisition large amounts observations easy while process generating labels time-consuming costly
+one way deal problem active learning where points labelled selected aim creating model better performance than model trained equal number randomly sampled points
+paper instead propose deal labelling cost directly: learning goal defined minimisation cost function expected model performance total cost labels used
+allows development general strategies specific algorithms though main focus paper optimal stopping also aim provide background further developments discussion related field active learning
+ introduction 
+much classical machine learning deals case where wish learn target concept form function  when all finite set examples
+however many practical settings turns out each example set only observations available while availability observations restricted sense either paper deal second case where actually obtain labels any  but doing so incurs cost
+active learning algorithms i e  deal indirectly selecting examples expected increase accuracy most
+however basic question whether new examples should queried at all seldom addressed
+paper deals labelling cost explicitly
+introduce cost function represents trade-off between final performance terms generalisation error querying costs terms number labels queried
+used two ways
+firstly basis creating cost-dependent stopping rules
+secondly basis comparison metric learning algorithms associated stopping algorithms
+expound further decide when stop estimating expected performance gain querying additional examples comparing cost acquiring more labels
+one main contributions development methods achieving bayesian framework
+while due nature problem there potential misspecification nevertheless show experimentally stopping times obtain close optimal stopping times
+also use trade-off order address lack principled method comparing different active learning algorithms under conditions similar real-world usage
+comparison method choosing stopping times independently test set needed
+combining stopping rules active learning algorithms allows us objectively compare active learning algorithms range different labelling costs
+paper organised follows
+section introduces proposed cost function when labels costly while section discusses related work
+section derives bayesian stopping method utilises proposed cost function
+some experimental results illustrating proposed evaluation methodology demonstrating use introduced stopping method presented section
+proposed methods not flawless however
+example algorithm-independent stopping rule requires use iid
+examples may interfere its coupling active learning algorithm
+conclude discussion applicability merits deficiencies proposed approach optimal stopping principled testing active learning

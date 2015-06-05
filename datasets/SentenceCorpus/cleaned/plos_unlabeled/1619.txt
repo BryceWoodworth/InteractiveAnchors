@@ -1,0 +1,50 @@
+ 
+non-intermingling adjacent populations cells define compartment boundaries; boundaries often essential positioning maintenance tissue-organizers during growth
+developing wing primordium drosophila melanogaster signaling secreted protein hedgehog required compartment boundary maintenance
+however precise mechanism hh input remains poorly understood
+here combine experimental observations perturbed hh signaling computer simulations cellular behavior connect physical properties cells their hh signaling status
+find experimental disruption hh signaling observable effects cell sorting surprisingly far compartment boundary contrast previous model confines hh influence compartment boundary itself
+recapitulated our experimental observations simulations hh diffusion transduction coupled mechanical tension along cell-to-cell contact surfaces
+intriguingly best results were obtained under assumption hh signaling cannot alter overall tension force cell but will merely re-distribute locally inside cell relative signaling status neighboring cells
+our results suggest scenario homotypic interactions putative hh target molecule at cell surface converted into mechanical force
+scenario could explain why mechanical output hh signaling appears confined compartment boundary despite longer range hh molecule itself
+our study first couple cellular vertex model describing mechanical properties cells growing tissue explicit model entire signaling pathway including freely diffusible component
+discuss potential applications challenges approach
+ introduction 
+during embryonic development complex multicellular organisms spatial reference points need established within tissues
+often formed specialized groups cells capable signaling neighboring cells
+signaling centers define coordinate systems along newly arising cells orient themselves make crucial decisions regarding proliferation differentiation migration
+because their pervasive importance tissue-organizing centers need precisely controlled both spatially temporally well respect their signaling amplitude
+one possible mechanism spatial control tissue organizers restrict movement cells at fixed boundary positions
+phenomenon indeed observed involves separation groups cells already been spatially instructed assume distinct identities example at segment parasegment-boundaries
+akin water oil two cell populations seen establish maintain relatively straight interface each other effectively minimizing their contact area
+minimizing force assumed help stabilize interface against random perturbations may arise cell divisions arbitrary cell movements; thus any organizing activity associated interface likewise stabilized
+how separation sorting cells distinct identities achieved
+one line work attributes differential cell adhesion : cell populations might develop distinct adhesive properties; affinity differences would then allow them sort out one another
+another line reasoning based differential interfacial tension : hypothesis suggests cells might actively constrict surfaces contact neighboring cells depending cellular identity neighbors and/or depending signaling events
+both mechanisms would ultimately lead physical forces would help keep cell populations apart
+developing wing primordium drosophila particularly well suited study boundary formation
+not required larval viability manipulated experimentally through advanced genetic toolkit been well characterized
+disc contains compartment boundary separates anterior posterior cells; boundary inherited specification events occurring early embryo
+initial embryonic events give rise boundary involve mutual signaling between stripes cells mediated extensively studied network genes
+once established cellular identities both sides boundaries stable throughout larval development well into adult life
+compartment boundary disc strictly respected all cells even when cells one side boundary artificially provided competitive growth advantage over cells other side boundary
+wing disc itself simple flat epithelial sheet orientations cell divisions appear largely random
+genetic analysis computational modeling tissue simplified fact daughter cells arising cell divisions usually remain physical contact do not migrate away each other
+been shown experimentally tracing descendents single cells; most cases clone offspring cells will form coherent patch connected cells
+behavior suggests complicated processes cell intercalation migration neglected first approximation when studying boundary maintenance tissue
+working wing discs recent seminal study begun shed light possible boundary formation mechanisms
+authors directly demonstrated increased mechanical tension at cell-to-cell interfaces located immediately at boundary using laser ablation experiments
+subsequent computer simulations then revealed collectively local forces sufficient maintain stable compartment boundary
+results intriguing but they raise number new questions: boundary formation wing disc known depend secreted diffusible signaling protein hedgehog produced posterior cells specifically sensed transduced anterior cells
+if diffusible hh indeed somehow influences mechanical tension what conditions must then met ensure well-defined boundary
+so far all known transcriptional responses hh signaling occurring several cell-diameters wide into responding tissue
+how response case restricted immediate boundary region
+furthermore experimental suppression hh signaling been shown lead ectopic boundary formation distant actual boundary
+does mean influence hh signaling does extend beyond actual boundary if so why does not noticeable consequence wild type situation
+here propose mechanistic model generate localized outcome hh signaling respect physical forces mechanical properties despite longer range molecular response terms target gene expression
+furthermore estimate distance boundary up hh signaling may able prime cells boundary formation; distance inferred using both experimental results well modeling results estimate at least 10 cell diameters
+approach problem first formulating explicit two-dimensional model hh production diffusion transduction then coupling setup physical model growing tissue
+our modeling approach cells their contact surfaces described graph connected vertexes
+our model essentially follows differential interface tension hypothesis; modified version model been previously established very same tissue
+observe good compartment boundary formation over range simulation parameters modeling outcomes agree qualitatively experimental perturbations specifically performed study

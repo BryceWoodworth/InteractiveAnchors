@@ -1,0 +1,73 @@
+
+protein point mutations essential component evolutionary experimental analysis protein structure function
+while many point mutations most experimentally generated point mutations biological changes described literature
+describe application mutation point mutations literature
+problem point mutation point mutation its associated protein
+our algorithm uses identify relevant associations protein database information
+graph method different other models point mutation frequency data all terms article point mutation protein
+our method was tested point mutations g protein receptor kinase protein
+our graph metric against metric term datasets literature three different protein
+our testing shows graph metric higher protein
+situations where more than one protein point mutation required graph metric compared distance metric
+graph search metric significant over previous search point mutation application words
+introduction
+high biological value complex biological systems
+tools become part analysis datasets
+when complex data analysis
+when data distributed must strategy must develop tools literature relevant information
+online developed need but they difficult scale
+biological field identify information literature database
+two types tasks biological gene protein interactions between proteins
+was focused additional task functional
+other applications focus hypothesis protein pathway discovery
+recent work also focused protein point mutations literature
+protein point mutations amino one important our understanding protein function evolutionary relationships genetic
+functional perspective researchers introduce point mutations into proteins importance particular protein function
+evolution upon mutations dna mechanism protein sequences
+while term mutation used changes means difference within species point mutation different amino reference amino
+human gene mutation database two many point mutations their effects
+input into database information represented but does complex information difficult tools
+task point mutation into two
+first necessary identify protein mutation terms discussed within article
+after identified must made between point mutation its correct protein
+problem when paper single protein but complex when multiple proteins present
+our evaluation mutation graph related kinase protein
+using our protein term identification method out total point mutation could multiple proteins
+few methods point mutation been developed
+et al describe method called mutations
+describe method called mutation point mutation into protein structure application
+our own group presented point mutation method applied g protein receptor receptor literature
+use search identify distance between multiple protein terms
+both methods while simple method point mutation were limited two
+first distance not always correct between protein terms
+second was set more limited than article
+our literature set only percent point mutations found full
+point mutations were also against only contains point mutations
+was receptor literature algorithm protein amino cases
+mutation approaches problem
+method proteins organisms point mutations using analysis at level
+pair if both patterns
+method would work well if all point mutations were described associated proteins organisms at level observed not always case
+mutation also protein sequence information but use protein structures mutation information instead point mutation
+our method mutation using novel graph metric frequency terms between proteins information
+like mutation protein database sequence contains more sequence variation than
+utility our application algorithm all protein our method three different protein family literature sets
+more detailed mutation described section
+our task point mutations protein terms not sufficient protein must also find its correct gene corresponding database
+problem its correct gene
+solutions methods approaches combination both
+some methods may not our point mutation task
+participants were provided large set under three different human yeast
+some solutions learning training data each then learned functions test set also
+approach our task two
+first because point mutations at protein family level methods protein would not analysis across many species
+second our goal point mutation any proteins
+approaches large detailed training sets
+our experience involved amount necessary learn protein family specific scale presented likely point mutation
+methods features identification generally perform at lower than methods machine learning
+however since methods do not require training data they when data difficult
+our approach protein term identification similar other approaches
+first using proteins protein protein their
+terms then literature
+depending length terms search different levels
+further description detailed methods section

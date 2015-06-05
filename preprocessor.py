@@ -225,10 +225,10 @@ def construct_Q(H):
 
 
 if __name__ == '__main__':
-    base_dir = '/home/ephax/code/datasets/SentenceCorpus/unlabeled_articles'
-    stop_file = '/home/ephax/code/datasets/SentenceCorpus/word_lists/stopwords.txt'
-    clean_dir = '/home/ephax/code/datasets/SentenceCorpus/cleaned'
-    prune_dir= '/home/ephax/code/datasets/SentenceCorpus/pruned'
+    base_dir = 'datasets/SentenceCorpus/unlabeled_articles'
+    stop_file = 'datasets/SentenceCorpus/word_lists/stopwords.txt'
+    clean_dir = 'datasets/SentenceCorpus/cleaned'
+    prune_dir= 'datasets/SentenceCorpus/pruned'
     vocab_size = 1000
 
     with open(stop_file) as stopfile:

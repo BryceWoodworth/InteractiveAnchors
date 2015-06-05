@@ -1,0 +1,57 @@
+
+during development information provided concentration factors pattern formation dependent cues gene expression
+example activation gene at response local
+regulatory region contains multiple binding sites protein well multiple binding sites protein
+some previous studies suggested sufficient expression yet other evidence suggests need additional regulation
+experimentally dynamics gene expression were were binding construct two sites
+addition experiments developed reaction model transcription binding used analysis multiple states reaction network
+our model dynamics predicts patterns
+analysis our model produced spatial two stable levels expression
+behavior
+binding position where occurs but not itself sufficient pattern
+our results show control processes
+our model changes position observed different experiments provides theoretical framework understanding data particular spatial play central role mechanisms information
+introduction
+how pattern form state people at least since time
+over example experiments proposed system cellular experiments who showed secondary when into body another
+other results were into information
+according concept spatial concentration signals provide information during cellular each cell its position local concentration
+concept become central biology
+molecular techniques demonstrated cases protein concentration patterns many been shown
+protein was characterized its effect target genes was demonstrated
+since become one most studied examples signaling biology
+models been applied describe variety systems biology
+along many mathematical tools been developed support applications
+tools one show certain reaction networks may exhibit multiple states particular their rate
+special case system either two stable states
+under certain conditions spatial
+biology long been control cell cycle other also recently reported gene regulation network
+spatial been proposed
+early protein at end concentration
+through its distribution at genes will
+combination between genes initial first
+still not well characterized however what mechanisms information into target gene expression
+one first genes strong expression at
+activation depends shown et al et al its own reported et al et al many binding sites been identified region reported et al among others
+provides information other genes gene
+both expression results most
+normal development expression over about percent length attention been focused what molecular mechanism
+early was shown base pairs binding sites sufficient regulatory activity
+was shown sites was due small change concentration across some threshold could produce large change expression pattern
+however studies did not sufficient generate
+degree et al used site i found about et al using found
+patterns proteins et al estimated higher value suggested could support expression determined binding
+however systems high would expected show sensitivity
+et al showed strongly affected changes c but pattern
+between would expected show far greater effects than observed cannot only factor
+produce also findings et al who showed between necessary expression patterns genes including itself
+address taken combined experimental theoretical approach understand how gene information into expression pattern
+used experimentally determine how position change measured how affected binding use 2 binding sites
+also developed predictive reaction model transcription both binding
+model patterns determined parameters model binding
+parameters our model dynamic development pattern
+binding number binding sites our model same our experiments predicts loss experimentally
+systems theory model show due spatial
+means does not single concentration dependent but at threshold concentration two stable states become available small change concentration concentration
+between states
+position threshold binding but mechanism itself not sufficient generate expression

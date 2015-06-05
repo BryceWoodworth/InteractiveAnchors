@@ -1,0 +1,27 @@
+ 
+multi-task learning several related tasks considered simultaneously hope appropriate sharing information across tasks each task may benefit others
+context learning linear functions supervised classification regression achieved including priori information about weight vectors associated tasks how they expected related each other
+paper assume tasks clustered into groups unknown beforehand tasks within group similar weight vectors
+design new spectral norm encodes priori assumption without prior knowledge partition tasks into groups resulting new convex optimization formulation multi-task learning
+show simulations synthetic examples \textsc{iedb} mhc-i binding dataset our approach outperforms well-known convex methods multi-task learning well related non convex methods dedicated same problem
+ introduction 
+regularization emerged dominant theme machine learning statistics providing intuitive principled tool learning high-dimensional data
+particular regularization squared euclidean norms squared hilbert norms been thoroughly studied various settings leading efficient practical algorithms based linear algebra very good theoretical understanding see eg  
+recent years regularization non hilbert norms norms  also generated considerable interest inference linear functions supervised classification regression
+indeed norms sometimes both make problem statistically numerically better-behaved impose various priori knowledge problem
+example norm sum absolute values imposes some components equal zero widely used estimate sparse functions  while various combinations norms defined impose various sparsity patterns
+while most recent work focused studying properties simple well-known norms take opposite approach paper
+assuming given prior knowledge how design norm will enforce
+more precisely consider problem multi-task learning recently emerged very promising research direction various applications
+multi-task learning several related inference tasks considered simultaneously hope appropriate sharing information across tasks each one may benefit others
+when linear functions estimated each task associated weight vector common strategy design multi-task learning algorithm translate some prior hypothesis about how tasks related each other into constraints different weight vectors
+example constraints typically weight vectors different tasks belong euclidean ball centered at origin  implies no sharing information between tasks apart size different vectors i e  amount regularization b ball unknown center  enforces similarity between different weight vectors c unknown low-dimensional subspace
+paper consider different prior hypothesis believe could more relevant some applications: hypothesis different tasks fact clustered into different groups weight vectors tasks within group similar each other
+key difference  where similar hypothesis studied don't assume groups known priori sense our goal both identify clusters use them multi-task learning
+important situation motivates hypothesis case where most tasks indeed related each other but few ``outlier'' tasks very different case may better impose similarity low-dimensional constraints only subset tasks thus forming cluster rather than all tasks
+another situation interest when one expect natural organization tasks into clusters when one wants model preferences customers believes there few general types customers similar preferences within each type although one does not know beforehand customers belong types
+besides improved performance if hypothesis turns out correct also expect approach able identify cluster structure among tasks by-product inference step eg  identify outliers groups customers interest further understanding structure problem
+order translate hypothesis into working algorithm follow general strategy mentioned above design norm penalty over set weights used regularization classical inference algorithms
+construct penalty first assuming partition tasks into clusters known similarly
+then attempt optimize objective function inference algorithm over set partitions strategy proved useful other contexts multiple kernel learning
+optimization problem over set partitions being computationally challenging propose convex relaxation problem results efficient algorithm

@@ -1,0 +1,51 @@
+ 
+transcription factor myc plays central role regulating cell-fate decisions including proliferation growth apoptosis
+maintain normal cell physiology critical control myc dynamics precisely orchestrated
+recent studies suggest control myc achieved at post-translational level via protein stability modulation
+myc regulated two ras effector pathways: extracellular signal-regulated kinase phosphatidylinositol 3-kinase pathways
+gain quantitative insight into myc dynamics developed mathematical model analyze post-translational regulation myc via sequential phosphorylation erk pi3k
+our results suggest myc integrates erk pi3k signals result various cellular responses differential stability control myc protein isoforms
+signal integration confers flexible dynamic range system output governed stability change
+addition signal integration may require saturation input signals leading sensitive signal integration temporal features input signals insensitive response their amplitudes resistance input fluctuations
+further propose characteristics protein stability control module myc may commonly utilized various cell types classes proteins
+ introduction 
+proto-oncogene protein myc transcription factor regulates numerous signaling pathways involved cell-fate decisions
+sufficient accumulation myc leads activation cyclin d cyclin dependent kinases subsequently phosphorylate rb release e2f
+results initiation dna replication cell cycle entry
+excessive accumulation myc however induces apoptosis when cells under stress deprived growth factors
+finally myc also drives cell growth activating genes encode cellular metabolic activities including translational factors ribosomal proteins rnas 
+given its importance myc activity must properly controlled response different environmental cues
+past studies suggested myc regulated at multiple levels including auto-regulation myc transcription post-transcriptional regulation
+more recent discoveries indicate myc also dynamically regulated at protein level ras effector pathways
+discoveries suggest myc protein undergoes series modifications sequential irreversible
+more specifically when myc newly synthesized highly unstable quickly undergoes ubiquitination degradation
+substantially stabilized when phosphorylated at serine 62 ras-activated erk activity
+subsequent phosphorylation myc at threonine 58 gsk3 however initiates destabilization process sequential manner
+achieved dephosphorylation mechanism prolyl isomerase pin1 protein phosphatase pp2a
+once myc phosphorylated at thr58 pin1 induces undergo conformation changes required pp2a dephosphorylate ser62 residue
+date only dephosphorylation mechanism identified myc stabilization processes
+destabilization myc gsk3 blocked ras-activated pi3k pathway 
+unique control myc dynamics sequential phosphorylation allows myc integrate upstream signals erk pi3k play critical roles controlling diverse cell fates
+erk often exhibits early transient peak activation upon growth stimulation
+peak followed varying residual activities depend cell lines growth factors
+residual erk critical downstream signal encoding
+example pc12 cells small residual erk activity result epidermal growth factor stimulation leads proliferation
+contrast high residual erk activity result nerve growth factor stimulation same cell line leads differentiation
+residual erk level also been observed critical regulating c-fos level fibroblasts 
+pi3k activation pattern depends cell lines stimulants detailed table s2
+bimodal various cell lines including wi38 nih 3t3 hepg2 when stimulated platelet-derived growth factors fetal bovine serum
+contrast pi3k appears only early transient single peak u-2os pvsm cell lines stimulated other growth stimulants
+bimodal activation pi3k been shown important cell cycle regulation
+particular second peak been found sufficient critical drive g1/s transition during cell cycle 
+temporal pattern myc activation closely correlates those erk pi3k
+myc protein reaches its peak at 2 hours after growth stimulation decreases remains at intermediate value hump over 6 hours before reducing its basal level
+peak hump myc coincide erk peak 2 nd pi3k pulse respectively
+observations suggest myc may sense integrate signals its two regulators 
+gain insight into control mechanism constructed mathematical model analyze dynamics myc accumulation controlled sequential phosphorylation
+using model aimed investigate how signaling patterns erk pi3k regulate myc dynamics at post-translational level
+also how robust myc dynamics respect network parameters phosphorylation dephosphorylation rate constants
+what unique about strategy controlling myc accumulation sequentially modulating protein stability
+common strategy cells achieve reliable temporal control key regulatory proteins
+exploring questions our work may provide insights into design features cell signaling networks guidance experimental intervention
+conceptually our model defines unique module connects other models deal upstream signaling dynamics leading activation erk pi3k well downstream dynamics leading mammalian cell fate decisions further propose post-translation regulation myc represents example generic dual-kinase motif
+appropriate parameters motif will enable precise temporal sensing input signals

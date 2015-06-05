@@ -1,0 +1,70 @@
+
+protein function different amino residues both their types protein sequence
+some amino stability overall protein role protein function
+others play important role part active binding sites protein
+given protein sequence residues their degree functional importance thought function protein
+developed combination knowledge function prediction approaches relationships between structural functional individual residues
+continuous values functional each protein may used study proteins known function greater experimental proteins unknown function
+demonstrate performance predicting protein functional sites also present four examples apply wide range settings protein sequence structure function relationships
+our results approach multiple sources information also give biological each component understanding protein function
+introduction
+sequence structural data being generated
+functional sequences structures significantly
+time cost experimental techniques required function all proteins
+therefore computational means been useful popular predicting functions amount sequence structure data
+however protein function prediction itself difficult problem since difficult define function
+various functional been developed over years various aspects protein function
+instead existing functional proposed role individual amino residues protein function functional used
+cases protein function represented simply series quantitative values each functional importance corresponding amino protein sequence structure
+quantitative values each used combined approach into account individual various function prediction algorithms each amino given protein
+our following four types four different types sequence evolutionary structural stability amino type
+all generated via simple algorithms their combined use algorithms use only one source information
+sequence one most methods functional importance individual amino
+amino residues more variation patterns usually more important protein function
+concept often used identify functional regions proteins multiple between target sequence all its sequence then degree sequence among each alignment site
+various measures sequence been proposed over years complexity
+measures sequence entropy its
+more measures other information amino similarity properties theoretical sequence into
+program different but tend each other
+recently was also shown measure predicting important residues sites further accuracy
+previously demonstrated relative entropy measure amino better predict functional sites than simple entropy measures
+furthermore found amino estimated hidden markov models further performance relative entropy measure
+current study use sequence measure derived one component our
+addition sequence also evolutionary information
+many studies shown use relationships among group related sequences help accurate prediction functional sites
+evolutionary method one first most methods variation patterns within between protein multiple important residues protein structure importance
+further development evolutionary method allows quantitative importance use evolutionary information entropy measures
+method relationships group similar sequences bayesian maximum likelihood method information protein
+further study et al used evolutionary models assumed different matrix each site protein functional sites
+et al used evolutionary relationships among sequence protein functional sites
+et al presented several methods given protein family into search residues determine
+among all methods sequence relationships based evolutionary tree thus additional level information instead multiple sequence
+here propose novel method called state step evolutionary
+based given multiple construct maximum tree analyze variation patterns tree tree each amino
+simple yet effective way evolutionary
+functional also derived methods using experimentally determined predicted protein structures
+example recent study demonstrated regions protein structures often used provide information functional inference functional site identification
+given structure given position propose other amino their structural stability turn used each protein
+hence also component protein function prediction
+previously developed probability function statistics database experimental structures structures more likely similar experimentally derived structures
+been recent years protein structure prediction
+here further mutations basis
+each given protein was one alternative amino new structures were further stability
+our current used two based functions measure how all structures each other how experimentally determined structure structures represent potential impact stability position
+residues conserved structure versus function
+additional component information type amino more likely functional sites than other amino
+however prior probability functional site not explicitly most current functional site prediction algorithms
+our used binary variables represent amino each position given protein
+also examined whether use amino information use could provide additional information better performance
+given complexity protein functional sites no single method will always work all protein functional site information
+therefore several groups information various sources especially information give more accurate predictions
+work et al shown structural functional constraints amino residues leads better prediction protein interaction sites
+shown both structural functional constraints protein evolution better identify functional sites
+recently et al showed integration selected sequence structure features into support vector machine framework improve identification sites
+furthermore et al sequence amino distribution predicted secondary structure relative into probability density framework showed at percent sensitivity method leads percent increase over methods predicting residues site site
+et al investigated various features residues novel structural showed measure sequence measure structural degree structural environment best sites
+other similar studies also features into framework site identification
+previous work suggests value using several sequence structure components sites
+approaches were based algorithms current study aim several sources information sequence structure evolution type amino together via simple regression model function prediction including both sites binding sites
+major advantage regression model each component associated individual protein studied gain additional into different aspects protein function not available when many components into framework
+compare approach several other functional site prediction algorithms propose our approach wide function discuss how different components used understand biological function via four examples

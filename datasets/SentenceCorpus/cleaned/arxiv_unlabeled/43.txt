@@ -1,0 +1,58 @@
+ 
+symbolic dynamics proven invaluable tool analyzing mechanisms lead unpredictability random behavior nonlinear dynamical systems
+surprisingly discrete partition continuous state space produce coarse-grained description behavior accurately describes invariant properties underlying chaotic attractor
+particular measures rate information production---the topological metric entropy rates---can estimated outputs markov generating partitions
+here develop bayesian inference th order markov chains method finding generating partitions estimating entropy rates finite samples discretized data produced coarse-grained dynamical systems
+ introduction 
+research chaotic dynamical systems during last forty years produced new vision origins randomness
+now widely understood observed randomness generated low-dimensional deterministic systems exhibit chaotic attractor
+today when confronted what appears high-dimensional stochastic process one now asks whether not process instead hidden low-dimensional but nonlinear dynamical system
+awareness though requires new way looking at apparently random data since chaotic dynamics very sensitive measurement process  both blessing curse turns out
+symbolic dynamics one suite tools dynamical systems theory its most basic form addresses issue considering coarse-grained view continuous dynamics  sense any finite-precision instrument measures chaotic system induces symbolic representation underlying continuous-valued behavior
+effectively model time series discrete data continuous-state system two concerns must addressed
+first must consider measurement instrument representation true dynamics provides
+second must consider inference models based data
+relation between steps more subtle than one might expect
+will demonstrate one hand measurement chaotic data instrument should designed maximize entropy rate resulting data stream
+allows one extract much information each measurement possible
+other hand model inference strives minimize apparent randomness entropy rate over class alternative models
+reflects search determinism structure data
+here address interplay between optimal instruments optimal models analyzing relatively simple nonlinear system
+consider design binary-output instruments chaotic maps additive noise
+then use bayesian inference th order markov chain model resulting data stream
+our model system one-dimensional chaotic map additive noise } where   gaussian random variable mean zero variance
+start consider design instruments zero-noise limit
+regime most previous work symbolic dynamics provides convenient frame reference
+construction symbolic dynamics representation continuous-state system goes follows
+assume time discrete consider map state space itself
+space partitioned into finite set nonoverlapping regions many ways
+most powerful called markov partition must satisfy two conditions
+first image each region must union intervals:
+second map  restricted interval must one-to-one onto
+if markov partition cannot found system under consideration next best coarse-graining called generating partition
+one dimensional maps often easily found using extrema its critical points
+critical points map used divide state space into intervals over monotone
+note markov partitions generating but converse not generally true
+given any partition  then series continuous-valued states projected onto its symbolic representation
+latter simply associated sequence partition-element indices
+done defining operator returns unique each alphabet when
+central result symbolic dynamics establishes using generating partition increasingly long sequences observed symbols identify smaller smaller regions state space
+starting system region produces associated measurement sequence
+limit infinite sequences result discrete-symbol representation continuous-state system---a representation will show often much easier analyze
+way chosen partition creates sequence describes continuous dynamics sequence symbols
+choice partition then equivalent our instrument-design problem
+effectiveness partition zero noise limit quantified estimating entropy rate resulting symbolic sequence
+do consider length words
+block entropy length sequences obtained partition then } where probability observing word
+block entropy entropy rate estimated following limit } practice often more accurate calculate length estimate entropy rate using } another key result symbolic dynamics says entropy original continuous system found using generating partitions
+particular true entropy rate maximizes estimated entropy rates: } thus translated into statement about experiment design results tell us design instrument so maximizes observed entropy rate
+reflects fact want each measurement produce most information possible
+useful benchmark useful only case when know  piesin's identity  tells us value equal sum positive lyapunov characteristic exponents:
+one-dimensional maps there single lyapunov exponent numerically estimated map observed trajectory using } taken altogether results tell us how design our instrument effective observation deterministic chaos
+notably presence noise no theorems exist
+however demonstrated methods developed above robust presence noise
+any case view output instrument stochastic process
+sample realization length measurements taken finite alphabet basis our inference problem:
+our purposes here sample generated partition continuous-state sequences iterations one-dimensional map states chaotic attractor
+means particular stochastic process stationary
+assume addition alphabet binary

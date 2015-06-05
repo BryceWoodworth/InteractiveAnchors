@@ -1,0 +1,77 @@
+ 
+people tend overestimate emotional responses future events
+study examined whether affective forecasting errors occur feelings regret measured self-report subsequent decision-making
+some participants played pricing game lost narrow wide margin while others were asked imagine losing margins
+participants who experienced narrow loss reported more regret than those who imagined narrow loss
+furthermore those experiencing narrow loss behaved more cautiously subsequent gambling task
+thus study provides self-report behavioral evidence reversal affective forecasting phenomenon feelings regret
+ introduction 
+people want happy when confronted decision they'd rather choose path joy than path misery
+if only were simple
+one problem paths rarely labeled instead people imagine feelings outcome their decisions would trigger
+although people relatively skilled at predicting how certain outcome will make them feel they less skilled at predicting intensity duration those emotions
+you guess getting tenure will make you happy but elation will dissipate faster than you would imagine
+asymmetry between anticipating experiencing emotions been studied laboratory well natural settings under banner affective forecasting
+typical laboratory study affective forecasting participants first report their general happiness next engage some experimental procedure uncertain outcome
+finally some participants asked predict how happy they would feel after receiving particular outcome while others told outcome first then asked report happiness they experience
+allows researchers measure extent anticipated experienced feelings depart baseline level happiness reported at beginning session
+typical result participants overestimate duration their forecasted emotions leads them overestimate how intense their feelings will some time after outcome
+example when asked imagine how they would feel number minutes after losing money gambling task people predict more unhappiness than unhappiness they experience number minutes after actually losing
+people also overestimate intensity their initial reaction
+considerable evidence accumulated over last number years support basic finding people overestimate impact future events will their emotional response
+most studies equated emotional response changes valence
+example some studies asked participants report their happiness scale ranging not happy very happy
+other studies asked participants report intensity several different emotions those reports were later converted into composites scores positive negative valence
+emphasis pleasant unpleasant dimension proved useful study affective forecasting
+however approach also begs question whether forecast bias extends beyond pleasant unpleasant dimension include biases when predicting intensity specific emotions
+know people relatively skilled at predicting specific emotions e g anger fear disgust etc
+they will experience different situations
+know less about how accurate people at predicting intensity duration those specific emotions
+few studies started examine question particularly feeling regret
+current study another step direction
+regret defined negative cognitively based emotion experience when realizing imagining our present situation would been better had decided differently
+thus regret unique among emotions its reliance counterfactual thinking if i had chosen differently then things would turned out better
+when counterfactuals readily available regret seems grow more intense
+example people's intuition poor choices most regretful when they unusual choices those cases conventional approach readily available counterfactual
+similar reason people believe they will experience more regret when desired outcome narrowly missed than when missed wide margin
+presumably loss narrow margin highlights unfulfilled success
+consequence people believe missing flight number minutes should cause more regret than missing hour
+psychologists shared same intuition over number years
+intuition narrow margins loss highly effective at triggering regret been challenged recent study affective forecasting
+naturalistic setting people who missed subway narrow margin reported no more regret than those who missed wide margin
+result was stark contrast predictions people made when interviewed before train arrived
+finding was replicated experimental setting
+new set participants was recruited play game inspired tv show price right
+before starting game participants were asked report their emotional state at time including report their level regret disappointment
+next people were asked rank several household products price
+participants had create two arrangements exemplified their two best guesses then proceeded choose best one opportunity win prize
+some participants were asked predict how much regret they would feel if they were find out correct arrangement was one they did not choose narrow margin loss
+condition aimed experimentally recreate situation participant asked imagine having narrowly missed desired outcome e g catching subway
+participants' predictions condition were compared actual feelings regret reported participants who actually experienced narrow margin loss
+other participants were asked predict how much regret they would feel if they found out neither two arrangements was correct wide margin loss
+hypothesized authors study participants predicted they would feel more regret after losing narrow margin but reality they did not
+other words there was asymmetry between amount regret anticipated amount regret experienced
+results were consistent theory affective forecasting received substantial empirical support over years
+at same time some aspects experimental design cast doubt generalizability findings
+particular participants gilbert et al 's study were offered consolation prize after being told they had lost
+small prize may helped participants re-conceptualize loss minor win thus reducing amount regret experienced
+fact previous research shows people recover most quickly negative events when easier them rationalize outcome their favor
+thus absence consolation prize might lead very different pattern results one experience regret stronger than anticipated
+our study tested hypothesis
+another limitation number study gilbert et al its reliance self-report measure
+while approach been validated basic emotions happiness its use assessing more complex emotions regret matter debate
+asking people directly report how much regret they feeling assumes people easily associate their feelings verbal label
+although some researchers claim indeed possible others argue direct questioning fails discriminate regret other negative emotions disappointment
+furthermore self-report measures subject possible carry-over effects when same emotion probed twice often case studies affective forecasting
+one way overcome limitations self-report measures explore influence regret future behavior
+some researchers argued emotions general regret particular exist sake guiding behaviors
+many choices people make aim minimize experience regret anticipation regret serves deter risk taking
+merely imagining regretful consequences our potential actions sometimes enough make us decide differently
+thus measuring risky behavior after narrow loss should possible us assess whether experiencing imagining narrow loss more effective triggering emotion
+explored possibility variant gambling task first introduced slovic our participants completed after participating price right task
+participants viewed ten cards face down computer screen instructions nine cards were good i e selecting any them would earn participant dollar per card but one cards was disaster card i e choosing would cause loss every dollar collected up point end game
+following instructions participant reported how many cards they would like turn
+after turning initial number cards participants made second more important decision
+they had decide whether stop walk away money continue pick one more card chance win another dollar
+thus opportunity winning relatively small prize was pitted against risk losing larger amount i e regret prone situation
+sum using self-report behavioral measures regret aimed show absence consolation prize experience regret larger than anticipated

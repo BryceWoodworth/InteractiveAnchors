@@ -1,0 +1,12 @@
+
+consider problem significant practical importance data matrix small subset its
+problem many computer networks
+paper focus matrix problem case when observed samples noise
+compare performance three matrix algorithms single simulation present numerical results
+show practice efficient algorithms used real data matrices well generated matrices
+introduction
+consider problem low rank matrix small set observed noise
+problem practical interest many applications
+one example where small goal preference system
+matrix since only few factors preferences
+other examples matrix include problem structure motion data between

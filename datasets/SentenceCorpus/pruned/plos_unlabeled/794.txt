@@ -1,0 +1,41 @@
+
+studies our world
+studies aim our understanding more complex relationship between us our
+important computational tools able compare large datasets generated complex identify features them
+present statistical method comparing samples two treatment populations basis data features
+our method discovery rate improve environments features using exact test
+under variety simulations show well compared previously used methods significantly other methods features sparse
+demonstrate utility our method several datasets including human functional metabolic data random sequencing
+application our method differences between subjects not reported original study
+datasets provide first differences between populations
+methods described paper first address datasets samples multiple subjects
+our methods robust across datasets complexity sampling level
+while designed applications our also applied gene expression studies
+our methods available source found at
+introduction
+increasing sequencing new field analyses
+sequencing populations allows us first at many cannot through means
+studies environmental samples focused sequencing individual genes particular rna though more recent studies take advantage sequencing methods not only but also functional
+several tools been developed recent years comparing different environments basis sequence data
+all focus different aspects analysis
+clusters sequences into provides estimates population measure comparing different
+similarity between two environments specifically between two
+provide hypothesis test whether two different question context
+note methods aim whether rather than how two differ
+latter question particularly important analyze human health
+analysis trials will require information at individual levels future experiments
+example would like identify whose presence human disease develop
+question was first et al who use estimate associated differences between biological
+more recently et al provides allows compare different environments
+note only one among above applied data other than obtained
+tools one common they all designed comparing two samples therefore limited setting where goal compare two treatment populations each multiple samples
+paper describe statistical approach features between datasets
+method both data
+our approach statistical methods developed analysis
+specifically methods data correct sparse
+our research was increasing focus applications
+note similar problem been context gene expression studies
+et al model use negative distribution analysis multiple
+both approaches applied datasets
+compare our prior through simulations demonstrate performance our approach available datasets including human random functional
+methods described paper been also available free

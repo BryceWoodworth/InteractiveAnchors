@@ -1,0 +1,124 @@
+ 
+many natural decisions contain element skill
+modern conceptions skill component include control competence
+control hypothesis states task's skill component sensitivity task skill affects decision making competence hypothesis states decision making affected only if participant possesses skill
+three experiments compared risk taking patterns between two groups
+one group faced bets random events another group faced bets their answers general knowledge questions task characterized control
+experiment number control increased risk taking markedly all statistical properties held constant
+experiment number decisions made domains varying difficulty individuals varying ability yielded further qualified support role competence
+experiment number role control was replicated participants' perceptions differences group treatments aligned more implications control hypothesis than competence hypothesis
+results offered support control hypothesis across range competence
+ introduction 
+decision researchers know great deal about terms risk people will accept reject random events drawing lottery number rolling die pulling poker chip bookbag
+less known about how individuals accept reject risk when they betting their own golf putts stock picks organizational decisions answers trivia questions
+researchers readily build models decision making around risky decisions based random events
+much decision research analogous psychophysical perception research relating psychological events objective criteria
+bookbag number percent white number percent red poker chips presents clear objective criterion subjective perceptions may readily compared
+sinking free throw does not present clear criterion regard its associated probabilities
+reason researchers difficulty evaluating performance relative normative criterion when task assessing probability made free throw well establishing valid lawful relationships between relevant probabilities decisions
+ellsberg many others found people generally ambiguity averse domain gains people prefer prospect probabilities possible outcomes known prospect probabilities same outcomes not stated ambiguous but same average value
+major exception at very low probabilities where ambiguity preferred
+domain losses preferences reversed
+examination effect skill element constitutes special case ambiguity
+what shaquille o'neal's probability making his next free throw
+at conclusion numbernumber season his career free throw rate was number number percent but his free throw rate season was only number number percent
+at his next free throw opportunity he may suffering flu coming off terrible game hot streak he may merely believe he's hot streak
+unlike lottery draw easier construct reasonable estimate probability winning example reading ticket sample space successful free throw not clearly defined
+other words prediction performance variable over time skilled task hence more difficult predict basis past performance
+fact most definitions skill state imply person exerting skill change probability success
+existing evidence suggests skilled task determines uncertain outcome effect probability assessment decision making distinct ambiguity alone
+example demonstrating illusion control langer showed people responded differently vague likelihoods when certain superficial characteristics prospects were distorted example when familiar symbols deck cards were replaced unfamiliar symbols when participants were permitted practice random mechanism similar roulette wheel
+langer argued changes appearance skill component caused changes responses
+confidence ratings bet acceptance bet amounts were all affected apparent control although illusion control not robust multi-shot gambles
+participants bet more when given skill-relevant manipulations being able choose whether receive more cards simulated blackjack game but not when given skill-irrelevant manipulations choosing different dealer
+also participants high desire control bet more than those low desire control events over they had falsely perceived control
+those high desire control bet less than others events over they did not illusory control
+recent research advanced two major conceptions role skill decision making competence control
+conceptions important commonalities sharing emphasis role skill component task plays shaping decision making under uncertainty apart probability magnitude possible outcomes
+control hypothesis claims people bet more when skill makes difference competence hypothesis claims same effect but only when individual possesses relevant skill
+control property task if task requires actions learned then characterized control even if participant not yet learned skill
+competence other hand interactive characteristic both task person competence exists only if task both learned task component been learned person component
+heath tversky argued people prefer bet questions about knowledge topics they feel competent rather than incompetent
+their studies participants chose bet either correctness their answer general knowledge question random event whose probability matched their previously stated confidence identical payoffs each bet offer
+across assortment situations when betting questions drawn intermixed domains proportion times participants chose bet their knowledge was steeply increasing function probability winning experiments number number
+because confidence consistently exceeded accuracy experiments betting random event whose probability winning was equal confidence was more likely win than betting belief itself heath tversky noted acceptance knowledge-based bets over random bets resulted number percent loss expected earnings
+heath tversky then experiment number tested competence hypothesis drawing questions discrete domains participants believed themselves either competent incompetent
+they observed subjective probability held constant participants displayed consistent behavioral pattern bets domain competence were preferred bets random events turn were preferred bets domain incompetence
+they concluded people seek out ambiguity domains competence but avoid areas incompetence
+fox tversky presented companion competence hypothesis comparative ignorance hypothesis positing relative knowledge affects decisions most strongly when contrast between conditions greater lesser competence brought decision maker's attention
+findings notably contrary early ambiguity findings random events when evaluating bets vaguely probable events skill component participants preferred ambiguous skilled option at high probabilities but preferred unambiguous random option at low probabilities
+however evidence specifically support control hypothesis remains limited heath tversky's experiment number comparing just two domains under unusual selection techniques discussed at more length below
+more recent studies assessed risk attitude pitting bet knowledge item against no bet at all rather than bet random event equivalent probability
+goodie constructed bets knowledge items fair having zero average marginal value if confidence was well calibrated
+first two experiments bet acceptance sharply increased confidence increased knowledge bets bearing striking resemblance comparable data obtained heath tversky when using mixed-domain questions
+experiment number one group considered bets their knowledge
+other groups considered bets events appeared random participants but goodie constructed identical every statistical way bets knowledge
+participants accepted more bets random events at low probabilities more bets their knowledge at high probabilities revealing anticipated crossover effect
+important difference arises between studies utilize questions drawn single domain e g u s history those use questions mixed domains e g greek mythology u s history sports
+heath tversky noted discussing differences between single mixed domains low confidence items mixed-domain populations will systematically include more questions low-competence domains
+similarly gigerenzer noted importance utilizing single-domain questions assessing confidence answers
+mixed-domain set general knowledge questions methods used decision maker generate confidence assessments become uninterpretable because decision maker may using different reference set than experimenter
+asking participants questions single domain allows more reliable representations confidence across all questions asked
+there reason expect control per se influences decision making
+skinner major review literature notes w hen people perceive they high degree control they exert effort try hard initiate action persist face failures setbacks they evince interest optimism sustained attention problem solving action orientation
+where control prevails prospect negative expected value narrowly conceived might also opportunity learn new skill will result future prospects positive value might therefore worth accepting
+interesting complement normative argument made frisch baron other ambiguous prospects even positive expected value might worth postponing until further information available permit better-valued decisions
+argue ambiguous prospects characterized control even negative expected value might worth pursuing order set up better-valued decisions later
+possibility accepting bets order increase skill does not apply when competence already exists only when possibility exerting control increase competence prevails
+goals paper compare across domains wherein people different degrees competence order observe degree variation competence makes difference risk attitude b extend risk-attitude findings goodie single-domain formats manipulation made considerable difference ambiguity-attitude findings heath tversky c begin compare roles competence control decisions under uncertainty
+present experiments test competence hypothesis against control hypothesis eliciting betting decisions within domains varying difficulty among participants varying ability
+distinction between competence control most evident skill-based task particular participant little skill
+control hypothesis suggests people bet more when skill could attained competence hypothesis only when been attained
+best differentiate between two hypotheses when skill could attained but not
+control hypothesis suggests skill element does alter decision making under conditions whereas competence hypothesis suggests does not
+report three experiments use methods developed goodie
+basic task fair bets knowledge uses three kinds questions administered two phases
+first question type was two-alternative forced choice question
+prior studies adapted questions collection sampled diverse domains
+present studies randomly selected questions five well-defined domains
+three question populations selected two number u s states at random asked binary comparison one statistic population land area population density manipulated between-subjects
+other two question populations randomly selected two number largest u s cities elicited comparison cities either population driving distance athens georgia
+second question type asked assessment confidence each question placed one following categories numbernumber percent numbernumber percent numbernumber percent numbernumber percent numbernumber percent numbernumber percent numbernumber percent
+binary task one range number percentnumber percent reflects full range competence complete ignorance where accuracy would number percent confidence should not much higher absolute knowledge where accuracy confidence both number percent
+confidence was taken midpoint selected confidence category
+used categories assess risk taking across well-defined array probabilities chance certainty combining equal spacing categories mid-range greater discrimination near endpoints
+range confers advantages reflecting all binary choices being simple easily understood although also bears clear limitations excluding half probability spectrum
+studies adopted confidence elicitation methods without alteration those used goodie
+third question type elicited acceptance rejection bet correctness each answer was given
+participants played out bets point accumulations were not backed monetary incentives
+all conditions participants faced two-alternative choice between certain outcome bet
+bet was always fair having average value equal certain option if participant's confidence judgment was well-calibrated
+its average value was less than certain option if participant was overconfident greater than certain option if participant was underconfident
+after accepting rejecting bet participant received feedback including correct answer question number points gained lost including if no points were gained lost cumulative point total
+used two betting formats mixed gains losses gains only
+mixed format was used order reflect structure many risks contain possibility either gain loss
+gains only format was used eliminate complexity possibly differing value weighting gains losses
+designed both betting formats provide average outcomes were equal if bet was accepted rejected assuming good calibration
+betting formats were always varied between subjects were kept constant within experiment so no participant needed comprehend remember distinguish between both
+mixed format certain option was no change points bet provided gain number points if answer was correct loss number confidence number confidence points if answer was incorrect
+example if participant was number percent confident answer then she considered bet wherein she won number points if answer was correct but loss number number number number points if answer was wrong
+if she rejected bet she did not gain lose any points
+gains only structure certain option was gain number points
+bet offered gain number confidence points if answer was correct no gain if answer was wrong
+so if participant bet answer she had number percent confidence she won number number number points if answer was correct but nothing if answer was wrong
+she gained number points if she rejected bet
+easy show average outcome accepting bet either format equal certain option no change mixed format gain number points gains only if pcorrect confidence less than certain option if pcorrect confidence greater than certain option if pcorrect confidence
+experiments number number randomly assigned participants two groups differed whether they believed they were betting their knowledge random event
+answers group bet their answers using either mixed gains only format different experiments
+random group's bets held all statistical properties constant differing answers group's only appearing rely random events rather than participants' answers
+many dimensions bets knowledge determined participants' responses distribution subjective probabilities winning determined confidence frequency winning determined accuracy any order effects dimensions
+basing apparently random bets participant's responses rule out any other alternative explanations based statistical properties responses participants answers condition
+bets appeared stochastic fact relied participants' answers confidence assessments knowledge questions
+betting phase each answer was converted into bet seemingly random event stated probability winning equal assessed confidence corresponding trivia answer correctness corresponding answer determined bet's outcome
+example if participant expressed number percent confidence her answer first question then first bet she encountered betting phase instructed number will chosen at random between number number win bet chosen number must less than equal magic number
+magic number time number
+if chosen number less than equal magic number you gain number points
+if chosen number greater than magic number you lose number points
+if participant accepted bet she won bet if her answer corresponding question was correct lost bet if her answer was incorrect
+magic number magnitude gain if bet was won determination whether bet was won lost changed each betting trial reflect confidence expressed corresponding answer first phase whether was correct
+all experiments recruited participants research pool psychology department at university georgia compensated them partial credit toward lower-division courses
+prevented participants participating more than one present experiments any additional related experiments
+participants ran groups up three room individual computer stations separated five-foot-tall partitions
+omitted participants' data analysis if they did not use more than three confidence categories if they showed evidence not attending task i e exclusive betting acceptance rejection radical over underconfidence
+thirty participants were excluded reason number out number experiment number number out number experiment number number out number experiment number
+see table number layout structure our experimental design

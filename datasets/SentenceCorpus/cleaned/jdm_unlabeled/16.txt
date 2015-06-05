@@ -1,0 +1,46 @@
+ 
+contrary common belief more information always better gigerenzer et al showed simple decision strategies rely little information quite successful
+success simple strategies depends both bets about structure environment core capacities human mind recognition memory
+however interplay between environment mind's core capacities rarely been precisely modeled
+illustrate how environment-mind interactions could formally modeled within cognitive architecture act-r
+act-r integrated theory mind tuned statistical structure environment account variety phenomena learning problem solving decision making
+here focus studying decision strategies show how success theses strategies particular environments depends characteristics core cognitive capacities recognition short term memory
+ introduction 
+six million dollar man was among most popular television shows number 's at least among eight twelve year old american boys
+credits open spectacular crash rocket jet tumbling into fireball
+team surgeons hovers over steve austin test pilot working feverishly replace his injured legs right arm eye superbly engineered bionic substitutes
+voice over hear gentlemen rebuild him
+technology
+capability make world's first bionic man
+steve austin will man
+better than he was before
+better stronger faster
+cut next steve austin six million dollar man racing across field seeing objects at distance his better-than-a-telescope eye
+like steve austin's doctors most us believe would better off if were stronger faster
+similarly would better off at least would had better college transcripts if had been blessed bionic cognitive abilities unfailing memories ability hold complex equations mind
+another view humble cognitive capacities human mind those limitations  forgetting  may serve important functions
+arguably most important function memory not simply store all information encounter but provide us important information specific situations
+view human memory system organized way facilitates retrieval information recent frequent sensitive context
+way system retrieves memories information most likely need
+many word processors incorporate timesaving feature illustrates view forgetting
+when user goes open document file program presents file buffer list recently opened files user select
+whenever desired file included list user spared effort searching through file hierarchy
+device work efficiently however word processor must provide users files they actually want
+does so forgetting files considered unlikely needed basis assumption time since file was last opened negatively correlated its likelihood being needed now
+similarly if you want remember where you parked your car quite useful forget where you parked before
+there growing evidence also other domains language acquisition cognitive limits beneficial while too much thinking even hurt performance example sports experts implicit category learning decaro thomas beilock press
+line view mind adaptation environment program fast frugal heuristics takes position humans possess repertoire cognitive strategies heuristics solve specific problems
+gigerenzer et al called collection cognitive strategies adaptive toolbox
+rationality heuristics not logical but ecological success anchored both structure environment core capacities human mind
+cognitive strategy simple exploiting core capacities recognition recall memory human mind through evolution learning highly automatized requiring little no effort
+goldstein gigerenzer consider heuristics adaptive strategies evolved tandem fundamental psychological mechanisms p number
+within fast frugal program interplay between environment mind rarely been explored detailed models core capacities
+models heuristics presupposed specific core capacities mind recognition memory without embedding core capacity directly into model
+other words models heuristics many other models decision making underspecified regard how decision making will affected interaction between mind's core capacities structure environment
+goal paper illustrate how cognitive modeling capture environment-mind interactions thereby inform decision making research
+particular employ formal cognitive architecture act-r explore issue
+principle other cognitive models memory could used purpose analyzing relation between environment memory performance inference strategies
+fact believe main findings regarding memory function ecological rationality inference strategies would remain largely same long reasonable model memory was used
+one model rem descends sam but enriched bayesian analysis spirit j r anderson's rational analysis
+another good candidate would minerva-dm been shown account wide variety judgment phenomena including example availability representativeness heuristics
+relation between act-r other models will discussed more detail general discussion where will also illustrate how act-r could extended topics tasks beyond those examined here

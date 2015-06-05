@@ -1,0 +1,37 @@
+ 
+present extension principal component analysis pca new algorithm clustering points based
+key property algorithm affine-invariant
+when input sample mixture two arbitrary gaussians algorithm correctly classifies sample assuming only two components separable hyperplane ie  there exists halfspace contains most one gaussian almost none other probability mass
+nearly best possible improving known results substantially
+components algorithm requires only there some dimensional subspace overlap every direction small
+here define overlap ratio following two quantities: 1 average squared distance between point mean its component 2 average squared distance between point mean mixture
+main result may also stated language linear discriminant analysis: if standard fisher discriminant small enough labels not needed estimate optimal subspace projection
+our main tools isotropic transformation spectral projection simple reweighting technique
+call combination isotropic pca
+ introduction 
+present extension principal component analysis pca able go beyond standard pca identifying ``important'' directions
+when covariance matrix input distribution point set  multiple identity then pca reveals no information; second moment along any direction same
+inputs called isotropic
+our extension call isotropic pca  reveal interesting information settings
+use technique give affine-invariant clustering algorithm points
+when applied problem unraveling mixtures arbitrary gaussians unlabeled samples algorithm yields substantial improvements known results
+illustrate technique consider uniform distribution set  isotropic
+suppose distribution rotated unknown way would like recover original axes
+each point sample may project unit circle compute covariance matrix resulting point set
+direction will correspond greater eigenvector direction other
+see figure illustration
+instead projection onto unit circle process may also thought importance weighting technique allows one simulate one distribution another
+case simulating distribution over set  where density function proportional  so points near more probable } paper describe how apply method mixtures arbitrary gaussians order find set directions along gaussians well-separated
+directions span fisher subspace mixture classical concept pattern recognition
+once directions identified points classified according component distribution generated them hence all parameters mixture learned
+what separates paper previous work learning mixtures our algorithm affine-invariant
+indeed every mixture distribution learned using previously known algorithm there linear transformation bounded condition number causes algorithm fail
+components our algorithm nearly best possible guarantees subsumes all previous results clustering gaussian mixtures
+ requires there dimensional subspace where overlap components small every direction see section 
+condition stated terms fisher discriminant quantity commonly used field pattern recognition labeled data
+because our algorithm affine invariant makes possible unravel much larger set gaussian mixtures than had been possible previously
+first step our algorithm place mixture isotropic position see section  via affine transformation
+effect making dimensional fisher subspace i e  one minimizes fisher discriminant same subspace spanned means components they only coincide general isotropic position any mixture
+rest algorithm identifies directions close subspace uses them cluster without access labels
+intuitively hard since after isotropy standard pca reveals no additional information
+before presenting ideas guarantees more detail describe relevant related work

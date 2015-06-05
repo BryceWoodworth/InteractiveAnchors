@@ -1,0 +1,29 @@
+
+knowledge free energy essential key understanding many biochemical processes
+protein their central role molecular reactions
+work present novel framework features free energy questions how many there what relationship among them what structure transition
+molecular dynamics simulations data into conformational markov network
+structure graph regions conformational space corresponding
+addition conformational markov network relevant times rate relationships among global
+show power analysis model potential short way study free energy large
+introduction
+more specifically proteins show complex behavior at cellular system level interaction networks also at individual level where proteins show large degree single protein different conformational states
+complex system dynamics protein cannot its instead system must whole
+tools able represent information complex system thus necessary
+complex network theory used different study metabolic reactions genetic regulatory systems study protein dynamics
+latter context studies conformational space proteins making use network where nodes account
+some studies determine common general properties conformational networks at clustering number connectivity etc recently network corresponding free energy use algorithms over conformational networks been proposed
+although approach analysis free energy based description network leads multiple thus difficult clear found
+similar approach used analyze complex dynamics models
+state models let us information one several molecular dynamics set certain transition probabilities among them
+therefore into transition matrix global times
+use models proposed aim states
+however above approaches analyze involves large computational either general algorithms large transition matrices
+finally other strategies understand based study potential energy
+classical theory allows us behavior system at certain knowledge transition states
+approach some approximation limit high assumption high etc could directly data
+article make novel study its structure hence conformational states between them
+approaches presented obtained simulations into conformational markov network
+show how graph obtain through its main features their times rate between conformational states
+framework shown potential
+after studied main characteristics its

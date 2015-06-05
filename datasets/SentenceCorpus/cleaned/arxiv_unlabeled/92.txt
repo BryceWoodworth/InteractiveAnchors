@@ -1,0 +1,21 @@
+ 
+recent years spectral clustering become one most popular modern clustering algorithms
+simple implement solved efficiently standard linear algebra software very often outperforms traditional clustering algorithms k-means algorithm
+first glance spectral clustering appears slightly mysterious not obvious see why works at all what really does
+goal tutorial give some intuition those questions
+describe different graph laplacians their basic properties present most common spectral clustering algorithms derive those algorithms scratch several different approaches
+advantages disadvantages different spectral clustering algorithms discussed
+ introduction 
+clustering one most widely used techniques exploratory data analysis applications ranging statistics computer science biology social sciences psychology
+virtually every scientific field dealing empirical data people attempt get first impression their data trying identify groups ``similar behavior'' their data
+article would like introduce reader family spectral clustering algorithms
+compared ``traditional algorithms'' means single linkage spectral clustering many fundamental advantages
+results obtained spectral clustering often outperform traditional approaches spectral clustering very simple implement solved efficiently standard linear algebra methods \\ tutorial set up self-contained introduction spectral clustering
+derive spectral clustering scratch present different points view why spectral clustering works
+apart basic linear algebra no particular mathematical background required reader
+however do not attempt give concise review whole literature spectral clustering impossible due overwhelming amount literature subject
+first two sections devoted step-by-step introduction mathematical objects used spectral clustering: similarity graphs section  graph laplacians section
+spectral clustering algorithms themselves will presented section
+next three sections then devoted explaining why those algorithms work
+each section corresponds one explanation: section describes graph partitioning approach section random walk perspective section perturbation theory approach
+section will study some practical issues related spectral clustering discuss various extensions literature related spectral clustering section

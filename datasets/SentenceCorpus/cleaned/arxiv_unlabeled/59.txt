@@ -1,0 +1,39 @@
+ 
+ordinal regression important type learning properties both classification regression
+here describe simple effective approach adapt traditional neural network learn ordinal categories
+our approach generalization perceptron method ordinal regression
+several benchmark datasets our method nnrank outperforms neural network classification method
+compared ordinal regression methods using gaussian processes support vector machines nnrank achieves comparable performance
+moreover nnrank advantages traditional neural networks: learning both online batch modes handling very large training datasets making rapid predictions
+features make nnrank useful complementary tool large-scale data processing tasks information retrieval web page ranking collaborative filtering protein ranking bioinformatics \\
+ introduction 
+ordinal regression ranking learning important supervised problem learning ranking ordering instances property both classification metric regression
+learning task ordinal regression assign data points into set finite ordered categories
+example teacher rates students' performance using b c d e b c d e chu \& ghahramani 2005a
+ordinal regression different classification due order categories
+contrast metric regression response variables categories ordinal regression discrete finite
+research ordinal regression dated back ordinal statistics methods 1980s mccullagh 1980; mccullagh \& nelder 1983 machine learning research 1990s caruana et al  1996; herbrich et al  1998; cohen et al  1999
+attracted considerable attention recent years due its potential applications many data-intensive domains information retrieval herbrich et al  1998 web page ranking joachims 2002 collaborative filtering goldberg et al  1992; basilico \& hofmann 2004; yu et al  2006 image retrieval wu et al  2003 protein ranking cheng \& baldi 2006 bioinformatics
+number machine learning methods been developed redesigned address ordinal regression problem rajaram et al  2003 including perceptron crammer \& singer 2002 its kernelized generalization basilico \& hofmann 2004 neural network gradient descent caruana et al  1996; burges et al  2005 gaussian process chu \& ghahramani 2005b; chu \& ghahramani 2005a; schwaighofer et al  2005 large margin classifier support vector machine herbrich et al  1999; herbrich et al  2000; joachims 2002; shashua \& levin 2003; chu \& keerthi 2005; aiolli \& sperduti 2004; chu \& keerthi 2007 k-partite classifier agarwal \& roth 2005 boosting algorithm freund et al  2003; dekel et al  2002 constraint classification har-peled et al  2002 regression trees kramer et al  2001 naive bayes zhang et al  2005 bayesian hierarchical experts paquet et al  2005 binary classification approach frank \& hall 2001; li \& lin 2006 decomposes original ordinal regression problem into set binary classifications optimization nonsmooth cost functions burges et al  2006
+most methods roughly classified into two categories: pairwise constraint approach herbrich et al  2000; joachims 2002; dekel et al  2004; burges et al  2005 multi-threshold approach crammer \& singer 2002; shashua \& levin 2003; chu \& ghahramani 2005a
+former convert full ranking relation into pairwise order constraints
+latter tries learn multiple thresholds divide data into ordinal categories
+multi-threshold approaches also unified under general extended binary classification framework li \& lin 2006
+ordinal regression methods different advantages disadvantages
+prank crammer \& singer 2002 perceptron approach generalizes binary perceptron algorithm ordinal multi-class situation fast online algorithm
+however like standard perceptron method its accuracy suffers when dealing non-linear data while quadratic kernel version prank greatly relieves problem
+one class accurate large-margin classifier approaches herbrich et al  2000; joachims 2002 convert ordinal relations into  : number data points pairwise ranking constraints structural risk minimization vapnik 1995; schoelkopf \& smola 2002
+thus not applied medium size datasets  10,000 data points without discarding some pairwise preference relations
+may also overfit noise due incomparable pairs
+other class powerful large-margin classifier methods shashua \& levin 2003; chu \& keerthi 2005 generalize support vector formulation ordinal regression finding thresholds real line divide data into ordered categories
+size optimization problem linear number training examples
+however like support vector machine used classification prediction speed slow when solution not sparse makes not appropriate time-critical tasks
+similarly another state-of-the-art approach gaussian process method chu \& ghahramani 2005a also difficulty handling large training datasets problem slow prediction speed some situations
+here describe new neural network approach ordinal regression advantages neural network learning: learning both online batch mode training very large dataset burges et al  2005 handling non-linear data good performance rapid prediction
+our method considered generalization perceptron learning crammer \& singer 2002 into multi-layer perceptrons neural network ordinal regression
+our method also related classic generalized linear models e g  cumulative logit model ordinal regression mccullagh 1980
+unlike neural network method burges et al  2005 trained pairs examples learn pairwise order relations our method works individual data points uses multiple output nodes estimate probabilities ordinal categories
+thus our method falls into category multi-threshold approach
+learning our method proceeds similarly traditional neural networks using back-propagation rumelhart et al  1986
+same benchmark datasets our method yields performance better than standard classification neural networks comparable state-of-the-art methods using support vector machines gaussian processes
+addition our method learn very large datasets make rapid predictions

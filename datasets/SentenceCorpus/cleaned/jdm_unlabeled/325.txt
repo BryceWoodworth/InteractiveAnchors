@@ -1,0 +1,26 @@
+ 
+aim article evaluate contribution process tracing data development testing models judgment decision making jdm
+draw our experience editing handbook process tracing methods decision research recently published sjdm series
+after brief introduction first describe classic process tracing methods thinking aloud mouselab eye-tracking
+then present series examples how each techniques made important contributions development testing process models jdm
+discuss issue large data volumes resulting process tracing remedies handling those
+finally argue importance formulating process hypotheses opt multi-method approach focuses cross-validation findings
+ introduction 
+theories judgment decision making jdm classified into two general types formal as-if models specify relationships between input task context parameters output jdm behavior process models addition seek model explanatory psychological mechanisms underlying input-output relationships
+within formal modelling tradition theories evaluated via analysis their predictions concerning outcome judgments decisions subsequent rigorous experimental tests predictions
+alternative models evaluated terms testable predictions distinguish them
+process models other hand tested evaluated terms both jdm behavior process tracing methods elicit analyze observations range verbal nonverbal antecedents concomitants judgments decisions
+imagine you conduct risky decision making experiment you observe choices collect verbal protocols
+you find choices conform say prospect theory but verbal protocol only infrequent uses what you coded evidence prospect theory e g reference point setting coding gains losses probability
+what would you conclude decision making conforms prospect theory according choices fails do so according verbal protocols
+surmise protocols would seen subordinate supplementary source data case
+they would tend dismissed if inconsistent choice output
+other words would hardly likely reject prospect theory basis verbal protocols any other process data
+process data somehow seem subordinate source evidence
+models aim at predicting outcomes as-if-models appropriate but not models aim explain both outcome process process models
+priority output data based natural sequence testing dependent variables predicting choice data first criterion any model process model as-if-model
+but beyond first step there no reason prefer outcome over process
+rather process models process data should equally important because they richer than input-output data provide important evidence explanatory mechanisms
+instructive example work glockner herbold who show although prospect theory certainly good as-if-model its process assumptions rejected favor alternative models
+paper describe methods devised field judgment decision making jdm enable recording traces underlying processes cognitive representations
+will describe methods three dimensions their theoretical contribution their core methodology their key results

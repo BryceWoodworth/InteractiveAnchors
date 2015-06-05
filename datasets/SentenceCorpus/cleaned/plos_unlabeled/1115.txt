@@ -1,0 +1,72 @@
+ 
+discovery small molecules targeted specific oncogenic pathways revolutionized anti-cancer therapy
+however therapy often fails due evolution acquired resistance
+one long-standing question clinical cancer research identification optimum therapeutic administration strategies so risk resistance minimized
+paper investigate optimal drug dosing schedules prevent at least delay emergence resistance
+design analyze stochastic mathematical model describing evolutionary dynamics tumor cell population during therapy
+consider drug resistance emerging due single genetic alteration calculate probability resistance arising during specific dosing strategies
+then optimize treatment protocols risk resistance minimal while considering drug toxicity side effects constraints
+our methodology used identify optimum drug administration schedules avoid resistance conferred one genetic alteration any cancer treatment type
+ introduction 
+alteration normal regulation cell-cycle progression division death lies at heart processes driving tumorigenesis
+detailed molecular understanding processes provides opportunity design targeted anti-cancer agents
+term targeted therapy refers drugs focused mechanism specifically act well-defined protein targets biological pathways when altered therapy impair abnormal proliferation cancer cells
+examples type therapy include hormonal-based therapies breast prostate cancer; small-molecule inhibitors egfr pathway lung breast colorectal cancers erlotinib gefitinib cetuximab ; inhibitors jak2 flt3 bcr-abl tyrosine kinases leukemias imatinib dasatinib nilotinib ; blockers invasion metastasis; anti-angiogenesis agents like bevacizumab ; proapoptotic drugs; proteasome inhibitors bortezomib
+target-driven approach drug development contrasts conventional more empirical approach used develop cytotoxic chemotherapeutics successes past few years illustrate power concept
+absence prolonged clinical responses many cases however stresses importance continued basic studies into mechanisms targeted drugs their failure clinic
+acquired drug resistance important reason failure targeted therapies
+resistance emerges due drug metabolism drug export alteration drug target mutation deletion overexpression
+depending cancer type its stage therapy administered genetic background patient one several genetic alterations may necessary confer drug resistance cells
+paper investigate drug resistance emerging due single alteration
+example treatment chronic myeloid leukemia targeted agent imatinib fails due acquired point mutations bcr-abl kinase domain
+date ninety different point mutations been identified each sufficient confer resistance imatinib
+second-generation bcr-abl inhibitors dasatinib nilotinib circumvent most mutations confer resistance imatinib; t315i mutation however causes resistance all bcr-abl kinase inhibitors developed so far
+similarly t790m point mutation epidermal growth factor receptor confers resistance egfr tyrosine kinase inhibitors gefitinib erlotinib used treat non-small cell lung cancer
+other mechanisms resistance include gene amplification overexpression p-glycoprotein family membrane transporters decreases intracellular drug accumulation changes cellular proteins involved detoxification activation drug changes molecules involved dna repair activation oncogenes her-2/neu c-myc ras well inactivation tumor suppressor genes like p53 
+design optimal drug administration schedules minimize risk resistance represents important issue clinical cancer research
+currently many targeted drugs administered continuously at sufficiently low doses so no drug holidays necessary limit side effects
+alternatively drug may administered at higher doses short pulses followed rest periods allow recovery toxicity
+clinical studies evaluating advantages different approaches been ambivalent
+some investigations found low-dose continuous strategy more effective while others advocated more concentrated dosages
+effectiveness low-dose continuous approach often attributed its targeted effect tumor endothelial cells prevention angiogenesis rather than low rates resistance
+continuous dosing strategy often implemented combination therapy sometimes including second drug administered at higher dose pulsed fashion
+significant amount research effort been devoted developing mathematical models tumor growth response chemotherapy
+seminal paper norton simon proposed model kinetic resistance cell-cycle specific therapy tumor growth followed gompertzian law
+authors used differential equation model rate cell kill was proportional rate growth unperturbed tumor given size
+they suggested one way combating slowing rate tumor regression was increase intensity treatment tumor became smaller thus increasing chance cure
+authors also published review clinical trials employing dosing schedules related their proposed dose-intensification strategy concluded concept intensification was clinically feasible possibly efficacious
+later predictions extension model were validated clinical trial evaluating effects dose-dense strategy conventional regimen chemotherapy
+their model its predictions become known norton-simon hypothesis generated substantial interest mathematical modeling chemotherapy kinetic resistance
+example dibrov colleagues formulated kinetic cell-cycle model describe cell synchronization cycle phase-specific blockers ; model was then used optimizing treatment schedules increase degree synchronization thus effectiveness cycle-specific drug
+agur introduced another model describing cell-cycle dynamics tumor host cells investigate effect drug scheduling responsiveness chemotherapy ; model was then used optimize scheduling chemotherapeutics maximize efficacy while controlling host toxicity
+other theoretical studies include mathematical model tumor recurrence metastasis during periodically pulsed chemotherapy control theoretic approach optimal dosing strategies evaluation chemotherapeutic strategies light their anti-angiogenic effects
+more comprehensive survey kinetic models tumor response chemotherapy refer reader reviews references therein
+there also been substantial research efforts devoted developing mathematical models genetic resistance i.e resistance driven genetic alterations cancer cells
+since mutations conferring resistance arise random events during dna replication phase cell division dynamics resistant populations well-suited description stochastic mathematical models
+coldman co-authors pioneered field introducing stochastic models resistance against chemotherapy guide treatment schedules
+1986 coldman goldie studied emergence resistance one two functionally equivalent chemotherapeutic drugs using branching process model tumor growth differentiation hierarchy
+model birth death rates cells were time-independent constants each sensitive cell division gave rise resistant cell certain probability
+effect drug was modeled additional probabilistic cell kill law existing population drug could administered fixed dose at series fixed time points
+goal model was schedule sequential administration both drugs order maximize probability cure
+later assumption equivalence symmetry between two drugs was relaxed
+models were also extended include toxic effects chemotherapy normal tissue optimal control problem was formulated maximize probability tumor cure without toxicity
+more recently iwasa colleagues used multi-type birth-death process model study probability resistance emerging due one multiple mutations populations under selection pressure
+authors considered pre-existing resistance mutations determined optimum intervention strategy utilizing multiple drugs
+multi-drug resistance was also investigated using multi-type birth-death process model work komarova wodarz
+their models resistance each drug was conferred genetic alterations within mutational network
+birth death rates each cell type were time-independent constants cells had additional drug-induced death rate if they were sensitive one more drugs
+authors studied evolution resistant cells both before after start treatment calculated probability treatment success under continuous treatment scenarios variable number drugs
+recently dynamics resistance emerging due one two genetic alterations clonally expanding population sensitive cells prior start therapy were studied using time-homogenous multi-type birth-death process 
+one common feature models genetic resistance treatment effect formulated additional probabilistic cell death rate sensitive cells separate underlying birth death process model constant birth death rates
+under model assumptions drug cannot alter proliferation rate either sensitive resistant cells; however main effect many targeted therapies inhibition proliferation cancer cells
+inhibited proliferation turn leads reduced probability resistance since resistant cells generated during sensitive cell divisions
+paper utilize non-homogenous multi-type birth-death process model wherein birth death rates both sensitive resistant cells dependent temporally varying drug concentration profile
+study represents significant departure existing models resistance since incorporate effect inhibition sensitive cell proliferation well drug-induced death obtaining more accurate description evolutionary dynamics system
+addition generalize our model incorporate partial resistance so drug may also effect birth death rates resistant cells
+goals our analysis also differ those previous work
+coldman murray were interested finding optimal administration strategy multiple chemotherapeutic drugs combination sequential administration ; they aimed maximize probability cure while limiting toxicity
+komarova was interested studying effect multiple drugs administered continuously probability eventual cure
+contrast paper derive estimates expected size resistant cell population well probability resistance during full spectrum continuous pulsed treatment schedules one targeted drug
+then propose methodology selecting optimal strategy spectrum minimize probability resistance well maximally delay progression disease controlling expected size resistant population while incorporating toxicity constraints
+many clinical scenarios probability resistance high regardless dosing strategy thus maximal delay disease progression more realistic objective than tumor cure
+methodology developed paper applied study acquired resistance any cancer treatment type

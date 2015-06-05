@@ -1,0 +1,27 @@
+ 
+paper propose novel algorithm factored value iteration fvi approximate solution factored markov decision processes fmdps
+traditional approximate value iteration algorithm modified two ways
+one least-squares projection operator modified so does not increase max-norm thus preserves convergence
+other modification uniformly sample polynomially many samples exponentially large state space
+way complexity our algorithm becomes polynomial size fmdp description length
+prove algorithm convergent
+also derive upper bound difference between our approximate solution optimal one also error introduced sampling
+analyze various projection operators respect their computation complexity their convergence when combined approximate value iteration \keywords{factored markov decision process value iteration reinforcement learning}
+ introduction 
+markov decision processes mdps extremely useful formalizing solving sequential decision problems wide repertoire algorithms choose
+unfortunately mdps subject `curse dimensionality' : problem state variables size mdp grows exponentially  even though many practical problems polynomial-size descriptions
+factored mdps fmdps may rescue us explosion because they offer more compact representation
+fmdp framework one assumes dependencies factored several easy-to-handle components
+mdps known parameters there three basic solution methods naturally countless variants them): value iteration policy iteration linear programming see books sutton \& barto bertsekas \& tsitsiklis excellent overview
+out methods linear programming generally considered less effective than others
+so comes surprise all effective fmdps algorithms our best knowledge use linear programming one way another
+furthermore classic value iteration algorithm known divergent when function approximation used  includes case fmdps too
+paper propose variant approximate value iteration algorithm solving fmdps
+algorithm direct extension traditional value iteration algorithm
+furthermore avoids computationally expensive manipulations like linear programming construction decision trees
+prove algorithm always converges fixed point requires polynomial time reach fixed accuracy
+bound distance optimal solution also given
+section review basic concepts markov decision processes including classical value iteration algorithm its combination linear function approximation
+also give sufficient condition convergence approximate value iteration list several examples interest
+section extend results previous section fmdps review related works section
+conclusions drawn section

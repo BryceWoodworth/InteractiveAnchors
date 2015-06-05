@@ -1,0 +1,38 @@
+
+clustering popular neural data analysis methods neural general data structures given matrix only
+robust global data methods particularly variety data occurs domains
+give about clustering its properties particular focus efficient large scale data analysis
+introduction
+growth information biological domains data analysis data tools towards key many application scenarios
+clustering data one fundamental problem data way humans
+domains based methods particularly well since they represent data terms values directly humans if additional present
+popular include clustering neural etc
+been applied various problems domain gene expression analysis data analysis data protein sequences image analysis etc \
+many popular clustering algorithms however been derived data space
+applications data including temporal signals signals functional data sequential data dna sequences complex graph structures biological networks etc
+often metric not appropriate compare data rather problem dependent similarity measure should used alignment correlation graph functional general
+various methods towards more general data structures exist data structures functional see eg \
+very general approach matrix data
+way any distance measure kernel generalization might positive including settings cannot space alignment sequences empirical measurements without underlying metric
+several approaches popular clustering algorithms towards setting means approaches
+methods they require specific properties matrix positive they represent data terms given training points thus they cannot directly
+another general approach mean field techniques way criterion does not rely use
+kernel approaches main those solutions reduced
+alternative representation classes i e \ set given training data
+way distance data points
+resulting learning problem optimization problem given set data points find points data into classes average points their
+problem general special form e g \ tree there exist constant factor specific settings e g \
+popular clustering optimization setting turn data points
+there does not exist form given fixed search used
+results complexity one clustering instead being number data points
+like clustering highly
+various approaches cost function different methods local much possible corresponding linear program heuristics
+past years simple but neural based clustering general been proposed seen clustering include data taken into account
+more clustering been into popular its been demonstrated large scale experiment
+later same idea been into neural clustering together convergence clustering
+like clustering methods require search obtain given fixed complexity standard one reduced see section
+local widely due fast methods result robust respect noise data
+numerical stability methods further they given simple they very they rely underlying cost functions extended towards setting many situations algorithm obtained demonstrated example
+present about neural based clustering
+present principle methods based cost functions discuss applications properties
+discuss several clustering algorithms including exact methods well single large data sets

@@ -1,0 +1,64 @@
+
+paper proposed optimization criterion species tree set gene due
+paper provided search heuristic criterion given set gene
+however heuristic not optimal solutions its search makes practice
+paper provide two exact solutions problem species tree set gene under criterion
+other words our solutions find tree total number set gene
+one solution based novel linear another based simple dynamic approach
+make first solution particularly very problem whereas solution tools its makes other genomic events may gene tree
+using exact solutions analyze data set yeast species data set species several data sets
+show criterion provides very accurate estimates species tree our solutions very fast thus accurate analysis data sets
+further solutions allow solutions important criterion show
+show species tree graph clusters gene may sufficient practice finding computational optimization solutions
+further study statistical consistency convergence rate criterion well its species tree
+finally show how our solutions used identify potential gene events may some data thus original framework
+our solutions available
+introduction
+accurate species model evolutionary sets species play central role comparative studies analyses population among many other applications
+species tree sequencing single group species its tree known gene tree using method maximum likelihood tree species tree
+underlying assumption gene tree species tree hence learning latter
+however long assumption not always
+due sequencing approach standard method very recently
+sequencing complete genomes various organisms available particularly important data multiple organisms available
+data multiple various groups species
+analyses many cases among gene same set organisms
+therefore while gene tree requires process species tree requires addition process among gene so species
+paper address problem efficient inference accurate species multiple when gene assumed correct their assumed due
+also address integration gene potential gene tree into framework
+let us process way gene tree
+evolutionary perspective any evolutionary history set genomes would tree same tree models evolution each gene genomes
+however events among different genome those may take different through results gene differ species tree well each other due
+gene tree due been shown recently several groups related organisms including yeast
+case gene need within species tree shown 1
+few methods been introduced recently gene their species despite
+generally each methods follows one two combined analysis approach analysis see 2
+combined analysis sequences multiple resulting data set using methods maximum maximum
+analysis approach sequence data each first gene then
+one way gene taking their
+another method taking tree frequency among all gene species tree
+methods based two approaches been various researchers
+recently bayesian methods following analysis approach been developed
+while methods statistical basis they very time taking even data sets their
+proposed approach species gene number
+heuristic approach was later described
+than et al provided heuristic species tree under criterion
+however no exact solutions criterion exist
+paper provide notion first described
+then present exact solutions linear algorithm dynamic algorithm finding optimal species tree set gene tree under criterion
+our solutions based two central species tree graph set species clusters amount between set gene species tree obtained simple within species tree
+accuracy computational solutions demonstrate allow analysis data sets analysis large numbers data sets those involved simulation studies
+given data solutions considered
+computational our solutions allow solutions
+but not least exact solutions allow us study properties criterion species tree
+both exact solutions
+data set yeast data set large number data sets using
+each data set our method species tree at most few produced very accurate species show
+case data set provide tree different one proposed authors discuss tree
+yeast data set obtain tree one proposed authors well other studies
+addition quality species our method them one advantage our method used multiple species tree study scenarios within each them
+utility yeast data sets
+further data set how possible gene events using scenarios other methods
+using data sets study statistical consistency well convergence rate criterion
+also show may sufficient consider only set clusters gene practice may much smaller than set all clusters species thus further reduction time
+present example certain cases only gene tree clusters may result species tree under
+computational our methods properties criterion makes our methods particularly large data sets

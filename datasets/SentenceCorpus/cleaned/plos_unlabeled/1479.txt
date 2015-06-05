@@ -1,0 +1,35 @@
+ 
+exposure environmental chemicals drugs may negative effect human health
+better understanding molecular mechanism compounds needed determine risk
+present high confidence human protein-protein association network built upon integration chemical toxicology systems biology
+computational systems chemical biology model reveals uncharacterized connections between compounds diseases thus predicting compounds may risk factors human health
+additionally network used identify unexpected potential associations between chemicals proteins
+examples shown chemicals associated breast cancer lung cancer necrosis potential protein targets di-ethylhexyl-phthalate 2,3,7,8-tetrachlorodibenzo-p-dioxin pirinixic acid permethrine
+chemical-protein associations supported through recent published studies illustrate power our approach integrates toxicogenomics data other data types
+ introduction 
+humans daily exposed diverse hazardous chemicals via skincare products plastic cups computers pesticides mention but few sources
+potential effect environmental compounds human health major concern
+example chemicals phthalate plasticizers been widely linked allergies reproductive disorders neurological defects
+humans intentionally exposed drugs used treatment cure diseases
+many drugs affect multiple targets may interact affect same proteins environmental chemicals
+mechanism action small molecules often not completely understood associated adverse toxic effects through example drug-drug interactions
+there thus need improve our understanding underlying mechanism action chemicals biological pathways they perturb fully evaluate impact small molecules human health
+essential step towards deciphering effect chemicals human health identify all possible molecular targets given chemical
+various network-oriented chemical pharmacology approaches been published recently identify novel protein candidates drugs using structural chemical similarity
+example keiser et al applied network analysis drugs their targets
+authors identified unexpected molecular targets muscarinic acetylcholine receptor m 3 alpha-2 adrenergic receptor neurokinin nk2 receptor methadone emetine loperamide respectively
+additionally recent studies demonstrated chemicals could classified based upon their effect mrna expression detected microarrays
+lamb et al showed genomic signatures could used recognize drugs common mechanism action allowing discovery unknown modes action
+despite explosion chemical-biological networks chemical toxicity remains major issue human health
+analysis environmental chemicals similar gene expression profiles still lacking
+recent advances toxicogenomics information gene/protein activity response small molecule exposures becomes more available
+provide necessary data develop computational systems biology models predict both high level associations more detailed associations
+paper present method associate chemicals disease identify potential molecular targets based integration toxicogenomics data chemical structures protein-protein interaction data disease information functional annotation
+core our procedure derived target hopping concept defined previously
+but instead considering only binding activity extended concept gene expression
+if two proteins affected two chemicals then both proteins deemed associating chemical space
+our approach not only statistical model but mimics true biological system constructing network associations between human proteins defined protein-protein association network
+validated our network comparison two high confidence protein-protein interaction networks assessing functional enrichment clusters network generated
+p-pan revealed both known well many novel surprising connections between chemicals diseases proteins
+provide literature support some unexpected associations connection between diethylhexylphthalate gamma-aminobutyric acid receptor beta target well between apocarotenal chemical found spinach necrosis
+illustrates usefulness approach integrates toxicogenomics data other diverse data types

@@ -1,0 +1,46 @@
+ 
+pavlovian predictions future aversive outcomes lead behavioral inhibition suppression withdrawal
+there considerable evidence involvement serotonin both learning predictions inhibitory consequences ensue although less causal relationship between two
+context highly simplified model chains affectively charged thoughts interpret combined effects serotonin terms pruning tree possible decisions
+show how drop behavioral inhibition putatively resulting experimentally psychiatrically influenced drop serotonin could result unexpectedly large negative prediction errors significant aversive shift reinforcement statistics
+suggest interpretation finding helps dissolve apparent contradiction between fact inhibition serotonin reuptake first-line treatment depression although serotonin itself most strongly linked aversive rather than appetitive outcomes predictions
+ introduction 
+serotonin neuromodulator appears play critical role wealth psychiatric conditions including depression anxiety panic obsessive compulsions
+however despite importance serotonergic pharmacotherapies notably selective serotonin reuptake inhibitors roles serotonin plays normal abnormal function still mysterious
+start three particular findings
+first 5-ht involved prediction aversive events possibly form opponent dopamine
+second 5-ht involved behavioral inhibition preventing curtailing ongoing actions light predictions aversive outcomes
+third finding collection psychopharmacological data implicating 5-ht animal models depression anxiety together fact depleting 5-ht human subjects who recovered depression reinstate acute at times fulminant re-experience subjective symptoms disease assessed various rating scales
+furthermore while ssris used treatment depression genetically induced constitutive decreases efficiency 5-ht reuptake risk factor depression
+findings hard connect: second fact seems orthogonal first third themselves apparent contradiction
+if 5-ht really involved predicting aversive outcomes then depleting should surely positive rather than negative affective consequences
+suggest missing link comes considering interactions between pavlovian predictions ongoing action selection
+interaction seen conditioned suppression standard workhorse test aversive predictions
+animals trained emit appetitive instrumental actions associate light shock
+presentation light during instrumental performance reduces rate at animals emit those responses
+neither theoretical nor neurobiological status interaction completely resolved though there some evidence involvement 5-ht nucleus accumbens its realization 
+here treat subset inhibitory processes associated gray's behavioral inhibition system terms what might called preparatory pavlovian response
+consummatory pavlovian responses pre-programmed reactions presence affectively significant outcomes food water threats
+preparatory pavlovian responses similarly pre-programmed responses predictions those outcomes
+even though predictions learned responses not may therefore behaviorally inappropriate certain circumstances
+our purposes long noted deakin graeff most important preparatory pavlovian response prediction threat inhibition form withdrawal disengagement
+explicitly links first two findings discussed above inhibition directly associated aversive predictions
+explore consequences reflexive direct inhibition action learning affective settings together repercussions when 5-ht compromised built highly simplified model sought isolate effects more general learning effects
+more specifically built model trains thoughts
+our treatment considered thoughts actions lead one belief state next
+trains thought gained value through their connections group terminal states were preassigned either positive negative affective values
+5-ht directly inhibited chains thought predicted lead toward negative terminal states
+our model seen terms 5-ht's pruning decision tree outcome states choices 
+argue results tryptophan depletion above now emerge when considering consequences reflexive behavioral inhibition ongoing learning about world subsequent action choice predictions
+most notable effect model critical bias toward optimistic valuation
+states actions potentially negative consequences under-explored incorrectly valued because reflexive inhibition
+when inhibition fails though last three issues mentioned above there two adverse consequences
+first inhibition no longer crutch instrumental action choice so subjects learn avoid potentially bad situations rather than being able rely reflexive mechanism
+second due mismatch between policy value function characteristic inconsistencies between predicted actual values arise actual values encountered being more negative than predicted though also actually more realistic
+mismatch between policy value function also leads overall reduction rewards obtained
+boosting 5-ht model again restores status quo
+course highly simplified model cannot possibly itself accommodate all diverse confusing roles 5-ht
+nevertheless replicates some prominent behavioral pharmacological facets depression anxiety humans animal models return discussion
+next section defines model trains thought more formally
+results section considers normal learning consequences impairments 5-ht processing
+save discussion broader discussion data theories pertaining 5-ht

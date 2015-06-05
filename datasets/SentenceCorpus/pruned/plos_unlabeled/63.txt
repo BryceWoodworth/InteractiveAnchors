@@ -1,0 +1,85 @@
+
+understanding molecular complex behavior populations problem biology
+allows genetic provides example relationships between molecular gene networks complex they control
+work our knowledge first time present detailed model transition using example
+construct model gene network demonstrate gene expression robust molecular noise program response increase concentration
+model then into stochastic population model also motion cell communication
+transition explain experimentally observed transition individual model cells into state over range
+at same time values critical concentration threshold population density shown robust between individual cells specific particular growth conditions
+our modeling approach population scales phenomenon provides questions evolutionary phenomenon
+thus demonstrate transition requires much higher threshold cell density than basis formation
+introduction
+molecular networks signal gene expression into decision all life biological cells including responses environmental factors
+one main systems biology understand relationships between properties molecular cellular them
+particularly important involving interaction action multiple cells
+networks still difficult organisms their complexity
+less complex more experimentally organisms systems choice social behavior at genetic level
+phenomenon us particularly unique relationships molecular population dynamics
+ability populations certain gene expression some critical population density been
+found variety species been studied experimentally
+phenomenon usually small gene expression network functions gene expression whose
+at low cell density state key transcription factor required expression proteins
+at same time cell small amount signaling out cell
+while population density low most molecules out environment
+cell density more molecules
+certain cell signal transition network state resulting transcription factor expression target genes
+transition both scales focus our study
+investigate phenomenon agent disease
+species often their unique ability through dna
+like many other various
+form physical contact their advantage over their
+region into cell form complex into genome
+one genes class only
+other genes cells results formation
+themselves into same related species means genetic
+been shown requires phenomenon
+functional control remains evolutionary
+widely processes either adaptive value if not performed population scale
+thus fact seems critical density
+since multiple cannot dna action does not relevant our case
+instead increase probability would appear certain number per
+however density cannot estimated using since they do not produce
+situation may our understanding biological function not yet complete
+indeed alternative function also been proposed
+answer what measure using each particular situation necessary consider relevant conditions growth
+experimental approach problem often difficulty work real
+other hand mathematical modeling significantly experimental methods biological questions involve spatial temporal scales phenomenon
+some aspects either population dynamics been gain into phenomenon
+however because lack detailed molecular information experimentally between population dynamics been made
+here develop modeling approach both dynamics allows us between them explicitly
+although much been learned about molecular network not always clear what functions they perform
+here construct detailed model network analyze both
+demonstrate network properties gene expression robust molecular noise
+further develop model motion cell communication while explicitly individual dynamics each cell
+allows us describe transition both cellular population scales predict values critical concentration threshold cell density functions various environmental parameters
+finally comparing transition present hypothesis evolutionary regulation
+all genes thought network itself
+network only after
+based nature into two major types consider only type
+network experimental data
+class molecules through cell activation transcription
+model assume available at concentration results rate transcription
+open transcription
+binding its thought occur only within time during when protein single
+total makes formation complex
+furthermore protein
+important rate depends does not depend protein explicitly shown 1
+form stable active relatively short
+number proteins necessary
+first open two cell
+since our model transition conditions growth assume present their do not limit rate
+both were shown expressed at some low rate even
+positive feedback found many
+additional feedback also involve other components network specific
+thus negative control provided whose transcription directly
+through formation very stable complex dna
+recently number authors reported like also
+reaction between however remains
+our model original hypothesis et al complex one one
+hypothesis et al who showed must form complex
+under assumptions not network behavior
+additional positive feedback because transcription contains itself
+several evidence suggest active signaling molecules through cell number species including
+our model explore hypothesis environment active also under control
+indeed contains open whose function not but been active into cell
+taking into uncertainty model simply

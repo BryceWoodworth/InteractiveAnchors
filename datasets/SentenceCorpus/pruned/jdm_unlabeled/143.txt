@@ -1,0 +1,27 @@
+
+paper tests choice data small samples
+method approach
+technique cases where person true preferences one group trials another cases person following random preference mixture model distributed sampling each
+preference between all pairs
+preference between all pairs then
+distribution procedure data each sample
+second test correlation between mean number preference difference between also
+data method
+number subjects showed significant assumptions one both tests significantly more than expected
+introduction
+proposed solution problem testing whether choice data preference
+their probabilistic choice model given response represented if were random sample mixture preferences
+model was used analyze study had reported preference
+via mixture model new data
+much their paper including their evidence against but method part because responses same person choices independent distributed
+if assumption method et al might lead tests structural properties
+further assumptions more detailed analysis individual responses choice problems rather than binary choice
+true error model probabilistic representation also used test structural properties mixture models will when person mixture true preferences changes true preferences during study
+showed how et al method might lead when data described methods testing between two stochastic models choice
+methods allow tests assumptions et al approach against would occur if person were change preferences during study
+described statistical tests require samples
+examples cases method et al might lead was even when more detailed analysis showed data both
+methods described test would require large numbers trials however might difficult
+experiment et al does not sufficient data allow full analyses proposed
+would difficult data provide complete test all assumptions proposed
+note shows approach possible test assumptions even small studies et al

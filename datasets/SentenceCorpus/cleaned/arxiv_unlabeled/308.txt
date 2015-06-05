@@ -1,0 +1,23 @@
+ 
+% explaining adaptive behavior central problem artificial intelligence research
+here formalize adaptive agents mixture distributions over sequences inputs outputs i/o
+each distribution mixture constitutes `possible world' but agent does not know possible worlds actually facing
+problem adapt i/o stream way compatible true world
+natural measure adaptation obtained kullback-leibler kl divergence between i/o distribution true world i/o distribution expected agent uncertain about possible worlds
+case pure input streams bayesian mixture provides well-known solution problem
+show however case i/o streams solution breaks down because outputs issued agent itself require different probabilistic syntax provided intervention calculus
+based calculus obtain bayesian control rule allows modeling adaptive behavior mixture distributions over i/o streams
+rule might allow novel approach adaptive control based minimum kl-principle
+ introduction 
+ability adapt unknown environments often considered hallmark intelligence
+agent environment conceptualized two systems exchange symbols every time step : issued agent action whereas issued environment observation
+thus both agent environment conceptualized probability distributions over sequences actions observations i/o streams
+if environment perfectly known then i/o probability distribution agent tailored suit particular environment
+however if environment unknown but known belong set possible environments then agent faces adaptation problem
+consider example robot been endowed set behavioral primitives now faces problem how act while being ignorant correct primitive
+since want model both agent environment probability distributions over i/o sequences natural way measure degree adaptation would measure `distance' probability space between i/o distribution represented agent i/o distribution conditioned true environment
+suitable measure terms its information-theoretic interpretation readily provided kl-divergence
+case passive prediction adaptation problem well-known solution
+distribution minimizes kl-divergence bayesian mixture distribution over all possible environments
+aim paper extend result distributions over both inputs outputs
+main result paper extension only possible if consider special syntax actions probability theory been suggested proponents causal calculus

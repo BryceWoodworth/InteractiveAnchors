@@ -1,0 +1,70 @@
+ 
+real-time object detection many applications video surveillance teleconference multimedia retrieval \etc
+since viola jones proposed first real-time adaboost based face detection system much effort been spent improving boosting method
+work first show feature selection methods other than boosting also used training efficient object detector
+particular introduce greedy sparse linear discriminant analysis gslda its conceptual simplicity computational efficiency; slightly better detection performance achieved compared
+moreover propose new technique termed boosted greedy sparse linear discriminant analysis bgslda efficiently train detection cascade
+bgslda exploits sample re-weighting property boosting class-separability criterion gslda
+experiments domain highly skewed data distributions \eg face detection demonstrates classifiers trained proposed bgslda outperforms adaboost its variants
+finding provides significant opportunity argue adaboost similar approaches not only methods achieve high classification results high dimensional data object detection
+ introduction 
+\ieeeparstart{r}{eal-time} objection detection face detection numerous computer vision applications \eg intelligent video surveillance vision based teleconference systems content based image retrieval
+various detectors been proposed literature
+object detection challenging due variations visual appearances poses illumination conditions
+furthermore object detection highly-imbalanced classification task
+typical natural image contains many more negative background patterns than object patterns
+number background patterns times larger than number object patterns
+means if one wants achieve high detection rate together low false detection rate one needs specific classifier
+cascade classifier takes imbalanced distribution into consideration
+because huge success viola jones' real-time adaboost based face detector  lot incremental work been proposed
+most them focused improving underlying boosting method accelerating training process
+example asymboost was introduced alleviate limitation adaboost context highly skewed example distribution
+li proposed floatboost better detection accuracy introducing backward feature elimination step into adaboost training procedure
+wu used forward feature selection fast training ignoring re-weighting scheme adaboost
+another technique based statistics weighted input data was used even faster training
+klboost was proposed train strong classifier
+weak classifiers klboost based histogram divergence linear features
+therefore detection phase not efficient haar-like features
+notice klboost classifier design separated feature selection
+work part was published preliminary form  propose improved learning algorithm face detection dubbed boosted greedy sparse linear discriminant analysis bgslda
+viola jones introduced framework selecting discriminative features training classifiers cascaded manner shown fig 
+cascade framework allows most non-face patches rejected quickly before reaching final node resulting fast performance
+test image patch reported face only if passes tests all nodes
+way most non-face patches rejected early nodes
+cascade detectors lead very fast detection speed high detection rates
+cascade classifiers also been used context support vector machines svms faster face detection
+ soft-cascade developed reduce training design complexity
+idea was further developed
+followed viola jones' original cascade classifiers work
+one issue contributes efficacy system comes use adaboost algorithm training cascade nodes
+adaboost forward stage-wise additive modeling weighted exponential loss function
+algorithm combines ensemble weak classifiers produce final strong classifier high classification accuracy
+adaboost chooses small subset weak classifiers assign them proper coefficients
+linear combination weak classifiers interpreted decision hyper-plane weak classifier space
+proposed bgslda differs original adaboost following aspects
+instead selecting decision stumps minimal weighted error adaboost proposed algorithm finds new weak leaner maximizes class-separability criterion
+result coefficients selected weak classifiers updated repetitively during learning process according criterion
+our technique differs following aspects
+proposed concept linear asymmetric classifier lac addressing asymmetries asymmetric node learning goal cascade framework
+unlike our work where features selected based linear discriminant analysis lda criterion selects features using adaboost asymboost algorithm
+given selected features wu then build optimal linear classifier node learning goal using lac lda
+note similar techniques also been applied neural network
+ nonlinear adaptive feed-forward layered network linear output units been introduced
+input data nonlinearly transformed into space classes separated more easily
+since lda considers number training samples each class applying lda at output neural network hidden units been shown increase classification accuracy two-class problem unequal class membership
+our experiments show terms feature selection proposed bgslda methods superior than adaboost asymboost object detection } key contributions work follows
+introduce gslda alternative approach training face detectors
+similar results obtained compared viola jones' approach
+propose new algorithm bgslda combines sample re-weighting schemes typically used boosting into gslda
+experiments show bgslda achieve better detection performances
+show feature selection classifier training techniques different objective functions other words two processes separated context training visual detector
+offers more flexibility even better performance
+previous boosting based approaches select features train classifier simultaneously
+our results confirm beneficial consider highly skewed data distribution when training detector
+lda's learning criterion already incorporates imbalanced data information
+hence better than standard adaboost's exponential loss training object detector
+remaining parts paper structured follows
+section gslda algorithm introduced alternative learning technique object detection problems
+then discuss how lda incorporates imbalanced data information when training classifier section
+then sections  proposed bgslda algorithm described training time complexity discussed
+experimental results shown section paper concluded section

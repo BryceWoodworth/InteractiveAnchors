@@ -1,0 +1,16 @@
+
+regularization values also norm popular technique low rank matrices
+paper some consistency results provide necessary sufficient conditions rank consistency norm loss
+also provide adaptive version rank consistent even when necessary condition adaptive version not
+introduction
+recent years regularization various seen interest
+particular context linear learning norm may sparse vectors i e vectors low norm
+regularization also known regression efficient following algorithms
+moreover recent work studied conditions under estimate pattern vector
+when learning matrices rank natural values also known norm norm natural indeed norm convex norm i e lower convex function norm convex rank over norm
+practice leads low rank solutions seen recent increased interest context learning classification multiple classes
+paper consider rank consistency norm regularization loss i e if data were actually generated matrix will matrix its rank estimated
+provide necessary sufficient conditions rank consistency corresponding results group
+do so under two sets sampling assumptions detailed full assumption assumption natural context
+group necessary condition do not always estimate rank following adaptive version group design adaptive version achieve consistency rank consistency no consistency conditions
+finally present approach convex optimization norm while show simulations examples consistency results

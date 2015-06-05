@@ -1,0 +1,38 @@
+ 
+narrow self-interest often used simplifying assumption when studying people making decisions social contexts
+nonetheless people exhibit wide range different motivations when choosing unilaterally among interdependent outcomes
+measuring magnitude concern people others sometimes called social value orientation svo been interest many social scientists decades several different measurement methods been developed so far
+here introduce new measure svo several advantages over existent methods
+detailed description new measurement method presented along norming data provide evidence its solid psychometric properties
+conclude brief discussion research streams would benefit more sensitive higher resolution measure svo extend invitation others use new measure freely available
+ introduction 
+assumption narrow self-interest central rational choice theory
+postulate decision makers dms concerned about maximizing their own material gain indifferent payoffs other dms around them
+simplifying assumption yields powerful framework predict explain human decision making behavior across wide variety domains
+however there reliable counterexamples demonstrating dms' elicited preferences choices often influenced part payoffs other dms thus challenging what some termed selfishness axiom
+studies motivations underlie interdependent decision behavior long history motivations been referred variety names including social preferences social motives other-regarding preferences welfare tradeoff ratios social value orientation svo
+consistency refer construct svo remainder paper
+within svo framework assumed people vary their motivations goals when evaluating different resource allocations between themselves another person
+examples dm may endeavor maximize her own payoff individualistic maximize competitive minimize inequality averse difference between her own other person's payoff maximize joint payoffs prosocial
+worth noting however assumption narrow self-interest itself particular svo namely perfectly individualistic orientation
+moreover considering spectrum different svos not challenge rational choice theory per se but rather extension postulate effort increase theory's psychological realism descriptive accuracy
+svo been found affect cognitions account behavior across range interpersonal decision making contexts specifically domain negotiation settings resource dilemmas
+svo also been identified covariate interacting different emotional states influencing propensity cooperate
+svos even been identified non-human primates indicating some other species also show intrinsic preferences prosocial behavior
+order use full explanatory power svo psychological construct need measure efficiently reliably validly
+several different measurement methods quantifying variations svo across individuals been developed
+although use existent measures produced wealth findings even categorical approaches measures substantial limitations
+instance some measures yield only low-resolution output lack sensitivity important individual differences providing at best nominal categorization
+other measures highly inefficient often fail produce consistent results substantial proportion subjects
+yet other methods require substantial time effort research subject order produce score
+moreover none existent measures explicitly designed detect more nuanced motivations like inequality aversion
+specifically previous measures not disentangled orientation joint gain maximization motivation minimize difference between outcomes
+although two orientations related they both indicate deviation individualism towards prosociality they substantially different motivations should differentiated both theoretically operationally
+furthermore social value orientation continuous construct corresponds quantity how much dm willing sacrifice order make another dm better off perhaps worse off
+quantification interdependent utilities best represented continuous scale
+moreover since most commonly used svo measures date produce only categorical data substantial amount information related peoples' social preferences being discarded ignored
+consequently full explanatory power svo not been used because unnecessary sacrifice statistical power see cohen number discussion unfortunate practice reducing continuous variables categories
+our view method assessing svo should yield high resolution output makes sensitive inter intra-individual differences facilitate comparisons thereof easy use efficient able detect most prevalent svo individual differences allow evaluation rank orders social preferences yield meaningful results virtually all subjects
+amongst criteria consider demand high resolution measure produces data continuous scale crucial
+introduce here new measure svo takes conceptualization into account allows greater explanatory potential svo through increased statistical power while also meeting aforementioned psychometric criteria
+new method referred svo slider measure

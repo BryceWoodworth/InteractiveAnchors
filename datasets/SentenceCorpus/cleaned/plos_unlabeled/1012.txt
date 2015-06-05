@@ -1,0 +1,29 @@
+ 
+knowledge free energy landscape topology essential key understanding many biochemical processes
+determination conformers protein their basins attraction takes central role studying molecular isomerization reactions
+work present novel framework unveil features free energy landscape answering questions how many meta-stable conformers there what hierarchical relationship among them what structure kinetics transition paths
+exploring landscape molecular dynamics simulations microscopic data trajectory encoded into conformational markov network
+structure graph reveals regions conformational space corresponding basins attraction
+addition handling conformational markov network relevant kinetic magnitudes dwell times rate constants hierarchical relationships among basins completes global picture landscape
+show power analysis studying toy model funnel-like potential computing efficiently conformers short peptide dialanine paving way systematic study free energy landscape large peptides
+ introduction 
+polymers more specifically proteins show complex behavior at cellular system level e.g protein-protein interaction networks also at individual level where proteins show large degree multistability: single protein fold different conformational states
+complex system dynamics protein cannot understood studying its parts isolation instead system must analyzed whole
+tools able represent handle information entire picture complex system thus necessary
+complex network theory proved powerful tool used seemingly different biologically-related fields study metabolic reactions ecological food webs genetic regulatory systems study protein dynamics
+latter context diverse studies analyzed conformational space polymers proteins making use network representations where nodes account polymer conformations
+additionally some studies tried determine common general properties conformational networks looking at magnitudes clustering coefficient cyclomatic number connectivity etc recently trying decompose network modules corresponding free energy basins use community algorithms over conformational networks been proposed
+although approach opened promising path analysis free energy landscapes community based description network leads multiple characterizations fel thus difficult establish clear map communities found basins fel
+similar approach commonly used analyze complex dynamics construction markovian models
+markovian state models let us treat information one several trajectories molecular dynamics set conformations certain transition probabilities among them
+therefore time-continuous trajectory turns into transition matrix offering global observables relaxation times modes
+use markovian models proposed aim detecting fel meta-stable states
+however above approaches analyze fels peptides involves extremely large computational cost: either general community algorithms large transition matrices
+finally other strategies characterize fel successfully helped understand physics biopolymers based study potential energy surface
+classical transition-state theory allows us project behavior system at certain temperature knowledge minima transition states pes
+approach entails some feasible approximations harmonic approximation pes limit high damping assumption high barriers etc approximations could avoided working directly md data
+article make novel study fel capturing its mesoscopic structure hence characterizing conformational states transitions between them
+inspired approaches presented translate dynamical trajectory obtained md simulations into conformational markov network
+show how efficiently handle graph obtain through its topology main features landscape: conformers their basins attraction dwell times rate constants between conformational states detected coarse-grained picture fel
+framework shown validated analyzing synthetic funnel-like potential
+after terminally blocked alanine peptide studied unveiling main characteristics its fel

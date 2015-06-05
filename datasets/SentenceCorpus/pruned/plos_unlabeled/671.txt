@@ -1,0 +1,66 @@
+
+proteins been widely used biological
+recently new class proteins was between state
+proteins not only provide much below limit but also other applications data
+potential proteins rational their properties requires detailed understanding molecular mechanism unknown
+here studied mechanism at level state molecular dynamics simulations
+our simulations explain measured state also predict structures unknown state
+further find distribution active site pathways protein matrix
+changes state some amino lead different states all turn out essential mechanism
+states after
+overall stability different states state
+finally propose pathways thus leads
+identified proteins essential their function propose detailed underlying mechanism provides available experimental data
+structural similarity between other interest suggests general mechanism proteins
+rational design optimization proteins
+introduction
+proteins been widely used protein dynamics cells
+recently new class protein like proteins been between state
+molecules usually not very unique feature may allow new applications
+example also known may provide far field much below limit
+proteins will protein single cells
+since out data
+protein protein
+protein its state state
+state same at
+upon maximum at at
+state initial state
+state through within
+addition if over long time also into state cannot any more
+nature state unknown
+cycle many times without significant
+properties recently demonstrated
+however its low rather properties need
+potential proteins rational properties detailed molecular understanding mechanism
+aim study obtain detailed mechanism at level understand dynamics both activation process process
+structures its state its state its states were recently determined
+similar
+reaction
+compared system additional group
+was possible even within protein analysis showed conformational
+recent study shown changes pattern some amino changes account observed upon
+based comparison between measured major states state been whereas
+here study behavior each previously identified states
+following how does within protein matrix how do different states affect mechanism
+species how increased
+address questions out molecular dynamics simulations using approach
+approach between state state
+were using method although not always highly accurate shown method studies reactions involving
+number approaches modeling dynamics been described literature multiple
+recent see
+context simulations approach problems been
+approach used work other approaches two main
+first our approach binary decision made at each integration time step based only current states
+second only at where probability approaches
+could principle because do not allow regions strong but no real
+however reactions large systems place at also shown others
+thus most our approach
+addition both energy conserved upon transition energy
+theoretical detailed information
+several theoretical studies been both dynamics simulations based
+addition model phase were methods well protein environment means within approach
+key residues our molecular dynamics simulations how protein protein
+based simulations provide new mechanism measured times predicts structures states state
+also suggest state play important role
+however detailed study processes paper
+our predictions

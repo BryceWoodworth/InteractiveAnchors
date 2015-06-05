@@ -1,0 +1,51 @@
+ 
+many proteins especially eukaryotes contain tandem repeats several domains same family
+repeats variety binding properties involved protein protein interactions well binding other ligands dna rna
+rapid expansion protein domain repeats assumed evolved through internal tandem duplications
+however exact mechanisms behind tandem duplications not well-understood
+here studied evolution function protein structure gene structure phylogenetic distribution domain repeats
+purpose assigned pfam-a domain families 24 proteomes more sensitive domain assignments repeat regions
+assignments confirmed previous findings eukaryotes particular vertebrates contain much higher fraction proteins repeats compared prokaryotes
+internal sequence similarity each protein revealed domain repeats often expanded through duplications several domains at time while duplication one domain less common
+many repeats appear been duplicated middle repeat region
+strong contrast evolution other proteins mainly works through additions single domains at either terminus
+further found some domain families show distinct duplication patterns e.g nebulin domains mainly been expanded unit seven domains at time while duplications other domain families involve varying numbers domains
+finally no common mechanism expansion all repeats could detected
+found duplication patterns show no dependence size domains
+further repeat expansion some families possibly explained shuffling exons
+however exon shuffling could not created all repeats
+ introduction 
+proteins composed domains recurrent protein fragments distinct structure function evolutionary history
+protein domains may occur alone but more frequently found combination other domains multidomain proteins
+while creation new multidomain architectures through shuffling protein domains been studied extensively during last few years one type domain recombination often been ignored: creation domain repeats
+domain repeats contain two more domains same domain family tandem
+large repeats more then ten domains tandem common eukaryotes
+repeating domains often short leucine rich repeat family repeating unit 30 residues
+some repeated domain families mainly found repeats e.g lrr c2h2 zinc fingers while other families also frequently found single unit
+repeats may form regular structures antiparallel sheets solenoids while others form filaments only structured upon binding their ligands
+some examples repeats protein structures found propeat database
+single amino acids short peptide motifs may repeated proteins too
+however study focused larger repeating units domains
+therefore when repeats mentioned text refers repeats protein domains
+domain repeats often involved interactions proteins other ligands dna rna
+even if repeated domains well-defined conserved structure sequence conservation often low only few conserved residues required correct fold
+their variable sequences variation number domains provide flexible binding multiple binding partners
+hence repeats found proteins highly diverse functions tetratrico peptide repeats involved cell-cycle regulation transcriptional regulation protein transport assisting protein folding
+addition flexible binding properties sequence variability repeats been exploited create high affinity binders alternative antibodies 
+domain repeats found all kingdoms life long repeats containing several domains tandem been observed particularly common multicellular species
+repeats been proposed provide eukaryotes extra source variability compensate low generation rates
+one example lrrs plant defense systems enable plants adapt new pathogens 
+domain repeats thought arise via tandem duplications within gene where segment duplicated copy inserted next its origin
+however exact mechanism behind phenomenon not fully understood
+nonhomologous recombination intron regions i.e exon shuffling may responsible internal duplications repeats issue been addressed study
+another possible explanation dna slippage due formation dna hairpins common creation nucleotide repeats short protein repeats
+however marcotte coworkers shown protein repeats more likely created recombination than dna slippage since repeat expansion shows weak dependence repeat length 
+addition internal duplications frequent duplications repeat-containing genes occurred mammalian genomes
+part explain their abundance higher eukaryotes
+addition variation number repeats between orthologous genes indicates loss/gain domains repeats frequent evolution
+interestingly rapid expansion repeats eukaryotes could partly explained tandem duplication units containing several repeated domains
+study aim investigate how frequent duplications multiple domains
+further number domains duplicated compared among different domain families
+domains defined pfam-a database were detected using hmm-alignments
+coverage was increased relaxed detection criteria domains repeated regions proteins
+addition investigation duplication sizes domain assignments been used study distribution repeats repeated domain families three kingdoms life position repeat expansion location exon boundaries repeats

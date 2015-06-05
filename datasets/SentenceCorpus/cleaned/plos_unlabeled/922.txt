@@ -1,0 +1,26 @@
+ 
+proteins active flexible machines perform range different functions
+innovative experimental approaches may now provide limited partial information about conformational changes along motion pathways proteins
+there therefore need computational approaches efficiently incorporate prior information into motion prediction schemes
+paper present pathrover general setup designed integration prior information into motion planning algorithm rapidly exploring random trees
+each suggested motion pathway comprises sequence low-energy clash-free conformations satisfy arbitrary number prior information constraints
+constraints derived experimental data expert intuition about motion
+incorporation prior information very straightforward significantly narrows down vast search typically high-dimensional conformational space leading dramatic reduction running time
+allow use state-of-the-art energy functions conformational sampling integrated framework into rosetta accurate protocol diverse types structural modeling
+suggested framework serve effective complementary tool molecular dynamics normal mode analysis other prevalent techniques predicting motion proteins
+applied our framework three different model systems
+show limited set experimentally motivated constraints may effectively bias simulations toward diverse predicates outright fashion distance constraints enforcement loop closure
+particular our analysis sheds light mechanisms protein domain swapping role different residues motion
+ introduction 
+mechanistic understanding protein motions intrigued structural biologists bio-informaticians physicists explore molecular motions last five decades
+two seminal breakthroughs 1960 structures haemoglobin myoglobin were solved consequently first time mechanistic structural insights into motion protein were deduced its snap-shot image
+finding paved way by-now classical model cooperativity binding allosteric proteins
+nowadays hundreds proteins known multiple conformations together their suggested molecular motion recorded databases molmovdb
+number increases influx solved structures protein data bank
+inherent flexibility characteristic fundamental protein functions catalysis signal transduction allosteric regulation
+elucidating motion protein structures essential understanding their function particular understanding control mechanisms prevent allow protein motions
+understanding relation between protein sequence protein motion allow de-novo design dynamic proteins enhance our knowledge about transition states provide putative conformations targeting drugs
+accurate prediction protein motion also help address other computational challenges
+instance normal mode analysis motion predictions used efficient introduction localized flexibility into docking procedures 
+experimental knowledge macro-molecular motions been discouragingly limited day fact high-resolution structures solved x-ray crystallography merely outmost stable conformations proteins sense snap shot dynamic entity
+while high resolution experimental data molecular motion still beyond reach innovative breakthroughs time-resolved optical spectroscopy single molecule f rster resonance energy transfer small-angle x-ray scattering well advances nmr spectroscopy residual dipolar coupling methods paramagnetic relaxation enhancements now provide increasingly detailed experimental data molecular motion e.g distance angle constraints measurements rotational motion 

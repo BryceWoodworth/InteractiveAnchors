@@ -1,0 +1,81 @@
+
+given two probability measures set sequences consider question when one measures predicts other when probabilities certain sense when one measures chosen generate sequence
+question may considered problem sequence prediction its most general given class probability measures does there exist measure predicts all measures class
+address problem find some conditions local sufficient prediction several different known sufficient prediction
+also some open questions direction finding conditions classes measures prediction possible
+introduction
+let sequence some finite generated some probability measure
+having observed first predict what probability next being each
+task applications forecasting prediction data
+if measure known then best one make outcome sequence probabilities given
+other hand if known about distribution sequence then no prediction possible since any predictor there measure probability every step
+thus one attention some class measures
+was first address question sequence prediction his being know every years what probability will
+suggested assume probability same every trials independent each other
+thus considered task sequence prediction when true measure family \ measures binary
+predicting measure suggested was where number
+probabilities measure true probabilities almost under any measure
+approach problem predicting any e g \ measure
+moreover measure was predicting arbitrary measure
+probabilities true ones average where average taken over time sense almost any measure
+however was shown same work there no measure probabilities true ones s \ every
+thus see problem predicting outcomes measure two prediction prediction average sense prediction each step solution exists only problem
+but what if measure sequence not
+different assumption one make measure sequence
+suggested measure predicting any probability measure
+key observation here class all probability measures let us
+bayesian predictor class measures any set where weights positive one
+best predictor measure measure itself
+bayesian predictor simply average all measures class classes possible
+was shown probabilities probabilities almost any measure
+fact special case more general though without convergence rate result states if measure continuous respect measure then total variation almost
+convergence total variation means prediction very strong sense convergence probabilities arbitrary events not just next outcome prediction arbitrary fast
+since every set every each continuous respect
+thus problem sequence prediction certain classes measures class all measures class all measures was often literature
+although classes measures often applications assumptions does problem at hand not practical predicting measure all measures itself
+moreover able solutions sequence prediction problem problems active learning where outcomes sequence may depend actions predictor one understand better under conditions problem sequence prediction
+particular active learning assumption does not since predictions although markov assumption often studied
+thus following general questions address present classes measures sequence prediction possible
+under conditions does measure predict measure
+seen questions many particular there many prediction considered almost convergence probabilities convergence average etc
+literature sequence prediction questions their full not much attention
+one research result above states if continuous respect then predicts total variation distance
+question whether given class measures prior over class measures probabilities bayesian mixture class t
+true probabilities almost any measure
+question considered since authors provide necessary sufficient conditions measure given mixture class t
+under prediction possible
+major difference general questions above do not assume measure our class measures
+large classes measures may not measure over rather question whether measure used prediction exists
+address general questions following observation
+was bayesian mixture class measures any any set where constant
+condition than assumption sufficient prediction very strong sense
+since prediction sense e g \ convergence probabilities let us make measure measure if all first under what conditions does predicts
+if any then any measure continuous respect measure first trials continuous t
+each moreover any measure some found
+example if \ measure parameter any other measure then
+thus know if then predicts very strong sense whereas not prediction
+will show any sufficient prediction sense convergence expected
+any also example sufficient almost prediction average i e \ sense
+however prediction every step negative any there exists pair measures but does not predict sense almost convergence probabilities
+thus situation similar predicting any prediction possible average but not every step
+note also measure shown any \ measure generalization predicting all measures memory given them
+thus sense predicting classes measures where constant via local predicting \ measures
+another way follows
+mixture being many measures some their predicting properties
+general predictive properties under
+particular if two two classes measures question whether predictor two classes
+answer question would improve our understanding how far class measures predicting measure exists extended without property second consider measure predicts some sense let some other measure e g \ predictor different class measures
+does measure still predict
+prediction quality does idea taking bayesian
+under along strong prediction ability
+was prediction sense convergence expected probabilities under
+here find several prediction not under
+thus address following two questions
+sufficient prediction some sense under some conditions
+if measure predicts measure some sense does measure also predict same sense where arbitrary measure
+different prediction s \ convergence probabilities s \ convergence etc above two questions obtain not two but many different questions some answer positive some negative yet some open
+paper follows
+section necessary measures probability measures
+section question whether sufficient prediction while section consider question predictor arbitrary measure
+both also propose some open questions future research
+section discuss some special cases questions considered also some related problems

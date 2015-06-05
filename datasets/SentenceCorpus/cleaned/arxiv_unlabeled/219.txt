@@ -1,0 +1,37 @@
+ 
+context inference expectation constraints propose approach based ``loopy belief propagation'' algorithm \textsc{lpb} surrogate exact markov random field \textsc{mrf} modelling
+prior information composed correlations among large set variables encoded into graphical model; encoding optimized respect approximate decoding procedure \textsc{lbp} used infer hidden variables observed subset
+focus situation where underlying data many different statistical components representing variety independent patterns
+considering single parameter family models show how \textsc{lpb} may used encode decode efficiently information without solving np hard inverse problem yielding optimal \textsc{mrf}
+contrary usual practice work non-convex bethe free energy minimization framework manage associate belief propagation fixed point each component underlying probabilistic mixture
+mean field limit considered yields exact connection hopfield model at finite temperature steady state when number mixture components proportional number variables
+addition provide enhanced learning procedure based straightforward multi-parameter extension model conjunction effective continuous optimization procedure
+performed using stochastic search heuristic \textsc{cmaes} yields significant improvement respect single parameter basic model
+ introduction 
+prediction recognition methods systems random environment somehow exploit regularities correlations possibly both spatial temporal infer global behavior partial observations
+example road-traffic network one interested extract fixed sensors floating car data estimation overall traffic situation its evolution
+image recognition visual event detection some sense mutual information between different pixels sets pixels one wishes exploit
+natural probabilistic tool encode mutual information markov random field \textsc{mrf} marginal conditional probabilities computed prediction recognition process
+inference problem expectation constraints  want address stated follows: system composed discrete variables only known statistical information form marginal probabilities set cliques
+marginals typically result some empirical procedure producing historical data
+based historical information consider then situation where some variables observed say subset  while other one complementary set  remains hidden
+what prediction made concerning complementary set how fast make prediction if think terms real time applications like traffic prediction example
+since variables take their values over finite set marginal probabilities fully described finite set correlations following principle maximum entropy distribution jaynes  expect historical data best encoded \textsc{mrf} joint probability distribution form } representation corresponds factor graph  where convenience associate function each variable addition subsets  call ``factors''
+together define factor graph  will assumed connected
+there two main issues: inverse problem : how set parameters  order fulfill constraints imposed historical data
+inference : how decode sense computing marginals most efficient manner---typically real time---this information terms conditional probabilities
+exact procedures generally face exponential complexity problem both encoding decoding procedures one resort approximate procedures
+bethe approximation  used statistical physics consists minimizing approximate version variational free energy associated
+computer science belief propagation \textsc{bp} algorithm message passing procedure allows compute efficiently exact marginal probabilities when underlying graph tree
+when graph cycles still possible apply procedure then referred \textsc{lbp} ``loopy belief propagation'' converges rather good accuracy sufficiently sparse graphs
+however there may several fixed points either stable unstable
+been shown points coincide stationary points bethe free energy defined follows: addition stable fixed points \textsc{lbp} local minima bethe free energy
+question convergence \textsc{lbp} been addressed series works establishing conditions bounds \textsc{mrf} coefficients having global convergence
+present work reverse viewpoint
+since decoding procedure performed \textsc{lbp} presumably best encoding historical data one \textsc{lbp}'s output absence ``real time'' information when all variables remain hidden  
+actually been proposed  where proved specific case working ``wrong'' model i e \ message passing approximate version yields better results decoding viewpoint
+will come back later section when will compare various possible approximate models within framework
+paper propose new approach based multiple fixed points \textsc{lbp} identification able deal both encoding decoding procedure consistent way suitable real time applications
+paper organized follows: our inference strategy detailed section~; section specify problem inference binary variables distribution follows mixture product forms present some numerical results; analyzed section light some scaling limits where mean field equations become relevant allowing direct connection hopfield model
+section propose multi-parameter extension model well suited continuous optimization allows enhance performance model
+finally conclude section comparing our approach other variant \textsc{lbp} giving perspective future developments

@@ -1,0 +1,97 @@
+ 
+cooperative decision making vision future network management control
+distributed connection preemption important example where nodes make intelligent decisions allocating resources controlling traffic flows multi-class service networks
+challenge nodal decisions spatially dependent traffic flows trespass multiple nodes network
+hence performance-complexity trade-off becomes important ie  how accurate decisions versus how much information exchanged among nodes
+connection preemption known np-complete
+centralized preemption optimal but computationally intractable
+decentralized preemption computationally efficient but may result poor performance
+work investigates distributed preemption where nodes decide whether flows preempt using only local information exchange neighbors
+work first model large number distributed preemption-decisions using probabilistic graphical model
+then define near-optimality distributed preemption its approximation optimal centralized preemption within given error bound
+show sufficient condition distributed preemption optimal local decisions should constitute markov random field
+decision variables however do not possess exact spatial markov dependence reality due flows passing through multiple links
+hence study traffic patterns flows derive sufficient conditions flows distributed preemption near-optimal
+develop based probabilistic graphical models near-optimal distributed algorithm
+algorithm used each node make collectively near-optimal preemption decisions
+study trade-offs between near-optimal performance complexity corresponds amount information-exchange distributed algorithm
+algorithm validated both analysis simulation
+ introduction 
+vision future network management involve nodes make intelligent decisions allocating resources controlling traffic flows
+includes admitting new flows preempting less important existing flows well studied policy based admission control i e  admission based priority flows
+specifically preemption defined at prioritized multi-class network where new call needs set up high priority between source s destination d
+when capacity insufficient at all feasible routes between source-destination s-d pair some existing flows lower priorities need forced reduce their bandwidth move lowest service class e g  best-effort-service simply preempted accommodate new call
+preemption decisions decide lower priority flows remove free reserved bandwidth new call at chosen route
+goal decide whether preempt active flow so total preempted bandwidth minimal under constraints bandwidth demand new call available free bandwidth at each link \\ benefit preemption been described prior works
+example preemption allows new high-priority connection access heavily crowded core networks eg  multi-protocol label switched mpls networks
+connection preemption also improves resource utilization allowing low-priority flows access unused bandwidths
+preemption sees potential applications emerging networks
+example 802 11e wireless lan delay sensitive ip packets expedited forwarding ef class served earlier than best-effort packets through preemption
+multi-level preemption precedence mlpp proposed classify calls their importance used military well commercial networks \\ there two significant challenges preemption performance complexity
+performance corresponds whether right flows preempted result minimal bandwidth accommodate new flow
+complexity corresponds amount information needed preemption decision
+preemption known np-complete
+complexity results large number active flows supported core network preemption decisions need made
+example 1gbps link if bandwidth each flow order kbps there would thousands flows supported per link
+addition flow generally passes through multiple nodes making preemption decisions among nodes dependent thus difficult done local information
+thus preemption network-centric may require huge amount information perform large network \\ centralized preemption decisions centralized node maintains routed-path information active flows their priorities bandwidth occupancies at entire route
+centralized node then decides active flows preempt upon request new call
+therefore centralized preemption always optimal resulting minimal preempted bandwidth
+but amount management information needed overwhelming at centralized node
+example let total number distinct flows per priority class at route new call
+each flow two states preempted not preempted
+total number possible states making centralized decision
+when order hundreds thousands  centralized preemption becomes computationally intractable
+decentralized preemption then adopted reducing amount management information \\ decentralized preemption done at each node individually thus requires node maintain its local information i e  active flows at adjacent links their priorities bandwidth occupancy
+information available locally at nodes
+node then decides independently other nodes connections preempt
+however may cause conflicting local decisions same flows pass multiple links route resulting more preempted bandwidth than necessary
+other words decentralized preemption decision neglects spatial dependence flows across multiple links may perform poorly
+but amount management information greatly reduced compared centralized preemption
+example let maximum number active flows per link
+total number states at each link
+since  compared centralized preemption decentralized schemes much smaller search space preemption decisions
+therefore most algorithms literature focus decentralized preemption see references there \\ work studies distributed decisions take into account spatial dependence among neighboring links through local information exchange
+fact distributed preemption considered generalization centralized decentralized preemption
+centralized preemption corresponds one extreme case distributed preemption entire route neighborhood information exchange; whereas decentralized decisions correspond another extreme case where neighborhood size zero
+therefore communication complexity characterized terms neighborhood size
+there trade-off between optimality complexity \\ general been shown difficult problem develop distributed algorithm whose performance predictable within tolerable degradation i e  given error bound optimal scheme
+hence open issues are: when distributed decisions collectively result near-optimal global preemption b how model large number dependent decision variables obtain near-optimal local decisions using distributed algorithms
+apply machine learning study issues \\ {machine learning perspective:} machine learning view distributed preemption individual nodes ``learn make decisions" collectively iteratively
+ideally if each node complete information all active flows at route new flow node will able make correct decisions flows preempt
+however at any given time node only partial information active flows route its neighbors' decisions flows preempt
+but node adapt i e  learn make decisions based those its neighbors'
+neighbors learn neighbors' neighbors node would indirectly learn what farther nodes decide only delay
+eventually all nodes would make local decisions collectively resulting near-optimal preemption at entire route \\ how would machine learning benefit distributed preemption
+problem collective learning decision-making been keen interest machine learning adaptive control  but just begun see applications networking
+particular proposes using markov random fields general model decision-making ad hoc wireless networks
+model then applied routing wireless networks
+our prior work obtain probabilistic graphical models ad hoc wireless wireline networks starting network properties  resulting probabilistic models turn out multi-layer
+work focuses distributed decisions network flows
+view machine learning framework large number decision variables treated jointly
+spatial dependence among variables poses key challenge preemption origin high communication complexity not been dealt sufficiently prior works
+machine learning provides feasible approaches problem summarized below \\ global model distributed preemption decisions: first develop probabilistic model represents explicitly spatial dependence distributed preemption decisions over pre-determined preempting route new flow
+randomness results randomly arriving/departing active flows their locations
+preemption decisions made flows at each node also random due incomplete inaccurate local information distributed preemption
+first obtain cost function preemption ``hamiltonian" ``system potential energy"
+hamiltonian combines local preemption decisions constraints into single quantity
+constraints include link capacity unused bandwidths bandwidth-demand new flow at each link
+hamiltonian then used obtain spatial probabilistic model gibbs distribution \\ b markov random field mrf sufficient conditions: spatial dependence characterized through probabilistic dependency graph graphical models machine learning
+probabilistic dependency graph provides simple yet explicit representation spatial dependence among random variables
+show if dependence decision variables spatially markovian globally optimal preemption decision obtained collectively iterative local decisions through information exchange only neighboring nodes
+probabilistic model known markov random field
+general distributed decisions may not spatially markov since spatial dependence caused flows across multiple links
+hence identify traffic patterns active flows result approximately spatial markov dependence
+then define near-optimality distributed decisions difference between centralized distributed decisions measured hamiltonian obtain sufficient conditions difference reside within error bound \\ c distributed decision algorithm: near-optimal distributed algorithm derived based markov random field
+algorithms implemented through either message passing gibbs sampling \\ d trade-offs: challenging issue performance-complexity trade-off i e  ``when" ``how" distributed preemption achieve near-optimal performance moderate complexity
+here performance measures optimality distributed preemption decision relative centralized optimal decision
+communication complexity distributed preemption characterized amount information used distributed decision making
+distributed decisions reduce complexity using information exchange only neighbors but may deviate optimal performance
+hence study performance complexity trade-off through both analysis simulation \\ rest paper organized follows
+section provides problem formulation connection preemption
+section develops probabilistic spatial model distributed preemption utilizing graphical models machine learning interpreting derived model terms optimality complexity
+section proposes distributed preemption algorithm based derived model using probabilistic inference
+section analyzes performance distributed preemption
+section validates performance distributed preemption through simulation
+section provides further literature review discussions
+section concludes paper

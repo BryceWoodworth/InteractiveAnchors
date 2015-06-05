@@ -1,0 +1,40 @@
+ 
+ample evidence accumulated evolutionary importance duplication events
+however little known about ensuing step-by-step divergence process selective conditions allow progress
+here present computational study divergence two repressors after duplication
+central feature our approach intermediate phenotypes quantified through use vivo measured repression strengths escherichia coli lac mutants
+evolutionary pathways constructed multiple rounds single base pair substitutions selection tight independent binding
+our analysis indicates when duplicated repressor co-diverges together its binding site fitness landscape allows funneling new regulatory interaction early increases fitness
+find neutral mutations do not play essential role important substantial divergence probabilities
+varying selective pressure pinpoint necessary ingredients observed divergence
+our findings underscore importance coevolutionary mechanisms regulatory networks should relevant evolution protein-dna well protein-protein interactions
+ introduction 
+initially put forward stevens 1951 later advocated ohno his seminal work gene duplication followed functional divergence now seen general mechanism acquiring new functions
+also regulatory networks thought shaped significantly genetic duplication
+instance sequence analysis transcription factor families points various historical duplication events
+however very little known about subsequent mutational divergence pathways about corresponding stepwise phenotypical changes subject selection
+while issues not yet been explored experimentally related generic aspects mutational plasticity been addressed theoretically
+however central obstacle studying mutational pathways through computer simulations remains unknown relation between sequence binding affinity general rather mapping assumed
+describe formation new regulatory interaction after duplication event our current aim approach would particularly speculative
+here reason many characteristics adaptation real protein-dna contacts hidden extensive body mutational data been accumulated over many years
+measured repression values used fitness landscapes pathways explored computing consecutive rounds single base pair substitutions selection
+here develop approach study divergence duplicate repressors their binding sites
+more specifically focus creation new unique protein-dna recognition starting two identical repressors two identical operators
+consider selective conditions favor evolution toward independent regulation
+interestingly regulatory divergence inherently coevolutionary process where repressors operators must optimized coordinated fashion
+mere presence selective pressure clearly not sufficient condition achieve new function
+rather evolutionary potential limitations seen governed shape actual fitness landscape evolutionary search within
+studying intrinsic limitations divergence represents overall aim work
+many open questions arise when considering formation new protein-dna interaction may viewed construction new lock uniquely matching key
+instance how should protein modified step-by-step recognize new dna-binding site also does not yet exist vice versa
+one would expect complementary mutations need occur protein dna-binding site
+does mean temporary losses fitness must endured when taking single-mutation steps
+how many mutations must minimally accumulate before noticeable new recognition obtained selection act
+latter important point: mutations conferring selective advantage spread more readily through population resulting drastic increase divergence probability
+questions addressed exhaustively searching landscape optimal pathways well complementary population dynamics simulations
+previously been shown lac repressor mutants indeed exist bind exclusively mutant lac operators
+our simulations reveal duplicated repressor-operator pair readily evolve achieve independence binding while monotonously increasing its fitness step-by-step process
+moreover simply following fittest mutants does predominantly guide system desired global optimum indicates funnel-like features fitness landscape
+detailed analysis subsequent network changes indicates generic sequence events study underlying mechanisms varying applied selective pressure
+next show trajectories find optimal pathway simulations not rare exceptions since similar trajectories followed using probabilistic scheme accepting mutation
+results further suggest feasibility studying regulatory divergence laboratory evolution experiments finally make comparison alternative models creation new regulatory interactions

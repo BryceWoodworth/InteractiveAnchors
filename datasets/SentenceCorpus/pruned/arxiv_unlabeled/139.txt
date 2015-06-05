@@ -1,0 +1,22 @@
+
+study problem dynamic cognitive systems observed markov decision process
+group cognitive primary whose evolution
+first consider where cognitive knowledge distribution signals they primary
+problem obtain selection policy reward while probability
+also derive universal bound performance optimal policy
+through simulation show our good performance relative bound performance relative existing
+then consider more practical where exact distribution signal primary unknown
+assume model distribution develop algorithm learn true distribution still probability
+show algorithm design case value parameter
+also provide convergence learning algorithm
+introduction
+cognitive been proposed solution
+idea sense times when specific not used at particular place use without
+important part systems develop efficient selection policy
+cognitive also called best strategy
+should probability transmission given
+first part paper consider design policy model primary being
+secondary use observations made each probability different
+obtain solution problem
+second part paper propose study more practical problem when secondary not exact distribution signals they primary
+develop algorithm unknown statistics show performance over value unknown distribution

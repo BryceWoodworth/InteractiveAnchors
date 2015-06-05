@@ -1,0 +1,41 @@
+ 
+investors like any decision maker feel regret when they compare outcome investment what outcome would been had they invested differently
+argue show counterfactual comparison process most likely take place when decision maker's expectations violated
+across five scenario experiments found decision makers were influenced only forgone investment outcomes when realized investment fell short expected result
+however when their investments exceeded prior expectations effect foregone investment regret disappeared
+addition experiment number found individual differences need maximize further moderated effects their expectations maximizers always take into account forgone investment
+final experiment found when probed make counterfactual comparisons also investments exceed expectations may lead regret
+together experiments reveal insights into comparative processes leading decision regret
+ introduction 
+regret negative emotion most us familiar
+highly relevant emotion context decision making been widely studied psychologists economists consumer behavior researchers
+regret unpleasant feeling associated wish undo regretted event strong tendency metaphorically kick oneself wanting get second chance
+makes regret uniquely linked decisions made been shown powerful predictor behavior
+zeelenberg pieters summarized scattered findings theories concerning regret its impact decision making proposed integrative theory regret regulation
+their proposition number p number they state regret comparison-based emotion self-blame experienced when people realize imagine their present situation would been better had they decided differently past
+investor who thinks example if only i had bought google stock i would earned much more feels regret
+theory regret regulation was developed understand how consumers deal regret proposes strategies used regulate
+fully understand impact regret important further develop insights into psychology emotion processes may moderate
+discuss here how prior expectations about outcomes decisions play moderating role
+let us start fact regret counterfactual emotion
+feel regret one needs run mental simulation what happened what could happened instead then compare two
+hence forgone outcome becomes reference point against regret computed
+how regret been conceptualized early economic regret theories also been well established empirically
+comparing decision outcomes regret rejoicing may itself consequential comparative mind-set may actually carry-over subsequent decisions
+interestingly lin huang zeelenberg found experience regret also affected other standards comparison
+research revealed not only counterfactual comparisons feed into regret but also comparisons obtained outcome prior held expectations
+through online survey they interviewed number stock investors security company
+investors answered several questions concerning their chosen forgone investments
+results showed forgone outcomes considered but non-chosen investments indeed influenced intensity regret felt over their investment
+but relevant here a-priori expectations concerning chosen investment were also significantly related regret investors felt over their financial decisions
+larger difference between return investment expectations more intense regret
+huang tseng found similar effects experimental field study number managers
+comparisons obtained outcomes prior held expectancies been linked literature emotional response disappointment but not yet regret
+interesting because regret disappointment many ways related though clearly distinct emotions both serve role decision making
+ample research also reviewed zeelenberg pieters their proposition number p number reads regret distinct related other specific emotions anger disappointment envy guilt sadness shame general negative affect basis its appraisals experiential content behavioral consequences
+may well case regret resembles disappointment sense experience sensitive expectancy violations
+whether both emotions respond similarly comparisons expectations forgone alternatives will examined experiment number
+two studies best our knowledge first highlight fact expectations may impact feelings regret but note research remains mute respect underlying psychological processes
+also data collected studies were primarily correlational precluding strong causal conclusions
+present study thus take stock apparent discrepancy between findings huang tseng lin et al prior work regret
+do investigate experimentally impact expected outcomes violations expectancies investor regret disappointment hope shed some light psychological processes involved

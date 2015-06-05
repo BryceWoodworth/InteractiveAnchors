@@ -1,0 +1,29 @@
+ 
+claim genetic properties neurons significantly influence their synaptic network structure common notion neuroscience
+nematode caenorhabditis elegans provides exciting opportunity approach question large-scale quantitative manner
+its synaptic connectivity network been identified combined cellular studies currently characteristic connectivity gene expression signatures most its neurons
+using two complementary analysis assays show expression signature neuron carries significant information about its synaptic connectivity signature identify list putative genes predicting neural connectivity
+current study rigorously quantifies relation between gene expression synaptic connectivity signatures c elegans nervous system identifies subsets neurons where relation highly marked
+results presented genes identified provide promising starting point further more detailed computational experimental investigations
+ introduction 
+accepted common notion genes play major role formation nervous system; they specify neuronal cell types help destine neurons into defined neural circuits provide important cues determining their communication
+many studies identified specific genes nematode c elegans disrupt development neural circuits
+genes typically responsible neuronal morphology axon development synaptogenesis
+findings include e.g axon guidance genes attractive repulsive interactions presynaptic input modulation presynaptic differentiation synaptic specificity genes
+findings been based specifically targeted studies each designed address specific pathway neuron type receptor transmitter
+yet been difficult identify large scale mutations determine specific identity synaptic connections mainly because synaptic specification one last steps complex process neuronal differentiation axonal migration
+sieburth et al presented first large-scale screening genes involved c elegans neuromuscular junction
+study identified more than 100 novel genes specific functions transmission signals across junction
+while latter study was not aimed at identifying synaptic connectivity genes demonstrated plausibility addressing questions large-scale manner
+recent related study varadan et al applied entropy minimization approach c elegans' data identify sets synergistically interacting genes whose joint expression common most synapses predicts neural connectivity leaving aside specific identity pre post-neurons
+our study differs theirs both its goals its methods
+leads first quantitative characterization relation between genetic properties neurons their synaptic connectivity concomitantly addressing majority c elegans neurons at large
+existing c elegans neural wiring diagram provides connectivity signature each neuron specifying other neurons connected
+each neuron also expression signature extracted wormbase specifying genes directly associated
+combined together data enables investigation relation between expression connectivity signatures across most c elegans neurons
+specifically address two attributes relation: first asks whether possible predict neuron's connectivity signature based solely its expression signature
+second question what extent do neurons similar expression signatures similar connectivity signatures
+show expression signatures neurons carry significant information about their connectivity signatures further identify specific genes play major role determining relation
+gene sets identify do not necessarily direct causal influence synaptic connectivity specificity; however they provide putative gene targets further experimental investigation
+finally suggest methodological way study relations between neurons' expression connectivity signatures their actual functional contribution behavior
+quantifying relations allows addressing classical question neuroscience; what dominates functionality neural circuit local genetic basis individual neurons overall network structure determined their connectivity

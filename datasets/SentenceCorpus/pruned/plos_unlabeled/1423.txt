@@ -1,0 +1,44 @@
+
+fundamental properties firing neurons usually characterized condition
+noise neurons exhibit class lack firing current
+neurons because they do not low
+however show conditions response properties models
+noise model response range associated model
+like effect significantly classical behavior systems both temporal response pattern
+instead being most signal classical system models most where
+finding consistent fact there not input threshold terms rather response threshold more defined stimulus
+call signals noise models because noise lower threshold stimuli
+demonstrate here similar behaviors three models class presence noise suggest fundamental behavior associated general properties rather than particular biological mechanism
+introduction
+stochastic been described both systems example noise processing
+involves noise dynamic state threshold while response signal
+interaction signal noise response signal at value noise
+here novel manner occur models
+neurons characterized firing current input yet show responses signals
+classical system often neurons signal without noise simply making its large
+contrast neurons will not input even if signal very large making neurons framework study
+our detailed results model been widely used modeling various neurons perform temporal processing only
+then examine other types models our findings general
+class used define responses different cellular mechanisms current current activation fast current
+model our primary focus here type model i
+same model previously shown noise neurons no response
+although behavior seems consistent different below
+classical system small amount noise signal threshold upon membrane threshold
+when noise chosen signal more its
+larger signal better whereas signals noise will only signal
+sense call classical system stochastic
+however neurons model depending noise but not very large noise
+here report essential feature neurons response threshold better defined terms rather than input
+further show signal signal its
+neurons stochastic
+study behavior distinct properties neurons
+end first compare noise obtained model model
+addition attention temporal firing patterns often when systems
+next show behavior model highly relation feature firing rate increasing i been reported neurons models
+finally threshold response stimulus observed conditions reduced addition noise
+total report influence noise any performed neurons significantly distinct neurons
+class often associated i i
+far less strong i also class
+show behavior observed models either i i when noise low
+our present study our previous experimental results neurons different behaviors conditions compared their behaviors conditions
+neurons being all conditions no noise present should conditions

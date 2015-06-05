@@ -1,0 +1,35 @@
+ 
+consider problem choosing density estimate set distributions  minimizing distance unknown distribution  
+devroye lugosi analyze two algorithms problem: scheff\'e tournament winner minimum distance estimate
+scheff\'e tournament estimate requires fewer computations than minimum distance estimate but strictly weaker guarantees than latter
+focus computational aspect density estimation
+present two algorithms both same guarantee minimum distance estimate
+first one modification minimum distance estimate uses same number quadratic  computations scheff\'e tournament
+second one called ``efficient minimum loss-weight estimate,'' uses only linear number computations assuming preprocessed
+also give examples showing guarantees algorithms cannot improved explore randomized algorithms density estimation
+ introduction 
+study following density estimation problem considered
+there unknown distribution given not necessarily independent samples define empirical distribution
+given finite class distributions our objective output error minimized
+use norm well justified many useful properties example scale invariance fact approximate identification distribution norm gives estimate probability every event
+following two parameters influence error possible estimate: distance empirical error
+first parameter required since no control over  hence cannot select distribution better than ``optimal'' distribution  one closest norm
+not obvious how define second parameter---the error respect
+follow definition  inspired see section precise definition
+devroye lugosi analyze two algorithms setting: scheff\'e tournament winner minimum distance estimate
+minimum distance estimate defined yatracos  special case minimum distance principle formalized wolfowitz
+minimum distance estimate helpful tool example was used obtain estimates smoothing factor kernel density estimates also hypothesis testing
+scheff\'e tournament winner algorithm requires fewer computations than minimum distance estimate but strictly weaker guarantees terms two parameters mentioned above than latter
+our main contribution two procedures selecting estimate  both same guarantees minimum distance estimate but computationally more efficient
+first quadratic  cost matching cost scheff\'e tournament winner algorithm
+second one even faster using linearly many  computations after preprocessing 
+now outline rest paper
+section give required definitions introduce notion test-function variant scheff\'e set
+then section restate previous density estimation algorithms scheff\'e tournament winner minimum distance estimate using test-functions
+next section present our algorithms
+first one modification minimum-distance estimate improved quadratic  computational cost
+second one call ``efficient minimum loss-weight estimate,'' only linear computational cost after preprocessing
+section explore randomized density estimation algorithms
+final section give examples showing tightness theorems stated previous sections
+throughout paper focus case when finite order compare computational costs our estimates previous ones
+however our results generalize straightforward way infinite classes well if ignore computational complexity

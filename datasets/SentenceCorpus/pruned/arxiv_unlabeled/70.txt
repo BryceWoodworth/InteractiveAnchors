@@ -1,0 +1,28 @@
+
+paper study application sparse component analysis clustering feature selection problems
+sparse sparse factors linear data variables maximum amount data while having only limited number
+often used simple clustering technique sparse factors allow us here clusters terms reduced set variables
+introduction sparse our algorithm et al
+then apply results some clustering feature selection problems biology
+introduction
+paper applications sparse component analysis clustering feature selection problems particular focus gene expression data analysis
+sparse methods had significant impact many statistics particular regression classification see among others
+our sparse tools potential methods statistical results both more more robust than classical analyses while up little statistical
+component analysis large scale data
+linear data variables often called factors components maximum amount
+only few leading matrix so applied very large scale data sets
+one key however factors linear all all factor
+means while model information few key factors factors themselves still using all observed variables
+many applications direct physical biology example each might specific financial gene
+cases having only few components would improve factors
+sparse between two power most information data making factors involve only few variables
+when used clustering sparse factors will allow us identify clusters action only few variables
+methods produce sparse factors include where value algorithms called
+method optimization problem technique based norm
+very recently also proposed approach optimal solutions small problems uses method approximate solution larger ones
+what follows give introduction problem describe how optimization algorithm was
+most numerical step algorithm matrix our key numerical here show using only current produce approximation while computational
+then show gene expression data sets using sparse simple clustering very relevant genes compared other techniques feature
+paper follows
+section introduction sparse our algorithm numerical called available
+section describe application sparse clustering feature selection gene expression data

@@ -1,0 +1,46 @@
+ 
+competence transiently differentiated state certain bacterial cells reach when faced stressful environment
+entrance into competence attributed excitability dynamics governing genetic circuit regulates cellular behavior
+like many biological behaviors entrance into competence stochastic event
+case cellular noise responsible driving cell vegetative state into competence back
+work present novel numerical method analysis stochastic biochemical events use study excitable dynamics responsible competence bacillus subtilis
+starting finite state projection solution chemical master equation develop efficient numerical tools accurately computing competence probability
+additionally propose new approach sensitivity analysis stochastic events utilize elucidate robustness properties competence regulatory genetic circuit
+also propose implement numerical method calculate expected time takes cell return competence
+although study focused example cell-differentiation bacillus subtilis our approach applied wide range stochastic phenomena biological systems
+ introduction 
+competence ability cell usually bacterium bind internalize transforming exogenous dna
+under stressful environments nutrient limitations some cells enter competence while other cells commit irreversibly sporulation
+entry competence transient probabilistic event facilitates copying exogenous dna
+been shown among group cells only randomly chosen fraction enters competence
+proper modeling correctly accounting noise model phenomenon crucial understanding underlying biological explanation
+few cells enter competence express high concentration key regulator comk activates hundreds genes including genes encoding dna-uptake recombination systems
+competence understood bistability pattern nonlinear system describing competence regulatory circuit excitable dynamical system
+auto-activation regulator comk responsible bistable response competence development
+auto-activation comk essential sufficient generate bistable expression pattern
+specifically concentration inducer must cross certain threshold start positive feedback
+different experimental studies concluded auto activation comk only needed factor bistability occur expression protein
+smits et
+al discuss factors determine required threshold activation comk deduce other transcription factors raise lower threshold
+although many proteins involved regulation competence there two main proteins play major role
+s el et al propose deterministic model driven additive noise describe dynamics competence regulation
+use reduced order stochastic differential equation model presented develop discrete stochastic model competence
+calculating probability expected time entering returning competence requires solving splitting probabilities first moment passage time
+problem calculating first passage time been studied heavily literature stochastic difference equations fokker planck equations some special cases cme
+detailed treatment topic see references therein
+researchers usually use monte-carlo simulations calculate distribution first passage time when working he cme
+propose work alternative approach makes possible calculate states system will time evolves
+main idea here aggregate regions state space over specie evolve into absorbing states
+technique useful analytically computing distribution first passage time providing way deal infinite dimension state space over system evolves
+contributions paper threefold
+first provides new method calculate exact probabilities biological phenomena where transient behaviors competence topic chose study here occur
+second shows how calculate sensitivities probabilities passing transient state respect system's parameters
+third gives methodology calculate expected time takes cell return its transient state
+all methods used analyze any biological system characteristic switching between two states while staying while unstable state
+paper start describing chemical reactions deterministic model
+then generate chemical master equation our proposed discrete stochastic model
+cme characterizes evolution probability density different discrete states
+simulate using stochastic simulation algorithm show how solution approximated using finite state projection method
+then conduct sensitivity analysis studying effect various system parameters probability cell enters competence
+analysis shows usefulness our proposed numerical method analyzing roles different affinity transcription degradation rates etc driving cellular switching
+finally analyze roles parameters determining expected time cell stays competence

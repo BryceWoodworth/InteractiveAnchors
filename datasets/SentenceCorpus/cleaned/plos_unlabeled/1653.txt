@@ -1,0 +1,41 @@
+ 
+paper used general stochastic processes framework derive first principles incidence rate function characterizes epidemic models
+investigate particular case liu-hethcote-van den driessche's incidence rate function results modeling number successful transmission encounters pure birth process
+derivation also takes into account heterogeneity population regard per individual transmission probability
+adjusted deterministic sirs model both classical lhd incidence rate functions time series number children infected syncytial respiratory virus banjul gambia turku finland
+also adjusted deterministic seir model both incidence rate functions famous measles data sets uk cities london birmingham
+two lines evidence supported our conclusion model lhd incidence rate may very well better description seasonal epidemic processes studied here
+first our model was repeatedly selected best according two different information criteria two different likelihood formulations
+second line evidence qualitative nature: contrary what sirs model classical incidence rate predicts solution deterministic sirs model lhd incidence rate will reach either disease free equilibrium endemic equilibrium depending initial conditions
+findings along computer intensive simulations models' poincar map environmental stochasticity contributed attain clear separation roles environmental forcing mechanics disease transmission shaping seasonal epidemics dynamics
+ introduction 
+plethora deterministic epidemic models involving susceptible formula infected formula recovered formula individuals been proposed carefully analyzed confronted data sets biomathematics ecology literatures
+well defined topic within mathematical ecology research area study formula-type models seasonal forcing
+models proved useful understanding observed patterns natural processes behind human non-human epidemics
+here restrict our attention formula formula models introduce seasonal forcing while varying structural form incidence rates
+two hypotheses pertaining rsv measles transmission mechanisms were modeled two simple functional forms incidence rates
+show doing so able attain clear separation roles environmental forcing mechanics disease transmission shaping epidemics dynamics
+construction deterministic incidence rates functions critical building block epidemiological modeling
+seminal paper hethcote showed because there many choices form incidence demographic structure epidemiological-demographic interactions there really plethora incidence rate functional forms choose
+not surprisingly biomathematics literature abound qualitative mathematical analyses many functional forms
+however biological first principles derivations incidence rate functional forms not too common
+show study using first principles derivations greatly enrich reaches practice confronting models data while testing biological hypotheses
+thus despite big amount available functional incidence rates forms believe set models chosen confronted data should restricted those forms derivable first principles
+illustrate argument study first show simple probabilistic setting wherein infectious encounters modeled pure birth stochastic process leads general nonlinear incidence form proposed previously liu later analyzed hethcote van den driessche
+lhd incidence rate leads models qualitatively different dynamics compared ones obtained using classical incidence rate
+sirs model either incidence rate seasonal forcing formula becomes periodic function time trajectory formula pursuits moving target thus giving rise limit cycles
+moving target former endemic equilibrium bounces back forth between two points
+either model target switches between moving point disease free equilibrium when formula crosses 1 giving rise period doubling bifurcation
+sirs model classical incidence rate mechanism does not depend initial conditions
+work show disease free equilibrium unconditionally attractor sirs model lhd incidence rate
+leads scenario where two regions attraction coexist
+trajectory formula will either reach disease free equilibrium periodic solutions depending initial conditions
+furthermore after carrying formal model selection show sirs model lhd incidence rate leads significant fit improvement over classical sirs model same seasonal forcing
+finally compared applicability generality classical lhd incidence rates functions fitting them two measles time series data sets
+using later function leads vast improvement model fit both cases
+since were fitting deterministic seir model chose use data two largest cities measles data set where effects demographic stochasticity expected less influential dynamics epidemics 
+varying form contact rate function while including environmental stochasticity sirs seir models leads better understanding dynamics infectious disease transmission
+depending model contact rate disease free equilibrium either saddle point attractor
+first case if trajectory located originally basin attraction endemic equilibrium basin attraction perturbed environmental noise may transiently visit dfe stable submanifold then return ee basin attraction
+if however dfe ee coexist stable equilibria trajectory initially at ee basin attraction may end up dfe basin attraction
+interaction between stochasticity different contact rate models was studied using computer intensive simulations poincar map 

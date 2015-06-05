@@ -1,0 +1,28 @@
+
+prior influence future actions
+not only adaptive changes output but they also rate at adaptive changes occur
+here studied adaptation ability previously learned task reduce rate learning different task
+examined formation adaptive control human amount after task found amount observed learning task b increased task however increase did not instead after trials task found recently proposed model adaptation two distinct but adaptive processes predicts several key features patterns observed
+specifically computational model predicts initial growth describe well amount experimentally
+understanding mechanisms underlying adaptation may development training
+introduction
+history prior action human system known influence not only future performance through memory but also future learning
+two produce effect
+ability one task learning another while ability previous learning future learning
+example previous work shown after initial learning task than initial learning even if performance levels at learning
+gain adaptation task after learning output levels also observed than initial learning
+other studies demonstrated previous learning future learning
+experimental used study 2 where subject learn task task b then task often various time between tasks
+task b usually made task two types studied how task b memory task 1 how memory task 1 learning task b note both affect performance task 2
+although often effects not much attention adaptation literature
+because relatively small effect performance studies where reported whereas often larger effects
+fact several studies been specifically designed effects because they potential
+better understanding mechanisms underlying important not provide greater into effects but because learning phenomenon significant itself primary during adaptation
+been observed adaptation studies studies been shown time between tasks increased
+computational model adaptation suggested possible mechanism
+model one adaptive process error but while another adaptive process error but good
+two processes combined generate output
+transition task task b fast process will learn new task while process will because its good previous task
+model predicts process would adaptation task b resulting
+model also predicts training task extended amount will also increase but then level training trials task here using simple effects examine first time how task amount observed task b order determine how up practice
+then use predictions model determine whether interactions between different learning

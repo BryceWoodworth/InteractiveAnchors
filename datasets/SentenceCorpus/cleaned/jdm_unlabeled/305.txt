@@ -1,0 +1,28 @@
+ 
+fiedler et al reviewed evidence utilization contingency inference strategy termed pseudocontingencies pcs
+pcs more frequent levels implication less frequent levels assumed associated
+pcs been obtained using wide range task settings dependent measures
+yet readiness decision makers rely pcs poorly understood
+computer simulation explored two potential sources subjective validity pcs
+first pcs shown perform above chance level when task infer sign moderate strong population contingencies sample observations
+second contingency inferences based pcs inferences based cell frequencies shown partially agree across samples
+intriguingly criterion convergent validity by-products random sampling error highlighting inductive nature contingency inferences
+ introduction 
+accurate contingency assessment prerequisite explain past control present predict future
+adaptive cognition perspective assessing contingencies amounts inferring relationship between two variables population sample observations drawn population
+if task was evaluate relation between drinking one two beverages say red wine beer developing migraine not contingency may inferred recalling instances wine beer consumption followed not followed migraine
+epistemologically then contingency sample more precisely specific contingency index used decision maker used proxy contingency general population instances
+example degree last number instances alcohol consumption proportion developing migraine was higher after red wine than after beer one might conclude general red wine more conductive migraine than beer
+not only x number p index example but most contingency indices inference seems unproblematic sign size sample value unbiased estimates population value
+what might more problematic quality grade information required
+virtually all traditional contingency indices require information about joint occurrences
+other words every instance sample necessary know levels both variables
+example every consumption instance one needs sure whether red wine beer had been consumed whether was followed migraine not
+however due several factors e g delay between observing variables large amount variables considered information about joint occurrences might not available at time judgment preventing use common contingency indices
+remainder will discuss validity alternative strategy contingency inferences applicable even under impoverished conditions pseudocontingencies
+pcs denote using skew greater numbers one level than other case dichotomous variables sample base rates pair variables infer contingency
+obvious using base rates pcs do not require information about joint occurrences
+however because base rates largely independent contingencies less obvious why pcs should used at all
+while independence true descriptively at population level will show random sampling error necessarily causes population contingencies translate into skewed sample base rates
+intriguingly sample base rates skewed sampling process enable pcs successfully indicate moderate strong population contingencies
+another consequence strategies rely joint occurrences mostly agree pcs' predictions across samples

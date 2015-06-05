@@ -1,0 +1,28 @@
+ 
+inferences consistent recognition-based decision-making may drawn various reasons other than recognition alone
+demonstrate number alternative forced-choice decision tasks less-is-more effects reduced performance additional learning not restricted recognition-based inference but also seen circumstances where inference knowledge-based but item knowledge limited
+one reason why effects may not observed more widely dependence effect specific values validity recognition knowledge cues
+show both recognition knowledge validity may vary function number items recognized
+implications findings special nature recognition information investigation recognition-based inference discussed
+ introduction 
+investigations recognition heuristic rh typically involve participants making judgments about items about they limited knowledge relative sizes cities usa
+example participant might presented two cities san diego san antonio asked bigger
+classic work goldstein gigerenzer assumed participant will guess if they recognize neither items they will use whatever additional knowledge available make decision if they recognize both items crucially if they recognize only one items they will choose item larger without consulting any other cues searching further information recognition heuristic rh
+because items larger size more likely encountered hence more likely recognized recognition-magnitude correlation
+recognizing one two items thus useful cue choosing recognized item
+if both items recognized however additional knowledge needed make decision additional knowledge may very limited
+recognition-driven inference give rise less-is-more effect lime whereby individuals who recognize many items often perform worse than individuals who recognize fewer items
+lime counter-intuitive finding predicted occur under given circumstances if rh applied
+counter-intuitive nature lime prediction allows strong test rh been used rhetoric device promote heuristic
+evidence lime also been observed empirically but counter failures observe effect also been cited attempts refute rh
+at least originally introduced lime mathematical necessity given certain assumptions rather than proof recognition-based inference
+nevertheless consensus appears observation lime implies recognition heuristic was employed use knowledge will dilute reduce size lime
+here explore whether limes also mathematical necessities if those assumptions altered somewhat  specifically if inference no longer recognition-based but instead makes reference some form knowledge
+limes need not appear only when rh studied isolation
+they also predicted formal models knowledge-based inference if those models exploit recognition principle
+gigerenzer goldstein used appearance effect part their comparison five integration algorithms take best ttb algorithm
+ttb all integration algorithms were implemented each case recognition was used cue if only one item was recognized p number
+unsurprisingly all six algorithms produced non-monotonic relationship between recognition correct inference
+however will demonstrate limes produced knowledge-based decision-making processes use neither recognition-driven inference nor related speed-of-retrieval inference schooler hertwig shown produces similar advantageous effects moderate over lesser forgetting rates
+first aim paper prove analytical means limes produced knowledge-based decision-rules
+they not unique recognition-driven inference cannot therefore viewed providing unconditional support hypothesis

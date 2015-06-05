@@ -1,0 +1,35 @@
+ 
+fitness functions based test cases very common genetic programming gp
+process assimilated learning task inference models limited number samples
+paper investigation two methods improve generalization gp-based learning: 1 selection best-of-run individuals using three data sets methodology 2 application parsimony pressure order reduce complexity solutions
+results using gp binary classification setup show while accuracy test sets preserved less variances compared baseline results mean tree size obtained tested methods significantly reduced
+ introduction 
+gp particularly suited problems assimilated learning tasks minimization error between obtained desired outputs limited number test cases  training data using ml terminology
+indeed classical gp examples symbolic regression boolean multiplexer artificial ant only simple instances well-known learning problems i e respectively regression binary classification reinforcement learning
+early years gp problems were tackled using single data set reporting results same data set was used evaluate fitnesses during evolution
+was justifiable fact toy problems used only illustrate potential gp
+ml community recognized methodology flawed given learning algorithm overfit data used during training perform poorly unseen data same application domain
+hence important report results set data was not used during learning stage
+what call paper two data sets methodology  training set used learning algorithm test set used report performance algorithm unseen data good indicator algorithm's generalization robustness capability
+even though methodology been widely accepted applied ml pr communities long time ec community still lags behind publishing papers reporting results data sets were used during evolution training phase
+methodological problem already been spotted see  should less less common future
+two data sets methodology prevents reporting flawed results learning algorithms overfit training set
+but does not prevent itself overfitting training set
+common approach add third data set  validation set  helps learning algorithm measure its generalization capability
+validation set useful interrupt learning algorithm when overfitting occurs and/or select configuration learning machine maximizes generalization performances
+third data set commonly used train classifiers back-propagation neural networks easily applied ec-based learning
+but approach important drawback: removes significant amount data training set harmful learning process
+indeed richer training set more representative real data distribution more learning algorithm expected converge toward robust solutions
+light considerations objective paper investigate effect validation set select best-of-run individuals gp-based learning application
+another concern ml pr communities develop learning algorithms generate simple solutions
+argument behind occam's razor principle states between solutions comparable quality simplest solutions must preferred
+another argument minimum description length principle  states ``best'' model one minimizes amount information needed encode model data given model
+preference simpler solutions overfitting avoidance closely related: more likely complex solution incorporates specific information training set thus overfitting training set compared simpler solution
+but mentioned  argumentation should taken care too much emphasis minimizing complexity prevent discovery more complex yet more accurate solutions
+there strong link between minimization complexity gp-based learning control code bloat  exaggerated growth program size course gp runs
+even though complexity code bloat not exactly same phenomenon some kind bloat generated neutral pieces code no effect actual complexity solutions most mechanisms proposed control also used minimize complexity solutions obtained gp-based learning
+paper study gp viewed learning algorithm
+more specifically investigate two techniques increase generalization performance decrease complexity models: 1 use validation set select best-of-run individuals generalize well 2 use lexicographic parsimony pressure reduce complexity generated models
+techniques tested using gp encoding binary classification problems vectors taken learning sets terminals mathematical operations manipulate vectors branches
+approach tested six different data sets uci ml repository
+even if proposed techniques tested specific context argue they extended frequent situations where gp used learning algorithm

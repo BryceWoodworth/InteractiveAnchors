@@ -1,0 +1,28 @@
+ 
+prior experiences influence future actions
+experiences not only drive adaptive changes motor output but they also modulate rate at adaptive changes occur
+here studied anterograde interference motor adaptation ability previously learned motor task reduce rate subsequently learning different motor task
+examined formation motor system's capacity anterograde interference adaptive control human reaching-arm movements determining amount interference after varying durations exposure task found amount anterograde interference observed learning task b increased duration task however increase did not continue indefinitely; instead interference reached asymptote after 15 40 trials task interestingly found recently proposed multi-rate model motor adaptation composed two distinct but interacting adaptive processes predicts several key features interference patterns observed
+specifically computational model predicts initial growth leveling off anterograde interference describe well asymptotic amount interference observe experimentally
+understanding mechanisms underlying anterograde interference motor adaptation may enable development improved training rehabilitation paradigms mitigate unwanted interference
+ introduction 
+history prior action human motor system known influence not only future performance through memory but also capacity future learning
+interference savings two oppositely-directed phenomena produce effect
+interference describes ability one task impair learning another while savings describes ability previous learning enhance future learning
+example previous work shown after initial learning subsequent washout visuomotor rotation task relearning faster than initial learning even if performance levels learner at onset learning relearning identical
+similarly saccadic gain adaptation task after learning subsequent opposite-learning motor output returns pre-learning levels relearning also observed consistently faster than initial learning 
+other studies demonstrated previous learning hinder interfere future learning
+experimental paradigm commonly used study interference 1ba 2 paradigm where subject instructed serially learn task task b then task again  often various time delays inserted between tasks
+paradigm task b usually made opposite task two types interference studied paradigm retrograde interference: how task b interferes memory task 1 anterograde interference: how memory task 1 interferes subsequent learning task b note both retrograde anterograde interference affect performance task 2
+although anterograde interference often quite substantial effects not received much attention retrograde interference motor adaptation literature
+surprising because retrograde interference tends relatively small effect performance studies where reported whereas anterograde interference often substantially larger effects
+fact several interference studies been specifically designed minimize effects anterograde interference because they recognized potential masking retrograde interference
+acquiring better understanding mechanisms underlying anterograde interference important not merely provide greater insight into retrograde interference effects but because learning phenomenon significant itself primary cause interference during motor adaptation
+anterograde interference been observed force-field adaptation studies visuomotor rotation studies been shown weaken time between tasks increased
+recently-proposed computational model motor adaptation suggested possible mechanism anterograde interference
+model one internal adaptive process responds quickly motor error but rapidly forgets while another adaptive process learns slowly motor error but good retention
+contributions two processes combined generate net motor output
+transition task task b fast process will quickly learn new task while slow process will reluctant follow because its good retention previous task
+multi-rate model predicts residual contribution slow process would hinder adaptation task b resulting anterograde interference
+model also predicts training task extended amount interference will also increase but then level off beyond 15 40 training trials task here using simple ab paradigm avoid retrograde interference effects examine first time how duration exposure task influences amount anterograde interference observed task b order determine how capacity interference built up practice
+then use predictions multi-rate model determine whether anterograde interference stems interactions between different timescales motor learning

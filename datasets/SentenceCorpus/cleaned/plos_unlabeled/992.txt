@@ -1,0 +1,33 @@
+ 
+some studies suggest complex arm movements humans monkeys may optimize several objective functions while others claim arm movements satisfy geometric constraints composed elementary components
+however ability unify different constraints remained open question
+criterion maximally smooth motion satisfied parabolic trajectories having constant equi-affine speed thus comply geometric constraint known two-thirds power law
+here empirically test hypothesis parabolic segments provide compact representation spontaneous drawing movements
+monkey scribblings performed during period practice were recorded
+practiced hand paths could approximated well relatively long parabolic segments
+following practice orientations spatial locations fitted parabolic segments could drawn only 2 4 clusters there was less discrepancy between fitted parabolic segments executed paths
+enabled us show well-practiced spontaneous scribbling movements represented sequences small number elementary parabolic primitives
+movement primitive defined movement entity cannot intentionally stopped before its completion
+found well-trained monkey movement was usually decelerated after receiving reward but stopped only after completion sequence composed several parabolic segments
+piece-wise parabolic segments generated applying affine geometric transformations single parabolic template
+thus complex movements might constructed applying sequences suitable geometric transformations few templates
+our findings therefore suggest motor system aims at achieving more parsimonious internal representations through practice parabolas serve geometric primitives non-euclidean variables employed internal movement representations 
+ introduction 
+despite decades research formation human hand trajectories basic mechanisms neuromotor control underlying generation even simplest drawing movements remain poorly understood
+various studies proposed human movement preparation aims at optimizing either kinematic dynamic criteria minimizing movement variance
+studies vertebrates suggested voluntary movements composed basic movement elements combined parallel sequentially
+modular organization account versatility animal human movements their ability acquire new skills
+geometrically invariant properties drawing movements were formalized two-thirds power law
+kinematic constraints were shown hold both respect movement production perception
+earlier studies also showed two-thirds power law equivalent moving at constant equi-affine speed there psychophysical neurophysiological evidence significant role invariance human motion respect equi-affine transformations
+argue geometric invariance may provide more compact representation complex movements composed geometric primitives
+straight point-to-point movements show geometric invariance under dynamic perturbations involving use either elastic viscous loads
+point-to-point movements retain invariance their geometric properties even when subjects required control movements cursor computer screen moving their fingers instrumented data glove
+recent studies monkeys humans indicated repeatable geometric shapes used construction complex trajectories emerge after extensive practice generation drawing sequential movements
+ability unify different kinds movement constraints modeling human animal movements could lead further insights
+parabolic movement primitives meet demands geometric invariance kinematic optimality movements simplicity movement representation may subserve underlying building blocks arm trajectory formation
+here hypothesis parabolic segments geometric primitives practiced movements was experimentally tested using spontaneous scribbling movements made two monkeys
+our choice source data was motivated feasibility subsequently analyzing underlying activity motor cortical neurons 
+predictions both two-thirds power law constrained minimum-jerk model identical single parabolic stroke
+fit recorded trajectories predictions two models was assessed described detail text s1
+preliminary version our findings was presented at tenth biennial conference international graphonomics society 2001 at computational motor control workshops at ben-gurion university 2005 2006

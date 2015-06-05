@@ -1,0 +1,45 @@
+
+made possible single event large number points using multiple
+many scenarios very data signals
+data typically rely models
+models provide particularly model structure data when set parameters
+however models do not typically take into account among multiple
+thus propose new framework data
+show simple algorithms structure improve their performance standard signal processing applications
+recent results reduction us data uses random data
+data all through addition data
+introduction
+notion common yet modeling data
+models cases where i parameter identified relevant information about signal signal changes continuous typically function parameters
+some examples include signal unknown time delay variable signal underlying image object at unknown unknown object its
+many other cases signal class } where parameter space
+also been proposed approximate models signal classes human
+many scenarios multiple observations same event may performed resulting multiple same parameter space
+example networks networks typically single event variety points while underlying phenomenon often described set common global parameters objects interest
+when single phenomenon using multiple underlying phenomenon may described single all
+cases will show model structure simply each
+thus introduce concept model data vectors observed group
+development learning estimation algorithms structure
+furthermore they applied data any
+work theoretical properties
+particular compare their component see how like condition number affected
+then properties lead performance variety signal processing algorithms when they structure processing data each
+also how structure through simple efficient data algorithm uses random also applied data
+related prior work studied alignment where goal between several datasets same underlying structure
+et al \ proposed algorithm obtain matching between data points several classes
+algorithm first reduction using obtain data intrinsic class
+then function set points applied datasets
+concept was extended who apply analysis datasets obtain alignment function between pair
+since alignment function provided instead data point matching obtained rather than set points
+our setting assume either i alignment provided via between different been using one approaches described above
+our main focus theoretical analysis provided versus our task interest each observed individual
+paper follows
+section some basic properties
+section application tasks classification learning
+section then efficient method processing data when section
+
+
+theoretical analysis
+
+g
+computer report

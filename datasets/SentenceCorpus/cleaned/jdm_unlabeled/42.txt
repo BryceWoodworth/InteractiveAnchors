@@ -1,0 +1,58 @@
+ 
+some studies found choices become more risk averse after gains more risk seeking after losses although other studies found opposite
+latter tend use hypothetical cases encourage deliberation
+current study examined effects prior gains losses task designed encourage less reflective decision making iowa gambling task igt
+fifty participants conducted manipulated decision-making task one group gained money whereas other group lost money followed igt
+participants who experienced prior monetary loss displayed more risky choice behavior igt than subjects who experienced prior gain
+effects were not mediated positive negative affect although sample size may been too small detect small effect
+ introduction 
+kahneman tversky noted people often risk averse gains risk seeking losses
+whether people consider consequence their choice loss gain dependent their point reference
+reference point often equivalent current wealth position plays key role theory choice
+should possible manipulate perceptions domain gain loss actual prior gains losses
+people may see their starting point before gain loss reference point
+if they had lost money example they may see new gambles domain losses they therefore might risk seeking
+earlier studies effect gains losses show conflicting results
+thaler johnson found opposite resultswhich they called house money effect although their participants would take risks gain back all their loss
+weber zuchel review literature find some conditions support prospect theory prediction
+aside their result however most results consistent prospect theory studies use more realistic situations investment rather than hypothetical tasks
+some traditional economic studies addressing theories decision-making assume decision-making based deliberate evaluations varying option-outcome scenarios people weigh pros cons various choices against each other base their decision outcome comparison
+kinds choices characterized deliberate carefully thought-out
+however some recent psychological studies addressing decision-making show decisions also driven less carefully thought-out choices often implicit automatic based gut-feelings emotions
+recently sanfey et al made clear distinction between two psychological systems involved economic decision-making emotional system involves activation automatic processes deliberative system involving controlled processes each having separate neural substrates
+present contribution want apply recent knowledge risk aversion
+risk aversion after gains consequence people's deliberate conscious decisions avoid risk
+case risk aversion largely automatic whereby people's current reference point leads them pursue less risky options without deliberately weighting all outcome scenarios
+present study examined role reference point task designed encourage automatic emotional driven decision-making iowa gambling task igt
+during igt participants select cards four decks range probability magnitude rewards punishments
+translate our hypothesis pertaining risk aversion igt necessary explain igt some detail
+igt participants repeatedly choose usually up number times between four decks cards
+two decks e g b disadvantageous
+they produce large immediate gains but gains followed large losses leading overall loss long run
+other remaining decks e g c d advantageous
+gains modest but consistent losses small
+consistently choosing decks leads gains long run
+means people who risk seeking would predominantly choose decks b leading losses long run
+conversely people who risk averse will predominantly choose decks c d leading overall gain
+means risk aversion translates into better performance overall gains igt whereas risk seeking would translate into poor performance overall losses
+psychological process determines people's behavior igt crucial our hypothesis risk aversion not only based deliberately weighting all outcome scenarios
+general consensus people performing igt at some point steer towards certain profitable decks rather automatic way
+whether automatic behavior entirely unconscious still subject debate see maia mcclelland dunn et al
+behavior igt seen form implicit learning whereby behavior changes before people verbalize why they do what they doing
+therefore igt regarded instrument capable assessing intuitive emotion-based decision-making processes
+addition our central aimto test relative automaticity risk aversionwe another goal
+economic studies addressing theories decision-making often rely hypothetical situations choices participants confronted monetary gambles without any real consequences
+although use real incentives often not crucial outcome experiments using real incentives important role play establishing quality credibility generalizability experimental data
+present study addressed point using real monetary remunerations order mimic real-life decision-making more closely
+purpose present study experimentally manipulated reference point
+participants first performed manipulated gamble-task they either gained lost money result their performance actuality they had no influence gains losses
+note experimental set-up comes close real-life situations person's reference point real perceived often result their prior choices
+known individual differences influence behavioral decision-making
+individual difference variables include reward sensitivity gender age
+line previous research expected our experimental manipulation would effect participants' affect
+more precisely prior gain would yield increase positive affect whereas earlier loss would result increase negative affect
+been suggested affect might influence decision-making
+positive affect promote increased sensitivity losses
+present study investigated whether above-mentioned individual differences affect may additional effect participants' decision-making
+main hypothesis was people who experienced prior gain gambling task performed better i e made more advantageous choices consequence risk aversion igt compared persons who experienced prior loss
+furthermore asked whether effect was influenced subjective affect various other individual differences

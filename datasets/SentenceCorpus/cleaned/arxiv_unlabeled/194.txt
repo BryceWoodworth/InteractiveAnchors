@@ -1,0 +1,28 @@
+ 
+research reinforcement learning produced algorithms optimal decision making under uncertainty fall within two main types
+first employs bayesian framework where optimality improves increased computational time
+because resulting planning task takes form dynamic programming problem belief tree infinite number states
+second type employs relatively simple algorithm shown suffer small regret within distribution-free framework
+paper presents lower bound high probability upper bound optimal value function nodes bayesian belief tree analogous similar bounds pomdps
+bounds then used create more efficient strategies exploring tree
+resulting algorithms compared distribution-free algorithm ucb1 well simpler baseline algorithm multi-armed bandit problems
+ introduction 
+recent work  bayesian methods exploration markov decision processes mdps solving known partially-observable markov decision processes pomdps well exploration latter case been proposed
+all methods suffer computational intractability problems most domains interest
+sources intractability two-fold
+firstly there may no compact representation current belief
+especially true pomdps
+secondly optimally behaving under uncertainty requires create augmented mdp model form tree  where root node current belief-state pair children all possible subsequent belief-state pairs
+tree grows large very fast particularly problematic grow case continuous observations actions
+work concentrate second problem  consider algorithms expanding tree
+since bayesian exploration methods require tree expansion performed view whole problem nested exploration
+simplest exploration-exploitation trade-off setting bandit problems there already exist nearly optimal computationally simple methods
+methods recently been extended tree search
+work proposes take advantage special structure belief trees order design nearly-optimal algorithms expansion nodes
+sense recognising tree expansion problem bayesian look-ahead exploration methods also optimal exploration problem develop tree algorithms solve problem efficiently
+furthermore able derive interesting upper lower bounds value branches leaf nodes help limit amount search
+ideas developed tested multi-armed bandit setting nearly-optimal algorithms already exist
+remainder section introduces augmented mdp formalism employed within work discusses related work
+section discusses tree expansion exploration problems introduces some useful bounds
+bounds used algorithms detailed section then evaluated section
+conclude outlook further developments

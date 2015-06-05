@@ -1,0 +1,27 @@
+ 
+what role recognition consumer choice
+recognition heuristic rh proposes situations where recognition correlated decision criterion recognized objects will chosen more often than unrecognized ones regardless any other relevant information available about recognized object
+past research investigated non-compensatory decision heuristic inference
+here report two experiments preference using naturalistic consumer choice task
+results revealed although recognition was powerful driver preferences was used compensatory rather than non-compensatory way
+specifically additional information learned about recognized brand objects significantly affected choices
+appears recognition processed compensatory manner combined other attributes preferential choice
+ introduction 
+tend like what know
+studies mere exposure effect decades experience product manufacturers advertisers confirm our preferences products other objects tend related their familiarity brand awareness
+but what precisely mechanism familiarity recognition guides choice
+article asks whether choice sometimes guided non-compensatory mechanism recognition heuristic rh
+rh been primarily investigated inferential choice domains larger city frankfurt koblenz
+simple tool adaptive tool-box human judgment decision making proposed gigerenzer todd abc research group
+researchers shown unlike classical decision strategies e g linear regression bayesian models aim maximize integration relevant knowledge gain statistically optimal prediction decision criterion efficient inferences drawn minimal knowledge case mere recognition
+additionally rh was proposed most applicable situations where knowledge limited not all entities choice set recognized
+there various other domains recognition knowledge limited where choices depend preferences rather than inferences
+one obvious example consumer choice
+everyone knows firms invest huge sums money advertising
+although many advertisements informative often their purpose simply increase brand awareness
+firms attempt repeatedly expose consumers brand names hope achieving positive brand image customer loyalty
+present study aims investigate exact role brand recognition consumer choice
+more specifically aims see whether under certain circumstances participants will rely recognition choice strategy regardless any other information they may about recognized well-known brand
+instance when choosing between two brands chocolate only one brand recognized participants may employ simple heuristic choose recognized brand
+alternatively they may combine recognition other information known about brand whether manufacturer good poor environmental record
+present research therefore extends past studies recognition heuristic into new domain preferential choice

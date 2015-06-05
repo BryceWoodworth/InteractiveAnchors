@@ -1,0 +1,43 @@
+ 
+protegrin peptides potent antimicrobial agents believed act against variety pathogens forming nonselective transmembrane pores bacterial cell membrane
+employed 3d poisson-nernst-planck calculations determine steady-state ion conduction characteristics pores at applied voltages range 100 100 mv 0.1 m kcl bath solutions
+tested variety pore structures extracted molecular dynamics simulations based experimentally proposed octomeric pore structure
+computed single-channel conductance values were range 290 680 ps
+better agreement experimental range 40 360 ps was obtained using structures last 40 ns md simulation where conductance values range 280 430 ps
+observed no significant variation conductance applied voltage any structures tested suggesting voltage dependence observed experimentally result voltage-dependent channel formation rather than inherent feature open pore structure
+found pore highly selective anions anionic cationic current ratios order 10 3
+consistent highly cationic nature pore but surprisingly disagreement experimental finding only slight anionic selectivity
+additionally tested sensitivity our pnp model several parameters found ion diffusion coefficients significant influence conductance characteristics
+best agreement experimental data was obtained using diffusion coefficient each ion set 10 percent bulk literature value everywhere inside channel scaling used several other studies employing pnp calculations
+overall work presents useful link between previous work focused structure protegrin pores experimental efforts aimed at investigating their conductance characteristics
+ introduction 
+antimicrobial peptides small proteins produced innate immune system many plants animals first line defense against bacterial infections
+due their persistence nature well their nonspecific mechanism action there been significant research activity aimed at designing novel antibiotics based amps ; expectation bacteria will not develop significant resistance antibiotics designed based peptides
+thus far drug design efforts been largely hampered lack understanding fundamental mechanism action amps
+although recent evidence suggests intracellular targets may play important role action many amps there strong body evidence suggesting ability peptides interact disrupt bacterial membrane essential their mechanism action
+amps various structural classes been shown significant disruptive effects both living bacterial membranes model membrane systems lipid bilayers lipid monolayers
+thorough reviews several proposed mechanisms membrane disruption reader referred
+most relevant present work model amps aggregate form large nonselective pores bacterial membrane result uncontrolled ion leakage decay transmembrane potential uncontrolled water transport loss cell contents ultimately cell death
+focused our efforts protegrin-1 particularly potent antimicrobial peptide recently been shown form pores lipid bilayers certain compositions
+protegrins small peptides isolated porcine leukocytes exhibit strong antimicrobial activity against broad range both gram-positive gram-negative bacteria
+protegrins characterized hairpin conformation held together two cysteine-cysteine disulfide bonds
+they contain 16 18 amino acids typically highly cationic positive charges arising arginine residues at hairpin turn region two termini
+present work focus most prevalent natural form protegrin designated pg-1 amino acid sequence rggrlcycrrrfcvcvgr-nh 2
+mani coworkers conducted solid-state nmr experiments investigate membrane-bound structure pg-1 peptide concluded peptide likely forms octomeric pores lipid bilayers composed 3 1 mixture palmitoyloleoyl-phosphatidylethanolamine palmitoyloleoyl-phosphatidylglycerol
+langham coworkers used structure suggested nmr experiments starting configuration molecular dynamics simulation lipid bilayer same composition
+simulation showed pore stable over more than 150 ns
+figure 1 shows cartoon representation single protegrin peptide well side view proposed pore structure
+prior studies pore structure protegrin early evidence protegrin pores was provided experiments mangoni coworkers sokolov coworkers conductance characteristics protegrin-treated membranes were measured
+knowledge nonequlibrium ion flow through protegrin pores may closely related their mechanism action since unrestricted flow ions through membrane could result potentially lethal membrane depolarization
+mangoni coworkers conducted voltage clamp experiments xenopus laevis oocyte membranes treated protegrin-1 several analogues
+they found protegrins form weakly anion selective pores presence several different salts kcl solutions exhibiting almost no selectivity
+furthermore they found conductance pores does not exhibit any voltage dependence over voltage range 100 30 mv
+sokolov coworkers carried out conductance measurements across several different types planar phospholipid bilayers treated protegrin-1 well protegrin-3
+authors found both protegrin analogues form weakly anion selective channels mixed phospholipid bilayers moderately cation-selective channels bilayers containing negatively charged bacterial lipopolysaccharide
+they reported voltage-dependent single-channel conductance range 40 360 picosiemens depending peptide used lipid bilayer composition applied voltage
+present work attempt explain quantify conductance behaviour protegrin pores terms structural information nmr experiments molecular dynamics simulations
+particular explore connection between structural features size pore opening magnitude conductance well surprising experimental finding both mangoni coworkers sokolov coworkers protegrin pore only slightly anion selective despite having total charge 56
+our investigation based poisson-nernst-planck theory continuum method calculating non-equilibrium ion concentrations fluxes around fixed structure presence applied electrical voltage
+our model simulate voltage across protegrin pore embedded lipid bilayer patch measure resulting current
+since pnp model requires rigid structure perform calculations using several snapshots md simulations langham coworkers
+description underlying equations numerical scheme used solve them deferred methods section below

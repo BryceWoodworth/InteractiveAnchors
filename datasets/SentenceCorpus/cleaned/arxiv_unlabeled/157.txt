@@ -1,0 +1,116 @@
+ 
+baum-welch algorithm together its derivatives
+variations been main technique learning hidden markov
+models hmm observational data
+present hmm learning
+algorithm based non-negative matrix factorization nmf
+higher order markovian statistics structurally different
+baum-welch its associated approaches
+described
+algorithm supports estimation number recurrent states
+hmm iterates non-negative matrix factorization nmf
+algorithm improve learned hmm parameters
+numerical
+examples provided well
+ introduction 
+hidden markov models hmm been successfully used model
+stochastic systems arising variety applications ranging
+biology engineering
+finance
+following accepted notation representing parameters
+structure hmm's see
+
+example will use following terminology definitions:
+
+
+number states markov chain underlying
+hmm
+state space system's
+state process at time denoted ;
+number distinct observables symbols generated
+hmm
+set possible observables observation process at time denoted
+
+denote subprocess
+;
+
+joint probabilities
+s_j t+1 v_k t s_i v_k s_i s_j a(k)=(a_{ij}(k v_k a=\sum_{k}a(k x_t t=1 \gamma
+ \{\gamma_1 
+
+ \gamma_n\} \gamma_i  p(x_1  s_i
+0 \sum_i \gamma_i  1 a(k   \{a(k)\ |\
+1km\} $
+present algorithm learning hmm single
+multiple observation sequences
+traditional approach
+learning hmm baum-welch algorithm
+been extended variety ways others
+
+recently novel promising approach hmm approximation
+problem was proposed finesso et al 
+
+approach based anderson's hmm stochastic realization
+technique demonstrates positive
+factorization certain hankel matrix consisting observation
+string probabilities used recover hidden markov
+model's probability matrices
+finesso his coauthors used
+recently developed non-negative matrix factorization nmf
+algorithms express those stochastic realization
+techniques operational algorithm
+earlier ideas vein
+were anticipated upper 1997  although
+work did not benefit hmm stochastic realization techniques
+nmf algorithms both were developed after 1997
+methods based stochastic realization techniques including
+one presented here fundamentally different baum-welch
+based methods algorithms use input observation
+sequence probabilities opposed raw observation {\em
+sequences}
+anderson's finesso's approaches use system
+realization methods while our algorithm spirit
+myhill-nerode construction building
+automata languages
+myhill-nerode construction states
+defined equivalence classes pasts produce same
+futures
+hmm ``future'' state probability
+distribution over future observations
+following intuition
+derive our result manner appears comparatively more
+concise elementary relation aforementioned approaches
+anderson finesso
+at conceptual level our algorithm operates follows
+first
+estimate matrix observation sequence's high order
+statistics
+matrix natural non-negative matrix
+factorization nmf  interpreted
+terms probability distribution future observations given
+current state underlying markov chain
+once estimated
+probability distributions used directly estimate
+transition probabilities hmm
+estimated hmm parameters used turn compute
+nmf matrix factors well underlying higher order
+correlation matrix data generated estimated hmm
+
+present simple example nmf factorization exact
+but does not correspond any hmm
+fact
+established comparing factors computed nmf
+factors computed estimated hmm parameters
+kind
+comparison not possible other approaches
+
+important point out optimal non-negative matrix
+factorization positive matrix known np-hard
+general case   so practice one computes
+only locally optimal factorizations
+will show through
+examples repeated iteration factorization
+transition probability estimation steps improves
+factorizations overall model estimation
+details provided
+below

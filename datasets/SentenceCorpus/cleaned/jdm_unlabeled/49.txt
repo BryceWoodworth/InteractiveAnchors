@@ -1,0 +1,73 @@
+ 
+compare experts' judgments appropriateness treatment interferon treatment melanoma basis important attributes disease thickness ulceration lymph node involvement type metastases decision analytic model probabilities deterioration derived medical literature epidemiological studies
+comparison based what call linearity test examines whether appropriateness judgments linear function epidemiological value p probability deterioration patient condition if he would received treatment
+comparison allows assessment validity experts' judgments under assumption decision analytic model valid alternatively assessment validity decision analytic model under assumption experts' judgments valid
+under former assumption results indicate appropriateness judgments large accurate
+under latter assumption results support idea constant treatment effect idea efficacy treatment constant over various levels severity disease
+our results also support idea experts' aggregate judgments far exceed individuals' judgments
+ introduction 
+appropriateness judgments how appropriate perform procedure x patient symptoms y z communicate information how worthwhile perform medical procedure play major role clinical guidelines systems
+producing systems expert clinicians given scenarios disease e g melanoma vary along number dimensions e g size tumor number nodes affected asked judge appropriateness using certain procedure e g interferon treatment each cases
+judgments later used practitioners deciding whether not treatment should administered their patients
+view growing importance methods communicating expertise general medical expertise particular paper examines expert appropriateness judgments within framework normative decision analytic model evaluates validity judgments assesses their usefulness understanding clinical models treatment
+our empirical work based reanalysis expert panel judgment had been used creating authoritative guideline whether use interferon adjunct treatment melanoma
+there three perspectives relationship between decision model judgments appropriateness could understood
+first if model assumed correctly describe judgments could used uncover implicit rules policies underlying judgments
+policy capturing view judgment modeling primarily used assess attribute weights expert judgment but also determine presence configural i e interactive other nonlinear rules underlying judgment
+second if our decision analytic model viewed prescriptive model appropriateness medical treatment consistency between model actual appropriateness judgments could viewed supporting validity those judgments
+third if set appropriateness judgments viewed prescriptively accurate agreement between model judgments could viewed supporting normative stand model basic tenets based
+thus whereas second third perspectives lend prescriptive status either model judgment first perspective merely descriptive lending prescriptive status neither
+term appropriateness common language analogue difference between expected utility taking action expected utility not taking action
+thus when rating appropriateness treatment number number not appropriate at all number very appropriate scale clinician implies expected utility administering treatment slightly higher than expected utility not administering whereas when rating appropriateness number clinician implies expected utility administering treatment much higher than expected utility not administering
+important note appropriate judgments intended support tool evaluating utility treatment
+they should serve direct i e linear indicator utility deviations linearity should viewed inappropriate
+use example consider panel experts who asked judge water temperature sensing water
+appropriate temperature judgment case should linearly related temperature linearity test could viewed test their validity
+consider now clinician's judgment appropriateness treatment condition probability p deteriorating e g death number p remitting
+assume treatment associated probability p deteriorating p less than p probability number p remitting
+figure number depicts decision tree facing clinician
+our model assume probability adverse events under treatment equals one
+denote u utility remission u deterioration death
+also assume utility remission under treatment equal u-u where u disutility adverse event associated treatment
+expected utility administering treatment eu expected utility not administering eu given number number respectively
+thus difference between expected utility administering treatment eu expected utility not administering eu given number if appropriateness judgment linear representation du eu-eu assumption further discussed below then could expressed number where app represents level appropriateness positive constant
+denoting p p k obtain number efficacy treatment defined p p p numberp p number
+assumption p p k constant equivalent asserting efficacy treatment constant over various levels severity disease effect treatment reducing mortality constant over various levels severity disease
+example if treatment reduces probability mortality patient whose initial probability mortality number number number percent number number will also reduce probability mortality patient b initial probability number number number percent number number
+constant treatment effect although not necessarily universally true may reasonably describe effect treatment many situations
+assumption made many epidemiological studies
+moreover mandatory epidemiological studies where relative risk reduction estimated regression
+whereas our decision analytic model represents appropriateness judgments function p they usually obtained response clinical scenarios indications include information about severity levels various symptoms
+therefore policy capturing studies usually model appropriateness judgments function level symptoms rather than p any other relevant probabilities
+approach two disadvantages
+first does not allow relating descriptive policy capturing model based symptoms prescriptive decision analytic model based probabilities utilities
+second scales symptom levels may not linear thus introducing distortion into interpretation results
+particular not clear whether nonlinear relationships between symptom judgment represent nonlinear clinical rule nonlinearity scale symptoms
+overcome difficulties our study models judgment terms both raw symptom scale terms transformed symptom scale levels symptom expressed using epidemiological p yardstick
+example if severity symptom measured number low severity number high severity scale probability mortality within five years respectively q q then levels symptoms could expressed terms probability mortality associated each level rather than raw scale values
+process could viewed intervalization symptom scale
+whereas raw number number scale not necessarily interval scale equal changes scale not necessarily equivalent respect their impact e g change number number may differ change number number transformed scale interval equal changes scale could viewed equivalent terms their impact
+assessment validity medical judgments taken primarily either approach comparing methods examining whether decision process suffers biases
+few studies also examined validity appropriateness judgments comparing them normative models
+contrast approaches our basic test validity appropriateness judgments based brunswickian approach comparing function form environment modelthe model predicts criterion cuesto function form judgment modelthe model predicts judgments cues
+particular our test labeled linearity test involves examination whether agreement model appropriateness judgments linear function epidemiological value p probability derived epidemiological studies
+linearity test test validity appropriateness judgments since extent our decision analytic model correct model appropriateness valid judgments should satisfy test
+thus linear relation supports though does not prove validity appropriateness judgments whereas nonlinear relation provides some evidence against their validity
+note however nonlinear relationship does not necessarily suggest appropriateness judgments not valid
+particular nonlinearity may result our model being normatively incorrect e g assumption constant treatment effect incorrect rather than appropriateness judgments being incorrect e g judgments rely erroneous assessment probability utility correct integration two
+thus our linearity test could viewed joint test validity our model appropriateness judgment validity judgments themselves
+both need valid linearity occur
+basic question medical decision making whether aggregating judgments clinicians result more valid clinical judgments
+despite fundamental importance question not much relevant empirical evidence available primarily because problems associated establishment criteria will allow evaluation utility aggregation
+context current study criterion evaluation utility aggregation availablewhether not judgments linear
+thus our empirical test utility aggregation clinical judgments whether not aggregated judgments conform linearity test better than individual judgments
+our discussion so far focused validation appropriateness judgments under assumption our decision analytic model valid model appropriateness medical treatment
+however mentioned earlier complementary perspective emphasizes validation model under assumption appropriateness judgments valid
+particular if appropriateness judgments assumed normatively valid linearity satisfied assumption constant treatment effect supported
+study examine validity appropriateness judgments specific clinical setting adjuvant high-dose interferon alfa number b treating melanoma
+malignant melanoma common cancer western world
+during last number years numerous agents been evaluated series both nonrandomized randomized adjuvant therapy trials melanoma
+patients who advanced stages malignant melanoma controversy abounds regarding high-dose adjuvant interferon alfa number b therapy
+based randomized clinical trials currently agreed high-dose interferon therapy associated approximately number percent improvement relapse-free survival but also high incidence serious toxicity
+other words relapse-free survival bought at price increased frequency serious toxicity
+so appropriateness judgments must revolve around perceived tradeoff between harms benefits

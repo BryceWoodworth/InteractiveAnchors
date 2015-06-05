@@ -1,0 +1,20 @@
+
+kernel machine recent years analysis defined kernel matrices way structure often data
+here provide introduction methods linear dimension reduction ways computational datasets
+particular data selection process often construct kernel based information approximate analysis
+provide quantitative framework procedure use demonstrate performance bounds range practical approaches designed selection process
+compare practical bounds way examples field computer structure shown data
+introduction
+recent years increases available computational power data interest dimension reduction methods
+development over past several new algorithms designed structure data et al clustering et al
+despite their different each algorithms requires positive kernel matrix
+fact methods their long central place statistical data analysis
+positive kernel matrix variety classical approaches components analysis most data analysis determine data classification used metric data
+result their exact appropriate kernel matrix computational complexity methods scales turn either
+if complexity exact large datasets computational problems both classical methods
+one alternative construct kernel based directly set examples been selected
+selection thus overall computational apply algorithms directly subset their original chosen their results at computational cost
+while often simply sampling their data at random show article how one may improve upon approach manner at only higher computational cost
+review linear methods introduce optimal selection problem
+then provide analysis framework selection turn clear set between computational complexity quality approximation
+finally case study applications field computer

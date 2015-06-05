@@ -1,0 +1,41 @@
+ 
+functional brain networks detected task-free functional magnetic resonance imaging small-world architecture reflects robust functional organization brain
+here examined whether functional organization disrupted alzheimer's disease
+task-free fmri data 21 ad subjects 18 age-matched controls were obtained
+wavelet analysis was applied fmri data compute frequency-dependent correlation matrices
+correlation matrices were thresholded create 90-node undirected-graphs functional brain networks
+small-world metrics were computed using graph analytical methods
+low frequency interval 0.01 0.05 hz functional brain networks controls showed small-world organization brain activity characterized high clustering coefficient low characteristic path length
+contrast functional brain networks ad showed loss small-world properties characterized significantly lower clustering coefficient indicative disrupted local connectivity
+clustering coefficients left right hippocampus were significantly lower ad group compared control group
+furthermore clustering coefficient distinguished ad participants controls sensitivity 72 percent specificity 78 percent
+our study provides new evidence there disrupted organization functional brain networks ad
+small-world metrics characterize functional organization brain ad our findings further suggest network measures may useful imaging-based biomarker distinguish ad healthy aging
+ introduction 
+alzheimer's disease neurodegenerative disorder characterized progressive impairment episodic memory other cognitive domains resulting dementia ultimately death
+imaging studies ad begun shift studies brain structure more recent studies highlighting focal regions abnormal brain function
+most recently fmri studies moved beyond focal activation abnormalities dysfunctional brain connectivity
+functional connectivity defined temporal correlations between spatially distinct brain regions
+pet studies restricted across-subject connectivity measures shown ad patients decreased hippocampus connectivity prefrontal cortex posterior cingulate cortex during memory tasks
+using fmri demonstrated ad patients performing simple motor task had reduced intra-subject functional connectivity within network brain regions termed default-mode network includes posterior cingulate cortex temporoparietal junction hippocampus
+bokde et al reported abnormalities fusiform gyrus connectivity during face-matching task subjects mild cognitive impairment frequently precursor ad
+three recent studies reported reduced default-mode network deactivation mci and/or ad patients during encoding tasks during semantic classification task
+celone et al also reported increased default-mode network deactivation subset less impaired mci patients
+addition analyzing functional connectivity during task performance functional connectivity also been investigated during task-free conditions
+task-free functional connectivity mri detects interregional correlations spontaneous blood oxygen level-dependent signal fluctuations
+using approach wang et al found disrupted functional connectivity between hippocampus several neocortical regions ad
+similarly li et al reported reduced intrahippocampal connectivity during task-free conditions
+most recently sorg et al reported reduced resting-state functional connectivity default-mode network mci patients
+although evidence accumulating ad disrupts functional connections between brain regions not clear whether ad disrupts global functional brain organization
+graph metrics clustering coefficient characteristic path length useful measures global organization large-scale networks
+graphs data structures nodes edges between nodes
+clustering coefficient measure local network connectivity
+network high average clustering coefficient characterized densely connected local clusters
+characteristic path length measure how well connected network network low characteristic path length characterized short distances between any two nodes
+small-world network characterized high clustering coefficient low characteristic path length
+graphical representation brain network node corresponds brain region while edge corresponds functional interaction between two brain regions
+functional connectivity networks human brain derived electroencephalograms magnetoencephalograms task-free fmri data exhibit small-world characteristics
+recent eeg study stam et al reported small-world architecture functional networks brain disrupted ad 
+here examined global functional organization brain ad creating whole-brain functional connectivity networks task-free fmri data characterizing organization networks using small-world metrics comparing characteristics between ad patients age-matched controls
+hypothesized global functional brain organization would abnormal ad
+further given need reliable non-invasive clinical test ad sought determine whether small-world metric obtained task-free fmri data might provide sensitive specific biomarker ad

@@ -1,0 +1,51 @@
+
+problem considered under various models
+given graph whose weights change arbitrary way decision choose each game between two loss chosen defined weights its small possible
+setting problem after choosing decision only weights those chosen
+problem algorithm given whose average loss best sequence weights depends only number graph
+algorithm linear complexity number number
+efficient setting also given decision about weights corresponding chosen at total time
+another shown where decision against generalization problem best
+version setting also discussed where decision only total weight chosen but not weights individual
+applications networks along simulation results also presented
+introduction
+sequential decision problem decision sequence actions
+after each action decision some loss depending response state environment its goal its loss over certain time
+setting considered here no probabilistic assumption made how losses corresponding different actions generated
+particular losses may depend previous actions decision whose goal perform well relative set reference any possible behavior environment
+more aim decision achieve same average per loss best
+research into problem see example some basic results new life following work et al
+results show any loss function if decision past losses all then possible construct algorithms perform any possible behavior environment almost well best
+more per loss algorithms at most large best any loss function where number decision game
+number makes possible obtain bounds even if very large
+certain situations decision only limited knowledge about losses all possible actions
+example often natural assume decision know only loss corresponding action made no information about loss would had made different decision
+problem was considered setting et al who algorithm whose regret difference average loss best
+note compared full information case described above where losses all possible actions revealed decision there factor performance bound bound if number large
+another example limited information case efficient decision problem see too state environment so decision losses all possible actions only limited number times
+recent result shows case if decision losses times during length then achieve average loss relative best
+many applications set certain structure may construct efficient decision algorithms
+algorithms been interest computational learning theory
+problem at al
+more complete
+paper study problem example classes attention literature its many applications including among others communication see eg et al \ adaptive design source see et al
+problem graph given whose weights change arbitrary manner decision each between two given weight weights its small possible
+efficient solutions time space complexity number rather than number latter typically being number been given full information case where each weights all revealed after been see example et al
+setting only weights just weights chosen revealed decision
+if one general algorithm et al \ resulting bound will too large practical use because its number
+other hand using special graph structure problem number performance bound
+they average predictor algorithm generalization setting when only weights available algorithm
+however bounds obtained number significantly than bound et al \
+consider model i e losses depend previous actions prove bound expected regret
+give algorithm than however obtain bound order expected regret
+paper provide algorithm et al \ above approaches performance bound number at rate number increases
+achieve bound model losses all chosen available after making decision
+also discuss case considered only total loss i e losses chosen known decision
+exhibit simple algorithm regret high probability against
+case remains open problem find algorithm whose loss number graph number
+section define problem extended setting section
+our new algorithm problem setting given section together its performance analysis
+algorithm extended solve problem combined efficient setting section
+another when algorithm against studied section
+algorithm setting when only losses available given section
+simulation results presented section

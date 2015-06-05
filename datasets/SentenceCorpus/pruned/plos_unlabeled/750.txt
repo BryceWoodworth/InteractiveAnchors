@@ -1,0 +1,30 @@
+
+cellular response environmental cue typically stimulus
+example yeast concentration whether cells growth growth
+signaling pathways stimulus response must quantitative information about signal
+our previous experimental results suggest yeast concentration signal
+here use mathematical modeling analyze possible biochemical mechanisms
+demonstrate signal increases range stimulus responses increased dynamic range result signaling responses still possible after
+propose mechanism yeast pathway consistent current experimental observations
+most previous information processing signaling pathways focused without temporal aspects signal
+here demonstrate provides cells alternative mechanism processing quantitative information about their environment
+ability signaling pathways stimulus into signal results directly nature systems importance dynamic properties signaling pathways when their behavior
+understanding how signaling pathways quantitative information about environment will not only our understanding systems but also provide into how function pathways become disease
+introduction
+many variety affect cellular behavior binding membrane signaling pathways
+pathways information membrane selected cellular components generate appropriate response environmental cue
+however signaling networks not simply systems but signals
+example used between pathways
+negative feedback allows pathways stimuli
+many cases nature response depends stimulus
+thus addition information signaling pathways must also quantitative information about stimulus
+many signaling pathways cell receptor g protein series protein including protein kinase
+widely cells but also found yeast
+response pathway yeast provides example cellular response depends concentration stimulus
+at low levels cells growth
+at cells develop presence growth source stimulus process known growth
+finally at high cells program leads growth development
+therefore yeast make correct decision quantitative information about concentration must appropriate cellular components
+here use mathematical modeling investigate different ways information
+results analysis taken together our recently data demonstrate pathway uses strategy signal
+because yeast response pathway receptor kinase results our should direct signal cells

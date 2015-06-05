@@ -1,0 +1,29 @@
+ 
+oppenheimer monin recently found subjectively rare events taken indicate longer preceding sequence unobserved trials than subjectively common events effect they refer retrospective gambler's fallacy
+current paper extends idea situation where participants judge likelihood streak continuation
+participants were told about streak produced random process coin flips human performance basketball shots either predicted next outcome inferred immediately preceding outcome
+coin scenarios participants tended expect streak termination  gambler's fallacy  effect was same predictions retrospective inferences
+basketball scenarios no overall bias was found either prospective retrospective judgments
+results support oppenheimer monin's suggestion reconstruction past entails same heuristics prediction future they also support idea nature data-generating process key determinant whether people fall into gambler's fallacy
+suggested term retrospective gambler's fallacy used describe situations where streak taken indicate preceding unobserved outcome was opposite type phenomenon discovered oppenheimer monin referred retrospective representativeness retrospective belief law small numbers
+ introduction 
+recent article journal oppenheimer monin raised possibility people's judgments about past history random process might display same biases their predictions future outcomes
+oppenheimer monin focussed gambler's fallacy  belief streak one outcome raises probability other outcome above base rate
+most common explanation gambler's fallacy people employ representativeness heuristic  they believe law small numbers small samples should representative underlying probabilities run one outcome needs balanced out occurrence opposite outcome
+oppenheimer monin suggested gambler's fallacy might also operate when people reconstruct past history random process
+rather than having participants predict future outcomes they asked people estimate number trials had preceded occurrence particular event
+example participants were asked imagine walking into room find man flipping coin five times either producing streak five heads mix three heads two tails
+participants were then asked how many times man had flipped coin before they entered room
+estimates participants streak condition were much larger than those participants non-streak condition
+result generalizes across wide variety domains oppenheimer monin found estimated number previous trials was greater when outcome was subjectively unlikely effect they refer retrospective gambler's fallacy
+effect important because suggests heuristics biases shape our predictions future also colour our reconstruction past
+however notable focus oppenheimer monin's work not gambler's fallacy traditionally conceived
+rather than examining judgments about outcomes previous trials manner analogous prediction future outcomes authors focussed estimates number preceding trials
+oppenheimer monin note most straightforward instantiation retrospective gambler's fallacy would formally identical gambler's fallacy only past
+
+
+while would natural extension gambler's fallacy our knowledge never been tested p number
+current experiment supplements oppenhemier monin's work providing test
+participants were told about streak one outcome asked either predict next outcome infer outcome trial before streak
+additional manipulation data-generating process was varied some participants was physical process likely regarded random coin flipping whilst others was skill-based action basketball shooting
+motivation was although gambler's fallacy widespread some judgment domains produce opposite bias  belief streak one outcome increases probability outcome

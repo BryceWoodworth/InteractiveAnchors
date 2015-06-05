@@ -1,0 +1,40 @@
+ 
+history judgment decision making defined trend toward increasingly nuanced explanations decision making process
+recently process models become incredibly sophisticated yet tools available directly test models not kept pace
+increasingly complex process models require increasingly complex process data they adequately tested
+propose new class data collection will facilitate evaluation sophisticated process models
+tracking mouse paths during continuous response provides implicit measure growth preference produces choice-rather than current practice recording just button press indicates choice itself
+recent research cognitive science shown cognitive processing revealed dynamic motor responses
+unlike current process methodologies response dynamics studies demonstrate continuous competition between choice options even online preference reversals
+here order demonstrate mechanics utility methodology present example response dynamics experiment utilizing common multi-alternative decision task
+ introduction 
+past few decades seen notable change level analysis characterizing theories models decision making
+generally paramorphic models concerned largely outcome prediction giving way computational models focus processes assumed produce responses
+focus underlying cognitive processes enabled explanations paradoxes e g decoy compromise effects within unified frameworks rather than increasingly complex algebraic functions divorced cognitive operations
+theoretical shift demands accompanying empirical methodologies order evaluate more precisely specified process theories
+example tracking information search acquisition during decision tasks developed use information boards mouse-tracking techniques eye-tracking techniques
+other methods think-aloud protocols response time analyses been used clever combinations several methodologies together provide converging evidence
+here would like introduce what consider next important logical step important methodological evolution our field-tracking response dynamics decision making
+shortcoming inherent process-tracing techniques identified above lies their neglect dynamic nature choice preferences
+process traced mouse eye-tracking one information search not deliberation process itself utilizes information verbal reports reflect subject's perception how they engaged task subject demand characteristics response times rt indicate how long task takes but not nature processing occurs during interval
+not say measures always uninformative many authors fruitfully applied rt analyses example infer characteristics decision process
+however traditional metrics generally fail capture notion observed choices result dynamic process where evidence various response choice alternatives may accumulate over course task
+rts specifically lack sufficient resolution explore dynamic evolution preference real time
+deficiency quite serious given evidence accumulation assumption received extensive theoretical treatment neurophysiological support
+recently growing body research cognitive science utilized novel paradigm compensates deficiency current jdm methods identified above
+research response dynamics captures continuous online processing information revealed subject's motor response
+spivey dale describe theoretical basis representative mouse-tracking applications approach
+basic paradigm involves simply recording position mouse en route selection option decision task
+theoretical assumption competitive pull foregone alternatives exerts influence response trajectories there now substantial behavioral neurophysiological evidence
+therefore one measure properties response trajectory draw inferences about underlying mental processes
+goal current work introduce research stream jdm community illustrate types analyses comparisons makes possible
+only other explicitly jdm application tracked mouse responses risky decision making task traditional economic gambles involving either gains losses highlighted ability describe changes direction strength preference online during task
+when choosing safe gamble realm gains subjects proceeded very directly gamble
+alternatively when they chose risky gamble they first proceeded towards safe gamble before rapidly changing direction towards risky gamble
+opposite pattern was generally true realm losses
+theoretically results support models allow momentary preference one option during task but ultimate choice other option e g dual-process models sequential sampling models-a behavior would not captured existing discrete response methods
+following demonstration study show another application traditional jdm task iowa gambling task
+chose task because its ubiquitous use experience-based design allow us showcase utility response dynamics both within trial types e g following gain loss classified below across course task metric learning
+iowa gambling task traditionally been used diagnose decision making deficits individuals neurological damage
+subjects presented four decks cards each provides wins every draw occasional accompanying losses but they slightly different payout characteristics see figure number
+typically two decks hereafter b considered bad decks offering high rewards high punishments result net loss whereas two other decks c d good decks lower rewards but also lower more infrequent punishments resulting net gain

@@ -1,0 +1,104 @@
+
+%
+
+recent years analysis complexity learning mixture models data
+significant attention computational machine learning theory
+paper present first result time learning mixture distributions
+possible when between component means small
+specifically present algorithm learning parameters mixture
+space small between components
+dimension component other input
+parameters fixed number components
+algorithm uses then reduction case
+theoretical analysis two whose close norm must similar
+means
+produce necessary lower bound norm terms
+between corresponding means analyze behavior
+mixture one dimension out related
+properties matrix obtained component means
+analysis
+matrix together basic
+function approximation results allows us provide lower bound norm
+mixture domain hence bound original space
+present
+
+introduction
+mixture models particularly mixture models widely used many problems statistical inference
+basic problem estimate parameters mixture distribution
+means within
+some number data points
+while history mixture models recent years theoretical aspects mixture learning attention
+theoretical computer
+work who showed mixture
+learned time
+provided certain conditions between component means order
+work been
+extended number recent
+first result was later order
+general
+was
+further reduced made independent order
+order distributions
+related work was reduced
+
+called was introduced learn when any pair
+components having very small along direction
+different direction recent work made important subject time
+algorithm learning
+mixture distributions arbitrary between means
+authors used
+search over space parameters
+construct hypothesis mixture
+density close actual mixture data
+note problem
+density estimation within certain family distributions different most other work
+subject including our paper address parameter learning
+also note several recent related problems learning mixture distributions
+distributions
+see example
+statistics literature showed optimal convergence rate finite mixture normal distributions where sample size if number components known when number components known up bound
+however result does not address computational aspects especially high dimension
+paper develop time fixed algorithm identify parameters
+mixture potentially unknown small
+between components
+best our knowledge
+first result independent work case mixture
+two arbitrary matrices using method
+note results
+our paper
+each paper special case goal two arbitrary
+unknown our case show
+mixture arbitrary number components arbitrary
+all other existing algorithms parameter estimation require minimum between components
+increasing function at least one
+our result also density estimate bound
+along
+note however do our procedure
+
+despite our paper makes step towards understanding
+fundamental problem mixture distributions
+also technique used paper obtain lower bound may independent interest
+main algorithm our paper involves search over certain space parameters specifically means
+mixture given estimate
+appropriate lower bounds
+norm difference two mixture distributions terms their means show
+search find mixture correct values parameters
+prove need provide lower bounds norm mixture
+key point our paper
+lower bound two different means cannot produce
+similar density functions
+bound obtained problem mixture
+distribution
+behavior related function whose
+random variable up power
+difference between
+use certain properties
+matrices show norm mixture domain below
+since norm under provides lower bound norm
+mixture original space
+also note work where matrices appear analysis mixture
+distributions context consistency method fact rely result
+provide estimate
+finally our lower bound together bound some results density estimation
+mixture distributions allows us set up search algorithm over
+space parameters

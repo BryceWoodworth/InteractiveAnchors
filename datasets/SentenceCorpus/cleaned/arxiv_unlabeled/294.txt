@@ -1,0 +1,9 @@
+ 
+examine complexity learning distributions produced finite-state quantum sources
+show how prior techniques learning hidden markov models adapted quantum generator model find analogous state affairs holds: information-theoretically polynomial number samples suffice approximately identify distribution but computationally problem hard learning parities noise notorious open question computational learning theory
+ introduction 
+recent work wiesner crutchfield introduced quantum generators formal model simple quantum mechanical systems
+model simple quantum mechanical system observed repeatedly yielding classical stochastic process consisting sequence discrete measurement outcomes analogous how underlying markov process yields sequence observations hidden markov model
+perspective natural wonder what learned about simple quantum mechanical system sequence measurement outcomes
+work consider question whether not feasible learn distribution measurement outcomes reasonable polynomially bounded number observations
+state two theorems subject: first section show information-theoretically possible learn distribution over measurements binary processes polynomially many observations but then show section under standard hardness assumption conjecture computationally infeasible learn parity functions presence classification noise also computationally infeasible learn output distribution quantum generator also binary alphabet

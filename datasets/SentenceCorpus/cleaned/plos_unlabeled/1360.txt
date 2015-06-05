@@ -1,0 +1,34 @@
+ 
+biological function proteins frequently associated formation complexes small-molecule ligands
+experimental structure determination complexes at atomic resolution however time-consuming costly
+computational methods structure prediction protein/ligand complexes particularly docking yet restricted their limited consideration receptor flexibility rendering them not applicable predicting protein/ligand complexes if large conformational changes receptor upon ligand binding involved
+accurate receptor models ligand-bound state however prerequisite successful structure-based drug design
+hence if only unbound structure available distinct ligand-bound conformation structure-based drug design severely limited
+present method predict structure protein/ligand complexes based solely apo structure ligand radius gyration holo structure
+method applied ten cases proteins undergo structural rearrangements up 7.1 backbone rmsd upon ligand binding
+all cases receptor models within 1.6 backbone rmsd target were predicted close-to-native ligand binding poses were obtained 8 10 cases top-ranked complex models
+protocol presented expected enable structure modeling protein/ligand complexes structure-based drug design cases where crystal structures ligand-bound conformations not available
+ introduction 
+interactions between proteins small molecules involved many biochemical phenomena
+insight into processes relies detailed knowledge about structure protein/ligand complexes e.g how enzymes stabilize substrates cofactors close proximity
+moreover almost all drugs small-molecule ligands interact enzymes receptors channels
+accordingly ligand-bound receptor complex structures critical prerequisite understanding biological function structure based drug design
+however structure determination protein/ligand-complexes difficult time-consuming expensive
+crystal structures protein/ligand complexes usually obtained either co-crystallization soaking common problem even when conditions crystallizing apo-protein well established might not transferable protein/ligand complex
+particularly conformational transitions receptor associated ligand binding pose severe challenge structure elucidation holo complexes 
+when structures ligand-bound protein conformations not available structure-based drug design becomes highly challenging
+several studies showed virtual screening apo-structure usually results poor enrichment factor compared holo-structure even when structural difference between both comparably small
+therefore development docking programs aims at allowing certain degree receptor flexibility either using ensemble structures instead single receptor conformation explicitely modeling flexibility sidechain variations predefined flexibility certain parts structure also small variations backbone
+incorporating receptor flexibility molecular docking substantial progress been shown enhance both enrichment factors ability predict correct binding poses particularly cases when docking compound receptor structure been crystallized different ligand usually case when searching novel drugs
+however degree flexibility thus far limited either sidechain motions small variations backbone thus availability holo-structure apo-structure highly similar holo conformation currently prerequisite successful docking severely limiting structure-based drug design
+particularly receptors undergo substantial conformational transition upon ligand binding currently precluded structure based drug design
+although protein-ligand crystals suitable diffraction might not accessible several experimental techniques exist detect conformational changes
+many cases where proteins undergo domain reorientations upon ligand binding they adopt different shape ligand bound state corresponding change radius gyration studied either nmr where more compact shape causes descrease rotational correlation time small-angle scattering x-rays neutrons
+shape descriptions provide invaluable information modeling structures macromolecular assemblies well insight into protein dynamics
+here present method predict structure protein/ligand complexes proteins undergo large conformational change upon ligand binding
+protocol solely requires apo-structure known ligand experimental data shape holo-structure
+here apply radius gyration shape information quantity frequently readily assessed more easily than x-ray structure
+developed simulation protocol combines biased conformational sampling docking molecular dynamics simulations applied ten ligand-binding proteins
+chose cases where both unbound conformation bound conformation known x-ray crystallography order able a-posteriori validate predicted receptor conformations docking poses
+conformational changes involved range 2.1 7.1 backbone rmsd binding site geometries differ substantially between apo holo conformations
+nine ten cases predict holo receptor conformations close native ligand-bound conformation eight cases predict ligand binding poses close native state rendering our method suitable blind predictions protein/ligand complexes involving large conformational transitions

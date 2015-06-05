@@ -1,0 +1,31 @@
+ 
+consider least-square linear regression problem regularization norm problem usually referred lasso
+paper present detailed asymptotic analysis model consistency lasso
+various decays regularization parameter compute asymptotic equivalents probability correct model selection i e  variable selection
+specific rate decay show lasso selects all variables should enter model probability tending one exponentially fast while selects all other variables strictly positive probability
+show property implies if run lasso several bootstrapped replications given sample then intersecting supports lasso bootstrap estimates leads consistent model selection
+novel variable selection algorithm referred bolasso compared favorably other linear regression methods synthetic data datasets uci machine learning repository
+ introduction 
+regularization norm attracted lot interest recent years machine learning statistics signal processing
+context least-square linear regression problem usually referred lasso 
+much early effort been dedicated algorithms solve optimization problem efficiently
+particular lars algorithm of~\singleemcite{lars} allows find entire regularization path i e  set solutions all values regularization parameters at cost single matrix inversion
+moreover well-known justification regularization norm leads sparse solutions i e  loading vectors many zeros thus performs model selection
+recent works looked precisely at model consistency lasso i e  if know data were generated sparse loading vector does lasso actually recover when number observed data points grows
+case fixed number covariates lasso does recover sparsity pattern if only if certain simple condition generating covariance matrices verified
+particular low correlation settings lasso indeed consistent
+however presence strong correlations lasso cannot consistent shedding light potential problems procedures variable selection
+adaptive versions where data-dependent weights added norm then allow keep consistency all situations
+paper first derive detailed asymptotic analysis sparsity pattern selection lasso estimation procedure extends previous analysis  focusing specific decay regularization parameter
+show when decay proportional  where number observations then lasso will select all variables should enter model relevant variables probability tending one exponentially fast  while selects all other variables irrelevant variables strictly positive probability
+if several datasets generated same distribution were available then latter property would suggest consider intersection supports lasso estimates each dataset: all relevant variables would always selected all datasets while irrelevant variables would enter models randomly intersecting supports sufficiently many different datasets would simply eliminate them
+however practice only one dataset given; but resampling methods bootstrap exactly dedicated mimic availability several datasets resampling same unique dataset
+paper show when using bootstrap intersecting supports actually get consistent model estimate without consistency condition required regular lasso
+refer new procedure bolasso  bo otstrap-enhanced l east b s olute s hrinkage o perator
+finally our bolasso framework could seen voting scheme applied supports bootstrap lasso estimates; however our procedure may rather considered consensus combination scheme keep largest subset variables all regressors agree terms variable selection our case provably consistent also allows get rid potential additional hyperparameter
+paper organized follows: \mysec{analysis} present asymptotic analysis model selection lasso; \mysec{bootstrap} describe bolasso algorithm well its proof model consistency while \mysec{simulations} illustrate our results synthetic data where true sparse generating model known data uci machine learning repository
+sketches proofs found appendix~a \paragraph{notations} vector  let denote norm norm norm
+ denotes sign  defined if  if  if
+vector  denotes vector signs elements
+moreover given vector subset  denotes vector elements indexed
+similarly matrix  denotes submatrix composed elements whose rows columns

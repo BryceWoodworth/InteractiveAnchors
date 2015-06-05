@@ -1,0 +1,41 @@
+
+functional brain networks functional robust functional brain
+here examined whether functional disease
+data subjects were obtained
+analysis was applied data correlation matrices
+correlation matrices were functional brain networks
+were using graph methods
+low frequency functional brain networks showed brain activity characterized high clustering low length
+contrast functional brain networks showed loss properties characterized significantly lower clustering local connectivity
+clustering were significantly lower group compared control group
+furthermore clustering participants sensitivity percent percent
+our study provides new evidence there functional brain networks
+functional brain our findings further suggest network measures may useful
+introduction
+disease characterized memory other cognitive domains resulting
+studies studies brain structure more recent studies regions brain function
+most recently studies activation brain connectivity
+functional connectivity defined temporal between distinct brain regions
+studies connectivity measures shown patients connectivity during memory tasks
+using demonstrated patients simple task had reduced functional connectivity within network brain regions network
+et al reported connectivity during task subjects cognitive
+three recent studies reported reduced network patients during tasks during classification task
+et al also reported increased network subset less patients
+addition functional connectivity during task performance functional connectivity also been investigated during conditions
+functional connectivity signal
+using approach et al found functional connectivity between several regions
+et al reported reduced connectivity during conditions
+most recently et al reported reduced functional connectivity network patients
+although evidence functional between brain regions not clear whether global functional brain
+graph clustering length useful measures global networks
+graphs data structures nodes between nodes
+clustering measure local network connectivity
+network high average clustering characterized local clusters
+length measure how well network network low length characterized short between any two nodes
+network characterized high clustering low length
+representation brain network brain region while functional interaction between two brain regions
+functional connectivity networks human brain derived data exhibit characteristics
+recent study et al reported functional networks brain
+here examined global functional brain functional connectivity networks data networks using comparing characteristics between patients
+global functional brain would
+further given need test determine whether metric obtained data might provide specific

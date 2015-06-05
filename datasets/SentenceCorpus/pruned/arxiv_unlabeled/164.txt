@@ -1,0 +1,18 @@
+
+been problem within framework learning model play central methods
+here several obtain fast simple algorithm
+show proposed algorithm policy time give experimental evidence robust efficient compared its
+introduction
+learning rewards stochastic unknown environment
+algorithms choice strategy central
+examine problem markov decision process framework
+while simple methods like used known their behavior
+recently number efficient algorithms been some them also exist
+review methods section
+several sources construct new algorithm efficient
+new algorithm initial model described section
+section show many algorithms including way
+use fact policy time high probability
+section provides experimental comparison between number other methods some problems
+our results section
+section review necessary markov decision processes task

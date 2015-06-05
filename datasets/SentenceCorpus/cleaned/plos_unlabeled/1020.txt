@@ -1,0 +1,31 @@
+ 
+transcriptional regulatory network constitutes collection regulatory rules link environmental cues transcription state cell's genome
+recently proposed matrix formalism quantitatively represents system rules allows systemic characterization trs properties
+matrix formalism not only allows computation transcription state genome but also fundamental characterization input-output mapping represents
+furthermore key advantage pseudo-stoichiometric matrix formalism its ability easily integrate existing stoichiometric matrix representations signaling metabolic networks
+here demonstrate first time how matrix formalism extendable large-scale systems applying genome-scale escherichia coli trs
+analyze fundamental subspaces regulatory network matrix describe intrinsic properties trs
+further use monte carlo sampling evaluate e coli transcription state across subset all possible environments comparing our results published gene expression data validation
+finally present novel silico findings e coli trs including gene expression correlation matrix delineating functional motifs; sets gene ontologies regulatory rules governing gene transcription poorly understood may direct further experimental characterization; appearance distributed trn structure stark contrast more hierarchical organization metabolic networks
+ introduction 
+complex regulatory networks control transcription state genome consequently functional activity cell
+even relatively simple unicellular organisms evolved complicated networks regulatory interactions termed transcriptional regulatory networks respond environmental stimuli
+external signals known impact transcription microorganisms include carbon source amino acid electron acceptor availability ph level heat cold stress
+mapping links between environmental growth conditions through signaling networks ultimately resulting transcriptional response primary interest study cellular systems
+consequently reconstructions trns model organisms underway 
+effectively describe interconnected functions regulated genes associated regulatory proteins within given trn recently developed formalism involving regulatory network matrix called r
+r matrix represents components reactions within transcriptional regulatory system
+illustrated how using fundamental properties linear algebra matrix formalism allows characterization trs properties facilitates silico prediction transcription state genome under any specified set environmental conditions
+importantly previously reported r matrix distinct existing approaches use matrix formalisms matrix algebra analyze gene expression data describes relationships governing gene transcription derived experiments characterizing how specific inputs regulate expression individual genes
+way r matrix extends previous approaches characterizing features trns including boolean networks bayesian networks stochastic equations
+representing regulatory rules matrix form characterize fundamental subspaces matrix turn uniquely represent properties trs r matrix contains
+furthermore using pseudo-stoichiometric approach discussed below r matrix representation trn consistent thus easily integratable related approaches using stoichiometric matrices computationally represent reactions underlying metabolic signaling networks 
+date approach representing analyzing trss only been applied relatively small systems including well-studied four-gene lac operon escherichia coli well small 25-gene prototypic trs
+although model systems been useful prototyping studies capabilities behavior r matrix key unanswered question how approach scales larger more complex biological systems
+here present first steps toward end assembling r matrix genome-scale e coli trn regulatory relationships been previously characterized extensive experimental data available
+our knowledge work present here represents first r matrix-based model genome-scale trs work enabled us gain important insights into behavior r matrix at larger scale challenges associated scale-up well underlying biology e coli transcriptional regulation
+specifically derived r directly previously developed genome-scale model e coli transcriptional regulatory rules were overlaid constraint-based model metabolism
+integrated transcriptional regulatory-metabolic model well-suited initial genome-scale r matrix efforts boolean regulatory relationships already defined behavior model been well-studied using constraint-based analyses
+validate our r matrix analysis compared expression states predicted various environmental growth conditions available gene expression data
+also explored fundamental subspaces related matrix r representing complete e coli trs describe key systemic properties including new hypotheses about network structure
+ultimately work yields understanding how e coli transcriptional regulatory program functions whole demonstrates utility regulatory network matrix formalism studying transcriptional regulatory systems at genome scale moving forward

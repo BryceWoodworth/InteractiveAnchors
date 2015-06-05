@@ -1,0 +1,30 @@
+ 
+several researchers recently investigated connection between reinforcement learning classification
+motivated proposals approximate policy iteration schemes without value functions focus policy representation using classifiers address policy learning supervised learning problem
+paper proposes variants improved policy iteration scheme addresses core sampling problem evaluating policy through simulation multi-armed bandit machine
+resulting algorithm offers comparable performance previous algorithm achieved however significantly less computational effort
+order magnitude improvement demonstrated experimentally two standard reinforcement learning domains: inverted pendulum mountain-car
+ introduction 
+supervised reinforcement learning two well-known learning paradigms been researched mostly independently
+recent studies investigated use supervised learning methods reinforcement learning either value function~\mycite{lagoudakis2003lsp,riedmiller2005nfq} policy representation~\mycite{lagoudakisicml03,fern2004api,langfordicml05}
+initial results shown policies approximately represented using either multi-class classifiers combinations binary classifiers~\mycite{rexakis+lagoudakis:ewrl2008} therefore possible incorporate classification algorithms within inner loops several reinforcement learning algorithms~\mycite{lagoudakisicml03,fern2004api}
+viewpoint allows quantification performance reinforcement learning algorithms terms performance classification algorithms~\mycite{langfordicml05}
+while variety promising combinations become possible through synergy heretofore there been limited practical widely-applicable algorithms
+our work builds work lagoudakis parr~\mycite{lagoudakisicml03} who suggested approximate policy iteration algorithm learning good policy represented classifier avoiding representations any kind value function
+at each iteration new policy/classifier produced using training data obtained through extensive simulation rollouts previous policy generative model process
+rollouts aim at identifying better action choices over subset states order form set data training classifier representing improved policy
+similar algorithm was proposed fern et al \mycite{fern2004api} at around same time
+key differences between two algorithms related types learning problems they suitable choice underlying classifier type exact form classifier training
+nevertheless main ideas producing training data using rollouts iterating over policies remain same
+even though both studies look carefully into distribution training states over state space their major limitation remains large amount sampling employed at each training state
+hinted~\mycite{lagoudakisphd03} however great improvement could achieved sophisticated management rollout sampling
+our paper suggests managing rollout sampling procedure within above algorithm goal obtaining comparable training sets therefore policies similar quality but significantly less effort terms number rollouts computation effort
+done viewing setting akin bandit problem over rollout states states sampled using rollouts
+well-known algorithms bandit problems upper confidence bounds~\mycite{auermlj02} successive elimination~\mycite{evendarjmlr06} allow optimal allocation resources rollouts trials states
+our contribution two-fold: suitably adapt bandit techniques rollout management b suggest improved statistical test identifying early high confidence states dominating actions
+return obtain up order magnitude improvement over original algorithm terms effort needed collect training data each classifier
+makes resulting algorithm attractive practitioners who need address large real-world problems
+remainder paper organized follows
+section provides necessary background section reviews original algorithm based
+subsequently our approach presented detail section
+finally section includes experimental results obtained well-known learning domains

@@ -1,0 +1,33 @@
+
+analyses been organisms whose complete genome sequences available
+each complete set membrane systems was identified predicted functions into protein based classification system
+organisms larger genome generally relatively greater number systems
+significant factor increase genome size was greater types
+contrast greater number specific was more important factor increase genome size
+both limited
+clustering derived presence certain family showed clustering patterns organisms were correlated both their evolutionary history their overall
+introduction
+membrane systems play essential cellular
+function environmental cell communication other important cellular functions
+various systems differ their membrane energy mechanisms
+among energy sources energy form
+classification system approach systems according their energy mechanism molecular
+energy mechanism primary basis classification because their relatively stable characteristics
+there four major classes classification primary secondary group
+unknown mechanism function distinct class
+specific types small molecules concentration they higher rates lower than other classes
+primary active process primary source energy
+secondary process
+e one best characterized secondary
+group their during process
+example e using energy source into cell
+each class further into individual according their function
+since genomic sequencing complete sequences over genomes been wide range species human
+there also more than additional genome sequencing world
+effective computational methods required analyze amount data generated sequencing
+at proteins understanding metabolic organisms
+however often proteins current primary methods because large complex gene major presence multiple gene many organisms
+been analysis cellular membrane systems
+previously reported analysis systems organisms yeast
+here our analyses species compare fundamental differences membrane systems
+predicted was investigate overall

@@ -1,0 +1,40 @@
+
+computational identification functional will novel health genetic explain human evolution
+however development evaluation techniques been limited known regulatory
+address literature set regulatory within database
+further used regulatory set unknown function regions genes investigate potential properties related gene regulation population
+among most important properties region distance transcription site local sequence derived presence
+further used set properties evaluate their performance regulatory
+using approach were able achieve sensitivity show performance strongly distance transcription site
+introduction
+our ability identify molecular mechanisms specific genetic within our population will our ability each genome
+recent sequencing allow increasing number number sources variation their each
+new identified each molecular into our past present future each our genetic our common evolution potential predict disease drug system practice
+however our ability far our ability them
+more than unique version only very small been associated using genetic analysis
+because studies dependent frequency population
+furthermore many not expected function
+functional computational methods been developed identify structure genes
+types computational methods tend functional those amino sequence within regions functional protein domains biochemical structure protein
+however very few methods identify regulatory expression genes
+been several human including cancer transmission response type 1
+work techniques identify particular class functional within core regions human genes
+computational approaches classification differences transcription factor weight matrices
+within matrix high information assumed more likely functional
+support hypothesis however been examples
+furthermore recent study significant weight matrix signals percent regulatory
+however hypothesis computational regulatory prediction been predictions using application approaches
+technique using between human was demonstrated show significant differences predictions also demonstrated differences
+however only two had effect gene
+also been demonstrated function study regulatory database where experimentally regulatory were conserved binding sites
+strategies functional been characterized regulatory
+few studies identified after identified
+address problem available functional regulatory within database
+examined several features they unknown function within regions associated genes
+our hypothesis using combination regulatory population properties individual properties significant function chosen
+within our set found best distance transcription site local density sequence frequency derived frequency presence
+application approach demonstrated one least effective
+used their properties support vector machine classifier
+two approaches were used one properties all were compared all one each property value positive within associated gene were compared average values each property within gene
+all approach designed determine if there any properties important across test set while group approach designed determine if there important values within may functional
+test value all analysis group analysis

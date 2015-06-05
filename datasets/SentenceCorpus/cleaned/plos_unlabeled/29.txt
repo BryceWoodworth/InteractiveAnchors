@@ -1,0 +1,42 @@
+ 
+transposable elements mobile repetitive sequences make up significant fractions metazoan genomes
+despite their near ubiquity importance genome chromosome biology most efforts annotate tes genome sequences rely results single computational program repeatmasker
+contrast recent advances gene annotation indicate high-quality gene models produced combining multiple independent sources computational evidence
+elevate quality te annotations level comparable gene models developed combined evidence-model te annotation pipeline analogous systems used gene annotation integrating results multiple homology-based de novo te identification methods
+proof principle annotated te models drosophila melanogaster release 4 genomic sequences using combined computational evidence derived repeatmasker blaster tblastx all-by-all blastn recon te-hmm previous release 3.1 annotation
+our system designed use apollo genome annotation tool allowing automatic results curated manually produce reliable annotations
+euchromatic te fraction d melanogaster now estimated at 5.3 percent found substantially higher number tes than previously identified
+most new tes derive small fragments few hundred nucleotides long highly abundant families not previously annotated
+also estimated 518 te copies inserted into at least one other te forming nest elements
+pipeline allows rapid thorough annotation even most complex te models including highly deleted and/or nested elements those often found heterochromatic sequences
+our pipeline easily adapted other genome sequences those d melanogaster heterochromatin other species genus drosophila
+ introduction 
+transposable elements mobile repetitive dna sequences constitute structurally dynamic component genomes
+taxonomic distribution tes virtually ubiquitous: they been found nearly all eukaryotic organisms studied few exceptions
+tes represent quantitatively important components genome sequences there no doubt modern genomic dna evolved close association tes
+tes show high species specificity number types te differ quite dramatically between even closely related organisms
+there abundant circumstantial evidence tes may transfer horizontally between species mechanisms remain obscure
+forces controlling dynamics te spread within species also poorly understood systemic effects elements their host genomes
+insertions individual tes may lead genome restructuring mutations genes changes gene regulation
+some te insertions may even become domesticated play roles normal functions host
+despite their manifold effects abundance ubiquity understand very little about most aspects te biology
+one way furthering our knowledge te biology through computational analysis tes growing number complete genomic sequences
+detailed comparison abundance distribution tes entire genomes infer fundamental biological properties tes shared differ among species
+however meaningful inferences about te biology based computationally derived te annotations only done if confident about results analyses
+hallmark strong result computational biology should its robustness particular method used
+annotation tes however typically relies results single computational program repeatmasker recent studies indicate may neither most efficient nor most sensitive approach te annotation
+contrast recent advances field gene annotation indicate high-quality gene models produced combining multiple independent sources computational evidence
+recent development several new methods te repeat detection now possible apply similar combined evidence approach elevate quality te annotations level comparable gene models
+achieve aim developed te annotation pipeline integrates results multiple homology-based de novo te identification methods
+currently our pipeline uses combined computational evidence derived repeatmasker blaster tblastx all-by-all blastn recon te-hmm previously published te annotations
+designed our system use evidence-model framework apollo genome annotation tool allowing computational evidence manually curated efficient manner produce reliable te models
+pipeline allows rapid thorough annotation complex te models providing key structural details allow insights into origin highly deleted and/or nested elements
+contrast simply masking repeats our method provides means complete accurate annotation tes supported multiple sources computational evidence goal important implications experimental studies genome chromosome biology
+test case chosen annotate euchromatic genomic sequence fruit fly drosophila melanogaster
+116.8-mb release 3 genome sequence d melanogaster among highest quality genome sequences particularly well suited sequence genome-wide studies tes since repetitive dna sequences been finished high quality systematically verified restriction fingerprint analysis
+moreover release 3.1 annotation d melanogaster includes manually curated set te annotations used benchmark developing refining te annotation methodologies
+controlled tests performed here release 3 sequence show combined-evidence approach superior performance over individual te detection methods substantially larger fraction genome composed tes than previously estimated
+applied our pipeline new 118.4-mb release 4 sequence closed several gaps release 3 extended sequence pericentomeric regions produce systematic re-annotation tes d melanogaster genome
+euchromatic te fraction now estimated at 5.3 percent found substantially higher number tes than previously identified
+also estimated 518 te copies inserted into at least one other te forming nest elements
+our pipeline easily adapted other genome sequences could markedly increase efficiency annotating genomic regions complex abundant te insertions heterochromatic sequences

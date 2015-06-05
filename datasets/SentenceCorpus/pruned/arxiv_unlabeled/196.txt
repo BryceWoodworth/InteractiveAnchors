@@ -1,0 +1,37 @@
+
+recently different proposed new way patterns size
+example experiments genome biology usually provide attributes genes but only objects experiments
+case database through smaller search space allows patterns original database
+focus here pattern those give theoretical framework database
+discuss properties into classical constraints
+then address problem patterns original database those database
+finally show how generate all patterns ones
+introduction
+pattern now well but patterns like rules too very
+they
+however order
+under complex become subject e g
+moreover new domains our applications data
+genome biology biological experiments very time
+therefore only small number experiments
+however new experiments provide measurements activity genes
+leads genes few experiments
+present efficient algorithms patterns defined large
+minimum maximum frequency threshold together other constraints
+algorithms designed up several
+however their complexity number thus they not too many like those genome biology
+recently two were solve instead original database algorithms work database i e original database become database indeed same database but different representation
+therefore database significantly less than original one
+algorithm specifically designed patterns our uses classical algorithm patterns
+both approaches use principle however problem under constraints not studied complex constraints i e simple constraints
+paper study problem theoretical point view
+our aim use classical algorithms pattern algorithms patterns algorithms database use their output patterns original database instead directly original database
+there several questions will therefore what information database patterns original database
+possible constraints i e given database possible find database information about patterns original original database
+how patterns original database patterns database
+how generate all using patterns
+questions will
+paper some related pattern
+then show how complex constraints
+section complete about patterns using database show how use all i e not only patterns
+finally short

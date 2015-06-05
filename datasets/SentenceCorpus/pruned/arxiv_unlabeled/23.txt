@@ -1,0 +1,51 @@
+
+derive exact efficient bayesian regression algorithm constant functions unknown number levels
+any noise level prior eg \
+derive simple but good estimates
+also propose bayesian regression better way data without
+bayesian approach also allows evidence probabilities error estimates useful model selection robustness studies
+discuss performance examples
+many possible will discussed
+introduction
+consider problem constant function through data eg \ where number levels unknown
+regression constant functions also known change point detection many applications
+instance dna numbers cancer cells data just one recent
+provide full bayesian analysis
+fixed number choose prior over all possible
+some prior levels data noise within each assumed
+finally prior over number chosen
+obtain probability distribution section
+practice need distribution
+simple maximum approximation mean does not work here
+way most critical number finally then levels
+also evidence probability distribution regression including error estimate section
+derive exact algorithm all interest
+our algorithm any noise level prior
+consider more prior distributions like discuss case
+finally some like global data average local noise determined
+introduce discuss efficient numerical estimates section
+test our method some examples section some data sets section
+simulations show our method difficult data high noise well
+our basic algorithm variety levels dependent linear regression noise prior etc section
+developed solution problem single most called change point
+et al \ method pairs points recognition short
+both methods then used determine further change points
+another approach maximum likelihood
+fixed number data likelihood mean data
+et al \ use population based algorithm while et al \ use dynamic very close our core find exact solution time
+additional term likelihood order determine correct number
+most bayesian information criterion
+since towards too simple too complex models practice often heuristic used
+heuristic based function number been used
+our bayesian natural response
+many other too them all
+another related work bayesian density estimation who also average over all but context density estimation
+full bayesian approach when various over advantage more hence involves heuristic design choices
+particularly important number
+another advantage larger framework
+instance one among models based bayesian evidence
+finally often well practice so if model assumptions
+also other information free like probability estimates various interest
+particularly expected level each data point
+leads regression very i e \ data long clear less clear follows at
+thus between local more

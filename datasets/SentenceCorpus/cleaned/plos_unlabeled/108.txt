@@ -1,0 +1,55 @@
+ 
+angiogenesis plays crucial role variety physiological pathological conditions including cancer cardiovascular disease wound healing
+vascular endothelial growth factor critical regulator angiogenesis
+multiple vegf receptors expressed endothelial cells including signaling receptor tyrosine kinases nonsignaling co-receptor neuropilin-1
+neuropilin-1 binds only isoform vegf responsible pathological angiogenesis thus potential target inhibiting vegf signaling
+using first molecularly detailed computational model vegf its receptors shown previously vegfr neuropilin interactions explain observed differential effects vegf isoforms vegf signaling vitro demonstrated potent vegf inhibition antibody neuropilin-1 does not block ligand binding but blocks subsequent receptor coupling
+present study extend computational model simulation vivo vegf transport binding predict vivo efficacy several neuropilin-targeted therapies inhibiting vegf signaling: blocking neuropilin-1 expression; blocking vegf binding neuropilin-1; blocking neuropilin vegfr coupling
+model predicts blockade neuropilin vegfr coupling significantly more effective than other approaches decreasing vegf vegfr2 signaling
+addition tumor types different receptor expression levels respond differently each treatments
+designing human therapeutics mechanism attacking target plays significant role outcome: strategies tested here drugs similar properties neuropilin-1 antibody predicted most effective
+tumor type microenvironment target tissue also significant determining therapeutic efficacy each treatments studied
+ introduction 
+angiogenesis growth new blood microvessels preexisting microvasculature critical physiological process growth developing organs during wound healing ovulation pregnancy
+coronary peripheral ischemia may relieved inducing angiogenesis while diseases hypervascularization cancer diabetic retinopathy targets anti-angiogenic drugs
+neuronal expression angiogenic receptors suggests work may also relevant development nervous system
+our goal propose effective targeted therapies using anatomically accurate molecularly detailed computational models growth factors receptors involved angiogenesis
+study predict three methods targeting same molecule result distinct therapeutic outcomes one methods more effective than others
+thus identification therapeutic target must followed rational design targeting molecule obtain characteristics maximize therapeutic potential
+addition microenvironment drug act example expression level receptors tissue critical factor impact therapy
+vascular endothelial growth factor family secreted glycoproteins critical regulators angiogenesis
+vitro vegf increases endothelial cell survival proliferation migration
+vivo increases vascular permeability activates endothelial cells acts chemoattractant nascent vessel sprouts
+multiple splice isoforms vegf exist; two most abundant human vegf 121 vegf 165
+both isoforms bind vegf receptor tyrosine kinases induce signals
+vegf 165 also interacts nonsignaling neuropilin co-receptors proteoglycans extracellular matrix
+binding sites vegf 165 vegfr2 neuropilin-1 nonoverlapping so vegf 165 may bind both simultaneously
+there thus two parallel pathways vegf 165 bind its signaling receptor: binding directly vegfr2; binding neuropilin-1 presents vegf vegfr2
+vegf 121 only form vegfr2 complexes directly
+vegf 165 neuropilin interaction thus particular value therapeutic target because vegf 165 isoform vegf been identified inducing pathological angiogenesis : aberrant angiogenic signaling may targeted while allowing normal levels physiological vegf signaling continue
+previous work developed computational models vegf interactions endothelial cell receptors vitro incorporated previously published experimental data estimate kinetic rate vegfr2-neuropilin coupling vegf 165
+showed vegfr2 neuropilin coupling sufficient account observed differential effects vegf isoforms multiple cell types our model reproduces distinct vegf binding signaling effects each cell types
+addition used model distinguish between alternate hypotheses molecular mechanisms action demonstrated neuropilin-1 antibody under investigation acts blocking vegfr neuropilin coupling not blocking vegf neuropilin binding
+here extend validated model molecular interactions vegf family its receptors predict vivo behavior system including ecm basement membranes well multiple cell types geometrical parameters characteristic tissue
+three methods targeting vegf 165 neuropilin interaction modeled here
+first blockade neuropilin-1 expression may induced use sirna other methods prevent synthesis protein cells
+second protein occupies vegf binding site neuropilin-1 compete vegf 165 binding receptor
+example fragment placental growth factor isoform plgf 2
+full-length plgf 2 binds neuropilin-1 vegfr1
+fragment denoted plgf 2 here contains only neuropilin-1 binding site does not bind vegfr1
+protein been used block vegf binding neuropilin vitro
+alternative would neuropilin-binding fragment vegf 165 itself
+third may block interaction between neuropilins vegfrs preventing presentation vegf 165 signaling receptor but permitting neuropilin sequester isoform
+may done using neuropilin-1 antibody previously characterized permitting vegf binding neuropilin-1 but blocking subsequent vegfr coupling
+each three strategies been demonstrated inhibit vegf signaling vitro assays ; here predict their vivo efficacy
+first computational model our knowledge include interactions vegf family their receptors explicitly biophysical detail
+model includes kinetics all ligand receptor interactions allows us examine both short-term long-term behavior system
+all parameters model been obtained previously published experimental data
+analysis characteristic parameters shows kinetics vegf interactions slower than diffusion process so diffusion assumed fast construct compartmental model parenchymal cells secreting vegf into interstitial space vegf binding receptors endothelial cell surface 
+geometrical parameters tissue under investigation here also incorporated into model: interstitial space tumor cell volume surface area microvessel volume surface area
+changes parameters would result changes kinetic parameters concentrations model
+results presented here therefore tissue-specific but model may applied other tissues
+vegfr2 primary signaling receptor vegf first analyze results model tissue endothelial cells express vegfr2 neuropilin-1 but not vegfr1; effect vegfr1 considered later
+initially system steady state vegf secreted parenchymal cells internalized endothelial cells resulting flux through interstitial space ecm
+one three treatments initiated at time zero time course vegf binding followed 48 hours
+vegf vegfr2 vegf vegfr1 binding taken surrogate vegf signaling

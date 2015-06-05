@@ -1,0 +1,36 @@
+
+describe novel approach statistical learning while random environment
+problem properties environment
+consider here case
+our approach efficient algorithms estimate number possible among two function underlying model
+function then over model parameters
+belief our algorithm accurate results parameters learn
+estimate series
+matching problem expressed estimated point approximation
+numerical experiments show quality our algorithm one approximation based markov method while than
+introduction
+model approaches statistical learning inference many machine learning statistical
+applications often require evaluation over large number problem cases
+paper focus one difficult problem occurs when random environment
+long their two rather
+when density time increase many possible sets become data multiple two likely
+despite one estimates properties environment should still possible if number large
+problem address here
+nature their environment not subject particular eg they might organisms
+here consider case problem context experiments
+given statistical model unknown parameters along two one at predicting most values model parameters
+task section maximum over all possible between two
+problem out matrix known complete problem
+main paper efficient accurate algorithm belief type class weight matrices problem
+algorithm minimum free energy model
+model nodes associated measured according model constraints condition one per active
+known exact result maximum likelihood version problem finding maximum weight matching multiple model
+algorithm matching problem derived discussed section
+could factor functions model
+furthermore solutions also provide representation exact function terms series
+our main result expression efficient approximation series problem matching
+section where series expressed terms order functional reduced finally estimated approximation
+section empirical results performance comparison approximation
+our accuracy significant gains terms
+number experiments typically large order argue our approach both useful applications
+

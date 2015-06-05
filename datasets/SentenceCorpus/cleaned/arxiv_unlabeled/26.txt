@@ -1,0 +1,52 @@
+ 
+probabilistic grammatical inference usual goal infer good approximation unknown distribution called stochastic language
+estimate stands some class probabilistic models probabilistic automata pa
+paper focus probabilistic models based multiplicity automata ma
+stochastic languages generated ma called rational stochastic languages ; they strictly include stochastic languages generated pa; they also admit very concise canonical representation
+despite fact class not recursively enumerable efficiently identifiable limit using algorithm dees introduced authors previous paper
+however identification not proper before convergence algorithm dees produce ma do not define stochastic languages
+nevertheless possible use ma define stochastic languages
+show they belong broader class rational series call pseudo-stochastic rational languages
+aim paper twofold
+first provide theoretical study pseudo-stochastic rational languages languages output dees showing example class decidable within polynomial time
+second carried out lot experiments order compare dees classical inference algorithms alergia mdi
+they show dees outperforms them most cases {keywords } pseudo-stochastic rational languages multiplicity automata probabilistic grammatical inference
+ introduction 
+probabilistic grammatical inference often consider stochastic languages define distributions over  set all possible words over alphabet
+general consider unknown distribution goal find good approximation given finite sample words independently drawn
+class probabilistic automata pa often used modeling distributions
+class same expressiveness hidden markov models identifiable limit
+however there exists no efficient algorithm identifying pa
+explained fact there exists no canonical representation automata makes difficult correctly identify structure target
+one solution focus subclasses pa probabilistic deterministic automata but important lack expressiveness
+another solution consists considering class multiplicity automata ma
+models admit canonical representation offers good opportunities machine learning point view
+ma define functions compute rational series values 
+ma strict generalization pa stochastic languages generated pa special cases rational stochastic languages
+let us denote class rational stochastic languages computed ma parameters where
+ exactly class stochastic languages generated pa parameters
+but when  obtain strictly greater classes
+provides several advantages: elements minimal normal representation thus elements may significantly smaller representation ; parameters minimal representations directly related probabilities some natural events form  efficiently estimated stochastic samples; lastly when field rational series over form vector space efficient linear algebra techniques used deal rational stochastic languages
+however class presents serious drawback: there exists no recursively enumerable subset class ma exactly generates
+consequence no proper identification algorithm exist: indeed applying proper identification algorithm enumeration samples would provide enumeration class rational stochastic languages over
+spite result there exists efficient algorithm dees able identify limit
+but before reaching target dees produce ma do not define stochastic languages
+however been shown probability one any rational stochastic language  if dees given input sufficiently large sample drawn according  dees outputs rational series converges absolutely 1
+moreover converges 0 size increases
+show ma belong broader class rational series call pseudo-stochastic rational languages
+pseudo-stochastic rational language property defined any word
+stochastic language associated way when sum absolutely convergent
+first consequence when stochastic language
+second consequence any rational stochastic language  if dees given input increasing samples drawn according  dees outputs pseudo-stochastic rational languages converges 0 size increases
+aim paper twofold: provide theoretical study class pseudo-stochastic rational languages series experiments order compare performance dees two classical inference algorithms: alergia mdi
+show class pseudo-stochastic rational languages decidable within polynomial time
+provide algorithm used compute any ma computes
+also show how possible simulate using automaton
+show there exist pseudo-stochastic rational languages not rational
+finally show undecidable whether two pseudo-stochastic rational languages define same stochastic language
+carried out lot experiments show dees outperforms alergia mdi most cases
+results were expected since alergia mdi not same theoretical expressiveness since dees aims at producing minimal representation target set ma significantly smaller than smaller equivalent pda if exists
+paper organized follows
+section 2 introduce some background about multiplicity automata rational series stochastic languages present algorithm dees
+section 3 deals our study pseudo-rational stochastic languages
+our experiments detailed section 4

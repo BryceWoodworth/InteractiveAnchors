@@ -1,0 +1,30 @@
+
+learning inference distribution over output space points observation space given training pairs
+however applications interest large observations while process
+one way problem active learning where points selected aim model better performance than model number points
+paper instead propose cost learning goal defined cost function expected model performance total cost used
+allows development general strategies specific algorithms though main focus paper optimal also aim provide further related field active learning
+introduction
+much classical machine learning case where learn target concept form function when all finite set examples
+however many practical settings out each example set only observations available while observations sense either paper second case where actually obtain any but so cost
+active learning algorithms i e examples expected increase accuracy most
+however basic question whether new examples should at all
+paper cost explicitly
+introduce cost function between performance terms error terms number
+used two ways
+basis rules
+basis comparison metric learning algorithms associated algorithms
+further when expected performance gain additional examples comparing cost more
+one main development methods bayesian framework
+while due nature problem there potential show experimentally times obtain close optimal times
+also use order address lack method comparing different active learning algorithms under conditions similar
+comparison method choosing times test set needed
+rules active learning algorithms allows us compare active learning algorithms range different
+paper follows
+section proposed cost function when while section related work
+section bayesian method proposed cost function
+some experimental results proposed evaluation use introduced method presented section
+proposed methods not however
+example rule requires use
+examples may its active learning algorithm
+proposed approach optimal testing active learning

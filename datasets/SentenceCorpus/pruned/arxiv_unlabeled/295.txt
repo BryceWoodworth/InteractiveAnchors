@@ -1,0 +1,39 @@
+
+most theoretical work regression out loss where obtained through
+paper use tools convex optimization literature functions provide simple theoretical results loss loss
+apply techniques regression regularization norm regularization norm new results binary classification through regression derived corresponding results regression
+introduction
+theoretical analysis statistical methods usually when
+methods based certain functional methods true when function i e context regression loss
+when loss used results may derived classical tools probability theory see eg
+when function not solutions local then needed solution optimization problem
+results case eg consistency see eg
+however situation different when one derive results i e results where all problem
+indeed order prove results loss much many assumptions introduced second third makes derived results much more than ones
+similar situation occurs convex optimization study method solutions optimization problems
+known convex problems
+however its classical analysis requires assumptions second eg
+situation was introduction notion functions i e functions whose third their second
+analysis much more
+while method used algorithm eg leading algorithms focus paper optimization problems but statistical analysis associated global
+paper aim tools convex optimization analyze statistical properties regression
+since loss not itself function introduce new type functions different control third
+functions prove two types first provide lower i e given function
+second prove results behavior method similar ones functions
+then apply them population solution corresponding problem i e regression
+shows analysis regression using local approximation loss without complex additional assumptions
+since approximation problem results regression thus extended
+order consider make new results corresponding ones regression derive new concentration random variables obtained general results
+first apply technique regularization norm where consider two settings situation no assumptions distribution observations another one where model assumed derive generalization performance bounds terms
+consider regularization norm two known recent results loss one model consistency one prediction
+main paper make simple possible use } norm defined
+also its norm
+matrix
+use
+positive matrix
+
+defined if if if
+vector vector elements
+moreover given vector subset set vector elements
+matrix elements whose
+finally let general probability measures

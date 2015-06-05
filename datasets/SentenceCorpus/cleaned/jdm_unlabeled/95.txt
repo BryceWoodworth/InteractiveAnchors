@@ -1,0 +1,35 @@
+ 
+food drug administration fda warned against administering over-the-counter cough cold medicines children under number
+study evaluated whether experienced parents show poorer adherence fda warning safe experiences predicted reduce impact warnings how adherence improved
+participants included number american parents mean age number number sd number number number number percent female children age less than equal number who were aware fda warning
+compared adherence among experienced n number other children greater than age number inexperienced parents n number only children less than equal number
+also evaluated potential moderating variables amount warning-related information received prevalence side effects trust fda frequency coughs colds trust drug packaging quantified impact amount information
+logistic regression assessed ability experience alone experience combined amount information predict adherence number number percent inexperienced but number number percent experienced parents were adherent p number number
+groups did not differ potential moderating variables
+adherence was number number percent among experienced parents receiving lot information but number number percent those receiving less p number number amount information did not affect adherence inexperienced parents p number number but uniquely predicted adherence compared model experience alone p number number
+experienced parents were also less likely mistrust drug packaging p number number
+targeting fda information experienced parents particularly via drug packaging may improve their adherence
+ introduction 
+october number following expert review regarding safety over-the-counter cough cold medication otc-ccm food drug administration fda recommended drugs not used treat infants children under number years age because serious potentially life-threatening side effects occur
+united states food drug administration fda number
+since earlier studies shown people ascribe little risk harm otc medications important evaluate adherence fda warning
+indeed despite wide publicity recent nationally representative survey found only number percent parents children under number number percent parents who were aware fda warning intended comply fda warning national public radio kaiser family foundation harvard school public health npr kff hsph number
+decision-making literature suggests people ill-equipped incorporate information about rare side effects into their decisions
+when information about rare event comes externally description warning people tend overweigh rare event their decisions
+other words people behave if rare event more likely occur than its objective probability
+conversely when people learn their own experiences they tend underweigh rare events behaving if event less likely occur than its objective probability
+two tendencies imply different decisions result same information depending upon how one learns about potential consequences choices their probabilities
+recent literature focused mechanisms underlying apparent gap between description experience-based decisions their relative importance
+mechanisms include number recency  when rare events happen distant past memory constrained decisions will rely small set past outcomes number statistical sample bias  rare events underrepresented more often than overrepresented due skewness binomial distribution number judgment bias  people incorrectly estimate event's likelihood even unbiased sample
+practice people gain information both external descriptions personal experience
+deciding whether adhere given warning people who previously used risk-causing agent subject potentially conflicting influences warning past experience
+others possessing little no experience risk-causing agent presumably more reliant upon warning
+research shown inertia tends guide risk-taking behavior people who had safe experiences risk-causing agent they continue their exposure agent despite new information about associated dangers
+fda warning created opportunity examine behavior applied risk-causing agent affects millions parents children clear implications health policy
+measuring adherence parents older children who presumably more experience colds use otc-ccm children under number those without older children were able test following hypothesis behavioral inertia due safe experience otc-ccm would reduce adherence fda warning
+even if warning appropriate content reaches understood its target audience recipients may still not know what believe if communicators perceived vested interest
+united kingdom example parents' decisions not vaccinate against measles mumps rubella mmr  despite assurances campaigns uk government  stemmed largely lack trust messages about safety vaccines
+thus order isolate effect experience adherence also measured parents' stated trust fda source information
+conducted survey explore hypothesis experienced parents would exhibit poorer adherence well examine other factors potentially affecting adherence amount relevant information received prevalence side effects trust fda frequency child's coughs colds
+our knowledge first study evaluate effect parental experience adherence fda warning
+basis our findings propose tentative strategy increasing adherence

@@ -1,0 +1,31 @@
+
+often research judgment decision making requires comparison multiple models
+researchers global measures rate correct predictions various models part evaluation process
+measures often very high level between predictions various models does not relative performance models those critical cases where they make distinct predictions
+address important problem propose use models produce more their performance procedure data two recently
+use models
+also demonstrate how model performance signal certain models perform better given subset decision problems
+introduction
+field behavioral decision making large degree
+after certain empirical researchers test multiple models some some new explain result
+example every model decision making under risk expected account classical
+when new models proposed researchers often them series against models field
+there several approaches testing decision models
+context models there focus small problems chosen between certain models
+others data multiple studies involving decision problems selected different researchers various often compare how well models predict them
+alternative approach compare ability predict decision behavior sample problems well defined problems
+all methods data set n decision problems models
+each problem there one empirical response decision number n take one many binary choice probability choice pattern numerical value probability estimate etc
+set predictions number n generated various models
+there ways evaluate models full review well note
+our sufficient most them based some function d between responses predictions across all n decisions take its optimal value case n predictions
+thus one always rank some cases also scale models according how close they
+some simple examples functions correct predictions predictions b mean d where could rely d d their d c relative measures relative d d measures based likelihood function data under certain model etc
+approach review some few studies report results four model using different data sets total n number decision problems n number n number n number n number
+they compared number models used several sets parameters models free parameters theory
+their measure was percent correct prediction subjects choice across all n decision problems each data set
+they also report percent correct prediction choice percent between all model pairs across n number decision problems
+similar approach used several research group
+considered n number decision problems involving number subjects three experiments compared number models see number their paper
+their measure was overall percent correct predictions
+et al three model each using different decision two problem sets n number each set

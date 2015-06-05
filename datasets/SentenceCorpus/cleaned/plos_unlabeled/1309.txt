@@ -1,0 +1,34 @@
+ 
+t-cell antigen receptor repertoire generated through rearrangements v j genes encoding chains
+quantification frequency every v-j combination during ontogeny development immune system remain precisely established
+addressed issue building model able account v j gene rearrangements during thymus development mice
+so developed numerical model whole tra/trd locus based experimental data estimate how v j genes become accessible rearrangements
+progressive opening locus v-j gene recombinations modeled through windows accessibility different sizes different speeds progression
+furthermore possibility successive secondary v-j rearrangements was included modelling
+model points out some unbalanced v-j associations resulting preferential access gene rearrangements non-uniform partition accessibility j genes depending their location locus
+model shows 3 4 successive rearrangements sufficient explain use all v j genes locus
+finally model provides information both kinetics rearrangements frequencies each v-j associations
+model accounts essential features observed rearrangements tra/trd locus may provide reference repertoire v-j combinatorial diversity
+ introduction 
+functional antigen receptors expressed t lymphocytes generated during ontogeny somatic recombination gene segments coding variable joining constant segments
+recombination mechanism largely dependent both accessibility loci rag enzymatic complex
+murine tra/trd locus composite encoding tr chains encompassed more than 100 functional v genes
+theory each v genes may target one 49 functional j genes
+use v j genes during process recombination been widely debated studies support consensus v-j combinations not random use j segments starting at 5 end proceeding 3 end
+accessibility j region controlled tr enhancer located at 3 end c gene two promoters: t early located at 5 end j region ii j49 located 15 kb downstream tea
+both promoters activated e
+e controls all v j associations whereas two promoters required rearrangements j genes situated at 5 end j region
+however analyses tea-deleted alleles those blockade tea transcription showed significant alterations j use support hypothesis tea promoter regulate both positively promoters located first 12 kb j genes negatively downstream promoters 
+particularity tra locus absence allelic exclusion its ability undergo multiple cycles secondary rearrangements
+process successive rearrangements stopped either positive selection downregulates recombinase expression cell death
+therefore impact secondary rearrangements tr gene assembly regulation remains defined
+regarding v j gene use suggested first v-j association targets secondary one into set j segments located near j segment involved primary rearrangement
+rules governing use v genes not been clearly elucidated
+nevertheless observations converge consensus: use v segments would progress proximal v genes located near j region towards v genes located distal region
+at point time mechanism involved control accessibility v genes remains debate 
+current state technology permits analysis some v-j combinations essentially those at extremities locus but still fails establish complete estimation v-j combinations
+main obstacle comes fact some v genes duplicated similar copies v region central part making problematic their unambiguous identification molecular methods 
+consequently numerical modelling v-j recombination process may offer valuable support overcome difficulty accessing global view tra repertoire
+instance if j genes chosen sequential way model their use results unimodal whereas known experimental data tra/trd locus displays two hot spots recombination
+discrepancy led us build mathematical model parameterized experimental data all v j genes including those distal proximal central positions
+confrontation between data obtained experiments modelling makes possible estimation dynamical parameters accessibility rearrangements frequencies v-j associations giving more accurate estimation tra combinatorial diversity

@@ -1,0 +1,27 @@
+
+problem statistical learning construct accurate predictor random variable function correlated random variable basis \ training sample their distribution
+some class goal approach performance best predictor class
+consider two settings learning agent only training data present bounds predictor performance presence communication constraints
+our do not assume any structure between learning rely new class specifically design learning algorithms settings
+introduction
+let distributed random variables
+problem statistical learning design accurate predictor output variable input variable basis number independent training samples their distribution very little no prior knowledge distribution
+present paper performance learning when learning agent only description training samples
+problem learning under communication constraints variety distributed estimation using network adaptive control games
+other scenarios often case agents who training data agents who use data make decisions communication between two types agents possible only over
+hence there between communication rate quality inference interest
+paper follows our work bounds performance statistical learning under two communication training sequence learning agent over b input part training sequence available learning agent arbitrary while output part before over
+whereas at where description training data was obtained through vector structure between learning here
+show under certain conditions there no training sequence setting
+due fact estimate underlying distribution metric specifically learning problem at hand then description learning agent who then find predictor estimated distribution
+setting b however because no input part training sample cannot estimate underlying distribution
+instead description output part using specific vector one designed expected distance between underlying distribution may empirical distribution output pairs
+our result setting b uses generalization recent work communication probability distributions
+problem learning pattern classifier under rate constraints was also recent paper
+they assumed underlying probability distribution known rate memory learning then problem design best possible classifier without any constraints its structure
+work models learning
+approach present paper
+consider more general learning regression well classification but allow only prior knowledge underlying distribution assume class available
+thus while bounds performance any classifier including ones model data here performance learning must perform well presence uncertainty about underlying distribution
+novel our approach both used design learning algorithm conditions must learning possible involve between available prior knowledge about underlying distribution set available learning agent
+future work lower bounds our specific classes used statistical learning theory

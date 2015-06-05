@@ -1,0 +1,36 @@
+ 
+paper introduces model based upon games evolving network develops three clustering algorithms according
+clustering algorithms data points clustering regarded players who make decisions games
+network describing relationships among data points edge-removing-and-rewiring err function employed explore neighborhood data point removes edges connecting neighbors small payoffs creates new edges neighbors larger payoffs
+connections among data points vary over time
+during evolution network some strategies spread network
+consequence clusters formed automatically data points same evolutionarily stable strategy collected cluster so number evolutionarily stable strategies indicates number clusters
+moreover experimental results demonstrated data points datasets clustered reasonably efficiently comparison other algorithms also provides indication effectiveness proposed algorithms \\ \\ keywords : unsupervised learning data clustering evolutionary game theory evolutionarily stable strategy
+ introduction 
+cluster analysis important branch pattern recognition widely used many fields pattern analysis data mining information retrieval image segmentation
+past thirty years many excellent clustering algorithms been presented say k means  c4 5  support vector clustering svc  spectral clustering  etc  data points clustering fixed various functions designed find separating hyperplanes
+recent years however significant change been made
+some researchers thought about why not those data points could move themselves just like agents something collect together automatically
+therefore following their ideas they created few exciting algorithms  data points move space according certain simple local rules preset advance
+game theory came into being book named "theory games economic behavior" john von neumann oskar morgenstern 1940
+period cooperative game was widely studied
+till 1950's john nash published two well-known papers present theory non-cooperative game he proposed concept nash equilibrium proved existence equilibrium finite non-cooperative game
+although non-cooperative game was established rigorous mathematics required players game must perfect rational even hyper-rational
+if assumption could not hold nash equilibrium might not reached sometimes
+other hand evolutionary game theory stems researches biology analyze conflict cooperation between animals plants
+differs classical game theory focusing dynamics strategy change more than properties strategy equilibria does not require perfect rational players
+besides important concept evolutionarily stable strategy  evolutionary game theory was defined introduced john maynard smith george r
+price 1973 was often used explain evolution social behavior animals
+best our knowledge problem data clustering not been investigated based evolutionary game theory
+so if data points dataset considered players games could clusters formed automatically playing games among them
+question attempt answer
+our clustering algorithm each player hopes maximize his own payoff so he constantly adjusts his strategies observing neighbors' payoffs
+course strategies evolving some strategies spread network players
+finally some parts will formed automatically each same strategy used
+according different strategies played data points dataset naturally collected several different clusters
+remainder paper organized follows: section 2 introduces some basic concepts methods about evolutionary game theory evolutionary game graph
+section 3 model based upon games evolving network proposed described specifically
+section 4 gives three algorithms based model algorithms elaborated analyzed detail
+section 5 introduces those datasets used experiments briefly then demonstrates experimental results algorithms
+further relationship between number clusters number nearest neighbors discussed three edge-removing-and-rewiring err functions employed clustering algorithms compared
+conclusion given section 6

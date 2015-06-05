@@ -1,0 +1,27 @@
+ 
+many cellular systems rely ability interpret spatial heterogeneities chemoattractant concentration direct cell migration
+accuracy process limited stochastic fluctuations concentration external signal internal signaling components
+here use information theory determine optimal scheme detect location external chemoattractant source presence noise
+compute minimum amount mutual information needed between chemoattractant gradient internal signal achieve prespecified chemotactic accuracy
+show more accurate chemotaxis requires greater mutual information
+also demonstrate priori information improve chemotaxis efficiency
+compare optimal signaling schemes existing experimental measurements models eukaryotic gradient sensing
+remarkably there good quantitative agreement between optimal response when no priori assumption made about location existing source observed experimental response unpolarized dictyostelium discoideum cells
+contrast measured response polarized d discoideum cells matches closely optimal scheme assuming prior knowledge external gradient example through prolonged chemotaxis given direction
+our results demonstrate different observed classes responses cells optimal under varying information assumptions
+ introduction 
+recently there been considerable research demonstrating critical role played random fluctuations cellular signaling systems
+stochastic variations found external signaling molecules well intracellular components
+they arise because small number molecules involved signaling play significant roles gene regulatory networks well prokaryotic eukaryotic signal transduction pathways 
+proper functioning cellular signaling networks requires mechanisms tolerate effects noise
+however questions remain how evaluate performance efficiency cellular decision-making systems
+how well does signaling network cell make decisions based signaling cues available
+improvements made altering parameters structure network
+how efficiently resources used
+here argue rate distortion theory branch information theory used evaluate effectiveness systems
+application information theory study biology been under way some time received considerable attention fields neuroscience genetics
+however full breadth utility biological signaling systems general not been realized primarily because difficulty defining information general biological systems
+here use rate distortion theory tool study performance cost tradeoffs general spatial gradient sensing mechanisms similar those found many eukaryotic cells including neutrophils amoebae
+rate distortion theory provides bounds rate at information must transmitted through system achieve given performance criterion
+our results demonstrate depending prior knowledge cell about its chemoattractant environment different optimal chemotaxis strategies exist
+furthermore show differences observed behaviors unpolarized polarized chemotactic cells correspond various optimally efficient decision-making processes

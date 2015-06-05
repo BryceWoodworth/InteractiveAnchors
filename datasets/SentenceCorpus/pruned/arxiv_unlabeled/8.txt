@@ -1,0 +1,28 @@
+
+address problem learning
+memory algorithm allow general over
+demonstrate our approach our algorithm real
+algorithm novel unique environment directly without using computer model step b does not require input space c continuous d
+together allows learning much less experience compared previous methods
+introduction
+will require algorithms learn direct experience obtained visual input
+systems provide source information but structure space e g environments not most current learning approaches
+environments characterized regions represent physical objects objects visual field
+there two approaches used existing algorithms real world 1 state space fixed adaptive 2 using function basis functions memory
+fixed introduce while adaptive ones scale state space
+neural networks relatively global functions not like fixed methods require knowledge appropriate local scale
+methods use explicitly new
+methods more our because they local models principle approximate functions but typically short because using fixed they assume sampling density state space
+fixed because points both together its
+if instead use fixed number effect using variable arbitrary important state space where most needed model local dynamics
+use approach appropriate metric needed determine provide most relevant information what do given situation
+structure space learning algorithm must also fact provide sufficient information determine where problem what action best take
+some form memory needed identify underlying environment states only
+paper present algorithm called continuous sequence memory algorithm state sequence memory more general case
+like all data environment but uses continuous metric history allows used real environments without prior space
+important work amount knowledge about structure environment available
+typically learning simulation then resulting policy real
+accurate model real environment only when simple used while models make policy difficult
+must learn directly real world
+furthermore since data real world algorithm should efficient state space without amount required different state space case even most approaches even metric state
+next section section our experiments section our results future our research

@@ -1,0 +1,28 @@
+ 
+propose general method called truncated gradient induce sparsity weights online learning algorithms convex loss functions
+method several essential properties: degree sparsity continuous---a parameter controls rate sparsification no sparsification total sparsification
+approach theoretically motivated instance regarded online counterpart popular regularization method batch setting
+prove small rates sparsification result only small additional regret respect typical online learning guarantees
+approach works well empirically
+apply approach several datasets find datasets large numbers features substantial sparsity discoverable
+ introduction 
+concerned machine learning over large datasets
+example largest dataset use here over sparse examples features using about bytes
+setting many common approaches fail simply because they cannot load dataset into memory they not sufficiently efficient
+there roughly two approaches work: parallelize batch learning algorithm over many machines  eg  
+stream examples online learning algorithm  eg     
+paper focuses second approach
+typical online learning algorithms at least one weight every feature too much some applications couple reasons: space constraints
+if state online learning algorithm overflows ram not efficiently run
+similar problem occurs if state overflows l2 cache
+test time constraints computation
+substantially reducing number features yield substantial improvements computational time required evaluate new sample
+paper addresses problem inducing sparsity learned weights while using online learning algorithm
+there several ways do wrong our problem
+example: simply adding regularization gradient online weight update doesn't work because gradients don't induce sparsity
+essential difficulty gradient update form where two floats
+very few float pairs add any other default value so there little reason expect gradient update accidentally produce sparsity
+simply rounding weights problematic because weight may small due being useless small because been updated only once either at beginning training because set features appearing also sparse
+rounding techniques also play havoc standard online learning guarantees
+black-box wrapper approaches eliminate features test impact elimination not efficient enough
+approaches typically run algorithm many times particularly undesirable large datasets

@@ -1,0 +1,12 @@
+ 
+paper addresses problem distributed learning under communication constraints motivated distributed signal processing wireless sensor networks data mining distributed databases
+after formalizing general model distributed learning algorithm collaboratively training regularized kernel least-squares regression estimators derived
+noting algorithm viewed application successive orthogonal projection algorithms its convergence properties investigated statistical behavior estimator discussed simplified theoretical setting
+ introduction 
+paper address problem distributed learning under communication constraints  motivated primarily distributed signal processing wireless sensor networks wsns data mining distributed databases
+wsns fortiori designed make inferences environments they sensing; however they typically characterized constraints energy bandwidth limit sensors' ability share data each other centralized fusion center
+data mining distributed databases multiple agents e g  corporations access possibly overlapping databases wish collaborate make optimal inferences; privacy security concerns however may preclude them fully sharing information
+nonparametric methods studied within machine learning demonstrated widespread empirical success many centralized i e  communication unconstrained  signal processing applications
+thus both aforementioned applications natural question arises: power machine learning methods tapped nonparametric inference distributed learning under communication constraints
+paper address question formalizing general model distributed learning then deriving distributed algorithm collaborative training regularized kernel least-squares regression
+algorithm viewed instantiation successive orthogonal projection algorithms thus insight into statistical behavior algorithms gleaned standard analyses mathematical programming

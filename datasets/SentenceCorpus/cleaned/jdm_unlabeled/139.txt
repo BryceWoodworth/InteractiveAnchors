@@ -1,0 +1,47 @@
+ 
+very small but cumulated decreases food intake may sufficient significant effects even erasing obesity over period years
+two studies one lab study other real-world study examine effect manipulating position different foods restaurant menu
+items placed at beginning end list their category options were up twice popular when they were placed center list
+given effect placing healthier menu items at top bottom item lists less healthy ones their center e g sugared drinks vs calorie-free drinks should result some increase favor healthier food choices
+ introduction 
+obesity growing problem throughout world
+fighting via dieting apparently ineffective
+companion paper rozin et al present arguments facts substantiate two claims shall not repeat here
+they then suggest war obesity could benefit nudges not only heavy efforts investments resources
+nudges small cheap easily implementable often hardly noticed changes choice architecture i e manner setting choice set presented do not affect choice set itself yet affect appeal different options
+rozin et al 's nudge nobesity very simple if you want increase decrease popularity food item make easier harder access respectively
+same spirit present paper explores another possible nudge nobesity
+show placing food item menu at beginning end its category increases its popularity compared placing middle
+restaurants present customers lists their offerings
+when menu displayed writing items presented simultaneously
+when waiter recites day's specials items presented sequentially
+our study involved only printed menus
+menu items may organized various ways type e g soups salads etc
+according main ingredients fish dishes vegetarian dishes etc
+
+within each category they typically listed vertical ordering
+when designing menus does order matter
+one may seek answers two kinds sources-the how literature menu design psychological literature position effects
+familiar position effects primacy recency refer stimuli presented sequentially their dependent variable not usually choice
+but effect called edge avoidance centrality preferences middle bias center-stage effect refers choice among simultaneously presented options-and various names indicate typical findings people choosing array identical options reliably prefer middle ones
+when items not identical effect's manifestation when options presented middle array they chosen more often than when they presented its edges
+studies do not course apply options position may inherently important theater airplane seats skyscraper floors restaurant tables place queues
+rather they use options hard imagine why position would matter i
+number opaque boxes people choose hide seek treasure ii
+similarly what position people place guess answers multiple-choice tests iii
+good they choose set identical non-identical goods offered iv
+what stall they head public bathroom etc
+all studies found placing item middle rather than edges choice set enhanced its popularity
+aware only three exceptions there seems advantage being first last simultaneously presented choice set rather than its middle
+nisbett wilson asked their subjects consider linear array number identical pairs stockings fact their subjects were not aware serendipitously found pronounced left-to-right position effect right-most object array was also last perused was heavily over-chosen p number namely last-is-best
+contrast koppell steen analyzed real ballot-voting data was almost like controlled study inasmuch order candidates' names was rotated precinct p number found candidates received greater proportion vote when listed first than when listed any other position p number namely first-is-best
+finally christenfeld asked respondents choose route between two points either hypothetical maps real
+destination point could not reached walking straight line but paths chosen had same total length number turns
+respondents showed preference path reached making first turn late possible
+paths cannot classified into first last middle but possible points taking first turn sense respondents preferred last
+contrast all above-mentioned findings restaurant trade publications menus advocate both edges namely first last positions where one should place items whose popularity one wants enhance
+recommendations however were never backed research none best our knowledge exists panitz's claim certainly valid but not clear why one needs rely much memory when choosing menu
+moreover when kincaid corsun attempted put other accepted truths regarding impact menu layout item sales empirical test their title question consultants blowing smoke
+p number was answered affirmative
+however since they did not study edge bias specifically no direct menu results either contrast add edge avoidance reported above
+present study therefore did not hypothesize bias either favor against middle positioned items but rather checked whether one exists using number tailed significance testing

@@ -1,0 +1,42 @@
+ 
+cross-entropy method ce developed r
+rubinstein elegant practical principle simulating rare events
+method approximates probability rare event means family probabilistic models
+method been extended optimization considering optimal event rare event
+ce works rather good when dealing deterministic function optimization
+now appears two conditions needed good convergence method
+first necessary family models sufficiently flexible discriminating optimal events
+indirectly appears also function optimized should deterministic
+purpose paper consider case partially discriminating model family stochastic functions
+will shown simple examples ce could fail when relaxing hypotheses
+alternative improvements ce method investigated compared random examples order handle issue
+ introduction 
+cross-entropy method been developed r
+rubinstein simulation rare events
+algorithm iteratively builds near-optimal importance sampling rare event based family parameterized sampling laws
+construction importance sampling obtained iteratively: tossing samples selecting samples approximating rare events relearning parameters sampling law minimizing its kulback-leiber distance cross-entropy selection computing importance weightings
+considering optimal events related objective rare events method been extended optimization problems \\[5pt cross-entropy method been implemented successfully many combinatorial problems
+however attempted proofs method make some assumptions preliminary requests
+first proof been made deterministic context
+secondly closure simulation law family should contain dirac optimum laws support optimums \\[5pt first condition cannot fulfilled properly case stochastic problem
+second condition obvious requirement
+but there some cases where not possible handle all solutions precisely law family
+indeed solutions may not countable practically; typically case some dynamic problems example strategy tree against deterministic computer chess player
+both difficulties encountered optimal planning partial observation
+purpose paper point out simple examples hypotheses necessary convergence classical ce method
+questions are: does \emph{classical ce algorithm solve stochastic problems properly } appears quantile selection within ce may not work properly without rather good estimation objective functional expectation
+nevertheless smoother selection criteria seem possible answer difficulties
+assume law family closure does not contain all deterministic solutions
+ce algorithm will converge stochastic approximation optimal solution
+approximation best possible within law family
+our answer question not absolutely negative
+but appears some extensions ce quite usually implemented will fail question
+paper presents some counterexamples questions
+case stochastic optimization tests done simple random examples order compare convergence various ce methods global optimum \\[5pt next section introduces shortly principle ce method
+section will consider case where optimal solution not caught properly sampling family
+counterexample proposed studied
+section stochastic problems considered
+two simple counterexamples investigated thus enlightening some typical convergence difficulties
+different evolutions cross-entropy then compared basical method generating several random examples
+particular method smooth sample selection proposed possible alternative stochastic problems
+section concludes

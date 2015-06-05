@@ -1,0 +1,31 @@
+ 
+maintain stable intracellular environment cells utilize complex specialized defense systems against variety external perturbations electrophilic stress heat shock hypoxia etc irrespective type stress many adaptive mechanisms contributing cellular homeostasis appear operate through gene regulatory networks organized into negative feedback loops
+general degree deviation controlled variables electrophiles misfolded proteins o 2 first detected specialized sensor molecules then signal transduced specific transcription factors
+transcription factors regulate expression suite anti-stress genes many encode enzymes functioning counteract perturbed variables
+objective study was explore using control theory computational approaches theoretical basis underlies steady-state dose response relationship between cellular stressors intracellular biochemical species gene regulatory networks
+our work indicated shape dose response curves depends changes specific values local response coefficients distributed feedback loop
+multimerization anti-stress enzymes transcription factors into homodimers homotrimers even higher-order multimers play significant role maintaining robust homeostasis
+moreover our simulation noted dose response curves controlled variables transition sequentially through four distinct phases stressor level increases: initial superlinear lesser control superlinear more highly controlled linear uncontrolled sublinear catastrophic
+each phase relies specific gain-changing events come into play stressor level increases
+low-dose region intrinsically nonlinear depending level local gains presence gain-changing events degree feedforward gene activation region appear superlinear sublinear even j-shaped
+general dose response transition proposed here was further examined complex anti-electrophilic stress pathway involves multiple genes enzymes metabolic reactions
+work would help biologists especially toxicologists better assess predict cellular impact brought about biological stressors
+ introduction 
+cells vivo must maintain relatively stable intracellular milieu extracellular environment constantly changing potentially unpredictable
+notably many intracellular biomolecules need held within closely regulated ranges concentrations normal cell functions
+examples biochemical species could detrimental and/or beneficial cellular health electrophiles reactive oxygen species dna adducts misfolded proteins o 2 glucose
+when external stressors cause molecules deviate their basal operating concentrations extended period time normal cell functions become disrupted cell cycle arrest apoptosis may ensue
+homeostatic regulation vital intracellular biochemical species appears operate primarily via gene regulatory networks respond specifically particular types physical/chemical insults electrophilic chemicals heat shock hypoxia hyperosmolarity
+many manmade control devices thermostats automobile cruise controls homeostatic gene regulatory networks usually organized into negative feedback circuits generalized into common control scheme
+output system referred controlled variable biochemical species perturbed external stressors therefore needs tightly controlled
+system contains specific transcription factors serve transducers either directly indirectly sense level controlled variable
+fashion alterations concentration controlled variable affect activity abundance transcription factor
+activated transcription factors then upregulate expression individual suites anti-stress genes many encode enzymes participate array interconnected biochemical reactions counteract perturbation controlled variable
+control dynamic system theory benefited applied fields electronic mechanical engineering many decades recent years increasing efforts been made apply similar concepts biological systems including adaptive responses
+our goal understand nature's design principle anti-stress cellular homeostasis improve prediction disrupting effects biological stressors
+practical importance risk assessment at cellular level steady-state dose response relationship between stressor levels various measurable biochemical endpoints including controlled variables transcription factors gene expression
+cell responses low-dose region particularly relevant human health risk assessment traditionally difficult explain predict dose response behaviors region due uncertainty subtlety curvature
+accurately describe fully understand complex dose response behaviors underlying biochemical networks will examined through quantitative models
+respect mathematical approaches involved theoretical development quantitative analysis controls biochemical networks including metabolic control analysis biochemical systems theory proven great value
+using numerical simulation concepts mca bst classical control theory present study focused understanding quantitative basis steady-state dose response anti-stress gene regulatory network
+while some conclusions presented paper may seem implicitly familiar even obvious engineers they nonetheless provide important framework biologists especially toxicologists improve accuracy they evaluate influence biological stressors intracellular control processes under different exposure conditions

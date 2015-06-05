@@ -1,0 +1,52 @@
+ 
+address problem reinforcement learning observations may exhibit arbitrary form stochastic dependence past observations actions
+task agent attain best possible asymptotic reward where true generating environment unknown but belongs known countable family environments
+find some sufficient conditions class environments under agent exists attains best asymptotic reward any environment class
+analyze how tight conditions how they relate different probabilistic assumptions known reinforcement learning related fields markov decision processes mixing conditions
+ introduction 
+many real-world ``learning'' problems like learning drive car playing game modelled agent interacts environment occasionally rewarded its behavior
+interested agents perform well sense having high long-term reward also called value agent environment
+if known pure non-learning computational problem determine optimal agent
+far less clear what ``optimal'' agent means if unknown
+reasonable objective single policy high value simultaneously many environments
+will formalize call criterion self-optimizing later
+reinforcement learning sequential decision theory adaptive control theory active expert advice theories dealing problem
+they overlap but different core focus: reinforcement learning algorithms developed learn directly its value
+temporal difference learning computationally very efficient but slow asymptotic guarantees only effectively small observable mdps
+others faster guarantee finite state mdps
+there algorithms optimal any finite connected pomdp apparently largest class environments considered
+sequential decision theory bayes-optimal agent maximizes considered where mixture environments class environments contains true environment
+policy self-optimizing arbitrary class  provided allows self-optimizingness
+adaptive control theory considers very simple ai perspective special systems e g \ linear quadratic loss function sometimes allow computationally data efficient solutions
+action expert advice constructs agent called master performs nearly well best agent best expert hindsight some class experts any environment
+important special case passive sequence prediction arbitrary unknown environments where actions=predictions do not affect environment comparably easy
+difficulty active learning problems identified at least countable classes traps environments
+initially agent does not know  so asymptotically forgiven taking initial ``wrong'' actions
+well-studied class ergodic mdps guarantee any action history every state re)visited
+aim paper characterize general possible classes self-optimizing behaviour possible more general than pomdps
+do need characterize classes environments forgive
+instance exact state recovery unnecessarily strong; sufficient being able recover high rewards whatever states
+further many real world problems there no information available about ``states'' environment e g \ pomdps environment may exhibit long history dependencies
+rather than trying model environment e g mdp try identify conditions sufficient learning
+towards aim propose consider only environments after any arbitrary finite sequence actions best value still achievable
+performance criterion here asymptotic average reward
+thus consider environments there exists policy whose asymptotic average reward exists upper-bounds asymptotic average reward any other policy
+moreover same property should hold after any finite sequence actions been taken no traps
+yet property itself not sufficient identifying optimal behavior
+require further any sequence actions possible return optimal level reward steps above conditions will formulated probabilistic form  environments possess property called strongly value-stable
+show any countable class value-stable environments there exists policy achieves best possible value any environments class i e self-optimizing class
+also show strong value-stability certain sense necessary
+also consider examples environments possess strong value-stability
+particular any ergodic mdp easily shown property
+mixing-type condition implies value-stability also demonstrated
+finally provide construction allowing build examples value-stable environments not isomorphic finite pomdp thus demonstrating class value-stable environments quite general
+important our argument class environments seek self-optimizing policy countable although class all value-stable environments uncountable
+find set conditions necessary sufficient learning do not rely countability class yet open problem
+however computational perspective countable classes sufficiently large e g \ class all computable probability measures countable
+paper organized follows
+section introduces necessary notation agent framework
+section define explain notion value-stability central paper
+section presents theorem about self-optimizing policies classes value-stable environments illustrates applicability theorem providing examples strongly value-stable environments
+section discuss necessity conditions main theorem
+section provides some discussion results outlook future research
+formal proof main theorem given appendix while section contains only intuitive explanations

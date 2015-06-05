@@ -3,18 +3,17 @@ __author__ = 'Bryce Woodworth'
 import os
 import time
 import numpy
-import math
 import pickle
-from machine_learning.topic_models.preprocessor import *
-from machine_learning.topic_models.improved_arora import *
+from preprocessor import *
+from improved_arora import *
 
 
 def preprocess(vocab_size):
     # First do some preprocessing and clean up the dataset
-    base_dir = '/home/ephax/code/datasets/SentenceCorpus/unlabeled_articles'
-    stop_file = '/home/ephax/code/datasets/SentenceCorpus/word_lists/stopwords.txt'
-    clean_dir = '/home/ephax/code/datasets/SentenceCorpus/cleaned'
-    prune_dir= '/home/ephax/code/datasets/SentenceCorpus/pruned'
+    base_dir = 'datasets/SentenceCorpus/unlabeled_articles'
+    stop_file = 'datasets/SentenceCorpus/word_lists/stopwords.txt'
+    clean_dir = 'datasets/SentenceCorpus/cleaned'
+    prune_dir= 'datasets/SentenceCorpus/pruned'
 
     with open(stop_file) as stopfile:
         stops = [stop.strip() for stop in stopfile]
@@ -77,9 +76,10 @@ def preprocess(vocab_size):
 
 def _recalculate(num_topics, vocab_size):
     """Simply runs the algorithm to recalculate the desired values"""
+    print("\nBeginning preprocessing.")
     start = time.time()
     vocab, priors, Q, H = preprocess(vocab_size)
-    print("\nPreprocessed and found Q in %d seconds." % (time.time() - start))
+    print("Preprocessed and found Q in %d seconds." % (time.time() - start))
     inter = time.time()
     S = anchor_selection(Q, num_topics)
     print("Found anchor words in %d seconds." % (time.time() - inter))
@@ -88,11 +88,12 @@ def _recalculate(num_topics, vocab_size):
     return vocab, priors, Q, H, S, A, C
 
 
-def _recalculate2(num_topics, vocab_size=1000):
+def _recalculate2(num_topics, vocab_size):
     """Simply runs the algorithm to recalculate the desired values"""
+    print("\nBeginning preprocessing.")
     start = time.time()
     vocab, priors, Q, H = preprocess2(vocab_size)
-    print("\nPreprocessed and found Q in %d seconds." % (time.time() - start))
+    print("Preprocessed and found Q in %d seconds." % (time.time() - start))
     inter = time.time()
     S = anchor_selection(Q, num_topics)
     print("Found anchor words in %d seconds." % (time.time() - inter))
@@ -102,31 +103,88 @@ def _recalculate2(num_topics, vocab_size=1000):
 
 
 def preprocess2(vocab_size):
-    path = "/home/ephax/code/datasets/NIPS/"
-    stopfile = "/home/ephax/code/anchor-word-recovery/stopwords.txt"
+    path = "datasets/NIPS/"
+    stopfile = "anchor-word-recovery/stopwords.txt"
     return word_bag_reduce(path + "docword.nips.txt", path + "vocab.nips.txt", "/usr/share/dict/words", vocab_size, stopwords=stopfile)
 
 
 if __name__ == '__main__':
-    num_topics = 20
-    vocab_size = 1000
+    try:
+        num_topics_nips, vocab_size_nips, vocab_nips, priors_nips, Q_nips, H_nips, S_nips, A_nips, C_nips = pickle.load(open('saved/NIPS.p', 'rb'))
+        nips_saved = True
+    except FileNotFoundError:
+        nips_saved = False
 
-    # calculate from NIPS data
-    vocab, priors, Q, H, S, A, C = _recalculate2(num_topics, vocab_size)
-    # pickle.dump((vocab, priors, Q, H, S, A, C), open('saved_vals2.p', 'wb'))
-    # vocab, priors, Q, H, S, A, C = pickle.load(open('saved_vals2.p', 'rb'))
-    # start = time.time()
-    # A, C = recover(Q, S, priors)
-    # print("Time taken: %.0f" % (time.time() - start))
+    try:
+        num_topics_tri, vocab_size_tri, vocab_tri, priors_tri, Q_tri, H_tri, S_tri, A_tri, C_tri = pickle.load(open('saved/tri.p', 'rb'))
+        tri_saved = True
+    except FileNotFoundError:
+        tri_saved = False
 
-    # calculate from tri-journal data
-    # vocab, priors, Q, H, S, A, C = _recalculate(num_topics, vocab_size)
-    # pickle.dump((vocab, priors, Q, H, S, A, C), open('saved_vals.p', 'wb'))
-    # vocab, priors, Q, H, S, A, C = pickle.load(open('saved_vals.p', 'rb'))
-    # S = anchor_selection(Q, num_topics)
-    # start = time.time()
-    # A, C = recover(Q, S, priors)
-    # print("Time taken: %.0f" % (time.time() - start))
+    save_loaded = False
+    while True:
+        dataset = input('Please select a dataset (default is 0).\n'
+                        '0 - Introductions and abstracts of 300 papers each from '
+                        'machine learning, computational biology, and psychology (tri-journal).\n'
+                        '1 - Full data from 1500 NIPS papers.\n')
+        if dataset == '':
+            dataset = '0'
+        if dataset == '0':
+            if tri_saved:
+                response = input("Previous tri-journal save found - vocabulary size: %d, number of topics: %d\n"
+                                 "Would you like to use this save? (y/N):\n" % (vocab_size_tri, num_topics_tri))
+                response = response.lower()
+                if response == 'y' or response == 'yes':
+                    num_topics, vocab_size, vocab, priors, Q, H, S, A, C = num_topics_tri, vocab_size_tri, vocab_tri, \
+                                                                           priors_tri, Q_tri, H_tri, S_tri, A_tri, C_tri
+                    save_loaded = True
+            break
+
+        elif dataset == '1':
+            if nips_saved:
+                response = input("Previous nips-journal save found - vocabulary size: %d, number of topics: %d\n"
+                                 "Would you like to use this save? (y/N):\n" % (vocab_size_nips, num_topics_nips))
+                response = response.lower()
+                if response == 'y' or response == 'yes':
+                    num_topics, vocab_size, vocab, priors, Q, H, S, A, C = num_topics_nips, vocab_size_nips, vocab_nips,\
+                                                                           priors_nips, Q_nips, H_nips, S_nips, A_nips, C_nips
+                    save_loaded = True
+            break
+
+        else:
+            print('invalid input\n')
+
+    while not save_loaded:
+        num_topics = input('Please select how many topics you want to start out with (default is 20): ')
+        if num_topics == '':
+            num_topics = 20
+            break
+        else:
+            try:
+                num_topics = int(num_topics)
+                break
+            except ValueError:
+                print("invalid input")
+
+    while not save_loaded:
+        vocab_size = input('Please select the size of your vocabulary (default is 1000): ')
+        if vocab_size == '':
+            vocab_size = 1000
+            break
+        else:
+            try:
+                vocab_size = int(vocab_size)
+                break
+            except ValueError:
+                print("invalid input")
+
+    if not save_loaded:
+        if dataset == '0':
+            vocab, priors, Q, H, S, A, C = _recalculate(num_topics, vocab_size)
+            pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, A, C), open('saved/tri.p', 'wb'))
+        elif dataset == '1':
+            vocab, priors, Q, H, S, A, C = _recalculate2(num_topics, vocab_size)
+            pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, A, C), open('saved/NIPS.p', 'wb'))
 
 
     # Print out some helpful information about the discovered topics

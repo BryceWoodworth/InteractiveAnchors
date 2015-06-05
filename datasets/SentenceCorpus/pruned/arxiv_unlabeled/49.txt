@@ -1,0 +1,39 @@
+
+bound future loss when predicting any stochastic sequence online
+total his universal predictor true distribution complexity
+here assume at time observed
+bound future prediction performance new complexity given complexity
+new complexity its condition sense complexity only if condition
+also discuss potential bayesian model classes classification problems
+introduction
+consider problem predictions
+assume sequences some but unknown probability distribution
+class large prior over
+considered large class contains all probability distributions
+showed his universal distribution i e \ predicts well any environment long probability distribution all physical theories
+where length description called complexity
+since they practice
+see eg
+also useful about prediction quality at particular time simple classes like \ sequences data size where accuracy typically
+bounds expected total loss e g \ number prediction errors derived often sufficient online setting
+bounds terms complexity
+instance number errors sense measures case information observed sequence
+paper assume at time observed
+hence future prediction performance since typically about past errors
+if total loss finite future loss must small large
+sense paper
+if complexity bounds total loss natural like complexity given bounds future loss if contains even all information about should make no errors indeed prove two bounds but additional terms structural properties
+additional terms appear since total loss only hence future loss small only
+first bound theorem additional term complexity length estimation
+second bound theorem additional term complexity
+advantage small average contrast length
+but case complexity out
+so introduce new natural complexity function condition
+require consistent sense if program some given then must generate same given any
+new bounds also significantly improve upon previous total bounds
+paper follows
+some basic given
+section prove discuss bound theorem
+section show why new complexity necessary bound theorem
+discuss basic properties new complexity section prove theorem section
+discuss potential general model classes classification section

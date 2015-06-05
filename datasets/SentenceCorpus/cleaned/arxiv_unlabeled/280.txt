@@ -1,0 +1,61 @@
+ 
+paper addresses problem finding nearest neighbor one r-nearest neighbors query object database objects
+contrast most existing approaches only access ``hidden'' space objects live through similarity oracle
+oracle given two reference objects query object returns reference object closest query object
+oracle attempts model behavior human users capable making statements about similarity but not assigning meaningful numerical values distances between objects
+using oracle best hope obtain every object database sorted list other objects according their distance
+call position object list rank respect
+difficulty searching using oracle depends non-homogeneities underlying space
+use two different characterizations underlying space capture property
+first one rank distortion  relates pairwise ranks average difference ranks w r t
+other objects more precise definition given section 
+second one combinatorial framework notion  defines approximate triangle inequalities ranks more precise definition given section 
+roughly speaking defines multiplicative factor triangle inequality ranks violated
+utilizing insights ideas develop hierarchical search algorithm builds data structure allows us retrieve nearest neighbor high probability questions
+learning requires asking questions total need store bits total
+also provide approximate nearest neighbor search algorithm
+finally show lower bound average number questions search phase randomized algorithms when answers all possible questions learning phase given
+also introduce rank-sensitive hash functions gives same hash value ``similar'' objects based rank-value objects obtained similarity oracle
+one application rsh demonstrate retrieve one nearest neighbor query point evaluations hash function where only depends rank distortion
+ introduction 
+consider situation where want search navigate database but do not know underlying relationships between objects
+particular distances may difficult discern may not well-defined
+situations common objects where human perception may involved
+collection pictures faces taken different angles distances illustration dataset
+indeed distances between feature vectors might far similarity perceived humans
+notwithstanding either human-assistance approximate classification may able determine relative proximity object respect small number other objects
+humans ability compare objects make statements about most similar ones though they probably not assign meaningful numerical value similarity
+led question how design search algorithms based binary similarity decisions type ``a looks more like b than c''
+more formally aim design algorithm given query object  eg  face efficiently returns object similar object among objects database
+do so access similarity oracle given two reference objects query object tell two reference objects most similar query object
+measure performance all our algorithms terms number questions need ask oracle
+pre-process database during learning phase use resulting answers facilitate search process
+do not make assumption ``hidden'' space database objects live needs metric space
+using oracle one retrieve every object database sorted list other objects according their distance
+call position object list rank respect  denote
+clearly relationship asymmetric i e  general
+setup raises several new questions issues any space described its ranks relationships
+how much does fact rank some object w r t
+some other object  rank w r t
+tell us about rank w r t
+
+paper introduce notion rank distortion see section rigorous definition
+rank distortion captures how closely related average
+framework introduced  defines approximate triangle inequalities ranks another way capture relationships
+those inequalities roughly tell us how ``transitive'' similarity relationship give us notion combinatorial disorder
+if information use partial rank information estimate infer other ranks
+paper will first investigate case where use characterization hidden space input our algorithms
+develop randomized hierarchical scheme improves existing bounds nearest neighbor search based similarity oracle see section 
+also prove far know first lower bound average number questions asked randomized nearest-neighbor search setup see section 
+then section  ask what done if no characterization hidden space known therefore cannot used input algorithms
+case cannot estimate limit ranks anymore if partial rank information
+nevertheless develop algorithms decompose space dissimilar objects likely get separated similar objects tendency stay together
+generalizes notion randomized  trees   our setup
+building intuition introduce notion rank-sensitive hashing rsh section
+similarly locality-sensitive hashing retrieve one nearest neighbors query point very efficiently
+hash function itself does not require any characterization subjacent space input
+however smallest value choose depends rank distortion
+general both criteria combinatorial disorder rank distortion use characterize hidden space seem capture how ``homogeneous'' space
+appears less homogeneous more difficult becomes search
+particular if rank relationship very asymmetric some objects far every other object information contained about those objects ranks matrix very sparse hard capture
+apply idea rsh nn search but believe might useful other scenarios well

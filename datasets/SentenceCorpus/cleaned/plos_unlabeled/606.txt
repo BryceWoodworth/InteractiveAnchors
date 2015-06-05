@@ -1,0 +1,45 @@
+ 
+both excitability neuron's membrane driven active ion channels dendritic morphology contribute neuronal firing dynamics but relative importance interactions between features remain poorly understood
+recent modeling studies shown different combinations active conductances evoke similar firing patterns but neglected how morphology might contribute homeostasis
+parameterizing morphology cylindrical dendrite introduce novel application mathematical sensitivity analysis quantifies how dendritic length diameter surface area influence neuronal firing compares effects directly against those active parameters
+method was applied model neurons goldfish area ii
+neurons exhibit likely contribute persistent activity eye velocity storage simple model working memory
+introduce sensitivity landscapes defined local sensitivity analyses firing rate gain each parameter performed globally across parameter space
+principal directions over sensitivity all parameters varied most revealed intrinsic currents most controlled model output
+found domains where different groups parameters had highest sensitivities suggesting interactions within each group shaped firing behaviors within each specific domain
+application our method its characterization models were sensitive general morphologic features will lead advances understanding how realistic morphology participates functional homeostasis
+significantly predict active conductances how many them will compensate given age development-related structural change will offset morphologic perturbation resulting trauma neurodegenerative disorder restore normal function
+our method adapted analyze any computational model
+thus sensitivity landscapes quantitative predictions they provide give new insight into mechanisms homeostasis any biological system
+ introduction 
+recent studies demonstrated neurons neuronal networks capable functional homeostasis maintaining specific levels neural activity over long time scales
+although combination currents within individual neurons same class varies widely output neurons even network whole remains remarkably stable
+interestingly some circumstances function maintained despite changes neuronal morphology
+computational models been used explore processes underlying neuronal homeostasis demonstrated many combinations conductance parameters across parameter space evoke similar firing patterns
+neuronal morphology also seems under homeostatic control: global features including distribution dendritic mass conserved across different classes neurons making unlikely local morphologic features dendritic length numbers branches regulated independently
+nonetheless computational models not yet explored how morphology might contribute functional homeostasis
+dendritic morphology critical determinant neuronal firing dynamics signal processing
+influence morphology neuronal processing further enhanced active ion channels distributed throughout dendrites
+previous computational studies identified conductance morphologic parameters drive general firing patterns but not quantified how different parameters influence individual models across parameter space
+moreover few studies analyzed contributions intracellular calcium dynamics firing patterns despite crucial role intracellular ca 2 shaping membrane potential synaptic transmission signaling cascades 
+working memory maintains brief mental representation recent event necessary future task performance one function thought exploit computational capacity dendrites
+persistent neural activity hallmark working memory been observed throughout brain
+neurons pre-cerebellar nucleus area ii goldfish exhibit likely contribute eye velocity storage mechanism displays persistent activity long after termination its eliciting stimulus
+experiments suggest intrinsic properties individual cells contribute persistent activity
+hypothesize morphologic properties area ii neurons partially compensate intrinsic differences active passive conductances maintain similar firing patterns throughout nucleus 
+begin test hypotheses like introduce novel application mathematical sensitivity analysis quantify effects different classes parameters like active conductances morphology model output
+quantification allows us compare effects each parameters models across parameter space produce similar output identifying mechanisms homeostasis
+sensitivity analysis been used widely physics chemical engineering biological signaling models understand relationship between model input output but its use within computational neuroscience been limited
+traditionally sensitivity analysis performed locally around single optimal model globally reporting general sensitivity throughout parameter space quantify how each parameter contributes model output
+large number parameters their nonlinear interactions render techniques insufficient over broad parameter space neuronal compartment models
+synthesize approaches explore sensitivity landscapes provide global picture parameter sensitivities while identifying how intrinsic properties individual neurons influence their firing patterns
+method adapted easily compare sensitivities parameters any computational model
+our method defined three basic steps: parameterizing morphology permit its systematic variation; evaluating sensitivity small perturbations models across parameter space; exploring sensitivity landscapes constructed local sensitivities identify global trends
+simplify presentation our method use reduced morphologic model comprising soma cylindrical dendrite
+later demonstrate our sensitivity analysis method applied models include more realistic morphologies
+our analysis identified principal directions over sensitivity magnitude even sign all parameters varied most
+at same time found domains across space different groups parameters even morphologic ones had highest sensitivities
+together results reveal mechanisms maintain homeostasis both locally globally across parameter space
+show how sensitivities used predict compensatory tradeoffs quantitatively between morphologic conductance parameters maintain target activity levels area ii cells
+compensatory mechanisms exist many systems where function conserved despite variability dendritic structure synaptic input membrane excitability may offset some morphologic changes associated aging neurodegenerative disorders
+sensitivity landscapes provide new insight into mechanisms functional homeostasis throughout brain facilitate analysis homeostasis any biological system

@@ -1,0 +1,30 @@
+ 
+alternative splicing gene duplication both processes diversify protein repertoire
+recent examples shown sequence changes introduced may comparable those introduced gd
+addition two processes inversely correlated at genomic scale: large gene families depleted splice variants vice versa
+all together data strongly suggest both phenomena result interchangeability between their effects
+here tested extent applies respect various protein characteristics
+amounts gd per gene anticorrelated even when accounting different gene functions degrees sequence divergence
+contrast two processes appear independent their influence variation mrna expression
+further conducted detailed comparison effect sequence changes both alternative splice variants gene duplicates protein structure particular size location types sequence substitutions insertions/deletions
+find general alternative splicing affects protein sequence structure more drastic way than gene duplication subsequent divergence
+our results reveal interesting paradox between anticorrelation gd at genomic level their impact at protein level shows little no equivalence terms effects protein sequence structure function
+discuss possible explanations relate order appearance gd gene family selection pressure imposed environment
+ introduction 
+alternative splicing gene duplication two main contributors diversity protein repertoire enormous impact protein sequence structure function
+interestingly several recent studies point direct equivalence between gd
+there some cases where alternative splice variants one organism similar gene duplicates another organism
+example eukaryotic splicing factor u2af35 at least two functional splice variants human u2af35a u2af35b differ seven amino acids rna recognition motif
+fugu orthologue u2af35-a no splice variant; instead there duplicate gene u2af35-b changes identical those found human splice variant u2af35b 
+further changes introduced sequence constrained need preserve stable functional three-dimensional fold
+indeed structural studies shown insertions deletions between gene duplicates tend happen at sequence locations where they less damaging loops at solvent-accessible locations
+restrictions will apply irrespective source changes thus may introduce certain degree similarity between sequence changes associated gd
+finally recent studies shown gd inversely correlated genome-wide scale i.e small gene families tend more genes alternative splice variants than do large families
+findings together i.e anecdotal examples structural constraints anticorrelation at genomic level suggest gd interchangeable sources functional diversification
+genes would not need produce additional variants form duplicates vice versa
+here first tested anticorrelation between gd respect sequence divergence function gene expression
+second studied interchangeability hypothesis at protein structure level asked what extent gd introduce changes sequence equivalent their nature effect structure function
+end conducted large-scale comparison effects gd human mouse proteins
+vast majority cases two processes result different protein modifications different functional implications
+finding while consistent different molecular mechanisms underlying both phenomena contradicts anticorrelation observed at genomic level
+discuss some possible explanations paradox

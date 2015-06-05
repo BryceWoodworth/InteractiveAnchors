@@ -1,0 +1,36 @@
+
+large data sets task whose up requires between many
+when number classes large between given different likely occur case may total
+study describe how consistent obtained despite discuss possible process terms human
+define notion between number consistent obtained number provided distributed
+show depends between number data seen single number classes
+suggest several algorithms distributed problem analyze their function
+addition provide bound case show approaches between number each provides number classes i e
+introduction
+applications machine learning larger training sets required both terms number training number classes considered
+recent years example related tasks object class recognition detection
+specifically object class recognition current data sets include classes
+consistent data sets size task
+up leads distributed provided large number
+example system researchers while game
+turn distributed several practical may data
+general while single relatively though not not case multiple
+different may differences their systems due several
+first different may use different words describe same class
+example one may use while other uses describe same class
+same may used two describe two different classes hence one may use describe while other uses describe
+similar problems occur when different data different levels so one over all while other between etc
+finally often do not exact so may one while other
+all become number classes increased thus their leads learning performance
+paper study cost consistent while specific distributed only some described above present
+distributed nature problem assume large data set examples set where each at most data points
+while there between classes used different assume their systems so class one may another
+later paper assumption consider case consistency exists between different
+both scenarios various problem domains
+consider example system large set including different people
+since not they give classes
+case consistency distributed between many different but only few
+between concept not our current analysis distributed
+another related our analysis extended relatively case initial data
+consider example task site like into large training data set
+our suggested algorithms analysis apply case

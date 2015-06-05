@@ -1,0 +1,91 @@
+ 
+one most popular algorithms clustering euclidean space means algorithm; means difficult analyze mathematically few theoretical guarantees known about particularly when data well-clustered
+paper attempt fill gap literature analyzing behavior means well-clustered data
+particular study case when each cluster distributed different gaussian  other words when input comes mixture gaussians
+analyze three aspects means algorithm under assumption
+first show when input comes mixture two spherical gaussians variant means algorithm successfully isolates subspace containing means mixture components
+second show exact expression convergence our variant means algorithm when input very large number samples mixture spherical gaussians
+our analysis does not require any lower bound separation between mixture components
+finally study sample requirement means; mixture spherical gaussians show upper bound number samples required variant means get close true solution
+sample requirement grows increasing dimensionality data decreasing separation between means gaussians
+match our upper bound show information-theoretic lower bound any algorithm learns mixtures two spherical gaussians; our lower bound indicates case when overlap between probability masses two distributions small sample requirement means near-optimal
+ introduction 
+one most popular algorithms clustering euclidean space means algorithm ; simple local-search algorithm iteratively refines partition input points until convergence
+like many local-search algorithms means notoriously difficult analyze few theoretical guarantees known about
+there been three lines work means algorithm
+first line questioning addresses quality solution produced means comparison globally optimal solution
+while been well-known general inputs quality solution arbitrarily bad conditions under means yields globally optimal solution well-clustered data not well-understood
+second line work examines number iterations required means converge  shows there exists set points plane means takes many iterations converge points
+smoothed analysis upper bound iterations been established  but bound still much higher than what observed practice where number iterations frequently sublinear
+moreover smoothed analysis bound applies small perturbations arbitrary inputs question whether one get faster convergence well-clustered inputs still unresolved
+third question considered statistics literature statistical efficiency means
+suppose input drawn some simple distribution means statistically consistent; then how many samples required means converge
+there other consistent procedures better sample requirement
+paper study all three aspects means studying behavior means gaussian clusters
+data frequently modelled mixture gaussians; mixture collection gaussians weights 
+sample mixture first pick probability then draw random sample
+clustering data then reduces problem learning mixture ; here given only ability sample mixture our goal learn parameters each gaussian  well determine gaussian each sample came
+our results follows
+first show when input comes mixture two spherical gaussians variant means algorithm successfully isolates subspace containing means gaussians
+second show exact expression convergence variant means algorithm when input large number samples mixture two spherical gaussians
+our analysis shows convergence-rate logarithmic dimension decreases increasing separation between mixture components
+finally address sample requirement means; mixture spherical gaussians show upper bound number samples required variant means get close true solution
+sample requirement grows increasing dimensionality data decreasing separation between means distributions
+match our upper bound show information-theoretic lower bound any algorithm learns mixtures two spherical gaussians; our lower bound indicates case when overlap between probability masses two distributions small sample requirement means near-optimal
+additionally make some partial progress towards analyzing means more general case  show if our variant means run mixture spherical gaussians then converges vector subspace containing means
+key insight our analysis novel potential function  minimum angle between subspace means  normal hyperplane separator means
+show angle decreases iterations our variant means characterize convergence rates sample requirements characterizing rate decrease potential
+one most popular algorithms clustering euclidean space means algorithm
+means iterative algorithm begins initial partition input points successively refines partition until convergence
+paper perform probabilistic analysis means when applied problem learning mixture models
+mixture model collection distributions weights 
+sample mixture obtained selecting probability  then selecting random sample
+given only ability sample mixture problem learning mixture determining parameters distributions comprising mixture b classifying samples according source distribution
+most previous work analysis means studies problem statistical setting shows consistency guarantees when number samples tend infinity
+means algorithm also closely related widely-used em algorithm learning mixture models  essentially main difference between means em being em allows sample fractionally belong multiple clusters means does not
+most previous work analyzing em view optimization procedure over likelihood surface study its convergence properties analyzing likelihood surface around optimum
+paper perform probabilistic analysis variant means when input generated mixture spherical gaussians
+instead analyzing likelihood surface examine geometry input use structure show algorithm makes progress towards correct solution each round high probability
+previous probabilistic analysis em due  applies when input comes mixture spherical gaussians separated two samples same gaussian closer space than two samples different gaussians
+contrast our analysis much finer while still deals mixtures two more spherical gaussians applies under any separation
+moreover quantify number samples required means work correctly \medskip{ our results } more specifically our results follows
+perform probabilistic analysis variant means; our variant essentially symmetrized version means reduces means when very large number samples mixture two identical spherical gaussians equal weights
+means algorithm separator between two clusters always hyperplane use angle between normal hyperplane mean mixture component round  measure potential each round
+note when  arrived at correct solution
+first section consider case when at our disposal very large number samples mixture mixing weights respectively
+show exact relationship between  any value  
+using relationship approximate rate convergence means different values separation well different initialization procedures
+our guarantees illustrate progress means very fast  namely square cosine grows at least constant factor high separation each round when one far actual solution slow when actual solution very close
+next section characterize sample requirement our variant means succeed when input mixture two spherical gaussians
+case two identical spherical gaussians equal mixing weight our results imply when separation  when samples used each round means algorithm makes progress at roughly same rate section
+agrees sample complexity lower bound learning mixture gaussians line well experimental results
+when  our variant means makes progress each round when number samples at least
+then section provide information-theoretic lower bound sample requirement any algorithm learning mixture two spherical gaussians standard deviation equal weight
+show when separation  any algorithm requires samples converge vector within angle true solution where constant
+indicates means near-optimal sample requirement when
+finally section examine performance means when input comes mixture spherical gaussians
+show case normal hyperplane separating two clusters converges vector subspace containing means mixture components
+again characterize exactly rate convergence looks very similar bounds section \medskip{ related work } convergence-time means algorithm been analyzed worst-case  smoothed analysis settings ;  shows convergence-time means may even plane  establishes smoothed complexity bound  analyzes performance means when data obeys clusterability condition; however their clusterability condition very different moreover they examine conditions under constant-factor approximations found
+statistics literature means algorithm been shown consistent  shows minimizing means objective function namely sum squares distances between each point center assigned consistent given sufficiently many samples
+optimizing means objective np-hard one cannot hope always get exact solution
+none two works quantify either convergence rate exact sample requirement means
+there been two lines previous work theoretical analysis em algorithm  closely related means
+essentially learning mixtures identical gaussians only difference between em means em uses partial assignments soft clusterings  whereas means does not
+first  views learning mixtures optimization problem em optimization procedure over likelihood surface
+they analyze structure likelihood surface around optimum conclude em first-order convergence
+optimization procedure parameter said first-order convergence if where estimate at time step using samples maximum likelihood estimator using samples some fixed constant between
+contrast our analysis also applies when one far optimum
+second line work probabilistic analysis em due ; they show two-round variant em converges correct partitioning samples when input generated mixture well-separated spherical gaussians
+their analysis work they require mixture components separated two samples same gaussian little closer space than two samples different gaussians
+contrast our analysis applies when separation much smaller
+sample requirement learning mixtures been previously studied literature but not context means  provides algorithm learns mixture two binary product distributions uniform weights when separation between mixture components at least constant so long samples available notice distributions directional standard deviation at most  their algorithm similar means some respects but different they use different sets coordinates each round very crucial their analysis
+additionally show spectral algorithm learns mixture binary product distributions when distributions small overlap probability mass sample size at least
+shows at least samples required learn mixture two gaussians one dimension
+note although our lower bound seems contradict upper bound  not actually case
+our lower bound characterizes number samples required find vector at angle vector joining means
+however order classify constant fraction points correctly only need find vector at angle vector joining means
+since goal simply classify constant fraction samples their upper bound less than
+addition theoretical analysis there been very interesting experimental work due  studies sample requirement em mixture spherical gaussians
+they conjecture problem learning mixtures three phases depending number samples : less than about samples learning mixtures information-theoretically hard; more than about samples computationally easy between computationally hard but easy information-theoretic sense
+finally there been line work provides algorithms different em means guaranteed learn mixtures gaussians under certain separation conditions  see example
+mixtures two gaussians our result comparable best results spherical gaussians terms separation requirement smaller sample requirement

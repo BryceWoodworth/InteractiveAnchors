@@ -1,0 +1,28 @@
+ 
+researchers typically use incentives money course credit order obtain participants who engage specific behaviors interest researcher
+there however little understanding agreement effects different types levels incentives used
+some results domain statistical reasoning suggest performance differences  previously deemed theoretically important  may actually due differences incentive types across studies number participants completed one five variants statistical reasoning task they received either course credit flat fee payment performance-based payment incentives
+successful task completion was more frequent performance-based incentives than either other incentive types
+performance moderately difficult tasks compared very easy very hard tasks was most sensitive incentives
+results help resolve existing debates about inconsistent findings guide more accurate comparisons across studies applied beyond research settings
+ introduction 
+behavioral sciences research participants typically must provided some type incentive their participation much like employees typically must paid
+although long been noted amount incentive provided animals influence subsequent performance use research incentives humans been characterized both inconsistencies across fields controversy about effectiveness
+norm psychological research tie research participation course credit often part introductory psychology course occasionally some other form set payment amount i e flat-fee
+contrast norm economics research pay participants money scale those payments performance within research i e performance-based incentives
+recently been noted discrepancies methodology implications cross-disciplinary variations results theoretical conclusions research
+retrospective reviews past studies made case there real issue regarding effects participant incentives but they disagree what studies show
+camerer hogarth focused performance-based incentives found little evidence global improvements performance but more subtle effects reduced variability responses reduced presentation effects perhaps performance improvements specifically judgment tasks responsive better effort
+ortmann colleagues found similar results camerer hogarth but also found reason more optimistic about effects financial incentives
+they concluded majority cases where payments made difference they improved people's performance p number although payments do not guarantee optimal decisions many cases they bring decisions closer predictions normative models
+moreover equally important they reduce data variability substantially p number
+within psychology there been general debate about effectiveness incentives generally financial incentives some arguing finding incentives important motivators but others taking contrary positions finding null results
+two factors complicate controversy
+first factor use diverse behaviors effects incentives been assessed ranging simple perceptual tasks complex social coordination tasks
+if often supposed financial incentives should increase effort tasks will manifested only tasks additional effort yields clear response improvement
+tasks participants already performing at near their best not likely show much improvement nor tasks so difficult beyond participant's abilities
+second factor type incentive used
+when financial incentives used psychology they typically flat-fee payments more directly analogous non-financial course credit payments norm psychology but both very different  terms incentive structure  performance-based financial incentives
+therefore remains unclear how different types incentives do do not systematically affect performance across different types tasks different levels task difficulty
+experimental economics contrast researchers commonly use performance-based financial incentives reject methodology typical psychology insufficient several respects
+specifically argued performance-linked incentives serve reduce variance performance b avoid problems satiation i e more money always desirable thereby maintaining high levels attention motivation c make target behaviors clear easy establish d maximize efforts towards optimal behavior performance

@@ -1,0 +1,79 @@
+
+what proteins yeast
+how different protein complex together over time
+our ability answer questions been limited interaction networks
+propose several novel algorithms growth history network
+our method previous state graph assumed growth model time
+approach so history individual nodes
+using estimate protein yeast network good estimates structural features protein
+further comparing quality several different growth models provide additional evidence model many features network growth better than models designed social network growth
+history model time interactions predict significantly over time new tend form within existing
+also distribution rates change clustering predict relationships between proteins likely relationships using sequence
+finally parameters model predicting relative probability various evolutionary events
+algorithms history yeast its form
+introduction
+many biological social networks evolutionary process their growth
+how networks over time help us answer questions about why observed network structures exist how they may change future
+analyses network growth dynamics studied how properties structure change over time how structural patterns been how information network
+however many cases only network available without history changes
+biology domain where networks been species into organisms
+example while do few interaction networks organisms networks do not form linear instead derived species at tree
+networks years evolution changes at level
+social networks typically only single current available due simply because network was not since its
+lack data makes understanding how network difficult
+often although do not know past do know general principle growth
+several network growth models been widely used explain features observed networks
+models provide procedure random graphs exhibit similar features class real networks
+example many properties world wide
+model was found et al model best d protein interaction network
+model was shown produce networks properties degree distribution similar properties online social networks
+although random graph models themselves been useful understanding global changes network network will generally not target network
+means history random graph will not history real network
+hence growth random networks only explore properties model cannot individual observed through time
+problem however if instead random graph according evolutionary model actual observed network time model
+resulting sequence networks history network
+networks many applications
+used estimate nodes model evolution interactions network clusters motifs
+addition proposed growth models corresponding history best known history other information
+et al explore idea likelihood model based how well model each observed given complete history network
+model its ability certain global network properties itself
+example et al found networks according model property d network but did not empirical network other aspects
+et al made similar observation social network models
+also used network but smaller network key properties
+used graph algorithms
+biological network setting network provide view evolution derived sequence data
+social network setting if only single network network would allow us estimate when particular network its activity since being
+could might need additional network
+some been made find small graphs particular models may
+et al under model et al under model found graphs likely produce graphs properties
+graphs thought graphs at very large but techniques them do not do they
+previous studies networks solve related network inference problems but assume different available data
+example use random graph models other approaches dynamic networks requires observed attributes at each time point
+they also limited because they use models without biological mechanism require set nodes known at each time point
+et al use importance sampling most likely parameters network c according model but they do not explicitly networks
+et al only model loss gain fixed set nodes metabolic networks
+there also been some work biological networks using gene
+approaches play gene tree
+gene tree provides view evolutionary history should network history but their relationship also
+further gene tree approaches only loss do not account models evolution only consider per gene family
+network alignment between two species also been used find conserved network structures
+however methods do not model evolution interactions do so using heuristic measures
+finally study biological sequences long history work
+sequence been used genes their function understand how environment affected genomes determine amino life
+similar questions network setting however requires significantly different
+here propose framework graphs at many network growth models
+our efficient heuristic high likelihood graphs using only information each history each
+gain confidence procedure show using data network models even presence some network noise
+when applied interaction network history many previously predicted features network evolution
+estimates protein when using model known related proteins events
+addition predicts proteins more likely at core protein result obtained via other means
+comparing predicted protein using different models further better mechanism model growth networks compared model model designed social networks
+when applied social network model does not produce accurate network model also social network context at task who growth new
+thus models social network evolution do not well biological networks expected notion through alternative means
+also used our history network make several novel predictions
+example estimate time interactions predict often proteins within same complex recently many
+history also used change network properties over time clustering find been recent evolution
+analysis rates over history suggests proteins interactions been involved number events existing belief proteins many interactions more
+addition predicts relationships between proteins strongly network estimates
+thus history makes number detailed predictions about relative order events evolution yeast many known biology many novel
+ability algorithms significant features history further utility models network evolution suggests alternative approach growth models some history network single

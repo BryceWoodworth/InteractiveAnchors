@@ -1,0 +1,23 @@
+ 
+ratio-bias phenomenon observed psychologist seymour epstein colleagues systematic manifestation irrationality
+when offered choice between two lotteries individuals consistently choose lottery greater number potential successes even when offers smaller probability success
+current study conduct experiments confirm phenomenon test existence bias distinct general irrationality
+moreover examine effect introducing monetary incentive varying size depending treatment extent irrational choices within framework
+confirm existence bias
+moreover existence incentive significantly reduces extent irrationality exhibited effect roughly linear response changes size incentive within magnitudes investigated
+ introduction 
+consider following problem you asked draw red marble either two urns
+urn contains number marbles number red
+urn b contains number marbles number red
+urn do you choose
+rational actor maximizing probability choosing red marble will choose urn
+psychologist seymour epstein colleagues documented many individuals choose urn b when presented choice similar choices
+epstein named ratio-bias phenomenon appears individuals biased toward choices large numbers potential successes rather than large probabilities potential successes
+present investigation explores ratio-bias phenomenon along two dimensions
+first test errors within framework symmetric fashion
+referring example above not only present participants decisions like one but also decisions urn larger number marbles greater probability success therefore optimal choice
+if observe similar frequencies errors two circumstances then conclude there no real ratio-bias phenomenon but rather observation random error both directions
+if frequency irrational decisions differs across treatments however then conclude ratio-bias phenomenon exists
+second dimension interest incentives
+participant ratio-bias experiment confronts decision well suited introduction small monetary incentive testing its marginal effect
+implement combination within between-subjects design test effect monetary incentives decision making well varying size incentive test effect incentive magnitude decision optimality

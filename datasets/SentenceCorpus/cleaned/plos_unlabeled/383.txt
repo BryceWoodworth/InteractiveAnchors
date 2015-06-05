@@ -1,0 +1,38 @@
+ 
+drug molecules not only interact specific targets but also alter state function associated biological network
+how design drugs evaluate their functions at systems level becomes key issue highly efficient low side-effect drug design
+arachidonic acid metabolic network network produces inflammatory mediators several enzymes including cyclooxygenase-2 been used targets anti-inflammatory drugs
+however neither century-old nonsteriodal anti-inflammatory drugs nor recently revocatory vioxx provided completely successful anti-inflammatory treatment
+gain more insights into anti-inflammatory drug design authors studied dynamic properties arachidonic acid metabolic network human polymorphous leukocytes
+metabolic flux exogenous aa effects drug efficacy been analyzed using ordinary differential equations
+flux balance aa network was found important efficient safe drug design
+when only 5-lipoxygenase inhibitor was used flux cox-2 pathway was increased significantly showing single functional inhibitor cannot effectively control production inflammatory mediators
+when both cox-2 5-lox were blocked production inflammatory mediators could completely shut off
+authors also investigated differences between dual-functional cox-2 5-lox inhibitor mixture two types inhibitors
+their work provides example integration systems biology drug discovery
+ introduction 
+nonsteriodal anti-inflammatory drugs widely used treatment musculoskeletal pain other conditions
+us more than 1 percent population uses nsaids daily market nsaids now amounts more than $6 billion annually worldwide
+although nsaids do alleviate aches pains drugs undesirable side effects gastrointestinal tract central nervous system addition potential exacerbation conditions asthma
+findings cyclooxygenase-2 plays major role inflammation inhibition cox-1 causes gastrointestinal toxicity mild bleeding diathesis had suggested selective cox-2 inhibitor would effective anti-inflammatory drug low gastrointestinal side effects
+ironically unexpected cardiovascular side effects selective cox-2 inhibitors surfaced
+thus september 30 2004 merck company announced voluntary withdrawal company's cox-2 inhibitor vioxx
+other fda-approved cox-2 inhibitors celecoxib valdecoxib being re-evaluated
+despite years studies safe anti-inflammatory drug design remains great challenge
+failures anti-inflammatory drug design illustrate limitations current drug discovery paradigm
+steady waning productivity pharmaceutical industry past decade been observed
+decline coincides introduction target-based drug discovery
+recently medicinal chemists started think about drug discovery systems biology perspective
+studying cross-talks between biological responses rather than one one may provide better understanding disease development achieve accurate evaluation drug efficacy toxicity
+new approach been applied safe drug design
+example former smithkline beecham focused blood coagulation cascade biochemical network
+armed good understanding disease regulatory network level company used model predictions develop fully humanized anti factor ix antibody entered clinical trials
+rajasethupathy et al recently reviewed advances practical applications systems biology drug discovery
+researchers promote development network-based drug design devises drug-treatment strategies level disease system using computational models high-throughput experiments
+paper study dynamic properties arachidonic acid metabolic network human polymorphonuclear leukocytes hope gaining more insights into anti-inflammatory drug design
+ordinary differential equation model aa metabolic network was developed
+flux analysis simulation addition exogenous aa were performed study network balance
+therapeutic effects anti-inflammatory inhibitors were simulated difference between dual functional cox-2 5-lipoxygenase inhibitors mixture two types inhibitors was studied
+corresponding experiments introduction exogenous aa cox-2 5-lox inhibitors were performed were found consistent model predictions
+our work shows flux balance important efficacy safety drugs
+compared traditional single-target drugs drugs against multiple targets control network balance lead safer treatment

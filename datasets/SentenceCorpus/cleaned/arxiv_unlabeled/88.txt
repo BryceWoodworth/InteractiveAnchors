@@ -1,0 +1,18 @@
+ 
+% show brier game prediction mixable find optimal learning rate substitution function
+resulting prediction algorithm applied predict results football tennis matches
+theoretical performance guarantee turns out rather tight data sets especially case more extensive tennis data
+ introduction 
+paradigm prediction expert advice was introduced late 1980s see eg     been applied various loss functions; see recent book-length review
+especially important class loss functions ``mixable'' ones learner's loss made small best expert's loss plus constant depending number experts
+known optimal additive constant attained ``strong aggregating algorithm'' proposed use adjective ``strong'' distinguish ``weak aggregating algorithm'' 
+there several important loss functions been shown mixable optimal additive constant been found
+prime examples case binary observations log loss function square loss function
+log loss function whose mixability obvious been explored extensively along its important generalizations kullback--leibler divergence cover's loss function
+paper concentrate square loss function
+binary case its mixability was demonstrated
+there two natural directions result could generalized: regression: observations real numbers square-loss regression standard problem statistics classification: observations take values finite set leads ``brier game'' defined below standard way measuring quality predictions meteorology other applied fields: see eg  
+mixability square loss function case observations belonging bounded interval real numbers was demonstrated ; haussler et al 's algorithm was simplified
+surprisingly case square-loss non-binary classification never been analysed framework prediction expert advice
+purpose paper fill gap
+its short conference version appeared icml 2008 proceedings

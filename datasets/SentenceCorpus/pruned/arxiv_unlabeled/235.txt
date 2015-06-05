@@ -1,0 +1,30 @@
+
+article problem learning sparse given signal class via
+problem also seen matrix training signals into matrix matrix sparse
+exact question studied here when pair local minimum criterion input
+first general matrices conditions local derived then case when basis
+finally random sparse model matrix shown high probability
+result typically sufficient number training samples up factor only signal dimension contrast previous approaches many samples
+introduction
+many signal processing tasks performed if one sparse representation signals interest
+moreover body recent results sparse their impact linear problems source well sampling point see eg any one will more likely than not find signal having sparse points all applications sparse rely signal sparse linear approximate signals class depends good between data class many signal classes good known but new data classes may require new new types data features
+mathematical tools analysis
+may however difficult time develop complex mathematical theory each time new class data requires different type
+alternative approach learning at set training data
+learning also known sparse potential sparse representation techniques new data classes article theoretical learning problem expressed problem matrix set observed training vectors some unknown vectors certain statistical properties literature available sparse problem after early work little work been theoretical learning so far
+there exist several learning algorithms see eg but only recently people consider also theoretical aspects problem
+research into what now called learning found field independent component analysis
+there many results available however rely statistical properties under statistical assumptions contrast well described more conditions sparse training data
+yet conditions size training set seems required fast number good identification algorithms
+moreover algorithms analysis not robust i e training samples where sparse
+applications other hand relatively data e g even but limited training data not much larger than well limited computational article study good learning algorithms robust limited training samples
+recent good properties sparse signal given investigate properties based learning
+our goal described section properties set training samples should only local minimum criterion up learning algorithms efficient numerical techniques
+first step investigate conditions under local minimum criterion results } first describe proposed setting section local cost function section
+discuss section
+then using concentration measure prove section result when if samples random distribution generate large then any basis matrix local minimum cost function therefore
+constant depends parameter distribution training set number training samples small training samples provide real parameters while basis matrix independent real parameters considered matrix identification setting should not convex cost function
+several local hence local only upon good initial conditions numerical will matrix
+however empirical experiments low dimension shown section training samples matrix fact only local minimum criterion up natural problem
+if empirical observation could into theorem general dimension under sparse model would good identification principle b any algorithm good identification algorithm
+

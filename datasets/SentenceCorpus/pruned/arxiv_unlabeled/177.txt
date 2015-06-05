@@ -1,0 +1,77 @@
+
+many researchers cognitive core
+most work computational modeling structure theory its structure
+complex
+introduce relation analysis order
+between words using large among words
+evaluate set problems based based common
+performance problems
+compare variety alternative approaches find they not able same level performance
+introduction
+when problem similar problems past so our knowledge past experience current problem
+make between past situation current situation use knowledge
+his computational modeling structure theory its structure most work modeling
+source target
+source more more known more whereas target relatively unknown
+used knowledge source target
+there two similarity similarity similarity
+between attributes may terms
+one large
+relation two more
+structure based similarity over based similarity
+example able representation system source representation model target
+
+note similarity
+very different terms their very large very small
+little similarity
+other hand like
+like
+provides evidence rely similarity over similarity they
+uses terms based similarity based similarity similarity mixture similarity
+since use solve problems make predictions should focus structure especially attributes
+between system model importance underlying structures
+show used input between system
+complex
+they argue most work human who rather than } } their their recent work
+system generate simple
+system generate models
+learning system generate natural
+systems do not require input
+however requires person who identify basic components them terms knowledge base derived
+et al note contains more than they further order support
+system requires physical model using methods
+learning uses more than patterns were derived
+still requires knowledge
+work present paper effort complex
+our approach analysis
+call resulting algorithm relation
+represent relation between two terms using vector elements derived pattern large
+because derived does not require
+only terms source terms target
+given two uses among terms then between two
+show input output between system model
+although some human effort involved input less effort than requires its input contrast } } between system model may but our
+potential practical application work task
+since not attributes appropriate role problem
+example contains contains
+task their following examples if training set testing set then may view task testing problem between training sources testing targets
+shows how do help
+might environment
+been found knowledge form role source target } section discuss design
+then define task performed specific form section
+analysis hence section
+discuss potential applications section
+evaluate problems problems common problems
+one problems
+our solution given
+our solutions our terms asked them generate between
+section results experiment
+across problems average our solutions was
+algorithm section along its evaluation problems
+accuracy
+difference between performance human average not significant
+section variety alternative approaches task
+best approach accuracy but approach requires
+performance significantly below human performance
+section discuss some questions results
+related work described section future work considered section section

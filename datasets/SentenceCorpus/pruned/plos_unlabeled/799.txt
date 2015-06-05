@@ -1,0 +1,40 @@
+
+one selection sequence evolution protein sufficient stability perform its biological functions
+present framework how probability particular amino mutation fixed during evolution depend its effect protein stability
+framework develop bayesian approach stability effects individual mutations protein sequences known
+approach able predict experimentally measured stability effects accuracy both modeling program approach
+further test use our inference approach predict mutations
+introduce mutations into its gene experimentally demonstrate some mutations allow at higher
+our work therefore new approach predicting mutations applied even large complex proteins
+approach also makes mathematical between experimentally protein properties potentially way more accurate analyses molecular evolution
+introduction
+knowledge impact individual amino mutations stability both understanding natural evolution its properties
+experimentally effects mutations protein stability process so variety methods been predict effects
+most existing methods rely some type modeling mutation context structure often information statistical analyses protein sequences structures
+types methods accurate at predicting effects mutations small proteins
+there little no data their performance larger more complex proteins biological interest although might expected given greater difficulty modeling larger structures
+alternative approach predicting effects mutations protein stability information related sequences
+approach was introduced alignment related sequences random sample all possible sequences into given protein structure
+based statistical frequency given sequence alignment assumed function its stability
+often called approach since always predicts most mutation will most
+approach wide range studies basic notion residues tend appear more sequence proteins
+but although often effective approach natural proteins do not represent random samples all possible sequences given structure but instead highly evolutionary relationships
+particular might occur because through independent amino might occur simply because common many related sequences alignment
+sequence evolution even related protein so problem will all natural sequence
+therefore would information about protein stability sequence using method evolutionary relationships
+fact there highly developed mathematical protein sequences
+widely used methods protein models amino likelihood
+however methods make no effort determine how selection protein stability might itself amino alignment sequences
+instead their form methods simply assume there universal average tendency one particular amino another
+more methods allow different average different classes protein residues
+still other methods use simulations other methods derive matrices different protein
+however methods probabilities effects mutations experimentally properties protein stability do they provide method predicting effects mutations protein
+here present approach using protein effects amino mutations protein stability
+framework effect protein stability probability will fixed evolution
+then show how framework used likelihood specific relationships given stability effects all possible amino mutations protein
+our actual goal do stability effects given known protein
+use bayesian inference derived modeling program
+compare stability effects experimental values several proteins show our method both modeling program approach
+finally use our method predict mutations increase complex mutations previously been predicted any approach
+introduce predicted mutations into experimentally demonstrate several them increase protein context
+overall our work framework protein stability into analyses well new approach predicting mutations

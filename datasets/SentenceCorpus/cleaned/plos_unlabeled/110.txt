@@ -1,0 +1,26 @@
+ 
+retroviral insertional mutagenesis screens identify genes involved tumor development mice yielded substantial number retroviral integration sites number expected grow substantially due introduction high-throughput screening techniques
+data various retroviral insertional mutagenesis screens compiled publicly available retroviral tagged cancer gene database
+integrally analyzing screens presence common insertion sites requires approach corrects increased probability finding false ciss amount available data increases
+moreover significance estimates ciss should established taking into account both noise arising random nature insertion process well bias stemming preferential insertion sites present genome data retrieval methodology
+introduce framework kernel convolution framework find ciss noisy biased environment using predefined significance level while controlling family-wise error
+where previous methods use one two three predetermined fixed scales our method capable operating at any biologically relevant scale
+creates possibility analyze ciss scale space varying width ciss providing new insights behavior ciss across multiple scales
+our method also features possibility including models background bias
+using simulated data evaluate kc framework using three kernel functions gaussian triangular rectangular kernel function
+applied gaussian kc data combined set screens rtcgd found 53 percent ciss do not reach significance threshold combined setting
+still fwe under control application our method resulted discovery eight novel ciss each probability less than 5 percent being false detections
+ introduction 
+retroviral insertional mutagenesis experiments genes involved development cancer identified determining loci viral insertions tumors induced retroviruses mice
+after infecting host cell retrovirus inserts its own dna into host cell's genome mutating host cell's dna process
+mutation may alter expression genes vicinity insertion when inserted within gene alter gene product
+when affected gene cancer gene activation proto-oncogene inactivation tumor-suppressor gene cause uncontrolled proliferation cells
+eventually may give rise tumors
+throughout text cancer-causing insertions referred oncogenic insertions
+tumor develops when accumulation oncogenic insertions causes uncontrolled proliferation cell
+result tumor tissue contains many copies cell bearing oncogenic insertions induced proliferation but only few copies cells carrying non-oncogenic insertions
+consequently when dna tumor analyzed one will encounter insertion induced proliferation larger proportions than insertions do not
+regions genome found carry insertions multiple independent tumors called common insertion sites
+result locations ciss highly correlated location genes involved tumor development
+cloning flanking sequences inserted virus determine insertion loci analyzing data find significant ciss therefore enable discovery new candidate cancer genes
+summarized figure s1

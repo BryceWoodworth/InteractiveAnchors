@@ -1,0 +1,45 @@
+
+growth factor family proteins critical
+vegf concentration important activation but not possible
+detailed computational model study two vegf under conditions
+using parameters based experimental measurements model vegf binding binding activation cell vegf
+predicted vegf distributions receptor binding
+significant vegf were predicted vegf due distribution
+relative vegf were not matrix overall vegf expression level but were dependent vegf receptor density rate parameters
+vegf subset increased vegf possible
+number relative position determined vegf distribution vegf receptor activation
+total vegf expression level into small number increase number
+vegf concentration predicted sufficient cellular cell long
+vegf also result activation vegf
+first model vegf provides design evaluation approaches
+introduction
+growth factor key increases cells
+there main vegf most
+vegf expressed at different levels variety cells body including
+vegf domain allows binding
+vegf also but domain
+because domain only vegf present high matrix membrane two different signaling both physiological cancer
+furthermore due presence high cells large amount vegf bound sources vegf vegf
+cellular response vegf occurs when signaling binding vegf its cell receptor
+vegf after two vegf
+their interactions vegf each other discussed
+vegf involved both physiological
+vegf necessary physiological under conditions via mechanisms pathway increased
+during both increased through vegf
+because importance vegf many trials under way both
+including vegf rna human vegf
+use vegf treatment generated interest but direct vegf not yet produced effective results humans initial trials cells effective but require further work
+effective better understanding needed both physiological
+increasing vegf concentration leads but vegf critical levels may result formation
+thus normal only if vegf above threshold levels but below threshold levels over time
+furthermore responses vegf depend not only vegf concentration but also vegf direct growth
+therefore not sufficient measure vegf large samples order predict behavior
+present study computational model study vegf effects vegf receptor binding using sample environment
+previously models vegf binding cells effect presence growth factor
+also shown using methods despite very small free vegf description terms vegf
+vegf also been studied using computational model
+however our knowledge first model vegf complex environment two most vegf through binding vegf vegf receptor binding
+was not model because there no available measurements amount
+using model predict vegf distribution analyze vegf at measure experimentally
+use model will understanding mechanisms physiological vegf
+model general may upon future include additional molecular species new experimental data expression level also applied specific drug interactions other types

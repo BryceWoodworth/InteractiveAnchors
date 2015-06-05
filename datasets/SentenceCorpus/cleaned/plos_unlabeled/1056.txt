@@ -1,0 +1,39 @@
+ 
+many important protein protein interactions mediated binding short peptide stretch one protein large globular segment another
+recent efforts provided hundreds examples new peptides binding proteins three-dimensional structure available but where no structure protein peptide complex known
+address gap present approach accurately predict peptide binding sites protein surfaces
+peptides known bind particular protein method predicts binding sites great accuracy specificity approach means also used predict whether not putative predicted peptide partner will bind
+used known protein peptide complexes derive preferences form spatial position specific scoring matrices describe binding-site environment globular proteins each type amino acid bound peptides
+then scan surface putative binding protein sites each amino acids present peptide partner search combinations high-scoring amino acid sites satisfy constraints deduced peptide sequence
+method performed well benchmark largely agreed experimental data mapping binding sites several recently discovered interactions mediated peptides including rg-rich proteins smn domains epstein-barr virus lmp1 tradd domains dbc1 sir2 ago hook argonaute piwi domain
+method associated statistics excellent tool predicting studying binding sites newly discovered peptides mediating critical events biology
+ introduction 
+protein protein interactions vital all cellular processes including signaling dna repair trafficking replication gene-expression metabolism
+interactions vary substantially how they mediated
+what perhaps most often comes mind interactions involving large interfaces those inside hemoglobin tetramer however many important protein interactions particularly those transient low-affinity related post-translational modification events like phosphorylation mediated binding globular domain one protein short peptide stretch another
+stretches often reside non-globular and/or disordered parts proteome including many disordered interaction hubs thus helping explain many emerging functional roles regions
+peptide regions binding common protein domain often conform sequence pattern linear motif captures key features binding
+instance sh3 domains bind pxxp motifs ww domains bind ppxy pplp motifs sh2 14-3-3 ptb domains bind phosphorylated peptides
+since they generally held more chemically tractable than interactions involving larger interfaces protein peptide interactions also represent important new class drug targets there growing number small molecules designed target them 
+discovery new peptides motifs mediating interactions been intense interest recent years
+several techniques been developed uncover new variants peptides bind known partners
+instance phage display peptide array technologies been applied uncover new peptide partners many proteins domains including sh3 ww pdz domains
+several computational approaches also been developed use protein peptide complexes known 3d structure find additional peptides likely bind recently probabilistic interaction networks been used predict peptide regions corresponding kinase substrate
+common thread all approaches they rely prior knowledge type peptide binding domain often require further knowledge peptide binding site globular protein
+they thus generally only effective finding new variants known peptides cannot directly uncover new protein peptide interaction types
+protein protein docking currently only widely used technique applied problem generally however approach limited application peptides longer than 4 residues largely owing high degree flexibility one must consider when docking typical peptide 5 10 residues need known peptide conformation only rarely available
+moreover docking methods very sensitive conformational changes require very high-resolution structures perform well
+determining new protein peptide interaction types problematic experimentally mostly because difficult advance know regions larger proteins responsible binding necessitating painstaking experiments deletion mutagenesis coupled binding assays
+address several computational methods been developed discover new protein peptide-motif pairs using principle sequence over-representation proteins common interacting partner
+methods together much conventional work focused understanding interactions identified predicted hundreds new peptide-motifs mediating interactions particular protein domain families
+however discoveries rarely provide information about where peptide binds protein
+knowing details suggest further experiments help ultimately design chemical modulators interaction
+structures protein peptide complexes all newly discovered interactions will require substantial time become available though rapid increase structural data single proteins means very often 3d structures available at least part protein isolation
+there thus widening gap between proteins known structure known predicted bind particular peptide available 3d complexes would foster deeper understanding mechanism afford discovery additional peptides
+here present method attempts bridge gap predicting binding site peptides protein surfaces
+used dataset protein peptide complexes known 3d structure extracted protein data bank define spatial position specific scoring matrices capturing preferences how each amino acid binds protein surfaces
+three dimensional position specific scoring matrices been used past predict protein folding assess quality structural models predict function proteins based matches position specific scoring matrices new protein structure identify protein surface similarities
+however best our knowledge they not been used predict interactions way
+new protein peptide pair identify candidate peptide binding sites linking predicted sites each residue protein surface according peptide-deduced distance constraints
+developed statistics determine confidence prediction estimate whether not putative peptide binds
+when applied benchmark cross-validated fashion obtained excellent sensitivity specificity allowed us apply approach several new interactions interaction viral oncoprotein latent membrane protein 1 tumor necrosis factor receptor 1-associated death domain protein offering suggestions binding sites further investigation

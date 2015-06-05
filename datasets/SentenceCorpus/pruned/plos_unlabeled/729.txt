@@ -1,0 +1,37 @@
+
+there evidence biological limited number weight states
+memory continuous weights new
+there been about how learning
+paper terms information
+use learning rules investigate how maximum information depends number number synaptic states
+below certain critical number per find similar continuous
+hence do not lower
+introduction
+memory biological neural systems synaptic weights
+computational models memory systems been order study their properties explore potential
+optimal learning rules been studied both networks studied here networks
+synaptic weights models represented continuous real numbers
+however biology well potential synaptic weights should take values between certain bounds
+furthermore might limited number synaptic states might binary
+although binary might limited they made more robust biochemical noise than continuous
+consistent experiments suggest synaptic weight changes occur
+example single experiments show reduction current appropriate
+networks property they new ones
+contrast networks continuous additional quality recent
+must case explicitly instance via weight mechanism
+allows one study learning context there new information
+common use memory neural networks
+measures between responses higher more memory out less likely will
+when weights each pattern same
+then defined maximum number patterns larger than some fixed minimum value
+however performance must characterized two initial its rate
+memory high but learning rules typically results either increase memory but initial increase initial but memory
+optimization learning rule because arbitrary must made between two effects
+paper between learning terms information
+describe framework information use find optimal learning rules
+model single investigate how information depends number number synaptic states
+find below critical number total linear number while more only number per
+critical number dependent patterns well number synaptic states
+furthermore when increasing number synaptic states information number states but many states
+parameters just at critical point number per limited learning
+finally measure allows direct comparison continuous under conditions their

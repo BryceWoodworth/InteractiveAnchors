@@ -1,0 +1,46 @@
+ 
+centrality-lethality rule notes high-degree nodes protein interaction network tend correspond proteins essential suggests topological prominence protein protein interaction network may good predictor its biological importance
+even though correlation between degree essentiality was confirmed many independent studies reason correlation remains illusive
+several hypotheses about putative connections between essentiality hubs topology protein protein interaction networks been proposed but demonstrate explanations not supported properties protein interaction networks
+identify main topological determinant essentiality provide biological explanation connection between network topology essentiality performed rigorous analysis six variants genomewide protein interaction network saccharomyces cerevisiae obtained using different techniques
+demonstrated majority hubs essential due their involvement essential complex biological modules group densely connected proteins shared biological function enriched essential proteins
+moreover rejected two previously proposed explanations centrality-lethality rule one relating essentiality hubs their role overall network connectivity another relying recently published essential protein interactions model
+ introduction 
+intriguing question analysis biological networks whether biological characteristics protein essentiality explained its placement network i.e whether topological prominence implies biological importance
+one first connections between two context protein interaction network so-called centrality-lethality rule was observed jeong colleagues who demonstrated high-degree nodes hubs protein interaction network saccharomyces cerevisiae contain more essential proteins than would expected chance
+since then correlation between degree essentiality was confirmed other studies but until recently there was no systematic attempt examine reasons correlation
+particular what main topological determinant essentiality
+number immediate neighbors some other more global topological property essential proteins may protein interaction network
+jeong colleagues suggested overrepresentation essential proteins among high-degree nodes attributed central role hubs play mediating interactions among numerous less connected proteins
+indeed removal hubs disrupts connectivity network measured network diameter size largest connected component more than removal equivalent number random nodes
+therefore under assumption organism's function depends connectivity among various parts its interactome hubs would predominantly essential because they play central role maintaining connectivity
+recently he colleagues challenged hypothesis essentiality being function global network structure proposed majority proteins essential due their involvement one more essential protein protein interactions distributed uniformly at random along network edges
+under hypothesis hubs proposed predominantly essential because they involved more interactions thus more likely involved one essential
+work carefully evaluate each proposed explanations centrality-lethality rule
+recently several hypotheses linked structural properties protein interaction networks biological phenomena come under scrutiny main concern being observed properties due experimental artifacts and/or other biases present networks lack any biological implication
+limit impact biases results reported our study use six variants genomewide protein interaction network saccharomyces cerevisiae compiled diverse sources interaction evidence 
+assess whether essentiality hubs related their role maintaining network connectivity performed two tests
+first if were case then would expect essential hubs more important maintaining network connectivity than nonessential hubs
+found not case
+next addition node degree consider several other measures topological prominence demonstrate some them better predictors role node plays network connectivity than node degree
+thus if essentiality were related maintaining network connectivity then one would expect essentiality better correlated centrality measures than node degree
+however found node degree better predictor essentiality than any other measure tested
+reject essential protein interaction model used hypothesis testing approach
+namely observed model implies probability protein essential independent probability another noninteracting protein essential
+however tested networks essentiality noninteracting proteins share interaction partners correlated
+thus reject independence assumption result essential protein interaction model high confidence
+motivated our findings propose alternative explanation centrality-lethality rule
+our explanation draws growing realization phenotypic effect gene-knockout experiments function group functionally related genes genes whose gene products members same multiprotein complex
+well known densely connected subnetworks enriched proteins share biological function
+therefore one would expect dense subnetworks protein interaction networks should either enriched depleted essential proteins
+indeed hart colleagues observed essential proteins not distributed evenly among set automatically indentified multiprotein complexes
+work observe same phenomenon holds potentially larger groups densely connected functionally related proteins call complex biological modules
+demonstrate due uneven distribution essential proteins among cobims majority essential proteins lie those cobims enriched essential proteins call essential complex biological modules 
+very definition ecobims contain relative their size more essential nodes than random group proteins same size
+but what fraction all essential hubs members ecobims
+how does number relate what expected chance
+fact how does enrichment hubs members/nonmembers ecobims essential proteins relate enrichment values expected chance under suitable randomization protocol
+propose membership ecobims largely accounts enrichment hubs essential proteins
+support hypothesis found fraction essential proteins among non-ecobim hubs depending network only 13 35 percent almost low network average
+furthermore essentiality nodes not members ecobims only weakly correlated their degree
+finally using randomization experiment demonstrated properties characteristic protein interaction network unlikely corresponding randomized network

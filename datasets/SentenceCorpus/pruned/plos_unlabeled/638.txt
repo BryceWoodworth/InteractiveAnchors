@@ -1,0 +1,60 @@
+
+protein interactions play part function cell
+experimental techniques detection protein interactions time there need computational methods task
+protein interactions appear form network relatively high degree local clustering
+paper clustering based observed protein interactions
+both protein characteristics network properties
+our based shown existing techniques predicting protein interactions them data sets high degree clustering
+predicted interactions highly against test measures accuracy
+compared similar derived interactions only higher sensitivity
+at specific examples show how experimental set interactions
+part work also examine effect different prior upon accuracy prediction find interactions same give better results than across there may fundamental differences between networks
+results all network structure important accurate prediction protein interactions
+protein interaction data set program used our analysis predictions available at
+introduction
+understanding complex within complete network protein interactions occur would significant step
+experimentally protein interactions number techniques data available several database proteins information protein sequences
+experimentally interactions show high negative high positive rates
+paper develop new computational approach predict interactions experimental data
+computational methods been developed
+interaction use expression data proteins involved
+prediction protein interactions contrast many methods been suggested
+generate proteins functional relationship rather than physical interactions
+terms physical interaction prediction available methods two approaches et al et al
+et method domain interaction based approach protein interaction basis domain
+if domain pair found observed protein interactions likely other protein pairs domain pair might also
+observed protein interaction network probabilities interactions estimated
+algorithm maximum likelihood estimates protein interactions occur each other
+likelihood then used construct probability protein pair based estimated probabilities domain interactions within protein pair
+et prediction based total interactions
+however limited number known domains may well not describe variety protein interactions
+approach had further domain interactions other biological information
+et model et method multiple organisms
+addition two other organisms
+second type approach used et al
+among protein interactions other organisms
+if protein interaction exists many other organisms protein interaction will highly
+addition suggest may provide even more information protein pairs
+principle statistical clustering algorithms identify network could prediction method predicting all proteins within each other
+focus statistical clustering approach rather than predicting individual interactions our
+et method et method make use network structure interactions considered pairs
+however pairs could should considered network where proteins nodes their interactions
+networks revealed many properties including clustering tendency see also information
+our method network structure patterns interactions rather than pairs
+paper thus take idea characteristics protein will affect its interactions not yet idea its network position will also affect its interactions order develop novel predictive
+our goal predict protein interactions type where both third protein therefore our approach particularly focus two simple three network structures
+protein pair common
+contrast protein pair common
+will show network structures protein characteristics within them help predict protein interactions
+apply our method interaction network database
+during assume function structure known all proteins protein interaction network known all but one interaction
+patterns predict interaction those protein pairs at least one common compare our results those three other
+demonstrate proteins include proteins accuracy
+prediction also compared networks where all proteins while network structure order examine whether specific network structure useful information protein interaction networks
+measure true positive rate set protein pairs et al proposed expression measure true positive rate set protein pairs based biological
+compare our our predictions achieve high true positive rate
+also give examples experimental data predict new interactions
+our predictive model uses prior interaction database use three prior protein interactions all interactions
+results using different prior show use interactions within same rather than across significantly results interaction networks may significantly different between
+comparing our method three other standard approaches approach et al et al approach et al find our method above approaches subset interactions yeast data set contains connectivity our analysis
+our method methods et al et al their approaches apply rather different subset potential interactions yeast data set

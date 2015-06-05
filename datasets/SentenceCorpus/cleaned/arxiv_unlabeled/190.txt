@@ -1,0 +1,32 @@
+ 
+scenarios emergence bootstrap lexicon involve repeated interaction between at least two agents who must reach consensus how name objects using words
+here consider minimal models two types learning algorithms: cross-situational learning individuals determine meaning word looking something common across all observed uses word supervised operant conditioning learning there strong feedback between individuals about intended meaning words
+despite stark differences between learning schemes show they yield same communication accuracy realistic limits large  coincides result classical occupancy problem randomly assigning objects words
+ introduction 
+how coherent lexicon emerge group interacting agents major open issue language evolution acquisition research area hurford 1989; nowak \& krakauer 1999; steels 2002; kirby 2002; smith kirby \& brighton 2003
+addition dynamics self-organization shared lexicons one issues computational mathematical modeling contribute most emergence lexicon scratch implies some type self-organization possibly threshold phenomenon
+cannot completely understood without thorough exploration parameter space models baronchelli felici loreto caglioli \& steels 2006
+there two main research avenues investigate emergence bootstrapping lexicon
+first approach inspired seminal work pinker bloom 1990 who argued natural selection main design principle explain emergence complex structure language resorts evolutionary algorithms evolve shared lexicon
+key element here improvement communication ability individual results average increase number offspring produces hurford 1989; nowak \& krakauer 1999; cangelosi 2001; fontanari \& perlovsky 2007 2008
+second research avenue will follow paper argues culturally based view language evolution so assumes lexicons acquired modified solely through learning during individual's lifetime steels 2002; smith kirby \& brighton 2003
+course if there fact about language uncontroversial lexicon must learned active passive interaction between children language-proficient adults
+issue whether ability learn lexicon due some domain-general learning mechanism innate ability unique humans still table bates \& elman 1996
+problem address here there simply no language-proficient individuals so not so far-fetched put forward biological rather than cultural explanation emergence self-organized lexicon
+nevertheless contribution will use many insights produced research language acquisition children see eg  gleitman 1990; bloom 2000 study different learning strategies
+developmental perspective there basically two competing schemes lexicon acquisition children rosenthal \& zimmerman 1978
+first scheme termed cross-situational observational learning based intuitive idea one way learner determine meaning word find something common across all observed uses word pinker 1984; gleitman 1990; siskind 1996
+hence learning takes place through statistical sampling contexts word appears
+since learner receives no feedback about its inferences refer scheme unsupervised learning
+second scheme known generally operant conditioning involves active participation agents learning process exchange non-linguistic cues provide feedback hearer inferences
+supervised learning scheme been applied design system communication autonomous robots  so-called language game talking heads experiments steels 2003
+despite technological appeal empirical evidence most part lexicon acquired children product unsupervised learning pinker 1984; gleitman 1990; bloom 2000
+interestingly perspective evolving bootstrapping lexicon unsupervised scheme very attractive too since eliminates altogether issue honest signaling dawkins \& krebs 1978 no signaling involved learning process requires only observation some elements intuitive psychology e g theory mind
+many different computational implementations variants two schemes bootstrapping lexicon been proposed literature
+example smith 2003a 2003b smith smith blythe \& vogt 2006 de beule de vylder \& belpaeme 2006 addressed unsupervised learning scheme whereas steels \& kaplan 1999 ke minett au wang 2002 smith kirby \& brighton 2003 lenaerts jansen tuyls \& de vylder 2005 supervised scheme
+however except extensive statistical analysis variant supervised learning algorithm reduces problem naming single object baronchelli felici loreto caglioli \& steels 2006 study effects changing parameters those models been usually limited display time evolution some measure communication accuracy population
+although at first sight supervised learning scheme may seem clearly superior unsupervised one albeit less realistic context language acquisition children not aware any thorough comparison between performances two learning scenarios
+fact contribution show realistic limit very large lexicon sizes supervised unsupervised learning performances essentially identical
+paper study minimal models supervised unsupervised learning schemes preserve main ingredients two classical language acquisition paradigms
+sake simplicity here interpret lexicon mapping between objects words sounds rather than mapping between meanings conceptual structures sounds
+more complete scenario would involve first creation meanings i e  bootstrapping object-meaning mapping steels 1996; fontanari 2006 then emergence meaning-sound mapping see eg  smith 2003a 2003b; fontanari \& perlovsky 2006

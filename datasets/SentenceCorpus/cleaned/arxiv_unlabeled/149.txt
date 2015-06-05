@@ -1,0 +1,25 @@
+ 
+supervised unsupervised learning positive definite kernels allow use large potentially infinite dimensional feature spaces computational cost only depends number observations
+usually done through penalization predictor functions euclidean hilbertian norms
+paper explore penalizing sparsity-inducing norms norm block norm
+assume kernel decomposes into large sum individual basis kernels embedded directed acyclic graph; show then possible perform kernel selection through hierarchical multiple kernel learning framework polynomial time number selected kernels
+framework naturally applied non linear variable selection; our extensive simulations synthetic datasets datasets uci repository show efficiently exploring large feature space through sparsity-inducing norms leads state-of-the-art predictive performance
+ introduction 
+last two decades kernel methods been prolific theoretical algorithmic machine learning framework
+using appropriate regularization hilbertian norms representer theorems enable consider large potentially infinite-dimensional feature spaces while working within implicit feature space no larger than number observations
+led numerous works kernel design adapted specific data types generic kernel-based algorithms many learning tasks see eg  
+regularization sparsity-inducing norms norm also attracted lot interest recent years
+while early work focused efficient algorithms solve convex optimization problems recent research looked at model selection properties predictive performance methods linear case within multiple kernel learning framework
+paper aim bridge gap between two lines research trying use norms inside feature space
+indeed feature spaces large expect estimated predictor function require only small number features exactly situation where norms proven advantageous
+leads two natural questions try answer paper: 1 feasible perform optimization very large feature space cost polynomial size input space 2 does lead better predictive performance feature selection
+more precisely consider positive definite kernel expressed large sum positive definite basis local kernels
+exactly corresponds situation where large feature space concatenation smaller feature spaces aim do selection among many kernels may done through multiple kernel learning
+one major difficulty however number smaller kernels usually exponential dimension input space applying multiple kernel learning directly decomposition would intractable
+order peform selection efficiently make extra assumption small kernels embedded directed acyclic graph dag
+following  consider \mysec{mkl} specific combination norms adapted dag will restrict authorized sparsity patterns; our specific kernel framework able use dag design optimization algorithm polynomial complexity number selected kernels \mysec{optimization}
+simulations \mysec{simulations} focus directed grids  where our framework allows perform non-linear variable selection
+provide extensive experimental validation our novel regularization framework; particular compare regular regularization shows always competitive often leads better performance both synthetic examples standard regression classification datasets uci repository
+finally extend \mysec{consistency} some known consistency results lasso multiple kernel learning  give partial answer model selection capabilities our regularization framework giving necessary sufficient conditions model consistency
+particular show our framework adapted estimating consistently only hull relevant variables
+hence restricting statistical power our method gain computational efficiency

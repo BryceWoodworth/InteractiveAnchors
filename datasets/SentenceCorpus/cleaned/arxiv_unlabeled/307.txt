@@ -1,0 +1,53 @@
+ 
+analyze convergence behaviour recently proposed algorithm regularized estimation called dual augmented lagrangian dal
+our analysis based new interpretation dal proximal minimization algorithm
+theoretically show under some conditions dal converges super-linearly non-asymptotic global sense
+due special modelling sparse estimation problems context machine learning assumptions make milder more natural than those made conventional analysis augmented lagrangian algorithms
+addition new interpretation enables us generalize dal wide varieties sparse estimation problems
+experimentally confirm our analysis large scale regularized logistic regression problem extensively compare efficiency dal algorithm previously proposed algorithms both synthetic benchmark datasets
+ introduction 
+sparse estimation through convex regularization become common practice many application areas including bioinformatics natural language processing
+however facing rapid increase size data-sets analyze everyday clearly needed development optimization algorithms tailored machine learning applications
+regularization-based sparse estimation methods estimate unknown variables through minimization loss term data-fit term plus regularization term
+paper focus convex methods; i e  both loss term regularization term convex functions unknown variables
+regularizers may non-differentiable some points; non-differentiability promote various types sparsity solution
+although problem convex there three factors challenge straight-forward application general tools convex optimization context machine learning
+first factor diversity loss functions
+arguably squared loss most commonly used field signal/image reconstruction many algorithms sparse estimation been developed
+however variety loss functions much wider machine learning name few logistic loss other log-linear loss functions
+note functions not necessarily strongly convex like squared loss
+see table list loss functions consider
+second factor nature data matrix call design matrix paper
+regression problem design matrix defined stacking input vectors along rows
+if input vectors numerical e g  gene expression data design matrix dense no structure
+addition characteristics matrix e g  condition number unknown until data provided
+therefore would like minimize assumptions about design matrix sparse structured well conditioned
+third factor large number unknown variables parameters compared observations
+situation regularized estimation methods commonly applied
+factor may been overlooked context signal denoising number observations number parameters equal
+various methods been proposed efficient sparse estimation see  references therein
+many previous studies focus non-differentiability regularization term
+contrast focus couplings between variables non-separability caused design matrix
+fact if optimization problem decomposed into smaller e g  containing single variable problems optimization easy
+recently showed so called iterative shrinkage/thresholding ist method see  seen iterative separable approximation process
+paper show recently proposed dual augmented lagrangian dal algorithm considered exact up finite tolerance version iterative approximation process discussed
+our formulation based connection between proximal minimization augmented lagrangian al algorithm
+proximal minimization framework also allows us rigorously study convergence behaviour dal
+show dal converges super-linearly under some mild conditions means number iterations need obtain accurate solution grows no greater than logarithmically
+due generality framework our analysis applies wide variety practically important regularizers
+our analysis improves classical result convergence augmented lagrangian algorithms taking special structures sparse estimation into account
+addition make no asymptotic arguments ; instead our convergence analysis build top recent result
+augmented lagrangian formulations also been considered sparse signal reconstruction
+what differentiates dal approach those studied earlier al algorithm applied dual problem see \secref{sec:dalreview} results inner minimization problem solved efficiently exploiting sparsity intermediate solutions see \secref{sec:dall1}
+applying al formulation dual problem also plays important role convergence analysis because some loss functions e g  logistic loss not strongly convex primal; see \secref{sec:analysis}
+recently compared primal dual augmented lagrangian algorithms problems reported dual formulation was more efficient
+see also related discussions
+paper organized follows
+\secref{sec:framework} mathematically formulate sparse estimation problem review dal algorithm
+derive dal algorithm proximal minimization framework \secref{sec:proximal_view} discuss special instances dal algorithm discussed \secref{sec:instances}
+\secref{sec:analysis} theoretically analyze convergence behaviour dal algorithm
+discuss previously proposed algorithms \secref{sec:algorithms} contrast them dal
+\secref{sec:results} confirm our analysis simulated regularized logistic regression problem
+moreover extensively compare recently proposed algorithms regularized logistic regression including dal synthetic benchmark datasets under variety conditions
+finally conclude paper \secref{sec:summary}
+most proofs given appendix

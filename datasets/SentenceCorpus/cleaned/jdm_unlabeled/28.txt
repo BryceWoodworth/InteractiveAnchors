@@ -1,0 +1,61 @@
+ 
+series recent experiments matching subsidies generate significantly higher charity receipts than do theoretically equivalent rebate subsidies
+paper reports laboratory experiment conducted examine whether higher receipts attributable relative preference matching subsidies isolation effect''
+some potential policy implications isolation effects charitable contributions also considered
+ introduction 
+voluntary charitable contributions play large ever-increasing role supporting social infrastructure developed economics
+effort find ways encourage private contributions experimental economists recent years devoted considerable attention effects alternative fundraising formats mechanisms
+one branch general program regards effects different methods subsidizing contributions
+series recent experiments indicate matching subsidies elicit considerably higher charity receipts than do comparable rebate subsidies
+design experiments consists one more modified dictator games similar those used andreoni vesterlund andreoni miller where participants make pass hold decisions under different endowment price contribution conditions
+however rather than changing directly price contributions subsidy-format experiments subjects make pass hold decisions under various matching subsidy rebate subsidy conditions alter effective price contributions
+table number illustrates design used control treatment davis millner reilly many ways representative
+subjects asked make series decisions hold themselves pass charity portions endowment column number under conditions shown column number
+sum hold pass entries must sum endowment
+after making their choices one randomly selected decision implemented
+decision subject receives cash amount they chose hold supplemented rebates passed amounts rebate conditions
+amount passed supplemented matching amounts matching conditions sent designated charity
+general matching subsidy s reduces effective price contributing number charity p number number s rebate subsidy s reduces effective price number contribution p numbers
+thus s s induce same effective price when s s number s
+however davis millner reilly observed substantially higher charity receipts under matching subsidy than under comparable rebate subsidy
+example charity receipts were roughly twice high under number percent matching subsidy shown problem number table number than under number percent refund condition shown problem number
+control treatment replicates results previously reported eckel grossman
+eckel grossman also report very similar results alternative laboratory designs where subjects make fewer allocative decisions field contexts
+addition their control treatment davis millner reilly report extra information treatment where subjects received information prompting them about net consequences their choices
+extra information only reduced but did not eliminate significant differences net charity receipts
+reason why changing subsidy formats so prominently affects charity receipts remains unclear
+failure part subjects understand task at hand doubtfully drives results
+instructions simple subjects report very high levels understanding
+eckel grossman example observe subjects strongly agreed statement instructions were clear
+using number point likert scale mean subject response was number number
+one possible explanation higher charity receipts collected under matching subsidy people find something psychologically appealing about matching subsidies
+eckel grossman suggest sort framing effect might support preference matching subsidies knowledge experimenter also contributes charity under matching subsidy may create subjects cooperation frame increases contributions relative rewards frame created rebate subsidy
+at least some economists find justification persuasive
+alternatively isolation effects discussed mccaffery baron may explain higher charity receipts generated matching subsidies
+notion isolation effects closely related but distinct well known concept mental accounting suggests when given multi-dimensional problem people tend disaggregate dimensions problem focus only those components they control most directly affect them most directly
+example given problems shown table number people may focus direct consequences giving away portions their endowments rather than indirect consequences themselves charity various conditions imply
+harris joyce observed similar result when they asked subjects make series fair allocations among members partnership
+when asked divide profits subjects tended allocate profits equally among partners despite very unequal profit contributions
+when asked divide expenditures subjects again tended use equal-division rule even though time rule resulted very unequal division profits
+prompting subjects information about indirect consequences their decisions reduced but did not eliminate tendency make equal allocations presented amounts
+preferences matching subsidies isolation effects carry distinct policy implications charitable fundraising
+if people simply prefer matching subsidies governments fundraising organizations might do well switch away rebate schemes toward schemes feature matching contributions
+particular replacing tax rebates government-sponsored matching contributions program would increase charitable contributions however extent isolation effects explain higher charity receipts generated matching subsidies policy-makers may encounter difficulties implementing program even if implemented may not find program increases charity receipts
+both potential difficulties follow what people may isolate direct effects
+example attempting replace tax rebates combination matching contributions higher taxes might difficult politically since people may focus direct negative consequences personal tax increase rather than more indirect positive consequences increased charitable contributions
+again matching subsidies program would increase charity receipts over current tax refund subsidy policy only if people isolate more increased effectiveness contributions induced matching subsidy than other possible foci attention reduction obligations sometimes resented government rebated donation implies
+potential importance isolation effects contexts remains subject future investigation
+paper reports experiment focuses preliminary task distinguishing between preference matching subsidies isolation effects explanation subsidy formatting effects
+idea experiment straightforward
+addition previously-reported control treatment conducted using design shown table number i conduct maximum possible contribution mpc treatment where allocation decisions restructured so problem dimension presented most directly subjects maximum amount charity may receive rather than maximum amount subject may take home
+although framing contributions terms charity receipts few obvious parallels natural contexts allows clean distinction between simple preferences matching subsides isolation effects extent subjects simply prefer matching subsidies rebates matching subsidies will elicit higher net charity receipts than rebate subsidies both mpc control treatments
+other hand extent subjects isolate amount presented divided net charity receipts under matching subsidy will exceed those under comparable rebate subsidy only control treatment
+mpc treatment charity receipts will increase equally both rebate matching subsidies because subjects will divide maximum possible contributions between themselves charity roughly same way all subsidy conditions
+i summarize observations following hypothesis i state alternative form
+hypothesis isolation effects drive previously observed subsidy formatting effects
+shifting direct effect contributions amount endowment donate maximum amount charity may receive eliminates increased charity receipts elicited matching subsidies over rebate subsidies
+way overview experimental results overwhelmingly consistent isolation effects
+remainder paper organized follows
+section number explains experimental design procedures used evaluate hypothesis
+section number presents experimental results
+fourth section discusses some potential policy implications isolation effects charity contributions

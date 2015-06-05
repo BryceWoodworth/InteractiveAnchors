@@ -1,0 +1,50 @@
+
+all cell through efficient high
+proteins large regions
+central feature binding factors regions
+here model dynamics effective potential resulting interaction factors using number assumptions consistent most structural functional properties
+discuss how specific binding factors how binding between factors other binding sites space high
+also account why relatively changes number distribution recent experiments where up total been without
+our results suggest strategies
+introduction
+
+large protein means across
+small small across while larger will generally only if they particular signal sequence signal signal
+signal sequences factors resulting factor through
+studied factors family related proteins although other factors also particularly
+up at rates high several per second each factor complex time order
+here focus although our other types well including
+during via their signals
+then through where its form factor
+high binding allows
+bound through where factor
+energy used then next cycle
+only step process requires input metabolic energy
+overall energy obtained used concentration between so process actual across occurs
+into three first second through third
+first been subject studies relatively well being reactions biochemical
+much less
+clear ability particular class proteins known key feature process allows them their through
+particular experiments binding sites were show binding
+current estimates binding most range 1 depending type
+each usually small region body larger region characterized multiple
+regions disordered contain binding sites factors also appear set up at cannot them
+detailed nature still under active study although been shown form when solution
+been demonstrated individual regions long order many within
+what still needed quantitative theoretical account observed characteristics
+here develop theory explain mechanism through
+useful theory should provide into several major questions how does achieve high variable both through only factor
+how does binding factors while high factor bound
+how high degree
+up regions regions potentially set up
+across even concentration
+how account high degree robustness
+several theoretical models been proposed mechanism through
+include model phase models model models reduction model most recently model
+all models thought where set up into through involves
+they differ only specific assumptions spatial their state distribution binding sites
+aim present paper general quantitative framework consistent structural functional properties its components
+explain how binding give efficient
+demonstrate limited space binding sites within leads novel highly process
+finally explain how could account high robustness respect structural changes
+experimental predictions model

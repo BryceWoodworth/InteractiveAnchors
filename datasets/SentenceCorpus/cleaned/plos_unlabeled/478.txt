@@ -1,0 +1,37 @@
+ 
+study how functional constraints bound shape evolution through analysis mammalian voltage-gated sodium channels
+primary function sodium channels allow propagation action potentials
+since hodgkin huxley mathematical models suggested sodium channel properties need tightly constrained action potential propagate
+there nine mammalian genes encoding voltage-gated sodium channels many more than 90 percent identical sequence
+sequence similarity presumably corresponds similarity function consistent idea properties must tightly constrained
+however multiplicity genes encoding sodium channels raises question: why there so many
+demonstrate simplest theoretical constraints bounding sodium channel diversity requirements membrane excitability uniqueness resting potential act directly constraining sodium channel properties
+compare predicted constraints functional data mammalian sodium channel properties collected literature including 172 different sets measurements 40 publications wild-type mutant under variety conditions
+data all channel types including mutants obeys excitability constraint; other hand channels expressed muscle tend obey constraint unique resting potential while channels expressed neuronal tissue do not
+excitability properties alone distinguish nine sodium channels into four different groups consistent phylogenetic analysis
+our calculations suggest interpretations functional differences between groups
+ introduction 
+despite relatively small number genes human genome there many examples groups nearly identical genes perform similar functions
+diversity could either reflect redundancy evolutionary specialization
+specialization could result tuning different functional environments nearly identical genes might play very different functional roles 
+here explore how functional constraints bound shape evolution through analysis mammalian voltage-gated sodium channels
+primary function voltage-gated sodium channels allow propagation action potentials
+since hodgkin huxley mathematical models suggested sodium channel properties need tightly constrained action potential propagate
+mammals there nine different genes encoding voltage-gated sodium channels many more than 90 percent identical sequence
+one hand sequence similarity channels presumably corresponds similarity their functional properties; consistent idea properties must tightly constrained
+other hand multiplicity genes encoding sodium channels raises question: why so many different mechanisms generating action potential necessary
+sodium channels predominantly found specific anatomical regions suggesting they might tuned specific functions
+example channels na v1.1 na v1.2 na v1.3 na v1.6 na v1.7 predominantly localized central peripheral nervous systems; na v1.8 na v1.9 primarily dorsal root ganglion; na v1.4 primarily at skeletal muscular junctions; na v1.5 primarily cardiac tissue 
+paper address questions whether how sodium channel diversity bounded simplest theoretical constraints action potential propagation: sodium channel properties must tuned allow membrane excitable i.e there must exist voltage threshold above action potential produced constraint unique resting potential
+through theoretical analysis macroscopic sodium currents demonstrate two requirements depend only sodium channel properties directly constraining activation inactivation curves sodium channels routinely directly measured experiments
+then compare constraints measurements mammalian sodium channels reported literature
+our dataset uses 172 different measurements 40 distinct publications including both wild-type mutant na v1.1 1.9 human mouse rat under range different conditions including without different types subunits chemicals
+mutant channels tend associated disease state hence presumably differ physiologically significant way wild-type
+our analysis demonstrates excitability properties alone distinguish nine sodium channels into four different groups
+within each group there strong positive correlation between voltage dependence activation inactivation
+members each four groups close according phylogenetic analysis
+what functional differences between groups
+two groups correspond channels expressed nerve muscle tissue respectively
+another group potential voltage threshold substantially higher than other channels
+final group only produce action potentials narrow conductance range even then maximum voltage threshold less than thermal fluctuations
+separation channels into functionally distinct groups suggests they evolved perform specialized tasks

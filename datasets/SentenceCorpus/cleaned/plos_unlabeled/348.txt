@@ -1,0 +1,36 @@
+ 
+accumulating infections highly pathogenic h5n1 avian influenza humans underlines need track ability viruses spread among humans
+human-transmissible avian influenza virus expected cause clusters infections humans living close contact
+therefore epidemiological analysis infection clusters human households key importance
+infection clusters may arise transmission events animal reservoir humans who were infected animals humans who were infected humans
+here propose method analysing household infection data detect changes transmissibility avian influenza viruses humans at early stage
+method applied outbreak h7n7 avian influenza virus netherlands was cause more than 30 human-to-human transmission events
+analyses indicate secondary human-to-human transmission plausible dutch household infection data
+based estimates within-household transmission parameters evaluate effectiveness antiviral prophylaxis conclude unlikely all household infections prevented current antiviral drugs
+discuss applicability our method detection emerging human-to-human transmission avian influenza viruses particular analysis within-household infection data general
+ introduction 
+outbreaks highly pathogenic h5n1 avian influenza southeast asia europe africa devastating consequences poultry resulted numerous infections humans
+although infections animal reservoir continue accumulate virus does not seem spread extensively among humans
+nevertheless fear human infections may ultimately spark influenza pandemic
+indeed recent clusters infections human households hint at possibility virus transmission humans who were infected poultry their household contacts
+suggestions strengthened observation mutations recent h5n1 viruses seem predispose virus more efficient transmission mammals including humans 
+likely virus pandemic potential will present itself initially through increase number infections humans who been close contact case infected animals
+therefore rapid detection control clusters infections key importance
+clusters may result multiple introductions animal reservoir multiple transmission events humans who were infected animals multiple transmission events humans who were themselves infected humans
+obviously evidence most worrisome indicates virus acquired ability spread efficiently humans
+often thought pathogens animal reservoir made jump new host species usually not well-adapted sustained transmission new host transmissibility new species will gradually increase over time process adaptation means natural selection
+interestingly however case h5n1 avian influenza humans evidence so far does not seem fit prediction
+mechanisms could responsible lack efficient secondary human-to-human transmission could due dose effect whereby humans infected animals receive higher infection dose than humans infected humans behavioural changes after infection limit spread virus after been detected
+paper develop method detect quantify different routes virus transmission household setting
+our main aim investigate whether within-household pathogen transmission been restricted transmission primary infected individual whether there evidence transmission chain extended beyond first generation human-to-human infections
+our analyses based theoretical developments distribution final size epidemic finite populations allow construction flexible methods analyse within-household transmission chains
+apply method recent study within-household transmission highly pathogenic avian influenza h7n7 subtype caused large epidemic poultry netherlands 2003
+shortly after detection virus circulation dutch authorities undertook aggressive control strategy consisted animal movement ban affected regions tracing screening suspected flocks culling infected contiguous flocks
+all total 255 flocks became infected during period nine weeks more than 30 million birds were culled
+subsequent studies poultry workers revealed at least 86 infections animal reservoir humans had taken place
+addition more than 30 household contacts infected poultry workers who had not been direct contact poultry were reported positive
+reports indicate human-to-human transmission did occur individuals infected animal reservoir
+here analyse data transmission chains 24 households led 33 human-to-human transmission events measuring extent onward transmission humans who were infected humans
+complement statistical analyses systematic power analyses obtain insight into study size needed able find significant secondary human-to-human transmission given present
+although applied method specific dataset believe our method general interest enables rapid estimation within-household transmission rates based data easily gathered most infectious diseases
+instance our method analysis not restricted analysis emerging pandemic influenza but just well used estimate different routes within-household transmission rates human influenza viruses importantly assess potential effectiveness control measures

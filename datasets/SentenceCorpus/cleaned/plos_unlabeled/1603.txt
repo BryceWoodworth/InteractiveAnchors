@@ -1,0 +1,37 @@
+ 
+prevailing theory proposes brain's two visual pathways ventral dorsal lead differing visual processing world representations conscious perception than those action
+others claimed perception action share much their visual processing
+but two neural architectures favored evolution
+successful visual search life-critical here investigate evolution optimality neural mechanisms mediating perception eye movement actions visual search natural images
+implement approximation ideal bayesian searcher two separate processing streams one controlling eye movements other stream determining perceptual search decisions
+virtually evolved neural mechanisms searchers' two separate pathways built linear combinations primary visual cortex receptive fields making simulated individuals' probability survival depend perceptual accuracy finding targets cluttered backgrounds
+find variety targets backgrounds dependence target detectability retinal eccentricity mechanisms searchers' two processing streams converge similar representations showing mismatches mechanisms perception eye movements lead suboptimal search
+three exceptions resulted partial no convergence were case organism targets equally detectable across retina organism sufficient time foveate all possible target locations strict two-pathway model no interconnections differential pre-filtering based parvocellular magnocellular lateral geniculate cell properties
+thus similar neural mechanisms perception eye movement actions during search optimal should expected effects natural selection organism limited time search food not equi-detectable across its retina interconnected perception action neural pathways
+ introduction 
+neurophysiology studies macaque monkey support existence two functionally distinct neural pathways brain mediating processing visual information
+behavior patients brain damage led proposal perception mediated ventral stream projecting primary visual cortex inferior temporal cortex action mediated dorsal stream projecting primary visual cortex posterior parietal cortex
+although there been debate about whether separation into ventral/dorsal streams implies brain contains two distinct neural representations visual world there been no formal theoretical analysis about functional consequences two different neural architectures animal's survival
+visual search requires animals move their eyes point high-resolution region eye fovea potentially interesting regions scene sub-serve perceptual decisions localizing food predator
+what impact having similar versus different neural mechanisms guiding eye movements mediating perceptual decisions visual search performance organism foveated visual system
+consider two leading computational models multiple-fixation human visual search bayesian ideal searcher ideal saccadic targeting model search task target one eight locations equidistant initial fixation
+ideal searcher uses knowledge how detectability target varies retinal eccentricity statistics scenes move fovea spatial locations maximize accuracy perceptual decision at end search
+saccadic targeting model makes eye movements most probable target location optimal if goal was saccade target rather than collect information optimize subsequent perceptual decision
+depending spatial layout possible target locations visibility map map strategies lead similar diverging eye-fixations
+example steeply varying visibility map both models make eye movements possible target locations while broader visibility map ideal searcher tends make eye movements between possible target locations attempting obtain simultaneous close-to-fovea processing more than one location
+covert attention allows both models select possible target locations ignore locations unlikely contain target when deciding saccade endpoints making perceptual search decisions
+perceptual target localization decisions both models based visual information collected parallel over whole retina temporally integrated across saccades based location highest sensory evidence presence target
+critically implemented models two processing pathways one determining where move fovea other stream processing visual information reach final perceptual decision about target location
+rather than having single linear mechanism perceptual template each pathway model had its own neural mechanism compared incoming visual data at each possible target location
+likelihood ratios observed responses each mechanisms under hypothesis target present absent at location used make decisions about where move eyes perceptual decisions 
+used genetic algorithm method find near-optimal solutions perception action mechanisms but also simulate effects evolutionary process natural selection neural mechanisms driving saccadic eye movements perceptual decisions during search
+computational complexity ideal bayesian searcher makes difficult virtually evolve model thus used recently proposed approximation ideal searcher computationally faster
+elm model chooses fixation location minimizes uncertainty posterior probabilities over potential target locations
+decision rule simplified choose fixation location maximum sum likelihood ratios across potential target locations each weighted its squared detectability given fixation location
+elm model shown approximate fixation patterns ideal searcher capture main characteristics fixation patterns our task visibility maps
+process virtual evolution started creation one thousand simulated individuals separate linear mechanisms perception eye movement programming
+each pathway's template each individual was created independent random combinations receptive fields twenty four v1 simple cells
+each simulated individual was allowed two eye movements before making final perceptual search decision about location target
+performance finding target one eight locations five thousand test-images was evaluated probability survival individual was proportional its performance accuracy
+new generation was then created surviving individuals through process reproduction mutation cross-over
+process was repeated up 500 generations

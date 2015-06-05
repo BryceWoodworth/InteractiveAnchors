@@ -1,0 +1,26 @@
+
+identify genes involved development number integration sites number expected due introduction techniques
+data various available cancer gene database
+presence common sites requires approach increased probability finding amount available data increases
+moreover estimates should taking into account both noise random nature process well bias sites present genome data
+introduce framework kernel framework find environment using level while error
+where previous methods use one two three fixed scales our method at any relevant scale
+analyze scale space new behavior across multiple scales
+our method also features including models bias
+using data evaluate framework using three kernel functions kernel function
+applied data combined set found percent do not threshold combined setting
+still under control application our method discovery novel each probability less than percent being
+introduction
+experiments genes involved development cancer identified
+after cell its own dna into genome dna process
+mutation may expression genes when within gene gene
+when affected gene cancer gene activation gene cells
+may give
+
+when cell
+result contains many cell but only few cells
+when dna one will larger than do not
+regions genome found multiple independent called common sites
+result highly correlated genes involved development
+sequences determine data find significant therefore discovery new cancer genes
+

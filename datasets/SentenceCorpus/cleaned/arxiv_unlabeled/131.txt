@@ -1,0 +1,15 @@
+ 
+remarkable results foster vohra was starting point series papers show any sequence outcomes learned no prior knowledge using some universal randomized forecasting algorithm forecast-dependent checking rules
+show class all computationally efficient outcome-forecast-based checking rules property violated
+moreover present probabilistic algorithm generating probability close one sequence subsequence simultaneously miscalibrates all partially weakly computable randomized forecasting algorithms
+according dawid's prequential framework consider partial recursive randomized algorithms
+ introduction 
+let binary sequence outcomes observed forecaster whose task give probability future event
+evaluation probability forecasts based method called calibration : informally following dawid forecaster said well-calibrated if any event holds moments time he choose see also 
+let us give some notations
+let set all infinite binary sequences set all finite binary sequences empty sequence
+any finite infinite sequence  write put 
+also denotes length sequence
+if finite sequence finite infinite sequence then denotes concatenation sequences means some
+measure-theoretic framework expect forecaster method assigning probabilities future event all possible finite sequences
+other words all conditional probabilities \omega_1,\omega_2,,\omega_{n-1} p_n p_n f:\xi[0,1 f \omega_1,,\omega_{n-1},symbol f \omega=\omega_1\omega_2symbol p_i=f(\omega_1\dots\omega_{i-1} i=1,2,symbol f(\alpha;x \omega_x pr_x x\insymbol pr_{\omega^{i-1}} pr \omega_{\omega^{i-1}} i=1,2,symbol \delta>0 f \omega=\omega_1\omega_2symbol pr n\tosymbol p_i=f(\omega^{n-1} i(p 0,1 c(\omega^{i-1},p)=\delta(\omega^{i-1})i(p \delta:\xi\to\{0,1\} i(p 0,1 p_i=f(\alpha;\omega^{i-1},p^{i-1} p^{i-1}=p_1,,p_{i-1} k=1,2,symbol \{\delta_k\} \{i_k\} 0,1 \{\delta_k i_k\} k=1,2,symbol \delta>0 \omega=\omega_1\omega_2symbol n\tosymbol p_i=f(\omega^{n-1},p^{i-1} i(p_i \delta_k(\omega^{i-1})i_k(p_i k=1,2,symbol \{\delta_k\} p_i=f(\alpha;\omega^{i-1} p_i=f(\alpha;\omega^{i-1} i f$

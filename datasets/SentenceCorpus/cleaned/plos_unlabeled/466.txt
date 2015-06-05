@@ -1,0 +1,45 @@
+ 
+network analysis transcends conventional pairwise approaches data analysis context components network graph taken into account
+approaches increasingly being applied genomics data where functional linkages used connect genes proteins
+however while microarray gene expression datasets now abundant high quality few approaches been developed analysis data network context
+present novel approach 3-d visualisation analysis transcriptional networks generated microarray data
+networks consist nodes representing transcripts connected virtue their expression profile similarity across multiple conditions
+analysing genome-wide gene transcription across 61 mouse tissues describe unusual topography large highly structured networks produced demonstrate how they used visualise cluster mine large datasets
+approach fast intuitive versatile allows identification biological relationships may missed conventional analysis techniques
+work been implemented freely available open-source application named biolayout express 3d
+ introduction 
+complete genome sequencing hundreds pathogenic model organisms provided parts list required large-scale studies gene function
+enormous amounts data pertaining nature genes proteins their interactions cell now been generated techniques including but not limited to: gene coexpression analysis yeast two-hybrid assays mass spectrometry rna interference
+functional genomics proteomics approaches when combined computational biology emerging discipline systems biology finally allow us begin comprehensive mapping cellular molecular networks pathways
+one main difficulties currently face how best integrate disparate data sources use them better understand biological systems health disease 
+visualisation analysis biological data networks becoming increasingly important approach explore wide variety biological relationships
+approaches already been used successfully study sequence similarity protein structure protein interactions evolution
+shifting biological data into graph/network paradigm allows one use algorithms techniques ideas statistics previously developed graph theory engineering computer science computational systems biology
+classical graph theory graph network consists nodes connected edges
+biological networks nodes usually genes transcripts proteins while edges tend represent experimentally determined similarities functional linkages between them 
+conventional analysis techniques generally pairwise where individual relationship between two biological entities studied without considering higher-order interactions their neighbours
+graph network analysis techniques allow exploration position biological entity context its local neighbourhood graph network whole
+another important advantage techniques noisy datasets spurious edges tend not form structure resultant graph but instead randomly link nodes; although may not case data generated techniques inherent technical biases
+because many network analysis techniques exploit local structure networks between biologically related nodes they far less troubled inherent noise may confound conventional pairwise approaches 
+one example network analysis clustering protein protein similarity interaction networks
+techniques illustrate graph clustering performs extremely well allows discovery novel aspects biological function
+techniques hence provide insight into both local features networks also global features network 
+although network analysis biological data shown great promise little attention been paid microarray gene expression data
+data now abundant generally high quality consist type high-dimensional data approaches well-suited
+principle transformation gene expression data into network graph holds few challenges
+similarity between individual expression profiles may determined one number possible statistical techniques e.g pearson spearman correlation coefficients
+networks constructed connecting transcripts edges infer varying degrees coexpression based arbitrary correlation threshold
+indeed number groups previously sought apply network paradigm microarray data establishing relationships between genes based correlation expression
+while studies suggested power approach limitations functionality visualisation capabilities tools supporting their attempts severely limited their approaches general application
+manuscript describe development application new network analysis tool biolayout express 3d facilitates construction visualisation clustering analysis microarray gene expression data
+specifically chose analyse genomics institute novartis research foundation mouse tissue gene expression atlas demonstrate efficacy approach
+gnf data was generated so provide genome-wide analysis transcript abundance across wide range normal tissue cell types
+dataset represents one most complete systematic studies tissue-specific expression mammalian transcriptome date
+however common other large datasets analysis data presents significant challenges
+certain genes known only expressed single cell type at specific times during development response explicit stimuli
+others thought expressed all cells simultaneously at about same level
+between two extremes there many other genes expressed most number cell types but whose transcription may regulated give specific temporal spatial pattern expression
+also known genes play distinct roles common pathway biological process often expressed similar manner; i.e they coexpressed
+hence when genes found analogous expression profiles may indicate genes linked functional activities
+better understand aspects gene regulation functional role encoded proteins chose explore utility network analysis explore innate structure dataset
+demonstrate approach accurately locate clusters genes sharing similar network connectivity relationships between clusters statistical analysis functional annotations

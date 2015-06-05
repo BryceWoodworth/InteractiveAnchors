@@ -1,0 +1,58 @@
+
+dynamics mechanisms lead random behavior systems
+continuous state space produce description behavior properties underlying
+particular measures rate information metric entropy estimated markov
+here develop bayesian inference order markov method finding entropy rates finite samples data produced systems
+introduction
+research systems during years produced new
+now widely observed generated systems exhibit
+when what stochastic process one now whether not process instead hidden but system
+though requires new way at random data since dynamics very process both out
+dynamics one tools systems theory its most basic form issue view continuous dynamics sense any measures system representation underlying behavior
+model time series data system two must
+first must consider representation true dynamics provides
+second must consider inference models based data
+relation between more than one might
+will demonstrate one hand data should designed entropy rate resulting data
+allows one much information each possible
+other hand model inference entropy rate over class alternative models
+search structure data
+here address between optimal optimal models relatively simple system
+consider design noise
+then use bayesian inference order markov model resulting data
+our model system noise } where random variable mean
+consider design limit
+most previous work dynamics provides reference
+dynamics representation system follows
+assume time consider state space itself
+space into finite set regions many ways
+most called markov must two conditions
+first image each region must
+second must
+if markov cannot found system under next best called
+one often found using its critical points
+critical points used state space into over
+note markov but not generally true
+given any then series states its representation
+latter simply associated sequence
+unique each when
+central result dynamics using long sequences observed identify smaller smaller regions state space
+system region associated sequence
+limit sequences result representation representation will show often much analyze
+way chosen sequence continuous dynamics sequence
+choice then our problem
+noise limit entropy rate resulting sequence
+do consider length words
+entropy length sequences obtained then } where probability
+entropy entropy rate estimated following limit } practice often more accurate length estimate entropy rate using } another key result dynamics entropy original continuous system found using
+particular true entropy rate estimated entropy } thus into about experiment design results us design so observed entropy rate
+fact each produce most information possible
+useful useful only case when know us value positive
+there single estimated observed using } taken results us how design our effective observation
+presence noise no exist
+however demonstrated methods developed above robust presence noise
+any case view output stochastic process
+sample length measurements taken finite basis our inference
+our here sample generated sequences states
+means particular stochastic process
+assume addition binary

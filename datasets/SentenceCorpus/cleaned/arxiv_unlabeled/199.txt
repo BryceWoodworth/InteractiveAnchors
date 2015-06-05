@@ -1,0 +1,25 @@
+ 
+report new optimal resolution statistical stratification problem under proportional sampling allocation among strata
+consider finite population n units random sample n units selected population number l strata
+thus define units belong each stratum so minimize variance total estimator one desired variable interest each stratum consequently reduce overall variance quantity
+order solve problem exact algorithm based concept minimal path graph proposed assessed
+computational results using real data ibge brazilian central statistical office provided \\ 0 7em {keywords:} stratification; proportional allocation; variance; minimal path
+ introduction 
+common procedure sampling surveys partitioning elements population before distributing sample way obtain most useful information data collected
+procedure called stratification
+may different aims guarantee obtaining information some all geopolitical regions country provide more precision estimating population quantities identifying strata more homogeneous elements into them according one more variables
+latter case stratification also called statistical stratification
+principal use statistical stratification order obtain better precision defining what percentage sample must taken each stratum once chosen non-uniform allocation scheme non-trivial functional relation between size each stratum number sample units collected
+thus important consider allocation scheme itself order do suitable statistical stratification
+paper propose exact algorithm solve statistical stratification problem call simply stratification problem considering simple non-uniform allocation scheme
+specifically method intends solve problem optimal stratification stratified simple random sampling without replacement using proportional allocation
+problem must divide population size into strata considering auxiliary variable  also called size variable whose values known all units population
+first stratum defined set units population whose values lower than equal constant value  second one set units whose values greater than lower than equal so
+based definition stratum defined set units population values belonging interval  where boundaries each stratum stratum corresponds set observations values greater than
+problem optimal stratification consists find boundaries minimize variance estimator total one more variables study supposed some correlation variable even variable properly
+aiming solve problem new algorithm when proportional allocation used proposed using idea minimal path graphs
+paper organized five sections
+section 2 present some basic concepts about stratified simple random sampling
+section 3 define problem stratification tackled work offer brief discussion about different approaches topic
+propose section 4 algorithm based graph theory order provide exact solutions stratification problem defined section 3
+finally present some computational results considerations about new algorithm

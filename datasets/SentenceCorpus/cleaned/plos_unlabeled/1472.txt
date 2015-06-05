@@ -1,0 +1,45 @@
+ 
+cytokines tnf fasl trigger death survival depending cell lines cellular conditions
+mechanistic details how cell chooses among cell fates still unclear
+understanding processes important since they altered many diseases including cancer aids
+using discrete modelling formalism present mathematical model cell fate decision recapitulating integrating most consistent facts extracted literature
+model provides generic high-level view interplays between nf b pro-survival pathway rip1-dependent necrosis apoptosis pathway response death receptor-mediated signals
+wild type simulations demonstrate robust segregation cellular responses receptor engagement
+model simulations recapitulate documented phenotypes protein knockdowns enable prediction effects novel knockdowns
+silico experiments simulate outcomes following ligand removal at different stages suggest experimental approaches further validate specialise model particular cell types
+also propose reduced conceptual model implementing logic decision process
+analysis gives specific predictions regarding cross-talks between three pathways well transient role rip1 protein necrosis confirms phenotypes novel perturbations
+our wild type mutant simulations provide novel insights restore apoptosis defective cells
+model analysis expands our understanding how cell fate decision made
+moreover our current model used assess contradictory controversial data literature
+ultimately constitutes valuable reasoning tool delineate novel experiments
+ introduction 
+engagement tnf fas receptors trigger cell death apoptosis necrosis yet lead activation pro-survival signalling pathway nf b apoptosis represents tightly controlled mechanism cell death triggered internal external death signals stresses
+mechanism involves sequence biochemical morphological changes resulting vacuolisation cellular content followed its phagocyte-mediated elimination
+physiological process regulates cell homeostasis development clearance damaged virus-infected cancer cells
+contrast pathological necrosis results plasma membrane disruption release intracellular content trigger inflammation neighbouring tissues
+long seen accidental cell death necrosis also appears regulated possibly involved clearance virus-infected cancer cells escaped apoptosis 
+dynamical modelling regulatory network controlling apoptosis non-apoptotic cell death survival pathways could help identify how under conditions cell chooses between different types cellular deaths survival
+moreover modelling could suggest ways re-establish apoptotic death when altered yet trigger necrosis apoptosis-resistant cells
+decision process involves several signalling pathways well multiple positive negative regulatory circuits
+mathematical modelling provides rigorous integrative approach understand analyse dynamical behaviours complex systems
+published models cell death control usually focus one death pathway only apoptotic extrinsic intrinsic pathways
+few studies integrate both pathways some show concentration specific components contribute decision between death survival while other studies investigate balance between proliferation survival apoptosis specific cell types along role key components pathways but no mathematical models including necrosis available yet
+moreover still lack models properly demonstrating how cellular conditions determine choice between necrosis apoptosis survival how what extent conversions allowed between fates
+our study aims at identifying determinants cell fate decision process
+three main phenotypes considered apoptosis non-apoptotic cell death survival
+although pathways leading three phenotypes highly intertwined first describe them separately hereafter concentrating players chose include each pathway
+summarised figure 1a description does not intend exhaustive but rather aims at covering most established processes participating cell fate decision
+only apoptotic caspase-dependent pathway downstream fas tnf receptors considered here
+upon engagement their ligands presence fadd specific death inducible signalling complex forms recruits pro-caspase-8
+leads cleavage activation caspase-8
+so-called type ii cells casp8 triggers intrinsic mitochondria-dependent apoptotic pathway also responds dna damage directly through p53-mediated chain events
+casp8 cleaves bh3-only protein bid then translocate mitochondria outer membrane
+there bid competes anti-apoptotic bh3 family members bcl2 interaction proteins bax bak
+consequently oligomerisation bax results mitochondrial outer membrane permeabilisation release pro-apoptotic factors
+once released cytosol cytochrome c interacts apaf1 recruiting pro-caspase-9
+presence datp enables assembly apoptosome complex responsible caspase-9 activation followed proteolytic activation pro-caspase-3
+cleavage specific targets executioner caspases responsible major biochemical morphological changes characteristic apoptosis
+smac/diablo released during momp cytosol where able inactivate caspase inhibitor xiap
+casp3 also participates positive circuit inducing activation casp8
+type i cells casp8 directly cleaves activates executioner caspases casp3 

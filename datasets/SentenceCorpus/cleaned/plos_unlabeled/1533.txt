@@ -1,0 +1,57 @@
+ 
+many behavioral phenomena been found spread interpersonally through social networks manner similar infectious diseases
+important difference between social contagion traditional infectious diseases however behavioral phenomena acquired non-social mechanisms well through social transmission
+introduce novel theoretical framework studying phenomena adapting classic disease model include possibility automatic non-social infection
+provide example use framework examining spread obesity framingham heart study network
+interaction assumptions model validated using longitudinal network transmission data
+find current rate becoming obese 2formula per year increases 0.5 percentage points each obese social contact
+rate recovering obesity 4formula per year does not depend number non-obese contacts
+model predicts long-term obesity prevalence approximately 42formula used evaluate effect different interventions steady-state obesity
+model predictions quantitatively reproduce actual historical time course prevalence obesity
+find since 1970s rate recovery obesity remained relatively constant while rates both spontaneous infection transmission steadily increased over time
+suggests obesity epidemic may driven increasing rates becoming obese both spontaneously transmissively rather than decreasing rates losing weight
+key feature sisa model its ability characterize relative importance social transmission quantitatively comparing rates spontaneous versus contagious infection
+provides theoretical framework studying interpersonal spread any state may also arise spontaneously emotions behaviors health states ideas diseases reservoirs
+ introduction 
+social network effects great importance understanding human behavior
+people interact varying number individuals some individuals more than others affects behavior fundamental ways
+sociologists long studied social influence through networks networks now routinely appear investigations other fields including economics physics public health scientific publishing
+extensive reviews social networks analysis including investigations their structure their effect social dynamics include mitchell wasserman watts rogers jackson smith
+networks also long been known important many areas biology including ecological food webs evolution cooperation
+social networks also been studied determinants health ranging determining patterns infectious disease spread propagation phenomena emotions smoking cessation obesity suicide altruism anti-social behavior online health forum participation
+studies suggest top physical environment social environment also important contributor health
+they lead suggestions public health interventions must designed work network structure network exploited spread health related information 
+within network studies much work focused how information trends behaviors other entities spread between individuals social networks
+processes generally referred contagion
+suggestions contagious dynamics possible relevance network structure rigorously examined using mathematical models contagious processes
+then used obtain accurate measures expected prevalences interventional efficacy optimized information flow
+many previous models been proposed study influential interactions between individuals
+most considered well-mixed populations although more recent work focused network-structured populations
+most well studied classic epidemiological models spread microbial infectious diseases including spread network-structured populations
+various related processes been used model social influence important contributions including same epidemiological models diffusion models statistical mechanics type interactions threshold models 
+each models however one more properties problematic studying social contagion
+many do not capture probabilistic nature contagion asymmetry inherent traditional infectious disease
+others only consider well-mixed populations where everyone influenced everyone else ignoring effect network structure
+most models inspired epidemiology not directly applicable social spread other phenomenon because many phenomena spread social contagion may also arise spontaneously
+possible adopt trend behavior obtain information outside source without directly catching contact network
+other words top probability obtaining infection each infected contact there also non-zero probability automatically obtaining infection independent local network
+automatic non-social infection not included traditional infectious disease models
+economic models diffusion innovations based early work bass do take into account automatic infection
+individuals move susceptible infected state adopting new product idea influenced both social non-social factors
+however models do not allow recovery; because innovation adoptions assumed permanent changes behavior individuals never move back susceptible state
+results entire population becoming adopters at equilibrium
+does not reflect dynamics many phenomena spread socially may repeatedly acquired lost
+through balance infection recovery steady-state multiple states individuals coexisting reached
+finally most previous models make assumptions about type interaction between individuals particulars not usually validated real data
+yet long term behavior model prevention strategies suggests depend critically specifics interaction assumptions
+here introduce new model study spread entities social network all important properties listed above
+then analyze its characteristics show how applied different contexts
+model extension classical infectious disease model combining features other models mentioned above
+describes infections contracted both spontaneously through social transmission allows recovery infection
+example focus spread obesity framingham heart study network
+interaction assumptions model will validated using longitudinal network transmission data
+show how quantitatively assess values rate adopting trend spontaneously versus contagion determine extent social transmission important
+use predict prevalences intervention effectiveness
+results model very different models other interaction assumptions majority rules models
+will show transmissive components often small compared automatic component but may still contribute materially prevalence levels
+lastly will use pair-wise approximations generate analytic results infections network-structured populations well presenting simulations using real social network

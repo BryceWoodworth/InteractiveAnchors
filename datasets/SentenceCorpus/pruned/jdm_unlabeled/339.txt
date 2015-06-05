@@ -1,0 +1,88 @@
+
+less more effect occurs when agent greater probability choosing better than more agent who more items
+define probability correct choice made basis recognition probability correct choice made when both items via additional cues
+they occurs if greater than greater than number number constant number items n
+fact shown parameters generally remains constant n them simple functions n
+therefore new theoretical basis needed
+paper provides mathematical results understanding when occur results
+major findings presented here follows occur when less than occur when greater than conditions new conditions under occurs recognition when occurs more items become
+primary results advantage recognition cue depends not only cue but also order items learned
+turn suggests research area should more dynamic focus learning memory processes effects information
+introduction
+choosing between two items agent who one but not other may use recognition cue make choice whereas one who both items must use other cues one who must
+less more effect occurs when agent greater probability choosing better than more agent who more items
+paper provides some new mathematical results understanding when occur results
+many researchers validity recognition heuristic report high rates
+reported number percent rate
+found number percent their number percent their samples used recognition heuristic choosing
+reported number percent setting
+found recognition heuristic number percent their study more than four other mechanisms
+finally observed additional cue knowledge increased recognition heuristic over cases where recognition object did not any other knowledge
+however empirical evidence at least value
+possible but only small present less good more evidence no
+simulation studies based real some support
+moreover present simulation results recognition may actually increase likelihood
+further some studies lack test
+combined results presented paper empirical studies
+i end paper
+define probability correct choice made basis recognition probability correct choice made when both items via additional cues
+they occurs if greater than greater than number number constant number items n
+view been widely used when
+makes under conditions recognition
+however assume constant number items n
+fact parameters remains constant n them simple function n
+see indeed assumption not
+see how various assumption lead presence
+approach problem between probability choosing between pairs items using knowledge cue probability choosing between any pair items using knowledge cue i e knowledge cue validity
+i will demonstrate occur when less than
+number number items number
+shows rank each outcome cue rank shows their knowledge cue used choosing between two items
+paper i will knowledge cue no
+first let us determine
+number number correct choices number
+whose greater i e each number c number number number number number number number
+number choices number whose rank greater than each number d number number number number
+result number number number number
+use similar procedure probability making correct choice using knowledge cue i e knowledge cue validity
+c number shows number items than each would identified comparing other items
+example first number so using cue compare other number items would choose first
+contrast third number so would make only number correct choice comparing its those items actually
+d shows corresponding number choices
+there c number correct d number choices resulting cue validity number number number number
+two number probability choosing between pairs items using knowledge cue c c d number number number number
+note not
+example fact probability making correct choice between pairs number items not same probability making correct choice when all number items
+moreover both depending order items learned i e become
+example if next learned number number then result will number whereas if next number number then result will number
+if number learned next number whereas if number learned next number
+examples show variation n they demonstrate both parameters take different values alternative items having same n
+moreover there no relation between range possible values
+greater than number number i e use any negative cue there always at least one pair items whose order cue so if only those two items been learned then number
+if less than number then there always at least one pair whose so if only those two items been learned then number
+same range number number depending order items learned
+now up probability making correct choice between pairs items number following
+those pairs where one other use recognition cue where n total number items n number items
+probability correct choice when both items i e where must made
+finally probability correct choice when both items
+terms formula
+they so using their appropriate numbers number
+thus because number less than number but also number less than number so if thus differ occur when less than
+when not constant not only occur when less than but condition greater than does not
+one number
+knowledge cue number objects number number number number number number number number number number
+then knowledge cue validity number number number number
+now number objects outcome number number number number number number
+then number number number number number number number number greater than
+however both less than so no them number number
+indeed number so does not occur
+i address issue how common when less than no when greater than
+finally need among various
+point out there at least three one comparing more less agents another comparing performance different domains third comparing performance agent new items
+version been first less than full experience
+but another greater than number occur whether less than
+let us call local
+difference between two simply
+next section paper less than
+third out conditions under occur under conditions recognition
+effect learning items there section
+all

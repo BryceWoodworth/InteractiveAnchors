@@ -1,0 +1,51 @@
+
+paper efficient reduction learning problem binary classification
+reduction average regret at most binary classifier regret recent result et al only factor
+moreover our reduction class loss functions expected time complexity our algorithm terms number classifier preference function
+addition when elements only required many applications information search time complexity our algorithm further reduced
+our reduction algorithm thus practical applications where number points rank several
+much our results also case previously studied
+our one
+our result also derive lower bounds any reduction binary preference classification our use reduction necessary provide
+introduction
+learning problem many applications including design search information systems
+applications critical system
+problem been within two distinct settings
+setting learning algorithm sample preferences function linear points set
+test points simply according values those points
+several algorithms including other algorithms were designed setting
+generalization bounds been given setting error including bounds
+generalization bounds also been given setting wide classes algorithms both case general case
+different was considered other later et al will setting
+first setting preference function learned where values one above values
+typically assumed output classification algorithm sample pairs example convex combination preference functions
+difference setting general preference function does not linear
+order may thus may example three distinct points
+rank test subset second algorithm points making use preference function learned first
+paper setting just described
+advantage setting learning algorithm not required linear all points achieve true preference
+more likely better approximation when algorithm instead setting linear only limited subset
+when preference function learned binary classification algorithm setting reduction problem classification one
+second how obtained using preference function
+showed second setting general problem finding linear few possible respect preference function
+authors presented algorithm based degree each defined difference between number elements versus number those
+bound authors terms loss respect preference function where loss their algorithm one optimal respect preference function
+bound was given general case but particular case define below random achieve loss thus bound not
+more recently et al studied problem showed elements according same degree used regret at most using binary classifier regret
+however due nature degree their algorithm requires preference function where number objects rank
+describe efficient algorithm second setting thus learning problem binary classification
+improve recent result et al average regret at most using binary classifier regret
+other words improve their constant
+our reduction different class loss functions expected time complexity our algorithm terms number classifier preference function
+furthermore when elements only required many applications information search time complexity our algorithm further reduced
+our reduction algorithm thus practical applications where number points rank several
+much our results also case previously studied general case
+our also bound loss respect preference function will compare result given
+algorithm used et al produce based preference function known been recently used context feedback
+here use different algorithm also been recently used feedback
+techniques presented make use work et al optimization problems over clustering
+paper follows
+section introduce used future introduce family general loss functions used measure quality hypothesis
+section simple efficient algorithm binary classification several bounds quality produced algorithm shows complexity our algorithm very efficient
+section discuss relationship algorithm its previous related work optimization
+section derive lower bound factor any reduction binary preference classification our use reduction necessary provide

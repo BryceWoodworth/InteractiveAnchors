@@ -1,0 +1,51 @@
+ 
+derive exact efficient bayesian regression algorithm piecewise constant functions unknown segment number boundary location levels
+works any noise segment level prior eg \ cauchy handle outliers
+derive simple but good estimates in-segment variance
+also propose bayesian regression curve better way smoothing data without blurring boundaries
+bayesian approach also allows straightforward determination evidence break probabilities error estimates useful model selection significance robustness studies
+discuss performance synthetic real-world examples
+many possible extensions will discussed
+ introduction 
+consider problem fitting piecewise constant function through noisy one-dimensional data eg \ figure  where segment number boundaries levels unknown
+regression piecewise constant pc functions also known change point detection many applications
+instance determining dna copy numbers cancer cells micro-array data mention just one recent
+provide full bayesian analysis pc-regression
+fixed number segments choose uniform prior over all possible segment boundary locations
+some prior segment levels data noise within each segment assumed
+finally prior over number segments chosen
+obtain posterior segmentation probability distribution section 
+practice need summaries complicated distribution
+simple maximum map approximation mean does not work here
+right way proceed stages determining most critical segment number boundary location finally then trivial segment levels
+also extract evidence boundary probability distribution interesting non-pc regression curve including error estimate section 
+derive exact polynomial-time dynamic-programming-type algorithm all quantities interest sections 
+our algorithm works any noise level prior
+consider more closely gaussian ``standard'' prior heavy-tailed robust-to-outliers distributions like cauchy briefly discuss non-parametric case sections 
+finally some hyper-parameters like global data average variability local within-level noise determined
+introduce discuss efficient semi-principled estimators thereby avoiding problematic expensive numerical em monte-carlo estimates section 
+test our method some synthetic examples section  some real-world data sets section 
+simulations show our method handles difficult data high noise outliers well
+our basic algorithm easily modified variety ways: discrete segment levels segment dependent variance piecewise linear non-linear regression non-parametric noise prior etc section 
+sen srivastava developed frequentist solution problem detecting single most prominent segment boundary called change break point
+olshen et al \ generalize method detect pairs break points improves recognition short segments
+both methods then heuristically used recursively determine further change points
+another approach penalized maximum likelihood ml
+fixed number segments ml chooses boundary locations maximize data likelihood minimize mean square data deviation
+jong et al \ use population based algorithm minimizer while picard et al \ use dynamic programming structurally very close our core recursion find exact solution polynomial time
+additional penalty term added likelihood order determine correct number segments
+most principled penalty bayesian information criterion
+since biased towards too simple too complex models practice often heuristic penalty used
+interesting heuristic based curvature log-likelihood function number segments been used
+our bayesian regressor natural response penalized ml
+many other regressors exist; too numerous list them all
+another closely related work ours bayesian bin density estimation endres f\"oldi\'ak  who also average over all boundary locations but context density estimation
+full bayesian approach when computationally feasible various advantages over others: generic advantage more principled hence involves fewer heuristic design choices
+particularly important estimating number segments
+another generic advantage easily embedded larger framework
+instance one decide among competing models solely based bayesian evidence
+finally bayes often works well practice provably so if model assumptions valid
+also extract other information nearly free like probability estimates variances various quantities interest
+particularly interesting expected level variance each data point
+leads regression curve very flat i e \ smoothes data long clear segments wiggles less clear segments follows trends jumps at segment boundaries
+thus behaves somewhat between local smoothing wiggles more blurs jumps rigid pc-segmentation

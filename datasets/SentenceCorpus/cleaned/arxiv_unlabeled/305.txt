@@ -1,0 +1,54 @@
+ 
+% < trailing '%' backward compatibility
+sty file sample compression conjecture littlestone \& warmuth remained unsolved over two decades
+while maximum classes concept classes meeting sauer's lemma equality compressed compression general concept classes reduces compressing maximal classes classes cannot expanded without increasing vc-dimension
+two promising ways forward are: embedding maximal classes into maximum classes at most polynomial increase vc dimension compression via operating geometric representations
+paper presents positive results latter approach first negative result former through systematic investigation finite maximum classes
+simple arrangements hyperplanes hyperbolic space shown represent maximum classes generalizing corresponding euclidean result
+show sweeping generic hyperplane across arrangements forms unlabeled compression scheme size vc dimension corresponds special case peeling one-inclusion graph resolving recent conjecture kuzmin \& warmuth
+bijection between finite maximum classes certain arrangements piecewise-linear pl hyperplanes either ball euclidean space established
+finally show maximum classes corresponding pl hyperplane arrangements cubical complexes homeomorphic ball equivalently complexes manifolds boundary
+main result pl arrangements swept moving hyperplane unlabeled compress any finite maximum class forming peeling scheme conjectured kuzmin \& warmuth
+corollary some maximal classes cannot embedded into any maximum class vc dimension  any constant
+construction pl sweeping involves pachner moves one-inclusion graph corresponding moves hyperplane across intersection other hyperplanes
+extends well known pachner moves triangulations cubical complexes
+ introduction 
+\term{maximum} concept classes largest cardinality possible their given vc dimension
+classes particular interest their special recursive structure underlies all general sample compression schemes known to-date
+structure admits many elegant geometric algebraic topological representations upon paper focuses
+introduced study \term{sample compression schemes} defined pair mappings given concept class : \term{compression function} mapping labeled sample subsequence labeled examples \term{reconstruction} \term{function} mapping subsequence concept consistent entire sample
+compression scheme bounded size---the maximum cardinality subsequence image---was shown imply learnability
+converse---that classes vc dimension admit compression schemes size become one oldest unsolved problems actively pursued within learning theory
+interest conjecture been motivated its interpretation converse existence compression bounds pac learnable classes  basis practical machine learning methods compression schemes  conjecture's connection deeper understanding combinatorial properties concept classes
+recently achieved compression maximum classes without use labels
+they also conjectured their elegant min-peeling algorithm constitutes unlabeled compression scheme maximum classes
+discussed our previous work  maximum classes fruitfully viewed \term{cubical complexes}
+also topological spaces each cube equipped natural topology open sets its standard embedding into euclidean space
+proved maximum classes correspond \term{ contractible complexes}---topological spaces identity map homotopic constant map---extending result maximum classes trees one-inclusion graphs
+peeling viewed special form contractibility maximum classes
+however there many non-maximum contractible cubical complexes cannot peeled demonstrates peelability reflects more detailed structure maximum classes than given contractibility alone
+paper approach peeling direction simple hyperplane arrangement representations maximum classes
+predicted maximum classes corresponding simple linear hyperplane arrangements could unlabeled compressed sweeping generic hyperplane across arrangement concepts min-peeled their corresponding cell swept away
+positively resolve first part conjecture show sweeping arrangements corresponds new form \term{corner-peeling} prove distinct min-peeling
+while \term{min-peeling} removes minimum degree concepts one-inclusion graph corner-peeling peels vertices contained unique cubes maximum dimension
+explore simple hyperplane arrangements hyperbolic geometry show correspond set maximum classes properly containing those represented simple linear euclidean arrangements
+classes again corner-peeled sweeping
+citing proof existence maximum unlabeled compression schemes due  ask whether unlabeled compression schemes infinite classes positive half spaces constructed explicitly
+present constructions illustrative but simpler classes suggesting there many interesting infinite maximum classes admitting explicit compression schemes under appropriate conditions sweeping infinite euclidean hyperbolic pl arrangements corresponds compression corner-peeling
+next prove all maximum classes represented simple arrangements piecewise-linear pl hyperplanes ball
+extends previous work viewing simple pl hyperplane arrangements maximum classes
+close relationship between arrangements their hyperbolic versions suggests they could equivalent
+resolving main problem left open preliminary version paper  show sweeping contractible pl arrangements does compress all finite maximum classes corner-peeling completing
+show one-inclusion graph represented contractible pl hyperplane arrangement if only if strongly contractible cubical complex
+motivates nomenclature contractible class arrangements pl hyperplanes
+note then one-inclusion graphs admit corner-peeling scheme same size largest dimension cube
+moreover if graph admits corner-peeling scheme then contractible cubical complex
+give simple example show there one-inclusion graphs admit corner-peeling schemes but not strongly contractible so not represented contractible pl hyperplane arrangement
+compressing \term{maximal classes}---classes cannot grown without increase their vc dimension---is sufficient compressing all classes embedded classes trivially inherit compression schemes their super-classes
+reasoning motivates attempt embed maximal classes into maximum classes
+present non-embeddability results following our earlier counter-examples kuzmin \& warmuth's minimum degree conjecture  our new results corner-peeling
+explore examples maximal classes compressed but not peeled classes not strongly contractible but compressed
+finally investigate algebraic topological properties maximum classes
+most notably characterize maximum classes corresponding simple linear euclidean arrangements cubical complexes homeomorphic ball
+result classes' boundaries homeomorphic sphere begins study boundaries maximum classes closely related peeling
+conclude several open problems

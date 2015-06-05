@@ -1,0 +1,57 @@
+ 
+consider agent interacting unmodeled environment
+at each time agent makes observation takes action incurs cost
+its actions influence future observations costs
+goal minimize long-term average cost
+propose novel algorithm known active lz algorithm optimal control based ideas lempel-ziv scheme universal data compression prediction
+establish under active lz algorithm if there exists integer future conditionally independent past given window consecutive actions observations then average cost converges optimum
+experimental results involving game rock-paper-scissors illustrate merits algorithm
+ introduction 
+\ieeeparstart{c}{onsider} agent at each integer time  makes observation finite observation space  takes action selected finite action space
+agent incurs bounded cost
+goal minimize long-term average cost here expectation over randomness process at each time  action selected function prior observations prior actions
+will propose general action-selection strategy called active lz algorithm
+addition new strategy primary contribution paper theoretical guarantee strategy attains optimal average cost under weak assumptions about environment
+main assumption there exists integer future conditionally independent past given window consecutive actions observations
+other words } where transition kernel algebra generated
+particularly interested situations where neither nor even known agent
+where there finite but unknown dependence history
+consider following examples fall into above formalism
+optimization problem find sequence functions  where each function specifies encoder at time  so minimize long-term average distortion assume source markov order  but both transition probabilities source order unknown
+setting  define observation at time vector action at time
+then optimal coding problem at hand falls within our framework cf
+references therein \end{example} knowledge kernel even just order kernel  solving average cost optimal policy either examples above via dynamic programming methods relatively straightforward
+paper develops algorithm without knowledge kernel its order  achieves average cost optimality
+active lz algorithm develop consists two broad components
+first efficient data structure context tree joint process  store information relevant predicting observation at time   given history available up time action selected at time 
+our prediction methodology borrows heavily lempel-ziv algorithm data compression
+second component our algorithm dynamic programming scheme given probabilistic model determined context tree selects actions so minimize costs over suitably long horizon
+absent knowledge order kernel  two tasks above---building context tree order estimate kernel selecting actions minimize long-term costs---must done continually tandem creates important tension between `exploration' `exploitation'
+particular one hand algorithm must select actions manner builds accurate context tree
+other hand desire minimize costs naturally restricts selection
+carefully balancing two tensions our algorithm achieves average cost equal optimal policy full knowledge kernel
+related problems been considered literature
+kearns singh present algorithm reinforcement learning markov decision process
+algorithm applied our context when known asymptotic optimality guaranteed
+more recently even-dar et al \ present algorithm optimal control partially observable markov decision processes more general setting than what consider here able establish theoretical bounds convergence time
+algorithm there however seems difficult unrealistic implement contrast what present here
+further relies knowledge constant related amount time `homing' policy requires achieve equilibrium
+constant may challenging estimate
+work de farias megiddo considers optimal control framework where dynamics environment not known one wishes select best finite set `experts'
+contrast our problem thought competing set all possible strategies
+prediction problem loss functions memory markov-modulated source considered merhav et al \ essentially markov decision problem authors point out; again case knowing structure loss function implicitly gives order underlying markov process
+active lz algorithm inspired lempel-ziv algorithm
+algorithm been extended address many problems prediction filtering
+almost all cases however future observations not influenced actions taken algorithm
+contrast active lz algorithm proactively anticipates effect actions future observations
+exception work vitter krishnan  considers cache pre-fetching viewed special case our formulation
+lempel-ziv algorithm its extensions revolve around context tree data structure constructed observations made
+data structure simple elegant implementational point view
+use data structure reinforcement learning represents departure representations state belief state commonly used reinforcement learning literature
+data structures proved useful representing experience algorithms engineering applications ranging compression prediction denoising
+understanding whether how some value extended reinforcement learning motivation paper
+remainder paper organized follows
+section formulate our problem precisely
+section present our algorithm provide computational results context rock-paper-scissors example
+our main result stated theorem section algorithm asymptotically optimal
+section concludes

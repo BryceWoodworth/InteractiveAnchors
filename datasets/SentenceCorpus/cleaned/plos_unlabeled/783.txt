@@ -1,0 +1,78 @@
+ 
+recent improvements technology made dna sequencing dramatically faster more efficient than ever before
+new technologies produce highly accurate sequences but one drawback most efficient technology produces shortest read lengths
+short-read sequencing been applied successfully resequence human genome those other species but not whole-genome sequencing novel organisms
+here describe sequencing assembly novel clinical isolate pseudomonas aeruginosa strain pab1 using very short read technology
+8,627,900 reads each 33 nucleotides length assembled genome into one scaffold 76 ordered contiguous sequences containing 6,290,005 nucleotides including one contig spanning 512,638 nucleotides plus additional 436 unordered contigs containing 416,897 nucleotides
+our method includes novel gene-boosting algorithm uses amino acid sequences predicted proteins build better assembly
+study demonstrates feasibility very short read sequencing sequencing bacterial genomes particularly those related species been sequenced previously expands potential application new technology most known prokaryotic species
+ introduction 
+genome sequencing technology moved into new era introduction extremely fast sequencing technologies produce over one billion base pairs dna single run
+some fastest methods today based strategies cyclic reversible termination ligation-based sequencing produce shortest read lengths ranging 15 50 bp
+lengths sufficient resequencing projects including efforts sample human population but they yet prove useful sequencing novel species
+difficulty no existing assembly algorithms accurately reconstruct genome short reads 
+first published report bacterial genome sequence short reads used pyrosequencing technology was able generate reads averaging 110 bp
+study demonstrated feasibility assembling small bacterial genome mycoplasma genitalium reads covered genome 40-fold
+combination coverage read length allowed margulies et al generate contiguous stretchs dna averaging 22.4 kilobases
+results using pyrosequencing improved steadily read lengths increased 250 bp longer but difficulty de novo assembly raised questions about utility alternative sequencing technologies those produce reads shorter than 50 bp genome sequencing projects
+assembly novel strains species where genome not previously been sequenced very short reads proven more difficult although simulation studies indicated should possible
+recent study showed combination pyrosequencing reads paired-end sequencing could used assemble 4 million base pair genome into just 139 contigs linked together 22 scaffolds
+another recent effort used hybrid strategy mixed pyrosequencing traditional sanger sequencing produce draft assemblies marine microbes
+contrast very short reads generated solexa sequence analyzer thus far been useful primarily polymorphism discovery human genome resequencing polymorphism discovery caernohabditis elegans other applications chip-seq identifies genomic regions bound transcription factors
+very short reads currently 30 35 bp produced crt technologies solexa present far more difficult assembly problem
+standard assembly algorithms arachne celera assembler cannot process short reads at all spurring development several new algorithms designed short reads including ssake velvet edena allpaths
+latter methods handle solexa data but they produce highly fragmented assemblies when provided whole-genome data bacterial genome
+inherent problem very short reads every repetitive sequence longer than read length causes breaks assembly
+demonstrate feasibility assembling bacterial genome 33 bp reads using related genomes assist process chose pseudomonas aeruginosa strain pab1 highly virulent strain isolated frostbite patient
+p aeruginosa ubiquitous environmental bacteria clinical importance leading cause gram-negative nosocomial infections
+several p aeruginosa genomes been sequenced previously including two laboratory strains: pao1 originally isolated wound pa14 isolated burn
+pa14 pao1 99 percent identical across 6.05 mbp shared both genomes their similarity pab1 allowed us improve assembly provided means check its accuracy
+one our goals sequencing pab1 was identify genomic differences contribute its altered pathogenicity
+here report assembly p aeruginosa pab1 entirely 33 bp reads using novel assembly strategy takes advantage related genomes homologous protein sequences
+assembly very high quality comparable better than draft assemblies produced using earlier sequencing technologies
+study shows novel bacterial genome sequenced entirely very short read technology without use paired-end sequences assembled into high-quality genome
+even at 40-fold coverage amount sequence represents just one-quarter single sequencing run solexa instrument brings sequencing cost easily within reach most scientists
+making all our assembly software free open source hope further bring down barriers desktop whole-genome sequencing
+generated 8,627,900 random shotgun reads p aeruginosa pab1 using solexa technology
+all reads were exactly 33 bp length
+used four distinct computational steps assemble genome pab1
+initial step used comparative assembly algorithm amoscmp aligns all reads reference genome then builds contigs based alignments
+algorithm gains efficiency avoiding costly all-versus-all overlapping step particularly difficult very short reads due high incidence false overlaps
+modified amoscmp tuning mummer software run within amoscmp look exact matches reference genome at least 17 bp allowing at most two mismatches each read
+found careful trimming reads based their matches reference produced better assemblies than un-trimmed reads
+initial assembly used 7,500,501 reads leaving 1,127,399 singletons
+pab1 genome closer pa14 than pao1 therefore used pa14 primary reference orienting contigs
+our second step was novel enhancement comparative assembly strategy used multiple reference genomes
+used complete genomes both pao1 pa14 separately build multiple comparative assemblies found pa14 produced better assembly comprising 2,053 contigs containing 6,206,284 bp
+bulk sequence was contained 157 contigs longer than 10 kbp collectively covered 5,568,616 bp
+there were 331,364 bp pa14 genome were not covered initial assembly due divergence between two strains
+however gaps comparative assembly based pao1 occurred different locations due differences between strains
+best assembly based pao1 comprised 2797 contigs covering 6,043,652 bp
+aligned two assemblies one another identify locations where contig pao1-based assembly might span two more contigs pa14-based assembly
+each case filled gap sequence pao1 assembly using minimus assembler stitch together contigs
+algorithm closed 203 gaps reducing number contigs 1850 all but 305 were 200 bp
+bulk genome 5,949,162 bp was contained just 113 contigs 10,000 bp longer
+note overlapping contigs between two assemblies did not agree perfectly
+order produce clean merged assembly re-mapped reads contigs using amoscmp create consistent multi-alignments
+third step used novel algorithm gene-boosted assembly
+step took contigs previous step identified protein-coding genes using our annotation pipeline based glimmer blast
+because amino acid sequences much more conserved than nucleotide sequences were able use predicted protein sequences fill gaps even where dna sequences diverged
+annotation pipeline identified 5,769 proteins 305 longest contigs
+initial annotation identified those genes extended beyond ends contigs spanned gaps between contigs
+extracted amino acid sequences corresponding gap positions small buffer sequence included each side each gap
+next used tblastn align each protein sequence all unused reads translated all 6 frames
+step identified each gap small set reads would fill missing protein sequence tblastn results provided initial locations multiple alignment
+then used new program abba assemble reads together flanking contigs close gaps
+gene-boosted assembly protocol extended many contigs closed 185 gaps ranging length 14 1095 bp reducing number long contigs 120
+separate test conducted gene-boosted assembly pab1 using only annotated proteins pa14 without any reference genomic sequence
+experiment aligned all translated reads each protein used abba assemble each one
+4,572 proteins abba produced single contig covered entire reference protein another 831 proteins assembled into few contigs
+thus 5,403 out 5,602 pab1 proteins assembled using pure gene-boosting approach additional proteins would likely assembled if used large set proteins boosting
+demonstrates absence closely related genome sequence gene-boosted assembly use protein sequences diverge much more slowly than genomic dna assemble most genes new bacterial strain although results will lack global genome structure information
+fourth step our method identified any remaining dna sequences were unique pab1 outside predicted gene regions
+separately constructed pure de novo assemblies 8.6 million solexa reads using ssake edena velvet
+velvet assembly was best three creating 10,684 contigs longest being 16,239 bp
+used mummer align contigs 120 long contigs our scaffold previous step identified cases where de novo contigs spanned gaps extended contigs
+step allowed us close 46 gaps reducing number contigs our main scaffold 74
+after removing velvet contigs were already contained our scaffold had 436 unplaced de novo contigs spanning 416,897 bp
+longest unplaced contig was 10,493 bp

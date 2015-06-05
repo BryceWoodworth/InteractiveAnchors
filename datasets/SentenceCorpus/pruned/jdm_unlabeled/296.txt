@@ -1,0 +1,63 @@
+
+paper uses data analyze how regret decisions during
+even among group people who choose activity find strong evidence significant bias number percent at too resulting losses
+behavior among does not change more decisions
+introduction
+much people their expected utility when making decisions under uncertainty
+contrast argue people often not so much their expected utility but instead their expected regret people make choices their expected when action out compared other alternatives
+some decision environments lead people over action what known bias
+role wide range decisions
+example people potentially even when risk comparison primary disease
+number us their when optimal do so
+many us their despite presence
+often make when
+impact expected regret bias experimental setting because requires complex set risk aversion
+paper study expected regret bias actual play at
+two important features make
+first setting issue optimal play every situation optimal play way
+because there solution game known basic strategy been widely since number s
+indeed many learning basic strategy
+second more place game before they make decisions
+therefore all but few situations cost play optimal strategy independent level risk aversion
+fact allows us identify role regret independent risk aversion
+data over number number over number number actual play
+data our study were obtained study number recognition system designed games
+number system based all choices during play data way
+allows us essential features game manner natural play game
+using novel data source find strong evidence bias present choices make
+when make they four times more likely make error than they make error taking i e action
+relevant hypothesis bias would errors how often were required take under basic strategy
+even if focus strategy space action optimal strategy leading high number under bias high degree confidence
+bias large
+who basic strategy number number percent time very close theoretical rate reported
+only number number percent time significantly lower
+total about number number during study
+basic strategy total over number number while they only about number number following basic strategy
+contrast only number number was over number number basic strategy
+over number every while only about number number every
+therefore not only more common they more
+consider alternative other than bias choices
+first basic strategy
+explore examine basic strategy find no evidence manner strategies
+should also note since rates among basic strategy so low losses so high
+second limited cognitive ability our results
+indeed may some find difficult optimal choice all situations
+control account difficulty certain situations e g versus
+idea here if cognitive make bias more then should more among more difficult
+find though bias not more among higher order required
+third possible derive utility play thus take additional if so might them
+test account position at number at
+at large find no evidence more among those who high order at
+does not rule out hand however does represent another source expected regret
+indeed if people were expected because they would if they did not game when they would further support our expected regret decisions
+analysis paper work who used game understanding about game
+they observed complete history play number subjects many learn their how they make decisions
+while they data set provided many our analysis distinct focus bias alternative result
+indeed place study other aspects human behavior decision making
+studied hand bias individuals who play
+also been study though many difficult regret risk aversion cognitive
+example derive game show optimal strategy
+indeed consistent bias risk aversion cognitive but one observed behavior generally difficult
+paper follows
+section review rules discuss basic strategy describe data were used analysis
+section explore main findings

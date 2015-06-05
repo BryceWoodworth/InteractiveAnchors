@@ -1,0 +1,63 @@
+ 
+conventional evolutionary game theory predicts natural selection favours selfish strong even though cooperative interactions thrive at all levels organization living systems
+recent investigations demonstrated limiting factor evolution cooperative interactions way they organized cooperators becoming evolutionarily competitive whenever individuals constrained interact few others along edges networks low average connectivity
+despite insight conundrum cooperation remains since recent empirical data shows real networks exhibit typically high average connectivity associated single-to-broad scale heterogeneity
+here computational model constructed individuals able self-organize both their strategy their social ties throughout evolution based exclusively their self-interest
+show entangled evolution individual strategy network structure constitutes key mechanism sustainability cooperation social networks
+given average connectivity population there critical value ratio w between time scales associated evolution strategy structure above cooperators wipe out defectors
+moreover emerging social networks exhibit overall heterogeneity accounts very well diversity patterns recently found acquired data social networks
+finally heterogeneity found become maximal when w reaches its critical value
+results show simple topological dynamics reflecting individual capacity self-organization social ties produce realistic networks high average connectivity associated single-to-broad scale heterogeneity
+other hand they show cooperation cannot evolve result social viscosity alone heterogeneous networks high average connectivity requiring additional mechanism topological co-evolution ensure survival cooperative behaviour
+ introduction 
+conventional evolutionary game theory predicts natural selection favours selfish strong spite existing evidence showing cooperation more widespread than theory predicts
+when cooperation modelled terms prisoner's dilemma solution replicator dynamics equation infinite well-mixed populations dictates extinction cooperators defectors
+cooperators become evolutionarily competitive however whenever individuals constrained interact few others along edges sparse graphs recently concluded two independent studies
+both studies place individuals nodes static graph associate their social ties vertices linking nodes throughout evolution every individual possibility changing her strategy but not her social ties
+been shown under strong selection heterogeneous graphs lead significant increase overall survivability cooperation modelled terms most popular social dilemmas played networks different degrees heterogeneity
+classical pd act cooperation involves cost c provider resulting benefit b recipient simple relation been obtained single cooperator chance survive population defectors whenever selection weak : b/c z where z stands average number ties each individual
+both studies show games graphs open window emergence cooperation showing how social viscosity alone contribute emergence cooperation
+however recent data shows realistic networks exhibit average connectivity values ranging 2 170 associated heterogeneity intermediate between single-scale broad-scale differs connectivity values typically used previous studies
+instance network movie actors exhibits average connectivity 30 whereas collaboration networks based co-authorship published papers vary average values 4 9 up 15
+terms simple rule evolution cooperation graphs reported values z require benefits often exceed costs more than one order magnitude single cooperator survive
+none previous results strong weak selection graphs capable explaining how cooperation thrives social networks
+other mechanisms at work here allow survival cooperation
+most evolutionary models developed so far social interactions fixed outset
+immutable social ties associated naturally static graphs imply individuals no control over number frequency duration their ties; they only evolve their behavioural strategy
+similar observation made studies related physical properties complex networks
+analyzed networks constitute but one static snapshot networks been typically produced some growth process
+yet networks naturally evolved before will continue evolve after snapshot been taken
+indeed recent longitudinal studies evolving social networks indicate global properties seem remain rather stable whereas individual patterns social ties remain evolving time
+hence assuming fixed population size global average connectivity one may ask: what role do changes interaction framework play evolution cooperation extent will social dilemmas influence topology heterogeneity evolving network
+using minimal model combines strategy evolution topological evolution requirements individual cognitive capacities very small investigate under conditions cooperation may thrive
+network heterogeneity now emerges result entangled co-evolutionary dynamics will shown play crucial role facilitating cooperative behaviour
+let us consider two types individuals cooperators defectors who engage several most popular social dilemmas cooperation
+they not required accumulate information all other players only those they immediately connected
+moreover they able decide equal footing all players those ties they want maintain those they want change
+given edge individuals b at extremes say satisfied edge if strategy b cooperator being dissatisfied otherwise
+if satisfied she will decide maintain link
+if dissatisfied then she may compete b rewire link rewiring being attempted random neighbour b intuition behind reasoning following: simple agents being rational individuals limited information tend interact other agents close social manner
+sense agent more likely encounter one friends b become friend b's neighbour
+moreover selecting neighbour inconvenient partner may turn out good choice since partner also tries establish links cooperators making more likely rewiring results tie cooperator
+indeed all social dilemmas described below link cooperator maximizes fitness any individual irrespective its strategy
+consequently all individuals naturally seek establish links cooperators
+hence rewiring neighbour defector certainly good choice individuals local information only
+social dilemmas cooperation examined work modelled terms symmetric two-player games where players either cooperate defect upon interaction
+when both cooperate they receive payoff r other hand when both defect they both obtain payoff p two remaining possibilities occur when one defects other cooperates resulting payoff t defector s cooperator
+depending relative ordering four payoff values assuming mutual cooperation preferred over mutual defection three well-known social dilemmas emerge snowdrift game stag-hunt game prisoner's dilemma
+dilemma follows players' payoff preferences
+sg game players referred greedy since they prefer unilateral defection mutual cooperation
+sh game mutual defection preferred unilateral cooperation resulting intrinsic fear players cooperate
+finally both dilemmas combined pd game making most difficult situation cooperation arise
+adopt convention normalize difference between mutual cooperation mutual defection 1 making r 1 p 0 respectively
+consequence investigate all dilemmas summarized table 1 2-d parameter space depicted figure 2 where payoff t satisfies 0 t 2 payoff s satisfies 1 s 1
+fitness each individual corresponds total accumulated payoff resulting pairwise interactions all her neighbours
+fact our model cooperators defectors interact via social ties they both decide upon establishes coupling between individual strategy population structure: game payoff induces now entangled co-evolution strategy structure
+adaptive individual behaviour introduces new time scale not necessarily equal time scale associated strategy evolution
+depending ratio w e / different fates may occur cooperation
+indeed whenever w 0 recover results
+other hand increasing w individuals become apt adapt their ties increasing efficiency
+general however one expects two time scales comparable magnitude realistic situations
+w provides measure individuals' inertia react their rational choices both at strategy topological levels: large values w reflect populations individuals react promptly adverse ties whereas smaller values reflect some overall inertia topological change
+general type response will change individual individual
+hence w reflects here average characteristic population

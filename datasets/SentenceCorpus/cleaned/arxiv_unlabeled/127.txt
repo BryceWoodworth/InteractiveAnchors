@@ -1,0 +1,39 @@
+ 
+define novel basic unsupervised learning problem  learning lowest density homogeneous hyperplane separator unknown probability distribution
+task relevant several problems machine learning semi-supervised learning clustering stability
+investigate question existence universally consistent algorithm problem
+propose two natural learning paradigms prove input unlabeled random samples generated any member rich family distributions they guaranteed converge optimal separator distribution
+complement result showing no learning algorithm our task achieve uniform learning rates independent data generating distribution
+ introduction 
+while theory machine learning achieved extensive understanding many aspects supervised learning our theoretical understanding unsupervised learning leaves lot desired
+spite obvious practical importance various unsupervised learning tasks state our current knowledge does not provide anything comes close rigorous mathematical performance guarantees classification prediction theory enjoys
+paper make small step direction analyzing one specific unsupervised learning task  detection low-density linear separators data distributions over euclidean spaces
+consider following task: unknown data distribution over  find homogeneous hyperplane lowest density cuts through distribution
+assume underlying data distribution continuous density function data available learner finite iid
+samples distribution
+our model viewed restricted instance fundamental issue inferring information about probability distribution random samples generates
+tasks nature range ambitious problem density estimation  through estimation level sets    densest region detection  course clustering
+all tasks notoriously difficult respect both sample complexity computational complexity aspects unless one presumes strong restrictions about nature underlying data distribution
+our task seems more modest than
+although not aware any previous work problem point view statistical machine learning at least believe rather basic problem relevant various practical learning scenarios
+one important domain detection low-density linear data separators relevant semi-supervised learning
+semi-supervised learning motivated fact many real world classification problems unlabeled samples much cheaper easier obtain than labeled examples
+consequently there great incentive develop tools unlabeled samples utilized improve quality sample based classifiers
+naturally utility unlabeled data classification depends assuming some relationship between unlabeled data distribution class membership data points see rigorous discussion point
+common postulate type boundary between data classes passes through low-density regions data distribution
+transductive support vector machines paradigm tsvm example algorithm implicitly uses low density boundary assumption
+roughly speaking tsvm searches hyperplane small error labeled data at same time wide margin respect unlabeled data sample
+another area low-density boundaries play significant role analysis clustering stability
+recent work analysis clustering stability found close relationship between stability clustering data density along cluster boundaries  roughly speaking lower densities more stable clustering   
+low-density-cut algorithm family probability distributions takes input finite sample generated some distribution output hyperplane through origin low density w r t
+
+particular consider family all distributions over continuous density functions
+investigate two notions success low-density-cut algorithms  uniform convergence over family probability distributions consistency
+uniform convergence prove general negative result showing no algorithm guarantee any fixed convergence rates terms sample sizes
+negative result holds even simplest case where data domain one-dimensional unit interval
+consistency e g  allowing learning/convergence rates depend data-generating distribution prove success two natural algorithmic paradigms; soft-margin algorithms choose margin parameter depending sample size output separator lowest empirical weight margins around hard-margin algorithms choose separator widest sample-free margins
+paper organized follows: section provides formal definition our learning task well success criteria investigate
+section present two natural learning paradigms problem over real line prove their universal consistency over rich class probability distributions
+section extends results show learnability lowest-density homogeneous linear cuts probability distributions over arbitrary dimension
+section show previous universal consistency results cannot improved obtain uniform learning rates any finite-sample based algorithm
+conclude paper discussion directions further research

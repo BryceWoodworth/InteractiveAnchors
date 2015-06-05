@@ -1,0 +1,31 @@
+
+paper present two classes bayesian approaches problem
+our first class methods bayesian include all models family their
+our second class methods uses process distributions over unknown distributions
+examples real datasets show our tests best methods task even them average datasets
+introduction
+paper associated test called test
+tests various life social studies one may find out if two classes patients show different response drug disease
+analysis one may compare measurements different find out if they same distribution before them into one order increase sample size
+one may compare measurements brain signals under different stimuli whether brain activity affected stimuli
+social one may compare whether behavior group people eg when they different across
+financial one could example compare set performed at during different find out if there change activity financial
+while question been studied statistics data there less work data review section
+only machine learning approach problem kernel method using means two samples universal kernel space its test statistics but interest subject studies
+here approach problem bayesian perspective
+bayesian problem would terms factor likelihood data were generated according hypothesis same distribution hypothesis different distributions
+however how define two question many been given bayesian literature specific problem application one example bayesian used data analysis
+our goal paper define two general classes tests represent problem but not specific application
+they designed between general idea using factors testing problems studied literature
+define class bayesian two sample tests based process mixture models
+use process general unknown distributions long history statistics
+however although problem depends testing whether data one two unknown distributions bayesian approaches based density models not been
+here propose explore method using process mixture
+best our knowledge only work related bayesian test versus model data
+different but related question since hypothesis
+also define bayesian test where model data family
+test bayesian who assume samples
+paper follows
+section will review existing approaches problem data some differences between bayesian hypothesis testing
+section common core our two bayesian test before test section test section
+section will evaluate performance our tests comparing methods field

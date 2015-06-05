@@ -1,0 +1,101 @@
+ 
+chelt cholera-like toxin vibrio cholerae certhrax anthrax-like toxin bacillus cereus among six new bacterial protein toxins identified characterized using silico cell-based techniques
+also uncovered medically relevant toxins mycobacterium avium enterococcus faecalis
+found agriculturally relevant toxins photorhabdus luminescens vibrio splendidus
+toxins belong adp-ribosyltransferase family conserved structure despite low sequence identity
+therefore our search new toxins combined fold recognition rules filtering sequences including primary sequence pattern reduce reliance sequence identity identify toxins using structure
+used computers build models analyzed each new toxin understand features including: structure secretion cell entry activation nad substrate binding intracellular target binding reaction mechanism
+confirmed activity using yeast growth test
+era where expanding protein structure library complements abundant protein sequence data need high-throughput validation our approach provides insight into newest toxin adp-ribosyltransferases
+ introduction 
+sequence data over 6,500 genome projects available through genomes online database more than 60,000 protein structures protein data bank
+while sequences represent large diversity limited number possible folds estimated at 1,700 helps researchers organize sequences structure
+single fold performs limited number functions between 1.2 1.8 average
+therefore structure knowledge helps pinpoint function
+researchers combining sequence structure data expand protein families mono-adp-ribosyltransferase protein toxins participate human diseases including diphtheria cholera whooping cough 
+adp-ribosylation post-translational modification plays role many settings
+adp-ribosyltransferases bind nad covalently transfer single poly adp-ribose macromolecule target usually protein changing its activity
+many prokaryotic adprt toxins damage host cells mono-adp-ribosylating intracellular targets
+g-proteins common targets including: eukaryotic elongation factor 2 elongation factor thermo unstable ras rho gs
+other targets include actin kinase regulators rna-recognition motifs 
+researchers use adprt toxins develop vaccines drug targets kill cancer cells stent coatings prevent restenosis after angioplasty insecticides deliver foreign proteins into cells using toxin receptor-binding membrane translocation domains study cell biology understand adp-ribosylation reaction identify biosecurity risks
+adprts occur viruses prokaryotes archaea eukaryotes
+genomes acquire them through horizontal gene transfer
+several authors reviewed prokaryotic adprt family
+examples include pseudomonas aeruginosa exoenzyme s vibrio cholerae cholera toxin bordetella pertussis pertussis toxin corynebacterium diphtheriae diphtheria toxin
+toxic adprts divided into ct dt groups better organize family
+focus ct group divide into exos-like c2-like c3-like ct-pt-like toxins
+ct group primary sequences related through specific structure-linked pattern
+adprt pattern updated previous reports written regular expression is:formula
+toxin catalytic domain consists several regions
+describe them here going n c-terminus using previously introduced nomenclature
+region sometimes present recognizes substrate when exot recognizes crk example
+its recognition exot targets exception rather than general rule adprts
+except ct-pt-like subgroup region b active site loop flanked two helices appears early toxin sequence
+stabilizes catalytic glu binds nicotinamide ribose adenine phosphate
+also stabilizes target substrate helps specific bonds rotate during adprt reaction turn helping bring nucleophile electrophile together reaction
+region 1 at end sheet sequence pattern yfl rx
+important binding a-phosphate nicotinamide phosphate nicotinamide adenine ribose target substrate
+region f follows region 1 sometimes recognizes substrate
+region 2 follows sheet sequence pattern yf x-s-t sqt
+binds adenine positions catalytic glu orients adp-ribosyl-turn-turn loop maintains active site integrity
+phosphate-nicotinamide loop immediately after sts motif
+interacts target binds n-phosphate
+menetrey et al suggested pn loop flexible implicated locking nicotinamide place during reaction
+region 3 consists artt loop leading into sheet pattern qe x-e
+recognizes stabilizes target binds n-ribose create strained nad conformation
+artt loop plastic having both out forms might aid substrate recognition
+fas region mediates activator binding when present 
+researchers long debated adprt reaction details
+some suggest s n2 mechanism but many now favor s n1 mechanism
+tsuge et al recently devised specific version mechanism iota toxin follow closely work
+reaction follows three steps: toxin cleaves nicotinamide form oxacarbenium ion oxacarbenium o 5d-p n bond rotates relieve strain forms second ionic intermediate
+finally target makes nucleophilic attack second ionic intermediate
+s n1mechansim believed widely applicable ct group toxins template new toxins given historical structure similarity consistent nad conformation active site shown figures 1 2
+quaternary structure toxins wide-ranging
+several combinations exist toxin domains receptor binding membrane translocation domains
+b domains diverse structures functions exist fusions separate polypeptides
+various formats include: a-only two-domain ab three-domain ab ab 5
+c3-like toxins a-only
+exos-like toxins toxic a-domains often paired rho gtpase activating protein not true b domains
+c2-like toxins ab toxins contain b domains structural duplicates domain
+b domains not toxins they bind proteins similar anthrax protective antigen including vip1 c2-ii iota ib
+dt group toxins three-domain single polypeptide ab toxins where b domain contains both receptor-binding membrane-translocation domain
+ct-pt-like toxins ab 5 b domains form receptor-binding pentamer 
+low overall sequence identity hampers conventional sequence-based homology searches
+one challenge key filling gaps toxin family link new sequences known toxins
+depending only amino acid sequence alignment techniques discover new toxins imprudent
+instead trend use more structure information search because many primary sequences produce same fold
+researchers then link sequences through fold recognition 
+otto et al used psi-blast identify new adprt toxins including spvb salmonella enterica
+more recently similar strategy yielded 20 potential new toxins
+led interesting examples later characterized including: cards toxin mycoplasma pneumonia spya streptococcus pyogenes hopu1 pseudomonas syringae 
+psi-blast classic way expand protein families but limits
+example unrelated sequences often capture search
+also nearly decade passed since pallen et al released last detailed data mining results toxin family
+sequence structure databases remote homolog detection tools advanced during time
+masignani et al proposed match between conserved adprt pattern corresponding secondary structure one way reduce dependence sequence identity
+pattern helps ensure function reduces total sequence set smaller subset screening secondary structure prediction ensures key active site parts present 
+our contribution expand adprt toxin family using new approach
+difference use fold-recognition searches extensively rather than relying psi-blast secondary structure prediction
+our genomic data mining combines pattern structure-based searches
+bioinformatics toolset allows us discover new toxins classify rank them assess their structure function
+often data mining studies simply present table hits aligned sequences but do not interpret analyze those hits detail
+our aim rather than explicitly confirm roles six proteins 15 domains 18 loops 120 residues discussed develop theoretical framework understanding new toxins based 100s 1000s jobs per sequence
+intend our silico approach guide complement rather than replace follow-up vitro vivo studies
+here extract features patterns known adprt toxins explain how they fit new toxins
+use silico methods probe structure secretion cell entry activation nad substrate binding intracellular target binding reaction mechanism
+computer approach fitting several reasons
+environment safe way study new toxins
+challenges cloning expressing purifying crystallizing often prevent vitro characterization
+also adprts abundant within bacterial genomes researchers make sequences available faster than conduct biochemical studies
+new toxins might play role current outbreaks also excellent drug targets against antibiotic resistance
+our new study design expands family 15 percent 
+cell-based validation complements our silico approach
+use saccharomyces cerevisiae model host study toxin effects
+increasingly researchers turning yeast study bacterial toxins
+yeast easy grow well-characterized genetics conserved mammals cellular processes including: dna rna metabolism signalling cytoskeletal dynamics vesicle trafficking cell cycle control programmed cell death
+place toxin genes under control copper-inducible promoter test putative toxins adp-ribosyltransferase activity live cells
+growth-defective phenotype clearly shows toxicity
+substitutions catalytic signature residues confirms adp-ribosyltransferase activity causes toxicity
+indeed pairing silico cell-based studies helps identify characterize new adprt toxins

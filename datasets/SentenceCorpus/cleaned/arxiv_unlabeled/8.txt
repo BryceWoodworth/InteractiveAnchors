@@ -1,0 +1,28 @@
+ 
+address problem autonomously learning controllers vision-capable mobile robots
+extend mccallum's 1995 nearest-sequence memory algorithm allow general metrics over state-action trajectories
+demonstrate feasibility our approach successfully running our algorithm real mobile robot
+algorithm novel unique explores environment learns directly mobile robot without using hand-made computer model intermediate step b does not require manual discretization sensor input space c works piecewise continuous perceptual spaces d copes partial observability
+together allows learning much less experience compared previous methods
+ introduction 
+realization fully autonomous robots will require algorithms learn direct experience obtained visual input
+vision systems provide rich source information but piecewise-continuous pwc structure perceptual space e g video images implied typical mobile robot environments not compatible most current on-line reinforcement learning approaches
+environments characterized regions smooth continuity separated discontinuities represent boundaries physical objects sudden appearance disappearance objects visual field
+there two broad approaches used adapt existing algorithms real world environments: 1 discretizing state space fixed adaptive grids 2 using function approximator neural-network  radial basis functions rbfs  cmac  instance-based memory
+fixed discrete grids introduce artificial discontinuities while adaptive ones scale exponentially state space dimensionality
+neural networks implement relatively smooth global functions not capable approximating discontinuities rbfs cmacs like fixed grid methods require knowledge appropriate local scale
+instance-based methods use neighborhood explicitly stored experiences generalize new experiences
+methods more suitable our purposes because they implement local models principle approximate pwc functions but typically fall short because using fixed neighborhood radius they assume uniform sampling density state space
+fixed radius prevents approximator clearly identifying discontinuities because points both sides discontinuity averaged together thereby blurring its location
+if instead use fixed number neighbors effect using variable radius approximator arbitrary resolution near important state space boundaries where most needed accurately model local dynamics
+use approach appropriate metric needed determine stored instances provide most relevant information deciding what do given situation
+apart pwc structure perceptual space robot learning algorithm must also cope fact instantaneous sensory readings alone rarely provide sufficient information robot determine where localization problem what action best take
+some form short-term memory needed integrate successive inputs identify underlying environment states otherwise only partially observable
+paper present algorithm called piecewise continuous nearest sequence memory pc-nsm extends mccallum's instance-based algorithm discrete partially observable state spaces nearest sequence memory nsm;  more general pwc case
+like nsm pc-nsm stores all data collects environment but uses continuous metric history allows used real robot environments without prior discretization perceptual space
+important priority work minimizing amount priori knowledge about structure environment available learner
+typically artificial learning conducted simulation then resulting policy transfered real robot
+building accurate model real environment human-resource intensive only really achievable when simple sensors used unlike full-scale vision while overly simplified models make policy transfer difficult
+reason stipulate robot must learn directly real world
+furthermore since gathering data real world costly algorithm should capable efficient autonomous exploration robot perceptual state space without knowing amount exploration required different parts state space normally case even most advanced approaches exploration discrete  even metric state spaces
+next section introduces pc-nsm section presents our experiments robot navigation section discusses our results future directions our research

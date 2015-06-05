@@ -1,0 +1,23 @@
+
+bayesian methods way psychological models data
+here use them model patterns information search binary comparison judgment task
+simulation involves number subjects making number choice about relative two objects two more
+two show how models developed account explain both search rules seen across individuals
+discuss how results provide into current literature heuristic decision making argue they demonstrate power bayesian methods modeling human decision-making
+introduction
+cognitive individual differences behavior both
+all subjects our experiments who do what they do
+different patterns behavior simply noise subject was cell during experiment but often they due responses our theories models cannot explain
+field judgment decision making no individual differences
+even theory important theory typically predicts only number percent number percent decisions choice tasks many models do much
+how should field individual differences they present our models theories
+one approach use bayesian methods existing models apply them ways experimental data
+approach not only provide tools individual differences but also theory account why individual differences might
+especially important approach because developed models without constraints theoretical assumptions used develop models
+taking existing models them within bayesian framework potential current modeling because provides model structure settings
+demonstrate application bayesian methods modeling heuristic decision-making use standard experimental requires subjects make judgments about relative two objects size distance so
+perform judgments often assumed subjects search their memory sources information cues help objects
+example inference about relative size two might cues two so
+judgments then determined rules use presence cues provide estimates criterion i e number
+tasks although simple several important features need theories models describe how subjects perform them
+paper present two simple case studies first information search second rules

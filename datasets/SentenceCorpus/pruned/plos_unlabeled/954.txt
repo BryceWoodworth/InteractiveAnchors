@@ -1,0 +1,45 @@
+
+there large number whose unknown
+identification difficult important problem
+describe computational framework models spatial structure along genomic sequence temporal evolutionary structure across species show how models used new functional molecules particular via sequence
+computational framework knowledge structural evolutionary constraints into evolutionary probabilistic models
+computational method was used novel sites sequence across many species at level
+experimental results initial algorithm were used identify potential comparing human proteins database known proteins
+concept identified out only
+comparison known human proteins identification novel at least four potential
+finally order computational present basic molecular biological novel including its identification brain
+species comparison computational approach previously whole genome protein sequences
+novel found brain regions well other
+approach will impact our understanding associated pathways help identify new targets drug development
+introduction
+g protein represent gene family making up percent genome
+proteins made up several including class class b class c other
+within each class there very large number smaller family within
+there more than family
+large number been identified only computational methods while others been into however receptor functions many unknown
+any receptor unknown considered receptor
+all some
+large family proteins important not only basic perspective but because their sites action importance first cellular signaling become primary target drug development
+fact over percent all either
+many new will lead new drug development new agents
+although identification relatively discovery far more difficult
+exist small molecules proteins
+many may important functions other than
+even within class there identify new
+particularly true within family they larger species known
+amino residues
+they found within larger protein actual usually follows specific rules
+proteins each signal sequence necessary protein out complex into processing where signal sequence
+general pair basic residues found directly
+basic residues recognition sites processing usually active
+many cases there more than single active within one protein
+even common features identification dna protein sequence very difficult
+even though all related based upon dna protein sequence only related within
+instance family four
+similar genomic structures very similarity protein sequence most
+however if one were search dna sequences similar one would not find any other
+simple search strategies within not novel especially those not known
+there additional feature may more them other types molecules
+usually well conserved among various species while sequences because they simply not well conserved
+here describe novel hidden markov model based computational framework method identification based upon approach models spatial structure along genomic sequence temporal evolutionary structure across species show how models used new functional molecules via sequence
+computational was used identify novel up four potential

@@ -1,0 +1,80 @@
+
+minimum description length principle model data model
+show class models predictions close true distribution strong sense
+result general
+no other assumption model class need made
+more show any class models distributions selected predict true measure class total variation distance
+\ domains like forecasting learning learning discussed
+introduction
+minimum description length principle use among models one allows most
+better more been hence better will predictions
+principle model consistent data
+consider sequential prediction problems i e \ having observed sequence predict then
+classical prediction total prediction
+paper consider case
+problem having observed what likelihood all
+more computer problem learning where predicting future necessary policy
+see section other applications
+let class models over sequences t \ their unknown true sampling distribution
+our main result will arbitrary but simple introduction let us finite
+case define probability data sequence
+possible eg \ using
+since optimal among all
+since do not know could leads observed data
+order able need know been chosen so also need
+hence
+model given true predictive probability
+since unknown use
+our main how close latter
+measure distance between two predictive distributions
+see increasing total variation distance defined
+related bayesian prediction so comparison existing results
+use prediction where bayesian mixture prior weights
+natural choice
+following results shown
+}
+where t \
+almost including some form convergence rate
+been
+far results much require more techniques
+result follows
+primary novel more arbitrary total variation distance
+another general consistency result presented
+consistency shown only probability predictive result
+almost result but given reference contains only results \ sequences do not arbitrary classes
+so existing results far less than bayesian prediction
+results above arbitrary model classes
+no other assumption need made
+previous results continuous model classes
+much been shown classes independent distributed random variables
+many results sequences like markov
+instance consistency been shown
+there many applications assumptions some them presented below section
+one often e g \ used even if true distribution not
+indeed used but question any good
+there some results eg \ if but similar results exist
+at least close some work there environments not even close being
+\ data all prediction problems like forecasting prediction
+indeed also examples processes
+too much impact another world could change
+life also not one second
+also environment itself contains learning agent during relevant learning phase
+games learning classical examples
+often assumed true distribution identified
+environments depend observations prior reduction
+even if possible do so eg \ presence approximate
+indeed problem primary predictive
+might identify true distribution but our main result shows selected models become
+our result
+case useful
+problem class reduced class our result where other estimate
+could reduced class only parameters
+all model classes contain subset
+under certain still parameters
+one may simply parameters
+finally techniques case might general results continuous along
+paper section provide some how work settings what general how problems
+development section our main result
+finite presented section section
+section show how result applied sequence prediction classification regression learning learning
+section some

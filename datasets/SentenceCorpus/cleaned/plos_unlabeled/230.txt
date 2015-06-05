@@ -1,0 +1,45 @@
+ 
+members vascular endothelial growth factor family proteins critical regulators angiogenesis
+vegf concentration gradients important activation chemotactic guidance capillary sprouting but measurement gradients vivo not currently possible
+constructed biophysically molecularly detailed computational model study microenvironmental transport two isoforms vegf rat extensor digitorum longus skeletal muscle under vivo conditions
+using parameters based experimental measurements model includes: vegf secretion muscle fibers; binding extracellular matrix; binding activation endothelial cell surface vegf receptors; internalization
+2-d cross sections tissue analyzed predicted vegf distributions gradients receptor binding
+significant vegf gradients were predicted resting skeletal muscle uniform vegf secretion due non-uniform capillary distribution
+relative vegf gradients were not sensitive extracellular matrix composition overall vegf expression level but were dependent vegf receptor density affinity internalization rate parameters
+vegf upregulation subset fibers increased vegf gradients simulating transplantation pro-angiogenic myoblasts possible therapy ischemic diseases
+number relative position overexpressing fibers determined vegf gradients distribution vegf receptor activation
+total vegf expression level tissue unchanged concentrating overexpression into small number adjacent fibers increase number capillaries activated
+vegf concentration gradients predicted resting muscle sufficient cellular sensing; tip cell vessel sprout approximately 50 m long
+vegf gradients also result heterogeneity activation blood vessel vegf receptors
+first model vegf tissue transport heterogeneity provides platform design evaluation therapeutic approaches
+ introduction 
+vascular endothelial growth factor key promoter angiogenesis vivo increases proliferation migration endothelial cells cultured vitro
+rats there five main splice variants vegf denoted 120 144 164 188 205 120 164 isoforms most prevalent
+vegf expressed at different levels variety cells throughout body including skeletal muscle
+vegf 164 secreted 45-kda homodimeric glycoprotein containing exon-7 encoded domain allows binding heparin neuropilin-1
+vegf 120 also homodimeric glycoprotein but missing exon-7 encoded domain
+because domain only vegf 164 bind heparan sulfate proteoglycans present high concentrations extracellular matrix basement membrane spaces two splice variants responsible different signaling both physiological cancer angiogenesis
+furthermore due presence high concentrations hspg bm surrounds vegf-secreting cells large amount vegf 164 becomes bound sequestered near sources vegf secretion creating steep vegf gradient
+cellular response vegf occurs when signaling initiated binding vegf its cell surface receptor tyrosine kinases vegfr1 vegfr2
+vegf degraded after internalized two vegf receptors
+receptors their interactions vegf each other discussed depth 
+vegf involved both physiological pathological angiogenesis
+vegf upregulation necessary physiological angiogenesis under conditions hypoxia via oxygen-sensing mechanisms hif-1 pathway increased shear stress blood vessels
+rat extensor digitorum longus muscle during exercise both hypoxia increased shear stress induce angiogenesis through overexpression vegf myocytes
+because importance vegf many clinical trials under way both pro anti-angiogenic therapies
+fda approved anti-vegf treatments including avastin antibody vegf macugen rna aptamer binds sequesters human vegf 165
+use vegf pro-angiogenic treatment cardiac limb ischemia generated intense interest but direct administration vegf not yet produced effective results humans initial trials transplantation angiogenic cells proven effective but require further work 
+create effective vegf-driven pro-angiogenic therapy better understanding needed both physiological pathological vegf-induced angiogenesis
+increasing vegf concentration leads angiogenesis but concentrations vegf beyond critical levels may result formation abnormal vessels hemangiomas
+thus normal blood vessels only formed if microenvironmental amounts vegf carefully maintained above threshold levels therapeutic angiogenesis but below threshold levels abnormal angiogenesis over prolonged period time
+furthermore responses vegf depend not only vegf concentration but also vegf gradients enhance vegf-induced angiogenesis direct capillary growth
+therefore not sufficient measure bulk quantities vegf large samples tissue order predict angiogenic behavior
+present study constructed computational model study extracellular diffusion vegf vivo effects vegf upregulation gradients receptor binding using well-characterized rat edl tissue sample environment
+previously constructed models studying kinetics vegf binding receptors cells vitro effect presence nrp-1 placental growth factor
+also shown using monte carlo methods despite very small concentrations free vegf continuum description terms vegf concentrations justified
+diffusion vegf vitro also been studied using computational model
+however our knowledge first model vegf diffusion geometrically complex vivo environment includes: transport two most abundant vegf isoforms through ecm bm hspg binding kinetics vegf secretion vegf receptor binding internalization kinetics
+nrp-1 was not included model because there currently no available measurements amount nrp-1 skeletal muscle
+using model predict vegf distribution analyze vegf gradients at resolution currently impossible measure experimentally
+use model will aid understanding mechanisms physiological therapeutic vegf overexpression
+model general may built upon future include additional molecular species new experimental data emerging e.g neuropilin expression level skeletal muscle; also applied specific drug interactions other tissue types

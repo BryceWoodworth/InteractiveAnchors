@@ -1,0 +1,38 @@
+
+levels proteins bound dna now measured genomic scale
+levels mechanisms defined components assumptions made system
+assumptions behavior molecules true thus subjective
+within those interaction observations defined biochemical mechanisms important step towards understanding mechanisms
+end developed computational program models data biochemical mechanisms under assumption levels related binding explicitly defined reactions
+process general transcription factors at genes yeast
+within assumption system our modeling suggests at rather compared other general factors despite importance complex
+modeling any pathway given all proteins together form complex
+introduction
+genes thought proteins into at using pathway
+one pathway involves general transcription factors
+then rna other transcription
+fundamental question our understanding gene regulation extent each step distinct at every gene genome
+biochemical view manner formation
+process simply process
+pathway been defined few proteins dna provided us our current view regulation
+no case reactions been way physiological setting at every gene so questions open extent defined reactions events genome
+answer question not since reactions not biochemical reactions components
+do exist relative levels protein dna complex formation so will
+goal here evaluate data biochemical mechanisms corresponding reaction
+extent biological rather subjective assumptions associated data
+within context constraints assumptions propose means model data so better genomic datasets
+study focused means modeling assumptions data using specific examples
+most widely used measure proteins at genes
+proteins dna protein then bound dna identified either through through detection
+way example relative level many other proteins at every genome population cells
+recent studies using experiments provided evidence dynamic state components cells
+therefore now within framework factors like rna other multiple at each transcription event rather than simple view place during multiple transcription
+existence distinct levels components genes not been thus modeling studies described here
+patterns been described may influence specific general transcription factors thus mechanisms might differ gene gene
+here binding information at every yeast genome either mechanisms
+major any approach number possible mechanisms amount data available mechanisms
+other words data pathway
+additional constraints either pathway might however certain mechanisms data thus mechanisms rather than mechanism
+here develop modeling program context fixed pathway mechanisms
+simulation using existing
+within constraints different mechanisms at every gene yeast genome existing data

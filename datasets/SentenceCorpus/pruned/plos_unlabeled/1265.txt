@@ -1,0 +1,43 @@
+
+various characteristics complex gene regulatory networks been during distributions distributions robustness
+although been made field not well whether characteristics direct selection those other evolutionary biases constraints
+factors evolution complex examined effect environmental selection some intrinsic factors evolution using model
+found evolution complex gene under environmental conditions some factors organisms bias gene expression constraints expression dynamics also important evolution
+results various biological properties observed could result not only adaptation environmental changes but also processes properties organisms themselves
+our study evolutionary models intrinsic factors should used models analyze effect selection evolution
+introduction
+genetic basis evolution one fundamental problems biology
+selection would influence probabilities mutations affect mutations fixed during evolution would determine genomes genetic systems underlying
+however because genetic systems would effects mutations properties genetic system would influence rates evolution well robustness
+therefore both genetic systems each other
+gene regulatory networks important genetic systems involved various biological processes environmental responses organisms cell organisms
+recent theoretical experimental studies revealed complex gene changes regulatory interactions particularly gene
+addition recent studies structural features complex distributions distributions features genetic characteristics robustness
+one important question evolution complex evolutionary structural properties
+various evolutionary processes influence evolution properties
+thus difficult identify factors evolution properties could result being directly selection also result other factors
+thus identify factors evolution properties complex necessary consider not only selection but also various processes processes
+selection one most important evolution
+however impact selection evolution
+selection strongly mutations mutations fixed during evolution
+thus important examine how different selection would affect evolution
+however there significant our general understanding processes adaptation evolutionary biology
+many previous studies evolution robustness respect focused mutations under selection constant optimal environment
+other hand mutations adaptation under environments limited
+many studies suggested some examples related robustness
+theoretical studies proposed genetic properties appear genetic properties could play significant role evolution
+however how robustness process evolution
+certain properties might through processes mutations constraints gene regulation
+mutations particular source genetic variation
+thus properties mutations potentially influence tendency
+example probability transcription factor binding site formation result mutations could several variation size potential regions among organisms rate gene could several times higher than rate gene certain organisms
+moreover been suggested regulatory genes observed extent than genes
+several studies suggested certain features complex degree distributions could outcome mutations
+however previous studies not considered certain essential evolutionary processes selection gene
+therefore whether features complex result selection result properties mutations
+study was identify evolutionary various structural properties complex distributions robustness
+model gene expression levels allows populations under various conditions selection various mutations gene mutation gene
+study explore conditions evolution complex first examine evolution under various conditions selection
+second adaptive mechanisms evolution complex examine effect all mutations during evolution
+third explore whether factors organisms evolution examined impact gene expression cost constraints expression dynamics several types biases relative rates gene formation new transcription factor binding sites gene
+finally basis results above analyses discuss major evolutionary various properties complex distributions distributions robustness

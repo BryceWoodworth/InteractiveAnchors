@@ -1,0 +1,78 @@
+
+recent made dna sequencing more efficient than before
+new produce highly accurate sequences but one most efficient
+sequencing been applied human genome those other species but not sequencing novel organisms
+here describe sequencing novel using very short
+each length genome into one sequences including one additional
+our method novel algorithm uses amino sequences predicted proteins better
+study very short sequencing sequencing genomes particularly those related species been previously potential application new most known species
+introduction
+genome sequencing into new introduction fast sequencing produce over one base pairs dna single
+some methods based strategies sequencing produce
+sufficient including sample human population but they yet prove useful sequencing novel species
+difficulty no existing algorithms genome short
+first report genome sequence short used was able generate
+study demonstrated small genome genome
+combination length et al generate dna
+results using increased but difficulty questions about utility alternative sequencing those produce than genome sequencing
+novel species where genome not previously been very short more difficult although simulation studies should possible
+recent study showed combination sequencing could used base pair genome into just together
+another recent effort used strategy sequencing produce
+contrast very short generated sequence thus far been useful discovery human genome discovery other applications genomic regions bound transcription factors
+very short produced present far more difficult problem
+standard algorithms cannot process short at all development several new algorithms designed short including
+latter methods data but they produce highly when provided data genome
+problem very short every sequence than length
+demonstrate genome using related genomes process highly
+p environmental importance leading
+several p genomes been previously including two
+percent across both genomes their similarity us improve provided means its accuracy
+one our sequencing was identify genomic differences its
+here report p using novel strategy advantage related genomes protein sequences
+very high quality better than produced using sequencing
+study shows novel genome very short without use sequences into genome
+even at amount sequence just single sequencing sequencing cost within most
+making all our free open source further sequencing
+generated random p using
+all were length
+used four distinct computational genome
+initial step used comparative algorithm all reference genome then based
+algorithm gains step particularly difficult very short due high
+within exact reference genome at least at most two each
+found based their reference produced better than
+initial used
+genome than therefore used primary reference
+our second step was novel comparative strategy used multiple reference genomes
+used complete genomes both multiple comparative found produced better
+sequence was than
+there were genome were not initial due between two
+however comparative based different due differences between
+best based
+two one another identify where might two more
+each case sequence using together
+algorithm number all but were
+genome was just
+note between two did not
+order produce using consistent
+third step used novel algorithm
+step previous step identified genes using our based
+because amino sequences much more conserved than sequences were able use predicted protein sequences even where dna sequences
+identified proteins
+initial identified those genes extended between
+amino sequences corresponding small sequence each each
+next used each protein sequence all all
+step identified each small set would protein sequence results provided initial multiple alignment
+then used new program together close
+extended many length number long
+test using only proteins without any reference genomic sequence
+experiment all each protein used each one
+proteins produced single reference protein another proteins into few
+thus out proteins using approach additional proteins would likely if used large set proteins
+related genome sequence use protein sequences much more than genomic dna most genes new although results will lack global genome structure information
+step our method identified any dna sequences were unique predicted gene regions
+using
+was best three being
+used long our previous step identified cases where extended
+step us close number our main
+after were our had
+was

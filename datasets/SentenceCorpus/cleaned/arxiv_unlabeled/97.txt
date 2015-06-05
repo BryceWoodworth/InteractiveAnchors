@@ -1,0 +1,35 @@
+ 
+learning machines hierarchical structures hidden variables singular statistical models because they nonidentifiable their fisher information matrices singular
+singular statistical models neither does bayes posteriori distribution converge normal distribution nor does maximum likelihood estimator satisfy asymptotic normality
+main reason been difficult predict their generalization performance trained states
+paper study four errors 1 bayes generalization error 2 bayes training error 3 gibbs generalization error 4 gibbs training error prove there universal mathematical relations among errors
+formulas proved paper equations states statistical estimation because they hold any true distribution any parametric model any priori distribution
+also show bayes gibbs generalization errors estimated bayes gibbs training errors propose widely applicable information criteria applied both regular singular statistical models
+ introduction 
+recently many learning machines being used information processing systems
+example layered neural networks normal mixtures binomial mixtures bayes networks boltzmann machines reduced rank regressions hidden markov models stochastic context-free grammars being employed pattern recognition time series prediction robotic control human modeling biostatistics
+although their generalization performances determine accuracy information systems been difficult estimate generalization errors based training errors because learning machines singular statistical models
+parametric model called regular if mapping parameter probability distribution one-to-one if its fisher information matrix always positive definite
+if statistical model regular then bayes posteriori distribution converges normal distribution maximum likelihood estimator satisfies asymptotic normality
+based properties relation between generalization error training error was clarified some information criteria were proposed
+other hand if mapping parameter probability distribution not one-to-one if fisher information matrix singular then parametric model called singular
+general if learning machine hierarchical structure hidden variables then singular
+therefore almost all learning machines singular
+singular learning machines log likelihood function not approximated any quadratic form parameter result conventional relationship between generalization errors training errors does not hold either maximum likelihood method bayes estimation
+singularities strongly affect generalization performances learning dynamics
+therefore order establish mathematical foundation singular learning theory necessary construct formulas hold even singular learning machines
+recently proved generalization error bayes estimation asymptotically equal  where rational number determined zeta function learning machine number training samples
+regular statistical models  where dimension parameter space whereas singular statistical models depends strongly learning machine true distribution priori probability distribution
+practical applications true distribution often unknown hence been difficult estimate generalization error training error
+estimate generalization error when do not any information about true distribution need general formula holds independently singularities
+paper study four errors 1 bayes generalization error  2 bayes training error  3 gibbs generalization error  4 gibbs training error  prove formulas *} where denotes expectation value inverse temperature posteriori distribution
+equations assert increased error training generalization proportion difference between bayes gibbs training errors
+should emphasized formulas hold any true distribution any learning machine any priori probability distribution any singularities therefore they reflect universal laws statistical estimation
+also based formula propose widely applicable information criteria waic applied both regular singular learning machines
+other words apply waic without any knowledge about true distribution
+paper consists six parts
+section 2 describe main results paper
+section 3 propose widely applicable information criteria show how apply them statistical estimation
+section 4 prove main results mathematically rigorous way
+sections 5 6 discuss conclude paper
+proofs lemmas quite technical hence they presented appendix

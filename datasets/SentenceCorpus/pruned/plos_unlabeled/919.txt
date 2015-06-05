@@ -1,0 +1,41 @@
+
+recent methods signaling networks development models functional relevant features
+extended human receptor signaling network presented
+contains other associated proteins signaling along their associated reactions
+computational framework based methods convex analysis was developed applied network input output relationships
+input output relationships significant network into pathways
+analysis identified potential signaling respect their
+were able identify novel targets through modeling methods
+results study expected further research task receptor signaling network its effects
+introduction
+group conserved pattern recognition processes adaptive
+recent activity focused network its responses
+signaling primary responses been several including disease
+indeed even cases response activation signaling pathways lead other conditions
+there much interest development methods signaling
+example one approach involves specific reactions components within network will signaling pathways while not other signaling components
+reactions components should highly specific network also one transcription target
+therefore available data sets network need into more better understanding associated signaling pathways other cellular networks
+approach necessary achieve goal effects receptor signaling upon responses
+need particularly important given amount experimental data about signaling too large simply complex interactions
+so far relatively few been made experimental data into single representation
+hence there need investigate function network using computational model particularly further into action their effects
+analysis methods represent systems approach computational modeling biological networks
+all known biochemical particular system various data sources genomic biochemical physiological data
+existing knowledge into model its functional properties
+involves reaction into matrix each network reaction lower bounds network reactions
+constraints include reaction rates
+environmental constraints applied represent different components
+many computational analysis tools been developed including analysis
+network linear optimization problem specific objective function
+methods well metabolic networks both analysis tools widely used
+furthermore methods been applied other important cellular functions transcription regulation signaling including
+study present extended model network based available approach
+signaling networks been using pathway analysis
+however since analysis networks could not apply method network
+contrast network been method networks into more
+another approach network complexity focus input output relationships
+used network reactions into distinct input output pathways show different patterns signal activation control
+furthermore used representation complex signaling network determine control points network specific pathway
+control points allow signaling will change signaling while not having effect other signaling components
+taken together show study how signaling network used identify potential drug

@@ -1,0 +1,25 @@
+
+problem universal source modeling context was recently
+sources
+results sources show metric measures any family sources conditions universal source identification
+also give several examples sources conditions
+introduction
+universal source one all sources within given class
+suggests good universal should probabilistic model source long data sequence based model
+been made data via 1 estimate source parameters 2 data model
+where length dimension parameter space
+recently extended
+sources parameter
+shown under appropriate conditions there exist universal source identification whose source estimation both length
+each parameters estimated
+moreover constant hidden increases model class measured dimension certain class decision regions source
+main results
+assumption relevant model classes sources markov hidden markov processes
+furthermore assumption parameter space may not always
+paper both assumptions
+because parameter space not use whose performance
+show under certain conditions there universal source modeling length both relative best at each length source estimation at where dimension certain class decision regions all source process distributions
+key novel feature our most existing universal rely identification active source probabilistic model
+moreover our results show underlying model class dimension sequence
+model class learn turn performance because use source parameters learned past data how current
+may prove useful settings adaptive control under communication constraints where between quality parameter estimation performance central importance

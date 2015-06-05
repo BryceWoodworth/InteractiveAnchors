@@ -1,0 +1,45 @@
+
+central result prediction universal probability 1 true sequence predictor if latter
+hence universal sequence predictor case unknown
+despite some results literature result convergence all random sequences open
+convergence result would particularly natural since defined terms itself
+show there universal do not all random sequences \ give negative answer open problem
+also provide positive answer some
+define measure mixture over all measures mixture over all
+show all random sequences
+distance two distributions central role
+introduction
+sequence prediction task defined predict next observed sequence
+key concept general prediction problems less extent principle multiple
+may theories consistent observations use theories predict
+combined both his universal probability environments hence
+represented mixture all
+universal sense all
+central result if probability at time given past observations function then universal predictor probability 1 p 1 predictor hence universal predictor case unknown distribution
+convergence p 1 us close large almost all sequences
+about whether convergence true any particular sequence measure
+standard notion individual sequences
+random sequence all effective tests eg \ large numbers etc
+particular set all random sequences measure 1
+natural whether difference all random sequences
+result shows convergence may at most set sequences measure
+convergence result random sequences would particularly natural context since defined terms itself
+despite several solve problem open
+paper construct random sequence show existence universal does not sequence hence open question some
+remains open whether there exist other universal particularly additional structure properties convergence
+main positive work
+step consider measure defined mixture over all measures
+show convergence predictor
+distance two predictive distributions central role work
+paper section give basic results numbers sets functions complexity define discuss universal
+section results predictive convergence probability 1
+both results derived bound expected
+present bound expected very strong convergence rate
+section investigate whether convergence all random sequences
+construct random sequence some universal do not
+give different
+section present our main positive result
+derive finite bound between sequence complexity
+predictor
+finally section show measure properties
+section contains

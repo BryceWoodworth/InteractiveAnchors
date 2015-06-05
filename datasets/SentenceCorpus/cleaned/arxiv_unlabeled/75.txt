@@ -1,0 +1,49 @@
+ 
+show how rate-distortion theory provides mechanism automated theory building naturally distinguishing between regularity randomness
+start simple principle model variables should much possible render future past conditionally independent
+construct objective function model making whose extrema embody trade-off between model's structural complexity its predictive power
+solutions correspond hierarchy models at each level complexity achieve optimal predictive power at minimal cost
+limit maximal prediction resulting optimal model identifies process's intrinsic organization extracting underlying causal states
+limit model's complexity given statistical complexity known minimal achieving maximum prediction
+examples show how theory building profit analyzing process's causal compressibility  reflected optimal models' rate-distortion curve---the process's characteristic optimally balancing structure noise at different levels representation
+ introduction 
+progress science often driven discovery novel patterns
+historically physics relied creative mind theorist articulate mathematical models capture nature's regularities physical principles laws
+but last decade witnessed new era collecting truly vast data sets
+examples include contemporary experiments particle physics astronomy  but range genomics automated language translation  web social organization
+all volume data far exceeds what any human analyze directly hand
+presents new challenge---automated pattern discovery model building
+principled understanding model making critical provide theoretical guidance developing automated procedures
+letter show how basic information-theoretic optimality criteria provide method automatically constructing hierarchy models achieve different degrees abstraction
+importantly show appropriate limits method recovers process's causal organization
+without connection would only another approach statistical inference its own ad hoc assumptions about character natural pattern
+our starting point observation natural systems store process produce information---they compute intrinsically
+theory building then faces challenge extracting information structures underling its generation
+any physical theory delineates mechanism randomness identifying what part observed phenomenon due underlying process's structure what irrelevant
+irrelevant parts considered noise typically modeled probabilistically
+successful theory building therefore depends centrally deciding what structure what noise; often implicit distinction
+what constitutes good theory though
+information relevant
+one answer question time series prediction: information about future time series relevant
+beyond forecasting though models often put test assessing how well they predict new data hence general importance model capture information aids prediction
+typically there many models explain given data set between two models equally predictive one favors simpler smaller less structurally complex model
+however more complex model achieve smaller prediction error than less complex model
+trade-off between model complexity prediction error tantamount finding distinction between causal structure noise
+trade-off between assigning causal mechanism occurrence event explaining event being merely random long history but how one implements trade-off still very active topic
+nonlinear time series analysis  take one example attempts account long-range correlations produced nonlinear dynamical systems---correlations not adequately modeled assumptions linearity independent identically distributed  iid  data
+success endeavor requires directly addressing notion structure pattern
+examination essential goals prediction led principled definition structure captures dynamical system's causal organization part discovering underlying causal states
+computational mechanics process viewed communication channel : transmits information past future storing present
+purpose forecasting future two different pasts say  equivalent if they result same prediction
+general prediction probabilistic given conditional future distribution
+resulting equivalence relation groups all histories give rise same conditional future distribution: } resulting partition space pasts defines process's causal states
+causal states constitute model maximally predictive means capturing all information past time series contains about future
+result knowing causal state renders past future conditionally independent property call causal shielding  because causal states markovian property they shield past future : } where
+related fact causal-state partition optimally predictive
+see note eq  implies
+furthermore note definition any partition states  when past known then future distribution not altered history-space partitioning: } implies causal states thus
+therefore causal shielding equivalent fact causal states capture all information shared between past future:  process's excess entropy predictive information
+causal states unique minimal sufficient statistics time series prediction capturing all process's predictive information at maximum efficiency
+causal-state partition smallest statistical complexity   compared all other equally predictive partitions
+measures minimal amount information must stored order communicate all excess entropy past future
+briefly stated causal states serve basis against alternative models should compared

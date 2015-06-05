@@ -1,0 +1,99 @@
+ 
+spectro-temporal receptive fields been widely used linear approximations signal transform sound spectrograms neural responses along auditory pathway
+their dependence statistical attributes stimuli sound intensity usually explained nonlinear mechanisms models
+here apply efficient coding principle been successfully used understand receptive fields early stages visual processing order provide computational understanding strfs
+according principle strfs result optimal tradeoff between maximizing sensory information brain receives minimizing cost neural activities required represent transmit information
+both terms depend statistical properties sensory inputs noise corrupts them
+strfs should therefore depend input power spectrum signal-to-noise ratio assumed increase input intensity
+analytically derive optimal strfs when signal noise approximated gaussians
+under constraint they should spectro-temporally local strfs predicted adapt being band-pass low-pass filters input intensity reduces input correlation becomes longer range sound frequency time
+predictions qualitatively match physiological observations
+our prediction how strfs should determined input power spectrum could readily tested since spectrum depends stimulus ensemble
+potentials limitations efficient coding principle discussed
+ introduction 
+response acoustic input signals neurons auditory pathway typically selective sound frequency formula particular response latencies
+at least ignoring cases formula khz neuronal responses often phase lock sound waves spectro-temporal receptive field often used describe tuning properties neuron
+two-dimensional function formula reports sensitivity neuron at response latency formula acoustic inputs frequency formula given stimulus ensemble
+more specifically stimulus ensemble power formula acoustic input at frequency formula at time formula fluctuates around average level denoted formula
+if let formula denote neuron's response at time formula then formula best approximates linear relationship between formula formula stimulus ensemble asformulanote paper refer formula input spectrogram although some authors also include average input power formula
+though formula not full description acoustic input since ignores features phase oscillation sound wave only relevant aspect auditory input far strf concerned
+note if use formula denote deviation neural response its spontaneous activity level then both formula formula zero mean
+will use simplification throughout paper
+studies temporal dimension omitted strf called spectral receptive field 
+figure 1 cartoons typical strf
+excitatory inhibitory regions reflecting its preferred frequency response latency
+example if formula peaks at frequency formula time formula then neuron prefers frequency formula should respond input impulse formula frequency latency formula
+will also refer formula receptive field filter kernel transfer function input neural responses all convey same similar meanings
+neuron's strf typically estimated using reverse correlation methods 
+however there extensive nonlinearities signal transformation along auditory pathway
+indeed strf formulation neural responses though linear spectral power already second-order nonlinear function auditory sound wave
+there two kinds nonlinearities when inputs represented spectrograms
+simpler one static nonlinearity formula when applied linear approximation formula equation enables better predictions neural responses
+static nonlinearity however does not alter spectro-temporal selectivity neuron seen linear strf
+paper interested more complex nonlinearity strfs dependent stimulus ensemble used estimate them
+example strfs wider when stimuli narrow-band rather than wide-band when stimuli animal vocalizations rather than noise
+strf also becomes more band-pass when sound intensity increases
+dependence strfs stimulus ensemble holds example type iv neurons cochlear nucleus cats inferior colliculus frog gerbil field l region songbird
+nonlinearities auditory system become progressively stronger further periphery
+despite nonlinearities concept strf still widely used not only because provides meaningful description spectro-temporal selectivity neurons given stimulus ensemble but also because predict neural responses novel stimuli reasonably well long stimuli drawn same stimulus ensemble used estimate strf first place
+reasonable predictions strfs been obtained responses auditory nerves auditory midbrain neurons
+they also been obtained responses auditory cortical neurons when stimulus ensemble composed biologically more meaningful static dynamic ripples
+if linear neural filter augmented include filtering performed head ears also possible predict preferred locations sound sources auditory cortical neurons based linear neural filter input spectrograms
+meanwhile linear strf models fail capture many complex phenomena particularly auditory cortex nonlinearities not limited being just static monotonic
+been suggested some auditory cortical neurons process auditory objects highly non-linear manner selectively responding weak object component while ignoring loud components occupy same region frequency space auditory mixtures object components some prefer low over high spectral contrast sounds
+strong nonlinearities auditory processes long since motivated nonlinear models auditory responses 
+paper aims understand computational rather than mechanistic perspective why auditory encoding transform should depend stimulus ensemble ways observed
+more specifically paper focuses cases strfs reasonably capture neural responses aims identify understand computational goal strfs given stimulus ensemble finding metric according strfs optimal ensemble
+would provide rationale how physiologically measured strfs should depend adapt stimulus ensemble
+paper does not address what linear nonlinear mechanisms could build optimal strfs whether how nonlinear auditory processes enable adaptation strfs stimulus ensemble
+existing computational models auditory neurons including ones notion cochlear hair cells perform independent component analysis provide efficient code inputs using spikes auditory nerves cannot explain observed dependence strfs stimulus ensemble 
+restricting attention temporal properties strf lesica grothe observed temporal filter strf adapted level ambient noise input environment
+particular temporal receptive field strf changed being bandpass being low pass increase ambient noise
+they argued using simple model adaptation strf enables more efficient coding input information
+study applies principles efficient coding understand auditory strf its variations sound intensities other input characteristics
+generalizes work lesica grothe understand temporal spectral filtering characteristics strf adaptation changes noise signal correlations input statistics
+explicitly principle efficient coding states neural receptive fields should enable neural responses transmit much sensory information possible central nervous system subject limitation neural cost representing transmitting information
+principle been proposed successfully applied visual system understand receptive fields early visual pathway
+will borrow heavily techniques intuitions vision derive explain results paper
+make initial progress necessary start some simplifying assumptions
+first assume statistical characteristics stimulus ensemble do not change more rapidly than speed at sensory encoding adapts so stimulus ensemble approximated being stationary far optimal encoding concerned
+knowing when assumption does not hold tells us when encoding not optimal e.g when one sees poorly brief moment before visual encoding adapts sudden change dark room bright garden
+second mathematical convenience assume linear strf model equation approximate adapted auditory neural responses reasonably well
+know above assumption often does not hold particularly auditory cortical neurons
+paper leaves extension optimal encoding nonlinear cases future studies
+third derive closed-form analytical solution optimal strf assume input statistics stimulus ensemble approximated being gaussian higher order correlations input contributing only negligibly inefficiency representation original sensory inputs
+although known natural auditory inputs far gaussian case vision discrepancy may only limited impact input inefficiency measured amount information redundancy original sensory input 
+understand how sensory inputs should recoded increase coding efficiency start visual encoding draw insights made analogies auditory encoding
+vision large amounts raw data about visual world transduced photoreceptors
+however optic nerve transmits input data visual cortex via thalamus only accommodate dramatically smaller data rate
+thus been proposed early visual processes use efficient coding strategy encode much information possible given limited bandwidth other words recode data redundancy data reduced consequently data transmitted limited bandwidth
+compression possible since images very redundant e.g strong correlations between visual inputs at nearby points time space
+removing correlations cut down data rate substantially 
+one way remove correlations transform raw input formula into different representation formula neural responses would then much smaller data rate than formula yet preserving essential input information
+transform often approximated visual receptive field analogous auditory strfs
+instance center-surround receptive fields retinal ganglion cells help remove spatial redundancy
+they do making ganglion cells preferentially respond spatial contrast input so eliminating responses visual locations whose input redundant their neighbors
+consequently responses retinal ganglion cells much less correlated than those photoreceptors making their representation much more efficient
+one facet efficient encoding hypothesis optimal receptive field transform should depend statistical properties correlation structure intensity input
+dependence been used explain adaptation changes input statistics visual receptive field characteristics sizes center-surround regions color tuning retinal neurons ocular dominance properties striate cortical neurons
+auditory system information redundancy also reduced along auditory pathway
+although redundancy reduction was only investigated neural responses sensory inputs rather than coding transform leading neural responses suggested coding efficiency one goals early auditory processes
+more formally efficient coding scheme depicted figure 2a
+input contains sensory signal formula noise formula
+net input formula encoded linear transfer function formula into output.formulawhich also contains additional noise formula introduced encoding process
+when input multiple channels e.g many different photoreceptors hair cells formula vector many components indeed formula
+output formula vector representing neural population responses many neurons
+output neuron formula formula
+therefore formula matrix its formula row formula models receptive field output neuron formula array effective weights input receptors formula output neuron formula
+particular example when input neurons photoreceptors output neurons retinal ganglion cells formula effective connection photoreceptor formula ganglion cell formula collectively formula describe linear receptive field ganglion cell
+consider problem finding optimal formula maximizes information extracted formula about formula i.e mutual information formula between formula formula subject given cost neural encoding depends responses way will describe shortly
+therefore optimal formula should minimize objective function:formulawhere formula parameter whose value specifies particular balance between needs minimize costs maximize extracted information
+neural costs arise various sources metabolic energy cost generating neural activities spikes cost thicker axons transmit higher rates neural firing
+follow formulation been productive vision model neural cost asformulawhere formula indicates average over stimulus ensemble
+givesformulait been shown formula provides most efficient coding according formula following properties
+at high signal-to-noise ratio formula formula extracts difference between correlated channels thus avoids transmitting redundant information
+hence example photopic conditions retinal ganglion cells center-surround spatial receptive fields extract spatial contrast input
+contrast at low snr formula smoothing filter averages out input noise instead reducing redundancy
+avoids spending neural cost transmitting noise
+hence example scotopic conditions when snr considered being low receptive fields retinal ganglion cells expand sizes their center regions weaken their suppressive surrounds
+will apply framework auditory encoding understand strfs their adaptation stimulus ensembles

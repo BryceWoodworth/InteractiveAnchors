@@ -1,0 +1,51 @@
+
+despite show long past instead
+our model follows common practice literature making assumptions about complete knowledge strategy do not require
+model bound between algorithm online learning theory best fixed
+show strategy robust lack information about knowledge
+introduction
+many information information
+typically many more than
+instead every typically perform analysis identify address but what effective strategy
+approach risk might future
+often consider
+sufficient conditions when effective
+study strategies model
+previously proposed models see section do not assume according fixed probability distribution
+instead consider model who strategy
+standard literature make assumptions about
+example complete knowledge strategy do not require
+further make assumptions about knowledge do not assume all system
+however do assume past actions example via detection system
+our model find two properties sufficient strategy perform well best strategies
+first no single number
+consistent situations where numbers but not
+second without
+example rules database at relatively low
+because our model many into single graph view increasing instead e g single
+making assumption choose not study interaction
+instead model at more level appropriate
+example might his find particular application require use during
+make assumption dependent
+assumption does not interaction would better represented step function step at cost
+instead assumption where step functions into
+evaluate strategy been proposed previously
+metric focus who reduce
+do not between
+instead compare payoff his cost
+will alternatives different
+our main result show sufficient conditions strategy best fixed sense between at most all provided game many at least
+prove our techniques online learning literature
+techniques case where does not know all game matrix us analyze situations where does not know all
+although our main results model single our results model based multiple
+our results also robust fixed number times
+although most likely strategy find some situations strategy effective optimal fixed
+fact find natural strategy effective
+strategy both than does not less than strategy because does not do not actually occur
+based our results question assumption risk risk } section our model
+section shows our model
+section our main results versus strategies
+section scenarios
+section our results multiple
+section related work
+section }

@@ -1,0 +1,25 @@
+ 
+recognition heuristic assumes people make inferences based output recognition memory
+while much work been devoted establishing recognition heuristic viable description how people make inferences more work needed fully integrate research recognition heuristic research broader cognitive psychology literature
+article outline four challenges should met integration take place close call address four challenges collectively rather than piecemeal
+ introduction 
+goldstein gigerenzer proposed recognition heuristic mechanism describe inferential judgments
+briefly heuristic asserts inference made merely basis presence absence information memory if one two objects recognized other not then infer recognized object higher value
+elegance recognition heuristic decision rule lies its simplicity  not only does purport inferences achieved through simple rule but also appears intuitive process model
+development recognition heuristic goldstein gigerenzer fueled over decade research within behavioral decision-making
+while recognition heuristic been well received many researchers others been rather critical its accuracy describing underlying psychological processes
+criticisms notwithstanding recognition heuristic led focus recognition-based inference much like other heuristics representativeness managed permanent place within judgment decision making vernacular
+while construct representativeness proved transformational judgment decision making research arguably run its course useful theoretical construct
+question however whether recognition heuristic will follow similar path
+article present four closely related challenges researchers investigating recognition heuristic well call fundamental shift research strategy
+argue challenges should met our call strategy shift taken up if theoretical progress research recognition heuristic move forward
+before going into detail few comments warranted
+first our four challenges our call research strategy shift not intended criticisms but rather proposals future research directions
+second while frame challenges our call strategy shift respect recognition heuristic they may apply related models inference including classics availability heuristic
+importantly likely meeting challenges will require extending revising recognition heuristic whether heuristic will then still named recognition heuristic immaterial our points because hintzman observed explanatory burden carried proposed mechanism not what they called p number
+finally some our challenges intended consider full import memory processes judgment decision making
+literature memory theory provides fertile ground enriching extending theories judgment decision making
+while recent work decision theory emphasized adaptive role recognition may play facilitating accurate judgment errors biases commonplace amongst memory phenomena including effects false-memories misinformation imagination inflation reality source monitoring errors amongst many others
+inasmuch memory processes exploited purposes judgment decision making then understanding full range effects associated common usage memory seems relevant understanding judgment decision making
+similar vein inasmuch there multiple strategies may deployed guiding judgment decision making-as assumed framework recognition heuristic been developed-there need developing cognitive architectures both accommodate multiple strategies model how people select amongst them
+example not sufficient postulate some choices made relying recognition memory one must model precisely possible how decision maker come utilize recognition opposed some other process

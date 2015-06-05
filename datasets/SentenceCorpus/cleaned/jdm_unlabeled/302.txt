@@ -1,0 +1,40 @@
+ 
+taxation policy driven many factors including public opinion but little research examined strength stability public's taxation preferences
+paper demonstrates one way preferences progressiveness depend framing question asked
+participants indicated how they would share fixed tax burden between two individuals who earned different amounts money either adjusting amount tax paid two individuals adjusting amount post-tax income retained
+units tax was described  amount money percentage tax rate  were manipulated orthogonally
+there was strong metric effect participants favored progressiveness more when tax was described percentage rather than amount
+however there was also clear interaction amounts participants favored progressiveness significantly more when considering post-tax money retained rather than tax paid percentages no effect was found
+ introduction 
+progressiveness tax topical issue
+recently united states united kingdom there been move increase progressiveness taxation one u s president obama's campaign pledges was increase highest rate income tax just under number percent
+similarly united kingdom government recently announced will introduce new higher tax band number percent people earning over xa number number number number number year
+conversely several countries like russia ukraine baltic states recent years introduced versions flat taxes where all citizens pay same proportion their income no matter what its absolute value
+structuring income tax systems generally multiple  often conflicting  goals
+most obvious goal raising revenue spend public services balancing potential extra revenue taken high tax rates disincentive work temptation illegally evade taxes high tax rates induce
+another key potential taxation distributional using example utilitarian egalitarian criteria redistribute wealth between rich poor
+although issue provokes strong opinions about optimal progressiveness tax regime one area often ignored extent public believe progressive taxation fair appropriate ways psychological mechanisms representing fairness affect tax progressiveness preferences
+existing data give mixed picture
+generally when asked whether those higher incomes should pay higher marginal rate tax people agree
+however people's progressiveness preferences appear depend way questions posed
+example roberts hite bradley found when participants were asked questions about progressiveness  form progressive tax rates more less fair than flat tax rates  students some tax education indicated strongly progressive taxation was more fair line other studies
+however when asked concrete questions  how much more tax somebody earning number number should pay relative somebody earning number number  same participants indicated preference flat taxes case dominant response being former should pay double
+other hand edlund showed swedish taxpayers favored progressiveness both concrete questions finding he attributed swedes' better awareness welfare state other provisions paid taxation
+similarly lewis found participants who gave preferences taxation at different incomes favored progressiveness
+inconsistency perhaps not surprising given large body work shows preferences often unstable way options framed affect people's preferences large number areas
+framing effects been specifically found tax preferences
+example mccaffery baron demonstrated several framing effects participants who chose tax regimes different family situations
+among other things they found participants indicated regimes taxation system was described terms tax bonuses certain groups rather than tax penalties other groups were fairer even though situations were numerically identical
+they also found what they called metric effect participants favored more progressive taxation when taxation levels were described percentages gross income rather than absolute number dollars
+finally they found modest status quo effect participants were drawn towards initial taxation structure
+one intriguing finding roberts et al was participants were less inconsistent between concrete questions when concrete questions were framed terms amount money left after tax rather than amount tax paid
+furthermore authors note passing their pattern results indicates changing reference point taxes residual income produced shift away regressive taxes toward flat progressive taxes p number although assertion was not tested statistically
+framing effect deserves further investigation at least two reasons
+first although asking people about amount tax should paid people different incomes seems most direct way assess preferences asking people about money left after tax may more grounded people's experience paying tax hence greater stability validity likely people more able report how much money they take home after tax  not least because amount appears their bank statements  than amount money they pay tax given month
+second psychological wellbeing appears associated  relative absolute  amount consumption person able do crudely amount money they left after tax other unavoidable drains resources met
+suggests attempts determine people's preferences taxation should use frame residual income foregrounded
+experiment reported here examines effects two variables completely between-subjects factorial design effect tax paid versus money left framing effect describing tax percentages amounts  metric effect investigated mccaffery baron interactions between two variables
+surface features task similar those used roberts et al using two taxpayers who different gross incomes
+however response method different
+roberts et al 's paper people were asked about ratios taxes form if andy earns number k bob earns number k how much more tax should andy pay than bob
+then marking scale labels same amount twice much so may bias people towards responding heuristically twice much most available justifiable ratio

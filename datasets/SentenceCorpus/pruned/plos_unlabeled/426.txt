@@ -1,0 +1,37 @@
+
+correlated changes amino provided strong information about structures interactions molecules
+despite literature sequence analysis previous methods often between information specific knowledge about interactions
+furthermore despite evidence selected protein among all protein domains still
+propose markov process model sequence
+model different types interactions information sequence only one free parameter requires no knowledge about interaction rules
+model protein domain database
+tests protein domains related amino residues
+moreover many at important sites binding sites dna binding region rna active binding sites various
+results suggest sequence structural functional constraints proteins
+between sequence various constraints at level
+introduction
+at species molecular levels
+at molecular level constraints system often require changes its components
+most example pairs rna secondary structures
+between pairs different species order
+changes amino residues also been investigated
+typically studies one family sequences examined between sequences
+some applied different including correlation information between distributions
+studies demonstrate sequence protein protein interactions structure single proteins
+addition direct physical interactions amino residues reported subject functional constraints proteins
+major many lack information
+sequences same level may either few independent early correlated changes along multiple
+rna structure prediction many authors extended markov process sequence pairs
+however direct application models protein due large number parameters amino pairs
+problem was amino sets protein each species size amino groups
+yet standard sequence set empirical models available
+all previous studies protein target few proteins protein domains family domain family proteins
+protein sequences their information allows us perform all known protein
+will give information among all protein domains provide about their
+propose general model requires states prior knowledge about interactions only one free parameter
+sequence two sites markov process
+model two sites
+alternative model obtained model independent rate matrix over single changes
+apply model all position pairs all known protein domain database
+large number domain pairs highly domains same proteins protein same functions
+moreover demonstrate tendency spatial important sites their proteins

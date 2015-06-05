@@ -1,0 +1,48 @@
+ 
+influenza transmitted through respirable inspirable direct-droplet-spray contact modes
+how modes affected features virus strain host population environment only recently come under investigation
+discrete-event continuous-time stochastic transmission model was constructed analyze environmental processes through virus passes one person another via different transmission modes explore factors increase decrease different modes transmission
+exception inspiratory route each route its own cause high transmission isolation other modes
+mode-specific transmission was highly sensitive parameter values
+example droplet respirable transmission usually required high host density while contact route had no requirement
+depending specific context one more modes may sufficient cause high transmission while other contexts no transmission may result
+because when making intervention decisions involve blocking environmental pathways generic recommendations applied indiscriminately may ineffective; instead intervention choice should contextualized depending specific features people virus strain venue question
+ introduction 
+june 11 2009 who declared h1n1 influenza virus pandemic
+health organizations worldwide were prompted escalate their efforts minimize transmission within their jurisdictions
+airports began monitor incoming passengers while schools increased their already intensive surveillance activities
+recommendations were established regard masks hygiene decontamination isolation suspected cases
+interest intervention control person-to-person transmitted illnesses multiple potential routes transmission began intensify during emergence sars later h5n1 virus
+heightened awareness potential another pandemic influenza led increased funding study non-pharmaceutical interventions cdc well increased efforts modeling influenza transmission
+studies were funded order better understand optimal intervention control strategies
+much insight was gained into influenza mitigation strategies border closure social distancing antiviral prophylaxis restriction public transportation school closure
+date however little known about relative contributions different influenza transmission modes how might vary due heterogeneity viral strain host environment
+manuscript explores potential effects unknown factors presenting: transmission model structure explicitly describes environmental processes through viruses pass one person another thereby distinguishing different modes transmission; analytical approach explores factors increase decrease different modes transmission under given model structure
+model analyzed environmental infection transmission system model elaborates approach models li et al formulating model discrete event framework greatly expanding details various processes involved
+does not define contact events transmission probabilities each event most transmission models do
+problem approach defining what constitutes contact
+instead define events related virus excretion environmental survival uptake causation infection
+allows us address events at level more relevant possible interventions construction more meaningful causal theory
+inform relevant intervention options influenza consider four potential modes transmission: respirable inspirable direct-droplet-spray contact mediated transmission
+manuscript consider each mode follows
+respirable transmission occurs when viruses small particles inhaled deposit alveolar region lower respiratory tract
+inspirable transmission occurs when viruses medium size particles inhaled deposit upper respiratory tract
+direct-droplet-spray transmission occurs when viruses large particles cough sneeze infected individual deposit directly susceptible individual's mucous membranes
+contact transmission occurs when infected person contaminates their own hands contaminates surfaces via their hands via droplets virus laden large particles
+transfer pathogens may then result contamination hands others who then may touch their eyes nose mouth self-inoculate potentially infecting upper respiratory tract
+assess how different feasible model parameters influence how much transmission follows different routes
+example different viruses may different infectivity survivability transferability shedding profiles
+similarly among different populations who different behaviors susceptibility profiles shedding profiles same virus may different effects depending type population present
+finally even identical viral strains human populations environmental venues may variable host densities surface area volume ratios host movement patterns generate different population level infection outcomes
+diverse sources heterogeneity address form corners epidemiologic triad 
+assess effects sources heterogeneity relative magnitude influenza transmission modes scenario where all individuals move randomly identical fashion
+construct detailed stochastic individual based model environmental influenza transmission
+use values empirical literature well expert judgment parameterize model
+apply upper lower parameter constraints 18 parameters obtain latin hypercube sample constrained parameter space
+analyze resulting outcome space respect how different transmission modes more less important specific contexts
+work contribute body literature discussing dominant mode influenza transmission
+additionally work takes incremental step forward previous environmental infection transmission models as: model all four modes influenza transmission simultaneously; do so agent based framework rather than ordinary differential equation based framework; model solely informed parametrically empirical work no model fitting optimization procedures were used parameterize model
+explicitly point out where holes empirical literature exist
+show depending scenario one mode may more less important than another
+therefore when intervening generic recommendations applied indiscriminately may ineffective; instead intervention choice should contextualized depending specific features people virus venue question
+consider how features related pathology behavior microbiology host pathogen environment alter magnitude transmission via each mode

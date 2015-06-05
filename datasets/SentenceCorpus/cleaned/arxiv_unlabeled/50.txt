@@ -1,0 +1,76 @@
+ 
+sequential decision theory formally solves problem rational agents uncertain worlds if true environmental prior probability distribution known
+solomonoff's theory universal induction formally solves problem sequence prediction unknown prior distribution
+combine both ideas get parameter-free theory universal artificial intelligence
+give strong arguments resulting aixi model most intelligent unbiased agent possible
+outline how aixi model formally solve number problem classes including sequence prediction strategic games function minimization reinforcement supervised learning
+major drawback aixi model uncomputable
+overcome problem construct modified algorithm aixi still effectively more intelligent than any other time length bounded agent
+computation time aixi order
+discussion includes formal definitions intelligence order relations horizon problem relations aixi theory other ai approaches
+ introduction 
+chapter article gives introduction mathematical theory intelligence
+present aixi model parameter-free optimal reinforcement learning agent embedded arbitrary unknown environment
+science artificial intelligence ai may defined construction intelligent systems their analysis
+natural definition system anything input output stream
+intelligence more complicated
+many faces like creativity solving problems pattern recognition classification learning induction deduction building analogies optimization surviving environment language processing knowledge many more
+formal definition incorporating every aspect intelligence however seems difficult
+most if not all known facets intelligence formulated goal-driven more precisely maximizing some utility function
+therefore sufficient study goal-driven ai; eg \ biological goal animals humans survive spread
+goal ai systems should useful humans
+problem except special cases know neither utility function nor environment agent will operate advance
+mathematical theory coined aixi supposed solve problems
+assume availability unlimited computational resources
+first important observation does not make ai problem trivial
+playing chess optimally solving np-complete problems become trivial but driving car surviving nature don't
+because challenge itself well-define latter problems not mention presenting algorithm
+other words: ai problem not yet been well defined
+one may view aixi suggestion mathematical definition ai
+aixi universal theory sequential decision making akin solomonoff's celebrated universal theory induction
+solomonoff derived optimal way predicting future data given previous perceptions provided data sampled computable probability distribution
+aixi extends approach optimal decision making agent embedded unknown environment
+main idea replace unknown environmental distribution bellman equations suitably generalized universal solomonoff distribution
+state space space complete histories
+aixi universal theory without adjustable parameters making no assumptions about environment except sampled computable distribution
+algorithmic complexity perspective aixi model generalizes optimal passive universal induction case active agents
+decision-theoretic perspective aixi suggestion new implicit ``learning'' algorithm may overcome all except computational problems previous reinforcement learning algorithms
+there strong arguments aixi most intelligent unbiased agent possible
+outline number problem classes including sequence prediction strategic games function minimization reinforcement supervised learning how aixi model formally solve them
+major drawback aixi model incomputable
+overcome problem construct modified algorithm aixi still effectively more intelligent than any other time length bounded agent
+computation time aixi order
+other discussed topics formal definition intelligence order relation horizon problem relations aixi theory other ai approaches
+article meant gentle introduction discussion aixi model
+mathematically rigorous treatment many subtleties proofs see references author's works annotated bibliography section at end chapterarticle\fi particular book
+section also provides references introductory textbooks original publications algorithmic information theory sequential decision theory
+presents theory sequential decisions very general form called ai model actions perceptions may depend arbitrary past events
+clarify connection bellman equations discuss minor parameters including size i/o spaces lifetime agent their universal choice mind
+optimality ai obvious construction
+how sense induction possible at all been subject long philosophical controversies
+highlights epicurus' principle multiple explanations occam's razor probability theory
+solomonoff elegantly unified all aspects into one formal theory inductive inference based universal probability distribution  closely related kolmogorov complexity  length shortest program computing
+rapid convergence unknown true environmental distribution tight loss bounds arbitrary bounded loss functions finite alphabet shown
+pareto optimality sense there no other predictor performs better equal all environments strictly better at least one also shown
+view results fair say problem sequence prediction possesses universally optimal solution
+active case reinforcement learning algorithms usually used if unknown
+they succeed if state space either small effectively been made small generalization techniques
+algorithms work only restricted e g \ markovian domains problems optimally trading off exploration versus exploitation nonoptimal learning rate prone diverge otherwise ad hoc
+formal solution proposed here generalize solomonoff's universal prior include action conditions replace ai model resulting ai aixi model claim universally optimal
+investigate what expect universally optimal agent clarify meanings universal  optimal  etc
+other discussed topics formal definitions intelligence order relation horizon problem pareto optimality aixi
+show how number ai problem classes fit into general aixi model
+they include sequence prediction strategic games function minimization supervised learning
+first formulate each problem class its natural way known  then construct formulation within ai model show their equivalence
+then consider consequences replacing
+main goal understand sense problems solved aixi
+major drawback aixi incomputable more precisely only asymptotically computable makes implementation impossible
+overcome problem construct modified model aixi  still superior any other time length bounded algorithm
+computation time aixi order
+solution requires implementation first-order logic definition universal turing machine within proof theory system
+finally discuss remark some otherwise unmentioned topics general interest
+remark various topics including concurrent actions perceptions choice i/o spaces treatment encrypted information peculiarities mortal embodies agents
+continue outlook further research including optimality down-scaling implementation approximation elegance extra knowledge training of/for aixi 
+also include some personal remarks non-computable physics number wisdom  consciousness
+annotated bibliography concludes chapter
+annotated bibliography other references conclude work

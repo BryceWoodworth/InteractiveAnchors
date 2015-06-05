@@ -1,0 +1,27 @@
+
+% after classifier tools machine learning typically at hand able predict well data
+thus answer question what most likely given data point
+however most methods will provide no answer why model predicted particular single instance what features were most particular instance
+only method able provide decision
+paper procedure based set assumptions allows explain decisions any classification method
+introduction
+classification common data analysis
+machine learning research methods useful data after being limited training set examples
+most algorithms do not explain their decision
+however practical data analysis essential obtain instance based i e would like gain understanding what input features made machine give its answer each individual data point
+typically provided all training set example feature selection methods including find out good generalization
+while give about global each input dimension still view does not provide answer instance basis
+neural network literature also view was taken algorithms like input
+only classification does provide individual decision
+paper simple framework provides local vectors any classification method order help understanding prediction results single data
+local features being relevant prediction at very points interest data space able local global view eg due effects
+paper define local vectors class probability section give process classification
+some methods output prediction without direct probability
+propose section way estimate local
+section will apply our learn properties vectors classifier applied data set
+section will discuss how our approach applied classifier allows us explain how data set
+section discuss more application where proposed prove useful drug human how existing lead order obtain new properties
+models predictions help process choosing
+our generated domain knowledge about functional groups question
+section our approach related work section properties our approach before paper section
+

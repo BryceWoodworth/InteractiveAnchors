@@ -1,0 +1,48 @@
+
+based hypothesis during evolution genes likely manner
+presence genes now common way associated genes
+approach means functional between two genes critical step why previous work area focused using presence species
+here demonstrate genomes high whose distributions presence information
+feature makes them standard prediction methods
+using structural domain database complete genomes developed novel method uses genome number each domain predict functional relationships
+our approach at levels sequence percent percent at each level
+all compared using identify those correlated changes their domain number
+demonstrate two protein will strong signals when their compared at similarity levels their functional relationship
+our method functional relationships not presence does not require any fixed define genes
+introduction
+comparison proteins different species method related proteins
+approach two related proteins will been through
+therefore correlated presence patterns different genomes possible protein functional relationship
+after original idea was method was many different ways
+through application more complex rules compare protein use domain instead whole proteins algorithm integration species information
+although method new sources information all cases prediction quality method depends two critical selection reference species sample proteins
+typically latter using best approach similarity determined algorithm potential
+fact two different prediction quality
+reference species problem simply increasing sample size new genomes certain number been
+however there many problems especially
+exist within one genome also exhibit functional between
+fact genes at different rates due both natural selection their functions different species having different mutation rates point mutations more than evolutionary rates proteins may over several different gene
+rate variation makes difficult choose single similarity applied identify those most likely similar
+family problem particularly genomes genes present multiple much higher than genomes
+however higher not only problem makes more difficult relationships species
+contrast accurate identification noise domain more complex gene higher presence regions
+furthermore there correlation between number complexity
+due number most significantly greater use regulatory mechanisms
+developed novel method several problems especially functional also perceived detection problem
+method particularly functional networks so far
+our approach based protein domains since most protein function
+furthermore allows us domain
+study used domain database complete genomes
+first key do not consider presence domains but number domain
+second key all domains at levels sequence percent percent
+then every domain family within identification distinct functional within domain
+although clear there always any evolutionary model proposed hypothesis our model gene number two related protein clusters will related
+our approach domain at many levels therefore expected two protein clusters will significant correlation signal when their compared at similarity levels their functional relationship
+therefore domain were compared all against all identify domain number variation all different levels
+our method found strong signals related domain could not been predicted presence comparison proposed et al
+new approach number features make especially useful genome analysis
+based protein domains functional relationships not using whole proteins noise protein domain produce particularly
+uses domain instead presence
+latter less effective genomes they do not account wide variation gene number observed
+method applied does not require any fixed define groups
+because domain clusters at several levels method into account much variation selection sequence functional

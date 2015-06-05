@@ -1,0 +1,16 @@
+
+problem signals first studied become against many learning algorithms been tested
+both training set test set although different
+moreover complete set learning test patterns together also
+give weights sets may used compare results found other algorithms
+introduction
+become current practice test performance learning algorithms problems
+underlying difficulty tests general problems not well making thus whether better solution one found exists
+signals classification introduced et al widely used test machine learning algorithms
+problem classifier if given was produced same environment
+contains defined real values their corresponding class
+among patterns usually used determine classifier parameters through procedure called learning
+then classifier used class patterns patterns used estimate generalization error produced learning algorithm
+applied neural learning algorithm
+algorithm hidden one after other number training errors
+each hidden simple binary learning algorithm

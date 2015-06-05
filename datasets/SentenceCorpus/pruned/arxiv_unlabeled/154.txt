@@ -1,0 +1,55 @@
+
+show how used predict financial using support vector
+multiple kernel learning used predictive features increase classification performance develop method solve kernel learning problem
+while direction not using either their size features significantly better performance than
+introduction
+models often describe novel information process but characteristics underlying process only if at all related underlying source information
+time series models been developed using data but methods also one key source financial
+our objective here show classification techniques allow much more analysis impact
+empirical studies examine among others who showed there no significant average
+similar studies were who find significant i e
+effects also observed patterns demonstrated
+findings tend demonstrate given future not while
+impact also been studied
+example studied interest rate following showed within one major
+into single variable found no correlation correlation
+however into variable model found significant predictive power
+findings
+results were further type
+most common techniques forecasting often based models above
+example
+see models various other applications
+machine learning techniques neural networks support vector also been used
+neural networks used options support vector used using
+here show information used predict relatively high accuracy
+consistent however direction not found
+form classification problem where positive if at some fixed time after made
+support vector used solve classification problem using both
+furthermore use multiple kernel learning predictive features increase classification performance
+classification problem machine learning among many others show significantly methods
+were used do classification using
+taken several sources
+classification used when at
+
+support vector were also used using do classification using
+classification also been used directly predict see systems use
+recently used predict if large important then into variable used model similar
+use support vector regression based
+they found after over methods did not use
+rules genetic another way financial systems
+rules using based extended available information
+methods were used rules based
+our here
+first predicted using classification techniques similar
+given predict whether not will occur next using past
+algorithm uses predict whether up within bounds within
+they consider subset years used here
+our experiments analyze at many demonstrate significant initial
+second information time series significantly classification performance using multiple kernel learning
+use method solve resulting problem
+particularly efficient problems where objective function evaluate but whose set simple so
+furthermore because does not achieve higher targets than other methods
+paper follows
+section classification problem solve here provides results using using either features
+section multiple kernel learning framework algorithm used solve resulting optimization problem
+finally use prediction performance

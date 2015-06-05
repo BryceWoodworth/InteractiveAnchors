@@ -1,0 +1,51 @@
+ 
+paper describes efficient reduction learning problem ranking binary classification
+reduction guarantees average pairwise misranking regret at most binary classifier regret improving recent result balcan et al only guarantees factor
+moreover our reduction applies broader class ranking loss functions admits simpler proof expected running time complexity our algorithm terms number calls classifier preference function improved
+addition when top ranked elements only required   many applications information extraction search engines time complexity our algorithm further reduced
+our reduction algorithm thus practical realistic applications where number points rank exceeds several thousands
+much our results also extend beyond bipartite case previously studied
+our rediction randomized one
+complement our result also derive lower bounds any deterministic reduction binary preference classification ranking implying our use randomized reduction essentially necessary guarantees provide
+ introduction 
+learning problem ranking arises many modern applications including design search engines information extraction movie recommendation systems
+applications ordering documents movies returned critical aspect system
+problem been formulated within two distinct settings
+score-based setting  learning algorithm receives labeled sample pairwise preferences returns scoring function induces linear ordering points set
+test points simply ranked according values those points
+several ranking algorithms including rankboost  svm-type ranking  other algorithms prank  were designed setting
+generalization bounds been given setting pairwise misranking error  including margin-based bounds
+stability-based generalization bounds also been given setting wide classes ranking algorithms both case bipartite ranking general case
+somewhat different two-stage scenario was considered other publications starting cohen schapire singer  later balcan et al  will refer preference-based setting
+first stage setting preference function learned where values closer one indicate ranked above values closer zero opposite
+typically assumed output classification algorithm trained sample labeled pairs example convex combination simpler preference functions
+crucial difference score-based setting general preference function does not induce linear ordering
+order induces may non-transitive thus may example three distinct points  
+rank test subset  second stage algorithm orders points making use preference function learned first stage
+paper deals preference-based ranking setting just described
+advantage setting learning algorithm not required return linear ordering all points  impossible achieve faultlessly accordance true pairwise preference labeling non-transitive
+more likely achievable exactly better approximation when algorithm requested instead setting supply linear ordering only limited subset
+when preference function learned binary classification algorithm preference-based setting viewed reduction ranking problem classification one
+second stage specifies how ranking obtained using preference function
+cohen schapire singer showed second stage preference-based setting general problem finding linear ordering few pairwise misrankings possible respect preference function np-complete
+authors presented greedy algorithm based tournament degree each element defined difference between number elements preferred versus number those preferred
+bound proven authors formulated terms pairwise disagreement loss respect preference function  written  where loss achieved permutation returned their algorithm one achieved optimal permutation respect preference function
+bound was given general case ranking but particular case bipartite ranking define below random ordering achieve pairwise disagreement loss thus bound not informative
+more recently balcan et al studied bipartite ranking problem showed sorting elements according same tournament degree used guarantees pairwise misranking regret at most using binary classifier regret
+however due quadratic nature definition tournament degree their algorithm requires calls preference function  where number objects rank
+describe efficient algorithm second stage preference-based setting thus reducing learning problem ranking binary classification
+improve recent result balcan et al  guaranteeing average pairwise misranking regret at most using binary classifier regret
+other words improve their constant
+our reduction applies different constants broader class ranking loss functions admits simpler proof expected running time complexity our algorithm terms number calls classifier preference function improved
+furthermore when top ranked elements only required   many applications information extraction search engines time complexity our algorithm further reduced
+our reduction algorithm thus practical realistic applications where number points rank exceeds several thousands
+much our results also extend beyond bipartite case previously studied general case ranking
+by-product our proofs also bound pairwise disagreement loss respect preference function will compare result given cohen schapire singer
+algorithm used balcan et al produce ranking based preference function known sort-by-degree been recently used context minimizing feedback arcset tournaments
+here use different algorithm quicksort also been recently used minimizing feedback arcset tournaments
+techniques presented make use earlier work ailon et al combinatorial optimization problems over rankings clustering
+remainder paper structured follows
+section introduce definitions notation used future sections introduce family general loss functions used measure quality ranking hypothesis
+section describes simple efficient algorithm reducing ranking binary classification proves several bounds guaranteeing quality ranking produced algorithm shows running-time complexity our algorithm very efficient
+section discuss relationship algorithm its proof previous related work combinatorial optimization
+section derive lower bound factor any deterministic reduction binary preference classification ranking implying our use randomized reduction essentially necessary improved guarantees provide

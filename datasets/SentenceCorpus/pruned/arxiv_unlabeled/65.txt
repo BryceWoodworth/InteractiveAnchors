@@ -1,0 +1,43 @@
+
+observations measurements relationships pairs objects many settings protein interaction gene regulatory networks social networks
+data models because simple assumptions underlying many models no
+paper describe variable model data called stochastic
+model data ones structure thus representation
+develop general inference algorithm fast approximate inference
+explore applications social protein interaction networks
+variables approximation statistical network analysis social networks protein interaction networks
+introduction
+modeling information among objects represented graphs important problem data analysis machine learning
+many data sets contain observations
+example literature interaction data proteins physical interaction
+settings often hidden attributes objects observed measurements properties
+example might clustering predict functions protein degree
+data over individual objects data classical assumptions typically made machine learning statistics
+fact observations their very nature statistical analysis
+there history research end
+one problem been studied clustering objects group structure based observed patterns interactions
+standard clustering methods eg mixture models not data because they assume objects independent given their
+stochastic adaptation mixture modeling data
+model each object relationships between objects corresponding pair clusters
+via inference model one identify objects play their relationships each other
+model stochastic where objects known
+recent model assumption clusters via bayesian based process prior
+stochastic each object only one other words play single role
+real life not more data
+example when protein social different different functional social may apply thus protein may according different they possible play
+paper assumption develop model data
+models recent years modeling data where single assumption within data point
+they been applied many domains analysis image processing regulation population
+model each observation multiple clusters rather than single via vector
+data different clusters its different aspects different underlying words each
+particularly natural idea data where objects multiple influence their relationships others
+will demonstrate approach data us describe interaction between objects multiple
+example some interactions may one other interactions may another function
+existing models not appropriate data because they assume data independent given their vectors
+data where each object described its relationships others would like assume vectors help relationships each object
+assumptions models do not apply
+paper develop models data develop fast inference algorithm inference estimation demonstrate application our technique large scale protein interaction networks social networks
+our model multiple objects exhibit interaction others relationships between those observed interaction matrix
+structure data section
+application network among tests model real data set where structure exists section
+application protein interaction network tests what extent our model reduce data while information about proteins used analyses section

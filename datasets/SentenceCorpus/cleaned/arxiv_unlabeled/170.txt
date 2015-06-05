@@ -1,0 +1,39 @@
+ 
+hidden markov models hmms one most fundamental widely used statistical tools modeling discrete time series
+general learning hmms data computationally hard under cryptographic assumptions practitioners typically resort search heuristics suffer usual local optima issues
+prove under natural separation condition bounds smallest singular value hmm parameters there efficient provably correct algorithm learning hmms
+sample complexity algorithm does not explicitly depend number distinct discrete observations---it implicitly depends quantity through spectral properties underlying hmm
+makes algorithm particularly applicable settings large number observations those natural language processing where space observation sometimes words language
+algorithm also simple employing only singular value decomposition matrix multiplications
+ introduction 
+hidden markov models hmms workhorse statistical model discrete time series widely diverse applications including automatic speech recognition natural language processing nlp genomic sequence modeling
+model discrete hidden state evolves according some markovian dynamics observations at particular time depend only hidden state at time
+learning problem estimate model only observation samples underlying distribution
+thus far predominant learning algorithms been local search heuristics baum-welch / em algorithm
+not surprising practical algorithms resorted heuristics general learning problem been shown hard under cryptographic assumptions
+fortunately hardness results hmms seem divorced those likely encounter practical applications
+situation many ways analogous learning mixture distributions samples underlying distribution
+there general problem also believed hard
+however much recent progress been made when certain separation assumptions made respect component mixture distributions  eg  
+roughly speaking separation assumptions imply high probability given point sampled distribution one determine mixture component generated point
+fact there prevalent sentiment often only interested clustering when separation condition holds
+much theoretical work here focused how small separation still permit efficient algorithm recover model
+present simple efficient algorithm learning hmms under certain natural separation condition
+provide two results learning
+first approximate joint distribution over observation sequences length here quality approximation measured total variation distance
+increases approximation quality degrades polynomially
+our second result approximating conditional distribution over future observation conditioned some history observations
+show error asymptotically bounded i e any  conditioned observations prior time  error predicting th outcome controlled
+our algorithm thought `improperly' learning hmm do not explicitly recover transition observation models
+however our model does maintain hidden state representation closely fact linearly related hmm's used interpreting hidden state
+separation condition require spectral condition both observation matrix transition matrix
+roughly speaking require observation distributions arising distinct hidden states distinct formalize singular value conditions observation matrix
+requirement thought being weaker than separation condition clustering observation distributions overlap quite bit---given one observation do not necessarily information determine hidden state was generated unlike clustering literature
+also spectral condition correlation between adjacent observations
+believe both conditions quite reasonable many practical applications
+furthermore given our analysis extensions our algorithm relax assumptions should possible
+algorithm present both polynomial sample computational complexity
+computationally algorithm quite simple---at its core singular value decomposition svd correlation matrix between past future observations
+svd viewed canonical correlation analysis cca between past future observations
+sample complexity results present do not explicitly depend number distinct observations; rather they implicitly depend number through spectral properties hmm
+makes algorithm particularly applicable settings large number observations those nlp where space observations sometimes words language

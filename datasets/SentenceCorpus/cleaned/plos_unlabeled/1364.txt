@@ -1,0 +1,50 @@
+ 
+proteome radiation desiccation-resistant bacterium d radiodurans features group proteins contain significant intrinsically disordered regions not present non-extremophile homologues
+interestingly group includes number housekeeping repair proteins dna polymerase iii nudix hydrolase rotamase
+here focus member nudix hydrolase family d radiodurans possessing low-complexity n c-terminal tails exhibit sequence signatures intrinsic disorder unknown function
+enzyme catalyzes hydrolysis oxidatively damaged mutagenic nucleotides thought play important role d radiodurans during recovery phase after exposure ionizing radiation desiccation
+use molecular dynamics simulations study dynamics protein study its hydration free energy using gb/sa formalism
+show presence disordered tails significantly decreases hydration free energy whole protein
+hypothesize tails increase chances protein located remaining water patches desiccated cell where protected desiccation effects function normally
+extrapolate other intrinsically disordered regions proteins propose novel function them: intrinsically disordered regions increase surface-properties folded domains they attached making them whole more hydrophilic potentially influencing way their localization cellular activity
+ introduction 
+dominant paradigm describing functioning proteins well-defined structured molecular machines undergoing concerted conformational changes while carrying out their function
+however over past few years become clear reality much more complex there proteins simply do not defined tertiary structure yet still carry out multitudes different important functions
+intrinsically disordered proteins protein segments also called natively unfolded natively disordered definition difficult study using classical methods structural biology but they recent years received significant attention largely due two facts
+first become clear proteins extremely abundant
+using mostly bioinformatics approaches been shown eukaryotes about 30 percent all proteins largely intrinsically disordered about 50 percent long id stretches
+among signaling proteins particular about 70 percent long disordered segments
+numbers large: even if some predicted disordered regions actually prove structured likely idps eukaryotes far exceed example entire population membrane proteins
+second motivating factor fact idps involved host extremely important cellular functions molecular recognition assembly protein modification entropic chain functions
+example complex cellular activities cell signaling regulation often required actions many key molecular players tightly controlled coordinated through interaction recognition based unique identifying features case signaling proteins often located id regions
+when recognition multiple binding partners high-specificity/low-affinity binding required choice molecular level often involves idps id regions
+finally large numbers idps known involved human diseases cancer neurodegenerative diseases diabetes cardiovascular diseases amyloidoses 
+thus far some biggest advances study idps been accomplished through bioinformatics data mining approaches
+been shown amino-acid sequences idps tend exhibit high hydrophilicity low sequence entropy lack so-called order-promoting amino acids bulky hydrophobic residues
+based features several bioinformatics tools been developed reliably predict level intrinsic disorder given sequence
+moreover using mostly nmr small-angle x-ray scattering different spectroscopic methods basic structural features idps been elucidated including their molecular size level structural heterogeneity role transient structure coupled binding-and-folding events aggregation tendencies presence persistent structure
+particular combination computer simulation experimentally-determined restraints provided some first ensemble-level pictures idps
+however compared our knowledge structure mechanism ordered proteins our understanding idps still extremely rudimentary incomplete primarily because their structural dynamic complexity
+present study use molecular dynamics simulations free energy calculations focus role idps extremophile bacterium: deinococcus radiodurans
+d
+radiodurans non-motile non-spore-forming bacterium belongs deinococcaceae family
+characterized extreme ability withstand high doses desiccation ionizing radiation
+example bacterium survive dose 5000 gy ionizing radiation inducing more than 200 dna double-strand breaks no effect its viability
+however molecular mechanisms underlying high radiation resistance d radiodurans thought evolved primarily side effect mechanisms counter extreme desiccation bacterium thrives dry arid environments
+over years evidence accumulated suggesting there exists no single dominant mechanism responsible extremophilic nature d radiodurans but rather combination different mechanisms at play
+range passive structural contributions increased genome copy number compact nucleotide organization high intracellular concentration ros-scavenger manganese active enzymatic repair mechanisms including nucleotide base excision repair dna double-strand break repair 
+however important mechanisms may also possible bacterium's proteome undergone major structural adaptations order cope environmental stresses
+one potential strategy address possibility compare proteome d radiodurans those its non-extremophile relatives look conspicuous differences
+recently one us taken exactly approach focused presence putative biological role id regions proteome d radiodurans
+subset proteins d radiodurans was identified contain highly hydrophilic stretches low sequence complexity indicative intrinsic disorder absent non-extremophile homologues
+interestingly list includes preponderance housekeeping rescue-and-repair proteins including dna polymerase iii nudix hydrolase rotamase abc transporters adenine deaminase lea proteins
+further probe significance finding here focus variant nudix hydrolase occuring naturally dimer analyze properties its id regions
+nudix hydrolases large class enzymes present all organisms hydrolyze wide range pyrophosphates including nucleotide di triphosphates dinucleotides nucleotide sugars
+importantly some members family degrade oxidized nucleotides way prevent potentially mutagenic effects would if incorporated into nucleic acids
+other family members regulate concentration metabolic intermediates signaling molecules
+interestingly d radiodurans exhibits 26 different types nudix hyrolase about three times more than what would expected given size its genome highest number per mbp any bacterial genome known
+particular been reported majority d radiodurans nudix genes strongly induced during stationary phase been implicated metabolic reprogramming
+idps tail regions nudix hydrolase extremely dynamic very difficult study x-ray crystallography nuclear magnetic resonance
+however atomistic computer simulations molecular dynamics techniques ideally suited provide complete atomistic picture diverse dynamic ensembles characterizing idps
+here using sequence analysis methods molecular dynamics simulations conjunction hydration free energy calculations show id regions protein significantly alter its solvation properties making whole protein significantly more hydrophilic
+hypothesize fact principal functional role id regions they evolved keep key housekeeping repair enzymes solvated consequently functional under extreme desiccation conditions

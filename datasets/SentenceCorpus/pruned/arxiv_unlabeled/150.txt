@@ -1,0 +1,80 @@
+
+consider general class regularization methods learn vector parameters basis linear measurements
+well known if function then learned vector linear combination input data
+result known theorem at basis methods machine learning
+paper prove above condition kernel methods based regularization
+further our analysis regularization methods learn matrix problem application learning
+context study more general theorem larger class
+provide necessary sufficient condition class matrix them some examples practical importance
+our analysis uses basic matrix theory especially useful notion matrix function }
+introduction
+regularization important learning examples long history variety
+been studied different statistics optimal estimation recently been focus attention machine learning theory see example
+regularization optimization problem involving error term
+important role solutions certain properties
+long been observed certain exhibit property called theorem states there exists solution regularization problem linear combination data
+property important computational context regularization positive because makes high problems type into finite problems size number available data
+interest paper will determine conditions under
+first paper describe property should order give theorem
+out property simple expressed function space norm
+thus show condition been known sufficient also necessary
+second paper context focus class problems matrix structure important role
+problems recently several machine learning applications show version theorem class significantly larger than context
+see matrix important context matrix parameters different regression tasks certain across tasks
+general consider problems framework regularization
+regularization approach set data vector solution optimization problem
+here space set possible output values
+optimization problems regularization type \ \ where regularization parameter
+function called error function called
+error function measures error data
+typically functions
+example regression common choice would errors
+function called certain properties vector small norm chosen based available prior information about target vector
+some measure smaller norm function
+framework several learning algorithms regression support vector many more see
+important practical approach observation certain choices parameters not
+specifically when space norm theorem there exists solution linear combination input vectors where some real
+result simple prove at least see example
+also known any function norm
+several other results about representation form also recent years
+moreover theorem been important machine learning particularly within context learning kernel see
+our first objective paper derive necessary sufficient conditions
+even though one regularization problems more study problems problems form \
+thus paper section how regularization
+one theorem theorem regularization same any error function
+therefore all obtained paper apply regularization
+other though true under certain error function
+having issue section problem solutions form if only if function space norm
+provide complete give had been open question
+furthermore discuss how our understanding theorem expressed property
+our second objective study novel question matrix problems
+make our let us consider problem learning linear regression vectors represented parameters
+each vector thought goal learn tasks
+problems there usually prior knowledge tasks often case learning improve if knowledge taken into account
+good should task involve all tasks
+case learning framework } where set real matrices vectors form matrix
+each task its own input data corresponding output values
+important feature problems them type matrix constraints
+fact will discuss section problems type form
+theorem if matrix function norm
+however optimal vector each task represented linear combination only those input vectors corresponding particular task
+moreover see each task
+hence no practical interest if tasks expected related
+observation leads us theorem appropriate matrix problems where
+other words now allow all input vectors present linear combination each optimal matrix
+result class give
+moreover framework applied many applications where matrix optimization problems involved
+our however been more specific than learning
+learning multiple tasks been area interest machine learning especially during past few years
+instance some use involve norm matrix
+general idea small norm matrices
+means tasks related they all
+case norm theorem known see also discussed section
+natural therefore question similar standard space setting
+under conditions theorem
+section provide answer necessary sufficient condition expressed simple property
+property one space setting but its now nature
+also give functional description property show interest matrix functions
+our results matrix problems type been studied literature
+but they also point towards some new learning methods may perform well practice now made efficient
+thus close paper possible our conditions been used used future machine learning problems

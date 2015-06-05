@@ -1,0 +1,37 @@
+ 
+correlated changes nucleic amino acids provided strong information about structures interactions molecules
+despite rich literature coevolutionary sequence analysis previous methods often trade off between generality simplicity phylogenetic information specific knowledge about interactions
+furthermore despite evidence coevolution selected protein families comprehensive screening coevolution among all protein domains still lacking
+propose augmented continuous-time markov process model sequence coevolution
+model handle different types interactions incorporate phylogenetic information sequence substitution only one extra free parameter requires no knowledge about interaction rules
+employ model large-scale screenings entire protein domain database
+strikingly 0.1 trillion tests executed majority inferred coevolving protein domains functionally related coevolving amino acid residues spatially coupled
+moreover many coevolving positions located at functionally important sites proteins/protein complexes subunit linkers superoxide dismutase trna binding sites ribosomes dna binding region rna polymerase active ligand binding sites various enzymes
+results suggest sequence coevolution manifests structural functional constraints proteins
+intricate relations between sequence coevolution various selective constraints worth pursuing at deeper level
+ introduction 
+coevolution prevalent at species organismic molecular levels
+at molecular level selective constraints operate entire system often require coordinated changes its components
+most well-known example compensatory substitution nucleic acid pairs rna secondary structures
+interacting nucleotides vary between au cg gu pairs different species order maintain hydrogen bonds
+coordinated changes amino acid residues also been investigated
+typically studies acquired one family aligned sequences examined covariation between aligned positions entire sequences
+some applied different covariation metrics including correlation coefficients mutual information deviance between marginal conditional distributions
+studies demonstrate sequence covariation powerful detecting protein protein interactions ligand-receptor bindings folding structure single proteins
+addition direct physical interactions distant coevolving amino acid residues reported energetically coupled subject functional constraints proteins 
+major drawback many covariation metrics lack phylogenetic information
+sequences manifesting same level covariation may arise either few independent substitutions early ancestors correlated changes along multiple lineages
+rna structure prediction many authors thereby extended continuous-time markov process sequence substitution coevolving nucleic acid pairs
+however direct application models protein coevolution intractable due large number parameters ctmp amino acid pairs
+problem was addressed replacing amino acids ctmp simplified surrogate alphabet sets presence/absence protein each species charge size amino acid groups
+yet simplification deviates standard ctmp sequence substitution rich set empirical models available
+all previous studies detecting protein coevolution target few proteins protein domains myoglobin pgk ntr family pdz domain family gag hsp90 groel proteins
+availability large-scale protein sequences their phylogenetic information allows us perform systematic screening all known protein families
+large-scale screening will give comprehensive information coevolution among all protein domains provide insight about their physical/functional couplings
+propose general coevolutionary ctmp model requires neither simplification states nor prior knowledge about interactions only one extra free parameter
+sequence substitution two sites modeled continuous-time markov process
+null model hypothesizes two sites evolve independently
+alternative model obtained null model reweighting independent substitution rate matrix favor double over single changes
+apply model all inter intra-domain position pairs all known protein domain families pfam database
+strikingly large number pairwise comparisons coevolving domain pairs highly enriched domains same proteins protein complexes possessing same functions
+moreover coevolving positions demonstrate tendency spatial coupling mapped functionally important sites their proteins

@@ -1,0 +1,45 @@
+
+present classification decision decision strategy set choice data well stochastic decision strategy
+our maximum likelihood model selection criterion compare multiple stochastic strategies
+addition single strategy error stochastic consider mixture i e strategies probability distribution over multiple strategies
+way our approach classification framework
+apply our existing find some decision best single strategy levels error while others best described using mixture over multiple strategies
+introduction
+within decision making literature there exist many decision theories both defined
+theories decision strategies not defined terms random variables therefore do not explicitly account choice decision
+yet many researchers observed not consistent their observed choices across same stimuli set choice type
+choice does not over experimental same subject random responses learning experience effects
+many researchers suggested different methods stochastic decision strategies choice
+stochastic fixed level error responses
+hand stochastic follows single strategy some probability choice alternative not
+other class models preference model choice random variable noise
+another class stochastic those multiple decision strategies choice sampling process over set strategies
+there many above well
+further choice stochastic use not one
+recently different lead different same set decision strategies should not about noise when decision strategies
+article present new strategy classification framework set strategies over multiple types stochastic
+consider single strategy error well probabilistic strategies using model selection directly compare different models one another optimal pair set observed choice data
+thus our framework not only choices but also stochastic
+our classification framework simulation study three different decision strategies over four types stochastic
+also apply our framework existing empirical data set test preference
+article will classification strategies using choice data perspective often comparative model
+how one out strategy classification via choice data
+at most basic level could strategies simply number times strategy was observed data problem stochastic
+however rate approach lead significant biases strategy classification
+how lead theoretical data
+et al provides related practice strategies
+more recent approaches statistical models out strategy classification
+developed statistical framework models single strategy some fixed probability making error
+under framework strategy classification out comparing factor
+basic approach been applied choice decision making under risk
+approach any number additional measures decision time confidence data into likelihood function allow theories predictions at choice level see also
+approaches similar assumption all same stochastic
+problem following different stochastic et al likelihood test evaluate set strategies under various stochastic
+set studies they found were best variety stochastic mixture strategies consistent expected utility many
+likelihood test however test may lack statistical power when applied small samples
+does likelihood test provide measure model complexity
+article strategy classification framework multiple stochastic decision strategies including probabilistic multiple strategies
+while many possible under our framework will three described number applications article
+were chosen their theoretical data set section number well our approach
+apply minimum description length principle maximum likelihood out model selection among all pairs
+maximum likelihood model selection models based upon its complexity model provides good account data

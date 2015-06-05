@@ -1,0 +1,19 @@
+ 
+present \bayesum\ ``bayesian summarization'' model sentence extraction query-focused summarization \bayesum\ leverages common case multiple documents relevant single query
+using documents reinforcement query terms \bayesum\ not afflicted paucity information short queries
+show approximate inference \bayesum\ possible large data sets results state-of-the-art summarization system
+furthermore show how \bayesum\ understood justified query expansion technique language modeling ir framework
+ introduction 
+describe \bayesum algorithm performing query-focused summarization common case there many relevant documents given query
+given query collection relevant documents our algorithm functions asking itself following question: what about relevant documents differentiates them non relevant documents \bayesum\ seen providing statistical formulation exact question
+key requirement \bayesum\ multiple relevant documents known query question
+not severe limitation
+two well-studied problems de-facto standard
+standard multidocument summarization without query access known relevant documents some user need
+similarly case web-search application underlying ir engine will retrieve multiple presumably relevant documents given query
+both tasks \bayesum\ performs well even when underlying retrieval model noisy
+idea leveraging known relevant documents known query expansion information retrieval community where been shown successful ad hoc retrieval tasks
+viewed perspective ir our work interpreted two ways
+first seen application query expansion summarization task ir terminology passage retrieval); see
+second more importantly seen method query expansion non-ad-hoc manner
+\bayesum\ statistically justified query expansion method language modeling ir framework

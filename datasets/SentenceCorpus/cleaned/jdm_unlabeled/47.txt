@@ -1,0 +1,70 @@
+ 
+allais paradox common consequence effect been standard challenge normative theories risky choice since its proposal over number years ago
+however neither its causes nor conditions necessary create effect well understood
+two experiments test effects losses event splitting allais paradox
+experiment number found allais paradox occurs both gain mixed gambles reflected loss gambles produced reflection across origin
+experiment number found allais paradox eliminated splitting outcomes even when probabilities used do not increase salience common consequence
+results experiment number consistent cumulative prospect theory current leading theory risky choice
+however results experiment number problematic cumulative prospect theory suggest alternate explanations allais paradox must sought
+ introduction 
+when expected utility theory eu was first proposed was assumed eu was not only normative theory risky decision making but descriptive theory well
+however quickly became apparent eu did not work descriptive theory risky choice
+one first most famous challenges eu was presented allais number
+suppose one given choice between following gambles decision-makers allais proposed will generally choose safer certain gamble
+however when asked choose between decision-makers will generally chose riskier gamble
+closer inspection reveals second set gambles obtained first removing common consequence number percent chance winning number million whose presence absence should no effect preference
+thus subjects' preference reversals nonnormative
+allais paradox been demonstrated under many different conditions
+real robust phenomenon at least when involves standard presentation large monetary gains
+however literature results varying presentation paradox mixed
+present experiments investigate two circumstances leading explanation allais paradox cumulative prospect theory cpt predicts allais common consequence effect should occur but effect not always previously been found
+experiment number addresses issue allais paradox losses while experiment number investigates effects event splitting paradox
+number explanations allais paradox been advanced
+theories include fanning-out theories explain paradox via shape indifference curves unit triangle expected cardinality-specific utility theories speculate utility function varies number outcomes
+however present discussion i will concentrate two particular classes theories probability weighting theories configural weight theories
+most common explanation paradox decision-makers weight probabilities outcomes via p function overweights small values p underweights large values p original prospect theory
+first pair gambles when common consequence cc number million cc-high gambles number percent greater chance winning safe gamble overweighted because falls very steep section p function near p number
+decision-makers thus drawn safe gamble
+when common consequence changed number cc-low gambles both number percent chance winning riskier gamble number percent chance winning safer gamble fall flat portion p function
+difference between them seems small decision-makers choose more valuable riskier gamble
+under cumulative prospect theory p function not applied directly probability outcome but rather cumulative probabilities utility outcome multiplied pthe probability obtaining outcome at least good x minus pthe probability if outcome strictly better than x
+thus weight given outcome depends not only probability utility outcome itself but also how good outcome relative other possible outcomes gamble
+rather than using cumulative probabilities configural weight models directly weight outcome according its rank outcome set smallest outcomes given highest weight
+weighting smaller outcomes more heavily than larger ones configural weight model captures intuition people more interested avoiding worst outcomes than they obtaining best outcomes
+example transfer attentional exchange tax model each lower outcome taxes probability weight each higher outcome
+tax model therefore explains allais paradox primarily via transfer probability weights three-outcome cc-high risky gamble highest outcome weighted less than its probability alone would suggest middle outcome weighted somewhat less lowest outcome more
+decision-maker thus prefers safe gamble cc-high pair single-outcome gamble unaltered probability weight
+cc-low gambles both gambles two outcomes
+thus probability weights undergo similar changes both gambles decision-makers simply choose better higher-paying risky gamble
+although allais paradox been demonstrated wide variety monetary gains few studies used losses mixed gambles had conflicting results
+camerer found reverse allais paradoxthat greater risk-seeking cc-high gambles than cc-low gamblesfor losses obtained subtracting common amount all outcomes small-magnitude gains gambles
+neither probability weighting theories nor tax model predict reverse paradox under conditions
+however birnbaum obtained allais paradox mixed gambles obtained same manner
+three other studies found no paradox either losses similarly sized gains
+thus literature conflicting existence allais paradox losses
+moreover no studies i am aware examined effect reflecting paradox across origin rather than shifting
+question allais paradox reflected loss gambles will addressed experiment number
+suppose take standard allais paradox cc-low gambles split each gambles into three outcomes instead two normatively split gambles identical standard ones
+because cpt incorporates rank outcome using cumulative probability two sets gambles also identical under cpt therefore predicts paradox should unaltered split
+under original pt effects split depend whether decision-maker chooses coalesce gambles during editing stage
+if so split gambles should treated identically standard ones
+if not split should serve increase desirability safe cc-low gamble number percent number percent considered separately seem larger than number percent decrease risky cc-low gamble thus eliminating paradox
+under tax model split will also serve increase value safe cc-low gamble outcomes highest payout lose less weight lowest outcome when split into two outcomes than when coalesced one outcome
+at same time value cc-low risky gamble decreases when split highest outcome loses more weight lowest outcome when lowest outcome split
+thus tax model predicts split should reduce eliminate paradox
+manipulation known event splitting
+several studies found event splitting presentation formats constitute event splitting reduce violations eu allais paradox
+although other studies failed find effect presentation format
+extent event splitting disrupts something fundamental paradox unclear
+possible simply makes common consequence more obvious separating out shared probability obtaining lowest outcome possibility could tested splitting gambles fashion does not make common consequence more apparent
+birnbaum partially accomplished examining effects splitting only one two cc-low gambles
+he found splitting only risky gamble makes common consequence most evident did not eliminate allais paradox while splitting only safe gamble did
+result argues against suggestion event splitting makes common consequence more evident
+however splitting one two cc-low gambles not other still means at least one outcomes easily comparable across gambles
+effect splitting allais paradox cc-low gambles so none outcomes may easily compared not known will examined experiment number
+all studies examined allais paradox losses event splitting past used simple choice technique subjects demonstrate paradox choosing risky cc-high gamble safe cc-low gamble
+however what important about allais paradox not preference reversal itself but rather increase risk seeking when common consequence removed
+set two single-choice pairs detect shift risk preference only if presented gambles happen span shiftthat if shift causes decision-maker prefer safe cc-high gamble but risky cc-low gamble
+decision-maker who chose risky cc-high gamble might well more risk-seeking cc-low gamblesand therefore experiencing paradoxbut unable demonstrate using single-choice technique
+limitation choice technique poses challenges experimenters if manipulation produces reduction number subjects making allais paradox pattern choices does actually indicate reduction common consequence effect risk preference merely been changed overall
+one aim present experiments was examine effects sign event splitting paradox using matching technique more sensitive than choice technique used previous studies

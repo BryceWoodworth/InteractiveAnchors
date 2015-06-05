@@ -1,0 +1,35 @@
+
+metric kernel learning important several machine learning applications
+however most existing metric learning algorithms limited learning over data while existing kernel learning algorithms often limited setting do not new data points
+paper study metric learning problem learning linear input data
+show data particular framework learning linear data based learn metric kernel function over high space
+further demonstrate wide class convex loss functions learning linear potential applications metric learning
+demonstrate our learning approach real world problems computer
+introduction
+one basic many machine learning algorithms e g clustering algorithms classification algorithms ability compare two objects similarity distance between them
+many cases distance similarity functions distance similarity example applications similarity standard function compare two
+however standard distance similarity functions not appropriate all problems
+recently there been significant effort focused learning how compare data objects
+one approach been learn distance metric between objects given additional information similarity constraints over data
+one class distance shown generalization properties distance function
+distance method data subject linear then space via standard distance
+despite their generalization ability two major 1 number parameters data making difficult learn distance functions over data 2 learning linear data sets decision
+address latter kernel learning algorithms typically learn kernel matrix over data
+linear methods input kernel data feature space
+however many existing kernel learning methods still limited learned do not new points
+methods learning setting where all data assumed given
+there been some work learning new points most work but resulting optimization problems cannot large even data sets
+paper explore metric learning linear over will see learning kernel function given input kernel function
+first part paper focus particular loss function called learning positive matrix
+loss function several defined only over positive matrices makes optimization will able positive
+loss function optimization statistics
+important advantage our method proposed optimization algorithm very large data sets order data objects
+but most loss function efficient learning linear kernel space
+result kernel learning methods our method i e applied data
+later paper our result other convex loss functions learning give conditions able evaluate learned kernel functions
+our result theorem kernel where optimal parameters expressed terms training data
+our case even though matrix may represented terms data points making possible learned kernel function value over arbitrary points
+finally apply our algorithm number learning problems including ones domains computer
+existing techniques learn linear distance kernel functions over domains show resulting functions lead over techniques variety problems
+
+} % let take up whole % let take up whole % note true true % including true %

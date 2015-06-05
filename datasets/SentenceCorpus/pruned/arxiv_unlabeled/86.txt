@@ -1,0 +1,56 @@
+
+large number variables most data sets often prediction dependent variable
+number variables reduced using either techniques selection latter allow selected variables
+since optimal approach testing all possible variables prediction model selection approach using statistics good option use model itself
+two number groups variables test still make results
+paper method groups variables
+procedure applied representation
+criterion used procedure information find between variables generally used correlation
+representation used results groups variables will selected
+experiments show method provides identified groups selected variables making while low computational
+prediction obtained using selected higher than those obtained same method applied directly original variables similar those obtained using models although using significantly less variables
+introduction
+prediction problems often
+they require unknown value dependent variable example
+problems may only few
+statistical data analysis perspective main difficulty problem between not only variables highly correlated nature but addition real applications usually low number known high number variables
+any method original variables thus making feature variable selection necessary
+selection methods differ several aspects
+methods more general selection may many weights
+however methods usually factors variables large number original features
+even if their prediction properties good they usually fact variables terms original features case
+selection methods based principle choosing small number variables among original ones leading
+selection methods obtain prediction same level ones
+work variable selection methods
+however if whole procedure features prediction model them linear will lead than widely used least latter prediction
+thus investigated how models may used both features prediction
+models could used approach their estimated generalization used criterion group variables
+however very terms computational because techniques must used estimate predicted error model addition fact one model must learned each considered feature set
+paper thus features selected prior use any prediction model
+among methods correlation standard criterion used features linear features correlation dependent output variable information between them selected
+information see eg correlation measure while correlation limited linear ones
+example correlation between variable its second power despite fact they depend one another though way
+information more general less way measure between variables
+information been used variables
+despite provides way analysis direct selection variables some
+first estimation difficult number selected variables
+indeed procedure estimation making estimation selected feature much more difficult than first selected one
+second low number usually available learning makes results selection highly dependent data small change data lead different selected variable sets resulting difficult
+finally even though estimation information less terms time than model large number initial variables results high times selection
+paper propose first reduce number variables through features before selection information
+despite use latter each set initial features
+general proposed functional basis
+more eg basis chosen rather than indeed advantage they same length over whole range
+each depends value corresponding limited
+complete procedure then their relevant their information output variable predicting latter using function networks any other model could used
+all three procedure necessary high both prediction
+design parameters context number used set without choice using method
+paper shows prediction results obtained procedure than those obtained through linear techniques
+addition number selected procedure remains low making possible identify phenomenon predict
+moreover allows us both reduce feature selection time increase quality prediction results compared same procedure applied directly original variables
+section paper how basis how number set computational complexity procedure
+section information criterion its use procedure
+also computational complexity method
+section shows examples application proposed method two data sets
+first one obtained aim predict
+second one database samples goal predict number

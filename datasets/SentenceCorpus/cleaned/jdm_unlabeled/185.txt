@@ -1,0 +1,23 @@
+ 
+experimental test descriptive adequacy restated diversification principle presented
+principle postulates risk-averse utility maximizers will pool risks their mutual benefit even if information missing about probabilities losses
+enough people assume they face equal risks when they pool risks
+results experiment support principle
+ introduction 
+nutshell diversification principle says if risk-averse utility maximizers choose between two assets identical but random returns they will prefer invest half their endowment each asset
+principle paraphrased following means if two risk-averse utility maximizers assets same value face same distributions potential losses they will gain sharing potential losses equally
+restated diversification principle holds any distribution outcomes long distribution same both people
+does not matter whether probability loss small large both cases people gain sharing loss
+implies sharing loss also mutually favorable if information missing about probabilities losses
+not even necessary distribution outcomes same both people enough they both accept there no reason assume their probabilities losses differ presumption equality
+possible differences therefore neglected if there no knowledge about them
+when information about probabilities losses missing mutual sharing losses may superior insurance since insurance premium normally based technical actuarial information probability losses
+without information pricing will become arbitrary negotiation cost may large
+insurance under apparent ambiguity when information about probabilities losses lacking may not possible at all
+loss-sharing however undertaken without pricing potential loss
+restated diversification principle was first presented skogh case two identical pool members
+skogh wu generalized principle case where individuals' losses differ amount probability case where individuals' attitudes toward risks differ
+paper tests descriptive adequacy restated diversification principle experiment
+particular test following two hypotheses h number under apparent ambiguity people will share potential losses
+h number if distribution potential losses different across people but unknown people will still share potential losses
+experimental design results discussion presented sections number number number respectively

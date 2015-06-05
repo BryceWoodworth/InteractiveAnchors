@@ -1,0 +1,44 @@
+ 
+circulation important delivery method both natural synthetic molecules but microenvironment interactions regulated endothelial cells critical molecule's fate difficult interpret using traditional approaches
+work analyzed predicted growth factor capture under flow using computer modeling three-dimensional experimental approach includes pertinent circulation characteristics pulsatile flow competing binding interactions limited bioavailability
+understanding controlling features process was desired
+experimental module consisted bioreactor synthetic endothelial-lined hollow fibers under flow
+physical design system was incorporated into model parameters
+heparin-binding growth factor fibroblast growth factor-2 was used both experiments simulations
+our computational model was composed three parts: media flow equations mass transport equations cell surface reaction equations
+model based flow reactions within single hollow fiber was scaled linearly total number fibers comparison experimental results
+our model predicted experiments confirmed removal heparan sulfate system would result dramatic loss binding heparin-binding proteins but not proteins do not bind heparin
+model further predicted significant loss bound protein at flow rates only slightly higher than average capillary flow rates corroborated experimentally suggesting probability capture single pass at high flow rates extremely low
+several other key parameters were investigated coupling between receptors proteoglycans shown critical impact successful capture
+combined system offers opportunities examine circulation capture straightforward quantitative manner should prove advantageous biologicals drug delivery investigations
+ introduction 
+bioavailability molecules they circulate through bloodstream crucial factor their signaling capability
+half-life circulation determine effectiveness drug simply regulating opportunities molecule interact vessel wall
+although vivo measurements routinely made researchers monitor serum levels molecules determine half-lives interactions microenvironment not easily measured observed
+while some molecules may long circulation life many may only single opportunity interact blood vessel walls before being filtered through liver kidneys
+addition even molecules long circulation life may still face impediments direct interaction endothelium
+example case vascular endothelial growth factor when bound bevacizumab monoclonal antibody vegf
+bevacizumab been shown increase circulating concentration vegf cancer patients when compared patients not undergoing therapy because increased half-life growth factor-antibody complex; however complex unable bind vegf receptors making delivery vegf questionable
+order better understand vessel microenvironment accurately monitor drug interactions context microenvironment better tools needed provide meaningful measurements predict fate molecules circulation
+many important measurements continue made using vitro mammalian tissue culture methods but there obvious limitations traditional two-dimensional culture approach
+circulation influence flow whether molecule remains fluid phase binds vessel wall dominant factor
+influence cannot ascertained static tissue culture studies
+example velocity blood aorta 400 mm/sec while at capillary level less than 1 mm/sec
+reduction velocity allows exchange processes at capillary level take place more efficiently likely also affects activity molecules circulation rely cell surface binding order fulfill their roles
+while direct measurement binding process difficult our model makes use commercial bioreactor endothelial-lined hollow tubes operating under pulsatile flow mimic vascular environment architecture directly measure loss molecules they pass through hollow fibers
+used single pass method allow better assessment effect flow either retaining molecules circulation permitting their interaction vessels
+our approach also makes use bolus administration since typical way drugs would delivered clinical setting
+binding fibroblast growth factor-2 its cell surface receptor role heparan sulfate proteoglycans regulating process been research interest many years because their role angiogenesis growth new blood vessels existing vessels
+knowledge how processes work could aid development new therapeutics control tumor growth assist clinically treatment chronic wounds
+order understand mechanism fgf-2-mediated cell proliferation multitude experimental studies been undertaken past two decades several computational models fgf-2 binding its receptor fgfr hspg been proposed
+insight gained through experiment-coupled modeling could not otherwise readily obtained
+nugent edelman were among earliest researchers develop simple model includes three species fgf-2 fgfr hspg
+they measured kinetic binding rate constants experimentally used their model analyze data thereby providing foundation investigating complexity fgf-2 binding
+similar approach was used ibrahimi et al investigate stepwise assembly ternary fgf-2-fgfr-hspg complex conjunction their surface plasmon resonance measurements
+introduced more complexity into fgf-2 binding model inclusion heparin binding receptor dimerization formation alternative hspg-fgfr species
+recent models moved towards including intracellular signaling
+exception work filion popel included diffusive transport previous simulation work been based static tissue culture environment may quite different dynamic vivo environment blood vessels
+introduced computational model based flow environment competitive binding fgf-2 fgfr hspg pulsatile flow environment was addressed mimic blood vessel-like hollow fibers
+paper use updated version model explore how specific parameters flow rate impact fgf-2 capture receptor binding compare our results experimental studies
+insights regard importance surface coupling ligand depletion zones within fluid phase were found
+described simulation package provides new valuable way investigate growth factor capture easily extended other biologically relevant molecules drugs

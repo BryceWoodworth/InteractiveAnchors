@@ -1,0 +1,62 @@
+
+central computational modeling biological systems model parameters
+typically only parameters experimentally measured while often
+process usually based experimental time measurements used parameter values some measure error between measurements corresponding model prediction
+measurements etc tend very taken at limited number time points
+work present new approach problem parameter selection biological models
+show how one use dynamic known extended at estimates model parameters
+proposed method follows
+first use variation particularly well biological applications obtain first unknown parameters
+test estimates
+finally solve optimization problem first case should not accurate
+estimates consistent measurements
+furthermore show how same tools used among models same biological process
+demonstrate our methods two examples model response e model gene regulation system
+methods presented general may applied wide class biological systems where measurements used parameter estimation model selection
+introduction
+many biological processes using describe evolution over time certain interest
+at molecular level variables considered models often represent species proteins
+pathway structure known corresponding relatively using widely action
+general will depend several parameters
+some them reaction rates physical
+others might structure system therefore they might no direct biological biochemical
+both cases most parameters unknown
+while measure them experimentally many cases very time even
+however usually possible measure some other variables involved models using like
+problem parameter estimation unknown parameters measurements other key issue computational systems biology
+knowledge parameter values one obtain quantitative even information models
+years attention been given problem systems biology
+much research been applications computational biology models several optimization techniques linear genetic algorithms evolutionary
+latter suggested method choice large parameter estimation problems
+initial optimization methods search more less parameter space certain cost function
+usually defined error some sense between output model data experiments
+result set parameters produce best between simulations experimental data
+one main problems associated optimization methods they tend may not perform well if noise measurements significant
+also been bayesian methods information data
+both noise intrinsic noise well known play important role when species present low numbers
+main advantage methods their ability whole probability distributions parameters rather than just point estimate
+also they estimation stochastic systems no algorithms
+main their application computational since approaches not problems numerical solutions also due need solve integration problems
+most recent bayesian markov techniques methods sequential methods require been applied biological systems usually case problems relatively high number data samples
+estimation also been applied
+more recently parameter estimation computational biology models been framework control theory using state
+algorithms were developed problem state estimation one estimate time evolution components state system
+literature subject but context biological biochemical systems used approaches include based
+other methods been developed special structure specific problems
+state parameter estimation using technique state parameters into states system under study
+context extended methods been applied well
+when number unknown parameters very large often find unique solution problem
+case one several sets parameters values all likely give good
+situation usually model being one most practice
+furthermore known large class systems biology models parameter values distributed over many
+been suggested factor makes parameter estimation difficult
+similar results search exact individual values parameters task most cases
+however also known even if estimation process not able any parameter values models still able significant quantitative predictions
+present results parameter estimation procedure applied large parameter sparse data provides evaluation statistical estimates
+achieve goal introduce extended algorithm together measure accuracy estimation process based formula test
+furthermore show how techniques together also used address problem model selection one most model given process among
+feature approach ability use information about statistics noise order estimated parameters consistent available experimental data
+paper follows
+methods section introduce all theory associated our procedure extended accuracy measure its use estimation application model selection problem
+results section demonstrate procedure two examples molecular biology
+finally section new procedure give some additional point out how findings will interest researchers computational biology who use experimental data construct models biological

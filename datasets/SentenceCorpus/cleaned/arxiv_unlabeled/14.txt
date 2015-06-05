@@ -1,0 +1,38 @@
+ 
+adaptation rule vector quantization algorithms consequently convergence generated sequence depends existence properties function called energy function defined topological manifold
+our aim investigate conditions existence function class algorithms examplified initial "k-means" kohonen algorithms
+results presented here supplement previous studies including   
+our work shows energy function not always potential but at least uniform limit series potential functions call pseudo-potential
+also shows large number existing vector quantization algorithms developed artificial neural networks community fall into category
+framework define opens way study convergence all corresponding adaptation rules at once theorem gives promising insights direction
+also demonstrate "k-means" energy function pseudo-potential but not potential general
+consequently energy function associated "neural-gas" not potential general
+ introduction 
+vector quantization theory  set prototypes placed manifold  order minimize following integral function called "energy function": } where indicates probability density defined
+focus stochastic iterative approaches where at each time step datum drawn probability density function pdf  prototypes adapted according using adaptation rule: } where adaptation step tuned using parameter generally decreasing over time  taken thereafter equal 1 without restricting general results "neighborhood" function particular each vector quantization algorithm
+here focus discontinuous functions
+main concern field vector quantization decide whether adaptation rule  corresponds not stochastic gradient descent along energy function  i e whether energy function not potential onto entire manifold
+one hand if energy function potential then convergence prototypes obeying their adaptation rule toward minimum energy function well established particular stochastic optimization framework paper concerned
+example energy function associated k-means algorithm  stochastic version lbg algorithm linde et al  potential long pdf continuous
+other hand if energy function not potential then very few known about convergence corresponding adaptation rule
+example several results already shown continuous density  corresponding vector adaptation rule kohonen self-organizing map som algorithm does not correspond stochastic gradient descent along global energy function convergence although being observed practice turns out very difficult prove not mention most efforts been carried out kohonen rule
+all vector quantization algorithms study paper variants k-means algorithm will see section
+know algorithms converge practice toward acceptable value their energy functions whenever they proved associated not potentials
+however theoretical study their convergence not available so they remain largely heuristics
+among all algorithms neural-gas deserves particular attention
+been claimed its authors associated global potential general hence converging adaptation rule
+propose counter-example discontinuous pdf demonstrates claim not true
+shows study convergence all algorithms still its infancy motivates present work
+paper propose framework encompasses all algorithms
+study framework demonstrate energy function associated algorithms not potential general
+also demonstrate energy function belongs broad class functions includes potential functions special case
+energy functions within class called "pseudo-potentials"
+results obtain do not depend continuity probability density function  give first step toward explanation why all algorithms shown belong framework succeed practice minimizing their associated energy function whether they potentials not
+framework should open up further avenues general study convergence properties all algorithms contains at once
+section 2 present framework study
+section 3 define "pseudo-potential" function approximated series potential functions: define concept cellular manifold series potentials
+section 4 give main theorem states energy function framework necessarily pseudo-potential
+consider k-means show pseudo-potentials not always potentials
+discuss consequence convergence corresponding adaptation rule
+section 5 show most common vector quantization algorithms belong framework
+at last conclude section 6

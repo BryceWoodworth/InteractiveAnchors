@@ -1,0 +1,40 @@
+
+recent times stochastic gene regulatory processes literature cell signaling its environment specific protein through network reactions
+stochastic nature process leads distribution protein levels population cells determined
+often occurs two state protein levels one at low end state other at high end state given concentration signaling within range
+been distributions two different populations one state other state
+distribution about stochastic analysis single cell
+however action population concentration environment individual cells hence their behavior only appropriate population model effects interaction between population its environment
+study show how population model stochastic gene expression individual cells
+simulation model shows sufficient necessary distributions population
+original notion distribution single cell stochastic model therefore only special population model
+introduction
+study cell populations distribution measures cell populations application theory population
+population framework et al provided modeling same
+while recognition generally exists literature modeling gene regulatory processes been at single cell level based being average cell
+since gene regulatory processes typically involve small number molecules reaction network stochastic its dynamics feature single cell analysis
+further issue importance occurs when two levels gene expression one high other low exist given concentration signaling
+issue very much part stochastic modeling single cell
+several stochastic models been two them been used stochastic simulation algorithm stochastic
+stochastic model model only behavior large populations without behaviors different cells
+been studied through experiments theoretical analysis numerical simulations
+system characterized existence two stable states
+two stable states appear distribution population
+distribution been shown many
+however almost all modeling stochastic gene regulation processes at level
+outcome single cell behavior been population behavior
+cell assumed other cells without fact signaling environment action all population
+no interaction between other cells been taken into models could indeed lead bias
+single cell model may population approach
+detailed general framework application population populations was developed et al
+however population model work many others literature based behavior
+shows how random behavior described stochastic
+study demonstrate stochastic gene regulation time evolution behavior cell population
+system been study example critical difference between stochastic gene regulation stochastic model
+our objective paper population models stochastic gene expression single cells
+further explore under distributions observed protein particular investigate generally view literature protein distribution occur
+view work who showed distributions without when reaction time gene regulation short relative time required change dna
+other similar also found literature
+while show distributions without must their based differences behavior single cells
+study approach issue relationship between rational examine nature protein distribution cells without within framework population
+thus will investigated distributions without distributions even when exists

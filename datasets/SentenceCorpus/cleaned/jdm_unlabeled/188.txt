@@ -1,0 +1,49 @@
+ 
+subjects performed decision task both well-rested experimentally sleep-deprived state
+found two main results number final choice accuracy was unaffected sleep deprivation yet number estimated decision model differed significantly following sleep-deprivation
+following sleep deprivation subjects placed significantly less weight new information forming their beliefs
+because altered decision process still maintains decision accuracy may suggest increased accident error rates attributed reduced sleep modern society stem reduced auxiliary function performance e g slowed reaction time reduced motor skills other components decision making rather than inability integrate multiple pieces information
+ introduction 
+large volume evidence suggests individuals industrialized nations becoming increasingly sleep-deprived
+according recent poll conducted national sleep foundation average american adult slept less than number hours per night number
+nightly average was number number hours number number hours per night number
+trend significant implications given known effects sleep deprivation decreased motor cognitive performance reduced vigilance reaction time worsened mood reduced ability think flexibly
+indeed even number hours habitual sleep per night leads significantly diminished cognitive performance relative number number hours causes us wonder about more hidden decision effects sleep loss
+nearly number million americans close number percent all adults estimated suffer some level sleep deprivation so effects sleep deprivation decision-making widespread implications
+many occupations promote culture sleep deprivation e g emergency personnel air traffic controllers medical residents military personnel long-haul truck drivers shift workers
+sleep deprivation costs u s economy number billion dollars annually lost productivity
+additionally results increased workplace accident rates increased absenteeism greater medical morbidity related costs even slower career advancement
+across numerous settings work home driving public accidents leger estimated costs accidents attributable sleepiness at number  number billion number dollars
+sleep deprivation also been implicated several major historical disasters including space shuttle challenger explosion exxon valdez oil spill chernobyl nuclear plant explosion
+sum impact sleep deprivation workplace society whole while difficult measure precisely massive
+paper reports results laboratory study examines effects sleep deprivation information processing
+examinations flexible thinking strategy updating risk assessment relatively new sleep research
+past research utilized complex multi-modal tasks operational settings cannot identify specific aspects decision-making affected sleep deprivation
+example harrison horne utilize marketing simulation game they report number hours total sleep deprivation led stereotyped decisions failing integrate previous feedback resulting large financial losses production errors
+operational settings similarly global outcome measures reported
+recent meta-analysis number studies found clinical outcomes culmination many decisions were negatively impacted physician sleep loss
+thus neither laboratory nor applied sleep deprivation studies measured discrete quantifiable decision parameters free confounds
+even well-known iowa gambling task igt been used examine risky choice behavior sleep literature does not allow researcher separate risk attitude subjective probability formation  latter results fact there missing information respect outcome probabilities igt
+mckenna et al addressed issue showed sleep deprivation desensitizes decision-maker risk
+general mechanism sleep deprivation alters decision making remains unclear
+given many real-world decisions involve multiple cognitive processes important separately examine several those components effort determine may specifically impacted sleep deprivation may not
+studies examining risk preference cited above examples work
+another process found many decisions ability integrate multiple pieces information into decision
+sleep deprivation might alter subject tendencies utilize one more pieces information decision-making
+arrival new information may elicit impulsive response subjects react new evidence impulse may altered following sleep deprivation
+current study examines specific aspect decision-making through study bayesian updating
+experiment administered subjects both well-rested after number  number hours microgreek number number sigma number controlled total sleep deprivation
+comparison previous economics research replicate bayes rule experiment grether
+one examine effects sleep deprivation ability integrate information into decision at least two perspectives each their own strengths weaknesses
+one involves asking whether individuals calculate true bayesian probability given base rate probabilities new sample evidence
+requires asking subjects their judgment actual probability event occurring therefore focuses finding ideal answer problem
+although approach merit our interest was determining weight placed odds evidence when actual forced choice was made i e was more likely occur
+scenario more aligned many naturally-occurring decision environments everyday life
+example one may decide two routes destination faster right now given prior knowledge rate traffic each route new information current day time
+surgeon may decide perform emergency procedure given prior knowledge relative success procedure new information current condition patient
+short when individuals make real decisions they must often choose specific course action i e dichotomous choice rather than probability estimate
+influence sleep deprivation making decisions our interest
+because information updating fundamental component decision making under uncertainty research relevant wide variety behavioral applications
+sleep research indirectly pointed towards failed information assimilation under sleep deprivation
+however more direct evidence needed harrison horne recognize lack sleep deprivation research specific decision models
+behavioral economics continues explore decision-making one cannot ignore evidence indicating many decision-makers often sleep-deprived some degree

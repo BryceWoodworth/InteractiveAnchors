@@ -1,0 +1,48 @@
+
+propose algorithm training support vector large datasets
+using random show dimension high probability
+estimate dimension used derive algorithm called at each step existing chosen subset size
+algorithm probabilistic training both classification regression problems
+experiments real life data sets demonstrate algorithm scales up existing without loss accuracy vector algorithms random }
+introduction
+consider training data set where data points
+problem learning linear classifier where linear function when
+over years support vector tools functions
+paper algorithms learning large datasets
+detailed review classification regression see
+develop discuss problem training linear
+datasets given } where norm
+very
+distance between convex sets
+datasets following } will called due used
+do not like case but one consider distance between two reduced convex
+both optimization
+defined every dimension associated dimension notion number free variables
+algorithm size greater than dimension problem
+property design algorithms
+idea develop algorithm where each step one solve small subset training data
+idea size subset dimension
+end note at given } both case
+using variables one define set support }
+set may not unique though
+dimension given minimum number required define
+more } where set
+parameter does not change number examples often much less than
+value not known but classification problems following
+follows observation distance between 2 convex
+when problem not reduced convex leads very bound much larger than
+idea over size greater than training was first resulting algorithm was called
+procedure over size shown algorithm
+however authors not practical because following
+linear sample size too large case high data sets
+dimension feature space usually unknown when using
+even case one obtain very reduced convex approach but not useful number obtained very large work above problems using random algorithms
+authors their algorithm value too large
+main work using random if using then solution obtained close optimal high particularly almost data sets
+almost data sets those become when small number chosen data points them
+second algorithm using algorithms linear problem using samples size linear
+work also shows theory applied
+regression problems
+paper section previous work section algorithm classification almost data
+section algorithm regression
+present our results section

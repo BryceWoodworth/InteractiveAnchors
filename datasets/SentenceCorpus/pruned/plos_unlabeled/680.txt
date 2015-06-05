@@ -1,0 +1,39 @@
+
+even identification genes within associated human genetic very task because critical region may typically contain
+since genes similar tend very similar expression high gene expression data may represent very important identify best sequencing
+however so far gene not been used very
+show possible identify relationships among genes datasets only genes similar expression both human
+moreover show integration conserved similarity allows efficient identification disease genes large genomic regions
+finally using approach characterized unknown molecular basis propose genetic
+our results demonstrate conserved even at distance very strong criterion predict relationships among human genes
+introduction
+two been identification genes involved human
+more recently our ability genetic disease increased due genome sequence
+disease been identification mutation still very task because region may typically contain
+many genome analysis not yet associated any disease gene
+therefore strategies most likely targets patients critical importance
+many different strategies been proposed genes critical
+some methods so far developed rely observation disease genes tend common global properties directly comparative sequence analysis
+however most available strategies based widely idea genes proteins organisms their functions part functional based complex series physical metabolic regulatory interactions
+although principle been used even identify critical many different biological present information gene function interactions gene expression different experimental models allows problem greater
+theory use functional gene would represent most approach
+however although strategy may very useful selected cases at present clear either because genes because not how functions disease
+therefore computational methods less knowledge may strong
+particular interaction gene data experiments represent sources potentially relevant information
+recently direct integration very human similarity prediction high confidence within large
+although approach highly efficient not because very close functional relationships between genes proteins possible direct molecular binding
+addition interaction space many biological interactions not yet been identified experiments
+experiments known result large
+low interactions between experiments even when same proteins considered problems
+finally many known interactions been through experiments thus strongly towards proteins
+since genes involved same functions tend show very similar expression analysis could very approach functional relationships may similar disease
+global analyses shown genes highly across experiments very similar functional
+however so far criterion not been very prediction genetic disease been used only combination other independent evidence
+nature gene expression datasets may represent one possible
+moreover even when two genes observed under high number experimental conditions does not genes related
+instance analysis data across different species revealed genes more likely than genes genomic regions even if they not related any manner
+been previously proposed very strong criterion identify relevant among genes
+indeed significant two more genes very likely due advantage strongly functional relation
+therefore conserved could much criterion than single species genes involved similar disease
+report show conserved analysis produce accurate predictions human disease genes
+using approach were able small number strong human corresponding wide different

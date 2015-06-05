@@ -1,0 +1,40 @@
+ 
+gender difference risk preferences women being more averse risky choices robust experimental finding
+speculating sources difference croson gneezy recently pointed tendency women experience emotions more strongly suggested feeling more strongly about negative outcomes would lead greater risk-aversion
+here test hypothesis international survey number respondents india number us where ask questions about hypothetical lottery
+both countries find emotions about outcomes stronger among women effect partially mediates gender difference willingness enter lottery
+ introduction 
+why do women engage less risky behaviors than men
+prior work demonstrates females' lower risk preferences less risky behavior robust across variety contexts
+particular relevance current work researchers documented substantial gender differences financial decisions involving risk
+women instance substantially less likely than men enter lotteries
+number meta-theoretical perspectives  structural role theories evolutionary approaches  consistent observations
+however only recently researchers begun study underlying causal mechanisms gender differences
+there several possible explanations gender differences entering lotteries
+first males females whatever reason may assign different probabilities likelihood winning losing lotteries second men women may experience different positive negative reactions benefits costs entering lotteries
+recent review literature gender differences risk preferences croson gneezy pointed research tendency women experience stronger emotional reactions outcomes events than men
+authors hypothesized tendency women experience stronger emotional reactions outcomes may explain gender differences risk preferences
+goal current study address heretofore untested hypothesis using cross-national sample
+elaborate tendency women experience stronger emotional reactions would explain gender differences risky financial decisions whether enter lottery if compared men women evaluated losing more strongly b strength negative evaluations losing predicted decisions about whether enter lotteries
+thus predict evaluations losing will mediate gender differences tendencies join lotteries
+but assuming moment females tend experience stronger emotional reactions all outcomes suggested croson gneezy they would also experience stronger positive reactions winning
+wouldn't stronger positive reactions offset negative emotional reactions creating null effect gender lottery decisions
+argue typical setup lotteries assigns much higher probabilities losing than winning does not allow stronger positive reactions winning counterbalance stronger negative reactions losing
+other words because people know they most likely lose expected emotional reactions losing lotteries should much stronger predictor decisions enter them than expected emotional reactions winning lotteries
+thus even if do find stronger reactions winning losing among women expect only reactions losing will influence decisions play
+results recent study harris et al consistent hypothesis
+using sample undergraduate psychology students researchers measured gender differences stated likelihood engaging variety risky behaviors
+researchers found most domains females weighed negative outcomes more strongly than did males
+further compared males females expected negative outcomes occur greater likelihood
+finally harris colleauges found evaluation negative outcomes well expected likelihood those outcomes partially mediated gender differences stated willingness engage risky behaviors
+but extent decision-makers overestimate likelihood negatively valued events cannot know certain whether gender differences reactions losing explain gender differences lottery decisions
+thus one goal current reseaerch make probabilities winning losing known explicit measure gender differences evaluations winning losing under conditions
+explained below second goal study was offer cross-cultural test prediction
+study outlined section follow tests hypotheses using amazon's mechanical turk
+users tend disproportionately u s india
+thus our dataset allows us test robustness our hypotheses using men women two different continents
+prior work addressing cross-cultural differences risk taking found americans tend less risk seeing than chinese
+hsee weber use cushion hypothesis explain cross-national differences arguing times financial need decision makers collectivist cultures rely network ties help
+cushion safety net thus allows more risky behavior
+thus might expect observe more risk taking among indians than americans
+most importantly however should expect predicted gender differences occur above beyond any cross-cultural differences

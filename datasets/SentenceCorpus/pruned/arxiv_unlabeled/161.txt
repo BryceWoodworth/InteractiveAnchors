@@ -1,0 +1,24 @@
+
+support vector type classification regression algorithms
+convex problem number training samples
+introduce efficient support vector regression based belief algorithm
+paper demonstrate methods complex system domain could efficient distributed
+compare proposed algorithm previously proposed distributed
+our comparison shows proposed algorithm just accurate while being significantly especially large datasets
+demonstrate proposed algorithm up nodes data points using gene
+far know our work belief algorithm large scale distributed systems
+introduction
+class algorithms recent years performance compared other pattern classification algorithms
+there several problem depending specific application e g classification regression etc
+one using requires problem whose size number training examples
+fact research efficient
+recently several researchers suggested using multiple nodes order increase computational power available
+article introduce distributed based belief algorithm
+improve original algorithm communication represented number each optimization where number data points
+previously was known algorithm very efficient sparse matrices
+using our novel demonstrate algorithm very good performance matrices well
+also show algorithm used thus making algorithm more than what was considered previously thought possible
+using simulation demonstrate our existing
+using up gene solve very large data sets up data point using up
+our comparison shows proposed algorithm just accurate previous while being significantly
+version paper

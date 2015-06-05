@@ -1,0 +1,37 @@
+ 
+animals rudimentary innate abilities require substantial learning transform those abilities into useful skills where skill considered set sensory motor associations
+using linear neural network models proved if skills stored distributed representations then within-lifetime learning part skill induce automatic learning remaining parts skill
+more importantly shown free-lunch learning responsible accelerated evolution skills when compared networks either cannot benefit fll cannot learn
+specifically shown fll accelerates appearance adaptive behaviour both its innate form fll-induced behaviour fll accelerate rate at learned behaviours become innate
+ introduction 
+both evolution learning may considered different types adaptation
+learning occurs within lifetime whereas genetic change occurs across lifetimes
+whereas genetic change ensures task executed innately learning permits even most rudimentary innate ability honed into useful skill
+environment fluctuates generation generation learning permits innate ability adapted particular physical environment into each generation born
+if environment ceases fluctuate then genetic assimilation transform rudimentary innate ability requires much learning into innate skill requires minimal learning
+transformation more likely occur if cost learning high case computer simulations suggest learning accelerate rate genetic assimilation via baldwin effect
+however if learning sufficiently inexpensive then genetic change may not occur at all
+overall there appears tradeoff between learning genetic assimilation learning subsidize genetic change especially if learning inexpensive
+all but most primitive organisms learn order survive organisms learn quickly at selective advantage relative those learn slowly
+therefore mechanism reduces time required learn given behaviour confers selective advantage
+one candidate mechanism fll 
+explained below fll ensures process learning one set associations behaviours another set associations usually learned
+associations could comprise either perceptual skills motor skills 
+before considering how fll accelerate evolution certain types behaviours fll will described its original context spontaneous recovery memory humans neural network models
+note fll not unique specific class network architectures although does assume associations learned using form supervised learning
+humans fll been demonstrated using task participants learned positions letters nonstandard computer keyboard
+after period forgetting participants relearned proportion letter positions
+crucially was found relearning induced recovery non-relearned letter positions
+more recently set theorems provided formal characterization fll linear neural network models
+essence fll occurs neural network models because each association distributed amongst all connection weights between units
+after partial forgetting relearning some associations forces all weights closer pre-forgetting values resulting improved performance even non-relearned associations; general proof provided
+geometric demonstration fll network two connection weights given figure 1
+networks multiple input output units considered without loss generality 
+protocol used examine fll neural networks follows
+network n input units one output unit n connection weights
+network learns set m n associations where 1 2 comprises two subsets 1 2 n 1 n 2 associations respectively
+after associations been learned then partially forgotten performance error subset 1 measured
+finally only 2 relearned then performance error 1 remeasured
+fll occurs if relearning 2 improves performance 1
+been proven probability fll approaches unity number weights increases
+sake brevity reflected phrases learning 2 usually improves performance 2 paper

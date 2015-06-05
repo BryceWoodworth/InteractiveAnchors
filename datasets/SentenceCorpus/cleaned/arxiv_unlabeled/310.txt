@@ -1,0 +1,28 @@
+ 
+dictionary defines words terms other words
+definitions tell you meanings words you don't know but only if you know meanings defining words
+how many words do you need know ones order able learn all rest definitions
+reduced dictionaries their ``grounding kernels" gks about 10\% dictionary all other words could defined
+gk words turned out psycholinguistic correlates: they were learned at earlier age more concrete than rest dictionary
+but one compress still more: gk turns out internal structure strongly connected ``kernel core" kc surrounding layer hierarchy definitional distances derived all way out periphery full dictionary
+definitional distances too correlated psycholinguistic variables age acquisition concreteness imageability oral written frequency hence perhaps ``mental lexicon" each our heads
+ introduction 
+category kind thing object event action trait state
+categorize do right thing eat fight flee mate etc  right kind thing
+all species acquire categories through trial error sensorimotor induction
+only species also acquire transmit categories through verbal instruction  naming defining them
+words our dictionaries almost all names categories followed their definitions
+principle all categories acquired through verbal definition but cannot acquire all them way: know meanings some defining words already some other means
+``symbol grounding problem" presumably other means acquiring categories sensorimotor induction
+but how many words  ones  need grounded directly through sensorimotor induction order allow all rest acquired through verbal definition
+been analyzing dictionaries order answer question
+eliminating all words reached other words through definition alone been able reduce dictionary its ``grounding kernel" gk  set words about   out all rest words reached through definition alone
+gk some striking properties: words learned at significantly younger age than rest dictionary also more concrete  but if variance correlated age removed residual gk words more than rest dictionary
+what cause polarity shift
+gk unique sufficient ground all rest dictionary but not minimal  not smallest set words all rest reached via definition alone
+would ``minimum grounding set" mgs not general unique; not yet been able compute mgs because problem equivalent finding ``minimum cardinality feedback vertex set'' general graph np-complete i e too hard compute general
+hope able compute mgss our special cases but meanwhile gks our dictionaries  cambridge international dictionary english cide longman dictionary contemporary english ldoce  already turn out more differentiated internal substructure begin analyzing further article
+particular two substructures play important roles: gk itself strongly connected subset gk call ``kernel core" kc
+gk words acquired earlier more concrete than rest dictionary tend kc whereas gk words uncorrelated age acquisition tend outer layer surrounding kc more
+correlations between kc rest gk between gk rest dictionary whole binary 0/1 but one make more graded comparisons considering definitional chains increasing lengths
+accordingly extracted two hierarchies based degrees definitional distance one based gk one based strongly connected components analyze how definitional distance correlates age acquisition concreteness/abstractness other psycholinguistic variables

@@ -1,0 +1,31 @@
+
+stable environment cells complex systems against variety etc type many adaptive mechanisms cellular appear through gene regulatory networks into negative feedback
+general degree variables proteins 2 first molecules then signal specific transcription factors
+transcription factors expression genes many variables
+objective study was explore using control theory computational approaches theoretical basis response relationship between cellular biochemical species gene regulatory networks
+our work response depends changes specific values local response distributed feedback
+transcription factors into even play significant role robust
+moreover our simulation response variables transition through four distinct level initial control more highly linear
+each phase specific events into play level increases
+region depending level local gains presence events degree gene activation region appear even
+general response transition proposed here was further examined complex pathway involves multiple genes metabolic reactions
+work would help especially better predict cellular impact about biological
+introduction
+cells must relatively stable environment potentially
+many need within normal cell functions
+examples biochemical species could cellular health species dna proteins 2
+when molecules their extended time normal cell functions become cell cycle may
+regulation biochemical species via gene regulatory networks specifically particular types
+many control gene regulatory networks usually into negative feedback into common control
+output system variable biochemical species therefore
+system contains specific transcription factors either directly sense level variable
+concentration variable affect activity transcription factor
+transcription factors then expression individual genes many biochemical reactions variable
+control dynamic system theory applied many recent years increasing been made apply similar biological systems including adaptive responses
+our goal understand design principle cellular improve prediction effects biological
+practical importance risk at cellular level response relationship between levels various biochemical including variables transcription factors gene expression
+cell responses region particularly relevant human health risk difficult explain predict response behaviors region due uncertainty
+describe understand complex response behaviors underlying biochemical networks will examined through quantitative models
+respect mathematical approaches involved theoretical development quantitative analysis biochemical networks including metabolic control analysis biochemical systems theory value
+using numerical simulation classical control theory present study focused understanding quantitative basis response gene regulatory network
+while some presented paper may even they provide important framework especially improve accuracy they evaluate influence biological control processes under different conditions

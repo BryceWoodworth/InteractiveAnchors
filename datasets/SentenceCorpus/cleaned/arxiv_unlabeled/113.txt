@@ -1,0 +1,35 @@
+ 
+counting fundamental operation
+example counting th frequency moment  streaming signal where denotes time been active area research theoretical computer science databases data mining
+when  task i e  counting sum accomplished using counter
+when  however becomes non-trivial design small space i e  low memory counting system
+compressed counting cc proposed efficiently computing th frequency moment data stream  where
+cc applicable if streaming data follow turnstile model restriction at time evaluation  includes strict turnstile model special case
+data streams practice restriction minor
+underlying technique skewed stable random projections  captures intuition when simple counter suffices when small  sample complexity should low continuously function 
+show sample complexity number projections {symbol } where {symbol } {symbol }
+other words small  instead
+case practically very important
+now well-understood one obtain good approximations entropies data streams using th moments very small
+statistical inference using method moments  sometimes reasonable use th moments very close 1
+another example might ``decay rate'' ``interest rate,'' usually small
+thus compressed counting will ideal tool estimating total value future taking account effect decaying interest accruement
+finally our another contribution algorithm approximating logarithmic norm {symbol } logarithmic distance {symbol }
+logarithmic norm arises statistical estimations
+logarithmic distance useful machine learning practice heavy-tailed data
+ introduction 
+paper % } focuses counting  among most fundamental operations almost every field science engineering
+computing sum {symbol } simplest counting  denotes time
+counting {symbol th moment } more general
+when {symbol  } counts total number non-zeros
+when {symbol  } counts ``energy'' ``power'' signal
+if actually outputs power underlying signal  counting sum {symbol } equivalent computing {symbol }
+here denotes time-varying signal example data streams
+literature th frequency moment data stream defined {} counting massive data streams practically important among many challenging issues data stream computations
+fact general theme ``scaling up high dimensional data high speed data streams'' among ``ten challenging problems data mining research
+''%} because elements  time-varying na\'ive counting mechanism requires system counters compute exactly
+not always realistic when large only need approximate answer
+example may if records arrivals ip addresses
+total number checking/savings accounts
+compressed counting cc new scheme approximating th frequency moments data streams where  using low memory
+underlying technique based what call skewed stable random projections

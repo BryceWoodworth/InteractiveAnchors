@@ -1,0 +1,25 @@
+ 
+problem joint universal source coding modeling treated context lossless codes rissanen was recently generalized fixed-rate lossy coding finitely parametrized continuous-alphabet iid
+sources
+extend results variable-rate lossy block coding stationary ergodic sources show bounded metric distortion measures any finitely parametrized family stationary sources satisfying suitable mixing smoothness vapnik--chervonenkis learnability conditions admits universal schemes joint lossy source coding identification
+also give several explicit examples parametric sources satisfying regularity conditions
+ introduction 
+universal source coding scheme one performs asymptotically optimally all sources within given class
+intuition suggests good universal coder should acquire probabilistic model source sufficiently long data sequence operate based model
+lossless codes intuition been made rigorous rissanen : data encoded via two-part code comprises 1 suitably quantized maximum-likelihood estimate source parameters 2 encoding data code optimized acquired model
+redundancy scheme converges zero  where block length dimension parameter space
+recently extended rissanen's ideas lossy block coding finitely parametrized continuous-alphabet iid
+sources bounded parameter spaces
+shown under appropriate regularity conditions there exist joint universal schemes lossy coding source identification whose distortion redundancy source estimation fidelity both converge zero block length tends infinity
+code operates coding each block code matched parameters estimated preceding block
+moreover constant hidden notation increases ``richness" model class measured vapnik--chervonenkis vc dimension certain class decision regions source alphabet
+main limitation results iid
+assumption excludes practically relevant model classes autoregressive sources markov hidden markov processes
+furthermore assumption bounded parameter space may not always justified
+paper relax both assumptions
+because parameter space not bounded use variable-rate codes countably infinite codebooks whose performance naturally quantified lagrangians
+show under certain regularity conditions there universal schemes joint lossy source coding modeling block length tends infinity both lagrangian redundancy relative best variable-rate code at each block length source estimation fidelity at decoder converge zero  where vc dimension certain class decision regions induced collection all dimensional marginals source process distributions
+key novel feature our scheme unlike most existing schemes universal lossy coding rely implicit identification active source learns explicit probabilistic model
+moreover our results clearly show ``price universality" modeling-based compression scheme grows combinatorial richness underlying model class captured vc dimension sequence
+richer model class harder learn turn affects compression performance because use source parameters learned past data deciding how encode current block
+insights may prove useful settings digital forensics adaptive control under communication constraints where trade-offs between quality parameter estimation compression performance central importance

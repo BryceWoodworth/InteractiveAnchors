@@ -1,0 +1,66 @@
+ 
+combination therapies often needed effective clinical outcomes management complex diseases but presently they generally based empirical clinical experience
+here suggest novel application search algorithms originally developed digital communication modified optimize combinations therapeutic interventions
+biological experiments measuring restoration decline age heart function exercise capacity drosophila melanogaster found search algorithms correctly identified optimal combinations four drugs using only one-third tests performed fully factorial search
+experiments identifying combinations three doses up six drugs selective killing human cancer cells search algorithms resulted highly significant enrichment selective combinations compared random searches
+simulations using network model cell death found search algorithms identified optimal combinations 6 9 interventions 80 90 percent tests compared 15 30 percent equivalent random search
+findings suggest modified search algorithms information theory potential enhance discovery novel therapeutic drug combinations
+report also helps frame biomedical problem will benefit interdisciplinary effort suggests general strategy its solution
+ introduction 
+problem combination therapy medical algorithmic aspects
+medically still not able provide effective cures most chronic complex diseases main causes death disability nor able address progressive age-related decline human functional capacity
+algorithmically when biological dysfunction involves complex biological networks therapeutic interventions multiple targets likely required
+because effect drugs depends dose several doses need studied number possible combinations rises quickly
+example many cancer chemotherapy regimens composed 6 more drugs pool more than 100 clinically used anticancer drugs exploring even larger combinations might justified
+if were study all combinations 6 out 100 compounds at 3 different doses would 8.9 10 11 possibilities
+example shows problem requires qualitatively new approach rather than simply more efficient screening technology
+combined drug interventions common therapeutic strategy complex diseases hypertension cancer
+pointed out recently cancer therapy most therapies were initially developed effective single agents only later combined clinically
+possible approach exploration new therapeutic activities not present individual drugs based exhaustive study all possible combinations pairs compounds
+brute force approach detected many interesting novel pairs compounds but resulting exponential expansion number possibilities precludes comprehensive exploration larger combinations
+several authors recently argued future combination therapy lies development accurate quantitative network models capture mechanistic interactions cellular organism physiology
+fitzgerald et al acknowledge do not yet know what models will look like systems biology research still data-limited purpose
+indeed their recent review does not report any successful application approach combination therapies
+here suggest novel solution problem combination drug therapy making use search algorithms originally developed digital communication
+when modified several key aspects search strategies used find more effective combined therapeutic interventions without need fully factorial experimental design
+algorithms may also provide framework upon information system-wide molecular data mechanistic computational networks models superimposed
+understand motivation our work important consider even if simulations might play role intended use algorithms not entirely silico but partially vivo vitro using high-throughput biological measurements organisms isolated cells respectively
+approach becomes increasingly relevant because high-throughput measurement technology initially developed drug companies screening large libraries compounds multi-well plate formats now more more available scientific community
+useful regard information processing our experimental systems parallel biological computations since algorithms using indeed derived algorithms were implemented silico other scientific fields
+parallel measurements suitable multi-well high-throughput technology
+there requirements regarding computational complexity algorithms limit choice suitable approaches
+requirements discussed more detail results
+both number operations computational costs unique vivo/in vitro algorithms should considered
+algorithm design requires application appropriate structure data
+although there many options represent space possible drug combinations used tree representation drug combinations nodes linking all possible additions one drug next level
+individual drugs form base tree combinations maximum size at top
+when exploring drug combination tree going smaller larger combinations algorithms suggest giving more weight lower-order drug interactions
+consistent data available adverse drug interactions reported mostly two-drug combinations
+estimating optimal size combination different problem examined detail discussion
+beneficial effect combination also due additive components multiple higher-order effects
+search algorithms suggest derived sequential decoding algorithms
+were chosen part because similarities among data trees searched biological decoding applications
+sequential decoding algorithms used convolutional codes nearby nodes data tree related similarly different but partially overlapping combinations drugs
+another feature sequential algorithms fit our purposes use list-based memory path taken reach each node
+provide discussion detailed argument suggesting suitable algorithm should able integrate all available information state system obtained iterative measurements
+integration should take place at every iteration within algorithm rather than being weighted average different methods applied separately
+presence updated list guide each iteration provides our algorithms natural mean information integration
+both fully factorial dataset show figure 1 complex structure biological networks being reconstructed systems biology supports expectation frequent non-linearities phenotype measurements along data tree
+therefore interested algorithms search within solution space presenting substantial non-linearities
+if relation among drugs combination were linear best algorithm would simply determine best dose single drug measurements use obtain best combination
+if contrary non-linearities were extreme use stochastic algorithms might preferable
+stochastic algorithms cope multiple local minima solution space but they do so incorporating random element
+requires price terms computational cost performance stochastic algorithms therefore often not good more tailored algorithms
+algorithms suggest cope moderate variable non-linearities going back previous nodes tree
+starting stack sequential algorithm was developed search optimal decoding field digital communications describe test algorithms used search optimal combination sizeable number drugs testing only small subset all possible combinations
+algorithms useful large combinations where collecting fully factorial datasets not feasible
+present results obtained simulations computational model cell death experiments using two models complementary biological properties: restoring decline age heart function exercise capacity drosophila melanogaster;and selective killing human cancer cells
+first vivo experimental model advantage including complexity whole organism interventions while second vitro model potential markedly higher throughput testing
+models also representative two different general types multi-drug interventions: one type aims at improving function while other based induction cell death selective disruption network function
+results suggest optimal near-optimal combinations compounds found systems only small fraction number tests fully factorial design significantly higher efficacy than random searching
+summary contributions work are:
+constructing novel problem statement search drug combinations using novel approach systems biology 
+collecting exhaustive experimental measurements sufficient solve problem conclusively
+constructing computational method solve problem approximately fewer experimental measurements
+suggested algorithms modeled algorithms already used other fields while our main original contribution their novel application
+providing additional experiments support generality approach

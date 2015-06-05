@@ -1,0 +1,50 @@
+
+populations cells define often essential during growth
+signaling protein required
+however mechanism input remains
+here experimental observations signaling computer simulations cellular behavior physical properties cells their signaling
+find experimental signaling effects cell far contrast previous model influence itself
+our experimental observations simulations along contact
+best results were obtained under assumption signaling cannot overall cell but will cell relative signaling cells
+our results suggest interactions target at cell into
+could explain why output signaling despite range itself
+our study first cellular model properties cells model signaling pathway including component
+discuss potential applications approach
+introduction
+during development complex organisms spatial reference points need within
+often groups cells signaling cells
+signaling define systems along cells themselves make decisions
+because their importance need both well respect their signaling
+one possible mechanism spatial control cells at fixed
+phenomenon indeed observed involves groups cells been assume distinct example at
+two cell populations seen relatively each other their contact area
+assumed help against random may cell arbitrary cell thus any activity associated
+how cells distinct
+one work attributes cell cell populations might develop distinct differences would then allow them out one another
+another based hypothesis suggests cells might contact cells depending cellular depending signaling events
+both mechanisms would lead physical would help cell populations
+particularly well study formation
+not required experimentally through genetic been well characterized
+contains events early
+initial events give involve signaling between cells studied network genes
+cellular both stable development well into life
+all cells even when cells one provided growth advantage over cells other
+itself simple cell appear random
+genetic analysis computational modeling fact cells cell usually physical contact do not each other
+been shown experimentally single most cases cells will form cells
+behavior suggests processes cell first approximation when
+recent study possible formation mechanisms
+authors directly demonstrated increased at at using experiments
+computer simulations then revealed local sufficient stable
+results but they number new formation known depend signaling protein produced cells specifically cells
+if indeed what conditions must then
+so far all known responses signaling several wide into
+how response case region
+furthermore experimental signaling been shown lead formation actual
+does mean influence signaling does actual if so why does not type situation
+here propose model generate outcome signaling respect physical properties despite range molecular response terms target gene expression
+furthermore estimate distance up signaling may able cells distance using both experimental results well modeling results estimate at least cell
+approach problem first model then physical model
+our modeling approach cells their contact described graph
+our model follows version model been previously very same
+good formation over range simulation parameters modeling outcomes experimental specifically performed study

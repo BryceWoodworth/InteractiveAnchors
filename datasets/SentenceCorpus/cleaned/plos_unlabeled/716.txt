@@ -1,0 +1,37 @@
+ 
+neural networks consisting globally coupled excitatory inhibitory nonidentical neurons may exhibit complex dynamic behavior including synchronization multiclustered solutions phase space oscillator death
+investigate conditions under behaviors occur multidimensional parametric space defined connectivity strengths dispersion neuronal membrane excitability
+using mode decomposition techniques further derive analytically low dimensional description neural population dynamics show various dynamic behaviors entire network well reproduced reduced system
+examples networks fitzhugh-nagumo hindmarsh-rose neurons discussed detail
+ introduction 
+information processing associated higher brain functions believed carried out large scale neural networks
+significant theoretical computational efforts been devoted over years understand dynamical behavior networks
+while any modeling attempt aspires preserve most relevant physical dynamical characteristics networks certain simplifying hypothesis usually employed order decrease overwhelming complexity problem
+particular computational models large scale networks make use implicit assumption neurocomputational unit
+unit designates population thousands neurons exhibit similar behavior
+large scale network then defined units their interconnections
+order describe dynamics unit further assumptions employed
+instance neurons may regarded identical entities nature strength their connections may neglected temporal details their spiking activity considered irrelevant dynamics large network
+consequently small neural network properties will show very well synchronized dynamics easily captured conventional neural mass model 
+remarkable amount scientific work been devoted understanding behavior neural networks when some assumptions dismissed
+many studies consider either inhomogeneities network connectivity heterogeneous inputs give special attention synchronized state network
+among first attempts one may consider studies coupled oscillators kuramoto who introduced order parameter capturing degree synchronization function coupling strength frequency distribution
+more generally pecora et al derived master stability equation serving stability condition synchronized state arbitrary network
+recently hennig et al derive similar conditions considering connectivity well heterogeneous inputs
+another direction describing dynamical behavior networks involves derivation equations synchronized state along equations describing deviations synchrony
+approaches suitable only when deviation synchronized state not very strong
+other hand there exists another class approaches based mean field theory
+traditional mean field approaches incapable addressing synchronized neural activity since their basic assumption incoming spike-train given neuron network poissonian hence uncorrelated
+other dynamical behaviors far synchrony multi-clustering phase instance also require expansions current approaches
+first attempts do so include consideration higher orders mean field expansion mode decompositions network dynamics phase space
+latter approach assisi et al successfully identified network modes characteristic behavior but been limited biologically unrealistic situations purely excitatory inhibitory networks simplistic neuron models
+while true strong reductionist assumptions common large-scale network modeling assumptions network node's dynamics usually made adhoc limit network dynamics small range
+evidently reduced small scale network model desirable serve node large scale network simulation whereby displaying sufficiently rich dynamic repertoire
+here less importance find quantitatively precise reduced description neural population; rather more importantly seek computationally inexpensive population model able display major qualitative dynamic behaviors realistic parameter ranges observed total population neurons
+here also desirable include biologically more realistic neuron dynamics bursting behavior since novel phenomena small scale network level may occur need captured reduced population model
+paper extend approach assisi et al towards biologically more realistic network architectures including mixed excitatory inhibitory networks well more realistic neuron models capable displaying spiking bursting behavior
+our reduced neural population models not only account correct reproduction mean field amplitude original networks but also capture most important temporal features its dynamics
+way complex dynamical phenomena multi-clustered oscillations multi-time scale synchronization oscillation death become available simulations large scale neural networks at low computational cost
+start investigating first main features dynamic behavior globally coupled heterogeneous neural population comprising both excitatory inhibitory connections
+then using mode decomposition techniques derive analytically low dimensional representation network dynamics show main features neural population's collective behavior captured well dynamics few modes
+two different neuronal models network fitzhugh-nagumo neurons network hindmarsh-rose neurons discussed detail

@@ -1,0 +1,77 @@
+ 
+when people learn make decisions experience reasonable intuition additional relevant information should improve their performance
+contrast find additional information about foregone rewards i e what could gained at each point making different choice severely hinders participants' ability repeatedly make choices maximize long-term gains
+conclude foregone reward information accentuates local superiority short-term options e g consumption consequently biases choice away productive long-term options e g exercise
+conclusions consistent standard reinforcement-learning mechanism processes information about experienced forgone rewards
+contrast related contributions using delay-of-gratification paradigms do not posit separate top-down emotion-driven systems explain performance
+find individual group data well characterized single reinforcement-learning mechanism combines information about experienced foregone rewards
+ introduction 
+when immediate temptations conflict long-term aspirations immediate temptations often prevail important goals remain unfulfilled
+failures self-control well documented behavioral domains diverse dieting smoking interpersonal conflict
+ability forego small immediate rewards order receive larger future rewards viewed hallmark effective self-control both humans animals
+report examine impact information about foregone fictive outcomes human decision-making behavior situations short long-term rewards conflict
+forgone outcomes counterfactual rewards could been obtained had one made alternate choices
+our task captures aspects real-world tasks people face repeated choices outcomes determined past choices well current choices
+classic study self-control children mischel shoda rodriguez found preschoolers' ability forego immediate gratification e g one cookie immediately order attain more valuable eventual outcomes e g two cookies after brief delay predictive number key competencies adolescence
+several studies suggest most effective strategy delaying gratification directing one's attention away reward-related stimuli during waiting period
+specifically children who direct their attention away smaller immediate reward better able forego short-term gains allowing them maximize long-term gains
+hot cool systems framework one popular theory performance delay gratification studies
+according theory one's level self-control dictated interacting hot cool systems
+hot system fast emotionally driven automatically triggered reward-related stimuli
+contrast cool system slow reflective top-down-goal-driven
+interplay between two systems either undermine support one's efforts delay gratification
+external e g whether immediate reward visible internal factors e g whether one's attention focused immediate reward accentuate immediate rewards activate hot system
+immediate rewards become more salient one becomes more likely succumb control hot system lead failure delay gratification
+one criticism previous self-control studies they involve explicit tradeoffs intertemporal options do not occur real-life situations
+paradigms participants told explicitly when larger delayed rewards will received
+real world people rarely given explicit information about long-term consequences immediate actions
+example consider conflict between short long-term goals facing executive expanding firm
+at each choice point executive elect continue investing new equipment training thus increasing firm's future output boosting long-term profits executive instead cut costs order boost short-term profits thus deferring future benefits new investment
+executive's choices effectively influence state environment affects future returns
+here precise long-term consequences executive's choices not known until future time points
+long-term optimal choice must some extent learned experientially through interactive exploration decision space our example corresponds observing increasing returns resulting continued investment equipment training
+present work examines optimal long-term choice behavior dynamic task recurring choices providing more realistic representation many short long-term tradeoffs daily life
+whereas explicit tradeoff paradigm treats choices static one-shot decisions many real-world decisions often informed past outcomes one's current situation determined past choices
+notably experimental paradigm proposed herrnstein colleagues affords examination individuals' ability maximize long-term rewards dynamic choice environments
+consider task reward structure depicted figure number
+horizontal axis represents current state decision environment whereas vertical axis represents reward selecting either choice
+every state one option refer short-term option always yields higher immediate reward than other option refer long-term option
+state environment defined number long-term choices made over last ten trials
+making larger proportion long-term choices over time moves current state environment rightwards horizontal axis thus increasing rewards both choices
+effectually choices yield larger immediate rewards negatively affect future rewards analogous cutting costs above example whereas options less immediately attractive lead larger future rewards analogous continuing investment new equipment training
+dynamic choice environment maximizing long-term i e global rewards requires forgoing larger immediate i e local rewards guaranteed short-term option continually making long-term choices
+growing literature examined factors bear decision-maker's ability learn reward-maximizing choice strategy similar environments
+report consider dynamic decision making tasks people learn about rewards resulting both chosen unchosen i e foregone options
+example executive may able both observe actual result further investment calculate hypothetical cost savings would resulted suspending investment
+although neural substrates signal representing foregone rewards distinct directly experienced rewards been identified both humans primates unclear how reward signals combine shape behavior
+behavioral research human decision making yielded some insight into how knowledge foregone rewards affect choice behavior
+settings where rewards change over time foregone rewards support optimal choice when chasing foregone rewards advantageous likewise hinder optimal choice when chasing foregone rewards disadvantageous
+further sensitivity foregone rewards appears diminish over time repeated-choice settings
+present work extends research dynamic decision-making environments
+unlike static tasks been used examine effects foregone rewards information rewards performing actions dynamic tasks contingent upon past choice behavior
+namely rewards present trial determined one's recent history choices
+consider particular form sequential dependency short long-term rewards conflict
+task strategy maximizing long-term rewards not obvious decision-maker at outset
+thus computational challenge arises  described greater detail below  crediting past decisions indirectly led better worse rewards present
+hypothesize when short long-term rewards conflict foregone rewards accentuate local superiority short-term option e g cutting costs consequently bias choice away long-term option e g investment equipment training
+our predictions dynamic decision tasks consistent findings delay-of-gratification studies find focusing attention away short-term reward increases likelihood exercising self-control gain delayed but larger reward
+investigate possibility manipulate information presented about foregone rewards after each choice laboratory task outlined above see figure number
+example after long-term choice participant might shown number points were actually earned well number points could been earned had participant made short-term choice
+our hypothesis forgone information will accentuate short-term option's larger immediate payoff discourage exploration decision space leading behavior suboptimal long run
+foreshadow our results find inclusion more information i e about forgone payoffs makes less likely decision-maker will maximize long-term returns
+result surprising surface anticipated standard reinforcement learning mechanism single information-processing stream opposed separate hot cool systems
+according hot cool systems view accentuating greater immediate rewards associated short-term option should increase hot system's control over choice leading consistent selection globally inferior short-term option
+rl mechanism explains result without recourse two systems different computational properties
+rl models learn their interactions environment maximize gains making use reward signal provides information about goodness actions
+framework been used model human decision-making behavior well firing patterns dopaminergic neurons primates
+our rl model demonstrates weighting fictive i e forgone reward signal action not taken impedes exploration decision space because tasks where short long-term rewards conflict adequate exploration necessary reach optimal choice strategy
+absence specialized hot cool components associative account provides simple account choice behavior related tasks
+rule out effect foregone rewards does not arise confusion stemming additional information but rather arises highlighting local superiority short-term option include additional condition specious foregone rewards provided
+sought manipulation would demonstrate foregone reward information systematically biases choice does not merely overload participants information hindering optimal choice behavior
+demonstrate employ control condition termed false foregone rewards false-fr
+condition when short-term option chosen foregone rewards long-term option appear greater than experienced rewards order promote belief long-term option locally superior
+likewise when long-term option chosen foregone rewards short-term option appear smaller than experienced reward order promote belief short-term option locally inferior
+link real-world example manipulation akin college student telling friend who spent night studying at library party they had foregone was actually fun was boring
+short actual feedback chosen option veridical but information about forgone option favors long-term option locally
+if additional information about forgone rewards does not confuse participants should find participants provided specious information about forgone rewards should make more optimal choices than participants not provided foregone rewards
+other words predict more less when local information emphasizes short-term gains but more more when local information emphasizes long-term gains

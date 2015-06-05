@@ -1,0 +1,54 @@
+ 
+synchronization 30 80 hz oscillatory activity principle neurons olfactory bulb believed important odor discrimination
+previous theoretical studies fast rhythms other brain areas proposed principle neuron synchrony mediated short-latency rapidly decaying inhibition
+phasic inhibition provides narrow time window principle neurons fire thus promoting synchrony
+however olfactory bulb inhibitory granule cells produce long lasting small amplitude asynchronous aperiodic inhibitory input thus narrow time window required synchronize spiking does not exist
+instead been suggested correlated output granule cells could serve synchronize uncoupled mitral cells through mechanism called stochastic synchronization wherein synchronization arises through correlation inputs two neural oscillators
+almost all work synchrony due correlations presumes correlation imposed fixed
+building theory experiments others developed show increased synchrony mitral cells could produce increase granule cell activity those granule cells share synchronous group mitral cells
+common granule cell input increases input correlation mitral cells hence their synchrony providing positive feedback loop correlation
+thus demonstrate emergence temporal evolution input correlation recurrent networks feedback
+explore several theoretical models idea ranging spiking models analytically tractable model
+ introduction 
+synchronization neural activity been suggested facilitate coding propagation activity
+synchronous stimulus-induced oscillatory activity long been known occur olfactory system mammals
+synchronous rhythmic activity been proposed play role odor discrimination tasks
+insects disruption synchronous oscillations impair discrimination chemically similar odorants
+mice enhancement synchronous oscillations olfactory bulb using genetic modifications improves performance fine discrimination tasks
+mammalian olfactory system mitral cell synchrony contributes generation gamma oscillations local field potential; example cat olfactory system increases synchrony between mitral cells accompanied concomitant increase power gamma band local field potential
+mitral cells been shown undergo synchronization during odor-evoked responses during olfactory nerve stimulation
+although previous experimental modeling studies highlighted role granule cells lateral inhibition production gamma oscillations olfactory bulb exact mechanism mitral cell synchronization occurs mitral-granule cell network connected reciprocal recurrent lateral connections remains largely unknown
+possible mechanism synchronization mitral cells olfactory bulb suggested recent experimental evidence
+paired recordings mitral cells activation mitral cell elicits fast unitary inhibitory post-synaptic potentials second mitral cell
+ipsc's due synaptic activation shared granule cells via mitral-granule cell dendrodendritic synapses
+although individual ipsc's fast they arrive randomly i.e output granule cells not time locked stimulus
+temporally prolonged barrage unitary ipsc's produced response spiking first mitral cell results slow rising long lasting hyperpolarization second mitral cell
+there variable delay between evoked ipsc's second mitral cell spike times first mitral cell
+thus evoked ipsc's occur asynchronously aperiodically kinetics hyperpolarization ensemble average evoked ipsc's show slow rise time slow decay constant
+addition peak amplitudes ensemble average small
+prolonged asynchronous barrages ipsc's been shown result long latency asynchronous long lasting mitral cell recruitment granule cells
+furthermore recent experimental studies into origin synchrony between mitral cells suggests recovery shared ipsc inputs common granule cells primary driving mechanism mitral cell synchrony
+physiologically measured properties mitral-granule cell interactions suggest novel mechanism synchronization mitral cells olfactory bulb
+previous studies proposed noise synchronize oscillators
+neurons undergo noise-induced synchronization they should periodically firing should some shared fast fluctuations their inputs
+recent studies mechanism generation synchronized oscillatory activity long lasting asynchronous aperiodic inhibition olfactory bulb revealed exactly novel role noise
+was shown two mitral cells firing gamma frequency range undergo synchronization upon receiving common inhibitory input granule cells
+degree synchronization was shown depend degree correlation noisy input shared two neurons
+although spiking was synchronized shared noise itself was aperiodic
+all experimental theoretical studies stochastic synchronization date degree correlation imposed held fixed
+our study degree input correlation emerges intrinsically within network amplified over time due dynamics network
+addition our study utilizes theoretically derived probability distribution phase difference uncoupled oscillators receiving shared noise investigate conditions necessary existence bistability magnitude input correlation
+here consider case correlated fluctuations granule cells arise naturally granule cells connect many mitral cells
+input correlation any pair mitral cells could increase if shared pool presynaptic granule cells increased their stochastic firing rate thus providing greater amount common noise
+olfactory bulb synapses between mitral granule cells dendrodendritic almost always reciprocal
+thus if granule cell synapses pair mitral cells those mitral cells also synapse granule cell
+hypothesize since pair mitral cells correlated input more likely fire synchronously pair also more likely provide correlated input their common granule cell
+turn common granule cell could then increases its release transmitter increasing correlation mitral cells
+result feedback provides amplification correlation
+goal paper use computational analytic techniques show feedback will increase correlation consequence synchrony between oscillating mitral cells
+describe three models feedback induced correlation stochastic sychronization
+first study one pair mitral cells one common granule cell
+mitral cells modeled simple phase oscillators perturbed through their phase-resetting curves
+granule cell modeled noisy leaky integrate fire neuron receiving synaptic input mitral cell oscillators
+second model replaces each phase oscillator conductance-based morris-lecar oscillator
+finally allow analytic approaches reduce first two models discrete time map study using averaging technique

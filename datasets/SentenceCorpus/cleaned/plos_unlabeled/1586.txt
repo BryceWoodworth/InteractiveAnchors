@@ -1,0 +1,36 @@
+ 
+fly lobula plate tangential cells known perform wide-field motion integration
+assumed shape neurons particular shape subclass vs cells responsible type computation
+employed inverse approach investigate morphology-function relationship underlying wide-field motion integration vs cells
+inverse approach detailed model neurons optimized perform predefined computation: here wide-field motion integration
+embedded model neurons optimized biologically plausible model fly motion detection provide realistic inputs subsequently optimized model neuron without active conductances along their dendrites perform computation
+found both passive active optimized model neurons perform well wide-field motion integrators
+addition all optimized morphologies share same blueprint real vs cells
+addition also found recurring blueprint distribution g k g na active models
+moreover demonstrate how morphology distribution conductances contribute wide-field motion integration
+using inverse approach predict still unknown distribution g k g na their role motion integration vs cells
+ introduction 
+neurons different animals brain regions feature wealth different dendritic morphologies distributions ionic conductances
+while physiological effects morphologies conductance distributions increasingly understood how computational functions dendrites perform emerge their morphologies physiologies still incompletely known
+computational function defined here input-output transformation resulting physiology subserving biological purpose neuron
+notable exceptions incomplete understanding neurons close sensory input electrophysiological dynamics recorded during sensory stimulation morphology known both correlated neuron's sensory coding
+one example fly lobula plate tangential cells responds visual motion preferred directions demonstrated wide-field motion detectors 
+recently developed inverse approach elucidate dendritic structure-function relationships
+underlying assumption inverse dendritic structure parallels computational function performed dendrites
+inverse approach start computational function interest optimize model neurons including dendritic morphology perform function
+here apply inverse approach investigate neuronal morphology-function relationship fly ltpcs
+focus particular type lptc vs cells respond vertical motion
+briefly vs cells receive motion sensitive signals medulla retinotopic organization their dendrites
+inputs noisy insofar they corrupted spatial modulation reflecting activity individual inputs vs cell
+while membrane potential vs cells at sites synaptic input reproduces fast input dynamics time signal reaches axon cells' physiology anatomy gets rid temporal modulations imposed their presynaptic local motion detectors
+output lptcs smooth signal encodes direction presented moving stimulus
+thus function single vs cell temporal smoothing motion sensitive inputs produce smooth output signal
+computation rewarded optimization performed work
+line argument described assume dendritic morphology computes temporal smoothing
+aim study identify morphological building blocks required perform wide-field motion integration investigate how physiological processes interact morphology perform wide-field motion integration
+work start formalizing notion temporal smoothing subsequently optimize different model neurons perform computation
+found our optimized model neurons share crucial morphological features real vs cell morphologies intrinsic dynamics show remarkable similarity real cells
+our results provide alternative line support hypothesis vs cell's morphology contributes computation wide-field motion integration cells
+moreover our simulations were able identify morphological building blocks required perform wide-field motion integration conclude passive dendrites alone account temporal smoothing active ion-channels used balance responses visual stimulation preferred null-direction
+due similarity our optimized models real vs cells predict actual but still unknown distribution three ionic conductances their role wide-field integration vs cells
+discuss significance our results compare our findings related approach

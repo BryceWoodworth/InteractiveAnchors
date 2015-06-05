@@ -1,0 +1,27 @@
+
+paper propose activation approach
+using process similarity between any obtained
+algorithm higher accuracy than standard using correlation
+furthermore introduce free parameter objects
+numerical results influence popular objects further improve accuracy
+argue better algorithm should require less generate higher accuracy
+further propose algorithm involving only similar each target both less computational complexity higher accuracy }
+introduction
+growth people information
+too much data able out information most appropriate us
+way provide out information
+systems use help them more identify interest potentially set choices
+practical various algorithms been proposed methods methods analysis principle component analysis methods so
+review current see
+
+one most systems called been developed investigated over past
+when predicting potential given approach first set similar past then makes prediction based combination those similar
+despite its wide applications several major including system accuracy
+recently some physical dynamics including model found their applications
+physical approaches been demonstrated both high accuracy low computational complexity
+however accuracy computational complexity may very statistics data sets
+example algorithm presented
+much than standard if number much larger than objects while when number objects advantage algorithm because its complexity determined number objects see
+
+order increase system accuracy standard introduce algorithm activation
+addition two free parameters presented increase accuracy

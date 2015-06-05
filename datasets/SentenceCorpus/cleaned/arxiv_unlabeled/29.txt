@@ -1,0 +1,61 @@
+ 
+there at least two kinds similarity
+relational similarity correspondence between relations contrast attributional similarity  correspondence between attributes
+when two words high degree attributional similarity call them synonyms
+when two pairs words high degree relational similarity say their relations analogous
+example word pair mason:stone analogous pair carpenter:wood
+paper introduces latent relational analysis lra method measuring relational similarity
+lra potential applications many areas including information extraction word sense disambiguation information retrieval
+recently vector space model vsm information retrieval been adapted measuring relational similarity achieving score 47\% collection 374 college-level multiple-choice word analogy questions
+vsm approach relation between pair words characterized vector frequencies predefined patterns large corpus
+lra extends vsm approach three ways: 1 patterns derived automatically corpus 2 singular value decomposition svd used smooth frequency data 3 automatically generated synonyms used explore variations word pairs
+lra achieves 56\% 374 analogy questions statistically equivalent average human score 57\%
+related problem classifying semantic relations lra achieves similar gains over vsm
+ introduction 
+there at least two kinds similarity
+attributional similarity correspondence between attributes relational similarity correspondence between relations
+when two words high degree attributional similarity call them synonyms
+when two word pairs high degree relational similarity say they analogous
+verbal analogies often written form a:b::c:d\/  meaning b c d ; example traffic:street::water:riverbed
+traffic flows over street; water flows over riverbed
+street carries traffic; riverbed carries water
+there high degree relational similarity between word pair traffic:street word pair water:riverbed
+fact analogy basis several mathematical theories traffic flow
+section look more closely at connections between attributional relational similarity
+analogies mason:stone::carpenter:wood seems relational similarity reduced attributional similarity since mason carpenter attributionally similar stone wood
+general reduction fails
+consider analogy traffic:street::water:riverbed
+traffic water not attributionally similar
+street riverbed only moderately attributionally similar
+many algorithms been proposed measuring attributional similarity between two words
+measures attributional similarity been studied extensively due their applications problems recognizing synonyms  information retrieval  determining semantic orientation  grading student essays  measuring textual cohesion  word sense disambiguation
+other hand since measures relational similarity not well developed measures attributional similarity potential applications relational similarity not well known
+many problems involve semantic relations would benefit algorithm measuring relational similarity
+discuss related problems natural language processing information retrieval information extraction more detail section
+paper builds vector space model vsm information retrieval
+given query search engine produces ranked list documents
+documents ranked order decreasing attributional similarity between query each document
+almost all modern search engines measure attributional similarity using vsm \namecite{turneylittman05} adapt vsm approach measuring relational similarity
+they used vector frequencies patterns corpus represent relation between pair words
+section presents vsm approach measuring similarity
+section present algorithm measuring relational similarity call latent relational analysis lra
+algorithm learns large corpus unlabeled unstructured text without supervision
+lra extends vsm approach \namecite{turneylittman05} three ways: 1 connecting patterns derived automatically corpus instead using fixed set patterns 2 singular value decomposition svd used smooth frequency data 3 given word pair traffic:street lra considers transformations word pair generated replacing one words synonyms traffic:road traffic:highway
+section presents our experimental evaluation lra collection 374 multiple-choice word analogy questions sat college entrance exam
+example typical sat question appears table
+educational testing literature first pair mason:stone called stem analogy
+correct choice called solution incorrect choices distractors
+evaluate lra testing its ability select solution avoid distractors
+average performance college-bound senior high school students verbal sat questions corresponds accuracy about 57\%
+lra achieves accuracy about 56\%
+same questions vsm attained 47\% } one application relational similarity classifying semantic relations noun-modifier pairs
+section evaluate performance lra set 600 noun-modifier pairs \namecite{nastase03}
+problem classify noun-modifier pair ``laser printer'' according semantic relation between head noun printer modifier laser
+600 pairs been manually labeled 30 classes semantic relations
+example ``laser printer'' classified instrument ; printer uses laser instrument printing
+approach task classifying semantic relations noun-modifier pairs supervised learning problem
+600 pairs divided into training testing sets testing pair classified according label its single nearest neighbour training set
+lra used measure distance i e  similarity nearness
+lra achieves accuracy 39 8\% 30-class problem 58 0\% 5-class problem
+same 600 noun-modifier pairs vsm had accuracies 27 8\% 30-class 45 7\% 5-class
+discuss experimental results limitations lra future work section conclude section

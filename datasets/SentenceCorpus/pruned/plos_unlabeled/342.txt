@@ -1,0 +1,60 @@
+
+role mathematical modeling systems biology will play molecular development remains
+study mathematical modeling sensitivity analysis were used explore hypothesis models human despite model uncertainty points mechanisms could targets
+tested our hypothesis model developed literature
+predicted mechanisms were then compared treatment literature
+model proteins protein protein interactions was using datasets generated two different models
+activation presence natural were consistent measured values mean correlation across all trials
+overall state sensitivity measure robustness given mechanism were using strategy
+phase factor factor activity activation were found while activation activity were robust
+both direct important classes example following initial treatment
+both experimental evidence prediction activity robust
+when taken together results support our hypothesis derived points human relevant could used rational basis target selection despite model uncertainty
+introduction
+role mathematical modeling systems biology will play molecular development remains
+suggested understanding critical questions biology required integration experimental computational research
+et al others analysis dynamics human relevant networks using predictive computer models data would play important role research disease mechanisms
+however structural uncertainty remains open modeling
+strategies experimental computational techniques had at network structures
+experimental computational techniques molecular interaction networks
+central experimental area protein protein network identification been yeast system quantitative techniques determine protein
+protein dna interactions using technique where likely transcription factor binding sites were determined using combination dna
+correlation matrices genetic techniques network strategies also been used concentration measurements estimate reaction network structures
+sensitivity analysis been used model identification optimal experimental design knowledge discovery
+et al used sensitivity analysis study b where uncertainty was using sensitivity using parameter set family random parameter sets was generated where sensitivity were each random family
+et al develop framework upon work et al et al functional interactions networks using stimulus response strategy metabolic control analysis
+et al investigated problem growth continuous subject using model identification they determined optimal experimental design strategies identify between model
+et al identified signal models measurements using estimate protein measurements measured values
+they further proposed strategies experimental experimental information used identify signal models well strategy explore model structure
+sensitivity analysis also been used explore robustness metabolic signaling networks
+robustness ability system performance uncertainty feature both biological well networks systems
+sensitivity small very could lead system following because few
+et al several examples robustness biological networks while first predicted later experimentally robust features control networks
+robustness models cell while et al identified points robustness using sensitivity analysis overall state sensitivity models
+study use tools systems biology mathematical modeling sensitivity analysis explore hypothesis models human relevant despite model uncertainty points mechanisms mechanisms could rational basis target selection
+test our hypothesis model developed literature sources
+after model using datasets generated two different models use sensitivity analysis model mechanisms presence natural
+then contrast predicted mechanisms literature determine if they consistent experimental our hypothesis
+while current development strategy general could applied arbitrary network
+family key group cells both directly relevant human health been suggested drug discovery
+b disease
+following directly involved account percent all
+features our model shown 1 presented 1 here
+several underlying cell biology found
+there two pathways lead activation intrinsic
+generally main mechanism
+factors because among factors factor present form complex factor
+factors including
+also along form complex
+not only mechanism complex formation
+at site occurs through specific interactions between through recognition factor
+signals
+through family called
+addition key role activation
+help
+also factors strong positive feedback activation
+three control points formation considered model
+pathway formation activity free manner
+all generated during response making most control
+itself role its own binding protein expressed normal
+complex protein c response

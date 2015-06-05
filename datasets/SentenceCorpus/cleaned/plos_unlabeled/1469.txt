@@ -1,0 +1,35 @@
+ 
+perception fundamentally underconstrained because different combinations object properties generate same sensory information
+disambiguate sensory information into estimates scene properties our brains incorporate prior knowledge additional auxiliary sensory information constrain perceptual interpretations
+example knowing distance object helps perceiving its size
+literature contains few demonstrations use prior knowledge auxiliary information combined visual haptic disambiguation almost no examination haptic disambiguation vision beyond bistable stimuli
+previous studies reported humans integrate multiple unambiguous sensations perceive single continuous object properties like size position
+here test whether humans use visual haptic information individually jointly disambiguate size distance
+presented participants ball moving depth changing diameter
+because no unambiguous distance information available under monocular viewing participants rely prior assumptions about ball's distance disambiguate their size percept
+presenting auxiliary binocular and/or haptic distance information augments participants' prior distance assumptions improves their size judgment accuracy though binocular cues were trusted more than haptic
+our results suggest both visual haptic distance information disambiguate size perception interpret results context probabilistic perceptual reasoning
+ introduction 
+well over century psychologists considered question how brain uses visual angle sensations make judgments object's size overcoming confounding effect its distance  but topic remains unsettled
+holway boring found when strong sensations object's distance were made available human size matching performance at different distances was high but when distance sensations were removed human perception object's size was erroneously dominated its visual angle
+epstein et al surveyed literature regarding size-distance invariance hypothesis holds retinal visual angle constrains perception object's size distance their ratio holds constant value concluded size-distance invariance hypothesis was subject variety failures
+several studies attributed participants' mistaken size perceptions misjudgments physical distance while others point out specific experimental design choices task demands contribute reported failures size constancy
+recently combe wexler reported size constancy stronger when relative distance between observer object varies due observer motion than when due object motion
+findings highlight unsettled state current empirical knowledge about human size distance perception exacerbated absence unified theoretical account normative size/distance perception
+hypothesize brain makes size inferences incorporating multiple sensations based knowledge their generative relationship physical environment properties failures like inaccuracy systematic biases due poverty unreliability and/or mistrust observed sensations
+our experiments tackle issue how brain incorporates distance information particular binocular haptic jointly perceive how object's size changing
+size-change perception surprisingly not been studied size/distance perception literature bears close similarity static size perception because size-change judgments based retinal image size ambiguous if information about object's motion-in-depth unknown
+however when auxiliary sensations indicating motion-in-depth available observer may rule out size-change/motion combinations inconsistent auxiliary sensations unambiguously infer whether object inflating deflating
+predicted despite inherent novelty stimuli participants' abilities discriminate whether object inflated deflated would depend availability quality information about its motion-in-depth
+because binocular haptic sensations provide information about depth predicted they would each incorporated improving size-change judgments
+thus our study answers two key questions: does brain use distance-change information size-change perception
+what roles binocular haptic distance-change information
+our size-change discrimination task presented participants object either inflated deflated while simultaneously either approaching receding asked them discriminate whether inflated deflated
+most static size perception tasks use matching paradigms our task was advantageous because allowed us present single stimulus per trial avoid issues regarding relative comparison pairs stimuli
+provided participants different types auxiliary motion-in-depth information binocular haptic both isolation simultaneously examined their inflation/deflation judgments evaluate how auxiliary distance information influenced perceived size-change
+evidence use binocular haptic distance information size-change perception not been reported previous studies cue integration suggest brain combines haptic binocular information proportion its reliability jointly improve spatial perception
+found when distance-change information was absent participants' size-change judgments closely matched object's image size-change
+however when provided participants auxiliary distance-change sensations participants incorporated additional information form more accurate size percepts were consistent both monocular auxiliary sensations
+moreover when both binocular haptic information was presented most participants showed greater disambiguation size than when either was presented isolation
+results suggest size-change perception uses knowledge how multi-modal size distance sensations related interpret scene
+interpret findings framework probabilistic perceptual inference available sensations combined according their relationship scene properties their respective reliabilities 

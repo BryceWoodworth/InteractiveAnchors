@@ -1,0 +1,58 @@
+
+consider class stochastic distributed algorithms prove learn games
+indeed consider family stochastic distributed dynamics prove sense convergence probabilistic processes towards their limit i
+e general case
+focus then class stochastic dynamics where out related dynamics
+% studied evolutionary game theory
+using known about convergence discuss convergence initial stochastic general games there might but when convergence considered stochastic algorithms towards
+games functions call games stochastic dynamics
+prove any potential game hence any potential game game function
+games function prove function over stochastic dynamics
+leads way provide bounds their time convergence
+particular many classes games been considered literature including several game scenarios games
+introduction
+consider where agents learn their experiments small
+might example about choosing their about their
+% will assume rational
+% assume agents rational
+understanding when whole towards rational situations i e sense game theory
+natural dynamics stochastic distributed since agents their strategies based their local knowledge since agents often involved games where global hence local description whole global not possible
+% also dynamics would global knowledge several dynamics been considered recently game theory literature
+up our knowledge been dynamics based best response requires global description
+stochastic global description been considered
+however considered dynamics rather order efficient convergence time bounds still based
+consider here more general dynamics discuss when one may convergence
+could lead consider any dynamics respect utility relation evolutionary game theory literature
+propose here dynamics lead dynamics related dynamics
+game theory seen version classical game theory our long term aim better understand evolutionary game theory
+could also dynamics seen strategies strategies long term objective learning methods could seen point methods find
+basic game theory framework
+let set
+every set strategies
+let
+strategy probability distribution over strategy chosen probability
+let strategies
+any strategy considered strategy where vector probability vector component hence
+let space all strategies
+strategy strategies all strategy
+following classical often where vector strategies all other
+allow games whose payoffs may only assume strategy known each random cost expected value
+particular expected cost strategy
+some classes games
+several classes % games where based common set where each associated cost function been considered game theory literature
+games called elements i e
+hence strategy space having weight subset strategy some
+cost task under strategies where machine % defined weights tasks
+games called
+hence strategy space subset strategy subset
+cost under strategies where number % use number
+games weights associated one instead
+task games games called elements i e
+each machine assumed function input set tasks cost each
+cost under strategies then given
+functions considered associated corresponding time task
+example without order increasing weights processing times
+games particular task games games particular games
+game whose weights particular game
+potential games
+all classes games related potential games introduced game potential game if there exists some function strategies all strategies one

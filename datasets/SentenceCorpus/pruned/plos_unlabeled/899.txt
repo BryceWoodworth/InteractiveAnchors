@@ -1,0 +1,48 @@
+
+natural proteins often several highly specific interactions
+they thus subject multiple during evolutionary selection
+functional proteins need stable complex each interaction at same time all
+how through natural evolution
+answer question study protein target proteins
+structures computational methods predict sequences best interaction each individual target
+then design sequences most each possible combination two three all targets almost low energy sequences
+comparing sequences their gain into how nature find between need interaction need
+more sequences better natural sequence thus importance strategies nature
+furthermore show binding into critical all those provide interaction
+several basic necessary protein
+also between interaction find interactions requires only small optimal
+proteins been optimization process their sequences interactions set targets thus their multiple cellular functions
+introduction
+proteins interactions together outcome all biological processes cell
+some estimates over third all proteins two more highly specific interactions
+proteins large number play central role protein interaction networks
+proteins usually protein tend more essential than others cell usually exhibit rates evolution
+moreover biological activity proteins typically requires them set targets specific way
+example each g protein only specific subset g proteins
+proteins binding also been proteins
+central function proteins within interaction networks constraints their amino sequences especially their regions used interactions various targets
+there exist only few studies characterized molecular structural features protein due sparse representation protein data
+understanding interactions important not only basic but also design new interactions
+furthermore molecular will provide critical feedback systems biology research interactions network approach
+protein more than three targets identified
+central formula signaling pathways control gene transcription protein
+formula protein changes formula concentration into activity many targets including
+targets sequence structure
+regions within target proteins generally residues
+no sequence exists all target proteins
+recent structural studies revealed there several binding protein its targets state formula state state
+form usually formula amino upon interaction protein
+binding conformational change target its two domains area interactions target
+its targets high formula values formula formula range
+reduced at least formula its targets when formula
+binding constraints during evolution likely produced sequence may not optimal binding any particular target but rather essential interaction large number
+study computational design approach understand how required functional both level amino sequences level binding
+first single second protein multiple
+recently similar analysis was performed proteins whose interactions two targets were considered
+contrast those report much more single protein
+examine interactions different exhibit binding
+using structures perform design obtain formula low energy sequences optimal either single target some combination targets
+quantitative statistical designed sequences their allows us evolution suggest strategies design both yet highly specific
+particular binding its residues into those critical binding those important
+furthermore analyze sequence required proteins interactions show how past ability many targets
+finally examine find our results also findings previous experimental protein design research

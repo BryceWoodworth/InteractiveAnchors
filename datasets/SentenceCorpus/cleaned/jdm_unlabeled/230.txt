@@ -1,0 +1,26 @@
+ 
+individual differences cognitive abilities skills predict normatively superior logically consistent judgments decisions
+current experiment investigates processes mediate individual differences risky choices
+assessed working memory span numeracy cognitive impulsivity conducted protocol analysis trace variations conscious deliberative processes
+people higher cognitive abilities made more choices consistent expected values however expected-value choices rarely resulted expected-value calculations
+instead cognitive ability choice relationship was mediated number simple considerations made during decision making  e g transforming probabilities considering relative size gains
+results imply even simple lotteries superior risky decisions associated cognitive abilities controlled cognition reflect metacognitive dynamics elaborative heuristic search processes rather than normative calculations
+modes cognitive control e g dual process dynamics implications process models risky decision-making e g priority heuristic discussed
+ introduction 
+human decision-making constrained its bounded rationality does not always follow normative prescriptions
+nevertheless individual differences cognitive abilities skills predict normatively superior judgment decision-making
+variety theories dual-process theories attribute individual differences deliberative processes however link between decision processes abilities largely uninvestigated
+what cognitive processes give rise relationship between cognitive abilities superior decision making under risk
+previous research examined individual differences decision making under risk lotteries known probabilities
+low stakes lotteries normative expected utility processes assumed approximated calculations multiply probabilities potential gains losses i e expected-value calculations
+frederick demonstrated expected-value choices associated scores cognitive reflection test designed measure one's reliance more consciously controlled processes rather than automatic first impressions
+three-problem cognitive reflection test known correlate other general cognitive ability measures consists mathematical problems immediate intuitive response incorrect
+frederick demonstrated higher scoring individuals did not exhibit clear non-normative risk asymmetry gains losses predicted prospect theory
+when given choice between gain number versus number percent chance number gain prospect theory predicted risk aversion selection certain number
+however people higher cognitive reflection scores more often selected options higher expected values i e probability multiplied potential risky gain  number compared lower scoring individuals
+there several candidate mechanisms may account link between cognitive abilities superior decision making under risk
+example one make expected-value choices performing expected-value calculations
+frederick suggests computation expected values may play role although he notes not likely only factor
+more generally stanovich west suggest individual differences normative judgments decisions often arise working memory capacity limitations computation implying high ability individuals may make expected-value choices via expected-value calculations
+other research indicates individual differences risky decision making may also arise variations one's general knowledge understanding probabilities  i e one's numeracy
+people high numeracy particularly ability comprehend transform probabilities less affected attribute framing because they readily transform items number percent correct into number percent incorrect translate percentages frequencies vice versa

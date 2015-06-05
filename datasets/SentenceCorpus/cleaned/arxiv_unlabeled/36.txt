@@ -1,0 +1,16 @@
+ 
+introduce simple framework learning aggressive maneuvers flight control uavs
+having inspired biological environment dynamic movement primitives analyzed extended using nonlinear contraction theory
+accordingly primitives observed movement stably combined concatenated
+demonstrate our results experimentally quanser helicopter first imitate aggressive maneuvers then use them primitives achieve new maneuvers fly over obstacle
+ introduction 
+role uavs unmanned aerial vehicles gained significant importance last decades
+they many advantages agility low surface area ability work constrained dangerous places over their conventional precedents
+addition current uavs more biologically-inspired terms shape performance because improvements electronics propulsion
+unfortunately still far away using their capacity at fullest
+mostly related weakness current control algorithms against high-dimensional nonlinear environments
+sense generating aggressive maneuvers interesting hard accomplish
+paper our approach solve issue designed view experiments frogs monkeys suggest faced inverse-kinematics algorithm adapts environment changes sequence target points irrespective initial conditions
+theory analyzed dynamic movement primitives dmps combined them using contraction theory
+experiments obstacle avoidance dmp human-piloted flight data segmented into parts combined at different initial points achieve maneuvers against different obstacles different locations
+background our work briefly detailed below

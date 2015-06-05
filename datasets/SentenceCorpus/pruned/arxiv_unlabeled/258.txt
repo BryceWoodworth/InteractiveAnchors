@@ -1,0 +1,36 @@
+
+%
+develop bayesian framework clustering problem problem tasks reference matching uncertainty
+our clustering model based process prior us define distributions over sets problem
+our model existence set random variables call across all clusters
+inference our framework requires over many parameters using markov techniques
+present algorithms both
+present our model based assumption
+evaluate model one task three tasks comparing against both algorithms
+our results show our model able other models across variety tasks performance
+introduction
+clustering general problem occurs different
+like standard clustering problem involves finite set into way unknown
+between clustering standard clustering form given training examples
+training examples learning algorithm determine what aspects relevant appropriate clustering
+training examples their correct
+end clustering task prediction new presented system must produce
+clustering problem under many depending
+learning typically uncertainty primary task system so does not even explicitly assume there between elements knowledge base real world
+database task context known
+information particularly context task identify same
+here task known reference matching
+natural processing problem context one identify same person real life
+machine learning been learning under constraints learning examples
+paper propose model clustering problem
+our model advantage process prior bayesian prior over distributions
+prior two first allows us estimate number clusters second allows us control complexity solutions learned
+present inference methods our model based markov methods
+compare our model against other methods large data sets where show able most other systems according several performance
+paper follows
+section describe prior clustering problem
+section develop our framework problem very basic assumptions about task
+general inference framework section
+next section present three our framework describe appropriate adaptation inference
+then discuss performance clustering problem section present experimental results our performance problems section
+section our model our our learning techniques

@@ -1,0 +1,33 @@
+
+identification pathways involved structural systems often nature across energy energy
+task even more molecular systems order
+models themselves solutions appear only possible means cases
+utility network models dynamics systems theoretical experimental evidence support intrinsic functional introduce new method adaptive network model functional
+application experimental data results action algorithm previous simulations support utility efficient yet potential transition pathways large
+important outcome critical interactions transition state most involve conserved residues
+introduction
+many proteins assume more than one functional binding changes environmental conditions
+example widely studied molecular machine protein family
+proteins
+two each
+each turn three domains
+together
+activity complex series structure binding described binding both assume state state two
+binding molecules one conformational change open state thus leading form
+form number residues at domains
+groups following
+provides energy needed process leads state process upon binding molecules hence term negative effect binding
+structure molecules bound molecules new cycle time being
+interest understand molecular basis negative effect upon binding molecules
+binding case structural change region at distance
+understanding mechanism signaling fundamental importance because critical role play events
+several studies been pathways dynamics since original complex
+studies provide into states involved cycle
+transition mechanisms been however both experimentally due nature high energy between states pathways large size system
+several computational methods been developed two structural transition pathways
+include methods based stochastic integration method maximum method reaction action
+other groups molecular dynamics simulations presence constraints methods sampling stochastic transition
+yet identification transition state conformational large systems order like
+models methods appear only tools cases
+most computational study dynamics where t transition been examined dynamics simulations using model
+simulations performed provided transition pathways at t

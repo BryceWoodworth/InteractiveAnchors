@@ -1,0 +1,52 @@
+ 
+show learning convex body  given random samples body requires samples
+learning convex body mean finding set having at most relative symmetric difference input body
+prove lower bound construct hard learn family convex bodies
+our construction family very simple based error correcting codes
+ introduction 
+consider following problem: given uniformly random points convex body  would like approximately learn body few samples possible
+question throughout paper interested number samples but not computational requirements constructing approximation
+our main result will show needs about samples
+problem special case statistical problem inferring information about probability distribution samples
+example one approximate centroid body sample size roughly linear
+other hand sample size polynomial not enough approximate volume convex body within constant factor   see section here discussion
+note known approximation algorithms volume e g   do not work setting they need membership oracle random points various carefully chosen subsets input body
+our problem also relates work learning theory e g   where one given samples generated according say gaussian distribution each sample labeled ``positive'' ``negative'' depending whether belongs body
+aside different distributions another difference between learning setting ours ours one gets only positive examples
+klivans~et~al  give algorithm nearly matching lower bound learning convex bodies labeled samples chosen according gaussian distribution
+their algorithm takes time they also show lower bound
+problem learning convex sets uniformly random samples them was raised frieze~et~al 
+they gave polynomial time algorithm learning parallelopipeds
+another somewhat related direction work learnability discrete distributions kearns~et~al 
+our lower bound result like  also allows membership oracle queries
+note known estimating volume convex bodies requires exponential number membership queries if algorithm deterministic  implies learning bodies requires exponential number membership queries because if algorithm learn body then also estimate its volume
+formally define notion learning need specify distance between bodies
+natural choice our setting consider total variation distance uniform distribution each body see section 
+will use term random oracle convex body black box when queried outputs uniformly random point
+remarkably lower bound klivans~et~al  numerically essentially identical ours  constant
+constructions similar theirs possible our particular scenario
+believe our argument considerably simpler elementary compared
+furthermore our construction hard learn family explicit
+our construction makes use error correcting codes
+our knowledge connection error correcting codes new contexts may find further applications
+see section some further comparison \paragraph{an informal outline proof } idea proof find large family convex bodies satisfying two conflicting goals: 1 any two bodies family almost disjoint; 2 yet they look alike sense small sample random points any body insufficient determining one
+since any two bodies almost disjoint even approximating body would allow one determine exactly
+will imply also hard approximate
+first construct family bodies although not almost disjoint sufficiently large symmetric difference
+will then able construct family almost disjoint bodies taking products bodies first family
+first family quite natural described formally sec 
+consider cross polytope generalization octahedron dimensions: convex hull vectors  where unit vector th coordinate rest 
+peak attached facet pyramid its base its other vertex outside normal going through its centroid
+if height peak sufficiently small then attaching peaks any subset facets will result convex polytope
+will show later choose height so volume all peaks fraction volume
+call family bodies remark our construction cross-polytopes peaks resemblance construction different parameters but there does not seem any connection between problem studied there problem interested  intuitively random point body family tells one if point one peaks then peak present otherwise one learns nothing
+therefore if number queries at most polynomial  then one learns nothing about most peaks so algorithm cannot tell body got
+but bodies do not large symmetric difference small fraction cross polytope if two bodies differ just one peak but pick subfamily them having pairwise symmetric difference at least picking large random subfamily
+will do slightly differently will more convenient proof: bodies one-to-one correspondence binary strings length : each facet corresponds coordinate string takes value if facet peak attached else value
+ensure any two bodies our family differ many peaks suffices ensure their corresponding strings large hamming distance
+large sets strings course furnished good error correcting codes
+family obtain another family almost disjoint bodies taking products while preserving property polynomially many random samples do not tell bodies apart
+product trick also known tensoring been used many times before particular amplifying hardness but not aware its use setting similar ours
+our construction product family also resembles operation concatenation coding theory
+acknowledgments
+grateful adam kalai santosh vempala useful discussions

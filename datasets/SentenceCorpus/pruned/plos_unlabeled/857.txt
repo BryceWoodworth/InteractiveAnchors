@@ -1,0 +1,77 @@
+
+designed its size several features larger proteins
+although system been investigated experimentally its mechanism not yet
+indeed some experiments suggest behavior while others point presence
+work show results simulation used detailed model system
+model although simulation quality similar those analysis long molecular dynamics
+demonstrated approach smaller system
+model predicts time observed experimentally due presence
+state only percent at but
+instead structures state
+model also predicts presence state at formula structure strongly
+state explain formula formula
+structures two most stable experiments protein
+our work shows using molecular dynamics possible construct model experimental data
+introduction
+understanding protein central issue molecular biology modeling useful also field
+direct comparison between simulations experiments requires both accurate description system sample space
+order molecular dynamics necessary use very large distributed sampling technique
+system almost theoretical designed structure
+structure core
+secondary structure elements include short formula at
+mechanism system been studied several experimental techniques
+show behavior transition at time s at
+more complex behavior presence formula core even more
+experiments show but large negative formula formula suggest those residues might more
+also correlation experiments cannot terms simple formation been proposed
+modeling been studied using several different approaches
+particular description been studied molecular dynamics
+extended structure formula mean 2 reference structure obtained after simulation
+relatively high predicted
+other studies suggested even if rather small system statistical convergence simulation may require much simulation times
+was studied transition sampling transition sampling
+was also investigated two us using bias approach different variables among molecular dynamics simulations performed at same
+using method possible explore number
+since all simulations performed at same number does not system size like approach
+
+using was possible together two their b using field less than simulation only
+recently method was also used mechanism reactions
+simulations biological systems after necessary relevant their probability rates among them
+several methods been developed
+methods advantage complex dynamics space markov process among finite number states
+they molecular dynamics but they cannot applied if system under action bias
+paper present method allows statistics bias detailed model complex process
+approach presented here at same information simulation one obtain analysis long several
+method space defined set variables assumed describe relevant system
+variables not ones used simulation chosen formula
+selected rate model following three
+analysis performed extended space each during dynamics reference structure close space
+next population each simulations using analysis method bias
+finally model rates among
+transition rates assumed form introduced
+depend free energy difference between determined matrix formula relative position
+only free parameter model formula free
+following
+formula estimated likelihood
+model manner designed long time scale dynamics system
+used example process
+advantage using accuracy estimated free energy at transition state regions
+approach first
+system simple allow results against long standard simulation
+system model accuracy observed
+same approach then applied
+model allows process rates experiment etc good available experimental data
+markov analysis several sets identified
+states considered process
+at two main clusters present population percent percent
+most state its structural properties very close
+second most significant amount secondary structure but formula state
+its distance reduced
+presence system explain some behavior observed experiments
+structures most good states reported
+
+using model experiment also
+experimental results time s found
+time determined towards state structure
+times among all other clusters including between states state all time domain
+thus time measured may not directly related transition if one transition random state

@@ -1,0 +1,14 @@
+
+describe adaptation application prediction algorithm learning problems
+show possible reduce learning learning demonstrate model
+show close between maximization
+finally demonstrate
+key idea application idea learning
+introduction
+useful version learning when both observed data variables
+examples range hidden alignment variables recognition machine estimation computer
+techniques all based probabilistic models
+their variable thus use
+paper show algorithm see section prediction section
+1 under appropriate maximization 2 used obtain performance task setting section
+key work consider prediction observed input itself prediction problem

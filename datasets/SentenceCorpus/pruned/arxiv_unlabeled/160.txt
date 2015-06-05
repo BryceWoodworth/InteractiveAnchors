@@ -1,0 +1,32 @@
+
+consider design cognitive control secondary pair over set primary network
+objective data while between secondary primary
+no statistical information about primary assumed available secondary
+investigate two distinct scenarios
+first secondary all primary whereas one only second
+both cases propose learn statistics primary
+our simulation results demonstrate proposed achieve obtained when prior knowledge primary statistics available
+introduction
+most
+observation dynamic where secondary cognitive long they do not primary
+achieve goal secondary must primary order identify data
+main goal cognitive sense state different primary then over primary
+specifically cognitive should make efficient decisions sense order obtain most available
+several cognitive been proposed previous studies
+example were each secondary two control control defined any available sense
+other hand proposed optimization mechanism optimal algorithm well environment adaptive pattern estimation method
+structure primary network here was also considered where optimal policy was characterized simple policy secondary was
+authors however assumed primary statistics i e markov transition probabilities were available secondary
+here our focus where cognitive must learn transition probabilities
+work between two scenarios
+first secondary sense all available primary before making decision one
+secondary however does not process only one
+model
+propose efficient algorithm learning secondary between secondary pair
+proposed does not assume control hence information same data
+our numerical results demonstrate proposed over one where primary assumed sequence they upon
+second both secondary sense only one primary each time
+problem problem where optimal algorithm must between
+finding optimal solution problem remains task
+recent results efficient strategy similar learning phase one proposed
+our numerical results show performance strategy known transition probabilities

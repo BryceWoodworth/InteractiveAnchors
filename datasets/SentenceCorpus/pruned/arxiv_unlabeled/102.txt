@@ -1,0 +1,30 @@
+
+propose online also called adaptive version algorithm variable models independent observations
+compared algorithm approach more directly algorithm does not rely integration respect complete data distribution
+resulting algorithm usually shown achieve convergence points between distribution observation model distribution at optimal rate maximum likelihood
+addition proposed approach also regression models case mixture linear model data models adaptive algorithms online estimation stochastic approximation mixture
+introduction
+algorithm popular maximum estimation
+common problems where approach notion data sense data but much than
+algorithm its situations where some experiments complete data related parameters more than measurements
+problems where algorithm useful include among many others mixture data models etc
+algorithm several properties
+because complete data generally simple at each i only involves taking over distribution data given observations complete data estimation
+moreover algorithm algorithm sense increases observed likelihood at each
+finally under some additional conditions algorithm may shown point point where
+note convergence maximum likelihood cannot general due possible presence multiple points
+when processing large data sets data however algorithm due whole data available at each algorithm
+there been strong interest online make possible estimate parameters data model without data
+work consider online algorithms data models independent observations
+approach see also section below online estimation follows method proposed using stochastic approximation algorithm where parameters after each new observation using data likelihood complete data information matrix
+approach been used some many different applications see convergence was given
+propose new online algorithm more original algorithm
+particular each proposed algorithm into two where first one stochastic approximation version at information available observation second step program algorithm
+addition proposed algorithm does not rely complete data information matrix two important practical point view evaluation information matrix no required convergence procedure does not rely assumption model data under actually generated model some unknown value parameter
+contrast previous work provide analysis proposed algorithm also case where observations not assumed statistical model
+particularly relevant case data models simple case used proposed online algorithm
+finally shown additional use proposed approach points criterion between density observations model at rate optimal
+paper section review associated algorithms introduce proposed approach
+other existing methods discussed at end section simple example application described section
+convergence results section first term consistency section then convergence rate section corresponding given
+finally section performance approach context mixture linear

@@ -1,0 +1,73 @@
+
+risk spatial distribution required health policy local global scales
+generated statistical framework robust uncertainty their utility
+many settings require measures over large regions mean within region populations under different levels risk
+existing approaches provide local uncertainty predictions at each but not been uncertainty over large due series fundamental computational constraints
+here authors present new efficient algorithm generate first time necessary simulation values across very large prediction needed global scale
+new approach model p robust estimates mean at any level spatial
+model used provide estimates populations at risk under three along measures uncertainty
+previously computational study how approaches at disease extended provide measures appropriate
+introduction
+risk spatial distribution relation underlying populations required support health decision-making at local global scales
+theory increasing recognition importance robust uncertainty all recent years new use special family linear models known generally bayesian framework
+models take point observations disease generate continuous at across
+most advantage disease its uncertainty
+sparse often data predict disease across wide regions results risk level uncertainty function density quality sample size available data underlying spatial disease question
+approaches allow sources uncertainty output predicting probability distribution at each interest
+where predictions made small uncertainty distributions will central where uncertainty large they will more
+techniques been used generate robust risk well range other at scales global
+some studies extended variation through space also include temporal dimension disease risk over time well space
+models over even relatively small
+not only matrix required generate predictions at each individual compared methods but cost must many times because prediction uncertainty many at each
+disease models over large therefore tend via complete up predictive each
+allows computational task into many small more
+approach appropriate measures local set each predictive distribution statistics mean range percent uncertainty information each individual considered
+there often need evaluate disease across spatial regions temporal both
+may compare mean between example measure mean between end policy change
+addition models used estimate derived population regions at different levels risk disease cases expected within individual function underlying exist only over
+not possible however construct distributions using approach
+estimate mean region made up multiple uncertainty estimate correlation between all region must known
+approach each independent its any spatial temporal correlation
+account correlation between leads uncertainty especially over large regions
+solution problem above simulation simulation all appropriate spatial temporal correlation between them
+set values then any way used input derived will appropriate predictive distributions
+simple local simulation fundamental computational necessary no into tasks each
+thus far any use disease evaluation over very large despite health importance measures
+where examples simulation disease exist they tend either over very small spatial regions simply larger regions into smaller more
+paper use new approximate algorithm simulation first time uncertainty over space time global scale disease model
+how approach allows uncertainty predictions at scales at decisions usually made
+then model estimate second particular populations at risk under different p transmission
+estimates form fundamental metric at levels also been used distributions human populations disease provide predicted changes under change scenarios
+range techniques been used estimate including use other models risk relation underlying population distributions
+studies uncertainty estimates however resulting estimates presented point values no uncertainty
+here use simulation framework generate predictive distributions under conditions low high stable transmission within each uncertainty estimates statistical framework
+estimates presented full paper making them available any support theoretical applied health applications
+section computational large scale simulation review existing approaches them
+methods section present our algorithm efficient simulation over very large its testing global p model its
+results section provides outcome testing examples estimates p
+present our level estimates how uncertainty their utility
+our future disease useful further research
+general form models defined disease formula individuals at given number observed formula distributed probability given formula underlying disease question via formula unknown process formula
+process context disease probability distribution probabilities associated different
+using bayesian inference process take account input data description probabilities
+possible then process after through provide target disease
+process take wide range central tendency at any underlying mean function formula properties function formula
+formula set formula parameters define form mean include
+aim estimate distribution model parameters formula values formula at all times prediction required generally across nodes
+task into two distinct
+markov used generate formula formula at only formula formula where data exist formula
+because only at process means must only consider normal distribution dimension formula generally several smaller than if all prediction across were considered
+formula formula provides process at all prediction across second computational
+value formula at each prediction time formula its predictive predictive mean parameters given standard normal variables out procedure over many samples up target predictive distribution formula
+predictive distributions formula formula formula formula at all formula prediction output generate local models uncertainty
+case single computational component population matrix formula disease data sets where formula relatively task could generally standard computer
+sampling predictive distribution predictive mean single prediction sampling therefore normal distribution
+total each therefore cost simply number involved formula
+simulation over many prediction increases computational
+approach effective reduction formula one each considered
+simulation requires formula total number prediction points many if large considered at spatial
+addition formula formula matrix formula formula formula formula matrices must
+more sampling predictive normal distribution matrix must
+computational cost formula
+context if direct simulation could one would take
+practice factors along those memory mean direct simulation using above generally limited predictions at maximum points at least two too few global scale at even at single time

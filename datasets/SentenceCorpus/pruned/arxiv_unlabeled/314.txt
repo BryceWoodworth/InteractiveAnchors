@@ -1,0 +1,104 @@
+
+% problem sequence prediction following setting
+sequence observations generated according some unknown probabilistic measure
+after each outcome required give probabilities next observation
+measure arbitrary but known class stochastic process measures
+whose probabilities some sense probabilities if any chosen generate sequence
+work exist specific simple form solution
+show if any predictor then there exists bayesian predictor whose prior too
+also find several sufficient necessary conditions existence predictor terms family well terms local measures some cases lead
+should framework stochastic processes considered not required any family
+introduction
+given sequence observations where finite set predict what probabilities each more generally probabilities different before revealed after process
+assumed sequence generated some unknown stochastic process probability measure space sequences
+goal predictor whose predicted probabilities certain sense correct ones probabilities
+general goal achieve if known about measure sequence
+other words one cannot predictor whose error any measure
+problem if assume measure data some known class
+questions work part following general given arbitrary set measures how find predictor well when data generated any whether possible find predictor at all
+example property class allows predictor
+condition very strong
+example important applications point view class measures known class all measures
+general question however very far being
+work question first provide specific form predictor
+more show if predictor predicts every exists then predictor also obtained many elements
+result also bayesian approach sequence if there exists predictor predicts well every measure class then there exists bayesian predictor rather simple prior property too
+respect important note result obtained about bayesian predictor every far set its prior
+next derive some predictor exist
+first analyze what notion when find sufficient but not always necessary condition
+then derive some sufficient conditions existence predictor based local first observation measures class
+necessary conditions cannot obtained way demonstrate but sufficient conditions along rates convergence found
+arbitrary classes processes
+first all prediction basic systems
+indeed order able find optimal unknown environment agent must able at very least predict how environment more how relevant environment
+since response environment may general depend actions agent response agents
+therefore one cannot use prediction methods developed environments but rather find classes processes appear possible response environment
+problem prediction itself applications data analysis many others
+seems clear prediction methods one application cannot expected optimal when applied another
+therefore important question how develop specific prediction algorithms each domains
+was if class measures if represented then there exists predictor well any
+predictor obtained bayesian mixture where positive real weights very strong predictive particular predicts every total variation distance follows result
+total variation distance measures difference predicted true probabilities all future events not only probabilities next observations but also observations arbitrary far future see below
+context sequence prediction measure was first studied
+since then idea taking convex combination finite class measures obtain predictor most research sequential prediction see example more general learning problems
+practice clear one hand models not sufficient since class
+processes where probability not
+other hand prediction total variation too strong predicting probabilities next observation may sufficient even not every step but sense
+key observation here predictor may good predictor not only when data generated one processes but when much larger class
+let us consider point more
+
+predictor } predicts any although convergence total variation distance probabilities does not predicted probabilities next outcome correct ones
+moreover predictor predictor class all order markov measures any given
+was found combination good predictor not only set all processes but also any measure much larger all measures
+here prediction possible only sense more predicts every process expected see below
+predictor itself obtained mixture over all
+measures prior parameter probability
+however was observed see same predictive properties mixture prior e g taking where over all
+measures rational probability
+given set order markov processes many parameters
+taking subset values parameters mixture corresponding measures results predictor class order markov processes
+over all predictor class all processes
+thus classes processes predictor obtained mixture many measures class
+additional why analysis because construct bayesian classes processes not
+indeed natural way obtain predictor class stochastic processes take bayesian mixture class
+do one define structure probability space
+if class well case set all
+process then one respect
+general when problem natural although one define structure probability space set all stochastic process measures many different ways results one obtain will then probability 1 respect prior distribution see example
+consistency cannot see eg case some bayesian not consistent some large subset
+results prior probability 1 if one not structure probability space defined set indeed natural one problem at hand whereas if one does natural then usually results every value parameter obtained case
+processes above
+results present work show when predictor exists indeed given bayesian predictor predicts every not almost every measure class while its support only set
+related question question about two individual measures rather than about class measures predictor
+one under conditions one stochastic process predicts another
+was shown if one measure continuous respect another than latter predicts probabilities very strong sense
+form convergence probabilities particular convergence expected average obtained under assumptions results } first show if there predictor well every measure class processes then predictor also obtained convex combination some some
+if prediction quality measured either total variation distance expected average one measure performance very strong other rather
+analysis total variation case fact if predicts total variation distance then continuous respect so positive number probability 1 positive probability
+however if measure performance expected average measures typically respect predictor
+since predicts show high probability then use density each time step find convex combination many measures predictive properties each
+all results predictor predicts every average
+techniques developed potential used other questions sequence prediction particular general question how find predictor arbitrary class measures
+then exhibit some sufficient conditions class under predictor all measures exists
+important note conditions any
+conditions presented two conditions measures their local first observations
+conditions first type respect total variation distance expected average
+show case total variation necessary sufficient condition existence predictor whereas case expected average sufficient but not necessary
+conditions second sets where measure first observations
+if small some sense then prediction possible
+measure two ways
+first way find maximum probability given each sequence some measure class then take over
+obtained one show some important classes processes
+markov processes
+show general if then predictor exists predicts any measure expected average
+other hand not sufficient prediction
+more way measure using concept information theory was developed related problem finding optimal class sources
+corresponding results information theory show growth sufficient existence predictor sense expected average
+moreover obtained bounds optimal up term
+paper follows
+section
+section show if any predictor than there bayesian one while section provide several classes processes
+section while section conditions based local measures
+finally section provides
+examples results each section use classes measures family all
+processes all processes

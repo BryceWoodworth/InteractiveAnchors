@@ -1,0 +1,40 @@
+
+consider prediction problems large output under assumption output target vectors small support
+develop general theory popular error output using
+method simple reduction regression problems binary regression problems
+show number need only total number possible making approach more efficient than others
+also state prove robustness method form regret bounds general also provide more detailed analysis linear prediction setting
+introduction
+large database learn predict who what any given one
+standard approach task sample along corresponding where if only if person object image then sample learning algorithm
+here total number database
+when very large eg simple approach learning single predictor each become both at training testing time
+our present work observation although output space may very high actual often sparse
+each image only small number may present there may only small amount who what they
+work consider how output space output learning output } but critical point output more common feature weight vectors rather than
+general may sparse while actual outcome may not eg if there much may sparse probability one but may large support eg if there little between several
+linear suggests must predict parameters order find value vector each
+observation central area methods exist just measurements when sparse
+basis our approach } show how apply algorithms output approach
+at high level output approach form subset its
+problems then uses their solution predict
+role our application distinct its more uses data
+although do matrix training data not data explicitly way
+rather learn predict vectors then use sparse algorithms predictions
+thus accuracy predictions over data distribution
+main work application prediction problems output
+efficient output method number required predictions only number making very problems
+robustness form regret bounds general further detailed analysis linear prediction setting work } prediction problems domains multiple object recognition computer development general methods task
+most approach reduction but too when number possible large especially if applied power set space
+when structure space eg class efficient learning prediction methods often possible
+here focus different type structure output not previous work
+moreover our method general take advantage eg group when available
+recently heuristics been proposed structure large output some degree
+previously our work most related class output method prediction was first introduced shown useful experimentally
+relative work approach prediction provide bounds regret error design
+loss based approach suggests so loss
+however does not provide significant choice method feedback between analyze here
+output approach when used underlying problems being
+where also shown using robust consistent predictor when reduced binary regression
+compared method our approach same robustness up constant factor but requires training
+our algorithms rely several methods where used

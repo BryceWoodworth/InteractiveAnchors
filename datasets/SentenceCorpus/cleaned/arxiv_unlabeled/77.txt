@@ -1,0 +1,21 @@
+ 
+method defensive forecasting applied problem prediction expert advice binary outcomes
+turns out defensive forecasting not only competitive aggregating algorithm but also handles case ``second-guessing'' experts whose advice depends learner's prediction; paper assumes dependence learner's prediction continuous
+ introduction 
+there many known techniques competitive on-line prediction following perturbed leader see eg   bayes-type aggregation see eg   closely related potential methods gradient descent see eg   closely related exponentiated gradient descent  recently developed technique defensive forecasting see eg  
+defensive forecasting combines ideas game-theoretic probability see eg   levin g\'acs's ideas neutral measure foster vohra's ideas universal calibration
+see general review competitive on-line prediction
+paper applies technique defensive forecasting prediction expert advice simple case binary outcomes learner's goal prediction expert advice compete free agents called experts who allowed choose any predictions at each step
+will interested performance guarantees type } where number experts constant depending  learner's cumulative loss over first steps th expert's cumulative loss over first steps see \s\s precise definitions
+been shown watkins   theorem 8 aggregating algorithm implementing bayes-type aggregation general loss functions  aa short delivers optimal value constant  whenever goal  achieved watkins's result was based earlier results haussler kivinen warmuth  theorem 3 1 vovk  theorem 1 establishing optimality aa large number experts  theorem paper asserts perhaps surprisingly defensive forecasting also achieves same performance guarantee
+whether goal  achievable depends loss function used evaluating learner's experts' performance
+necessary sufficient condition loss function should ``perfectly mixable'' see definition
+simplicity first consider two specific perhaps most important examples perfectly mixable loss functions: quadratic loss function log loss function \s
+those two sections self-contained they do not require familiarity aa
+last section \s establish general result arbitrary perfectly mixable loss functions
+appendix state watkins's theorem form needed paper
+interesting technique defensive forecasting also applicable experts who allowed ``second-guess'' learner: their recommendations depend continuous manner paper learner's prediction
+not clear second-guessing experts handled at all aa
+result similar paper's results proved stoltz lugosi  theorem 14 more detailed comparison will given 
+second-guessing experts useful game theory where competing second-guessing experts known prediction small internal regret
+more down-to-earth example useful second-guessing expert remember humans tend give too categorical i e  close 0 1 predictions; therefore useful second-guessing expert human learner would transform his/her predictions less categorical ones according learner's expected calibration curve 

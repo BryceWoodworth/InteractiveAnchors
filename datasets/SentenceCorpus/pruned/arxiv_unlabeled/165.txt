@@ -1,0 +1,37 @@
+
+%
+paper method construct adaptive agent universal respect given class where each agent been designed specifically particular environment
+adaptive control problem problem relative entropy adaptive agent most unknown environment
+if agent then optimal solution bayesian predictor
+however if agent active then its past actions need rather than normal probability conditions
+here shown solution new problem given stochastic called bayesian control rule adaptive behavior mixture
+furthermore shown under assumptions bayesian control rule control most
+introduction
+when behavior environment under any control signal known then choose agent dynamics
+problem include target under known conditions having its
+however when behavior unknown then problem adaptive control
+example appropriate finding way out unknown
+adaptive control out far more difficult than its
+because any good policy versus actions i e actions identification dynamics versus actions control way
+even when dynamics known particular class optimal agents available corresponding optimal adaptive agent general even simple problems
+thus finding been major focus research
+recently been proposed problem some classes control problems based relative entropy criterion
+example large class optimal control problems very if problem dynamics system system
+work similar approach introduced
+if class agents given where each agent different environment then adaptive derived minimum relative entropy principle
+particular one construct adaptive agent universal respect class average relative entropy agent
+however not
+there difference between actions observations taken into account when problem
+more specifically actions rules
+if made problem unique solution given stochastic control rule called bayesian control rule
+control rule particularly because adaptive control problem into inference problem applied time
+furthermore work shows under assumptions adaptive agent agent
+paper follows
+section sets up adaptive control problem
+section adaptive control minimum relative entropy problem
+after initial approach need
+then bayesian control rule derived relative entropy criterion
+section conditions convergence examined given
+section bayesian control rule problem markov decision problem
+section properties bayesian control rule previous work literature
+section

@@ -1,0 +1,53 @@
+
+%
+given sample probability measure support space one construct graph seen approximation
+graph graph used several machine learning methods like learning reduction clustering
+paper determine limit three different graph used literature sample size increases size approaches
+show measure all graph same limit up
+however case measure only so called random graph
+introduction
+recent years methods based graph become popular machine learning
+they been used learning clustering reduction
+their due following properties will discussed more later process learning special properties clustering adaptive regularization functional density structure data learning classification
+if data graph random sample seen approximation continuous structure
+particular if data support graph approximation
+machine learning intrinsic properties objects
+approximation via graph very important one since applications will discuss later
+related objects been studied certain special graphs
+case
+standard approximate
+seen special graph
+there convergence follows using
+another more involved example work where graph generated certain properties random graph motion been
+between random graph graph well process graph
+convergence approximation was shown
+however whether approximation described there graph whether result higher
+case where graph generated only first results been so far
+first work large sample limit graph been
+there authors studied convergence regularization functional graph using large numbers statistics
+second step taking limit they effective limit
+their result recently been case convergence over space
+was fixed while large sample limit graph was considered
+setting authors showed strong convergence results graph certain convergence
+consistency clustering fixed size
+contrast previous work paper will consider large sample limit limit size approaches certain class graphs
+main case where data measure support
+bias term difference between continuous graph itself been studied first without kernel data measure was then general weights general probability measures
+showed use weights graph allows control influence density
+they all show bias term if size
+convergence graph towards continuous was open
+part was first studied
+convergence was shown so called graph case probability measure without using kernel weights whereas convergence was shown random graph case general probability measures using general weights
+more recently extended convergence graph shown convergence without rates
+see also rate convergence given been setting measure
+paper will study three most often used graph machine learning literature show their convergence general setting will particular consider case where using weights graph control influence density limit
+section introduce basic framework necessary define graph general graphs then general case graphs
+particular define three graph used machine learning so far call random
+section introduce graphs studied paper introduction so called will turn out limit general
+also study properties limit provide why how used learning clustering regression
+then finally present main convergence result all three graph give conditions size function sample size necessary convergence
+section main result difference between three graph effects different weights limit
+section prove main result
+introduce framework provide necessary assumptions data measure kernel used weights
+would like note given section contain results than ones presented section
+who not will find introduction basic used paper

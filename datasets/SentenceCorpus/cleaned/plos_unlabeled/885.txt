@@ -1,0 +1,54 @@
+ 
+co-expression networks routinely used study human diseases like obesity diabetes
+systematic comparison networks between species potential elucidate common mechanisms conserved between human rodent species well those species-specific characterizing evolutionary plasticity
+developed semi-parametric meta-analysis approach combining gene-gene co-expression relationships across expression profile datasets multiple species
+simulation results showed semi-parametric method robust against noise
+when applied human mouse rat liver co-expression networks our method out-performed existing methods identifying gene pairs coherent biological functions
+identified network conserved across species highlighted cell-cell signaling cell-adhesion sterol biosynthesis main biological processes represented genome-wide association study candidate gene sets blood lipid levels
+further developed heterogeneity statistic test network differences among multiple datasets demonstrated genes species-specific interactions tend under positive selection throughout evolution
+finally identified human-specific sub-network regulated rxrg been validated play different role hyperlipidemia type 2 diabetes between human mouse
+taken together our approach represents novel step forward integrating gene co-expression networks multiple large scale datasets leverage not only common information but also differences dataset-specific
+ introduction 
+advent expression profiling other high throughput technologies enabled us systematically study complex human diseases simultaneously measuring tens thousands molecular species any given cell-based system
+now routine organize large-scale gene expression data into co-expression networks shed light functional relationships among genes between genes disease traits
+analysis co-expression networks used study any tissue organ long samples organs collected population setting
+given mouse rat populations commonly used study human diseases manner important understand mechanisms conserved between human rodent species especially seek better predictions efficacy drug targets identified mouse rat human populations
+addition identifying mechanisms differ between humans rodents help improve design interpretation toxicity studies involve rodent models
+meta-analysis statistical synthesis data aggregating results set comparable studies
+used systematically examine similarities differences between molecular profiling studies carried out populations different species
+gene co-expression network relationship between gene pairs usually measured correlation coefficients different forms pearson correlation spearman correlation mutual information
+therefore problem combining comparing co-expression relationships across multiple datasets framed context meta-analysis correlation coefficients various methods already been introduced
+one method fisher's inverse formula test computes combined statistic p-values correlation coefficients obtained individual datasets formula
+under fairly general conditions statistic follows formula distribution formula degrees freedom under joint null hypothesis no correlation making possible compute p-values combined statistic
+another widely used meta-analysis method involves computing weighted average common metric derived correlation coefficients individual datasets
+statistic then used test homogeneity over individual measures statistical significance
+datasets type meta-analysis typically weighted accuracy effect size they provide function individual sample sizes
+once mean effect size calculated its statistical significance assessed estimating pooled variance mean effect size
+defining effect size hedges olkin rosenthal rubin both advocated converting correlation coefficient into standard normal metric using fisher's z-transformation then calculating weighted average transformed scores
+depending whether effect sizes assumed equal not multiple datasets fixed effect well random effect models employed
+fixed effect models effect size population fixed but unknown constant therefore assumed same all datasets included meta-analysis
+random effect models effect sizes may vary dataset dataset assumed random sample all population effect sizes
+hunter schmidt introduced single random-effects method based untransformed correlation coefficients
+one important feature type method heterogeneity effect sizes estimated provides way assess difference correlation coefficients across multiple datasets
+schulze provided thorough review meta-analysis methods their applications
+meta-analysis co-expression networks diverse datasets those constructed different species one central issue often unreasonable assume every gene pair unique true effect size across evolutionarily diverse species
+although random effect models provide more realistic way accommodate cross species variation still assumes parametric distribution population effect sizes
+circumvent problem non-parametric meta-analysis method was introduced identification conserved co-expression modules human fly worm yeast
+method pearson correlation coefficients expression profiles between every gene pair were computed each organism then rank-transformed according their correlations all other genes
+probabilistic test based order statistics was then applied evaluate probability observing particular configuration ranks across different organisms chance
+advantage method two-fold: because method based non-parametric statistics makes no assumption underlying distribution correlation coefficients across multiple datasets; effect size defined gene-centric fashion any given gene correlations all other genes considered
+however method also several limitations including loss power general given non-parametric formulization meta-analysis results cannot represented same format individual datasets given there no concept mean effect size
+details individual methods presented methods section
+their pros cons summarized supplementary table s1
+paper develop method meta-analysis diverse datasets generated across multiple species
+our method semi-parametric nature requiring fewer assumptions distribution effect size than purely parametric approach while retaining better statistical power than fully non-parametric method
+also defines effect size gene centric allows computation mean effect size leads heterogeneity statistic test differences correlation structures among distinct datasets
+unlike most network alignment algorithms connectivity-based approaches our method does not rely networks inferred a-priori individual datasets but instead focuses development rigorous statistics test directly relationship between every gene pair
+simulation results showed our method robust against noises
+when applied human mouse rat cross species meta-analysis liver co-expression networks demonstrate our method out-performs existing methods identifying functionally coherent gene pairs conserved among three species
+our method also leads identification modules co-expressed genes represent core functions liver been conserved throughout evolution
+both highly replicated less confident genome-wide association study candidate genes blood lipid levels found enriched conserved modules providing systematic way elucidate mechanisms affecting blood lipid levels
+application our test homogeneity leads identification single sub-network driven apoe distinguishes two nearly identical experimental cross populations whose genetic backgrounds only vary respect gene apoe
+further demonstrate genes involved human rodent specific liver interactions tend under positive selection throughout evolution
+finally identified human-specific sub-network regulated rxrg been validated play different role hyperlipidemia type 2 diabetes between human mouse
+taken together our approach represents novel step forward integrating gene co-expression networks multiple large scale datasets leverage not only conserved information but also differences dataset-specific

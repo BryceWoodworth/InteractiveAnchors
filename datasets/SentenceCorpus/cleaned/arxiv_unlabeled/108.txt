@@ -1,0 +1,19 @@
+ 
+0 3cm consider class binary functions finite interval
+define sample width finite subset sample \ \w_s(h \min_{xs} |\w_h(x)| \ where
+let space all samples cardinality consider sets wide samples ie  hypersets defined \ a_{\beta h}  \{s\mathbb{s}_\ell: \w_{s}(h \beta\} \ through application sauer-shelah result density sets upper estimate obtained growth function trace class   ie  number possible dichotomies obtained intersecting all hypersets fixed collection samples cardinality
+estimate
+ introduction 
+any logical expression denote indicator function takes value whenever statement true false respectively
+let any fixed positive integer define space all samples size
+consider sets wide samples i e  refer sets hypersets
+will convenient associate sets indicator functions denoted referred hyperconcepts may write brevity
+any fixed width parameter define hyperclass } words consists all sets subsets cardinality corresponding binary functions wide at least
+aim paper compute complexity hyperclass corresponds class
+since domain infinite then so hence one cannot simply measure its cardinality
+instead apply standard combinatorial measure complexity family sets follows: suppose general domain infinite class subsets
+any subset let \gamma_\mg(s |\mg_{|s}| where
+growth function see instance  defined measures rate number dichotomies obtained intersecting subsets finite set increases function cardinality maximal case also called trace 
+since interested hypersets opposed simple sets above then consider trace finite collection samples instead finite sample above
+will convenient define cardinality collection cardinality union its component sets i e  any given finite collection let |\zeta|  \left|\bigcup_{s: s\in\zeta} s\right| use denote possible value
+measure complexity compute growth function  i e

@@ -1,0 +1,52 @@
+
+become clear large functional dna human genome does not protein
+identification functional sequence using comparative approaches difficult previously been thought require sequencing multiple
+here introduce new model comparative method instead uses evolutionary past selection
+model predicts distribution under shows human data
+across genome many long regions model predict highly functional dna been subject selection respect
+use model determine under selection between percent percent human
+since genes only percent results further weight more than functional human genome
+method at selected sequence using only two three genomes
+method human genomes identify human sequence under selection at predicted percent rate percent sensitivity
+expected most identified sequence while known genes predicted sensitivity method
+high sensitivity functional sequence suggest yet genes among sequences identified
+its us identify sequence been subject selection sequence subject both positive selection respect selection respect
+ability identify elements under selection first time positive selection functional elements other than genes
+introduction
+human genome been evolutionary mutation genetic selection latter main functional regions mutations
+comparing human genomes previously was estimated about percent human genome point mutations than expected under model
+most likely effects selection mutations observation at least percent human genome functional
+since only known large class functional genomic elements only percent our genome remains result
+understand biological role functional elements essential first step their identification
+recent studies most highly conserved elements elements
+elements exhibit high level even among studies suggest elements alternative development
+however elements not conserved respect point mutations identification elements within dna difficult
+among conserved biological function but less recently sequence
+comparative methods related species typically analyze patterns conserved regions
+methods they information along sequence achieve high
+although methods because rates due instance levels state activity leads reduction sensitivity
+sequencing genomes power comparative methods while will represent most solution sensitivity problem
+all mutation processes point most less
+while models been studied gene finding been evolutionary events alignment but
+view show highly evolutionary events
+introduce model distribution over genome show model large human alignment data well
+then show model main not rates but consistent selection genome functional regions
+first applied model derive lower bounds genome under selection respect
+our observations between human genome been under selection since human
+although still much higher than percent represented lower estimate than previous percent estimate based but consistent more recent estimate
+elements before human found between observations model predictions
+same method before predict among only at most been under selection
+first time our knowledge model evolution
+second application model identified large sequence elements under selection
+model us predicted rate set well bayesian probabilities individual elements under selection
+set various independent functional both positive negative shown highly functional dna
+key proposed method its selection respect point mutations
+method provide independent selection methods based
+moreover method allows identification sequence elements been under selection been subject selection respect but subject positive selection constraints respect
+examples elements would include between regulatory elements whose relative distance those shown exist
+although functional sequence constraints respect
+even more class elements whose sequence under positive selection respect while at same time under selection respect
+since highly function rna genes reduced rates compared dna elements exist
+without evolutionary selection difficult see how identify functional elements under positive selection respect functional only exists genes
+analysis percent sequence suggested much percent dna under selection may under selection
+among elements identified those exhibit more than expected number dna still showed functional above further existence elements under selection

@@ -1,0 +1,68 @@
+ 
+text present family pairwise tournaments reducing class classification binary classification
+reductions provably robust against constant fraction binary errors simultaneously matching best possible computation regret
+construction also works robustly selecting best choices tournament
+strengthen previous results defeating more powerful adversary than previously addressed while providing new form analysis
+setting error correcting tournament depth while using comparators both optimal up small constant
+ introduction 
+consider classical problem multiclass classification where given instance  goal predict most likely label  according some unknown probability distribution
+common general approach multiclass learning reduce multiclass problem set binary classification problems
+approach composable any binary learning algorithm including online algorithms bayesian algorithms even humans \shrink{ alternative design multiclass learning algorithm directly typically extending existing algorithm binary classification
+difficulty direct approach some algorithms cannot easily modified handle different learning problem
+example first still commonly used multiclass versions support vector machine may not even converge best possible predictor no matter how many examples used see 
+single reduction yields number different multiclass algorithms way
+key technique analyzing reductions regret analysis  bounding regret resulting multiclass learner terms regret binary classifiers binary problems
+informally regret difference loss between predictor best possible predictor same problem
+regret analysis more refined than loss analysis bounds only avoidable excess loss thus bounds remain meaningful problems high conditional noise } key technique analyzing reductions regret analysis  bounds regret resulting multiclass classifier terms average classification regret induced binary problems
+here regret formally defined section difference between incurred loss smallest achievable loss problem i e  excess loss due suboptimal prediction
+most commonly applied reduction one-against-all creates binary classification problem each classes
+classifier class trained predict whether label not; predictions then done evaluating each binary classifier randomizing over those predict ``yes,'' over all labels if all answers ``no''
+simple reduction inconsistent  sense given optimal zero-regret binary classifiers reduction may not yield optimal multiclass classifier presence noise
+optimizing squared loss binary predictions instead loss makes approach consistent but resulting multiclass regret scales worst case where average squared loss regret induced problems
+probing reduction upper bounds average binary classification regret
+composition gives consistent reduction binary classification but square root dependence binary regret undesirable regrets between 0 1
+probabilistic error-correcting output code approach pecoc reduces class classification learning regressors interval  creating binary examples per multiclass example at both training test time test time computation
+resulting multiclass regret bounded  removing dependence number classes
+when only constant number labels non-zero probability given features computation reduced per example
+state problem raises several questions: there consistent reduction multiclass binary classification does not square root dependence 
+example average binary regret just may imply pecoc multiclass regret
+%at level there consistent reduction requires just computation matching information theoretic lower bound
+well-known tree reduction distinguishes between labels using balanced binary tree each non-leaf node predicting ``is correct multiclass label left not
+''
+shown section method inconsistent
+above achieved reduction only performs pairwise comparisons between classes
+one fear associated pecoc approach creates binary problems form ``what probability label given random subset labels '' may hard solve
+although fear addressed regret analysis latter operates only avoidable excess loss overstated some cases  still some concern especially larger values
+error-correcting tournament family presented here answers all questions affirmative
+provides exponentially faster method multiclass prediction resulting multiclass regret bounded  where average binary regret; every binary classifier logically compares two distinct class labels
+result based basic observation if non-leaf node fails predict its binary label may unavoidable due noise distribution nodes between node root should no preference class label prediction
+utilizing observation construct reduction called filter tree  uses computation per multiclass example at both training test time whose multiclass regret bounded times average binary regret
+decision process filter tree viewed bottom up viewed single-elimination tournament set players
+using multiple independent single-elimination tournaments no use does not affect average regret adversary controlling binary classifiers
+somewhat surprisingly possible complete single-elimination tournaments between players rounds no player playing twice same round
+% 
+error-correcting tournament  first pairs labels simultaneous single-elimination tournaments followed final carefully weighted single-elimination tournament decides among winners first phase
+filter tree test time evaluation start at root proceed multiclass label computation
+construction also useful problem robust search yielding first algorithm allows adversary err constant fraction time ``full lie'' setting  where comparator missort any comparison
+previous work either applied ``half lie'' case where comparator fail sort but not actively missort  ``full lie'' setting where adversary fixed known bound number lies fixed budget fraction errors so far
+indeed might even appear impossible algorithm robust constant fraction full lie errors since error always reserved last comparison
+repeating last comparison times defeats strategy
+result here also useful actual problem tournament construction games real players
+our analysis does not assume errors iid   known noise distributions known outcome distributions given player skills
+consequently tournaments construct robust against severe bias biased referee some forms bribery collusion
+furthermore tournaments construct shallow requiring fewer rounds than elimination bracket tournaments do not satisfy guarantee provided here
+ elimination bracket tournament  bracket single-elimination tournament all players except winners brackets
+after bracket winners determined player winning last bracket plays winner bracket repeatedly until one player suffered losses they start losses respectively
+winner moves pair against winner bracket  process continues until only one player remains
+method does not scale well large  final elimination phase takes rounds
+even  our constructions smaller maximum depth than bracketed elimination
+see bracketed elimination tournament does not satisfy our goal note second-best player could defeat first player first single elimination tournament then once more final elimination phase win implying adversary need control only two matches \paragraph{paper overview} begin defining basic concepts introducing some notation section
+section shows simple divide-and-conquer tree approach inconsistent motivating filter tree algorithm described section applies more general cost-sensitive multiclass problems
+section proves algorithm best possible computational dependence gives two upper bounds regret returned cost-sensitive multiclass classifier
+subsection presents some experimental evidence filter tree indeed practical approach multiclass classification
+section presents error-correcting tournament family parametrized integer  controls tradeoff between maximizing robustness  large minimizing depth  small
+setting gives filter tree while gives multiclass binary regret ratio depth
+setting gives regret ratio depth
+results here provide nearly free generalization earlier work robust search setting more powerful adversary missort well fail sort
+% only charged according two labels conditional section gives algorithm independent lower bound 2 regret ratio large
+when number calls binary classifier independent nearly independent label predicted strengthen lower bound large

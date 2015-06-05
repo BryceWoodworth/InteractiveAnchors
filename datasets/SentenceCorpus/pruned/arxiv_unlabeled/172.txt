@@ -1,0 +1,25 @@
+
+past few years problem been made clustering i e clustering input matrix clustering
+like more general problems also associated optimization
+researchers developed approximation algorithms more recently also clustering
+however there no approximation algorithms clustering
+paper derive first our knowledge methods important clustering settings
+also prove approximation factor clustering arbitrary
+through experiments evaluate characteristics our method show also practical impact
+introduction
+data points into clusters problem
+problem input data points vectors into clusters while their corresponding problem
+however simple used obtain local exist since long time
+because its wide importance problem been several
+specific examples relevant paper clustering where instead one distance functions see both special cases where set input vectors matrix one clusters obtain while clustering clustering especially version based where one clusters along various input
+problems too used heuristics perform well but do not provide theoretical at best local
+type clustering e problems group together input vectors into clusters while exist several algorithms approximate optimal solution
+more
+contrast approximation algorithms clustering much less studied
+only two very recent both special case both similar approaches obtain their approximation
+both prove approximation additional factor binary matrices norm objective factor real matrices
+all factors approximation clustering either
+paper upon obtain approximation algorithms clustering arbitrary
+latter result particular interest norm based clustering may generalization
+focus clustering
+additional relevant found while known problem clustering more

@@ -1,0 +1,37 @@
+
+loss genomic dna cancer
+recent years variety studies total number at high
+events been using
+developed procedure both number information single data at number across genome
+our approach algorithm model derived novel classification
+method first our knowledge able determine samples at each site number each across genome
+method able determine not just where occur but also region being
+our model general approach demonstrated very normal samples our number using experiments
+our method cancer samples able would expected under mechanisms gene
+suggests specific may whether because variation
+methods described paper available at
+introduction
+genomic major underlying cancer
+include various types mutations number
+involves regions either more than two one cell
+genes regions natural while those regions potential genes
+thus cell samples central aim cancer research
+recent years variety been developed identify genomic
+studies using typically analyze data produce estimates total number across genome
+however studies individual number each
+thus example if region question being generally remains
+interest because may been selected because its effect
+data also been identify events
+studies typically where there sample at same site at normal sample
+issue may due one rather than other thus may not fact present
+number analysis detection both number data
+paper present procedure numbers single data
+our algorithm highly accurate at over sites
+also able numbers across genome making use fact constant each
+our results also allow made between true due only one
+cancer samples almost genomic dna result other cell
+previously been literature single gene level known while their
+our knowledge phenomenon not previously been described scale though proposed mechanisms would suggest expected result
+addition our identify being
+could mutations via
+indeed presence makes studies

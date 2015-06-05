@@ -1,0 +1,42 @@
+
+
+forecasting past observed data small complexity one important problems networks
+world wide fundamental paper would bayesian forecasting network time model statistical decision theory
+under model would show estimated forecasting value obtained simple real well both theoretical empirical points view
+introduction
+under network environment networks one important problems stable
+often situation analyze their networks
+they may into result analysis where tools usually some functions
+example etc \ been widely used among world wide long years
+tools usually numbers etc
+would often make their combination their experience
+case forecasting rule not those field statistics statistical point view
+other hand researchers field been analysis models
+probabilistic approach one field
+fact distribution not always because its nature etc
+therefore conditions good models structures nature at least
+furthermore another models structure forecasting
+point parameter estimation often performed at first under assumption then estimated parameter parameter model
+approach been field statistics statistical point view
+however estimated parameter constant parameter not always especially forecasting problems
+because there often no assumptions under parameter estimation model always future unknown data set
+bayesian approach one alternatives point
+bayesian approach probability distribution parameter assumed prior distribution
+if new data observed then theorem prior distribution parameter distribution then distribution data
+recently approach been widely applied many forecasting problems especially field information etc
+order take bayesian approach statistical decision theory important theoretical framework statistical point view
+taking above factors into account paper would bayesian forecasting i e time model
+bayesian forecasting time parameter model been proposed certain class parameter function
+however not yet been discussed about any predictive function parameter
+paper would define type function parameter obtain optimal prediction
+then its would real data
+model time degree real constant constant would play important role paper
+another feature forecasting value obtained simple under known
+general theorem often results large
+however certain combination parameter distribution its function problem
+point not only theoretical cost but also real analysis tools
+paper
+section some forecasting model time distribution
+section shows some analysis examples real data approach section their
+finally section paper
+

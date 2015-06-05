@@ -1,0 +1,37 @@
+
+mechanisms fundamental into adaptation organisms wide range environmental
+one best studied processes at molecular level relevant response
+focus region genes their structural functional associations using comparative network inference
+sequence comparison region provides novel evidence transcription via region transcription factor binding sites also region similarity family sequences unknown function
+furthermore set gene networks expression data specifically network genes associations complex pattern expression across multiple types
+our results suggest response complex region provide new use process system environmental
+introduction
+species through two structure when they
+common adaptation wide range conditions at including
+key model organisms biology include species particular
+latter species target genome sequencing whose results expected
+species group provides model both fundamental questions adaptation response well applications
+its use into particular potential applications
+moreover its relatively complex structure higher combined fact potential model human disease
+context important understand mechanisms environmental given their behavioral options highly due phase their
+past between higher organisms been versus studies between large humans versus large tree body
+less attention been particular molecular mechanisms through they achieve
+one represented response key factor adaptation been studied context certain extent specifically genes
+regulation either transcription factors complex structure
+analysis datasets demonstrated transcription factors proteins not distributed but highly relative gene increases scale
+been later extended studies their rates
+thus now known one way organisms achieve degree regulation gene strategy
+yet whether similar since genome sequences those so far range comparative studies performed
+far recent studies focused response particular revealed process involves up known four protein
+despite unique genes including systems not involving proteins
+other words different gene strategy might both model organisms
+thus what mechanisms through response general particular strategy gene expression
+focus family case study response examine structure function region
+previously two distinct genes same genomic been called genes
+detailed sequence analysis revealed two genes contain exhibit both regions but differ their regions well three due presence sequences
+region both genes contains multiple binding sites various transcription factors highly potential interactions factors patterns gene regulation
+comparative analysis gene across all available sequence data shown genomes contain relatively small number genes compared those
+thus genome might contain relatively small number genes question how expression other genes
+present work perform detailed analysis region terms structure expression presence previously sequence elements unknown function
+based expression data also potential associations another genes involved complex pattern expression across
+two discussed within context existing knowledge expected towards understanding response organisms

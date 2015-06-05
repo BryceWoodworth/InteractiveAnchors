@@ -1,0 +1,30 @@
+
+understanding brain mechanisms underlying requires computational models not only but its performance visual tasks
+recent years natural become popular study been used show models
+here use natural
+particular show simple model model should perform at visual object recognition tasks object recognition systems standard natural image recognition test
+designed recognition test better variation object position scale show test model
+taken together results demonstrate tests based natural potentially direction
+instead what means natural argue focus core problem object recognition image variation
+introduction
+visual object recognition difficult computational problem
+core problem each object world number different position relative
+yet brain problem
+understanding solution object recognition requires recognition systems aim our own visual often biological
+computational approaches important because they provide experimentally because recognition system particularly effective measure understanding object recognition
+however major recognition performance models
+systems should able do what our own visual systems but how evaluate goal
+practice choosing image set against test performance
+although popular recent approach study use natural part because they problems real world
+example computational image set standard testing natural object recognition performance
+set large number into object additional
+while number specific been set its still widely used both theoretical experimental
+number those place high object recognition systems require them solve computational object recognition
+because there object performance less than 1 percent correct
+recent years several object recognition models shown what high performance test better than percent correct approaches while still well below human performance at least direction
+however argue here not clear what extent natural image tests actually core problem object recognition
+specifically while set contains large number object view position size etc between within object defined not
+furthermore image strongly object
+also human how should thus objects within image not random set may not variation found real world
+furthermore if object recognition task not know what makes different variation all together
+problems not unique set but also apply other natural image sets

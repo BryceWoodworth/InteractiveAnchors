@@ -1,0 +1,57 @@
+ 
+previous research shown association between emotions particularly social emotions moral judgments
+some studies suggested association between blunted emotion utilitarian moral judgments observed patients prefrontal lesions
+order investigate how prefrontal brain damage affects moral judgment asked sample number tbi patients number females number males number healthy participants number females number males judge number hypothetical dilemmas split into three different categories non-moral impersonal personal moral
+tbi group presented higher proportion affirmative utilitarian responses personal moral dilemmas when compared controls suggesting atypical pattern utilitarian judgements
+also found negative association between performance recognition social emotions proportion affirmative responses personal moral dilemmas
+results suggested preference utilitarian responses type dilemmas accompanied difficulties social emotion recognition
+overall our findings suggest deontological moral judgments associated normal social emotion processing frontal lobe plays important role both emotion moral judgment
+ introduction 
+decades moral psychology was dominated kantian-like rationalist theories emphasized role conscious reasoning moral judgments adults
+more recently empirical researches suggested moral judgment predominantly intuitive partly based automatic emotional responses effortless produced unconscious processes
+according perspectives emotional processes play crucial role human decision making including moral decisions
+emotion based accounts moral decision making draws support variety empirical work including behavioural neuroimaging studies
+instance several studies clinical groups brain focal lesions reveal association between impaired emotional processing disturbances moral behaviour
+behavioural studies suggest manipulation emotional states influence judgments some moral situations
+their neuroimaging study koenigs colleagues show moral decision making tasks activate same brain areas involved emotions processing
+impairment emotional behaviour been commonly observed patients focal brain injuries specifically patients frontal lesions demonstrate diminished emotional responsivity inadequate coping anger frustration specific circumstances
+behavioural dysfunction appears related difficulty processing specific social emotions e g compassion shame guilt closely linked moral values
+despite deficits regarding emotional regulation response frontal patients preserve their logical reasoning declarative knowledge social moral norms
+sense some frontal patients preserve intellectual abilities example fund general information ability repeat reverse digits mental arithmetic verbal reasoning nonverbal problem solving verbal visual anterograde memory visuospacial perception academic achievement maintain factual knowledge social conventions moral rules
+interestingly besides inadequate emotional processing atypical pattern moral judgements also been observed clinic population
+experimental study moral judgement frequently relied analysis subject reactions moral dilemmas fictional social situations specifically designed pit two alternative actions against each other choice will inevitably disfavour one parties involved dilemma
+dilemmas often subdivided into three categories non-moral impersonal moral personal moral
+non-moral dilemma requires decision never involves moral violation
+moral dilemma subject must typically choose between act omission omission leading greater harm
+green colleagues distinguished between personal impersonal moral violations
+they consider moral violation personal if meets three criteria first violation must likely cause serious bodily harm
+second harm must befall particular person set persons
+third harm must not result deflection existing threat onto different party
+three criteria expressed terms me hurt you
+hurt criterion picks out most primitive kinds harmful violations you criterion ensures victim vividly represented individual me captures notion agency requiring action springs direct way agent's will authored rather than merely edited agent
+moral violation impersonal if fails meet three criteria
+another important distinction between personal impersonal moral dilemmas relates their emotional level personal moral dilemmas characterized high level emotional intensity
+personal dilemmas particularly intense because moral violation option also represents utilitarian response
+utilitarian perspective morally correct course action one produces greatest total benefit all people affected
+personal dilemmas utilitarian option involves direct harmful action towards specific individual will favour collective welfare internal conflict results strong emotional aversion utilitarian response consequent tendency omit
+securing welfare collective sacrificing single person individual might ultimate moral goal society however choose utilitarian option appears far natural normal individuals
+brain damaged patients impaired emotion processing often produce abnormally utilitarian pattern judgments moral dilemmas
+example patients frontal lesions seem choose suffocate their own child order save group people who otherwise would die including baby
+apparently patients often decide secure welfare collective even if means sacrificing someone dear them utilitarism attitude suggest diminished emotional responsivity
+anderson barrash bechara argue abnormally high rate utilitarian judgments observed frontal brain injured patients deficits emotional response suggests their decisions mostly cognitive intentional conscious uncontaminated emotion
+functional neuroimaging studies emotion recognition moral judgment tasks highlight pre-frontal cortex dominant regulation emotional behaviour well morality
+frontal lesion patients reveal idiosyncratic response patterns some dilemmas when compared patients lesions other brain regions
+several studies further investigating regions frontal cortex would dominant judging moral actions led little consensus among researchers
+example green colleagues suggest ventromedial vmpfc dorsolateral dlpfc anterior cingulate ac cortex involved judging personal moral dilemmas while koenigs colleagues postulate ventromedial vmpfc region responsible not only judgment type dilemmas but also processing more complex emotions i e social emotions guilt shame
+actually both authors recognize unique contributions all three regions together relevant moral judgments vmpfc responsible emotional responding ac cognitive conflict dlpfc reasoning
+studies focusing hemispheric dominance emotion processing moral judgment also provided little consensus
+order understand whether lateralization prefrontal cortex lesions leads response differences moral dilemmas high emotional level tranel colleagues young colleagues examined subjects unilateral bilateral lesions
+both studies reported worse performance patients right bilateral prefrontal cortex lesions
+following line research mendez shapira also concluded subjects right frontal cortex lesions showed inadequate response pattern emotion processing abnormal judgment personal moral dilemmas
+results seem converge idea frontal cortex neuronal circuit morality predominance right hemisphere
+regardless region prefrontal cortex more dominant moral judgments evidence shows damage prefrontal cortex impairs social emotional behaviour leading inevitably some degree social isolation
+pattern becomes more severe over time because social opportunities become scarcer cognitive rehabilitation nearly nonexistent
+although several studies examined emotional behavioural changes brain damaged patients few studies pursued changes specifically frontal lesion subjects investigated possible association between social emotion processing moral judgment
+thus our first goal compare performance frontal tbi patients group healthy subjects moral judgment task
+secondary objective ask whether tbi patients' performance task differs when hemispheric lesion location right left bilateral specific damaged prefrontal cortex region were considered
+since literature describes association between adequate social emotion processing e g compassion shame guilt judgment moral dilemmas our third aim analyze participants' tbi patients controls performance social emotion recognition ask ask whether correlates utilitarian responses moral dilemmas

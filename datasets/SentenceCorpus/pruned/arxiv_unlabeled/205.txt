@@ -1,0 +1,64 @@
+
+system similar like
+systems influence decisions hence become targets
+provide theoretical empirical results while common algorithms widely used systems highly two classes algorithms linear linear relatively robust
+results provide design future systems
+introduction
+while available via provides options through alternatives identify choices
+systems process similar individuals
+at system algorithm predicts whether given will like various based his past behavior other
+algorithms example wide use systems including those
+algorithm each history may include instance his decisions
+predict whether particular will like particular algorithm number other similar
+prediction then generated based how
+prediction could example average past
+because decisions systems they become targets
+instance multiple online use each rate his own highly
+example system was so who were
+although may not been systems
+research literature further empirical evidence algorithms
+order one might consider each number limit number
+may effective some situations
+however do not financial would
+one might also consider using only data when they available basis because they likely generated
+quality may however if data also
+paper understand extent performance systems how algorithms should designed their influence
+find while algorithms algorithms out predictions based particular class probabilistic models robust
+will explain paper will algorithms linear algorithms
+find rates increasing number average accuracy predictions made linear algorithm data
+instance even if all provided who predictions long will average
+provide some why our results should now
+robust algorithm should learn its
+particular differences between its predictions actual should help improve predictions future
+linear algorithm predictions based probability distribution convex combination two one would learn given only data generated one would learn given only data
+whose predict provides more clear two distributions better his preferences
+result weight data
+main theoretical result paper above
+particular will define notion bound particularly simple n n before
+our analysis will also study algorithms like linear algorithms size training set
+class algorithms linear more modeling assumptions may improve prediction accuracy
+will version our bound linear algorithms linear algorithms
+will also show our bound does not generally algorithms
+because prediction errors do not always improve selection
+particular provides more data predictions his future may set while data generated may
+result predictions may not
+will later provide example
+addition theoretical results paper provides empirical analysis using available set generated system
+produce version data set generated using technique studied prior literature
+then compare results application three algorithm linear algorithm called kernel density estimation algorithm linear algorithm called algorithm
+results demonstrate while performance algorithm highly those kernel density estimation algorithms relatively robust
+particular latter two experience lower than theoretical bound provide whereas far
+one might also whether robustness algorithm at its prediction accuracy
+example consider algorithm predictions all constant without training data
+algorithm but likely predictions therefore not useful
+our experiments accuracy demonstrated three algorithms all seems
+suggests accuracy algorithm may robustness
+our theoretical empirical results together suggest systems using algorithms made more robust approaches describe
+note not systems should specific algorithms present paper
+rather our analysis properties algorithms lead robustness may taking properties into when systems
+paper follows
+next section discuss some related work
+section model context alternative algorithms
+then results robustness linear linear algorithms section
+section present our empirical study
+make some section

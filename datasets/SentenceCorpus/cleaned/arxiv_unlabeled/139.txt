@@ -1,0 +1,22 @@
+ 
+study problem dynamic spectrum sensing access cognitive radio systems partially observed markov decision process pomdp
+group cognitive users cooperatively tries exploit vacancies primary licensed channels whose occupancies follow markovian evolution
+first consider scenario where cognitive users perfect knowledge distribution signals they receive primary users
+problem obtain greedy channel selection access policy maximizes instantaneous reward while satisfying constraint probability interfering licensed transmissions
+also derive analytical universal upper bound performance optimal policy
+through simulation show our scheme achieves good performance relative upper bound improved performance relative existing scheme
+then consider more practical scenario where exact distribution signal primary unknown
+assume parametric model distribution develop algorithm learn true distribution still guaranteeing constraint interference probability
+show algorithm outperforms naive design assumes worst case value parameter
+also provide proof convergence learning algorithm
+ introduction 
+cognitive radios exploit vacancies licensed spectrum been proposed solution ever-increasing demand radio spectrum
+idea sense times when specific licensed band not used at particular place use band unlicensed transmissions without causing interference licensed user referred `primary'
+important part designing systems develop efficient channel selection policy
+cognitive radio also called `secondary user' needs adopt best strategy selecting channels sensing access
+sensing access policies should jointly ensure probability interfering primary's transmission meets given constraint
+first part paper consider design joint sensing access policy assuming markovian model primary spectrum usage channels being monitored
+secondary users use observations made each slot track probability occupancy different channels
+obtain suboptimal solution resultant pomdp problem
+second part paper propose study more practical problem arises when secondary users not aware exact distribution signals they receive primary transmitters
+develop algorithm learns unknown statistics show scheme gives improved performance over naive scheme assumes worst-case value unknown distribution

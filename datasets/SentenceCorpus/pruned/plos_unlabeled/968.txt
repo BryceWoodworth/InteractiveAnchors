@@ -1,0 +1,41 @@
+
+goal human genome accurate genome
+recently there been development many even more expected appear
+differ each other
+important goal reduce cost point consider
+here simulation will help us different genome especially large structural
+considered most step human genome
+end problems small scale
+using simulations show how different solve at low cost
+our simulations structure human genome computational complexity practical algorithms
+they show how different more than using one length how optimal sequencing strategy large novel usually also accurate detection how improve how more efficient than just sequencing some complex
+our strategy should sequencing human genomes at maximum accuracy low cost
+introduction
+human genome two pairs
+between individuals single relatively large structural larger many more smaller variation among individuals
+most large due genomic few others contain novel sequences not present reference genome
+goal determine all genetic differences between individuals understand how differences individuals
+making almost over past development high sequencing sequencing individual genomes
+et al reported sequencing genome based sequencing strategies
+et al presented another genome sequence sequencing comparative genome methods
+mean time other new sequencing sequencing become available individual genome sequencing corresponding sequence algorithm designed
+algorithms however single sequencing perform individual thus did not take full advantage all existing experimental
+1 characteristics several comparative individual genome sequencing
+at one long sequencing very will lead results at high cost
+another only short sequencing may generate good results detection but will not able either some genomic regions many large
+moreover at different also identify directly able number into analysis
+thus consider all experimental techniques into individual genome framework design experiment computational algorithms
+due existence reference genome high similarity between genome reference identification small relatively comparative analysis single small
+although there exist algorithms large complete large requires integration wide region often involving other genome
+if there were no human genome large would high short regions
+existence human genome however set will required some regions strategy both comparative approaches will necessary identify genomic events also large novel individuals
+thus much than others will main focus paper
+here present some case studies how different experimental individual genome especially large so achieve accurate sequencing
+optimal experimental design should combination long short sequencing also some
+some previous genome sequencing approaches using both long although general problem optimal experimental design not yet been studied
+while show potential based different integration strategies
+also since will useful general approach predict outcome different including new ones future
+following will first describe comparative genome framework most large then use set simulations experimental design
+since full simulations large parameter space different simulations out framework real genomic data sequencing process
+also simulation framework new well parameters existing ones provide optimal strategies characteristics when them more important
+simulation framework general optimal

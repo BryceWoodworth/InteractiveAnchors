@@ -1,0 +1,97 @@
+
+decision making future network control
+distributed important example where nodes make decisions networks
+decisions dependent multiple nodes network
+hence important how accurate decisions versus how much information among nodes
+known
+optimal but
+efficient but may result performance
+work distributed where nodes whether using only local information
+work first model large number distributed using probabilistic model
+then define distributed its approximation optimal within given error bound
+show sufficient condition distributed optimal local decisions should markov random field
+decision variables however do not exact spatial markov due through multiple
+hence study patterns derive sufficient conditions distributed
+develop based probabilistic models distributed algorithm
+algorithm used each make decisions
+study between performance complexity amount distributed algorithm
+algorithm both analysis simulation
+introduction
+future network involve nodes make decisions
+new less important existing well studied policy based control i e based
+specifically defined at network where new call set up high between source s d
+when at all between pair some existing lower need reduce their class e g simply new call
+decisions lower free new call at chosen
+goal whether active so total under constraints new call available free at each been described prior
+example allows new core networks eg networks
+also
+potential applications networks
+example delay class than through
+proposed their importance used well networks there two significant performance complexity
+performance whether result new
+complexity amount information needed decision
+known
+complexity results large number active core network decisions need made
+example if each order there would per
+addition generally through multiple nodes making decisions among nodes dependent thus difficult local information
+thus may require amount information perform large network decisions information active their at
+then active upon new call
+therefore always optimal resulting
+but amount information needed at
+example let total number distinct per class at new call
+each two states not
+total number possible states making decision
+when order
+then amount information at each thus requires its local information i e active at their
+information available at nodes
+then other nodes
+however may local decisions same multiple resulting more than necessary
+other words decision spatial across multiple may perform
+but amount information reduced compared
+example let maximum number active per
+total number states at each
+since compared much smaller search space decisions
+therefore most algorithms literature focus see there work studies distributed decisions take into account spatial among through local information
+fact distributed considered generalization
+one case distributed information whereas decisions another case where size
+therefore communication complexity characterized terms size
+there between complexity general been shown difficult problem develop distributed algorithm whose performance within i e given error bound optimal
+hence open when distributed decisions result global b how model large number dependent decision variables obtain local decisions using distributed algorithms
+apply machine learning study learning machine learning view distributed individual nodes make
+if each complete information all active at new will able make correct decisions
+however at any given time only information active its decisions
+but i e learn make decisions based those its
+learn would learn what nodes only delay
+all nodes would make local decisions resulting at how would machine learning distributed
+problem learning decision-making been interest machine learning adaptive control but just see applications
+particular using markov random general model decision-making networks
+model then applied networks
+our prior work obtain probabilistic models networks network properties resulting probabilistic models turn out
+work distributed decisions network
+view machine learning framework large number decision variables
+spatial among variables key high communication complexity not been prior
+machine learning provides approaches problem below global model distributed first develop probabilistic model explicitly spatial distributed decisions over new
+results active their
+decisions made at each also random due local information distributed
+first obtain cost function potential
+local decisions constraints into single
+constraints include new at each
+then used obtain spatial probabilistic model distribution b markov random field sufficient spatial characterized through probabilistic graph models machine learning
+probabilistic graph provides simple yet representation spatial among random variables
+show if decision variables optimal decision obtained local decisions through information only nodes
+probabilistic model known markov random field
+general distributed decisions may not markov since spatial across multiple
+hence identify patterns active result spatial markov
+then define distributed decisions difference between distributed decisions measured obtain sufficient conditions difference within error bound c distributed decision distributed algorithm derived based markov random field
+algorithms through either sampling d issue i e distributed achieve performance complexity
+here performance measures distributed decision relative optimal decision
+communication complexity distributed characterized amount information used distributed decision making
+distributed decisions reduce complexity using information only but may optimal performance
+hence study performance complexity through both analysis simulation paper follows
+section provides problem
+section probabilistic spatial model distributed models machine learning derived model terms complexity
+section distributed algorithm based derived model using probabilistic inference
+section performance distributed
+section performance distributed through simulation
+section provides further literature review
+section paper

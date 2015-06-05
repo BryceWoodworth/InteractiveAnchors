@@ -1,0 +1,43 @@
+ 
+because query execution most crucial part inductive logic programming ilp algorithms lot effort invested developing faster execution mechanisms
+execution mechanisms typically low-level implementation making them hard debug
+moreover other factors complexity problems handled ilp algorithms size code base ilp data mining systems make debugging at level very difficult job
+work present trace-based debugging approach currently used development new execution mechanisms hipp engine underlying ace data mining system
+debugger uses delta debugging algorithm automatically reduce total time needed expose bugs ilp execution thus making manual debugging step much lighter
+ introduction 
+data mining process finding patterns describe large set data best
+inductive logic programming ilp multi-relational data mining approach uses logic programming paradigm its basis
+ilp uses generate-and-test approach where each iteration large set hypotheses `queries' evaluated data also called `examples'
+based results evaluation ilp process selects ``best'' hypotheses refines them further
+due size data problems handled ilp underlying query evaluation engine e g prolog system crucial part real life ilp system
+hence lot effort invested optimizing engine yield faster evaluation time through use new execution mechanisms different internal data representations etc
+development new execution mechanisms ilp happens mainly engine ilp system
+optimized execution strategies typically require low level implementation yield significant benefits
+example query pack adpack execution mechanisms require introduction new dedicated wam instructions together set new data structures instructions use manipulate
+because their low-level nature finding bugs implementation execution mechanisms very hard
+while tracing bugs low-level implementations might still feasible small test programs many bugs only appear during execution ilp algorithm real life data sets
+several factors make debugging situation difficult: size ilp system itself
+real life ilp systems group implementation many algorithms into one big system
+systems therefore often very large code base
+example ace system consists over 150000 lines code
+case ace system code base very heterogeneous where parts code written different languages others generated automatically using preprocessors etc
+makes practice very hard use standard tracing detect bugs
+complexity/size ilp problem
+large datasets take very long time hours even days before specific bug occurs
+when debugging one typically performs multiple runs small modifications pin-point exact problem so long execution times make approach infeasible
+high complexity hypothesis generation phase
+while evaluation hypotheses often bottleneck some algorithms rule learners very expensive hypothesis generation phase
+phase independent execution queries itself no influence exposure bug
+algorithms very complex hypothesis generation take very long time bug execution mechanism expose itself even when time spent executing queries small
+non-determinacy ilp algorithms
+if ilp algorithm makes random decisions typically hypothesis generation phase exact point time where bug occurs changes run run
+even possible bug does not occur at all certain runs
+ proposed trace-based approach analyzing debugging ilp data mining execution
+approach allowed easy fast debugging underlying query execution engines independent ilp algorithm causing bug appear
+work present extension debugging approach automating large part debugging process
+applying delta debugging algorithm  ilp execution traces automatically generate minimal traces exposing bug thus greatly reducing time effort needed track bug down
+approach currently used development new execution mechanisms hipp  engine underlying ace data mining system \\ organization paper follows: section give brief introduction inductive logic programming
+section discusses collection run-time information necessary our trace-based debugging approach
+section then discusses applying delta debugging algorithm traces allow fast easy debugging
+briefly discuss implementation our delta debugger section
+finally conclude section

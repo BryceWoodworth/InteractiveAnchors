@@ -1,0 +1,46 @@
+ 
+while statistics focusses hypothesis testing estimating properties true sampling distribution machine learning performance learning algorithms future data primary issue
+paper bridge gap general principle phi identifies hypotheses best predictive performance
+includes predictive point interval estimation simple composite hypothesis testing mixture model selection others special cases
+concrete instantiations will recover well-known methods variations thereof new ones
+phi nicely justifies reconciles blends reparametrization invariant variation map ml mdl moment estimation
+one particular feature phi genuinely deal nested hypotheses
+ introduction 
+consider data sampled some distribution unknown
+likelihood function posterior contain complete statistical information sample
+often information needs summarized simplified various reasons comprehensibility communication storage computational efficiency mathematical tractability etc 
+parameter estimation hypothesis testing model complexity selection all regarded ways summarizing information albeit different ways context
+posterior might either summarized single point e g \ ml map mean stochastic model selection convex set e g \ confidence credible interval finite set points mixture models sample points particle filtering mean covariance matrix gaussian approximation more general density estimation few other ways
+i roughly sorted methods increasing order complexity
+paper concentrates set estimation includes multiple point estimation hypothesis testing special cases henceforth jointly referred `` hypothesis identification '' nomenclature seems uncharged naturally includes what will do: estimation testing simple complex hypotheses but not density estimation
+will briefly comment generalizations beyond set estimation at end
+there many desirable properties any hypothesis identification principle ideally should satisfy
+should \parskip=0ex\parsep=0exsep=0ex lead good predictions that's what models ultimately broadly applicable analytically computationally tractable defined make sense also non iid \ non-stationary data reparametrization representation invariant work simple composite hypotheses work classes containing nested overlapping hypotheses work estimation testing model selection regime reduce special cases approximately existing other methods
+here concentrate first item will show resulting principle nicely satisfies many other items
+address problem identifying hypotheses parameters/models good predictive performance head
+if true parameter then obviously best prediction future observations
+if don't know but prior belief about its distribution predictive distribution based past observations averages likelihood over posterior weight  definition best bayesian predictor often cannot use full bayes reasons discussed above but predict hypothesis  i e \ use prediction
+closer better 's prediction definition where measure closeness some distance function
+since assumed unknown sum average over them
+predictive hypothesis identification phi minimizes losses w r t \ some hypothesis class
+our formulation general enough cover point interval estimation simple composite hypothesis testing mixture model complexity selection others
+general idea inference maximizing predictive performance not new
+indeed context model complexity selection prevalent machine learning implemented primarily empirical cross validation procedures variations thereof minimizing test and/or train set generalization bounds; see references therein
+there also number statistics papers predictive inference; see overview older references newer references
+most them deal distribution free methods based some form cross-validation discrepancy measure often focus model selection
+notable exception mlpd  maximizes predictive likelihood including future observations
+full decision-theoretic setup decision based leads loss depending  minimizing expected loss been studied extensively  but scarcely context hypothesis identification
+natural progression estimation prediction action approximating predictive distribution minimizing \req{lpt} lies between traditional parameter estimation optimal decision making
+formulation \req{lpt} quite natural but i haven't seen elsewhere
+indeed besides ideological similarities papers above bear no resemblance work
+main purpose paper investigate predictive losses above particular their minima i e \ best predictor
+section introduces notation global assumptions illustrates phi simple example
+also shows shortcoming map ml esimtation
+section formally states phi possible distance loss functions their minima section  i study exact properties phi: invariances sufficient statistics equivalences
+sections investigates limit phi related map ml
+section derives large sample approximations phi reduces sequential moment fitting smf
+results subsequently used offline phi
+section contains summary outlook conclusions
+throughout paper bernoulli example will illustrate general results \paranodot{the main aim} paper introduce motivate phi demonstrate how deal difficult problem selecting composite nested hypotheses show how phi reduces known principles certain regimes
+latter provides additional justification support previous principles clarifies their range applicability
+general treatment exemplary not exhaustive

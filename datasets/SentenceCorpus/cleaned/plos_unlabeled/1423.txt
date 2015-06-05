@@ -1,0 +1,44 @@
+ 
+fundamental properties phasic firing neurons usually characterized noise-free condition
+absence noise phasic neurons exhibit class 3 excitability lack repetitive firing steady current injections
+time-varying inputs phasic neurons band-pass filters slope detectors because they do not respond inputs containing exclusively low frequencies shallow slopes
+however show noisy conditions response properties phasic neuron models distinctly altered
+noise enables phasic model encode low-frequency inputs outside response range associated deterministic model
+interestingly seemingly stochastic-resonance like effect differs significantly classical sr behavior spiking systems both signal-to-noise ratio temporal response pattern
+instead being most sensitive peak subthreshold signal typical classical sr system phasic models most sensitive signal's rising falling phases where slopes steep
+finding consistent fact there not absolute input threshold terms amplitude; rather response threshold more properly defined stimulus slope/frequency
+call encoding low-frequency signals noise phasic models slope-based sr because noise lower diminish slope threshold ramp stimuli
+demonstrate here similar behaviors three mechanistic models class 3 excitability presence slow-varying noise suggest slope-based sr fundamental behavior associated general phasic properties rather than particular biological mechanism
+ introduction 
+stochastic resonance been extensively described both bi-stable excitable systems classic example noise enhanced processing
+briefly sr involves noise facilitating dynamic state transitions threshold crossing while permitting phase-locked response subthreshold signal
+interaction signal noise response nonlinearity maximizes signal encoding at nonzero value noise intensity
+here characterize novel manner sr-like phenomena occur phasic neuron models
+phasic neurons characterized absence repetitive firing steady current injection low-frequency input yet show faithful responses brief pulsatile high-frequency signals
+classical sr system often exemplified non-phasic neurons signal detected without noise simply making its amplitude adequately large
+contrast deterministic phasic neurons will not respond low-frequency input even if signal amplitude very large making phasic neurons ideal framework study noise-gated coding
+convey our insights presenting detailed results phasic model been widely used modeling various auditory brainstem phasic neurons perform precise temporal processing respond only rapid transients coincidences
+then examine other types phasic models showing our findings general
+class 3 excitability commonly used define phasic responses created different cellular mechanisms recruiting low-threshold potassium current inactivating sodium current steepening activation high-threshold fast potassium current
+phasic neuron model our primary focus here hodgkin-huxley type model i klt
+combining same phasic neuron model whole-cell recordings medial superior olive gerbil previously shown adding noise enables phasic neurons detect low-frequency inputs alone cause no spiking response
+although behavior seems consistent sr fundamentally different sr reasons listed below
+classical sr system adding small amount noise subthreshold signal facilitates threshold crossing spike emission upon crossing membrane voltage threshold
+when intensity noise properly chosen signal encoded eliciting more spikes around signal's peak fewer spikes around its trough
+larger amplitude subthreshold signal better noise-gated encoding becomes; whereas supra-threshold signals noise will only degrade signal encoding
+sense call classical sr system amplitude-based stochastic resonance
+however discovered phasic mso neurons phasic neuron model responded rising falling trough phases depending spectrum noise but not signal's peak except very large noise
+here report essential feature phasic neurons response threshold better defined terms slope rather than amplitude input
+further show noise-gated signal encoding sensitive slope signal opposed its amplitude
+reason label sr-like phenomena phasic neurons slope-based stochastic resonance 
+study highlight novelty phasic neuron's slope-based sr behavior contrasting qualitatively distinct amplitude-based sr coding properties tonic neurons
+end first compare dependence signal-to-noise ratio noise intensity obtained tonic model phasic model
+addition analyzing snrs pay attention temporal firing patterns often overlooked when sr systems concerned
+next show slope-based sr behavior phasic model reflected highly non-monotonic f-i relation compelling feature firing rate falls continuously zero increasing i f-i curves been reported phasic neurons models
+finally slope threshold response ramp stimulus observed noise-free conditions reduced diminished addition noise
+total report influence noise any noise-assisted coding performed phasic neurons significantly distinct tonic neurons
+occurrence class 3 excitability often associated outward currents i.e i klt i kht
+far less realized strong inactivation i na also create class 3 excitability
+show slope-based sr behavior observed phasic models created manipulating voltage dependency either i kht i na when noise spectrum favors low frequencies
+our present study complemented our previous experimental results reveals phasic neurons substantially different behaviors noisy conditions compared their behaviors non-noisy conditions
+conventional views phasic neurons being band-pass filters slope detectors all acquired idealized conditions no noise present should re-evaluated noisy conditions

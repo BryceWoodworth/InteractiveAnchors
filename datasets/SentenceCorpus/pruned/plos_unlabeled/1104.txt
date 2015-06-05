@@ -1,0 +1,52 @@
+
+neural populations typically distribution
+short time scales however distribution too describe analyze distributions
+present alternative based account arbitrary distributions including negative distributions well second interactions
+describe maximum models data derive makes possible arbitrary into arbitrary probability distribution
+different structures model different processes also introduced
+first apply models populations neurons correlated input show best provide information about functional connectivity neurons using
+then apply new method data were using
+find distributions negative provide appropriate stochastic model distributions rather than variables distribution often used normal distribution
+structure distributions provides evidence common input all stimulus neurons
+finally show models used evaluate neural distributions information measures
+models not only class models distributions but those models understand functional
+introduction
+so far still unknown statistics analysis order understand neural
+one approach analyze neural populations
+responses populations neurons even when same stimulus presented between usually correlated at least neurons
+noise been subject number studies
+computational however studies typically assume noise
+thus correlated rates generally normal distributions specific matrix all linear
+long time high firing rates average number large central limit theorem apply normal distribution good approximation distributions
+several experimental findings however suggest processing information take place time scales involving only
+normal distribution no
+its continuous whereas empirical distributions real tend positive
+normal distribution order positive probabilities negative values not
+major issue low rates probability negative values would high
+structure normal distribution always whereas data often show probability one
+normal distribution second order only
+although was shown interactions sufficient distributions cells cells there evidence significant higher order interactions
+though not modeling alternative models been proposed previous studies distributed parameters higher order multiple interaction process model model
+both models point processes
+terms their distributions models special cases variables distribution first introduced presented matrix
+similar normal distribution model also only
+negative cannot represented
+structure features like cannot
+use class models distributions models
+models based concept allow arbitrary distributions using set structures
+they were also applied model distribution continuous
+1 concept using data two real neurons
+shows empirical distribution its two
+distribution depends length time used here formula
+case considered correlation at low higher than at high
+called lower
+shows normal distribution
+other hand probabilities distribution well empirical distribution
+paper follows
+next section methods contains description normal distribution variables distribution approach model
+section will also introduce novel
+method novel result
+will then describe computational model used generate data experimental analysis
+section results models will applied data generated models neural populations data during visual memory task
+models also investigated
+paper approach

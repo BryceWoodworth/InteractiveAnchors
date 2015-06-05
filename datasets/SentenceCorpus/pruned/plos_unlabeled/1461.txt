@@ -1,0 +1,22 @@
+
+potentially become important part control strategy many early cases novel
+here make use mathematical models consider case however models simple allow more general
+show when contact network structure considered addition contact standard action models generally
+consider impact develop existing network models use demonstrate clustering contact large region parameter space
+result however case highly effective contact
+also develop stochastic simulations comparison using simple methods allow appropriate networks
+way general theory against disease
+introduction
+become central understanding disease control strategies
+one control method contact been considered large number disease
+include control
+particular allows control at cost effort finding individuals at risk
+since contact place process over network interactions between natural consider models process
+theoretical work so far contact process through simulation
+work means numbers contact well
+case clustering due existence short contact network generally been more difficult make similar
+existing theoretical work therefore either been case populations all clustering due simulation networks
+work derive models two significant problems existing use make impact clustering contact other network parameters constant appropriate
+find many parameter choices there out increased impact contact clustering increases
+not however general result full clustering contact should subject case case
+perform our analysis within while some our will general all disease other will towards where does not

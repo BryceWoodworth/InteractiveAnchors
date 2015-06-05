@@ -1,0 +1,46 @@
+
+rules goal
+aim under
+knowledge representation systems description
+paper consider problem rules
+propose general framework rule power
+framework description prediction
+yet also discuss framework at description out useful
+introduction
+during increasing attention been their role knowledge
+sense may particular system certain world
+system does not depend particular always same used describe
+other hand its most use more produced according specific used describe certain set assumptions words
+set assumptions usually form theory where words appear binary called
+case related more cases order other relationships between their
+two described above indeed related each other but order solve used appear following based domain interest
+among other fact
+only using approach provide machine expected when using approach
+among proposed most used description
+note first order power } its approach relevant role
+world wide information his tasks
+shown
+several each
+particular design been based very
+whereas process at rules still
+like order primary rules
+between way similar knowledge representation systems
+generally systems systems two more distinct single knowledge base specific
+systems improve two basic features power other feature i e
+particular if between them not reduced
+system using concept type constraints variables
+been very recently rule because its underlying form integration called computational though more than not
+rules including ones been usually considered task knowledge
+often machine learning algorithms approaches
+approach known under seems case at hand due common
+been rule examples knowledge within representation framework aim prediction
+more recently towards either different e g new learning e g description
+paper define general framework learning rules within framework
+framework proposed general sense description prediction
+framework case description
+paper follows
+section basic
+section framework learning rules
+section framework
+section paper
+between

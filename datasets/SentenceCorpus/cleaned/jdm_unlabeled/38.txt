@@ -1,0 +1,16 @@
+ 
+people often more likely accept risky monetary gambles positive expected values when gambles will played more than once
+investigated whether distinction between single-play multiple-play gambles extends medical treatments individual patients groups patients
+resident physicians medical students n number undergraduates n number ranked number different flu shots no-flu-shot option number number combinations perspective individual patient vs group number patients uncertainty frame probability vs frequency
+rank no-flu-shot option measure preference treatment vs no treatment was not significantly related perspective participant population
+main effect uncertainty frame interaction between perspective uncertainty frame approached significance number number greater than p greater than number number no-flu-shot option faring particularly poorly treatment faring particularly well when decisions about many patients were based frequency information
+undergraduate participants believed no-flu-shot option would less attractive treatment would more attractive decisions about many patients but intuitions were inconsistent actual ranks
+results those other studies suggest medical treatments individuals groups not analogous single-play multiple-play monetary gambles perhaps because many people unwilling aggregate treatment outcomes over patients same way they would compute net gains losses over monetary gambles
+ introduction 
+convincing body research demonstrates people often make different choices when making multiple-play decisions than when making single-play decisions
+samuelson initiated literature revealing anecdote about lunch colleague who would reject single gamble even chance winning number losing number but who would accept series number gambles
+subsequently several studies indicated people more likely accept mixed gambles i e gambles involving possible gain possible loss positive expected values evs when gambles will played more than once although opposite result been also been observed
+multiple plays samuelson-type gambles particularly attractive when participants shown distribution possible outcomes resulting repeated plays
+although rationality making different choices single-play multiple-play gambles been debated article concerned primarily empirical distinction
+related research shows multiple plays may also increase attractiveness higher-ev unmixed gambles reduce incidence certainty possibility effects reduce choosing pricing preference reversals reduce illusion control facilitate multiplicative combination probabilities outcomes
+taken together results indicate choices preferences often more consistent expected value theory expected utility theory when multiple plays considered

@@ -1,0 +1,34 @@
+
+feature markov decision processes learning agents general environments
+limited relatively simple environments
+like dynamic bayesian networks used problems
+article i
+primary derive cost criterion allows most relevant features environment leading representation
+i discuss all required complete general learning algorithm
+dynamic bayesian structure feature global local
+introduction
+agent environment very general framework learning systems
+environment provides observation e g \ image then agent action e g \ finally environment provides reward agent
+reward may very eg \ just 1 1 game at all other times
+then next cycle
+objective his reward
+example sequence prediction environments do not agents actions e g \ case where environmental function known classification regression independent observations markov decision processes assume only depend dynamic bayesian networks
+problems often
+relevant features history e g \ position all objects i e \ history feature vector
+feature vectors states assumed markov
+general agents perform well very large range environments including all ones above more
+general situation not clear what useful features
+indeed any observation far past may relevant future
+solution suggested learn itself
+if too much history e g \ resulting too large cannot learned
+if too little resulting state sequence not markov
+cost criterion i develop
+at any time best one markov length
+but actually different length
+use even our optimal ones limited relatively simple tasks
+problems often represented dynamic bayesian networks number nodes
+bayesian networks general particular tools modeling complex problems
+theory increase power their range
+primary work selection principle developed much more case
+major learning rewards cost criterion structure learning structure how find optimal value function policy
+although article first

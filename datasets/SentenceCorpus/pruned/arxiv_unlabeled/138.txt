@@ -1,0 +1,29 @@
+
+previous studies learning typically distributed
+however independent real tasks better performance expected if
+way among
+paper propose two simple yet effective methods
+first method explicitly every graph design graph kernel positive negative
+second method construct graphs matrices propose efficient graph kernel information
+proposed methods experiments
+introduction
+learning each training example
+positive if contains at least one positive instance negative
+although training known however unknown
+goal construct
+learning been found useful domains image image computer detection etc
+advantage learning fact many real objects structures representation able represent objects more more information than simply using representation
+example image into several
+contrast whole image if represent each part instance then information if e g each part region additional information representation may make learning task
+not good idea apply learning techniques since if representation sufficient using representation just
+even tasks where objects structures should power representation exists its ability some structure information
+however previous studies learning typically fact among important structure information
+above image task different image samples more than them samples
+actually independent better performance expected if
+way among
+paper propose two learning methods do not
+samples
+our basic idea each whole components
+experiments show our proposed methods achieve highly learning methods
+paper follows
+review related work section 2 propose new methods section report our experiments section paper finally section

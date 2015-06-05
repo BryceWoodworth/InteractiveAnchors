@@ -1,0 +1,55 @@
+
+study problem online learning
+practical applications focus when number actions very large
+previous algorithms learning framework learning rate parameter using practical applications not how set parameter particularly when number actions large
+paper solution novel algorithm
+introduce new notion regret more natural applications large number actions
+show our algorithm good performance respect new notion addition also performance close best bounds previous algorithms parameters according previous regret
+introduction
+paper consider problem online learning proposed
+problem prediction
+problem must probabilities fixed set actions sequence
+after each each action loss value loss expected loss actions where according current probability
+regret action difference between loss loss action
+goal achieve any sequence losses low regret action loss best action
+general framework many learning problems interest
+example consider hidden state object continuous state space observations
+at framework set each action sequence states over state space
+loss action at time distance between observation at time state action at time goal predict loss close action loss
+most popular solution problem algorithm
+each action probability depends loss action parameter also called learning rate
+setting learning rate function number actions achieve regret each where number actions
+bound regret optimal there
+paper practical applications consider where number number actions } very large
+major using practical problems when large not how set learning rate
+suggest setting fixed function number actions
+however lead performance example section performance particularly larger
+one way address multiple multiple values learning rate choosing output best online way
+however solution real applications particularly very large more about solutions see section paper take step towards making online learning more practical novel adaptive algorithm
+our algorithm called
+very simple each simply involves single search weights all actions
+second issue using problems where very large regret best action not effective measure performance
+problems one actions close action loss
+actions also low loss performance respect small group actions perform well see example
+paper address issue new notion regret more natural practical applications
+order losses all actions define regret difference between loss } prove regret actions at most all
+if set regret best action only than bound parameters
+our regret bound term involving no
+contrast cannot achieve nature all how perform our new notion regret see section
+each action actions lower loss than algorithm potential where regret action adaptive scale parameter one next depending
+actions higher loss than algorithm potential
+weight action each then its potential
+one also algorithm under potential action potential used other related algorithms significantly one use potential used significantly one use } although other methods been considered context online learning our potential function very novel best our knowledge not been studied prior work
+our techniques also different previous methods
+another useful property does not weight any action whose loss larger than loss algorithm itself
+other words weights only actions perform better than algorithm
+most small set actions perform significantly better than most actions regret algorithm small means algorithm will perform better than most actions will therefore them probability regret algorithm small means algorithm will perform better than most actions thus them probability } proposed more recent solutions regret best action function loss best action function losses
+bounds than bounds respect
+our analysis fact our knowledge any analysis based potential functions do not directly bounds
+therefore open question finding adaptive algorithm regret function depends loss best action
+paper follows
+section 2 provide
+section provide example standard online learning algorithms when parameter not set
+section discuss related work
+section present some
+

@@ -1,0 +1,69 @@
+
+component analysis widely used technique data analysis dimension reduction applications
+however standard fact components usually linear all original variables thus often difficult
+various sparse approaches were proposed literature
+despite some important properties standard methods vectors
+also total they too
+paper propose new sparse at finding sparse vectors while much total possible
+also develop novel method class optimization problems well our sparse
+show point moreover under some assumptions point
+propose two methods their global local convergence
+finally compare our sparse approach several existing methods random real data
+computational results demonstrate sparse produced our approach those other methods terms total correlation vectors sparse method methods subject
+introduction
+component analysis popular data processing dimension reduction
+been widely used applications biology image processing machine learning so
+example recently been applied human recognition classification gene expression data analysis see
+at finding few linear original variables called components point much variables possible
+well known found via matrix
+however typically unknown practice
+instead via value data matrix sample matrix
+let random vector data matrix observations
+without loss assume means all
+then used sample matrix
+then corresponding vectors
+also obtained see example
+vectors moreover
+thus see if corresponding they correlated each other see section
+now describe several important properties obtained standard when well estimated see also 1 maximum variables thus information loss much 2 so different small point their vectors each other
+practice typically first few represent data thus reduction
+due features usually linear all variables typically
+makes often difficult especially when large
+indeed many applications original variables physical
+example biology each variable might represent expression level gene
+cases would if they were only small number original variables each involved small number
+thus develop sparse techniques finding sparse while above three properties much possible
+sparse been active research more than
+first class approaches based methods obtained standard above
+example applied various techniques standard sparse vectors
+proposed simple approach setting standard values smaller than threshold
+recent years optimization approaches been proposed finding sparse
+they usually sparse into optimization problem at while much possible
+instance et al \ proposed algorithm called finding sparse vectors approximate each under norm vectors
+et al \ sparse optimization problem combination norm regression
+et al \ proposed method called finding sparse sequence program sparse
+recently developed approach sparse sequence matrix approximation problems under several
+very recently et al \ sparse maximization problems norm
+they showed problems reduced into maximization convex function set they also proposed simple but efficient method finding point latter problems
+methods were investigated sparse et al \ et al \
+obtained above methods usually sparse
+however properties standard some extent sparse
+indeed likely correlation among sparse not considered methods
+therefore their sparse correlated each other
+also total methods too there may some among individual sparse
+finally vectors sparse given methods lack
+paper propose new sparse taking into account three properties standard total vectors
+also explore standard show certain standard
+further propose novel method class optimization problems well our sparse
+method classical method i values functions at their approximate given method parameters see section
+show method point moreover point under some assumptions
+also propose two methods class functions over convex set applied our method
+further global convergence under local error bounds assumption local linear rate convergence methods
+finally compare sparse approach proposed paper several existing methods random real data
+computational results demonstrate sparse obtained our approach those other methods terms total correlation vectors
+paper follows
+section propose new sparse explore standard
+section then develop novel method class problems propose two methods class functions over convex set
+section discuss our method sparse
+sparse approach proposed paper then compared several existing methods random real data section
+finally present some section

@@ -1,0 +1,39 @@
+ 
+research forecasting effectively limited forecasts expressed clarity say forecasted event must sufficiently well-defined so clearly resolved whether not event occurred forecasts certainties expressed quantitative probabilities
+when forecasts expressed clarity then quantitative measures scoring rules calibration discrimination etc
+used measure forecast accuracy turn used measure comparative accuracy different forecasting methods
+unfortunately most real world forecasts not expressed clearly
+lack clarity extends both description forecast event use vague language express forecast certainty
+thus difficult assess accuracy most real world forecasts consequently accuracy methods used generate real world forecasts
+paper addresses deficiency presenting approach measuring accuracy imprecise real world forecasts using same quantitative metrics routinely used measure accuracy well-defined forecasts
+demonstrate applicability inferred probability method applied measure accuracy forecasts fourteen documents examining complex political domains
+ introduction 
+forecasting accuracy determination practices methods tools improve accuracy topic substantial research practical importance
+when endeavoring measure forecast accuracy researchers generally require forecasted events clearly described degree forecast certainty expressed quantitative probabilities
+contrast forecasting research most published forecasts describe forecast events considerable imprecision use vague certainty expressions
+particularly true forecasts about complex international political events substantive domain interest us
+consider example statement stratfor forecasts number iran it's rather difficult gauge what meant fair chance
+number percent chance number percent chance perhaps number percent chance
+if event occurs would unclear if should judged mostly accurate inaccurate forecast
+consider also following statement stratfor iran number forecast addition fact different individuals vary widely their interpretation word likely phrase backing down itself hard define
+if there negotiated settlement does mean iran backed down other parties backed down settlement was found where everyone could claim success
+cases difficult specify clear criteria priori determining whether not event occurred
+anecdotally authors forecasting documents expressed us vigorous arguments favor imprecise forecasts
+they believe clarity requirements severely limit their ability express what they intend say
+example phrase backing down succinctly describes important element forecast event-namely individuals involved will accepting option less desirable than their expressed preference
+addition many forecasters prefer verbal certainty expressions quantitative uncertainties because they believe later connotes artificial precision misleads readers
+though there may valid reasons expressing forecasts imprecisely there still need evaluate forecast accuracy
+research expert political judgment would suggest lacking objective feedback accuracy their forecasts experts unlikely accurately determine when their forecasts were inaccurate
+particular given hindsight memory bias would anticipate forecasters will remember certainty statements fair chance having meant low probability when event didn't occur high probability when event did occur
+furthermore without measuring accuracy real world forecasts difficult compare accuracy different forecasting methods outside artificial research settings-and unfortunately results artificial research settings widely ignored practitioners
+distinction between academic research practice well illustrated fourteen years research political analysts summarized tetlock
+every research effort described tetlock involved constructing carefully defined forecasting questions asking analysts provide quantitative forecasts
+forecasts analysts actually published were not examined
+paper describe method measuring accuracy imprecise forecasts
+our objective add sufficient rigor evaluation imprecise forecasts enable application common metrics forecast accuracy forecasts actually published
+our approach incorporates two basic techniques inferred probabilities impartial ground truth judgments
+first use inferred probabilities impute quantitative probabilities verbal expressions certainty
+simply put ask multiple readers assign quantitative probabilities based their understanding written document rather than their personal beliefs
+second ask multiple ground truth raters who do not see original documents inferred probabilities independently research estimate whether not forecasted event occurred
+addition needed use inter rater agreement data statistically adjust estimated ground truth frequencies
+below present details our current instantiation inferred probability method

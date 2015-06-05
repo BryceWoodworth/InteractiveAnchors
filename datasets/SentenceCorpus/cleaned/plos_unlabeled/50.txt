@@ -1,0 +1,25 @@
+ 
+quasispecies clouds genotypes appear population at mutation selection balance
+concept recently attracted attention virologists because many rna viruses appear generate high levels genetic variation may enhance evolution drug resistance immune escape
+literature important evolutionary processes however quite challenging
+here use simple models link mutation selection balance theory most novel property quasispecies: error threshold mutation rate below populations equilibrate traditional mutation selection balance above population experiences error catastrophe loss favored genotype through frequent deleterious mutations
+models show single fitness landscape may contain multiple hierarchically organized error thresholds error threshold affected extent back mutation redundancy genotype-to-phenotype map
+importantly error threshold distinct extinction threshold complete loss population through lethal mutations
+based framework argue lethal mutagenesis viral infection mutation-inducing drugs not true error catastophe but extinction catastrophe
+ introduction 
+concept mutation selection balance one oldest most fundamental pillars population genetics: natural selection increases frequency fit variants while mutations introduce unfit variants giving rise equilibrium distribution balanced between two effects
+mutation selection balance been invoked explain persistence undesirable genes example those underlying inbreeding depression genetic diseases even senescence
+despite long history concept some its consequences were only realized 1971 when manfred eigen studied mutation selection dynamics long genomes
+he found populations do not necessarily attain classic mutation selection balances wild-type allele most common but rather attain equilibrium abundant assemblage mutant genotypes rare wild-type
+he peter schuster later called collection genotypes at equilibrium quasispecies
+concept offered not only intuitive extension mutation selection theory based simple one two-locus systems but also novel insight into impact mutation rate evolutionary dynamics
+particular eigen found there states trivial boost mutation rate lead fundamental change composition genotypes population
+change phase transition physics terms called error catastrophe
+error catastrophe been applied liberally metaphor complications high mutation rates likely plagued primordial life currently challenges extant viruses rna genomes
+error-catastrophe model inspired treatments extirpate viral populations mutation enhancement model been generalized explain attraction populations mutationally robust regions fitness landscapes
+error catastrophe imparted mystique quasispecies concept much literature rna virus evolution now uses quasispecies enriched synonym high mutation rate
+excellent short review topic its relationship population genetics theory provided wilke 
+eigen's insights were developed context genomes many loci each suffered mutation
+appropriately quasispecies since been considered large-genome context
+yet many its concepts easily illustrated much simpler case few genotypes our approach here
+our results not new per se but our models should convey quasispecies error-catastrophe concepts broad audience correct some common misunderstandings

@@ -1,0 +1,35 @@
+
+learning structures hidden variables statistical models because they their information matrices
+statistical models does distribution normal distribution does maximum likelihood
+main been difficult predict their generalization performance states
+paper study four errors 1 generalization error 2 training error generalization error training error prove there universal mathematical among errors
+paper states statistical estimation because they any true distribution any model any distribution
+also show generalization errors estimated training errors propose widely information applied both statistical models
+introduction
+recently many learning being used information processing systems
+example neural networks normal networks reduced rank hidden markov models stochastic being pattern recognition time series prediction control human modeling
+although their generalization determine accuracy information systems been difficult estimate generalization errors based training errors because learning statistical models
+model called if parameter probability distribution if its information matrix always positive
+if statistical model then distribution normal distribution maximum likelihood
+based properties relation between generalization error training error was some information were proposed
+other hand if parameter probability distribution not if information matrix then model called
+general if learning machine structure hidden variables then
+therefore almost all learning
+learning likelihood function not any form parameter result relationship between generalization errors training errors does not either maximum likelihood method estimation
+strongly affect generalization learning dynamics
+therefore order mathematical learning theory necessary construct even learning
+recently generalization error estimation where rational number determined function learning machine number training samples
+statistical models where dimension parameter space whereas statistical models depends strongly learning machine true distribution probability distribution
+practical applications true distribution often unknown hence been difficult estimate generalization error training error
+estimate generalization error when do not any information about true distribution need general formula
+paper study four errors 1 generalization error 2 training error generalization error training error prove where value distribution
+increased error training generalization difference between training errors
+should any true distribution any learning machine any probability distribution any therefore they universal statistical estimation
+also based formula propose widely information applied both learning
+other words apply without any knowledge about true distribution
+paper
+section 2 describe main results paper
+section propose widely information show how apply them statistical estimation
+section prove main results way
+discuss paper
+hence they presented

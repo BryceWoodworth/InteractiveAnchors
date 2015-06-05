@@ -1,0 +1,104 @@
+ 
+% < trailing '%' backward compatibility
+sty file
+recent years analysis complexity learning gaussian mixture models sampled data received
+significant attention computational machine learning theory communities
+paper present first result showing polynomial time learning multidimensional gaussian mixture distributions
+possible when separation between component means arbitrarily small
+specifically present algorithm learning parameters mixture identical
+spherical gaussians dimensional space arbitrarily small separation between components
+polynomial dimension inverse component separation other input
+parameters fixed number components
+algorithm uses projection dimensions then reduction dimensional case
+relies theoretical analysis showing two dimensional mixtures whose densities close norm must similar
+means mixing coefficients
+produce necessary lower bound norm terms
+distances between corresponding means analyze behavior fourier transform
+mixture gaussians one dimension around origin turns out closely related
+properties vandermonde matrix obtained component means
+analysis minors
+vandermonde matrix together basic
+function approximation results allows us provide lower bound norm
+mixture fourier domain hence bound original space
+additionally present separate argument
+reconstructing variance
+ introduction 
+mixture models particularly gaussian mixture models widely used tool many problems statistical inference
+basic problem estimate parameters mixture distribution mixing
+coefficients means variances within
+some pre-specified precision number sampled data points
+while history gaussian mixture models goes back  recent years theoretical aspects mixture learning attracted considerable attention
+theoretical computer science starting
+pioneering work  who showed mixture spherical
+gaussians dimensions learned time polynomial 
+provided certain separation conditions between component means separation order  satisfied
+work been refined
+extended number recent papers
+first result was later improved order
+spherical gaussians general gaussians
+separation requirement was
+further reduced made independent order spherical
+gaussians order logconcave distributions
+related work separation requirement was reduced
+extension pca
+called isotropic pca was introduced learn mixtures gaussians when any pair
+gaussian components separated hyperplane having very small overlap along hyperplane direction so-called "pancake layering problem"
+slightly different direction recent work made important contribution subject providing polynomial time
+algorithm pac-style learning
+mixture gaussian distributions arbitrary separation between means
+authors used
+grid search over space parameters
+construct hypothesis mixture
+gaussians density close actual mixture generating data
+note problem analyzed viewed
+density estimation within certain family distributions different most other work
+subject including our paper address parameter learning
+also note several recent papers dealing related problems learning mixture product distributions
+heavy tailed distributions
+see example
+statistics literature showed optimal convergence rate mle estimator finite mixture normal distributions  where sample size if number mixing components known advance when number mixing components known up upper bound
+however result does not address computational aspects especially high dimension
+paper develop polynomial time fixed  algorithm identify parameters
+mixture identical spherical gaussians potentially unknown variance arbitrarily small separation
+between components
+best our knowledge
+first result kind except simultaneous independent work  analyzes case mixture
+two gaussians arbitrary covariance matrices using method moments
+note results
+our paper somewhat orthogonal
+each paper deals special case ultimate goal two arbitrary gaussians
+identical spherical gaussians unknown variance our case show polynomial learnability
+mixture arbitrary number components arbitrary variance
+all other existing algorithms parameter estimation require minimum separation between components
+increasing function at least one
+our result also implies density estimate bound
+along lines
+note however do pay price our procedure similarly 
+super-exponential
+despite limitations believe our paper makes step towards understanding
+fundamental problem polynomial learnability gaussian mixture distributions
+also think technique used paper obtain lower bound may independent interest
+main algorithm our paper involves grid search over certain space parameters specifically means
+mixing coefficients mixture completely separate argument given estimate variance
+giving appropriate lower upper bounds
+norm difference two mixture distributions terms their means show grid
+search guaranteed find mixture nearly correct values parameters
+prove need provide lower upper bounds norm mixture
+key point our paper
+lower bound showing two mixtures different means cannot produce
+similar density functions
+bound obtained reducing problem 1-dimensional mixture
+distribution analyzing
+behavior fourier transform closely related characteristic function whose coefficients moments
+random variable up multiplication power imaginary unit 
+difference between densities near zero
+use certain properties minors vandermonde
+matrices show norm mixture fourier domain bounded below
+since norm invariant under fourier transform provides lower bound norm
+mixture original space
+also note work  where vandermonde matrices appear analysis mixture
+distributions context proving consistency method moments fact rely result
+provide estimate variance
+finally our lower bound together upper bound some results non-parametric density estimation
+spectral projections mixture distributions allows us set up grid search algorithm over
+space parameters desired guarantees

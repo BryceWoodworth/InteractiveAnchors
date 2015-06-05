@@ -1,0 +1,53 @@
+
+theory networks based linear response model derived limit
+find synaptic weights response approximation
+response rather than characteristics dependent input level synaptic noise
+show at threshold probability density potential within range one synaptic weight explain how response
+novel mechanism network level property networks threshold
+introduction
+understanding dynamics single neurons networks neurons dependent synaptic requires how single synaptic input into activity
+if activity constant rate membrane potential distribution its state properties how input output rate
+fast input neural dynamics gains importance
+model well properties neurons more detailed models
+features neural membrane potential synaptic each small further input level
+if potential threshold action potential membrane potential
+treatment threshold process nature input
+applied approximation synaptic limit small while their rate high
+limit input noise current application theory
+approximation membrane potential distribution firing rate known
+important effect synaptic been studied limit synaptic noise temporal
+results only if synaptic tend their rate
+finite synaptic events only state solution still obtained also solution obtained numerical solution population
+different approach into account synaptic first free membrane potential distribution then obtain firing rate first time problem
+approach may based
+exact results state so far only been presented case distributed synaptic
+threshold model
+however if synaptic input signal under small compared total synaptic linear approximation main characteristics response
+all noise
+linear response kernel limit suggested model
+here synaptic input properties contrast noise synaptic noise leads fast response conserved linear term
+linear response theory predicts optimal level noise response
+framework models response depending temporal potential been demonstrated low noise
+maximization correlation at finite additional noise called stochastic been found experimentally system human
+stochastic was recently review article
+linear response theory dynamics random networks phase
+also transmission correlated activity pairs neurons networks
+furthermore dependent synaptic between synaptic firing up first order linear response kernel
+models membrane potential dynamics linear response properties dynamics obtained
+activity occurs primary range validity linear response
+order understand transmission correlated activity response fast multiple single synaptic hence
+simulations models observed output rate membrane potential distribution predictions theory modeling synaptic noise
+any high accuracy integration algorithm
+novel theory developed here observations lead us discovery new early component response model linear response theory predict
+order our observations existing theory obtain mean time at membrane potential first mean time
+advantage approach over alternative techniques been demonstrated
+noise however treatment appropriate conditions membrane potential distribution importance
+results section develop presence
+special case systems time theory recently been same authors allows introduced
+our theory applied model small but finite synaptic introduced section model classical theory noise input
+after approximation general first order stochastic derive novel condition section finite
+then demonstrate section application how state properties model density just below threshold increased firing rate reduced mean time solution case finite
+dynamic properties section response fast investigate responses firing rate synaptic
+find response not linear theory limit stochastic
+network level demonstrate section component network level fast response most important component case
+consider our approach possible about neural processing learning

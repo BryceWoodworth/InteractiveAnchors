@@ -1,0 +1,49 @@
+
+consider problem variable selection learning
+our approach based linear selection among many defined positive interactions between original variables
+many use natural structure problem multiple kernel learning framework show then possible perform kernel selection through norm time number selected
+moreover study consistency variable selection settings under certain assumptions our regularization framework allows number variables number observations
+our simulations datasets datasets show predictive performance regression problems
+introduction
+problems represent recent important machine learning statistics signal processing
+settings some notion way example through variable feature selection
+many theoretical
+particular regularization norm interest recent years
+while early work focused efficient algorithms solve convex optimization problems recent research at model selection properties predictive performance methods linear case within settings multiple kernel learning framework models
+however most recent work linear variable selection while focus much work machine learning statistics was indeed two kernel methods been theoretical machine learning framework
+using appropriate regularization consider large potentially feature while within feature space no larger than number observations
+kernel design specific data types algorithms many learning tasks
+however while required many domains computer most theoretical results related methods do not scale well input
+paper our goal between linear methods problems
+task variable section problem few approaches both good theoretical properties particular settings
+among classical methods some explicitly based model selection regression decision random process based methods while some others do not rely kernel methods
+first were made models where predictor function assumed sparse linear combination functions each variable
+however shown higher interactions needed universal consistency i e potential high complexity interactions between relevant need potentially allow them variables all possible variables
+theoretical results suggest appropriate assumptions sparse methods methods methods based norm would able features if order number observations
+however presence more than few variables order many features even simply those certain form needed
+paper propose use structure based graphs natural our context variable selection
+consider positive kernel expressed large positive basis local
+situation where large feature space smaller feature aim do selection among many feature may through multiple kernel learning
+one major difficulty however number smaller usually dimension input space multiple kernel learning directly would
+shown variable selection consider set all considered variables more generally
+order perform selection make assumption small graph
+following consider specific combination will patterns certain our specific framework able use design optimization algorithm complexity number selected
+simulations focus where our framework allows perform variable selection
+provide some experimental our novel regularization particular compare regularization selection methods shows always often leads better performance both examples standard regression datasets
+finally some known consistency results multiple kernel learning give answer model selection our regularization framework necessary sufficient conditions model consistency
+particular show our framework only relevant variables
+hence statistical power our method gain computational
+moreover show obtain between number variables number observations similar linear case indeed show our regularization framework may achieve variable selection consistency even number variables number observations
+since achieve consistency number
+moreover general graphs show total number may long number less than number observations
+paper previous work more multiple kernel learning all new consistency results high dimension comparing our methods } paper consider elements where specific space always context
+matrices its value
+matrix
+extended
+moreover given vector space subset vector elements
+matrix defined whose
+moreover set dimension space
+vector ones
+positive part real number
+given matrices subset matrix
+finally let general probability measures

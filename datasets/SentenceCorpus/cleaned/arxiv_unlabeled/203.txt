@@ -1,0 +1,30 @@
+ 
+introduce new protocol prediction expert advice each expert evaluates learner's his own performance using loss function may change over time may different loss functions used other experts
+learner's goal perform better not much worse than each expert evaluated expert all experts simultaneously
+if loss functions used experts all proper scoring rules all mixable show defensive forecasting algorithm enjoys same performance guarantee attainable aggregating algorithm standard setting known optimal
+result also applied case ``specialist'' ``sleeping'' experts
+case defensive forecasting algorithm reduces simple modification aggregating algorithm
+ introduction 
+consider problem online sequence prediction
+process generates outcomes step step
+at each step  learner tries guess next outcome announcing his prediction
+then actual outcome revealed
+quality learner's prediction measured loss function: learner's loss at step
+prediction expert advice framework does not make any assumptions about generating process
+performance learner compared performance several other predictors called experts
+at each step each expert gives his prediction  then learner produces his own prediction possibly based experts' predictions at last step experts' predictions outcomes at all previous steps accumulated losses updated learner experts
+there many algorithms learner framework; review see
+practical applications algorithms prediction expert advice choosing loss function often problem
+task may no natural measure loss except vague concept closer prediction outcome better
+thus one select among several common loss functions example quadratic loss reflecting idea least squares methods logarithmic loss information theory background
+similar issue arises when experts themselves prediction algorithms optimize some losses internally
+then unfair experts when learner competes them according ``foreign'' loss function
+paper introduces new version framework prediction expert advice where there no single fixed loss function but some loss function linked every expert
+performance learner compared performance each expert according loss function linked expert
+informally speaking each expert convinced learner performs almost well better than expert himself
+prove known algorithm learner defensive forecasting algorithm  applied new setting gives same performance guarantee attainable standard setting provided all loss functions proper scoring rules \iffullthe only new requirement all loss functions used experts must ``similar''
+all strictly proper scoring rules particular quadratic logarithmic loss functions similar each other sense \blueend another framework our methods fruitfully applied ``specialist experts'': see eg   
+generalize some known results case mixable loss functions
+keep presentation simple possible restrict ourselves binary outcomes  predictions  finite number experts
+formulate our results mixable loss functions only
+however results easily transferred more general settings non-binary outcomes arbitrary prediction spaces countably many experts second-guessing experts etc \ where methods work

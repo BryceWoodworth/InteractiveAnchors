@@ -1,0 +1,72 @@
+ 
+consider agent interacting environment cycles
+every interaction cycle agent rewarded its performance
+compare average reward cycle average value future discounted reward cycle discounted value
+consider essentially arbitrary non-geometric discount sequences arbitrary reward sequences non-mdp environments
+show asymptotically equal provided both limits exist
+further if effective horizon grows linearly faster then existence limit implies limit exists
+conversely if effective horizon grows linearly slower then existence limit implies limit exists
+ introduction 
+consider reinforcement learning setup  where agent interacts environment cycles
+cycle  agent outputs acts  then makes observation receives reward  both provided environment
+then next cycle starts
+simplicity assume agent environment deterministic
+typically one interested action sequences called plans policies agents result high reward
+simplest reasonable measure performance total reward sum equivalently average reward called average value  where should lifespan agent
+one problem lifetime often not known advance eg \ often time one willing let system run depends its displayed performance
+more serious measure indifferent whether agent receives high rewards early late if values same
+natural non-arbitrary choice consider limit
+while indifference may acceptable finite  catastrophic
+consider agent receives no reward until its first action  then once receives reward
+finite  optimal switch action
+hence  so reward maximizing agent actually always acts  hence zero reward although value arbitrarily close 1 would achievable immortal agents lazy 
+more serious general limit may not even exist
+another approach consider moving horizon
+cycle  agent tries maximize  where increases  eg \ being horizon
+naive truncation often used games like chess plus heuristic reward cycle  get reasonably small search tree
+while work practice lead inconsistent optimal strategies i e \ agents change their mind
+consider example above
+every cycle better first act then   rather than immediately    
+but entering next cycle  agent throws its original plan overboard now choose favor  followed
+pattern repeats resulting no reward at all
+standard solution above problems consider geometrically=exponentially discounted reward
+one discounts reward every cycle delay factor  i e \ considers
+maximizing policy consistent sense its actions coincide optimal policy based
+at first glance there seems no arbitrary lifetime horizon  but illusion
+dominated contributions rewards  so effective horizon
+while sliding effective horizon does not cause inconsistent policies nevertheless lead suboptimal behavior
+every effective horizon there task needs larger horizon solved
+instance while sufficient tic-tac-toe definitely insufficient chess
+there elegant closed form solutions bandit problems show any  bayes-optimal policy get stuck suboptimal arm not self-optimizing
+  defect decreases
+there various deep papers considering limit  comparing limit
+analysis typically restricted ergodic mdps limits exist
+but like limit policy  limit policy display very poor performance i e \ need choose fixed advance but how  consider higher order terms
+also cannot consistently adapt
+finally value limits may not exist beyond ergodic mdps
+there little work other than geometric discounts
+psychology economics literature been argued people discount one day=cycle delay reward more if concerns rewards now rather than later eg \ year plus one day
+so there some work ``sliding'' discount sequences
+one show also leads inconsistent policies if non-geometric
+there any non-geometric discount leading consistent policies
+generally discounted value been introduced
+well-defined arbitrary environments leads consistent policies eg \ quadratic discount increasing effective horizon proportionally  i e \ optimal agent becomes increasingly farsighted consistent way leads self-optimizing policies ergodic  th-order mdps general bandits particular even beyond mdps
+see more results
+only other serious analysis general discounts aware  but their analysis limited bandits so-called regular discount
+discount bounded effective horizon so also does not lead self-optimizing policies
+asymptotic total average performance future discounted performance key interest
+instance often do not know exact environment advance but learn past experience domain reinforcement learning adaptive control theory
+ideally would like learning agent performs asymptotically well optimal agent knows environment advance
+subject study paper relation between general discount arbitrary environment
+importance performance measures  general discount been discussed above
+there also clear need study general environments beyond ergodic mdps since real world neither ergodic e g \ losing arm irreversible nor completely observable
+only restriction impose discount sequence summability   so exists monotonicity  
+our main result if both limits exist then they necessarily equal section  theorem 
+somewhat surprisingly holds any discount sequence any environment reward sequence  whatsoever
+note limit may exist not independent whether exists not
+present examples four possibilities section
+under certain conditions  existence implies existence  vice versa
+show if quantity closely related effective horizon grows linearly faster then existence implies existence their equality section  theorem 
+conversely if effective horizon grows linearly slower then existence implies existence their equality section  theorem 
+note apart discounts oscillating effective horizons implies actually path used prove first mentioned main result
+sections define provide some basic properties average discounted value respectively

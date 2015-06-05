@@ -1,0 +1,44 @@
+ 
+cornerstone biotechnology use microorganisms efficient production chemicals elimination harmful waste
+pseudomonas putida archetype microbes due its metabolic versatility stress resistance amenability genetic modifications vast potential environmental industrial applications
+address both elucidation metabolic wiring p putida its uses biocatalysis particular production non-growth-related biochemicals developed present here genome-scale constraint-based model metabolism p putida kt2440
+network reconstruction flux balance analysis enabled definition structure metabolic network identification knowledge gaps pin-pointing essential metabolic functions facilitating thereby refinement gene annotations
+fba flux variability analysis were used analyze properties potential limits model
+analyses allowed identification under various conditions key features metabolism growth yield resource distribution network robustness gene essentiality
+model was validated data continuous cell cultures high-throughput phenotyping data 13c-measurement internal flux distributions specifically generated knock-out mutants
+auxotrophy was correctly predicted 75 percent cases
+systematic analyses revealed metabolic network structure main factor determining accuracy predictions whereas biomass composition negligible influence
+finally drew model devise metabolic engineering strategies improve production polyhydroxyalkanoates class biotechnologically useful compounds whose synthesis not coupled cell survival
+solidly validated model yields valuable insights into genotype phenotype relationships provides sound framework explore versatile bacterium capitalize its vast biotechnological potential
+ introduction 
+pseudomonas putida one best studied species metabolically versatile ubiquitous genus pseudomonads
+species exhibits wide biotechnological potential numerous strains able efficiently produce range bulk fine chemicals
+features along their renowned stress resistance amenability genetic manipulation suitability host heterologous expression make pseudomonas putida particularly attractive biocatalysis
+date strains p putida been employed produce phenol cinnamic acid cis-cis-muconate p-hydroxybenzoate p-cuomarate myxochromide
+furthermore enzymes p putida been employed variety other biocatalytic processes including resolution d/l-phenylglycinamide into d-phenylglycinamide l-phenylglycine production non-proteinogenic l-amino acids biochemical oxidation methylated heteroaromatic compounds formation heteroaromatic monocarboxylic acids
+however most pseudomonas-based applications still infancy largely due lack knowledge genotype-phenotype relationships bacteria under conditions relevant industrial environmental endeavors
+effort towards generation critical knowledge genomes several members pseudomonads been currently being sequenced series studies underway elucidate specific aspects their genomic programs physiology behavior under various stresses 
+sequencing p putida strain kt2440 workhorse p putida research worldwide microorganism generally recognized safe provided means investigate metabolic potential p putida species opened avenues development new biotechnological applications
+whole genome analysis revealed among other features wealth genetic determinants play role biocatalysis those hyper-production polymers industrially relevant enzymes production epoxides substituted catechols enantiopure alcohols heterocyclic compounds
+however despite clear breakthrough our understanding p putida through sequencing effort relationship between genotype phenotype cannot predicted simply cataloguing assigning gene functions genes found genome considerable work still needed before genome translated into fully functioning metabolic model value predicting cell phenotypes 
+constraint-based modeling currently only approach enables modeling organism's metabolic transport network at genome-scale
+genome-wide constraint-based model consists stoichiometric reconstruction all reactions known act metabolism organism along accompanying set constraints fluxes each reaction system
+major advantage approach model does not require knowledge kinetics reactions
+models define organism's global metabolic space network structural properties flux distribution potential provide framework navigate through metabolic wiring cell 
+through various analysis techniques constraint-based models help predict cellular phenotypes given particular environmental conditions
+flux balance analysis one technique relies optimization objective flux while enforcing mass balance all modeled reactions achieve set fluxes consistent maximal output objective function
+when biomass sink chosen objective fba output correlated growth model fluxes become predictive growth phenotypes
+constraint-based analysis techniques including fba been instrumental elucidating metabolic features variety organisms few cases thus far they been used concrete biotechnology endeavors 
+however all previous applications constraint-based approach was used design production biochemical studies addressed only production compounds directly coupled objective function used underlying fba problem
+major reason fba-based methods predict zero-valued flux any reaction not directly contributing chosen objective
+since production pathways most high-added value bulk compounds operate parallel growth-related metabolism straightforward application fba biocatalytic processes fails useful predictor output
+other constraint-based analysis methods extreme pathways elementary modes analysis capable analyzing non-growth related pathways metabolism but due combinatorial explosion inherent numerical resolution methods they could not used so far predict fluxes phenotypes at genome-scale guiding biocatalysis efforts 
+address both elucidation metabolic wiring p putida use p putida production non-growth-related biochemicals developed present here genome-scale reconstruction metabolic network pseudomonas putida kt2440 subsequent analysis its network properties through constraint-based modeling thorough assessment potential limits model
+reconstruction based up-to-date genomic biochemical physiological knowledge bacterium
+model accounts function 877 reactions connect 886 metabolites builds upon constraint-based modeling framework
+only 6 percent reactions network non gene-associated
+reconstruction process guided refinement annotation several genes
+model was validated continuous culture experiments substrate utilization assays 13c-measurement internal fluxes specifically generated set mutant strains
+evaluated influence biomass composition maintenance values outcome flux balance analysis simulations utilized metabolic reconstruction predict internal reaction fluxes identify different mass-routing possibilities determine necessary gene reaction sets growth minimal medium
+finally means modified optknock approach utilized model generate hypotheses possible improvements production p putida polyhydroxyalkanoates class compounds whose production consumes resources would otherwise used growth
+reconstruction thus provides modeling framework exploration metabolic capabilities p putida will aid deciphering complex genotype-phenotype relationships governing its metabolism will help broaden applicability p putida strains bioremediation biotechnology

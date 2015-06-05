@@ -1,0 +1,35 @@
+
+games prediction considered paper
+present some algorithm following case large gains
+show general case gain any probabilistic prediction algorithm much than gain some
+give lower bound gain general case construct universal algorithm optimal also prove case when gains performance our algorithm close performance best
+introduction
+algorithms used online prediction decision making game
+any algorithm based
+at any step each its
+performed
+after losses rewards each environment
+algorithm also some loss reward depending decision
+goal algorithm perform almost well best long
+prediction considered paper follows
+asked perform sequential actions at times
+at each time step results actions form their gains losses
+after at step makes decision one
+at end step same gain loss at step
+use
+let loss at time
+given at time natural idea solve problem i e performed best past
+following simple example shows perform much than each let current losses two
+algorithm always prediction
+method following was
+method simple main result
+they called algorithm type following
+presented further algorithm class arbitrary weights adaptive learning rate
+algorithm prediction n i t t t i seems too
+consider some applications results paper
+define two financial learning motion whose gains at any step not
+application at our special interest games gains section
+paper present some algorithm case large gains not
+show general case gain any probabilistic prediction algorithm much than gain some
+give lower bound gain any probabilistic algorithm general case prove our universal algorithm optimal also prove case when gains particular when they performance our algorithm close performance best
+result some results above

@@ -1,0 +1,33 @@
+ 
+when introduced into novel environment mammals establish preferred place marked highest number visits highest cumulative time spent
+examination exploratory behavior reference home base highlights important features its organization
+might therefore fruitful search other types marked places mouse exploratory behavior examine their influence overall behavior
+examination path curvatures mice exploring large empty arena revealed presence circumscribed locales marked performance tortuous paths full twists turns
+term places knots behavior performed them knot-scribbling
+there typically no more than one knot per session; distinct boundaries maintained both within across sessions
+knots mostly situated place introduction into arena here away walls
+knots not characterized features home base except high speed during inbound low speed during outbound paths
+establishment knots enhanced injecting mouse saline placing exposed portion arena suggesting stress arousal associated consolidate long-term contingency between particular locale knot-scribbling
+environment devoid proximal cues mice mark locale associated arousal twisting turning
+creates self-generated often centrally located landmark
+tortuosity path traced during behavior implies almost concurrent multiple views environment
+knot-scribbling could therefore function way obtain overview entire environment allowing re-calibration mouse's locale map compass directions
+rich vestibular input generated scribbling could improve interpretation visual scene
+ introduction 
+when introduced into novel environment rats establish preferred place characterized highest frequency visits highest cumulative dwell time upper bound number stops per roundtrip performed low outbound trajectory speed high inbound trajectory speed speed relationship reversed later stages session
+existence highly organized behavior across whole arena reference so-called home base illustrates influence preferred place might overall organization exploratory behavior prompts search other types preferred places may similar influence organization exploratory behavior
+contrast situation rats there ambiguity regarding establishment home bases mice: while some studies mention home bases their establishment mostly low occurrence forced exploration setup
+even though mice readily establish home bases near physical objects near nesting material they reported fail establish distinct home bases during forced exploration relatively featureless environment 
+when mice used control group another study were injected saline placed exposed portion large open field arena they established preferred places typically not more than one per session they visited sporadically tracing them tortuous path full twists turns bends looked like knot
+termed places knots behavior performed them  knot-scribbling
+knot phenomenon appeared its full blown form saline-injected mice was subsequently uncovered albeit less striking form also intact mice
+present study describe full-blown knot phenomenon saline-injected mice only then verify existence knots intact mice
+uncover knots utilize basic feature locomotor path its curvature
+depending size window used measuring path curvature measure discloses various features path texture overall large-scale curvature fine-grained tortuosity
+present study use window size makes fine-grained tortuosity path conspicuous possible
+curvature been measured previously only cumulative measure paths without coupling particular degree curvature particular topographical locations
+uncover knots first calculate fine-grained path curvature each data point path traced mouse
+then partition arena into small 5 5cm unit areas summate each unit area curvature path included within unit area
+magnitude path curvature per unit area then color coded visualization paths thus highlighting unit areas marked highest curvature
+having uncovered high curvature locale then design use algorithms define its boundaries quantify some its features
+finally ask whether knots discover also endowed classical home base features consider their function

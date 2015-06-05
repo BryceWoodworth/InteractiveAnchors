@@ -1,0 +1,40 @@
+
+recent et al obtained first algorithm under distribution
+they showed random noise sensitivity models
+their results several
+first show natural class cannot learned noise sensitivity model using only statistical
+contrast show version random model allows learn
+also algorithm et al case natural generalization
+introduction
+learning normal form been central problem computational learning theory literature since paper learning
+was shown learned using form active learning
+algorithm also known uses combination two fundamental techniques learning analysis
+use analysis study functions was introduced
+was used basis learning algorithm
+analysis used algorithm based algorithm was first applied learning problem
+hypothesis technique reduce classification error learning algorithm was introduced
+algorithm used actually due
+recent et al obtained first learning algorithm
+their algorithm based
+called was first obtained
+was used learn under distribution two natural learning models
+first one random model where examples instead being random see also related work
+second model related noise sensitivity model where time examples pairs second instance being version first one
+results they give learning algorithm case where no control over examples provided
+however problem learning under distribution when examples
+still remains open
+known cannot learned more statistical model introduced where one only about statistics over random examples
+also showed class decision only increase size extended his algorithm case generalization where
+whether those classes functions learned random noise sensitivity models was open
+our
+first show cannot learned noise sensitivity model using statistical
+far know first example negative result statistical i e pairs examples
+does not rule out learning random model although provides evidence techniques cannot extended case
+other hand show simple random model where component fixed cycle allows learn
+seems first model respect distribution
+actually one perform random model also show model than active setting under standard assumption
+finally techniques domain use learn noise sensitivity random models
+result out rather case found
+section introduce learning models give review analysis
+negative result learning derived section
+learning algorithms presented

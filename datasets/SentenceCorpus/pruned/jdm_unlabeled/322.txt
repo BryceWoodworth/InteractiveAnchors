@@ -1,0 +1,40 @@
+
+history judgment decision making defined decision making process
+recently process models become yet tools available directly test models not
+complex process models require complex process data they tested
+propose new class data will evaluation process models
+during continuous response provides measure growth preference than current practice just choice itself
+recent research cognitive shown cognitive processing revealed dynamic responses
+current process response dynamics studies demonstrate continuous between choice options even online preference
+here order demonstrate utility present example response dynamics experiment common decision task
+introduction
+past few seen change level analysis theories models decision making
+generally models outcome prediction way computational models focus processes assumed produce responses
+focus underlying cognitive processes e g effects within rather than complex functions cognitive
+theoretical empirical order evaluate more process theories
+example information search during decision tasks developed use information techniques techniques
+other methods response time analyses been used several together provide evidence
+here would like introduce what consider next important step important evolution our response dynamics decision making
+techniques identified above their dynamic nature choice preferences
+process one information search not process itself information perception how they task subject characteristics response times how long task but not nature processing occurs during
+not measures always many authors applied analyses example characteristics decision process
+however generally notion observed choices result dynamic process where evidence various response choice alternatives may over task
+specifically lack sufficient explore dynamic evolution preference real time
+given evidence assumption theoretical treatment support
+recently body research cognitive novel current methods identified above
+research response dynamics continuous online processing information revealed response
+describe theoretical basis applications approach
+basic involves simply position selection option decision task
+theoretical assumption alternatives influence response there now behavioral evidence
+therefore one measure properties response about underlying processes
+goal current work introduce research types analyses makes possible
+only other explicitly application responses risky decision making task involving either gains losses ability describe changes direction preference online during task
+when choosing gamble gains subjects very directly gamble
+when they risky gamble they first towards gamble before direction towards risky gamble
+pattern was generally true losses
+results support models allow preference one option during task but choice other option e g models sequential sampling behavior would not existing response methods
+following study show another application task task
+task because its use design allow us utility response dynamics both within types e g following gain loss below across task metric learning
+task been used decision making individuals
+subjects presented four each provides every losses but they different characteristics see number
+typically two b considered high rewards high result loss whereas two other c d good lower rewards but also lower more resulting gain

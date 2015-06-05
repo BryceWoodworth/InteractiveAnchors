@@ -1,0 +1,40 @@
+
+system requires understanding its state values its variables
+however existing techniques too limited measure all but small physical variables parameters networks
+models properties membrane synaptic dynamics them into framework control theory
+demonstrate now possible estimate dynamics small networks using few single measured variable
+specifically membrane potential measurements individual neurons dynamics networks cells their different types during
+use account system metabolic processes cellular cellular interactions against actual measurements
+data computational models significant potential improve way understand brain dynamics
+introduction
+universal understanding brain complex space time more than experimental its dynamics
+better understand its function one not only complexity but also estimate variables parameters brain dynamics
+comparison forecasting although dynamics less complex less
+some using model based whose development derived computational
+system computational model system data through what may relatively sparse estimate variables parameters available data
+result future measured system dynamics compared model predicted outcome expected errors within model process
+initial value problem one computational models high dynamics natural systems modeling within model measurements
+most model based strategies
+its original form linear system
+situations extended were used where system could without too much nature system
+not systems scale action potential
+efficient techniques along computational models dynamics systems based systems now strong
+general framework extended fundamental models directly along error noise through
+instead system prediction potential system states
+finite sampling representation probability distribution function system state
+our hypothesis complex interaction between specific
+dynamics networks further fact variety metabolic processes those networks metabolic variables not directly using potential measurements
+indeed not describe wide variety
+several prediction algorithms based only signals accuracy when applied
+however many techniques high positive rates them use
+there aspects dynamics states not current models when applied
+dynamic nature approach time evolution underlying system prediction required
+one cannot see much dynamics prior same variety system up states firing addition human
+all properties they following small stimuli both events
+recently been shown dynamics formula concentration affect neurons help determine affect stability states activity
+between intrinsic produce similar what observed
+brain dynamics within system unique complexity among natural systems
+even complex spatial extent brain networks will require through modeling
+since at present our us only one two variables at number sites computational models become through must consider all brain measurements
+what follows will show potential power physiological measurements computational models
+will use account system metabolic processes cellular cellular against actual measurements

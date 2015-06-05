@@ -1,0 +1,43 @@
+ 
+paper uses notion algorithmic stability derive novel generalization bounds several families transductive regression algorithms both using convexity closed-form solutions
+our analysis helps compare stability algorithms \ignore{it suggests several existing algorithms might not stable but prescribes technique make them stable } also shows number widely used transductive regression algorithms fact unstable
+finally reports results experiments local transductive regression demonstrating benefit our stability bounds model selection one algorithms particular determining radius local neighborhood used algorithm
+ introduction 
+problem transductive inference was originally introduced
+many learning problems information extraction computational biology natural language processing other domains formulated transductive inference problem
+transductive setting learning algorithm receives both labeled training set standard induction setting set unlabeled test points
+objective predict labels test points
+no other test points will ever considered
+setting arises variety applications
+often there orders magnitude more unlabeled points than labeled ones they not been assigned label due prohibitive cost labeling
+motivates use transductive algorithms leverage unlabeled data during training improve learning performance
+paper deals transductive regression arises problems predicting real-valued labels nodes fixed known graph computational biology scores associated known documents information extraction search engine tasks
+several algorithms been devised specific setting transductive regression
+several other algorithms introduced transductive classification viewed fact transductive regression ones their objective function based square loss example
+gave explicit vc-dimension generalization bounds transductive regression hold all bounded loss functions coincide tight classification bounds when applied classification
+present novel algorithm-dependent generalization bounds transductive regression
+since they algorithm-specific bounds often tighter than bounds based general complexity measures vc-dimension
+our analysis based notion algorithmic stability our learning bounds generalize transduction scenario stability bounds given inductive setting extend regression stability-based transductive classification bounds
+section give formal definition transductive inference learning set-up including precise description discussion two related transductive settings
+also introduce notions cost score stability used following sections
+standard concentration bounds mcdiarmid's bound cannot readily applied transductive regression setting since points not drawn independently but uniformly without replacement finite set
+instead section proves concentration bound generalizing mcdiarmid's bound case random variables sampled without replacement
+bound slightly stronger than proof much simpler more concise
+concentration bound used derive general transductive regression stability bound section
+figure shows outline paper
+section introduces examines very general family tranductive algorithms local transductive regression \ltr algorithms generalization algorithm
+gives general bounds stability coefficients \ltr\ algorithms uses them derive stability-based learning bounds algorithms
+stability analysis section based notion cost stability based convexity arguments
+section analyze general class unconstrained optimization algorithms includes number recent algorithms
+optimization problems algorithms admit closed-form solution
+use give score-based stability analysis algorithms
+our analysis shows general algorithms may not stable
+fact section prove lower bound stability coefficient algorithms under some assumptions
+section examines class constrained regularization optimization algorithms graphs enjoy better stability properties than unconstrained ones just mentioned
+includes graph laplacian algorithm
+section give score stability analysis novel generalization bounds algorithm simpler more general than those given
+section shows algorithms based constrained graph regularizations fact special instances \ltr\ algorithms showing regularization term written terms norm reproducing kernel hilbert space
+used derive cost stability analysis novel learning bounds graph laplacian algorithm terms second smallest eigenvalue laplacian diameter graph
+much results sections generalize other constrained regularization optimization algorithms
+generalizations briefly discussed section where indicated particular how similar constraints imposed algorithms derive new stable versions algorithms
+finally section shows results experiments local transductive regression demonstrating benefit our stability bounds model selection particular determining radius local neighborhood used algorithm provides partial validation our bounds analysis

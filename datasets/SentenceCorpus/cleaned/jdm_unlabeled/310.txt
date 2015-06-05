@@ -1,0 +1,37 @@
+ 
+impaired decision behavior been repeatedly observed schizophrenia patients
+investigated several cognitive mechanisms might contribute jumping-to-conclusions bias jtc seen schizophrenia patients biases information-gathering information weighting integration overconfidence using process tracing paradigm mouselab
+mouselab allows in-depth exploration various decision-making processes structured information environment
+total number schizophrenia patients number healthy controls participated experiment
+although showing less focused systematic information search schizophrenia patients practically considered all pieces information showed no jtc sense collecting less pieces evidence
+choices patients controls both approximated rational solution quite well but patients showed more extreme confidence ratings
+both groups mainly used weighted additive decision strategies information integration only small proportion relied simple heuristics
+under high stress induced affective valence plus time pressure however schizophrenia patients switched equal weighting strategies less valid cues more valid ones were weighted equally
+ introduction 
+hasty decision-making hallmark feature presently deluded schizophrenia patients
+look stranger sounds telephone line certain initials number plates mistaken proof conspiracy surveillance
+cognitive studies asserted so-called jumping-to-conclusions bias jtc paranoid schizophrenia not confined idiosyncratic delusions-related scenarios but extends neutral situations
+while jtc somewhat aggravated among schizophrenia sometimes also non-schizophrenia patients acute persecutory delusions other studies found bias also remitted paranoid schizophrenia patients
+recently jtc been found correlate delusion conviction
+number researchers ascribe jtc fundamental role pathogenesis delusions fixed false beliefs
+traditionally jtc been investigated beads probabilistic reasoning task subject consecutively presented sequence beads drawn either jar predominantly contains beads example green jar predominantly contains beads red
+chain events usually strongly favours one jars
+compared both healthy psychiatric controls schizophrenia patients make early premature incautious decisions number  number percent cases i e they decide after only one bead been drawn
+when presented entire available information all at once group differences abolished
+addition probability ratings usually not discrepant indicating patients data-gathering bias rather than deficits probabilistic reasoning
+our group confirmed bias ruling out deficits memory poor motivation confounding factors
+others found bias not result impulsivity
+using experimental variant who wants millionaire quiz patients schizophrenia irrespective current delusional ideation displayed lowered decision-threshold they over-interpreted available amount evidence
+precise nature jtc not entirely understood under some circumstances enhanced ambiguity multiple response options bias may even diminished abolished
+jtc conceptualized different ways
+core contribution paper investigate jtc data-gathering bias less information taken into account decision-making relative controls overconfidence predictive value information over-interpreted relative controls suboptimal information weighting integration validity cues not considered appropriately heuristics more strongly preferred relative controls
+our group recently investigated second aspect repeatedly found patients schizophrenia overconfident erroneous decisions so far been mainly investigated context memory tasks
+also found patients tend reach more incautious decisions when asked deduce correct title classical paintings especially under stress conforms other studies assigning stress arousal aggravating role cognitive biases disorder lincoln lange burau exner moritz press
+present study used task assesses data-gathering confidence information integration aspect jtc single paradigm
+were especially interested investigate cue selection patients since striking feature schizophrenia patients' reliance unreliable sources information e g internet fora conspiracy theories
+jtc may not problem if rested most valid pieces information indeed cognitive research found subgroup healthy subjects adopt so-called take best heuristic application heuristic some environments leads good decisions
+although beads task remains gold standard capture jtc does not shed light aspect decision-making sequence events pre-determined
+moreover beads task estimates jtc basis single item reducing its reliability
+final aim was investigate impact stress exerted time-pressure emotionally framed scenarios within-subjects
+basis available literature expected patients schizophrenia szs collect less h number particularly less valid h number information show less systematic information search inspecting less valid information first h number over-confident their judgments h number biases might more pronounced under conditions stress induced time-pressure affective framing task h number compared controls cps
+following exploratory account investigated whether there differences choice accuracy whether subjects particularly rely take best strategy if there relation between schizophrenia severity measures i e panss see below different aspects jtc biases

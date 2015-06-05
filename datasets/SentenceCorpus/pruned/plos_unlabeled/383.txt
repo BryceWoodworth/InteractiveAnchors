@@ -1,0 +1,38 @@
+
+drug molecules not only specific targets but also state function associated biological network
+how design evaluate their functions at systems level key issue highly efficient low drug design
+metabolic network network several including been used targets
+however recently provided treatment
+gain more into drug design authors studied dynamic properties metabolic network human
+metabolic effects drug been using
+network was found important efficient drug design
+when only was used pathway was increased significantly single functional cannot control
+when both were could
+authors also investigated differences between mixture two types
+their work provides example integration systems biology drug discovery
+introduction
+widely used treatment other conditions
+us more than 1 percent population uses now more than
+although do effects central system addition potential conditions
+findings major role had suggested would effective drug low effects
+effects
+thus
+other being
+despite years studies drug design remains
+drug design current drug discovery
+past been observed
+introduction drug discovery
+recently about drug discovery systems biology perspective
+between biological responses rather than one one may provide better understanding disease development achieve accurate evaluation drug
+new approach been applied drug design
+example focused biochemical network
+good understanding disease regulatory network level used model predictions develop factor trials
+et al recently practical applications systems biology drug discovery
+researchers development drug design strategies level disease system using computational models experiments
+paper study dynamic properties metabolic network human more into drug design
+model metabolic network was developed
+analysis simulation addition were performed study network
+effects were difference between functional mixture two types was studied
+corresponding experiments introduction were performed were found consistent model predictions
+our work shows important
+compared against multiple targets control network lead treatment

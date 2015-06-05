@@ -1,0 +1,34 @@
+
+many studies disordered proteins based structural models protein data
+yet nature models little into variation protein structure function under cellular environmental conditions
+while computational disordered regions provides practical evidence intrinsic property proteins robustness disordered regions changes sequence environmental conditions not been studied
+disordered regions same similar proteins studied their sensitivity changes protein sequence parameters experiments
+observed changes existence position length disordered regions their structures depends changes amino sequence experiment
+our study also general questions protein evolution regulation protein structure dynamics function via cellular environmental conditions
+introduction
+past significant been our understanding function disordered proteins
+what set where every protein was unique stable structure out specific function into field where computational experimental approaches were developed combined disordered proteins understand their function mechanisms binding estimate their protein
+analyses methods significant role process especially set statistical techniques
+however despite previous questions about our view disordered proteins terms influence environmental conditions
+here address questions observed disordered regions changes sequence environmental conditions used
+recent studies effects environmental conditions regions intrinsic similar proteins
+et al studied two yeast proteins different functional despite high sequence similarity suggested their functional differences different structures
+although protein solution structure under physiological was found disordered low whereas had significant structure
+structure at below c but was under low presence
+et al reported conformational changes were observed structures human
+at its structure density important region
+at region disordered
+our search protein data additional examples where changes experimental conditions strongly correlated presence disordered regions
+one case shown 1
+one family large found
+exact biological function large though they strongly associated play regulatory role receptor activity
+
+both structures were obtained using method but was at whereas was at
+two proteins yet was obtained their structural alignment
+contains region was structure
+protein was presence natural
+addition experimental studies computational analyses sets experimentally determined structures protein regions provided evidence existence protein observed both disordered states
+authors showed they characterized amino different than those either disordered proteins their main functional regulatory
+examples discussed above demonstrate strong influence experimental parameters disordered residues proteins
+however hypothesis variation experimental conditions could potentially structural changes existence position length disordered regions not been tested
+following work provide evidence significant variation disordered regions protein structures general under same different experimental conditions basic environmental regulation protein structure disordered regions

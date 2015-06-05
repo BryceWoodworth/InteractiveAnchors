@@ -1,0 +1,38 @@
+
+cell general cellular process seen various cell types cells
+small been shown cell however its mechanism yet
+first developed reaction model response signals at signal changes signal
+previous cell models proposed show similar behaviors our model despite difference molecular networks
+us compare models found models components
+based common properties developed models conserved reaction system
+models similar behaviors cell model
+using models found multiple resulting single stable sensitivity changes signal specifically at
+although molecular networks may differ one cell type another behaviors cell cells similar there should fundamental principle
+thus propose conserved reaction system one cell
+introduction
+cells cells temporal spatial signals
+process known fundamental cellular process
+cell specific molecular events take place at
+molecular cells known cell
+usually one important property because cell two could not
+another behavior higher sensitivity signals
+would also important because direction should at
+many molecules involved cells been identified
+some molecules including specifically at whereas others including at cells
+family small particular play central role cell
+however mechanism spatial cell yet
+many mathematical models account signal cell been proposed
+local global model been proposed explain spatial
+some models involve positive feedback signaling molecules
+reaction model local effects been proposed sensitivity
+most reported models cell involve detailed parameters rate been many parameters
+although detailed models at least experimental observations cell theoretical underlying cell not been explicitly thus simple model used study needed common cell
+although reported models distinct molecular species networks should especially many them able exhibit similar behaviors cell their different
+fact common principle should models model common cell
+because small key cell first developed reaction model basis model examine spatial properties
+found interaction per generate specific spatial our model shows important behaviors cell
+also found our model behaviors similar model based molecular networks different
+suggests common should both models
+found components conserved models our model
+based common properties models conserved reaction system found properties account critical behaviors cell
+results strongly suggest components one fundamental cell

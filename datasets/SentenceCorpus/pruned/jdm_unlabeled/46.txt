@@ -1,0 +1,62 @@
+
+researchers decision making usually analyze multiple decisions within experiments choices across individuals using individual subject analysis
+approach important patterns within data
+specifically decisions across task game possible characteristics subject experiment
+demonstrate data two previously how model analysis
+our results task game ways analysis test not possible other techniques more more likely theoretical models
+introduction
+experiments within decision making involve subjects making multiple decisions either different groups decisions learning task
+analyses data typically involve how rewards related characteristics experiment individuals involved
+complex analyses relatively
+approach at least one major
+most studies involve multiple decisions each individual
+each subject several decisions
+possible individuals their decisions across play they
+at average results decisions could important patterns within data
+analyses do not allow examine ways characteristics participants experimental design affect decisions
+other words analyses provide results but only decision-making dynamics within experiments
+suggest data experiments form data sets they usually include multiple decisions within one more set conditions
+models been specifically developed observation help us understand process dynamics decision making within our studies
+paper describe model analyses them within between subject
+then demonstrate use models decision making data data two previously
+first study involves task multiple decisions individual response variety stimuli second involves games within person groups
+finally describe wide range possible applications approach provide using models their use decision making research
+although major aim paper utility method include used our analyses provide greater use method
+model one there both between variables
+above studies decision research literature often focus variables their analyses variables those affect decisions one individual makes
+yet decisions often important
+thus argue more natural analyze many decision making studies using model approach
+addition models very wide variety experimental
+design all subjects all treatment conditions
+first number design there two different design elements b
+design each subject s each condition design design b b
+example would study showed preference based response choices
+design one each subject only single condition there no variation
+design second number where each subject s only one condition two design conditions b
+other words between subjects design subjects within b each subject single observation dependent variable thus only single treatment condition
+many decision making studies use design their data design across all decisions individual makes form
+number then used dependent variable
+researchers also use design involves measures conditions one more factors presented each subject variables set rewards study variables experimental conditions positive negative subjects do not variables
+design design third part number b within subjects factor factor
+term particularly there sources produced differences differences both types differences statistical analysis
+design allows us differences at same time study relationships
+design also allows us model decisions what called regression tendency individuals similar manner one decision another
+researchers used models variety settings
+much original work models was settings thus also models design
+setting were often considered random each same set fixed experimental conditions one experimental variables while were within experimental conditions different experimental variable
+contain at least one variable at least one variable
+models used both often component changes over time component
+used linear models examine influence characteristics individual
+researchers used models examine growth changes characteristics variable different characteristics analysis
+thus there wide variety methods close attention within between individual group variables
+two widely used general modeling strategies linear models models
+either allows modeling random variation individuals decisions within individuals
+situations paper either linear modeling modeling approach used
+suggest general approach applied decision making help researchers develop more accurate understanding elements decision making process lead outcomes
+within many experiments given individual makes choices often across variety experimental settings
+because individuals make multiple decisions decisions not independent
+method data simply all decisions level individual any variation
+practice however potential variation extent researchers impact experimental variables individual choice
+also researchers analyses
+use models provide both more yet more efficient method analysis
+now utility models data two different studies

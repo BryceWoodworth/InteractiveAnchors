@@ -1,0 +1,48 @@
+
+key approaches machine learning especially learning unknown probabilistic environments new mechanisms
+paper novel learning method proposed theory learning
+state principle framework value algorithm introduced
+state action identified state action
+state action set represented state state action obtained state according
+probability action determined probability according rewards
+some related characteristics convergence between also shows approach makes good between using probability up learning through
+evaluate performance several experiments given results demonstrate algorithm some complex problems
+present work also effective application
+introduction
+methods generally into learning
+learning requires feedback provided pairs
+learning only processes input data
+contrast uses value reward evaluate pairs states actions interaction environment through
+since become important approach machine learning widely used especially due its good performance adaptation learning ability complex systems
+however there still some difficult problems practical applications
+one problem strategy better previously strategies find better policy taking most advantage knowledge
+other its learning especially complex problems known when space number parameters learned its dimension
+those problems many methods been proposed recent years
+temporal methods been solve problems dynamic up learning
+different learning combined
+example presented new model representation generalization based standard
+adaptation inference systems problems large continuous state also proposed
+many specific also related methods practice
+all more work needed achieve new necessary explore more effective representation methods learning mechanisms
+paper explore some using theory propose novel learning method
+information processing field
+some results shown more solve some difficult problems than classical
+two important algorithms algorithm algorithm been proposed
+algorithm give large into numbers been using
+algorithm achieve over classical algorithms database its experimental also been demonstrated using system four states
+some methods also been machine learning
+example version neural network been studied theory simple experimental
+used control algorithm up inference
+evolutionary algorithms been proposed improve existing evolutionary algorithms
+presented algorithm optimization
+recently search technique been used dynamic
+taking advantage some novel algorithms characteristics will not only improve performance existing algorithms but also development related research machine learning
+algorithms his presented concept learning state principle
+following concept paper give learning algorithm framework specifically demonstrate up learning good between through experiments some related
+paper follows
+section contains problem description standard learning related
+section learning introduced where state action space represented state strategy based novel algorithm proposed specifically
+section related characteristics convergence between
+section experiments results demonstrate algorithm
+section discuss some related problems future work
+given section

@@ -1,0 +1,37 @@
+
+present component analysis new algorithm clustering points based
+key property algorithm
+when input sample mixture two arbitrary algorithm sample only two components there exists contains most one almost other probability
+best possible known results
+components algorithm requires only there some every direction small
+here define following two 1 average distance between point mean its component 2 average distance between point mean mixture
+main result may also linear if standard small not needed estimate optimal
+our main tools simple technique
+call combination
+introduction
+present component analysis able standard
+when matrix input distribution point set multiple then no second along any direction same
+called
+our call information settings
+use technique give clustering algorithm points
+when applied problem arbitrary samples algorithm known results
+technique consider distribution set
+distribution unknown way would like original
+each point sample may matrix resulting point set
+direction will greater direction other
+see
+instead process may also thought importance technique allows one one distribution another
+case distribution over set where density function so points more } paper describe how apply method arbitrary order find set along
+mixture classical concept pattern recognition
+identified points according component distribution generated them hence all parameters mixture learned
+what paper previous work learning our algorithm
+indeed every mixture distribution learned using previously known algorithm there linear condition number algorithm
+components our algorithm best possible all previous results clustering
+requires there where components small every direction see section
+condition terms used field pattern recognition data
+because our algorithm makes possible much larger set than had been possible previously
+first step our algorithm place mixture position see section via
+effect making i e one same means components they only general position any mixture
+algorithm close uses them without
+since after standard no additional information
+before more describe relevant related work

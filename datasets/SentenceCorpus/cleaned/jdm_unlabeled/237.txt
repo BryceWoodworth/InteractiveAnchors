@@ -1,0 +1,33 @@
+ 
+humans other animals idiosyncratically sensitive risk either preferring avoiding options having same value but differing uncertainty
+many explanations risk sensitivity rely non-linear shape hypothesized utility curve
+because models do not place any importance uncertainty per se utility curve-based accounts predict indifference between risky riskless options offer same distribution rewards
+here show monkeys strongly prefer uncertain gambles alternating rewards same payoffs demonstrating uncertainty itself contributes appeal risky options
+based prior observations hypothesized appeal risky option enhanced salience potential jackpot
+test subtly manipulated payoffs second gambling task
+found monkeys more sensitive small changes size large reward than equivalent changes size small reward indicating they attend preferentially jackpots
+together results challenge utility curve-based accounts risk sensitivity suggest psychological factors outcome salience uncertainty itself contribute risky decision-making
+ introduction 
+millions people regularly play lottery despite fact tickets typically expected value less than half their price
+traditionally economic models explain preferences shape utility curve
+utility curve hypothetical construct linking observable values outcomes onto subjective internal values
+because decision makers exhibit diminishing marginal utilities most contexts average utility large small outcome hypothesized less than utility middle-sized outcome
+consequently decision makers should risk-averse situations
+conversely contexts marginal utilities convex should promote risk-seeking
+fact lottery advertisements focus specific benefits winning suggests drawing attention possible jackpot influence decision gamble
+indeed several reports suggested relative salience different outcomes risky situation may influence way gamble whole evaluated
+outcomes more vivid easier remember more emotional often seen more likely  idea known availability heuristic economics
+similar vein several studies suggested feelings about possible outcomes influence appeal gamble
+consistent ideas hypothesized value placed risky option reflects part outcome competition between possibilities favorable unfavorable outcomes competition biased towards more salient possible outcome
+use term salience indicate attentional weighting possibility decision-making
+however biasing may stronger presence uncertainty when options certain biasing may less likely occur
+when decision-maker considers whether gamble he she compares value safe option biased valuation risky option
+performed two behavioral experiments rhesus monkeys test idea risk sensitivity reflects outcome salience outcome uncertainty itself rather than just nonlinear weighting reward outcomes
+both experiments employed variants gambling task developed our lab monkeys reliably risk-seeking
+first compared monkeys' preferences risky predictably alternating options over time both offered equal mix large small rewards
+alternating option provided identical sets outcomes therefore identical utilities monkeys so any preference between options cannot reflect utility weighting
+found monkeys strongly preferred risky option alternating one demonstrating uncertainty risky option part its appeal
+also hypothesized risk-seeking observed reflects at least part salience large rewards
+if monkeys preferentially attend larger outcome they should more sensitive small changes its size
+therefore examined monkeys' sensitivity incremental changes sizes large small outcomes second experiment
+predicted found monkeys were sensitive variations size large reward but not equivalent changes size small reward

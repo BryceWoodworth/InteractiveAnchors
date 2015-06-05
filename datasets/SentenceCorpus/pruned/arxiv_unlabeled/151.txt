@@ -1,0 +1,28 @@
+
+paper show between certain online problem online prediction graph
+more specifically prove if there exists any there exists online prediction algorithm bound times size size graph
+previous known bound problem obtain prediction algorithm graphs high effective
+contrast previous approaches graph problem into problems vector space using graph rely analysis algorithm our
+further more our approach directly case where not binary
+introduction
+online prediction problem graphs
+given graph unknown prediction algorithm each prediction algorithm provides answer then correct
+goal number algorithm makes i e
+make our work do not made first question
+problem been studied standard online learning tools algorithm
+use graph kernel provide bound depends size based real effective between any pair graph
+recently structure graph provides bounds
+present algorithm problem predicts given based known its
+they also prove bound number when known
+however their bound very since does not every their still based graph
+compare bound obtain previous bounds et
+al section
+work follows
+show between prediction problem following online problem first introduced their study online
+given graph algorithm sequence where each where one some previous know where
+algorithm online i e before other where
+given set define defined number use
+performance algorithm measured maximum any
+prove section if there exists algorithm any will no greater than there exists online prediction algorithm bound where set pairs different i e
+section apply known bound show bound graph prediction problem compare bound obtained bounds previous results
+note our approach directly case when not binary i e when function arbitrary set same bound

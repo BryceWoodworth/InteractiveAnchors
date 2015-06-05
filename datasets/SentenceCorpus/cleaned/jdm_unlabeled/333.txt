@@ -1,0 +1,39 @@
+ 
+recognition heuristic exploits basic psychological capacity recognition order make inferences about unknown quantities world
+article review clarify issues emerged our initial work including distinction between recognition evaluation process
+there now considerable evidence i recognition heuristic predicts inferences substantial proportion individuals consistently even presence one more contradicting cues ii people adaptive decision makers accordance increases larger recognition validity decreases situations when validity low wholly indeterminable iii presence contradicting cues some individuals appear select different strategies
+little known about individual differences how precisely model alternative strategies
+although some researchers attributed judgments inconsistent use recognition heuristic compensatory processing little research compensatory models been reported
+discuss extensions recognition model open questions unanticipated results surprising predictive power recognition forecasting
+ introduction 
+herbert simon's emphasis recognition memory limited search starting point was only small logical step towards recognition heuristic exploits potential information lack recognition
+accordance simon's emphasis computational models recognition principle was first called was formulated building block take-the-best other heuristics order model inferences memory
+subsequently was realized initial building block could function stand-alone model same type inferences was named recognition heuristic
+reality recognition heuristic was not derived logical manner
+serendipity luck finding something one was not looking assisted its birth
+gigerenzer hoffrage kleinbolting had deduced probabilistic mental models theory situation hard-easy effect would disappear
+his dissertation ulrich hoffrage set out test prediction he needed two sets questions one hard one easy
+hoffrage chose questions concerning populations american cities german cities respectively hard easy german students-or so everyone thought
+surprisingly students scored slightly higher when tested representative sample american cities than german ones
+result ruined experiment
+how could people score more correct answers domain they knew less
+days our research group failed think cognitive process makes more out less
+finally anton kuhberger pointed out explanation was tucked away gigerenzer et al article mentioned familiarity probabilistic cue
+if person heard one city but not other lack recognition informative indicating recognized city probably larger population
+german cities participants could not rely recognition heuristic-they knew too much
+serendipitous discovery also revealed crucial condition successful reliance recognition substantial correlation between recognition population recognition validity representative sampling cities
+return condition later
+one possible reason why took us so long find answer was our training classical statistical models
+weighted linear model adding cue predictor never decrease its fit unadjusted r same true bayes' rule
+more-is-better principle holds fitting parameters known data but not necessarily predicting what one does not already know german students had do
+good cognitive heuristic however should excel foresight well hindsight
+possibility people could sometimes do better less knowledge generated much interest controversy social sciences media
+may number bbc intrigued idea less being more decided test effect their radio number more less program
+listeners new york london were asked whether detroit milwaukee larger population
+exploratory studies his dissertation one us had found about number percent american students answered correctly detroit compared number percent corresponding group german participants
+bbc not known running tightly controlled studies so were somewhat uneasy about whether they could reproduce less-is-more effect
+but they did
+new york number percent listeners got answer right whereas london number percent did so-as close one hope informal replication
+our initial work recognition heuristic stimulated dozens articles comprising theoretical advancements critique above all progress
+work contributed much understanding potential limits simple model but also believe its broad reception represents larger shift research practice
+change occurs three directions begin our review progress made last decade two key processes govern use recognition heuristic recognition evaluation latter corresponds judgment its ecological rationality

@@ -1,0 +1,59 @@
+ 
+minimizing rank matrix subject affine constraints fundamental problem many important applications machine learning statistics
+paper propose simple fast algorithm singular value projection rank minimization affine constraints   show svp recovers minimum rank solution affine constraints satisfy {restricted isometry property}
+show robustness our method noise strong geometric convergence rate even noisy measurements
+our results improve upon recent breakthrough recht fazel parillo lee bresler three significant ways: 1 our method   significantly simpler analyze easier implement 2 give recovery guarantees under strictly weaker isometry assumptions 3 give geometric convergence guarantees demonstrated empirically significantly faster real-world synthetic problems
+addition address practically important problem low-rank matrix completion seen special case
+however affine constraints defining matrix-completion problem do not obey {restricted isometry property} general
+empirically demonstrate our algorithm recovers low-rank {incoherent} matrices almost optimal number uniformly sampled entries
+make partial progress towards proving exact recovery provide some intuition performance applied matrix completion showing more restricted isometry property
+our algorithm outperforms existing methods those  matrix-completion problem order magnitude also significantly more robust noise
+ introduction 
+paper study general affine rank minimization problem armp \renewcommand{\theequation}{armp} } \renewcommand{\theequation}{\arabic{equation}} \addtocounter{equation}{-1} where affine transformation
+general affine rank minimization problem considerable practical interest many important machine learning problems matrix completion low-dimensional metric embedding low-rank kernel learning viewed instances above problem
+unfortunately armp np-hard general also np-hard approximate  
+until recently most known methods were heuristic nature few known rigorous guarantees
+most commonly used heuristic problem assume factorization optimize resulting non-convex problem alternating minimization  alternative projections alternating lmis
+another common approach relax rank constraint convex function trace-norm log determinant 
+however most methods do not any optimality guarantees
+recently meka et al proposed online learning based methods armp
+however their methods only guarantee at best logarithmic approximation minimum rank
+recent breakthrough recht et al  obtained first nontrivial exact-recovery results obtaining guaranteed rank minimization affine transformations satisfy {restricted isometry property}  
+define isometry constant  smallest number all rank at most  } recht et al show affine constraints bounded isometry constants specifically  finding minimum trace-norm solution recovers minimum rank solution
+their results were later extended noisy measurements isometry constants up lee bresler
+however even best existing optimization algorithms trace-norm relaxation relatively inefficient practice their results hard analyze
+another recent work lee bresler obtained exact-recovery guarantees satisfying using different approach
+lee bresler propose algorithm admira motivated {orthogonal matching pursuit} line work compressed sensing show affine constraints isometry constant their algorithm recovers optimal solution
+they also prove similar guarantees noisy measurements provide geometric convergence rate their algorithm
+however their method not very efficient large datasets hard analyze
+paper propose simple fast algorithm singular value projection based classical projected gradient algorithm
+present simple analysis showing recovers minimum rank solution affine constraints satisfy even presence noise prove following guarantees
+independent our work goldfarb ma proposed algorithm similar our algorithm
+however their analysis formulation different ours
+particular their analysis builds analysis lee bresler they require stronger isometry assumptions  than do
+addition make partial progress analyzing matrix completion problem proving exact recovery
+our analysis motivated recent work field compressed sensing blumensath davies  garg khandekar
+our results improve results recht et al lee bresler follows
+considerably simpler analyze than methods recht et al lee bresler
+further need weaker isometry assumptions : only require opposed required recht et al  required lee bresler required lee bresler
+strong geometric convergence rate faster than using best trace-norm optimization algorithms methods lee bresler order magnitude
+although restricted isometry property natural settings where affine constraints contain information about all entries unknown matrix several cases considerable practical interest affine constraints only contain {local information} may not satisfy directly
+one important problem where does not hold directly low-rank matrix completion problem
+matrix completion problem given entries unknown low-rank matrix ordered pairs goal complete missing entries
+highly popular application matrix completion problem field collaborative filtering where typically task predict user ratings given past ratings users
+recently lot attention been given problem due netflix challenge
+other applications matrix completion include triangulation incomplete data link prediction social networks etc
+similar  low-rank matrix completion also np-hard general most methods heuristic nature no theoretical guarantees
+alternating least squares minimization heuristic its variants perform best practice but notoriously hard analyze
+recently candes recht  candes tao keshavan et al  obtained first non-trivial results low-rank matrix completion under few additional assumptions
+broadly papers give exact-recovery guarantees when optimal solution {incoherent} see definition  entries chosen uniformly at random  where depends only
+however algorithms above papers even when using methods tailored specifically matrix-completion those cai et al   quite expensive practice not very tolerant noise
+low-rank matrix completion special case  naturally adapt our algorithm matrix completion
+demonstrate empirically suitable step-size significantly outperforms methods    accuracy computational time tolerance noise
+furthermore our experiments strongly suggest see figure guarantees similar those  hold  achieving exact recovery incoherent matrices almost optimal number entries
+although do not provide rigorous proof exact-recovery applied matrix completion make partial progress direction give strong intuition performance
+prove though affine constraints defining matrix-completion problems do not obey restricted isometry property they obey restricted isometry property over incoherent matrices
+weaker condition along hypothesis bounding incoherence iterates imply exact-recovery low-rank incoherent matrix almost optimal number entries
+also provide strong empirical evidence supporting our hypothesis bounding incoherence iterates see figure  } first present our algorithm section present its analysis affine constraints satisfying section
+section specialize our algorithm task low-rank matrix completion prove more restricted isometry property matrix completion problem
+section give empirical results applied matrix-completion real-world synthetic problems

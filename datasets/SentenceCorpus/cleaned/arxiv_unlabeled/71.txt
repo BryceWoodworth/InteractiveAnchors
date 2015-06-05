@@ -1,0 +1,39 @@
+ 
+% consider problem estimating parameters gaussian binary distribution way resulting undirected graphical model sparse
+our approach solve maximum likelihood problem added norm penalty term
+problem formulated convex but memory requirements complexity existing interior point methods prohibitive problems more than tens nodes
+present two new algorithms solving problems at least thousand nodes gaussian case
+our first algorithm uses block coordinate descent interpreted recursive norm penalized regression
+our second algorithm based nesterov's first order method yields complexity estimate better dependence problem size than existing interior point methods
+using log determinant relaxation log partition function   show same algorithms used solve approximate sparse maximum likelihood problem binary case
+test our algorithms synthetic data well gene expression senate voting records data
+ introduction 
+% put title first chapter line undirected graphical models offer way describe explain relationships among set variables central element multivariate data analysis
+principle parsimony dictates should select simplest graphical model adequately explains data
+paper weconsider practical ways implementing following approach finding model: given set data solve maximum likelihood problem added norm penalty make resulting graph sparse possible
+many authors studied variety related ideas
+gaussian case model selection involves finding pattern zeros inverse covariance matrix since zeros correspond conditional independencies among variables
+traditionally greedy forward-backward search algorithm used determine zero pattern
+however computationally infeasible data even moderate number variables
+introduce gradient descent algorithm they account sparsity inverse covariance matrix defining loss function negative log likelihood function
+recently considered penalized maximum likelihood estimation proposed set large scale methods problems where sparsity pattern inverse covariance given one must estimate nonzero elements matrix
+another way estimate graphical model find set neighbors each node graph regressing variable against remaining variables
+vein employ stochastic algorithm manage tens thousands variables
+there also been great deal interest using norm penalties statistical applications
+apply norm penalty sparse principle component analysis
+directly related our problem use lasso obtain very short list neighbors each node graph
+study approach detail show resulting estimator consistent even high-dimensional graphs
+problem formulation gaussian data therefore simple
+difficulty lies its computation
+although problem convex non-smooth unbounded constraint set
+shall see resulting complexity existing interior point methods  where number variables distribution
+addition interior point methods require at each step compute store hessian size
+memory requirements complexity thus prohibitive higher than tens
+specialized algorithms needed handle larger problems
+remainder paper organized follows
+begin considering gaussian data
+section set up problem derive its dual discuss properties solution how heavily weight norm penalty our problem
+section present provably convergent block coordinate descent algorithm interpreted recursive norm penalized regression
+section present second alternative algorithm based nesterov's recent work non-smooth optimization give rigorous complexity analysis better dependence problem size than interior point methods
+section show algorithms developed gaussian case also used solve approximate sparse maximum likelihood problem multivariate binary data using log determinant relaxation log partition function given
+section  test our methods synthetic well gene expression senate voting records data

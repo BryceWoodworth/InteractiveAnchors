@@ -1,0 +1,27 @@
+ 
+individual perception vaccine safety important factor determining person's adherence vaccination program its consequences disease control
+perception belief about safety given vaccine not static parameter but variable subject environmental influence
+complicate matters perception risk does not correspond actual risk
+paper propose way include dynamics beliefs into realistic epidemiological model yielding more complete depiction mechanisms underlying unraveling vaccination campaigns
+methodology proposed based bayesian inference extended model more complex belief systems associated decision models
+found method able produce behaviors approximate what been observed real vaccine disease scare situations
+framework presented comprises set useful tools adequate quantitative representation common yet complex public-health issue
+tools include representation beliefs bayesian probabilities usage logarithmic pooling combine probability distributions representing opinions usage natural conjugate priors efficiently compute bayesian posterior
+approach allowed comprehensive treatment uncertainty regarding vaccination behavior realistic epidemiological model
+ introduction 
+since early vaccination campaigns against smallpox vaccination policies been matter debate : mass vaccination versus blocking strategies; compulsory versus voluntary some highly debated issues
+despite early controversies  consequent alternative policies implemented different countries  high disease scare past led very high vaccine coverage consequent successful eradication smallpox well very low incidence measles polio tetanus diphtheria etc resulting over 98 percent mortality reduction vaccine preventable diseases developed countries 
+recent years after complete almost complete elimination diseases debate shifting towards issues vaccine safety
+increased perception vaccine risks lowered perception disease risks challenged previous willingness vaccinate
+scenario understanding predicting individual's willingness vaccinate paramount estimating vaccine coverage compare strategies achieve coverage goals
+willingness vaccinate highly dependent perceived risk acquiring serious disease
+when disease risk low however small risk adverse events vaccine become relatively important may lead vaccine coverage lower than required control transmission
+when serious disease risk too high other hand vaccine coverage may increase above required guarantee population protection
+illustrate behaviors two examples:
+uk mmr vaccine uptake started decline after controversial study linking mmr vaccine autism
+decade vaccine coverage went well below target herd immunity level 95 percent
+despite confidence researchers most health professionals vaccine safety confidence public was deeply affected
+attempt find ways restore confidence several studies were carried out identify factors associated parent's unwillingness vaccinate their children
+they found not receiving unbiased adequate information health professionals about vaccine safety media's adverse publicity were most common reasons influencing uptake
+other important factors were: lack belief information government sources ; fear general practitioners promoting vaccine personal reasons ; media scare
+note during period risk acquiring measles was very low due previously high vaccination coverage

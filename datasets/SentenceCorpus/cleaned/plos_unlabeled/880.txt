@@ -1,0 +1,47 @@
+ 
+activity neural circuits spatiotemporally organized
+its spatial organization consists multiple localized coherent patterns patchy clusters
+patterns propagate across circuits over time
+type collective behavior ubiquitously been observed both spontaneous activity evoked responses; its function however remained unclear
+construct spatially extended spiking neural circuit generates emergent spatiotemporal activity patterns thereby capturing some complexities patterns observed empirically
+elucidate what kind fundamental function patterns serve showing how they process information
+self-sustained objects localized coherent patterns signal information propagating across neural circuit
+computational operations occur when emergent patterns interact collide each other
+ongoing behaviors patterns naturally embody both distributed parallel computation cascaded logical operations
+distributed computations enable system work inherently flexible efficient way
+our work leads us propose propagating coherent activity patterns underlying primitives neural circuits carry out distributed dynamical computation
+ introduction 
+understand brain function essential study collective electrical activity neural circuits
+activity typically exhibits intriguing spatiotemporally organized patterns: they commonly observed multi-unit electrophysiological recording eeg local field potential recording meg optical imaging fmri imaging both spontaneous activity evoked responses
+space patterns often take form localized patches clusters activity
+recordings over large populations neurons shown several localized patterns occur simultaneously across cortical regions
+over time patterns often do not remain at specific locations
+self-sustained entities they propagate move about space
+doing so they interact each other resulting dynamical collective behavior
+here will consider what kind functional role behavior may
+propagating coherent patterns been registered experimental literature spreading drifting activity traveling waves
+simultaneous presence several patterns been observed spontaneous activity cat visual cortex evoked response patterns turtle olfactory bulb visual cortex various species well sensorimotor cortex behaving mice
+when several localized moving patterns occur together they likely interact
+indeed interactions been shown occur rat somatosensory cortex
+describe collective activity olfactory visual auditory somatosensory cortices behaving rabbits term interacting wave packets was explicitly used nicely captures relevance propagations interactions patterns
+despite ubiquity patterns their interactions their fundamental functional role remained unknown
+although some authors speculated role propagating waves functional implications other aspects simultaneous presence multiple propagating patterns their interactions remained completely unclear
+current theoretical frameworks describe neural activity either computational dynamical systems perspectives
+conventional computational theory based manipulation representation static symbols
+perspective contradicts temporal variability brain activity calls dynamical systems approach
+when dynamical systems theories applied neuroscience prevailing concept stable low-dimensional attractors
+notion although provided many important insights less suitable capture functional role brain activity its actual spatiotemporal complexity
+need resolve restrictions conventional computation standard dynamical systems theories order describe neural activity understand its fundamental function
+study based consideration neural circuits spatially-extended pattern-forming systems containing large numbers simple neurons spatially restricted connectivity
+spatially extended physical systems composed large numbers simple interacting elements reaction-diffusion systems fluidic systems localized propagating coherent patterns common feature known under different names including wave packets spots breathers soliton waves amongst others
+they emergent collective property systems
+using systems analogy construct simple spatially extended neural circuit model represent gross architecture within cerebral cortex
+emergent collective property system circuit exhibits dynamical activity patterns reproducing some complexities observed empirical studies
+particular circuit provides simultaneous propagation multiple locally coherent patterns their interactions
+revealing how their ongoing collective behavior naturally embody computation demonstrate what fundamental function patterns serve
+propagating coherent spiking patterns support several essential aspects computational processing
+self-sustained objects patterns signal information propagating across neural circuits
+information processing computation occurs when they interact specifically collide each other
+collectively patterns perform distributed parallel cascaded computational operations thereby enabling neural systems work efficient flexible way
+shall call distributed dynamical computation proposed framework understanding spatiotemporal propagating activity patterns neural circuits
+understanding links their dynamics form non-conventional computation

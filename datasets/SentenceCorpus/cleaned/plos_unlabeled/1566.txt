@@ -1,0 +1,28 @@
+ 
+catalysis adp-atp exchange nucleotide exchange factors central activity hsp70 molecular chaperones
+yet mechanism interaction family chaperones nefs not well understood context sequence evolution structural dynamics hsp70 atpase domains
+studied interactions hsp70 atpase domains four different nefs basis evolutionary trace co-evolution atpase domain sequence combined elastic network modeling collective dynamics complexes
+our study reveals subtle balance between intrinsic specific mechanisms shared four complexes
+two classes key residues distinguished hsp70 atpase domain: highly conserved residues involved nucleotide binding mediate via global hinge-bending atpase domain opening irrespective nef binding not-conserved but co-evolved highly mobile residues engaged specific interactions nefs
+observed interplay between respective intrinsic specific interactions provides us insights into allosteric dynamics functional evolution modular hsp70 atpase domain
+ introduction 
+many proteins molecular machines
+they function because their three-dimensional structure allows them undergo cooperative changes conformation maintain native fold while enabling their biological functions
+changes been pointed out structure-encoded intrinsically accessible proteins deduced simple physics-based approaches
+yet amino acid specificity another important property selectively mediates interactions specific partners ligands
+overall subtle balance exists between structure-encoded mechanical properties sequence-encoded specific properties balance must evolutionarily optimized achieve precise functioning
+interplay between two effects becomes particularly important case number proteins domains play modular role variety biomolecular interactions
+atpase domain hsp70 family proteins typical example
+domain plays critical role regulating activities molecular chaperones turn promote accurate folding prevent unwanted aggregation either unfolding refolding misfolded proteins regulating their intracellular trafficking protein degradation machinery 
+chaperones hsp70 family contain two domains: n-terminal atpase domain c-terminal substrate-binding domain regulate each other's activity via allosteric effects
+atp hydrolysis at atpase domain increases substrate-binding affinity sbd thus lowering substrate exchange rate; other hand dissociation adp produced upon atp hydrolysis its replacement new atp trigger release substrate sbd therefore enhance substrate exchange rate
+regulation substrate-binding affinity atpase domain forms basis chaperone activity hsp70s 
+precise functioning hsp70 atpase domain involves interaction two families co-factors also called co-chaperones: j-domain proteins catalyze atp hydrolysis nucleotide exchange factors assist replacement adp atp significantly increasing adp dissociation rate
+molecular understanding hsp70 function requires systemic analysis structural basis mechanism interaction co-chaperones
+here focus interaction their atpase domain nefs
+hsp70 atpase domain composed four subdomains: ia ib lobe i iia iib lobe ii
+atp binds central cleft between two lobes at interface between subdomains iia iib geometric energetic effects its binding hydrolysis efficiently transmitted throughout atpase domain
+date four classes nefs been identified: grpe prokaryotes bag-1 hspbp1 hsp110 eukaryotes
+their diverse three-dimensional structures exhibit variety binding geometries interfacial interactions hsp70 atpase domain
+present study examine interactions using sequence structure dynamics-based computations identify their shared features
+our analysis provides insights into generic specific aspects atpase domain-nef interactions well molecular machinery sequence design principles highly versatile module hsp70 atpase domain thus reconciling robust structure-encoded cooperative dynamics properties highly correlated amino acid changes enable specific recognition

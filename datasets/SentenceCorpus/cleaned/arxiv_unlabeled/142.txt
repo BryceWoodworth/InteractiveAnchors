@@ -1,0 +1,43 @@
+ 
+many fields where human understanding plays crucial role bioprocesses capacity extracting knowledge data critical importance
+within framework fuzzy learning methods if properly used greatly help human experts
+amongst methods aim orthogonal transformations been proven mathematically robust build rules set training data select most important ones linear regression rank revealing techniques
+ols algorithm good representative those methods
+however was originally designed so only cared about numerical performance
+thus propose some modifications original method take interpretability into account
+after recalling original algorithm paper presents changes made original method then discusses some results obtained benchmark problems
+finally algorithm applied real-world fault detection depollution problem
+ introduction 
+fuzzy learning methods unlike ``black-box'' models neural networks likely give interpretable results provided some constraints respected
+while ability somewhat meaningless some applications stock market prediction becomes essential when human experts want gain insight into complex problem e g industrial biological processes climate evolution 
+considerations explain why interpretability issues fuzzy modeling become important research topic shown recent literature
+even so meaning given interpretability fuzzy modeling not always same
+interpretability some authors mean mathematical interpretability where structure developed takagi-sugeno systems leads interpretation every consequent polynomial taylor series expansion about rule center
+others mean linguistic interpretability 
+present paper focused latter approach
+commonly admitted requirements interpretability small number consistent membership functions reasonable number rules fuzzy system
+orthogonal transformation methods provide set tools building rules data selecting limited subset rules
+those methods were originally designed linear optimization but subject some conditions they used fuzzy models
+instance zero order takagi sugeno model written set r fuzzy rules rule being: } where fuzzy sets associated variables given rule corresponding crisp rule conclusion
+let input-output pairs data set where
+pair above takagi sugeno model output calculated follows: } equation  conjunction operator used combine elements rule premise represents within rule membership function value
+let us introduce rule firing strength
+thus equation rewritten as: } once fuzzy partitions been set provided given data set computed all data set
+then equation allows reformulate fuzzy model linear regression problem written matrix form as:
+matrix form y sample output vector p firing strength matrix rule consequent vector e error term
+orthogonal transformation methods then used determine kept assign them optimal values order design zero order takagi sugeno model data set
+thorough review use orthogonal transformation methods svd qr ols select fuzzy rules found
+they divided into two main families: methods select rules using matrix decomposition only others also use output do best fit
+first family methods rank revealing techniques particularly interesting when input fuzzy partitions include redundant quasi redundant fuzzy sets
+orthogonal least squares ols technique belongs second family allows rule selection based rule respective contribution output inertia variance
+respect criterion gives good summary system modeled explains why been widely used statistics also why particularly suited rule induction shown instance
+aim present paper establish using ols method example orthogonal transformation results made interpretable without suffering too much loss accuracy
+achieved building interpretable fuzzy partitions reducing number rule conclusions
+turns orthogonal transformations into useful tools modeling regression problems extracting knowledge data
+thus they worth careful study there few available techniques achieving double objective contrary knowledge induction classification problems
+section  recall how original ols works
+section introduces learning criteria will used our modified ols algorithm
+section presents modifications necessary respect interpretability constraints
+next section modified algorithm applied benchmark problems compared original one reference results found literature
+real-world application presented analyzed section
+finally give some conclusions perspectives future work

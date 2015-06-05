@@ -1,0 +1,33 @@
+ 
+fundamental problem pattern recognition graph matching applications variety fields computer vision computational biology
+graph matching patterns modeled graphs pattern recognition amounts finding correspondence between nodes different graphs
+many formulations problem cast general quadratic assignment problem where linear term objective function encodes node compatibility quadratic term encodes edge compatibility
+main research focus theme about designing efficient algorithms approximately solving quadratic assignment problem since np-hard
+paper turn our attention different question: how estimate compatibility functions solution resulting graph matching problem best matches expected solution human would manually provide
+present method learning graph matching : training examples pairs graphs `labels' matches between them
+our experimental results reveal learning substantially improve performance standard graph matching algorithms
+particular find simple linear assignment learning scheme outperforms graduated assignment bistochastic normalisation state-of-the-art quadratic assignment relaxation algorithm
+ introduction 
+graphs commonly used representations complex structures including dna sequences documents text images
+particular they extensively used field computer vision where many problems formulated attributed graph matching problem
+here nodes graphs correspond local features image edges correspond relational aspects between features both nodes edges attributed i e they encode feature vectors
+graph matching then consists finding correspondence between nodes two graphs they 'look most similar' when vertices labeled according correspondence
+typically problem mathematically formulated quadratic assignment problem consists finding assignment maximizes objective function encoding local compatibilities linear term structural compatibilities quadratic term
+main body research graph matching then been focused devising more accurate and/or faster algorithms solve problem approximately since np-hard); compatibility functions used graph matching typically handcrafted
+interesting question arises context: if given two attributed graphs match  should optimal match uniquely determined
+example assume first come two images acquired surveillance camera airport's lounge; now assume same instead come two images photographer's image database; should optimal match same both situations
+if algorithm takes into account exclusively graphs matched optimal solutions will same since graph pair same both cases
+standard way graph matching approached today
+paper address what believe limitation approach
+argue if know `conditions' under pair graphs been extracted then should take into account how graphs arising those conditions typically matched
+however do not take information conditions explicitly into account since would obviously impractical
+instead approach problem purely statistical inference perspective
+first extract graphs number images acquired under same conditions those want solve whatever word `conditions' means e g surveillance camera photographer's database
+then manually provide what understand optimal matches between resulting graphs
+information then used learning algorithm learns map space pairs graphs space matches
+terms quadratic assignment problem learning algorithm amounts loose language adjusting node edge compatibility functions expected optimal match test pair graphs agrees expected match they would had had they been training set
+formulation learning problem consists convex quadratic program readily solvable means column generation procedure
+provide experimental evidence applying learning standard graph matching algorithms significantly improves their performance
+fact show learning improves upon non-learning results so dramatically linear assignment learning outperforms graduated assignment bistochastic normalisation state-of-the-art quadratic assignment relaxation algorithm
+also introducing learning graduated assignment itself obtain results improve both accuracy speed over best existing quadratic assignment relaxations
+preliminary version paper appeared

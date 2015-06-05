@@ -1,0 +1,50 @@
+ 
+according siegrist earle gutscher's model risk communication effect advice about risk agent's behavior depends agent's trust competence advisor their trust motives advisor
+trust competence depends how good advice received source been past
+trust motives depends how similar agent assesses advisor's values their own
+show past quality advice degree similarity between advisors' judges' values separate non-interacting effects two types agent behavior degree trust expressed source stated trust weight given source's advice revealed trust
+findings support siegrist et al 's model
+also found revealed trust was affected more than stated trust differences advisor quality
+not clear how finding should accommodated within siegrist et al 's model
+ introduction 
+throughout social sciences trust recognized important factor mediates many aspects human behavior
+definitions trust vary but widely accepted one psychological state comprising intention accept vulnerability based upon positive expectations intentions behavior another
+thus person trustor who depends someone else trustee expects reduce likelihood size negative outcome some situation when dependence misplaced expected value outcome lower
+experimental work trust been carried out various contexts including behavioral game theory on-line commerce risk communication
+work report here falls into last three domains
+risk communication provides information fallible gives people advice about levels risk associated hazards
+reliance advisors signals acceptance vulnerability based expectations those advisors competent well-meaning when fact they may not
+reliance provides evidence trust sense encapsulated above definition
+when people rely more certain advisors say their behavior reveals they more trust those advisors
+recent research into trust indicates determined number factors
+factors broadly categorized into two groups
+first concerns competence trustee ability competence expertise knowledge
+second concerns motives trustee benevolence integrity honesty fairness
+basis findings siegrist earle gutscher siegrist gutscher earle developed their trust-confidence-cooperation tcc model
+simplified version shown figure number
+according model two different types trust determine degree people cooperate their advisors
+first trust motives also known simply trust social trust second trust competence known confidence
+cooperative intention produced two types trust results cooperative behaviors various types
+example people may express trust their advisors they may use advice them form their own judgments they may act basis their advice
+trust competence determined past history quality advice produced source
+type information already been shown affect advice-taking people place greater weight information received sources who been more accurate past
+trust motives determined how similar judge assesses advisor's values their own
+siegrist et al 's model predicts people will take more advice advisors whose values they judge more similar their own
+date prediction their two-route model not been tested
+our aim here provide test
+past researchers into advice-taking measured trust advice using behavioral measures
+example given two different pieces advice value numerical variable e g risk level judgment closer first than second indicates greater influence first
+hence relative proximity judgments advice different sources provides behavioral means assessing relative influence those sources advice
+contrast researchers into trust required people make verbal numerical estimates their trust different sources information  typically using rating scales
+however o'neill argued behavioral verbal measures trust may not always coincide
+example people may state they do not trust agent when their behavior reveals they do
+they may do because behavioral placement trust relies implicit intuitive nonconscious processes not easily accessed explicit processes required verbal expression trust
+indeed there some evidence stated revealed trust do dissociate under certain conditions
+given results shall measure trust both ways present study
+siegrist et al 's model predicts similarity values intentions goals will increase trust motives thereby increase influence advisor judge
+however does not make any prediction about effects physical similarity advisor judge
+nevertheless there good reason expect people will more influenced advisors who same sex they who approximately same age they
+because there persuasive evidence attitudes values particularly those relating risk technology more likely similar people same sex similar age
+result physical i e age sex similarity may imply degree value similarity
+if does advisors who physically similar judges likely trusted more
+also advisors who similar judges both respects likely trusted more than those who similar them just one respect

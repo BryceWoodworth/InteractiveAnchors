@@ -1,0 +1,12 @@
+
+consider problem low rank matrix small subset its
+paper describe efficient algorithm proposed based value local optimization matrix problem
+been shown if number revealed large output value good estimate original matrix so local optimization correct matrix high probability
+present numerical results show algorithm low rank matrix very small subset its
+further study robustness algorithm respect noise its performance actual datasets
+introduction
+paper consider problem low rank matrix small set observed
+problem practical interest many applications
+one example where small goal preference system
+matrix since only few factors preferences
+other examples matrix include problem structure motion data between also known problem

@@ -1,0 +1,54 @@
+
+modeling changes still efficient solution developed conformational states protein similar approach
+database residues long was through identification set protein structures
+contains more than observed per length different variation levels
+analysis performance revealed average structural protein structures more than percent within mean distance 1
+able protein structures average accuracy
+expected structures well but many regions appear at first also found form structural lower frequency than secondary structures
+larger regions could smaller elements between residues long
+finally observed significant amount short sequences tend strong structural between extended
+when sequence length increases sequence no observed context structures
+introduction
+structure proteins protein via experimental methods occurs at significantly than novel protein sequences
+result less than percent human proteins known structure protein data other species significantly lower
+addition structures one small number protein domains thus only total sequence protein
+modeling using related proteins known structures model
+into two related amino given detection changes required new sequence
+proteins relatively close terms sequence problem usually but many cases best shows less than percent target small changes likely required obtain accurate model
+recent protein modeling based observation protein structures finite structural
+structural classification protein database database classification
+classification usually protein domain since large proteins generally multiple domains
+classification protein domains evolutionary structural relationships
+more thus secondary structure been proposed set conformational states derived
+different research groups demonstrated when protein structures sets protein
+prediction approaches known structures into structure
+methods assumption made local interactions particular conformational bias but do not define local structure
+instead environmental constraints will determine overall protein
+model three first step involves selection based their stability measured function
+second step
+step obtained structure through field
+method well small all class proteins well all class proteins
+approach been applied structure prediction algorithm also new
+however they typically small consider between residues
+instance residues while found only length
+structural classes based residues
+their method set protein found proteins at
+low approaches single length thus resulting limited set might advantage terms computational structure prediction methods will also lead significant loss information
+et al made possible variable at least residues through their algorithm
+more alignment they
+alternative approach et al uses generated small instead sampling known protein structures
+properties they consistent fixed protein structure
+our strategy set structural without using data
+set protein structures into residues because tests lack high structural similarity more than percent all when larger were considered
+clustering techniques were identify structural motifs different protein structures
+over structures classes were found each considered length when structural variation length was
+suggested important determine how well classes space order estimate its value
+when applied protein structures not used database out percent average using 1 threshold
+latter cases studied regions also
+through global algorithm were generated having average accuracy
+ability use local secondary structure prediction was examined at relationship within classes
+according previous findings sequence within classes was rather low because large number determined different
+analysis quantitative structure
+significant amount small sequences tend strong structural length percent pairs sequences structural difference within range
+sequences sequences structural strong preference residues
+more than residues sequence no observed need additional context determine secondary structure much reduced

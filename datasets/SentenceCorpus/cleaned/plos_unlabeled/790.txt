@@ -1,0 +1,32 @@
+ 
+when coordinating movements nervous system often decide how distribute work across number redundant effectors
+here show humans solve problem trying minimize both variability motor output effort involved
+previous studies investigated temporal shape movements two selective pressures despite having very different theoretical implications could not distinguished; because noise motor system increases motor commands minimization effort variability leads very similar predictions
+when multiple effectors different noise effort characteristics combined however two cost terms dissociated
+here measure importance variability effort coordination studying how humans share force production between two fingers
+capture variability identified coefficient variation index little fingers
+effort used sum squared forces sum squared forces normalized maximum strength each effector
+terms were then used predict optimal force distribution task participants had produce target total force 4 16 n pressing onto two isometric transducers using different combinations fingers
+comparing predicted distribution across fingers actual distribution chosen participants were able estimate relative importance variability effort 1 7 unnormalized effort being most important
+our results indicate nervous system uses multi-effector redundancy minimize both variability produced output effort although effort costs clearly outweighed variability costs
+ introduction 
+motor system highly redundant: same task always accomplished many different sequences motor commands
+part redundancy caused fact there often multiple muscles effectors produce same desired effect
+thus case multi-effector redundancy brain choose how distribute given task across set muscles
+despite infinite number possibilities motor system appears prefer particular solutions
+example when moving wrist combine action different forearm muscles predictable cosine-tuning-like fashion
+explain regularities ask why brain coordinating movements way i.e propose hypothetical cost function biological system minimized over course learning
+determining form cost function assuming nervous system had sufficient exploration task dynamics find optimal solution make testable predictions about how biological movements should produced under given task constraint
+number different cost functions biological movements been proposed
+most studies addressed movements redundancy temporal: here there may only one muscle desired effect but there still many different ways distributing motor commands over movement period
+example all possible shapes arm eye movement motor system consistently chooses bell-shaped velocity profile 
+different components cost functions generally divided into two classes: effort variability costs
+effort costs usually take form sum squared muscle activations motor commands
+alternatively both harris wolpert burdet milner proposed nervous system chooses sequence motor commands minimizes variability at endpoint movement
+under assumption signal-dependent noise i.e noise increases monotonically motor command model predict important characteristics control both arm eye
+while effort variability costs different theoretical implications learning mechanism involved optimization motor behaviours they make very similar predictions concerning temporal shape optimal movement
+indeed shown requirement reduce variability under signal dependent noise leads term cost function penalizes sum squared motor commands over movement identically term commonly associated effort
+thus motor behaviours mainly temporal redundancy variability effort costs hard dissociate
+motor behaviours multi-effector redundancy however minimization variability costs minimization effort costs lead substantially different predictions concerning distribution work across effectors because noise effort characteristics different effectors partly independent
+here study how humans distribute work across different fingers when they produce given target force
+measuring independent noise characteristics maximal force finger dissociate influence variability effort costs coordination

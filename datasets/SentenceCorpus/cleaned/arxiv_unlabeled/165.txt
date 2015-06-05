@@ -1,0 +1,37 @@
+ 
+%
+paper proposes method construct adaptive agent universal respect given class experts where each expert agent been designed specifically particular environment
+adaptive control problem formalized problem minimizing relative entropy adaptive agent expert most suitable unknown environment
+if agent passive observer then optimal solution well-known bayesian predictor
+however if agent active then its past actions need treated causal interventions i/o stream rather than normal probability conditions
+here shown solution new variational problem given stochastic controller called bayesian control rule implements adaptive behavior mixture experts
+furthermore shown under mild assumptions bayesian control rule converges control law most suitable expert
+ introduction 
+when behavior environment under any control signal fully known then designer choose agent produces desired dynamics
+instances problem include hitting target cannon under known weather conditions solving maze having its map controlling robotic arm manufacturing plant
+however when behavior plant unknown then designer faces problem adaptive control
+example shooting cannon lacking appropriate measurement equipment finding way out unknown maze designing autonomous robot martian exploration
+adaptive control turns out far more difficult than its non-adaptive counterpart
+because any good policy carefully trade off explorative versus exploitative actions i e actions identification environment's dynamics versus actions control desired way
+even when environment's dynamics known belong particular class optimal agents available constructing corresponding optimal adaptive agent general computationally intractable even simple toy problems
+thus finding tractable approximations been major focus research
+recently been proposed reformulate problem statement some classes control problems based minimization relative entropy criterion
+example large class optimal control problems solved very efficiently if problem statement reformulated minimization deviation dynamics controlled system uncontrolled system
+work similar approach introduced
+if class agents given where each agent solves different environment then adaptive controllers derived minimum relative entropy principle
+particular one construct adaptive agent universal respect class minimizing average relative entropy environment-specific agent
+however extension not straightforward
+there syntactical difference between actions observations taken into account when formulating variational problem
+more specifically actions treated interventions obeying rules causality
+if distinction made variational problem unique solution given stochastic control rule called bayesian control rule
+control rule particularly interesting because translates adaptive control problem into on-line inference problem applied forward time
+furthermore work shows under mild assumptions adaptive agent converges environment-specific agent
+paper organized follows
+section introduces notation sets up adaptive control problem
+section formulates adaptive control minimum relative entropy problem
+after initial na\"{\i}ve approach need causal considerations motivated
+then bayesian control rule derived revised relative entropy criterion
+section conditions convergence examined proof given
+section illustrates usage bayesian control rule multi-armed bandit problem undiscounted markov decision problem
+section discusses properties bayesian control rule relates previous work literature
+section concludes

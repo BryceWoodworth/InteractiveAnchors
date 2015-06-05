@@ -1,0 +1,25 @@
+ 
+present algorithmic framework learning multiple related tasks
+our framework exploits form prior knowledge relates output spaces tasks
+present pac learning results analyze conditions under learning possible
+present results learning shallow parser named-entity recognition system exploits our framework showing consistent improvements over baseline methods
+ introduction 
+when two nlp systems run same data expect certain constraints hold between their outputs
+form prior knowledge
+propose self-training framework uses information significantly boost performance one systems
+key idea perform self-training only outputs obey constraints
+our motivating example paper task pair: named entity recognition ner shallow parsing aka syntactic chunking
+consider hidden sentence known pos syntactic structure below
+further consider four potential ner sequences sentence \end{small} without ever seeing actual sentence guess ner sequence correct
+ner1 seems wrong because feel like named entities should not part verb phrases
+ner2 seems wrong because there nnp also include \mytag{nnps} } proper noun not part named entity word 5
+ner3 amiss because feel unlikely single name should span more than one np last two words
+ner4 none problems seems quite reasonable
+fact hidden sentence ner4 correct
+remainder paper deals problem formulating prior knowledge into workable system
+there similarities between our proposed model both self-training co-training; background given section
+present formal model our approach perform simple yet informative analysis section
+analysis allows us define what good bad constraints
+throughout use running example ner using hidden markov models show efficacy method relationship between theory implementation
+finally present full-blown results seven different ner data sets one conll six ace comparing our method several competitive baselines section
+see many data sets less than one hundred labeled ner sentences required get state-of-the-art performance using discriminative sequence labeling algorithm

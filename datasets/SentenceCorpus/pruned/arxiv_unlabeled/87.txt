@@ -1,0 +1,41 @@
+
+information criterion feature selection strategy good between selected feature subset time
+however requires set information determine when procedure
+two choices difficult make because subset increases estimation information less less
+paper use methods test address both
+methods information about information then used set parameter threshold procedure
+procedure well examples
+introduction
+feature selection choosing among set input features variables subset features maximum prediction power output
+more let us consider random input vector continuous random output variable predicted
+task feature selection finding features most relevant predict value
+features important practice especially when methods like basis function networks support vector depending kernel considered
+methods indeed their tend when variables data
+when data i e initial number variables large search optimal feature set
+cases furthermore most methods features perform
+procedure instance methods feature selection methods like learning vector algorithm require model all initial features
+data will often lead large times convergence problems more generally related
+approaches furthermore bound specific prediction model
+contrast feature selection procedure applied using any model small feature
+procedure furthermore simple often efficient
+when data difficult perform search using prediction model directly
+because every feature subset prediction model must involving techniques optimal structural parameters
+alternative estimate each subset statistical measure without using prediction model itself
+combined use feature search criterion generally considered good option when effects using correlation
+context information estimated using approach been shown effective
+approach just like most feature selection two
+first one all feature selection methods optimal choice number features
+most time number features chosen so criterion
+approach no optimization while latter may very estimation criterion
+second difficulty choice estimation criterion
+indeed most correlation at least one structural parameter like number kernel prediction model number number etc
+often result selection highly depends value those
+aim paper provide procedure choose two important parameters i e number features search structural criterion estimation
+procedure will detailed situation where information used criterion estimated through
+methods will used obtain choice
+those methods increase computational cost search but provide information about quality setting will shown test used procedure combination allows choosing optimal number estimation information
+paper follows
+section information test how they used together
+section choosing number information estimation number features search
+section then proposed approach
+method data reported section

@@ -1,0 +1,35 @@
+
+functions based test cases very common genetic
+process learning task inference models limited number samples
+paper two methods improve generalization 1 selection individuals using three data sets 2 application order reduce complexity solutions
+results using binary classification show while accuracy test sets less compared results mean tree size obtained tested methods significantly reduced
+introduction
+particularly problems learning tasks error between obtained limited number test cases training data using
+indeed classical examples regression only simple learning problems i e regression binary classification learning
+early years problems were using single data set results same data set was used evaluate during evolution
+was fact problems used only potential
+given learning algorithm data used during training perform data same application domain
+hence important report results set data was not used during learning
+what call paper two data sets training set used learning algorithm test set used report performance algorithm data good generalization robustness
+even though been widely applied long time still results data sets were used during evolution training phase
+problem been see should less less common future
+two data sets results learning algorithms training set
+but does not itself training set
+common approach third data set set learning algorithm measure its generalization
+set useful learning algorithm when occurs learning machine generalization
+third data set used neural networks applied learning
+but approach important significant amount data training set learning process
+indeed training set more real data distribution more learning algorithm expected robust solutions
+objective paper investigate effect set individuals learning application
+another develop learning algorithms generate simple solutions
+principle states between solutions quality solutions must
+another minimum description length principle states model one amount information needed model data given model
+preference solutions more likely complex solution specific information training set thus training set compared solution
+but should taken too much complexity discovery more complex yet more accurate solutions
+there strong between complexity learning control growth program size
+even though complexity not same phenomenon some generated no effect actual complexity solutions most mechanisms proposed control also used complexity solutions obtained learning
+paper study learning algorithm
+more specifically investigate two techniques increase generalization performance complexity 1 use set individuals well 2 use reduce complexity generated models
+techniques tested using binary classification problems vectors taken learning sets mathematical vectors
+approach tested different data sets
+even if proposed techniques tested specific context argue they extended situations where used learning algorithm

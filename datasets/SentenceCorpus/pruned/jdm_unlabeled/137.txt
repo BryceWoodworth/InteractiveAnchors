@@ -1,0 +1,46 @@
+
+paper models decision making under risk
+contrast uncertainty effects found some subjects our experiments more than best possible outcome
+show effect more strongly related than payoff mechanism
+introduction
+decision making often involves choices between risky outcomes
+theory expected utility theory both individuals outcomes their potentially probability means binary will between outcomes
+however cases where individuals value risky less than its possible
+they call phenomenon uncertainty effect demonstrate its existence various experiments including real tasks choice tasks well field experiment
+uncertainty effect however observed only do not involve
+study small but literature robustness their findings
+example found uncertainty effect design
+however results were experimental
+specifically series experiments they define payoff probabilities
+they also
+their new uncertainty effect almost
+et al used physical i e good two their value instead observed uncertainty effect almost
+other hand uncertainty effect fact uncertainty was number outcomes presented subjects subjects may had could result number
+instead uncertainty effect occurs direct risk aversion
+direct risk aversion uncertainty i e uncertainty directly into people's utility function
+showed uncertainty effect where two agents fixed
+uncertainty effect not if certain different utility parameters
+they argue utility more than utility certain
+because utility more than certain utility one gamble less than its possible outcome
+paper cases uncertainty effect found where individuals value outcome risky more than its best possible
+demonstrate cases where subjects much three times value best possible second
+term effect effect
+addition effect identify effect
+three possible results number about mechanism number about i e subjects did not understand payoff mechanism number subjects derive utility being experiment i e out experiment among their
+first two show likely result not underlying feature preference per but rather result mechanism
+effect elements value mechanism
+example value experiments subjects second
+experiments subjects value difference between his value second
+second strategy but show many people higher than
+either strategy not being learning feedback mechanisms second
+although result often taken fact associated second several more recent value studies focus all values not just tend find more theoretical predicted second
+even if result second difficult primary observed here where values unknown
+although subjects our experiments would people's close expected payoff not close maximum payoff
+effect observed might explain higher than expected value but cannot explain maximum
+use experimental design amount training about mechanism amount feedback after each
+amount training allows us directly test whether mechanism may explain observed results
+other hand amount feedback after each allows us test whether mechanism may more
+also measured how work well their
+our results suggest effect small part how work but training second does not effect thus out mechanism primary
+find related effect while related behavior
+paper follows next section design our experiments data analysis results

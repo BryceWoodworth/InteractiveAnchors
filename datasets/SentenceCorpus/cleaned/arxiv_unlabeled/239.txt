@@ -1,0 +1,62 @@
+ 
+catalogs periodic variable stars contain large numbers periodic light-curves photometric time series data astrophysics domain
+separating anomalous objects well-known classes important step towards discovery new classes astronomical objects
+most anomaly detection methods time series data assume either single continuous time series set time series whose periods aligned
+light-curve data precludes use methods periods any given pair light-curves may out sync
+one may use existing anomaly detection method if prior similarity calculation one performs costly act aligning two light-curves operation scales poorly massive data sets
+paper presents pcad unsupervised anomaly detection method large sets unsynchronized periodic time-series data outputs ranked list both global local anomalies
+calculates its anomaly score each light-curve relation set centroids produced modified k-means clustering algorithm
+our method able scale large data sets through use sampling
+validate our method both light-curve data other time series data sets
+demonstrate its effectiveness at finding known anomalies discuss effect sample size number centroids our results
+compare our method naive solutions existing time series anomaly detection methods unphased data show pcad's reported anomalies comparable better than all other methods
+finally astrophysicists our team verified pcad finds true anomalies might indicative novel astrophysical phenomena \keywords{anomaly detection time series data}
+ introduction 
+quasars  radio pulsars  cosmic gamma-ray bursts were all discovered alert scientists who while examining data primary purpose encountered aberrant phenomena whose further study led legendary discoveries
+discoveries were possible era when scientists had close connection their data
+advent massive data sets renders unexpected discoveries through manual inspection improbable if not impossible
+fortunately automated anomaly detection programs may resurrect mode discovery identify atypical phenomena indicative novel astronomical objects *} our research applies anomaly detection photometric time series data called light-curve data
+our specific application find anomalies sets light-curves periodic variable stars
+most stars like our own sun almost constant luminosity whereas variable stars undergo significant variations
+there over 350,000 cataloged variable stars more being discovered
+2003 general catalogue variable stars lists known suspected variable stars our own galaxy well 10,000 other galaxies
+periodic variable stars period star established
+common types periodic variable stars include cepheid eclipsing binaries rr lyrae details found
+study periodic variable stars great importance astronomy
+example study cepheids yielded most valuable method determining hubble constant study binary stars enabled discovery star's true mass
+finding new class subclass variable stars will tremendous value
+figure shows typical light-curve each star class before after perform our pre-processing techniques described section 
+y-axis measures magnitude brightness star
+magnitude inversely proportional brightness observation thus y-axis plotted descending values
+x-axis measures folded time
+folded light-curve light-curve where all periods mapped onto single period why there may multiple points y-axis single time point
+describe light-curves process folding more detail section } our research motivated challenges inherent performing anomaly detection large sets periodic variable light-curves
+several challenges common many time series data sets
+there large number time-points each light-curve high dimensionality low signal-to-noise ratio voluminous amounts data
+indeed new surveys panoramic survey telescope rapid response system pan-starrs capacity produce light-curves billions stars
+any technique developed light-curves must scale very large data sets
+unique challenge working light-curve data periods light-curves not synchronized because each generated different source star
+understand why phasing poses challenge anomaly detection domain consider figure  illustrates how two similar light-curves may appear dissimilar under similarity measure like euclidean distance if phase adjustment not performed
+top panel shows two similar light-curves whose phases not synchronized
+middle panel shows square correlation plotted function phase adjustment
+maximum similarity occurs at phase shift approximately 0 3
+bottom panel shows two light-curves after dotted light-curve shifted amount
+define optimal phase shift between two light-curves shift yields maximum similarity value
+phasing problem presents challenge both general anomaly detection techniques those developed specifically time series
+general anomaly detection method even metric works unphased data may not work out box
+regard time series anomaly detection techniques our task finding anomalies distinct time series differs most work assumes single contiguous time series not necessarily periodic anomalous sub-regions sought
+pcad our solution problem anomaly detection large sets unsynchronized periodic time series
+heart pcad modified k-means clustering algorithm called phased k-means pk-means runs sampling data
+pk-means differs k-means re-phases each time series prior similarity calculation updates centroids rephased curves
+because pk-means modification k-means provide proof pk-means does not break k-means's convergence properties
+pk-means subroutine runs offline sampling data
+use sampling enables pcad scale large data sets
+online portion pcad calculation anomaly score each time series set centroids produced offline pk-means
+operation linear size data set
+another advantage pcad its flexibility discover two types anomalies: local global
+define terms local global anomaly provide scoring methods both
+once each time series assigned anomaly score pcad ranks time series accordingly outputs top review
+our knowledge pcad only anomaly detection method developed specifically unsynchronized time series data output both global local outliers
+our paper presents empirical evidence four data sets pcad effectively finds known anomalies produces better ranking anomalies when compared naive solutions other state-of-the-art anomaly detection methods time series
+discuss effect sample size parameter used pk-means anomaly detection results show experimental results light-curve data unknown number anomalies
+our paper concludes astrophysicists's discussion significance anomalies found pcad

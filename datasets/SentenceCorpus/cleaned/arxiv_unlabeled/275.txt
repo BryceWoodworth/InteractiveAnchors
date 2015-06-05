@@ -1,0 +1,48 @@
+ 
+paper introduces principled approach design scalable general reinforcement learning agent
+our approach based direct approximation aixi bayesian optimality notion general reinforcement learning agents
+previously been unclear whether theory aixi could motivate design practical algorithms
+answer hitherto open question affirmative providing first computationally feasible approximation aixi agent
+develop our approximation introduce new monte-carlo tree search algorithm along agent-specific extension context tree weighting algorithm
+empirically present set encouraging results variety stochastic partially observable domains
+conclude proposing number directions future research
+ introduction 
+reinforcement learning popular influential paradigm agents learn experience
+aixi bayesian optimality notion reinforcement learning agents unknown environments
+paper introduces evaluates practical reinforcement learning agent directly inspired aixi theory
+consider agent exists within some unknown environment
+agent interacts environment cycles
+each cycle agent executes action turn receives observation reward
+only information available agent its history previous interactions
+general reinforcement learning problem construct agent over time collects much reward possible unknown environment
+aixi agent mathematical solution general reinforcement learning problem
+achieve generality environment assumed unknown but computable function; i e \ observations rewards received agent given its past actions computed some program running turing machine
+aixi agent results synthesis two ideas: sep1mm\parskip0mm use finite-horizon expectimax operation sequential decision theory action selection; extension solomonoff's universal induction scheme future prediction agent context
+more formally let denote output universal turing machine supplied program input  finite lookahead horizon length bits program
+action picked aixi at time  having executed actions having received sequence observation-reward pairs environment given by: } intuitively agent considers sum total reward over all possible futures up steps ahead weighs each them complexity programs consistent agent's past generate future then picks action maximises expected future rewards
+equation  embodies one line major ideas bayes ockham epicurus turing von neumann bellman kolmogorov solomonoff
+aixi agent rigorously shown optimal many different senses word
+particular aixi agent will rapidly learn accurate model environment proceed act optimally achieve its goal
+accessible overviews aixi agent been given both
+complete description agent found
+aixi agent only asymptotically computable no means algorithmic solution general reinforcement learning problem
+rather best understood bayesian optimality notion decision making general unknown environments
+its role general ai research should viewed example same way minimax empirical risk minimisation principles viewed decision theory statistical machine learning research
+principles define what optimal behaviour if computational complexity not issue provide important theoretical guidance design practical algorithms
+paper demonstrates first time how practical agent built aixi theory
+seen equation there two parts aixi
+first expectimax search into future will call planning
+second use bayesian mixture over turing machines predict future observations rewards based past experience; will call learning
+both parts need approximated computational tractability
+there many different approaches one try
+paper opted use generalised version uct algorithm planning generalised version context tree weighting algorithm learning
+combination ideas together attendant theoretical experimental results form main contribution paper
+paper organised follows
+section introduces notation definitions use describe environments accumulated agent experience including familiar notions reward policy value functions our setting
+section describes general bayesian approach learning model environment
+section then presents monte-carlo tree search procedure will use approximate expectimax operation aixi
+followed description context tree weighting algorithm how generalised use agent setting section
+put two ideas together section form our aixi approximation algorithm
+experimental results then presented sections
+section provides discussion related work limitations our current approach
+section highlights number areas future investigation

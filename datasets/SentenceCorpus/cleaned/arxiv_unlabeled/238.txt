@@ -1,0 +1,44 @@
+ 
+present novel approach learning nonlinear dynamic models leads new set tools capable solving problems otherwise difficult
+provide theory showing new approach consistent models long range structure apply approach motion capture high-dimensional video data yielding results superior standard alternatives
+ introduction 
+notion hidden states appears many nonstationary models world hidden markov models hmms discrete states kalman filters continuous states
+figure shows general dynamic model observation unobserved hidden state
+system characterized state transition probability  state observation probability
+method predicting future events under dynamic model maintain posterior distribution over hidden state  based all observations up time
+posterior updated using formula: prediction future events   conditioned through posterior over : hidden state based dynamic models wide range applications time series forecasting finance control robotics video speech processing
+some detailed dynamic models application examples found
+\eqref{eq:predict} clear benefit using hidden state dynamic model information contained observation captured relatively small hidden state
+therefore order predict future do not use all previous observations but only its state representation
+principle may contain finite history length 
+although notation only considers first order dependency incorporates higher order dependency considering representation form  standard trick } hmm kalman filter both transition observation functions linear maps
+there reasonable algorithms learn linear dynamic models
+example addition classical em approach was recently shown global learning certain hidden markov models achieved polynomial time
+moreover linear models posterior update rule quite simple
+therefore once model parameters estimated models readily applied prediction
+however many real problems system dynamics cannot approximated linearly
+problems often necessary incorporate nonlinearity into dynamic model
+standard approach problem through nonlinear probability modeling where prior knowledge required define sensible state representation together parametric forms transition observation probabilities
+model parameters learned using probabilistic methods em
+when learned model applied prediction purposes necessary maintain posterior using update formula \eqref{eq:post-update}
+unfortunately nonlinear systems maintaining generally difficult because posterior become exponentially more complex e g  exponentially many mixture components mixture model increases
+computational difficulty significant obstacle applying nonlinear dynamic systems practical problems
+traditional approach address computational difficulty through approximation methods
+example particle filtering approach  one uses finite number samples represent posterior distribution samples then updated observations arrive
+another approach maintain mixture gaussians approximate posterior  may also regarded mixture kalman filters
+although exponential number mixture components needed accurately represent posterior practice one use fixed number mixture components approximate distribution
+leads following question: even if posterior well-approximated computationally tractable approximation family finite mixtures gaussians how one design good approximate inference method guaranteed find good quality approximation
+use complex techniques required design reasonable approximation schemes makes non-trivial apply nonlinear dynamic models many practical problems
+paper introduces alternative approach where start different representation linear dynamic model call sufficient posterior representation
+shown one recover underlying state representation using prediction methods not necessarily probabilistic
+allows us model nonlinear dynamic behaviors many available nonlinear supervised learning algorithms neural networks boosting support vector machines simple unified fashion
+compared traditional approach several distinct advantages: does not require us design any explicit state representation probability model using prior knowledge
+instead representation implicitly embedded representational choice underlying supervised learning algorithm may regarded black box power learn arbitrary representation
+prior knowledge simply encoded input features learning algorithms significantly simplifies modeling aspect
+does not require us come up any specific representation posterior corresponding approximate bayesian inference schemes posterior updates
+instead issue addressed incorporating posterior update part learning process
+again posterior representation implicitly embedded representational choice underlying supervised learning algorithm
+sense our scheme learns optimal representation posterior approximation corresponding update rules within representational power underlying supervised algorithm
+possible obtain performance guarantees our algorithm terms learning performance underlying supervised algorithm
+performance latter been heavily investigated statistical learning theory literature
+results thus applied obtain theoretical results our methods learning nonlinear dynamic models

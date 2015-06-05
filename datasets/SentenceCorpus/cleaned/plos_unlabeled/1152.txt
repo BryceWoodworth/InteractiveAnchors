@@ -1,0 +1,64 @@
+ 
+1997 seminal paper w maddison proposed minimizing deep coalescences mdc optimization criterion inferring species tree set incongruent gene trees assuming incongruence exclusively due lineage sorting
+subsequent paper maddison knowles provided implemented search heuristic optimizing mdc criterion given set gene trees
+however heuristic not guaranteed compute optimal solutions its hill-climbing search makes slow practice
+paper provide two exact solutions problem inferring species tree set gene trees under mdc criterion
+other words our solutions guaranteed find tree minimizes total number deep coalescences set gene trees
+one solution based novel integer linear programming formulation another based simple dynamic programming approach
+powerful ilp solvers cplex make first solution appealing particularly very large-scale instances problem whereas dp-based solution eliminates dependence proprietary tools its simplicity makes easy integrate other genomic events may cause gene tree incongruence
+using exact solutions analyze data set 106 loci eight yeast species data set 268 loci eight apicomplexan species several simulated data sets
+show mdc criterion provides very accurate estimates species tree topologies our solutions very fast thus allowing accurate analysis genome-scale data sets
+further efficiency solutions allow quick exploration sub-optimal solutions important parsimony-based criterion mdc show
+show searching species tree compatibility graph clusters induced gene trees may sufficient practice finding helps ameliorate computational requirements optimization solutions
+further study statistical consistency convergence rate mdc criterion well its optimality inferring species tree
+finally show how our solutions used identify potential horizontal gene transfer events may caused some incongruence data thus augmenting maddison's original framework
+implemented our solutions phylonet software package freely available at: link
+ introduction 
+accurate species trees model evolutionary histories sets species play central role comparative genomics conservation studies analyses population divergence among many other applications
+traditionally species tree inferred sequencing single locus group species its tree known gene tree reconstructed using method maximum likelihood tree declared species tree
+underlying assumption obviously gene tree species tree identical hence reconstructing former amounts learning latter
+however biologists long recognized assumption not necessarily always valid
+nevertheless due limitations sequencing technologies approach remained standard method until very recently
+advent whole-genome sequencing complete genomes various organisms becoming increasingly available particularly important data multiple loci organisms becoming available
+availability data allowed analyzing multiple loci various groups species
+analyses many cases uncovered widespread incongruence among gene trees same set organisms
+therefore while reconstructing gene tree requires considering process nucleotide substitution reconstructing species tree requires addition considering process resulted incongruities among gene trees so species phylogeny inferred reconciling incongruities
+paper address problem efficient inference accurate species trees multiple loci when gene trees assumed correct their incongruence assumed exclusively due lineage sorting
+also address integration horizontal gene transfer potential cause gene tree incongruence into framework
+let us illustrate process lineage sorting way causes gene tree incongruence
+evolutionary perspective barring any recombination evolutionary history set genomes would depicted tree same tree models evolution each gene genomes
+however events recombination break linkage among different parts genome those unlinked parts may take different paths through phylogeny results gene trees differ species tree well each other due lineage sorting
+widespread gene tree incongruence due lineage sorting been shown recently several groups closely related organisms including yeast drosophila staphylococcus aureus apicomplexan
+case gene trees need reconciled within branches species tree shown figure 1
+few methods been introduced recently analyzing gene trees reconciling their incongruities inferring species trees despite incongruities
+generally speaking each methods follows one two approaches: combined analysis approach separate analysis approach; see figure 2
+combined analysis aproach sequences multiple loci concatenated resulting supergene data set analyzed using traditional phylogenetic methods maximum parsimony maximum likelihood; e.g
+separate analysis approach sequence data each locus first analyzed individually reconciliation gene trees then sought
+one way reconcile gene trees taking their majority consensus; e.g
+another democratic vote method entails taking tree topology occurring highest frequency among all gene trees species tree
+shortcomings methods based two approaches been analyzed various researchers
+recently bayesian methods following separate analysis approach been developed
+while methods firm statistical basis they very time consuming taking hours days even moderate-size data sets limits their scalability 
+maddison proposed parsimony-based approach inferring species trees gene trees minimizing number extra lineages minimizing deep coalesces
+heuristic approach was later described
+than et al provided two-stage heuristic inferring species tree under mdc criterion
+however no exact solutions computing mdc criterion exist
+paper provide formal definition notion extra lineages first described
+then present exact solutions integer linear programming algorithm dynamic programming algorithm finding optimal species tree topology set gene tree topologies under mdc criterion
+our solutions based two central observations: species tree maximal clique compatibility graph set species clusters quantifying amount incongruence between set gene trees species tree obtained simple counting lineages within branches species tree
+accuracy computational efficiency solutions demonstrate allow analysis genome-scale data sets analysis large numbers data sets those involved simulation studies
+given mdc parsimonious explanation incongruence data imperative sub-optimal solutions considered
+computational efficiency our solutions allow rapid exploration sub-optimal solutions
+last but not least exact solutions allow us empirically study properties mdc optimality criterion inferring species tree
+implemented both exact solutions phylonet software package 
+reanalyze apicomplexan data set yeast data set large number synthetic data sets species/gene trees simulated using mesquite tool
+each data set our method computed species tree at most few seconds produced very accurate species trees show
+case apicomplexan data set provide tree slightly different one proposed authors discuss tree
+yeast data set obtain tree identical one proposed authors well other studies
+addition quality species trees efficiency our method inferred them one advantage our method used exploratory fashion screen multiple species tree candidates study reconciliation scenarios within branches each them
+illustrate utility capability yeast apicomplexan data sets
+further apicomplexan data set illustrate how screen possible horizontal gene transfer events using reconciliation scenarios computed other methods
+using synthetic data sets study statistical consistency well convergence rate mdc criterion
+also show may sufficient consider only set clusters induced gene trees practice may much smaller than set all clusters species thus achieving further reduction computation time
+nonetheless present example illustrate certain cases focusing only gene tree clusters may result sub-optimal species tree under mdc
+computational efficiency our methods coupled promising properties mdc criterion makes our methods particularly applicable large genome-scale data sets

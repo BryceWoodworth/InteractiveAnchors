@@ -1,0 +1,39 @@
+
+define novel basic learning problem learning density unknown probability distribution
+task relevant several problems machine learning learning clustering stability
+investigate question existence consistent algorithm problem
+propose two natural learning prove input random samples generated any family distributions they optimal distribution
+result no learning algorithm our task achieve learning rates independent data distribution
+introduction
+while theory machine learning understanding many aspects learning our theoretical understanding learning
+practical importance various learning tasks state our current knowledge does not provide close mathematical performance classification prediction theory
+paper make small step direction one specific learning task detection linear data distributions over
+consider following unknown data distribution over find density through distribution
+assume underlying data distribution continuous density function data available finite
+samples distribution
+our model instance fundamental issue information about probability distribution random samples
+tasks nature range problem density estimation through estimation level sets region detection clustering
+all tasks difficult respect both sample complexity computational complexity aspects one strong about nature underlying data distribution
+our task seems more than
+although not any previous work problem point view statistical machine learning at least rather basic problem relevant various practical learning scenarios
+one important domain detection linear data relevant learning
+learning fact many real world classification problems samples much obtain than examples
+there develop tools samples improve quality sample based
+utility data classification depends some relationship between data distribution class data points see point
+common type between data classes through regions data distribution
+support vector example algorithm uses low density assumption
+small error data at same time wide respect data sample
+another area play significant role analysis clustering stability
+recent work analysis clustering stability found close relationship between stability clustering data density along lower more stable clustering
+algorithm family probability distributions input finite sample generated some distribution output through low density t
+
+particular consider family all distributions over continuous density functions
+investigate two algorithms convergence over family probability distributions consistency
+convergence prove general negative result no algorithm any fixed convergence rates terms sample
+negative result even case where data domain
+consistency e g rates depend distribution prove two natural algorithms choose parameter depending sample size output empirical weight algorithms choose
+paper section provides our learning task well investigate
+section present two natural learning problem over real prove their universal consistency over class probability distributions
+section results show linear probability distributions over arbitrary dimension
+section show previous universal consistency results cannot obtain learning rates any based algorithm
+paper further research

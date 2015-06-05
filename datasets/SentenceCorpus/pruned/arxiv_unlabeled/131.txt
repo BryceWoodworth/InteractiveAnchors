@@ -1,0 +1,15 @@
+
+results was point series show any sequence outcomes learned no prior knowledge using some universal forecasting algorithm rules
+show class all efficient rules property
+moreover present probabilistic algorithm probability close one sequence all forecasting algorithms
+according framework consider algorithms
+introduction
+let binary sequence outcomes observed whose task give probability future event
+evaluation probability based method called following if any event time choose see also
+let us give some
+let set all binary sequences set all finite binary sequences sequence
+any finite sequence
+also length sequence
+if finite sequence finite sequence then sequences means some
+framework method probabilities future event all possible finite sequences
+other words all probabilities i

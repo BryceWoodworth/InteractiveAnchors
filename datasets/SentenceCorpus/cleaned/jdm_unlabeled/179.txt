@@ -1,0 +1,70 @@
+ 
+compare four different risk-taking propensity measures their ability describe predict actual risky behavior domain health
+risk-taking propensity measures compare number general measure risk-taking propensity derived one-item survey question number risk aversion index calculated set incentivized monetary gambles number measure risk taking derived incentive compatible behavioral task-the balloon analog risk task number composite score risk-taking likelihood health domain domain-specific risk taking dospert scale
+study participants number clients health centers around witbank south africa
+our findings suggest one-item general measure best predictor risky health behavior our population predicting two out four behaviors at number percent level remaining two behaviors at number percent level
+dospert score health domain performs well predicting one out four behaviors at number percent significance level two out four behaviors at number percent level but only if dospert instrument contains hypothetical risk-taking item similar actual risky behavior being predicted
+incentivized monetary gambles behavioral task were unrelated actual health behaviors they were unable predict any risky health behaviors at number percent level
+provide evidence not because participants had trouble understanding monetary trade-off questions performed poorly behavioral task
+conclude urging researchers further test usefulness one-item general measure both explaining health related risk-taking behavior other contexts
+ introduction 
+risk taking part life but people differ their risk-taking propensity
+some people enjoy risky pursuits while others detest activities
+psychologists economists developed various methods measure individual's risk-taking propensity
+paper examines four different types risk-taking propensity measures tests how well they predict risk taking health domain smoking problem drinking seat belt non-use risky sexual behavior
+first risk-taking propensity measure called dohmen measure paper was developed dohmen et al
+elicited using one survey question directly asks about risk-taking propensity how do you see yourself
+you generally person who fully prepared take risks do you try avoid taking risks
+please tick box scale where value number means 'not at all willing take risks' value number means 'very willing take risks'
+while straightforward simple administer dohmen measure been subject two concerns
+first concern relates domain specificity
+generally accepted psychology behavior domain specific possible individuals show different levels risk-taking propensity depending context
+thus dohmen measure being general measure may not able predict risk taking health domain example
+concern greatly mitigated dohmen et al who showed general dohmen measure robust predictor behavior different domains including smoking behavior health domain
+second concern dohmen measure its lack incentive compatibility
+issue derives general concern economists about incentive-compatible measures respondents presumed work harder more persistently more effectively when money aligned performance
+case measuring people's risk-taking propensity incentive compatibility usually achieved giving respondents choices between gambles paying them what they choose
+because dohmen question does not provide incentives motivate respondents answer truthfully respondents may misrepresent their answers
+charness viceisza instance administered dohmen question rural senegal found resulting distribution answers differ significantly found dohmen et al germany
+authors implied not having aligned incentives was reason discrepancy between measures found senegal germany but authors also alluded issues related translation difficulties including lack equivalent word risk wolof main national language senegal
+second risk-taking propensity measure called hl measure paper was developed holt laury
+hl most common measure individual's risk-taking propensity economics literature
+participant hl makes ten separate choices between gambles where each choice entails choosing between risky gamble where high low payoffs r number r number respectively our study safer gamble where high low payoffs respectively r number r number
+probability obtaining high vs low payoff risky gamble same probability obtaining high vs low payoff safer gamble
+probability ranges number number number increments number number ten sets choices
+when probability high payoff high at number number respondent high chance ending up r number under risky option r number under safer option case only very risk averse would choose safer option
+point at respondent switches safer option risky option used calculate risk aversion index
+because one choice pairs randomly selected played real after respondent made all number choices respondent knows about before making any choices hl measure incentive-compatible
+because hl measure derived using monetary gambles unclear whether measure derived monetary domain related risky health behavior
+question not been widely studied
+anderson mellor using sample almost number number mostly college-educated respondents u s found hl measure associated smoking heavy drinking seat belt non-use-but only at number percent significance level
+lammers using sample about number college students south africa found hl measure unrelated condom use
+third risk-taking propensity measure used paper bart behavioral risk task performed computer
+task number trials
+each trial begins un-inflated balloon screen
+clicking computer mouse makes balloon grow bigger earns participant number cents per click
+every balloon different pre-set level inflation before bursts participant does not know number clicks made before any balloon bursts
+at any point during each trial participant stop clicking bank money earned trial computer makes slot-machine coin-dispensing sound
+if however balloon over-inflated beyond its pre-set level balloon bursts money trial gone
+at end task participant paid all money banked
+bart task essence measures actual risk-taking propensity individual
+because earnings feedback given after each trial either casino sound when money banked explosion noise if balloon bursts bart decisions made hot psychological state
+hl decisions contrast made cold psychological state because actual earnings hl task revealed after all choices been made
+dislich et al use term impulsive risk taking describe bart term reflective risk taking describe task similar hl
+bart been shown associated psychological measures risk taking sensation seeking personality self-reported behavioral risks including smoking heavy drinking drug use sexual risk taking gambling stealing etc
+
+however bart good predictor health related risk taking not consistent finding literature
+reynolds et al found bart was uncorrelated study's self-reported personality measures related risk taking
+gordon found bart uncorrelated attitudes towards risky driving
+dean et al found smokers did not display greater risk taking bart than nonsmokers
+klassen found bart was unrelated any alcohol consumption measures examined
+our fourth measure uses modified version domain specific risk taking scale dospert developed weber et al
+dospert asks about one's likelihood pursue various hypothetical but risky activities each five domains financial ethical health safety social recreational then aggregates activity-specific risk-taking propensity scores into domain-specific risk-taking propensity scores
+contrast dohmen measure elicits single global risk-taking propensity
+dospert domain scores been shown associated real-life risk taking activities within same domain
+instance hanoch et al found smokers had significantly higher risk-taking propensity scores health domain than respondents comparison group consisting gym members athletes gamblers investors
+zuniga bouzas found dospert health safety recreational risk-taking scores significantly predicted blood alcohol concentrations mexican high-school students
+current study examine dohmen hl bart dospert measures population clients at health clinics south africa test how measures relate health risk taking terms smoking drinking seat belt non-use risky sexual practices
+our study makes few contributions
+extend work dohmen et al testing how one-item measure fares predicting unhealthy behavior other than smoking
+test ability incentive-based hl bart tasks explaining activities health domain using implementation hl task may interest other researchers addresses concerns about respondent understanding risk task

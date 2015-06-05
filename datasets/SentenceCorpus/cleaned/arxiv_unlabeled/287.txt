@@ -1,0 +1,36 @@
+ 
+sampling-based methods previously been proposed problem finding interesting associations data even low-support items
+while methods do not guarantee precise results they vastly more efficient than approaches rely exact counting
+however many similarity measures no methods been known
+paper show how wide variety measures supported simple biased\/ sampling method
+method also extends find high-confidence association rules
+demonstrate theoretically our method superior exact methods when threshold ``interesting similarity/confidence'' above average pairwise similarity/confidence average support not too low
+our method particularly good when transactions contain many items
+confirm experiments standard association mining benchmarks gives significant speedup real data sets sometimes much larger than theoretical guarantees
+reductions computation time over order magnitude significant savings space observed
+ introduction 
+central task data mining finding associations binary relation
+typically phrased ``market basket'' setup where there sequence baskets now ``transactions'' each set items
+goal find patterns ``customers who buy diapers more likely also buy beer''
+there no canonical way defining whether association interesting  indeed seems depend problem-specific factors not captured formulation
+result number measures exist: paper deal some most common measures including jaccard   lift   cosine  all\_confidence 
+addition interested high-confidence association rules closely related overlap coefficient\/ similarity measure
+refer general background discussion similarity measures
+discussion limit ourselves problem binary associations i e  patterns involving pairs items
+there large literature considering challenges finding patterns involving larger item sets taking into account aspect time multiple-level rules etc
+while some our results extended cover larger item sets will simplicity concentrate binary case
+previous methods rely one following approaches: identifying item pairs ``occur frequently together'' transactions  particular means counting number co-occurrences each pair  computing ``signature'' each item similarity every pair items estimated partially comparing item signatures
+our approach different both approaches generally offers improved performance and/or flexibility
+some sense go directly desired result set pairs items similarity measure above some user-defined threshold
+our method sampling\/ based means output may contain false positives there may false negatives
+however errors rigorously understood reduced any desired level at some cost efficiency  our experimental results false negative probability less than 2\%
+method doing sampling main novelty paper radically different previous approaches involve sampling
+main focus many previous association mining papers been space usage\/ number passes\/ over data set since been recognized main bottlenecks
+believe time come also carefully consider cpu time
+transaction items contains item pairs if not small effort considering all pairs non-negligible compared cost reading item set
+true particular if data resides ram modern ssd able deliver data at rate more than gigabyte per second
+one remedy been used reduce space but also time require high support  i e  define ``occur frequently together'' most items thrown away initially simply because they do not occur frequently enough they below support threshold\/ 
+however observed means potentially interesting useful associations e g correlations between genes rare diseases not reported
+paper consider problem finding associations without\/ support pruning
+course support pruning still used reduce size data set before our algorithms applied
+following sections first discuss need focusing cpu time data mining then elaborate relationship between our contribution related works

@@ -1,0 +1,47 @@
+
+several decision-making models predict should possible affect real binary choices relative amount visual attention two alternatives
+present results three behavioral experiments testing prediction
+visual attention amount time subjects two items
+impact items
+items number number percent more likely chosen long condition
+contrast items number percent less likely chosen long condition
+effect present primary
+introduction
+many behavioral individuals make choices first values objects then option value some noise
+several questions how values decisions called decision values
+how values compared
+what properties those processes
+questions increasing attention behavioral
+particular several models how decision values compared been proposed
+models based simple idea
+decision value made prior actual value will derived
+models assume decision values making estimates value then over time
+some models empirical support both human behavioral experiments
+models make some predictions important behavioral
+example they predict decision value thus depend amount time
+series experiments testing prediction showed items increases significantly time true items
+extended class models investigate role visual attention binary choice
+their model described next section makes two predictions about impact choice changes visual attention
+predicts should possible increase probability chosen relative amount time subjects during decision-making process
+second predicts effect should positive items negative items
+paper results three behavioral experiments testing predictions
+large extent results consistent predictions
+properties value comparison processes should interest behavioral since they determine extent individuals able make quality choices they able do so
+example results paper suggest variables affect visual attention conditions affect choices made
+addition properties processes could important behavioral effects
+our work related literature preference behavioral studied impact several variables decision values
+example asked subjects make choices between pairs compared two conditions one larger payoffs were larger one smaller payoffs were larger
+they found subjects were more choose gamble potentially larger payoffs first condition
+common results outcomes larger size more attention lead relative those outcomes
+related probability function theory biases place relative attention very low very high probability events result relative probabilities
+all results what relative attention different choice problem e g probabilities gains
+contrast paper show changes relative amount visual attention items also affect likelihood they chosen
+thus our results do not depend one dimension choice being at another but model described next section process relative value comparison one option at other
+our work also related literature effect
+experiment shows about how much they like stimulus e g increased through previous items
+there two important differences between processes studied paper
+first about how previous affect actual experience whereas study how visual attention during process decision making choices made
+thus whereas about impact learning across trials effect investigate about impact time within single decision
+second whereas defined up positive result items even if they our effect more like effect positive items but negative ones
+far know first experimental study impact decisions explicitly during process choice
+experiment work et al who study role visual attention judgments about

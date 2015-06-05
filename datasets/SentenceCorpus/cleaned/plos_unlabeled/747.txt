@@ -1,0 +1,33 @@
+ 
+circadian rhythm fundamental regulating wide range cellular metabolic physiological behavioral activities mammals
+although small number key circadian genes been identified through extensive molecular genetic studies past existence other key circadian genes how they drive genomewide circadian oscillation gene expression different tissues still remains unknown
+here try address questions integrating all available circadian microarray data mammals
+identified 41 common circadian genes showed circadian oscillation wide range mouse tissues remarkable consistency circadian phases across tissues
+comparisons across mouse rat rhesus macaque human showed circadian phases known key circadian genes were delayed 4 5 hours rat compared mouse 8 12 hours macaque human compared mouse
+systematic gene regulatory network mouse circadian rhythm was constructed after incorporating promoter analysis transcription factor knockout mutant microarray data
+observed significant association cis-regulatory elements: ebox dbox rre hse different phases circadian oscillating genes
+analysis network structure revealed paths through light food heat entrain circadian clock identified nr3c1 fkbp/hsp90 complexes central control circadian genes through diverse environmental signals
+our study improves our understanding structure design principle evolution gene regulatory networks involved mammalian circadian rhythm
+ introduction 
+circadian rhythm daily time-keeping mechanism fundamental wide range species
+basic molecular mechanism circadian rhythm been studied extensively
+been shown negative transcriptional translational feedback loops formed set key circadian genes responsible giving rise circadian physiology
+mammals master clock resides suprachiasmatic nucleus scn orchestrates circadian clocks peripheral tissues directing secretion hormones glucocorticoids
+through many years molecular genetic studies at least 19 key circadian genes per family cry family bmal1 clock npas2 dec1/dec2 rev-erb / rora/rorb/rorc dbp/tef/hlf e4bp4 been identified mammals
+now commonly accepted arntl clock proteins form complex positively regulates transcription per cry family genes through activating cis-regulatory element e-box their promoters
+per cry family proteins form complex inhibits arntl/clock transcriptional activity thus completing negative feedback loop
+other key circadian genes dbp nfil3 controlling d-box element rora/rorb/rorc nr1d1/nr1d2 controlling rre also been shown important mammalian circadian rhythm
+since 2002 there been series microarray experiments aimed at identifying circadian oscillating genes at genome-wide level various tissues mammalian species including mouse rat rhesus macaque human
+experiments usually identified hundreds circadian oscillating genes suggesting circadian rhythm drives genomewide circadian oscillation gene expression
+however microarray data intrinsically noisy further microarray experiments differed animals they used experimental conditions sampling times etc indeed microarray experiments so far not been compared integrated
+few cases where two tissues were studied single experiment overlap circadian oscillating genes between tissues was very limited
+assuming set common circadian genes exists most tissues cell types integration different circadian microarray datasets multiple tissues could potentially identify common set circadian genes
+comparison circadian oscillating genes their oscillating patterns across different tissues help us understand tissue-specific functions circadian rhythm
+comparison across different mammalian species also shed light molecular mechanisms lead their different physiologies behaviors
+because many known key circadian genes arntl/clock nr1d1/nr1d2 dbp/nfil3 transcription factors transcriptional regulation must played important role genome-wide circadian oscillation gene expression
+ueda et al constructed small-scale gene regulatory network consisting 16 genes 3 cis-regulatory elements based vitro luciferase reporter assays
+however construction circadian gene regulatory network at system level based promoter analysis alone been almost impossible due difficulties transcription factor binding site prediction
+existence other cis-regulatory elements associated circadian oscillation remained elusive
+other hand there large body microarray experiments transcription factor knockout mutant animals currently available at public databases
+incorporating knockout mutant microarray experiment results promoter sequence analysis greatly facilitate identification functional transcription factor binding sites
+general construction analysis gene regulatory networks involved mammalian circadian rhythm will improve our understanding how key circadian genes driving circadian-controlled genes will pave way more detailed quantitative modeling mammalian circadian rhythm

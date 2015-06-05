@@ -1,0 +1,31 @@
+ 
+rates hospital-acquired infections methicillin-resistant staphylococcus aureus increasingly used quality indicators hospital hygiene
+alternatively rates may vary between hospitals because hospitals differ admission referral potentially colonized patients
+assessed if different referral patterns between hospitals health care networks influence rates hospital-acquired infections like mrsa
+used dutch medical registration 2004 measure connectedness between hospitals
+allowed us reconstruct network hospitals netherlands
+used mathematical models assess effect different patient referral patterns potential spread hospital-acquired infections between hospitals between categories hospitals
+university hospitals higher number shared patients than teaching general hospitals therefore more likely among first receive colonized patients
+moreover network directional towards university hospitals they higher prevalence even when infection control measures equally effective all hospitals
+patient referral patterns profound effect spread health care-associated infections like hospital-acquired mrsa
+mrsa prevalence therefore differs between hospitals position each hospital within health care network
+any comparison mrsa rates between hospitals benchmark hospital hygiene should therefore take position hospital within network into account
+ introduction 
+pathogens typically cause hospital-acquired infections opportunistic nature
+organisms usually part normal bacterial flora humans only cause disease when reaching body sites normally free bacterial colonization e.g when anatomical barriers breached due trauma medical/surgical interventions
+reason severe problems nosocomial pathogens mainly seen very young elderly most frequently institutions hospitals long-term care facilities where patients treated acute chronic conditions
+methicillin-resistant staphylococcus aureus antimicrobial resistant variant s aureus common bacteria frequently colonizing healthy humans animals
+emergence mrsa due acquisition large dna fragment seems rare
+expansion limited number mrsa clones characterizes current epidemic hospitals worldwide therefore believed result between patient transmission only minor extent due de novo emergence patients exposed antibiotics
+mrsa therefore become marker success failure hospital infection control 
+prevalence mrsa differs considerably within between countries
+currently about 30 percent s aureus causing bloodstream infections uk resistant methicillin against only 1 percent netherlands scandinavian countries
+although high endemic countries mrsa infections frequent all hospitals proportions highest large teaching hospitals also report highest frequency newly occurring mrsa clones
+severity underlying medical condition patients well higher antibiotic use frequency invasive procedures been proposed main reasons difference 
+patients carry mrsa asymptomatically long time
+when readmitted they may introduce pathogen acquired during previous admission into new hospital
+failure one hospital's infection control measures therefore affect prevalence hospitals shares patients
+patients referred hospitals at different rates depending function hospitals within health-care system likely affect prevalence at different institutions
+referral patterns might therefore offer explanation high mrsa incidence hospitals tertiary referral level
+but referral patterns account differences spread between hospitals differences observed prevalence
+answer questions been mapping health care network based large national medical registry evaluated occurrence hospital-acquired infections different care categories under simulated epidemic conditions

@@ -1,0 +1,31 @@
+ 
+although priority heuristic ph conceived cognitive-process model some its critical process assumptions remain tested
+ph makes very strong ordinal quantitative assumptions about strictly sequential non-compensatory use three cues choices between lotteries number difference between worst outcomes number difference worst-case probabilities number best outcome obtained
+aspects were manipulated orthogonally present experiment
+no support was found ph
+although main effect primary worst-outcome manipulation was significant came along other effects ph excludes
+strong effect secondary manipulation worst-outcome probabilities was not confined small differences worst-outcomes was actually stronger large worst-outcome differences
+overall winning probabilities ph ignores exerted systematic influence
+overall rate choices correctly predicted ph was close chance although high inter-judge agreement reflected systematic responding
+findings raise fundamental questions about theoretical status heuristics fixed modules
+ introduction 
+almost four decades theoretical empirical work judgment decision making been inspired notion cognitive heuristics
+accordingly people rarely try utilize all available information exhaustively making perfectly accurate judgments
+they usually content non-optimal but satisficing solutions
+cognitive tools afford satisficing solutions commonly called heuristics
+their reputation improved enormously
+having first been devalued mental short-cuts sloppy rules thumb sources biases shortcomings more recent literature heuristics often characterized fast frugal functional
+simple heuristics make us smart were shown outperform more ambitious models rational inference simulation studies
+yet addition mathematical proof simulation heuristics may perform well when they applied crucial psychological assumption says decision makers actually do use heuristics sometimes explained reflecting phylogenetic evolutionary learning
+although correlational evidence correspondence simulated heuristic validity criterion sufficient study first functional aspect hypothesis testing about actual cognitive process supposed heuristic calls repertoire experimental cognitive psychology
+thus crucial test assumption judgments frequency probability actually follow availability heuristic essential manipulate its crucial feature namely ease information comes mind
+likewise cogent test anchoring heuristic shown judges actually adjust initial extreme anchor insufficiently
+without appropriate experimental manipulations presumed mental operations impossible prove causal role hypothesized heuristic process
+percentage focal heuristic's correct predictions judgments decisions cannot provide cogent distinct evidence about underlying process
+early stage heuristics-and-biases research program though serious experimental attempts assess postulated cognitive operations had been remarkably rare
+hardly any experiment had manipulated ease clearly specified retrieval operation supposed underlie availability heuristic gradual adjustment process supposed underlie anchoring heuristic
+more recently though situation been changing
+number fast frugal heuristics been specified precisely enough allow strict experimental tests underlying cognitive processes
+tests take-the-best heuristic been concerned assumption cues ordered validity
+research recognition heuristic tested whether comparative judgments really determined mere exposure rather than substantive evaluation comparison objects
+seems fair conclude strict empirical tests resulted more critical picture validity scope postulated heuristics

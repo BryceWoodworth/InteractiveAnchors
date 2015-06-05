@@ -1,0 +1,35 @@
+ 
+transcription factor regulation often post-translational
+tf modifications reversible phosphorylation missense mutations act independent tf expression level overlooked differential expression analysis
+using bovine piedmontese myostatin mutants proof-of-concept propose new algorithm correctly identifies gene containing causal mutation microarray data alone
+myostatin mutation releases brakes piedmontese muscle growth translating dysfunctional protein
+compared less muscular non-mutant breed find myostatin not differentially expressed at any ten developmental time points
+despite challenge algorithm identifies myostatin smoking gun through coordinated simultaneous weighted integration three sources microarray information: transcript abundance differential expression differential wiring
+asking novel question regulator cumulatively most differentially wired abundant most differentially expressed genes
+yields correct answer myostatin
+our new approach identifies causal regulatory changes globally contrasting co-expression network dynamics
+entirely data-driven weighting procedure emphasises regulatory movement relative phenotypically relevant part network
+contrast other published methods compare co-expression networks significance testing not used eliminate connections
+ introduction 
+evolution normal development immune responses aberrant processes diseases cancer all involve at least some rewiring regulatory circuits
+indeed subtle differences circuit wiring makes each individual unique
+key nodes regulatory circuits frequently transcription factors
+thus there great deal interest developing methods decoding tf changes
+regulator-target interactions assessed chip-on-chip but requires large amounts homogenous starting material tf-specific reagents
+furthermore recruitment tf promoter does not necessarily correlate transcriptional status so biological interpretation complex
+likely sites key regulatory mutations revealed whole genome scans but approach requires large numbers individuals very dense snp panels
+even so exact causal gene may remain ambiguous if there several genes near marker
+any case little insight gained into underlying regulatory mechanisms
+order gain further insights into regulatory apparatus computational approaches continuously being proposed
+date they all operate integrating information multiple levels biological organisation particularly eqtl protein-protein interaction tf binding site data 
+identifying regulatory change solely through contrasts gene expression data been elusive because tf tend stably expressed at baseline levels close sensitivity standard high-throughput expression profiling platforms
+further tf activation often regulated post-translationally thereby act somewhat independently expression level
+biologically important common tf activation processes poorly detected conventional differential expression analysis
+hypothesised system-wide network approach might utility grounds while differentially-regulated tf might not de between two systems its new position network perturbed system might allow detection smoking gun
+allow reliable evaluation hypothesis well-defined experimental model system required
+piedmontese cattle double-muscled because they possess genomic dna mutation myostatin mrna transcript
+resulting dysfunctional myostatin protein transcriptional regulator releases brakes muscle growth reflecting importance tgf signalling pathways determination final muscle mass fibre composition
+preliminary analysis expression myostatin piedmontese hereford versus wagyu hereford animals found de myostatin was not detectable using cdna-based expression microarrays 
+thus system know identity gene containing causal mutation myostatin but cannot identify de mrna muscle samples
+contrasting muscle transcriptomes piedmontese wagyu crosses across 10 developmental time points our aim was establish question myostatin answer
+other words what question do need ask gene expression data reveal identity transcriptional regulator containing causal mutation

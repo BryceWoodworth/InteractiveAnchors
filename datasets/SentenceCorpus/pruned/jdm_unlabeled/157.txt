@@ -1,0 +1,66 @@
+
+analyze behavior two basic classes decision tasks
+particular compare prediction power number decision learning models both tasks
+most previous studies focus individual rather than behavioral characteristics
+out experiment involving both description choices between two binary made each participants number models predicting choices theory model three models
+models best predicting people's decisions description tasks not two models designed tasks
+furthermore find models involving linear gains losses perform better both tasks point view individual parameter consistency
+therefore overall when both assumption sensitivity does not improve prediction power individual
+finally some parameters consistency at individual level between description tasks
+introduction
+all our make decisions
+choose where when our pair
+fact each step make our life result decision made
+even if do our choice
+would if could always make correct decisions order resulting utility yet result information subjective behavioral biases
+therefore understanding people's behavior important both predicting their future decisions potentially decision quality
+decisions make may into two main
+when study drug risky including probabilities possible outcomes
+decisions based statistical called decisions
+when whether their during typically possible outcomes example probabilities explicitly provided
+many decisions all rely our own past experience
+decisions based past experience called decisions
+tasks typically studied under tend focus decisions based detailed information relevant outcome distributions
+tasks typically studied under do not provide objective prior information payoff distributions could
+other hand decisions thus learn experience
+between risky decisions recent attention because same information lead different choices depending how information
+difference usually difference treatment outcomes two
+one hand tasks according effect events likely if their probabilities explicitly presented
+other hand tasks outcomes may either because events not likely occur recently experience reduce events simply because small sample size may events not occur at all during relatively short time
+example may example given consider decision whether against
+who research effects site provided their will learn up number out number number will high about number out number number will result
+increasing number after information not their
+although same statistics at their they also information not available experience across many patients
+information them very result effects
+few will one cases high
+if they one experience free
+one sources differences between may result differences weight given events like likelihood function whether likelihood through experience statistical description
+situations often base their decisions both their own experience
+settings possible construct choice tasks based experience
+our major goal determine models best explain behavior two classes decision tasks
+previous studies behavioral characteristics groups people our study choice evaluation parameters individual
+moreover examine between choices same description tasks
+out experiment involving choices
+so our decision tasks more situations each choices made between two binary involving probabilities both gains losses
+examine common behavioral characteristics tasks number decision learning models number factors parameters loss aversion sensitivity probability choice consistency degree choice tendency past information current choice
+first use two models i theory was developed tasks model was designed tasks
+addition three basic models find out what parameters would most human behavior at individual level comparing same choices two types tasks i model similar without assumption sensitivity gains losses model similar but assumption sensitivity model utility function similar loss aversion parameter
+tasks order account effect learning model should contain explicitly probabilities
+therefore models probability parameter tasks
+other hand order effect learning models decisions should contain parameter
+models criterion
+first all classical models were designed description tasks will prove more than their possible tasks
+our findings based support
+furthermore people tend terms decision-making model parameters
+thus better models should also provide higher individual parameter consistency
+other words individual who according certain model relatively high low values certain decision parameters certain task should according same model relatively high low values same parameters other tasks same choice
+sensitivity assumption behavior our experiment may rather limited due nature
+since tasks combined model found model terms parameter consistency
+finding other results models involving linear gains losses perform better both tasks
+finally behavior should also consistent between different choice individual parameters having similar description tasks should correlated
+hypothesis only learning models may still need further
+paper follows
+section number present models decision-making
+section number describe our experimental design research approach
+section number empirical tests perform provides results
+section number provides

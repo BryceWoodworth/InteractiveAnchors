@@ -1,0 +1,47 @@
+
+states into property many different proteins was hence feature
+increasing evidence now generally characterized alignment distinct protein molecules
+here assume universal mechanism structure formation interaction between pairs protein statistical analysis proteins
+derived interaction was within novel algorithm prediction structure investigate role sequence specific into structures
+algorithm predicts sequence core most cases
+however when present short
+predictions most also available experimental observations
+results recent hypothesis structure same those proteins
+they also suggest interaction across key formation their ability
+introduction
+increasing number human associated proteins their functional into
+into conditions occurs brain occurs single type other than brain occurs multiple
+associated human generally described when they whereas term been suggested more appropriate when related form cell
+formation not however those protein
+several other proteins no been found form structural properties allow them
+finding idea ability form structure property main interactions
+theoretical perspective was also recently shown simple sufficient explain within same framework limited single structures multiple
+ability form structure been systems specific some organisms been found during their normal physiological life cycle one more their proteins into functional properties rather than effects
+most functions ability genetic
+proteins addition specific
+their states proteins able form do not any sequence structural each other
+differences proteins common properties resulting
+obtained transmission usually 2 each about 2
+generally together form typically wide form long 2 high up wide
+data shown protein molecules so long
+other techniques protein our ability gain into structures
+us presence structure
+studies indeed identification regions sequence form core those
+many cases various molecules also been determined nature structural molecules along
+one studies particularly long sequences core but also possible especially
+at same time studies revealed simple between properties
+development different methods predict regions sequence protein
+all approaches focus predicting intrinsic sequence using only sequence input
+possible sequence itself was also taken into account
+molecular dynamics simulations sequence either were used identify most specific case
+structure based also very recent method
+question why found most core
+here introduce computational approach energy function based two residues found within one another determined proteins known structures
+two different sets depending
+our method energy specific two sequence same length further distinct protein molecules involved formation will order better core
+novel feature our method ability predict between sequence
+way observed tendency proteins into individual form same type along
+our algorithm also able between either
+further robustness approach will ability our algorithm predict sequence core set proteins experimentally determined structures similar previously proposed methods
+our approach based key assumption universal mechanism formation both proteins
+predictions obtained work suggest validity above hypothesis framework presented previously

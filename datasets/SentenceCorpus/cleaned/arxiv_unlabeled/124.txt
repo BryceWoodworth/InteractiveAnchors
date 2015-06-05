@@ -1,0 +1,37 @@
+ 
+% %ag_18/04/08 update propose framework analyzing comparing distributions allowing us design statistical tests determine if two samples drawn different distributions
+our test statistic largest difference expectations over functions unit ball reproducing kernel hilbert space rkhs
+present two tests based large deviation bounds test statistic while third based asymptotic distribution statistic
+test statistic computed quadratic time although efficient linear time approximations available
+several classical metrics distributions recovered when function space used compute difference expectations allowed more general eg banach space
+apply our two-sample tests variety problems including attribute matching databases using hungarian marriage method where they perform strongly
+excellent performance also obtained when comparing distributions over graphs first tests
+ introduction 
+address problem comparing samples two probability distributions proposing statistical tests hypothesis distributions different called two-sample homogeneity problem
+tests application variety areas
+bioinformatics interest compare microarray data identical tissue types measured different laboratories detect whether data may analysed jointly whether differences experimental procedure caused systematic differences data distributions
+equally interest comparisons between microarray data different tissue types either determine whether two subtypes cancer may treated statistically indistinguishable diagnosis perspective detect differences healthy cancerous tissue
+database attribute matching desirable merge databases containing multiple fields where not known advance fields correspond: fields matched maximising similarity distributions their entries
+test whether distributions different basis samples drawn each them finding well behaved e g \ smooth function large points drawn  small negative possible points
+use our test statistic difference between mean function values two samples; when large samples likely different distributions
+call statistic maximum mean discrepancy mmd
+clearly quality mmd statistic depends class smooth functions define
+one hand must ``rich enough'' so population mmd vanishes if only if
+other hand test consistent needs ``restrictive'' enough empirical estimate mmd converge quickly its expectation sample size increases
+shall use unit balls universal reproducing kernel hilbert spaces our function classes since will shown satisfy both foregoing properties also review classical metrics distributions namely kolmogorov-smirnov earth-mover's distances based different function classes
+more practical note mmd reasonable computational cost when compared other two-sample tests: given points sampled  cost time
+also propose less statistically efficient algorithm computational cost  yield superior performance at given computational cost looking at larger volume data
+define three non-parametric statistical tests based mmd
+first two use distribution-independent uniform convergence bounds provide finite sample guarantees test performance at expense being conservative detecting differences between
+third test based asymptotic distribution mmd practice more sensitive differences distribution at small sample sizes
+present work synthesizes expands results   who turn build earlier work
+note latter addresses only third kind test approach employs more accurate approximation asymptotic distribution test statistic
+begin our presentation section formal definition mmd proof population mmd zero if only if when unit ball universal rkhs
+also review alternative function classes mmd defines metric probability distributions
+section  give overview hypothesis testing applies two-sample problem review other approaches problem
+present our first two hypothesis tests section  based two different bounds deviation between population empirical
+take different approach section  where use asymptotic distribution empirical estimate basis third test
+when large volumes data available cost computing mmd quadratic sample size may excessive: therefore propose section modified version mmd statistic linear cost number samples associated asymptotic test
+section  provide overview methods related mmd statistics machine learning literature
+finally section  demonstrate performance mmd-based two-sample tests problems neuroscience bioinformatics attribute matching using hungarian marriage method
+our approach performs well high dimensional data low sample size; addition able successfully distinguish distributions graph data ours first proposed test

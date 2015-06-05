@@ -1,0 +1,59 @@
+
+clusters genes present difficult genomic analysis sequence functional analysis
+understanding clusters importance since they been shown source evolutionary been multiple including variety
+previously developed algorithm evolutionary gene clusters using only human genomic sequence data
+paper propose probabilistic model evolution gene clusters algorithm genomic sequences multiple species
+several obtain high quality clusters multiple species our method will useful new data sets
+introduction
+about human genome
+when multiple occur at particular genomic they give complex gene clusters
+many important gene various including disease clusters
+gene often functional indeed genes been shown positive selection
+paper describe probabilistic model evolution gene clusters sampling algorithm inference highly sequences
+demonstrate our approach apply our algorithm sequences well real clusters available sequencing data
+previously studied gene family only possible events
+they also assume genes always whole
+demonstrated more complex models needed address evolution gene clusters human genome
+more recent work genes been algorithms
+local alignment program e g only above certain threshold e g
+sequences between considered
+due sequence similarity between set into classes types
+thus sequence into sequence
+task history find sequence evolutionary events e g sequence no type occurs sequences species
+history also directly individual types call
+species tree information used sequences at points see eg
+common way at most recent events time
+context sequences events sequence
+solutions problems small number events given sequence single species
+particular they necessary condition identify no
+after same step identify second etc
+showed following any sequence leads history same number events under assumption
+result there may number most solutions problem may unique history
+similar problem also been recently context much larger sequences whole genomes set including etc
+their algorithm every species tree
+authors give algorithm history correct
+both methods make use heuristics their assumptions allow their algorithms applied real data
+assumption often long sequences same used
+however there evidence do not occur sequence
+moreover close each other may lead short identified sequence similarity algorithms into types
+example our data section than may appear additional instead
+thus useful but cannot application real data sets
+also examined assumption sequences individual
+than all our simulations were even long } paper present simple probabilistic model sequence evolution design sampling algorithm explicitly uncertainty estimation allows
+results suggest model there may still many solutions similar likelihood
+stochastic sampling approach allows us examine multiple solutions same framework particular interest e g expected number events individual local properties sequences
+addition using data multiple species our approach additional information about
+our problem related problem gene their species
+recent algorithms gene tree e g also consider genomic context individual genes
+however our algorithms not only use context additional information but derived evolutionary also explain how genomic context individual genes
+our current approach uses simple model rates between individual
+however future work will possible more complex models sequence evolution variable rate site models models evolution within same framework
+will allow us identify sites under selection gene clusters way towards better functional important genomic regions }
+
+et al }
+methods
+experiments
+
+} would like at
+us sequences
+would also like problem

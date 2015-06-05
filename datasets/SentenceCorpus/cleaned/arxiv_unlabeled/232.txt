@@ -1,0 +1,52 @@
+ 
+paper consider coherent theory epistemic uncertainty walley beliefs represented through sets probability distributions focus problem modeling prior ignorance about categorical random variable
+setting known result state prior ignorance not compatible learning
+overcome problem another state beliefs called near-ignorance  been proposed
+near-ignorance resembles ignorance very closely satisfying some principles arguably regarded necessary state ignorance allows learning take place
+what paper does provide new substantial evidence also near-ignorance cannot really regarded way out problem starting statistical inference conditions very weak beliefs
+key result focusing setting characterized variable interest latent
+argue setting far most common case practice provide case categorical latent variables general manifest variables condition if satisfied prevents learning take place under prior near-ignorance
+condition shown easily satisfied even most common statistical problems
+regard results strong form evidence against possibility adopt condition prior near-ignorance real statistical problems
+ introduction 
+epistemic theories statistics often confronted question prior ignorance
+prior ignorance means subject who about perform statistical analysis missing substantial beliefs about underlying data-generating process
+yet subject would like exploit available sample draw some statistical conclusion i e  subject would like use data learn moving away initial condition ignorance
+situation very important often desirable start statistical analysis weak assumptions about problem interest thus trying implement objective-minded approach statistics
+fundamental question whether prior ignorance compatible learning not
+walley gives negative answer case his self-consistent coherent  theory statistics based modeling beliefs through sets probability distributions
+he shows very general sense vacuous prior beliefs i e  beliefs priori maximally imprecise lead vacuous posterior beliefs irrespective type amount observed data
+at same time he proposes focusing slightly different state beliefs called near-ignorance  does enable learning take place
+loosely speaking near-ignorant beliefs beliefs vacuous proper subset functions random variables under consideration see section
+way near-ignorance prior still gives one possibility express vacuous beliefs some functions interest at same time maintains possibility learn data
+fact learning possible under prior near-ignorance shown instance special case imprecise dirichlet model idm
+popular model based near-ignorance set priors used case inference categorical data generated multinomial process
+our aim paper investigate whether near-ignorance really regarded possible way out problem starting statistical inference conditions very weak beliefs
+carry out investigation setting made categorical data generated multinomial process like idm but consider near-ignorance sets priors general not only used idm
+interest investigation motivated fact near-ignorance sets priors appear play crucially important role question modeling prior ignorance about categorical random variable
+key point near-ignorance sets priors made satisfy two principles: symmetry embedding principles
+first well known equivalent laplace's indifference principle ; second states loosely speaking if ignorant priori our prior beliefs event interest should not depend space possibilities event embedded see section discussion about two principles
+walley  later de cooman miranda  argued extensively necessity both symmetry embedding principles order characterize condition ignorance about categorical random variable
+implies if agree symmetry embedding principles necessary ignorance near-ignorance sets priors should regarded especially important avenue subject who wishes learn starting condition ignorance
+our investigation starts focusing setting where categorical variable under consideration latent
+means cannot observe realizations  so learn about only means another not necessarily categorical variable  related through known conditional probability distribution
+variable assumed manifest  sense its realizations observed see section
+intuition behind setup considered made  many real cases not possible directly observe value random variable interested instance when variable represents patient's health observing result diagnostic test
+cases need use manifest variable medical test order obtain information about original latent variable patient's health
+paper regard passage latent manifest variable made process call observational process
+using introduced setup give condition section related likelihood function shown sufficient prevent learning about under prior near-ignorance
+condition very general developed any set priors models near-ignorance thus including case idm very general kinds probabilistic relations between
+show then simple examples condition easily satisfied even most elementary common statistical problems
+order fully appreciate result important realize latent variables ubiquitous problems uncertainty
+key point here scope observational processes greatly extends if consider even when directly obtain value variable interest what actually obtain observation value rather than value itself
+doing distinction makes sense because practice observational process usually imperfect i e  there very often could argued there always positive probability confounding realized value another possible value committing thus observation error
+course if probability observation error very small consider one common bayesian model proposed learn under prior ignorance then there little difference between results provided latent variable model modeling correctly observational process results provided model where observations assumed perfect
+reason observational process often neglected practice distinction between latent variable manifest one not enforced
+but other hand if consider sets probability distributions model our prior beliefs instead single probability distribution particular if consider near-ignorance sets priors then there extreme difference between latent variable model model where observations considered perfect so learning may impossible first model possible second
+consequence when dealing sets probability distributions neglecting observational process may no longer justified even if probability observation error tiny
+shown definite sense example section where analyze relevance our results special case idm
+proofs paper follows kind behavior mainly determined presence near-ignorance set priors extreme almost-deterministic distributions
+question problematic distributions usually not considered when dealing bayesian models single prior cannot ruled out without dropping near-ignorance
+considerations highlight quite general applicability present results raise hence serious doubts about possibility adopt condition prior near-ignorance real opposed idealized applications statistics
+consequence may make sense consider re-focusing research about subject developing models very weak states belief however stronger than near-ignorance
+might also involve dropping idea both symmetry embedding principles realistically met practice

@@ -1,0 +1,12 @@
+
+consider problem probability time where number possible
+analyze natural reduction problem set binary regression problems tree structure regret bound scales tree
+analysis propose first online algorithm tree set solve problem
+test algorithm
+introduction
+central question paper how estimate probability given observation
+all approaches problem require time
+used approach predict probability versus all other each requires time per training example
+another common approach learn function into probability estimate according where factor
+computational difficulty solve problems
+example one our experiments involves probabilistic prediction problem examples where any solution

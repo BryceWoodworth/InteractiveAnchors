@@ -1,0 +1,148 @@
+ 
+paper adapt online estimation strategies perform
+model-based clustering large networks
+our work focuses two
+algorithms first based
+saem algorithm second variational methods
+two
+strategies compared existing approaches simulated real data
+use method decipher connexion structure political
+websphere during us political campaign 2008
+show our
+online em-based algorithms
+offer good trade-off between precision speed when estimating
+parameters mixture distributions context random
+graphs
+ introduction 
+analyzing networks become essential part number
+scientific fields
+examples include widely differing phenomena power
+grids protein-protein interaction networks friendship
+
+work
+focus particular networks made political weblogs
+
+impact
+new social network websites like myspace facebook web
+increasing
+influence political debate
+example showed
+blogging played important role political debate 2004
+us presidential
+election
+although only small minority americans actually used
+weblogs
+their influence extended far beyond their readership result
+their interactions
+national mainstream media
+article propose uncover
+connexion
+structure political websphere during us political
+campaign 2008
+data set consists one-day snapshot over 130,520 links
+1870 manually classified
+websites 676 liberal 1026 conservative 168 independent where
+nodes connected if there
+exists one another
+many strategies been developed study networks structure
+topology
+distinction made between model-free
+ ;  model-based methods connexions
+between parametric nonparametric models  
+among
+model-based methods model-based clustering provided
+efficient way summarize complex networks structures
+basic
+idea strategies model distribution connections
+network
+considering nodes spread among unknown number
+connectivity classes
+themselves unknown
+generalizes model-based clustering network
+data various modeling
+strategies been considered
+propose
+mixture model dyads belong
+some relational alphabet propose mixture
+edges consider continuous
+hidden variables airoldi et al   consider both mixed
+membership stochastic block structure
+article our concern not assess nor compare
+appropriateness different models but focus computational
+issue shared most them
+indeed even if modeling
+strategies diverse em like algorithms constitute common core
+estimation strategy  ; 
+algorithm known slow convergence very sensitive
+size data set
+issue should put into perspective
+new challenge inherent analysis network data
+sets
+development optimization strategies reasonable speed
+execution deal networks composed tens
+thousands nodes if
+not more
+extent bayesian strategies limited they may
+not handle networks more than few hundred  ;  few thousand  
+heuristic-based algorithms may not satisfactory
+statistical point view  
+variational strategies
+been proposed well  ; 
+but they concerned same limitations em
+thus new
+question assess work ``how perform efficient
+model-based clustering
+computational point view very large networks
+networks grow over time
+''
+online algorithms constitute efficient alternative classical
+batch algorithms
+when data set grows over time
+application strategies
+mixture models
+been studied many authors  ; 
+typical clustering algorithms
+include online means algorithm  
+more
+recently
+modeled internet traffic using recursive em algorithm
+estimation poisson mixture
+models
+however additional difficulty mixture models random
+graphs computation
+ distribution hidden label variables
+conditionally
+observation  cannot factorized due conditional dependency
+ 
+work consider two alternative
+strategies deal
+issue
+first one based monte carlo simulation
+
+leading stochastic version em algorithm stochastic
+approximation em saem
+ 
+second one variational method proposed
+consists
+mean-field approximation
+strategy
+also been proposed
+bayesian framework
+article begin describing blog database 2008
+us presidential campaign
+then present mixnet model proposed 
+compare model its principal
+competitors terms modeling strategies
+use data set illustration
+derive online
+framework estimate parameters mixture using
+saem variational methods
+simulations used show online
+methods very effective terms computation time
+parameter estimation clustering efficiency
+simulations
+integrate both fixed-size increasing size networks
+online methods been designed
+finally uncover
+connectivity structure 2008 us presidential websphere using
+proposed variational online algorithm mixnet model

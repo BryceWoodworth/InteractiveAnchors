@@ -1,0 +1,30 @@
+ 
+consider problem minimal correction training set make consistent monotonic constraints
+problem arises during analysis data sets via techniques require monotone data
+show problem np-hard general equivalent finding maximal independent set special orgraphs
+practically important cases problem considered detail
+cases when partial order given replies set total order dimension 2
+show second case reduced maximization quadratic convex function convex set
+case construct approximate polynomial algorithm based convex optimization
+keywords: machine learning supervised learning monotonic constraints
+ introduction 
+requirements classifying rule supervised learning problems consist two parts
+first part induced set precedents called training set
+each element training set pair "object--reply" type
+classifying rule mapping objects set replies set should map objects training set pairs consistent replies
+second part requirements express our common knowledge classifying rule
+one popular types requirements monotonicity considered paper
+some cases two parts requirements not satisfied both then problem minimal correction training set
+let us see what problem
+suppose sets given sets partial orders consistently
+assume more partial order lattice
+any given mapping where pose problem finding function monotone due partial orders minimizes following functional:
+let us denote set monotonic functions
+then given mapping our task following: every mapping monotone subset extended mapping monotone whole set because lattice
+actually every finite subset lattice operation defined function both monotone satisfies
+see posed problem imply
+above said conclude more problem equivalent finding maximal subset function restricted subset monotone
+so let us consider following generalization our problem will call maxcms(maximal consistent monotonicity set {maxcms } finite sets where given; each them partial orders defined consistently function given
+then every element assigned positive integer weight
+our task find maximal weight subset function restricted monotone i e {definition 1 } set called acceptable iff function restricted monotone {definition 2 } set acceptable maximal weight denoted some cases use notation mean weight set
+remainder paper will consider problem

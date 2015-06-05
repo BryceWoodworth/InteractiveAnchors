@@ -1,0 +1,37 @@
+
+recently number genetic interactions among gene pairs
+studies been at physical protein interactions proteins same molecular complex
+here propose method learning protein their functional relationships integration quantitative genetic interactions data
+using independent datasets demonstrate method percent more accurate at related protein pairs than previous approaches
+application genes involved yeast functional number novel been addition new
+find genetic interactions more likely contain essential genes each interactions underlying mechanism
+results demonstrate importance both genetic physical interaction data pathway function
+introduction
+genetic interactions relationships between genes occur when two more genes combination
+recently genetic interactions become using genetic analysis
+pairs gene interest against every other gene genome
+growth measured over all genetic interaction gene no growth genetic interaction
+all among group genes
+recent made possible measure continuous rates growth
+interactions if growth rate gene than expected while interactions true
+one popular method analyze genetic interaction data been genes using distance between their genetic interaction
+clusters genes similar identify known pathways they contain well any genetic interactions between
+approach been applied several genetic interaction yeast including genes involved pathway
+et al extended basic clustering concept genes were into same based number interactions other clusters do not same classification
+another set methods genetic relationships using physical interactions
+among used physical interactions identify both genetic interactions
+both cases were clusters proteins each other more often than expected
+model predicts clusters directly clusters genetic interactions
+model predicts genetic interactions between two physical clusters related
+approach was et al using physical
+related work et al known information protein sequences identify pairs genetic interactions between them
+one above approaches particular they make assumptions about density interactions within between not been
+parameters should learned directly data
+second relationships identified independent network each genetic interaction
+local search strategy lead set highly even one another
+finally genetic interactions assumed binary growth events while now made possible measure continuous values genetic interaction
+here present new approach quantitative genetic physical interaction data several
+interactions set set protein complex cellular function functional relationships between
+our approach appropriate pattern physical genetic interactions not but learned examples known
+rather than identify each independent all identified within single functional relationships
+show method number alternative approaches when applied analyze recent study yeast function new protein protein functional relationships

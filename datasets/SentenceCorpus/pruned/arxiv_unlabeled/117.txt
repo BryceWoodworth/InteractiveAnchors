@@ -1,0 +1,23 @@
+
+propose method support vector machine classification using
+instead directly loss function our algorithm support vectors kernel matrix used loss
+kernel learning problem where kernel matrices observations true kernel
+our problem convex relatively large problems using methods
+compare performance our technique other methods several standard data sets
+introduction
+support vector become central binary classification problems
+critical step support vector machine classification choosing kernel matrix measures similarity between data points must positive because matrix data points kernel space
+positive condition kernel matrices also known condition machine learning literature
+classification problem then program
+here present algorithm classification using i e kernel matrices using similarity measures not positive
+our interest several observations
+first certain similarity measures take advantage structure data often empirical classification performance
+popular used support vector machine classification similarity matrices often so do not kernel space see particular application classification image classification using distance was discussed
+similarity measures protein sequences yet provided useful positive those been into positive good empirical performance see example
+distance similarity measures described various simple image also shown performance recognition
+finally prove some condition numerical complexity exact positive kernel too high not positive kernel used instead see example
+both cases our method allows us
+our objective here derive efficient algorithms directly use similarity measures classification
+our work follows recent results kernel learning see where kernel matrix learned linear combination given result explicitly positive
+while problem algorithm solve case where kernel combination other
+our setting here kernel matrix because part problem explicitly means complexity our method lower than classical kernel learning algorithms practice algorithm used who multiple kernel learning problem linear program solve technique similar method use here

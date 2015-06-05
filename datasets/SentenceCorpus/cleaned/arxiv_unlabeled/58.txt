@@ -1,0 +1,51 @@
+ 
+on-line shortest path problem considered under various models partial monitoring
+given weighted directed acyclic graph whose edge weights change arbitrary adversarial way decision maker choose each round game path between two distinguished vertices loss chosen path defined sum weights its composing edges small possible
+setting generalizing multi-armed bandit problem after choosing path decision maker learns only weights those edges belong chosen path
+problem algorithm given whose average cumulative loss rounds exceeds best path matched off-line entire sequence edge weights quantity proportional depends only polynomially number edges graph
+algorithm implemented linear complexity number rounds number edges
+extension so-called label efficient setting also given decision maker informed about weights edges corresponding chosen path at total time instances
+another extension shown where decision maker competes against time-varying path generalization problem tracking best expert
+version multi-armed bandit setting shortest path also discussed where decision maker learns only total weight chosen path but not weights individual edges path
+applications routing packet switched networks along simulation results also presented
+ introduction 
+sequential decision problem decision maker forecaster performs sequence actions
+after each action decision maker suffers some loss depending response state environment its goal minimize its cumulative loss over certain period time
+setting considered here no probabilistic assumption made how losses corresponding different actions generated
+particular losses may depend previous actions decision maker whose goal perform well relative set reference forecasters so-called ``experts'' any possible behavior environment
+more precisely aim decision maker achieve asymptotically same average per round loss best expert
+research into problem started 1950s see example blackwell hannan some basic results gained new life 1990s following work vovk  littlestone warmuth  cesa-bianchi et al
+results show any bounded loss function if decision maker access past losses all experts then possible construct on-line algorithms perform any possible behavior environment almost well best experts
+more precisely per round cumulative loss algorithms at most large best expert plus quantity proportional any bounded loss function where number rounds decision game
+logarithmic dependence number experts makes possible obtain meaningful bounds even if pool experts very large
+certain situations decision maker only limited knowledge about losses all possible actions
+example often natural assume decision maker gets know only loss corresponding action made no information about loss would suffered had made different decision
+setup referred multi-armed bandit problem  was considered adversarial setting auer et al who gave algorithm whose normalized regret difference algorithm's average loss best expert upper bounded quantity proportional
+note compared full information case described above where losses all possible actions revealed decision maker there extra factor performance bound seriously limits usefulness bound if number experts large
+another interesting example limited information case so-called label efficient decision problem see helmbold panizza  too costly observe state environment so decision maker query losses all possible actions only limited number times
+recent result cesa-bianchi lugosi stoltz shows case if decision maker query losses times during period length  then achieve average excess loss relative best expert
+many applications set experts certain structure may exploited construct efficient on-line decision algorithms
+construction algorithms been great interest computational learning theory
+partial list works dealing problem includes herbster warmuth  vovk  bousquet warmuth  helmbold schapire  takimoto warmuth  kalai vempala  gy\"orgy at al 
+more complete survey refer cesa-bianchi lugosi
+paper study on-line shortest path problem representative example structured expert classes received attention literature its many applications including among others routing communication networks; see eg  takimoto warmuth  awerbuch et al \  gy\"orgy ottucs\'ak  adaptive quantizer design zero-delay lossy source coding; see gy\"orgy et al 
+problem weighted directed acyclic graph given whose edge weights change arbitrary manner decision maker pick each round path between two given vertices weight path sum weights its composing edges small possible
+efficient solutions time space complexity proportional number edges rather than number paths latter typically being exponential number edges been given full information case where each round weights all edges revealed after path been chosen; see example mohri  takimoto warmuth  kalai vempala  gy\"orgy et al 
+bandit setting only weights edges just sum weights edges composing chosen path revealed decision maker
+if one applies general bandit algorithm auer et al \  resulting bound will too large practical use because its square-root-type dependence number paths
+other hand using special graph structure problem awerbuch kleinberg mcmahan blum managed get rid exponential dependence number edges performance bound
+they achieved extending exponentially weighted average predictor follow-the-perturbed-leader algorithm hannan generalization multi-armed bandit setting shortest paths when only sum weights edges available algorithm
+however dependence bounds obtained number rounds significantly worse than bound auer et al \
+awerbuch kleinberg consider model ``non-oblivious'' adversaries shortest path i e  losses assigned edges depend previous actions forecaster prove bound expected per-round regret
+mcmahan blum give simpler algorithm than however obtain bound order expected regret
+paper provide extension bandit algorithm auer et al \ unifying advantages above approaches performance bound polynomial number edges converges zero at right rate number rounds increases
+achieve bound model assumes losses all edges path chosen forecaster available separately after making decision
+also discuss case considered  only total loss i e  sum losses chosen path known decision maker
+exhibit simple algorithm achieves per-round regret high probability against ``non-oblivious'' adversary
+case remains open problem find algorithm whose cumulative loss polynomial number edges graph decreases number rounds
+section formally define on-line shortest path problem extended multi-armed bandit setting section
+our new algorithm shortest path problem bandit setting given section together its performance analysis
+algorithm extended solve shortest path problem combined label efficient multi-armed bandit setting section
+another extension when algorithm competes against time-varying path studied section
+algorithm ``restricted'' multi-armed bandit setting when only sums losses edges available given section
+simulation results presented section

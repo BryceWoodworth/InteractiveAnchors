@@ -1,0 +1,41 @@
+ 
+recent advances reconstruction analytical methods signaling networks spurred development large-scale models incorporate fully functional biologically relevant features
+extended reconstruction human toll-like receptor signaling network presented herein
+reconstruction contains extensive complement kinases phosphatases other associated proteins mediate signaling cascade along delineation their associated chemical reactions
+computational framework based methods large-scale convex analysis was developed applied network characterize input output relationships
+input output relationships enabled significant modularization network into ten pathways
+analysis identified potential candidates inhibitory mediation tlr signaling respect their specificity potency
+subsequently were able identify eight novel inhibition targets through constraint-based modeling methods
+results study expected yield meaningful avenues further research task mediating toll-like receptor signaling network its effects
+ introduction 
+toll-like receptors group conserved pattern recognition receptors activate processes innate adaptive immunity
+recent activity focused characterization tlr network its involvement apoptotic inflammatory innate immune responses
+tlr signaling primary contributor inflammatory responses been implicated several diseases including cardiovascular disease
+indeed even cases desired inflammatory response excessive activation signaling pathways lead septic shock other serious conditions 
+there much interest development methods attenuate modulate tlr signaling targeted fashion
+example one approach involves inhibition specific reactions components within tlr network will dampen undesired signaling pathways while not adversely affecting other signaling components
+reactions components should ideally highly specific tlr network also one transcription target
+therefore available comprehensive data sets tlr network need put into more structured systematic format enables better understanding associated signaling cascades pathways connections other cellular networks
+systemic approach necessary achieve ultimate goal mediating effects toll-like receptor signaling upon inflammatory immune apoptotic responses
+need particularly important given amount experimental data about tlr signaling already too large analyzed simply viewing complex web overlapping interactions
+so far relatively few attempts been made organize plethora experimental data into single unified representation
+hence there clearly need investigate function capabilities network using computational model particularly yield further insights into mechanistic action tlrs their immunoadjuvant effects
+constraint-based reconstruction analysis methods represent systems approach computational modeling biological networks
+briefly all known biochemical transformations particular system collected various data sources listing genomic biochemical physiological data
+reconstruction built existing knowledge bottom-up fashion subsequently converted into condition-specific model allowing investigation its functional properties
+conversion involves translating reaction list into so-called stoichiometric matrix extracting stoichiometric coefficients substrates products each network reaction placing lower upper bounds network reactions
+constraints include mass-balancing thermodynamic considerations reaction rates
+additionally environmental constraints applied represent different availabilities medium components
+many computational analysis tools been developed including flux balance analysis
+fba formalism reconstructed network framed linear programming optimization problem specific objective function maximized minimized
+cobra methods well established metabolic networks both reconstruction analysis tools widely used
+furthermore methods been successfully applied other important cellular functions transcription translation transcriptional regulation signaling including jak-stat angiogenesis 
+study present extended reformulated model tlr network reconstructed based publicly available tlr map cobra approach
+signaling networks been analyzed using extreme pathway analysis fba
+however since expa analysis becomes computationally challenging large-scale mass-balanced networks could not apply method tlr network
+contrast network modularization been established method reducing large-scale networks into more manageable units
+another approach reducing network complexity focus input output relationships
+used fba simplify mesh network reactions into ten functionally distinct input output pathways show different patterns signal activation control
+furthermore used modular representation complex tlr signaling network determine control points network specific dios pathway
+control points allow modulation tlr signaling targeted fashion will induce change undesired signaling while not having adverse effect other signaling components
+taken together show study how signaling network reconstruction fba used identify potential candidates drug targeting

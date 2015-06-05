@@ -1,0 +1,43 @@
+ 
+conditional random fields crfs constitute popular efficient approach supervised sequence labelling
+crfs cope large description spaces integrate some form structural dependency between labels
+contribution address issue efficient feature selection crfs based imposing sparsity through penalty
+first show how sparsity parameter set exploited significantly speed up training labelling
+then introduce coordinate descent parameter update schemes crfs regularization
+finally provide some empirical comparisons proposed approach state-of-the-art crf training strategies
+particular shown proposed approach able take profit sparsity speed up processing handle larger dimensional models
+ introduction 
+conditional random fields crfs originally introduced  constitute popular effective approach supervised structure learning tasks involving mapping between complex objects strings trees
+important property crfs their ability cope large redundant feature sets integrate some form structural dependency between output labels
+directly modeling conditional probability label sequence given observation stream allows explicitly integrate complex dependencies not directly accounted generative models hidden markov models hmms
+results presented section will illustrate ability use large sets redundant non-causal features
+training crf amounts solving convex optimization problem: maximization penalized conditional log-likelihood function
+lack analytical solution however crf training task requires numerical optimization implies repeatedly perform inference over entire training set during computation gradient objective function
+where modeling structure takes its toll: general dependencies exact inference intractable approximations considered
+simpler case linear-chain crfs modeling interaction between pairs adjacent labels makes complexity inference grow quadratically size label set: even restricted setting training crf remains computational burden especially when number output labels large
+introducing structure another less studied impact number potential features considered
+possible linear-chain crf introduce features simultaneously test values adjacent labels some property observation
+fact features often contain valuable information
+however their number scales quadratically number labels yielding both computational feature functions computed parameter vectors stored memory estimation problem
+estimation problem stems need estimate large parameter vectors based sparse training data
+penalizing objective function norm parameter vector effective remedy overfitting; yet does not decrease number feature computations needed
+paper consider use alternative penalty function norm yields much sparser parameter vectors
+will show inducing sparse vector not only reduces number feature functions need computed but also reduce time needed perform parameter estimation decoding
+main shortcoming regularizer objective function no longer differentiable everywhere challenging use gradient-based optimization algorithms
+proposals been made overcome difficulty: instance orthant-wise limited-memory quasi-newton algorithm uses fact norm remains differentiable when restricted regions sign each coordinate fixed ``orthant''
+using technique reports test performance par those obtained penalty albeit more compact models
+our first contribution show even situation equivalent test performance regularization may preferable sparsity parameter set exploited reduce computational cost associated parameter training label inference
+parameter estimation consider alternative optimization approach generalizes crfs proposal see also 
+nutshell optimization performed coordinate-wise fashion based analytic solution unidimensional optimization problem
+order tackle realistic problems propose efficient blocking scheme coordinate-wise updates applied simultaneously properly selected group block parameters
+our main methodological contributions thus twofold: i fast implementation training decoding algorithms uses sparsity parameter vectors ii novel optimization algorithm using penalty crfs
+two ideas combined together offer opportunity using very large ``virtual'' feature sets only very small number features effectively selected
+will seen section situation frequent typical natural language processing applications particularly when number possible labels large
+finally proposed algorithm been implemented c code validated through experiments artificial real-world data
+particular provide detailed comparisons terms numerical efficiency solutions traditionally used penalized training crfs publicly available software crf  crfsuite crfsgd
+rest paper organized follows
+section  introduce our notations restate more precisely issues wish address based example simple natural language processing task
+section discusses algorithmic gains achievable when working sparse parameter vectors
+then study section  training algorithm used achieve sparsity implements coordinate-wise descent procedure
+section discusses our contributions respect related work
+finally section presents our experimental results obtained both simulated data phonetization task named entity recognition problem

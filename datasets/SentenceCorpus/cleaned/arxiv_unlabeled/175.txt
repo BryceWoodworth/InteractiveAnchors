@@ -1,0 +1,21 @@
+ 
+present algorithm called  learning make decisions situations where payoff only one choice observed rather than all choices
+algorithm reduces setting binary classification allowing one reuse any existing fully supervised binary classification algorithm partial information setting
+show offset tree optimal reduction binary classification
+particular regret at most times regret binary classifier uses where number choices no reduction binary classification do better
+reduction also computationally optimal both at training test time requiring just work train example make prediction
+experiments show generally performs better than several alternative approaches
+ introduction 
+paper about learning make decisions partial feedback settings where payoff only one choice observed rather than all choices
+example consider internet site recommending ads other content based observable quantities user history search engine queries unique nearly unique every decision
+after ad displayed user either clicks not
+type feedback differs critically standard supervised learning setting since don't observe whether not user would clicked had different ad beed displayed instead
+online version problem policy chooses ads display uses observed feedback improve its future ad choices
+good solution problem must explore different choices properly exploit feedback
+problem faced internet site however more complex
+they observed many interactions historically would like exploit them forming initial policy may then improved further online exploration
+since exploration decisions already been made online solutions not applicable
+properly use data need non-interactive methods learning partial feedback
+paper about constructing family algorithms non-interactive learning partial feedback settings
+since any non-interactive solution composed exploration policy form algorithm online learning setting algorithm proposed here also used online
+indeed some our experiments done online setting

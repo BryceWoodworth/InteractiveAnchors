@@ -1,0 +1,83 @@
+ 
+consider computation permanent positive non-negative matrix
+ equivalently problem
+weighted counting perfect matchings over
+complete bipartite graph
+problem known likely exponential complexity
+stated partition function graphical model problem allows exact loop calculus
+representation chertkov chernyak '06 terms interior minimum
+bethe free energy functional over non-integer doubly stochastic matrix marginal beliefs 
+also correspondent fixed point iterative message-passing algorithm belief propagation bp type
+our main result explicit expression exact partition function permanent terms matrix bp marginals  
+where bp expression permanent stated explicitly terms
+give two derivations formula direct one based bethe free energy
+alternative one combining ihara graph function loop calculus approaches
+assuming matrix belief propagation marginals calculated provide two lower bounds one upper-bound estimate multiplicative term
+two complementary lower bounds based gurvits-van der waerden theorem relation between modified permanent determinant respectively
+ introduction 
+problem calculating permanent non-negative matrix arises many contexts
+statistics data analysis physics
+example intrinsic parameter learning flow
+used follow particles turbulence cross-correlate two subsequent images
+
+however problem hard  meaning solving
+time polynomial system size  unlikely
+therefore when size matrix sufficiently large one naturally looks ways approximate
+permanent
+very significant breakthrough was achieved invention so-called
+fully-polynomial-randomized algorithmic schemes fpras permanent problem :
+permanent approximated polynomial time
+high probability within arbitrarily small relative error
+however complexity fpras  making impractical majority realistic applications
+motivates task finding lighter deterministic probabilistic algorithm capable
+evaluating permanent more efficiently
+paper continues thread  where belief propagation bp algorithm was suggested efficient heuristic good but not absolute quality approximate permanent
+bp family algorithms
+originally introduced context error-correction codes artificial
+intelligence  generally stated any graphical model
+exactness bp any graph without loops suggests algorithm
+efficient heuristic evaluating partition function finding maximum
+likelihood ml solution graphical model gm defined sparse graphs
+however
+general loopy cases one would normally not expect bp work well thus making heuristic results somehow surprising
+even though not completely unexpected view existence polynomially efficient algorithms ml version problem 
+also realized via iterative bp algorithm
+raises questions understanding performance bp: what
+does well what misses
+also motivates challenge improving bp
+heuristics
+approach potentially capable handling question challenge was recently suggested general framework gm
+loop series/calculus ls expresses
+ratio between partition function pf binary gm its bp estimate terms finite series each term associated so-called generalized loop subgraph all vertices degree larger than one graph
+each term series well bp estimate partition function expressed terms doubly stochastic matrix marginal probabilities  matching pairs contribute perfect matching
+matrix describes minimum so-called bethe free energy also understood fixed point iterative bp algorithm
+first term resulting ls equal one
+accounting all loop-corrections one recovers
+exact expression pf
+other words ls holds key understanding gap between
+approximate bp estimate pf exact result
+section section 
+will give technical introduction variational bethe free energy bfe formulation bp brief
+overview ls approach permanent problem respectively {our results }
+paper develop ls-based approach describe quality bp
+approximation permanent non-negative matrix i our natural starting point analysis bp solution itself conducted section
+evaluating permanent non-negative matrix 
+dependent temperature parameter  find
+non-integer bp solution observed only at  where defined
+\eq ii at  derive alternative representation ls section
+entire ls collapsed product two terms:
+first term easy-to-calculate function  second term permanent matrix binary operator denotes element-wise multiplication matrices 
+our main result stated theorem  majority consecutive statements our paper follows
+also present yet another alternative derivation theorem using multivariate ihara-bass formula graph zeta-function subsection iii section presents two easy-to-calculate lower bounds ls
+lower bound stated corollary based gurvits-van der waerden theorem applied
+interestingly enough lower bound invariant respect bp transformation
+i e exactly equivalent lower bound derived via
+application van der waerden-gurvits theorem original permanent
+another
+lower bound stated theorem
+note follows
+example discussed text two lower bounds complementary: latter stronger
+at sufficiently small temperatures while former
+dominates large region iv section discusses upper bound transformed permanent based application
+godzil-gutman formula hadamard inequality
+possible future extensions approach discussed section

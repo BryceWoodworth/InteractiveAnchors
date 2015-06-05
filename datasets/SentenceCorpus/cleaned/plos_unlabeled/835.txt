@@ -1,0 +1,32 @@
+ 
+extent self-adopted intervention-related changes behaviors affect course epidemics remains key issue outbreak control
+study attempted quantify effect changes risk infection different settings i.e community hospitals
+2002 2003 severe acute respiratory syndrome outbreak hong kong where 27 percent cases were healthcare workers was used example
+stochastic compartmental seir model was used: population was split into healthcare workers hospitalized people general population
+super spreading events were taken into account model
+temporal evolutions daily effective contact rates community hospitals were modeled smooth functions
+data augmentation techniques markov chain monte carlo methods were applied estimate sars epidemiological parameters
+particular estimates daily reproduction numbers were provided each subpopulation
+average duration sars infectious period was estimated 9.3 days
+model was able disentangle impact two sses background transmission rates
+effective contact rates were estimated daily basis decreased time reaching zero inside hospitals
+observation suggests public health measures possible changes individual behaviors effectively reduced transmission especially hospitals
+temporal patterns reproduction numbers were similar healthcare workers general population indicating average infectious healthcare worker did not infect more people than any other infectious person
+provide general method estimate time dependence parameters structured epidemic models enables investigation impact control measures behavioral changes different settings
+ introduction 
+emerging infectious diseases been defined infections newly appeared population existed previously but rapidly increasing incidence geographic range
+several features may make them particularly threatening
+first recognizing disease difficult when first cases appear especially when symptoms non-specific
+second no vaccine specific treatment may known initially
+moreover heterogeneities disease transmission may create high-risk groups healthcare workers high-risk geographical areas thereby dramatically enhancing impact outbreak 
+2003 severe acute respiratory syndrome outbreak hong kong remarkably illustrative above issues: symptoms were similar pneumonia ; incubation period was long enough local international transmission occur ; no vaccine treatment was available; much 21 percent cases worldwide were healthcare workers
+outbreak also demonstrated possible existence super-spreading events during few infectious individuals contaminated high number secondary cases
+hong kong had two sses: first occurred hospital x around march 3 led about 125 cases ; second occurred housing estate y march 19 led over 300 cases
+despite its particularly threatening features outbreak was brought under control
+context once epidemic detected spontaneous changes behavior will occur non-pharmacological measures usually initiated control outbreak
+resulting effects two phenomena disease transmission not easily quantified
+effective contact rate reflects combined influences social proximity probability infection through each contact essential determinant disease spread
+our aim was estimate temporal variation parameter community hospitals over course outbreak
+previously published mathematical models parameter estimation addressed issues temporal variability social heterogeneity
+here present approach deals both issues together occurrence sses
+then method applied 2003 sars epidemic hong kong 

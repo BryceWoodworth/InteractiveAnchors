@@ -1,0 +1,41 @@
+ 
+eyal t
+liberman n
+trope y
+
+judging near distant virtue vice
+journal experimental social psychology number number  number explored how psychological distance influences moral judgment found more extreme moral appraisals were given distal behaviors rather than proximal behaviors
+contrary eyal et al current paper presents converging evidence showing moral judgments become more extreme at lower-level construals compared higher-level construals
+four experiments using two different priming techniques manipulated construal levels assessed their effects moral judgment
+high-level consturals elicited less moral outrage toward transgressions less positive ratings virtuous behaviors than low-level construals
+replication study was also conducted reconcile inconsistencies between current results those eyal et al possible explanations different results between two studies discussed
+ introduction 
+preference judgment commonly influenced information attend receive construct
+construe same event different ways
+when attending object focus its entire figure focus its details
+recent work construal level theory clt provides framework considerable potential linking mental representations moral judgment
+clt proposes same event object represented at multiple levels abstraction
+high-level construals superordinate decontextualized entail constructing conceptualizations information about objects events
+contrast low-level construals consist subordinate contextualized information represented concretely detail
+individuals' judgments decisions behaviors differ function construal levels
+more weight given global features at high-level construals whereas local concrete features more influential at low-level construals
+clt received great deal attention psychology its predictions been applied many aspects human cognition behavior
+example activation high-level construals leads categorization fewer broader units whereas activation low levels leads categorization multiple narrow concrete units
+high-level representations also more coherent integrative whereas low-level representations more specific disparate
+according clt psychological distance major determinant what level construal activated
+general distancing target any dimension psychological distance i e time space social hypotheticality leads greater activation high-level construals than low-level construals
+instance fujita colleagues found subjects were more likely describe spatially distant events terms goals high-level than terms means low-level
+under framework clt eyal et al investigated how psychological distance affects moral judgment
+paper they argued moral principles high-level constructs because their universal nature concrete situational detail should mitigate moral judgment
+since clt posits more psychologically distant entities represented at higher-level construals eyal et al proposed people would more inclined base their judgments remote behaviors moral principles but underweight situational details thereby leading more extreme moral judgments distal transgressions relative proximal transgressions
+consider instance act sexual intercourse between siblings
+distant perspective one tends construe incest without considering mitigating details e g using contraceptives might tilt moral judgment less extreme
+therefore eyal et al predicted observed greater psychological distances were associated more extreme moral judgments
+current project tried build eyal et al findings started conceptual replication more directly manipulating construal levels
+clt indicates findings effect psychological distance people's judgment decision making should not unique effect psychological distance per se but rather more general process mental representations influence nature evaluative objects decisions
+considering eyal et al studies manipulated psychological distances did not test proposed effects construal levels first used more direct manipulation construal levels manipulation employed other clt research investigate how levels construal affect moral judgment
+however observed low-level construals led more negative judgment moral transgressions contrary eyal et al 's findings interpretation
+order establish robustness our findings conducted another three experiments using different manipulations construal levels varied scenarios
+consistent initial findings converging results suggest moral judgments more extreme at lower-level construals than higher-level construals
+given our results opposite those eyal et al established partial collaboration tal eyal attempting understand basis our differing pattern findings
+conducted replication study study number present paper still observed results contrary those eyal et al tal eyal also tried replicate two our experiments israeli subjects partial results were direction replicating our findings but not statistically reliable

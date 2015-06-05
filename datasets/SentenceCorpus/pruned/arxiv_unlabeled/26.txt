@@ -1,0 +1,52 @@
+
+probabilistic inference goal good approximation unknown distribution called stochastic
+estimate some class probabilistic models probabilistic
+paper focus probabilistic models based
+stochastic generated called rational stochastic they include stochastic generated they also very representation
+despite fact class not limit using algorithm introduced authors previous paper
+however identification not before convergence algorithm produce do not define stochastic
+possible use define stochastic
+show they class rational series call rational
+aim paper
+first provide theoretical study rational output example class within time
+second out experiments order compare classical inference algorithms
+they show them most cases } rational probabilistic inference
+introduction
+probabilistic inference often consider stochastic define distributions over set all possible words over
+general consider unknown distribution goal find good approximation given finite sample words
+class probabilistic often used modeling distributions
+class same hidden markov models limit
+however there exists no efficient algorithm
+fact there exists no representation makes difficult identify structure target
+one solution focus probabilistic but important lack
+another solution class
+models representation good machine learning point view
+define functions rational series values
+generalization stochastic generated special cases rational stochastic
+let us class rational stochastic parameters where
+class stochastic generated parameters
+but when obtain greater classes
+provides several elements normal representation thus elements may significantly smaller representation parameters directly related probabilities some natural events form estimated stochastic when field rational series over form vector space efficient linear techniques used rational stochastic
+however class there exists no subset class
+no identification algorithm indeed identification algorithm samples would provide class rational stochastic over
+result there exists efficient algorithm able identify limit
+but before target produce do not define stochastic
+however been shown probability one any rational stochastic if given input large sample according rational series 1
+moreover size increases
+show class rational series call rational
+rational property defined any
+stochastic associated way when
+first when stochastic
+second any rational stochastic if given input increasing samples according rational size increases
+aim paper provide theoretical study class rational series experiments order compare performance two classical inference
+show class rational within time
+provide algorithm used any
+also show how possible using
+show there exist rational not rational
+finally show whether two rational define same stochastic
+out experiments show most cases
+results were expected since not same theoretical since at representation target set significantly smaller than smaller if exists
+paper follows
+section 2 introduce some about rational series stochastic present algorithm
+section our study stochastic
+our experiments detailed section

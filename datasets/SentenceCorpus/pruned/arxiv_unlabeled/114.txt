@@ -1,0 +1,96 @@
+
+consider framework stochastic problems study
+perform
+terms their simple regret regret
+notion fact only number
+available not known contrast case when
+regret considered when performed at same time
+
+performance criterion situations when
+cost expressed terms rather than rewards
+discuss between simple regret
+one main results case finite number
+general lower bound simple regret terms its
+smaller latter larger
+result
+then exhibit bounds simple regret some
+paper study
+show simple regret respect family probability
+distributions if only if regret
+
+based able prove metric
+metric
+
+respect family all probability distributions continuous functions
+introduction
+learning processes usually versus
+since they information environment
+able take good actions
+key example
+problem sequential decision
+problem where at each one out
+given stochastic reward at random
+according distribution chosen
+criterion given its regret
+differences between expected reward best obtained rewards
+good like between
+our setting follows
+may sample given number times not known
+then asked output
+his simple regret difference between
+average payoff best average payoff obtained his
+feature classical problem
+phase evaluation phase
+now why natural framework applications
+first problems was given trials
+case disease patients only
+cost treatment
+high associated reward would large negative value
+important regret since test
+
+however there exists test phase
+phase one at regret rather
+than regret test phase here several considered some quantitative like
+performed
+
+problem design strategies making best possible use available numerical
+e g time order performance some decision-making task
+occurs situations phase
+not measured terms rewards but rather terms limited
+example recent e g program
+given time i e given amount times given
+explore possible outcome sequences output decision
+efficient search space obtained
+some regret see instance
+strategy strategy
+however regret does not
+way base strategies since simulation same all
+options good ones
+observation
+was actually point notion simple regret work
+related example maximization some function observed noise see eg
+at point e g terms numerical financial
+issue choose possible where value function
+order good approximation maximum
+problem considered here design adaptive strategies
+making best use available order make most prediction
+all
+also out all examples considered above
+may further time
+amount available time number patients
+performance
+problem presented above was
+open problem where however another notion regret than simple regret considered
+problem was sense case two
+only rewards given probability distributions over
+related setting considered where
+perform during random number
+aim at best
+study
+goal probability
+particular lower bounds
+another related problem identification best high probability
+however binary criterion either
+does not possible performance compared optimal one
+simple regret does
+moreover latter criterion not analysis

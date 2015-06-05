@@ -1,0 +1,40 @@
+
+describe into learning game
+method based learn features individual evaluation function using method temporal differences
+some results were obtained learning two recent world report our use between game who was who was
+also discuss some our approach propose possible future research
+method presented may also other games may even other domains where sequences actions
+introduction
+other popular games different
+example some more other more difference will affect their choice any given position more generally their overall
+problem paper machine learning computer between based their
+before explain our review method temporal difference learning central our approach
+temporal difference learning machine learning technique work learning occurs differences between predictions actual outcomes temporal sequence observations
+used game study computer learning experience
+although program did not achieve was program was first computer program against human world see detailed but less description machine learning program demonstrated power technique temporal difference learning combined using neural network program learn play at level through
+following approach there been similar technique games
+time so natural make use existing game strong evaluation function however temporal difference training did not
+learning game also been used game patterns prediction using methods other than temporal difference learning
+here our aim not computer game but rather play particular learning games principle system could learn but when sufficient game exist learning generally more important note information available during learning should not include any when game was variation result game
+all learning sequence each game
+at different perspective view problem one classification
+assume computer play two
+problem then game between computer some confidence was
+at even higher level problem test where computer may human human
+some sense may true available computer humans their due increased power
+moreover there seems high correlation between choices made human world class see
+will not discuss test further now will classification problem within domain
+far know new problem paper suggest using temporal difference learning
+all previous uses temporal difference learning games some above learn weights evaluation function order improve play computer program
+our still learn weights evaluation function but objective given rather than improve play
+if under very strong example then resulting program likely but method could also used learn evaluation functions
+learning algorithm described section based rule only current predictions
+note more general proposed factor between 1 algorithm also take into account predictions
+training both adaptive learning rate term describe
+section present concept where learn two recent world make use feature weights game between two who was who was
+despite some results there also some fundamental our approach
+particular out us our choice features described too since all strong their combination according
+higher level more more
+however difficult manner moreover not clear how them into framework
+discuss other
+section give our

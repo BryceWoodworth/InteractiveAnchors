@@ -1,0 +1,30 @@
+
+network practice communication among subject usually main factor probability error communication
+probabilities then under
+paper studies problem probabilities communication among rate convergence average when communication taken into account there overall communication
+consider problem address number results design subject random communication cost convex optimization problem apply techniques
+show numerical study optimal design significantly convergence algorithm achieve performance network at communication cost
+introduction
+consider design optimal i e communication network convergence rate average
+average distributed algorithm been considered his see also found application recently several subject active research e
+g
+design networks not much attention literature
+consider classes random graphs particular
+more general question convergence rate under number network was considered our previous work where reduced average problem distributed inference see also
+networks under model network random field
+specifically assume network then paper our convergence results networks random
+recent paper similar model convergence properties using stochastic matrices
+network also algorithms where only single pair selected at each communication nodes
+our use multiple selected at each design optimal i e optimal weight not simple average optimal probabilities communication there communication cost
+other recent work continuous time networks communication studies distributed when network complete graph probabilities all
+paper
+section graph theory like graph graph connectivity
+%
+section problem distributed average random
+derive necessary sufficient conditions convergence mean state convergence s convergence terms average terms where
+section bounds convergence rate
+section design random networks communication cost constraints
+first version problem distributed communication cost then version show convex optimization problem apply techniques
+section studies performance found optimization
+show improve significantly convergence rate example factor when compared networks networks where every other within fixed they achieve performance network at eg communication cost per
+section paper

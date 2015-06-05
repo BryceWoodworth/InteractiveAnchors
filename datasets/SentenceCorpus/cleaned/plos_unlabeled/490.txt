@@ -1,0 +1,49 @@
+ 
+fundamental problem neuroscience understanding how working memory ability store information at intermediate timescales like tens seconds implemented realistic neuronal networks
+most likely candidate mechanism attractor network great deal effort gone toward investigating theoretically
+yet despite almost quarter century intense work attractor networks not fully understood
+particular there still two unanswered questions
+first how attractor networks exhibit irregular firing observed experimentally during working memory tasks
+second how many memories stored under biologically realistic conditions
+here answer both questions studying attractor neural network inhibition excitation balance each other
+using mean-field analysis derive three-variable description attractor networks
+description follows irregular firing exist only if number neurons involved memory large
+same mean-field analysis also shows number memories stored network scales number excitatory connections result been suggested simple models but never shown realistic ones
+both predictions verified using simulations large networks spiking neurons
+ introduction 
+critical component any cognitive system working memory mechanism storing information about past events accessing information at later times
+without mechanism even simple tasks deciding whether wear heavy jacket light sweater after hearing weather report would impossible
+although not known exactly how storage retrieval information implemented neural systems very natural way through attractor networks
+networks transient events world trigger stable patterns activity brain so looking at pattern activity at current time other areas brain know something about what happened past
+there now considerable experimental evidence attractor networks areas inferior temporal cortex prefrontal cortex hippocampus
+theoretical standpoint well understood how attractor networks could implemented neuronal networks at least principle
+essentially all needed increase connection strength among subpopulations neurons
+if increase sufficiently large then each subpopulation active without input thus remember events happened past
+while basic theory attractor networks been known some time moving past principle qualifier understanding how attractors could implemented realistic spiking networks been difficult
+because original hopfield model violated several important principles: neurons did not obey dale's law; when memory was activated neurons fired near saturation much higher than observed experimentally working memory tasks ; there was no null background state no state all neurons fired at low rates
+most problems been solved
+first dale's law was violated was solved clipping synaptic weights; using hopfield prescription assigning neurons either excitatory inhibitory then setting any weights wrong sign zero
+second building hopfield-type network low firing rate was solved adding appropriate inhibition
+third problem no null background was solved either making units sufficiently stochastic adding external input 
+spite advancements there still two fundamental open questions
+one is: how understand highly irregular firing observed experimentally working memory tasks  answering question important because irregular firing thought play critical role both how fast computations carried out ability networks perform statistical inference
+answering hard though because pointed out naive scaling net synaptic drive foreground neurons proportional number connections per neuron
+consequently because high connectivity observed cortex mean synaptic drive much larger than fluctuations implies foreground neurons should fire regularly
+moreover pointed out renart et al even models move beyond naive scaling produce irregularly firing neurons foreground neurons still tend fire more regularly than background neurons something inconsistent experiments 
+several studies attempted get around problem either directly indirectly
+most them however did not investigate scaling network parameters its size
+so although parameters were found led irregular activity was not clear how those parameters should scale size network increased realistic values
+two did investigate scaling irregular firing was possible only if small fraction neurons was involved each memory; i.e only if coding level was very small
+although there been no direct measurements coding level during persistent activity at least our knowledge experiments superior temporal sulcus suggest much larger than one used models
+should point out though model renart et al only one foreground neurons at least regular background neurons
+second open question is: what storage capacity realistic attractor networks
+how many different memories stored single network
+answering critical understanding highly flexible seemingly unbounded memory capacity observed animals
+simple albeit unrealistic models answer known: shown seminal work amit gutfreund sompolinsky number memories stored classical hopfield network about 0.14 times number neurons
+slightly more realistic networks answer also known
+however even more realistic studies lacked biological plausibility at least one way: connectivity was all all rather than sparse neurons were binary there was no null background firing rate foreground state was higher than observed experimentally coding level was very small 
+here answer both questions: show realistic networks spiking neurons how irregular firing achieved compute storage capacity
+our analysis uses relatively standard mean-field techniques requires only one assumption: neurons network fire asynchronously
+given assumption first show neurons fire irregularly only if coding level above some threshold although feature our model foreground neurons slightly more regular than background neurons
+then show maximum number memories our network capacity proportional number connections per neuron result consistent simplified models discussed above
+predictions verified simulations biologically plausible networks spiking neurons

@@ -1,0 +1,49 @@
+
+recent machine learning make possible design efficient prediction algorithms data sets numbers parameters
+paper new technique predictions output many algorithms including support vector kernel regression kernel many other methods
+predictions new objects include quantitative measures their own accuracy
+measures under assumption machine objects their assumed generated same probability distribution
+particular possible control up statistical number predictions confidence level
+validity being goal prediction taking full account new features other available information produce accurate predictions possible
+using machine learning
+introduction
+two main problem prediction classification regression standard subjects statistics machine learning
+classical classification regression techniques data however apply techniques data sets computational
+several new techniques first all support vector other kernel methods been developed machine learning recently goal data sets large numbers objects
+new techniques lack useful measures confidence their predictions
+example some bounds popular theory probability error even relatively data sets p
+paper efficient way predictions produced new methods i e them measures their accuracy
+chosen not only measures but they also take full account special features object predicted
+call our algorithms predictions they introduced section
+their most important property validity under assumption discussed
+validity means accuracy their predictions
+property terms finite data sequences without any
+validity depends assumption many other algorithms machine learning call assumption objects their assumed generated same probability distribution
+strong assumption machine learning rely other assumptions assumption see eg any stochastic assumptions see eg
+however much than statistical model prior distribution parameter space statistical theory prediction
+taking into account under assumption does not appear
+so know
+not so
+will various measures their
+only need about when specific problems
+any classification regression algorithm into predictor so most methods machine learning design efficient
+main part paper section description predictor based theory
+best possible predictions but
+however set task universal predictor well possible
+section introduce notion state simple result about their validity
+section also describe results computer experiments prediction
+section consider example how our model stochastic mechanism data within framework assumption
+if model actual stochastic mechanism construct optimal predictor out almost good confidence predictor will given later
+when stochastic mechanism significantly model predictions but their
+predictor very results good when model correct
+section describe setting problem prediction section contrast more standard setting
+notion validity introduced section both settings but setting now prove predictions will close high probability chosen confidence level
+setting property validity remains empirical fact
+section also discuss setting introduce new settings between
+large degree still property validity settings
+section difference between two inference empirical data
+but them elements lead significant their computational section
+show how some popular methods machine learning used underlying algorithms prediction
+do not give full description methods existing
+paper however sense explain all features underlying algorithms used their predictions
+information provide will apply our techniques their methods

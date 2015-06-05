@@ -1,0 +1,21 @@
+
+describe approach domain adaptation appropriate case when one data do better than just using only data
+our approach simple step approaches range datasets
+moreover extended adaptation problem where one data variety different domains
+introduction
+task domain adaptation develop learning algorithms one domain
+problem particularly because often situation large data one domain but model well second domain
+approach present paper based idea domain adaptation learning problem into standard learning problem any standard algorithm may applied eg etc
+our feature space both source target data use result input standard learning algorithm
+there two domain adaptation problem been case case
+case models following
+large data source domain
+addition little money small target domain
+both datasets obtain model well target domain
+case similar but instead having small target large but target
+paper focus case
+one particularly property our approach provides complete available at
+
+
+
+addition our algorithm well some cases better than current state techniques

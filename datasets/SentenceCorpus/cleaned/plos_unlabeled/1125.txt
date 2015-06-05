@@ -1,0 +1,56 @@
+ 
+bacterial flagellar motor highly efficient rotary machine used many bacteria propel themselves
+recently been shown at low speeds its rotation proceeds steps
+here propose simple physical model based storage energy protein springs accounts stepping behavior random walk tilted corrugated potential combines torque contact forces
+argue absolute angular position rotor crucial understanding step properties show hypothesis consistent available data particular observation backward steps smaller average than forward steps
+also predict sublinear speed versus torque relationship fixed load at low torque peak rotor diffusion function torque
+our model provides comprehensive framework understanding analyzing stepping behavior bacterial flagellar motor proposes novel testable predictions
+more broadly storage energy protein springs flagellar motor may provide useful general insights into design highly efficient molecular machines
+ introduction 
+bacteria swim virtue tiny rotary motors drive rotation helical flagella
+motors powered transmembrane proton flux converted into torque
+however little known about detailed mechanisms energy conversion torque generation
+recently new result provided direct insight into motor operation : at low speeds bacterial flagellar motor proceeds steps
+stepping stochastic nature manifested occurrence occasional backward steps even motors locked one rotation direction
+what origin motor steps how steps reconciled near perfect efficiency motor observed at low speeds  argue steps including backward steps inevitable consequence physical structure motor stator driving bumpy rotor through viscous medium
+response chemotactic signals flagellar motors switch counterclockwise clockwise rotation causing cells tumble change directions
+escherichia coli basic mechanism torque generation appears same both directions motor rotation
+torque generated passage formula ions through cytoplasmic membrane
+shown schematically fig
+1a torque applied rotor including flagellum stator comprised independent torque-generating units anchored peptidoglycan cell wall
+exact number torque-generating units vary motor motor maximum estimated at least 11
+rotor includes 26 circularly arrayed flig proteins contact mota/b complexes
+torque-speed relation motor been measured under range conditions
+maximum torque high load low speed regime tracks electrochemical potential difference proton motive force across membrane motor operates nearly perfect efficiency
+whereas torque efficiency fall off at high speeds proton flux motor rotation always strongly coupled formula protons passing through membrane per mota/b unit per rotation 
+recent experiments where rotation was measured attaching polystyrene bead flagellar stump driven counterclockwise-locked formula chimaeric motor at low speeds revealed motor proceeds steps
+steps average size formula corresponds 26 steps per rotation exactly number copies flig around rotor
+occasional backward steps observed interestingly smaller average than forward steps
+observations well stepping mechanism itself so far remained unexplained
+been suggested stepping caused stochastic passage ions
+however pointed out energy provided passage single ion only move rotor attached formula polystyrene bead formula much less than typical observed step size
+here propose simple physical model explain stepping: stator applies nearly constant torque rotor but at same time contact forces rotor produce potential therefore additional torque approximately 26-fold periodicity flig
+flagellar rotation viewed circular random walk bumpy potential biased favor rotation particular direction torque exerted stator elements
+our model naturally accounts existence backward steps well discrepancy between forward backward step sizes also predicts step statistics depend absolute position rotor around circle
+our predictions found consistent available data including angular diffusion motor suggest how steps could used study physical structure motor
+novel testable prediction torque-speed relation will become sublinear at very low torques
+our model stepping relies two main assumptions: constant nearly constant torque between stator rotor approximately 26-fold periodic contact potential
+all torque-generating units apply torque simultaneously additively
+following model meister et al assume each mota/b complex acts set protein springs reversibly store energy available formula translocations
+protein springs attached fixed sites rotor circumference
+when formula passes through membrane causes spring detach its attachment site stretch reattach next site
+at stall all springs maximally stretched pmf matches energy necessary stretch spring its next site
+at low speeds rotor moves springs relax but quickly restretched formula passage so system remains quasi-equilibrium torque set pmf
+spring stretching may vary slightly among units but since there several motor units assume instantaneous torque self-averages nearly constant time
+under scenario steps cannot explained at level single pair mota/b flig subunits but must arise at global level rotor-stator interaction
+there contact forces between stator rotor
+forces may caused contact between mota/b stator units flig proteins but also possibly contact flif flgh flgi proteins each forms circle 26 copies
+there may other periodicities contact forces well arising filament hook 11-fold periodic flgk flgl flgb flgc flgf flie
+assume 26-fold periodicity dominant agreement experimental observations
+therefore collect all contact forces potential formula suppose approximately 26-fold periodic 
+since motor operates at molecular scale its rotation intrinsically stochastic subject random thermal fluctuations
+another potential source noise fluctuations torque applied individual mota/b stators due discrete nature proton flux
+however presence multiple independent stator units noise averages out neglected
+under combined influence applied torque contact potential thermal fluctuations rotor performs circular continuous random walk tilted approximately periodic potential model following langevin equation:formulawhere formula drag coefficient formula total torque exerted via protein springs stators where potential formula includes torque approximately 26-fold periodic contact potential:formulathe term formula represents gaussian white noise accounts thermal fluctuations: formula where formula rotor diffusion coefficient related temperature drag coefficient via einstein's relation: formula
+experiments load attached flagellar stump load largely responsible drag
+simplicity assume linkage between motor load instantaneous relaxation rapid compared typical stepping time 

@@ -1,0 +1,31 @@
+ 
+arac family transcription factor mara activates 40 genes escherichia coli chromosome resulting different levels resistance wide array antibiotics superoxides
+activation mara/soxs/rob regulon promoters occurs well-defined order respect level mara; however order activation does not parallel strength mara binding promoter sequences
+understand lack correspondence developed computational model transcriptional activation transcription factor either increases decreases rna polymerase binding either accelerates retards post-binding events associated transcription initiation
+used model analyze data characterizing mara regulation promoter activity
+model clearly explains lack correspondence between order activation mara-dna affinity indicates order activation only predicted using information about strength full mara-polymerase-dna interaction
+analysis further suggests mara activate without increasing polymerase binding activation even involve decrease polymerase binding opposite textbook model activation recruitment
+findings consistent published chromatin immunoprecipitation assays interactions between polymerase e coli chromosome
+find activation involving decreased polymerase binding yields lower latency gene regulation therefore might confer competitive advantage cells
+our model yields insights into requirements predicting order activation regulon enables us suggest activation might involve decrease polymerase binding expect important theme gene regulation e coli beyond
+ introduction 
+transcription factors control cellular protein production binding dna changing frequency mrna transcripts produced
+there hundreds transcription factors escherichia coli while most target only small number genes there several regulate expression ten more genes
+taken together global transcription factors directly regulate more-than half 4,300 genes e coli their regulatory interactions yield important insights into organization genetic regulatory network
+because they regulate so many genes global transcription factors also play large role controlling cellular behavior; however insights into behavior currently limited lack quantitative information about how transcription factors differentially regulate target genes
+one important global transcription factor mara arac family protein activates 40 genes escherichia coli chromosome resulting different levels resistance wide array antibiotics superoxides
+effect mara at different promoters vary due changes detailed sequence dna-binding site its distance orientation respect promoter
+variations influence order promoters respond increasing concentrations mara presumably important functional consequences e coli
+characterize quantitative variations mara regulation at different promoters recently placed expression mara under control laci repressor determined relationship between isopropyl d-1-thiogalactopyranoside concentration intracellular concentration mara examined expression 10 promoters regulon function activator concentration
+found activation mara/soxs/rob regulon promoters occurs well-defined order respect level mara enabling cells mount response commensurate level threat detected environment
+also found only marrab soda micf promoters were saturated at highest level mara
+contrast commonly held assumption found order activation does not parallel strength mara binding promoter sequences
+finding suggested interactions between mara rna polymerase transcriptional machinery play important role determining order activation but data did not immediately reveal what nature interactions might at various promoters
+here developed computational model promoter activity understand how interactions between mara polymerase activate transcription at marrab soda micf promoters 10 examined previously three promoters only ones exhibited saturation provides important constraint modeling
+model was specifically designed compare strict recruitment model mara increases polymerase binding but does not increase rate post-binding events more general model activator either increase decrease polymerase binding either increase decrease rate post-binding events
+each promoter evaluated agreement both strict recruitment model general model data at many points within physically reasonable region parameter space
+model successfully explains why order promoter activation does not parallel strength mara-dna binding
+all promoters best fit general model was better than strict recruitment model
+comparison strict recruitment model full analysis goodness-of-fit landscape suggest mara does not increase polymerase binding but does increase rate post-binding events at promoters
+moreover analysis micf promoter suggests mara activation involve decrease polymerase binding associated low latency gene regulation
+discuss broader significance findings

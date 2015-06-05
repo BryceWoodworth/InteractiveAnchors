@@ -1,0 +1,48 @@
+
+through contact
+how affected features population environment only recently under
+stochastic transmission model was analyze environmental processes through one person another via different transmission explore factors increase different transmission
+each its own high transmission other
+transmission was highly parameter values
+example transmission usually required high density while contact had no
+depending specific context one more may sufficient high transmission while other no transmission may result
+because when making decisions involve environmental pathways applied may instead choice should depending specific features people question
+introduction
+who
+health were their transmission within their
+while increased their
+were cases
+interest control multiple potential transmission during later
+potential another increased study well increased modeling transmission
+studies were order better understand optimal control strategies
+much was into strategies social
+however little known about relative different transmission how might due environment
+potential effects unknown factors transmission model structure explicitly environmental processes through one person another different approach factors increase different transmission under given model structure
+model environmental transmission system model approach models et al model event framework various processes involved
+does not define contact events transmission probabilities each event most transmission models do
+problem approach what contact
+instead define events related environmental
+allows us address events at level more relevant possible more theory
+relevant options consider four potential contact transmission
+consider each follows
+transmission occurs when small region lower
+transmission occurs when size
+transmission occurs when large individual directly
+contact transmission occurs when person their own via their via large
+may then result others who then may their potentially
+how different model parameters influence how much transmission follows different
+example different may different
+among different populations who different behaviors same may different effects depending type population present
+finally even human populations environmental may variable area patterns generate different population level outcomes
+sources address form
+effects sources relative transmission where all individuals
+construct detailed stochastic individual based model environmental transmission
+use values empirical literature well judgment model
+apply lower parameter constraints parameters obtain sample parameter space
+analyze resulting outcome space respect how different transmission more less important specific
+work body literature transmission
+work step previous environmental transmission models model all four transmission do so agent based framework rather than based model empirical work no model optimization were used model
+explicitly point out where empirical literature exist
+show depending one may more less important than another
+therefore when applied may instead choice should depending specific features people question
+consider how features related behavior environment transmission via each

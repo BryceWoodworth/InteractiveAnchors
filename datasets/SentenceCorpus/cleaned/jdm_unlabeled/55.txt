@@ -1,0 +1,52 @@
+ 
+five experiments addressed controversy probability judgment literature centers efficacy framing probabilities frequencies
+natural frequency view predicts frequency formats attenuate errors while nested-sets view predicts highlighting set-subset structure problem reduces error regardless problem format
+study tested predictions using conjunction task
+previous studies reporting frequency formats reduced conjunction errors confounded reference class problem format
+after controlling confound present study's findings show conjunction errors reduced using either probability frequency format frequency effects depend upon presence reference class frequency formats do not promote better statistical reasoning than probability formats
+ introduction 
+evidence suggests information presented frequency formats rather than probability formats attenuates many cognitive biases found probabilistic reasoning
+there evidence frequency advantage bayesian reasoning overcoming overconfidence bias reducing conjunction errors extensional reasoning
+although specific explanations frequency effect vary task general conclusion reached proponents natural frequency perspective presenting frequencies promotes intuitive statistical reasoning because formats compatible evolutionary-based computational algorithm
+alternative explanations well contradictory evidence frequency effect been offered
+particular nested-sets hypothesis suggests frequency effects may indirect consequence inducing set-inclusion problem representation contributes making problem's logical structure transparent thus easily solvable
+according nested-sets hypothesis presenting information way allows people extract subsets relative supersets problem structure key facilitating reasoning
+facilitation occur whether not information presented frequencies probabilities so long critical set-subset structure made salient
+example sloman et al tested three versions medical diagnosis problem first posed casscells schoenberger grayboys
+probability version problem was stated follows frequency version problem adapted cosmides tooby was stated follows third problem version was nest-sets probability version highlighted set-subset structure problem
+was stated follows note all three problem versions specific reference class i e number americans provided
+what different between problem versions however both frequency version nest-sets probability version highlight set-subset structure among critical categories those who test positive whether not they disease number number those who test positive disease number number
+natural frequency hypothesis predicts only frequency problem version will facilitate bayesian reasoning result approximately correct solution number number number percent
+nested-sets hypothesis predicts both frequency version nested-sets probability version will facilitate correct responding because both versions make set-subset relationships among critical categories transparent
+sloman et al 's findings support nested-sets hypothesis
+they found probability version resulted significantly fewer correct answers than did either frequency version nested-sets probability version
+latter two problem versions did not significantly differ number correct solutions they elicited
+evans et al ran similar study but included frequency hard condition false positive rate number percent was stated number number instead number number thus obscuring problem's nested-sets structure
+further support nested-sets hypothesis evans et al found both probability frequency hard problem versions resulted significantly fewer correct responses than did frequency version highlighted set-subset structure stating false positive rate number number
+results also consistent findings reported macchi mellers mcgraw who offered similar interpretations
+perhaps strongest evidence favor nested-sets hypothesis provided yamagishi who presented bayesian reasoning problem frequency probability formats crossed presence absence diagrammatical representation problem structure roulette wheel whose areas reflect relative proportion hits misses false positives
+he found absence diagram there was frequency effect
+presence diagram however there was no significant difference proportion correct responses between frequency probability problem formats
+evidence suggests bayesian reasoning facilitated proper problem representation frequency formats offer no additional advantage when problem structure task clarified
+aside bayesian reasoning almost no research examining nested-sets hypothesis been conducted other judgment biases frequency effects also been reported
+theoretically meaningful extend growing evidence favoring nested-sets hypothesis tasks reveal failures extensional reasoning conjunction fallacy
+date only two published accounts examined frequency effects classic linda problem only one study provided direct test nested-sets hypothesis problem
+both fiedler hertwig gigerenzer reported frequency formats led fewer proportions participants committing conjunction errors comparison probability formats
+there was potential confound those studies however
+reference class was given frequency version problem was absent probability version
+unclear those studies whether reduction conjunction errors direct result manipulating problem format result presenting information manner facilitates problem representation
+illustrate consider two versions linda problem presented fiedler
+both versions presented following information probability format participants were asked rank order list number statements about linda according their probability
+among statements were two constituent categories linda bank teller linda active feminist movement their conjunction linda bank teller active feminist movement
+frequency format participants were given same information statements judge but were asked how many number women who like linda do following statements apply
+note frequency format asks numeric frequency estimate provides specific reference class out make estimate
+probability format asks ranks does not provide reference class judgment
+similar confound existed studies reported hertwig gigerenzer
+confound between response mode numeric estimate vs rank reference class present vs absent prohibits clear interpretation findings
+indeed hertwig chase reported significantly more conjunction errors committed ranking probability response mode than numeric probability estimation response mode
+frequency effect found both fiedler hertwig gigerenzer studies could result confounding response mode problem format
+facilitating effect frequency format could also secondary consequence providing participants reference class focusing their attention sub-categories within class rather than direct result framing problem frequency judgment
+sloman et al reported finding no significant differences between frequency probability formats linda problem when set-inclusion relationships between critical categories were made opaque separating constituent categories their conjunction seven filler statements
+their finding suggests when set-subset structure problem obscured frequency effect disappears
+finding consistent nested-sets hypothesis
+purpose present study examine whether frequency effects remain after controlling reference class confound noted earlier research conjunction errors

@@ -1,0 +1,47 @@
+ 
+integrative approaches studying coupled dynamics skeletal muscles their loads while under neural control focused largely questions pertaining postural dynamical stability animals humans
+prior studies focused how central nervous system actively modulates muscle mechanical impedance generate stabilize motion posture
+however question whether muscle impedance properties neurally modulated create favorable mechanical energetics particularly context periodic tasks remains open
+through muscle stiffness tuning hypothesize pair antagonist muscles acting against common load may produce significantly more power synergistically than individually when impedance matching conditions met between muscle load
+since neurally modulated muscle stiffness contributes coupled muscle-load stiffness further anticipate power-optimal oscillation frequencies will occur at frequencies greater than natural frequency load
+hypotheses were evaluated computationally applying optimal control methods bilinear muscle model also evaluated through vitro measurements frog plantaris longus muscles acting individually pairs upon mass-spring-damper load
+find 7-fold increase mechanical power when antagonist muscles act synergistically compared individually at frequency higher than load natural frequency
+observed behaviors interpreted context resonance tuning engineering notion impedance matching
+findings suggest central nervous system adopt strategies harness inherent muscle impedance relation external loads attain favorable mechanical energetics
+ introduction 
+capability skeletal muscles deliver mechanical power key determining neuromechanical performance envelope organisms
+how fast how far animals run fly swim jump clearly limited mechanical power delivered muscle-tendon units skeletal environmental loads
+therefore estimating mechanical energetics muscles been interest diverse fields organismal biomechanics biomimetic robotics prosthetics 
+many factors influence neuromechanical performance organisms including dynamics mechanical properties muscle actuators ii skeletal mechanics iii neural control iv influence loads external organism
+integrative approaches been proposed capture interaction all subsets factors
+example connection between muscle impedance neural control been studied depth respect postural dynamic stability locomotory functions manipulation other biomechanical tasks
+work adhere definition muscle mechanical impedance static dynamic relation between muscle force imposed stretch
+muscle impedance encompasses muscle stiffness static relation between muscle force stretch only
+context muscle energetics most investigations focused experimentally measuring power output individual muscles at range frequencies phases electrical stimulation parameters finding maximal power generating capability muscles under prescribed motion trajectories
+however role muscle-load interaction output energetics not been formalized
+central premise work mechanical energetics muscle-actuated system cannot determined meaningful manner without considering coupling muscle properties load dynamics neural activation
+considering coupling explicitly arrive at phenomena cannot captured using standard workloop testing methodologies including opportunity harness muscle-load interaction energetically advantageous manner
+muscle energetics been characterized under dynamic conditions both vitro vivo
+vitro measurements relied almost invariably workloop technique
+approach isolated muscles subjected predetermined periodic length variations time means external motion source
+at given phase imposed oscillation electrical stimulus delivered synchronously resulting periodic muscle contractions
+plot muscle contractile force versus displacement results cyclic workloop integrated area within loop being measure net muscle work done
+similar measurements been reproduced muscle physiology literature various muscle groups within various organisms connections between muscle function its mechanical energetics been made
+while measurements provide useful energetic connections muscle function experimental conditions do not capture representative vivo conditions because motion profiles imposed single isolated muscles no muscle-load interactions without incorporating effects antagonist activity
+vivo measurements other hand capture all above effects principle but lack experimental flexibility varying load conditions unambiguous manner
+capturing effect muscle-load interaction muscle energetics critical
+interaction captured considering impedance muscles relation impedance load
+when group muscles acts common load exemplified antagonist pair acting common load each muscle forms part load borne other muscles its group
+because muscle impedance activation dependent neural control used modulate effective load observed each muscle modulating impedance opposing muscles thereby offering opportunity create favorable impedance conditions maximize power transfer external environmental load
+akin notion impedance matching engineering systems where driving source load matched provide optimal power transfer
+context neuromuscular control impedance matching enable groups muscles work synergistically provide significantly higher energetics than sum individual muscles
+consequently investigation studied influence muscle-load interaction muscle workloop energetics both computationally experimentally
+set up model problem consisting mass-spring-damper system actuated either single muscle pair symmetric antagonist muscles
+input system modulate net force exerted two muscles well net impedance
+context problem investigated two hypothesis
+hypothesis 1 states power optimal oscillation frequency muscle actuated system greater than resonance frequency load
+direct contrast impedance-free actuator where optimal oscillation frequency occurs exactly at resonance load
+hypothesis 2 states pair antagonist muscles work together produce more power synergistically than individually margins cannot predicted without explicit incorporation muscle impedance
+tested hypotheses both computationally experimentally
+our computational approach relied optimal control solutions workloop maximization problem was based mathematical model problem
+experimental approach relied vitro measurements workloop energetics electrically-stimulated frog muscle acting against emulated mass-spring-damper loads

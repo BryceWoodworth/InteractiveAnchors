@@ -1,0 +1,26 @@
+ 
+develop new collaborative filtering cf method combines both previously known users' preferences ie standard cf well product/user attributes ie classical function approximation predict given user's interest particular product
+our method generalized low rank matrix completion problem where learn function whose inputs pairs vectors  standard low rank matrix completion problem being special case where inputs function row column indices matrix
+solve generalized matrix completion problem using tensor product kernels also formally generalize standard kernel properties
+benchmark experiments movie ratings show advantages our generalized matrix completion method over standard matrix completion one no information about movies people well over standard multi-task single task learning methods
+ introduction 
+collaborative filtering cf refers task predicting preferences given user based their previously known preferences well preferences other users
+book recommender system example one would like suggest new books customer based what he others recently read purchased
+formulated problem filling matrix customers rows objects e g  books columns missing entries corresponding preferences one would like infer
+simplest case preference could binary variable thumbs up/down perhaps even more quantitative assessment scale 1 5
+standard cf assumes nothing known about users objects apart preferences expressed so far
+setting most common assumption preferences decomposed into small number factors both users objects resulting search low-rank matrix approximates partially observed matrix preferences
+problem usually difficult non-convex problem only heuristic algorithms exist
+alternatively convex formulations been obtained relaxing rank constraint constraining trace norm matrix
+many practical applications cf however description users and/or objects through attributes e g  gender age measures similarity available
+case tempting take advantage both known preferences descriptions model preferences users
+important benefit framework over pure cf potentially allows prediction preferences new users and/or new objects
+seen learning preference function examples problem solved virtually any algorithm supervised classification regression taking input pair user object
+if suppose example positive definite kernel between pairs deduced description users object then learning algorithms like support vector machines kernel ridge regression applied
+algorithms minimize empirical risk over ball reproducing kernel hilbert space rkhs defined pairwise kernel
+both rank constraint rkhs norm restriction act regularization based prior hypothesis about nature preferences inferred
+rank constraint based hypothesis preferences modelled limited number factors describe users objects
+rkhs norm constraint assumes preferences vary smoothly between similar users similar objects where similarity assessed terms kernel pairs
+main contribution work propose framework combines both regularizations one hand interpolates between pure cf approach pure attribute-based approaches other hand
+particular framework encompasses low-rank matrix factorization collaborative filtering multi-task learning classical regression/classification over product spaces
+show benchmark experiment movie recommendations resulting algorithm lead significant improvements over other state-of-the-art methods

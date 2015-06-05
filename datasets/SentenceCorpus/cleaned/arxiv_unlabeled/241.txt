@@ -1,0 +1,49 @@
+ 
+paper presents studies deterministic annealing algorithm based quantum annealing variational bayes qavb inference seen extension simulated annealing variational bayes savb inference
+qavb easy savb implement
+experiments revealed qavb finds better local optimum than savb terms variational free energy latent dirichlet allocation lda
+ introduction 
+several studies related machine learning quantum mechanics recently been conducted
+main idea behind been based generalization probability distribution obtained using density matrix self-adjoint positive-semidefinite matrix trace one
+connects basic probability rule quantum mechanics called ``born rule'' formulates generalized probability using density matrix spectral clustering other machine learning algorithms based spectral theory
+combined margin maximization scheme probabilistic modeling approach incorporating concepts quantum detection estimation theory
+proposed quantum markov random field using density matrix quantum mechanics applied image restoration
+generalizing bayesian framework based density matrix also been proposed
+proposed ``quantum bayes rule'' conditional density between two probability spaces
+warmuth et al generalized bayes rule treat case where prior was density matrix unified bayesian probability calculus density matrices rules translation between joints conditionals
+typically formulas derived quantum mechanics generalization retained conventional theory special case when density matrices been diagonal
+computing full posterior distributions over model parameters probabilistic graphical models eg latent dirichlet allocation  remains difficult quantum bayesian frameworks well classical bayesian frameworks
+paper generalize variational bayes inference  widely used framework probabilistic graphical models based ideas been used quantum mechanics
+variational bayes vb inference been widely used approximation bayesian inference probabilistic models discrete latent variables
+example probabilistic mixture model mixture gaussians each data point assigned latent class latent variable corresponding data point indicates latent class
+vb optimization algorithm minimizes cost function
+cost function called negative variational free energy function latent variables
+called cost function ``energy'' paper
+since vb gradient algorithm similar expectation maximization em algorithm suffers local optimal problem practice
+deterministic annealing da algorithms been proposed em algorithm vb based simulated annealing sa overcome issue local optima
+called simulated annealing based vb savb
+sa one most well known physics based approaches machine learning
+sa based concept statistical mechanics called ``temperature''
+decrease parameter ``temperature'' gradually sa
+because energy landscape becomes flat at high temperature easy change state see fig
+however state trapped at low temperature because valley energy barrier transition probability becomes very low
+therefore sa does not necessarily find global optimum practical cooling schedule temperature
+physics quantum annealing qa attracted attention alternative annealing method optimization problems process analogous quantum fluctuations
+qa expected help states avoid being trapped poor local optima at low temperatures
+main point paper explain novel da algorithm vb based qa qavb derived present effects qavb obtained through experiments
+qavb generalization vb savb attained using density matrix
+describe our motivation deriving qavb terms density matrix section
+here overview qavb derived
+interestingly although qavb generalized formulated density matrix algorithm qavb finally derived does not need operations density matrix eigenvalue decomposition only simple changes savb algorithm
+since savb does not necessarily find global optimum still need run multiple savbs independently different random initializations where denote number savbs
+here let us consider running dependently not independently multiple savbs where ``dependently'' means run multiple savbs introducing interaction among neighboring savbs randomly numbered  see fig b
+fig  indicates latent class states data points th savb
+independent savbs very low transition probability among states i e  they been trapped at high temperature shown fig c while dependent qavbs changes state situation
+because interaction starts zero i e  ``independent'' gradually increases makes approach each other state will then moved into
+if there better state around sub-optimal states independent savbs find dependent savbs expected work well
+dependent savbs just qavb where interaction above scheme derived qa mechanisms will explained following section
+paper organized follows
+section  introduce notations used paper
+section  motivate qavb terms density matrix
+section explain how derive qavb present experimental results latent dirichlet allocation lda
+section concludes paper *}

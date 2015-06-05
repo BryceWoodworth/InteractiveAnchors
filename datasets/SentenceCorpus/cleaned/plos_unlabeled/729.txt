@@ -1,0 +1,37 @@
+ 
+there evidence biological synapses limited number discrete weight states
+memory storage synapses behaves quite differently synapses unbounded continuous weights old memories automatically overwritten new memories
+consequently there been substantial discussion about how affects learning storage capacity
+paper calculate storage capacity discrete bounded synapses terms shannon information
+use optimize learning rules investigate how maximum information capacity depends number synapses number synaptic states coding sparseness
+below certain critical number synapses per neuron find storage similar unbounded continuous synapses
+hence discrete synapses do not necessarily lower storage capacity
+ introduction 
+memory biological neural systems believed stored synaptic weights
+numerous computational models memory systems been constructed order study their properties explore potential hardware implementations
+storage capacity optimal learning rules been studied both single-layer associative networks studied here auto-associative networks
+commonly synaptic weights models represented unbounded continuous real numbers
+however biology well potential hardware synaptic weights should take values between certain bounds
+furthermore synapses might restricted limited number synaptic states e.g synapse might binary
+although binary synapses might limited storage capacity they made more robust biochemical noise than continuous synapses
+consistent experiments suggest synaptic weight changes occur steps
+example putative single synapse experiments show switch-like increment reduction excitatory post-synaptic current induced pairing brief pre-synaptic stimulation appropriate post-synaptic depolarization 
+networks bounded synapses palimpsest property i.e old memories decay automatically they overwritten new ones
+contrast networks continuous unbounded synapses storing additional memories reduces quality recent old memories equally
+forgetting old memories must case explicitly incorporated instance via weight decay mechanism
+automatic forgetting discrete bounded synapses allows one study learning realistic equilibrium context there continual storage new information
+common use signal-to-noise ratio quantify memory storage neural networks
+snr measures separation between responses network; higher snr more memory stands out less likely will lost distorted
+when weights unbounded each stored pattern same snr
+storage capacity then defined maximum number patterns snr larger than some fixed minimum value
+however discrete bounded synapses performance must characterized two quantities: initial snr its decay rate
+ideally memory high snr slow decay but altering learning rules typically results either increase memory lifetime but decrease initial snr increase initial snr but decrease memory lifetime
+optimization learning rule ambivalent because arbitrary trade-off must made between two effects
+paper resolve conflict between learning forgetting analyzing capacity synapses terms shannon information
+describe framework calculating information capacity bounded discrete synapses use find optimal learning rules
+model single neuron investigate how information capacity depends number synapses number synaptic states
+find below critical number synapses total capacity linear number synapses while more synapses capacity grows only square root number synapses per neuron
+critical number dependent sparseness patterns stored well number synaptic states
+furthermore when increasing number synaptic states information initially grows linearly number states but saturates many states
+interestingly biologically realistic parameters capacity just at critical point suggesting number synapses per neuron limited prevent sub-optimal learning
+finally capacity measure allows direct comparison discrete continuous synapses showing under right conditions their capacities comparable

@@ -1,0 +1,36 @@
+
+new method presented population models both signal based data using linear system
+population firing rates populations population signals
+firing rates turn used identify population models more common terms
+optimal model structures model parameters identified between model firing rates experimentally population firing rates
+experimental data model fast population combined process due activation functions
+firing rates various populations found exhibit strong temporal present experimental simple population models combined linear activation function found provide data
+identified network models thus found very different
+while changes firing rate most strongly population
+introduction
+following work effort been into neural network models particularly form neural field models
+some network models particular early visual system been developed account particular physiological data
+however strongly networks few network models directly specific data been identified
+instead most work been network models focused features stability patterns other structures see
+here present new method identification specific population network models apply method network models signal processing based data system analyze identified models using techniques systems analysis
+our study large differences function between compared between thus direct how stimuli population system
+models generally been lack relevant experimental data test models
+single generally only measure firing activity individual neurons not activity populations cells typically predicted population models
+et al thus developed models signal based data
+contrast provide all at one more
+signal at each contact potential generated synaptic action neurons within few contact where factors depend position neurons well properties
+present paper describe new method population models both basis data using linear system
+so called population analysis et al data estimate populations population firing rates following firing particular population
+population were further used estimate synaptic patterns between various populations using both current source density estimation techniques new technique
+here use firing rates populations estimated using combination firing activity identify population models
+models systems sets more common mathematical representation models
+population responses were found increase both increasing
+stimulus set both time was found provide variety responses thus well between models
+optimal model structure corresponding model parameters estimated between population firing rates predicted models experimentally population firing rates
+first focus estimation mathematical models signal between population population input
+our experimental data model fast process combination interactions activation function
+identified seen property frequency domain responses population obtained firing rates
+very different population models identified population activity
+present experimental firing rates various populations found exhibit strong temporal simple models linear activation function found account data
+functional properties identified network models thus very while changes firing rate
+results were presented

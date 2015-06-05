@@ -1,0 +1,61 @@
+ 
+topology cellular circuits key understand their robustness both mutations noise
+reason many biochemical parameters driving circuit behavior vary extensively thus not fine-tuned
+existing work area asks what extent function any one given circuit robust
+but high robustness truly remarkable would expected many circuits similar topology
+how high robustness come about through gradual darwinian evolution changes circuit topology gradually one interaction at time
+here ask questions model transcriptional regulation networks explore millions different network topologies
+robustness mutations noise correlated networks
+they show skewed distribution very small number networks being vastly more robust than rest
+all networks attain given gene expression state organized into graph whose nodes networks differ their topology
+remarkably graph connected easily traversed gradual changes network topologies
+thus robustness evolvable property
+connectedness evolvability robust networks may general organizational principle biological networks
+addition exists also rna protein structures may thus general organizational principle all biological systems
+ introduction 
+biochemical parameters determine behavior cellular systems proteins genome-scale regulatory networks change continually
+change two principal sources
+one them genetic consists mutations
+other nongenetic; exemplified noise internal organism environmental change
+contrast mutations relatively rare internal noise ubiquitous substantial
+much consists stochastic variation gene expression expression regulation
+noise makes all biochemical parameters affecting circuit's behavior appear fluctuate randomly
+environmental change change temperature salinity nutrient availability similarly affect many parameters at once
+observations suggest biological circuits not fine-tuned exercise their functions only precise values their biochemical parameters
+instead they must able function under range different parameters
+other words they must robust parameter change
+insights lead explorations circuit robustness processes ranging bacterial chemotaxis embryonic development 
+quantitative models cellular circuits help us understand processes different circadian rhythms cell cycle organismal development bacterial chemotaxis behavior synthetic circuitry
+several classes models used represent biological networks
+first class comprises differential equation models
+continuous state variables equations correspond concentrations activities gene products
+interactions gene products represented through biochemical parameters binding affinities transcriptional regulators dna dissociation constants ligand-receptor complexes kinetic rate constants enzymes
+nearly universal problem quantitative information about biochemical parameters absent even experimentally well-studied systems
+other words some knowledge topology circuit who interacts whom may exist but strengths interactions usually unknown
+even where measurements biochemical parameters available they often order-of-magnitude estimates rather than quantitative measurements known precision
+difficulty leads one naturally second class models only qualitative nature state variables considered
+our focus here not consider any one circuit but many circuit architectures topologies
+because incessant changes biochemical parameters lack quantitative information about their values approach appropriate studying fundamental properties cellular circuits; particular one may ask what features responsible robustness circuit architecture topology
+work carry out analysis model transcriptional regulation networks important functions developmental processes
+despite its level abstraction model proven highly successful explaining regulatory dynamics early developmental genes fruit fly drosophila well predicting mutant phenotypes
+also helped elucidate why mutants often show release genetic variation cryptic wild-type how adaptive evolution robustness occurs genetic networks given topology
+most recently helped explain how sexual reproduction enhance robustness recombination 
+model concerned regulatory network n transcriptional regulators represented their expression patterns s at some time t during developmental cell-biological process one cell domain embryo
+time scale model's expression dynamics time scale characteristic transcriptional regulation order minutes not order days weeks months complete development zygote adult
+model's transcriptional regulators influence each other's expression through cross-regulatory autoregulatory interactions encapsulated matrix w elements w ij matrix indicate strength regulatory influence gene j gene i influence either activating repressing absent
+put differently matrix w represents genotype system while expression state its phenotype
+model change expression state s network time t progresses according difference equation where constant sigmoidal function whose values lie interval
+equation reflects regulation gene i's expression other genes
+here concerned networks whose expression dynamics start prespecified initial state s at some time t 0 during development arrive at prespecified stable equilibrium target expression state s will call networks viable networks
+initial state determined regulatory factors upstream network may represent signals cell's environment other domains embryo
+transcriptional regulators expressed stable equilibrium state s affect expression genes downstream network
+modeling assumption think their expression critical course development
+thus deviations s highly deleterious
+because our work starts developmental framework s s play central role; contrast most studies determining generic properties random boolean networks
+here examine relationship between robustness network topology millions networks different topologies
+topology synonymous structure matrix w because each w's nonzero entries corresponds one regulatory interaction among circuit's genes
+changes topology correspond loss regulatory interaction appearance new regulatory interaction was previously absent
+topological changes occur very short evolutionary time scales particular higher eukaryotes large regulatory regions
+underscores need study their effects network robustness
+our analysis first ask how robustness mutations noise varies within ensemble networks different topologies
+subsequently more importantly also ask whether highly robust topologies evolve topologies low robustness through gradual topological changes

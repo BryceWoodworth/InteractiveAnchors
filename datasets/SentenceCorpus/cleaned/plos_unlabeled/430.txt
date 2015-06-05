@@ -1,0 +1,45 @@
+ 
+calcium/calmodulin-dependent protein kinase ii plays key role induction long-term postsynaptic modifications following calcium entry
+experiments suggest long-term synaptic changes all-or-none switch-like events between discrete states
+biochemical network involving camkii its regulating protein signaling cascade been hypothesized durably maintain evoked synaptic state form bistable switch
+however still unclear whether experimental ltp/ltd protocols lead corresponding transitions between two states realistic models network
+present detailed biochemical model camkii autophosphorylation protein signaling cascade governing camkii dephosphorylation
+previously shown two stable states camkii phosphorylation level exist at resting intracellular calcium concentration high calcium transients switch system weakly phosphorylated highly phosphorylated state camkii
+show here increased camkii dephosphorylation activity at intermediate ca 2 concentrations lead switching up down state
+achieved if protein phosphatase activity promoting camkii dephosphorylation activates at lower ca 2 levels than kinase activity
+finally shown camkii system qualitatively reproduce results plasticity outcomes response spike-timing dependent plasticity presynaptic stimulation protocols
+shows camkii protein network account both induction through ltp/ltd-like transitions storage due its bistability synaptic changes
+ introduction 
+synaptic plasticity thought underlie learning memory but mechanisms changes synaptic efficacy induced maintained over time still unclear
+numerous experiments shown how synaptic efficacy increased decreased spike timing presynaptic postsynaptic neurons presynaptic firing rate presynaptic firing paired postsynaptic holding potential
+experiments led phenomenological models capture one several aspects
+however models tell us nothing about biochemical mechanisms induction maintenance synaptic changes
+question mechanisms at biochemical level been addressed another line research work originating early work lisman
+models at biochemical level describe enzymatic reactions proteins postsynaptic density
+proteins form network positive feedback loops potentially provide synapse several stable states two simplest case providing means maintain evoked changes
+hence synapses models similar binary switches exhibiting two stable states up state high efficacy down state low efficacy
+idea binary synapses supported recent experiments ca3-ca1 synapses 
+one proposed positive feedback loops involves calcium/calmodulin-dependent protein kinase ii kinase-phosphatase system
+camkii activation governed ca 2 /calmodulin binding prolonged beyond fast-decaying calcium transients its autophosphorylation
+autophosphorylation camkii at residue theronine-286 autoregulatory domain occurs after calcium/calmodulin binding enables enzyme remain autonomously active after dissociation calcium/calmodulin
+turn long camkii stays activated reversibly translocated postsynaptic density bound state where interacts multiple ltp-related partners structurally organizing protein anchoring assemblies therefore potentially delivering amino-3-hydroxyl-5-methyl-4-isoxazole-propionate acid receptors cell surface
+direct phosphorylation ampa receptor glur1 subunit active camkii enhances ampa channel function
+network involving camkii particularly appealing terms learning memory maintenance since n-methyl-d-aspartate receptor dependent ltp requires calcium/calmodulin activation camkii potentially expressed phosphorylation level number ampa receptors both
+however role camkii beyond ltp induction remains controversial
+finally there experimental evidence involvement proteins associated camkii activity calcineurin ltp ltd
+emphasize multiple mechanisms supporting ltp/ltd induction expression likely present synapses different regions focus here synapses above statements been shown apply e.g ca3-ca1 schaffer collateral synapse 
+modeling studies shown system including camkii associated pathways could bistable range calcium concentrations including resting level necessary requirement maintenance long-term changes
+models two states correspond two stable phosphorylation levels camkii protein given calcium concentration i.e weakly highly phosphorylated state
+transition down up state could underlie long-term potentiation induced sufficiently large prolonged increase calcium concentration
+however opposite transition could underlie depotentiation ltd only occurs under unrealistic conditions example decrease calcium concentration below resting level
+furthermore not been considered how biochemical network models behave response calcium transients evoked experimental protocols known induce synaptic plasticity stdp been shown rely kinase phosphatase activation
+rubin et al reproduce experimental results stdp using model detector system qualitatively resembles protein network influencing camkii but model does not exhibit bistability
+other studies biochemical signal transduction pathways including camkii showed ampa receptor activity reproduce bidirectional synaptic plasticity function calcium
+however realistic stimulation protocols were not investigated models again they do not show bistability
+paper consider realistic model protein interactions associated camkii autophosphorylation through calcium/calmodulin dephosphorylation protein phosphatase 1 psd
+first study steady-state phosphorylation properties camkii respect calcium changing levels pp1 activity
+conditions elaborated system allows ltp ltd transitions reasonable ranges calcium concentrations
+then demonstrate ability camkii system perform ltp ltd-like transitions response stdp stimulation protocols
+expose camkii system calcium transients evoked pairs presynaptic postsynaptic spikes given time lag show short positive time lags evoke transitions down up state short negative time lags lead transitions up down state
+demonstrate furthermore camkii model qualitatively reproduces experimental plasticity outcomes presynaptic stimulation protocols
+finally consider transition behavior response purely presynaptic postsynaptic spike-pair stimulation protocols

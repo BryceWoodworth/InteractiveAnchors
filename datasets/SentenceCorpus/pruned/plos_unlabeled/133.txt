@@ -1,0 +1,44 @@
+
+genes common functions often exhibit correlated expression levels used identify sets genes data
+typically measure expression across genomic space matrix must only most relevant gene interactions
+describe graph theoretical approach sets genes based
+results clustering algorithms not allow genes multiple sets consistent biological
+graph correlation matrix include only most likely functional relationships
+graph sets genes significant present between all set potential common pathways
+used function about genes based known functions genes they
+our method data
+analysis used identify sets genes whose interactions
+correlation graph also
+present several examples multiple gene interactions thus represent potential molecular pathways response
+introduction
+assumption genes similar expression patterns common cellular functions body effort cellular pathways data
+general genes proteins common pathway will correlated expression levels when at sufficient scale known functions genes used existing new functional pathways
+number recent studies concept genes across multiple conditions more likely represent common functions than would expected
+computational methods patterns far general about their utility
+methods pathways data measure similarity distance correlation degree expression levels between pairs genes correlated across multiple conditions
+matrix across typically similarity expression patterns genes point genes into clusters
+clustering wide variety algorithms data into groups similar expression patterns clustering approaches been proposed
+however there several important clustering algorithms contrast biology
+first they gene only one
+while amount data biology under study many genes play important multiple but distinct pathways
+other main problem most measures similarity used clustering algorithms do not recognition negative also common
+alternative genes clusters correlation matrix graph only whose weights value
+described graphs networks
+network both positive negative threshold visual recognition highly genes
+recent studies networks genes cancer cells
+while those provided gene biological conditions they were limited relationships could graphs
+networks contain many gene sets represent potential common pathways
+without means relationships between multiple genes however many most relationships within
+developed computational approach graph theoretical algorithms identify genes present networks
+most case contains all possible between structure called
+terms gene expression most potential set genes
+however problem problem its own
+previously developed novel graph algorithms allow time
+recently applied algorithms identify genes part effort quantitative associated neural function
+here algorithms identify gene relationships interactions specific treatment
+our approach using set data was generated
+well known agent dna at relatively high but
+response lower however those defined dependent upon genetic
+data used were derived study role genetic response
+were after gene expression changes were using
+describe our graph genes correlated expression levels demonstrate biological method provides

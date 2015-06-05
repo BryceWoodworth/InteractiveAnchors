@@ -1,0 +1,31 @@
+ 
+atherosclerosis main cause coronary heart disease stroke two major causes death developed society
+there emerging evidence excess risk cardiovascular disease at low radiation doses various occupationally exposed groups receiving small daily radiation doses
+assuming they causal mechanisms effects chronic fractionated radiation exposures cardiovascular disease unclear
+outline spatial reaction-diffusion model atherosclerosis perform stability analysis based wherever possible human data
+show predicted consequence multiple small radiation doses cause mean chemo-attractant concentration increase linearly cumulative dose
+main driver increase mcp-1 monocyte death consequent reduction mcp-1 degradation
+radiation-induced risks predicted model quantitatively consistent those observed number occupationally-exposed groups
+changes equilibrium mcp-1 concentrations low density lipoprotein cholesterol concentration also consistent experimental epidemiologic data
+proposed mechanism would experimentally testable
+if true also substantive implications radiological protection at present does not take cardiovascular disease into account
+japanese a-bomb survivor data implies cardiovascular disease cancer mortality contribute similarly radiogenic risk
+major uncertainty assessing low-dose risk cardiovascular disease shape dose response relationship unclear japanese data
+analysis present paper suggests linear extrapolation would appropriate endpoint
+ introduction 
+atherosclerosis main cause coronary heart disease stroke two major causes death developed society
+though previously initiation atherosclerosis was attributed mainly lipid accumulation within arterial walls now widely accepted inflammation plays vital role initiation progression disease 
+some time cardiovascular effects high dose radiotherapy been known
+variety effects observed presumed result inactivation large numbers cells associated functional impairment affected tissue
+among effects direct damage structures heart including marked diffuse fibrotic damage especially pericardium myocardium pericardial adhesions microvascular damage stenosis valves coronary arteries; sorts damage occur both patients receiving rt experimental animals
+there emerging evidence excess risk cardiovascular disease at much lower radiation doses occurring long time after radiation exposure japanese atomic bomb survivor life span study cohort various occupationally-exposed groups although not all
+assuming they causal likely mechanisms effects low dose and/or chronic radiation exposures cardiovascular disease not clear
+interest elevated levels pro-inflammatory cytokines il-6 crp tnf inf but also increased levels anti-inflammatory cytokine il-10 been observed japanese atomic bomb survivors
+there was also dose-related elevation erythrocyte sedimentation rate levels igg iga total immunoglobulins cohort all markers systemic inflammation 
+paper outline mathematical formulation model cardiovascular disease largely based inflammatory hypothesis articulated ross
+motivation behind mathematical modelling encompass various factors contributing inflammatory process subsequently atherosclerotic formation
+atherosclerosis not only multifactorial but also multi-step disease concentrate modelling chronic inflammation primarily at early stages disease but outlining treatment later stages lead plaque rupture
+model some extent based model mckay et al although there significant departures elaborations model
+particular features borrowed generally rather simpler models cobbold et al ibragimov et al
+stability analysis simplified version model will performed
+shall particularly concerned mechanisms effects cholesterol fractionated low dose radiation exposure inflammation model outline case radiation-induced monocyte cell death candidate pathway

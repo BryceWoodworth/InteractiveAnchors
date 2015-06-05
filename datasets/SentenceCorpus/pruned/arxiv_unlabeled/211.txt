@@ -1,0 +1,24 @@
+
+many learning techniques explore every state
+environments number states
+i propose use model real
+real
+introduction
+learning agent rewards environment
+environment not known
+agent explore learn where
+reward could when taking action state
+agent reward environment
+should not any state important reward
+there many existing techniques uncertainty
+their greater reward will obtained when taking unknown action
+problem how do environments number states
+environments not possible every action every possible state
+i study new way do environments number states
+i use real
+explore
+i describe how use section
+experiments section demonstrate how reduced needed amount real
+i also discuss when possible
+many related problems
+they i discuss them section

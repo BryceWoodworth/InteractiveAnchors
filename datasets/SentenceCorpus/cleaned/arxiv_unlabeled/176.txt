@@ -1,0 +1,63 @@
+ 
+client-server architecture simultaneously solve multiple learning tasks distributed datasets described
+architecture each client associated individual learning task associated dataset examples
+goal architecture perform information fusion multiple datasets while preserving privacy individual data
+role server collect data real-time clients codify information common database
+information coded database used all clients solve their individual learning task so each client exploit informative content all datasets without actually having access private data others
+proposed algorithmic framework based regularization theory kernel methods uses suitable class mixed effect kernels
+new method illustrated through simulated music recommendation system
+ introduction 
+solution learning tasks joint analysis multiple datasets receiving increasing attention different fields under various perspectives
+indeed information provided data specific task may serve domain-specific inductive bias others
+combining datasets solve multiple learning tasks approach known machine learning literature multi-task learning learning learn
+context analysis inductive transfer process investigation general methodologies simultaneous learning multiple tasks important topics research
+many theoretical experimental results support intuition when relationships exist between tasks simultaneous learning performs better than separate single-task learning
+theoretical results include extension multi-task setting generalization bounds notion vc-dimension methodology learning multiple tasks exploiting unlabeled data so-called semi-supervised setting
+importance combining datasets especially evident biomedicine
+pharmacological experiments few training examples typically available specific subject due technological ethical constraints
+makes hard formulate quantify models experimental data
+obviate problem so-called population method been studied applied success since seventies pharmacology
+population methods based knowledge subjects albeit different belong population similar individuals so data collected one subject may informative respect others
+population approaches belongs family so-called mixed-effect statistical methods
+methods clinical measurements different subjects combined simultaneously learn individual features physiological responses drug administration
+population methods been applied success also other biomedical contexts medical imaging bioinformatics
+classical approaches postulate finite-dimensional nonlinear dynamical systems whose unknown parameters determined means optimization algorithms
+other strategies include bayesian estimation stochastic simulation nonparametric population methods
+information fusion different but related datasets widespread also econometrics marketing analysis where goal learn user preferences analyzing both user-specific information information related users see eg
+so-called conjoint analysis aims determine features product mostly influence customer's decisions
+web collaborative approaches estimate user preferences become standard methodologies many commercial systems social networks under name collaborative filtering recommender systems  see eg
+pioneering collaborative filtering systems include tapestry  grouplens  referralweb  phoaks
+more recently collaborative filtering problem been attacked machine learning methodologies bayesian networks  mcmc algorithms  mixture models  dependency networks  maximum margin matrix factorization
+coming back machine learning literature single-task context much attention been given last years non-parametric techniques kernel methods gaussian processes
+approaches powerful theoretically sound having their mathematical foundations regularization theory inverse problems statistical learning theory bayesian estimation
+flexibility kernel engineering allows estimation functions defined generic sets arbitrary sources data
+methodologies been recently extended multi-task setting
+ general framework solve multi-task learning problems using kernel methods regularization been proposed relying theory reproducing kernel hilbert spaces rkhs vector-valued functions
+many applications e-commerce social network data processing recommender systems real-time processing examples required
+on-line multi-task learning schemes find their natural application data mining problems involving very large datasets therefore required scale well number tasks examples
+ on-line task-wise algorithm solve multi-task regression problems been proposed
+learning problem formulated context on-line bayesian estimation see eg  within gaussian processes suitable covariance functions used characterize non-parametric mixed-effect model
+one key features algorithm capability exploit shared inputs between tasks order reduce computational complexity
+however algorithm centralized structure tasks sequentially analyzed not able address neither architectural issues regarding flux information nor privacy protection
+paper multi-task learning distributed datasets addressed using client-server architecture
+our scheme clients one-to-one correspondence tasks their individual database examples
+role server collect examples different clients order summarize their informative content
+when new example associated any task becomes available server executes on-line update algorithm
+while different tasks sequentially analyzed architecture presented paper process examples coming any order different learning tasks
+summarized information stored disclosed database whose content available download enabling each client compute its own estimate exploiting informative content all other datasets
+particular attention paid confidentiality issues especially valuable commercial recommender systems see eg
+first require each specific client cannot access other clients data
+addition individual datasets cannot reconstructed disclosed database
+two kind clients considered: active passive ones
+active client sends its data server thus contributing collaborative estimate
+passive client only downloads information disclosed database without sending its data
+regularization problem parametric bias term considered mixed-effect kernel used exploit relationships between tasks
+albeit specific mixed-effect non-parametric model quite flexible its usefulness been demonstrated several works
+paper organized follows
+multi-task learning regularized kernel methods presented section  class mixed-effect kernels also introduced
+section  efficient centralized off-line algorithm multi-task learning described solves regularization problem section
+section  rather general client-server architecture described able efficiently solve online multi-task learning distributed datasets
+server-side algorithm derived discussed subsection  while client-side algorithm both active passive clients derived subsection
+section  simulated music recommendation system employed test performances our algorithm
+conclusions section  end paper
+appendix contains technical lemmas proofs

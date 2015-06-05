@@ -1,0 +1,76 @@
+
+molecular essential protein activation normal response
+binding conformational changes required activation
+important role disease states particularly cancer where important function
+recent studies mechanisms related function
+however view conformational dynamics determined presence different binding critical define communication pathways between residues different domains cycle
+here present computational analysis signal communication pathways
+out molecular dynamics simulations combined essential dynamics correlation analysis signal model
+simulations been performed natural
+mechanisms signal determine involved communication pathways site domain
+computational analysis communication pathways dynamics at revealed role conformational changes mechanisms signal
+important residues secondary structure elements effective communication between site
+furthermore show specific signal pathways may function
+our results support conformational selection model mechanism protein may exist dynamic between different conformational states available energy binding specific bias relevant
+introduction
+protein essential molecular required quality control proteins
+fundamental protein interaction networks key many cellular functions
+correct activation among cellular wide range proteins
+functions range signal regulatory mechanisms response
+proteins typically include transcription factors other proteins points cellular responses multiple signals
+given its role at fundamental cellular pathways clear associated many cancer protein
+because role disease development activity become area very research molecular particular
+activity small some its shown activity models recently evaluation humans
+further trials also been other small molecules also used drug various cancer types
+complex cycle binding
+initial structural individual domains human yeast
+structures larger also been reported
+first structures yeast bound revealed structure individual
+each turn characterized three regulatory domain binding domain site necessary proteins domain required
+same global states
+structures complex either state showed different
+state open structure each three domains area while form form more state
+structural biochemical studies solution state its using small provided first experimental evidence highly dynamic stochastic nature between different conformational states molecular efficient recognition
+more recent solution structure data obtained using single modeling approaches showed may among different open extended states still provided binding may towards
+particular data revealed state extended state could significantly effects
+contrast structures showed there relatively little difference between two bound states extended structures
+recent studies based mutation analysis suggested different states presence
+studies upon binding specific functional states using intrinsic conformational
+although exact mechanism between protein still combination structural observations biochemical data conformational two close state but not states
+conformational cycle involves through molecular mechanism
+terms intrinsic protein dynamics mechanism conformational cycle involves conformational state upon binding whereas leads more state
+finally form open state
+structures also two binding site
+its position structure over bound its possible importance cycle
+studies results human solution showed binding conformational changes at
+moreover shown binding depend intrinsic conformational obtained different species towards
+analysis cycle suggested during cycle may open state
+contrast yeast open state only percent structure observed presence
+hence conformational during cycle similar different proteins while between individual may differences binding
+overall solution data suggested molecular mechanism cycle more described stochastic process binding intrinsic conformational between open state protein state seen different structures
+most recent structural studies e yeast human further existence universal conformational cycle states intrinsic conformational between states dependent
+according results evolutionary may through relevant conformational response presence protein
+binding conformational far state e yeast whereas conformational human open form even presence binding
+study shown binding provides only small energy rather than different conformational states existing dynamic
+overall intrinsic conformational critical molecular cycle including structural adaptation proteins
+different cycle binding different proteins specific functions
+instance molecular two systems
+binding involves interactions at both domains
+contrast increases rates increasing
+case binding other was shown required complex while
+observations suggest role different related specific different functions cycle
+studies applied domains full different species provided novel into molecular mechanism function
+however there still number important problems understanding between binding global functional molecular
+recently performed computational studies conformational dynamics at effects binding energy simulations
+simulations been out protein its natural small
+simulations role dynamics differences local conformational changes global well functional between protein entropy depending binding
+found energy may different conformational states local conformational time scales
+results study suggested molecular model understanding mechanisms molecular binding
+according model structural molecular structural during binding increased protein binding
+
+molecular basis signal mechanisms communication pathways function binding cannot directly studies
+result computational approaches communication pathways between binding site may involved between major conformational states
+work computational analysis dynamics binding provides important into our understanding molecular mechanisms function at
+describe simulations study conformational communication pathways yeast three different form
+support experimental our results provide models between n binding sites may regulation complex molecular
+results our study suggest features communication pathways may determined yet specific signal communication pathways likely selected based nature binding

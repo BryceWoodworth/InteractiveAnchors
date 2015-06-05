@@ -1,0 +1,27 @@
+
+prediction also known universal prediction individual sequences learning theory making any stochastic assumptions about way observations generated
+goal class prediction rules often function space popular various classes entropy provides framework known bounds metric entropy various sets function bounds performance prediction strategies
+paper direct approach prediction via metric entropy including other approaches
+introduction
+result prediction given class prediction strategies there prediction strategy almost well best prediction strategies class
+paper performance prediction strategy will measured distance between its predictions true observations assumed real complex numbers
+different methods predictions following strong algorithms forecasting etc \ tend their each well classes specific but not classes different size
+paper will apply simple general method based metric entropy classes wide range
+typically method does not give optimal results but its results often not much than those given methods especially classes not too
+since method almost new known results
+another metric entropy method not clear how whereas many other methods very efficient
+therefore results obtained method only first step should other prediction strategies both more efficient having better performance
+simple result about existence universal prediction strategy class continuous prediction rules
+performance universal strategy long good performance any continuous prediction rule but do not estimate rate at approaches latter
+following section where general results about performance based metric entropy
+example case where class set performance become metric entropy larger
+core paper according types metric out
+type i metric entropy order case classes
+type order contains various classes functions
+key most important case order eg classes
+classes type considered metric entropy even
+class always given
+question how prediction strategies against various classes compare each other
+previous section standard methods used results statistical learning theory section several further research
+there no real i just apply known results about metric entropy prediction
+i will useful

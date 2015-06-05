@@ -1,0 +1,23 @@
+ 
+propose method support vector machine classification using indefinite kernels
+instead directly minimizing stabilizing nonconvex loss function our algorithm simultaneously computes support vectors proxy kernel matrix used forming loss
+interpreted penalized kernel learning problem where indefinite kernel matrices treated noisy observations true mercer kernel
+our formulation keeps problem convex relatively large problems solved efficiently using projected gradient analytic center cutting plane methods
+compare performance our technique other methods several standard data sets
+ introduction 
+support vector machines svm become central tool solving binary classification problems
+critical step support vector machine classification choosing suitable kernel matrix measures similarity between data points must positive semidefinite because formed gram matrix data points reproducing kernel hilbert space
+positive semidefinite condition kernel matrices also known mercer's condition machine learning literature
+classification problem then becomes linearly constrained quadratic program
+here present algorithm svm classification using indefinite kernels} i e kernel matrices formed using similarity measures not positive semidefinite
+our interest indefinite kernels motivated several observations
+first certain similarity measures take advantage application-specific structure data often display excellent empirical classification performance
+unlike popular kernels used support vector machine classification similarity matrices often indefinite so do not necessarily correspond reproducing kernel hilbert space see discussion  particular application classification indefinite kernels image classification using earth mover's distance was discussed
+similarity measures protein sequences smith-waterman blast scores indefinite yet provided hints constructing useful positive semidefinite kernels those decribed been transformed into positive semidefinite kernels good empirical performance see  example
+tangent distance similarity measures described  invariant various simple image transformations also shown excellent performance optical character recognition
+finally sometimes impossible prove some kernels satisfy mercer's condition numerical complexity evaluating exact positive kernel too high proxy not necessarily positive semidefinite kernel used instead see  example
+both cases our method allows us bypass limitations
+our objective here derive efficient algorithms directly use indefinite similarity measures classification
+our work closely follows spirit recent results kernel learning see  where kernel matrix learned linear combination given kernels result explicitly constrained positive semidefinite
+while problem numerically challenging adapted smo algorithm solve case where kernel written positively weighted combination other kernels
+our setting here never numerically optimize kernel matrix because part problem solved explicitly means complexity our method substantially lower than classical kernel learning algorithms closer practice algorithm used  who formulate multiple kernel learning problem semi-infinite linear program solve column generation technique similar analytic center cutting plane method use here

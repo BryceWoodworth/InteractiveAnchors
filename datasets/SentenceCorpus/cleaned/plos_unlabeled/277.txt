@@ -1,0 +1,47 @@
+ 
+hypoxia induces expression genes alter metabolism through hypoxia-inducible factor
+theoretical model based differential equations hypoxia response network been previously proposed sharp response changes oxygen concentration was observed but not quantitatively explained
+model consisted reactions involving 23 molecular species among concentrations hif oxygen were linked through complex set reactions
+paper analyze previous model using combination mathematical tools draw out key components network explain quantitatively how they contribute sharp oxygen response
+find switch-like behavior due pathway-switching wherein hif degrades rapidly under normoxia one pathway while other pathway accumulates hif trigger downstream genes under hypoxia
+analytic technique potentially useful studying larger biomedical networks
+ introduction 
+molecular oxygen terminal electron acceptor mitochondrial electron transport chain
+hypoxia oxygen deficiency induces number metabolic changes rapid profound consequences cell physiology
+hypoxia-induced shortage energy alters gene expression energy consumption cellular metabolism allow continued energy generation despite diminished oxygen availability
+molecular interaction map hypoxia response network been proposed basis analyzing conserved components between nematodes mammals
+key element network hypoxia-inducible factor master regulator oxygen-sensitive gene expression
+hif heterodimeric transcription factor consists one three different members common constitutive arnt subunit also known hif
+system also includes enzyme family: prolyl hydroxylases directly sense level oxygen hydroxylate hif covalently modifying hif subunits
+very likely reactive oxidative species byproduct mitochondrial respiration also involved oxygen sensing neutralizing necessary cofactor fe 2 hydroxylation hif phd
+there three members enzyme family: phd1 phd2 phd3
+hydroxylated hif then targeted von hippel-lindau tumor-suppressor protein ubiquitination-dependent degradation
+hypoxia response element promoter hypoxia-regulated genes occupancy hre controls expression levels genes
+cascade figure 1 consists input output core network
+network characterized switch-like behavior namely sharp increase hif when oxygen decreases below critical value followed sharp increase hre occupancy
+was observed experimentally many cell lines including hela cells hep 3b cells hif increases exponentially oxygen concentration decreases
+past two decades seen growing body work use mathematical modeling help uncover both general principles behind molecular networks provide quantitative explanations particular network phenomena may one day sufficient predictive power accurately model large subnetworks cell
+sense kohn et al successfully modeled switch-like response characteristics hre occupancy numerically integrating system ordinary differential equations involving score molecular species related hypoxia
+large model however does not identify smaller components actually responsible switch-like response may occur other networks
+furthermore numerical solution does not provide type insight mathematical formulas
+at same time virtually impossible solve symbolically type nonlinear differential equations model reactions
+context methods desirable both tractable reduce system its key components not solely reliant numerical solution
+extreme pathway analysis one recently developed method
+method dynamics interactions between species formulated boolean network state gene represented either transcribed not transcribed
+upregulation downregulation genes captured through appropriate sign scaling constant
+boolean network then formulated matrix interaction rules then analyzed help reveal key components their contributions dynamic behavior
+theory matrices then allows us look vectors characterize matrix ways helpful further analysis
+epa technique particular finds vectors correspond boundaries space steady-state solutions differential equations
+note similar methods flux balance analysis elementary modes analysis been developed other contexts
+they essentially yield same results been verified expa cellnetanalyzer
+methods provide way out intractable complexity sizable molecular networks 
+our contribution go beyond type matrix approach provide detailed quantitative analysis explains observed behavior models
+achieved combining elementary pathway identification via epa depends solely network topology detailed analytical well numerical analysis governing differential equations model allows studies phase space spanned mostly unknown rate constants differential equations
+specifically epa first used our approach decompose original network into several underlying pathways
+following make some reasonable approximations facilitate analytic solution
+show analytic solution case hypoxia network explains switch-like behavior
+explanation confirmed comparing numerical output simplified model numerical output complete differential equation model
+second contribution paper highlight particular mechanism pathway-switching pathway branching effect appears cause sharp response oxygen concentration
+particular examine flux redistribution among elementary pathways function oxygen concentration
+also identify key molecular species involved subcomponent network show quantitatively how response subcomponent exactly matches overall response thus responsible
+hypoxia our analysis suggests cycle abundant production efficient degradation hif plays main role sharp response

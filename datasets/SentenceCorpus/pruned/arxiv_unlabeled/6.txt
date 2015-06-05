@@ -1,0 +1,67 @@
+
+goal present paper provide study rational stochastic over
+rational stochastic probability distribution over free rational over generated parameters
+study between classes rational stochastic
+define notion stochastic use investigate properties several rational stochastic
+study representation rational stochastic means
+introduction
+probabilistic inference data often form finite sequence words over some
+words assumed according fixed but unknown probability distribution over
+probability distributions over free called stochastic
+goal inference approximation distribution some class probabilistic models probabilistic
+probabilistic structure finite parameters associated states represent probability state initial probability transition chosen
+shown probabilistic same hidden markov models used statistical inference
+given structure probabilistic sequence words parameters likelihood
+practical cases however algorithms based e method used approximate values
+other hand probabilistic structure parameters sequence words widely open field research
+most results obtained so far only probabilistic i e probabilistic whose structure probabilistic i e probabilistic whose structure finite state
+other stochastic particular cases power series probabilistic also particular cases been studied field theory
+therefore stochastic generated special cases rational
+call them rational stochastic
+goal present paper provide study rational stochastic so out properties could useful inference
+indeed objects special cases rational makes possible use theoretical tools been developed field hence give many questions when possible within time whether two probabilistic generate same stochastic
+does negative probabilistic class generated stochastic
+rational stochastic all its values always generated
+so
+also rational stochastic themselves considered objects theory out properties important inference example show notion so important inference natural stochastic used many properties classes stochastic
+power series take their values let us set all power series
+here only consider
+any define set rational stochastic set stochastic over rational over
+any two distinct corresponding sets rational stochastic distinct
+show stochastic means any rational stochastic over its values also rational over
+however not stochastic there exists rational stochastic over its values not rational over
+any stochastic over any let us define respect stochastic
+show rational stochastic over also rational over
+any stochastic may used rational generated
+but when positive i e may itself not generated
+study properties two set rational stochastic over whose generated set rational stochastic over many
+show any two classes any stochastic
+its values
+
+also show any there exists unique subset
+then study representation rational stochastic means
+first show set parameters generate stochastic not
+moreover contains no subset generate whole set rational stochastic over
+stochastic series two i any
+show first since second one within time
+show set stochastic generated probabilistic parameters
+
+
+probabilistic called probabilistic if stochastic associated its states stochastic generated
+show set stochastic generated probabilistic parameters
+
+
+do not know whether class
+however describe two when class reduced class
+first one provides representation class but show problem
+second one more representation but problem
+finally show set stochastic generated probabilistic parameters
+also
+also
+some properties rational series stochastic section
+define study rational stochastic section
+between classes rational stochastic studied
+properties rational stochastic studied
+rational stochastic terms stable given
+classes defined studied
+representation rational stochastic means given section

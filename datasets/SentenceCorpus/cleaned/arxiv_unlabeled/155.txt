@@ -1,0 +1,42 @@
+ 
+paper generalizes traditional statistical concept prediction intervals arbitrary probability density functions high-dimen\-sional feature spaces introducing significance level distributions provides interval-independent probabilities continuous random variables
+advantage transformation probability density function into significance level distribution enables one-class classification outlier detection direct manner
+ introduction 
+prediction interval interval will specified degree confidence contain future realizations terminology pattern recognition feature vectors
+appeal concept its clear stochastic meaning
+great disadvantage definition usually too restricted example multimodal distributions
+intuitively clear case more than one interval probable feature vectors exist would better speak prediction regions
+even more complicated situation high-dimensional feature spaces
+lack generality probably reason why prediction intervals rarely used pattern recognition
+actually pity because prediction regions would very useful example recognition outliers detection novelty normality
+instead prediction intervals numerous other methods used purpose
+they grouped roughly into two categories: distance-based novelty normality score-based approaches  methods introduce separate rejection class combination classifier
+if applying method i propose here outlier detection belongs first category probability normality score
+before going into details i will give short overview related works
+simple distance-based methods rely concept neighborhood point example nearest neighborhood
+outliers those points there less than points within distance dataset
+propose method choose threshold automatically based upon dataset
+idea consider outliers set points highest distances their th nearest neighbors
+course here also threshold necessary but now statistical reasoning quartile th nearest neighbor distance distribution simplifies choice
+more recent article based idea published  who apply weighted sum th nearest distances per point
+although idea quite simple methods low computation costs
+furthermore they make only minor assumptions about underlying distribution
+another category algorithms related outlier detection robust regression
+outlier detection here more means end because goal avoid outliers influence estimation regression function
+means case sufficient detect outliers indirectly
+ example apply outlier-score control influence point parameter estimation process regression function
+purpose weights introduced estimated based assumption noise gaussian distributed
+often sufficient example most sensor signals
+algorithm real-time capable but far away generality
+method also belongs category one
+idea second category very different
+at first glance seems impossible use classifiers detect outliers because classifiers need estimation their parameters samples inliers outliers
+usually only samples inliers available
+idea create enclosing cloud outlier samples synthetically random generator
+afterwards possible train classifier
+ example apply neural network purpose
+other classifiers also possible example svm
+regardless applied classifier probabilistic methods need generation hull measure degree generated sample point outlier
+ example use purpose simple prediction intervals  ranges
+conclusion both categories solve same problem: find appropriate zero level set inlier generating density
+subsequent sections i will show problem mapped choice significance level possible generalize traditional statistical concept prediction intervals prediction regions

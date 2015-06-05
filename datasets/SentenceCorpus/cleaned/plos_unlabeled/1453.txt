@@ -1,0 +1,51 @@
+ 
+alpha-helical transmembrane proteins constitute roughly 30 percent typical genome involved wide variety important biological processes including cell signalling transport membrane-impermeable molecules cell recognition
+despite significant efforts predict transmembrane protein topology comparatively little attention been directed toward developing method pack helices together
+here present novel approach predict lipid exposure residue contacts helix-helix interactions finally optimal helical packing arrangement transmembrane proteins
+using molecular dynamics data trained cross-validated support vector machine classifier predict per residue lipid exposure 69 percent accuracy
+information combined additional features train second svm predict residue contacts then used determine helix-helix interaction up 65 percent accuracy under stringent cross-validation non-redundant test set
+our method also able discriminate native decoy helical packing arrangements up 70 percent accuracy
+finally employ force-directed algorithm construct optimal helical packing arrangement demonstrates success proteins containing up 13 transmembrane helices
+software freely available source code link
+ introduction 
+alpha-helical transmembrane proteins constitute roughly 30 percent proteins encoded typical genome involved wide variety important biological processes including cell signalling transport membrane-impermeable molecules cell recognition
+many also prime drug targets been estimated more than half all drugs currently market target membrane proteins
+despite significant efforts predict tm protein topology comparatively little attention been directed toward developing method pack helices together
+since membrane-spanning region predominantly composed alpha-helices common alignment task should principle easier than predicting fold globular proteins longitudinal constraints helix packing mostly reduces solution space three dimensions two
+however topologies consisting large numbers tm helices well structural features including re-entrant tilted kinked helices render simple approaches may work regularly packed proteins unable predict diverse packing arrangements now present structural databases
+early attempts predict tm protein folds were based sequence similarity proteins known three-dimensional structure using statistically derived environmental preference parameters combined experimentally determined features
+another method calculated amino acid substitution tables residues membrane proteins where side chain was accessible lipid
+comparing observed substitutions obtained sequence alignments tm regions accessibility residues lipid could predicted
+combination fourier transform method detect alpha-helices buried exposed faces could then discriminated presence charged residues used construct three-dimensional model
+other methods also made use exposed surface prediction allocate helix positions combination existing framework globular protein structure prediction involving combinatorial enumeration windings over predefined architecture followed selection preferred folds
+however methods were only suitable 7 tm helix bundles rhodopsin were unsuitable other topologies
+more recently modified version fragment-based protein tertiary structure prediction method fragfold was modified model tm proteins
+fragfold based assembly super-secondary structural fragments using simulated annealing algorithm order narrow search conformational space pre-selecting fragments library highly resolved protein structures
+film added membrane potential fragfold energy terms was derived statistical analysis data set tm proteins experimentally defined topologies
+results obtained applying method small membrane proteins known three-dimensional structure showed could predict both helix topology conformation at reasonable accuracy level
+despite good results combinatorial complexity ab initio protein folding methods means unfeasible use approaches large tm structures many longer than 150 residues
+modification another globular protein ab initio modelling program rosetta added energy function described membrane intra-protein interactions at atomic level membrane protein/lipid interactions implicitly while treating hydrogen bonds explicitly
+results suggest model captures essential physical properties govern solvation stability tm proteins allowing structures small protein domains up 150 residues predicted successfully resolution less than 2.5
+recent enhancement algorithm demonstrated constraining helix-helix packing arrangements at particular positions based local sequence-structure correlations each helix interface independently tm proteins more complex topologies could modelled within 4 native structure 
+prediction helix-helix interactions derived residue contacts topology only recently been investigated tm proteins due relative paucity tm protein crystal structures
+contrast number globular protein contact predictors exist based variety machine learning algorithms contact prediction also been used assess globular protein models submitted critical assessment structure prediction experiment
+however analysis shown globular proteins contact predictors perform poorly when applied tm proteins most likely due differences between tm globular interaction motifs
+number studies identified structural sequence motifs recurring frequently during helix helix interaction tm proteins
+one investigation analysed interacting helical pairs according their three-dimensional similarity allowing three quarters pairs grouped into one five tightly clustered motifs
+largest consisted anti-parallel motif left-handed packing angles stabilised packing small side chains every seven residues while right-handed parallel anti-parallel structures showed similar tendency though spaced at four-residue intervals
+another study identified specific aromatic pattern aromatic-xx-aromatic was demonstrated stabilise helix-helix interactions during assembly while others include gxxxg motif found glycophorin heptad motifs leucine residues polar residues through formation hydrogen bonds 
+discovery recurring motifs likelihood there more yet undiscovered suggests predictability generalised pattern search strategy
+recently two methods been developed attempt predict residue contacts helix-helix interaction
+tmhcon uses neural network combination profile data residue co-evolution information predicted lipid exposure using lips method number tm protein specific features residue position within tm helix order predict helix-helix interaction
+tmhit uses two-level hierarchical approach combination support vector machine classifier
+first level discriminates between contacts non-contacts per residue basis before second level determines structure contact map all possible pairs predicted contact residues therefore avoiding high computational cost incurred quadratic growth residue pair prediction
+here present novel method predict lipid exposure residue contacts helix-helix interactions finally optimal helical packing arrangements tm proteins
+using molecular dynamics data label residues potentially exposed lipid trained cross-validated svm classifier predict per residue lipid exposure 69 percent accuracy
+information combined psi-blast profile data variety sequence-based features train additional svm predict residue contacts
+combining results priori topology information able predict helix-helix interaction up 65 percent accuracy under stringent cross-validation non-redundant test set 74 protein chains
+then tested ability method discriminate native decoy helical packing arrangement using decoy set 2811 structures
+comparing our predictions test set were able identify native packing arrangement up 70 percent accuracy
+all performance metrics represents significant improvements over existing methods
+order visualise global packing arrangement adopted graph-based approach
+employing force-directed algorithm method attempts minimise edge crossing while maintaining uniform edge length attributes common native structures
+finally genetic algorithm used rotate helices order prevent residue contacts occurring across longitudinal helix axis

@@ -1,0 +1,61 @@
+
+article perspective elements time series theory presented data obtained judgment experiments
+recent evidence suggests sequential context effects contrast found judgment tasks may present judgments
+time series approach data developed applied judgments risk disease possible sequential context effects
+results demonstrate sequential context effects do exist judgments
+contrast were produced cue series latter more
+also showed prior responses was independent cue series input
+time series analysis also revealed large changes value cues most attention judgment tasks accuracy judgments
+findings suggest time series approach useful alternative least regression additional into cognitive processes during judgment experiments
+introduction
+many judgment experiments may involving two time series series stimuli presented series responses provided subject
+over years various theories human judgment been proposed
+one all theories common they been being developed using measures experiments
+whether judgment data using multiple regression judgment analysis often associated social judgment theory information integration theory analysis fast heuristics take best matching heuristic data obtained subject series stimuli series responses
+analysis their data focus article
+contrast psychological processes involving sequential context judgments made
+variety judgment large numbers trials e g relative tasks relative identification tasks sequential context effects observed
+occurs when response given stimulus larger when stimulus greater than current stimulus smaller when stimulus less than current stimulus
+contrast occurs when response given stimulus smaller when stimulus greater than current stimulus larger when stimulus less than current stimulus
+discuss various theoretical models judgment been proposed explain sequential context effects experiments show how using time series regression
+one class models relative judgment models subject comparing value current stimulus value stimulus rather than some fixed reference
+et al discuss relative judgment models identification tasks
+another class models suggests sequential context effects result response heuristic tendency subject uncertainty direction his previous response
+point sequential context effects may because representation current stimulus affected previous stimulus because tendency under uncertainty provide response based previous response
+question whether similar sequential context effects judgment tasks
+judgments estimate likelihood will future based current been studied judgment researchers multiple regression analysis
+how sequential context effects might themselves let us examine what could single cue
+example consider task risk disease cue question whether not
+situation described if judgment risk lower when does not judgment risk without higher when
+situation described contrast if judgment risk higher when does not judgment risk without lower when
+judgment tasks observed response provided subject estimate associated given stimulus
+judgment tasks where there not objective stimulus response provided subject may
+judgment tasks observed response may estimate judgment along more subjective
+asked whether contrast observed judgments would when people make estimates more
+they examined estimates made series choice decisions i e games
+their experiment random sequence number games produced greater mean differences rates number percent number percent when compared conditions number games number games number percent number percent number percent number percent
+differences were using responses
+authors significant interaction support local contrast effects
+current article whether sequential context effects tasks but different theoretical approach
+when sequential context effects associated cue judgment task observed they here mean influence represented its weight values cue over trials
+means when cue values trials t t number different influence smaller than when cue values trials same
+contrast means when cue values trials t t number different influence larger than when cue values trials same
+although may consistent methods sequential context effects
+example one way effects mean response stimulus value current function differences between stimulus value current
+number example using data two who judgment task they estimated number risk based cues task will described below
+here focus cue
+each responses were allow direct comparison
+subject number shows mean risk current prior
+subject number shows contrast mean prior
+each responses were also using multiple regression was number if present number if
+number shows some results
+first when responses all number trials were both subjects shows same size weights cue
+when data according values cue trials see how weight each subject changes when contrast place
+although regression analyses influence changes when contrast take place approach because its nature data two trials been
+better approach would analyze data all trials
+time series analysis used test sequential context effects series responses obtained single subject
+specific models sequential context effects produced cue stimulus series those judgment response series
+present article time series approach developed discussed context research judgment tasks
+before discuss application time series analysis perspective position time series theory methods psychological research needed
+next section provide perspective
+following application presented possible sequential context effects judgments risk disease

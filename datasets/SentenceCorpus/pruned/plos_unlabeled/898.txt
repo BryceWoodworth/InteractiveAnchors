@@ -1,0 +1,57 @@
+
+complex networks remains dynamic network models biological processes pathways
+study cell much about regulatory changes give patterns expression changes
+application gene expression state space cell at level one approach used literature
+paper analyze gene expression et al follows into cells presence
+et al work who hypothesis cells exist expression their expression towards sites
+propose alternative behavior there two types processes cell core processes include specific pathways processes those pathways responses specific
+using functional analyses specific biological examples analysis their core components provide our hypothesis using et al
+introduction
+our understanding molecular basis wide range biological processes including development disease significantly recent years
+not single genes but rather complex networks genes gene other cellular elements cellular cell when lead development disease
+complex networks elements significant
+one approach applied representation changes occur state space defined expression states all genes within cell
+approach number including framework predictive modeling stochastic components biological process
+underlying assumption analysis each cellular particular class gene expression specific region gene expression state space
+described et al particular cellular state at particular time represented gene expression vector high space where each expression level particular gene
+all possible take expression state space
+each observed represented single point state space
+when cells transition through example during different specific sets genes their expression levels underlying program changes represented continuous expression state represent program being out gene networks complex pathways
+first proposed idea stable cell cellular expression state space stable points system would if small
+points out principle cells could any gene expression states however not what nature
+according since there about different cell types there must number state space either represent stable cell cell types cells will presence
+while model direct experimental evidence its overall utility cellular mechanism seen
+et al reported evidence they demonstrated existence
+they gene expression experiment human cells into using two different
+data was using provide gene expression level measures necessary model
+using components analysis they develop state space representation over time common leading expression state
+they argue instead explore state space convergence single point therefore provides empirical states exist nature
+here propose alternative behavior does not hypothesis but rather observation context components pathways applied
+end work et al state space into components two sets genes core group group effects
+components observation both sources effects influence overall taken during cell transition
+show how allows us at functional behavior genes their cell more way
+using regression models core genes common both stimuli represent those critical process
+genes core represent component corresponding effects
+our apply our method same generated et al
+cell long been used model understand molecular mechanisms
+normal processes
+however cells result cells
+discovery like could cells class known
+but also functions agent cell
+although widely used treatment not generally used humans because known
+class molecules called
+used human patients
+current complete rates patients combination been reported high percent
+at molecular level both cell cycle at phase transition point cells resulting cells
+distinct molecules different sets pathways cells
+et al explain why explore different expression state space
+they argue presence then different at common specific unique pathway may both
+while may upon further hypothesis our ability develop predictive models cell
+there exists alternative more et al not considered
+our based recognition there two types processes cell one core biological process event two process related direct effects particular agent cell
+early seen state space described et al response specific response follows
+processes only at initial since most cell
+effects each expected core processes occurs both become more more because pathways cells cells larger cells transition towards their common
+source convergence therefore not due existence but instead combination two types processes their temporal effects cells
+indeed if then there should whole class would initial state rather than small number single core pathway
+if one hypothesis basis then our much state space through existence defined between states

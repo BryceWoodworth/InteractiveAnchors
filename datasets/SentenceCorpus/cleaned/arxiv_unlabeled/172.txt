@@ -1,0 +1,25 @@
+ 
+past few years powerful generalizations euclidean k-means problem been made bregman clustering  co-clustering i e  simultaneous clustering rows columns input matrix  tensor clustering
+like k-means more general problems also suffer np-hardness associated optimization
+researchers developed approximation algorithms varying degrees sophistication k-means k-medians more recently also bregman clustering
+however there seem no approximation algorithms bregman co tensor clustering
+paper derive first our knowledge guaranteed methods increasingly important clustering settings
+going beyond bregman divergences also prove approximation factor tensor clustering arbitrary separable metrics
+through extensive experiments evaluate characteristics our method show also practical impact
+ introduction 
+partitioning data points into clusters fundamentally hard problem
+well-known euclidean k-means problem partitions input data points vectors  into clusters while minimizing sums their squared distances corresponding cluster centroids np hard problem exponential 
+however simple frequently used procedures rapidly obtain local minima exist since long time
+because its wide applicability importance euclidean k-means problem been generalized several directions
+specific examples relevant paper include: \setlength{sep}{-1pt} bregman clustering   where instead minimizing squared euclidean distances one minimizes bregman divergences generalized distance functions see details bregman co-clustering  includes both euclidean information-theoretic co-clustering special cases where set input vectors viewed matrix one simultaneously clusters rows columns obtain coherent submatrices co-clusters while minimizing bregman divergence tensor clustering multiway clustering  especially version based bregman divergences  where one simultaneously clusters along various dimensions input tensor
+problems too commonly used heuristics perform well but do not provide theoretical guarantees at best assure local optimality
+k-means type clustering problems---i e  problems group together input vectors into clusters while minimizing ``distance'' cluster centroids---there exist several algorithms approximate globally optimal solution
+refer reader  numerous references therein more details
+stark contrast approximation algorithms tensor clustering much less studied
+aware only two very recent attempts both papers 2008 two-dimensional special case co-clustering namely both papers follow similar approaches obtain their approximation guarantees
+both prove approximation euclidean co-clustering additional factor binary matrices norm objective factor co-clustering real matrices norms
+all factors approximation guarantee clustering either rows columns
+paper build upon obtain approximation algorithms tensor clustering bregman divergences arbitrary separable metrics norms
+latter result particular interest norm based tensor clustering may viewed generalization k-medians tensors
+terminology  focus ``block average'' versions co tensor clustering
+additional discussion relevant references co-clustering found  while lesser known problem tensor clustering more background gained referring

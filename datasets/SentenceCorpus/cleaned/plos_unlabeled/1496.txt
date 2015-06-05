@@ -1,0 +1,40 @@
+ 
+observability dynamical system requires understanding its state collective values its variables
+however existing techniques too limited measure all but small fraction physical variables parameters neuronal networks
+constructed models biophysical properties neuronal membrane synaptic microenvironment dynamics incorporated them into model-based predictor-controller framework modern control theory
+demonstrate now possible meaningfully estimate dynamics small neuronal networks using few single measured variable
+specifically assimilate noisy membrane potential measurements individual hippocampal neurons reconstruct dynamics networks cells their extracellular microenvironment activities different neuronal types during seizures
+use reconstruction account unmeasured parts neuronal system relating micro-domain metabolic processes cellular excitability validate reconstruction cellular dynamical interactions against actual measurements
+data assimilation fusing measurement computational models significant potential improve way observe understand brain dynamics
+ introduction 
+universal dilemma understanding brain complex multiscale nonlinear space time never more than partial experimental access its dynamics
+better understand its function one not only needs encompass complexity nonlinearity but also estimate unmeasured variables parameters brain dynamics
+parallel comparison drawn weather forecasting although atmospheric dynamics arguably less complex less nonlinear
+fortunately meteorological community overcome some issues using model based predictor-controller frameworks whose development derived computational robotics requirements aerospace programs 1960s
+predictor-controller system employs computational model observe dynamical system assimilate data through what may relatively sparse sensors reconstruct estimate remainder unmeasured variables parameters light available data
+result future measured system dynamics compared model predicted outcome expected errors within model updated corrected process repeats iteratively
+recursive initial value problem meaningful one needs computational models high fidelity dynamics natural systems explicit modeling uncertainties within model measurements 
+most prominent model based predictor-controller strategies kalman filter
+its original form kf solves linear system
+situations mild nonlinearity extended forms kf were used where system equations could linearized without losing too much qualitative nature system
+linearization schemes not suitable neuronal systems nonlinearities scale action potential spike generation
+advent efficient nonlinear techniques 1990s ensemble kalman filter unscented kalman filter along improved computational models dynamics neuronal systems prospects biophysically based ensemble filtering neuronal systems now strong
+general framework ukf differs extended kf integrates fundamental nonlinear models directly along iterating error noise expectations through nonlinear equations
+instead linearizing system equations ukf performs prediction update steps ensemble potential system states
+ensemble gives finite sampling representation probability distribution function system state 
+our hypothesis seizures arise complex nonlinear interaction between specific excitatory inhibitory neuronal sub-types
+dynamics excitability networks further complicated fact variety metabolic processes govern excitability those neuronal networks metabolic variables not directly measurable using electrical potential measurements
+indeed becoming increasingly apparent electricity not enough describe wide variety neuronal phenomena
+several seizure prediction algorithms based only eeg signals achieved reasonable accuracy when applied static time-series
+however many techniques hindered high false positive rates render them unsuitable clinical use
+presume there aspects dynamics seizure onset pre-seizure states not captured current models when applied real-time
+light dynamic nature epilepsy approach incorporates time evolution underlying system seizure prediction required
+one cannot see much anticipatory signature eeg dynamics prior seizures same said variety oscillatory transient phenomena nervous system ranging up states spinal cord burst firing cortical oscillatory waves addition animal human epileptic seizures
+all phenomena share properties they episodic oscillatory apparent refractory periods following small stimuli both start stop events
+recently been shown interrelated dynamics formula sodium concentration affect excitability neurons help determine occurrence seizures affect stability persistent states neuronal activity
+competition between intrinsic neuronal ion currents sodium-potassium pumps glia diffusion produce slow large-amplitude oscillations ion concentrations similar what observed physiologically seizures 
+brain dynamics emerge within system apparently unique complexity among natural systems observe
+even multivariable sensing technology steadily improves near infinite dimensionality complex spatial extent brain networks will require reconstruction through modeling
+since at present our technical capabilities restrict us only one two variables at restricted number sites computational models become lens through must consider viewing all brain measurements
+what follows will show potential power fusing physiological measurements computational models
+will use reconstruction account unmeasured parts neuronal system relating micro-domain metabolic processes cellular excitability validating cellular dynamical reconstruction against actual measurements

@@ -1,0 +1,25 @@
+
+report new optimal statistical problem under sampling among
+consider finite population n random sample n selected population number
+thus define each so total one variable interest each reduce overall
+order solve problem exact algorithm based concept graph proposed
+computational results using real data central statistical provided
+introduction
+common procedure sampling elements population before sample way obtain most useful information data
+procedure called
+may different information some all regions provide more population more elements into them according one more variables
+latter case also called statistical
+use statistical order obtain better what sample must taken each chosen functional relation between size each number sample
+thus important consider itself order do statistical
+paper propose exact algorithm solve statistical problem call simply problem simple
+specifically method solve problem optimal simple random sampling without using
+problem must population size into variable also called size variable whose values known all population
+first defined set population whose values lower than constant value second one set whose values greater than lower than so
+based defined set population values where each set observations values greater than
+problem optimal find total one more variables study some correlation variable even variable
+solve problem new algorithm when used proposed using idea graphs
+paper
+section 2 present some basic about simple random sampling
+section define problem work about different approaches
+propose section algorithm based graph theory order provide exact solutions problem defined section
+finally present some computational results about new algorithm

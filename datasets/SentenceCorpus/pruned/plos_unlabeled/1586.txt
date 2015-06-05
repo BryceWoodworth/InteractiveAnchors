@@ -1,0 +1,36 @@
+
+cells known perform motion integration
+assumed neurons particular cells type
+approach investigate relationship underlying motion integration cells
+approach detailed model neurons perform here motion integration
+model neurons model motion detection provide model without active along their perform
+found both active model neurons perform well motion
+addition all same real cells
+addition also found distribution g g active models
+moreover demonstrate how distribution motion integration
+using approach predict still unknown distribution g g their role motion integration cells
+introduction
+neurons different brain regions feature different distributions
+while physiological effects distributions how computational functions perform their still known
+computational function defined here resulting biological
+understanding neurons close input dynamics during known both correlated
+one example cells visual motion demonstrated motion
+recently developed approach relationships
+underlying assumption structure computational function performed
+approach computational function interest model neurons including perform function
+here apply approach investigate relationship
+focus particular type cells motion
+cells motion signals their
+they spatial activity individual cell
+while membrane potential cells at sites synaptic input fast input dynamics time signal temporal their local motion
+output signal direction presented stimulus
+thus function single cell temporal motion produce output signal
+optimization performed work
+described assume temporal
+aim study identify required perform motion integration investigate how physiological processes perform motion integration
+work notion temporal different model neurons perform
+found our model neurons features real cell intrinsic dynamics show similarity real cells
+our results provide alternative support hypothesis motion integration cells
+moreover our simulations were able identify required perform motion integration account temporal active used responses visual
+due similarity our models real cells predict actual but still unknown distribution three their role integration cells
+discuss our results compare our findings related approach

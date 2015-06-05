@@ -1,0 +1,30 @@
+ 
+cellular response elicited environmental cue typically varies strength stimulus
+example yeast saccharomyces cerevisiae concentration mating pheromone determines whether cells undergo vegetative growth chemotropic growth mating
+implies signaling pathways responsible detecting stimulus initiating response must transmit quantitative information about intensity signal
+our previous experimental results suggest yeast encode pheromone concentration duration transmitted signal
+here use mathematical modeling analyze possible biochemical mechanisms performing dose-to-duration conversion
+demonstrate modulation signal duration increases range stimulus concentrations dose-dependent responses possible; increased dynamic range produces counterintuitive result signaling beyond saturation dose-dependent responses still possible after apparent saturation receptors
+propose mechanism dose-to-duration encoding yeast pheromone pathway consistent current experimental observations
+most previous investigations information processing signaling pathways focused amplitude encoding without considering temporal aspects signal transduction
+here demonstrate dose-to-duration encoding provides cells alternative mechanism processing transmitting quantitative information about their surrounding environment
+ability signaling pathways convert stimulus strength into signal duration results directly nonlinear nature systems emphasizes importance considering dynamic properties signaling pathways when characterizing their behavior
+understanding how signaling pathways encode transmit quantitative information about external environment will not only deepen our understanding systems but also provide insight into how reestablish proper function pathways become dysregulated disease
+ introduction 
+many substances hormones neurotransmitters variety pharmaceuticals affect cellular behavior binding membrane receptors activating intracellular signaling pathways
+pathways transmit information plasma membrane selected cellular components generate appropriate response environmental cue
+however signaling networks not simply passive relay systems but actively modulate transmitted signals
+example cross inhibition used avoid spurious crosstalk between pathways
+similarly negative feedback allows pathways adapt desensitize persistent stimuli
+many cases nature response depends dose stimulus
+thus addition relaying qualitative information signaling pathways must also transmit quantitative information about intensity stimulus
+many signaling pathways consist cell surface receptor g protein transducer series protein kinases including mitogen activated protein kinase
+architecture widely employed mammalian cells but also found single-cell eukaryotes yeast
+pheromone response pathway yeast saccharomyces cerevisiae provides instructive example elicited cellular response depends concentration stimulus
+at low pheromone levels cells continue vegetative growth
+at intermediate concentrations cells develop elongated morphology presence pheromone gradient growth directed source stimulus process known chemotropic growth
+finally at high pheromone concentrations cells initiate mating program eventually leads growth arrest development mating projections
+therefore yeast make correct developmental decision quantitative information about pheromone concentration must reliably transmitted appropriate cellular components
+here use mathematical modeling investigate different ways information transferred
+results analysis taken together our recently published data demonstrate pheromone pathway uses strategy agonist dose encoded duration signal
+because yeast pheromone response pathway consists g-protein coupled receptor map kinase cascade results our investigations should direct implications signal transduction mammalian cells

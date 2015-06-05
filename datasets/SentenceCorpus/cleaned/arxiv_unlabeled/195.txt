@@ -1,0 +1,40 @@
+ 
+frequent episode discovery popular framework pattern discovery event streams
+episode partially ordered set nodes each node associated event type
+efficient separate algorithms exist episode discovery when associated partial order total serial episode trivial parallel episode
+paper propose efficient algorithms discovering frequent episodes general partial orders
+algorithms easily specialized discover serial parallel episodes
+also algorithms flexible enough specialized mining space certain interesting subclasses partial orders
+point out there inherent combinatorial explosion frequent partial order mining most importantly frequency alone not sufficient measure interestingness
+propose new interestingness measure general partial order episodes discovery method based measure filtering out uninteresting partial orders
+simulations demonstrate effectiveness our algorithms
+ introduction 
+frequent episode discovery popular framework discovering temporal patterns symbolic time series data applications several domains like manufacturing  telecommunication  www  biology  finance  intrusion detection  text mining etc
+data framework single long time-ordered stream events each temporal pattern called episode essentially small partially ordered collection nodes each node associated called event-type
+partial order episode constrains time-order events should appear data order events constitute occurrence episode
+patterns total order their nodes called serial episodes while those empty partial order called parallel episodes
+task unearth all episodes whose frequency data exceeds user-defined threshold
+currently separate algorithms exist literature discovering frequent serial parallel episodes data streams  while no algorithms available case episodes general partial orders
+related work found context sequential patterns where data consists multiple sequences sequential pattern small partially ordered collection symbols
+sequential pattern considered frequent if there enough sequences data pattern occurs atleast once
+contrast frequent episode discovery looking patterns repeat often single long stream events
+makes computational task quite different sequential patterns
+paper develop algorithms discovering frequent episodes general partial order constraints over their nodes
+restrict our attention subclass patterns called injective episodes where event-type cannot appear more than once given episode
+facilitates design efficient algorithms no restriction whatsoever partial orders episodes
+further our algorithms handle usual expiry time constraints episode occurrences limit time-spans valid occurrences some user-defined maximum value
+our algorithms easily specialized either discover only frequent serial episodes only frequent parallel episodes
+moreover also specialize method focus discovery process certain classes partial order episodes satisfy what call maximal subepisode property serial episodes parallel episodes specific examples classes obey property
+point out here one difficulties efficient discovery general partial orders there inherent combinatorial explosion number frequent episodes any given size
+because any partial order episode nodes there exponential number subepisodes also size  all would occur at least often episode note problem does not arise eg  frequent serial episode discovery because node serial episode cannot any node serial subepisode
+thus frequency alone insufficient measure interestingness episodes general partial orders
+tackle propose new measure called bidirectional evidence  captures some notion entropy relative frequencies pairs events occurring either order observed occurrences episode
+mining procedure now requires user-defined threshold bidirectional evidence addition usual frequency threshold
+demonstrate utility our algorithms through extensive empirical studies
+paper organized follows
+sec  briefly review frequent episodes formalism define injective episodes
+sec  describes finite state automata its associated properties tracking occurrences injective episodes
+algorithms counting frequencies partial order episodes described sec 
+candidate generation described sec 
+sec  describes our new interestingness measure
+present simulation results sec  conclude sec 

@@ -1,0 +1,20 @@
+ 
+{dimension reduction; kernel methods; low-rank approximation; machine learning; nystr\"om extension}% recent years spectral analysis appropriately defined kernel matrices emerged principled way extract low-dimensional structure often prevalent high-dimensional data
+here provide introduction spectral methods linear nonlinear dimension reduction emphasizing ways overcome computational limitations currently faced practitioners massive datasets
+particular data subsampling landmark selection process often employed construct kernel based partial information followed approximate spectral analysis termed nystr\"om extension
+provide quantitative framework analyse procedure use demonstrate algorithmic performance bounds range practical approaches designed optimize landmark selection process
+compare practical implications bounds way real-world examples drawn field computer vision whereby low-dimensional manifold structure shown emerge high-dimensional video data streams
+ introduction 
+recent years dramatic increases available computational power data storage capabilities spurred renewed interest dimension reduction methods
+trend illustrated development over past decade several new algorithms designed treat nonlinear structure data isomap tenenbaum et al 2000 spectral clustering shi \&~malik~2000 laplacian eigenmaps belkin \&~niyogi~2003 hessian eigenmaps donoho \&~grimes~2003 diffusion maps coifman et al 2005
+despite their different origins each algorithms requires computation principal eigenvectors eigenvalues positive semi-definite kernel matrix
+fact spectral methods their brethren long held central place statistical data analysis
+spectral decomposition positive semi-definite kernel matrix underlies variety classical approaches principal components analysis low-dimensional subspace explains most variance data sought fisher discriminant analysis aims determine separating hyperplane data classification multidimensional scaling used realize metric embeddings data
+result their reliance exact eigendecomposition appropriate kernel matrix computational complexity methods scales turn cube either dataset dimensionality cardinality belabbas \&~wolfe~2009
+accordingly if write requisite complexity exact eigendecomposition large and/or high-dimensional datasets pose severe computational problems both classical modern methods alike
+one alternative construct kernel based partial information; analyse directly set `landmark' dimensions examples been selected dataset kind summary statistic
+landmark selection thus reduces overall computational burden enabling practitioners apply aforementioned algorithms directly subset their original data---one consisting solely chosen landmarks---and subsequently extrapolate their results at computational cost
+while practitioners often select landmarks simply sampling their data uniformly at random show article how one may improve upon approach data-adaptive manner at only slightly higher computational cost
+begin review linear nonlinear dimension-reduction methods in~\s formally introduce optimal landmark selection problem in~\s
+then provide analysis framework landmark selection in~\s turn yields clear set trade-offs between computational complexity quality approximation
+finally conclude in~with case study demonstrating applications field computer vision

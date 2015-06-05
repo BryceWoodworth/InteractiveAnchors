@@ -1,0 +1,35 @@
+ 
+goal obtaining information improve classification accuracy strongly conflict goal obtaining information improving payoffs
+two environments conflict were identified through computer optimization
+three subsequent experiments investigated people's search behavior environments
+experiments number number used multiple-cue probabilistic category-learning task convey environmental probabilities
+subsequent search task subjects could query only single feature before making classification decision
+crucial manipulation concerned search-task reward structure
+payoffs corresponded either accuracy equal rewards associated two categories asymmetric payoff function different rewards associated each category
+experiment number learning-task feedback corresponded true category people later preferentially searched accuracy-maximizing feature whether not would improve monetary rewards
+experiment number asymmetric reward structure was used during learning
+subjects searched reward-maximizing feature when asymmetric payoffs were preserved search task
+however if search-task payoffs corresponded accuracy subjects preferentially searched feature was suboptimal reward accuracy alike
+importantly feature would been most useful under learning-task payoff structure
+experiment number found if words numbers used convey environmental probabilities neither reward nor accuracy consistently predicts search
+findings emphasize necessity taking into account people's goals search-and-decision processes during learning thereby challenging current models information search
+ introduction 
+when diagnosing treating patient when choosing job candidate mate many other situations one must make decisions without having all relevant information
+there widely applicable strategies identifying useful queries
+what governs people's information search
+information-acquisition situations where no particular benefits costs apply statistical optimal experimental design oed models provide one framework evaluating value alternative queries
+variety experiments suggest models also provide reasonable description human information-search behavior situations no explicit external payoffs
+but many situations-for instance when deciding whether something safe eat whether suspicious suitcase contains bomb whether patient should sent cardiac care unit-strong asymmetries consequences particular correct incorrect decisions apply
+asymmetries implications classification decisions
+instance potential cardiac patient should sent cardiac care unit if risk heart attack greater than some threshold
+threshold should clearly less than number percent chance heart attack would threshold maximizing overall classification accuracy
+there implications information search varying benefits costs different kinds correct incorrect decisions
+intuitively may seem best strategy conduct queries allow determination true state nature accurately possible take payoffs into account only actual classification decision
+intuition distinctly wrong
+our theoretical analyses simulations illustrate situation-specific costs benefits must considered when determining information acquire test conduct question ask query make not only when making classification decisions
+other words many highly informative tests useless given applicable situation-specific reward structures
+what extent does people's information-search behavior appropriately reflect costs benefits associated different correct mistaken decisions
+address three experiments using probabilistic multiple-cue category learning information-search paradigm
+importantly identify investigate situations goal obtaining information helps maximize number correct classification decisions should principle lead different search behavior than appropriate maximize reward given particular environment's reward structure
+environmental reward structure consists payoffs each kind correct classification decision costs each kind incorrect classification decision
+examine whether people's information-search behavior appropriately reflects situation-specific reward structures whether people may use probability gain guide their search decisions even when not adaptive do so

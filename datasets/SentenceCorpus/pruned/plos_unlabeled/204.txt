@@ -1,0 +1,28 @@
+
+construct model study associated adaptive system effects cells memory cells
+binding characterized stochastic space model
+system loss individual associated disease measured total population over
+evolution cell populations space over find distribution losses time
+average memory cell population history past loss system when second similar
+corresponding increase novel expected loss increase due leading increasing
+our model not result performance some specific but rather natural mechanisms system adaptation
+robust yet behavior key highly
+introduction
+adaptive system manner adaptation history over each individual
+complex cells derived cells nodes
+cells ability between agents within body elements
+b t cells cells adaptive components system
+they derive their ability binding their t cell t cells b cells
+gene population cells each individual combination different binding
+random genes give system ability produce cells many
+during cells whose into cells memory cells
+memory cells give more efficient response secondary same
+however due regulation population growth memory cells cell population size
+over time effect increasing sensitivity novel
+introduce model between sensitivity new
+model cell populations defined terms their primary function their binding characteristics
+relative population time
+probability distribution their characteristics estimation binding
+include total number cells system define loss function disease
+number cells memory specific system seen at
+our model how system increases but

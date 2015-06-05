@@ -1,0 +1,27 @@
+ 
+paper investigate claim decisions experience features lotteries learned through sampling process differ decisions description features lotteries explicitly described
+find experience-description gap not robust been previously assumed
+argue when gap appears driven large extent asymmetries information concerning events possible certain
+first find when experience-based decision makers sample events without error then told what outcomes associated each possible event they risk seeking low-probability gains risk averse high-probability gains description-based decision making
+second find experience-description gap low-probability outcomes appears when rare outcomes never experienced but disappears when number all distinct outcomes experienced at least once number never-experienced outcomes described possibilities
+third find experience-description gap high-probability outcomes pronounced when decision makers previously experience lotteries both offered possibility zero outcome presumably makes them doubt always-experienced outcome certain but disappears when they not previously experienced lotteries
+ introduction 
+major thrust behavioral decision research been identify situations people act boldly timidly face risk uncertainty
+studies decision under risk people choose between chance gambles known probabilities outcomes e g receive number probability number versus number sure
+studies found people typically exhibit fourfold pattern risk attitudes seeking risk low-probability gains high-probability losses e g most prefer number chance number over number sure avoiding risk high-probability gains low-probability losses e g most prefer number sure over number chance number predicted prospect theory
+studies decision under uncertainty participants choose between prospects contingent natural events e g receive number if home team wins versus number sure
+studies don't generally lend themselves analysis risk attitudes because they rely singular natural events there no objective probabilities
+however when analyzed relative judged probabilities several studies reveal similar pattern risk-preferences
+many decisions potential outcomes not known advance but must learned experience
+instance commuter might choose preferred route work only after sampling alternative routes several occasions
+influential paper hertwig barron weber erev modeled situations asking participants learn about pair lotteries e g gain number points probability number gain number otherwise b gain number points sure sampling outcomes replacement many times they wished unlabeled buttons associated payoff distributions see table number list all lottery pairs
+after sampling phase participants chose lottery play once real money
+experience-based decision making henceforth ebdm appears reverse fourfold pattern risk attitudes description-based decision making henceforth dbdm people avoiding risk low-probability gains high-probability losses seeking risk high-probability gains low-probability losses
+basis results authors called two different theories risky choice hbwe p number
+generalization ebdm differs dbdm difficult evaluate because surprisingly no one yet defined experience-based decision making
+our reading literature correspondence several major contributors conclude authors referring single decision number decision makers' knowledge possible outcomes respective probabilities incomplete number information derived at least part sampling process
+according definition ebdm applies any situation there uncertainty learning through sampling
+however most data supporting putative experience-description gap contrast single dbdm paradigm decision under risk minor variations single ebdm paradigm hbwe design
+note decision under risk hbwe paradigm vary not only terms how information learned explicit description versus sequential sampling but also what information available decision makers i e information sampled experience may diverge information describing corresponding objective probability distribution over outcomes
+according information asymmetry hypothesis experience-description gap driven differences information available decision makers will diminish disappear when differences eliminated
+purpose paper test information asymmetry hypothesis better circumscribe conditions under decisions experience differ decisions description

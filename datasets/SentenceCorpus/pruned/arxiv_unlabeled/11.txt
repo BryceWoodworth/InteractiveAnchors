@@ -1,0 +1,19 @@
+
+while general learning under some relatively simple solutions exist
+optimal decision problem one reward case one finite reward case derived make between reward uncertainty need
+result two practical approximate algorithms experimentally
+introduction
+learning between actions expected according current world model improve world model potentially able achieve higher expected
+been subject much interest before one being theory sequential sampling statistics developed
+making sequential decisions one among set particular hypothesis view towards experiment hypothesis
+more general sequential decision problems bayesian
+optimal but bayesian solution problems was given while recently bounds sample complexity been found
+approximation full bayesian case general learning problem given while alternative technique based actions estimated given
+following section concept natural problem learning
+after problem either identified
+threshold problems
+threshold found depend effective reward optimal policy our current belief distribution expected rewards each action
+presented
+section uses bound value derive practical algorithms then experimentally
+
+other methods

@@ -1,0 +1,70 @@
+ 
+patterns spontaneous activity developing retina lgn cortex necessary proper development visual cortex
+patterns intact primary visual cortices many newborn animals develop properties similar those adult cortex but without training benefit visual experience
+previous models demonstrated how v1 responses initialized through mechanisms specific development prior visual experience using axonal guidance cues relying simple pairwise correlations spontaneous activity additional developmental constraints
+argue spontaneous patterns may better understood part innate learning strategy learns similarly activity both before during visual experience
+abstraction spontaneous activity models show how visual system may able bootstrap efficient code its natural environment prior external visual experience continue same refinement strategy upon natural experience
+patterns generated through simple local interactions contain same relevant statistical properties retinal waves hypothesized waves lgn v1
+efficient encoding patterns resembles sparse coding natural images producing neurons localized oriented bandpass structure same code found early visual cortical cells
+address relevance higher-order statistical properties spontaneous activity how relates system may adapt similarly activity prior during natural experience how concepts ultimately relate efficient coding our natural world
+ introduction 
+classic debates nature vs nurture innate vs learned pervasive literature early visual development
+variety studies shown visual system requires external experience mature
+other hand many animals able see at birth functioning primary visual cortex even before eye opening
+might seem straightforward assign properties found at birth innate properties dependent visual experience learned
+however strict dichotomy may unnecessarily limit our integrated understanding visual development
+particular wish focus issue form learning occurs before birth patterns activity generated internally
+well known spontaneous endogenous activity necessary permissive proper development visual system
+point paper discuss statistical aspects activity may sufficient instructive guide development much same way visual experience refines mature visual system
+essentially propose innate learning approach prepares system later experienced-based refinement diplomatic balance between nature nurture
+several studies shown early stages rat visual development retinal neurons spontaneously active correlated their bursting patterns activity
+later retinal wave patterns were recorded many animals calcium imaging developing retina one example shown figure 1a
+experiments since then manipulated waves abolishing them over-stimulating them otherwise altering their properties shown how they necessary proper development
+several models been proposed production waves
+two most recent models cholinergic amacrine cells mediate activity general agreement about mechanism
+neurons begin bursting spontaneously while neighboring cells recruited if enough cells local area also bursting
+rules wave formation propagation biologically plausible models retinal wave formation been able create complex images those figure 1b
+although retinal spontaneous activity been well studied many areas beyond retina exhibit patterned spontaneous neural activity
+visual system both lgn v1 patterned spontaneous activity during development
+effects lgn v1 connectivity been analyzed functionally layer segregation orientation column formation
+patterned spontaneous activity also known occur developing auditory system necessary proper development
+similar developmental mechanisms also found hippocampus spinal cord
+biophysical perspective been shown spontaneous neural activity necessary mediate many mechanistic effects axon branching dendritic patterning synaptic pruning
+ubiquity spontaneous activity development its ability affect various aspects neural connectivity understanding general role spontaneous activity early visual development likely implications beyond vision
+adult primary visual cortex been known nearly half century v1 cells respond strongly bars edges later experiments demonstrating simple cells v1 characteristic filter description much like 2d gabor function shown figure 2a
+v1 cell specific elongated subregions visual space where relatively bright dark parts visual image will stimulate cell
+note characterization purely descriptive stimulus-response paradigm answering what neuron responds instead why filters appearance
+according efficient coding hypothesis role early visual system remove statistical redundancy visual code
+hypothesis one way understand visual system develop analyze visual encoding scheme remove redundancy images natural scenes
+was done using sparse coding independent components analysis set natural images pictures rocks trees forest scenes etc
+derived filters resemble 2d gabor filters found v1 simple cells see figure 2b-c
+one conclude results v1 developed tuned efficiently encode visual world
+paper make claim there parsimonious computational reason existence spontaneous patterns  functional strategy early visual system employ guide development both prior throughout experience
+addition molecular guidance cues believe visual code refined training patterns spontaneous activity during development similar manner how juvenile animals refine visual code statistical patterns found natural images
+many statistical structure models rely pairwise correlations between neighboring units implicit assumption other functional descriptions spontaneous activity
+however many efficient coding models applied natural images sparse coding ica rely statistics beyond pairwise correlations
+fact often first step correlations removed process known decorrelation whitening ; process at least part considered function retinal ganglion cells
+although developmental activity patterns known relevant pairwise correlations argue receptive field refinement may also rely higher-order statistics thus bridging gap between models sparse efficient coding spontaneous activity
+will demonstrate simple patterns activity used training images refining visual code
+patterns use resemble only 2d imaged spontaneous activity available retinal waves; demonstrated figure 1 specific examples our generated patterns figure 1d
+beyond visual resemblance our pattern generation technique also abstracts general properties parameters current retinal wave models
+strongly note however strictly not retinal wave model but abstraction what believe essential features relevant endogenous activity
+more concerned paper statistical nature produced activity than its precise localization including whether activity originates one particular area part larger dynamical system
+example comparison retinal waves lgn/v1 spontaneous activity more direct influence cortical receptive field formation
+ferrets lgn remains spontaneously active at beginning v1 activation while v1 activity retinal wave production do not significantly overlap time
+lgn v1 activity been experimentally characterized but far less understood than retinal activity thus prompting our analogies retinal waves paper
+our patterns generated using variant traditional site percolation models  analogy retinal wave propagation its relation physiological models detailed discussion section
+models common study critical phenomena physics percolation models ising model been used artificial neural networks understanding adult retinal neurons equally useful understanding models development
+ising models example been adapted artificial neural networks since hopfield's network
+recent work also shown ising models apt analogies maximal entropy high-predictability neural firing retina upon natural stimulation
+although pattern generation technique use quite similar networks been shown relevant biologically demonstrate desirable statistical properties
+main goal paper show how same adaptive efficient algorithm applied both natural inputs well spontaneous activity
+show certain wavefront-containing patterns possess relevant statistics percolation network provides useful abstraction demonstrating property
+patterns independent how they were generated simply used existence proof possible training role spontaneous activity
+first will show our generated patterns qualitatively resemble known patterns spontaneous activity
+will then compare various methods learning v1 receptive fields showing how both natural images spontaneous activity patterns used produce v1-like gabor filters
+will also demonstrate how significant variations receptive field properties occur even at threshold scale invariance showing flexibility learning even simplified model
+finally one main points paper expressed final figure relevant statistics sensory coding go beyond simple correlations
+there higher-order statistics still present after decorrelation
+sparse independent efficient coding algorithms rely statistics found natural scenes also present particular amorphous wavefront-containing structure spontaneous activity patterns
+will present how fact points conclusion same adaptive coding strategy may then present both before during visual experience

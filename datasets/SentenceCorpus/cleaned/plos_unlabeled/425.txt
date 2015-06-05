@@ -1,0 +1,23 @@
+ 
+five independent groups reported microarray studies identify dozens rhythmically expressed genes fruit fly drosophila melanogaster
+limited overlap among lists discovered genes makes difficult determine if any exhibit truly rhythmic patterns expression
+reanalyzed data all five reports found two sources observed discrepancies use different expression pattern detection algorithms underlying variation among datasets
+improve upon methods originally employed developed new analysis involves compilation all existing data application identical transformation standardization procedures followed anova-based statistical prescreening three separate classes post hoc analysis: cross-correlation various cycling waveforms autocorrelation previously described fast fourier transform based technique
+permutation-based statistical tests were used derive significance measures all post hoc tests
+find application our method most significantly anova prescreening procedure significantly reduces false discovery rate relative observed among results original five reports while maintaining desirable statistical power
+identify set 81 cycling transcripts previously found one more original reports well novel set 133 transcripts not found any original studies
+introduce novel analysis method compensates variability observed among original five drosophila circadian array reports
+based statistical fidelity our meta-analysis results results our initial validation experiments predict many our newly found genes bona fide cyclers suggest they may lead new insights into pathways through clock mechanisms regulate behavioral rhythms
+ introduction 
+most organisms exhibit rhythms behavior physiology occur circadian daily periods
+rhythms driven endogenous biological clocks regulated via rhythmic expression core set pacemaker genes
+salient feature many circadian genes conserved across wide span evolutionary divergence cyclic expression their mrnas
+several studies exploited characteristic identify novel clock-related genes
+five reports based model organism drosophila melanogaster utilize microarray technology discover clock-related genes exhibit cyclic mrna expression fly heads
+cumulatively identify hundreds rhythmic transcripts; yet there striking lack overlap among lists identified genes
+raises doubts fidelity reported expression patterns
+given importance rhythmic transcription circadian clock function revisited studies attempting identify root causes existing incongruities find transcripts exhibit truly cyclic expression
+our analyses suggest compilation statistical prescreening all available data lead substantial reductions false discovery rate
+addition find data quality algorithm choice play essential roles determining transcripts ultimately detected any particular analysis
+introduce novel procedure well improvements previously published techniques identify core set rhythmically expressed transcripts high statistical fidelity
+intriguingly our list includes 133 transcripts not found original reports

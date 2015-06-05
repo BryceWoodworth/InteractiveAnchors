@@ -1,0 +1,30 @@
+ 
+recognizing analogies synonyms anto\-nyms associations appear four distinct tasks requiring distinct nlp algorithms
+past four tasks been treated independently using wide variety algorithms
+four semantic classes however tiny sample full range semantic phenomena cannot afford create ad hoc algorithms each semantic phenomenon; need seek unified approach
+propose subsume broad range phenomena under analogies
+limit scope paper restrict our attention subsumption synonyms antonyms associations
+introduce supervised corpus-based machine learning algorithm classifying analogous word pairs show solve multiple-choice sat analogy questions toefl synonym questions esl synonym-antonym questions similar-associated-both questions cognitive psychology
+ introduction 
+pair words petrify:stone analogous another pair vaporize:gas when semantic relations between words first pair highly similar relations second pair
+two words levied imposed synonymous context levied tax when they interchanged imposed tax they antonymous when they opposite meanings black white they associated when they tend co-occur doctor hospital
+surface appears four distinct semantic classes requiring distinct nlp algorithms but propose uniform approach all four
+subsume synonyms antonyms associations under analogies
+essence say antonyms when pair : analogous pair black:white synonyms when they analogous pair levied:imposed associated when they analogous pair doctor:hospital
+there past work recognizing analogies  synonyms  antonyms  associations  but each four tasks been examined separately isolation others
+far know algorithm proposed here first attempt deal all four tasks using uniform approach
+believe important seek nlp algorithms handle broad range semantic phenomena because developing specialized algorithm each phenomenon very inefficient research strategy
+might seem lexicon wordnet  contains all information need handle four tasks
+however prefer take corpus-based approach semantics
+veale \shortcite{veale04} used wordnet answer 374 multiple-choice sat analogy questions achieving accuracy 43\% but best corpus-based approach attains accuracy 56\%
+another reason prefer corpus-based approach lexicon-based approach former requires less human labour thus easier extend other languages
+section describe our algorithm recognizing analogies
+use standard supervised machine learning approach feature vectors based frequencies patterns large corpus
+use support vector machine svm learn how classify feature vectors
+section presents four sets experiments
+apply our algorithm recognizing analogies multiple-choice analogy questions sat college entrance test multiple-choice synonym questions toefl test english foreign language esl english second language practice questions distinguishing synonyms antonyms set word pairs labeled similar  associated  both  developed experiments cognitive psychology
+discuss results experiments section
+accuracy algorithm competitive other systems but strength algorithm able handle all four tasks no tuning learning parameters particular task
+performs well although competing against specialized algorithms developed single tasks
+related work examined section limitations future work considered section
+conclude section

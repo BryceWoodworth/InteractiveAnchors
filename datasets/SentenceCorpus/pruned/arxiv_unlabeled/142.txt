@@ -1,0 +1,43 @@
+
+many where human understanding role knowledge data critical importance
+within framework learning methods if used help human
+methods aim been robust rules set training data most important ones linear regression rank techniques
+algorithm good those methods
+however was designed so only about numerical performance
+thus propose some original method take into account
+after original algorithm paper changes made original method then some results obtained problems
+finally algorithm applied detection problem
+introduction
+learning methods models neural networks likely give results provided some constraints
+while ability some applications prediction essential when human gain into complex problem e g biological processes evolution
+explain why modeling become important research shown recent literature
+even so given modeling not always same
+some authors mean mathematical where structure developed systems leads every series about rule
+others mean
+present paper focused latter approach
+small number consistent functions number rules system
+methods provide set tools rules data limited subset rules
+those methods were designed linear optimization but subject some conditions they used models
+instance order model set rules rule } where sets associated variables given rule corresponding rule
+let pairs data set where
+pair above model output } used elements rule within rule function value
+let us introduce rule firing
+thus } been set provided given data set all data set
+then allows model linear regression problem matrix form
+matrix form sample output vector p firing matrix rule vector e error term
+methods then used determine them optimal values order design order model data set
+review use methods rules found
+they into two main methods rules using matrix only others also use output do best
+first family methods rank techniques particularly when input include sets
+least technique second family allows rule selection based rule output
+respect criterion good system why been widely used statistics also why particularly rule shown instance
+aim present paper using method example results made without too much loss accuracy
+number rule
+into useful tools modeling regression problems knowledge data
+thus they study there few available techniques objective knowledge classification problems
+section how original
+section learning will used our algorithm
+section necessary respect constraints
+next section algorithm applied problems compared original one reference results found literature
+application presented section
+finally give some future work

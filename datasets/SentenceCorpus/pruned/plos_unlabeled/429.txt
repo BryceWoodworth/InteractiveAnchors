@@ -1,0 +1,26 @@
+
+early identification effect highly efficient since drug effects account all drug drug development
+protein drug interactions at level their outcomes at level developed approach protein interactions structural scale protein functional site similarity search small protein binding analysis
+possible molecular mechanism previously observed but effect receptor
+effect involves protein domain
+prediction provides molecular into effect observations
+strategy used case study being applied other available
+process drug discovery effort drug leads reduce effects
+introduction
+early identification effects highly efficient since drug effects all drug drug development
+rely against large number
+computational approaches could not only time during potential but also provide into understanding molecular mechanisms protein drug interactions
+been shown potential identified structure activity relationship small molecules
+however methods strongly depends structures used training few them directly take target structure into account
+although protein interactions studies at level understanding molecular mechanism effects protein large scale structural human lack practical estimate binding
+here approach problem different direction proteins similar binding sites likely similar
+study test predicting potential binding sites receptor
+several receptor been developed other
+however associated effects
+identify molecular mechanisms their effects similar binding sites across functional space using known binding site
+search used robust functional site prediction comparison algorithm developed recently our
+similar site protein
+prediction further detailed protein potential analysis
+our prediction well biochemical observations molecular into effect
+strategy used case study could applied other available existing different
+process could also drug discovery development effort drug leads reduce effects

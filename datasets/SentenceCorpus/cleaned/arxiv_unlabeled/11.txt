@@ -1,0 +1,19 @@
+ 
+while general trading off exploration exploitation reinforcement learning hard under some formulations relatively simple solutions exist
+optimal decision thresholds multi-armed bandit problem one infinite horizon discounted reward case one finite horizon undiscounted reward case derived make link between reward horizon uncertainty need exploration explicit
+result follow two practical approximate algorithms illustrated experimentally
+ introduction 
+reinforcement learning dilemma between selecting actions maximise expected return according current world model improve world model potentially able achieve higher expected return referred exploration-exploitation trade-off
+been subject much interest before one earliest developments being theory sequential sampling statistics developed
+dealt mostly making sequential decisions accepting one among set particular hypothesis view towards applying jointly decide termination experiment acceptance hypothesis
+more general overview sequential decision problems bayesian viewpoint offered
+optimal but intractable bayesian solution bandit problems was given  while recently tight bounds sample complexity exploration been found
+approximation full bayesian case general reinforcement learning problem given  while alternative technique based eliminating actions confidently estimated low-value given
+following section formulates intuitive concept trading exploration exploitation natural consequence definition problem reinforcement learning
+after problem definitions correspond either extreme identified sec
+derives threshold switching exploratory greedy behaviour bandit problems
+threshold found depend effective reward horizon optimal policy our current belief distribution expected rewards each action
+sketch extension mdps presented sec 
+section uses upper bound value exploration derive practical algorithms then illustrated experimentally sec
+
+conclude discussion relations other methods

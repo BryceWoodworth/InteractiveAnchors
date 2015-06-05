@@ -1,0 +1,24 @@
+ 
+acquisition analysis datasets including multi-level omics physiology non-model species sampled field populations formidable challenge so far prevented application systems biology approaches
+if successful could contribute enormously improving our understanding how populations living organisms adapt environmental stressors relating example pollution climate
+here describe first application network inference approach integrating transcriptional metabolic phenotypic information representative wild populations european flounder fish sampled at seven estuarine locations northern europe different degrees profiles chemical contaminants
+identified network modules whose activity was predictive environmental exposure represented link between molecular morphometric indices
+sub-networks represented both known candidate novel adverse outcome pathways representative several aspects human liver pathophysiology liver hyperplasia fibrosis hepatocellular carcinoma
+at molecular level pathways were linked tnf alpha tgf beta pdgf agt vegf signalling
+more generally pioneering study important implications applied model molecular mechanisms compensatory adaptation wide range scenarios wild populations
+ introduction 
+modelling responses compensatory adaptations living organisms changing environment extremely important both terms scientific understanding its potential impact global health
+although computational modelling ecological systems been utilised ecotoxicology application systems biology approaches non-model organisms general presents formidable difficulties partly due limited sequence information environmentally relevant sentinel species
+moreover number samples depth information available often limited there may lack truly relevant physiological endpoints
+thus omics proven effective finding responses aquatic organisms model toxicants laboratory-based experiments but environment poses greater challenge anthropogenic contaminants present complex mixtures responses will additionally dependent upon natural life history traits other environmental factors
+relatively few omics studies focussed upon ecotoxicology environmentally sampled fish
+although previously shown expression stress response genes could used distinguish fish environmental sampling sites different underlying contaminant burdens gave little insight health outcomes molecular differences
+context identifying molecular mechanisms compensatory toxic responses observational data approach been so successful clinical studies laboratory model organisms highly challenging field studies
+addressed challenge developing novel network inference strategy based integration multi-level measurements populations fish exposed diverse spectrum environmental pollutants
+provides useful model network biology approach generally applicable non-model species represents breakthrough way study mechanisms whereby organisms respond chemical exposure environment
+directed our efforts towards modelling molecular networks representative populations flatfish european flounder sampled marine environments north western europe including locations significantly impacted anthropogenic chemical contaminants
+study integrated measurements representing broad spectrum samples characterized using transcriptomics metabolomics conventional biomarkers analysis chemicals sediments sampling sites
+previous studies shown both anthropogenic contamination higher prevalence pre-neoplastic neoplastic lesions flounder elbe estuary mersey tyne together elevated levels hepatic dna adducts at sites
+data integration was achieved implementing systems biology framework network reconstruction starting cross-species mapping sequence information integration multi-level datasets within framework network inference culminating identification network modules predictive physiological responses chemical exposure valuable marine monitoring 
+networks identified demonstrate remarkable parallel between human liver carcinogenesis environmental effects fish liver well revealing potentially novel adaptation mechanisms
+broader application network biology approaches other non-model species sampled environment therefore likely profoundly change our understanding how living systems likely adapt complex environments

@@ -1,0 +1,37 @@
+
+make decisions every many them without much
+two important open questions what minimum time required make choices above accuracy
+what impact additional decision-making time choice accuracy
+investigated questions four experiments subjects made binary choices using responses under either accuracy
+subjects were able make above decisions little number choose their over number percent trials at average number
+further their responses either them explicitly about their choices hand generated about number percent increase accuracy
+together results suggest make accurate choices those made at significantly than previously reported
+introduction
+make decisions every many them without much
+consider example local
+while often involve observation suggests many others made at
+important open question decision-making well domain research what at human brain most options
+previous work computational basis decision-making provides some
+multiple studies shown its provide computational description how choices made able provide good quantitative how accuracy response times underlying parameters choice problem
+all models predict been observed data
+however literature not experimentally measured at decisions made
+previous decision-making studies also suggest decisions made but provide few about how fast decisions made when goal due constraints
+example subjects made real choices between pairs stimuli computer reaction times number number choices number number most difficult ones
+reaction times number range been reported various other choice studies
+studies more complex choices those involving options reported reaction times number number range
+however work judgments suggests brain may able out decisions much
+showed subjects could natural according whether not they contain using task number trials activity number
+found subjects could between task at fast mean number number minimum number number measured responses activity number both tasks
+further used novel choice show pair natural could compared presence one more number minimum number
+similar showed subjects could expression body one less than number mean
+identify human performed above mean reaction time number minimum number
+finally recently showed individuals make between two numbers high accuracy number average able perform above little number
+note case simple choice all experiments subjects had stimuli their analyze stimuli make judgment then outcome judgment through response
+thus given similar computational natural brain should able make accurate simple choices at much than those been reported literature
+four experiments designed address two basic questions what minimum time required make choices above accuracy
+what impact additional computational time choice accuracy
+important difficulty questions reaction time measures standard choice amount time make decision i e compare values since they include time requires stimuli choice
+here use was developed studies described above allows us problems
+minimum times at make choices above level well impact additional time choice accuracy important two
+first since significant decisions seems made at provides into general quality human decision-making
+increased new decisions made further increases importance question

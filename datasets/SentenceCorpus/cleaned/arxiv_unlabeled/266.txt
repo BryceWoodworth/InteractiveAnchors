@@ -1,0 +1,30 @@
+ 
+% sparse coding---that modelling data vectors sparse linear combinations basis elements---is widely used machine learning neuroscience signal processing statistics
+paper focuses large-scale matrix factorization problem consists learning basis set order adapt specific data
+variations problem include dictionary learning signal processing non-negative matrix factorization sparse principal component analysis
+paper propose address tasks new online optimization algorithm based stochastic approximations scales up gracefully large data sets millions training samples extends naturally various matrix factorization formulations making suitable wide range learning problems
+proof convergence presented along experiments natural images genomic data demonstrating leads state-of-the-art performance terms speed optimization both small large data sets
+ introduction 
+linear decomposition signal using few atoms learned dictionary instead predefined one---based wavelets example---has recently led state-of-the-art results numerous low-level signal processing tasks image denoising  texture synthesis audio processing  well higher-level tasks image classification  showing sparse learned models well adapted natural signals
+unlike decompositions based principal component analysis its variants models do not impose basis vectors orthogonal allowing more flexibility adapt representation data
+machine learning statistics slightly different matrix factorization problems formulated order obtain few interpretable basis elements set data vectors
+includes non-negative matrix factorization its variants  sparse principal component analysis
+shown paper problems strong similarities; even though first focus problem dictionary learning algorithm propose able address all them
+while learning dictionary proven critical achieve improve upon state-of-the-art results signal image processing effectively solving corresponding optimization problem significant computational challenge particularly context large-scale data sets may include millions training samples
+addressing challenge designing generic algorithm capable efficiently handling various matrix factorization problems topic paper
+concretely consider signal
+say admits sparse approximation over \mbox{ dictionary }  columns referred atoms  when one find linear combination ``few'' atoms ``close'' signal
+experiments shown modelling signal sparse decomposition  sparse coding  very effective many signal processing applications
+natural images predefined dictionaries based various types wavelets also been used task
+however learning dictionary instead using off-the-shelf bases been shown dramatically improve signal reconstruction
+although some learned dictionary elements may sometimes ``look like'' wavelets gabor filters they tuned input images signals leading much better results practice
+most recent algorithms dictionary learning iterative batch procedures accessing whole training set at each iteration order minimize cost function under some constraints cannot efficiently deal very large training sets  dynamic training data changing over time video sequences
+address issues propose online approach processes signals one at time mini-batches
+particularly important context image video processing  where common learn dictionaries adapted small patches training data may include several millions patches roughly one per pixel per frame
+setting online techniques based stochastic approximations attractive alternative batch methods~(see eg  
+example first-order stochastic gradient descent projections constraint set sometimes used dictionary learning see instance
+show paper possible go further exploit specific structure sparse coding design optimization procedure tuned problem low memory consumption lower computational cost than classical batch algorithms
+demonstrated our experiments scales up gracefully large data sets millions training samples easy use faster than competitive methods
+paper structured follows: section presents dictionary learning problem
+proposed method introduced section  proof convergence section
+section extends our algorithm various matrix factorization problems generalize dictionary learning section devoted experimental results demonstrating our algorithm suited wide class learning problems

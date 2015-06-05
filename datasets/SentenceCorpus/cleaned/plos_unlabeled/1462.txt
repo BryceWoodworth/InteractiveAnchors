@@ -1,0 +1,36 @@
+ 
+accumulated experimental observations demonstrate protein stability often preserved upon conservative point mutation
+contrast less known about effects large sequence structure changes stability particular fold
+almost completely unknown degree stability different regions protein generally preserved throughout evolution
+work questions addressed through thermodynamic analysis large representative sample protein fold space based remote yet accepted homology
+more than 3,000 proteins were computationally analyzed using structural-thermodynamic algorithm corex/best
+estimated position-specific stability its component enthalpy entropy were quantitatively compared between all proteins sample according all-vs.-all pairwise structural alignment
+was discovered local stabilities homologous pairs were significantly more correlated than those non-homologous pairs indicating local stability was indeed generally conserved throughout evolution
+however position-specific enthalpy entropy underlying stability were less correlated suggesting overall regional stability protein was more important than thermodynamic mechanism utilized achieve stability
+finally two different types statistically exceptional evolutionary structure-thermodynamic relationships were noted
+first many homologous proteins contained regions similar thermodynamics despite localized structure change suggesting thermodynamic mechanism enabling evolutionary fold change
+second some homologous proteins extremely similar structures nonetheless exhibited different local stabilities phenomenon previously observed experimentally laboratory
+two observations conjunction principal conclusion homologous proteins generally conserved local stability may provide guidance future thermodynamically informed classification protein homology
+ introduction 
+protein structure function ultimately determined thermodynamics
+example anfinsen's seminal work demonstrated native state protein exists at minimum gibbs free energy stability under physiological conditions
+binding catalysis also governed free energy: sign magnitude free energy change each functional reaction controls reaction's direction equilibrium extent respectively 
+gibbs free energy results summed often opposing contributions enthalpy entropy : g h t s generally case proteins changes free energy small compared underlying enthalpic entropic changes
+reactions dominated either enthalpy entropy but most often case sometimes delicate balance between enthalpy entropy controls protein structure function
+unfortunately goal thermodynamic characterization protein folds each quantities challenging accurately predict
+while enthalpy rationalized terms information derived atomic coordinates entropy harder estimate frequently requiring knowledge not apparent single structure information about conformational degeneracy protein
+equally challenging task developing robust analysis reports position-specific stability within protein rather than reporting either: energetic contribution residue stability protein whole 
+due part inherent difficulty accurately computing global local enthalpy entropy free energy all protein structure classification strategies aware do not incorporate thermodynamic information
+our hypothesis theoretical omission limits complete understanding protein fold space
+there may also practical consequences omission
+example possible thermodynamic information protein observable independent sequence structure could improve computational tools sequence alignment fold recognition homology detection thereby clarifying discrepancies existing classification schemes based only sequence structure
+thermodynamic information may also yield new understanding not available current schemes about evolutionary sequence structure functional relationships
+one particularly important yet unanswered question degree protein stability its components conserved during fold evolution: does concept thermodynamic homology meaningfully exist beyond conservative point mutations
+step towards integration thermodynamic information into existing protein classification schemes local free energy stability enthalpy entropy here computed large representative database protein domains using previously described corex/best algorithm
+importantly diverse proteins studied accepted evolutionary relationships expertly curated any homologs remote
+thus experimental design trivial comparisons between thermodynamics closely related proteins explicitly excluded analysis
+central aim work assess degree thermodynamic conservation among remotely homologous protein domains
+three findings relating thermodynamics protein sequence structure reported
+first accordance previous work confirmed homologous proteins exhibit correlated thermodynamic information
+second enthalpy entropy less correlated than stability suggesting homologous sequence differences result enthalpic entropic changes largely balance preserve local stability evolved protein compared ancestral one
+third based manual inspection structural thermodynamic alignments homologous non-homologous pairs proteins organizational framework postulated guide future integration corex/best thermodynamic information into theories protein fold evolution

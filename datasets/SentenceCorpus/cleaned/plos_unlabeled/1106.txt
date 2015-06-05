@@ -1,0 +1,26 @@
+ 
+while many models biological object recognition share common set broad-stroke properties performance any one model depends strongly choice parameters particular instantiation model e.g number units per layer size pooling kernels exponents normalization operations etc since number parameters typically large computational cost evaluating one particular parameter set high space possible model instantiations goes largely unexplored
+thus when model fails approach abilities biological visual systems left uncertain whether failure because missing fundamental idea because correct parts not been tuned correctly assembled at sufficient scale provided enough training
+here present high-throughput approach exploration parameter sets leveraging recent advances stream processing hardware
+analogy high-throughput screening approaches molecular biology genetics explored thousands potential network architectures parameter instantiations screening those show promising object recognition performance further analysis
+show approach yield significant reproducible gains performance across array basic object recognition tasks consistently outperforming variety state-of-the-art purpose-built vision systems literature
+scale available computational power continues expand argue approach potential greatly accelerate progress both artificial vision our understanding computational underpinning biological vision
+ introduction 
+study biological vision creation artificial vision systems naturally intertwined exploration neuronal substrates visual processing provides clues inspiration artificial systems artificial systems turn serve important generators new ideas working hypotheses
+results synergy been powerful: addition providing important theoretical frameworks empirical investigations biologically-inspired models routinely among highest-performing artificial vision systems practical tests object face recognition 
+however while neuroscience provided inspiration some broad-stroke properties visual system much still unknown
+even those qualitative properties most biologically-inspired models share experimental data currently provide little constraint their key parameters
+result even most faithfully biomimetic vision models necessarily represent just one many possible realizations collection computational ideas
+truly evaluating set biologically-inspired computational ideas difficult since performance model depends strongly its particular instantiation size pooling kernels number units per layer exponents normalization operations etc because number parameters typically large computational cost evaluating one particular model high difficult adequately explore space possible model instantiations
+at same time there no guarantee even correct set principles will work when instantiated small scale
+thus when model fails approach abilities biological visual systems cannot tell if because ideas wrong they simply not put together correctly large enough scale
+result factors availability computational resources plays critical role shaping what kinds computational investigations possible
+traditionally bound grown according moore's law however recently advances highly-parallel graphics processing hardware disrupted status quo some classes computational problems
+particular new class modern graphics processing hardware enabled over hundred-fold speed-ups some key computations most biologically-inspired visual models share common
+already occurring other scientific fields large quantitative performance improvements offered new class hardware hold potential effect qualitative changes how science done
+present work take advantage recent advances graphics processing hardware more expansively explore range biologically-inspired models including models larger more realistic scale
+analogy high-throughput screening approaches molecular biology genetics generated trained thousands potential network architectures parameter instantiations screened visual representations produced models using tasks engage core problem object recognition tolerance image variation
+candidate models most promising were selected further analysis
+show large-scale screening approach yield significant reproducible gains performance variety basic object recognitions tasks holds promise offering insight into computational ideas most important achieving performance
+critically insights then fed back into design candidate models further guiding evolutionary progress
+scale available computational power continues expand high-throughput exploration ideas computational vision holds great potential both accelerating progress artificial vision generating new experimentally-testable hypotheses study biological vision

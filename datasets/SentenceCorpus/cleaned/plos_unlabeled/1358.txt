@@ -1,0 +1,37 @@
+ 
+evolutionary dynamics hiv during chronic phase infection driven host immune response selective pressures exerted through drug treatment
+understand model evolution hiv quantitatively parameters governing genetic diversification strength selection need known
+while mutation rates measured single replication cycles relevant effective recombination rate depends probability coinfection cell more than one virus only inferred population data
+however most population genetic estimators recombination rates assume absence selection hence limited applicability hiv since positive purifying selection important hiv evolution
+yet little known about distribution selection differentials between individual viruses impact single polymorphisms viral fitness
+here estimate rate recombination distribution selection coefficients time series sequence data tracking evolution hiv within single patients
+examining temporal changes genetic composition population estimate effective recombination 1.4 0.6 10 5 recombinations per site generation
+furthermore provide evidence selection coefficients at least 15 percent observed non-synonymous polymorphisms exceed 0.8 percent per generation
+results provide basis more detailed understanding evolution hiv
+particularly interesting case evolution response drug treatment where recombination facilitate rapid acquisition multiple resistance mutations
+methods developed here more precise more detailed studies will possible soon data higher time resolution greater sample sizes available
+ introduction 
+human immunodeficiency virus ranks among most rapidly evolving entities known enabling virus continually escape immune system
+after infection hiv patients typically enter asymptomatic period lasting several years during virus present at low medium levels typically at viral load formula formula copies per ml plasma
+nevertheless number virions produced removed estimated around formula per day generation time slightly less than two days
+due rapid turnover high mutation rate formula per site generation sequence diversity hiv within single patient rise formula percent within few years divergence founder strain increases formula percent per year although rate not constant
+genotypic diversity subject positive selection novel variants not recognized host immune system reduce sensitivity anti-retroviral drugs well purifying selection functional constraints
+addition high substitution rates strong selection genomes different hiv particles within same host frequently exchange genetic information
+form viral recombination works follows: whenever cell coinfected two more viruses daughter virions contain two rna strands different viruses
+next round infection recombinant genomes generated template switching reverse transcriptase while producing cdna
+been shown recombination hiv contributes significantly genetic diversity within patient
+cases super-infection several hiv-1 subtypes recombination give rise novel forms become part global epidemic 
+observation recombinant viruses after change anti-retroviral drug therapy suggests recombination might play important role evolution drug resistance predicted theoretical models
+amount recombination speeds up evolution drug resistance depends parameters governing population dynamics many not known sufficient accuracy
+vitro estimates recombination rate shown reverse transcriptase switches templates about formula times while transcribing entire genome resulting recombination rate formula per site generation
+however bare template switching rate only secondary importance since recombination generate diversity only if virion contains two rna strands originate different viruses requires coinfection host cells
+effective vivo recombination rate therefore compound quantity template switching rate probability coinfection single host cell contribute
+effective recombination rate been estimated coalescent based methods developed population genetics
+methods use single sample sequences obtained diverse population estimate recombination rate topological incongruencies phylogenetic tree sequence sample
+together estimate mutation rate allows estimate recombination rate real time units
+shriner et al report estimate formula per site generation implying almost ubiquitous coinfection host cells
+here present different method estimate recombination rates longitudinal sequence data been obtained 11 patients at approximately 6 month intervals
+comparing sequence samples successive time points estimate recombination rates distance time dependence probability cross-over between pairs polymorphic sites
+find effective rate recombination formula per site generation
+furthermore estimate strength selection nonsynonymous polymorphisms measuring rate at allele frequencies change
+find fraction about 15 percent observed nonsynonymous polymorphisms selected stronger than formula percent per generation

@@ -1,0 +1,96 @@
+ 
+consider framework stochastic multi-armed bandit problems study possibilities
+limitations forecasters perform on-line exploration arms
+forecasters assessed terms their simple regret regret
+notion captures fact exploration only constrained number
+available rounds not necessarily known advance contrast case when cumulative
+regret considered when exploitation needs performed at same time
+
+believe performance criterion suited situations when
+cost pulling arm expressed terms resources rather than rewards
+discuss links between simple cumulative regret
+one main results case finite number arms
+general lower bound simple regret forecaster terms its
+cumulative regret: smaller latter larger former
+keeping result mind
+then exhibit upper bounds simple regret some forecasters
+paper ends study devoted continuous-armed bandit problems;
+show simple regret minimized respect family probability
+distributions if only if cumulative regret
+minimized
+based equivalence able prove separable metric spaces
+exactly metric spaces
+regrets minimized
+respect family all probability distributions continuous mean-payoff functions
+ introduction 
+learning processes usually face exploration versus exploitation
+dilemma since they get information environment exploration
+able take good actions exploitation
+key example
+multi-armed bandit problem  sequential decision
+problem where at each stage forecaster pull one out
+given stochastic arms gets reward drawn at random
+according distribution chosen arm
+usual assessment criterion forecaster given its cumulative regret
+sum differences between expected reward best arm obtained rewards
+typical good forecasters like ucb  trade off between exploration exploitation
+our setting follows
+forecaster may sample arms given number times not necessarily known
+advance then asked output recommended arm
+he evaluated his simple regret difference between
+average payoff best arm average payoff obtained his recommendation
+distinguishing feature classical multi-armed bandit problem
+exploration phase evaluation phase separated
+now illustrate why natural framework numerous applications
+historically first occurrence multi-armed bandit problems was given medical trials
+case severe disease ill patients only included trial
+cost picking wrong treatment
+high associated reward would equal large negative value
+important minimize cumulative regret since test
+cure phases coincide
+however cosmetic products there exists test phase separated
+commercialization phase one aims at minimizing regret commercialized product rather
+than cumulative regret test phase irrelevant here several formul{\ae} cream considered some quantitative measurement like
+skin moisturization performed 
+\medskip
+pure exploration problem addresses design strategies making best possible use available numerical
+resources e g  {cpu} time order optimize performance some decision-making task
+occurs situations preliminary exploration phase
+costs not measured terms rewards but rather terms resources come limited budget
+motivating example concerns recent works computer-go e g  mogo program 
+given time i e  given amount {cpu} times given player
+explore possible outcome sequences plays output final decision
+efficient exploration search space obtained considering hierarchy
+forecasters minimizing some cumulative regret see instance
+{uct} strategy {bast} strategy
+however cumulative regret does not seem right
+way base strategies since simulation costs same exploring all
+options bad good ones
+observation
+was actually starting point notion simple regret work
+final related example maximization some function  observed noise see eg 
+whenever evaluating at point costly e g  terms numerical financial costs
+issue choose adequately possible where query value function
+order good approximation maximum
+pure exploration problem considered here addresses exactly design adaptive exploration strategies
+making best use available resources order make most precise prediction
+once all resources consumed
+remark also turns out all examples considered above
+may impose further restriction forecaster ignores ahead time
+amount available resources time budget number patients included
+seek anytime performance \medskip
+problem pure exploration presented above was referred ``budgeted multi-armed bandit problem''
+open problem where however another notion regret than simple regret considered
+pure exploration problem was solved minmax sense case two arms
+only rewards given probability distributions over
+related setting considered  where
+forecasters perform exploration during random number
+rounds aim at identifying best arm
+articles study possibilities
+limitations policies achieving goal overwhelming probability
+indicate particular upper lower bounds expectation
+another related problem identification best arm high probability
+however binary assessment criterion forecaster either right wrong
+recommending arm does not capture possible closeness performance recommended arm compared optimal one
+simple regret does
+moreover unlike latter criterion not suited distribution-free analysis

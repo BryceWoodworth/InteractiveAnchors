@@ -1,0 +1,32 @@
+ 
+duplications genes encoding highly connected essential proteins selected against several species but not human where duplicated genes encode highly connected proteins
+understand when how gene duplicability changed evolution compare gene network properties four species representative increase evolutionary complexity defined progressive growth number genes cells cell types
+find origin conservation gene significantly correlates properties encoded protein protein-protein interaction network
+all four species preserve core singleton central hubs originated early evolution highly conserved accomplish basic biological functions
+another group hubs appeared metazoans duplicated vertebrates mostly through vertebrate-specific whole genome duplication
+recent duplicated hubs frequently targets micrornas show tissue-selective expression suggesting alternative mechanisms control their dosage
+our study shows how networks modified during evolution contributes explaining occurrence somatic genetic diseases cancer terms network perturbations
+ introduction 
+gene duplicability defines propensity retain multiple copies gene varies among species gene categories
+yeast singleton genes i.e single copy genes whose duplication selected against preferentially encode members protein complexes highly connected essential proteins
+similar relationships maintained also multicellular species worm fly where singleton genes encode highly connected essential proteins
+strict retention one single copy particular gene categories consequence fragility towards dosage modifications
+their duplication deleterious because interferes essential cellular functions fine-tuned equilibrium between formation disruption protein-protein interactions 
+recent studies showed duplicability mammalian hubs essential proteins different other species
+human hubs mouse essential proteins involved development preferentially encoded duplicated genes while other categories essential mouse genes both singletons duplicated
+differences between human mouse other species suggest gene duplicability underwent modifications during evolution likely related extensive acquisition novel genes vertebrates
+through massive gene duplication followed diversification paralogs vertebrates accommodated expansion gene families involved regulation signal transduction protein transport protein modification
+context been proposed higher connectivity may favor functional diversification paralogs example through tissue specialization
+however thorough analysis types genes undergo modification their duplicability during evolution how influences network properties encoded proteins still missing
+comparison gene network properties between species most straightforward approach verify whether modification gene duplicability indeed related expansion vertebrate gene repertoire
+despite fact current representations protein interactomes still incomplete may include high fraction false positives recent completion interaction screenings several species finally allows comparative network analyses
+example comparison human fly worm yeast networks showed they maintain similar structure despite difference size
+addition regardless their connectivity proteins occupy central positions interactomes saccharomyces cerevisiae drosophila melanogaster caenorhabditis elegans also essential slow-evolving
+studies demonstrate comparison protein gene properties different species used infer general evolutionary trends
+unravel when differences between duplicability network properties arose during evolution undertake comparative analysis genes networks four species escherichia coli yeast fly human
+species display different levels complexity defined number genes cells cell types also high quality genomic interaction data
+compare connectivity centrality all proteins origin conservation duplicability corresponding genes
+identify core singleton hubs whose properties maintained constant prokaryotes human another group duplicated hubs emerged during evolution vertebrates
+our analysis provides evidence how hubs properties modified during evolution helps interpreting occurrence somatic genetic diseases typical multicellularity cancer terms network perturbations
+particular find cancer genes representatives two groups human hubs: one originated early evolution composed singleton genes other appeared later enriched duplicated genes
+functionally two groups correspond caretakers gatekeepers suggesting two different ways initiate tumorigenesis emerged at different times during evolution

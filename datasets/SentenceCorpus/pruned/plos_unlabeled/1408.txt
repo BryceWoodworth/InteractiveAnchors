@@ -1,0 +1,30 @@
+
+gene regulatory networks direct interactions but also include interactions signaling molecules
+describe how interactions derived model underlying biochemical reaction network using assumptions combination sensitivity metabolic control analysis
+apply approach model network
+our results show derived gene regulatory network what usually assumed
+moreover network interactions fixed biochemical reactions specific parameter values rate
+following change growth conditions may affect interactions though
+leads feedback structure at same time robust changes properties changes environment
+introduction
+adaptation changes their environment involves expression genes membrane etc
+gene regulatory networks expression clusters related genes
+interactions network may direct case gene transcription factor expression another gene
+most time however regulatory interactions when gene
+gene regulatory network thus not reduced its regulatory interactions metabolic signaling pathways may feedback system
+network good example because signal gene expression
+at level gene expression network feedback interactions between
+global like control expression while latter pathways control expression global
+instance produce required activation
+aim paper develop method direct interactions gene regulatory network underlying biochemical reaction network
+due complexity metabolic signaling networks interactions difficult general
+show model reduction based assumptions system together sensitivity metabolic control analysis able interactions
+indeed allows individual reactions
+therefore provides framework metabolic effects gene regulation
+apply our approach model part network e pathways their genetic metabolic regulation
+analysis derived gene regulatory network leads three new
+first what often assumed network due feedback resulting interactions
+additional complexity important issue correct data studies
+second derived gene regulatory network e sense interactions fixed information biochemical reactions without rate parameter values
+therefore feedback structure robust changes properties other biochemical reactions species
+third change environmental conditions may thus interactions resulting dynamic regulatory network

@@ -1,0 +1,9 @@
+ 
+paper introduce class stationary prediction strategies construct prediction algorithm asymptotically performs well best continuous stationary strategy
+make mild compactness assumptions but no stochastic assumptions about environment
+particular no assumption stationarity made about environment stationarity considered strategies only means they do not depend explicitly time; argue natural consider only stationary strategies even highly non-stationary environments
+ introduction 
+paper belongs area learning theory been variously referred prediction expert advice competitive on-line prediction prediction individual sequences universal on-line learning; see review
+there many proof techniques known field; paper based kalnishkan vyugin's weak aggregating algorithm  but possible some numerous other techniques could used instead
+section give main definitions state our main results theorems ; their proofs given sections 
+section informally discuss notion stationarity section concludes

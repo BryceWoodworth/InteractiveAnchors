@@ -1,0 +1,25 @@
+ 
+mitochondria eukaryotic organelles originated endosymbiosis alpha-proteobacterium
+gain insight into evolution mitochondrial proteome proceeded through transition free-living cell specialized organelle compared reconstructed ancestral proteome mitochondrion proteomes alpha-proteobacteria well mitochondrial proteomes yeast man overall there been large turnover mitochondrial proteome during evolution mitochondria
+early evolution mitochondrion proteins involved cell envelope synthesis virtually disappeared whereas proteins involved replication transcription cell division transport regulation signal transduction been replaced eukaryotic proteins
+more than half what remains mitochondrial ancestor modern mitochondria corresponds translation including post-translational modifications metabolic pathways directly indirectly involved energy conversion
+altogether results indicate eukaryotic host hijacked proto-mitochondrion taking control its protein synthesis metabolism
+ introduction 
+mitochondria organelles found virtually all eukaryotic cells
+addition their role energy conversion mitochondria involved many processes intermediate metabolism synthesis heme groups steroids amino acids iron-sulphur clusters
+phylogenetic analyses mitochondrial genes indicate all mitochondria derive single alpha-proteobacterial ancestor so-called proto-mitochondrion
+during transformation proto-mitochondrion organelle its proteome underwent series modifications including among others acquisition protein import machinery adp/atp carrier leading situation only minority mitochondrial proteins traced back alpha-proteobacterial ancestor
+similarly large transformations mitochondrial metabolism thought occurred course mitochondrial evolution
+according recent reconstruction proto-mitochondrion possessed aerobic metabolism comprising considerable variety pathways fatty-acid synthesis degradation respiratory chain fe-s cluster assembly pathways
+some studies focused subsequent evolution alpha-proteobacteria some mitochondrial pathways electron transport chain
+however no comprehensive analysis been performed so far analyze proteomic transition mitochondria at larger scale
+still largely unknown example aspects proteome modern mitochondria resemble its bacterial ancestor what extent current metabolic diversity observed mitochondria different organisms was achieved through differential gain differential loss proteins
+address questions compared ancient modern mitochondrial proteomes their inferred metabolic pathways
+reconstruct proteome proto-mitochondrion used similar approach one used previously smaller set genomes
+rationale behind approach proto-mitochondrial proteins eukaryotic proteins alpha-proteobacterial ancestry they detected constructing phylogenies eukaryotic proteins examining those monophyletic relation between alpha-proteobacterial proteins eukaryotic proteins
+metabolic pathways modern mitochondria were inferred recent proteomics surveys highly pure isolated mitochondria yeast human
+comparison functional classification proteomes indicates only classes corresponding translation post-translation modification protein folding metabolism do current-day mitochondria resemble proto-mitochondrion
+other classes either disappeared been replaced proteins non alpha-proteobacterial origin
+focusing metabolic transition compared inferred ancestral mitochondrial metabolism metabolism present-day mitochondria inferred comprehensive mitochondrial proteomics
+comparing three reconstructed metabolic pathways trace main lines metabolic transition early endosymbiont modern organelle well later divergence fungal metazoan mitochondrial metabolic pathways
+altogether our results indicate continuously increasing bias toward energy conversion alpha-proteobacteria proto-mitochondrion proto-mitochondrion current-day mitochondrion significant retargeting metabolic enzymes alpha-proteobacterial origin other cellular compartments complete eukaryotic takeover replication transcription mitochondrial division signal transduction gene regulation

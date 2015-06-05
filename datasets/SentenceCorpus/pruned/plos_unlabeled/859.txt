@@ -1,0 +1,45 @@
+
+understanding complex networks interactions one
+due recent experimental including other methods interaction detection network data available
+major however levels noise
+example thought positive rate could high percent negative rate may range percent percent
+experiments levels noise
+present novel technique confidence levels interactions networks obtained experimental studies
+use predicting new interactions thus future biological experiments
+technique first best network model networks graphs
+our approach percent sensitivity percent
+use confidence physical interactions human network
+using our approach predict interactions human network significant protein pairs common terms
+moreover significant our predicted interactions database
+data methods available
+introduction
+networks used model natural studied computational systems biology
+nodes networks represent genes proteins between nodes interactions between corresponding
+interactions could many different types including functional genetic physical interactions
+understanding complex networks fundamental issue systems biology
+particular importance interaction networks
+networks nodes proteins two nodes if corresponding proteins
+networks give new into function individual proteins protein cellular complex system
+techniques protein complex identification amount experimental data many organisms
+however data produced techniques very high levels
+negative rates range percent percent negative rates percent percent
+positive rates could high percent experiments they could high percent
+thus level noise networks confidence each interaction essential task
+two recent studies provided two high quality data sets
+et al defined number times two proteins observed together relative their frequency data set
+they use not only direct but also relationships
+two proteins each identified third protein used
+et al used machine learning methods including bayesian networks decision define confidence potential interactions
+based direct observations
+they used markov clustering algorithm define protein
+data sets produced two groups very different thought contain many
+two data sets were into one set experimentally based primary data using system
+using set they showed new data set more accurate than original individual sets defined using small scale experimental methods
+original interactions two studies general interaction data they being low confidence
+their metric they new interactions were not among original interactions produced set interactions accuracy accuracy small scale experiments
+paper use high confidence data set test our approach
+recent years several random graph models been proposed model random graphs same degree distribution data graphs random graphs models
+technique presented paper one first use network model networks other than just data
+demonstrate graph model used confidence levels known interactions networks predicting novel ones
+apply our technique data sets negative interactions
+new approach compared existing network techniques section

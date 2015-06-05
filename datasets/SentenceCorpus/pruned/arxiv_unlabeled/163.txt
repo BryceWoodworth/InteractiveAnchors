@@ -1,0 +1,29 @@
+
+contains three information datasets used testing machine learning
+algorithms required values search results measured using standard measures depend only relative order results
+many proposed algorithms linear classifier
+contrast other algorithms define additional free variable each
+allows fact results different
+cost idea addition relatively few parameters
+our approach simple used standard regression test
+results reported algorithms
+hence seems our approach other more complex
+introduction
+
+
+version 2 contains three information datasets used testing machine learning
+algorithms required values search results measured using standard measures see designed way only relative order results
+input learning problem where each vector standard features together
+either binary relevant relevant very relevant
+all reported algorithms used task rely fact corresponding same some sense each other
+measures over where each function
+example use pairs results same cost function but pairs results
+following approach seems at first too compared since training information given why not simply linear classifier predict use prediction confidence
+approach
+response may depend
+hypothesis define additional free variable each
+allows fact results different
+cost idea addition relatively few parameters
+our approach simple used standard regression test data
+work not first suggest dependent but most way address using linear classification before other should tested
+based our judgment other reported algorithms used more our solution overall better given data

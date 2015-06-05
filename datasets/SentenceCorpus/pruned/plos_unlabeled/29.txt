@@ -1,0 +1,42 @@
+
+elements sequences make up significant genomes
+despite their importance genome biology most genome sequences rely results single computational program
+contrast recent gene gene models produced multiple independent sources computational evidence
+quality level gene models developed combined systems used gene results multiple identification methods
+principle models genomic sequences using combined computational evidence derived previous
+our system designed use genome results produce
+d now estimated at percent found higher number than previously identified
+most new derive small few long highly not previously
+also estimated into at least one other elements
+allows even most complex models including highly elements those often found sequences
+our other genome sequences those d other species
+introduction
+elements dna sequences dynamic component genomes
+distribution they been found all organisms studied few
+represent important components genome sequences there no genomic dna close
+show high species number types differ between even related organisms
+there evidence may between species mechanisms
+dynamics within species also effects elements their genomes
+individual may lead genome mutations genes changes gene regulation
+some may even become play normal functions
+despite their effects understand very little about most aspects biology
+one way our knowledge biology through computational analysis number complete genomic sequences
+detailed comparison distribution genomes fundamental biological properties differ among species
+however about biology based derived only if about results analyses
+strong result computational biology should its robustness particular method used
+however typically results single computational program recent studies may most efficient most approach
+contrast recent field gene gene models produced multiple independent sources computational evidence
+recent development several new methods detection now possible apply similar combined evidence approach quality level gene models
+achieve aim developed results multiple identification methods
+our uses combined computational evidence derived previously
+designed our system use framework genome computational evidence efficient manner produce models
+allows complex models key structural allow into highly elements
+contrast simply our method provides means complete accurate multiple sources computational evidence goal important experimental studies genome biology
+test case chosen genomic sequence
+genome sequence d among quality genome sequences particularly well sequence studies since dna sequences been high quality analysis
+moreover d set used
+tests performed here sequence show approach performance over individual detection methods larger genome than previously estimated
+applied our new sequence several extended sequence regions produce d genome
+now estimated at percent found higher number than previously identified
+also estimated into at least one other elements
+our other genome sequences could increase genomic regions complex sequences

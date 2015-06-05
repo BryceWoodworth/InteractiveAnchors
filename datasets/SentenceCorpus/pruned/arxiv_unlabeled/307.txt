@@ -1,0 +1,53 @@
+
+analyze convergence recently proposed algorithm estimation called
+our analysis based new algorithm
+show under some conditions global sense
+due special sparse estimation problems context machine learning assumptions make more natural than those made analysis algorithms
+addition new us wide sparse estimation problems
+experimentally our analysis large scale regression problem compare algorithm previously proposed algorithms both datasets
+introduction
+sparse estimation through convex regularization become common practice many application including natural processing
+however increase size analyze needed development optimization algorithms machine learning applications
+sparse estimation methods estimate unknown variables through loss term term regularization term
+paper focus convex i e both loss term regularization term convex functions unknown variables
+may some various types solution
+although problem convex there three factors application general tools convex optimization context machine learning
+first factor loss functions
+loss most used field many algorithms sparse estimation been developed
+however variety loss functions much machine learning few loss other loss functions
+note functions not strongly convex like loss
+see loss functions consider
+second factor nature data matrix call design matrix paper
+regression problem design matrix defined input vectors along
+if input vectors numerical e g gene expression data design matrix no structure
+addition characteristics matrix e g condition number unknown data provided
+therefore would like assumptions about design matrix sparse well
+third factor large number unknown variables parameters compared observations
+situation estimation methods applied
+factor may been context signal number observations number parameters
+various methods been proposed efficient sparse estimation see
+many previous studies focus regularization term
+contrast focus between variables design matrix
+fact if optimization problem into smaller e g single variable problems optimization
+recently showed so called method see seen approximation process
+paper show recently proposed algorithm considered exact up finite version approximation process discussed
+our based between al algorithm
+framework also allows us study convergence
+show under some conditions means number need obtain accurate solution no greater than
+due framework our analysis wide variety important
+our analysis classical result convergence algorithms taking special structures sparse estimation into account
+addition make no instead our convergence analysis recent result
+also been considered sparse signal
+what approach those studied al algorithm applied problem see results problem solutions see
+al problem also important role convergence analysis because some loss functions e g loss not strongly convex see
+recently compared algorithms problems reported was more efficient
+see also related
+paper follows
+sparse estimation problem review algorithm
+derive algorithm framework discuss special algorithm discussed
+analyze convergence algorithm
+discuss previously proposed algorithms contrast them
+our analysis regression problem
+moreover compare recently proposed algorithms regression including datasets under variety conditions
+finally paper
+most given

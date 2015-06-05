@@ -1,0 +1,39 @@
+ 
+bound future loss when predicting any computably stochastic sequence online
+solomonoff finitely bounded total deviation his universal predictor true distribution algorithmic complexity
+here assume at time already observed
+bound future prediction performance new variant algorithmic complexity given  plus complexity randomness deficiency
+new complexity monotone its condition sense complexity only decrease if condition prolonged
+also briefly discuss potential generalizations bayesian model classes classification problems
+ introduction 
+consider problem online=sequential predictions
+assume sequences drawn some ``true'' but unknown probability distribution
+bayesians proceed considering class models=hypotheses=distributions sufficiently large  prior over
+solomonoff considered truly large class contains all computable probability distributions
+he showed his universal distribution converges rapidly   i e \ predicts well any environment long computable modeled computable probability distribution all physical theories sort
+roughly  where length shortest description  called kolmogorov complexity
+since incomputable they approximated practice
+see eg  references therein
+universality also precludes useful statements about prediction quality at particular time instances   opposed simple classes like iid \ sequences data size  where accuracy typically
+luckily bounds expected total cumulative loss e g \ number prediction errors derived  often sufficient online setting
+bounds terms kolmogorov complexity
+instance deterministic  number errors sense tightly bounded measures case information bits observed infinite sequence
+paper assume at time already observed
+hence interested future prediction performance  since typically don't care about past errors
+if total loss finite future loss must necessarily small large
+sense paper intends quantify apparent triviality
+if complexity bounds total loss natural guess something like conditional complexity given bounds future loss if contains lot even all information about  should make fewer no errors anymore  indeed prove two bounds kind but additional terms describing structural properties
+additional terms appear since total loss bounded only expectation hence future loss small only ``most''
+first bound theorem additional term complexity length kind worst-case estimation
+second bound theorem finer: additional term complexity randomness deficiency
+advantage deficiency small ``typical'' bounded average contrast length
+but case conventional conditional complexity turned out unsuitable
+so introduce new natural modification conditional kolmogorov complexity monotone function condition
+informally speaking require programs descriptions consistent sense if program generates some given  then must generate same given any prolongation
+new posterior bounds also significantly improve upon previous total bounds
+paper organized follows
+some basic notation definitions given sections
+section prove discuss length-based bound theorem
+section show why new definition complexity necessary formulate deficiency-based bound theorem
+discuss definition basic properties new complexity section prove theorem section
+briefly discuss potential generalizations general model classes classification concluding section

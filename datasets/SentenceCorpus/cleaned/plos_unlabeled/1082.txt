@@ -1,0 +1,42 @@
+ 
+biophysically detailed models single cells difficult fit real data
+recent advances imaging techniques allow simultaneous access various intracellular variables data used significantly facilitate modelling task
+data however noisy current approaches building biophysically detailed models not designed deal
+extend previous techniques take noisy nature measurements into account
+sequential monte carlo methods combination detailed biophysical description cell used principled model-based smoothing noisy recording data
+also provide alternative formulation smoothing where neural nonlinearities estimated non-parametric manner
+biophysically important parameters detailed models inferred automatically noisy data via expectation-maximisation
+overall find model-based smoothing powerful robust technique smoothing noisy biophysical data inference biophysical parameters face recording noise
+ introduction 
+recent advances imaging techniques allow measurements time-varying biophysical quantities interest at high spatial temporal resolution
+example voltage-sensitive dye imaging allows observation backpropagation individual action potentials up dendritic tree
+calcium imaging techniques similarly allow imaging synaptic events individual synapses
+data very well-suited constrain biophysically detailed models single cells
+both dimensionality parameter space noisy undersampled nature observed data renders use statistical techniques desirable
+here here use sequential monte carlo methods standard machine-learning approach hidden dynamical systems estimation automatically smooth noisy data
+first step will do while inferring biophysically detailed models; second step inferring non-parametric models cellular nonlinearities
+given laborious nature building biophysically detailed cellular models hand there long been strong emphasis robust automatic methods
+large-scale efforts added need methods yielded exciting advances
+neurofitter package example provides tight integration number standard simulation tools; implements large number search methods; uses combination wide variety cost functions measure quality model's fit data
+however highly complex approaches while extremely flexible arguably make optimal use neither richness structure present statistical problem nor richness new data emerging imaging techniques
+past been shown us others knowledge true transmembrane voltage decouples number fundamental parameters allowing simultaneous estimation spatial distribution multiple kinetically differing conductances; intercompartmental conductances; time-varying synaptic input
+importantly inference problem form constrained linear regression single global optimum all parameters given data
+none approaches however at present take various noise sources recording situations explicitly into account
+here extend findings applying standard inference procedures well-founded statistical descriptions recording situations hope more specifically tailored approach will provide computationally cheaper more flexible robust solutions probabilistic approach will allow noise addressed principled manner
+specifically approach issue noisy observations interpolation undersampled data first model-based then model-free setting
+start exploring how accurate description cell used optimal de-noising infer unobserved variables ca 2 concentration voltage
+then proceed show how accurate model cell inferred noisy signals first place; relies using model-based smoothing first step standard two-step iterative machine learning algorithm known expectation-maximisation
+maximisation step here turns out weighted version our previous regression-based inference method assumed exact knowledge biophysical signals
+aim paper fit biophysically detailed models noisy electrophysiological imaging data
+first give overview kinds models consider; parameters those models seek infer; how inference affected noise inherent measurements; how standard machine learning techniques applied inference problem
+overview will couched terms voltage measurements but later also consider measurements calcium concentrations
+compartmental models spatially discrete approximations cable equation allow temporal evolution compartment's voltage written asformulawhere formula voltage compartment formula formula specific membrane capacitance formula current evolution noise
+note important factor formula ensures noise variance grows linearly time formula
+currents formula will consider here three types:
+axial currents along dendritesformula
+transmembrane currents active passive other membrane conductancesformula
+experimentally injected currentsformulawhere formula indicates one particular current type formula its reversal potential formula its maximal conductance compartment formula formula membrane resistivity formula current experimentally injected into compartment
+variable formula represents time-varying open fraction conductance typically given complex highly nonlinear functions time voltage
+example hodgkin huxley k channel kinetics given formula withformulaand formula themselves nonlinear functions voltage again additive noise term
+practice gate noise either drawn truncated gaussian one work transformed variable formula
+similar equations formulated other variables intracellular free ca 2 concentration 

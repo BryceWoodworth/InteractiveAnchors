@@ -1,0 +1,30 @@
+ 
+distinction proposed between recommending preferred choice options recommending against non-preferred choice options
+binary choice both recommendation modes logically though not psychologically equivalent
+report empirical evidence showing speakers recommending preferred options predominantly select positive frames less common when speakers recommend against non-preferred options
+addition option attractiveness shown affect speakers' choice frame adoption recommendation mode
+results interpreted terms three compatibility effects i recommendation mode-valence framing compatibility speakers' preference positive framing enhanced under recommending diminished under recommending against instructions ii option attractiveness-valence framing compatibility speakers' preference positive framing more pronounced attractive than unattractive options iii recommendation mode-option attractiveness compatibility speakers more likely adopt recommending approach attractive than unattractive binary choice pairs
+ introduction 
+framing effects been much debated ever since tversky kahneman showed preference risk dependent choice alternatives being framed either positive negative terms
+evidently choice behavior determined not only inherent value alternative options but also way they described
+early framing studies exposed participants vignettes contained text fragments recorded decision makers' corresponding choices
+little attention was paid studies source message
+reality however message transferred source e g speaker target e g listener
+indeed analysis speakers' listeners' perspective central conversational analysis human judgment constitutes essence grice's logic conversation relevance theory
+social context decision making therefore crucial when studying framing
+understanding pragmatics framing requires not only study decision makers' responses alternative frames but also examination speakers' construction preference among various possible frames
+present paper constitutes continuation our previous research employing conversational framework persuasive efficacy speakers listeners was examined
+specifically previous research analyzed risky choice framing shown speakers who try persuade listener adopt particular choice alternative possess distinct preference positive over negative framing
+judged listeners' responses however inclination use positive frames effective promoting riskless but not risky options
+demonstrated empirically incompatibility between speakers listeners was due asymmetry evaluation mode between speakers listeners
+speakers jointly i e comparatively assess information persuasive qualities alternative frames
+contrast listeners exposed only one frames consequently assess information only separately i e non-comparatively
+our earlier research studied frame valence positive vs negative preferences speakers' their effectiveness persuading listeners
+specifically examined compatibility between speakers listeners terms frame preferences
+present study explore closely related issue valence framing namely manner option recommended
+distinction proposed between two general persuasive orientations speakers might adopt recommending preferred choice alternatives recommending against non-preferred choice alternatives
+distinction referred recommendation mode
+broadly speaking recommending entail drawing attention listing desired attributes thus forming positive orientation
+contrast recommending against requires attending unwanted aspects thus forming negative orientation
+note present context positive negative orientations should interpreted not just absolute but also relative terms
+thus example saying item cheaper than item b implies positive recommendation

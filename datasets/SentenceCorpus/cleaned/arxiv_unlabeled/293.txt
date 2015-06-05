@@ -1,0 +1,68 @@
+ 
+learning appropriate distance metrics critical problem image classification retrieval
+work propose boosting-based technique termed \boostmetric learning mahalanobis distance metric
+one primary difficulties learning metric ensure mahalanobis matrix remains positive semidefinite
+semidefinite programming sometimes used enforce constraint but does not scale well
+instead based key observation any positive semidefinite matrix decomposed into linear positive combination trace-one rank-one matrices
+thus uses rank-one positive semidefinite matrices weak learners within efficient scalable boosting-based learning process
+resulting method easy implement does not require tuning accommodate various types constraints
+experiments various datasets show proposed algorithm compares favorably those state-of-the-art methods terms classification accuracy running time
+ introduction 
+been extensively sought-after goal learn appropriate distance metric image classification retrieval problems using simple efficient algorithms
+distance metrics essential effectiveness many critical algorithms nearest neighbor  nn means clustering kernel regression example
+show work how mahalanobis metric learned proximity comparisons among triples training data
+mahalanobis distance \aka~gaussian quadratic distance parameterized positive semidefinite \psd matrix
+therefore typically methods learning mahalanobis distance result constrained semidefinite programs
+discuss problem setting well difficulties learning matrix
+if let represent set points  training data consist set constraints upon relative distances between points  where measures distance between
+interested case computes mahalanobis distance
+mahalanobis distance between two vectors takes form:  matrix
+equivalent learn projection matrix
+constraints those above often arise when known belong same class data points while belong different classes
+some cases comparison constraints much easier obtain than either class labels distances between data elements
+example video content retrieval faces extracted successive frames at close locations safely assumed belong same person without requiring individual identified
+web search results returned search engine ranked according relevance ordering allows natural conversion into set constraints
+requirement being led development number methods learning mahalanobis distance rely upon constrained semidefinite programing
+approach number limitations however now discuss reference problem learning matrix set constraints upon pairwise-distance comparisons
+relevant work topic includes amongst others
+xing firstly proposed learn mahalanobis metric clustering using convex optimization
+inputs two sets: similarity set dis-similarity set
+algorithm maximizes distance between points dis-similarity set under constraint distance between points similarity set upper-bounded
+neighborhood component analysis nca large margin nearest neighbor lmnn learn metric maintaining consistency data's neighborhood keeping large margin at boundaries different classes
+been shown lmnn delivers state-of-the-art performance among most distance metric learning algorithms
+work lmnn psdboost directly inspired our work
+instead using hinge loss lmnn psdboost use exponential loss function order derive adaboost-like optimization procedure
+hence despite similar purposes our algorithm differs essentially optimization
+while formulation lmnn looks more similar support vector machines svm's psdboost lpboost our algorithm termed \boostmetric largely draws upon adaboost
+many cases difficult find global optimum projection matrix
+reformulation-linearization typical technique convex optimization relax convexify problem
+metric learning much existing work instead learns seeking global optimum \eg
+price heavy computation poor scalability: not trivial preserve semidefiniteness during course learning
+standard approaches like interior point newton methods require hessian usually requires resources where input dimension
+could prohibitive many real-world problems
+alternative projected sub-)gradient adopted
+disadvantages algorithm are: 1 not easy implement; 2 many parameters involved; 3 slow convergence
+psdboost converts particular semidefinite program metric learning into sequence linear programs lp's
+at each iteration psdboost lp needs solved lpboost scales around number iterations therefore variables
+increases scale lp becomes larger
+another problem psdboost needs store all weak learners rank-one matrices during optimization
+when input dimension large memory required proportional  prohibitively huge at late iteration
+our proposed algorithm solves both problems
+based observation any positive semidefinite matrix decomposed into linear positive combination trace-one rank-one matrices propose learning matrix
+weak learner rank-one matrix psdboost
+proposed algorithm following desirable properties: 1 efficient scalable
+unlike most existing methods no semidefinite programming required
+at each iteration only largest eigenvalue its corresponding eigenvector needed 2 accommodate various types constraints
+demonstrate learning mahalanobis metric proximity comparison constraints 3 like adaboost does not any parameter tune
+user only needs know when stop
+contrast both lmnn psdboost parameters cross validate
+also like adaboost easy implement
+no sophisticated optimization techniques lp solvers involved
+unlike psdboost do not need store all weak learners
+efficacy efficiency proposed demonstrated various datasets
+throughout paper matrix denoted bold upper-case letter  ; column vector denoted bold lower-case letter  
+th row denoted th column
+trace symmetric matrix calculates inner product two matrices
+element-wise inequality between two vectors like means all
+use indicate matrix positive semidefinite
+matrix  following statements equivalent: 1  ; 2 all eigenvalues nonnegative   ; 3 

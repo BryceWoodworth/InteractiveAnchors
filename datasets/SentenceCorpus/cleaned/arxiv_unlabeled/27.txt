@@ -1,0 +1,19 @@
+ 
+start simple asymptotic result problem on-line regression quadratic loss function: class continuous limited-memory prediction strategies admits ``leading prediction strategy'' not only asymptotically performs at least well any continuous limited-memory strategy but also satisfies property excess loss any continuous limited-memory strategy determined how closely imitates leading strategy
+more specifically any class prediction strategies constituting reproducing kernel hilbert space construct leading strategy sense loss any prediction strategy whose norm not too large determined how closely imitates leading strategy
+result extended loss functions given bregman divergences strictly proper scoring rules
+ introduction 
+suppose normed function class prediction strategies ``benchmark class''
+well known under some restrictions  there exists ``master prediction strategy'' sometimes also called ``universal strategy'' performs almost well best strategies whose norm not too large see eg  
+``leading prediction strategies'' constructed paper satisfy stronger property: loss any prediction strategy whose norm not too large exceeds loss leading strategy divergence between predictions output two prediction strategies
+therefore leading strategy implicitly serves standard prediction strategies whose norm not too large: prediction strategy suffers small loss degree its predictions resemble leading strategy's predictions only way compete leading strategy imitate \iffullfrom practical point view master strategies much more interesting than leading strategies although existence leading strategies very curious fact \blueend start formal exposition simple asymptotic result proposition \s asserting existence leading strategies problem on-line regression quadratic loss function class continuous limited-memory prediction strategies
+state non-asymptotic version result proposition  introduce several general definitions used throughout paper
+following two sections proposition generalized two directions loss functions given bregman divergences \s strictly proper scoring rules \s
+competitive on-line prediction typically avoids making any stochastic assumptions about way observations generated but consider mostly comparison purposes case where observations generated stochastically
+section contains most references related literature although there bibliographical remarks scattered throughout paper
+some proofs proof sketches given \s rest found full version paper
+proofs gathered \s
+final section \s discusses % general picture possible directions further research
+there many techniques constructing master strategies gradient descent strong weak aggregating algorithms following perturbed leader defensive forecasting mention just few
+paper will use defensive forecasting proposed based much earlier work levin foster vohra
+master strategies constructed using defensive forecasting automatically satisfy stronger properties required leading strategies; other hand not clear whether leading strategies constructed using other techniques

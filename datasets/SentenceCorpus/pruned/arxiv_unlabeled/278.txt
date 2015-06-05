@@ -1,0 +1,43 @@
+
+random popular efficient approach sequence
+large description some form structural between
+address issue efficient feature selection based through
+first show how parameter set significantly up training
+then introduce parameter regularization
+finally provide some empirical proposed approach training strategies
+particular shown proposed approach able take up processing larger models
+introduction
+random introduced popular effective approach structure learning tasks involving between complex objects
+important property their ability large feature sets some form structural between output
+directly modeling probability sequence given observation allows explicitly complex not directly models hidden markov models
+results presented section will ability use large sets features
+training convex optimization maximization function
+lack solution however training task requires numerical optimization perform inference over training set during objective function
+where modeling structure its general exact inference considered
+case modeling interaction between pairs makes complexity inference size even setting training remains computational especially when number output large
+structure another less studied impact number potential features considered
+possible introduce features test values some property observation
+fact features often contain information
+however their number scales number both computational feature functions parameter vectors memory estimation problem
+estimation problem need estimate large parameter vectors based sparse training data
+objective function norm parameter vector effective yet does not number feature needed
+paper consider use alternative function norm much parameter vectors
+will show sparse vector not only number feature functions need but also reduce time needed perform parameter estimation
+main objective function no use optimization algorithms
+been made instance algorithm uses fact norm remains when regions each fixed
+using technique test performance those obtained more models
+our first show even situation test performance regularization may parameter set reduce computational cost associated parameter training inference
+parameter estimation consider alternative optimization approach see also
+optimization performed based solution optimization problem
+order problems propose efficient applied selected group parameters
+our main thus i fast training algorithms uses parameter vectors novel optimization algorithm using
+two combined together using very large feature sets only very small number features selected
+will seen section situation natural processing applications particularly when number possible large
+finally proposed algorithm been c through experiments data
+particular provide detailed terms numerical solutions used training available
+paper follows
+section introduce our more address based example simple natural processing task
+section gains when sparse parameter vectors
+then study section training algorithm used achieve procedure
+section our respect related work
+finally section our experimental results obtained both data task recognition problem

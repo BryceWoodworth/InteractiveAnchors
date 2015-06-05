@@ -1,0 +1,19 @@
+
+signal sparse signal through arbitrary unknown stable time system where response
+types processes
+paper several both sparse signal measurements b sense
+sparse set measurements
+develop novel methods solve both cases sufficient conditions exact case when unknown system i e all known order
+setting out both measurements under certain conditions support structure
+our main idea through linear time system sequential measurements
+chosen its associated matrix property
+develop novel optimization algorithm show both unknown sparse input estimated
+introduction
+paper focus problems sparse processes
+specifically sparse input unknown response time stable linear resulting output t 2 g g g p g g p algorithm main result paper theorem section
+theorem found section
+help understand main idea first consider very simple case section provides general case
+section problem version our problem
+use solve problem detailed provided section
+section our techniques two related problem process process
+finally simulation results shown section

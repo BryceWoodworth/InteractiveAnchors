@@ -1,0 +1,47 @@
+
+methods designed predictive accuracy predictions multiple machine learning models
+recent work shown use additional each example performance methods but reported gains significant training time
+here present linear technique linear accuracy while linear regression stability
+model predictions using themselves linear functions
+technique was key solution second place recently
+significant increases accuracy over standard linear demonstrated
+introduction
+technique predictions models given learning algorithm
+algorithm model predictions form set predictions
+many machine learning had using related techniques prediction accuracy level obtained any individual models
+some also will use terms here
+since its introduction wide variety problems including large datasets machine learning
+one recent example power model was
+using different models
+indeed solution was at multiple levels i e
+suggests model may function conditions used
+instance context where predict preferences various amount data may significantly depending under
+model may more than model b who many but model b may model who only few
+many researchers developed approaches improve accuracy regression basis information
+additional source information like number number since was often will use here
+linear regression most common learning algorithm used regression
+many linear models well known
+computational cost involved models via solution linear system usually always
+they typically require minimum
+functional form itself
+at minimum linear models often initial against performance more complex models
+linear models do not at first appear well
+if simply models form one overall independent variables combined algorithm then resulting functional form does not appear relative given predictions various models should depend since associated each model constant values
+previous work indeed suggested models needed make good use
+complex many many use techniques
+number number items particular predicted various parameters some models were all used within overall
+almost all cases algorithms used were i e either neural network decision tree
+system called additional models presented
+tested but results showed most using number number were also two most used
+linear regression model model used algorithms model best results
+linear regression was least approaches
+not only application area where use other dynamic approaches model been
+classification problem context linear regression algorithm entropy predicted class probabilities although they found limited tasks machine learning
+approach does not use per but does adaptive approach described
+they present algorithm based changes models depending estimates models within particular input space
+thus literature suggests approaches usually required order make good use when
+method presented paper however while being via linear regression techniques
+method does not simply additional against
+associated models linear functions
+thus technique all stability associated linear regression while still significant accuracy
+approach was important part solution second place

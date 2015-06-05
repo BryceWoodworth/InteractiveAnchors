@@ -1,0 +1,29 @@
+ 
+research processing recognition information focused testing recognition heuristic rh
+aggregate noncompensatory use recognition information postulated rh was rejected several studies while rh could still account considerable proportion choices
+results explained if either part subjects used rh b nobody used but its choice predictions were accidentally line predictions strategy used
+current study exemplifies new approach model testing determined individuals' decision strategies based maximum-likelihood classification method taking into account choices response times confidence ratings simultaneously
+unlike most previous studies rh our study tested rh under conditions provided information about cue values unrecognized objects argue fairly common thus some interest
+number number percent subjects overall behavior was best explained compensatory parallel constraint satisfaction pcs strategy
+proportion subjects using enhanced rh heuristic rhe was negligible up number number percent number percent subjects seemed use take best strategy ttb
+more-fine grained analysis supplemental behavioral parameters conditional strategy use supports pcs but calls into question process assumptions apparent users rh rhe ttb within our experimental context
+our results consistent previous literature highlighting importance individual strategy classification compared aggregated analyses
+ introduction 
+imagine you visit nice conference southern france
+your presentation was successful you want reward yourself good wine
+you offered chateau teyssier chateau margaux
+waiter presents you both bottles
+you not tried wines before but you remember having heard chateau margaux
+offered number chateau teyssier st
+emilion grand cru classification
+chateau margaux medoc premier cru classification number
+how would you predict wine you will like better
+simple strategy would select wine you recognize
+alternatively you might compare bottles available cues stepwise manner starting instance region instantly choose chateau teyssier because you know wine st
+emilion region usually meets your preferences
+you could weigh all pieces information against each other taking into account their importance also their constellation
+you might quickly come up consistent interpretation all pieces information although chateau margaux outstanding classification well known would suboptimal drink wine so early
+chateau teyssier clearly preferable because comes excellent region good classification been sufficiently matured
+paper investigate how recognition information processed integrated other available cue information decisions
+particularly compare whether people apply simple noncompensatory strategies like two strategies known recognition heuristic rh applied situation known cue values take best heuristic ttb enhanced version rh combines them rhe whether people alternatively rely more complex partially automatic processes generate consistent interpretations referred parallel constraint satisfaction pcs strategy
+most previous research processing recognition information focused testing against rh

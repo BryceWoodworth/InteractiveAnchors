@@ -1,0 +1,24 @@
+ 
+decision research psychology traditionally been influenced homo oeconomicus metaphor its emphasis normative models deviations predictions those models
+contrast principal metaphor cognitive psychology conceptualizes humans 'information processors' employing processes perception memory categorization problem solving so
+many processes described cognitive theories similar those involved decision making thus increasing cross-fertilization between two areas important endeavour
+wide range models metaphors been proposed explain describe 'information processing' many models been applied decision making ingenious ways
+special issue encourages cross-fertilization between cognitive psychology decision research providing overview current perspectives one area continues highlight benefits synergistic approach cognitive modeling multi-attribute decision making
+introduction discuss aspects cognitive system need considered when modeling multi-attribute decision making e g automatic versus controlled processing learning memory constraints metacognition illustrate how aspects incorporated into approaches proposed contributors special issue
+end discussing challenges posed contrasting sometimes incompatible assumptions models metaphors
+ introduction 
+traditional approach study judgment decision making jdm compare judgment decision considered judgment about what do standard benchmark
+comparison enables evaluation whether particular judgment good bad relative standard
+normative models provide standards valuable because their clear sets rules axioms those derived economics expected utility theory mathematics probability theory used test predictions about human behavior
+when behavior deviates predictions normative models  i e biases observed  attempts made ascertain why often techniques overcoming biases prescribed
+approach its focus deviations normative models contrasts ideal homo oeconomicus apparent reality cognitive miser even loser been enormously influential useful
+however not been without its critics
+both metaphors fall short psychology's actual goal because they tend define human decision making what not consequence jdm research tended follow its own path some would argue become disconnected much psychology general cognitive psychology particular
+disconnection great pity given many issues at core understanding human judgment decision making necessarily central wider goal understanding human cognition
+papers special issue judgment decision making grew symposium held at max planck institute research collective goods focused one area jdm research believe will continue benefit its overlap more mainstream cognitive psychology
+area multi-attribute judgment symposium explored recent advances cognitive modeling approaches been brought bear basic question how make judgments when faced multiple pieces information
+number years since seminal attempt john payne make jdm research more cognitive wide range approaches cognitive psychology been applied question
+our aim issue provide reader up-to-date overview approaches emphasize important influential advances made taking interface between jdm cognitive psychology seriously
+contrasting different approaches allows identification possible boundary conditions their appropriateness valid models cognitive processing hope will suggest fruitful avenues future research
+paper structured follows begin brief introduction serves highlight things know about cognition should incorporated into models multi-attribute judgment then discuss briefly how aspects addressed some models considered contributors special issue
+collection models however cannot simply viewed complementary accounts since they sometimes conflict respect fundamental assumptions

@@ -1,0 +1,28 @@
+ 
+construct model study tradeoffs associated aging adaptive immune system focusing cumulative effects replacing naive cells memory cells
+binding affinities characterized stochastic shape space model
+system loss arising individual infection associated disease severity measured total antigen population over course infection
+monitor evolution cell populations shape space over string infections find distribution losses becomes increasingly heavy-tailed time
+initially lowers average loss: memory cell population becomes tuned history past exposures reducing loss system when subjected second similar infection
+accompanied corresponding increase vulnerability novel infections ultimately causes expected loss increase due overspecialization leading increasing fragility age
+our model immunosenescence not result performance degradation some specific lymphocyte but rather natural consequence built-in mechanisms system adaptation
+robust yet fragile behavior key signature highly optimized tolerance
+ introduction 
+adaptive immune system vertebrates evolved manner enables adaptation history infections over lifetime each individual organism
+consists complex heterogeneous collection cells derived stem cells bone marrow proliferates lymph nodes
+cells endowed remarkable ability discriminate between self nonself agents within body remove nonself elements
+b t cells white blood cells constitute adaptive components immune system
+they derive their ability discriminate self nonself binding specificity their receptors: t cell receptors t cells membrane-bound antibody b cells
+receptors assembled randomly gene segments producing population naive cells each individual combination different binding specificity
+random combinations genes give immune system ability produce diverse cells capable responding many pathogens
+during infection cells whose receptors recognize antigen proliferate differentiate into antigen-removing effector cells long-lived memory cells
+memory cells give rise more rapid efficient response secondary exposure same antigen
+however due homeostatic regulation lymphocyte population growth memory cells reduces naive cell population size
+over time effect increasing sensitivity novel infections
+introduce model captures tradeoff between resilience repeated exposure sensitivity new pathogens
+model consists coupled differential equations immune-system cell populations defined terms their primary immunological function their binding characteristics
+relative population sizes evolve time stimulated episodic infections
+antigens drawn probability distribution their characteristics enables estimation binding affinity lymphocytes
+include constraint total number immune cells system define immunological loss function quantifies disease severity
+constraint number cells implies memory specific infections system seen comes at price unseen infections
+our model illustrates how immune system initially increases effectiveness but eventually becomes overspecialized age

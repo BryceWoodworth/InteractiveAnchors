@@ -1,0 +1,48 @@
+
+paper approach design general learning agent
+our approach based direct approximation bayesian notion general learning agents
+previously been whether theory could design practical algorithms
+answer open question first approximation agent
+develop our approximation introduce new tree search algorithm along context tree algorithm
+present set results variety stochastic domains
+number future research
+introduction
+learning popular agents learn experience
+bayesian notion learning agents unknown environments
+paper practical learning agent directly theory
+consider agent exists within some unknown environment
+agent environment
+each cycle agent action turn observation reward
+only information available agent its history previous interactions
+general learning problem construct agent over time much reward possible unknown environment
+agent mathematical solution general learning problem
+achieve environment assumed unknown but i e \ observations rewards agent given its past actions some program machine
+agent results two use sequential decision theory action universal future prediction agent context
+more let output universal machine program input finite length program
+action at time having actions having sequence pairs environment given } agent total reward over all possible up each them complexity consistent past generate future then action expected future rewards
+one major
+agent shown optimal many different
+particular agent will learn accurate model environment achieve its goal
+agent been given both
+complete description agent found
+agent only no means solution general learning problem
+rather best bayesian notion decision making general unknown environments
+its role general research should example same way empirical risk decision theory statistical machine learning research
+define what optimal if computational complexity not issue provide important theoretical design practical algorithms
+paper first time how practical agent theory
+seen there two
+first search into future will call
+second use bayesian mixture over predict future observations rewards based past will call learning
+both need computational
+there many different approaches one
+paper use version algorithm version context tree algorithm learning
+combination together theoretical experimental results form main paper
+paper follows
+section use describe environments agent experience including reward policy value functions our setting
+section general bayesian approach learning model environment
+section then tree search procedure will use approximate
+description context tree algorithm how use agent setting section
+two together section form our approximation algorithm
+experimental results then presented
+section provides related work our current approach
+section number future

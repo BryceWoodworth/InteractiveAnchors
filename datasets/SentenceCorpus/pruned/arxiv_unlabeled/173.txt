@@ -1,0 +1,45 @@
+
+been made algorithms during
+paper game problem data clustering then develop clustering algorithm data points considered who make decisions strategies games
+after each game each expected payoff
+later uses function change his them order his payoff
+further algorithms discussed two cases strategies two payoff two functions
+simulation results demonstrated data points datasets clustering algorithms fast rates convergence
+moreover comparison other algorithms also provides proposed approach data game
+introduction
+field
+more recently increasing number researchers different computer information theory involved properties
+during series significant had been made
+one was world algorithm while classical world classical algorithm time
+three years later computer could search database time
+et al combined algorithms propose algorithm
+recent years many focus game theory work been
+instance d studied game world
+his result showed if was strategies would always his who classical strategies increase his expected payoff well et al demonstrated could when both strategies p
+et al result i e result game would towards result while other used classical strategies et al investigated game domain
+their result showed there unique game when strategies were c
+et al reported game more efficient than classical game they found bound
+some experiments about games also been different
+more about games see
+algorithms make us out solutions better than best known classical certain types problems
+furthermore more important they new way find potentially
+therefore may construct classical algorithms present new algorithms solve problems pattern recognition better computer
+following idea some researchers proposed their novel methods demonstrated results
+addition data clustering main pattern recognition widely used many pattern analysis data information image
+however there usually little knowledge available about data
+response clustering into being particularly among data points
+data clustering study algorithms methods data points
+other words its task find structure given data points group them into clusters
+paper game problem data clustering order novel clustering algorithm based games
+our algorithms data points who make decisions games
+network each use strategies game against every one his
+later function small payoffs new higher payoffs at same time
+furthermore between his different one another
+during games structure network between tend stability
+finally if each only network will into several each
+paper section 2 some important about
+section algorithms two cases strategies payoff matrices functions then they
+section relationship between number number clusters discussed
+next effect cost payoff matrix relationship between total payoffs rates convergence algorithms
+section those datasets used simulations introduced then results algorithms demonstrated
+given section

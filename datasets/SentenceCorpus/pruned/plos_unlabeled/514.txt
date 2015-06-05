@@ -1,0 +1,48 @@
+
+network theory data analysis techniques new gene network analysis
+while network methods used biology network computational far more limited than social network
+here review propose several potentially useful network
+take advantage relationship between network theory field data analysis relationship among network gene networks
+network theory relationships among genes
+data analysis techniques also used address difficult problems network theory
+describe conditions when close relationship exists between network analysis data analysis techniques provide between two
+using provide network derive relationships among them
+use value expression data gene networks matrices factor into specific
+high low level networks allow us study relationships among among genes
+networks where genes significant respect sample show network concept connectivity measure
+our results using human yeast gene expression data
+network methods data methods application development systems methods
+introduction
+many biological networks properties
+common global properties include presence highly nodes approximate scale free
+common local properties include presence patterns regulation networks
+one goal article describe existing novel network used describe local global network properties
+example clustering network concept measures
+particularly network defined gene measure
+gene measures practical importance since they allow one gene information into network analysis
+functional analysis gene measure could pathway
+gene experiments gene could
+study gene measures since sample statistical measure gene
+example expression leads gene measure
+many data analysis methods focus relationship between sample gene expression data
+example gene methods aim find genes significantly associated sample another example prediction methods aim predict sample basis gene expression data
+gene expression across samples highly correlated natural describe their using network
+genes similar expression patterns may form pathways regulatory signaling
+gene networks been used describe many organisms yeast humans
+gene network methods also been used data analysis tasks gene outcome prediction
+while utility network methods data been demonstrated utility data analysis techniques network problems not yet been
+one goal article show simple used derive network results if networks defined basis correlation matrix
+although many our network will useful general networks particularly gene networks
+gene networks basis gene measure
+network nodes genes more gene expression
+gene expression i vector whose components report gene expression values across
+define similarity s between genes i value correlation between their expression
+using procedure similarity into measure
+network between gene expression i defined similarity s threshold parameter
+thus two genes if correlation between their expression threshold
+correlation leads simple network but may lead loss if been set there will no between two genes if their correlation
+continuous nature information one could simply define matrix value gene expression correlation matrix s
+however since data number samples often small others found useful strong
+natural define between two genes power value correlation 1
+approach leads gene network
+present empirical results networks main

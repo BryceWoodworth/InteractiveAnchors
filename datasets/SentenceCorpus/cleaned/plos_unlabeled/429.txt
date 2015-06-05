@@ -1,0 +1,26 @@
+ 
+early identification adverse effect preclinical commercial drugs crucial developing highly efficient therapeutics since unexpected adverse drug effects account one-third all drug failures drug development
+correlate protein drug interactions at molecule level their clinical outcomes at organism level developed integrated approach studying protein ligand interactions structural proteome-wide scale combining protein functional site similarity search small molecule screening protein ligand binding affinity profile analysis
+applying methodology elucidated possible molecular mechanism previously observed but molecularly uncharacterized side effect selective estrogen receptor modulators
+side effect involves inhibition sacroplasmic reticulum ca2 ion channel atpase protein transmembrane domain
+prediction provides molecular insight into reducing adverse effect serms supported clinical vitro observations
+strategy used case study being applied discover off-targets other commercially available pharmaceuticals
+process included drug discovery pipeline effort optimize drug leads reduce unwanted side effects
+ introduction 
+early identification adverse effects preclinical commercial drugs crucial developing highly efficient therapeutics since unexpected adverse drug effects contribute one-third all drug failures late stage drug development
+conventional practices identifying off-targets rely counterscreen compounds against large number enzymes receptors vitro
+computational approaches could not only save time costs spent during vitro screening providing candidate list potential off-targets but also provide insight into understanding molecular mechanisms protein drug interactions
+been shown potential off-targets identified silico establishing structure activity relationship small molecules
+however success ligand-based methods strongly depends availability coverage chemical structures used training few them directly take target 3d structure into account
+although assessment protein ligand interactions docking studies at atomic level extremely valuable understanding molecular mechanism adverse therapeutic effects protein ligand docking large scale hindered biased structural coverage human proteome lack practical methodologies accurately estimate binding affinity
+here approach problem different direction postulating proteins similar binding sites likely bind similar ligands
+study test postulate predicting potential off-target binding sites selective estrogen receptor modulators
+several commercial drugs targeting estrogen receptor alpha been developed treat breast cancers other diseases
+however therapy drugs tamoxifen associated undesirable side effects cardiac abnormalities thromboembolic disorders ocular toxicity
+identify off-targets serms attempt elucidate molecular mechanisms explaining their adverse effects searched similar ligand binding sites across fold functional space using template known serm binding site er
+search used robust scalable functional site prediction comparison algorithm developed recently our laboratory 22; xie bourne submitted
+consequently similar inhibitor site detected sacroplasmic reticulum ca2 ion channel atpase protein
+prediction further verified detailed protein ligand docking surface electrostatic potential analysis
+our prediction correlates well clinical biochemical observations providing molecular insight into reducing adverse effect serms
+strategy used case study could applied discover off-targets other commercially available pharmaceuticals repurpose existing drugs treat different diseases xie kinnings bourne preparation
+process could also included drug discovery development pipeline effort optimize drug leads reduce unwanted side effects

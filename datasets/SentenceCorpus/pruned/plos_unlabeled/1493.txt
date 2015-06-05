@@ -1,0 +1,59 @@
+
+regulation gene expression multiple regulatory control elements
+dynamic properties elements determine genetic networks development
+here propose method regulatory output approach free interactions experimental analysis
+apply method model network important cell cells
+show response relevant signals use model predict sensitivity network mutations
+also show between states only response signals than minimum threshold
+found property
+taken together our analysis not only new into cell regulatory network but also provides novel widely strategy experimental measurements into network models
+introduction
+appropriate control gene expression central development
+
+interactions regulatory proteins regulatory regions dna form complex gene regulatory networks
+whole genome sequences well experimental techniques identification regulatory sequences
+however experiments underlying connectivity both time
+our understanding even most studied model organisms remains
+moreover simply increasing numbers interactions between components not sufficient underlying network function individual
+properties will key understanding their
+development cells through cells via cells each associated unique regulatory state
+therefore essential understand properties various regulatory states between them their signaling
+goal using experimental approaches
+however development models potential existing experimental data order gain new
+various computational approaches been used regulatory network analysis past
+models provide information about network behavior existence states network robustness most useful large networks when experimental information
+however examine aspects continuous models more appropriate
+models gene regulation form functions based more detailed mechanisms derived using statistical approach
+models useful understanding general dynamics network
+they most effective small networks also predictive cellular behavior
+models based advantage including hypothesis about system
+most parameters models direct biochemical
+lack knowledge about specific biochemical parameters usually makes difficult results models experimental information about gene expression
+modeling approach been shown useful understanding certain gene regulation effects dynamics gene regulation
+system long model study cells
+cell functional very detailed pathways leading early via cells multiple
+long been key but networks within they defined
+detailed molecular regulatory elements active during early development identified specific between major regulatory specific
+moreover studies identified degree positive feedback connectivity major
+particular regulatory at core
+three transcription factor proteins well three regulatory elements through they via interactions
+regulatory interactions shown only significant binding sites shown
+contain multiple binding motifs
+contains binding motifs
+all essential normal important kernel
+very regulatory multiple direct positive feedback
+network but been identified other cell systems cell
+observations suggest design may associated cell behavior
+idea further control
+type different binding motifs each
+type were into vector tested using stable cell
+analysis produced results those
+been suggested connectivity positive feedback within cell play important cell
+however nature how may indeed remains
+paper construct mathematical model its properties using continuous modeling approaches
+first propose method free different regions measurements
+method together proposed biochemical mechanism significantly network parameter space
+measurements protein provide experimentally model behavior network
+analyze network response relevant signals show network response signals
+our model also predicts results various mutations sequences shows signals than threshold
+combination short signal not only provides new how may function control but also suggests more general role network development other major systems

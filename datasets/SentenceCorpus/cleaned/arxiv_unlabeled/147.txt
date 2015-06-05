@@ -1,0 +1,13 @@
+ 
+give characterization maximum entropy/minimum relative entropy inference providing two `strong entropy concentration' theorems
+theorems unify generalize jaynes' `concentration phenomenon' van campenhout cover's `conditional limit theorem'
+theorems characterize exactly what sense prior distribution conditioned given constraint distribution minimizing over all satisfying constraint `close' each other
+then apply our theorems establish relationship between entropy concentration game-theoretic characterization maximum entropy inference due tops{\o}e others
+ introduction 
+jaynes' maximum entropy maxent principle well-known principle inductive inference
+been applied statistical machine learning problems ranging protein modeling stock market prediction
+one its characterizations some would say `justifications' so-called concentration phenomenon\/
+here informal version phenomenon words : case prior distribution over domain at hand available proven related conditional limit theorem
+sections provide strong generalization both concentration phenomenon conditional limit theorem
+section results section used extend existing game-theoretic characterization again some would say ``justification'' maximum entropy due
+way provide sharper results two most frequently cited characterizations maximum entropy principle

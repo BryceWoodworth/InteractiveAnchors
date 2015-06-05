@@ -1,0 +1,55 @@
+ 
+article considers constrained minimization methods recovery high dimensional sparse signals three settings: noiseless bounded error gaussian noise
+unified elementary treatment given noise settings two minimization methods: dantzig selector minimization constraint
+results paper improve existing results literature weakening conditions tightening error bounds
+improvement conditions shows signals larger support recovered accurately
+paper also establishes connections between restricted isometry property mutual incoherence property
+some results candes romberg tao 2006 donoho elad temlyakov 2006 extended
+ introduction 
+problem recovering high-dimensional sparse signal based small number measurements possibly corrupted noise attracted much recent attention
+problem arises many different settings including model selection linear regression constructive approximation inverse problems compressive sensing
+suppose observations form y  f z where matrix given vector measurement errors
+goal reconstruct unknown vector
+depending settings error vector either zero noiseless case bounded gaussian where
+now well understood minimization provides effective way reconstructing sparse signal all three settings
+special case particular interest when no noise present 
+underdetermined system linear equations more variables than number equations
+clear problem ill-posed there generally infinite many solutions
+however many applications vector known sparse nearly sparse sense contains only small number nonzero entries
+sparsity assumption fundamentally changes problem making unique solution possible
+indeed many cases unique sparse solution found exactly through minimization: p \min\|\|_1 \mbox{subject to} f y
+minimization problem been studied example fuchs  candes tao donoho
+understanding noiseless case not only significant interest its own right also provides deep insight into problem reconstructing sparse signals noisy case
+see example candes tao donoho
+when noise present there two well known minimization methods
+one minimization under constraint residuals: p_1 \min\|\|_1 \mbox{subject to} \|y-f\gamma\|_2\epsilon
+writing terms lagrangian function   closely related finding solution regularized least squares: \min_\left\{\|y-f\gamma\|_2^2  \rho\|\|_1\right\}
+latter often called lasso statistics literature tibshirani 
+tropp gave detailed treatment regularized least squares problem
+another method called dantzig selector recently proposed candes tao
+dantzig selector solves sparse recovery problem through minimization constraint correlation between residuals column vectors : } candes tao showed dantzig selector computed solving linear program mimics performance oracle procedure up logarithmic factor
+clear regularity conditions needed order problems well behaved
+over last few years many interesting results recovering sparse signals been obtained framework restricted isometry property rip
+their seminal work  candes tao considered sparse recovery problems rip framework
+they provided beautiful solutions problem under some conditions restricted isometry constant restricted orthogonality constant defined section 
+several different conditions been imposed various settings
+paper consider minimization methods sparse recovery problem three cases: noiseless bounded error gaussian noise
+both dantzig selector ds minimization under constraint considered
+give unified elementary treatment two methods under three noise settings
+our results improve existing results weakening conditions tightening error bounds
+all cases solve problems under weaker condition where sparsity index respectively restricted isometry constant restricted orthogonality constant defined section
+improvement condition shows signals larger support recovered
+although our main interest recovering sparse signals state results general setting reconstructing arbitrary signal
+another widely used condition sparse recovery so called mutual incoherence property mip requires pairwise correlations among column vectors small
+see
+establish connections between concepts rip mip
+application present improvement recent result donoho elad temlyakov
+paper organized follows
+section  after basic notation definitions reviewed two elementary inequalities allow us make finer analysis sparse recovery problem introduced
+begin analysis minimization methods sparse recovery considering exact recovery noiseless case section
+our result improves main result candes tao using weaker conditions providing tighter error bounds
+analysis noiseless case provides insight case when observations contaminated noise
+then consider case bounded error section
+connections between rip mip also explored
+case gaussian noise treated section
+appendix contains proofs some technical results

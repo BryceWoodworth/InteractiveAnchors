@@ -1,0 +1,54 @@
+
+us directly dynamic cellular
+although techniques themselves understanding dynamic cellular functions number generated need processing tools statistical information
+problem underlying analysis cell lack methods properties
+here propose algorithm called evolution relationship between local changes local cell using
+algorithm us local their corresponding
+thus algorithm between local changes local signals time
+energy examined between local area difference activity
+expected but correlation time changes
+our method dynamics local change local protein activity statistical relationship between them time relationship
+thus algorithm value data better understand dynamics cellular function
+introduction
+cell change key process development organisms
+various types change appear during essential events part processes usually different
+therefore cell been used key cell state
+analyses cell properties been used recently new functions specific proteins
+moreover outcomes change us itself role cellular function
+quantitative approaches cellular systems they new
+because cellular change highly dynamic necessary understand mechanism cell regulation
+development direct observation cell changes activity specific proteins but difficulty information number
+several approaches context quantitative analysis recently
+series studies using quantitative instance revealed power analysis analysis number suggested distinct regulation dynamics different regions
+indeed computational methods been used determine properties dynamics protein activity gene expression
+there two major approaches detailed analysis local changes cells
+one widely used method describe motion time
+time change could also sequential specific region interest
+although there approach area need define recent studies using explore dynamics region cells
+indeed approach showed cell examined stochastic
+second approach cellular defined
+introduced active model known widely used analyze applications including
+example et al used cell analyze specific proteins into leading
+highly cell because does not require fixed necessary approach
+recently developed framework using level set method various cells cells
+although previous described specific aspects cellular there relationship between signaling events
+one problem between regions different
+dynamic relationship between change molecular signaling need them manner
+system does not local domains cell
+method cells consistent but its fixed number distribution when change growth neurons occurs
+taking problems into account need novel method better understand mechanisms regulation molecular signaling
+focused small signaling molecules associated cell
+binary between active states play key biochemical signaling cellular behaviors through
+well known unique specific structures
+evidence obtained using role role cell
+although some researchers notion variety cell our current study been view
+objective study was relationship between changes cells
+achieve needed data analysis between biochemical signaling
+however do not focus complete signaling pathways cell
+addition how changes cells rather than changes
+findings will however because results compared findings
+therefore first present algorithm called evolution local change
+main features our method identification local change based area difference between two cell not characterized point but defined area past history future evolution each between
+therefore method us complex cell while consistency during analysis
+second energy three found significant between change activity
+our study utility detailed cellular signal measure relationship between protein activity

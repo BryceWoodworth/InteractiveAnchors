@@ -1,0 +1,63 @@
+ 
+current challenge develop computational approaches infer gene network regulatory relationships based multiple types large-scale functional genomic data
+find single-layer feed-forward artificial neural network models effectively discover gene network structure integrating global vivo protein:dna interaction data genome-wide microarray rna data
+test yeast cell cycle transcription network composed several hundred genes phase-specific rna outputs
+anns were robust noise data variety perturbations
+they reliably identified ranked 10 12 known major cell cycle factors at top set 204 based sum-of-squared weights metric
+comparative analysis motif occurrences among multiple yeast species independently confirmed relationships inferred ann weights analysis
+ann models capitalize properties biological gene networks other kinds models do not
+anns naturally take advantage patterns absence well presence factor binding associated specific expression output; they easily subjected silico mutation uncover biological redundancies; they use full range factor binding values
+prominent feature cell cycle anns suggested analogous property might exist biological network
+postulated network-local discrimination occurs when regulatory connections explicitly disfavored one network module relative others class genes outside mitotic network
+if correct predicts mbf motifs will significantly depleted discriminated class discrimination will persist through evolution
+analysis distantly related schizosaccharomyces pombe confirmed suggesting network-local discrimination real complements well-known enrichment mbf sites g1 class genes
+ introduction 
+hundreds yeast rnas expressed cell cycle dependent oscillating manner
+both budding yeast fission yeast rnas cluster into four five groups each corresponding roughly phase cycle
+large sets phase-specific rnas also seen animal plant cells arguing extensive cycling transcription network fundamental property eukaryotes
+complete composition connectivity cell cycle transcription network not yet known any eukaryote many components may vary over long evolutionary distances but some specific regulators paneukaryotic some their direct target genes
+coupled experimental accessibility conservation core components connections make yeast mitotic cycle especially good test case studies network structure function evolution
+expose underlying logic transcription network starting point decompose cell cycle into its component phases link pertinent regulatory factors their immediate regulatory output patterns here form phasic rna expression
+one way do integrate multiple genome-wide data types impinge connection inference including factor:dna interaction data chromatin ip studies rna expression patterns comparative genomic analysis
+appealing partly because assays genome-comprehensive hypothesis-independent so they principle reveal regulatory relationships not detected classical genetics
+however scale complexity datasets require new methods discover rank candidate connections while also accommodating considerable experimental biological noise
+microarray rna expression studies budding yeast identified 230 1,100 cycling genes upper number encompassing nearly fifth all yeast genes
+specifics experimental design methods analysis contribute wide range number genes designated cycling but there agreement core set nearly 200
+yeast molecular genetic studies established transcriptional regulation critical controlling phase-specific rna expression some genes though does not exclude modulation additional contributions post-transcriptional mechanisms
+about dozen saccharomyces transcription factors been causally associated direct control cell cycle expression patterns including repressors activators co-regulators regulators assume both repressing activating roles depending context: ace2 fkh1 fkh2 mbp1 mcm1 ndd1 stb1 swi4 swi5 swi6 yhp1 yox1
+serve internal control true-positive connections
+conversely majority yeast genes no cell cycle oscillatory expression true negatives drawn group
+practical consideration how well behavior network represented critical datasets
+case cells all cell cycle phases present mixed phase exponentially growing yeast cultures used largest most complete set global protein:dna interaction data so far assembled functional genomics
+data further supported three smaller studies same basic design
+sets cell cycle apart many other transcription networks whose multiple states either partly entirely absent global chip data
+equally important rna expression data finely parse kinetic trajectory every gene across cycle budding yeast also distantly related fission yeast s pombe
+combination highly time-resolved rna expression data phase-mixed chip/array data used assign protein:dna interactions explicit cell cycle phases while evolutionary comparison s pombe highlight exceptionally conserved presumably fundamental network properties
+many prior efforts infer yeast transcription network connections genome-wide data were designed address global problem finding connection patterns across entire yeast transcriptome using very large diverse collections yeast rna dna and/or chromatin immunoprecipitation data
+present work focuses instead single cellular process its underlying gene network represents natural level organization positioned between single gene at one extreme entire interlocking community networks govern entire cell
+model regulatory factor:target gene behavior adapted neural networks integrate global expression protein:dna interaction data
+artificial neural networks structural computational models long history pattern recognition
+general reason thinking anns could effective task they some natural similarities transcription networks including ability create nonlinear sparse interactions between transcriptional regulators target genes
+they previously been applied model relatively small gene circuits though they not our knowledge been used problem inferring network structure integrating large-scale data
+reasoned simple single-layer ann would well-suited capture leverage two additional known characteristics eukaryotic gene networks
+first factor binding vivo varies over continuum values reflected chip data vivo footprinting binding site numbers affinity ranges site mutation analyses
+quantitative differences biological significance transcription output affecting cooperativity background leaky expression lack temporal sequencing gene induction factors become available disappear
+quite different world binding reduced simple two-state present/absent call
+neural networks able use full range binding probabilities dataset
+second anns give weight attention structural features persistent absence specific factors particular target groups genes
+negative image information potentially important not used other methods applied date
+inherent ability anns use properties potential strength compared algorithms rest solely positive evidence factor:target binding require discretization binding measurements into simplified bound/unbound call
+anns been most famously used machine learning black boxes perform classification tasks goal build network based training dataset will subsequently used perform similar classifications new data similar structure
+classical ann applications weights within network no particular interest long trained network performs desired classification task successfully when extrapolating new data
+anns used here substantially different way serving structural models
+specifically use simple feed-forward networks results interest mainly weights what they suggest about importance individual transcription factors groups factors specifying particular expression outputs
+here anns were trained predict rna expression behavior genes during cdc28 synchronized cell cycle based solely transcription factor binding pattern measured chip/array 204 yeast factors determined exponentially growing culture
+resulting ann model then interrogated identify most important regulator-to-target gene associations reflected ann weights
+ten twelve major known transcriptional regulators cell cycle phase-specific expression ranked at very top 204-regulator list model
+cell cycle anns were remarkably robust series silico mutations binding data specific factor was eliminated new family ann models were generated
+additional doubly triply mutated networks correctly identified epistasis relationships redundancies biological network
+approach was also applied two additional independent cell cycle expression studies illustrate generality across data platforms probe how networks might change under distinct modes cell synchronization
+analysis weights matrices resulting models shows neural nets take advantage information about specifically disfavored disallowed connections between factors expression patterns together expected positive connections other factors assign genes their correct expression outputs
+led us ask if there corresponding bias biological network against binding sites specific factors some expression families suggested ann
+found case multiple sensu stricto yeast genomes relatively closely related saccharomyces cerevisiae also distantly related fission yeast s pombe
+appears deeply conserved network architecture property even though very few specific orthologous genes involved

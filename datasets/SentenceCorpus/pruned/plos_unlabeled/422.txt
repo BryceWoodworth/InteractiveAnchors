@@ -1,0 +1,91 @@
+
+yeast important method physical interactions between proteins
+interactions independent very small determine low
+low either high rate high rate
+theory provide first model rates
+analysis yeast data percent percent reported interactions likely
+membrane proteins higher rates average signal proteins lower rates
+overall rate percent percent percent rate due statistical percent percent rate due proteins appear
+finally statistical model selection network model power model yeast power degree distributions
+much genome sequencing estimates were essential human genome sequencing estimates developed here will future
+all datasets available datasets also available our site
+introduction
+protein protein interactions being generated increasing numbers method
+now been
+more recently been reported human
+datasets analysis protein interaction networks
+data both make difficult network properties including basic difference between power other network degree distributions
+recent review points out rates rates full protein interaction networks
+every method estimate based datasets
+rates methods large when little indeed could not used analyze existing
+estimates rates based datasets may even larger uncertainty
+finally global estimates rates little about properties including whether certain classes proteins well
+goal work develop apply statistical model interaction
+previous methods typically presence interaction binary variable core
+method describe observed
+statistical method need standard interactions even second
+predictions first time tests some classes proteins more less likely interactions
+finally estimates rates confidence total number interactions present model
+where interaction where interactions may
+one protein binding domain yeast transcription factor second protein activation domain
+physical interactions between proteins transcription factor activity
+due not every protein may selected made into construct
+furthermore some may not functional at all due system
+interactions important consider when total number interactions
+used tests either testing single versus both
+generated cells
+each protein protein domain then
+yeast considered here tested versus each having genes
+each tested one turn versus both
+testing occurs using both construct single yeast cell
+interactions genes yeast cell
+yeast cells whose do not expected out during population
+true may also during population at least two
+first may lack cells every combination tested
+second particular construct may making functional some interactions but others
+true interactions not represented cells following population particular
+due due domains could principle step population
+without additional step however losses during population rate 1 p p rate pair population
+some cells proteins may also population population cells will mixture true
+1 cells 1 cells total number true rate
+usually however respect total number observed interactions defined rate parameter
+point two proteins might strong interaction system
+proteins strong interaction might
+work assume cases any pair proteins interaction true positive
+while total may large over many different pairs
+most models including assume any particular positive probability specific interaction more than
+interactions often require sequencing identify although may improve
+cost constraints limit number interactions sequencing
+if number selected sequencing smaller than number true interaction some true will
+limited sampling also observed degree distribution
+rate due 1 p 1
+rates typically been estimated comparing datasets up percent but analyses error sources
+estimated error rates large uncertainty because few interactions observed multiple datasets
+example comparing datasets yeast only percent total interactions common comparing interactions interactions only percent common
+comparison two few interactions common
+also revealed little reported interactions although protein network evolution additional factors
+estimate true number interaction protein used interaction multiple
+methods require all interactions true example observations reduce estimated interaction
+previous work context protein used bayesian model global parameters rates
+parameters then provided estimates probability true interaction given results one more
+work important using number trials rather than single observation its probability similar models more sampling process involving strong effects
+quantitative predictions amount work required identify some true interactions would genome sequencing would useful new experiments
+new work presented here uses data estimate rate together rate
+sampling process
+interactions two sets one true other true
+observations number times each interaction three n total number samples number unique interactions within n s number interactions observed
+observations estimate unknown values total number true interaction number within sample n also estimate parameter mixture well parameters probability distribution suggests sampling interactions sampling process occurs each estimation performed each
+estimation problem population species experiments size number distinct at particular number literature
+theory rates here different probabilities each true interaction
+simple s 2 where 2 number observed
+setting because does not account
+our knowledge been discussed setting
+will interaction number observations s total observed standard high when number observations small small value 2
+when each observed only n s 2
+present statistical model both error rates
+model terms provided
+overall approach parameters mixture model true following population
+us estimate rates rates due
+then rate due effects
+results together overall estimate rate basis comparing interaction produced different
+along way examine our model able address best model protein degree rates properties domains relative performance generated

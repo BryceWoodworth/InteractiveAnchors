@@ -1,0 +1,59 @@
+
+accurate biological systems requires more complete knowledge about molecular components their functional associations than
+new knowledge protein associations generated experiments central role systems contrast generally less predictions
+however will not achieve complex molecular systems if current experimental lead real protein networks large important
+likelihood network models yeast human using integration predicted protein datasets
+compared predicted networks against combined experimental datasets biological at different level statistical
+predicted networks all noise features experimentally networks both species also show observation not due random
+addition predicted networks contains information true protein associations first order binary predictions
+also most predicted protein associations experimentally our models hidden networks systems
+some shows particular functions contains key functional elements protein networks associated important functional like regulation protein signal human cells
+thus large important experimental may biological systems
+any case predictions provide experimentally regions
+introduction
+many features biological systems cannot simple their components but rather network properties
+organisms systems highly networks networks all components time space
+given complexity our current knowledge us complete organisms
+therefore development approaches new protein functions functional associations play important role systems biology
+knowledge biological systems further experimental error
+common different experimental approaches applied same biological system different outcomes resulting protein networks different biological properties
+however errors not analysis
+example been demonstrated yeast interactions human proteins more than interactions single
+there been work biological networks across different species into how networks
+however many
+observation protein networks across species organisms suggest fast evolution
+significant variation functional also been observed protein networks across species
+however contrast observations recent work using combined interaction data suggests high protein networks between yeast human
+approach based data combination importance different data sources reduce bias associated errors functional prediction increase network been demonstrated studies
+increasing accuracy networks different protein interaction data principle multiple independent sources evidence greater confidence than single source
+any genome wide computational analyses prediction errors distributed large sample true negative interactions
+hence two independent prediction methods will both identify same positive data large like yeast human
+general increase number independent approaches same evidence
+available integration methods specifically designed interaction datasets method order predictor independent experimental data used
+integration method not method example methods
+method random distribution prediction hypothesis based information theory statistics
+therefore integration independent experimental datasets used study compare predictions
+work significantly increase prediction power binary protein functional associations yeast human different individual prediction methods using integration method
+three different methods two protein domain
+four different prediction datasets obtained methods were using simple integration method examples methods
+prediction datasets were also using integration compared against prediction datasets our methods
+results integration our prediction datasets were compared against individual prediction methods results methods
+all cases demonstrate increased performance approach integration datasets best results
+protein pairs identified significant integration were used protein network model yeast human
+all associations several major biological including were combined into network
+other studies predicted experimental models further comparison
+different network parameters were compared between models two test species
+how networks change confidence predictions
+results network comparison demonstrate networks networks many major features model real protein network associations previously observed some predicted networks
+there been observations low between different experimental approaches
+our comparison models also show between two models small predictions novel predictions
+however between significantly higher than expected random both species between space
+data significantly larger yeast than human better functional yeast network presence larger human network still hidden current experimental knowledge
+suggest novel prediction set may estimation relative differences associations between both show contains key elements important functional cell
+protein network models predicted associations whose existence not yet been experimentally
+study suggest involves functional associations difficult current experimental making any network organisms highly therefore
+results into four main predicted experimental models human yeast compared
+first section analyses performance single methods predicting protein associations correlation between prediction degree accuracy noise predictions
+second network features predicted experimental models at levels accuracy noise
+third section functional differences between predicted experimental models specific functional appear prediction methods but experimental approaches
+section whether predicted network graphs contain additional information protein associations sets predicted protein pairs used networks

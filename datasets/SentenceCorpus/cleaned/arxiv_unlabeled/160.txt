@@ -1,0 +1,32 @@
+ 
+consider design cognitive medium access control mac protocols enabling unlicensed secondary transmitter-receiver pair communicate over idle periods set licensed channels ie  primary network
+objective maximize data throughput while maintaining synchronization between secondary users avoiding interference licensed primary users
+no statistical information about primary traffic assumed available a-priori secondary user
+investigate two distinct sensing scenarios
+first secondary transmitter capable sensing all primary channels whereas senses one channel only second scenario
+both cases propose mac protocols efficiently learn statistics primary traffic on-line
+our simulation results demonstrate proposed blind protocols asymptotically achieve throughput obtained when prior knowledge primary traffic statistics available
+ introduction 
+most licensed spectrum resources under-utilized
+observation encouraged emergence dynamic opportunistic spectrum access concepts where unlicensed secondary users equipped cognitive radios allowed opportunistically access spectrum long they do not interfere licensed primary users
+achieve goal secondary users must monitor primary traffic order identify spectrum holes opportunities exploited transfer data
+main goal cognitive mac protocol sense radio spectrum detect occupancy state different primary spectrum channels then opportunistically communicate over unused channels spectrum holes minimal interference primary users
+specifically cognitive mac protocol should continuously make efficient decisions channels sense access order obtain most benefit available spectrum opportunities
+several cognitive mac protocols been proposed previous studies
+example  mac protocols were constructed assuming each secondary user equipped two transceivers control transceiver tuned dedicated control channel software defined radio sdr-based transceiver tuned any available channels sense receive transmit signals/packets
+other hand proposed sensing-period optimization mechanism optimal channel-sequencing algorithm well environment adaptive channel-usage pattern estimation method
+slotted markovian structure primary network traffic adopted here was also considered where optimal policy was characterized simple greedy policy secondary users was constructed
+authors  however assumed primary traffic statistics i e  markov chain transition probabilities were available a-priori secondary users
+here our focus blind scenario where cognitive mac protocol must learn transition probabilities on-line
+work differentiate between two scenarios
+first assumes secondary transmitter sense all available primary channels before making decision one access
+secondary receiver however does not participate sensing process wait decode only one channel
+model adopted
+sequel propose efficient algorithm optimizes on-line learning capabilities secondary transmitter ensures perfect synchronization between secondary pair
+proposed protocol does not assume separate control channel hence piggybacks synchronization information same data packet
+our numerical results demonstrate superiority proposed protocol over one where primary transmitter receiver assumed access channel predetermined sequence they agreed upon a-priori
+second scenario assumes both secondary transmitter receiver sense only one primary channel each time slot
+problem re-casted restless multi-armed bandit problem where optimal algorithm must strike balance between exploration exploitation
+unfortunately finding optimal solution problem remains elusive task
+inspired recent results  efficient mac protocol constructed viewed whittle index strategy augmented similar learning phase one proposed multi-armed bandit scenario
+our numerical results show performance protocol converges whittle index strategy known transition probabilities

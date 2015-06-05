@@ -1,0 +1,26 @@
+ 
+statistical problems set parameterized probability distributions used estimate true probability distribution
+if fisher information matrix at true distribution singular then been left unknown what estimate about true distribution random samples
+paper study singular regression problem prove limit theorem shows relation between singular regression problem two birational invariants real log canonical threshold singular fluctuation
+obtained theorem important application statistics because enables us estimate generalization error training error without any knowledge true probability distribution
+ introduction 
+let natural numbers dimensional real euclidean spaces respectively
+assume probability space valued random variable subject simultaneous probability density function where probability density function  constant measurable function  euclidean norm
+function called regression function
+assume set random variables independently subject same probability distribution
+let subset
+let function
+square error real function  expectation operator defined } where measurable function probability density function  constant called inverse temperature
+note not constant but random variable because depends random variables
+two random variables defined *} random variables called generalization training errors respectively
+since  expected some natural conditions both converge when tends infinity if there exists
+paper ask how fast convergences other words our study concerns limit theorem shows convergences  when
+if fisher information matrix where  positive definite arbitrary  then problem well known regular regression problem
+fact regular regression problem convergences hold
+however if singular say if  then problem called singular regression problem convergences been left unknown
+general been difficult study limit theorem case when fisher information matrix singular
+however recently shown limit theorem established based resolution singularities there mathematical relations between limit theorem two birational invariants singular density estimation
+paper prove new limit theorem singular regression problem enables us estimate birational invariants random samples
+limit theorem proved paper important application statistics because expectation value generalization error estimated training error without any knowledge true probability distribution \vskip3mm {example} let   
+if function defined  then set not one point fisher information matrix at singular
+lot functions used statistics information science brain informatics bio-informatics singular example artificial neural networks radial basis functions wavelet functions

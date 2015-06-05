@@ -1,0 +1,35 @@
+
+along their properties make them popular effective statistical model
+central issue learning models when there some pattern optimal parameter
+work certain strong property general allow their generalization ability
+particular show how property used analyze under regularization
+introduction
+models most statistical model variety variables continuous variables matrices time series models properties robust generalization ability
+issue large scale problems models when dimension parameters much larger than sample size
+much recent work focused problem special case linear regression high where assumed optimal parameter vector sparse e g
+body prior work focused convergence rates prediction consistent model sparse models
+more problems there need model selection more general
+recent work here learning graphs models
+classical results consistent estimation general possible limit where number constant though some work rates under certain conditions
+however problems typically so even often where case sparse estimation
+while question variety special cases question here understanding how fast scale function general analysis must relevant aspects particular family at hand their convergence rate
+focus work
+should paper while family about true underlying distribution e
+g do not assume data process family related key issue convergence rates terms their prediction loss take loss nature they convex where large sample size fixed central limit theorem effect where loss any family approaches loss matrix corresponding information matrix
+our first main rate at effect occurs general
+particular show every family certain rather natural growth rate condition their central power standard
+condition rather where fast
+similar conditions been well studied bounds convergence random variable its mean
+show growth rate rate at prediction loss family strongly convex loss function
+particular our analysis many analysis method where there phase number must occur function function our statistical setting now require sample size where threshold sample size prediction loss strong properties i e
+our second analysis regularization terms both prediction loss level selected model
+under particular sparse condition design matrix condition show how regularization general convergence rate where number relevant features
+condition one least conditions optimal convergence rate linear regression case see conditions considered also provide rate
+show convergence rate general our results
+our one approximate sparse model selection i e where our goal obtain sparse model low prediction loss
+condition comparison condition latter true features at more condition
+however case linear regression show under sparse condition solution actually sparse itself increase level depends certain condition number design matrix so while solution may not true model still sparse some increase does those features large true weights
+general while do not level solution open question do however provide simple two procedure provides sparse model support no more than features good performance rather increase risk result novel even loss case
+hence even under rather condition obtain both convergence rate sparse model
+
+% let take up whole % let take up whole % note true true % including true % % % % % % % %

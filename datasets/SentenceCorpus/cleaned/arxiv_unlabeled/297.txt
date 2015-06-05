@@ -1,0 +1,12 @@
+ 
+consider problem reconstructing low rank matrix small subset its entries
+paper describe implementation efficient algorithm proposed  based singular value decomposition followed local manifold optimization solving low-rank matrix completion problem
+been shown if number revealed entries large enough output singular value decomposition gives good estimate original matrix so local optimization reconstructs correct matrix high probability
+present numerical results show algorithm reconstruct low rank matrix exactly very small subset its entries
+further study robustness algorithm respect noise its performance actual collaborative filtering datasets
+ introduction 
+paper consider problem reconstructing low rank matrix small set observed entries
+problem considerable practical interest many applications
+one example collaborative filtering where users submit rankings small subsets say movies goal infer preference unrated movies recommendation system
+believed movie-rating matrix approximately low-rank since only few factors contribute user’s preferences
+other examples matrix completion include problem inferring 3-dimensional structure motion triangulation incomplete data distances between wireless sensors also known sensor localization problem 

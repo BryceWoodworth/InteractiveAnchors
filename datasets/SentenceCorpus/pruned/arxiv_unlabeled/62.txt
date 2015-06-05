@@ -1,0 +1,42 @@
+
+introduce framework features criterion measure between features
+key idea good features should
+feature selection various learning problems including classification regression under framework solutions using algorithm
+demonstrate our method both real world datasets
+introduction
+learning problems typically given data points their
+task find functional between subject certain conditions
+tasks include binary classification classification regression
+often reduce dimension data number features before actual learning larger number features associated higher data cost more difficulty model higher computational cost classifier ability
+therefore important feature subset
+problem feature selection problem
+full set features whose elements data
+use features predict particular outcome instance presence only subset features will relevant
+outcome data
+feature selection then where set bounds number selected features
+two important aspects problem choice criterion selection algorithm selection criterion } choice should respect underlying learning tasks estimate function training data predicts well test data
+therefore good should two while many feature selection been few take two conditions explicitly into account
+examples include error bound information
+although latter good theoretical requires density estimation high continuous variables
+problems like criterion
+uses does not require density estimation
+also good convergence
+show section conditions i required selection algorithm } finding global general
+many algorithms into continuous problem weights
+methods perform well problems
+problems however usually local does not provide good features
+approaches selection often used problem directly
+selection increase much possible each features achieve each features
+although selection more efficient provides better features general since features within context all others } principle using either strategy strategies
+however paper will focus algorithm
+our experiments show selection
+using method feature selection
+features independent particular classifier
+not only feature but also up over methods
+furthermore directly binary regression problems
+most other feature selection methods only either binary classification regression
+methods usually using strategy
+still methods classification regression cases at same time
+other hand all cases choosing different also many existing methods special cases
+
+therefore our introduction

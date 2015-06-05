@@ -1,0 +1,10 @@
+ 
+prove existence uniqueness minimizer average geodesic distance points geodesically convex set sphere
+implies corresponding existence uniqueness result optimal algorithm halfspace learning when data target functions drawn uniform distribution
+ introduction 
+let unit sphere normalized uniform measure geodesic metric  let proper convex cone nonempty interior
+will show function defined by% % attains its global minimum at unique point
+while existence minimum straightforward uniqueness seems surprisingly difficult prove
+similar problem been considered
+works intention define centroid so integration replaced finite summation replaced
+since problem rather obvious appears likely proof above result exists somewhere literature just haven't been able find

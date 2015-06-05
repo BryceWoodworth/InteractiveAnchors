@@ -1,0 +1,58 @@
+ 
+paper proposes revised version original domain-specific risk-taking dospert scale developed weber blais betz shorter applicable broader range ages cultures educational levels
+also provides french translation revised scale
+using multilevel modeling investigated risk-return relationship between apparent risk taking risk perception number risk domains
+results replicate previously noted differences reported degree risk taking risk perception at mean level analysis
+multilevel modeling shows more interestingly within-participants variation risk taking across number content domains scale was about number times large between-participants variation
+discuss implications our findings terms person-situation debate related risk attitude stable trait
+ introduction 
+people differ way they resolve decisions involving risk uncertainty differences often described differences risk attitude
+expected utility framework its variants including prospect theory apparent differences risk attitude modeled utility functions differ shape different degrees concavity convexity explain risk aversion seeking
+risk attitude parameter differentiates between utility functions different individuals intended nothing more than descriptive label concavity convexity utility function
+popular interpretations risk attitude however often consider personality trait
+consideration risk attitude personality trait undergone similar development personality traits general
+while traits were initially defined stable i e situation-invariant personality characteristics were assumed result biological differences early childhood experiences empirical observation low correlations between trait-related behavior different situations given rise more complex definitions acknowledge situational determinants behavior while preserving generality way personality traits shape pattern behavior across situations
+following two observations been problematic simple expected-utility definition risk attitude personality trait
+first different methods measuring people's utility functions thus risk attitudes been shown result different classifications individuals
+more importantly even when using same assessment method individuals not shown themselves consistently risk seeking averse across different domains situations both laboratory studies managerial contexts
+maccrimmon wehrung showed example managers different risk attitudes when making decisions involving personal versus company money when evaluating financial versus recreational risks
+problems limit predictive validity expected-utility based assessments risk attitude
+given lability expected-utility based assessments risk attitude should not surprising measurement scales based upon them not had much success predicting people's choices behaviors across range situations
+observed content-specificity responses suggests they should not combined across content domains
+nevertheless choice dilemma questionnaire commonly used scale asks people probability equivalents twelve choice dilemmas different domains life then combined into single score purportedly represents person's risk attitude
+despite its obvious deficiencies scale still use primarily lack better alternatives
+some researchers recently argued risk attitude may more usefully conceptualized risk-return framework risky choice imported finance example capital asset pricing model its variants generalizations
+psychological risk-return models treat perceived riskiness variable differ between individuals function content context
+they decompose observed behavior i e apparent risk taking into evaluation benefits risks well trade-off between perceived benefits perceived risks person-specific willingness trade off units returns units risk i e attitude towards perceived risk assumed relatively stable across situations domains
+provides multiple ways characteristics decision maker situation affect choices under risk
+apparent risk taking same person two situations might differ example because decision maker perceives risks benefits differ magnitude two domains e g recreational vs financial decision while his her attitude towards perceived risk basically same both domains
+empirical investigations shown systematic individual group cultural differences perceptions riskiness risky choice options
+smaller number studies also documented group differences perception perceived benefits
+after accounting differences perception risk returns choice alternatives however people's perceived-risk attitudedefined their willingness trade off units perceived risk units perceived returnhas shown considerable cross-group cross-situational consistency
+domain-specificity risk taking thus seems arise primarily differences perception risks possibly benefits choice alternatives different content domains while trait true attitude towards risk shows consistency across situations lies evaluation risk perceived something either desirable i e worth giving up units return undesirable i e something needs compensated units return
+decision domains respondents shown different degrees risk taking different perceptions risks benefits include gambling financial investing business decisions personal decisions
+personal decisions broken down into smaller categories differ associated goals concerns health safety e g seatbelt usage smoking social e g confronting one's coworkers family members ethical decisions e g cheating exam terminating comatose family member's life support
+one expect find differences perception risks benefits different domains decisions because decisions domains score differently psychological risk dimensions e g dread familiarity controllability identified slovic fischhoff lichtenstein known affect risk perception
+affective reactions risk different domains differ result factors differential familiarity controllability
+given recent evidence about prominence affective reactions perceptions risk individual domain differences subjective perceptions riskiness should not come surprise
+based insights about diverse set determinants decisions under risk weber blais betz developed risk-taking scale domain-specific risk-taking dospert scale allows researchers practitioners assess both conventional risk attitudes defined reported level risk taking perceived-risk attitudes defined willingness engage risky activity function its perceived riskiness five commonly encountered content domains i e ethical financial further decomposed into gambling investment health safety social recreational decisions
+scale been used validated its factor structure replicated wide range settings populations see
+addition adequate internal-consistency reliability estimates weber et al reported moderate test-retest reliability estimates provided evidence factorial convergent discriminant validity scores respect constructs sensation seeking dispositional risk taking intolerance ambiguity social desirability
+construct validity was also assessed via correlations results risky gambling task well tests gender differences
+further evidence dospert scale's construct validity was provided zuniga bouzas who found scores health safety recreational risk-taking subscales significantly predicted estimated blood alcohol concentrations mexican high-school students
+also hanoch johnson wilke used dospert scale show individuals selected exhibit high levels risk taking one content area e g bungee jumpers taking recreational risks quite risk averse other risky domains e g financial decisions
+recent review large number instruments measure risk propensity healthcare decisions describes dospert scale one three relevant clinical environment they directly measure risk propensity across number everyday situations including propensity take health-related risks p number
+dospert scale additionally commended its simultaneous measurement multiple risk constructs risk taking risk perception perceived-risk attitude
+weber et al also used dospert scale provide evidence psychological risk-return model risky choice
+they found given participant level apparent risk taking varied across risk domains yet his her domain-specific levels perceived risk benefits together explained significant proportion variability great majority respondents relationship between apparent risk taking risk perception across domains was negative neutral suggesting perceived-risk aversion
+johnson et al obtained similar findings at aggregate mean level across respondents sample young german adults
+facilitate use dospert scale broader range applied settings current paper provides revision original scale weber et al had been developed validated american college undergraduates
+revised scale both shorter i e number vs number items applicable respondents broader set age groups cultures educational levels
+revised dospert scale was administered groups english french-speaking north americans doing do also contributed french translation scale literature
+although dospert scale been translated into several languages german italian dutch spanish validated cultures speaking languages french version was not available yet
+explained above endorse risk-return approach assessing apparent risk taking presupposes involvement various determinants perceptions benefits risk well more stable component represents person's propensity favor shy away option he she perceives being risky referred person's perceived-risk attitude
+unfortunately present study perceptions benefits could not collected due time constraints so focus here exclusively apparent risk taking perceived risk perceived-risk attitude
+more specifically hypothesize following derived primarily risk-return model risky choice including cross-cultural comparisons work weber et al number there exists considerable variability apparent risk taking within between individuals number more importantly controlling perceived risk at within-individuals i e domain level results significant reduction variability allows within-individuals consistency perceived-risk attitude number individuals perceived-risk averse neutral across both cultures even though risk perception risk taking possibly degree perceived-risk aversion may differ between cultures
+while our goal replicate extend findings reported weber et al taking very different analytic approach using multilevel modeling investigate relationship between apparent risk taking perception
+our knowledge first time technique used context psychological risk-return models risky choice study domain-specificity apparent risk taking general
+one compelling reasons using multilevel modeling allows decomposition total variance risk taking into various components quantification explanation both within between-individuals variation apparent risk taking

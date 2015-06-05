@@ -1,0 +1,16 @@
+ 
+using game-theoretic framework probability vovk shafer shown always possible using randomization make sequential probability forecasts pass any countable set well-behaved statistical tests
+result generalizes work other authors who consider only tests calbration
+complement result lower bound
+show vovk shafer's result valid only when forecasts computed unrestrictedly increasing degree accuracy
+when some level discreteness fixed present game-theoretic generalization oakes' example randomized forecasting test failing any given method deferministic forecasting; originally example was presented deterministic calibration
+ introduction 
+using game-theoretic framework probability  vovk shafer shown always possible using randomization make sequential probability forecasts pass any countable set well-behaved statistical tests
+result generalizes work other authors among them foster vohra  kakade foster  lehrer  sandrony et al   who consider only tests calibration
+complement result lower bound
+show vovk shafer's result valid only when forecasts computed unrestrictedly increasing degree accuracy
+when some level discreteness fixed present game-theoretic version oakes' example randomized forecasting test failing any given method deterministic forecasting; originally example was presented deterministic calibration
+formulate example use forecasting game presented vovk shafer  namely binary forecasting game ii
+discuss details randomized forecasting algorithms section
+shafer vovk's game-theoretic framework considered section
+present section original vovk shafer's result universal randomized forecasting prove our result gives limits forecasting  game-theoretic version oakes' example randomized forecasting

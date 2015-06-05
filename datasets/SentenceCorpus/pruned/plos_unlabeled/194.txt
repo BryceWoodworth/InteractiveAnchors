@@ -1,0 +1,31 @@
+
+describe comparative analysis modeling structures proteins protein apply protein
+comparative analysis comparative modeling based complex protein greater than comparative modeling higher accuracy than
+defined interactions each complex components their any other protein its
+each component its known binding other proteins any known binding its
+then used molecular resulting set binary domain statistical potential
+method predicting binary known structure
+able identify binding percent compared percent protein
+applied comparative analysis model complex third domain domains protein whose structure unknown
+first predicted domains both site kinase binding while second both binding sites
+suggest two different functional provide possible structural description experimentally observed its
+more generally comparative analysis will provide useful spatial structural increasing number binary protein
+introduction
+protein protein interactions play key role many cellular processes
+important step towards description processes structural proteins their
+there two computational approaches predict structure protein complex given structures its components comparative modeling protein protein
+first approach target complex standard comparative methods model using known structure complex
+approach limited sparse structural binary interactions
+second approach model predicted protein protein structures individual without any interactions
+usually two protein structures through large set possible
+experimental information obtained also used protein
+while any two whose structures known both sampling relevant large number alternatives
+here propose third approach modeling between two structures
+approach called comparative analysis protein comparative modeling based complex greater than comparative modeling higher accuracy than
+comparative analysis our prior analysis binding sites within domains
+analysis binding sites often conserved their binding
+structure target complex thus protein only those binding sites domains
+result comparative analysis knowledge all interactions involving either one two
+find comparative analysis increases prediction accuracy relative protein
+able identify binding percent predicting overall structure average error compared protein
+contrast protein binding percent

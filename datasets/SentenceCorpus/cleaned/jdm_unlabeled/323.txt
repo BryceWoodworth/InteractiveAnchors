@@ -1,0 +1,28 @@
+ 
+taking falsificationist perspective present paper identifies two major shortcomings existing approaches comparative model evaluations general strategy classifications particular
+number failure consider systematic error number neglect global model fit
+using adherence measures evaluate competing models implicitly makes unrealistic assumption error associated model predictions entirely random
+means simple schematic examples show failure discriminate between systematic random error seriously undermines approach model evaluation
+second approaches treat random versus systematic error appropriately usually rely relative model fit infer model strategy most likely generated data
+however model comparatively yielding best fit may still invalid
+demonstrate taking granted vital requirement model itself should adequately describe data easily lead flawed conclusions
+thus prior considering relative discrepancy competing models necessary assess their absolute fit thus again attempt falsification
+finally scientific value model fit discussed broader perspective
+ introduction 
+comparative evaluation theories issue fundamental importance all sciences
+general many disciplines proceed submitting particular theory derived hypothesis empirical tests evaluating through logic verification falsification
+although tests constructed differentiate between models experimentum crucis given opposing predictions derived more common their comparison proceeds more indirectly
+specifically underlying assumptions predictions derived each particular model tested independently
+over time instances confirmation disconfirmation accumulated each model
+according classical falsificationist logic model repeatedly fails relevant tests eventually discarded
+thereby question better theory model answered indirectly long run model makes testable falsifiable predictions endures critical tests
+there numerous implementations approach jdm research well-stated arguments been formulated favor testing critical properties central assumptions single models
+indeed typical variant conduct series investigations successively shed light determinants bounding conditions certain effects theories
+however discontent testing properties single models isolation been voiced
+line argument summarized follows problematic test specific hypothesis derived single model against indefinite number unspecified alternatives
+rather argued need compare alternative models directly
+line arguments popular approach specify several competing models directly compare terms their ability account empirical data
+one particular variant specific jdm research strategy classification approach attempts identify decision strategy individual most likely used
+following idea people adaptively select set strategies models compared level individual subjects superior model retained description how decision maker proceeded
+current paper focus comparative model testing general more jdm-specific procedure strategy classification particular
+following notion good test theory one implements sufficiently high hurdle overcome theory identify two major shortcomings existing approaches comparative model evaluation number failure distinguish between random systematic error number neglect global model fit

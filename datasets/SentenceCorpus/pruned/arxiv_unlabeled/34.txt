@@ -1,0 +1,18 @@
+
+correlation analysis technique common features pair data
+complex situations however does not useful features because its
+other hand kernel method used support vector machine efficient approach improve linear method
+paper investigate kernel method correlation analysis analysis data kernel method regularization
+introduction
+paper method common features multiple information sources
+instance let us consider task learning pattern recognition object given using image its given
+given image system required answer its given system answer corresponding image
+task considered regression problem image
+however since generally very large regression analysis many not work
+order solve problem useful into low feature space then solve regression problem
+correlation analysis been used
+linear pair correlation
+information theoretical point view information between features
+however if there relation between does not always useful features
+other hand support vector attention its performance pattern recognition kernel used not only classification but also other linear techniques example kernel regression kernel paper apply kernel method
+since kernel method likely data some regularization technique

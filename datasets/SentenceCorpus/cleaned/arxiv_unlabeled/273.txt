@@ -1,0 +1,38 @@
+ 
+selection features relevant prediction classification problem important problem many domains involving high-dimensional data
+selecting features helps fighting curse dimensionality improving performances prediction classification methods interpreting application
+nonlinear context mutual information widely used relevance criterion features sets features
+nevertheless suffers at least three major limitations: mutual information estimators depend smoothing parameters there no theoretically justified stopping criterion feature selection greedy procedure estimation itself suffers curse dimensionality
+chapter shows how deal problems
+two first ones addressed using resampling techniques provide statistical basis select estimator parameters stop search procedure
+third one addressed modifying mutual information criterion into measure how features complementary not only informative problem at hand
+ introduction 
+high-dimensional data nowadays found many applications areas: image signal processing chemometrics biological medical data analysis many others
+availability low cost sensors other ways measure information increased capacity lower cost storage equipments facilitate simultaneous measurement many features idea being adding features only increase information at disposal further analysis
+problem high-dimensional data general more difficult analyse
+standard data analysis tools either fail when applied high-dimensional data provide meaningless results
+difficulties related handling high-dimensional data usually gathered under curse dimensionality terms gather many phenomena usually having counter-intuitive mathematical geometrical interpretation
+curse dimensionality already concerns simple phenomena like colinearity
+many real-world high-dimensional problems some features highly correlated
+but if number features exceeds number measured data even simple linear model will lead undetermined problem more parameters fit than equations
+other difficulties related curse dimensionality arise more common situations when dimension data space high even if many data available fitting learning
+example data analysis tools use euclidean distances between data representatives any kind minkowski fractional distance i e most tools suffer fact distances concentrate high-dimensional spaces distances between two random close points between two random far ones tend converge same value average
+facing difficulties data analysis tools must address two ways counteract them
+one develop tools able model high-dimensional data number effective parameters lower than dimension space
+example support-vector machines enter into category
+other way decrease some way dimension data space without significant loss information
+two ways complementary first one addresses algorithms while second preprocesses data themselves
+two possibilities also exist reduce dimensionality data space: features dimensions selected combined
+feature combination means project data either linearly principal component analysis linear discriminant analysis etc  nonlinearly
+selecting features i e keeping some original features discarding others priori less powerful than projection particular case
+however number advantages mainly when interpretation sought
+indeed after selection resulting features among original ones allows data analyst interact application provider
+example discarding features may help avoiding collect useless possibly costly features further measument campaign
+obtaining relevances original features may also help application specialist interpret data analysis results etc
+another reason prefer selection projection some circumstances when dimension data really high relations between features known identified strongly nonlinear
+case indeed linear projection tools cannot used; while nonlinear dimensionality reduction nowadays widely used data visualization its use quantitative data preprocessing remains limited because lack commonly accepted standard method need expertise use most existing tools computational cost some methods
+chapter deals feature selection based mutual information between features
+following chapter organized follows
+section introduces problem feature selection main ingredients selection procedure
+section details mutual information relevance criterion difficulties related its estimation
+section shows how solve issues particular how choose smoothing parameter mutual information estimator how stop greedy search procedure how extend mutual information concept using nearest neighbor ranks when dimension search space increases

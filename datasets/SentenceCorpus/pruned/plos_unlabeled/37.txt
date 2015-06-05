@@ -1,0 +1,32 @@
+
+important field understand interactions other functional genes
+correlation methods functional work proteins will tend show common pattern presence across range genomes
+describe maximum likelihood statistical model predicting functional gene
+method independent correlated gain loss pairs proteins high rates observed methods do not explicitly
+show protein pairs method up percent analyses at known proteins
+method shows protein pairs at least two three correlated events gain loss almost
+evolution one presence depends upon presence another also may identify genes whose functional depends upon its interaction other genes
+information prediction functional
+having lower rate analyses methods into datasets identify sets protein gene networks
+introduction
+evidence two more across range species used test about common about functional adaptive relationship between them
+correlated evolution being applied at genetic level genes together show similar expression patterns rates evolution may form functional
+provides computational approach large genomic datasets functional help identify functions genes
+analyses also used describe metabolic networks gene clusters genes common function
+genes their expression patterns context functional adaptive value tend conserved species
+among related species also produce correlated gene genes not
+two more genes might common evolutionary their individual adaptive functions
+1 shows how produce evidence functional when measured across species
+comparison multiple independent events pairs genes make statistical case functional
+methods uses they make possible investigate states identify temporal changes two
+knowledge two first evolutionary history used test about effect one another
+our interest evaluate whether information identification functional gene
+need take account relationships comparative studies long been evolutionary biology but less attention studies apply method correlated evolution among pairs data presence pairs genes
+method independent events correlated evolution comparing statistical likelihood observed data under two alternative scenarios one two genes another they
+evolution markov process evidence model correlated evolution means likelihood
+our species complete complete genomes available
+there no limit number species used but important use genomes genes determined fact not genome
+compare predictions predictions derived latter been used predict functional gene use information protein sequences database yeast proteins known criterion measure
+functional been determined therefore provide functional species
+find information predictions up percent over functional so pairs genes greater evidence functional
+number times pair genes been strong predictor functional protein pairs at least two three correlated events almost

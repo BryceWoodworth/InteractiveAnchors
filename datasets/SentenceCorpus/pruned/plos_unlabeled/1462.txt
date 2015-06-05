@@ -1,0 +1,36 @@
+
+experimental observations demonstrate protein stability often upon point mutation
+contrast less known about effects large sequence structure changes stability particular
+almost unknown degree stability different regions protein generally evolution
+work questions through analysis large sample protein space based yet
+more than proteins were using algorithm
+estimated stability its component entropy were compared between all proteins sample according structural alignment
+was local pairs were significantly more correlated than those pairs local stability was indeed generally conserved evolution
+however entropy underlying stability were less correlated overall stability protein was more important than mechanism achieve stability
+finally two different types evolutionary relationships were
+first many proteins regions similar despite structure change mechanism evolutionary change
+second some proteins similar structures different local phenomenon previously observed experimentally
+two observations proteins generally conserved local stability may provide future classification protein
+introduction
+protein structure function determined
+example work demonstrated state protein exists at minimum free energy stability under physiological conditions
+binding also free free energy change each functional reaction direction extent
+free energy results often entropy g t s generally case proteins changes free energy small compared underlying changes
+reactions either entropy but most often case between entropy protein structure function
+goal protein each predict
+while terms information derived entropy estimate knowledge not single structure information about conformational protein
+task robust analysis stability within protein rather than stability protein whole
+due part difficulty global local entropy free energy all protein structure classification strategies do not information
+our hypothesis theoretical complete understanding protein space
+there may also practical
+example possible information protein independent sequence structure could improve computational tools sequence alignment recognition detection existing classification based only sequence structure
+information may also new understanding not available current about evolutionary sequence structure functional relationships
+one particularly important yet question degree protein stability its components conserved during does concept exist point mutations
+step towards integration information into existing protein classification local free energy stability entropy here large database protein domains using previously described algorithm
+proteins studied evolutionary relationships any
+thus experimental design between related proteins explicitly analysis
+central aim work degree among protein domains
+three findings protein sequence structure reported
+first previous work proteins exhibit correlated information
+second entropy less correlated than stability sequence differences result changes local stability protein compared one
+third based structural pairs proteins framework future integration information into theories protein evolution

@@ -1,0 +1,36 @@
+ 
+understanding computations performed neuronal circuits requires characterizing strength dynamics connections between individual neurons
+characterization typically achieved measuring correlation activity two neurons
+developed new measure studying connectivity neuronal circuits based information theory incremental mutual information
+conditioning out temporal dependencies responses individual neurons before measuring dependency between them imi improves standard correlation-based measures several important ways: potential disambiguate statistical dependencies reflect connection between neurons those caused other sources provided dependencies appropriate timescales study early sensory systems does not require responses repeated trials identical stimulation does not assume connection between neurons linear
+describe theory implementation imi detail demonstrate its utility experimental recordings primate visual system
+ introduction 
+understand function neuronal circuits systems essential characterize connections between individual neurons
+major connections between within many brain areas been mapped through anatomical studies but maps specify only existence connections not their strength dynamics
+measuring strength dynamics connection between two neurons requires physiological experiments activity both neurons measured
+most direct experiments involves intracellular recordings allow connection between two neurons directly investigated
+however intracellular recordings difficult perform vivo impossible obtain more than few cells at time
+instead most physiological studies connectivity rely extracellular recordings multi-electrode arrays
+experiments not usually possible explicitly verify anatomical connectivity nor directly characterize connections
+instead strength dynamics functional connectivity must inferred through statistical methods
+traditional method characterizing strength dynamics connection between two neurons cross correlation function measures linear correlation between two signals over range specified delays
+while c xy its variants been used successfully number studies limitations must considered when studying connection between neurons
+limitations c xy arise fact measure total dependency between two signals thus implicitly assumes all dependencies between them due their connection
+case neurons there fact many potential sources dependency shared external stimuli intrinsic cellular network properties etc c xy cannot disambiguate dependencies those due actual connection
+several modified versions c xy been proposed address drawbacks
+example if neuronal activity response repeated trials same external stimulus available analysis often case early sensory systems shift-predictor used remove some correlations due stimulus
+further modifications c xy also been proposed remove correlations due stimulus-driven covariations activity background activity
+while modified approaches certainly improved upon standard c xy confound dependencies due connection those arising other sources remains general problem
+addition correlation-based methods there several other approaches characterizing dependency between two signals used study connection between two neurons
+methods generally divided into two classes: model-based model-free
+most common model-based approach characterizing dependency granger causality
+gc one signal predicted two different ways: using autoregressive model based its own past using multivariate autoregressive model based its own past past second signal
+strength dependency given difference predictive power two models dynamics dependency reflected regression parameters correspond influence second signal
+power model-based approaches gc dependent validity underlying model; if dependency between two signals approximately linear then characterization provided gc will accurate but situations where properties dependency complex unknown often case neurons model-free approach may more appropriate
+most common model-free approach characterizing dependency transfer entropy information-theoretic analog gc
+te measures reduction entropy one signal achieved conditioning its own past past second signal relative reduction entropy achieved conditioning its own past alone
+te powerful tool measuring overall strength dependency but not suitable characterizing its dynamics
+paper detail new model-free approach characterizing both strength dynamics dependency conditioning out temporal correlations both signals before assessing strength dependency at different delays
+approach overcome some confounds common studies neuronal connectivity potential disambiguate statistical dependencies reflect connection between neurons those caused other sources provided dependencies appropriate timescales
+following sections outline theory behind our measure call incremental mutual information illustrate its usage simulated neuronal activity experimental recordings primate visual system consider its relationship other common measures dependence
+matlab code measuring incremental mutual information available download at link

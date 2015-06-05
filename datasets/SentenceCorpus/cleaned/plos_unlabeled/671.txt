@@ -1,0 +1,66 @@
+ 
+fluorescent proteins been widely used genetically encodable fusion tags biological imaging
+recently new class fluorescent proteins was discovered reversibly light-switched between fluorescent non-fluorescent state
+proteins not only provide nanoscale resolution far-field fluorescence optical microscopy much below diffraction limit but also hold promise other nanotechnological applications optical data storage
+systematically exploit potential photoswitchable proteins enable rational improvements their properties requires detailed understanding molecular switching mechanism currently unknown
+here studied photoswitching mechanism reversibly switchable fluoroprotein asfp595 at atomic level multiconfigurational ab initio calculations qm/mm excited state molecular dynamics simulations explicit surface hopping
+our simulations explain measured quantum yields excited state lifetimes also predict structures hitherto unknown intermediates irreversibly fluorescent state
+further find proton distribution active site asfp595 controls photochemical conversion pathways chromophore protein matrix
+accordingly changes protonation state chromophore some proximal amino acids lead different photochemical states all turn out essential photoswitching mechanism
+photochemical states neutral chromophore trans-cis photoisomerize anionic chromophore rapidly undergoes radiationless decay after excitation putative fluorescent zwitterionic chromophore
+overall stability different protonation states controlled isomeric state chromophore
+finally propose radiation-induced decarboxylation glutamic acid glu215 blocks proton transfer pathways enable deactivation zwitterionic chromophore thus leads irreversible fluorescence
+identified tight coupling trans-cis isomerization proton transfers photoswitchable proteins essential their function propose detailed underlying mechanism provides comprehensive picture explains available experimental data
+structural similarity between asfp595 other fluoroproteins interest imaging suggests coupling quite general mechanism photoswitchable proteins
+insights guide rational design optimization photoswitchable proteins
+ introduction 
+fluorescent proteins been widely used genetically encodable fusion tags monitor protein localizations dynamics live cells
+recently new class green fluorescent protein like proteins been discovered reversibly photoswitched between fluorescent non-fluorescent state
+reversible photoswitching photochromic organic molecules fulgides diarylethenes usually not accompanied fluorescence switching reversibility very remarkable unique feature may allow fundamentally new applications
+example reversible photoswitching also known kindling may provide nanoscale resolution far field fluorescence optical microscopy much below diffraction limit
+likewise reversibly switchable fluorescent proteins will enable repeated tracking protein location movement single cells
+since fluorescence sensitively read out bulky crystal prospect erasable three-dimensional data storage equally intriguing 
+gfp-like protein asfp595 isolated sea anemone anemonia sulcata prototype reversibly switchable fluorescent protein
+protein switched its non-fluorescent off state fluorescent state green light 568 nm wavelength
+so-called kindled state same green light elicits red fluorescence emission at 595 nm
+upon kindling intensity absorption maximum at 568 nm diminishes absorption peak at 445 nm appears
+kindled state promptly switched back initial off state blue light 445 nm
+alternatively off state repopulated through thermal relaxation within seconds
+addition if irradiated intense green light over long period time asfp595 also irreversibly converted into fluorescent state cannot quenched light any more
+nature state hitherto unknown
+switching cycle asfp595 reversible repeated many times without significant photobleaching
+properties render asfp595 promising fluorescence marker high-resolution optical far-field microscopy recently demonstrated hofmann coworkers
+currently however its low fluorescence quantum yield rather slow switching kinetics photochromic properties asfp595 need improved
+systematically exploit potential switchable proteins enable rational improvements properties asfp595 detailed molecular understanding photoswitching mechanism mandatory
+aim study obtain detailed mechanistic picture photoswitching mechanism asfp595 at atomic level i.e understand dynamics both activation process de-activation process 
+high-resolution crystal structures wild-type asfp595 its off state ser158val mutant its state ala143ser mutant its off states were recently determined
+similar gfp asfp595 adopts barrel fold enclosing chromophore 2-acetyl-5-imidazolinone
+chromophore post-translationally formed autocatalytic cyclization-oxidation reaction met63-tyr64-gly65 triad
+compared gfp chromophore system myg elongated additional carbonyl group 
+reversible photoswitching asfp595 was possible even within protein crystals x-ray analysis showed off-on switching fluorescence accompanied conformational trans-cis isomerization chromophore
+recent study shown isomerization induces changes protonation pattern chromophore some surrounding amino acids changes account observed shifts absorption spectrum upon kindling
+based comparison between measured calculated absorption spectra major protonation states ground state been assigned zwitterion anion trans conformer whereas neutral chromophore dominant cis conformation 
+here study photochemical behavior each previously identified protonation states
+addressed following questions: how does light absorption induce isomerization chromophore within protein matrix how do different protonation states affect internal conversion mechanism
+fluorescent species how fluorescence quantum yield increased
+address questions carried out nonadiabatic molecular dynamics simulations using hybrid quantum-classical qm/mm approach
+approach includes diabatic surface hopping between excited state ground state
+forces acting chromophore were calculated using casscf multi-reference method although not always yielding highly accurate excitation fluorescence energies shown reliable method mechanistic studies photochemical reactions involving conical intersections 
+number approaches modeling nonadiabatic dynamics been described literature tully's fewest switches surface hopping multiple spawning
+recent reviews see
+context qm/mm simulations surface hopping approach photobiological problems been pioneered warshel coworkers
+diabatic surface hopping approach used work differs other approaches two main respects
+first our approach binary decision made at each integration time step trajectory based only current wavefunctions ground excited states
+second hopping only allowed at conical intersection seam where hopping probability approaches unity
+could principle underestimate crossing probabilty because do not allow transitions regions strong coupling but no real crossing
+however ultra-fast photochemical reactions large polyatomic systems decay predominantly takes place at ci seam also shown others
+thus most surface hops essentially diabatic justifying our approach
+addition both energy momentum conserved upon transition trajectory never leaves diabatic energy surface
+theoretical background algorithmic implementation diabatic surface hopping detailed supporting information 
+several theoretical studies photochemistry gfp chromophore been conducted applying both static ab initio dft calculations dynamics simulations based semi-empirical hamiltonian
+addition vertical excitation energies asfp595 model chromophores gas phase continuum dielectric were calculated dft ab initio methods well minimal protein environment means dft casscf calculations within qm/mm approach 
+identifying key residues cavity asfp595 chromophore our nonadiabatic qm/mm molecular dynamics simulations elucidate how protein surrounding governs photoreactivity photoswitchable protein
+based simulations provide new mechanism qualitatively explains measured decay times quantum yields predicts structures protonation states photochemical intermediates irreversibly fluorescent state
+also suggest excited state proton transfer play important mechanistic role
+however detailed study espt processes beyond scope paper
+our predictions probed e.g time-resolved fourier transform infrared spectroscopy x-ray crystallography

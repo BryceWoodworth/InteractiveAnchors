@@ -1,0 +1,37 @@
+ 
+intrinsic mitochondrial pathway caspase activation essential apoptosis induction various stimuli including cytotoxic stress
+depends cellular context whether cytochrome c released mitochondria induces caspase activation gradually all-or-none fashion whether caspase activation irreversibly commits cells apoptosis
+analyzing quantitative kinetic model show inhibition caspase-3 casp9 inhibitors apoptosis results implicit positive feedback since cleaved casp3 augments its own activation sequestering iaps away casp9
+demonstrate positive feedback brings about bistability cooperates casp3-mediated feedback cleavage casp9 generate irreversibility caspase activation
+our calculations also unravel how cell-specific protein expression brings about observed qualitative differences caspase activation
+finally known regulators pathway shown efficiently shift apoptotic threshold stimulus suggesting bistable caspase cascade computes multiple inputs into all-or-none caspase output
+cellular inhibitory proteins frequently inhibit consecutive intermediates cellular signaling cascades feedback mechanism described paper likely widespread principle how cells achieve ultrasensitivity bistability irreversibility
+ introduction 
+apoptosis evolutionary conserved form cell suicide allows multicellular organisms eliminate damaged excess cells order maintain tissue homeostasis
+dysregulation apoptosis associated various pathological conditions including cancer neurodegenerative disorders
+aspartate-specific cysteine proteases also known caspases central executioners apoptosis
+most cases apoptotic stimuli activate initiator caspases whose substrates effector caspases ultimatively cause cellular demise cleaving various cellular substrates 
+figure 1a schematically depicts so-called extrinsic intrinsic apoptotic pathways elicit apoptosis cleaving thereby activating caspase-3 major cellular effector caspase
+extrinsic pathway initiated ligand-binding death receptors then oligomerize recruit various proteins including pro-casp8 into so-called death-inducing signaling complex
+formation death-inducing signaling complex leads autoprocessing pro-casp8 into active casp8 then cleaves casp3
+cytotoxic stress death-receptor stimulated casp8 engage intrinsic mitochondrial apoptosis pathway inducing translocation proapoptotic bcl-2 family members bax bid mitochondria
+event negatively regulated antiapoptotic bcl-2 family members results release proapoptotic proteins mitochondria into cytosol
+cytosolic cyto c then elicits oligomerization apaf-1 into active high-molecular-weight complex apoptosome recruits stimulates casp9 thereby allows activation effector caspases casp3
+smac inhibitors apoptosis x-linked iap establish additional layer regulation intrinsic pathway: xiap inhibits catalytic activities casp9 casp3 through reversible binding cytosolic smac relieves inhibition sequestering xiap away caspases 
+experimental studies revealed qualitative behaviour caspase activation intrinsic pathway depends cellular context
+cyto c added cytosolic extracts activates casp3 all-or-none fashion some cells while gradual activation was observed other systems
+cyto-c release mitochondria reversible event does not affect mitochondrial function been suggested downstream caspase activation irreversibly commits cells apoptosis
+accordingly cyto c induced casp3 activation remained elevated even after strong decline cytosolic cyto c after apo cyto c inhibitor apoptosome formation was added
+furthermore time course caspase activation via intrinsic pathway equals irreversible commitment apoptosis caspase-inhibition allows long-term cellular recovery and/or proliferation after removal apoptotic stimuli
+finally fas-treated jurkat t cells enter apoptosis intrinsic pathway escaped commitment death judged maintenance clonogenic potential if casp3 was inhibited
+contrary casp3 activation was found reversible event glycochenodeoxycholate-treated hepatocytes 
+qualitative differences caspase activation suggest intrinsic pathway bistable some cells but monostable others
+while simple monostable systems respond gradual reversible manner complex bistable systems exhibit true all-or-none responses some cases irreversibility
+bistability thought require positive circuit may established either positive feedback double-negative feedback
+once threshold stimulus exceeded positive circuits allow bistable systems switch low activation levels high activation levels all-or-none fashion
+bistable systems display hysteresis meaning different stimulus-response curves obtained depending upon whether system began its off its state
+some cases state maintained indefinitely after stimulus removed so system shows irreversible activation
+experimental studies confirmed bistability indeed occurs natural artificial biological networks 
+recent mathematical modeling demonstrated bistability arise hidden implicit feedback loops usually not explicitly drawn biochemical reaction schemes
+similarily present model showing inhibition casp3 casp9 iaps results implicit positive feedback bistability
+cellular inhibitory proteins frequently inhibit consecutive intermediates cellular signaling cascades mechanism described paper likely widespread principle how cells achieve ultrasensitivity bistability irreversibility 

@@ -1,0 +1,64 @@
+ 
+collaborative filtering system recommends users products similar users like
+collaborative filtering systems influence purchase decisions hence become targets manipulation unscrupulous vendors
+provide theoretical empirical results demonstrating while common nearest neighbor algorithms widely used commercial systems highly susceptible manipulation two classes collaborative filtering algorithms refer linear asymptotically linear relatively robust
+results provide guidance design future collaborative filtering systems
+ introduction 
+while expanding universe products available via internet commerce provides consumers valuable options sifting through numerous alternatives identify desirable choices challenging
+collaborative filtering cf systems aid process recommending users products desired similar individuals
+at heart cf system algorithm predicts whether given user will like various products based his past behavior other users
+nearest neighbor nn algorithms example enjoyed wide use commercial cf systems including those amazon netflix youtube
+prototypical nn algorithm stores each user's history may include instance his product ratings purchase decisions
+predict whether particular user will like particular product algorithm identifies number other users similar histories
+prediction then generated based how so-called neighbors responded product
+prediction could example weighted average past ratings supplied neighbors
+because purchase decisions influenced cf systems they become targets manipulation unscrupulous vendors
+instance vendor create multiple online identities use each rate his own product highly competitors' products poorly
+example amazon's cf system was manipulated so users who viewed spiritual guide written well-known christian evangelist were subsequently recommended sex manual gay men
+although incident may not been driven commercial motives highlights vulnerability cf systems
+research literature offers further empirical evidence nn algorithms susceptible manipulation
+order curb manipulation one might consider authenticating each user asking say credit card number limit number fake identities
+may effective some situations
+however web services do not facilitate financial transactions youtube requiring authentication would intrude privacy drive users away
+one might also consider using only customer purchase data when they available basis recommendations because they likely generated honest users
+recommendation quality may improved however if higher-volume data page views also properly utilized
+paper seek understand extent manipulators hurt performance cf systems how cf algorithms should designed abate their influence
+find while nn algorithms quite sensitive manipulation cf algorithms carry out predictions based particular class probabilistic models surprisingly robust
+reasons will explain paper will refer algorithms kind linear cf algorithms
+find user rates increasing number products average accuracy predictions made linear cf algorithm becomes insensitive manipulated data
+instance even if half all ratings provided manipulators who try promote half products predictions users long histories will barely distorted average
+provide some intuition why our results should hold now offer informal argument
+robust cf algorithm should learn its mistakes
+particular differences between its predictions actual ratings should help improve predictions future ratings
+linear cf algorithm generates predictions based probability distribution convex combination two distributions: one would learn given only data generated honest users one would learn given only manipulated data
+user whose ratings wish predict provides more ratings becomes increasingly clear two distributions better represents his preferences
+result weight placed manipulated data diminishes distortion vanishes
+main theoretical result paper formalizes above argument
+particular will define notion distortion induced manipulators establish upper bound distortion takes particularly simple form: r n n 80\% 10\% 75\% 21$ products before receiving recommendations
+broaden scope our analysis will also study cf algorithms behave like linear cf algorithms asymptotically size training set grows
+class algorithms refer asymptotically linear  more flexible accommodating modeling assumptions may improve prediction accuracy
+will establish relaxed version our distortion bound linear cf algorithms applies asymptotically linear cf algorithms
+will also show our distortion bound does not generally hold nn algorithms
+intuitively because prediction errors do not always improve selection neighbors
+particular user provides more ratings manipulated data contribute inaccurate predictions his future ratings may remain set neighbors while data generated honest users may eliminated
+result distortion predictions may not decrease
+will later provide example illustrate
+addition theoretical results paper provides empirical analysis using publicly available set movie ratings generated users netflix's recommendation system
+produce distorted version data set injecting manipulated ratings generated using manipulation technique studied prior literature
+then compare results application three cf algorithms: nn algorithm linear cf algorithm called kernel density estimation algorithm asymptotically linear cf algorithm called naive bayes algorithm
+results demonstrate while performance nn algorithm highly susceptible manipulation those kernel density estimation naive bayes algorithms relatively robust
+particular latter two experience distortion lower than theoretical bound provide whereas distortion former exceeds far
+one might also wonder whether manipulation robustness cf algorithm comes at expense its prediction accuracy
+example consider algorithm fixes predictions all ratings constant without regard training data
+algorithm uninfluenced manipulation but likely yield poor predictions therefore not useful
+our experiments accuracy demonstrated three algorithms all seems reasonable
+suggests accuracy cf algorithm may achieved alongside robustness
+our theoretical empirical results together suggest commercial recommendation systems using nn algorithms made more robust adopting approaches describe
+note not proposing real-world systems should implement specific algorithms present paper
+rather our analysis highlights properties cf algorithms lead robustness practitioners may benefit taking properties into consideration when designing cf systems
+paper organized follows
+next section discuss some related work
+section  formulate simplified model serves context studying alternative cf algorithms
+then establish results concerning manipulation robustness nn linear asymptotically linear cf algorithms section
+section  present our empirical study
+make some closing remarks final section

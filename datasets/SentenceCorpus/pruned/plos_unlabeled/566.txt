@@ -1,0 +1,36 @@
+
+perception involves two types decisions about identification stimulus features same stimulus features among set alternatives
+judgment been two distinct computational problems
+here found two types decision making mechanism
+used continuous network model two experiments subjects were required make either choice judgment about direction motion
+model network population activity patterns each possible motion direction
+evidence its strong leads decision behaviors
+model performance well activity task
+furthermore examined how direction identification determined combination
+using measure found direction judgments when two stimuli far vector when two stimuli close each other
+range between two stimuli network strategy sense direction estimates produced some trials vector other trials model prediction experimentally
+work thus support common framework both judgment decision making
+introduction
+judgments involve detection identification objects
+given visual motion pattern instance subject may asked whether motion direction present identify motion direction motion direction between two options
+using strategy activity judgments
+experiments using tasks neural decision making been observed
+experimental observations neural models suggest network dynamics temporal integration information decision formation
+those neural models well models typically simple neural alternatives
+therefore they identification requires neural representation motion direction arbitrary between
+other hand probabilistic estimation stimulus feature been studied perspective optimal population
+studies optimal algorithms out stimulus feature neural populations visual stimulus neural activity primary visual direction motion stimulus activity across temporal visual area
+however probabilistic inference occur primary underlying mechanism remains
+particular unknown whether probabilistic estimation distinct decision processes neural mechanism
+present work investigated question using continuous network model neurons was proposed spatial memory
+applied model simulation two experiments using visual motion stimuli
+direction task was motion direction making one two choice targets
+was found activity neurons correlated choice
+contrast direction identification task was required report its perceived direction motion visual stimulus
+some trials was applied neurons when
+could bias judgments direction neurons at site
+was both algorithms might activity neurons
+but only behavioral data did not neural activity
+thus neural mechanism judgments about motion direction remains unknown
+here show continuous network model observations both experiments
+our results suggest both judgment common dynamics

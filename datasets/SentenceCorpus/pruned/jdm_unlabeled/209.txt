@@ -1,0 +1,20 @@
+
+many judgment analysis studies multiple regression estimate importance cues
+some studies test regression order whether not specific cues decision
+practice because type error
+note number attention issue specifically studies number problem examples judgment literature number provide simple method power regression analyses order type errors when regression models used
+introduction
+judgment used multiple regression model cognitive underlying many types judgments variety
+most often models individual decision multiple information cues manner at judgment
+further analyses those who judgment task their judgment model policy although less than consistency
+ability linear regression models judgments under various conditions been discussed
+if one people's judgments though they multiple regression questions number how many available cues does individual use
+number how should number cues used determined
+too many researchers apply statistical tests did did not specific cues
+if weight significant then cue being
+p values way problem because values affected number cues number cases presented during task how well overall regression total set responses
+issue discussed note follows first examples judgment literature existence problem
+second used judgment when regression introduced
+third using method power regression based t distribution described
+method applied estimate number cases necessary statistical order how about number cues judgment task should type error
+finally program described provided

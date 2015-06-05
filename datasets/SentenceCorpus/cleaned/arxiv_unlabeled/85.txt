@@ -1,0 +1,21 @@
+ 
+data analysis new forms complex data considered like example symbolic data functional data web data trees sql query multimedia data
+
+
+context classical data analysis knowledge discovery based calculating center gravity not used because input not vectors
+paper present application real world symbolic data using self-organizing map
+end %%@ propose extension self-organizing map handle symbolic data \\ keywords: classification self organizing map symbolic data dissimilarity
+ introduction 
+self-organizing map(som introduced kohonen unsupervised neural network method both clustering visualization %%@ properties
+considered algorithm maps high dimensional data space  lower dimension generally 2 %%@ called map
+projection enables input data partitioned into "similar" clusters while preserving their topology
+its most similar %%@ predecessors k-means algorithm dynamic clustering method  operate som without topology preservation %%@ therefore without easy visualization
+data analysis new forms complex data considered most notably symbolic data data internal structure interval %%@ data distributions functional data etc  semi-structured data trees xml documents sql queries etc 
+context classical data %%@ analysis based calculating center gravity not used because input not vectors
+order solve problem %%@ several methods considered depending type data example projection operators %%@ functional data 
+however those methods not fully general adaptation every data analysis algorithm resulting %%@ data needed
+kohonen's som based center gravity notion unfortunately concept not applicable many kinds complex data
+paper propose adaptation som dissimilarity data alternative solution
+our goal modify som algorithm allow its implementation dissimilarity measures rather than raw data
+end take one's inspiration work kohonen
+apply method only definition dissimilarity each type data necessary so complex data processed

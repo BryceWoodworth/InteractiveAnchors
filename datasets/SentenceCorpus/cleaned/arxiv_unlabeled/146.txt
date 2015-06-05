@@ -1,0 +1,18 @@
+ 
+quantum classification defined task predicting associated class unknown quantum state drawn ensemble pure states given finite number copies state
+recasting state discrimination problem within framework machine learning ml use notion learning reduction coming classical ml solve different variants classification task weighted binary multiclass versions
+ introduction 
+suppose you given unknown quantum state drawn ensemble possible pure states where each state labeled after class originated
+how well you predict class unknown state
+general question often referred literature quantum state discrimination  been studied at least far back seminal work helstrom seventies field quantum detection estimation theory 
+course answer will depend parameters structure your knowledge ensemble pure states dimension hilbert space quantum states live number copies unknown state you received
+paper take machine learning ml view problem recasting learning task called quantum classification
+our main goal doing so bring new ideas insights ml help solve task some its variants
+other motivations include characterization learning tasks terms amount information needed complete them measured instance number copies quantum states development framework used relate compare tasks
+approach performing learning quantum states was originally taken defined  where was illustrated giving explicit algorithm task quantum clustering  where goal group clusters quantum states similar using fidelity similarity measure while putting states dissimilar different clusters
+model learning quantum states put forward paper complementary model proposed aaronson  where training dataset composed povm's  positive-operator valued measurement  not quantum states
+aaronson's model receive finite number copies unknown quantum state goal ``training'' state few povm's produce high probability hypothesis generalize reasonable accuracy unobserved povm's belonging training dataset
+outline paper follows
+first model performing learning quantum world introduced section along notion learning reduction allows us relate together different learning tasks
+afterwards section task binary classification described weighted multiclass versions task defined respectively sections
+finally section concludes discussion

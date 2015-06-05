@@ -1,0 +1,45 @@
+
+rna molecules will tend through single resulting secondary structure critical function many types rna
+secondary structure particular functional rna may depend its sequence
+yet some their specific structures during involves larger structural context while other functional may independent
+observations question whether particular functional rna may selected secondary structure their context
+define property tendency rna sequence same optimal secondary structure whether exists sequence arbitrary
+measured degree using method call found exhibit high consistent structural pathway while most other do not
+further analysis revealed higher among conserved high may novel new genomic
+found significantly compared other functional but also found natural selection most functional rna classes
+suggest out selection robustness against during structural function
+analysis will important both design functional
+available at
+introduction
+our understanding increased over discovery
+along increased corresponding attention rna sequence structural measures known novel
+secondary structure rna base interactions along length direct effect its function fact been variety rna classes
+among examples functional importance rna structure several along associated proteins into large small structural direct protein
+rna structure allows its bound amino during
+various small small involved rna basis their while structure allows them during process
+not limited however some contain structural regulatory motifs sequence occurs regions site
+recognition specific rna binding proteins well all involve molecular interactions rna structure
+importance structural not limited end sequence structural during various rna also critical
+example both some also contain structure out before out
+single
+example rna its three occurs same rna
+case transcription long primary into large structures
+complex form complex specific them at base region
+range size targets basis their
+sequence remains robust structure through sequence when larger primary sequence into when form independent sequence into same
+need structural pathway phenomenon through structural motifs
+now well novel proteins structural domains most example being proteins
+given critical role structural features rna function motifs many might also evolutionary domain domain
+process would require novel state structural features its structural features need other sequences
+one hand structural context robustness may specific relationship between each sequence its genomic context property been computational
+other hand certain may some intrinsic tendency their sequence particular sequence would still robust if were into different context
+call property intrinsic structural
+structural rna potential larger structure out consistent function through biochemical sequences potentially function when into novel might occur elements
+previously while general robustness structural elements rna genomes found there was higher structural robustness conserved elements than elements when short
+using similar approach studied intrinsic context set selected reduced environmental found positive relationship between environmental
+other work rna proteins suggests there relationship between robustness domain stability well other processes
+work analyze over range biological using method different context robustness
+show fact do exhibit high degree intrinsic while most other relevant tend not show
+other sequence structural features rna find no simple combination features explain
+finally show variation among degree correlated genomic well their process produced pathway
+propose high intrinsic property particular rna sequences may selected molecules need structural robustness some their function genetic

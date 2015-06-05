@@ -1,0 +1,51 @@
+
+transcription factor central role decisions including growth
+normal cell critical control dynamics
+recent studies suggest control at level via protein stability
+two kinase pathways
+gain quantitative into dynamics developed mathematical model analyze regulation via sequential
+our results suggest signals result various cellular responses stability control protein
+signal integration dynamic range system output stability change
+addition signal integration may require input signals leading signal integration temporal features input signals response their input
+further propose characteristics protein stability control may various cell types classes proteins
+introduction
+protein transcription factor signaling pathways involved decisions
+sufficient leads activation d dependent
+results dna cell cycle
+however when cells under growth factors
+finally also cell growth genes cellular metabolic including factors proteins
+given its importance activity must response different environmental cues
+past studies suggested at multiple levels including transcription regulation
+more recent also at protein level pathways
+suggest protein series sequential
+more specifically when highly
+when at activity
+at however process sequential manner
+mechanism protein
+at changes required
+only mechanism identified processes
+pathway
+unique control dynamics sequential allows signals play critical cell
+often early activation upon growth
+depend cell growth factors
+critical signal
+example cells small activity result growth factor leads
+contrast high activity result growth factor same cell leads
+level also been observed critical level
+activation pattern depends cell detailed
+various cell including when growth factors
+contrast only early single cell other growth
+activation been shown important cell cycle regulation
+particular second been found sufficient critical transition during cell cycle
+temporal pattern activation those
+protein its at 2 after growth remains at value over before its level
+2
+observations suggest may sense signals its two
+gain into control mechanism mathematical model analyze dynamics sequential
+using model investigate how signaling patterns dynamics at level
+also how robust dynamics respect network parameters rate
+what unique about strategy protein stability
+common strategy cells achieve temporal control key regulatory proteins
+questions our work may provide into design features cell signaling networks experimental
+our model unique other models signaling dynamics leading activation well dynamics leading cell decisions further propose regulation example
+appropriate parameters will temporal input signals

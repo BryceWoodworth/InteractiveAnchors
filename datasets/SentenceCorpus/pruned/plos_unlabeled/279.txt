@@ -1,0 +1,27 @@
+
+many cellular systems rely ability spatial concentration direct cell
+accuracy process limited stochastic concentration signal signaling components
+here use information theory determine optimal source presence noise
+minimum amount information needed between signal achieve accuracy
+show more accurate requires greater information
+also demonstrate information improve
+compare optimal signaling existing experimental measurements models
+there good quantitative between optimal response when no assumption made about existing source observed experimental response cells
+contrast measured response d cells optimal prior knowledge example through given direction
+our results demonstrate different observed classes responses cells optimal under information assumptions
+introduction
+recently there been research critical role random cellular signaling systems
+stochastic found signaling molecules well components
+they because small number molecules involved signaling play significant gene regulatory networks well signal pathways
+cellular signaling networks requires mechanisms effects noise
+however questions how evaluate performance cellular decision-making systems
+how well does signaling network cell make decisions based signaling cues available
+made parameters structure network
+how used
+here argue rate theory information theory used evaluate systems
+application information theory study biology been under way some time attention
+however full utility biological signaling systems general not been because difficulty information general biological systems
+here use rate theory study performance cost general spatial mechanisms similar those found many cells including
+rate theory provides bounds rate at information must through system achieve given performance criterion
+our results demonstrate depending prior knowledge cell about its environment different optimal strategies exist
+furthermore show differences observed behaviors cells various efficient decision-making processes

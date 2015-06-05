@@ -1,0 +1,18 @@
+ 
+standard preference models consumer research assume people weigh add all attributes available options derive decision while there growing evidence use simplifying heuristics
+recently greedoid algorithm been developed model lexicographic heuristics preference data
+compare predictive accuracies greedoid approach standard conjoint analysis online study rating ranking task
+lexicographic model derived greedoid algorithm was better at predicting ranking compared rating data but overall achieved lower predictive accuracy hold-out data than compensatory model estimated conjoint analysis
+however considerable minority participants was better predicted lexicographic strategies
+conclude new algorithm will not replace standard tools analyzing preferences but boost study situational individual differences preferential choice processes
+ introduction 
+how do customers choose abundance products modern retail outlets
+how many attributes do they consider how do they process them form preference
+questions theoretical well practical interest
+gaining insights into processes people follow while making purchase decisions will lead better informed decision theories
+at same time marketers interested more realistic decision models predicting market shares optimizing marketing actions example adapting products advertising materials consumers' choice processes
+consumer research decision models based idea utility maximization predominate date expressed prevalent use weighted additive models derived conjoint analysis capture preferences
+at same time judgment decision making researchers propose alternative decision heuristics supposed provide psychologically more valid accounts human decision making gather evidence their use
+recently field judgment decision making been equipped new tool greedoid algorithm deduce lexicographic decision processes preference data developed independently yee et al kohli jedidi
+aim bring together two lines research comparing predictive performance lexicographic decision processes deduced new greedoid algorithm weighted additive models estimated full profile regression-based conjoint analysis standard tool consumer research
+derive hypotheses theoretical framework adaptive decision making about when approach should better-suited tool test them empirical study

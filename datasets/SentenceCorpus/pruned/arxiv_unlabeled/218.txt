@@ -1,0 +1,14 @@
+
+wide variety regularization methods algorithms solution been developed recently
+solution algorithms do not only solution one particular value regularization parameter but solutions making selection optimal parameter much
+most used algorithms not robust sense they cannot general input
+here present new robust method
+our algorithm directly all machine learning applications where so far every application required its own different algorithm
+our method very low rank problem could not existing methods values choice based analysis popular technique research estimate preferences class options
+introduction
+study algorithm solve i e whole solution
+other methods machine learning our algorithm objective function matrices without input
+regularization methods resulting been applied many optimization classification regression tasks variety example signal processing statistics biology information
+will review some applications here will also study another application choice based analysis more
+analysis popular family techniques used research preferences set options multiple parameters see recent
+will show regularization approach analysis preference data leads program sparse low rank positive matrix term objective function

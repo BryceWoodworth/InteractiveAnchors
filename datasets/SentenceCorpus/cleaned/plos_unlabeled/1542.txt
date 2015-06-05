@@ -1,0 +1,33 @@
+ 
+when movement outcome differs consistently intended movement errors used correct subsequent movements updating internal model motor and/or sensory systems
+here examine changes internal model motor system under changes variance structure movement errors lacking overall bias
+introduced horizontal visuomotor perturbation change statistical distribution movement errors anisotropically while monetary gains/losses were awarded based movement outcomes
+derive predictions simulated movement planners each differing its internal model motor system
+find humans optimally respond overall change error magnitude but ignore anisotropy error distribution
+through comparison simulated movement planners found aimpoints corresponded quantitatively ideal movement planner updates strictly isotropic internal model error distribution
+aimpoints were planned manner ignored direction-dependence error magnitudes despite continuous availability unambiguous information regarding anisotropic distribution actual motor errors
+ introduction 
+motor system exquisitely sensitive perturbation
+ability sense discrepancy between planned executed movement respond accordingly one hallmarks motor learning
+here concerned nature error signal used update future movement plans when result movement does not match intended outcome
+course there infinite number statistics error signal cns might use update future motor plans ranging running average recent errors n th-order moments distribution past errors
+interested exploring limits what statistics modeled nervous system
+previous work focused neuromotor corrections imposed bias where corrective responses found opposite direction previous errors proportional prior error extents
+work supports motor learning models future motor plans incorporate inverse command would produced previous error
+deterministic model motor learning suggests errors past movements subtracted off future motor plans
+models traced at least helmholtz who used type model describe perceptual constancy following eye movements
+however deterministic models fail recognize cns neither simply read off motor error noisy sensory signals nor produce identical motor outcomes repetitions motor commands
+relationships between sensory signal motor error between motor command motor outcome must inferred; those inferences far certain
+recognizing current research examined role uncertainty motor learning
+example sheidt et al added stochastic element average force field found subjects adapted uncertain field strength tracking its expectation over recent errors
+here interested response changes motor uncertainty ask whether responses result updating internal model motor variance; if so aspects variance structure uncertain error signal modeled
+studies increased motor noise anisotropically stimulating reflexive motor response known occur when reaching presence horizontal visual-field motion drift
+trial trial observers were shown leftward motion rightward motion static stimulus random order
+motion if present began at halfway-point reach resulted perturbation reach direction visual motion
+subjects could not plan advance any particular drift condition since were randomly intermixed nor could they compensate drift online because timing reach drift-onset insured reaches were completed before feedback correction was possible
+because reflexive manual following response affects only horizontal component reach was possible test aspects new anisotropic distribution motor errors was modeled cns
+test changes internal representation motor noise monitoring changes reach plans toward visible targets depend details information available cns concerning motor uncertainty
+experiments successful reaches targets earn subjects monetary bonus; reaches instead intersect neighboring region screen induce monetary loss
+two sessions each beginning reaches targets without penalties subjects learn their natural perturbed noise distributions then respond target-penalty pairs later session allowing us assess their internal representation motor uncertainty
+our results indicate cns updates strictly circular internal model motor variance even when distribution actual errors anisotropic
+result consistent recent psychophysical neurophysiological results indicating independent encoding directions extents movement errors because system updates only circular internal representation errors equivalent system monitors only magnitudes those errors ignoring their directions

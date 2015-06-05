@@ -1,0 +1,26 @@
+ 
+learn multiple hypotheses related tasks under latent hierarchical relationship between tasks
+exploit intuition domain adaptation  wish share classifier structure but multitask learning  wish share covariance structure
+our hierarchical model seen subsume several previously proposed multitask learning models performs well three distinct real-world data sets
+ introduction 
+consider two related but distinct tasks: domain adaptation da multitask learning mtl
+both involve learning related hypotheses multiple data sets
+da learn multiple classifiers solving same problem over data different distributions
+mtl learn multiple classifiers solving different problems over data same distribution
+seen bayesian perspective natural solution hierarchical model hypotheses leaves
+however when there more than two hypotheses learned i e  more than two domains more than two tasks immediate question is: all hypotheses equally related
+if not what their relationship
+address issues proposing two hierarchical models latent hierarchies one da one mtl models nearly identical
+treat hierarchy nonparametrically employing kingman's coalescent
+derive em algorithm makes use recently developed efficient inference algorithms coalescent
+several da mtl problems show efficacy our model
+our models da mtl share common structure based unknown hierarchy
+key difference between da model mtl model what information shared across hierarchy
+simplicity consider case linear classifiers logistic regression linear regression
+extended non-linear classifiers moving gaussian processes
+domain adaption useful model assume there single classifier ``does well'' all domains
+context hierarchical bayesian modeling interpret saying weight vector associated linear classifier generated according hierarchical structure
+other hand mtl one does not expect same weight vector do well all problems
+instead common assumption features co-vary similar ways between tasks
+hierarchical bayesian model interpret saying covariance structure associated linear classifiers generated according hierarchical structure
+brief: da share weights; mtl share covariance

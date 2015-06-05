@@ -1,0 +1,33 @@
+ 
+whole-genome transporter analyses been conducted 141 organisms whose complete genome sequences available
+each organism complete set membrane transport systems was identified predicted functions classified into protein families based transporter classification system
+organisms larger genome sizes generally possessed relatively greater number transport systems
+prokaryotes unicellular eukaryotes significant factor increase transporter content genome size was greater diversity transporter types
+contrast multicellular eukaryotes greater number paralogs specific transporter families was more important factor increase transporter content genome size
+both eukaryotic prokaryotic intracellular pathogens endosymbionts exhibited markedly limited transport capabilities
+hierarchical clustering phylogenetic profiles transporter families derived presence absence certain transporter family showed clustering patterns organisms were correlated both their evolutionary history their overall physiology lifestyles
+ introduction 
+membrane transport systems play essential roles cellular metabolism activities
+transporters function acquisition organic nutrients maintenance ion homeostasis extrusion toxic waste compounds environmental sensing cell communication other important cellular functions
+various transport systems differ their putative membrane topology energy coupling mechanisms substrate specificities
+among prevailing energy sources adenosine triphosphate phosphoenolpyruvate chemiosmotic energy form sodium ion proton electrochemical gradients
+transporter classification system represents systematic approach classify transport systems according their mode transport energy coupling mechanism molecular phylogeny substrate specificity
+transport mode energy coupling mechanism serve primary basis classification because their relatively stable characteristics
+there four major classes solute transporters transporter classification system: channels primary transporters secondary transporters group translocators
+transporters unknown mechanism function included distinct class
+channels energy-independent transporters transport water specific types ions hydrophilic small molecules down concentration electrical gradient; they higher rates transport lower stereospecificity than other transporter classes
+primary active transporters couple transport process primary source energy
+secondary transporters utilize ion solute electrochemical gradient e.g proton/sodium motive force drive transport process
+e coli lacy lactose permease probably one best characterized secondary transporters
+group translocators modify their substrates during transport process
+example e coli mtla mannitol pts transporter phosphorylates exogenous mannitol using phosphoenolpyruvate phosphoryl donor energy source releases phosphate ester mannitol-1-p into cell cytoplasm
+each transporter class further classified into individual families subfamilies according their function phylogeny and/or substrate specificity 
+since advent genomic sequencing technologies complete sequences over 200 prokaryotic eukaryotic genomes been published date representing wide range species archaea human
+there also more than 1,100 additional genome sequencing projects currently underway around world
+convenient effective computational methods required handle analyze immense amount data generated whole-genome sequencing projects
+in-depth look at transport proteins vital understanding metabolic capability sequenced organisms
+however often problematic annotate transport proteins current primary annotation methods because occurrence large complex transporter gene families atp-binding cassette superfamily major facilitator superfamily presence multiple transporter gene paralogs many organisms
+been working systematic genome-wide analysis cellular membrane transport systems
+previously reported comprehensive analysis transport systems 18 prokaryotic organisms yeast
+here expand our analyses 141 species compare fundamental differences membrane transport systems prokaryotes eukaryotes
+phylogenetic profiling transporter families predicted substrates was utilized investigate relevance transport capabilities overall physiology prokaryotes eukaryotes

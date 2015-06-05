@@ -1,0 +1,44 @@
+ 
+ryanodine receptors ion channels regulate muscle contraction releasing calcium ions intracellular stores into cytoplasm
+mutations skeletal muscle ryr give rise congenital diseases central core disease
+absence high-resolution structures ryr1 limited our understanding channel function disease mechanisms at molecular level
+here report structural model pore-forming region ryr1
+molecular dynamics simulations show high ion binding putative pore residues d4899 e4900 d4938 d4945 experimentally known critical channel conductance selectivity
+also observe preferential localization ca 2 over k selectivity filter ryr1
+simulations ryr1-d4899q mutant show loss preference ca 2 selectivity filter seen experimentally
+electrophysiological experiments central core disease mutant ryr1-g4898r show constitutively open channels conduct k but not ca 2
+our simulations g4898r likewise show decrease preference ca 2 over k selectivity filter
+together computational experimental results shed light ion conductance selectivity ryr1 at atomistic level
+ introduction 
+muscle contraction upon excitation nerve impulse initiated rapid rise cytoplasmic ca 2
+skeletal muscle rise cytoplasmic ca 2 brought about opening ryanodine receptor releases ca 2 intracellular stores
+ryrs large tetrameric ion channels present membranes endoplasmic/sarcoplasmic reticulum
+they high conductance monovalent divalent cations while being selective divalent cations
+ryrs important mediators excitation-contraction coupling congenital mutations ryrs result neuromuscular diseases malignant hypothermia central core disease 
+although ryrs physiologically important molecular basis their function poorly understood
+ryrs unique properties their modes selectivity permeation not seen other ion channels known structures
+next putative selectivity filter there two negatively charged residues ryr1 essential normal selectivity conductance
+k channels analogous selectivity filter but contrast ryr1 only one adjacent negative residue not even conserved while other ca 2 channels only one conserved negative residue equivalent position
+selectivity filter mutations result non-functional channels leading ccd
+structural model pore region would reveal location function residues will useful understanding role residues channel function
+early model ryr ion permeation postulated potential barriers within pore corresponding three putative binding sites
+without any knowledge structure pore model was able quantitatively reproduce conductance data various ions
+pnp-dft model accurately modeled role residues d4899 e4900 ryr1 generating high ion conductances ryrs established mutagenesis
+selectivity was attributed charge-space competition ca 2 could accommodate most charge least space compared k however since channel model used simulations relied fixed structure could not predict changes due mutations potentially alter structure channel
+additionally there two homology models ryr pore region based kcsa bacterial k channel whose solution structure known
+shah et al used bioinformatics approaches construct models ryr related inositol triphosphate channel
+luminal loop their ryr model begins at 4890g resulting selectivity filter being 4890gvragg
+however mutagenesis shown residues i4897 g4898 d4899 e4900 important channel conductance selectivity suggests they part conduction pathway ryr1 resulting predicted selectivity filter being 4894gggigde
+welch et al also constructed homology model cardiac ryanodine receptor using structure kcsa channel performed simulations identify residues important channel function
+their simulations failed identify d4899 important residue ion permeation contrary what been shown experimentally
+furthermore cryo-electron microscopy ryr1 revealed significant differences between pore region kcsa ryr1 
+experimental structure determinations ryrs been mainly performed cryo-em
+studies revealed conformational changes accompany channel opening binding sites various effectors ryrs
+cryo-em resolution 10 25 thus able provide only limited structural information regarding pore structure
+samso et al manually docked kcsa pore structure into transmembrane region their cryoem map intact closed ryr1
+furthermore they predicted presence at least 6 transmembrane helices simple volumetric constraints
+ludtke et al identified several secondary structure elements their 10 resolution cryo-em map closed ryr1
+pore-forming region visualized ludtke et al consists long inner helix made up 31 residues pore helix made up 15 residues presumably connected long luminal loop made up 24 residues
+since structure derived cryo-em positions pore residues' side chains structure loops connecting helices unknown
+build molecular model pore region ryr1 based their cryo-em study adding luminal loop missing side chains residues forming helices pore
+furthermore our molecular dynamics simulations examine interactions pore region mono divalent cations known permeate channel 

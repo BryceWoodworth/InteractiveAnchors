@@ -1,0 +1,8 @@
+ 
+50 percent progressing hiv-1 patients cxcr4-tropic virus emerges late infection often overtaking ccr5-tropic virus dominant viral strain
+phenotypic switch strongly associated rapidly declining cd4 t cell counts aids onset yet its causes remain unknown
+here analyze mathematical model mechanism x4 emergence late-stage hiv infection use analysis evaluate utility promising new class antiretroviral drugs ccr5 inhibitors dual r5 x4 infection
+model shows r5-to-x4 switch occurs cd4 t cell activation levels increase above threshold cd4 t cell counts decrease below threshold during late-stage hiv infection
+importantly model also shows highly active antiretroviral therapy inhibit x4 emergence but monotherapy ccr5 blockers accelerate x4 onset immunodeficiency if x4 infection memory cd4 t cells occurs at high rate
+fortunately when cxcr4 blockers haart used conjunction ccr5 blockers risk accelerated immunodeficiency eliminated
+results suggest ccr5 blockers will more effective when used combination cxcr4 blockers caution against ccr5 blockers absence effective haart regimen during haart failure

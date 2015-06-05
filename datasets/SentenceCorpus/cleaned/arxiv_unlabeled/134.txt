@@ -1,0 +1,36 @@
+ 
+many applications machine learning data mining require computing pairwise distances data matrix
+massive high-dimensional data computing all pairwise distances infeasible
+fact even storing all pairwise distances memory may also infeasible
+ efficient small space algorithms exist example based method stable random projections  unfortunately not directly applicable paper proposes simple method   
+
+
+first decompose where even distances into sum 2 marginal norms ``inner products'' at different orders
+then apply normal sub-gaussian random projections approximate resultant ``inner products,'' assuming marginal norms computed exactly linear scan
+propose two strategies applying random projections
+basic projection strategy requires only one projection matrix but more difficult analyze while alternative projection strategy requires projection matrices but its theoretical analysis much easier
+terms accuracy at least  basic strategy always more accurate than alternative strategy if data non-negative common reality
+ introduction 
+study proposes simple method efficiently computing distances massive data matrix where even using random projections
+while many previous work random projections focused approximating distances inner products method symmetric stable random projections applicable approximating distances all
+work proposes using random projections  least some special cases
+machine learning algorithms often operate distances instead original data
+straightforward application would searching nearest neighbors using distance
+distance also basic loss functions quality measure
+widely used ``kernel trick,'' e g  support vector machines svm often constructed top distances
+here treat tuning parameter
+common take  euclidian distance  infinity distance   manhattan distance  hamming distance); but principle any values possible
+fact if there efficient mechanism compute distances then becomes affordable tune learning algorithms many values best performance
+modern data mining learning applications ubiquitous phenomenon ``massive data'' imposes challenges
+example pre-computing storing all pairwise distances memory at cost infeasible when even just 
+ultra high-dimensional data even just storing whole data matrix infeasible
+meanwhile modern applications routinely involve millions observations; developing scalable learning data mining algorithms been active research direction
+one commonly used strategy current practice compute distances fly  stead storing all pairwise distances
+data reduction algorithms sampling sketching methods also popular
+while there been extensive studies approximating distances  useful too
+example because normal distribution completely determined its first two moments mean variance identify non-normal components data analyzing higher moments particular fourth moments i e  kurtosis 
+thus fourth moments critical example field independent component analysis ica
+therefore viable use distance when lower order distances not efficiently differentiate data
+unfortunate family stable distributions limited hence not directly using stable distributions approximating distances
+theoretical cs community there been many studies approximating norms distances  some also applicable distances e g  comparing two long vectors
+those papers proved small space   algorithms exist only

@@ -1,0 +1,64 @@
+ 
+propose simple randomized strategies sequential decision prediction under imperfect monitoring when decision maker forecaster does not access past outcomes but rather feedback signal
+proposed strategies consistent sense they achieve asymptotically best possible average reward among all fixed actions
+was rustichini who first proved existence consistent predictors
+forecasters presented here offer first constructive proof consistency
+moreover proposed algorithms computationally efficient
+also establish upper bounds rates convergence
+case deterministic feedback signals rates optimal up logarithmic terms
+ introduction 
+sequential decision problems decision maker forecaster tries predict outcome certain unknown process at each discrete time instance takes action accordingly
+depending outcome predicted event action taken decision maker receives reward
+very often probabilistic modeling underlying process difficult
+situations prediction problem formalized repeated game between decision maker environment
+formulation goes back 1950's when hannan blackwell showed decision maker randomized strategy guarantees regardless outcome sequence average asymptotic reward high maximal reward one could get knowing empirical distribution outcome sequence advance
+strategies called hannan consistent
+prove result hannan blackwell assumed decision maker full access past outcomes
+case termed full information perfect monitoring case
+however many important applications decision maker limited information about past elements sequence predicted
+various models limited feedback been considered literature
+perhaps best known them so-called multi-armed bandit problem forecaster only informed its own reward but not actual outcome; see ba\~nos  megiddo  foster vohra  auer cesa-bianchi freund schapire  hart mas colell
+example shown hannan consistency achievable case well
+sequential decision problems like ones considered paper been studied different fields under various names repeated games regret minimization on-line learning prediction individual sequences sequential prediction
+vocabulary different sub-communities differ
+ours perhaps closest used learning theorists
+general introduction survey sequential prediction problem refer cesa-bianchi lugosi
+paper consider general model information available forecaster general given possibly randomized function outcome decision forecaster
+well understood under what conditions hannan consistency achievable setup see piccolboni schindelhauer cesa-bianchi lugosi stoltz
+roughly speaking possible whenever after suitable transformations problem reward matrix expressed linear function matrix expected feedback signals
+however condition not always satisfied then natural question what best achievable performance decision maker
+question was answered rustichini who characterized maximal achievable average reward guaranteed asymptotically all possible outcome sequences almost sure sense
+however rustichini's proof achievability not constructive
+uses approachability theorems due mertens sorin zamir seems unlikely his proof method give rise computationally efficient prediction algorithms noted conclusion
+simplified efficient approachability-based strategy special case where feedback function action nature alone was shown mannor shimkin
+general case simplified approachability-based strategy falls short maximal achievable average reward characterized rustuchini
+goal paper develop computationally efficient forecasters general prediction problem under imperfect monitoring achieve best possible asymptotic performance
+introduce several forecasting strategies exploit some specific properties problem at hand
+separate four cases according whether feedback signal only depends outcome both outcome forecaster's action whether feedback signal deterministic not
+design different prediction algorithms all four cases
+by-product also obtain finite-horizon performance bounds explicit guaranteed rates convergence terms number rounds prediction game played
+case deterministic feedback signals rates optimal up logarithmic factors
+random feedback signal case do not know if possible construct forecasters significantly smaller regret
+motivating example prediction problem arises naturally multi-access channels prevalent both wired wireless networks
+networks communication medium shared between multiple decision makers
+often technically difficult synchronize between decision makers
+channel sharing protocols particular several variants spread spectrum allow multiple agents use same channel channels may interfere each other simultaneously
+more specifically consider wireless system where multiple agents choose channel transmit data at any given time
+quality each channel may different interference other users using channel other ``close'' channels may affect base-station reception
+transmitting agent may choose channel use how much power spend every transmission
+agent tradeoff between amount power wasted transmission cost having its message only partially received
+transmitting agent may not receive immediate feedback how much data were received base station even if feedback received often happens much higher layer communication protocol
+instead transmitting agent monitor transmissions other agents
+however since transmitting agent physically far base-station other agents information about channels chosen other agents amount power they used imperfect
+naturally abstracts online learning problem imperfect monitoring
+paper structured follows
+next section formalize prediction problem investigate introduce target quantity best achievable reward notion regret
+section describe some analytical properties key function  defined section
+function represents worst possible average reward given vector observations needed our analysis
+section consider simplest special case when actions forecaster do not influence feedback signal moreover deterministic
+case basically easy full information case obtain regret bound order high probability where number rounds prediction game
+section study random feedback signals but still restriction only determined outcome
+here able obtain regret order
+most general case dealt section
+forecaster introduced there regret order
+finally section show may improved case deterministic feedback signals known optimal see 

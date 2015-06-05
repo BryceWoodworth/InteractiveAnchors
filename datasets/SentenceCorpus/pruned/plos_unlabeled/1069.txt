@@ -1,0 +1,35 @@
+
+transcription factor regulation often
+mutations independent expression level expression analysis
+using propose new algorithm gene mutation data
+mutation growth protein
+compared less find not expressed at any time points
+despite algorithm through integration three sources expression
+novel question most most expressed genes
+correct answer
+our new approach regulatory changes network dynamics
+procedure regulatory relative relevant part network
+contrast other methods compare networks testing not used
+introduction
+evolution normal development responses processes cancer all involve at least some regulatory
+indeed differences makes each individual unique
+key nodes regulatory transcription factors
+thus there interest methods changes
+interactions but requires large
+furthermore does not so biological complex
+likely sites key regulatory mutations revealed whole genome but approach requires large numbers individuals very
+even so exact gene may if there several genes
+any case little into underlying regulatory mechanisms
+order gain further into regulatory computational approaches being proposed
+they all information multiple levels biological particularly interaction binding site data
+regulatory change through gene expression data been because tend expressed at levels close sensitivity standard expression
+further activation often expression level
+important common activation processes expression analysis
+network approach might utility while might not between two systems its new position network system might allow detection
+allow evaluation hypothesis experimental model system required
+because they genomic dna mutation
+resulting protein growth importance pathways
+analysis expression versus found was not using expression
+thus system know gene mutation but cannot identify samples
+across time points our aim was question answer
+other words what question do need gene expression data mutation

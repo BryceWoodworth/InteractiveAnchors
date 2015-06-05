@@ -1,0 +1,43 @@
+ 
+cells embryonic vertebrate limb high-density culture undergo chondrogenic pattern formation results production regularly spaced islands cartilage similar cartilage primordia developing limb skeleton
+first step process vitro vivo generation cell condensations precartilage cells become more tightly packed at sites at cartilage will form
+paper describe discrete stochastic model behavior limb bud precartilage mesenchymal cells vitro
+model uses biologically motivated reaction diffusion process cell-matrix adhesion bases chondrogenic pattern formation whereby biochemically distinct condensing cells well size number arrangement multicellular condensations generated self-organizing fashion
+improving earlier lattice-gas representation same process multiscale cells represented spatially extended objects change their shape
+authors calibrate model using experimental data study sensitivity changes key parameters
+simulations disclosed two distinct dynamic regimes pattern self-organization involving transient stationary inductive patterns morphogens
+authors discuss modes pattern formation relation available experimental evidence vitro system well their implications understanding limb skeletal patterning during embryonic development
+ introduction 
+skeletal pattern formation developing vertebrate limb depends interactions precartilage mesenchymal cells factors control spatiotemporal differentiation cartilage
+most fundamental skeletogenic processes involve spatial separation precartilage mesenchyme into chondrogenic nonchondrogenic domains studied vitro well vivo
+high-density micromass cultures chondrogenic embryonic limb mesenchymal cells well developing limb itself morphogens tgf family induce local aggregation condensation cells process involves upregulation adhesive extracellular glycoprotein fibronectin
+cells first accumulate regions increased cell fibronectin adhesive interactions then acquire epithelioid properties upregulation cell cell adhesion molecules
+cartilage differentiation follows at sites condensation both vitro vivo 
+certain developmental processes angiogenesis invasion cancer cells surrounding tissues pre-existing multicellular structures become more elaborate
+precartilage condensation contrast example developmental process cells start out independent entities interact form multicellular structures
+others second category include vasculogenesis formation feather germs aggregation social amoebae into streams fruiting bodies
+both continuous discrete models been used previously analyze wide range pattern formation behaviors both categories using concepts chemotaxis haptotaxis reaction diffusion instability
+discrete models describe behaviors interactions individual biological entities organisms cells proteins etc they often applied microscale events where small number elements large impact system
+previous study presented discrete biological lattice gas model high-density cultures precartilage mesenchymal cells derived embryonic vertebrate limb
+model was based physical notion lattice gas individual particles free move point point lattice at discrete time-steps accurately simulated formation patterns mesenchymal condensations observed high-density micromass cultures cells
+simulations distribution relative size condensations corresponded vitro values when appropriate quantities cell behavioral parameters were chosen simulated patterns were robust against small variations values
+moreover simulated patterns were altered similarly cultures when cell density exposure expression molecular factors represented model were altered fashion analogous their counterparts living system
+earlier model each limb precartilage mesenchymal cells each molecule core subset molecules they secrete was represented single particle common grid
+default motion cell particles was random but cell movement was also biased presence fibronectin particles produced deposited cells according set rules involving tgf inhibitor particles
+latter turn were produced cell-dependent fashion according reaction diffusion scheme network structure was suggested vitro experiments 
+ability model kiskowski et al simulate both qualitative quantitative aspects precartilage condensation formation distribution suggested core genetic network cell behavioral mechanism underlies biological lattice gas might sufficient account pattern formation limb cell micromass system corresponding features vivo limb development
+however model deviated biological reality several important ways
+mesenchymal cells vitro initially surrounded small layer ecm separates them less than cell diameter
+those undergo condensation round up reducing their surface area but do not move away adjacent noncondensing cells
+therefore unlike situation model kiskowski et al mesenchymal condensation micromass culture does not involve accumulation cells at particular sites concomitant depletion cells surrounding zones
+representation cells morphogens ecm common grid physically unrealistic
+not simply matter pixel scale: molecular substances indeed form deposits gradients same linear scale cells molecular pixel could considered correspond thousands molecules
+nonetheless dynamics morphogen transport continuous represented inauthentically saltatory fashion pixel displacement grid same mesh size supporting cell translocation
+whereas model kiskowski et al made assumption cells halt their motion when they encounter suprathreshold levels extracellular fibronectin does not agree measurements indicating cells actually slightly increase their speed motion they enter condensation centers finite probability escaping foci
+despite successes model kiskowski et al was unknown whether removing its artifactual aspects replacing them more realistic assumptions would lead similarly authentic results
+therefore designed more sophisticated model overcomes each listed deficiencies earlier one
+cells new model extended multipixel objects change shape plane round up moving pixels into virtual third dimension
+model cells separated less than cell diameter condense without denuding regions surrounding condensation centers not irreversibly trapped upon entering center
+finally two grids different mesh size used cell molecular dynamics
+found not only does improved model reproduce experimental data accounted model kiskowski et al but additional morphogenetic features micromass culture system simulated well
+moreover potential dynamic properties developmental process not seen earlier simulations not capable being distinguished basis existing experimental data were disclosed simulations using new model therefore provided motivation further empirical tests

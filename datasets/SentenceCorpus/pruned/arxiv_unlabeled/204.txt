@@ -1,0 +1,27 @@
+
+present support vector
+they natural matrix
+no additional parameter setting choosing learning rate required
+experiments demonstrate convergence good
+analyze rates convergence bounds
+test performance several datasets using various report generalization errors standard
+introduction
+support vector now used many classification problems machine learning due their use ability
+basic case input data corresponding two groups into higher space where them
+used into higher space explicitly
+problem there efficient algorithms solve
+using method applied
+although methods efficient their setting learning rate
+subset selection methods alternative approach problem
+at high level they work function at each into two fixed set where constant set variables being current
+methods though efficient space time still require heuristic between fixed sets
+alternative algorithm general problem been applied
+algorithm called uses solution
+does not require any heuristics setting learning rate choosing how set
+paper problem demonstrate matrix algorithm
+very practice due its learning rate parameter low computational complexity
+new allows us output value kernel function greater
+kernel not very since their set many popular even degree etc
+new all good properties algorithm low computational complexity
+furthermore new algorithm than previous solution problem both provided practice
+also show how solve problem using new algorithm

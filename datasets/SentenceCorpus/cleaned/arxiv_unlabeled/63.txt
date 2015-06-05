@@ -1,0 +1,36 @@
+ 
+max-product belief propagation local iterative algorithm find mode/map estimate probability distribution
+while been successfully employed wide variety applications there relatively few theoretical guarantees convergence correctness general loopy graphs may many short cycles
+even fewer provide exact ``necessary sufficient'' characterizations
+paper investigate problem using max-product find maximum weight matching arbitrary graph edge weights
+done first constructing probability distribution whose mode corresponds optimal matching then running max-product
+weighted matching also posed integer program there lp relaxation
+relaxation not always tight
+paper show if lp relaxation tight then max-product always converges too correct answer
+if lp relaxation loose then max-product does not converge
+provides exact data-dependent characterization max-product performance precise connection lp relaxation well-studied optimization technique
+also since lp relaxation known tight bipartite graphs our results generalize other recent results using max-product find weighted matchings bipartite graphs
+ introduction 
+message-passing algorithms like belief propagation its variants generalizations been shown empirically very effective solving many instances hard/computationally intensive problems wide range fields
+algorithms were originally designed exact inference i e calculation marginals/max-marginals tree-structured probability distributions
+their application general graphs involves replicating their iterative local update rules general graph
+case however there no guarantees either convergence correctness general
+understanding characterizing performance message-passing algorithms general graphs remains active research area
+show correctness graphs at most one cycle
+show gaussian problems sum-product algorithm finds correct means upon convergence but does not always find correct variances
+show asymptotic correctness random graphs associated decoding
+shows if max-product converges then optimal relatively large ``local'' neighborhood
+paper consider problem using max-product find maximum weight matching arbitrary graph arbitrary edge weights
+problem formulated integer program natural lp relaxation
+paper prove following if lp relaxation tight then max-product always converges too correct answer
+if lp relaxation loose then max-product does not converge
+bayati shah sharma were first investigate max-product weighted matching problem
+they showed if graph bipartite then max-product always converges correct answer
+recently result been extended matchings bipartite graphs
+since lp relaxation always tight bipartite graphs first part our results recover their results viewed correct generalization arbitrary graphs since case tightness function structure well weights
+would like point out three features our work: provides necessary sufficient condition convergnce max-product arbitrary problem instances
+there very few non-trivial classes problems there tight characterization message-passing performance
+characterization data dependent : decided based not only graph structure but also weights particular instance
+tightness lp relaxations well-studied broad classes problems making chracterization promising terms both understanding development new algorithms
+relations similarities comparisons between max-product linear programming been used/mentioned several authors  exact characterization relationship general remains interesting endeavor
+particular would interesting investigate implications results regards elucidating relationship between iterative decoding channel codes lp decoding

@@ -1,0 +1,78 @@
+ 
+genome wide association studies test association between common genetic markers disease phenotype shown varying degrees success
+while many factors could potentially confound gwa studies focus possibility multiple rare variants may act concert influence disease etiology
+here describe algorithm rv analysis rarecover
+algorithm combines disparate collection rvs low effect modest penetrance
+further does not require rare variants adjacent location
+extensive simulations over range assumed penetrance population attributable risk values illustrate power our approach over other published methods including collapsing weighted-collapsing strategies
+showcase method apply rarecover re-sequencing data cohort 289 individuals at extremes body mass index distribution
+individual samples were re-sequenced at two genes faah mgll known involved endocannabinoid metabolism
+rarecover analysis identifies exactly one significantly associated region each gene each about 5 kbp upstream regulatory regions
+data suggests rvs help disrupt expression two genes leading lowered metabolism corresponding cannabinoids
+overall our results point power including rvs measuring genetic associations
+ introduction 
+common disease common variant hypothesis postulates etiology common diseases mediated commonly occurring genomic variants population
+served basis genome wide association studies test association between individual genomic markers disease phenotype
+using genome-wide panels common snps gwa studies been successful identifying hundreds statistically significant associations many common diseases well several quantitative traits
+nevertheless success gwa studies been mixed
+significant genetic loci not been detected several common diseases known strong genetic component
+additionally many common diseases associations discovered gwa studies account only small fraction heritability disease
+while many factors could potentially confound gwa studies focus possibility multiple rare variants may act concert influence disease etiology
+alternative cdcv hypothesis common disease rare variant hypothesis been topic much recent debate shown promise explaining disease etiology multiple studies
+example rare variants been implicated reduced sterol absorption consequently lower plasma levels ldl colorectal cancer
+while some studies shown rvs increase risk recent study indicates rvs also act protectively multiple rvs renal salt handling genes showing association reduced renal salt resorption reduced risk hypertension
+additionally rare mutations ifih1 been shown act protectively against type 1 diabetes 
+aforementioned studies others focused re-sequencing coding regions candidate genes using sanger sequencing
+recent technological advances dna sequencing made possible re-sequence large stretches genome cost-effective manner
+enabling large-scale studies impact rvs complex diseases
+however several properties rare variants make their genetic effects difficult detect current approaches
+bodmer bonilla provide excellent review properties rvs differences between rare common variant analysis
+example if causal variant rare disease common then allele's population-attributable-risk consequently odds-ratio will low
+additionally even highly penetrant rvs unlikely linkage disequilibrium more common genetic variations might genotyped association study common disease
+therefore single-marker tests association exploit ld-based associations likely low power
+if cdrv hypothesis holds combination multiple rvs must contribute population risk
+case there challenge detecting multi-allelic association between locus disease
+methods detect associations only just being developed
+natural approach collapsing strategy where multiple rvs at locus collapsed into single variant
+strategies low power when causal neutral rvs combined
+madsen browning recently proposed weighted-sum statistic detect loci disease individuals enriched rare variants
+their approach variants weighted according their frequency unaffected sample low frequency variants being weighted more heavily
+each individual scored sum weights mutations carried
+test then determines if diseased individuals weighted more heavily than expected null-model
+madsen browning show formula variants group being causal combined odds ratio formula weighted-sum statistic detects associations high power
+while effective approach depends upon inclusion high proportion causal rare variants formation test statistics strong penetrance detect significant association
+their simulations par locus partitioned equally among all variants assumption may not always hold
+combined multivariate collapsing method proposed li leal combines variants into groups based upon predefined criteria
+individual 1 group if any variant group carried 0 otherwise
+cmc approach then considers each groups multivariate analysis explain disease risk
+combination collapsing approach multivariate analysis results increase power over single-marker multiple marker approaches
+however li leal point out method relies correct grouping variants
+power reduced functional variants excluded non-functional variants included group
+assignment snps incorrect groups may fact decrease power below attainable through single marker analysis
+indeed recent analysis manolio colleagues suggests new methods might needed when causal variants both low par low penetrance values 
+here focus model-free method rarecover collapses only subset variants at locus
+informally consider locus formula encoding set formula rare variants
+rarecover associates formula phenotype measuring strongest possible association formed collapsing any subset formula variants at formula
+at first glance approach many problems
+first selecting optimal subset snps computationally intensive scaling formula
+show greedy approach selecting optimal subset scales linearly making feasible conduct associations large set candidate loci
+second confounding factor large number different tests at locus increase likelihood false association
+adjustment required control type i error could decrease power method
+however extensive simulations show otherwise
+our results suggest moderately penetrant alleles formula small par formula moderately sized cohorts sufficient rarecover detect significant association
+compares well current power single-marker gwa studies common variants outperforms other methods rv detection
+also applied rarecover analysis two genes faah mgll endocannabinoid pathway large sequencing study obese non-obese individuals
+endocannabinoid pathway important mediator variety neurological functions
+endocannabinoids acting upon cb1 receptors brain gastrointestinal tract variety other tissues been shown influence food intake weight gain animal models obesity
+using selective endocannabinoid receptor antagonist sr141716 leads reduced food intake mice
+correspondingly elevation leptin levels been shown decrease concentrations endogenous cb1 agonists anandamide 2-ag mice thereby reducing food-intake
+faah mgll enzymes serve regulators endocannabinoid signaling brain catalyzing hydrolysis endocannabinoid including anandamide 2-ag
+gene expression studies lean obese women show significantly decreased levels aea 2-ag well over-expression cb1 faah lean opposed obese women
+while evidence points genetic association loci obesity multiple recent studies using common snps faah region failed confirm association
+pro129thr polymorphism was tentatively associated obesity cohort europe asian ancestry but not been replicated other data 
+tested hypothesis multiple rare alleles at loci associated obesity
+used unpublished data frazer colleagues where faah mgll regions were re-sequenced using next generation technologies 148 obese 150 non-obese individuals taken extremes body mass index distribution subjects large clinical trial
+resequencing identified number common rare variants region
+applied rarecover determine if multiple rvs i.e allelic heterogeneity mediated genetic effects faah mgll obesity
+rarecover identified single region at each locus permutation adjusted p-values formula formula
+each case significant locus was immediately upstream gene consistent regulatory function rare variants

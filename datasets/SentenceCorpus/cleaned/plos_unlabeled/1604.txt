@@ -1,0 +1,79 @@
+ 
+what proteins interacted long-extinct ancestor yeast
+how different members protein complex assembled together over time
+our ability answer questions been limited unavailability ancestral protein-protein interaction networks
+overcome limitation propose several novel algorithms reconstruct growth history present-day network
+our likelihood-based method finds probable previous state graph applying assumed growth model backwards time
+approach retains node identities so history individual nodes tracked
+using methodology estimate protein ages yeast ppi network good agreement sequence-based estimates age structural features protein complexes
+further comparing quality inferred histories several different growth models provide additional evidence duplication-based model captures many features ppi network growth better than models designed mimic social network growth
+reconstructed history model arrival time extant ancestral interactions predict complexes significantly re-wired over time new edges tend form within existing complexes
+also hypothesize distribution per-protein duplication rates track change network's clustering coefficient predict paralogous relationships between extant proteins likely complementary relationships inferred using sequence alone
+finally infer plausible parameters model thereby predicting relative probability various evolutionary events
+success algorithms indicates parts history yeast ppi encoded its present-day form
+ introduction 
+many biological social technological networks product evolutionary process guided their growth
+tracking how networks changed over time help us answer questions about why currently observed network structures exist how they may change future
+analyses network growth dynamics studied how properties node centrality community structure change over time how structural patterns been gained lost how information propagates network 
+however many cases only static snapshot network available without node-by-node edge-by-edge history changes
+biology archetypical domain where older networks been lost ancestral species gone extinct evolved into present-day organisms
+example while do few protein-protein interaction networks extant organisms networks do not form linear progression instead derived species at leaves phylogenetic tree
+networks separated millions years evolution insufficient track changes at fine level detail
+social networks typically only single current snapshot available due privacy concerns simply because network was not closely tracked since its inception
+lack data makes understanding how network arose difficult
+often although do not know network's past do know general principle governs network's forward growth
+several network growth models been widely used explain emergent features observed real-world networks
+models provide iterative procedure growing random graphs exhibit similar topological features class real networks
+example preferential attachment explained many properties growing world wide web
+duplication-mutation complementarity model was found middendorf et al generative model best fit d melanogaster protein interaction network
+forest fire model was shown produce networks properties power-law degree distribution densification shrinking diameter similar properties real-world online social networks
+although random graph models themselves been useful understanding global changes network randomly grown network will generally not isomorphically match target network
+means history random graph will not correspond history real network
+hence forward growth random networks only explore properties generic model cannot track individual observed node's journey through time
+problem avoided however if instead growing random graph forward according evolutionary model decompose actual observed network backwards time dictated model
+resulting sequence networks constitute model-inferred history present-day network
+reconstructing ancestral networks many applications
+inferred histories used estimate age nodes model evolution interactions track emergence prevalent network clusters motifs
+addition proposed growth models validated selecting corresponding history best matches known history other external information
+leskovec et al explore idea computing likelihood model based how well model explains each observed edge given complete history network
+augments judging model its ability reproduce certain global network properties itself misleading
+example middendorf et al found networks grown forward according small-world model reproduced small-world property characteristic d melanogaster ppi network but did not match empirical ppi network other aspects
+leskovec et al made similar observation social network models
+ancestor reconstruction also used down-sample network create realistic but smaller network preserves key topological properties node labels
+used faster execution expensive graph algorithms visualization purposes
+biological network setting network histories provide view evolution complementary derived sequence data alone
+social network setting if network's owner decides disclose only single network successful network reconstruction would allow us estimate when particular node entered network reproduce its activity since being member
+could privacy implications might warrant need additional anonymization randomization network
+some attempts been made find small seed graphs particular models may started
+leskovec et al under kronecker model hormozdiari et al under duplication-based model found seed graphs likely produce graphs specified properties
+seed graphs thought ancestral graphs at very large timescales but techniques infer them do not generalize shorter timescales nor do they incorporate node labels
+previous studies time-varying networks solve related network inference problems but assume different available data
+example use exponential random graph models other approaches inferring dynamic networks requires observed node attributes at each time point
+they also limited because they use models without plausible biological mechanism require set nodes known at each time point
+wiuf et al use importance sampling compute most likely parameters gave rise ppi network c elegans according duplication-attachment model but they do not explicitly reconstruct ancient networks
+mithani et al only model loss gain edges amongst fixed set nodes metabolic networks
+there also been some work inferring ancestral biological networks using gene trees
+approaches play tape duplication instructions encoded gene tree backwards
+gene tree provides sequence-level view evolutionary history should correlate network history but their relationship also complementary
+further gene tree approaches only capture node arrival loss do not account models edge evolution constrained only consider trees built per gene family
+network alignment between two extant species also been used find conserved network structures putatively correspond ancestral subnetworks
+however methods do not model evolution interactions do so using heuristic measures
+finally study ancestral biological sequences long history supported extensive work phylogenetics
+sequence reconstructions been used associate genes their function understand how environment affected genomes determine amino acid composition ancestral life
+answering similar questions network setting however requires significantly different methodologies
+here propose likelihood-based framework reconstructing predecessor graphs at many timescales preferential attachment duplication-mutation complementarity forest fire network growth models
+our efficient greedy heuristic finds high likelihood ancestral graphs using only topological information preserves identity each node allowing history each node edge tracked
+gain confidence procedure show using simulated data network histories inferred models even presence some network noise
+when applied protein-protein interaction network saccharomyces cerevisiae inferred dmc-based history agrees many previously predicted features ppi network evolution
+accurately estimates sequence-derived age protein when using dmc model identifies known functionally related proteins product duplication events
+addition predicts older proteins more likely at core protein complexes confirming result obtained via other means 
+comparing predicted protein ages using different models further confirm dmc better mechanism model growth ppi networks compared pa model ff model designed web social networks
+conversely when applied social network dmc model does not produce accurate ancestral network reconstruction pa ff model also outperforms dmc social network context at task identifying users who putatively mediated network's growth attracting new members join service
+thus models social network evolution do not transfer well biological networks vice versa well-studied expected notion confirm through alternative means
+also used our reconstructed history ppi network make several novel predictions
+example estimate arrival time extant ancestral interactions predict newly added extant edges often connect proteins within same complex modules recently gained many peripheral units
+history also used track change network topological properties over time clustering coefficient find been decreasing recent evolution
+analysis duplication rates over inferred history suggests proteins fewer extant interactions been involved largest number duplication events broad agreement existing belief proteins many interactions evolve more slowly
+addition reconstruction predicts paralogous relationships between proteins strongly implied network topology partially agree sequence-based estimates
+thus reconstructed history makes number detailed predictions about relative order events evolution yeast ppi many correlate known biology many novel
+ability algorithms reconstruct significant features network's history topology alone further confirms utility models network evolution suggests alternative approach validate growth models ultimately reveals some history network encoded single snapshot

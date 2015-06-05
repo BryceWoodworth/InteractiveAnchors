@@ -1,0 +1,50 @@
+ 
+predicting protein function structure remains active area interest particularly structural genomics initiatives where substantial number structures initially solved little no functional characterisation
+although global structure comparison methods used transfer functional annotations relationship between fold function complex particularly functionally diverse superfamilies evolved through different secondary structure embellishments common structural core
+majority prediction algorithms employ local templates built known predicted functional residues
+here present novel method automatically generates structural motifs associated different functional sub-families within functionally diverse domain superfamilies
+templates created purely basis their specificity given fsg method makes no prior prediction functional sites nor assumes specific physico-chemical properties residues
+flora able accurately discriminate between homologous domains different functions substantially outperforms popular structure comparison methods leading function prediction method
+benchmark flora large data set enzyme superfamilies all three major protein classes demonstrate functional relevance motifs identifies
+also provide novel predictions enzymatic activity large number structures solved protein structure initiative
+overall show flora able effectively detect functionally similar protein domain structures purely using patterns structural conservation all residues
+ introduction 
+prediction protein function structure become increasing interest significant proportion structures solved structural genomics initiatives lack functional annotation
+furthermore structure-based approaches particular interest predicting binding sites and/or catalytic sites purposes protein engineering pharmaceutical development
+many current methods focus encoding template functional residues then aligning template whole structures
+problems taking approach deciding what qualifies functional residue creating biologically-accurate templates ever increasing number available protein structures being deposited pdb
+resources catalytic site atlas carefully curated hand restricted residues directly involved catalysis whereas msdsite pdbsite generate templates based active site residues defined pdb file authors
+although resources undoubtedly extremely valuable questionable whether sufficient coverage pdb maintained when manual intervention required
+address problem generating templates all protein structures there number methods aim do automatically
+example reverse template method decomposes query structure into tri-peptide fragments then matched against non-redundant set pdb structures using search algorithm jess
+hits evaluated according sequence similarity local environment template
+gasp method uses genetic algorithm construct templates based their ability discriminate between different protein families against background representatives scop database
+similarly drespat implements graph theoretical approach discover structural patterns associated given family proteins locate ligand binding motifs
+multiprot provide template structures through multiple structure alignment
+recent extension evolutionary trace method binding site prediction was used create structural templates based predicted functional residues
+siteengines produces templates matching geometry physico-chemical properties residues binding site clefts
+well atom residue-level templates other non-template-based approaches seek compare electrostatic properties binding sites surface accessible clefts often co-locate active sites 
+one inherent complexity using pdb structures transfer annotations between enzymes binding state protein crystallised example structures crystallised non-cognate ligands substrate analogs transition states apo-enzymes
+consequence precise geometric matching active site region problematic due conformational changes occur ligand binding
+address issue methods mentioned above use variety approaches graph matching geometric hashing various tolerance levels
+soippa method takes alternative approach using geometric potential characterise shape formed given set c atoms account both local global relationships between residues across protein structure
+recent ligand-binding site comparison analysis soippa was able detect distant similarities between very different protein folds binding range adenine-containing ligands 
+despite many template methods present literature very few publicly available general user
+hence first step assigning function structure often use global structure comparison methods detect distant evolutionary relationships even where sequence similarity weak
+methods been specifically applied function prediction assign confidence values when inheriting go terms between related structures
+however detecting very distant relatives remains challenge structure comparison methods generally give absolute measure structural distance rmsd applying cut-off at one deduce two proteins perform related functions results many missed relationships
+analyses cath shown although function structure well conserved majority superfamilies there significant number highly diverse superfamilies where not case
+moreover latter superfamilies disproportionately represented both pdb genomes tend exhibit wide range core biological functions across large range species
+analysis reeves et al showed relatives within superfamilies tend share common evolutionary core but core embellished different insertions secondary structure elements often correlate changes function
+however although structural embellishments might change some facet function others found relatives still retain other aspects common
+therefore calculating global measure structural similarity distance between two proteins less informative than focussing structural motifs relevant given aspect function
+flora algorithm presented here was designed derive structural templates functional sub-groups within diverse cath superfamilies
+flora first performs global structure alignment across superfamily recognise distinctive structural patterns associated each fsg builds templates based patterns
+new functional homologues then detected using global structural alignments relatives each fsg again but only scoring similarity over positions identified flora motif
+approach performs very well discriminating between different enzymatic functions compared global methods another motif-based approach
+although benchmark here enzyme superfamilies method applicable superfamilies containing non-enzymatic relatives
+test flora automatically generated large data set domains 29 diverse superfamilies
+our data set allows us look at variation flora results between superfamilies stress importance using large test data set benchmarking methods
+benchmarked flora against ce cathedral reverse templates give indication how performs comparison other standard methods function prediction
+also present some examples structural motifs identified flora explain their functional relevance
+finally use flora make novel predictions function proteins solved protein structure initiative 

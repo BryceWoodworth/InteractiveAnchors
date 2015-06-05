@@ -1,0 +1,32 @@
+ 
+inferring sequence states observations one most fundamental problems hidden markov models
+statistical physics language problem equivalent computing marginals one-dimensional model random external field
+while task accomplished through transfer matrix methods becomes quickly intractable when underlying state space large
+paper develops several low-complexity approximate algorithms address inference problem when state space becomes large
+new algorithms based various mean-field approximations transfer matrix
+their performances studied detail simple realistic model dna pyrosequencing
+ introduction 
+hidden markov models hmm's workhorse modern statistics machine learning applications ranging speech recognition biological sequence alignment pattern classification
+hmm defines joint distribution over sequence states   observations  whereby states form markov chain observations conditionally independent given sequence states
+formulae } most fundamental algorithmic task related hmm's arguably problem inferring sequence states observations
+conditional distribution state sequence given observations bayes theorem } where thought normalization constant
+state sequence then estimated sequence most likely states maximum posteriori probability map estimation } reduces inference problem problem computing marginals
+statistical physics point view  conditional distribution  regarded boltzmann distribution one dimensional system variables energy function } at temperature
+sequence observations thus act quenched external field
+suggested analogy marginals computed efficiently using transfer matrix algorithm
+present context also known bahl-cocke-jelinek-raviv bcjr algorithm
+bcjr algorithm complexity linear sequence length quadratic number states
+more precisely complexity same multiplying matrix times vector
+while easy simple models few states becomes intractable complex models
+simple mechanism leading state space explosion presence memory underlying markov chain dependence each observation multiple states
+all cases model reduced standard hmm via state space augmentation but augmented state space becomes exponential memory length
+leads severe limitations tractable memory length
+paper proposes several new algorithms addressing problem
+our basic intuition when memory length gets large transfer matrix accurately approximated using mean field ideas
+study proposed method concrete model used dna pyrosequencing
+case one interested inferring underlying dna sequence absorption signal carries traces base type at several positions
+effective memory length scales roughly square root sequence length thus making plain transfer matrix impractical
+paper organized follows
+next section will define concrete model study section describes connection dna pyrosequencing motivate
+section describes transfer matrix algorithm several low complexity approximation schemes
+after describing few bounds  numerical analytical results collected section \\

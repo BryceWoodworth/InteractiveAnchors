@@ -1,0 +1,32 @@
+ 
+used diffusion model examine effects response-bias manipulations response time rt accuracy data collected two experiments involving two-choice decision making task
+asked number subjects respond low high number asterisks number x number grid based experimenter-determined decision cutoff
+model evidence accumulated until either low high decision criterion reached turn initiates response
+performed two experiments four experimental conditions
+conditions number number decision cutoff between low high judgments was fixed at number
+condition number manipulated frequency low high-stimuli were presented
+condition number used payoff structures mimicked frequency manipulation
+found manipulating stimulus frequency resulted larger effect rt accuracy than did manipulating payoff structure
+model found manipulating stimulus frequency produced greater changes starting point evidence accumulation process than did manipulating payoff structure
+conditions number number set decision cutoff at number number number experiment number at number number experiment number
+condition number there was equal number low high-stimuli whereas condition number there were unequal proportions low high-stimuli
+model analyses showed starting-point changes accounted biases produced changes stimulus proportions whereas evidence biases accounted changes decision cutoff
+ introduction 
+well known experimental manipulations perceptual decision making tasks produce systematic changes behavioral responses subjects
+experimental psychologists example observed subjects bias their responses based probability occurrence stimulus
+formal models been used describe predict response bias perceptual two-choice tasks
+models typically conceptualize decision process accumulation sensory information over time towards decision threshold
+aim study was use one models examine what processes account biases two-choice tasks produced manipulations stimulus frequency payoffs movement decision cutoff i e point at stimuli assigned one versus other response category
+manipulations stimulus frequency well known response times rts stimuli appear more often faster than rts stimuli shown less often
+addition accuracy increased less more frequent stimuli
+remington example used task subjects responded one two lights depressing corresponding keys
+there were blocks trials each light was turned half trials blocks one light was turned number percent trials other number percent trials blocks proportions were reversed
+comparison equally likely condition response times rts were faster trials light appeared more often slower trials appeared less often
+studying effects explicit payoff manipulations also been long-standing interest cognitive psychology
+fitts example used payoff matrices allow subjects earn bonus at end session
+subjects always earned one point each correct fast response but lost points based one following structures one they lost half point correct slow responses one tenth point wrong fast responses one point wrong slow responses two they lost one tenth point correct slow responses half point wrong fast responses one point wrong slow responses
+fitts found subjects either responded faster made more errors responded more slowly made fewer errors order not lose too many points
+more recently rorie gao mcclelland newsome manipulated response biases payoffs motion discrimination task multiple reward contingencies four reward conditions
+two rhesus monkeys tested showed indistinguishable psychophysical performance neutral reward conditions but biased performance i e faster response increased response probability toward high-reward response biased conditions
+our present study manipulated stimulus frequency payoffs typically reported literature but planned novel direct comparison two manipulations attempt answer whether effect observed both rt accuracy due changes stimulus frequency similar effect due changes reward values
+moreover added comparison less commonly studied manipulation decision cutoffs

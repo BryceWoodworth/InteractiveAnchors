@@ -1,0 +1,57 @@
+ 
+dimension reduction  method cauchy random projections multiplies original data matrix random matrix   whose entries iid
+samples standard cauchy
+because impossibility results one not hope recover pairwise distances  using linear estimators without incurring large errors
+however nonlinear estimators still useful certain applications data stream computation information retrieval learning data mining
+propose three types nonlinear estimators: bias-corrected sample median estimator bias-corrected geometric mean estimator bias-corrected maximum likelihood estimator
+sample median estimator geometric mean estimator asymptotically  equivalent but latter more accurate at small
+derive explicit tail bounds geometric mean estimator establish analog johnson-lindenstrauss jl lemma dimension reduction  weaker than classical jl lemma dimension reduction
+asymptotically both sample median estimator geometric mean estimators about efficient compared maximum likelihood estimator mle
+analyze moments mle propose approximating distribution mle inverse gaussian
+ introduction 
+paper focuses dimension reduction  particular method based cauchy random projections  special case linear random projections
+idea linear random projections multiply original data matrix random projection matrix  resulting projected matrix
+if  then should much more efficient compute certain summary statistics e g  pairwise distances opposed
+moreover may small enough reside physical memory while often too large fit main memory
+choice random projection matrix depends norm would like work
+proposed constructing iid
+samples stable distributions dimension reduction  
+stable distribution family  normal 2-stable cauchy 1-stable
+thus will call random projections  normal random projections cauchy random projections  respectively
+normal random projections  estimate original pairwise distances directly using corresponding distances up normalizing constant
+furthermore johnson-lindenstrauss jl lemma provides performance guarantee
+will review normal random projections more detail section
+cauchy random projections  should not use distance approximate original distance  cauchy distribution does not even finite first moment
+impossibility results proved one not hope recover distance using linear projections linear estimators e g  sample mean without incurring large errors
+fortunately impossibility results do not rule out nonlinear estimators may still useful certain applications data stream computation information retrieval learning data mining
+proposed using sample median instead sample mean cauchy random projections described its application data stream computation
+study provide three types nonlinear estimators: bias-corrected sample median estimator bias-corrected geometric mean estimator bias-corrected maximum likelihood estimator
+sample median estimator geometric mean estimator asymptotically equivalent i e  both about efficient maximum likelihood estimator but latter more accurate at small sample size
+furthermore derive explicit tail bounds bias-corrected geometric mean estimator establish analog jl lemma dimension reduction
+analog jl lemma weaker than classical jl lemma  geometric mean estimator non-convex norm hence not metric
+many efficient algorithms some sub-linear time using super-linear memory nearest neighbor algorithms  rely metric properties e g  triangle inequality
+nevertheless nonlinear estimators may still useful important scenarios
+estimating distances online \\ original data matrix requires storage space; hence often too large physical memory
+storage cost all pairwise distances  may also too large memory
+example information retrieval could total number word types documents at web scale
+avoid page fault may more efficient estimate distances fly projected data matrix memory
+computing all pairwise distances \\ distance-based clustering classification applications need compute all pairwise distances  at cost time
+using cauchy random projections  cost reduced
+because  savings could enormous
+linear scan nearest neighbor searching \\ always search nearest neighbors linear scans
+when working projected data matrix memory cost searching nearest neighbor one data point time  may still significantly faster than sub-linear algorithms working original data matrix often disk
+briefly comment coordinate sampling  another strategy dimension reduction
+given data matrix  one randomly sample columns estimate summary statistics including distances
+despite its simplicity there two major disadvantages coordinate sampling
+first there no performance guarantee
+heavy-tailed data may choose very large order achieve sufficient accuracy
+second large datasets often highly sparse example text data market-basket data
+provide alternative coordinate sampling strategy called conditional random sampling crs  suitable sparse data
+non-sparse data however methods based linear random projections superior
+rest paper organized follows
+section reviews linear random projections
+section summarizes main results three types nonlinear estimators
+section presents sample median estimators
+section concerns geometric mean estimators
+section devoted maximum likelihood estimators
+section concludes paper

@@ -1,0 +1,63 @@
+ 
+knowledge social contact patterns still represents most critical step understanding spread directly transmitted infections
+data social contact patterns however expensive obtain
+major issue then whether simulation synthetic societies might helpful reliably reconstruct data
+paper compute variety synthetic age-specific contact matrices through simulation simple individual-based model
+model informed italian time use data routine socio-demographic data
+model named little italy because each artificial agent clone real person
+other words each agent's daily diary one observed corresponding real individual sampled italian time use survey
+also generated contact matrices socio-demographic model underlying italian ibm pandemic prediction
+synthetic matrices then validated against recently collected italian serological data varicella parvovirus
+their performance fitting sero-profiles compared other matrices available italy polymod matrix
+synthetic matrices show same qualitative features ones estimated sample surveys: example strong assortativeness presence super sub-diagonal stripes related contacts between parents children
+once validated against serological data little italy matrices fit worse than polymod one vzv but better than concurrent matrices b19
+first occasion where synthetic contact matrices systematically compared real ones validated against epidemiological data
+results suggest simple carefully designed synthetic matrices provide fruitful complementary approach questionnaire-based matrices
+paper also supports idea depending transmissibility level infection either number different contacts repeated exposure may key factor transmission
+ introduction 
+century after first contributions giving birth mathematical epidemiology after 20 years fast growth since first public health oriented contributions infectious diseases modeling recently received further dramatic impulse pandemics threats
+bio-terrorism sars first fear potentially devastating pandemic avian flu then finally recent pandemic a/h1n1 influenza all fostered development more more detailed predictive tools
+range traditional models network analysis highly detailed large scale individual-based models
+ibm highly flexible tools policy makers they allow define intervention measures at finest possible levels
+first time pandemic model continental scale been proposed 
+critical aspect common all models parameterization social contact patterns i.e how people socially mix each other
+social contact patterns key factors underlying transmission dynamics directly transmitted close-contacts infectious diseases
+different models independently their level complexity geographical scale sensitive parameterization social contact patterns
+relatively simple case where individuals stratified age only contact patterns represented form contact matrices whose entries represent average number contacts individuals age group i individuals age group j per unit time
+until recently contact patterns were estimated indirectly calibrating suitably restricted contact matrices using observed epidemiological data serological case notifications data
+two major examples indirect approach who-acquires-infection-from-whom matrix proportionate/preferred mixing approach
+approaches important restrictions: population divided n age groups contact matrix contains nxn n 2 unknown entries
+therefore order estimate n 2 parameters n data points some simplifying assumptions about structure matrix needed
+addition indirect approaches only estimate adequate contacts transmission rates i.e composite parameters given product between contact rate corresponding risk infection per contact
+recently important progress been made area through direct collection contact data means sample surveys
+direct approach based appropriate definitions at risk event
+survey respondents then asked record diary relevant characteristics all individuals they had contact during randomly assigned day other factors location where contact occurred
+standardized international survey data social contact patterns 8 european countries currently available
+addition contact matrices time contact matrices been estimated secondary data sources transportation surveys time use data increasingly available
+case time use data underlying hypothesis amount time people spend doing same activity same place relevant transmission disease
+drawback time use data they usually do not give direct information about number social contacts respondents time they spent contacts
+they only give marginal information time individuals allocated various daily activities
+therefore data need augmented other data and/or assumptions produce reliable estimates contact matrices
+way supplement time use data relies socio-demographic sources provide information size distribution arenas where contacts take place
+example school contacts often know average class size average pupils-teacher ratio all compulsory grades
+contacts within household information household size composition
+most other activities however there little information
+assumptions e.g independency therefore necessary give some coarse ideas contact patterns
+however approach ignores structure social networks where contacts formed
+promising approach then reconstruct networks simulation appropriate artificial social networks
+first example social network generated portland synthetic population
+case contact time contact matrices age by-products social dynamics portland model
+matrices standard expected features: population contacts cluster around children adult children interact most frequently other children close their own age etc however matrices were neither compared other contact matrices nor validated against empirical epidemiological data
+thus no actual evaluation their goodness explaining transmission infections available
+paper follow same line aim reconstruct contact time-in-contacts matrices simulating suitable minimalistic socio-demographic individual-based model italy
+model parameterized integrating time use data italian time use survey other official socio-demographic data
+model each artificial agent clone real individual i.e there one-to-one correspondence between diary each artificial agent one corresponding real survey participant
+since sample representative italian population but size model population comparable small italian city named model little italy
+point view our model resembles portland model eemnes model
+little italy world agents physically displace during day order attend their various daily activities corresponding location
+locations agents contact other agents
+defined contact having shared same physical environment during given time slot
+our approach generate three different types contact matrices possibly informative distinct aspects biology transmission: matrix describing time spent contact matrix counting number repetition contact episodes matrix counting contacts average number different persons contacted i.e number different social partnerships 
+addition extracted adequate contact matrix socio-demographic model underlying italian ibm pandemic prediction mitigation named big-italy
+synthetic contact matrices computed simulation little big-italy tested against recently collected italian serological data varicella parvovirus
+their performances compared other contact matrices available italy i.e polymod time use matrices

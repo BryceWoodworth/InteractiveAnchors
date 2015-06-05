@@ -1,0 +1,54 @@
+
+new maximum likelihood approach called order likelihood presented applied problem functional site prediction protein structures important current
+input properties derived structure protein
+information where available may also
+features combined regression form maximum likelihood estimates probabilities specific residues active site
+allows likelihood all residues given protein based features
+corresponding statistical tests demonstrate method prior methods turn been shown previously other methods active site residues
+then shown addition one simple property size rank given performance
+method include predictions residues through introduction environment variables
+results even better performance than best functional site predictor based structure only same level performance methods use both structure sequence alignment data
+finally method also sequence alignment data when information resulting method shown best current methods using any combination sequence structures
+analysis when features size rank used combination features represent single most important component
+introduction
+development function prediction major
+structural structures expressed proteins high basis
+however function structure functions most structural proteins unknown
+based predictive methods help functional
+first step prediction function protein its structure determine its local site interaction where recognition occurs
+many important practical biology
+reported theoretical technique prediction local interaction sites protein its structure
+application one structure protein using methods then procedure sites functions
+residues involved recognition different properties residues
+particular important residues theoretical
+difference information theoretical residues potential function
+only structure protein sequence structural used
+recently was shown among methods based structure protein only far best performance measured sensitivity residues
+present paper present maximum likelihood approach called order likelihood improve performance active site prediction
+then shown input data previous statistical support vector machine when applied test set protein structures
+then demonstrated one additional feature size each result some performance demonstrated tests
+introduction environment features then use data predict both residues
+together size rank feature results simple functional site predictor better than other structure based methods well very best current methods both structure sequence
+finally approach able take advantage sequence when available addition features
+when additional information resulting classifier shown all other available methods using any combination structure sequence information
+prior identification residues structure protein were described their first functions
+first functions probability density functions give when over all space
+et al third central probability functions were used
+measure area under relative area mean
+et al first second central were also used
+each approaches measure normal analyses identify residues most normal behavior
+prior approaches all use spatial clustering so residues reported positive method if only if they close spatial at least one other
+thus previous involve two where first makes binary decision each second spatial clusters
+new approach reported here every probability
+here alternative clustering approach introduce features describe call environment features
+given feature define value environment feature given whose distance d less than weight given 2
+study use same features used approach along additional features
+thus every any protein structure feature vector
+present approach number
+specifically active residues may selected one step they according probability active site
+furthermore while previously been applied residues only present approach direct prediction active site residues because environment features well defined all residues including ones
+finally additional features structure only may combined four features order performance
+features relative protein structure been shown active site
+instance proteins residues
+however features do not perform well active prediction particularly because they not very
+shown here size information combined features high performance structure based functional site predictions

@@ -1,0 +1,16 @@
+ 
+markov random fields used model high dimensional distributions number applied areas
+much recent interest been devoted reconstruction dependency structure independent samples markov random fields
+analyze simple algorithm reconstructing underlying graph defining markov random field nodes maximum degree given observations
+show under mild non-degeneracy conditions reconstructs generating graph high probability using samples where depend local interactions
+most local interaction order
+our results optimal function up multiplicative constant depending strength local interactions
+our results seem first results general models guarantee generating model reconstructed
+furthermore provide explicit running time bound
+cases where measure graph correlation decay running time all fixed
+also discuss effect observing noisy samples show long noise level low our algorithm effective
+other hand construct example where large noise implies non-identifiability even generic noise interactions
+finally briefly show some simple cases models hidden nodes also recovered
+ introduction 
+paper consider problem reconstructing graph structure markov random field independent identically distributed samples
+markov random fields mrf provide very general framework defining high dimensional distributions reconstruction mrf observations attracted much recent interest particular biology see eg  list related references

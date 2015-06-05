@@ -1,0 +1,42 @@
+ 
+consider multi-round auction setting motivated pay-per-click auctions internet advertising
+each round auctioneer selects advertiser shows her ad then either clicked not
+advertiser derives value clicks; value click her private information
+initially neither auctioneer nor advertisers any information about likelihood clicks advertisements
+auctioneer's goal design dominant strategies truthful mechanism approximately maximizes social welfare
+if advertisers bid their true private values our problem equivalent multi-armed bandit problem  thus viewed strategic version latter
+particular both problems quality algorithm characterized regret  difference social welfare between algorithm benchmark always selects same ``best" advertisement
+investigate how design multi-armed bandit algorithms affected restriction resulting mechanism must truthful
+find deterministic truthful mechanisms certain strong structural properties  essentially they must separate exploration exploitation  they incur much higher regret than optimal multi-armed bandit algorithms
+moreover provide truthful mechanism essentially matches our lower bound regret
+ introduction 
+recent years there been much interest understanding implication strategic behavior performance algorithms whose input distributed among selfish agents
+study was mainly motivated internet main arena large scale interaction agents conflicting goals
+field algorithmic mechanism design studies design mechanisms computational settings background see recent book survey 
+much attention been drawn market sponsored search e g   multi-billion dollar market numerous auctions running every second
+research sponsored search mostly focus equilibria generalized second price gsp auction  auction most commonly used practice e g google bing design truthful auctions
+all auctions rely knowing rates at users click different advertisements k
+click-through rates ctrs do not consider process ctrs learned refined over time observing users' behavior
+argue strategic agents would take process into account influences their utility
+while prior work focused influence click fraud methods learning ctrs interested implications strategic bidding agents
+thus consider problem designing truthful sponsored search auctions when process learning ctrs part game
+mainly interested interplay between online learning strategic bidding
+isolate issue consider following setting natural strategic version multi-armed bandit mab problem
+setting there agents
+each agent single advertisement private value every click she gets
+mechanism online algorithm first solicits bids agents then runs rounds
+each round mechanism picks agent using bids clicks observed past rounds displays her advertisement receives feedback  if there was click not
+payments charged after round
+each agent tries maximize her own utility: value she derives clicks minus payment she pays
+assume initially no information known about likelihood each agent clicked particular there no bayesian priors
+interested designing mechanisms truthful dominant strategies): every agent maximizes her utility bidding truthfully any bids others any clicks would been received
+goal maximize social welfare \omit{}% since payments cancel out equivalent maximizing total value derived clicks where agent's contribution total her private value times number clicks she receives
+call setting \omit{} absence strategic behavior problem reduces standard mab formulation algorithm repeatedly chooses one alternatives ``arms" observes associated payoff: value-per-click corresponding ad if ad clicked otherwise
+crucial aspect mab problems tradeoff between acquiring more information  exploration  using current information choose good agent  exploitation 
+mab problems been studied intensively past three decades
+particular above formulation well-understood terms regret relative benchmark always chooses same ``best" alternative  time-invariant benchmark 
+notion regret naturally extends strategic setting outlined above total payoff being exactly equal social welfare regret being exactly loss social welfare relative time-invariant benchmark
+thus one directly compare mab algorithms mab mechanisms terms welfare loss regret
+broadly ask how design mab algorithms affected restriction truthfulness: what difference between best algorithms best truthful mechanisms
+interested both terms structural properties gap performance terms regret
+not aware any prior work characterizes truthful online learning algorithms proves negative results their performance

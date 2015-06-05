@@ -1,0 +1,36 @@
+ 
+perception involves two types decisions about sensory world: identification stimulus features analog quantities discrimination same stimulus features among set discrete alternatives
+veridical judgment categorical discrimination traditionally been conceptualized two distinct computational problems
+here found two types decision making subserved shared cortical circuit mechanism
+used continuous recurrent network model simulate two monkey experiments subjects were required make either two-alternative forced choice veridical judgment about direction random-dot motion
+model network endowed continuum bell-shaped population activity patterns each representing possible motion direction
+slow recurrent excitation underlies accumulation sensory evidence its interplay strong recurrent inhibition leads decision behaviors
+model reproduced monkey's performance well single-neuron activity categorical discrimination task
+furthermore examined how direction identification determined combination sensory stimulation microstimulation
+using population-vector measure found direction judgments instantiate winner-take-all when two stimuli far apart vector averaging when two stimuli close each other
+interestingly broad range intermediate angular distances between two stimuli network displays mixed strategy sense direction estimates stochastically produced winner-take-all some trials vector averaging other trials model prediction experimentally testable
+work thus lends support common neurodynamic framework both veridical judgment categorical discrimination perceptual decision making
+ introduction 
+perceptual judgments involve detection identification discrimination objects sensory scene
+given ambiguous visual motion pattern instance subject may asked detect whether net motion direction present absent identify motion direction analog quantity discriminate motion direction between two options
+using strategy single-unit recording behaving monkeys neurophysiologists begun uncover neuronal activity linked perceptual judgments
+monkey experiments using perceptual discrimination tasks neural correlates decision making been observed parietal premotor prefrontal cortical areas
+experimental observations inspired advance neural circuit models suggest recurrent network dynamics underlie temporal integration sensory information decision formation 
+focusing categorical discrimination those neural circuit models well ramp-to-threshold models typically endowed simple architecture consisting discrete neural pools selective categorical alternatives
+therefore they inadequate exploring perceptual identification requires neural representation analog quantities motion direction arbitrary angle between 0 360
+other hand probabilistic estimation analog stimulus feature been studied perspective optimal population coding
+studies centered optimal algorithms reading out stimulus feature sensory neural populations inferring orientation visual stimulus neural activity primary visual cortex direction motion stimulus activity profiles across middle temporal visual area
+however probabilistic inference believed occur higher-order cortical areas downstream primary sensory areas underlying circuit mechanism remains unclear
+particular unknown whether probabilistic estimation categorical discrimination engage distinct decision processes realized shared neural circuit mechanism
+present work investigated outstanding question using continuous recurrent network model spiking neurons was initially proposed spatial working memory
+applied model simulation two monkey experiments using random-dot visual motion stimuli
+two-alternative forced-choice direction discrimination task monkey was trained discriminate motion direction making saccadic eye movement one two peripheral choice targets
+was found ramp-like spiking activity neurons lateral intraparietal cortex correlated monkey's choice
+contrast direction identification task monkey was required report veridically its perceived direction motion visual stimulus
+some trials electrical stimulation was applied simultaneously mt neurons when monkey viewed random-dot display
+microstimulation could bias monkey's judgments toward preferred direction mt neurons at microstimulation site
+was argued both vector-averaging winner-take-all algorithms might contribute interpretation activity profiles mt neurons
+but collected only behavioral data did not record neural activity mt downstream cortical areas
+thus neural mechanism veridical judgments about motion direction remains unknown
+here show continuous recurrent network model capable reproducing salient observations both experiments
+our results suggest both categorical discrimination veridical judgment subserved common cortical circuit endowed reverberatory dynamics

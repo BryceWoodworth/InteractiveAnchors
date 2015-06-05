@@ -1,0 +1,57 @@
+ 
+representing analyzing complex networks remains roadblock creating dynamic network models biological processes pathways
+study cell fate transitions reveal much about transcriptional regulatory programs underlie phenotypic changes give rise coordinated patterns expression changes observe
+application gene expression state space trajectories capture cell fate transitions at genome-wide level one approach currently used literature
+paper analyze gene expression dataset huang et al follows differentiation promyelocytes into neutrophil-like cells presence inducers dimethyl sulfoxide all-trans retinoic acid
+huang et al build work kauffman who raised attractor hypothesis stating cells exist expression landscape their expression trajectories converge towards attractive sites landscape
+propose alternative interpretation explains convergent behavior recognizing there two types processes participating cell fate transitions core processes include specific differentiation pathways promyelocytes neutrophils transient processes capture those pathways responses specific inducer
+using functional enrichment analyses specific biological examples analysis trajectories their core transient components provide validation our hypothesis using huang et al dataset
+ introduction 
+our understanding molecular basis wide range biological processes including development differentiation disease evolved significantly recent years
+increasingly coming recognize not single genes but rather complex networks genes gene products other cellular elements drive cellular metabolism cell fate when perturbed lead development disease phenotypes
+representing analyzing complex networks encompassing thousands tens thousands elements presents significant challenges
+one approach begun applied representation transcriptional changes transitions occur state space defined expression states all genes within cell
+approach number advantages including providing framework predictive modeling incorporation stochastic components biological process
+underlying assumption analysis each cellular phenotype invariably traced back particular class genome-wide gene expression signatures representing specific region gene expression state space
+described huang et al signature particular cellular state at particular instant time represented multidimensional gene expression vector high dimensional space where each coordinate represents expression level particular gene
+considering all possible configurations signature take create multidimensional landscape referred expression state space
+each observed phenotype represented single point state space
+when cells transition through successive phenotypes example during different stages hematopoietic differentiation specific sets genes alter their expression levels dictated underlying transcriptional program changes represented continuous trajectory expression state space; ultimately represent transcriptional program being played out cell's collection gene networks complex pathways
+kauffman first proposed idea stable cell fates cellular phenotypes observe correspond attractors expression state space stable points system would return if subjected small perturbation
+he points out principle cells could adopt any permutation gene expression states however not what observe nature
+according kauffman since there about 250 different cell types there must approximately number attractors state space either valleys peaks landscape represent stable cell fates cell types cells will ultimately converge presence inducer perturbation
+while interesting model direct experimental evidence supporting its overall utility explaining cellular mechanism remain seen
+huang et al reported evidence they claim demonstrated existence attractor
+they conducted gene expression time-course experiment differentiation human hl-60 promyelocytic cells into neutrophils using two different inducers dimethyl sulfoxide all-trans retinoic acid
+time-course data was collected using affymetrix u95av2 genechips analyzed provide gene expression level measures necessary create state-space model
+using principal components analysis they develop two-dimensional state space representation dmso atra induce initially divergent trajectories over time converge common trajectory leading final expression state representing neutrophils
+they argue instead observing trajectories explore state space trajectories display convergence single point therefore provides empirical proof attractive states exist nature
+here propose alternative interpretation convergent behavior does not appeal attractor hypothesis but rather explores observation context superposition components reflect pathways activated applied perturbations
+end extend work huang et al decomposing state space trajectories into components comprising two sets genes core group transient group capture stimulus-independent stimulus-dependent effects respectively
+superposition components reflect observation both sources effects independently influence overall shape trajectory taken during cell fate transition
+show how division allows us look at functional behavior genes their contribution cell fate transitions more enlightening way
+using regression models isolate core genes common both stimuli represent those critical differentiation process
+genes outside core represent transient component trajectory corresponding perturbation effects
+illustrate our ideas apply our method same published dataset generated huang et al 
+hl-60 cell line long been used model understand molecular mechanisms driving progression pathogenesis acute promyelocytic leukemia
+normal promyelocytes proliferation differentiation tightly coupled processes
+however balance comes unstuck apl cells result cells proliferate disregulated fashion
+discovery inducers like ra dmso could reprogram apl cells overcome block resume differentiation led emergence class therapeutics known differentiation therapy 
+dmso organic solvent but also functions cryoprotective agent tissue cell culture
+although widely used veterinary medicine treatment pain inflammation not generally used humans because known hepatotoxic
+hormone atra derivative vitamin belongs class molecules called retinoids
+atra currently used differentiation therapies treat human patients apl
+current complete remission rates apl patients atra-based differentiation therapy combination chemotherapy been reported high 90 95 percent
+at molecular level both dmso atra arrest cell cycle at g1-s phase transition point induce terminal differentiation hl-60 cells resulting neutrophil-like cells
+atra dmso biochemically distinct molecules activate slightly different sets pathways hl-60 cells
+huang et al explain reason why trajectories initially diverge explore different parts expression state space
+they argue presence attractor then causes trajectories converge different directions eventually arrive at common endpoint discount possibility specific unique differentiation pathway may triggered both inducers
+while argument may seem conceptually appealing upon further inspection attractor hypothesis greatly limits our ability develop mechanistic interpretations build predictive models cell fate transitions
+believe there exists alternative more plausible interpretation huang et al kauffman not considered
+our interpretation based recognition there two types processes contribute cell fate transitions: one core biological process inherent transition-specific event two transient process related direct effects particular inducing agent exerts cell
+early divergence seen state space trajectories described huang et al reflective cells' response specific perturbation compound-specific response follows
+expect transient processes dominate only at initial period time-course since most drugs metabolized quickly cell
+once disorder subsided targeted effects each inducer expected begun triggering core processes occurs directions both trajectories adopt become more more convergent because overlap activated pathways dmso-induced cells atra-induced cells growing larger cells transition towards their common endpoint
+source convergence therefore not necessarily due existence attractor but instead explained combination two types processes exerting their temporal effects cells
+indeed if attractor existed then there should whole class perturbations would cause transitions initial final state rather than small number activate single core pathway
+if one adopts attractor hypothesis basis cell-fate transitions then our interpretation much closer conrad waddington he argued canalization state space through existence defined paths canals between attractor states 

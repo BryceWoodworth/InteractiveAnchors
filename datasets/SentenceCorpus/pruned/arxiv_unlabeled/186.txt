@@ -1,0 +1,26 @@
+
+statistical problems set probability distributions used estimate true probability distribution
+if information matrix at true distribution then been unknown what estimate about true distribution random samples
+paper study regression problem prove limit theorem shows relation between regression problem two real threshold
+obtained theorem important application statistics because us estimate generalization error training error without any knowledge true probability distribution
+introduction
+let natural numbers real
+assume probability space random variable subject probability density function where probability density function constant function norm
+function called regression function
+assume set random variables subject same probability distribution
+let subset
+let function
+error real function defined } where function probability density function constant called
+note not constant but random variable because depends random variables
+two random variables defined random variables called generalization training errors
+since expected some natural conditions both when if there exists
+paper how fast other words our study limit theorem shows when
+if information matrix where positive arbitrary then problem well known regression problem
+fact regression problem
+however if if then problem called regression problem been unknown
+general been difficult study limit theorem case when information matrix
+however recently shown limit theorem based there mathematical between limit theorem two density estimation
+paper prove new limit theorem regression problem us estimate random samples
+limit theorem paper important application statistics because value generalization error estimated training error without any knowledge true probability distribution let
+if function defined then set not one point information matrix at
+functions used statistics information brain example neural networks basis functions functions

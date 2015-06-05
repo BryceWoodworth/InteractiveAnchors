@@ -1,0 +1,40 @@
+ 
+professional judges traffic courts sentence many hundreds offenders per year
+using number case files archives compared matching heuristic mh compensatory weighing algorithms wm
+modeled cross validated models different subsets data took several other methodological precautions allowing each model select optimal number variables ordering weighing variables accordance different logics
+did not reproduce finding dhami who found mh superior compensatory algorithm modeling bail-granting decisions
+simulations brought out inner logic two family models showing what combination parameters works best
+remains remarkable using only fraction variables combining them non-compensatorily mh obtained nearly good fit weighing method
+ introduction 
+paper compares compensatory non-conpensatory models descriptions how decisions made real-life settings experienced practitioners
+study concerns traffic judges punishment they mete out alleged offenders brought their court
+judges traffic courts professional decision makers
+their decisions them routine they handle dozens cases every month
+defendants appearing court decisions significant involving sometimes hefty fines driving license suspension even prison
+asked how many elements traffic judges consider how complex their decision patterns
+study relying actual cases professional decision-making contributes debate about plausibilitiy fast frugal heuristics psychological models cognition
+there extensive literature how decision makers proceed when they rely multiple cues come decision
+many researchers maintain decisions makers do not rely all information available combine any sophisticated way
+instead claimed they rely simple heuristics sometimes turn out surprisingly efficient valid more complex approaches favored rational analysis
+paper analyzes attempts model decisions made real life experienced traffic judges
+how simple how complex judgments meted out
+do traffic judges consider all elements case
+what extent do they integrate all information available them
+there at least two causes superficial treatment available information
+first cognitive limitation
+people do not use optimal approach because proper integration all information available beyond their mental powers
+all humans limited cognitive abilities fundamental difficulty exacerbated conditions under traffic court judges work
+their workload high only few minutes available case each characterized some twenty parameters
+strategy selection contingent task demands
+time pressure specifically time available per variable been shown affect decision making resulting fewer variables being considered replacement complex cognitive strategies simpler ones processing hundreds cases month after month traffic court judges acquire vast experience
+there therefore reason expect their decisions settle into some pattern
+however second factor they do not benefit feedback important consequences
+feedback appropriateness one's decisions been shown essential developing good strategies
+particular while interactions often ignored multivariable decisions not case when decision makers habitual access feedback their decisions care greatly about outcome
+even if judges knew what happened offenders they sentenced they lack clear criterion evaluate quality their decision
+judges little incentive develop complex decision rules
+yet they surely do not render random judgments
+instead accuracy they may strive adequate judgment one they consider appropriate circumstances expresses their attitudes about each case
+yet even if criterion adequacy replaces accuracy unlikely judges attempt reach best possible decision every case
+since their task routine each case must quickly dispatched lest backlog increase plausible they do not invest much care judges higher courts where stakes arehigher acquaintance offender protracted
+they may also use methods less well thought out than if resources were unlimited motivation high information complete

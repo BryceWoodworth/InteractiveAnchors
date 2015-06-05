@@ -1,0 +1,36 @@
+
+neural field model presented essential characteristics activity dynamics across several visual response local stimuli
+account physiological data obtained population activity at high
+single single studies showed before motion within
+consider neural field model neurons system
+under assumption activity both our model observed activity patterns
+moreover model novel similar stimuli activity different
+our results feedback higher brain not required produce motion patterns case
+physiological model suggests signal may due activity notion interactions between populations play major role dynamic stimulus early visual
+introduction
+visual activity does not visual input but rather additional processes involving local feedback
+understanding processing requires theoretical understanding underlying activity dynamics modeling at various levels
+chosen level should level at made
+activity patterns observed using population activity at level
+suggests application models large numbers neurons
+moreover relation dynamics spatial
+neural field models synaptic depends notion distance between neurons neurons therefore our choice
+here show models mean data space time high accuracy
+model functional description dynamics
+thus first place
+however its biological terms allows its structure parameters functional
+data model two stimuli presented produce pattern signals activity across representation early visual
+obtained pattern was different activity when was did not simple stimuli
+rather observed activity was also found when stimulus visual space
+based data neural field model account findings i
+if so would feedback higher brain not produce motion patterns across primary visual upon
+measures relative changes correlated changes membrane
+technique allows activity at well level at least temporal spatial across several
+hence well dynamics neurons at
+however signal does not between overall activity
+therefore our model explicitly signal mixture activity populations thus studies data activity
+gain about relative signal because model allows its
+following first describe underlying data its our model structure our parameter identification procedure
+then present results including model comparison further models model prediction similar yet novel stimuli results standard linear stability analysis solution model
+then findings relation alternative modeling approaches physiological our model role model
+finally consider our results context representation motion

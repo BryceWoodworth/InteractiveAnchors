@@ -1,0 +1,41 @@
+
+paper new approach solve problems
+problems well markov decision processes
+original approach here optimal policy based stochastic estimation
+assume work possible learn optimal policy simulation using models
+learned policy then used
+order approximate stochastic context introduce new method approximate based approximation
+general framework
+introduction
+years after years complexity many increased leading more more complex systems decision increasing amount data
+number types along increased quality data far ability human often difficult compare how much information way given
+results derive their environment
+problem often problem
+more simple situations context may lead like case
+general problem could then effective use available database
+many applications classical one being identify targets target change its way its way when under analysis several
+questions then following at each how must group how long direction
+increasing complexity targets identified makes even more difficult development optimal targets complex dynamic system
+become very popular years many approaches found
+authors use detection process propose during detection step
+approach use set
+point view markov decision process
+underlying application problem choosing at each time action within set available actions
+choice generally based density state vector environment system variables system itself
+generally assumed state at least part state
+moreover most applications only information state must estimated measurements
+estimation process often derived within bayesian framework where use observation models } } where state noise measurements noise function
+generally time functions
+control problem finding policy i e given past possible
+however control problem may solution generally practice
+however few propose optimal solution like
+several been out find like instance
+learning also been used propose solution
+propose paper policy within class policy learn means learn optimal value
+our work approach described assume possible learn policy simulation using models overall system
+optimal parameter been found used
+work being detection targets show part paper how may applied
+section described problem using approach
+section derive algorithm learn parameter policy
+section show how method may used
+finally section simulations results

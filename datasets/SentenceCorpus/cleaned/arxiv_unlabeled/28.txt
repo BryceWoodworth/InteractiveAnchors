@@ -1,0 +1,12 @@
+ 
+assuming loss function convex prediction construct prediction strategy universal class markov prediction strategies not necessarily continuous
+allowing randomization remove requirement convexity
+ introduction 
+paper belongs area research known universal prediction individual sequences see review): predictor's goal compete wide benchmark class prediction strategies
+previous papers constructed prediction strategies competitive important classes markov stationary respectively continuous prediction strategies
+paper consider competing against possibly discontinuous strategies
+our main results assert existence prediction strategies competitive markov strategies
+paper's idea transition continuous general benchmark classes was motivated skorokhod's topology space ``c\`adl\`ag'' functions most discontinuous
+skorokhod's idea was allow small deformations not only along vertical axis but also along horizontal axis when defining neighborhoods
+skorokhod's topology was metrized kolmogorov so became separable space   appendix iii;  p 913 allows us apply one numerous algorithms prediction expert advice kalnishkan vyugin's weak aggregating algorithm paper construct universal algorithm
+section give main definitions state our main results theorems ; their proofs given sections  respectively

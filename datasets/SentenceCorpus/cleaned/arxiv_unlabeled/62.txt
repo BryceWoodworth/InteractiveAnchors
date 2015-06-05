@@ -1,0 +1,42 @@
+ 
+introduce framework filtering features employs hilbert-schmidt independence criterion hsic measure dependence between features labels
+key idea good features should maximise dependence
+feature selection various supervised learning problems including classification regression unified under framework solutions approximated using backward-elimination algorithm
+demonstrate usefulness our method both artificial real world datasets
+ introduction 
+supervised learning problems typically given data points their labels
+task find functional dependence between   subject certain optimality conditions
+representative tasks include binary classification multi-class classification regression ranking
+often want reduce dimension data number features before actual learning ; larger number features associated higher data collection cost more difficulty model interpretation higher computational cost classifier decreased generalisation ability
+therefore important select informative feature subset
+problem supervised feature selection cast combinatorial optimisation problem
+full set features denoted whose elements correspond dimensions data
+use features predict particular outcome instance presence cancer: clearly only subset features will relevant
+suppose relevance outcome quantified  computed restricting data dimensions
+feature selection then formulated as\\[-0 5cm \\[-0 5cm where computes cardinality set upper bounds number selected features
+two important aspects problem  choice criterion selection algorithm \paragraph{feature selection criterion } choice should respect underlying supervised learning tasks  estimate dependence function training data guarantee predicts well test data
+therefore good criteria should satisfy two conditions:\\[-0 5cm while many feature selection criteria been explored few take two conditions explicitly into account
+examples include leave-one-out error bound svm mutual information
+although latter good theoretical justification requires density estimation problematic high dimensional continuous variables
+sidestep problems employing mutual-information like quantity  hilbert schmidt independence criterion hsic
+hsic uses kernels measuring dependence does not require density estimation
+hsic also good uniform convergence guarantees
+show section hsic satisfies conditions i ii  required \paragraph{feature selection algorithm } finding global optimum \eq{eq:fs} general np-hard
+many algorithms transform \eq{eq:fs} into continuous problem introducing weights dimensions
+methods perform well linearly separable problems
+nonlinear problems however optimisation usually becomes non-convex local optimum does not necessarily provide good features
+greedy approaches  forward selection backward elimination  often used tackle problem  directly
+forward selection tries increase much possible each inclusion features backward elimination tries achieve each deletion features
+although forward selection computationally more efficient backward elimination provides better features general since features assessed within context all others \paragraph{bahsic } principle hsic employed using either forwards backwards strategy mix strategies
+however paper will focus backward elimination algorithm
+our experiments show backward elimination outperforms forward selection hsic
+backward elimination using hsic bahsic filter method feature selection
+selects features independent particular classifier
+decoupling not only facilitates subsequent feature interpretation but also speeds up computation over wrapper embedded methods
+furthermore bahsic directly applicable binary multiclass regression problems
+most other feature selection methods only formulated either binary classification regression
+multi-class extension methods usually accomplished using one-versus-the-rest strategy
+still fewer methods handle classification regression cases at same time
+bahsic other hand accommodates all cases principled way: choosing different kernels bahsic also subsumes many existing methods special cases
+versatility bahsic originates generality hsic
+therefore begin our exposition introduction hsic

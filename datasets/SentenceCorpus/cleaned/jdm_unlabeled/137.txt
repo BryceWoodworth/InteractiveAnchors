@@ -1,0 +1,46 @@
+ 
+paper document violation normative descriptive models decision making under risk
+contrast uncertainty effects found gneezy list wu some subjects our experiments valued lotteries more than best possible outcome
+show overbidding effect more strongly related individuals' competitiveness traits than comprehension lottery's payoff mechanism
+ introduction 
+decision making often involves choices between risky outcomes
+prospect theory expected utility theory both posit individuals balance outcomes their potentially weighted probability occurrence means certainty equivalent binary lottery will lie somewhere between lowest highest outcomes
+however gneezy list wu document cases where individuals value risky prospect less than its worst possible realization
+they call phenomenon uncertainty effect demonstrate its existence various laboratory experiments including real hypothetical pricing tasks inter-temporal choice tasks well field experiment sportscard market
+uncertainty effect however disappears within-subject designs observed only lotteries do not involve cash
+gneezy list wu study sparked small but growing literature examining robustness their findings
+example sonsino found occurrence uncertainty effect internet-based within-subject design
+keren willemsen argued however gneezy list wu's results were artifact poorly understood experimental instructions
+specifically series experiments they replaced lottery coin toss spinner wheel clearly define payoff probabilities
+they also added comprehension checks
+their new protocols eliminated uncertainty effect almost completely
+similarly rydval et al used physical lottery formats i e drawing good gift exchange deferred payment closed bag containing two goods identical except their face value instead verbal lottery descriptions observed uncertainty effect almost disappeared
+other hand simonsohn argued uncertainty effect neither caused fact gneezy list wu's manipulation uncertainty was fully confounded number outcomes presented subjects nor subjects may had erroneously believed lottery could result payment number
+instead he argued uncertainty effect occurs consequence direct risk aversion
+direct risk aversion arises literal distaste uncertainty i e uncertainty enters directly into people's utility function
+theoretically gill stone showed uncertainty effect arise tournaments where two agents competing win fixed monetary prize
+similarly andreoni sprenger argued uncertainty effect not anomalous if certain uncertain consumption evaluated different utility parameters
+they argue marginal utility uncertain consumption diminishes more quickly than marginal utility certain consumption
+because uncertain utility more concave than certain utility one expect gamble valued less than its worst possible outcome
+paper document cases polar opposite uncertainty effect found gneezy list wu where individuals value outcome risky prospect more than its best possible realization
+demonstrate cases where subjects willing pay much three times value best possible realization lottery second price auction
+term effect overbidding effect
+addition documenting overbidding effect seek identify causes effect
+three non-exclusive possible explanations results observe number confusion about auction mechanism number confusion failure comprehension about lotteries i e subjects did not understand payoff mechanism lottery number subjects derive utility winning being top dog experiment i e walk out experiment top dog among their peers
+regarding first two issues plott zeiler show often-reported wtp-wta disparity likely result subjects' confusion elicitation mechanism-suggesting wtp-wta divergence not underlying feature preference per se but rather result misunderstanding bidding mechanism
+tempting attribute overbidding effect elements value elicitation mechanism
+example kagel levin's non-risky induced value experiments subjects tended slightly overbid second price auction
+experiments subjects assigned value v winner auction paid difference between his her value second highest bid price profit v  price
+second price auction individual's weakly dominant strategy submit bid equal v but kagel levin show many people submit bids higher than v
+kagel levin attributed overbidding either dominant bidding strategy not being transparent weak learning feedback mechanisms second price sealed bid auction
+although result often taken stylized fact associated second price auctions lusk shogren document several more recent induced value studies focus all bidders' values not just market price tend find behaviour more in-line theoretical predicted bidding behaviour second price auction
+even if accept kagel levin's result over-bidding second price auction difficult conclude primary cause behaviour observed here lotteries where subjects' values v unknown
+although subjects our experiments overbid would expect people's bids lie somewhere close expected payoff not close maximum payoff lottery
+stated differently overbidding effect observed kagel levin might explain bids slightly higher than expected value lottery but cannot explain bids excess maximum lottery payout
+use experimental design varied amount training about auction mechanism amount feedback after each round
+varying amount training allows us directly test whether confusion elicitation mechanism may explain observed results
+other hand amount feedback after each round allows us test whether mechanism may induced more competitiveness sessions
+also measured subject's personal traits regarding comprehension how lotteries work well their competitiveness
+our results suggest overbidding effect small part attributed comprehension how lotteries work but extensive training second price auction does not eliminate overbidding effect thus ruling out confusion elicitation mechanism primary cause overbidding
+find comprehension negatively related overbidding effect while competitiveness traits positively related overbidding behavior
+paper structured follows next section discusses design our auction experiments followed data analysis results

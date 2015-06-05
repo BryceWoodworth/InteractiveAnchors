@@ -1,0 +1,63 @@
+
+evolutionary game theory predicts natural selection strong even though interactions at all levels systems
+recent demonstrated factor evolution interactions way they individuals few others along networks low average connectivity
+despite remains since recent empirical data shows real networks exhibit typically high average connectivity associated scale
+here computational model individuals able both their strategy their social evolution based their
+show evolution individual strategy network structure key mechanism social networks
+given average connectivity population there critical value between time scales associated evolution strategy structure above out
+moreover social networks exhibit overall very well patterns recently found data social networks
+finally found become when its critical value
+results show simple dynamics individual social produce networks high average connectivity associated scale
+other hand they show cannot result social networks high average connectivity additional mechanism
+introduction
+evolutionary game theory predicts natural selection strong existing evidence more than theory predicts
+when terms solution dynamics populations
+become however individuals few others along sparse graphs recently two independent studies
+both studies place individuals nodes graph their social nodes evolution every individual strategy but not social
+been shown under strong selection graphs lead significant increase overall terms most popular social networks different
+classical involves cost c resulting b simple relation been obtained single population selection where average number each individual
+both studies show games graphs open how social
+however recent data shows networks exhibit average connectivity values 2 associated between connectivity values typically used previous studies
+instance network average connectivity whereas networks based average values up
+terms simple rule evolution graphs reported values require often more than one order single
+previous results strong selection graphs how social networks
+other mechanisms at work here allow
+most evolutionary models developed so far social interactions fixed
+social associated graphs individuals no control over number frequency their they only their strategy
+similar observation made studies related physical properties complex networks
+networks but one networks been typically produced some growth process
+yet networks before will after been taken
+indeed recent studies social networks global properties rather stable whereas individual patterns social time
+hence fixed population size global average connectivity one may what role do changes interaction framework play evolution extent will social influence network
+using model strategy evolution evolution individual cognitive very small investigate under conditions may
+network now result dynamics will shown play role
+let us consider two types individuals who several most popular social
+they not required information all other only those they
+moreover they able all those they those they change
+given individuals b at if strategy b being
+if will
+if then may b being random b simple agents being rational individuals limited information tend other agents close social manner
+sense agent more likely one b become
+moreover may turn out good choice since also making more likely results
+indeed all social described below any individual its strategy
+all individuals
+hence good choice individuals local information only
+social examined work terms games where either upon interaction
+when both they payoff other hand when both they both obtain payoff p two occur when one other resulting payoff t s
+depending relative four payoff values over three social game game
+follows payoff preferences
+game since they
+game resulting intrinsic
+finally both combined game making most difficult situation
+difference between 1 making 1 p
+investigate all 1 parameter space 2 where payoff t t 2 payoff s 1 s 1
+each individual total payoff resulting interactions all
+fact our model via social they both upon between individual strategy population game payoff now strategy structure
+adaptive individual new time scale not time scale associated strategy evolution
+depending e different may occur
+indeed results
+other hand increasing individuals become their increasing
+general however one two time scales situations
+provides measure their rational choices both at strategy large values populations individuals whereas smaller values some overall change
+general type response will change individual individual
+hence here average population

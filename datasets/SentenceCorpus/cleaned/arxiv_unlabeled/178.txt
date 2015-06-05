@@ -1,0 +1,40 @@
+ 
+general purpose intelligent learning agents cycle through complex,non-mdp sequences observations actions rewards
+other hand reinforcement learning well-developed small finite state markov decision processes mdps
+so far art performed human designers extract right state representation out bare observations ie \ reduce agent setup mdp framework
+before think mechanizing search suitable mdps need formal objective criterion
+main contribution article develop criterion
+i also integrate various parts into one learning algorithm
+extensions more realistic dynamic bayesian networks developed companion article {keywords:} evolutionary algorithms ranking selection tournament selection equivalence efficiency
+ introduction 
+artificial general intelligence agi concerned designing agents perform well wide range environments
+among well-established ``narrow'' ai approaches arguably reinforcement learning rl pursues most directly same goal
+rl considers general agent-environment setup agent interacts environment acts observes cycles receives occasional rewards
+agent's objective collect much reward possible
+most if not all ai problems formulated framework
+simplest interesting environmental class consists finite state fully observable markov decision processes mdps  reasonably well understood
+extensions continuous states non)linear function approximation  partial observability pomdp  structured mdps dbns  others been considered but algorithms much more brittle
+any case lot work still left designer namely extract right state representation ``features'' out bare observations
+even if potentially useful representations been found usually not clear one will turn out better except situations where already know perfect model
+think mobile robot equipped camera plunged into unknown environment
+while imagine image features potentially useful cannot know ones will actually useful
+before think mechanically searching ``best'' mdp representation need formal objective criterion
+obviously at any point time if want criterion effective only depend agents past experience
+main contribution article develop criterion
+reality non-ergodic partially observable uncertain unknown environment acquiring experience expensive
+so want/need exploit data past experience at hand optimally cannot generate virtual samples since model not given need learned itself there no reset-option
+regression classification penalized maximum likelihood criteria successfully been used semi-parametric model selection
+far obvious how apply them rl
+ultimately do not care about observations but rewards
+rewards depend states but states arbitrary sense they model-dependent functions data
+indeed our derived cost function cannot interpreted usual model+data code length
+partly detailed later suggested mdp model could regarded % scaled-down practical instantiation aixi  % way side-step open problem learning pomdps % extending idea state-aggregation planning based bi-simulation metrics  rl based code length % generalizing u-tree arbitrary features % alternative psrs proper learning algorithms yet developed
+% throughout article denotes binary logarithm % empty string % if else kronecker
+% i generally omit separating commas if no confusion arises particular indices
+any suitable type string,vector,set i define string  % sum  union  vector  % where ranges over full range length dimension size
+% denotes estimate
+denotes probability over states rewards parts thereof
+i do not distinguish between random variables realizations  abbreviation never leads confusion
+more specifically denotes number states % any state index % current time % any time
+% further order not get distracted at several places i gloss over initial conditions special cases where inessential
+also 0 undefined=0 infinity:=0

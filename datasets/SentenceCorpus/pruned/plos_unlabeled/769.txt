@@ -1,0 +1,28 @@
+
+exact intrinsic structures
+some studies suggest dna occur at certain values one another dna however studies literature
+here investigate dna length distributions yeast genome using two novel analysis genomic experimentally hidden markov model applied experimentally defined
+both methods dna yeast at dna
+intrinsic structure average yeast
+introduction
+genomic dna exists complex called
+first level dna 1 protein
+short dna
+most further into
+despite much effort structure remains
+here report analysis relative along dna new structure
+dna itself
+each base pair increase between two them along dna potentially change relative
+however because per turn dna about dna second different space different intrinsic structure
+interactions might intrinsic structure particular structure independent exact dna
+case changes intrinsic structure would instead changes stability
+because high dna short changes stability would
+while one several intrinsic structure n do instead next n complete dna up where but along dna n
+if dna about average value resulting intrinsic structure would random
+but if dna instead were length dna would define structure detailed intrinsic structure highly depending phase d length d
+there many literature however results
+early analysis dna suggested yeast s occur while those human cells no
+studies first did not but later did dna form
+later correlation analyses variable results preferences form yeast human cells
+existing studies us develop two new independent computational methods new experimental data define probability distribution dna yeast
+our results both approaches show dna yeast indeed yeast genome structure its average

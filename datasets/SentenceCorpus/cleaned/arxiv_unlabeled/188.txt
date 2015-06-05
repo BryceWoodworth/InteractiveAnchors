@@ -1,0 +1,52 @@
+ 
+consider least-square linear regression problem regularization norm problem usually referred lasso
+paper first present detailed asymptotic analysis model consistency lasso low-dimensional settings
+various decays regularization parameter compute asymptotic equivalents probability correct model selection
+specific rate decay show lasso selects all variables should enter model probability tending one exponentially fast while selects all other variables strictly positive probability
+show property implies if run lasso several bootstrapped replications given sample then intersecting supports lasso bootstrap estimates leads consistent model selection
+novel variable selection procedure referred bolasso extended high-dimensional settings provably consistent two-step procedure
+ introduction 
+regularization norm attracted lot interest recent years statistics machine learning signal processing
+context least-square linear regression problem usually referred lasso  basis pursuit 
+much early effort been dedicated algorithms solve optimization problem efficiently either through first-order methods  through homotopy methods leads entire regularization path i e  set solutions all values regularization parameters at cost single matrix inversion
+well-known property regularization norm sparsity solutions i e  leads loading vectors many zeros thus performs model selection top regularization
+recent works looked precisely at model consistency lasso i e  if know data were generated sparse loading vector does lasso actually recover sparsity pattern when number observations grows
+case fixed number covariates i e  low-dimensional settings lasso does recover sparsity pattern if only if certain simple condition generating covariance matrices satisfied
+particular low correlation settings lasso indeed consistent
+however presence strong correlations between relevant variables irrelevant variables lasso cannot model-consistent shedding light potential problems procedures variable selection
+various extensions lasso been designed fix its inconsistency based thresholding  data-dependent weights two-step procedures
+main contribution paper propose analyze alternative approach based resampling
+note recent work also looked at resampling methods lasso but focuses resampling weights norm rather than resampling observations see \mysec{support} more details
+paper first derive detailed asymptotic analysis sparsity pattern selection lasso estimation procedure extends previous analysis focusing specific decay regularization parameter
+namely low-dimensional settings where number variables much smaller than number observations  show when decay proportional  then lasso will select all variables should enter model relevant variables probability tending one exponentially fast  while selects all other variables irrelevant variables strictly positive probability
+if several datasets generated same distribution were available then latter property would suggest consider intersection supports lasso estimates each dataset: all relevant variables would always selected all datasets while irrelevant variables would enter models randomly intersecting supports sufficiently many different datasets would simply eliminate them
+however practice only one dataset given; but resampling methods bootstrap exactly dedicated mimic availability several datasets resampling same unique dataset
+paper show when using bootstrap intersecting supports actually get consistent model estimate without consistency condition required regular lasso
+refer new procedure bolasso  bo otstrap-enhanced l east b s olute s hrinkage o perator
+finally our bolasso framework could seen voting scheme applied supports bootstrap lasso estimates; however our procedure may rather considered consensus combination scheme keep largest subset variables all regressors agree terms variable selection our case provably consistent also allows get rid potential additional hyperparameter
+consider two usual ways using bootstrap regression settings namely bootstrapping pairs bootstrapping residuals
+\mysec{support} show two types bootstrap lead consistent model selection low-dimensional settings
+moreover \mysec{simulations} provide empirical evidence high-dimensional settings bootstrapping pairs does not lead consistent estimation while bootstrapping residuals still does
+while currently unable prove consistency bootstrapping residuals high-dimensional settings prove \mysec{highdim} model consistency related two-step procedure: lasso run once original data larger regularization parameter then bootstrap replications pairs residuals run within support first lasso estimation
+show \mysec{highdim} procedure consistent
+order do so consider new sufficient conditions consistency lasso do not rely sparse eigenvalues  low correlations finer conditions
+particular our new assumptions allow prove lasso will select not only few variables when regularization parameter properly chosen but always same variables high probability
+\mysec{algorithms} derive efficient algorithms bootstrapped versions lasso
+when bootstrapping pairs simply run efficient homotopy algorithm lars   multiple times; however when bootstrapping residuals more efficient ways may designed obtain running time complexity less than running lars multiple times
+finally \mysec{experiments-low} \mysec{experiments-high} illustrate our results synthetic examples low-dimensional high-dimensional settings
+work follow-up earlier work : particular refines extends analysis high-dimensional settings boostrapping residuals \paragraph{notations}  denote its norm defined
+also denote its norm
+rectangular matrices  denote its largest singular value largest magnitude all its elements its frobenius norm
+let denote largest smallest eigenvalue symmetric matrix
+ denotes sign  defined if  if  if
+vector  denotes vector signs elements
+given set  indicator function set
+also denote   smallest magnitude non-zero elements
+moreover given vector subset  denotes vector elements indexed
+similarly matrix  denotes submatrix composed elements whose rows columns
+moreover denotes cardinal set
+positive definite matrix size  two disjoint subsets indices included  denote matrix  conditional covariance variables indexed given variables indexed  gaussian vector covariance matrix
+finally let denote general probability measures expectations \paragraph{least-square regression norm penalization} throughout paper consider pairs observations 
+data given form vector design matrix
+consider normalized square loss function \ell^1 0 \hat{j}  \{ j \{1,\dots,p\} \ \hat{w}_j 0\} p/n$
+when ratio much smaller than one \mysec{lowdim} refer setting low-dimensional estimation while other cases where ratio potentially much larger than one refer setting high-dimensional problem see \mysec{highdim}

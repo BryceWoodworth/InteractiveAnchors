@@ -1,0 +1,51 @@
+
+large systems important agents learn but learning algorithms generally do not scale
+alternative approach find classes games where simple efficient algorithms
+shown learning large games if dynamics
+two features identified improve convergence
+first rather than making learning more difficult more agents actually many settings
+second agents statistical information about behavior others significantly reduce number observations needed
+introduction
+distributed systems determine how agent system should because optimal behavior depends preferences actions others
+natural approach agents use learning algorithm
+many learning algorithms been proposed including simple strategy play algorithms
+however discuss section existing algorithms generally large distributed systems
+distributed system each agent limited view actions other agents
+algorithms require example strategy chosen every agent cannot
+furthermore size distributed systems requires fast convergence
+may use system short time conditions system change over time so practical algorithm system convergence rate number agents
+existing algorithms tend provide performance even
+finally large number agents system there will noise
+agents will make will
+even if no agent changes his strategy there still noise agent payoffs
+example will different agents underlying network may effect between agents
+learning algorithm robust noise
+while finding algorithm arbitrary games may difficult distributed systems characteristics make problem
+first they involve large number agents
+having more agents may make learning all there more possible interactions
+however advantage outcome action typically depends only what other agents do
+makes outcomes robust noise
+having large number agents also make less useful agent influence better policy learn optimal response
+contrast small number agents agent learning agents into outcome
+second distributed systems often does not who does but rather how many agents do
+example when there experience single agent does not depend who but how many being
+finally most distributed system system game agents
+us different perspective than most work game given
+do not need solve problem finding efficient algorithm all games
+instead find algorithms work classes games where us means type games system might agents play
+games should since would design system where decisions influence other agents ways
+section show learning robust information class games
+algorithm agents game into series
+each agent uses fixed strategy
+at end agent his strategy next strategy had average reward current
+prove under appropriate conditions large system will approximate dynamics despite errors
+games where dynamics our theorem will play approximate
+contrast previous results where convergence scales number agents our theorem convergence finite amount time number agents
+while assumption dynamics strong one many games under dynamics including games games best
+et al observed convergence dynamics often property games humans design
+moreover convergence dynamics assumption than common assumption made mechanism design literature games interest strategies each agent strategy optimal no what other agents do
+simulation results presented section show convergence fast system agents few
+furthermore identify two factors determine rate quality convergence
+one number having more agents makes noise more consistent so agents learn using observations
+other agents statistical information about behavior other convergence order
+indeed even statistical information about agent behavior should relatively obtain significantly improve performance

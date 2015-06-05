@@ -1,0 +1,75 @@
+
+first trials step t cell against
+structure trials new modeling statistical
+memory t cells actually
+if they at what extent they disease
+how do estimate two primary one one novel where latter may selection bias due
+step trials developed novel techniques effect while selection bias
+but techniques not been tested scenarios
+introduce new stochastic models t cell making use new estimates rate t t cells cells
+based models make discovery not might explicitly when they step trials
+trials demonstrate new statistical methods identify while against disease
+addition our results utility modeling
+introduction
+first against human designed trials
+been designed cellular responses
+evidence t cells t target cells play role
+first step t cell being research trials network at us health
+three vectors proteins into human cells
+t cell responses
+step will participants occur
+provide
+second step design will
+step trials measure
+disease first through stable phase then
+typically measured after primary
+even without could individual need transmission
+second primary analysis step among subjects groups
+nature trials design presented statistical
+because subjects comparison determined event analysis selection bias
+specifically analysis differences would not effect but rather mixture effects variables correlated
+latter may distributed between groups
+example selection bias would occur if only relatively strong system group would than group
+even if no effect group would expected higher than those group
+account selection bias would lead inference increases
+analysis step trials other developed statistical techniques effect allow levels selection bias
+however did not consider underlying biological mechanisms could account effects
+rather they arbitrary effects studied statistical characteristics
+evaluate statistical methods more relevant manner consider here various effects
+at their present development mathematical models system made few predictions because uncertainty about most important mechanisms values
+models they primary after between response formation state other aspects
+addition recent estimate rate at cells
+new stochastic models primary response made does not appear might
+using step trials explicitly
+let us
+will mean either no target cells at all does not some small number
+number at any time disease
+outcome might described depending
+consistent common after primary
+because t cells require step before they clear cells most defined
+against not may large used experiments
+more relevant observation t cell memory but
+one finding cellular was but was either due
+small t cells due activation events system memory
+however could not prove actually
+but other particular
+however may t cells here impact statistical estimation some biological mechanism into our simulations
+combined stochastic models so impact t cells both probability given subjects
+requires more particular about action
+because extent uncertainty about mechanisms do not predict outcome trials
+rather models provide cases where influence selection bias present when present resulting biological scenarios rather than assumptions
+then generate step trials method test
+step trials two parameters will difference mean subjects where defined average two rna levels measured at 2 after
+data will using method estimates effect while levels selection bias
+technique was developed potential outcomes framework inference
+framework each two potential one under one under
+following effect defined subjects who would become
+effect because two study characteristics therefore observed differences directly
+methods estimate average effect difference mean
+fundamental difficulty lack knowledge about subjects group would require data outcome both under under but each subject only one outcomes observed
+address problem made assumption does not increase risk any subject model whether would been had they been
+model sensitivity parameter under comparing two 1
+value case no selection bias case analysis effect positive values selection bias higher larger parameter fixed at each possible value within range each provided confidence
+see methods mathematical
+first step proposed range see section
+our analysis will estimate over range

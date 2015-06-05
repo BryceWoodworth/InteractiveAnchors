@@ -1,0 +1,43 @@
+
+many neurons they action
+see what effects noise relatively small activity recently examined response system noise mean applied current firing
+article more model spatial extent
+system component input current small whereas stochastic component over region may may not component
+mean values below above critical values effects noise increasing simulation
+point model small noise critical value activity leads minimum noise level increases
+was case both noise noise
+noise along whole only more effective cell than noise occurs region
+fact found if signal noise spatial extent then noise may
+if however signal noise applied then noise no effect activity no how large its region application though noise
+effects could not point model important real behavior
+does occur when noise larger even when noise signal do not being due secondary rather than system one another
+introduction
+almost found many central system including example cells neurons neurons neurons neurons
+behavior also found activity populations
+since component activity at all levels interest see what effects noise may activity neurons
+there many model could used being provided classes type 1 type 2 neurons
+chosen first examine behavior type 2 neural model its full spatial version been recent studies
+methods use extended more models
+spatial system membrane three one most mathematical models
+corresponding system been subject very large number studies analyses example
+most modeling studies some use spatial extent many those include spatial extent do not include because all three major components makes system conditions
+recent study used stochastic model demonstrated effect noise there were optimal at nodes most efficient signal transmission
+if solutions statistical properties found simulation stochastic models including model not much more than corresponding point models although more time required
+other hand spatial models more parameters must many at best only estimated
+original action potential formation only distribution corresponding was assumed
+current various did not distance
+however there two why basic model been modeling more complex cells
+do depend position neurons especially those central system often many synaptic many different sources each source different spatial distribution pattern
+thus spatial models cells also used same components current but over
+most central neurons many each many times
+article focus model one space dimension most accurate usually
+thus first instance our approach useful investigate properties single
+simple used gain some into properties neurons complex methods structure thus problem one space dimension
+thus models neurons
+recent studies stochastic input revealed new stochastic
+latter there noise level at some response variable maximum
+particular system at mean input current critical value firing was found small amount noise could strongly
+furthermore there given mean current minimum firing rate noise level increased
+properties related firing found single neurons input current networks neurons
+interest see if spatial where addition many spatial distribution mean input noise
+will demonstrate spatial system similar but more complex behavior than system

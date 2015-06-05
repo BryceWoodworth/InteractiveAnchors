@@ -1,0 +1,27 @@
+
+previous analysis metabolic network suggested existence several pathways
+here identified sets pathways into
+pathways two other pathways were studied using those pathways evaluation predictive model
+growth were studied under different conditions
+comparison model predictions resulting experimental only activity able into
+however results modeling showed two activation pathways present not only active but needed due additional role cycle adaptation
+other cases data suggested additional constraints were biochemical
+results demonstrate need experimentally activity key when models based metabolic networks
+introduction
+species interest because their natural role their ability their
+most investigated species because genetic system complete genome sequence whole genome available
+furthermore functional studies provided into mechanisms important
+g
+use either reduction also used
+understanding species required because organisms because recent studies shown addition species
+previous studies demonstrated species related via cycle
+however many other aspects central general still
+better understand g metabolic model was used investigate unique associated reduction
+model impact global during reduction energy predicted lower observed during growth had been
+furthermore network revealed existence number pathways central g
+recent genetic studies shown presence metabolic pathways well metabolic networks genetic
+experimental evidence optimal pathways been observed e where four metabolic gene had significantly different metabolic distributions but similar overall growth rates
+hence role pathways using models provide key into properties metabolic networks
+here report computational experimental evaluation potential pathways during g
+demonstrate need pathways due between cycle activation also some predicted alternatives
+also show using information model its predictive

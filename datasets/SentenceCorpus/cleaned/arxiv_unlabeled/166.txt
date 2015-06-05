@@ -1,0 +1,48 @@
+ 
+key approaches machine learning especially learning unknown probabilistic environments new representations computation mechanisms
+paper novel quantum reinforcement learning qrl method proposed combining quantum theory reinforcement learning rl
+inspired state superposition principle quantum parallelism framework value updating algorithm introduced
+state action traditional rl identified eigen state eigen action qrl
+state action set represented quantum superposition state eigen state eigen action obtained randomly observing simulated quantum state according collapse postulate quantum measurement
+probability eigen action determined probability amplitude parallelly updated according rewards
+some related characteristics qrl convergence optimality balancing between exploration exploitation also analyzed shows approach makes good tradeoff between exploration exploitation using probability amplitude speed up learning through quantum parallelism
+evaluate performance practicability qrl several simulated experiments given results demonstrate effectiveness superiority qrl algorithm some complex problems
+present work also effective exploration application quantum computation artificial intelligence
+ introduction 
+\parstart{l}{earning} methods generally classified into supervised unsupervised reinforcement learning rl
+supervised learning requires explicit feedback provided input-output pairs gives map inputs outputs
+unsupervised learning only processes input data
+contrast rl uses scalar value named reward evaluate input-output pairs learns mapping states actions interaction environment through trial-and-error
+since 1980s rl become important approach machine learning   widely used artificial intelligence especially robotics    due its good performance on-line adaptation powerful learning ability complex nonlinear systems
+however there still some difficult problems practical applications
+one problem exploration strategy contributes lot better balancing exploration trying previously unexplored strategies find better policy exploitation taking most advantage experienced knowledge
+other its slow learning speed especially complex problems sometimes known ``the curse dimensionality" when state-action space becomes huge number parameters learned grows exponentially its dimension
+combat those problems many methods been proposed recent years
+temporal abstraction decomposition methods been explored solve problems rl dynamic programming dp speed up learning 
+different kinds learning paradigms combined optimize rl
+example smith presented new model representation generalization model-less rl based self-organizing map som standard q-learning
+adaptation watkins' q-learning fuzzy inference systems problems large state-action spaces continuous state spaces also proposed   
+many specific improvements also implemented modify related rl methods practice     
+spite all attempts more work needed achieve satisfactory successes new ideas necessary explore more effective representation methods learning mechanisms
+paper explore overcome some difficulties rl using quantum theory propose novel quantum reinforcement learning method
+quantum information processing rapidly developing field
+some results shown quantum computation more efficiently solve some difficult problems than classical counterpart
+two important quantum algorithms shor algorithm  grover algorithm  been proposed 1994 1996 respectively
+shor algorithm give exponential speedup factoring large integers into prime numbers been realized factorization integer 15 using nuclear magnetic resonance nmr
+grover algorithm achieve square speedup over classical algorithms unsorted database searching its experimental implementations also been demonstrated using nmr  quantum optics  system four states
+some methods also been explored connect quantum computation machine learning
+example quantum computing version artificial neural network been studied pure theory simple simulated experimental implementation 
+rigatos tzafestas used quantum computation parallelization fuzzy logic control algorithm speed up fuzzy inference
+quantum quantum-inspired evolutionary algorithms been proposed improve existing evolutionary algorithms
+hogg portnov presented quantum algorithm combinatorial optimization overconstrained satisfiability sat asymmetric travelling salesman atsp
+recently quantum search technique been used dynamic programming
+taking advantage quantum computation some novel algorithms inspired quantum characteristics will not only improve performance existing algorithms traditional computers but also promote development related research areas quantum computers machine learning
+considering essence computation algorithms dong his co-workers presented concept quantum reinforcement learning qrl inspired state superposition principle quantum parallelism
+following concept paper give formal quantum reinforcement learning algorithm framework specifically demonstrate advantages qrl speeding up learning obtaining good tradeoff between exploration exploitation rl through simulated experiments some related discussions
+paper organized follows
+section ii contains prerequisite problem description standard reinforcement learning quantum computation related quantum gates
+section iii quantum reinforcement learning introduced systematically where state action space represented quantum state exploration strategy based collapse postulate achieved novel qrl algorithm proposed specifically
+section iv analyzes related characteristics qrl convergence optimality balancing between exploration exploitation
+section v describes simulated experiments results demonstrate effectiveness superiority qrl algorithm
+section vi briefly discuss some related problems qrl future work
+concluding remarks given section vii

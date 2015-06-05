@@ -1,0 +1,13 @@
+ 
+judgment decision making research overwhelmingly uses null hypothesis significance testing basis statistical inference
+article examines alternative bayesian approach emphasizes choice between two competing hypotheses quantifies balance evidence provided data-one consequence experimental results may taken strongly favour null hypothesis
+apply recently-developed bayesian t-test existing studies anchoring effect judgment examine how change approach affects both tone hypothesis testing substantive conclusions one draws
+compare bayesian approach fisherian neyman-pearson testing examining its relationship conventional p-values influence effect size importance prior beliefs about likely state nature
+results give sense how bayesian hypothesis testing might applied judgment decision making research both advantages challenges shift approach would entail
+ introduction 
+null hypothesis significance testing nhst summarize data test statistic determine probability p obtaining test statistic at least extreme one observed if null hypothesis h true
+low p-value taken indicate null hypothesis unlikely true either h false very improbable event occurred
+nhst many detractors various approaches inference been offered alternatives including increased focus effect sizes confidence intervals greater emphasis replicability
+perhaps most comprehensive radical alternative nhst adoption bayesian approach hypothesis testing number researchers recently argued more widespread adoption approach
+while many judgment decision making jdm researchers will familiar bayesian techniques model fitting parameter estimation hypothesis testing overwhelmingly conducted nhst framework
+article begins introducing bayesian hypothesis testing applying existing work judgment decision making

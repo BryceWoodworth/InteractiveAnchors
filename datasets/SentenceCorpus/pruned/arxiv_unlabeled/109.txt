@@ -1,0 +1,38 @@
+
+study problem small sample individuals mixture distributions over according their distributions
+each distribution described vector
+given two distributions use average distance across measures statistical between them
+study case distributed across
+work input instance certain optimization function correct high probability where graph over individuals whose between their corresponding vectors define weights so long
+function where weight weights across all
+result property feature one number features required size sample certain tasks like clustering
+introduction
+explore type classification problem context computational biology
+problem given small sample size eg dna individuals each described values features eg single where
+features different depending population individual assumed independent each other
+given population individual represented vector paper assumed generated appropriate distribution
+objective consider number features thus total data size individuals sample according their population given any
+describe function features
+paper use
+first describe general mixture model use paper
+same model was previously used probability over set
+further components features independent
+hence probability distribution features each populations
+moreover input algorithm mixture samples points algorithm determine each data point was chosen
+general do not assume revealed but do require some bounds their relative
+important parameter probability measure between any two distributions
+note provides lower bound distance between means any two distributions their
+further let so if populations were would each type
+paper following theorem sufficient condition input instance when
+above theorem based model allows two random at each dimension all points given
+there at each dimension given any pair individuals under assumption two random same distribution at each dimension
+higher among pairs different groups than pairs same group across all
+addition shows when given two each dimension one always any size cases any number using component based algorithms given graph described theorem
+key paper show new use goal clustering same amount features while only one random at each dimension
+while some theorem section single at each dimension
+hence contain complete paper give complete
+finding algorithm was given mixture given any shows
+two algorithms using techniques were conditions above
+both algorithms achieve bound theorem without input being work cases when however they require even when input instance shows
+note when i e when sample each distribution only theorem
+between when small theorem design both theoretical practical value }

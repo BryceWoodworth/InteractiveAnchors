@@ -1,0 +1,42 @@
+
+introduce hidden markov model generalization model state evolution linear systems well predictive distributions
+assume state observations transition matrix rank
+dynamics while set predictive distributions determined
+state belief represented state vector inference out making efficient state yet more
+learn assumptions recently proposed learning algorithm apply learn rank
+algorithm consistent free local its performance case
+show how algorithm used kernel density model continuous data
+also assumption single observations sufficient state algorithm
+experiments data well difficult modeling problem accurate models compare standard alternatives simulation quality prediction
+introduction
+models stochastic systems important applications wide range
+hidden markov models linear systems two examples variable models systems assume sequential data points observations state over time
+model state variable represent belief distribution over states
+other hand model state set variables linear transition observation functions belief distribution
+assumptions also result important differences evolution their belief over time
+state good modeling systems states different observation
+predictive distribution over observations when predicting future leading what call between states see below example
+ability predictive distribution place probability observations while those observations
+predictive distribution over observations thus does not exhibit
+however model state evolution particularly at
+between two models our ability model systems exhibit both state evolution
+present hidden markov model model ability represent predictive distributions models
+approximate state evolution state space very large number states specific transition structure
+however inference learning model highly due large number parameters due fact existing learning algorithms maximization local
+allow us many without associated during inference learning
+indeed show all inference out space where dynamics their computational cost number hidden states
+makes rank any number states efficient state but much more
+though itself novel its representation related existing models predictive state models well representation learned using identification
+other related models algorithms discussed further section
+learn data recently proposed learning algorithm using matrix regression estimated observation probability matrices past future observations
+representation allows us model sequences series without underlying stochastic transition observation matrices
+algorithm free local bound error probability estimates resulting model
+however original algorithm its bounds assume 1 transition model 2 single observations about state i e step
+show how bounds transition matrix case derive bounds depend instead us learn rank large time where number samples
+also describe test method step condition observations make them more
+version learning algorithm learn general though our error bounds yet case
+experiments show our learning algorithm underlying variety domains
+also demonstrate able model evolution well data
+data fact most time series data dynamics predictive particularly
+compare performance simulation prediction tasks
+examples

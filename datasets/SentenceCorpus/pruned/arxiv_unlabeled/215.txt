@@ -1,0 +1,71 @@
+
+given random binary sequence random variables instance one generated markov source order each state represented
+let probability assume constant respect due
+consider based model instance markov model order who sample sequence source
+test performance sequence generated source its predictions every error occurs at time if prediction true value
+sequence errors where error at time according whether event error occurs not
+consider errors predicting only at times paper bound frequency s
+introduction
+basic theory finite markov since matrix stochastic i e elements any then probability distribution not unique
+simple use also any distribution derived distribution
+instance
+all random binary sequences assumed according probability distribution
+thus any probability expressed } let us } probability event at time
+data assume source data sequence respect
+consider model
+its set parameters true unknown probability values between states where probability values according source distribution
+them instance consider two states
+corresponding transition probability based estimates where state number times number times there transition state
+instance if then
+thus frequency
+note dependent random variables since markov may each state random number times they must
+after training tested data
+makes binary prediction based maximum probability defined current state then prediction } where defined state obtained transition i e if then
+corresponding true probability value
+note may expressed } independent random variables when vector
+now prove will used section
+let us particular sequence states corresponding sequence
+show will
+then since at every there only two types then not every sequence possible
+instance if then state sequence but not
+set state sequences
+now show if then any other state sequence same states same number times different order must same probability
+any state random variable whose value number state sequence random states
+define number state sequence
+since all state either then } where was defined above
+let parameter define random variable
+probability function parameter random variable then } fixed value event event
+hence expressed } probability functions random variables
+so event state sequence event generated source markov event its corresponding state sequence transition take particular values
+
+also follows average independent trials taken transition state
+distributed according distribution parameters
+now problem setting under main result paper
+problem setting let positive
+let probability distribution based finite markov matrix second
+all probability values measured according
+
+after source binary sequence according
+
+let obtained according
+let model markov order probability making transition state
+uses first estimate
+let number times state
+after training decision at state output if output
+probability random variable parameters larger smaller than given smaller larger than
+let
+let
+using tested data predicts output if
+sequence where if
+time corresponding predictions
+note also input sequence hence selection rule certain
+let assume model order now state main result paper
+before make following effect training sequence length
+increases class possible models hypothesis class size bound error sequence
+effect model order
+see increases hypothesis class increases size
+effect length error sequence
+less its frequency mean
+effect between states source model
+increases increases possible size
+sequence become less dependent

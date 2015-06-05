@@ -1,0 +1,23 @@
+
+% given matrix consider problem observations small random subset its
+problem variety applications
+study low complexity algorithm introduced based combination techniques optimization call here
+prove performance number
+introduction
+techniques machine learning statistics numerical analysis signal processing
+given matrix its associated most significant underlying data source
+approximation further used number linear algorithms
+many practical only sparse subset matrix
+recently been if matrix rank too small random subset its allow
+result was first convex introduced
+analysis same convex was out
+number solve convex optimization problem
+alternative work same problem using combination techniques will their algorithm low complexity most complex being values corresponding vectors sparse matrix
+performance information lower random needed here assume order
+related approach was also developed although without performance matrix
+above results rely assumption rank matrix
+many applications interest assumption therefore important investigate their robustness
+above approaches when underlying data rank matrix
+question was within convex approach
+present paper similar robustness result
+obtain variety improve over results

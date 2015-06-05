@@ -1,0 +1,31 @@
+ 
+introduce berlin numeracy test new psychometrically sound instrument quickly assesses statistical numeracy risk literacy
+present number studies n number showing robust psychometric discriminability across number countries e g germany pakistan japan usa diverse samples e g medical professionals general populations mechanical turk web panels
+analyses demonstrate desirable patterns convergent validity e g numeracy general cognitive abilities discriminant validity e g personality motivation criterion validity e g numerical non-numerical questions about risk
+berlin numeracy test was found strongest predictor comprehension everyday risks e g evaluating claims about products treatments interpreting forecasts doubling predictive power other numeracy instruments accounting unique variance beyond other cognitive tests e g cognitive reflection working memory intelligence
+berlin numeracy test typically takes about three minutes complete available multiple languages formats including computer adaptive test automatically scores reports data researchers www
+riskliteracy
+org
+online forum also provides interactive content public outreach education offers recommendation system test format selection
+discussion centers construct validity numeracy risk literacy underlying cognitive mechanisms applications adaptive decision support
+ introduction 
+mathematics skills among most influential educational factors contributing economic prosperity industrialized countries
+accordingly there been considerable interest causes consequences numeracy refers specifically mathematical quantitative literacy
+more basic levels numeracy concerned real number line time measurement estimation whereas higher levels focus understanding ratio concepts notably fractions proportions percentages probabilities
+much research numeracy involved assessment wide range mathematical skills among large diverse samples
+more recently however research theory decision sciences focused subset numeracy important informed accurate risky decision making-i e statistical numeracy
+paper use statistical numeracy specifically refer understanding operations probabilistic statistical computation comparing transforming probabilities proportions
+statistical aspects numeracy key features risk assessment business engineering play central roles health risk quantification communication
+moreover-although risk commonly refers many topics economic psychological theory long held decision making under risk involving known statistical probabilities quantitative probabilistic reasoning
+ways others statistical numeracy one factor gives rise risk literacy-i e ability accurately interpret act information about risk
+indeed statistical numeracy been shown predictor decision strategies affective reactions comprehension normative choices across many risky economic health consumer decisions
+efforts measure individual differences statistical numeracy risk literacy come primarily three forms
+some research examines risky decisions relation individual differences overall educational attainment cognitive abilities cognitive styles
+other research primarily focusing clinical health domains developed valid subjective instrument self-reported estimations numeracy
+most common however use objective performance measures numeracy-i e psychometric tests
+paper review development most widely used statistical numeracy instruments examining successes psychometric limits
+then introduce new test statistical numeracy risk literacy-i e berlin numeracy test
+berlin numeracy test used multiple formats i e computer adaptive paper-and-pencil multiple choice single-item median-split providing fast valid reliable tool research assessment public outreach
+specifically show new test offers unique predictive validity comprehension everyday risks beyond other cognitive ability numeracy tests e g cognitive reflection working memory span fluid intelligence
+furthermore show berlin numeracy test dramatically improves psychometric discriminability among highly-educated individuals e g college students graduates medical professionals across diverse cultures different languages
+close discussion construct validity underlying mechanisms applications e g custom-tailored interactive adaptive risk communication

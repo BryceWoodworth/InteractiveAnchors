@@ -1,0 +1,27 @@
+ 
+bacterial species even strains within species vary greatly their gene contents metabolic capabilities
+examine evolution diversity assessing distribution ancestry each gene 13 sequenced isolates escherichia coli shigella
+focus emergence demise two specific classes genes orfans hops since genes contrast most conserved ancestral sequences known major source novel features each strain
+find rates gain loss genes vary greatly among strains well through time orfans hops show very different behavior respect their emergence demise
+although hops mostly represent gene acquisitions other bacteria originate more frequently orfans much more likely persist
+difference suggests many adaptive traits conferred completely novel genes do not originate other bacterial genomes
+respect demise acquired genes find strains shigella lose genes both disruption events complete removal at accelerated rates
+ introduction 
+wide variation bacterial genome sizes was originally detected 1960s dna reassociation analyses
+because bacteria gene dense chromosomes differences genome sizes implied there were likely vast differences gene contents bacterial species
+current availability hundreds complete genome sequences now possible establish exactly genes present well those absent genome
+among sequenced bacterial genomes gene sets vary over 40-fold ranging 182 genes gammaproteobacterial symbiont carsonella ruddii almost 8000 genes soil-dwelling acidobacterium solibacter usitatus 
+wide variation genome sizes gene contents also observed between strains within individual bacterial genera species
+example isolates frankia more than 97 percent identical their rrna sequences conventional cutoff value bacterial species differ many 3500 genes represents nearly half their 7.5 mb genome
+even among bacterial strains similar genome sizes there substantial differences gene repertoires
+unlike mammals only about 1 percent genes genome unique taxonomic order gene contents bacterial genomes change rapidly over relatively short evolutionary distances
+generation novel gene repertoires consequence ongoing processes gene acquisition gene loss
+although several mechanisms generate new genes novel gene sets observed closely related bacterial strains result largely gene transfer distant sources duplications gene rearrangement only rarely produce entirely unique genes short timescales bacterial gene sets evolve
+although homolog searches indicate many genes arise lateral transfer other bacteria most bacteria also contain genome-specific sets genes lack any homologs known databases
+counteracting augmentation bacterial genomes gene acquisition gene loss occurs both through large-scale deletions well smaller changes erode inactivate individual genes
+observed acquired sequences prokaryotes also contain genome-specific sets inactivated genes comprise up 41 percent their annotated genes 
+taken together lineage-specific gene repertoires indicate need monitor bacterial genome dynamics i.e manner genes gained lost over short evolutionary timescales
+end comparisons closely related strains bacillus staphylococcus aureus e coli shown gene acquisitions prevalent at tips phylogeny recently acquired genes seem evolve more quickly
+however few studies examined fate genes within bacterial lineage asked how many classes genes once acquired maintained disrupted removed genome
+address questions assessing differences gene repertoires among 13 sequenced strains e coli/shigella clade
+strains closely related yet display substantial differences genome size gene content allowing us pinpoint introduction persistence genes lineages leading genomes

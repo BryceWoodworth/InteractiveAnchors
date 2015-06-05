@@ -1,0 +1,33 @@
+ 
+paper apply computer learning methods diagnosing ovarian cancer using level standard biomarker ca125 conjunction information provided mass-spectrometry
+working new data set collected over period 7 years
+using level ca125 mass-spectrometry peaks our algorithm gives probability predictions disease
+estimate classification accuracy convert probability predictions into strict predictions
+our algorithm makes fewer errors than almost any linear combination ca125 level one peak's intensity taken log scale
+check power our algorithm use test hypothesis ca125 peaks do not contain useful information prediction disease at particular time before diagnosis
+our algorithm produces values better than those produced algorithm been previously applied data set
+our conclusion proposed algorithm more reliable prediction new data \keywords{online prediction aggregating algorithm ovarian cancer mass-spectrometry proteomics}
+ introduction 
+early detection ovarian cancer important since clinical symptoms sometimes do not appear until late stage disease
+leads difficulties treatment patient
+using antigen ca125 significantly improves quality diagnosis
+however ca125 becomes less reliable at early stages sometimes elevates too late make use
+our goal investigate whether existing methods online prediction improve quality detection disease demonstrate information contained mass spectra useful ovarian cancer diagnosis early stages disease
+refer combination ca125 peak intensity meaning decision rule form *} where level ca125 intensity th peak taken sets described below
+consider prediction triplets : each case sample accompanied two samples healthy individuals matched controls  chosen close possible case sample respect attributes age storage conditions serum processing
+given triplet samples different individuals detect one sample predict cancer
+framework was first described
+authors analyze ovarian cancer data set show information contained mass-spectrometry peaks help provide more precise reliable predictions diseased patient than ca125 criteria itself some months before moment diagnosis
+paper use same framework set decision rules ca125 combined peak intensity derive algorithm performs better some sense than any rules
+our research use different more recent ovarian cancer data set processed authors larger number items than
+combine decision rules proposed using online prediction algorithm\footnote[1]{a survey online prediction found } thus get our own decision rule
+paper use combining algorithm described  because allows us output probability measure given triplet best theoretical guarantees type prediction
+order estimate classification accuracy convert probability predictions into strict predictions maximum rule : assign weight 1 labels maximum predicted probability weight 0 labels other samples then normalize assigned weights
+show our algorithm gives more reliable predictions than vast majority particular combinations fact more thorough experiments not described here show outperforms all particular combinations
+performs well different stages disease
+when testing hypothesis ca125 peaks do not contain useful information prediction disease at its early stages our algorithm gives better values comparison algorithm chooses best combination; addition our algorithm requires fewer adjustments
+our paper organized follows
+section describe methods use give predictions
+section gives short description data set work
+show our experiments results section separated into description probability prediction algorithm subsection detection at different stages before diagnosis subsection
+section concludes our paper

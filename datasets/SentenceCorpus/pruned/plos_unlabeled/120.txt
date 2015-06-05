@@ -1,0 +1,40 @@
+
+one major structural determine structure many different possible
+comparative modeling expected structural models experimentally determined proteins
+however approach essential quality experimentally determined structures
+model protein found two potential both experimentally determined structures structural
+despite their high sequence two structures different
+us perform analyses both structure experimental data results identify one two models
+next quality large set recent structure both structural individual structure groups
+visual structures lower quality than structure not
+overall our results quality structures cannot using only experimental input data overall quality reference demonstrate need integration more structure tools structure
+contrast common where structures typically whole tools should basis
+introduction
+experimentally determined structures form structural any structural analysis would without them
+two main techniques available structure
+important all resulting structure models derived their underlying experimental data
+any experiment thus any structure model will errors associated
+random errors depend experimental measurements models
+errors often result errors experimental data directly accuracy structure models
+example errors introduced errors most likely made when protein structure density
+several studies shown not all experimentally determined structure models high quality
+many different types errors identified protein structures too molecules
+where type errors often does not large analysis structure typically field latter structure model all practical
+years several errors been protein data often models ones
+example structure model first structure protein
+structure was under now
+model later showed original model density had been
+similar problems model was later when structure was but now at higher
+also structures determined using cases known where experimental data often corresponding structure structures
+example original structure domain
+difference two was observed between structure latter after structure
+data identification three original several new resulting original
+similar low number signals factor
+case was not second solution structure was experimental data original structure were errors were
+paper describe detailed analysis two recently structures protein one human one
+both structures large structural structure human was determined structural was determined structural
+despite percent sequence large structural differences observed between two result
+using experimental data show only structure correct
+analyze both using various structure data methods show structure could been identified prior
+finally large set protein structures were show example does not its own but more errors found
+some how future large errors identified during structure process using available

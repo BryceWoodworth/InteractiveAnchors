@@ -1,0 +1,53 @@
+
+protein interaction networks typically been using yeast techniques
+generally direct binary interactions while method however latter technique known number effects including
+describe novel approach two proteins data set us level interaction corresponding distribution interaction
+find two recent data sets yeast contain specific associations compared random direct physical interactions two data high
+our interaction data sets generally more than those previous studies when compared against four reference sets
+furthermore find our data sets more direct physical associations than sets
+protein interaction network derived data revealed highly show not result associations direct interactions
+fact propose data sets may they contain associations significantly
+also found contain significant however previous study interaction data show thus more interaction detection methods
+our yeast data sets further biological discovery our system will prove useful other data sets
+introduction
+into mechanisms cellular processes obtained protein interaction networks describe physical associations between component proteins
+many types biological discovery including protein function prediction inference disease genes identification response
+yeast been model system studies been determined using number including yeast
+each approach interactions distinct manner
+techniques direct binary interactions although approach does not rely upon expression gene required while techniques identify protein
+each technique been literature analyses
+however generally any measure not dependent nature standard reference set
+additional complexity analysis data set because there no standard system between direct interactions present complex
+only information available individual its protein associated proteins
+furthermore proteins identified complex methods different often
+another protein proteins having higher more likely more therefore involved more interactions after all pairs
+address number approaches analysis data sets been
+techniques common goal protein pairs relative some random
+while each method likelihood two proteins together using different et al observed relative expected et al combination machine learning algorithms et al algorithm derived bayesian methods parameters et al determine interaction probabilities based distributions
+generated been found data sets interactions
+were generally direct against information protein sequences
+recent study data sets distributions functional interactions interactions order extent latter formation functional protein
+was overall impact upon biochemical had limit
+use techniques measure network motifs connectivity complex networks developed approach levels interaction data sets
+system allows protein comparing experimentally observed numbers those
+two proteins provides statistical measure their data set
+approach requires no training set machine learning therefore any data set any species whether any information exists not
+found data sets contain significant specific associations
+showed direct physical interactions two data significantly high
+therefore while data sets contain associations our analysis there underlying preference proteins form associations
+our interaction data sets were further against four reference data sets each unique manner interaction detection mechanism
+most found our interaction sets were higher than those previous studies
+our data sets only ones typically experimental interaction sets
+data et al was revealed free effects while those derived data et al biases
+therefore would appear data sets interaction not protein
+note recently been found true interaction data sets
+derived data et al was shown highly many regions different random network
+also demonstrated observed high not result associations direct rather result direct physical associations
+furthermore suggest interaction data sets may associations significantly physical interactions they likely
+shows proteins having similar numbers total interactions each other
+proteins each other rather than proteins having very small numbers total interactions
+previous study find shows while set physical binary interactions both measure
+therefore data appear while interaction data appear
+our yeast data sets further involving biological discovery our procedure will prove useful analysis current future data sets variety species
+compared our interaction data sets those perceived number novel their network properties
+their must their different methods interaction detection

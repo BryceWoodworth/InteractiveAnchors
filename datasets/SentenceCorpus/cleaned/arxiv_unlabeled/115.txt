@@ -1,0 +1,45 @@
+ 
+learning problems form important category computational tasks generalizes many computations researchers apply large real-life data sets
+ask: what concept classes learned privately namely algorithm whose output does not depend too heavily any one input specific training example
+more precisely investigate learning algorithms satisfy differential privacy  notion provides strong confidentiality guarantees contexts where aggregate information released about database containing sensitive information about individuals \ifnum\full=0 present several basic results demonstrate general feasibility private learning relate several models previously studied separately contexts privacy standard learning
+our goal broad understanding resources required private learning terms samples computation time interaction
+demonstrate ignoring computational constraints possible privately agnostically learn any concept class using sample size approximately logarithmic cardinality concept class
+therefore almost anything learnable learnable privately: specifically if concept class learnable non-private algorithm polynomial sample complexity output size then learned privately using polynomial number samples
+also present computationally efficient private pac learner class parity functions
+result dispels similarity between learning noise private learning both must robust small changes inputs since parity thought very hard learn given random classification noise
+local randomized response  algorithms practical class private algorithms received extensive investigation
+provide precise characterization local private learning algorithms
+show concept class learnable local algorithm if only if learnable statistical query sq model
+therefore local private learning algorithms similarity learning noise stronger: local learning equivalent sq learning sq algorithms include most known noise-tolerant learning algorithms
+finally present separation between power interactive noninteractive local learning algorithms
+because equivalence sq learning result also separates adaptive nonadaptive sq learning
+ introduction 
+data privacy problem modern databases similar faced statistical agencies medical researchers: learn publish global analyses population while maintaining confidentiality participants survey
+there vast body work problem statistics computer science
+however until recently most schemes proposed literature lacked rigorous analysis privacy utility
+recent line work% \ifnum\full=1   initiated dinur nissim called private data analysis  seeks place data privacy firmer theoretical foundations been successful at formulating strong yet attainable privacy definition
+notion differential privacy  emerged line work provides rigorous guarantees even presence malicious adversary access arbitrary auxiliary information
+requires whether individual supplies her actual fake information almost no effect outcome analysis
+given definition natural ask: what computational tasks performed while maintaining privacy
+research data privacy extent formalizes precise goals mostly focused function evaluation ``what value
+'' namely how much privacy possible if one wishes release approximation particular function  evaluated database notable exception recent work mcsherry talwar using differential privacy design auction mechanisms 
+our goal expand utility private protocols examining other computational tasks performed privacy-preserving manner \paragraph{private learning } \ifnum\full=1 learning problems form important category computational tasks generalizes many computations researchers apply large real-life data sets
+work ask what learned privately  namely algorithm whose output does not depend too heavily any one input specific training example
+our goal broad understanding resources required private learning terms samples computation time interaction
+examine two basic notions \ifnum\full=1 computational learning theory: learning: valiant's probabilistically approximately correct pac learning model kearns' statistical query sq model
+informally concept function examples labels class concepts learnable if any distribution examples one given limited access examples sampled labeled according some target concept  find small circuit hypothesis predicts 's labels high probability over future examples taken same distribution
+pac model learning algorithm access polynomial number labeled examples
+sq model instead accessing examples directly learner specify some properties i e  predicates examples he given estimate up additive polynomially small error probability random example chosen satisfies property
+pac learning strictly stronger than sq learning 
+model statistical database vector  where each entry been contributed individual
+when analyzing how well private algorithm learns concept class assume entries database random examples generated iid \ underlying distribution labeled target concept
+exactly how not necessarily private learners analyzed
+instance example might consist individual's gender age blood pressure history label whether individual had heart attack
+algorithm learn predict whether individual had heart attack based gender age blood pressure history generated according
+require private algorithm keep entire examples not only labels confidential
+scenario above translates not revealing each participant's gender age blood pressure history heart attack incidence
+more precisely output private learner should not significantly affected if particular example replaced arbitrary  all
+contrast correctness utility analyzed respect distribution  differential privacy worst-case notion
+hence when analyze privacy our learners do not make any assumptions underlying distribution
+assumptions fragile particular would fall apart presence auxiliary knowledge \ifnum\full=1 also called background knowledge side information adversary might have: conditioned adversary's auxiliary knowledge distribution over examples might look very different
+%shiva-explain point full version

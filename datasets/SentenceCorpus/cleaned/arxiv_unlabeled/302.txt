@@ -1,0 +1,115 @@
+ 
+lipschitz multi-armed bandit mab problem generalizes classical multi-armed bandit problem assuming one given side information consisting priori upper bounds difference expected payoff between certain pairs strategies
+classical results lai-robbins auer et al  imply logarithmic regret bound lipschitz mab problem finite metric spaces
+recent results continuum-armed bandit problems their generalizations imply lower bounds  stronger many infinite metric spaces unit interval
+dichotomy universal
+prove answer yes: every metric space optimal regret lipschitz mab algorithm either bounded above any  bounded below any
+perhaps surprisingly dichotomy does not coincide distinction between finite infinite metric spaces; instead depends whether completion metric space compact countable
+our proof connects upper lower bound techniques online learning classical topological notions perfect sets cantor-bendixson theorem
+also consider full-feedback k  best-expert  version lipschitz mab problem termed lipschitz experts problem  show problem exhibits similar dichotomy
+proceed give nearly matching upper lower bounds regret lipschitz experts problem uncountable metric spaces
+bounds form  where exponent depends metric space
+characterize dependence introduce novel dimensionality notion tailored experts problem
+finally show both lipschitz bandits lipschitz experts problems become completely intractable sense no algorithm regret  if only if completion metric space non-compact
+ introduction 
+multi-armed bandit henceforth mab problems been studied more than fifty years clean setting analyzing exploration-exploitation tradeoffs common sequential decision making
+stochastic mab problem  algorithm must repeatedly choose fixed set strategies k ``arms" each time receiving random payoff whose distribution depends strategy selected
+performance mab algorithms commonly evaluated terms regret : difference expected payoff between algorithm's choices always playing one fixed strategy
+addition their many applications  range experimental design online auctions web advertising  another appealing feature multi-armed bandit algorithms they surprisingly efficient terms growth rate regret: finite-armed bandit problems algorithms whose regret at time scales been known more than two decades beginning seminal work lai robbins extended subsequent work
+many applications mab problems  especially computer science applications online auctions web advertising adaptive routing  require considering strategy sets very large even infinite
+infinite strategy sets bound does not apply while very large finite sets notation masks prohibitively large constant
+indeed without making any assumptions about strategies their payoffs bandit problems large strategy sets allow no non-trivial solutions  any mab algorithm performs badly some inputs random guessing
+motivates study bandit problems strategy set large but one given side information constraining form payoffs
+problems become subject quite intensive study recent years eg 
+lipschitz mab problem version stochastic mab problem side information consists priori upper bounds difference expected payoff between certain pairs strategies
+models situations where decision maker access some similarity information about strategies ensures similar strategies obtain similar payoffs
+abstractly similarity information may modeled defining metric space structure strategy set side constraints imply expected payoff function lipschitz function lipschitz constant  metric space
+% lipschitz constant
+lipschitz mab problem was introduced kleinberg et al 
+preceding work studied problem few specific metric spaces one-dimensional real interval
+prior work considered regret function time  focused asymptotic dependence loosely speaking dimensionality metric space
+various upper lower bounds form were proved where exponent depends metric space
+particular if metric space interval standard metric  then there exists algorithm regret  bound tight up polylog factors
+more generally arbitrary infinite metric space one define isometry invariant there exists algorithm regret  tight up polylog factors if ; see
+following picture emerges
+although algorithms regret known most metric spaces existing work unfortunately provides no examples infinite metric spaces admitting bandit algorithms satisfying lai-robbins regret bound  although bound holds all finite metrics
+fact most metric spaces been studied unit interval possibility excluded known lower bounds form where therefore natural ask regret best possible infinite metric space
+alternatively there infinite metric spaces one achieve regret
+there any metric space best possible regret between
+% any metric space \xhdr{our contributions } make above issue more concrete let us put forward following definition
+settle questions listed above proving following dichotomy
+worth mentioning regret bound best possible even two-armed bandit problems lower bound lai robbins
+thus our upper bound lipschitz mab problems compact countable metric spaces nearly best possible bound spaces modulo gap between `` " `` "
+furthermore show gap inevitable infinite metric spaces: turn our attention full-feedback version lipschitz mab problem
+any mab problem there exists corresponding full-feedback problem after each round payoffs all strategies revealed
+settings been extensively studied online learning literature under name best experts problems 
+particular finite set strategies one achieve constant regret when payoffs iid
+over time
+addition full feedback one could also consider version payoffs revealed some but not all strategies
+specifically define double feedback  where each round algorithm selects two strategies: ``bet" receives payoff ``free peek"
+after round payoffs revealed both strategies
+abuse notation will treat bandit setting special case experts setting
+experts version lipschitz mab problem called lipschitz experts problem  defined obvious way: problem instance specified triple  where metric space borel probability measure set payoff functions borel algebra induced product topology  expected payoff function lipschitz function
+each round algorithm presented iid
+sample
+metric structure known algorithm measure not
+show lipschitz experts problem exhibits dichotomy similar one theorem
+formulate upper bound double feedback lower bound full feedback thus avoiding issue what means algorithm receive feedback infinitely many strategies
+theorems assert dichotomy between metric spaces lipschitz mab/experts problem very tractable those somewhat tractable
+let us consider opposite end ``tractability spectrum" ask metric spaces problem becomes completely intractable
+obtain precise characterization: problem completely intractable if only if metric space not pre-compact
+moreover our upper bound bandit setting whereas lower bound full feedback
+consider \ffproblem
+view lower bound theorems interested matching upper bounds
+gupta et al  observed bounds hold every metric space finite covering dimension: namely lipschitz experts problem tractable their algorithm version ``naive algorithm''  therefore natural ask whether there exist metric spaces optimal regret lipschitz experts problem between
+settle question proving characterization nearly matching upper lower bounds terms novel dimensionality notion tailored experts problem
+lower bound theorem holds restricted version \ffproblem\ problem instance satisfies further property each function itself lipschitz function
+term version full feedback
+fact version obtain matching upper bound \omit{ %%%%%% end consider ``very high-dimensional" metric spaces exponentially branching edge-weighted trees space all probability distributions under earthmover distance
+introduce novel dimensionality notion better captures complexity spaces characterizes regret ``naive" experts algorithm interestingly \ulproblem{} allows very non-trivial improvement analysis  } %%%%%% \omit{ %%%%%%% any metric space  there exist isometry-invariant parameters \ffproblem\ tractable any  not tractable any
+depending metric space take any value
+there exist metric spaces } %%%%%%%%% \omit{for any metric space  there exists isometry invariant full-feedback lipschitz experts problem tractable any  not tractable any } \omit{%%%%% } %%%%%%%%% \omit{%%%%%% introduce several new techniques most important appear joint proof two main results  theorem theorem } %%%%%%% \xhdr{connection point-set topology } main technical contribution paper interplay online learning point-set topology requires novel algorithmic lower-bounding techniques
+particular connection topology essential joint proof two main results theorem theorem
+there identify simple topological property  well-orderability  entails algorithmic result another topological property  perfectness  entails lower bound
+perfect spaces classical notion point-set topology
+topological well-orderings implicit work cantor  but particular definition given here new best our knowledge
+proof theorems compact metric spaces consists three parts: algorithmic result compact well-orderable metric space lower bound metric space perfect subspace following lemma ties together two topological properties
+lemma follows classical theorems cantor-bendixson mazurkiewicz-sierpinski
+provide proof appendix sake making our exposition self-contained
+reduce lipschitz mab problem complete metric spaces show problem tractable given metric space if only if tractable completion thereof
+same true double-feedback lipschitz experts problem ``only if" direction holds \ffproblem
+then main dichotomy results follow lower bound theorem \xhdr{accessing metric space } define bandit algorithm possibly randomized borel measurable function maps history past observations strategy played current period
+experts algorithm similarly defined possibly randomized borel measurable function mapping observation history strategy played current period case double feedback model pair strategies representing ``bet'' ``free peek''  observation history either sequence elements full feedback model sequence quadruples double feedback model
+definitions away potentially thorny issue representing accessing infinite metric space
+our algorithmic results handle issue follows: metric space accessed via well-defined calls suitable oracle
+moreover main algorithmic result theorems requires oracle represents well-ordering
+also provide extension section~: tractability result wide family metric spaces  including example compact metric spaces finite number limit points  more intuitive oracle access suffices
+metric spaces finite cantor-bendixson rank  classic notion point-set topology \xhdr{related work discussion } algorithms stochastic mab problem admit regret guarantees form  two types  instance-specific instance-independent  depending whether constant allowed depend problem instance
+instance {ucb1} admits instance-specific guarantee  whereas best-known instance-independent guarantee algorithm only  where number arms
+accordingly lower bound instance-independent version show any algorithm given time  there exists problem instance whose regret large at time whereas instance-specific version one needs much more ambitious argument: any algorithm there exists problem instance whose regret large infinitely often
+paper focus instance-specific guarantees \omit{ %%%%%%%% apart stochastic mab problem considered paper several other formulations been studied literature multi-armed bandits spans operations research economics computer science see background } %%%%%%%%% apart stochastic mab problem considered paper several other mab formulations been studied literature see background
+early work focused bayesian formulations bayesian priors payoffs known goal maximize payoff expectation over priors
+formulations mab instance markov decision process mdp each arm represented markov chain rewards states transition happens whenever arm played
+more ``difficult" restless bandits formulations state also changes when arm passive according another transition matrix
+theoretical computer science literature recent work vein includes
+interestingly bayesian formulations offline flavor: given mdp one needs efficiently compute nearly optimal mapping states actions
+contrasting bayesian formulations probabilistic model fully specified adversarial mab problem  makes no stochastic assumptions whatsoever
+instead makes very pessimistic assumption payoffs chosen adversary access algorithm's code but not its random seed
+stochastic mab problem goal minimize regret
+any fixed finite number arms best possible regret setting 
+infinite strategy sets one often considers linear mab problem strategies lie convex subset  each round payoffs form linear function \omit{ more generally convex function } open question whether ideas lipschitz mab problem extend above formulations
+adversarial version lipschitz mab problem well-defined but best our knowledge only known result ``naive" algorithm
+one could define stochastic version linear mab problem expected payoffs form fixed time-invariant linear function viewed special case lipschitz mab problem
+however view not likely fruitful because lipschitz mab problem measuring payoff one arm useless estimating payoffs distant arms whereas prior work linear mab problem inferences about distant arms crucial
+bayesian mab problems limited similarity information not clear how model information mainly because bayesian setting similarity between arms naturally represented via correlated priors rather than metric space \omit{an oblivious adversary must fix all payoffs advance before first round; adaptive adversary sees choices made algorithm all previous rounds } \xhdr{organization paper } preliminaries section
+present joint proof two main results theorems
+lower bound proved section algorithmic results section
+coupled topological equivalence lemma gives proof compact metric spaces
+complementary intractability result infinite metric spaces theorem section
+tractability result via simpler oracle access metric spaces finite cantor-bendixson rank section
+boundary-of-tractability result theorems section
+\ffproblem\ very high dimension including theorems discussed sections
+some proofs moved appendices
+appendix reduce problem complete metric spaces
+all kl-divergence arguments underlie our lower bounds gathered appendix
+provide self-contained proof topological lemma lemma appendix

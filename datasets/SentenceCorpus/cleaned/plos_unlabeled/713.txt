@@ -1,0 +1,56 @@
+ 
+diversity virus populations within single infected hosts presents major difficulty natural immune response well vaccine design antiviral drug therapy
+recently developed pyrophosphate-based sequencing technologies used quantifying diversity ultra-deep sequencing virus samples
+present computational methods analysis sequence data apply techniques pyrosequencing data obtained hiv populations within patients harboring drug-resistant virus strains
+our main result estimation population structure sample pyrosequencing reads
+inference based statistical approach error correction followed combinatorial algorithm constructing minimal set haplotypes explain data
+using set explaining haplotypes apply statistical model infer frequencies haplotypes population via expectation maximization algorithm
+demonstrate pyrosequencing reads allow effective population reconstruction extensive simulations comparison 165 sequences obtained directly clonal sequencing four independent diverse hiv populations
+thus pyrosequencing used cost-effective estimation structure virus populations promising new insights into viral evolutionary dynamics disease control strategies
+ introduction 
+pyrosequencing novel experimental technique determining sequence dna bases genome
+method faster less laborious cheaper than existing technologies but pyrosequencing reads also significantly shorter more error-prone than those obtained sanger sequencing 
+paper address computational issues arise applying technology sequencing rna virus sample
+within-host rna virus populations consist different haplotypes evolutionarily related
+population exhibit high degree genetic diversity often referred quasispecies concept originally described mutation-selection balance
+viral genetic diversity key factor disease progression vaccine design antiretroviral drug therapy
+ultra-deep sequencing mixed virus samples promising approach quantifying diversity resolving viral population structure 
+pyrosequencing virus population produces many reads each originates exactly one but unknown haplotype population
+thus central problem reconstruct read data set possible haplotypes consistent observed reads infer structure population i.e relative frequency each haplotype
+here present computational four-step procedure making inference about virus population based set pyrosequencing reads
+first reads aligned reference genome
+second sequencing errors corrected locally windows along multiple alignment using clustering techniques
+next assemble haplotypes consistent observed reads
+formulate problem search set covering paths directed acyclic graph show how search problem solved very efficiently
+finally introduce statistical model mimics sequencing process employ maximum likelihood principle estimating frequency each haplotype population
+alignment step proposed procedure straightforward data analyzed here been discussed elsewhere
+due presence reference genome only pair-wise alignment necessary between each read reference genome
+will therefore focus core methods error correction haplotype reconstruction haplotype frequency estimation
+two independent approaches pursued validating proposed method
+first present extensive simulation results all steps method
+second validate procedure reconstructing four independent hiv populations pyrosequencing reads comparing populations results clonal sanger sequencing same samples
+datasets consist approximately 5000 8000 reads average length 105 bp sequenced 1 kb region pol gene clinical samples hiv-1 populations
+pyrosequencing produce up 200,000 usable reads single run
+part our contribution analysis interaction between number reads sequencing error rate theoretical resolution haplotype reconstruction
+methods developed paper scale huge datasets under reasonable assumptions
+however concentrate mainly sample size produces finer resolution than what typically obtained using limiting dilution clonal sequencing
+since many samples run simultaneously independently raises possibility obtaining data about 20 populations one pyrosequencing run
+estimating viral population structure set reads general extremely hard computational problem because huge number possible haplotypes
+decoupling error correction haplotype reconstruction haplotype frequency estimation breaks problem into three smaller more manageable tasks each also interest its own right
+presented methods not restricted rna virus populations but apply whenever reference genome available aligning reads read coverage sufficient genetic distance between haplotypes large enough
+clonal data indicates typical variation hiv pol gene about 3 5 percent single patient
+find populations grow more diverse they become easier reconstruct
+even at 3 percent diversity find much population reconstructed using our methods
+pol gene been sequenced extensively only one specific insertion seems occur namely 69 insertion complex occurs under nrti pressure
+none our samples were treated nrtis sanger clones did not display indel
+therefore assume throughout there no true indels population
+however algorithms developed paper generalize straightforward manner case true indels
+problem estimating population structure sequence reads similar assembly highly repetitive genome
+however rather than reconstructing one genome seek reconstruct population very similar genomes
+problem also related environmental sequencing projects try assess genomes all species community
+while associated computational biology problems related those appear other metagenomics projects novel approaches required deal short error-prone pyrosequencing reads complex structure viral populations
+problem also similar haplotype reconstruction problem main difference being number haplotypes unknown advance estimating diversity alternative splicing 
+more generally problem estimating diversity population genome sequence samples been studied extensively microbial populations
+example spectrum contig lengths been used estimate diversity shotgun sequencing data
+using pyrosequencing reads microbial diversity been assessed counting blast hits sequence databases
+our methods differ previous work show how analyze highly directed ultra-deep sequencing data using rigorous mathematical statistical framework

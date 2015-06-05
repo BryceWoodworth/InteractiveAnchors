@@ -1,0 +1,32 @@
+ 
+extracting network-based functional relationships within genomic datasets important challenge computational analysis large-scale data
+although many methods both public commercial been developed problem identifying networks interactions most relevant given input data still remains open issue
+here leveraged method random walks graphs powerful platform scoring network components based simultaneous assessment experimental data well local network connectivity
+using method netwalk calculate distribution edge flux values associated each interaction network reflects relevance interactions based experimental data
+show network-based analyses genomic data simpler more accurate using netwalk than some currently employed methods
+also present netwalk analysis microarray gene expression data mcf7 cells exposed different doses doxorubicin reveals switch-like pattern p53 regulated network cell cycle arrest apoptosis
+our analyses demonstrate use netwalk valuable tool generating high-confidence hypotheses high-content genomic data
+ introduction 
+important challenge analyses high throughput datasets integration data prior knowledge interactions measured molecules retrieval most relevant biomolecular networks
+approach facilitates interpretation data within context known functional interactions between biological molecules subsequently leads high-confidence hypothesis generation
+typically procedure would entail identification genes highest lowest data values then followed identification associated networks
+however retrieval most relevant biological networks/pathways associated upper lower end data distribution not trivial task mainly because members biological pathway do not usually similar data values necessitates use various computational algorithms finding networks genes
+one class methods finding relevant networks utilize optimization procedures finding highest-scoring subnetworks/pathways genes based data values genes
+although approach likely result highly relevant networks computationally expensive inefficient therefore not suitable routine analyses functional genomics data lab
+most popular existing methods extraction relevant networks genomic data however usually involve network building strategy using pre-defined focus gene set typically set genes most significant data values
+network built filling other nodes network either based enrichment interactions focus set based analysis shortest paths between focus genes
+both methods aim at identifying genes network most central connecting focus genes each other
+problems associated methods been outlined previously
+however perhaps most importantly central genes identified methods may incoherent data values focus genes data values nodes not accounted during network construction process using seed gene list
+may result uninformative networks not representative networks most significantly represented genomic data
+addition methods do not account genes more subtle data values collectively may more important than those more obvious data values
+although powerful data analysis methods finding sets genes significant albeit subtle expression changes been developed approach not been incorporated into methods extracting interaction networks most highlighted data
+order overcome problems employed method random walks graphs scoring relevance interactions network data
+method random walks been well-established structural analyses networks fully account local well global topological structure within network very useful identifying most important/central nodes
+here instead working pre-defined set focus genes overlay entire data distribution onto network bias random walk probabilities based data values associated nodes
+method netwalk generates distribution edge flux values each interaction network then used dynamical network building further statistical analyses
+here describe concept netwalk demonstrate its usefulness extracting relevant networks compared ingenuity pathway analysis show use netwalk results comparative analyses highlighted networks between different conditions
+tested netwalk experimentally derived genomic data breast cancer cells treated different concentrations doxorubicin clinically used chemotherapeutic agent
+using netwalk identify several previously unreported network processes involved doxorubicin-induced cell death
+studies propose netwalk valuable network based analysis tool integrates biological high throughput data prior knowledge networks define sub-networks genes modulated biologically meaningful way
+use netwalk will greatly facilitate analysis genomic data

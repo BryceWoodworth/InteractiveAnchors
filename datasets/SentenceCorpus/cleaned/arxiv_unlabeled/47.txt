@@ -1,0 +1,46 @@
+ 
+kohonen self-organisation maps well know classification tool commonly used wide variety problems but limited applications time series forecasting context
+paper propose forecasting method specifically designed multi-dimensional long-term trends prediction double application kohonen algorithm
+practical applications method also presented
+ introduction 
+time series forecasting problem encountered many fields applications finance returns stock markets hydrology river floods engineering electrical consumption etc
+many methods designed time series forecasting perform well depending complexity problem rather short-term horizon but rather poor longer-term one
+due fact methods usually designed optimize performance at short term their use at longer term being not optimized
+furthermore they generally carry out prediction single value while real problem sometimes requires predicting vector future values one step
+example case some priori known periodicity could interesting predict all values period whole
+but forecasting vector requires either more complex models potential loss performance some vector components many distinct single value predicting models potential loss correlation information between various values
+methods able forecast whole vector same precision each its components thus great interest
+while enlarging prediction horizon course primary interest practitioners there course some limit accuracy expected long-term forecast
+limitation due availability information itself not possible limitations forecasting methods
+indeed there no doubt whatever forecasting method used predicting at long term i e many time steps advance more difficult predicting at short term because missing information unknown future time steps those between last known value one predict
+at some term all prediction methods will thus fail
+purpose method presented paper not enlarge time horizon accurate predictions could expected but rather enlarge horizon insights about future evolution series
+insights mean some information interest practitioner even if does not mean accurate predictions
+example there bounds future values
+what expect average
+confidence intervals future values large narrow
+predicting many steps advance could realized straightforward way subsampling known sequence then using any short-term prediction method
+however case loss information used forecast obviously even higher due lower resolution known sequence
+furthermore solution does not allow general way introduce stochastic aspect method key issue proposed method
+indeed get insights about future evolution series through some statistics expected mean variance confidence intervals quartiles etc  several predictions should made order extract statistics
+predictions should differ; stochastic prediction method able generate several forecasts repeated monte-carlo runs
+method presented paper stochastic character method results use random draws probability law
+another attractive aspect method presented paper used predict scalar values vectors same expected precision each component case vector prediction
+having at disposal time series values  prediction vector defined follows : } where size vector predicted data generating process number past values influence future values centred noise vector
+past values gathered dimensional vector called regressor
+knowledge values time series  means relation  known many   time steps past
+modeling problem then becomes estimate function models correctly time series whole set past regressors
+idea method segment space dimensional regressors
+segmentation seen way make possible local modeling each segment
+part method achieved using self-organizing map som
+prototypes obtained each class model locally regressors corresponding class
+furthermore order take into account temporal dependences series deformation regressors built
+those vectors constructed differences between two consecutive regressors
+set regressor deformations also segmented using som
+once those two spaces segmented their dependences characterized simulations performed
+using kind monte-carlo procedure repeat simulations then possible estimate distribution simulations forecast global trends time series at long term
+though could chosen some other classical vector quantization vq method only clustering property interest here choice som tool perform segmentation two spaces justified fact som efficient fast compared other vq methods limited complexity they provide intuitive helpful graphical representation
+following paper first recall some basic concepts about som classification tool
+then introduce proposed forecasting method double vector quantization scalar time series then vector ones
+next present some experimental results both scalar vector forecastings
+proof method stability given appendix

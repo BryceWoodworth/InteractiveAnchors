@@ -1,0 +1,16 @@
+
+propose analyze new point learning model learning probability distributions introduced
+here task construct hypothesis mixture actual mixture specifically should at most
+give time algorithm class any constant number
+our algorithm makes no assumptions about between means does any minimum weight
+contrast learning results known model where assumptions
+our algorithm method developed problem
+introduction
+et al \ introduced natural model learning unknown probability distributions
+framework given class probability distributions over random data unknown distribution goal output hypothesis distribution high confidence close measured standard measure distance between probability distributions see section distance measure
+learning algorithm should time
+model its close classical correct framework learning functions
+several results both positive negative been obtained learning et al \ framework see eg
+here some positive results been obtained learning various types mixture distributions given distributions weights 1 corresponding mixture distribution obtained first probability then making et al \ efficient algorithm learning certain distributions over each mean either some fixed over all mixture components
+et al efficient algorithms learning mixture two arbitrary distributions over
+recently et al time algorithm mixture any many arbitrary distributions over domain any

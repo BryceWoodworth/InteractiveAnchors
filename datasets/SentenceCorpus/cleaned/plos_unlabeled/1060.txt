@@ -1,0 +1,35 @@
+ 
+pitch one most important features natural sounds underlying perception melody music prosody speech
+however temporal dynamics pitch processing still poorly understood
+previous studies suggest auditory system uses wide range time scales integrate pitch-related information effective integration time both task stimulus-dependent
+none existing models pitch processing account task stimulus-dependent variations processing time scales
+study presents idealized neurocomputational model provides unified account multiple time scales observed pitch perception
+model evaluated using range perceptual studies not previously been accounted single model new results neurophysiological experiment
+contrast other approaches current model contains hierarchy integration stages uses feedback adapt effective time scales processing at each stage response changes input stimulus
+model features common hierarchical generative process suggests key role efferent connections central sub-cortical areas controlling temporal dynamics pitch processing
+ introduction 
+modelling neural processing pitch essential understanding perceptual phenomenology music speech
+pitch one most important features auditory perception usually associated periodicities sounds
+hence number models pitch perception based upon temporal analysis neural activity evoked stimulus
+most models compute form short-term autocorrelation simulated auditory nerve activity using exponentially weighted integration time window
+autocorrelation models been able predict reported pitches wide range complex stimuli
+however choosing appropriate integration time window been problematic none previous models been able explain wide range time scales encountered perceptual data unified fashion
+data show certain conditions auditory system capable integrating pitch-related information over time scales several hundred milliseconds while at same time being able follow changes pitch pitch strength resolution only few milliseconds
+limits temporal resolution pitch perception also been explored determining pitch detection discrimination performance function frequency modulation rate main conclusion being auditory system limited ability process rapid variations pitch
+trade-off between temporal integration resolution not exclusive pitch perception but general characteristic auditory temporal processing
+instance long integration time several hundred milliseconds required explain way detectability perceived loudness sounds increases increasing sound duration
+contrast much shorter integration times necessary explain fact auditory system resolve sound events separated only few milliseconds
+therefore appears integration time auditory processing varies stimulus task
+previously was proposed integration resolution reflect processing separate parallel streams different stimulus-independent integration times
+more recently order reconcile perceptual data pertaining temporal integration resolution tasks was suggested auditory system makes its decisions based multiple looks at stimulus using relatively short time windows
+however our knowledge no model yet quantitatively explained stimulus task-dependency integration time constants
+another major challenge pitch modelling relate perceptual phenomena neurophysiological data
+functional brain-imaging studies strongly suggest pitch processed hierarchical manner starting sub-cortical structures continuing up through heschl's gyrus planum polare planum temporale
+within processing hierarchy there increasing dispersion response latency lower pitches eliciting longer response latencies than higher pitches
+suggests time window over auditory system integrates pitch-related information depends pitch itself
+however no attempt yet been made explain latency dispersion
+study present unified account multiple time scales involved pitch processing
+suggest top-down modulation within hierarchical processing structure important explaining stimulus-dependency effective integration time extracting pitch information
+highly idealized model formulated terms interacting neural ensembles presented
+model represents natural extension previous autocorrelation models pitch form resembling hierarchical generative process higher levels modulate responses lower levels via feedback connections
+without modification model account not only wide range perceptual data but also novel neurophysiological data pitch processing

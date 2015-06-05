@@ -1,0 +1,16 @@
+ 
+engine assembly complex heavily automated distributed-control process large amounts faults data logged everyday
+describe application temporal data mining analyzing fault logs engine assembly plant
+frequent episode discovery framework model-free method used deduce temporal correlations among events logs efficient manner
+addition being theoretically elegant computationally efficient frequent episodes also easy interpret form actionable recommendations
+incorporation domain-specific information critical successful application method analyzing fault logs manufacturing domain
+show how domain-specific knowledge incorporated using heuristic rules act pre-filters post-filters frequent episode discovery
+system described here currently being used one engine assembly plants general motors planned adaptation other plants
+best our knowledge paper presents first real large-scale application temporal data mining manufacturing domain
+believe ideas presented paper help practitioners engineer tools analysis other similar related application domains well
+ introduction 
+automotive engine assembly heavily automated complex process controlled distributed fashion
+each assembly plant consists several machines operations/stations extensively inter-connected programmed automatically execute various operations necessary manufacture automotive engine
+distributed control system maintains elaborate logs regarding time-evolving conditions all machines plant status different operations performed particular engine throughput statistics plant etc
+paper present application uses temporal data mining techniques analyzing time-stamped logs help fault analysis root-cause diagnosis
+application presented here currently being used regular basis engine assembly plants general motors }

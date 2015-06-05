@@ -1,0 +1,65 @@
+ 
+process assigning finite set tags labels collection observations subject side conditions notable its computational complexity
+labeling paradigm theoretical practical relevance wide range biological applications including analysis data dna microarrays metabolomics experiments biomolecular nuclear magnetic resonance spectroscopy
+present novel algorithm called probabilistic interaction network evidence achieves robust unsupervised probabilistic labeling data
+computational core pine uses estimates evidence derived empirical distributions previously observed data along consistency measures drive fictitious system m hamiltonian h quasi-stationary state produces probabilistic label assignments relevant subsets data
+demonstrate successful application pine key task protein nmr spectroscopy: converting peak lists extracted various nmr experiments into assignments associated probabilities their correctness
+application called pine-nmr available freely accessible computer server
+pine-nmr server accepts input sequence protein plus user-specified combinations data corresponding extensive list nmr experiments; provides output probabilistic assignment nmr signals sequence-specific backbone aliphatic side chain atoms plus probabilistic determination protein secondary structure
+pine-nmr accommodate prior information about assignments stable isotope labeling schemes
+part analysis pine-nmr identifies verifies rectifies problems related chemical shift referencing erroneous input data
+pine-nmr achieves robust consistent results been shown effective subsequent steps nmr structure determination
+ introduction 
+labeling set fixed data another representative set generic description large family problems
+family includes clustering dimensionality reduction approach original dataset represented set typically far lower dimension
+representative set often parameter vector signifies set data points simply cluster mean may include additional parameters cluster diameter
+labeling problem important because encountered many applications involving data analysis particularly where prior knowledge probability distributions incomplete lacking
+challenging instance labeling problem arises naturally nuclear magnetic resonance spectroscopy along x-ray crystallography one two major methods determining protein structures
+although nmr spectroscopy not highly automated more mature x-ray field advantages over x-ray crystallography structural studies small proteins partially disordered exist multiple stable conformations solution exhibit weak interactions ligands fail crystallize readily provided nmr signals assigned specific atoms covalent structure protein
+labeling problem known assignment problem been one major bottlenecks protein nmr spectroscopy
+protein nmr structure determination generally proceeds through series steps
+usual approach first collect data used determining backbone aliphatic side chain assignments
+assignments then used interpret data collected order determine interatomic torsion angular constraints used structure determination
+front-end labeling process associates one more nmr parameters physical entity ; back-end labeling process associates nmr parameters constraints define refine conformational states
+reality distinction between front-end back-end artificial
+strategies been developed use noesy data assignments direct structure determination without assignments
+addition demonstrated recently structures small proteins determined directly assigned chemical shifts process largely bypasses back-end
+ideally all available data should used unified process yields best set assignments best structure consistent experiment probabilistic analysis provides levels confidence assignments atomic coordinates
+usual approach solution problem assigning labels subsets peaks assembled multiple sets noisy spectra collect number multidimensional multinuclear datasets
+after converting time domain data frequency domain spectra fourier transformation peaks picked each spectrum analysis
+methods been developed automated peak picking global analysis spectra yield models consisting peaks known intensity frequency phase decay rate linewidth
+ideal case resulting peak-lists identify combinatorial subsets two more covalently bonded nuclei their respective frequencies
+subsets must assembled coherent way best correspond specific atoms amino acid sequence protein
+practice peak lists do not report all nuclei noise peaks commonplace
+examples analyzed here level missing peaks varied between 9 percent 38 percent while level noise peaks varied between 10 percent 135 percent
+large number false positives well false negatives typically present data result explosion ambiguities during assembly subsets
+common feature among prior approaches been divide assignment labels into sequence discrete steps apply varying methods at each step
+steps typically include assignment step secondary structure determination step validation step
+validation step discrete reliability measure indicates possible presence outliers misassignments abnormal backbone chemical shift values sometimes omitted
+other steps added steps split further into simpler tasks
+example backbone side chain assignments frequently carried out sequentially separate processes
+some approaches sequence-specific assignment rely substantially reduced combinatorial set input data assuming prior subset selection e.g prior spin system assembly
+specification conformational states added yet another labeling step
+example backbone dihedral angles specified grid determined chemical shifts coupling constants and/or noes reduced dipolar couplings 
+nmr assignment problem been highly researched most naturally formulated combinatorial optimization problem subsequently solved using variety algorithms
+2004 review listed order 100 algorithms software packages additional approaches given 2008 review
+prior methods included stochastic approaches simulated annealing/monte carlo algorithms genetic algorithms exhaustive search algorithms heuristic comparison predicted chemical shifts derived homologous proteins heuristic best-first algorithms constraint-based expert system use heuristic best-first mapping algorithm
+most established judged bmrb entries cite assignment software packages used autoassign garant 
+similarly wide range methods been used predict protein secondary structural elements play important role classifying proteins
+prior approaches assigning secondary structure label each residue protein included method chemical shift index method database approach empirical probability-based method supervised machine learning approach probabilistic approach utilizes local statistical potential combine predictive potentials derived sequence chemical shifts
+recently fully automated approach protein structure determination flya been described pipelines standard steps nmr spectra structure utilizes garant assignment engine
+flya approach demonstrates benefits making use information each step iterative fashion achieve high number backbone side chain assignments
+our goal implement comprehensive approach utilizes network model rather than pipeline model relies probabilistic analysis results
+reformulate combinatorial optimization problem whereby each labeling configuration ensemble associated but unknown non-vanishing probability
+pine algorithm enables full integration information disparate steps achieve probabilistic analysis
+use probabilities provides means sharing refining incomplete information among current standard steps steps introduced future developments
+addition probabilistic analysis deals directly multiple minima problem arises cases where data does not support single optimal self-consistent state
+common example protein populates two stable conformational states
+pine-nmr package described here represents first step approaching goal full probabilistic approach protein nmr spectroscopy
+pine-nmr accepts input sequence protein plus peak lists derived one more nmr experiments chosen user extensive list possibilities
+pine-nmr provides output probabilistic assignment backbone aliphatic side chain chemical shifts secondary structure protein
+at same time identifies verifies if needed rectifies problems related chemical shift referencing consistency assignments determined secondary structure
+pine-nmr make use prior information derived independently other means selective labeling patterns spin system assignments
+principle networked model pine-nmr extensible both directions within pipeline protein structure determination : combined adaptive data collection at front three-dimensional structure determination at back end
+extensions should lead rapid fully automated approach nmr structure determination would yield structure most consistent all available data confidence limits atom positions explicitly represented
+addition its application nmr spectroscopy pine approach should applicable unbiased classification biological data other domains interest systems biology data various types need integrated: genomics proteomics metabolomics data collected function time environmental variables

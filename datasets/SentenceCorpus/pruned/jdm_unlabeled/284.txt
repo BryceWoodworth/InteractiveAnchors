@@ -1,0 +1,35 @@
+
+important open problem how values compared make simple choices
+natural hypothesis brain out associated value manner consistent model since model been able account large amount data other domains
+investigated ability four different explain data real binary choice task under conditions high low time
+found version account choice reaction time data both high low time conditions
+changes associated introduction time could changes two key model parameters noise process
+introduction
+model one behavioral
+model increased attention over years several
+first provided more accurate accuracy reaction time data than alternative models wide range psychological tasks including tasks
+second model special case many its its
+finally model been applied explain data various tasks
+important open problem behavioral how brain values make simple choices
+problem particularly because there evidence comparison process not does not always choose best option
+decision making lead several groups same computational model might used brain make simple value based choices
+type choice situations brain among several possible stimuli associated different reward values at e g alternative items value every under comparing values one them
+paper extent explain accuracy reaction time data real simple choices
+subjects made real choices between pairs had they selected
+task similar previous experiments human subjects had two stimuli was
+key difference our experiment our subjects made choices between stimuli associated different levels reward at instance choice
+whether both types tasks described same computational model because given large degree brain there no same algorithms would used reward domains
+compare four different number free parameters they contain whether constant time up decision making
+since best model likely depend decisions made out model two different time experimental conditions allow us identify aspects any changes performance
+found popular version model account data both high low time conditions
+furthermore also found changes associated introduction time could changes two key model parameters noise process
+understanding conditions under explain behavioral data simple value based choice important several
+first necessary first step extent model account underlying neural
+second since been shown provide accurate description data other domains finding also provides good computational description choices provides into nature some basic algorithms might at work many different psychological processes
+best our knowledge performance not been tested before choice although been tested other
+fact best our knowledge provided accurate quantitative key aspects data every domain been applied
+example been tested human using random motion task
+few studies ability models related explain various common choice patterns
+example several studies ability decision field theory account patterns choice settings choices among but not provided full experimental test against data
+other studies investigated ability model similar
+although previous studies shown relatively simple computational models decision-making account some behavioral literature their full properties simple value based choice not been investigated

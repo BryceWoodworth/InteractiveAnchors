@@ -1,0 +1,22 @@
+ 
+tracing potentially infectious contacts become important part control strategy many infectious diseases early cases novel infections endemic sexually transmitted infections
+here make use mathematical models consider case partner notification sexually transmitted infection however models sufficiently simple allow more general conclusions drawn
+show when contact network structure considered addition contact tracing standard mass action models generally inadequate
+consider impact mutual contacts develop improvement existing pairwise network models use demonstrate ceteris paribus clustering improves efficacy contact tracing large region parameter space
+result sometimes reversed however case highly effective contact tracing
+also develop stochastic simulations comparison using simple re-wiring methods allow generation appropriate comparator networks
+way contribute general theory network-based interventions against infectious disease
+ introduction 
+modelling become central tool understanding epidemiology infectious disease designing control strategies
+one control method contact tracing been considered large number disease contexts
+include 2003 sars pandemic 2001 uk fmd epidemic contingency planning deliberate release smallpox control sexually transmitted infections
+particular benefit tracing allows targeting control at cost effort spent finding individuals at risk
+since contact tracing takes place process over network interactions between hosts natural consider network-based models process
+theoretical work so far dealt contact tracing branching process through modifications mean-field equations pairwise approximations simulation
+work means implications heterogeneous numbers contacts efficacy contact tracing reasonably well understood
+case clustering due analytical challenge posed existence short closed loops contact network generally been more difficult make similar progress
+existing theoretical work therefore either been restricted limiting case clump structured populations all clustering due completely connected cliques else simulation exemplar networks 
+work derive improved triple closure clustered pairwise models removes two significant problems existing closure regimes use make systematic investigation impact clustering efficacy contact tracing keeping other network epidemiological parameters constant appropriate
+find many parameter choices there intuitive explanations borne out modelling increased impact contact tracing clustering increases
+not however completely general result meaning full implications clustering efficacy contact tracing subtle should subject case case investigation
+perform our analysis within sis paradigm meaning while some our terminology will general all infectious disease epidemiology other statements will geared towards modelling sexually transmitted infections where recovery/treatment does not confer lasting immunity

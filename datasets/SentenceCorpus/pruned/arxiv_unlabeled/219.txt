@@ -1,0 +1,37 @@
+
+context inference constraints propose approach based belief algorithm exact markov random field
+prior information among large set variables into respect approximate procedure used hidden variables observed subset
+focus situation where underlying data many different statistical components variety independent patterns
+single parameter family models show how may used information without problem optimal
+practice work free energy framework belief fixed point each component underlying probabilistic mixture
+mean field limit considered exact model at finite state when number mixture components number variables
+addition provide learning procedure based model effective continuous optimization procedure
+performed using stochastic search heuristic significant respect single parameter basic model
+introduction
+prediction recognition methods systems random environment both spatial temporal global behavior observations
+example network one fixed data estimation overall situation its evolution
+image recognition visual event detection some sense information between different sets one
+natural probabilistic information markov random field probabilities prediction recognition process
+inference problem constraints address system variables only known statistical information form probabilities set
+typically result some empirical procedure data
+based information consider then situation where some variables observed subset while other one set remains hidden
+what prediction made set how fast make prediction if terms real time applications like prediction example
+since variables take their values over finite set probabilities described finite set following principle maximum entropy distribution data best probability distribution form } representation factor graph where function each variable addition call
+together define factor graph will assumed
+there two main problem how set parameters order constraints data
+inference how sense most efficient real information terms probabilities
+exact generally complexity problem both one approximate
+approximation used statistical approximate version free energy associated
+computer belief algorithm procedure allows exact probabilities when underlying graph tree
+when graph still possible apply procedure then belief rather good accuracy sparse graphs
+however there may several fixed points either stable
+been shown points points free energy defined addition stable fixed points local free energy
+question convergence been series conditions bounds having global convergence
+present work
+since procedure performed best data one output information when all variables hidden
+actually been proposed where specific case model i e \ approximate version better results
+will later section when will compare various possible approximate models within framework
+paper propose new approach based multiple fixed points identification able both procedure consistent way real time applications
+paper our inference strategy detailed section problem inference binary variables distribution follows mixture present some numerical section some where mean field become relevant direct model
+section propose model well continuous optimization allows performance model
+finally section comparing our approach other perspective future

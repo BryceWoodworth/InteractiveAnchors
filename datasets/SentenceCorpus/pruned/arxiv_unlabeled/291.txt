@@ -1,0 +1,148 @@
+
+paper online estimation strategies perform
+clustering large networks
+our work two
+algorithms first based
+algorithm second methods
+two
+strategies compared existing approaches real data
+use method structure
+during us
+show our
+online algorithms
+good between when
+parameters mixture distributions context random
+graphs
+introduction
+networks become essential part number
+
+examples include widely power
+interaction networks
+
+work
+focus particular networks made
+
+impact
+new social network like
+increasing
+influence
+example showed
+important role
+us
+
+although only small actually used
+
+their influence extended far their result
+their interactions
+
+article propose
+
+structure during us
+
+data set over
+
+independent where
+nodes if there
+exists one another
+many strategies been developed study networks structure
+
+made between
+methods
+between models
+among
+methods clustering provided
+efficient way complex networks structures
+basic
+idea strategies model distribution
+network
+nodes among unknown number
+connectivity classes
+themselves unknown
+clustering network
+data various modeling
+strategies been considered
+propose
+mixture model
+some propose mixture
+consider continuous
+hidden variables et al consider both
+stochastic structure
+article our not compare
+different models but focus computational
+issue most them
+indeed even if modeling
+strategies like algorithms common core
+estimation strategy
+algorithm known convergence very
+size data set
+issue should into perspective
+new analysis network data
+sets
+development optimization strategies
+networks
+nodes if
+not more
+extent bayesian strategies limited they may
+not networks more than few few
+algorithms may not
+statistical point view
+strategies
+been proposed well
+but they same
+thus new
+question work perform efficient
+clustering
+computational point view very large networks
+networks over time
+
+online algorithms efficient alternative classical
+algorithms
+when data set over time
+application strategies
+mixture models
+been studied many authors
+clustering algorithms
+include online means algorithm
+more
+recently
+using algorithm
+estimation mixture
+models
+however additional difficulty mixture models random
+graphs
+distribution hidden variables
+
+observation cannot due
+
+work consider two alternative
+strategies
+issue
+first one based simulation
+
+leading stochastic version algorithm stochastic
+approximation
+
+second one method proposed
+
+approximation
+strategy
+also been proposed
+bayesian framework
+article database
+us
+then present model proposed
+compare model its
+terms modeling strategies
+use data set
+derive online
+framework estimate parameters mixture using
+methods
+simulations used show online
+methods very effective terms time
+parameter estimation clustering
+simulations
+both increasing size networks
+online methods been designed
+finally
+connectivity structure us using
+proposed online algorithm model

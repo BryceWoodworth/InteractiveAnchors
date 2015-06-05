@@ -1,0 +1,21 @@
+ 
+consider problem joint parameter estimation prediction markov random field: ie  model parameters estimated basis initial set data then fitted model used perform prediction e g  smoothing denoising interpolation new noisy observation
+working under restriction limited computation analyze joint method same convex variational relaxation used construct m-estimator fitting parameters perform approximate marginalization prediction step
+key result paper computation-limited setting using inconsistent parameter estimator i e  estimator returns ``wrong'' model even infinite data limit provably beneficial since resulting errors partially compensate errors made using approximate prediction technique
+en route result analyze asymptotic properties m-estimators based convex variational relaxations establish lipschitz stability property holds broad class variational methods
+show joint estimation/prediction based reweighted sum-product algorithm substantially outperforms commonly used heuristic based ordinary sum-product
+ introduction 
+graphical models markov random fields mrfs widely used many application domains including spatial statistics statistical signal processing communication theory
+fundamental limitation their practical use infeasibility computing various statistical quantities e g  marginals data likelihoods etc ; quantities interest both bayesian frequentist settings
+sampling-based methods especially those markov chain monte carlo mcmc variety  represent one approach obtaining stochastic approximations marginals likelihoods
+disadvantage sampling methods their relatively high computational cost
+instance applications severe limits delay computational overhead e g  error-control coding real-time tracking video compression mcmc methods likely overly slow
+thus considerable interest various application domains consider less computationally intensive methods generating approximations marginals log likelihoods other relevant statistical quantities
+variational methods one class techniques used generate deterministic approximations markov random fields mrfs
+at foundation methods fact broad class mrfs computation log likelihood marginal probabilities reformulated convex optimization problem see overview
+although optimization problem intractable solve exactly general mrfs suggests principled route obtaining approximations---namely relaxing original optimization problem taking optimal solutions relaxed problem approximations exact values
+many cases optimization relaxed problem carried out ``message-passing'' algorithms neighboring nodes markov random field convey statistical information e g  likelihoods passing functions vectors referred messages
+estimating parameters markov random field data poses another significant challenge
+direct approach---for instance via regularized maximum likelihood estimation---entails evaluating cumulant generating log partition function computationally intractable general markov random fields
+one viable option pseudolikelihood method  shown produce consistent parameter estimates under suitable assumptions though associated loss statistical efficiency
+other researchers studied algorithms ml estimation based stochastic approximation  again consistent under appropriate assumptions but slow converge

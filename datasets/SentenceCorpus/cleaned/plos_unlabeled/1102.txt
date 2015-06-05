@@ -1,0 +1,71 @@
+ 
+use computational modeling simulation increased many biological fields but despite their potential techniques only marginally applied nutritional sciences
+nevertheless recent applications modeling been instrumental answering important nutritional questions cellular up physiological levels
+capturing complexity today's important nutritional research questions poses challenge modeling become truly integrative consideration interpretation experimental data at widely differing scales space time
+review discuss selection available modeling approaches applications relevant nutrition
+then put models into perspective categorizing them according their space time domain
+through categorization process identified dearth models consider processes occurring between microscopic macroscopic scale
+propose middle-out strategy develop required full-scale multilevel computational models
+exhaustive accurate phenotyping use virtual patient concept development biomarkers omics signatures identified key elements successful systems biology modeling approach nutrition research one integrates physiological mechanisms data at multiple space time scales
+ introduction 
+nutritional science presently undergoing data explosion increasing number studies incorporating methods genomics transcriptomics proteomics metabolomics
+however presently unclear how high-dimensional datasets related physiological characterization phenotype using traditional nutritional research methods indirect calorimetry nutrient balance body composition assessment isotopic tracer methods
+thus fundamental challenge nutrition research connect data collected at vastly different spatial temporal dimensionality scales
+although statistical analysis still method choice deal high dimensionality omics datasets systems biology computational modeling approaches begin reveal quantitative mechanistic relationships between various measurements
+large variety computational modeling approaches been applied wide-ranging levels organization molecules humans
+processes modeled include molecular interactions signaling pathways metabolic pathways cellular growth anatomical structures physiological processes
+accordingly computational approaches differ widely application
+review discuss relevance current future applications computational modeling nutrition research
+end first introduce important concepts nutrition typical issues modeling arise field
+then give broader review some representative modeling approaches successfully addressed key nutritional questions
+then proceed identify knowledge technology gaps suggest how computational approaches may integrated extended address gaps bring nutritional systems biology modeling important step forward near future
+nutrition research investigates processes living organism receives utilizes materials necessary maintenance life health
+traditionally nutritional research investigates processes at level whole organism
+thermodynamic viewpoint all living organisms exist state far equilibrium
+maintain state central importance harvest sufficient energy surroundings
+energy comes controlled combustion macronutrients carbohydrate fat protein
+overarching organizing principle expressed dynamic energy budget theory considers energy food extracted stored reserves distributed throughout body fuel processes essential life
+processes include generation heat maintenance gradients across cell membranes production gametes synthesis structural mass establishment maturity somatic maintenance maturity maintenance
+organization effectively decouples organism's internal energy external world facilitating homeostasis
+principle clear relevance nutritional physiology
+contrast dietary macronutrient energy sources dietary micronutrients notably mineral elements vitamins also play key role overall health organism
+inadequate amounts some dietary micronutrients been demonstrated cause classic deficiency diseases scurvy beriberi anemia goiter cretinism
+third class various essential nutrients exist used both energy harvesting synthesis structural mass well precursors specific bioactive compounds
+nutrients include essential amino acids essential omega-3 omega-6 fatty acids
+many health disorders not necessarily caused dietary deficiencies but more generally imbalances between intake utilization nutrients
+while there general consensus proper nutrition prevent various chronic diseases understanding health effects specific nutritional compounds extraordinarily complicated
+first delivery nutritional perturbation difficult control over long time periods perturbations often relatively subtle effects over time scales typically investigated
+second very difficult unravel distinctive bioactivity nutritional compound interest when supplied background diet containing hundreds other bioactive components
+third difficult assess bioavailability nutrient interest especially at level specific target organs cells
+problem bioavailability at whole body level had long history mathematical modeling specifically trace elements
+computational kinetic methods were introduced nutritional sciences along use stable isotopes where interpretation kinetic data required development appropriate mathematical models
+typically compartmental modeling approaches used describe absorption distribution elimination nutrient
+common most models high level aggregation where body adequately described only few compartments
+together models aim provide rational basis determination nutritional requirements body understanding differences requirements different micronutrients
+while traditional modeling methods been very useful real challenge modeling nutrition help understand rationally manipulate complex relationship between nutrition health determined integrated multiscale responses nutrients ranging whole body subcellular levels organization over time scales minutes years
+difficulty apparent problems arise current efforts pinpoint precise role nutrition metabolic syndrome
+at long time scale whole body level organization prolonged period consuming more energy than expended results gradual development obesity increases one's risk developing insulin resistance hallmark metabolic syndrome
+study insulin resistance revealed function hormone at level organs tissues occurs time scale minutes hours
+example insulin stimulation skeletal muscle glucose uptake inhibition hepatic glucose output inhibition adipose tissue lipolysis host other physiological effects occur time scale
+methods developed unravel quantify molecular mechanisms underlying effects shown involvement complex intracellular signal transduction pathways changes gene expression modification enzyme kinetics intracellular molecular trafficking
+furthermore production insulin pancreatic beta cells occurs response glucose amino acids modulated fatty acids all clearly influenced diet nutrition
+unique electrophysiological properties beta cells influenced metabolism glucose fatty acids while electrical bursting oscillatory behavior coupled insulin secretion time scales seconds minutes
+thus understanding how nutrition impacts mechanisms underlying insulin resistance requires quantitative analysis description multiscale highly coupled regulatory network includes thousands components ranging over subcellular whole body levels organization spanning time scales seconds years
+although conceptual perspective outlined above derived literature without too much effort extremely difficult develop integrated quantitative understanding spans entire complexity mechanisms involved
+principle mathematical models offer capability therefore required more fully understand physiological basis not only metabolic syndrome but role nutrition health disease general
+without quantitative integrative approach inevitable one will get lost tangle bubbles arrows typical conceptual models find oneself unable weigh relative importance each component interaction determining overall physiological phenotype
+field mathematical modeling nutrition very diverse presently no single mathematical formalism allows one generate required integrated quantitative understanding nutrition formulated above
+therefore developing our vision what needed coming years now review several representative models successfully addressed key nutritional questions together may help point way more integrative modeling approach
+first review modeling approaches processes at cellular level describing biochemical processes operate convert food ingredients into energy building blocks cell fundamental unit life
+insight into processes teaches us how metabolism regulated at its most basic level
+furthermore modeling at cellular level provides entry point considering vast quantity complexity omics data
+second review use metabolic flux analysis framework quantitative analysis material fluxes within single cell well between different cell populations organs up whole body level
+thus mfa forms natural bridge between different levels organization different time scales
+thirdly review compartmental models lipoprotein metabolism because lipoproteins major mediators lipid trafficking between organs many processes linked lipids associated metabolic syndrome includes cardiovascular diseases obesity insulin resistance modern plagues industrialized societies
+finally review mathematical models body weight composition regulation complex relationship macronutrient metabolism at whole body level
+modeling at whole body physiological level demonstrates importance considering long time scales characteristic chronic diseases like obesity metabolic syndrome
+course cannot cover all areas modeling field nutrition review
+instance will not review models gut-associated processes nutrient absorption bacterial conversion nondigestible food components into important compounds short-chain fatty acids
+another important area will not review models neuro-hormonal regulation food intake metabolism
+nevertheless collection models chose review ensures cover process occurring vast space time spectrum nanometer meter microseconds years
+therefore four areas modeling discuss provide sufficiently broad basis our goal namely review available computational approaches key answering central questions nutrition serve platform development more integrative systems models

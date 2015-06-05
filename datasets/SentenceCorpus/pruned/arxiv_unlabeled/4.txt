@@ -1,0 +1,32 @@
+
+given finite set words according fixed unknown distribution called stochastic goal inference estimate some class probabilistic models probabilistic
+here study class rational stochastic stochastic generated class stochastic generated
+rational stochastic normal representation may very whose parameters estimated stochastic samples
+design efficient inference algorithm at normal representation target
+despite fact no class show strongly limit
+study output show they rational series one used provide stochastic estimate target
+introduction
+probabilistic inference data form finite set words according fixed unknown distribution called stochastic
+then goal estimate distribution some class probabilistic models probabilistic same hidden markov models
+limit
+however our knowledge there exists no efficient inference algorithm able whole class stochastic generated
+most previous use probabilistic
+other hand probabilistic particular cases stochastic generated special cases rational call rational stochastic
+been used inference exact learning model but not probabilistic inference
+let us design class rational stochastic over
+when class stochastic generated parameters
+but when obtain greater classes provide several at least one elements may significantly smaller representation advantage learning elements normal representation while normal do not exist parameters directly related probabilities some natural events form estimated stochastic when field rational series over form vector space efficient linear techniques used rational stochastic
+however class there exists no subset
+moreover class close stochastic may find whose associated rational series negative values not global weight may not defined
+however show strongly design algorithm any target given sample according will finite but number normal representation
+moreover within time size input number parameters classical statistical rates convergence
+however before target output close target but do not stochastic
+question what do how use them probabilistic inference
+show since algorithm at normal representation target output they 1 i e
+defined without any shown learning
+given any series stochastic not rational but property any
+our despite fact no class class rational stochastic used stochastic
+classical stochastic rational series section
+study example shows representation rational stochastic real parameters may very
+introduce our inference algorithm section show strongly limit
+study properties output section show they define rational series used stochastic estimates target

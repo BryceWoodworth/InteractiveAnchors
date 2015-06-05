@@ -1,0 +1,88 @@
+ 
+less more effect lime occurs when recognition-dependent agent greater probability choosing better item than more knowledgeable agent who recognizes more items
+goldstein gigerenzer define alpha probability correct choice made basis recognition alone beta probability correct choice made when both items recognized via additional cues
+they claim lime occurs if alpha greater than beta alpha greater than number number alpha beta remain constant number recognized items n varies
+fact shown neither parameters generally remains constant n varies neither them simple functions n
+therefore new theoretical basis lime needed
+paper provides mathematical results understanding when lime occur elucidates implications results
+major findings presented here follows demonstrations lime occur when alpha less than equal beta fail occur when alpha greater than beta derivation conditions co-occurrences new characterization conditions under lime occurs generalizations characterization handle imperfect recognition characterization when lime occurs more items become recognized
+primary implication results advantage recognition cue depends not only cue validities but also order items learned
+realization turn suggests research area should incorporate more dynamic focus learning memory processes effects reputational information
+ introduction 
+choosing between two items agent who recognizes one item but not other may use recognition cue make choice whereas one who recognizes both items must use other cues one who recognizes neither must guess
+less more effect lime occurs when recognition-dependent agent greater probability choosing better item than more knowledgeable agent who recognizes more items
+paper provides some new mathematical results understanding when lime occur elucidates implications results
+many researchers investigating descriptive validity recognition heuristic report high usage rates
+goldstein gigerenzer reported number percent usage rate
+serwe frings found number percent their lay number percent their amateur samples used recognition heuristic choosing tennis match winners
+newell shanks reported number percent usage stock-market setting
+pachur biele found recognition heuristic accounted number percent forecasts their study more than four other candidate mechanisms
+finally pohl observed additional cue knowledge increased usage recognition heuristic over cases where recognition object did not carry any other knowledge
+however empirical evidence lime equivocal at least face value
+goldstein gigerenzer serwe frings scheibehenne broder definitely yes camp pohl finds lime possible but claims only small effect-sizes andersson edman ekman ayton onkal present less good more evidence pachur biele decidedly no camp
+simulation studies based real ecologies lend some support prospect limes
+moreover schooler hertwig pleskac present simulation results suggesting imperfect recognition may actually increase likelihood lime
+matters further complicated shortcomings some studies apparent lack consensus requirements test lime
+exigencies combined results presented paper render corpus empirical studies problematic inconclusive
+i shall return matter toward end paper
+goldstein gigerenzer define alpha probability correct choice made basis recognition alone beta probability correct choice made when both items recognized via additional cues
+they claim lime occurs if alpha greater than beta alpha greater than number number alpha beta remain constant number recognized items n varies
+view been widely accepted used guide when expect lime
+pleskac concurs goldstein gigerenzer makes analogous claim under conditions imperfect recognition
+however goldstein gigerenzer assume alpha beta remain constant number recognized items n varies
+fact neither parameters necessarily remains constant n varies neither them simple function n
+shall see demonstrations assertions shortly indeed goldstein gigerenzer allowed assumption not realistic
+shall see how various modifications assumption lead absence presence lime
+sufficiently rigorous approach problem begins distinguishing between probability beta correctly choosing between pairs recognized items using knowledge cue probability v correctly choosing between any pair items using knowledge cue i e v knowledge cue validity
+begin i will demonstrate lime occur when alpha less than beta
+table number number items number recognized
+left-most column shows rank each item outcome fifth cue rank column shows their ranks knowledge cue used choosing between two recognized items
+purposes simplification clarity throughout paper i will restrict discussion rank-order knowledge cue no ties
+first let us determine alpha
+table number number correct choices sum number entries recog
+column whose ranks greater i e worse each number entries c number number number number number number number
+number incorrect choices sum number entries whose rank greater than each number entries d number number number number
+result alpha number number number number
+use similar procedure compute probability making correct choice using knowledge cue i e knowledge cue validity v
+c column table number shows number items ranked worse than item each row would correctly identified comparing item's cue-rank other items
+example first item cue-rank number so using cue compare other number items would correctly choose first item better-ranked
+contrast third item cue-rank number so would make only number correct choice comparing its cue-rank those items actually ranked worse
+d column shows corresponding number incorrect choices
+there c number correct d number incorrect choices resulting cue validity v number number number number
+likewise last two columns table number probability choosing correctly between pairs recognized items using knowledge cue beta c c d number number number number
+note v not equal beta
+example fact probability making correct choice between pairs number recognized items not same probability making correct choice when all number items recognized
+moreover both alpha beta vary depending order remaining items learned i e become recognizable
+example if next item learned item number number then result will beta number whereas if next item number number then result will beta number
+likewise if item number learned next alpha number whereas if item number learned next alpha number
+examples show variation alpha beta n varies they demonstrate both parameters take different values alternative collections recognized items having same n
+moreover there no generalized relation between range possible values beta v
+assuming v greater than equal number number i e use any negative cue reverse there always at least one pair items whose rank-order matches order cue so if only those two items been learned then beta number
+conversely if v less than number then there always at least one pair whose rank-order cue-order reversed so if only those two items been learned then beta number
+same argument alpha range number number depending order items learned
+now shall build up probability making correct choice between pairs items table number initially following goldstein gigerenzer
+those pairs where one item recognized other isn't use recognition cue where n total number items n number recognized items
+probability correct choice when both items unrecognized i e where guess must made
+finally probability correct choice when both items recognized
+summing terms gives goldstein gigerenzer's formula
+they denote pcorrect fn so using their notation plugging appropriate numbers yields fn number
+thus lime because v number less than fn number but also alpha number less than beta number so observe if beta allowed vary thus differ v lime occur when alpha less than beta
+when alpha beta not constant not only lime occur when alpha less than beta but condition alpha greater than beta does not guarantee lime
+counter-example constructed modifying one table number
+suppose knowledge cue ranks number objects number number number number number number number number number number
+then knowledge cue validity v number number number number
+now suppose number recognized objects outcome ranks number number number number number number
+then alpha number number number number beta number number number number alpha greater than beta satisfied
+however both alpha beta less than v so no weighted sum them number number going exceed v
+indeed fn number so lime does not occur
+i shall address issue how common occurrences lime when alpha less than beta no lime when alpha greater than beta sections follow
+finally need distinguish among various definitions lime
+goldstein gigerenzer point out there at least three versions one comparing more less knowledgeable agents another comparing performance different domains third comparing performance agent learns new items
+version been discussing first kind v less than fn katsikopoulos calls full experience lime
+but another fn greater than fn number occur regardless whether v less than fn
+let us call local lime
+difference between two simply v fn
+next section paper investigates co-occurrence lime alpha less than beta
+third lays out conditions under lime occur under conditions perfect imperfect recognition
+fourth deals effect learning items there brief concluding section
+all technical arguments theorems proofs relegated appendix

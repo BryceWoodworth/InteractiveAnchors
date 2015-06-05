@@ -1,0 +1,29 @@
+
+genetic properties neurons significantly influence their synaptic network structure common notion
+provides approach question quantitative manner
+its synaptic connectivity network been identified combined cellular studies connectivity gene expression most its neurons
+using two analysis show expression significant information about its synaptic connectivity identify genes predicting neural connectivity
+current study relation between gene expression synaptic connectivity c system neurons where relation highly
+results presented genes identified provide point further more detailed computational experimental
+introduction
+common notion genes play major role formation they cell types help neurons into defined neural provide important cues their communication
+many studies identified specific genes c development neural
+genes typically development
+findings include genes interactions input synaptic genes
+findings been based specifically studies each designed address specific pathway type receptor
+yet been difficult identify large scale mutations determine specific synaptic because synaptic one complex process
+et al presented first genes involved c
+study identified more than novel genes specific functions transmission signals across
+while latter study was not at synaptic connectivity genes demonstrated questions manner
+recent related study et al applied entropy approach c data identify sets genes whose expression common most predicts neural connectivity specific
+our study both its its methods
+leads first quantitative relation between genetic properties neurons their synaptic connectivity c neurons at large
+existing c neural provides connectivity each other neurons
+each also expression genes directly associated
+combined together data relation between expression connectivity across most c neurons
+specifically address two attributes first whether possible predict connectivity based its expression
+second question what extent do neurons similar expression similar connectivity
+show expression neurons significant information about their connectivity further identify specific genes play major role relation
+gene sets identify do not direct influence synaptic connectivity however they provide gene targets further experimental
+finally suggest way study between expression connectivity their actual functional behavior
+allows classical question what neural local genetic basis individual neurons overall network structure determined their connectivity

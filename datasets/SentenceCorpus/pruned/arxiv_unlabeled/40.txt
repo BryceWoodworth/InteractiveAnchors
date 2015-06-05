@@ -1,0 +1,57 @@
+
+dimension reduction method random original data matrix random matrix whose
+samples standard
+because results one not using linear without large errors
+however still useful certain applications data information learning data
+propose three types sample mean maximum likelihood
+sample mean but latter more accurate at small
+derive bounds mean dimension reduction than classical dimension reduction
+both sample mean about efficient compared maximum likelihood
+analyze propose distribution
+introduction
+paper dimension reduction particular method based random special case linear random
+idea linear random original data matrix random matrix resulting matrix
+if then should much more efficient certain statistics e g
+moreover may small physical memory while often too large main memory
+choice random matrix depends norm would like work
+proposed
+samples stable distributions dimension reduction
+stable distribution family normal
+thus will call random normal random random
+normal random estimate original directly using corresponding up constant
+furthermore provides performance
+will review normal random more section
+random should not use distance approximate original distance distribution does not even finite first
+results one not distance using linear linear e g sample mean without large errors
+results do not rule out may still useful certain applications data information learning data
+proposed using sample instead sample mean random described its application data
+study provide three types sample mean maximum likelihood
+sample mean i e both about efficient maximum likelihood but latter more accurate at small sample size
+furthermore derive bounds mean dimension reduction
+than classical mean norm hence not metric
+many efficient algorithms some time using memory algorithms rely metric properties e g
+may still useful important scenarios
+online original data matrix requires hence often too large physical memory
+cost all may also too large memory
+example information could total number types at scale
+may more efficient estimate data matrix memory
+all clustering classification applications need all at cost time
+using random cost reduced
+because could
+linear always search linear
+when data matrix memory cost one data point time may still significantly than algorithms original data matrix often
+sampling another strategy dimension reduction
+given data matrix one sample estimate statistics including
+despite its there two major sampling
+first there no performance
+data may choose very large order achieve sufficient accuracy
+second large datasets often highly sparse example data data
+provide alternative sampling strategy called random sampling sparse data
+data however methods based linear random
+paper follows
+section linear random
+section main results three types
+section sample
+section mean
+section maximum likelihood
+section paper

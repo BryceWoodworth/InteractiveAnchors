@@ -1,0 +1,36 @@
+
+consider regression problem regularization norm over larger than one
+problem group regularization norm where all dimension one where
+paper study model consistency group
+derive necessary sufficient conditions consistency group under practical assumptions model
+when linear functions kernel problem usually multiple kernel learning used learning data sources linear variable selection
+using tools functional analysis particular consistency results case also propose adaptive obtain consistent model estimate even when necessary condition required adaptive not
+introduction
+regularization machine learning statistics
+provides learning data
+regularization been studied various settings approximation theory statistics leading efficient practical algorithms based linear very general theoretical consistency results
+recent years regularization generated interest linear learning where goal predict response linear function particular regularization norm values method allows perform variable selection
+however regularization cannot simple linear instead leads general convex optimization problems much early effort been algorithms solve optimization problem
+particular algorithm allows find regularization i e set solutions all values regularization parameters at cost single matrix
+conditions regularization norm leads sparse solutions i e vectors many
+recent at model consistency i e if know data were generated sparse vector does actually when number observed data points
+case fixed number does pattern if only if certain simple condition matrices
+particular low correlation settings indeed consistent
+however presence strong cannot consistent potential problems variable selection
+adaptive where weights norm then allow consistency all situations
+related procedure group where assumed groups instead values each individual each group used
+should all weights one group together thus lead group selection
+consistency results group similar correlation conditions necessary sufficient conditions consistency
+groups size one groups larger leads however result not single necessary sufficient condition show result similar not true one group dimension larger than one
+also our assumptions usually made consistency results i e model response linear constant
+context common situation when methods ones presented paper simply prove convergence best linear predictor assumed sparse both terms vectors patterns
+group groups size one groups size larger than one
+natural context allow size each group i e appropriate
+when kernel procedure out learn best convex combination set basis where each kernel one norm used regularization
+framework multiple kernel learning applications kernel selection data data sources linear variable selection
+latter case multiple kernel learning seen variable selection model
+consistency results group case using appropriate functional analysis
+allow out analysis space while algorithm work space optimization
+paper will always between analysis algorithms
+paper present consistency results group while
+finally present adaptive our set results simulations examples

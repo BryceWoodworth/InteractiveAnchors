@@ -1,0 +1,54 @@
+ 
+new monotonicity-constrained maximum likelihood approach called partial order optimum likelihood presented applied problem functional site prediction protein 3d structures important current challenge genomics
+input consists electrostatic geometric properties derived 3d structure query protein alone
+sequence-based conservation information where available may also incorporated
+electrostatics features thematics combined multidimensional isotonic regression form maximum likelihood estimates probabilities specific residues belong active site
+allows likelihood ranking all ionizable residues given protein based thematics features
+corresponding roc curves statistical significance tests demonstrate method outperforms prior thematics-based methods turn been shown previously outperform other 3d-structure-based methods identifying active site residues
+then shown addition one simple geometric property size rank cleft given residue contained yields improved performance
+extension method include predictions non-ionizable residues achieved through introduction environment variables
+extension results even better performance than thematics alone constitutes date best functional site predictor based 3d structure only achieving nearly same level performance methods use both 3d structure sequence alignment data
+finally method also easily incorporates sequence alignment data when information included resulting method shown outperform best current methods using any combination sequence alignments 3d structures
+included analysis demonstrating when thematics features cleft size rank alignment-based conservation scores used individually combination thematics features represent single most important component classifiers
+ introduction 
+development function prediction capabilities major challenge genomics
+structural genomics projects determining 3d structures expressed proteins high throughput basis
+however determination function 3d structure proved challenging task; functions most structural genomics proteins remain unknown
+computationally based predictive methods help guide accelerate functional annotation
+first step toward prediction function protein its 3d structure determine its local site interaction where catalysis and/or ligand recognition occurs
+capabilities many important practical implications biology medicine
+reported thematics theoretical microscopic titration curves technique prediction local interaction sites protein its three-dimensional structure alone
+application thematics one begins 3d structure query protein solves poisson-boltzmann equations using well-established methods then performs hybrid procedure compute proton occupations ionizable sites functions ph
+residues involved catalysis and/or recognition different chemical properties ordinary residues
+particular functionally important residues anomalous theoretical proton occupation curves
+thematics exploits difference utilizes information shapes theoretical titration curves ionizable residues calculated approximately computed electrical potential function
+thematics utilizes only 3d structure query protein input; neither sequence alignments nor structural comparisons used
+recently was shown among methods based 3d structure query protein only thematics achieves far best performance measured sensitivity precision annotated catalytic residues
+purpose present paper five-fold: present monotonicity-constrained maximum likelihood approach called partial order optimum likelihood improve performance expand capabilities active site prediction
+then shown pool thematics input data alone outperforms previous statistical support vector machine implementations thematics when applied test set annotated protein structures
+then demonstrated inclusion one additional 3d-structure-based feature representing ordinal size surface cleft each residue belongs result some improved performance demonstrated roc curves validated wilcoxon signed-rank tests
+introduction environment features pool then use thematics data predict both ionizable non-ionizable residues
+all-residues extension thematics together cleft size rank feature results simple 3d-structure-based functional site predictor performs better than other 3d structure based methods nearly well very best current methods utilize both 3d structure sequence homology
+finally pool approach able take advantage sequence alignment-based conservation scores when available addition structure-based features
+when additional information included resulting classifier shown outperform all other currently available methods using any combination structure sequence information
+prior implementations thematics identification active-site residues 3d structure query protein titration curve shapes were described moments their first derivative functions
+first derivative functions essentially probability density functions give unity when integrated over all space
+ko et al third fourth central moments 3 4 probability functions were used
+moments measure asymmetry roughly area under tails relative area near mean respectively
+tong et al first moment second central moment were also used
+each approaches moments measure deviations normal curve shape analyses identify outliers residues deviate most normal proton occupation behavior
+prior approaches all use spatial clustering so outlier residues reported positive method if only if they sufficiently close spatial proximity at least one other outlier
+thus previous thematics identifications involve two stages where first stage makes binary decision each residue second stage finds spatial clusters outliers
+new approach reported here every residue assigned probability active-site residue
+here alternative clustering approach introduce features describe residue's neighbors; call environment features
+given scalar feature x define value environment feature x env given residue r be:formulawhere r ionizable residue whose distance d residue r less than 9 weight w given 1/d 2
+study use same features 3 4 used ko approach along additional features 3 env 4 env
+thus every ionizable residue any protein structure assigned 4-dimensional feature vector
+present approach number advantages
+specifically active residues may selected one step they rank-ordered according probability involvement active site
+furthermore while thematics previously been applied ionizable residues only present approach opens door direct prediction non-ionizable active site residues because environment features 3 env 4 env well defined all residues including non-ionizable ones
+finally additional geometric features obtainable 3d structure only may readily combined four thematics features order enhance performance
+geometric features relative sizes clefts surface protein structure been shown correlate active site location
+instance majority single-chain proteins catalytic residues largest cleft
+however geometric features alone do not perform comparatively well active residue prediction particularly because they not very selective
+shown here cleft size information combined thematics electrostatic features yields high performance purely 3d structure based functional site predictions

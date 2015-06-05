@@ -1,0 +1,45 @@
+ 
+hard exaggerate role economic aggregators  functions summarize numerous / heterogeneous data  economic models since early xx century
+many cases witnessed pioneering works cobb douglas functions were information quantities tailored economic theories ie they were built fit economic phenomena
+paper look at functions complementary side: information
+use recent toolbox built top vast class distortions coined bregman whose application field rivals metrics' various subfields mathematics
+toolbox makes possible find quality aggregator consumptions prices labor capital wages etc  standpoint information carries
+prove rather striking result
+informational standpoint well-known economic aggregators do belong optimal set
+common economic assumptions enter analysis large set shrinks essentially ends up exactly fitting either ces cobb-douglas both
+summarize relevant economic contexts one could not crafted better some aggregator information standpoint
+also discuss global economic behaviors optimal information aggregators general present brief panorama links between economic information aggregators \\ keywords : economic aggregators ces cobb-douglas bregman divergences
+ introduction 
+since end xix century birth ``neo-classical'' school mathematics played growing role economics
+works l\'eon walras question aggregation behavior many individuals risen become central economic theory
+order represent well possible evolution aggregate variables some mathematical functions been proposed become very famous economic literature
+one most famous neo-classical function cobb-douglas
+function particular interest since allows perfect substitutability between different inputs depends
+another well-known ``linear'' function was later formulated leontief  inputs conversely complementary
+choice function describe production process very strong implications at macroeconomic level illustrated many results found keynesians economics literature growth theory
+but beyond different aggregate functions one most recently built well-known one constant elasticity substitution ces function elaborated arrow et al
+indeed cobb-douglas production function elasticity substitution capital labor fixed unity
+implies one percent increase capital stock implies equal one percent fall labor inputs order maintain constant production level given structure relative prices
+contrary ces function allows elasticity lie between zero infinity but stay fixed at number along across isoquants whatever quantities inputs used production process
+main advantage exhibited ces function encompasses cobb-douglas leontief linear production functions fact limit thus particular cases
+nevertheless one reasons economists kept using simpler functions cobb-douglas one heavy calculus ces function often leads especially at point where models closed
+seminal work douglas highlights importance progresses field statistical information genesis his essay
+pioneering works cobb douglas  arrow et al  underline inductive nature inception their respective functions purpose was fit best possible information quantities aggregators observed economic phenomena
+paper take deductive route paved rigorous information material derive fundamental quantities based two assumptions: aggregator should always informative possible respect data summarizes prices consumptions wages capital labor etc ; aggregator might require satisfy standard economic assumptions relying aggregator dualities prices / consumptions wages / labor etc  elasticities marginal rates substitutions returns scale etc
+starting point our work class distortions coined sixties bregman  context convex programming
+though they were born four decades ago was only much later distortions literally spread out other fields including statistics signal processing classification  fields where they had become undeniably central
+was even later was discovered their broad applicability axiomatization makes possible relate them metrics their spawns
+very roughly bregman divergences non-negative functions meet same identity indiscernibles condition metrics rely third assumption about existence particular aggregator minimizes total distortion set
+last condition rephrased maximum likelihood condition makes aggregator most informative quantity about data call low distortion aggregator lda
+paper our contribution threefold
+first make clear partition economic aggregators respect information show some ldas ces cobb-douglas some limit cases ldas leontief some neither mitscherlich-spillman-von th{\"u}nen
+without more assumptions set all ldas huge yet show global trends economic relevance easily shown all marginal rates substitution set quite easily drilled down aggregators general behaviors concavity convexity
+fact our last contribution
+our main contribution show when plug various standard economic assumptions see above set all ldas reduces particular subset precisely matches ces cobb-douglas both sets
+novel advocacy use popular aggregators brings very strong information-theoretic rationale their ``economic'' existence
+remaining paper structured follows
+section 2 presents ldas their main properties
+section 3 relate common economic aggregators ldas
+section 4 discusses additional properties ldas
+last section concludes paper avenues future research
+order not laden paper's body all proofs been postponed appendix

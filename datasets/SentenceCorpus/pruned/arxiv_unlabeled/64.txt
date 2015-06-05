@@ -1,0 +1,30 @@
+
+consider problem training set make consistent constraints
+problem during analysis data sets via techniques require data
+show problem general finding independent set special
+important cases problem considered
+cases when order given set total order dimension 2
+show second case reduced maximization convex function convex set
+case construct approximate algorithm based convex optimization
+machine learning learning constraints
+introduction
+rule learning problems two
+first part set called training set
+each training set pair type
+rule objects set set should objects training set pairs consistent
+second part our common knowledge rule
+one popular types considered paper
+some cases two not both then problem training set
+let us see what problem
+sets given sets
+assume more order
+any given where problem finding function due following
+let us set functions
+then given our task every subset extended whole set because
+actually every finite subset defined function both
+see problem
+above more problem finding subset function subset
+so let us consider following generalization our problem will call consistent set } finite sets where each them defined function given
+then every positive weight
+our task find weight subset function i e 1 } set called function 2 } set weight some cases use mean weight set
+paper will consider problem

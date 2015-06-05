@@ -1,0 +1,97 @@
+ 
+propose constructed-choice model general decision making
+model departs utility theory prospect theory its treatment multiple goals suggests several different ways context affect choice
+particularly instructive apply model protective decisions often puzzling
+among other anomalies people insure against non-catastrophic events underinsure against catastrophic risks allow extraneous factors influence insurance purchases other protective decisions
+neither expected-utility theory nor prospect theory explain anomalies satisfactorily
+apply model above anomalies consider many different insurance-related goals organized taxonomy consider effects context goals resources plans decision rules
+paper concludes suggesting some prescriptions improving individual decision making respect protective measures
+ introduction 
+concept goal aim motive purpose etc
+been long been taken granted many accounts human behavior
+behavior attributed aims goals everyday discourse he wore his best suit order make good first impression literature epics novels etc
+scientific discourse example widely differing accounts aristotle's ethics circa number b c e
+william james's principles psychology kurt lewin's dynamic theory personality
+despite obviousness wide use goal concepts dominant tradition economics decision sciences emphasized utility value basis choice
+particular goals viewed ways increasing utility happiness
+utility thought sort common currency integrates multiple goals multiple quantitative attributes outcomes
+standpoint tradeoffs among goals attempts maximize utility
+view all goals contribute single common currency was clearly enunciated plato symposium
+he used metaphor weighing different pleasures pains balance
+view central plato's thought underlying his theories education government
+studies mathematics science metaphysics needed educate skillful weigher who must integrate across different goals across near distant times
+similar views dominated utilitarian thought number th number th centuries included integration value across individuals society well different goals times e g
+bentham number
+aristotle's ethics contrast partially disagreed emphasizing multiple goods stating way different goals fit together should vary occasion
+aristotle perhaps read advocating situation-dependent integration multiple goals idea pursue elaborate paper
+despite hint aristotle plato's concept single common currency serves integrate value across myriad goals largely held sway both general psychology decision science
+freud's concept libido beebe-center's hedonic tone hull's concept generalized drive work reward systems brain diener's seligman's concepts general happiness all suggest some general quality linked many different goals
+exception keeney who advocates decision analysis focus separate goals values starting point rather than goal tradeoffs represented overall utility
+decision science concept maximization linked closely mapping onto single dimension utility
+bounded set real numbers limiting maximum but there no natural total ordering sets vectors two more dimensions therefore no natural concept maximization
+fact total ordering fundamental most foundational theories decision science
+idea all human goods weighed same balance fascinating scientific hypothesis been worth pursuing determine extent its applicability ways fails
+translating many goods into one-dimensional currency fits well human thought processes especially analog mental models
+unidimensionality opens way application powerful mathematical methods computing approximating maxima
+paper pursue more aristotelian theory decision making where preferences constructed based decision context decision maker focuses goals rather than maximizing happiness utility
+attempt show alternative approach leads new explanations how people make choices raises novel questions respect descriptive theories behavior prescriptive guidelines aiding decision maker improving choices
+our title implies theory present about goals plans
+many plansgoing out movie embarking shopping trip purchasing insurance invasion iraq united statesare were selected view achieving several different goals at once
+shopping trip paradigmatic because often involves several discrete stops each one more goals but evening at movie may simultaneously satisfy goals companionship emotional visual stimulation keeping up current culture
+insurance plans often aimed both at financial goals at emotional goals peace mind
+will discuss multiple goals insurance other protective plans detail below
+accord miller galanter pribram regard plan fundamental structural unit decision theory
+do not consider each tiny muscle movement each phoneme utterance choice
+rather decision theory offers explanations only at behavioral level where someone consciously unconsciously considers what goals will accomplished various possible plans what plan designed will likely achieve several important goals
+past research plans unearthed various areas cognitive science
+area motor control particularly rich evidence unconscious higher-level programs governing sequences skilled movements
+interest movement planning very explicit robotics
+planning sporadically been considered other theories human artificial intelligence
+one major virtues considering goals plans together individual decision making brought into close analogy organizational decision making
+latter goals plans shared among individuals groups select implement plans
+new railroad bridge advertising campaign goals plans their perceived relationship made explicit often recorded
+individual decision goals plans their perceived relationship hidden within person's conscious unconscious cognitions emotions but one try nonetheless gather data provide some information about processes
+stance also requires us distinguish between goals resources
+plans draw resources achieve goals
+some resources money favors owed accumulated sometimes accumulation resource may itself become goal
+nonetheless continue distinguish example between money considered resource same money considered goal
+main concern our paper protective decision making
+much focus even narrower consider insurance decisions at length
+theory offer much more broadly applicable
+however found narrower focus useful theory development
+there many apparent anomalies insurance decisions individuals households
+classical utility theory supposed account decision making under risk especially insurance purchase
+was not obvious us initially goal plan approach would do better than utility theory its popular alternative prospect theory
+applying multiple-goal theory domain been both challenging enlightening compared more obvious examples shopping trips movie excursions
+discussing insurance choices start idea insurance designed principally device share financial risk situations where many at risk but relatively few actually suffer financial loss
+many cases easy share financial risk but difficult if not impossible share other risks
+having one's home burn down example extremely stressful even if nobody hurt
+stress may persist considerable period time
+stress-induced suffering cannot readily shared others not directly affected fire although social practices exist ease
+what most easily shared financial risk
+each household at risk pays relatively small amount insurance premium participate risk sharing
+when participant's home does burn down insurer pays contracted amount cover some cost rebuilding purchasing replacement home
+instead few cases where victims suffer catastrophic financial loss everyone at risk bears much smaller financial payment
+insurance premiums must large enough aggregate cover not only total insured financial losses but also costs insurer risk-sharing effort
+thus premiums unless subsidized usually exceed average losses
+common-sense terms standard economic theory people willing pay more than expected loss because they risk-averse
+paying premium does not lower overall utility happiness level significantly but suffering large financial loss would result very large drop utility happiness
+ratio utility changes much greater than inverse probability incurring loss thus suggesting individuals purchase insurance so maximize their expected utility
+financial standpoint anomalies arise when consumer choices respect insurance sometimes appear suboptimal given reasonable degrees risk aversion
+example common people pay added premiums seem excessive obtain automobile collision insurance low rather than high deductible requires them pay initial portion loss
+make matters worse some decide not file claim following small accident whose cost could largely reimbursed via low deductible they fear claim would lead increased premiums next succeeding years they prefer avoid incurring transaction costs involved settling claim their insurer
+higher deductible would saved individuals money before accident avoided costs associated deciding whether not file claim
+rather different example emerged after passage national flood insurance program nfip number
+insurance coverage against water damage flooding was offered both homeowners commercial enterprises high hazard areas at subsidized low rates
+yet there was limited interest purchasing coverage despite subsidy despite potential catastrophic losses
+third example many people prepared pay considerably more insure possessions they find very attractive than insure possessions toward they feel neutral negative
+if possession needed then must replaced after loss damage
+replacement cost remains same independent one's positive negative feelings toward object
+since insurance offers exactly claims payment hard justify financially paying more insuring attractive than less attractive object
+remainder paper organized following manner
+next section number discuss types insurance anomaly illustrated preceding three examples suggest psychological processes related goals might account each type
+section number presents elements quantitative theory constructed choice based goals plans decision weights contrasts theory standard theory expected utility maximization
+section number presents taxonomy insurance-related goals
+section number draws taxonomy explain insurance anomalies terms our constructed-choice theory
+section also probes failings utility theory prospect theory respect characterizing insurance decisions
+paper concludes section number set prescriptive implications concerning protective activities based our theory decision making

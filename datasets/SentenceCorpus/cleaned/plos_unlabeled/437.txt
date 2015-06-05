@@ -1,0 +1,48 @@
+ 
+phylogenetic profiling based hypothesis during evolution functionally physically interacting genes likely inherited eliminated codependent manner
+creating presence absence profiles orthologous genes now common powerful way identifying functionally associated genes
+approach correctly determining orthology means identifying functional equivalence between two genes critical nontrivial step largely explains why previous work area mainly focused using presence absence profiles prokaryotic species
+here demonstrate eukaryotic genomes high proportion multigene families whose phylogenetic profile distributions poor presence absence information content
+feature makes them prone orthology mis-assignment unsuited standard profile-based prediction methods
+using cath structural domain assignments gene3d database 13 complete eukaryotic genomes developed novel modification phylogenetic profiling method uses genome copy number each domain superfamily predict functional relationships
+our approach superfamilies subclustered at ten levels sequence identity 30 percent 100 percent phylogenetic profiles built at each level
+all profiles compared using normalised euclidean distances identify those correlated changes their domain copy number
+demonstrate two protein families will auto-tune strong co-evolutionary signals when their profiles compared at similarity levels capture their functional relationship
+our method finds functional relationships not detectable conventional presence absence profile comparisons does not require priori any fixed criteria define orthologous genes
+ introduction 
+comparison phylogenetic profiles orthologous proteins different species well-known powerful method detecting functionally related proteins
+approach assumes two functionally related proteins will been inherited eliminated codependent fashion through speciation
+therefore examining correlated presence absence patterns different genomes possible infer protein co-evolution functional relationship
+after original idea was published phylogenetic profile method was improved reinterpreted many different ways
+example: through application more complex logical rules associate compare protein profiles ; use domain profiles instead whole proteins ; refining algorithm ; integration species phylogenetic information 
+although phylogenetic profile method improved integrating new sources information all cases prediction quality method depends two critical steps: selection reference species sample determination proteins orthologues
+typically latter done using reciprocal best hits approach similarity determined blast algorithm e-value cutoff potential orthologues
+fact two steps different impacts prediction quality
+reference species problem avoided simply increasing sample size new genomes until certain number been reached
+however there many problems e.g determining orthology especially separation orthologues paralogues
+multigene families exist within one genome also exhibit functional overlap substitutability between members
+fact genes evolve at different rates due both uneven natural selection pressure their functions different species having different mutation rates e.g rodents accumulate point mutations more rapidly than apes implies evolutionary rates proteins may vary over several orders magnitude different gene families
+rate variation makes difficult choose single similarity e-value cutoff broadly applied identify those orthologues most likely retained similar functionality
+multigene family problem particularly challenging eukaryotic genomes wherein percentage genes present multiple homologous copies much higher than prokaryotic genomes
+however higher percentage multigene families not only problem makes more difficult correctly assign orthologous relationships eukaryotic species
+contrast prokaryotes accurate identification orfs complicated eukaryotes noise domain rearrangements more complex gene architectures higher presence noncoding regions
+furthermore eukaryotes there weaker correlation between number orfs phenotypic complexity organism
+probably due number reasons perhaps most significantly greater use rna-based regulatory mechanisms 
+developed novel modification phylogenetic profile method bypasses several problems especially orthology functional equivalence also perceived detection problem detect interacting multigene families
+method particularly applicable identifying functional networks eukaryotes so far proven intractable
+our approach based around protein domains since most elemental units protein function
+furthermore allows us bypass confusion caused domain rearrangements
+study used domain annotation gene3d database stores cath assignments complete genomes
+first key modification do not consider presence absence domains but number copies domain
+second key modification subcluster all domains at ten levels sequence identity 30 percent 100 percent
+then create profiles every domain family subclusters within enables identification distinct functional subgroups within domain families
+although clear there always exceptions any evolutionary model proposed co-evolutionary hypothesis implicit our model supposes gene copy number two functionally related protein clusters will vary related fashion
+our approach domain occurrence profiles built at many identity levels therefore expected two protein clusters will auto-tune significant correlation signal when their profiles compared at similarity levels retain their functional relationship
+therefore domain occurrence profiles were compared all against all identify correlations domain copy number variation all different identity levels
+our method found strong co-evolutionary signals amongst functionally related multigene domain families could not been predicted conventional presence absence comparison profiles proposed pellegrini et al 
+new approach number features make especially useful eukaryotic genome analysis
+firstly phylogenetic profiles based protein domains detect functional relationships not detectable using phylogenetic profiles whole proteins reducing noise protein domain rearrangements produce particularly eukaryotes
+secondly uses domain occurrence profiles instead presence absence profiles
+latter less effective eukaryotic genomes they do not account wide variation gene copy number observed eukaryotes
+thirdly method applied does not require priori any fixed e-value cutoff define orthologous groups
+because domain clusters built at several discrete identity levels method takes into account much variation uneven selection pressure produces sequence functional conservation

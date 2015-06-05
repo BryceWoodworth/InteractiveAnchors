@@ -1,0 +1,32 @@
+
+attention important complex environments where signals
+attention increases both power local field within field object
+however mechanisms activity if at all input signals not well
+propose statistics across neural populations
+using models neurons show how signals based population response statistics
+results give important between neural attention tasks where attention known performance
+further they show how responses not
+introduction
+past work both human subjects focused neural attention
+attention firing rate input output gain neurons visual response so relevant stimuli region
+also when stimuli field frequency components local field responses increase
+field potential likely correlated network activity simulations neurons
+attention thought influence networks involved
+correlated network cells making activity efficient signal
+would allow objects increase responses compared objects
+contrast role signal neural populations dynamics
+tasks where attention performance typically involve between different signals visual cues different
+although there large number studies how generated networks neurons mechanisms signal three aspects
+first relation between gain both
+second temporal relation between network time signal often
+third firing may due increased population activity
+popular framework neural number produced single population neurons information about signal
+however often show factor close even
+performance based
+certain situations factors much less than 1 observed visual
+case if high probability response relevant input signal then signal estimated small error
+addition just single during input also binary
+study model frequency simple population neurons
+show population statistics improve signal over range stimuli through reduced
+way propose between task performance found behavioral experiments
+our results both distinct previously described network behavior temporal

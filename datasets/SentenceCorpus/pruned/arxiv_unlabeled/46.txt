@@ -1,0 +1,18 @@
+
+approximation optimal given data through following i each step may take may not know when whether will at sequence models generated may not improve but model associated almost best
+individual models individual data sets rely complexity
+introduction
+machine learning applications because one define model because
+analyze aspects both power
+let us first problem our some involved
+process involves reduction entropy features learning problems main work
+when out they random
+thus entropy increasing order
+found
+both solve two same but they different strategies
+all according according assume no strategy efficient whereas strategy not fact even than random strategy
+strategy efficient since probability about same much greater than probability
+other hand information about only used relatively process
+effort time because must before solve
+example shows if solution problem depends finding reduction entropy does not mean every reduction entropy us solution
+reduction entropy not all cases good strategy

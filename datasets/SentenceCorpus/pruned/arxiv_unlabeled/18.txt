@@ -1,0 +1,72 @@
+
+consider agent environment
+every interaction cycle agent its performance
+compare average reward cycle average value future reward cycle value
+consider arbitrary sequences arbitrary reward sequences environments
+show provided both exist
+further if effective then existence limit limit exists
+if effective then existence limit limit exists
+introduction
+consider learning where agent environment
+cycle agent then makes observation reward both provided environment
+then next cycle
+assume agent environment
+typically one action sequences called agents result high reward
+measure performance total reward average reward called average value where should agent
+one problem often not known eg \ often time one let system depends its performance
+more measure whether agent high rewards early if values same
+natural choice consider limit
+while may finite
+consider agent no reward its first action then reward
+finite optimal action
+hence so reward agent actually always hence reward although value close 1 would agents
+more general limit may not even exist
+another approach consider
+cycle agent where increases eg \ being
+often used games like heuristic reward cycle small search tree
+while work practice lead optimal strategies i e \ agents change their
+consider example above
+every cycle better first then rather than
+but next cycle agent its original now choose
+pattern resulting no reward at all
+standard solution above problems consider reward
+one reward every cycle delay factor i e \
+policy consistent sense its actions optimal policy based
+at first there seems no arbitrary but
+rewards so effective
+while effective does not lead behavior
+every effective there task larger
+instance while sufficient
+there form solutions problems show any policy not
+
+there various limit comparing limit
+analysis typically exist
+but like limit policy limit policy very performance i e \ need choose fixed but how consider higher order terms
+also cannot
+finally value may not exist
+there little work other than
+literature been people one delay reward more if rewards now rather than later eg \ one
+so there some work sequences
+one show also leads if
+there any leading consistent
+generally value been introduced
+arbitrary environments leads consistent eg \ increasing effective i e \ optimal agent consistent way leads general particular even
+see more results
+only other analysis general but their analysis limited
+effective so also does not lead
+total average performance future performance key interest
+instance often do not know exact environment but learn past experience domain learning adaptive control theory
+would like learning agent well optimal agent environment
+subject study paper relation between general arbitrary environment
+importance performance measures general been discussed above
+there also clear need study general environments since real world e g \
+only sequence so exists
+our main result if both exist then they section theorem
+any sequence any environment reward sequence
+note limit may exist not independent whether exists not
+present examples four section
+under certain conditions existence existence
+show if related effective then existence existence their section theorem
+if effective then existence existence their section theorem
+note effective actually used prove first main result
+define provide some basic properties average value

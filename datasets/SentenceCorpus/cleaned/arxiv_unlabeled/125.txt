@@ -1,0 +1,23 @@
+ 
+identify classical perceptron algorithm margin member broader family large margin classifiers collectively call margitron
+margitron despite its sharing same update rule perceptron shown incremental setting converge finite number updates solutions possessing any desirable fraction maximum margin
+experiments comparing margitron decomposition svms tasks involving linear kernels 2-norm soft margin also reported
+ introduction 
+widely accepted larger margin solution hyperplane greater generalisation ability learning machine
+simplest online learning algorithm binary linear classification perceptron  does not aim at any margin
+problem instead finding optimal margin hyperplane lies at core support vector machines svms
+their efficient implementation however somewhat hindered fact they require solving quadratic programming problem
+complications encountered implementing svms respurred interest alternative large margin classifiers many based perceptron algorithm
+oldest algorithm appeared long before advent svms standard perceptron margin  straightforward extension perceptron however incremental setting known able guarantee achieving only up maximum margin dataset possesses
+subsequently various algorithms succeeded achieving larger fractions maximum margin employing modified perceptron-like update rules
+algorithms include romma  alma  cramma micra
+somewhat different approach hard margin one adopted most algorithms above was also developed focuses minimisation 1-norm soft margin loss through stochastic gradient descent
+there connection however between algorithms perceptron since their unregularised form constant learning rate identical perceptron margin
+notable representatives approach pioneer norma very recent pegasos
+question arises naturally attempt answer present work whether possible achieve guaranteed fraction maximum margin larger than while retaining original perceptron update rule
+end construct whole new family algorithms at least one member guaranteed convergence finite number steps solution hyperplane possessing any desirable fraction unknown maximum margin
+family algorithms classical perceptron margin naturally embedded will termed margitron
+hopefully algorithms belonging margitron family virtue being generalisations very successful perceptron will respectable performance various classification tasks
+section 2 contains some preliminaries description margitron algorithm
+section 3 devoted theoretical analysis
+section 4 contains our experimental results while section 5 our conclusions

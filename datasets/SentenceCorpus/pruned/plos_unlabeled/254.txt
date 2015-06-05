@@ -1,0 +1,71 @@
+
+position biological systems often through protein concentration
+local concentration protein distribution allows position within system
+systems work position must robust noise
+here fundamental position concentration due biochemical noise
+focus proteins reaction
+systems type been experimentally both cell biology settings
+single show through potentially even very low protein numbers
+second example investigate ability system find its
+mechanism close more increasing time so times higher numbers required high
+both single demonstrate existence optimal length scales well analyze how depends size
+results provide fundamental constraints concentration various including both biology also within single cell
+introduction
+determine position biological system some component within system must spatial distribution
+often through formation protein concentration
+typically when protein within small region
+local concentration position relative source determined
+biology where used control patterns gene expression proteins called
+however concentration also thought important single cells
+mechanism position must therefore robust noise
+one system another will
+rates
+physical size system will also may affect
+most previous analyses focused robustness changes factors between different system
+however there will also intrinsic noise within single system example due nature biochemical reactions involved
+into intrinsic components introduced into analysis stochastic gene expression
+however here intrinsic noise not only overall protein numbers but also protein distribution
+even if all variation could intrinsic biochemical noise would still lead fundamental limit position similar way protein concentration
+paper therefore address question how concentration information simple but relevant formation mechanism reaction
+quantitative measurements example system shown obtained
+understanding fundamental concentration important issue biology
+our results will relevant form within single cells where protein numbers few will lead large density
+properties protein been studied
+recently number been observed experimentally both systems
+factor cell membrane
+site selection
+complex also order direct site selection cell
+dynamics proteins cell
+using mechanisms site achieve 1 percent cell length
+cell cells also concentration
+example yeast protein concentration cell cell protein cell
+cells proteins formation growth
+may also play role activation between cell protein activation
+biological system identify particular position along its length cell
+examples complex essential cell protein cell membrane
+since higher cell cell
+below some critical threshold concentration will form
+where concentration within cell
+our analysis simply existence critical where signal
+any real cannot certain amount
+furthermore there will additional noise process actually concentration due both binding proteins receptor molecules also reactions process signal
+general noise output signal processing network noise input signal reactions processing network
+assume here processing network do not any noise input signal
+result our variation lower any real system will lower
+first considered system single source linear average concentration
+while model very simple remains relevant both
+been measured shown average high accuracy
+then expected distribution where concentration threshold
+cellular numbers few proteins system would identify correct threshold position single
+achieve position concentration must over time
+show measurements biological system able achieve position few percent system size even protein result computer simulations
+furthermore find position when particular choice length made
+also show how depends size
+possible after certain time depends only very size
+all results experimental measurements yeast
+also considered ability two identify system discussed above
+related also been proposed control
+before find system particular choice length
+however if threshold position set at system more than model
+find few proteins may therefore required high
+our results strongly possible proteins two systems

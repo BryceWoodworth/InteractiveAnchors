@@ -1,0 +1,27 @@
+ 
+paper propose spreading activation approach collaborative filtering sa-cf
+using opinion spreading process similarity between any users obtained
+algorithm remarkably higher accuracy than standard collaborative filtering cf using pearson correlation
+furthermore introduce free parameter regulate contributions objects user-user correlations
+numerical results indicate decreasing influence popular objects further improve algorithmic accuracy personality
+argue better algorithm should simultaneously require less computation generate higher accuracy
+accordingly further propose algorithm involving only top similar neighbors each target user both less computational complexity higher algorithmic accuracy \keywords{recommendation systems; bipartite network; collaborative filtering }
+ introduction 
+advent internet exponential growth world-wide-web routers confront people information overload
+facing too much data able effectively filter out pieces information most appropriate us
+promising way provide personal recommendations filter out information
+recommendation systems use opinions users help them more effectively identify content interest potentially overwhelming set choices
+motivated practical significance e-commerce society various kinds algorithms been proposed correlation-based methods  content-based methods  spectral analysis  principle component analysis  network-based methods  so
+review current progress see ref
+references therein
+one most successful technologies recommendation systems called collaborative filtering cf been developed extensively investigated over past decade
+when predicting potential interests given user approach first identifies set similar users past records then makes prediction based weighted combination those similar users' opinions
+despite its wide applications collaborative filtering suffers several major limitations including system scalability accuracy
+recently some physical dynamics including mass diffusion  heat conduction trust-based model  found their applications personal recommendations
+physical approaches been demonstrated both high accuracy low computational complexity
+however algorithmic accuracy computational complexity may very sensitive statistics data sets
+example algorithm presented ref
+runs much faster than standard cf if number users much larger than objects while when number objects huge advantage algorithm vanishes because its complexity mainly determined number objects see ref
+details
+order increase system scalability accuracy standard cf introduce network-based recommendation algorithm spreading activation namely sa-cf
+addition two free parameters presented increase accuracy personality

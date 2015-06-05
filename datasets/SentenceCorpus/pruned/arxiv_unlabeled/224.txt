@@ -1,0 +1,52 @@
+
+show learning convex body given random samples body requires samples
+learning convex body mean finding set having at most relative difference input body
+prove lower bound construct learn family convex
+our family very simple based error
+introduction
+consider following given random points convex body would like learn body few samples possible
+question paper number samples but not computational approximation
+our main result will show about samples
+problem special case statistical problem information about probability distribution samples
+example one approximate body sample size linear
+other hand sample size not approximate convex body within constant factor see section here
+note known approximation algorithms e g do not work setting they need random points various chosen input body
+our problem also work learning theory e g where one given samples generated according distribution each sample depending whether body
+different distributions another difference between learning setting one only positive examples
+give algorithm matching lower bound learning convex samples chosen according distribution
+their algorithm time they also show lower bound
+problem learning convex sets random samples them was
+they time algorithm learning
+another related direction work distributions
+our lower bound result like also allows
+note known convex requires number if algorithm learning requires number because if algorithm learn body then also estimate its
+define notion learning need distance between
+natural choice our setting consider total variation distance distribution each body see section
+will use term random convex body when random point
+lower bound constant
+similar possible our particular
+our compared
+furthermore our learn family
+our makes use error
+our knowledge error new may find further applications
+see section some further comparison } idea find large family convex two 1 any two family almost 2 yet they sense small sample random points any body one
+since any two almost even body would allow one determine
+will also approximate
+first construct family although not almost large difference
+will then able construct family almost taking first family
+first family natural described
+consider generalization convex vectors where vector
+its base its other normal through its
+if small then any subset will result convex
+will show later choose so all
+call family our different parameters but there does not any between problem studied there problem random point body family one if point one then present one
+therefore if number at most then one about most so algorithm cannot body
+but do not large difference small if two differ just one but them having difference at least large random
+will do will more binary length each value if value
+any two our family differ many their corresponding large distance
+large sets good error
+family obtain another family almost taking while property many random samples do not
+also known been used many times before particular but not its use setting similar
+our family also theory
+
+useful

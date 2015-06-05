@@ -1,0 +1,17 @@
+ 
+used multi-round two-party exchange game healthy subject played subject diagnosed dsm-iv disorder applied bayesian clustering approach behavior exhibited healthy subject
+goal was characterize quantitatively style play elicited healthy subject their dsm-diagnosed partner
+approach exploits dynamics behavior elicited healthy proposer biosensor cognitive features characterize psychopathology group at other side interaction
+using large cohort subjects found statistically significant clustering proposers' behavior overlapping range dsm-iv disorders including autism spectrum disorder borderline personality disorder attention deficit hyperactivity disorder major depressive disorder
+further validate results developed computer agent replace human subject proposer role show also detect same four dsm-defined disorders
+results suggest highly developed social sensitivities humans bring two-party social exchange exploited automated detect important psychopathologies using interpersonal behavioral probe not directly related defining diagnostic criteria
+ introduction 
+social interactions among humans reflect execution some most important complex behavioral software humans endowed
+consequently should expect computations involved human social exchange subtle perhaps even difficult expose study controlled settings
+however exposing computations crucial if improve our characterization understanding normal human cognitive function dysfunction
+recent years components social exchange healthy subjects been probed using interactive economic exchange games
+games typically involve two subjects interacting one multiple rounds through exchange monetary gestures one another
+our purposes here games require three classes computation intact functioning minds interacting subjects
+they require each subject compute norms what fair each exchange detect deviations monetary gestures deviate norms choose actions predicated deviations
+experimental probes been used previously area behavioral economics neuroeconomics but here show behavioral gestures elicited context economic exchange games used classify certain psychopathologies
+twist our effort here use data-driven approach examining reactions healthy partner kind biosensor while playing exchange game subject possessing psychopathology

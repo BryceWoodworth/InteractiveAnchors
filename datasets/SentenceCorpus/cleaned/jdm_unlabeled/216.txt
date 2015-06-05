@@ -1,0 +1,53 @@
+ 
+forecasting decision making people often do represent degree belief some proposition
+at least two separate constructs capture degrees belief likelihoods capturing evidential balance support capturing evidential weight
+paper explores weight justification evidence affords propositions subjects communicating using belief function hypothetical legal situations where justification relevant goal
+subjects evaluated impact sets numbernumber pieces evidence varying complexity within hypothetical legal situation
+study demonstrates potential usefulness evidential weight measure alternative complement more-studied probability measure
+subjects' responses indicated weight likelihood were distinguished subjects' evidential weight tended toward single elements targeted fashion there were identifiable individual differences reactions conflicting evidence
+specifically most subjects reacted conflicting evidence supported disjoint sets suspects continued support implicated sets although identifiable minority reacted pulling back their support expressing indecisiveness
+individuals would likely require greater amount evidence than others counteract tendency support
+thus study identifies value understanding evidential weight distinct likelihood informs our understanding psychology individuals' judgments evidential weight furthers application meaningfulness belief functions communication language
+ introduction 
+probabilities useful when acting absence complete knowledge e g forecasting decision making
+probabilities interpreted measures degrees likelihood assessed against criterion truth
+scoring rules assessments quality probability judgments operate perspective comparing likelihood assessments actual outcomes application truth criterion
+however very origins probability theory scholars recognized truth not only criterion potential interest interpreting probabilities
+smith benson curley tied recognition philosophical analysis knowledge number justified true belief number use probabilities qualifications beliefs fall short knowledge
+analysis highlights two separate criteria along beliefs may qualified truth justification
+theoretical distinction forms basis long-standing differentiation between pascalian probability based likelihood relative criterion truth baconian probability based support relative criterion justification
+
+distinction also basis common differentiation between weight balance evidence traced keynes played major role motivating study ambiguity decision-making beginning ellsberg
+short likelihoods intended capture balance evidence connected criterion truth
+if true not-a false
+degree evidence favors balance evidence moves toward away not-a equal measure
+weight evidence connected criterion justification
+weight depends upon quantity credibility evidence how much good evidence there
+how well does evidence afford any differentiation possibilities
+unlike evidential balance evidential weight does not imply complementarity
+probability theory when judgment one hypothesis increases sum judgments remaining hypotheses must decrease same amount
+truth one only one mutually exclusive set events occur thus likelihoods should exhibit complementarity probabilities capture feature
+contrast evidential weight construct grounded criterion justification not expected exhibit property
+increased support one possibility does not necessarily impinge support other possibilities
+belief functions dempster-shafer theory discussed paper justification-based measures do not incorporate complementarity necessary axiom
+one source confusion between constructs likelihood weight measures attached them constructs measures generally correlate
+useful analogy drawn here height weight two aspects size
+though measures correlate they capture distinct size constructs
+similarly probabilities measures likelihood belief functions measures justification may correlate but they capture different degree-of-belief constructs
+griffin tversky provided demonstration usefulness distinction showing how inclusion considerations weight addition balance evidence serve explain various empirical characteristics confidence judgments
+there number situations justification primary interest decision maker interest addition truth
+example justification interest legal settings where goal remove doubt stock analysis emphasis upon justifying recommendations clients diagnostic tasks truth not feasibly determinable e g within public policy debates scientific inference
+despite history their potential usefulness measures justification been little studied empirically been confounded measures likelihood
+research probably been somewhat hampered respective different natures truth justification
+probability theory capturing likelihoods benefits ultimate realization truth many instances applied because underpinnings randomization relative frequency historically derives
+application system used capturing justification use dempster-shafer theory purpose more equivocal about underlying theoretical mechanisms supporting judgments
+here argument applying dempster-shafer theory based correspondence between aspects evidential weight unique features theory e g its noncomplementarity natural representation ignorance i e case where no information present
+terms previous work using dempster-shafer theory most prior research system been theoretical example pursuing use belief functions propagating uncertainty ai expert systems addition instead using probabilities
+although sparse there some suggestive empirical work
+cited work griffin tversky directly extensive work effects ambiguity decision making indirectly testify relevance evidential weight decision behavior
+addition responses hypothetical legal contexts emphasize justification exhibit noncomplementarity degrees belief manner consistent tenets dempster-shafer theory
+briggs krantz adopted measurement perspective demonstrated judgments evidential strength separable
+subjects number showed clear separation relevant irrelevant evidence designated surrounding relevant evidence number p number
+sum results support value viability measuring evidential weight distinct more commonly assessed construct likelihood
+since likelihood judgments received more attention than weight judgments often confused them particular emphasis must placed distinction
+specifically important distinctions discussions literature need drawn separating justification-based measures present application dempster-shafer theory weak theories likelihood theory subjective probability called support theory

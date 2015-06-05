@@ -1,0 +1,51 @@
+
+proteins percent genome involved wide variety important biological processes including cell molecules cell recognition
+despite significant predict protein little attention been method together
+here present novel approach predict interactions finally optimal proteins
+using molecular dynamics data support vector machine classifier predict per percent accuracy
+information combined additional features second predict then used determine interaction up percent accuracy under test set
+our method also able up percent accuracy
+finally algorithm construct optimal proteins up
+available source
+introduction
+proteins percent proteins genome involved wide variety important biological processes including cell molecules cell recognition
+many also drug targets been estimated more than all target membrane proteins
+despite significant predict protein little attention been method together
+since region common alignment task should principle than predicting proteins constraints solution space three two
+however large numbers well structural features including simple approaches may work proteins predict now present structural
+early predict protein were based sequence similarity proteins known structure using derived environmental preference parameters combined experimentally determined features
+another method amino residues membrane proteins where was
+comparing observed obtained sequence regions residues could predicted
+combination method could then presence residues used construct model
+other methods also made use prediction combination existing framework protein structure prediction involving over selection
+however methods were only were other
+more recently version protein structure prediction method was model proteins
+based structural using algorithm order search conformational space highly protein structures
+membrane potential energy terms was derived statistical analysis data set proteins experimentally defined
+results obtained method small membrane proteins known structure showed could predict both at accuracy level
+despite good results complexity protein methods means use approaches large structures many than residues
+another protein program energy function described membrane interactions at level membrane interactions while explicitly
+results suggest model essential physical properties stability proteins structures small protein domains up residues predicted less than
+recent algorithm demonstrated at particular based local each proteins more complex could within structure
+prediction interactions derived only recently been investigated proteins due relative protein structures
+contrast number protein contact exist based variety machine learning algorithms contact prediction also been used protein models critical structure prediction experiment
+however analysis shown proteins contact perform when applied proteins most likely due differences between interaction motifs
+number studies identified structural sequence motifs during interaction proteins
+one pairs according their similarity three pairs into one motifs
+small every residues while structures showed similar tendency though at
+another study identified specific pattern was demonstrated interactions during while others include found motifs residues residues through formation
+discovery motifs likelihood there more yet suggests pattern search strategy
+recently two methods been developed predict interaction
+uses neural network combination data information predicted using method number protein specific features position within order predict interaction
+uses approach combination support vector machine classifier
+first level between per basis before second level structure contact all possible pairs predicted contact residues therefore high computational cost growth pair prediction
+here present novel method predict interactions finally optimal proteins
+using molecular dynamics data residues potentially classifier predict per percent accuracy
+information combined data variety features additional predict
+results information able predict interaction up percent accuracy under test set protein
+then tested ability method using set structures
+comparing our predictions test set were able identify up percent accuracy
+all performance significant over existing methods
+order global approach
+algorithm method while length attributes common structures
+finally genetic algorithm used order across

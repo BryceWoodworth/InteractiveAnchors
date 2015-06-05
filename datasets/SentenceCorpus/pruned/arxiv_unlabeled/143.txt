@@ -1,0 +1,131 @@
+
+paper propose learning
+framework where example described multiple associated
+multiple class
+compared learning
+framework more natural objects
+multiple
+learn examples propose
+algorithms based simple
+strategy experiments show problems involving objects
+multiple framework lead good performance
+process may information propose
+algorithm problems directly regularization
+framework
+moreover show even when do not real objects
+thus cannot more information real objects using
+representation still useful
+propose
+algorithms into
+representation learning while
+examples into representation learning
+experiments show
+some tasks they able achieve better performance than learning
+examples directly
+introduction
+learning object represented instance
+i e feature vector associated class
+let
+instance space feature space set class
+task learn function given data set
+where instance known
+although there many
+problems do not framework well
+particular each object
+framework only one concept therefore corresponding instance
+associated single class
+however many objects
+may multiple
+example image
+several classes eg
+etc several if
+different aspects eg novel
+even
+etc
+specific real
+task only one multiple
+
+example image when image may
+only concept instead other
+associated image
+difficulty here
+those objects involve multiple
+choose objects specific fundamental difficulty many tasks
+contrast large all possible involved task may subset associated object at first then make choice small subset later
+however subset class objects still task
+alternative object single instance
+many cases possible represent object using set
+example multiple image where each
+described instance thus image represented set
+multiple where each section described
+instance thus represented set multiple
+where each described instance
+thus represented set
+using multiple
+represent those objects may because some patterns
+related some may become
+paper propose learning
+framework where example described multiple associated
+multiple class
+compared learning framework more
+natural objects
+
+representation new learning algorithms needed
+propose
+algorithm algorithm based simple strategy
+experiments show problems involving objects multiple
+under framework lead good performance
+
+process may information also propose
+i e direct algorithm
+problems directly regularization framework
+experiments show
+algorithm algorithm
+some practical tasks do not real objects themselves
+real real instead given data where
+each real object been represented single instance
+thus cases
+cannot more information real objects using representation
+even situation however still useful
+propose
+i e instance algorithm into
+examples learning
+algorithm able achieve better performance than
+learning directly some tasks
+not because
+object associated multiple class if described only single
+instance information corresponding thus difficult
+if into set some
+ways information might some extent thus less
+difficult learning
+also learning objects
+propose
+i e discovery algorithm
+target concept at first then data into
+examples learning
+algorithm able achieve better performance than
+learning examples directly some tasks
+also not
+because corresponding concept may
+difficult learn concept directly since many different
+if into set corresponding some
+relatively learning learn
+at first then derive based them
+less difficulty
+paper follows
+section review
+some related work
+section propose framework
+
+section propose
+algorithms apply them tasks where objects represented examples
+section present algorithm compare
+algorithm
+
+study when do not real
+objects
+section propose
+algorithm show using better than learning
+section propose algorithm
+show using better than learning examples directly
+finally paper section

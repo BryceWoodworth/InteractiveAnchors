@@ -1,0 +1,47 @@
+
+expression genes through factor
+theoretical model based response network been previously proposed response changes concentration was observed but not
+model reactions involving molecular species among were through complex set reactions
+paper analyze previous model using combination mathematical tools out key components network explain how they response
+find behavior due under one pathway while other pathway genes under
+technique potentially useful larger networks
+introduction
+molecular
+number metabolic changes cell
+energy gene expression energy cellular allow energy despite
+molecular interaction response network been proposed basis conserved components between
+key network factor gene expression
+transcription factor one three different common also known
+system also directly sense level
+very likely species also involved necessary 2
+there three
+then protein
+response genes expression levels genes
+1 input output core network
+network characterized behavior increase when below critical value increase
+was observed experimentally many cell including cells cells increases concentration
+past two seen body work use mathematical modeling help both general molecular networks provide quantitative particular network may one sufficient predictive power model large cell
+sense et al response characteristics system involving molecular species related
+large model however does not identify smaller components actually response may occur other networks
+furthermore numerical solution does not provide type mathematical
+at same time solve type model reactions
+context methods both reduce system its key components not numerical solution
+pathway analysis one recently developed method
+method dynamics interactions between species network state gene represented either not
+genes through appropriate constant
+network then matrix interaction rules then help key components their dynamic behavior
+theory matrices then allows us vectors matrix ways further analysis
+technique particular vectors space solutions
+note similar methods analysis analysis been developed other
+they same results been
+methods provide way out complexity molecular networks
+our type matrix approach provide detailed quantitative analysis observed behavior models
+pathway identification via depends network detailed well numerical analysis model allows studies phase space unknown rate
+specifically first used our approach original network into several underlying pathways
+following make some solution
+show solution case network behavior
+comparing numerical output model numerical output complete model
+second paper particular mechanism pathway effect response concentration
+particular examine among pathways function concentration
+also identify key molecular species involved network show how response overall response thus
+our analysis suggests cycle efficient main role response

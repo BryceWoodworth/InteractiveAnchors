@@ -1,0 +1,28 @@
+
+taking perspective present paper two major existing approaches comparative model general strategy particular
+number consider error number global model
+using measures evaluate models makes assumption error associated model predictions random
+means simple examples show between random error approach model evaluation
+second approaches random versus error usually rely relative model model strategy most likely generated data
+however model best may still
+demonstrate taking model itself should describe data lead
+thus prior relative models necessary their thus
+finally value model discussed perspective
+introduction
+comparative evaluation theories issue fundamental importance all
+general many particular theory derived hypothesis empirical tests through
+although tests between models given predictions derived more common their comparison more
+specifically underlying assumptions predictions derived each particular model tested
+over time each model
+according classical model relevant tests
+question better theory model long model makes predictions critical tests
+there approach research been testing critical properties central assumptions single models
+indeed series conditions certain effects theories
+however testing properties single models been
+follows test specific hypothesis derived single model against number alternatives
+rather need compare alternative models directly
+popular approach several models directly compare terms their ability account empirical data
+one particular specific research strategy classification approach identify decision strategy individual most likely used
+following idea people set strategies models compared level individual subjects model description how decision
+current paper focus comparative model testing general more procedure strategy classification particular
+following notion good test theory one high theory identify two major existing approaches comparative model evaluation number between random error number global model

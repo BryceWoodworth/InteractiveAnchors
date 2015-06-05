@@ -1,0 +1,29 @@
+ 
+show how models prediction expert advice defined concisely clearly using hidden markov models hmms); standard hmm algorithms then used efficiently calculate among other things how expert predictions should weighted according model
+cast many existing models hmms recover best known running times each case
+also describe two new models: switch distribution was recently developed improve bayesian/minimum description length model selection new generalisation fixed share algorithm based run-length coding
+give loss bounds all models shed new light their relationships
+ introduction 
+cannot predict exactly how complicated processes weather stock market social interactions so will develop into future
+nevertheless people do make weather forecasts buy shares all time
+predictions based formal models human expertise intuition
+investment company may even want choose between portfolios basis combination kinds predictors
+scenarios predictors typically cannot considered ``true''
+thus may well end up position where whole collection prediction strategies experts  each whom some insight into some aspects process interest
+address question how given set experts combined into single predictive strategy good if possible even better than best individual expert
+setup follows
+let finite set experts
+each expert issues distribution next outcome given previous observations
+here each outcome element some countable space  random variables written bold face
+probability expert assigns sequence outcomes given chain rule:
+standard bayesian approach combine expert predictions define prior experts induces joint distribution mass function
+inference then based joint distribution
+compute example: marginal probability data  b predictive distribution next outcome  defines prediction strategy combines those individual experts c posterior distribution experts  tells us how experts' predictions should weighted
+simple probabilistic approach advantage computationally easy: predicting outcomes using experts requires only time
+additionally bayesian strategy guarantees overall probability data only factor smaller than probability data according best available expert
+flip side strategy never do any better than either:  means potentially valuable insights other experts not used our advantage
+more sophisticated combinations prediction strategies found literature under various headings including bayesian statistics source coding universal prediction
+latter experts' predictions not necessarily probabilistic scored using arbitrary loss function
+paper consider only logarithmic loss although our results undoubtedly generalised framework described eg \
+introduce hmms intuitive graphical language allows unified description existing new models
+additionally running time evaluation models read off directly size their representation

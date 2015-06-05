@@ -1,0 +1,21 @@
+
+present algorithm called learning make decisions situations where payoff only one choice observed rather than all choices
+algorithm setting binary classification one any existing binary classification algorithm information setting
+show tree optimal reduction binary classification
+particular regret at most times regret binary classifier uses where number choices no reduction binary classification do better
+reduction also optimal both at training test time just work example make prediction
+experiments show generally better than several alternative approaches
+introduction
+paper about learning make decisions feedback settings where payoff only one choice observed rather than all choices
+example consider site other based history search unique unique every decision
+after either not
+type feedback standard learning setting since whether not would had different instead
+online version problem policy uses observed feedback improve its future choices
+good solution problem must explore different choices feedback
+problem site however more complex
+they observed many interactions would like them initial policy may then further online
+since decisions been made online solutions not
+use data need methods learning feedback
+paper about family algorithms learning feedback settings
+since any solution policy form algorithm online learning setting algorithm proposed here also used online
+indeed some our experiments online setting

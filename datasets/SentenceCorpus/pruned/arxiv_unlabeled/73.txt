@@ -1,0 +1,57 @@
+
+consider agent environment
+at each time agent makes observation action cost
+its actions influence future observations
+goal average cost
+propose novel algorithm known active algorithm optimal control based universal data prediction
+under active algorithm if there exists future independent past given actions observations then average cost
+experimental results involving game algorithm
+introduction
+agent at each time makes observation finite observation space action selected finite action space
+agent cost
+goal average cost here over process at each time action selected function prior observations prior actions
+will propose general strategy called active algorithm
+addition new strategy primary paper theoretical strategy optimal average cost under assumptions about environment
+main assumption there exists future independent past given actions observations
+other words } where transition kernel generated
+particularly situations where even known agent
+where there finite but unknown history
+consider following examples into above
+optimization problem find sequence functions where each function at time so average assume source markov order but both transition probabilities source order unknown
+setting define observation at time vector action at time
+then optimal problem at hand within our framework
+knowledge kernel even just order kernel average cost optimal policy either examples above via dynamic methods relatively
+paper algorithm without knowledge kernel its order average cost
+active algorithm develop two components
+first efficient data structure context tree process information relevant predicting observation at time given history available up time action selected at time
+our prediction algorithm data
+second component our algorithm dynamic given probabilistic model determined context tree actions so over long
+knowledge order kernel two tasks context tree order estimate kernel actions important between
+particular one hand algorithm must actions manner accurate context tree
+other hand selection
+two our algorithm average cost optimal policy full knowledge kernel
+related problems been considered literature
+present algorithm learning markov decision process
+algorithm applied our context when known
+more recently et al \ present algorithm optimal control markov decision processes more general setting than what consider here able theoretical bounds convergence time
+algorithm there however seems difficult contrast what present here
+further knowledge constant related amount time policy requires achieve
+constant may estimate
+work optimal control framework where dynamics environment not known one best finite set
+contrast our problem thought set all possible strategies
+prediction problem loss functions memory source considered et al \ markov decision problem authors point case structure loss function order underlying markov process
+active algorithm algorithm
+algorithm been extended address many problems prediction
+almost all cases however future observations not actions taken algorithm
+contrast active algorithm effect actions future observations
+work special case our
+algorithm its context tree data structure observations made
+data structure simple point view
+use data structure learning state belief state used learning literature
+data structures useful experience algorithms applications prediction
+understanding whether how some value extended learning paper
+paper follows
+section our problem
+section present our algorithm provide computational results context example
+our main result theorem section algorithm optimal
+section

@@ -1,0 +1,32 @@
+
+algorithm selection typically based models algorithm performance learned during training sequence
+recent work online approach performance model used selection sequence problem
+resulting was represented problem using existing game but required setting arbitrary bound algorithm thus optimal regret
+paper propose framework algorithm selection problem information unknown bound losses
+existing game bound its expected regret also resulting algorithm selection technique
+present experiments set
+introduction
+research machine learning us variety alternative algorithms many problems
+algorithms often performance quality computational cost depending particular problem instance being other words there no single algorithm
+while approach still most popular algorithm selection not new form consistent dynamic field research area
+many selection methods learning large training set performance data different algorithms assumed
+data used learn model problem algorithm pairs expected performance some probability distribution performance
+model later used each new problem instance only algorithm expected give best results
+while approach might actually computational cost initial training sample performance data via set training problem each instance at least each available algorithms more if algorithms
+furthermore training assumed future ones model not after training
+other words there between algorithm different problem at learning model best based predictions
+typically algorithm selection size training set chosen
+our previous work online view algorithm selection only input available set algorithms unknown performance sequence problem
+rather than problem set into training test set model each time instance use algorithm selection next instance
+problems theoretical framework online setting
+one important application problem algorithm selection most existing assume bound losses available
+issue bound
+paper introduce existing problem allows unknown bound losses while bound expected regret
+allows us propose version algorithm selection framework introduced
+result online algorithm selection method first our knowledge bound regret
+paper follows
+section algorithm selection methods along few examples literature
+section our framework algorithm selection problem introduction higher level selection among different algorithm selection techniques time
+section problem loss games along its bound regret
+section experiments
+section paper

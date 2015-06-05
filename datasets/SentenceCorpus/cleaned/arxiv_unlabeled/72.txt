@@ -1,0 +1,48 @@
+ 
+given sample covariance matrix examine problem maximizing variance explained linear combination input variables while constraining number nonzero coefficients combination
+known sparse principal component analysis wide array applications machine learning engineering
+formulate new semidefinite relaxation problem derive greedy algorithm computes full set good solutions all target numbers non zero coefficients total complexity  where number variables
+then use same relaxation derive sufficient conditions global optimality solution tested per pattern
+discuss applications subset selection sparse recovery show artificial examples biological data our algorithm does provide globally optimal solutions many cases
+ introduction 
+principal component analysis pca classic tool data analysis visualization compression wide range applications throughout science engineering
+starting multivariate data set pca finds linear combinations variables called principal components  corresponding orthogonal directions maximizing variance data
+numerically full pca involves singular value decomposition data matrix
+one key shortcomings pca factors linear combinations all original variables; most factor coefficients loadings non-zero
+means while pca facilitates model interpretation visualization concentrating information few factors factors themselves still constructed using all variables hence often hard interpret
+many applications coordinate axes involved factors direct physical interpretation
+financial biological applications each axis might correspond specific asset gene
+problems natural seek trade-off between two goals statistical fidelity explaining most variance data interpretability making sure factors involve only few coordinate axes
+solutions only few nonzero coefficients principal components usually easier interpret
+moreover some applications nonzero coefficients direct cost \eg transaction costs finance hence there may direct trade-off between statistical fidelity practicality
+our aim here efficiently derive sparse principal components  i
+e set sparse vectors explain maximum amount variance
+our belief many applications decrease statistical fidelity required obtain sparse factors small relatively benign
+what follows will focus problem finding sparse factors explain maximum amount variance written: \max_{ \| z \| 1 } z^t z  \card(z variable  where symmetric positive semi-definite sample covariance matrix parameter controlling sparsity denotes cardinal norm  i e number non zero coefficients
+while pca numerically easy each factor requires computing leading eigenvector done  sparse pca hard combinatorial problem
+fact show subset selection problem ordinary least squares np-hard  reduced sparse generalized eigenvalue problem sparse pca particular intance
+sometimes ad hoc ``rotation'' techniques used post-process results pca find interpretable directions underlying particular subspace see 
+another simple solution threshold loadings small absolute value zero
+more systematic approach problem arose recent years various researchers proposing nonconvex algorithms e g  scotlass  slra d c based methods find modified principal components zero loadings
+spca algorithm based representation pca regression-type optimization problem  allows application lasso  penalization technique based norm
+exception simple thresholding all algorithms above require solving non convex problems
+recently also derived based semidefinite relaxation sparse pca problem  complexity given
+finally used greedy search branch-and-bound methods solve small instances problem  exactly get good solutions larger ones
+each step greedy algorithm complexity  leading total complexity full set solutions
+our contribution here twofold
+first derive greedy algorithm computing full set good solutions one each target sparsity between 1  at total numerical cost based convexity largest eigenvalue symmetric matrix
+then derive tractable sufficient conditions vector global optimum 
+means practice given vector support  test if globally optimal solution problem  performing few binary search iterations solve one dimensional convex minimization problem
+fact take any sparsity pattern candidate any algorithm test its optimality
+paper builds earlier conference version  providing new simpler conditions optimality describing applications subset selection sparse recovery
+while there certainly case made penalized maximum eigenvalues \`a la  strictly focus here formulation
+however was shown recently see  among others there fact deep connection between constrained extremal eigenvalues lasso type variable selection algorithms
+sufficient conditions based sparse eigenvalues also called restricted isometry constants  guarantee consistent variable selection lasso case sparse recovery decoding problem
+results derive here produce upper bounds sparse extremal eigenvalues thus used prove consistency lasso estimation prove perfect recovery sparse recovery problems prove particular solution subset selection problem optimal
+course our conditions only sufficient not necessary would contradict np-hardness subset selection duality bounds produce sparse extremal eigenvalues cannot always tight but observe duality gap often small
+paper organized follows
+begin formulating sparse pca problem section
+section  write efficient algorithm computing full set candidate solutions problem  total complexity
+\mysec{semidefinite} then formulate convex relaxation sparse pca problem use section derive tractable sufficient conditions global optimality particular sparsity pattern
+section detail applications subset selection sparse recovery variable selection
+finally section  test numerical performance results

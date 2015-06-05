@@ -1,0 +1,11 @@
+ 
+% conventional supervised pattern recognition tasks model selection typically accomplished minimizing classification error rate set so-called development data subject ground-truth labeling human experts some other means
+context speech processing systems other large-scale practical applications however labeled development data typically costly difficult obtain
+article proposes alternative semi-supervised framework likelihood-based model selection leverages unlabeled data using trained classifiers representing each model automatically generate putative labels
+errors result automatic labeling shown amenable results robust statistics turn provide minimax-optimal censored likelihood ratio tests recover nonparametric sign test limiting case
+approach then validated experimentally using state-of-the-art automatic speech recognition system select between candidate word pronunciations using unlabeled speech data only potentially contain instances words under test
+results provide supporting evidence utility approach suggest may also find use other applications machine learning
+ introduction 
+\ieeeparstart{t}{his} article develops simple powerful likelihood-ratio framework enables use unlabeled development data model selection system optimization context large-scale speech processing
+within speech engineering community acoustic likelihoods long played prominent role both training criterion objective function aid system development
+log-likelihood ratios turn featured ever more prominently areas speech speaker language recognition; instance now common practice ``target'' model likelihoods compared those universal ``background'' model part many large-scale speech processing systems

@@ -1,0 +1,35 @@
+ 
+important open problem how values compared make simple choices
+natural hypothesis brain carries out computations associated value comparisons manner consistent drift diffusion model ddm since model been able account large amount data other domains
+investigated ability four different versions ddm explain data real binary food choice task under conditions high low time pressure
+found seven-parameter version ddm account choice reaction time data high-accuracy both high low time pressure conditions
+changes associated introduction time pressure could traced changes two key model parameters barrier height noise slope drift process
+ introduction 
+drift diffusion model ddm one cornerstones modern psychology increasingly behavioral neuroscience
+model received increased attention over last years several reasons
+first provided more accurate descriptions accuracy reaction time data than alternative models wide range psychological tasks including perceptual discrimination go-no-go tasks
+second model special case many its competitors sign its generality
+finally model been applied explain neurophysiological data various perceptual discrimination tasks compelling neuronal interpretation
+important open problem behavioral neuroscience how brain compares values make simple choices
+problem particularly interesting because there ample evidence suggesting comparison process not deterministic does not always choose best option
+success ddm realm perceptual decision making lead several groups neuroeconomics speculate same computational model might used brain make simple value based choices
+type choice refers situations brain chooses among several possible stimuli associated different reward values at consumption e g alternative food items assigning value every item under consideration comparing values select one them
+paper investigates extent ddm explain accuracy reaction time data real simple food choices
+subjects made real choices between pairs appetitive snack foods had eat food they chose randomly selected trial
+task conceptually similar previous experiments perceptual discrimination human subjects had decide two stimuli was brightest
+key difference our experiment our subjects made choices between stimuli associated different levels reward at consumption instance value-based choice
+interesting ask whether both types tasks described same computational model because given large degree specialization brain there no priori reason same algorithms would used perceptual reward domains
+compare four different versions ddm vary number free parameters they contain whether barriers constant decrease time speed up decision making
+since best fitting model likely depend speed decisions made carry out separate model fitting comparisons two different time pressure experimental conditions allow us identify aspects ddm responsible any changes performance
+found popular seven-parameter version ratcliff ddm model account data high-accuracy both high low time pressure conditions
+furthermore also found changes associated introduction time pressure could traced changes two key model parameters barrier height noise slope drift process
+understanding conditions under ddm explain behavioral data simple value based choice important several reasons
+first necessary first step exploring extent model account underlying neural computations
+second since ddm been shown provide accurate description data other domains finding ddm also provides good computational description value-based choices provides insight into nature some basic algorithms might at work many different psychological processes
+best our knowledge performance ddm not been tested before realm value-based choice although been extensively tested other realms
+fact best our knowledge provided accurate quantitative characterization key aspects data every domain been applied
+example ddm been tested human non-human primates using newsome-shadlen random dot motion perceptual discrimination task
+few studies explored ability models related ddm explain various common choice patterns
+example several studies explored ability decision field theory variant ddm account patterns choice multi-attribute settings choices among lotteries but not provided full experimental test against data
+other studies investigated ability competing accumulator model accomplish similar goals
+although previous studies shown relatively simple computational models decision-making account some stylized facts behavioral literature their full properties realm simple value based choice not been investigated

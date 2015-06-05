@@ -1,0 +1,46 @@
+
+cells via important regulatory process required many essential cellular functions
+role interactions pathway cells remains
+membrane together evolution address how formation membrane presence
+our results identify unique role protein multiple play role addition role binding membrane
+our results also suggest important role spatial
+suggest there exists critical size above
+based observed strong suggest due membrane cell type explain experimentally observed size typically range
+our model also provides estimates number involved without any direct experimentally observed well their probability distributions well cell experiments
+presented model several experimental observations process prior dependent
+introduction
+cellular process important biological regulation cells well drug
+cells via important regulatory process required many essential cellular functions including communication
+several experimental well theoretical mechanisms yet role interactions pathway cells remains
+sequence molecular events protein 2 proteins etc protein membrane
+proteins membrane
+presence proteins results formation proteins both well
+step
+even though play important role process s cells at best small effect
+focus
+recent work membrane only presence
+experiments performed expression well those involving either significantly number distribution involved formation
+although cells remains complex regulatory process critical set experiments now models describe formation
+even though models directly experimental context not been proposed et al yeast
+moreover et al shown model two component response between two components membrane et al investigated effect protein domain formation biological
+recent current experimental membrane also available
+model our focus three proteins their role cell membrane
+cells set proteins often mechanisms
+our choice model proteins proteins proteins
+recent experiments reported characteristics growth was observed occur but only within elements
+cell domains appear
+was observed only region following growth phase addition at rate about one every 2 s
+two possible they either into they about suggests
+while do not consider process growth based above observations study process one presence finite size membrane free elements subject condition at
+our model cell membrane not value our derived literature
+respect describe model membrane phase effective properties
+our model also sense just one effect not
+our model does not account mechanism
+form interactions using free energy process
+based data formation estimated relative
+energy per bound domain 2 groups membrane binding energy per bound domain energy
+interactions membrane require presence about 1 percent total cell membrane
+produce d area required d 2 2
+area per 2 number molecules membrane area 1 percent
+hence note binding sites binding sites hence sufficient number corresponding binding sites present domain
+not explicitly species our model

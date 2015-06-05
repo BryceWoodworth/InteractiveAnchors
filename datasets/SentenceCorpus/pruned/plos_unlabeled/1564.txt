@@ -1,0 +1,26 @@
+
+protein dynamics often described free energy considered function one few reaction
+however number experiments models show when reaction protein dynamics
+question whether used description dynamics
+here construct reaction long model protein
+dynamics while dynamics same reaction
+show higher free energy reaction more dynamics become when
+results suggest whether dynamics depends chosen reaction
+protein described free energy function reaction
+reaction even though they might based physical often hence show dynamics
+introduction
+free energy one small number often used describe properties complex systems very large number
+studies protein important case where type been introduced number been used
+protein then described free energy
+dynamics characterized means time formula where d
+single reaction dynamics free energy free energy function based free energy
+good reaction
+many cases standard variables not good reaction because they do not thus may complexity latter
+number methods construct good reaction been suggested
+one derive describe system dynamics reaction
+contains memory kernel leads dynamics
+characterized mean than formula formula
+dynamics case one memory kernel not since requires solution
+memory correlation functions proteins was observed experimentally
+question whether dynamics proteins described simple free energy often if one use more state space networks
+here show if reaction then dynamics while same dynamics

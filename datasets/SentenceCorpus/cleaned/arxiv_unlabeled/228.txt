@@ -1,0 +1,30 @@
+ 
+experimental verification been method choice verifying stability multi-agent reinforcement learning marl algorithm number agents grows theoretical analysis becomes prohibitively complex
+cooperative agents where ultimate goal optimize some global metric stability usually verified observing evolution global performance metric over time
+if global metric improves eventually stabilizes considered reasonable verification system's stability
+main contribution note establishing need better experimental frameworks measures assess stability large-scale adaptive cooperative systems
+show experimental case study where stability global performance metric rather deceiving hiding underlying instability system later leads significant drop performance
+then propose alternative metric relies agents' local policies show experimentally our proposed metric more effective than traditional global performance metric exposing instability marl algorithms
+ introduction 
+term convergence  reinforcement learning context refers stability learning process underlying model over time
+similar single agent reinforcement learning algorithms q-learning  convergence multi-agent reinforcement learning marl algorithm important property received considerable attention
+however proving convergence marl algorithm via theoretical analysis significantly more challenging than proving convergence single agent case
+presence other agents also learning deem environment non-stationary therefore violating foundational assumption single agent learning
+fact proving convergence marl algorithm even 2-player-2-action single-stage games arguably simplest class multi-agent systems domains been challenging
+consequence experimental verification usually method choice number agents grows theoretical analysis becomes prohibitively complex
+cooperative agents researchers typically verified stability marl algorithm observing evolution some global performance metric overtime
+not surprising since ultimate goal cooperative system optimize some global metric
+examples global performance metrics include percentage total number delivered packets routing problems  average turn around time tasks task allocation problems  average reward received agents general
+if global metric improves over time eventually appears stabilize usually considered reasonable verification convergence
+even if underlying agent policies not stable one could argue at end global performance all matters cooperative system
+paper challenges above widely-used practice establishes need better experimental frameworks measures assessing stability large-scale cooperative systems
+show experimental case study where stability global performance metric hide underlying instability system
+hidden instability later leads significant drop global performance metric itself
+propose alternative measure relies agents' local policies: policy entropy
+experimentally show proposed metric more effective than traditional global performance metric exposing instability marl algorithms large-scale multi-agent systems
+paper organized follows
+section describes case study will using throughout paper
+section reviews marl algorithms particular focus wpl giga-wolf two algorithms use our experimental evaluation
+section presents our initial experimental results where global performance metric leads misleading conclusion marl algorithm converges
+section presents our proposed measure illustrates how used expose hidden instability marl algorithm
+conclude section

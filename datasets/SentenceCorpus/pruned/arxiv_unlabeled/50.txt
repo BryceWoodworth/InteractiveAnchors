@@ -1,0 +1,76 @@
+
+sequential decision theory problem rational agents if true environmental prior probability distribution known
+theory universal problem sequence prediction unknown prior distribution
+both theory universal
+give strong resulting model most agent possible
+how model solve number problem classes including sequence prediction games function learning
+major model
+problem construct algorithm still more than any other time length agent
+time order
+order problem theory other approaches
+introduction
+article introduction mathematical theory
+present model optimal learning agent arbitrary unknown environment
+may defined systems their analysis
+natural system input output
+more
+many like problems pattern recognition classification learning optimization environment processing knowledge many more
+every however seems difficult
+most if not all known more some utility function
+therefore sufficient study eg \ biological goal humans
+goal systems should useful humans
+problem special cases know utility function environment agent will
+mathematical theory solve problems
+assume computational
+first important observation does not make problem
+problems become but nature
+because itself latter problems not algorithm
+other problem not yet been well defined
+one may view mathematical
+universal theory sequential decision making universal theory
+derived optimal way predicting future data given previous provided data probability distribution
+approach optimal decision making agent unknown environment
+main idea unknown environmental distribution universal distribution
+state space space complete
+universal theory without parameters making no assumptions about environment distribution
+complexity perspective model optimal universal case active agents
+perspective new algorithm may all computational problems previous learning algorithms
+there strong most agent possible
+number problem classes including sequence prediction games function learning how model solve them
+major model
+problem construct algorithm still more than any other time length agent
+time order
+other discussed order relation problem theory other approaches
+article introduction model
+treatment many see section at end particular
+section also provides original information theory sequential decision theory
+theory sequential decisions very general form called model actions may depend arbitrary past events
+discuss parameters including size agent their universal choice
+
+how sense possible at all been subject long
+principle multiple probability theory
+all aspects into one theory inference based universal probability distribution related complexity length program
+convergence unknown true environmental distribution loss bounds arbitrary loss functions finite shown
+sense there no other predictor better all environments better at least one also shown
+view results problem sequence prediction optimal solution
+active case learning algorithms usually used if unknown
+they if state space either small been made small generalization techniques
+algorithms work only e g \ domains problems versus learning rate
+solution proposed here universal prior include action conditions model resulting model optimal
+investigate what optimal agent universal optimal etc
+other discussed order relation problem
+show how number problem classes into general model
+they include sequence prediction games function learning
+first each problem class its natural way known then construct within model show their
+then consider
+main goal understand sense problems
+major more only makes
+problem construct model still any other time length algorithm
+time order
+solution requires universal machine within theory system
+finally discuss some general interest
+various including actions choice treatment information agents
+further research including approximation knowledge training
+also include some number
+
+other work

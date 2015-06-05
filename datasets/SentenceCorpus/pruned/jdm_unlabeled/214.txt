@@ -1,0 +1,44 @@
+
+study whether probability observed when individuals presented series choices between real outcomes
+our estimation parameters probability function proposed similar those obtained previous studies choice negative payoffs negative payoffs
+addition common choice behavior
+our results provide evidence probability general phenomenon independent source
+introduction
+expected utility theory standard theoretical model choice under risk used analysis
+utility linear probability each possible outcome
+while modeling number experiments called into question model choice under risk see review literature
+other hand probabilities function where provide good empirical available experimental data
+low probabilities high probabilities
+recognition empirical support probability key assumption several theories choice under risk including theory rank dependent expected utility theory theory
+particularly phenomenon probability common
+consider two individual utility function
+first payoff number probability p payoff probability second number probability p
+assumption expected utility theory individual who first over second one must also choose probability p over probability p
+if greater than then greater than
+common result probability later out been found domain positive payoffs involving outcomes
+empirical support underlying probability common experimental studies all outcomes involve
+however many decisions involve losses
+examples include decision choose among alternative another person
+few studies decisions domain losses they used one two techniques negative payoffs
+some studies researchers use payoffs examples include
+other studies participants given real at experiment real losses initial examples include et al
+however many real life decisions involve negative outcomes not
+consider cancer who asked make choice between two involve between probabilities different states health e g versus
+another example decision case reduced
+choice between over time
+however exists when decisions over outcomes how do real outcomes type
+some authors used stimuli investigate other decision making
+example et al used well having subjects place their study effects preferences
+et al required individuals study decisions good negative value
+paper use negative payoffs
+good measure almost would rather
+addition means use reward experiment
+larger either than smaller one
+fixed current therefore its
+furthermore our simple decision task described below given levels applied our experiment differences between levels alternative choices large between alternatives
+physical also other individual cannot other individuals
+paper consider whether phenomenon probability particular pattern probability observed when people involve whether common been observed involving positive also appear our setting
+addition although probability predict complex pattern out probability particular consider see more risk aversion when better i e when there lower overall means would tend
+find both probability common features our data
+probability parameter estimate very similar those observed decisions over negative payoffs
+results suggest similar process probability choice both outcomes when payoffs negative

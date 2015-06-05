@@ -1,0 +1,45 @@
+
+two aspects data analysis data often
+properties
+methods often used identify structure interest
+popular methods those
+based dimension provide results even
+simple learning problems binary classification two
+settings
+paper develop learning methods
+used provide sample complexity bounds
+binary classification problem two popular settings
+particular provide bounds sample complexity maximum
+when feature vector
+according power also when learning performed
+kernel
+both results rely entropy
+space
+provide bound demonstrate our technique
+case when measured respect more
+general space
+latter result potential interest cases where modeling
+relationship between data elements space
+too
+introduction
+two aspects data analysis data often
+properties
+methods often used identify structure interest
+strong assumptions data
+popular methods those based
+dimension provide results even simple learning
+problems binary classification two settings
+at both situations data
+very high without additional
+assumptions data there may small number
+data points
+paper develop learning methods
+used provide sample complexity bounds
+maximum version binary classification problem
+two popular settings
+both cases
+able obtain optimal linear classification since
+tools able control
+effect data points
+particular our results will even though data may
+

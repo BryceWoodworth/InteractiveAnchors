@@ -1,0 +1,37 @@
+
+evolutionary dynamics during phase response through drug treatment
+understand model evolution parameters genetic selection need known
+while mutation rates measured single relevant effective rate depends probability cell more than one only population data
+however most population genetic rates assume selection hence limited since positive selection important evolution
+yet little known about distribution selection between individual impact single
+here estimate rate distribution selection time series sequence data evolution within single patients
+temporal changes genetic population estimate effective per site
+furthermore provide evidence selection at least percent observed percent per
+results provide basis more detailed understanding evolution
+particularly case evolution response drug treatment where multiple mutations
+methods developed here more more detailed studies will possible data higher time greater sample available
+introduction
+human among most known system
+after patients typically several years during present at low levels typically at formula formula per
+number produced estimated formula per time less than two
+due high mutation rate formula per site sequence within single formula percent within few years increases formula percent per although rate not constant
+subject positive selection novel not system reduce sensitivity well selection functional constraints
+addition high rates strong selection genomes different within same genetic information
+form cell two more contain two rna different
+next genomes generated while
+been shown significantly genetic within
+cases several give novel become part global
+observation after change drug suggests might play important role evolution drug predicted theoretical models
+amount up evolution drug depends parameters population dynamics many not known sufficient accuracy
+estimates rate shown about formula times while genome resulting rate formula per site
+however rate only secondary importance since generate only if contains two rna different requires cells
+effective rate therefore rate probability single cell
+effective rate been estimated based methods developed population
+methods use single sample sequences obtained population estimate rate tree sequence sample
+together estimate mutation rate allows estimate rate real time
+et al report estimate formula per site almost cells
+here present different method estimate rates sequence data been obtained patients at
+comparing sequence samples time points estimate rates distance time probability between pairs sites
+find effective rate formula per site
+furthermore estimate selection rate at change
+find about percent observed selected than formula percent per

@@ -1,0 +1,60 @@
+ 
+eukaryotes interphase nucleus organized morphologically and/or functionally distinct nuclear compartments
+numerous studies highlight functional relationships between spatial organization nucleus gene regulation
+raises question whether nuclear organization principles exist if so whether they identical animal plant kingdoms
+addressed issue through investigation three-dimensional distribution centromeres chromocenters
+investigated five very diverse populations interphase nuclei at different differentiation stages their physiological environment belonging rabbit embryos at 8-cell blastocyst stages differentiated rabbit mammary epithelial cells during lactation differentiated cells arabidopsis thaliana plantlets
+developed new tools based processing confocal images new statistical approach based g f distance functions used spatial statistics
+our original computational scheme takes into account both size shape variability comparing each nucleus observed distribution against reference distribution estimated monte-carlo sampling over same nucleus
+implicit normalization allowed similar data processing extraction rules five differentiated nuclei populations three studied biological systems despite differences chromosome number genome organization heterochromatin content
+showed centromeres/chromocenters form significantly more regularly spaced patterns than expected under completely random situation suggesting repulsive constraints spatial inhomogeneities underlay spatial organization heterochromatic compartments
+proposed technique should useful identifying further spatial features wide range cell types
+ introduction 
+eukaryotes interphase nucleus organized into distinct nuclear compartments defined macroscopic regions within nucleus morphologically and/or functionally distinct their surrounding
+complex relationships between spatial organization compartments regulation genome function been previously described
+furthermore changes nuclear architecture among most significant features differentiation development malignant processes
+thus findings question whether topological landmarks and/or nuclear organization principles exist if so whether architectural principles identical animal plant kingdoms
+investigate nuclear organization principles multidisciplinary approaches required based image analysis computational biology spatial statistics
+spatial distributions several compartments proteinaceous bodies genomic domains been analyzed
+chromosome territories areas genetic content individual chromosomes confined usually radially distributed gene-rich chromosomes more centrally located than gene-poor chromosomes
+some studies report chromosome size could also influence ct location
+centromeres may close nuclear periphery those located chromosomes bearing ribosomal genes generally tethered nucleolar periphery
+transcription sites well early replicating foci assumed correspond active chromatin more centrally located whereas inactive heterochromatin tends at nuclear periphery
+at finer level active genes widely separated cis located different chromosomes colocalize active transcription sites whereas proximity centromeric heterochromatin nuclear periphery generally associated gene silencing
+changes transcriptional status genes been frequently associated their repositioning nucleus relative their cts nuclear periphery repressive centromeric heterochromatin
+furthermore large reorganization nuclear architecture accompany some differentiation development malignant processes natural variations 
+however still remains difficult extract common rules establish comparisons due various limitations
+indeed most data been gathered limited sets nuclear elements isolated plant cell nuclei nuclei immortalized animal cell lines outside their physiological environment except circulating blood cells
+little known about possible differences nuclear organization cells within their tissue
+some studies compared nuclear organization primary cells versus cell lines cell lines versus tissues 2d culture versus 3d cultures; studies suggested tissue architecture involved control nuclear organization
+addition data nuclear organization plant cell nuclei situ rare
+finally few three-dimensional studies quantitative measures been performed investigate spatial nuclear organization 
+statistics used analyze data were mostly based radial patterns nuclear elements genes chromosome territories centromeres
+radial positions been measured respect nuclear geometric center nuclear envelope
+spatial affinity between several elements been investigated spatial correlations been assessed through central angles example between radii joining homologous chromosome territory centers nuclear center
+alternative approaches based distances between elements been developed
+distances between small number elements like two pairs homologous alleles were used testing spatial attraction repulsion
+remarkably spatial statistics tools distance functions been developed ecology epidemiology analyzing spatial point patterns rarely been applied nuclear organization studies
+example nearest-neighbor distances been used analyze large numbers nuclear elements molecular complexes pml bodies rna polymerase ii foci
+alternatively all pairwise inter-distances been used analyze spatial distribution chromocenters nucleocapsids 
+spatial statistics data usually collected through sampling window over single realization point process
+point process generally considered unbounded spatially homogeneous
+theoretical framework makes sense applications investigated phenomenon extends far beyond observed region
+contrast analyses nuclear spatial patterns based images entire nuclei: whole domain interest observed
+furthermore one should not consider observed nuclear patterns realizations spatially homogeneous point processes
+another difference replicated data available analysis carried out sample nuclei
+recently distance functions been extended replicated spatially heterogeneous point patterns
+instance extended f-function been used analyzing spatial patterns transmissible spongiform encephalopathy lesions brain tissue
+extended f-function takes into account expected spatial heterogeneity point process intensity
+estimate intensity replicated patterns first registered locate all observed points common coordinate system
+however type preliminary registration not possible nuclei due lack identifiable nuclear landmarks
+hence further developments required make spatial statistics tools appropriate nuclear spatial organization studies
+study develop approach furthering analysis nuclear spatial organization
+spatial distributions nuclear compartments were quantified using cumulative distribution functions nearest-neighbor distances distances between arbitrary points within nucleus their nearest compartment
+analysis g f-functions was designed specifically cope patterns observed non-registered variable domains
+applied new approach investigation 3d distribution centric/pericentric heterochromatin five interphase nuclei populations belonging animal plant kingdoms
+centric/pericentric compartment was chosen due its dual structural regulatory functions
+indeed usually behaves transcription repressor essential genome organization proper segregation genetic information during cell division
+compartment often clusters forms chromocenters
+studied nuclei cells at various differentiation stages three biological systems: rabbit embryos at 8-cell blastocyst stages differentiated rabbit mammary epithelial cells during lactation differentiated cells thaliana plantlets
+found non-completely random significantly more regularly spaced patterns than expected under complete randomness centric/pericentric heterochromatin compartment five differentiated cell populations suggesting existence inter-kingdom nuclear organizational rules possible nuclear regularities

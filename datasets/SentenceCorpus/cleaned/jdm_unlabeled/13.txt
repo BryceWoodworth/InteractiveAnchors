@@ -1,0 +1,29 @@
+ 
+judgments decisions under uncertainty frequently linked prior sequential search relevant information
+cases subject decide when stop search information
+evidence accumulation models social cognitive psychology assume active sequential information search until enough evidence been accumulated pass decision threshold
+line theories conceptualize evidence threshold desired level confidence dlc person
+model tested against fixed stopping rule one-reason decision making against class multi-attribute information integrating models
+series experiments using information board horse race betting demonstrates advantage proposed model measuring individual dlc each subject confirming its correctness two separate stages
+addition better understanding stopping rule within narrow framework simple heuristics results indicate individual aspiration levels might relevant factor when modelling decision making task analysis statistical environments
+ introduction 
+some use sometimes
+short statement newell concluded empirical research well-known take-the-best heuristic ttb
+fast frugal heuristic was introduced gigerenzer hoffrage kleinbolting gigerenzer goldstein provide alternative traditionally proposed strategies judgment decision making research
+according traditional models rational decision requires comprehensive integration all available information about all alternatives
+integration become computationally complex soon information cues probabilistic numerous
+gigerenzer goldstein however were able show simulation binary attribute cue paradigm choosing best alternative out two very simple when searching available cues sequential order descending validity probability cue will lead correct decision given discriminates between alternatives deciding direction first discriminating cue
+stimulus environment they used german cities their population size number features being present cities not simple three-step-heuristic containing search rule stopping rule decision rule led decisions same quality comprehensive computational integration entire set cue information
+termination information search after having found first discriminating cue therefore been called one-reason decision making ordm
+term ordm was chosen clear contrast models stand integration all available information usually not reflecting how information was compiled
+models varying complexity ranging simple tallying complex multiple linear regression
+what they common at least two pieces information need present starting comparison case several cues indicating same option integration available information
+contrast class ordm subsume broad class under term more-reason decision making mrdm because search more than one discriminating piece information prerequisite information integration
+ttb most prominent representative ordm reveals impressively high number correct predictions compared mrdm models
+mathematical results allow ttb rank amongst rational strategies used probabilistic decision making especially but not only when information needs searched
+however empirical findings concerning use ttb  compared mrdm models  were heterogeneous
+while conclusions some studies were generally against use ttb because they found only particular use strategy survey more recent studies shows more evidence use ttb
+one unresolved question fact participants repeatedly showed huge inter intra-individual inconsistency using single strategy
+so far there been no statistical environments all participants experiment acted according ttb refrained using
+but what even more problematic inconsistent use ordm stopping rule
+most surprising effect was reported newell weston shanks testing sequential search paradigm using only two available cues they found number participants number percent their sample continuing information search some instances even when more valid cue discriminated hence completely ignoring fact second cue would not able compensate first information

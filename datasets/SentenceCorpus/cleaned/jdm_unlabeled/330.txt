@@ -1,0 +1,62 @@
+ 
+recognition heuristic makes counter-intuitive prediction decision maker utilizing less information may do well outperform idealized decision maker utilizing more information
+lay theoretical foundation use single-variable heuristics recognition heuristic optimal decision strategy within linear modeling framework
+identify conditions under over-weighting single predictor mini-max strategy among class priori chosen weights based decision heuristics respect measure statistical lack fit call risk
+strategies turn outperform standard multiple regression long amount data available limited
+also show under related conditions weighting only one variable ignoring all others produces same risk ignoring single variable weighting all others
+approach advantage generalizing beyond original environment recognition heuristic situations more than two choice options binary continuous representations recognition other single variable heuristics
+analyze structure data used some prior recognition tasks find matches sufficient conditions optimality our results
+rather than being poor adequate substitute compensatory model recognition heuristic closely approximates optimal strategy when decision maker finite data about world
+ introduction 
+common sense would suggest always better more rather than less relevant information when making decision
+most normative prescriptive theories multi-attribute decision making compensatory models incorporate all relevant variables
+perspective was challenged gigerenzer goldstein gigerenzer todd abc group who proposed theoretical framework simple decision rules often referred fast frugal heuristics suggesting some cases decision maker dm utilizing less relevant information may actually outperform idealized dm utilizing all relevant information
+fact many heuristics use single cue selected among many available prediction task
+key among single-variable decision rules recognition heuristic rh
+rapidly growing empirical literature suggests single-variable decision rules descriptive at least subset dms regard both take best rh
+questions remain however exactly when why single-variable rule will perform well
+hogarth karelaia examined relative performance single-variable rules within binary choice framework where both predictor independent criterion dependent variable were assumed continuous
+using combination analytic tools simulations they found single-variable rules strong predictive accuracy when number all predictors highly positively inter-correlated number single predictor used highly typically positively correlated criterion
+hogarth karelaia conducted related analysis using binary rather than continuous cues predictors
+fasolo mcclelland todd identified similar favorable conditions single-variable rules using series simulations
+shanteau thomas labeled environments highly positively correlated predictors friendly environments demonstrated simulation single-variable rules tended underperform when predictors model were negatively correlated finding was later replicated fasolo et al
+similar vein baucells carrasco hogarth presented framework analyze simple decision rules within context cumulative dominance
+paper present results regarding effectiveness single variable rules diverge previous studies two major ways
+first show when single predictor denoted without any loss generality x positively correlated array p-many other predictors where each p-many predictors either uncorrelated weakly positively correlated optimal weighting scheme places greater weight x than any remaining cues
+result major departure previous studies identify favorable conditions single-variable rules single-factor models where all variables highly positively correlated
+second our results do not rely any specific assumptions about cue validities defined correlations between predictors cues criterion
+only thing matters sign correlation single cue
+some lexicographic single-variable rules depend upon either knowledge estimation all cue validities
+example take best rule depends identification single best cue
+our results validity single variable need not highest among available predictors
+apply new results rh goldstein gigerenzer argue recognition validity i e correlation between criterion recognition inaccessible dm criterion variable influencing recognition through mediator variables environment
+divergence our results stems our somewhat different approach answering question when does less information lead better performance
+first characterize rh within framework linear model  i e within standard regression framework  estimator relies single predictor
+regression framework conceptualize best set weights assign cues if one had unlimited data knowledge they would maximize predictive accuracy call vector weights beta
+then consider weights would placed cues various decision heuristics equal weighting if they were estimates beta
+within framework prove results respect measure statistical inaccuracy called risk defined formally section number measures how close heuristic weights expected best weights beta
+measure inaccuracy particularly useful because goes beyond optimizing within single sample closer set weights best weights more robustly cross-validate new samples
+advantage casting problem within framework linear model results generalized accommodate broad range situations including choosing between more than two options binary continuous representations recognition evaluate success any single variable rule not just rh
+show under certain conditions placing greater weight single variable relative all others represents form optimization minimizes maximum value risk over all choices decision rules
+number cues becomes large mini-max strategy converges rule puts large weight single cue minimally weights all others
+use term over-weighting describe effect single predictor cue receiving disproportionally more weight than any other predictor cue according optimal weighting strategy
+further show weighting single cue ignoring all others produces same risk ignoring single cue weighting all others regardless number cues
+previous research shown decision heuristics applied manner outperform standard regression models until samples become very large
+thus expect under right conditions single variable just accurate predictor full set predictors
+while framework could used justify any single variable heuristic argue sufficient conditions plausibly resemble environments one would use rh where recognition single cue
+indeed examine data used prior recognition tasks show fits well our sufficient conditions
+our derivation does not assume cue selection process
+other words presuppose dm always utilizes single cue interest
+rh theory natural application results theory also does not presuppose cue selection process i e if one alternative recognized other not then recognition automatically predictor cue interest
+why recognition rational
+our results demonstrate when single cue recognition positively correlated all other cues knowledge then mini-max strategy over-weight recognition cue
+interestingly results do not depend upon validities either recognition knowledge cues
+paper represents convergence two perspectives
+one hand validate ecological rationality single variable rules recasting them robust statistical estimators minimize maximal risk within linear model
+another perspective our results suggest heuristics could work no other reason than they approximate optimal statistical model albeit objective function heretofore been unarticulated literature
+thus while goldstein gigerenzer see rh approach contrast heuristics being used imperfect versions optimal statistical procedures appears laplacean demon  unlimited computational power  would use rule much like rh
+remainder paper organized follows
+first summarize recent advances evaluation decision heuristics within linear model make some simplifying assumptions
+then describe sufficient conditions single-variable over-weighting phenomenon first considering case single variable correlated array weakly positively inter-correlated predictors followed more extreme case set mutually uncorrelated predictors within array
+then present application theory rh prove under conditions dm utilizing only recognition will perform at least well dm utilizing only knowledge
+then examine inter-correlation matrix empirical study finding preliminary support descriptive accuracy sufficient conditions

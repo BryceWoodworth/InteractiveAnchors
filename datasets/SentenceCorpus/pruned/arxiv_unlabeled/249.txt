@@ -1,0 +1,20 @@
+
+paper new algorithm factor graphs
+proposed algorithm may over entropy previously theory
+primary use entropy model
+however also used appear maximization algorithms
+introduction
+efficient function important many including signal processing
+when factor graph representation function available then exact factor graph
+fact number algorithms special cases
+may arbitrary
+paper propose use entropy resulting algorithm will called
+entropy was introduced et al relative entropy between probabilistic
+paper into factor graphs algorithms
+primary use entropy model factor graph fixed observations
+main prior work subject et al main point present paper prior work terms
+however also used appear maximization algorithms new
+paper follows
+section review over
+section introduce entropy
+algorithm described section applications described section

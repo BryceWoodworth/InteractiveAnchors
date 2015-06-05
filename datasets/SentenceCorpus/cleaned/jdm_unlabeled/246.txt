@@ -1,0 +1,68 @@
+ 
+vlaev chater demonstrated cooperativeness previously seen prisoner's dilemma games biases choices predictions current game
+effects were assimilation mean cooperativeness played games caused action reinforcement b perceptual contrast preceding games depending range rank order their cooperativeness
+demonstrate when playing against choice strategies not biased factors perceptual biases disappear only assimilation bias caused reinforcement persists
+suggests reinforcement learning powerful source inconsistency strategic interaction may not eliminated even if other players unbiased markets efficient
+ introduction 
+explain behaviour markets need model decision-making behaviour buyers sellers
+understand how agents people firms interact economy need model strategies people e g managers select when outcome situation depends also decisions others agents
+thus economic understanding various markets strategic interaction between firms indeed economy at large requires understanding how people trade-off payoff uncertainty when they interact each other
+when decisions interactive outcomes depend also decisions other people choice process recursive quality each player makes decisions context assumptions about decisions other player but other player may equally choose basis assumptions about decisions first player
+game theory attempts deal recursiveness introducing concept nash equilibrium  pair decisions nash equilibrium if neither player would obtain higher expected utility making different decision given other player's decision fixed game theory continuously refines notion
+using experimental methods psychologists economists tested how realistic assumptions approximations found considerable discrepancy between actual behaviour predictions game theory
+example any prisoner's dilemma pd game nash equilibrium notoriously both players behave uncooperatively real life problem cooperation secure mutual benefits but cooperating people risk being exploited
+however many studies showed behaviour people playing pd game deviates systematically theoretical predictions i e people cooperate more than expected
+there various accounts behaviour some including factors misunderstanding game role repetition play resulting reputation retaliation affects irrationality motivation incentives altruism communication so
+more recently vlaev chater tested one basic assumptions game theory not typically challenged experimental work each game considered separately resulting choice strategy should based only attributes current game
+study presented psychological phenomenon game relativity anomaly normative theories strategic decision-making
+specifically reported results seem indicate people do not possess well-defined notion utility strategy cooperativeness game particular instead people's perceived utility strategy appears highly context-sensitive depends other recently played games
+vlaev chater's experiments were based research fundamental cognitive processes psychophysics related perception representation sensory magnitudes loudness brightness weight
+note judging utility decision strategies games people must assess magnitudes risk return associated each strategy
+respect stewart chater stott reimers had earlier argued some factors determine how people assess magnitudes might similar factors underlying assessment psychophysical magnitudes
+there substantial evidence people poor at providing stable absolute judgments magnitudes heavily influenced other options presented them recent past available at time choice
+context effects consistent people making perceptual judgments basis relative magnitude information rather than absolute magnitude information
+applying ideas strategic decision making pd games if representation cooperativeness game also similar representation simple perceptual dimensions i e similar underlying cognitive processes involved then preceding material might expected influence current judgments decisions games does perceptual case
+vlaev chater tested whether game's attributes like cooperativeness measured rapoport chammah's cooperation index ci behave like those perceptual stimuli they found similar context effects
+here provide brief summary experiments essential background understanding argument behind follow-up study presented article
+various experiments conditions study participants played pd games varying ci tested whether manipulating properties distribution ci like mean range rank would affect cooperation rate predicted cooperation other players
+experiment number tested helson's adaptation-level theory
+contrast predictions adaptation-level theory did not find contrast effects depending whether particular game above below mean ci i e adaptation level  games above below mean were not perceived exaggeratedly more less cooperative
+instead condition higher mean cooperativeness caused more rather than less cooperation across all game types
+effect mean ci explained simply assumption cooperativeness influenced amount frequency observed cooperation participants received independent game they playing
+fits reinforcement accounts game playing including pd predict more cooperative games average would lead more cooperative feedback reinforces each player cooperate more across all games
+other words mean reinforcement may caused observed assimilation effects
+experiments number range difference between games along ci scale was manipulated while keeping their ranks constant
+range presented games produced contrast effect so games were further minimum ci value sequence were perceived more cooperative
+experiment number varied rank order between games along ci scale while keeping their range differences constant found rank had significant impact prediction choice behaviour
+same game presented high rank amongst other games sequence condition produced significantly higher cooperation prediction than when same game had low rank
+thus results experiments number number supported predictions about perceptual contrast line range frequency theory according neutral point judgment scale did not correspond mean contextual events but rather compromise between midpoint defined range distribution median
+neutral point thus depended skew distribution was affected rank particular stimulus distribution
+example satisfaction judgments would different two distributions experiences different skew their intensities quality levels hence will different rank orders stimuli even if means two distributions same
+contextual effects caused mean range rank distribution confirmed our expectations relativity effects due some general underlying cognitive mechanisms
+one related perception particular representation perceptual magnitudes discussed earlier
+second fundamental mechanism related response action generation because agents tend repeat actions e g c d according average degree reinforcement each action associated i e utility agent outcome game reinforces chosen strategy
+psychological point view reinforcement corresponds following thorndike's classic law effect  repeating behaviours degree they followed positive outcomes stamping out behaviours degree they followed negative outcomes
+example context pd reinforcement learner will follow strategy brings higher payoff without logical thinking about strategic structure game other words reinforcement learner follows more rewarding choice instead inferring dominant strategy
+vlaev chater demonstrate when people make interactive strategic decisions two principles perceptual vs action related create biases terms overreaction under-reaction particular attributes games like cooperativeness depending environmental distribution attribute
+none existing studies however investigated whether context effects also hold when playing against consistent opponent
+here do not mean rational opponent who should permanently defect pd
+consistent player mean player whose responses completely determined current game not influenced either structure previous games history past responses
+thus player consistent across contexts
+because consistent players uninfluenced context they may potentially act damp down rather than amplify contextual effects experimental participant  may arise if both human participants influenced same contextual factors hence potentially creating bubble over under-cooperating due perceptual response biases
+our study consistent player was computer algorithm not human participant participants were told although algorithm not specified
+most psychologically natural model consistent player assumes probability cooperation depends cooperativeness game negatively related incentive each player defect also negatively related damage done other player if one defects
+here use cooperation index ci provides good measure typical level cooperation observed experimentally pd games
+test described article important because measures power sustainability perceptual response biases documented vlaev chater will reveal whether biases going persist real markets where any overreaction suboptimal exploited
+other words good cooperative when situation permits both players would better off if both cooperate but being over-cooperative gives additional incentive other less cooperative players exploit you
+unbiased opponent was created programmed play participants had play against computer
+setting computer was pre-programmed cooperate frequency probability reflecting values ci each game
+example computer was programmed cooperate number percent time when playing games index number
+alternative design would program computer respond randomly i e cooperate number percent time
+however design would not powerful evidence about strength biases under question because computer generated feedback more ambiguous about cooperativeness various games cis
+thus players will receive weaker feedback signal when games less more cooperative various biases more likely thrive ambiguous environment
+other side policy cooperating according ci gives less freedom interpretation about cooperativeness various games
+note even if people think they playing repeated pd game i e they think themselves playing 'the same' program every time rather than different person each time should not affect our key argument because given program uninfluenced prior context then does not matter if game repeated not
+actually if game seen repeated then should make effect consistent opponent even stronger should turn further weaken context effects because players would more likely reciprocate their consistent opponent
+accomplish our research objective replicated design three experiments described vlaev chater
+particular manipulated contextual variables were parameters statistical distribution cooperativeness games sequence  mean range rank  were equivalent vlaev chater's experiments number number number respectively
+here present three studies together brevity exposition

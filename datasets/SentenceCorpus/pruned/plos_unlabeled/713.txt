@@ -1,0 +1,56 @@
+
+populations within single major difficulty natural response well design drug
+recently developed sequencing used sequencing samples
+present computational methods analysis sequence data apply techniques data obtained populations within patients
+our main result estimation population structure sample
+inference based statistical approach error algorithm set explain data
+using set apply statistical model population via maximization algorithm
+demonstrate allow effective population simulations comparison sequences obtained directly sequencing four independent populations
+thus used estimation structure populations new into evolutionary dynamics disease control strategies
+introduction
+novel experimental technique sequence dna genome
+method less than existing but also significantly more than those obtained sequencing
+paper address computational sequencing rna sample
+rna populations different related
+population exhibit high degree genetic often concept described
+genetic key factor disease design drug
+sequencing samples approach population structure
+population many each one but unknown population
+thus central problem data set possible consistent observed structure population relative frequency each
+here present computational procedure making inference about population based set
+first reference genome
+second sequencing errors along multiple alignment using clustering techniques
+next consistent observed
+problem search set graph show how search problem very
+finally introduce statistical model sequencing process maximum likelihood principle frequency each population
+alignment step proposed procedure data here been discussed
+due presence reference genome only alignment necessary between each reference genome
+will therefore focus core methods error frequency estimation
+two independent approaches proposed method
+first present simulation results all method
+second procedure four independent populations comparing populations results sequencing same samples
+datasets average length 1 region gene samples populations
+produce up single
+part our analysis interaction between number sequencing error rate theoretical
+methods developed paper scale datasets under assumptions
+however sample size than what typically obtained using sequencing
+since many samples data about populations one
+population structure set general computational problem because number possible
+error frequency estimation problem into three smaller more tasks each also interest its own
+presented methods not rna populations but apply reference genome available sufficient genetic distance between large
+data variation gene about percent single
+find populations more they become
+even at percent find much population using our methods
+gene been only one specific seems occur complex occurs under
+our samples were did not
+therefore assume there no true population
+however algorithms developed paper manner case true
+problem population structure sequence similar highly genome
+however rather than one genome population very similar genomes
+problem also related environmental sequencing genomes all species
+while associated computational biology problems related those appear other novel approaches required short complex structure populations
+problem also similar problem main difference being number unknown alternative
+more generally problem population genome sequence samples been studied populations
+example been used estimate sequencing data
+using been sequence
+our methods differ previous work show how analyze highly sequencing data using mathematical statistical framework

@@ -1,0 +1,69 @@
+ 
+laboratory studies choice decision making among real monetary rewards typically use smaller real rewards than those common real life
+when laboratory rewards large they almost always hypothetical
+applying laboratory results meaningfully real-life situations important know extent choices among hypothetical rewards correspond choices among real rewards whether variation magnitude hypothetical rewards affects behavior meaningful ways
+present study compared real hypothetical monetary rewards two experiments
+experiment number participants played temporal discounting game incorporates logic repeated prisoner's-dilemma pd game versus tit-for-tat choice one alternative defection pd terminology resulted small-immediate reward choice other alternative cooperation pd terminology resulted larger reward delayed until following trial
+larger-delayed reward was greater half groups than other half
+rewards also differed type across groups multiples real nickels hypothetical nickels hypothetical hundred-dollar bills
+all groups significantly increased choice larger delayed reward over number trials experiment
+over last number trials cooperation was significantly higher when difference between larger smaller hypothetical rewards was greater
+reward type real hypothetical made no significant difference cooperation most measures
+experiment number real hypothetical rewards were compared social discounting-the decrease value giver reward social distance increases receiver reward
+social discount rates were well described hyperbolic function
+discounting rates real hypothetical rewards did not significantly differ
+results add evidence results experiments hypothetical rewards validly apply everyday life
+ introduction 
+research choice using hypothetical rewards participants asked imagine alternatives-to choose they would if alternative rewards were real
+research assumes participants successful imaginative task
+one potential problem using hypothetical questions psychological research participants may not capable required imaginary act
+people often cannot predict what they will do certain situations alcoholic may believe morning he will not drink at party held evening
+but then he may well drink
+even if he asked reflect his behavior at past parties he may not remember how much he drank
+task involving degree altruistic behavior dictator game where participants asked how much initial monetary endowment they willing give another participant no explicit consequence giving small amount even nothing participant might say she would give more money recipient when gift hypothetical than she would if money were real
+participants want experimenters believe they altruistic hypothetical rewards costs nothing altruistic
+because demand characteristics economists some psychologists been reluctant recognize validity choices among hypothetical rewards
+reviews game-theory decision experiments found real monetary rewards stronger incentives than nominally equivalent hypothetical rewards
+kuhberger schulte-mecklenbeck perner unlike most prior studies unlike experiment number present study compared large real rewards directly large hypothetical rewards
+they studied double-or-nothing gambles all combinations positive negative framing b small large rewards c hypothetical real rewards
+they found strong inter-group effects framing magnitude reward expected but choices participants who imagined hypothetical gamble did not differ choices participants gambling real money
+moreover studies comparing delay discounting real hypothetical rewards found both reward types yield hyperbolic functions failed find significant differences steepness discounting depending type reward
+although failure find significance does not itself mean there no differences existence significant differences steepness delay discounting hypothetical well real rewards when other variables been varied increases confidence addicts non-addicts alike successfully imagined real-world choices
+example johnson bickel found strong correspondence r number between degree discounting hypothetical choices real rewards one randomly selected outcome actually given
+whether not hypothetical rewards effects similar those real rewards important issue interpreting laboratory studies decision choice
+if effects real hypothetical rewards similar then rewards laboratory may varied over wide ranges limitations number participants will not constrained monetary considerations
+example steepness discounting decrease reward value varies inversely amount delayed reward but directly amount probabilistic reward
+hypothetical delayed probabilistic rewards green et al study varied number number number would been practically impossible done study real rewards
+but more evidence experimental participants choose similarly between lesser amounts real hypothetical rewards more confidence there will participants choosing among larger hypothetical rewards successfully imagining how they would choose if rewards were real
+experiment number compared real hypothetical rewards prisoner's dilemma pd type game versus tit-for-tat
+figure number shows pd contingency matrix used experiment number
+number person pd game player player b each choose between cooperating c defecting d
+each player receives reward determined combination both players' choices
+case number  number  number  number reward matrix figure number player will earn number number number number reward units depending number possible choice combinations chosen
+if both cooperate each receives moderately high reward number units if both defect each receives moderately low reward number units but if one cooperates other defects cooperator receives very low reward number unit while defector receives very high reward number units
+strategy called tit-for-tat been found increase cooperation repeated pd games
+suppose player-b rigidly plays tit-for-tat if cooperates trial n b will cooperate trial n number if defects trial n b will defect trial n number
+when b cooperates receives number units cooperating number units defecting when b defects receives only number unit cooperating number units defecting
+thus regardless a's choice gets number more units when b cooperates than when b defects
+but if b rigidly playing tit-for-tat only way b will cooperate if previously cooperated
+cooperating present trial gives up number unit but will gain number units next trial when b reciprocates
+b's tit-for-tat strategy thus creates self-control problem smaller immediate gain defecting number unit trial versus larger delayed gain cooperating number units next trial
+essentially if b rigidly plays tit-for-tat must choose lower two rewards present trial cooperate order get b cooperate b's cooperation turn allows choose between higher rewards next trial
+dashed line figure number b shows a's average reward function a's percent cooperation b playing tit-for-tat
+optimum strategy except very last trial always cooperate averaging number units per trial
+since b's tit-for-tat behavior rigidly determined b's place may taken experimental apparatus-as was experiment number
+prior experiments number  number  number  number matrix versus tit-for-tat participants learned cooperate over repeated trials
+number  number  number  number matrix where delayed reward was number units players learned cooperate faster higher asymptote than number  number  number  number matrix where delayed reward was number units
+delay b's reciprocation time between trials increases its probability decreases a's cooperation decreases proportionally
+computer game played experiment number replicated pd versus tit-for-tat contingencies but did away pretense there was another player player b making independent choices
+typical pd versus tit-for-tat game participants had choose lower two available rewards present trial number rather than number number rather than number order able choose between pair higher rewards number number rather than number number next trial
+given number pd versus tit-for-tat self-control game number self-control been found vary inversely steepness individual's delay discount function number steepness delay discount functions been found not significantly different real hypothetical rewards expected type reward real versus hypothetical nickels would weak effect no effect cooperation present experiment
+whether cooperation would affected increasing all hypothetical rewards factor number number number number number number would depend whether self-control function ratio difference amounts immediate delayed rewards
+choice experiments humans indicate reward ratios rather than differences count situations
+thus expected cooperation would not significantly affected increasing all rewards proportionally
+however did expect increasing only delayed reward cooperation while leaving immediate reward defection constant changing matrix number  number  number  number number  number  number  number would increase cooperation significantly
+pd game experiment number normally social game where alternatives maximization benefit oneself versus maximization benefit another player
+tit-for-tat contingency substitutes participant's own future self other player changes game self-control situation
+experiment number studied true social choice
+participants chose between larger rewards another person smaller rewards themselves
+both experiments tested efficacy hypothetical versus real monetary rewards

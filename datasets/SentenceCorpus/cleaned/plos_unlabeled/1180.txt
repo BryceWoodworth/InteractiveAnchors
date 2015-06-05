@@ -1,0 +1,34 @@
+ 
+many large-scale studies intrinsically disordered proteins implicitly based structural models deposited protein data bank
+yet static nature deposited models supplies little insight into variation protein structure function under diverse cellular environmental conditions
+while computational predictability disordered regions provides practical evidence disorder intrinsic property proteins robustness disordered regions changes sequence environmental conditions not been systematically studied
+analyzed intrinsically disordered regions same similar proteins crystallized independently studied their sensitivity changes protein sequence parameters crystallographic experiments
+observed changes existence position length disordered regions indicate their appearance x-ray structures dramatically depends changes amino acid sequence peculiarities crystallographic experiment
+our study also raises general questions regarding protein evolution regulation protein structure dynamics function via variations cellular environmental conditions
+ introduction 
+past decade significant progress been achieved our understanding ubiquity function intrinsically disordered proteins
+what once seemed set exceptions traditional structure-to-function paradigm where every protein was believed unique stable 3d structure carry out specific function turned into field where computational experimental approaches were developed combined accurately characterize disordered proteins understand their function mechanisms binding estimate their abundance protein universe
+undoubtedly bioinformatics analyses methods played significant role process especially set predictors statistical techniques
+however despite previous success questions raised about generality our view disordered proteins terms sequence-to-structure determinants influence environmental conditions
+here attempt address questions investigating variability observed disordered regions changes sequence environmental conditions used crystallization
+recent studies document effects varying environmental conditions regions intrinsic disorder similar proteins
+zurdo et al studied two yeast ribosomal stalk proteins p1 p2 different functional roles despite high sequence similarity suggested their functional differences stem different structures
+although neither protein compact solution possesses folded structure under physiological ph temperature p1 was found mostly disordered low helical content whereas p2 had significant residual structure
+residual structure disappeared at temperatures below 30 c but was regained under low ph presence trifluoroethanol
+palaninathan et al reported conformational changes were observed tertiary quaternary structures crystals native human transthyretin
+at ph 4.0 ttr forms tetramer its crystal structure includes electron density functionally important ef helix-loop region
+at ph 3.5 region completely disordered
+our search protein data bank resulted additional examples where slight changes experimental conditions strongly correlated presence absence disordered regions
+one case cyclophilin 40 shown figure 1
+cyp40 one principal members family large immunophilins found mammals
+exact biological function large immunophilins incompletely understood though they believed strongly associated hsp90 play crucial regulatory role upkeep steroid receptor activity
+pdb cyp40 stored 1iip-a 1ihg-a
+both structures were obtained using vapor diffusion hanging drop method recorded temperature 277k but 1iip-a was crystallized at ph 8.0 whereas 1ihg-a was crystallized at ph 6.1
+two proteins identical yet rmsd 14.2 was obtained their structural alignment
+importantly 1ihg-a contains ordered region a299-y365 was absent structure 1iip-a
+neither protein was solved presence natural ligands
+addition experimental studies computational analyses redundant sets experimentally determined structures identical protein regions provided evidence existence numerous protein fragments observed both ordered disordered states
+authors analyzed dual-personality fragments showed they characterized amino acid compositions different than those either ordered disordered proteins their main functional roles regulatory
+examples discussed above demonstrate strong influence experimental parameters disordered residues crystallized proteins
+however hypothesis variation experimental conditions could potentially trigger structural changes affecting existence position length intrinsically disordered regions not been systematically tested quantified
+following work provide evidence significant variation disordered regions protein structures general under same different experimental conditions believe serve basic indicator environmental regulation protein structure disordered regions vivo

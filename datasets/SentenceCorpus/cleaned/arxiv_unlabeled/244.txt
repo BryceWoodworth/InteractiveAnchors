@@ -1,0 +1,30 @@
+ 
+approach acceleration parametric weak classifier boosting proposed
+weak classifier called parametric if fixed number parameters so represented point into multidimensional space
+genetic algorithm used instead exhaustive search learn parameters classifier
+proposed approach also takes cases when effective algorithm learning some classifier parameters exists into account
+experiments confirm approach dramatically decrease classifier training time while keeping both training test errors small
+ introduction 
+boosting one commonly used classifier learning approaches
+machine learning meta-algorithm iteratively learns additive model consisting weighed \term{weak} classifiers belong some classifier family
+case two-class classification problem will consider paper boosted classifier usually form } there sample classify weak classifiers learned during boosting procedure weak classifier weights 
+set referred \term{weak} classifier family
+because elements should error rate only slightly better than random guessing
+expresses key idea boosting: strong classifier built top many weak
+there many boosting procedures differ type loss being optimized final classifier
+but no matter what kind boosting procedure used each iteration should select learn weak classifier minimal weighed loss family using special algorithm called \term{weak learner}
+fast accurate optimization methods often not applicable there especially case discrete classifier parameters so exhaustive search over weak classifier parameter space used weak learner
+unfortunately exhaustive search take lot time
+example learning cascade boosted classifiers based haar features \term{adaboost} exhaustive search over classifier parameter space took several weeks famous work
+that's why often very important decrease weak classifier learning time using some appropriate numerical optimization approach
+one widely used approaches numerical optimization genetic algorithm
+based biological evolution ideas
+optimization problem solution coded \term{chromosome} vector \term{initial population} solutions created using random number generator \term{fitness function} then used assign fitness value every population member
+solutions biggest fitness values selected next step
+next step \term{genetic operators} crossover mutation usually applied selected chromosomes produce new solutions modify existing ones slightly
+modified solutions form up new generation
+then described process repeats
+that's how evolution modeled
+continues until global suboptimal solution found time allowed evolution over
+genetic algorithms often used global extremum search big complicated search spaces
+makes genetic algorithm good candidate weak classifier learner

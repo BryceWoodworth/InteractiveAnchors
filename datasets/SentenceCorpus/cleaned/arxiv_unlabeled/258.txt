@@ -1,0 +1,36 @@
+ 
+% < trailing '%' backward compatibility
+sty file develop bayesian framework tackling supervised clustering problem generic problem encountered tasks reference matching coreference resolution identity uncertainty record linkage
+our clustering model based dirichlet process prior enables us define distributions over countably infinite sets naturally arise problem
+add supervision our model positing existence set unobserved random variables call ``reference types'' generic across all clusters
+inference our framework requires integrating over infinitely many parameters solved using markov chain monte carlo techniques
+present algorithms both conjugate non-conjugate priors
+present simple---but general---parameterization our model based gaussian assumption
+evaluate model one artificial task three real-world tasks comparing against both unsupervised state-of-the-art supervised algorithms
+our results show our model able outperform other models across variety tasks performance metrics
+ introduction 
+supervised clustering general characterization problem occurs frequently strikingly different communities
+like standard clustering problem involves breaking finite set into way partition unknown
+distinction between supervised clustering standard clustering supervised form given training examples
+training examples enable learning algorithm determine what aspects relevant creating appropriate clustering
+training examples subsets paired their correct partitioning
+end supervised clustering task prediction problem: new presented system must produce partition
+supervised clustering problem goes under many names depending goals interested community
+relational learning community typically referred identity uncertainty primary task augment reasoning system so does not implicitly even explicitly assume there one-to-one correspondence between elements knowledge base entities real world
+database community task arises context merging databases overlapping fields known record linkage
+information extraction particularly context extracting citations scholarly publications task identify citations same publication
+here task known reference matching
+natural language processing problem arises context coreference resolution  wherein one wishes identify entities mentioned document same person organization real life
+machine learning community additionally been referred learning under equivalence constraints learning cluster examples
+paper propose generative model solving supervised clustering problem
+our model takes advantage dirichlet process prior  non-parametric bayesian prior over discrete distributions
+prior plays two crucial roles: first allows us estimate number clusters principled manner; second allows us control complexity solutions learned
+present inference methods our model based markov chain monte carlo methods
+compare our model against other methods large real-world data sets where show able outperform most other systems according several metrics performance
+remainder paper structured follows
+section describe prior efforts tackle supervised clustering problem
+section develop our framework problem starting very basic assumptions about task
+follow discussion general scheme inference framework section
+next section present three generic parameterizations our framework describe appropriate adaptation inference scheme parameterizations
+then discuss performance metrics supervised clustering problem section present experimental results our models' performance artificial real-world problems section
+conclude section discussion advantages disadvantages our model our generic parameterization our learning techniques

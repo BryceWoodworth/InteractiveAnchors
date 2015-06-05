@@ -1,0 +1,94 @@
+
+algorithms find maximum probability alignment pair hidden markov model
+process large genomes complex genome almost all existing whole genome alignment methods apply fast heuristics genomes into small alignment
+alignment methods standard practice parameters produce single alignment analysis
+number alignment applied whole genome scale increase so does their results
+produced different especially regions genomes where correct alignment find
+alignment one possible
+issue robustness changes parameters finding all optimal all possible parameters
+our main result whole genome alignment
+alignment existing heuristics whole genomes into small alignment made convex allow us regions using models
+demonstrate utility our alignment biological inference elements more conserved between than previously thought
+also show how whole genome alignment used length estimates alignment parameters
+introduction
+sequence alignment known parameter choices
+problem consider gene
+base pairs long base pair
+at 1 produced genome sequencing
+using basic two following optimal alignment when parameters set s
+however if change parameters s then following alignment
+note relatively small change parameters very different alignment
+problem more complex central issue whole genome produced
+indeed although whole genome alignment systems use many heuristics regions them they all rely algorithm at some level
+parameters even more issue multiple alignment more than two sequences
+alignment was introduced further developed et al et al approach parameters alignment
+see review perspective
+alignment space parameters into regions
+parameters same region lead same optimal
+all regions problem computational
+solve problem whole genome scale up free parameters
+our approach alignment idea alignment short numbers derived alignment
+instance given standard each alignment number number number s alignment
+called alignment
+example consider above pair
+first alignment alignment while second alignment alignment
+even though number all two sequences very large number alignment alignment very small
+specifically example above where two sequences total number
+there only alignment some choice parameters choices when require only optimal
+account total optimal
+note basic model discussed above only d 2 free parameters because pair sequences all
+relation 1
+1 shows alignment defined section alignment
+general two dna sequences number optimal alignment above degree where d number free parameters model
+d 2 degree so number optimal alignment growth relative sequence
+even d growth only
+means all optimal alignment large scale models few parameters
+growth was derived et al d 2 at al general d 1 using
+d 2 d representation all optimal respect all choices parameters
+although seems program not been widely used because not designed high data analysis number free parameters d
+paper demonstrate sequence alignment made practical scale argue output 1 very useful comparative applications where essential
+end introduce mathematical point view based principle was studies
+our rely new algorithms different what perform well practice even if number d free parameters greater than three
+principle
+our example more than optimal
+optimal alignment
+alignment convex all
+convex how alignment provided section genomes
+thus alignment two dna sequences relative some chosen pair hidden markov model means alignment two sequences
+dimension alignment d number free model parameters
+d 2 convex shown 1 pair above
+basic model applications
+more sequence alignment include
+consider three models
+matrices models derived those evolutionary models known
+models section models alignment robustness
+our whole genome alignment all four models d d
+our methods computational results described next section
+three biological applications presented section biology
+follows section
+our main computational result whole genome alignment two genomes
+result number
+existing methods were able genomes into pairs among identified pairs alignment
+alignment two three four each sequence pairs dimension subset them
+methods section alignment
+represent optimal alignment robustness
+introduced section models alignment robustness
+computational results presented section computational results
+problem pair genomes identify all between two genomes
+if selected so not contain genome then each other
+strategy used whole genome alignment our alignment
+program multiple genomes was developed et al
+applied program d d genomes identify alignment
+strategy follows
+each genome into amino sequences then compared each other using
+based reference gene sets predictions
+resulting then used graph whose between two if there good
+algorithm then used graph consistent order
+d d
+however order obtain alignment further was necessary
+was additional step exact length at least
+derived constraints four possible exact matching sequences high sequences pairs between two other constraints where one length so must single between other constraints
+then all where sequences n process pairs alignment
+d range one base pairs
+length mean length
+all percent d genome percent d genome were our method

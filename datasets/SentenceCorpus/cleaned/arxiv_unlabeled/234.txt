@@ -1,0 +1,44 @@
+ 
+problem multi--agent learning adaptation attracted great deal attention recent years
+been suggested dynamics multi agent learning studied using replicator equations population biology
+most existing studies so far been limited discrete strategy spaces small number available actions
+many cases however choices available agents better characterized continuous spectra
+paper suggests generalization replicator framework allows study adaptive dynamics learning agents continuous strategy spaces
+instead probability vectors agents' strategies now characterized probability measures over continuous variables
+result ordinary differential equations discrete case replaced system coupled integral--differential replicator equations describe mutual evolution individual agent strategies
+derive set functional equations describing steady state replicator dynamics examine their solutions several two--player games confirm our analytical results using simulations
+ introduction 
+notion autonomous agents learn interacting environment possibly other agents central concept modern distributed ai
+particular interests systems where multiple agents learn concurrently independently interacting each other
+multi--agent learning problem attracted great deal attention due number important applications
+among existing approaches multi--agent reinforcement learning marl algorithms become increasingly popular due their generality
+although marl does not hold same convergence guarantees single--agent case been shown work well practice recent survey see 
+analysis standpoint marl represents complex dynamical system where learning trajectories individual agents coupled each other via collective reward mechanism
+thus desirable know what possible long--term behaviors those trajectories
+specifically one usually interested whether particular game structure those trajectories converge desirable steady state called fixed points oscillate indefinitely between many possibly infinite meta--stable states
+while answering question proven very difficult most general settings there been some limited progress specific scenarios
+particular been established simple stateless q--learning finite number actions learning dynamics examined using so called replicator equations population biology
+namely if one associates particular biological trait each pure strategy then adaptive learning possibly mixed strategies multi--agent settings analogous competitive dynamics mixed population where species evolve according their relative fitness population
+framework been used successfully study various interesting features adaptive dynamics learning agents
+few exceptions e g  see   most existing studies so far focused discrete action spaces limited full analysis learning dynamics games very few actions
+other hand many practical scenarios strategic interactions between agents better characterized continuous spectra possible choices
+instance modeling agent's bid auction continuous rather than discrete variable more natural
+situations agents' strategies represented probability density functions defined over continuous set actions
+course reality all decisions made over discretized subset
+however rationale using continuous approximation makes dynamics more amenable mathematical analysis
+paper consider simple learning agents play repeated continuous--strategy games
+agents use boltzmann action--selection mechanism controls exploration/exploitation tradeoff through single temperature--like parameter
+reward functions agents assumed functions continuous variables instead tensors agent strategies represented probability distribution over those variables
+contrast finite strategy spaces where learning dynamics captured set coupled ordinary differential equations replicator dynamics continuous--strategy games described functional--differential equations each agent coupling across different agents/equations
+long--term behavior those equations define steady state equilibrium profiles agent strategies
+shown general steady state strategy profiles replicator dynamics do not correspond nash equilibria game
+discrepancy attributed limited rationality agents due exploration
+particular boltzmann action-selection mechanism studied here exploration results adding entropic term agents' payoff function coefficient governed exploration rate temperature
+thus when one decreases exploration rate relative importance term diminishes one able gradually recover correspondence nash equilibria
+furthermore games allow uniformly mixed nash equilibrium steady state solution replicator equation identical uniform nash equilibrium any exploration rate
+because uniform distribution already maximizes entropic term
+example game if provided section
+rest paper organized follows: next section provide brief overview relevant literature
+section introduce our model derive replicator equations continuous strategy spaces set coupled non--linear functional equations describe steady state strategy profile
+section illustrate framework several examples two--agent games provide some detailed results general bi--linear quadratic payoffs
+finally conclude paper discussion our results possible future directions section

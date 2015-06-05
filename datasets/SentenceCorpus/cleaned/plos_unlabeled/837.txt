@@ -1,0 +1,53 @@
+ 
+microarray comparative genomic hybridisation provides estimate relative abundance genomic dna taken comparator reference organisms hybridisation microarray containing probes represent sequences reference organism
+experimental method used number biological applications including detection human chromosomal aberrations comparative genomic analysis bacterial strains but optimisation analysis desirable each problem domain
+present method analysis bacterial acgh data encodes spatial information reference genome hidden markov model
+technique first method validated comparisons sequenced bacteria diverge at strain at genus level: pectobacterium atrosepticum scri1043 dickeya dadantii 3937 ; lactococcus lactis subsp
+lactis il1403 l lactis subsp
+cremoris mg1363
+all cases our method found outperform common widely used acgh analysis methods do not incorporate spatial information
+analysis applied comparisons between commercially important plant pathogenic soft-rotting enterobacteria pba1043 p atrosepticum scri1039 p carotovorum 193 dda3937
+our analysis indicates should not assumed hybridisation strength reliable proxy sequence identity acgh experiments robustly extends applicability acgh bacterial comparisons at genus level
+our results sre further provide evidence dynamic plastic accessory genome revealing major genomic islands encoding gene products provide insight into may play direct role determining variation amongst sre terms their environmental survival host range aetiology phytotoxin synthesis multidrug resistance nitrogen fixation
+ introduction 
+microarray comparative genomic hybridisation provides estimate relative abundance genomic dna taken comparator reference organisms hybridisation microarray containing probes represent sequences reference organism
+method been used number biological applications including detection human chromosomal aberrations ; comparisons bacterial human pathogens ; bacterial plant pathogens ; industrially-important bacteria ; comparative transcriptomics xenopus laevis 
+numerous algorithms software packages been applied analysis acgh data prokaryotes
+majority partition reference organism sequences into two mutually exclusive classes: sequences present sequences absent divergent comparator organism
+observed hybridisation data each case assumed reliable proxies classes
+manuscript describe apply improved method analysis acgh data bacterial genome comparisons
+method incorporates spatial information about cds location reference genome hidden markov model
+spatial information expected capture pertinent biological evolutionary information operon structure regions lateral gene transfer
+our approach differs previously proposed widely-used methods applied bacterial acgh gack mpp consider hybridisation intensities each reference probe measurements independent their genomic location thus more similar methods arraylearna incorporates predicted operon structure into interpretations microarray expression data restricted set organisms
+compare relative performance our method commonly used bacterial acgh analysis algorithms software
+demonstrate several assumptions common bacterial acgh analysis methods concerning relationship between observed hybridisation scores ratios presence absence reference cds comparator organism do not always hold strongly particularly case more distantly-related organisms
+our data particular do not support distinction between present absent divergent classes sequence but rather between those sequences reference organism do those do not putative orthologues comparator genome
+find hmm better predictor reference sequences do not putative orthologue comparator organism than other methods tested
+spatial organisation sequences reference genome previously been incorporated into methods applied acgh analyses copy number variation human genomes
+been represented using hmm segmentation methods
+simple smoothing methods also been used identify breakpoints data
+however problem domain human copy number acgh differs problem domain bacterial comparative genomic acgh
+best our knowledge study describes first application method incorporating spatial information acgh comparative genomics unsequenced bacteria first demonstration applicability technique whole across bacterial genera
+pectobacterium atrosepticum pectobacterium carotovorum dickeya spp
+plant pathogenic soft-rotting enterobacteria share common ancestor
+despite their many similarities commercially significant pathogens differ their host range geographical distribution aetiology environmental persistence
+molecular origins differences not well understood but ecological flexibility likely indicative dynamic plastic genome core accessory components
+there currently two publicly available annotated genomes organisms: pba strain scri1043 dickeya dadantii strain 3937
+availability sequences rapidly advanced our understanding organisms but broader comparisons expected deliver greater insight into evolution function sre
+major common virulence factors sre plant cell wall degrading enzymes degrade plant cell wall release nutrients so-called brute force attack
+other virulence factors include virulence-associated secretion systems siderophores cell-surface polysaccharides agglutinins 
+contrast bacterial plant pathogens pseudomonas spp
+associated biotrophic stealth interaction host
+stealth pathogens employ mechanisms type iii secretion system translocate effectors into host cells
+effectors modulate host plant's biochemical responses implementing wide array strategies circumvent host immunity
+however pba1043 dda3937 other sres also encode functioning t3ss other gene products associated stealth interaction indicating more complex relationship their hosts than simple brute-force necrotrophy
+key factors confirmed role virulence include type iv type vi secretion systems phytotoxin coronafacic acid synthesised cfa gene cluster
+other factors associated persistence adaptation wider environment been identified genes associated opine uptake biofilm formation antibiotic production nitrogen fixation 
+many bacteria genes associated pathogenicity other phenotypically-distinguishing characters frequently associated islands horizontal gene transfer
+gene complement often variable between strains species sometimes termed accessory genome order distinguish core genome provides functionality presumed essential all related organisms
+expect observed differences between gene complements sre will reflect differences their phenotypes adaptations their distinct environments differences will preferentially located islands genes their genomes
+use acgh apply our analysis method identify genomic islands pba1043 do not putative orthologues unsequenced pba strain scri1039 pcc strain scri193 sequenced dda3937
+study coding sequences pba1043 predicted acgh absent divergent pba1039 pcc193 dda3937 interest because they may potentially contribute pba1043-specific phenotypes including host interactions
+pairwise comparisons between pba1043 three organisms span range evolutionary distances since their most recent common ancestor pba1043 represent variation at strain species genus levels
+our results sre support hypothesis genomes sre continue modified acquisition genomic islands model accessory genome niche-specific functionality composed at least part horizontally-acquired genomic islands
+identify major differences cds carried within accessory genomes sre while recapitulate previous observations major genomic islands made using alternative approaches also find number unexpected differences provide insight into may play direct role determining variation amongst sre terms their environmental survival host range aetiology

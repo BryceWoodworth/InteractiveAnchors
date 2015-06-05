@@ -1,0 +1,31 @@
+ 
+adic modification split-lbg classification method presented first clusterings then cluster centers computed locally minimise energy function
+outcome fixed dataset independent prime number finitely many exceptions
+methods applied construction adic classifiers context learning
+ introduction 
+field adic numbers interest hierarchical classification because its inherent hierarchical structure
+great amount work deals finding adic data representation e g \ 
+ use more general adic numbers encoding hierarchical data was advocated order able include case non-binary dendrograms into scheme without having resort larger prime number
+was applied special case data consisting words over given alphabet where proximity words defined length common initial part
+there agglomerative hierarchic adic clustering algorithm was described
+however question finding optimal clusterings adic data was not raised
+already  performance classical adic classification algorithms was compared segmentation moving images
+was observed adic ones were often more efficient
+learning algorithms using adic neural networks described
+inspired  our main concern article will adic adaptation so-called split-lbg method finds energy-optimal clusterings data
+name ``lbg'' refers initials authors  where described first
+their method find cluster centers then group data around centers
+next step cluster centers split more clusters obtained
+process repeated until desired class number attained
+adic data approach does not make sense: first all cluster centers general not unique; secondly because dendrogram already determined data arbitrary choice cluster centers not possible---this lead incomplete clusterings
+hence first find clusterings refining direction highest energy reduction until class number exceeds prescribed bound
+thereafter candidates cluster centers computed: they minimise cluster energy
+result sub-optimal method adic classification splits given cluster into its maximal proper subclusters
+variant discards first all quasi-singletons i e \ clusters energy below threshold value
+posteriori choice centers turns out useful constructing % efficient classifiers
+first application some methods described here event history data building stocks described
+there classification algorithm performed different adic encodings data order compare dynamics some sampled municipal building stocks
+after introducing notations section  briefly describe classical split-lbg method section
+section reformulates minimisation task split-lbg adic setting describes corresponding algorithms
+issue choice prime dealt section
+section constructs classifiers presents adaptive learning method accumulated clusters large energy split

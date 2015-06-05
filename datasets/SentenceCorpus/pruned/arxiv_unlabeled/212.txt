@@ -1,0 +1,70 @@
+
+object detection many applications
+since proposed first based detection system much effort been method
+work first show feature selection methods other than also used training efficient object
+particular introduce sparse linear analysis its computational better detection performance compared
+moreover propose new technique sparse linear analysis detection
+sample property criterion
+experiments domain highly data distributions detection proposed its
+finding provides significant argue similar approaches not only methods achieve high classification results high data object detection
+introduction
+detection detection computer applications based systems based image
+various been proposed literature
+object detection due visual conditions
+furthermore object detection classification task
+natural image contains many more negative patterns than object patterns
+number patterns times larger than number object patterns
+means if one achieve high detection rate together low detection rate one specific classifier
+classifier distribution into
+because based work been proposed
+most them focused underlying method training process
+example was introduced context highly example distribution
+proposed better detection accuracy feature step into training procedure
+used feature selection fast training
+another technique based statistics input data was used even training
+was proposed strong classifier
+based linear features
+therefore detection phase not efficient features
+classifier design feature selection
+work part was form propose learning algorithm detection sparse linear analysis
+introduced framework features training manner shown
+framework allows most before resulting fast performance
+test image reported only if tests all nodes
+way most early nodes
+lead very fast detection high detection rates
+also been used context support vector detection
+developed reduce training design complexity
+idea was further developed
+original work
+one issue system use algorithm training nodes
+modeling loss function
+algorithm produce strong classifier high classification accuracy
+small subset them
+linear combination decision classifier space
+proposed original following aspects
+instead decision error proposed algorithm new criterion
+result selected during learning process according criterion
+our technique following aspects
+proposed concept linear classifier learning goal framework
+our work where features selected based linear analysis criterion features using algorithm
+given selected features then optimal linear classifier learning goal using
+note similar techniques also been applied neural network
+adaptive network linear output been introduced
+input data into space classes more
+since number training samples each class at output neural network hidden been shown increase classification accuracy problem class
+our experiments show terms feature selection proposed methods than object detection } key work follows
+introduce alternative approach training
+similar results obtained compared approach
+propose new algorithm sample typically used into
+experiments show achieve better detection
+show feature selection classifier training techniques different objective functions other words two processes context training visual
+more even better performance
+previous based approaches features classifier
+our results consider highly data distribution when training
+learning criterion data information
+hence better than standard loss training object
+paper follows
+section algorithm introduced alternative learning technique object detection problems
+then discuss how data information when training classifier section
+then proposed algorithm described training time complexity discussed
+experimental results shown section paper section

@@ -1,0 +1,28 @@
+ 
+paper show connection between certain online low-congestion routing problem online prediction graph labeling
+more specifically prove if there exists routing scheme guarantees congestion any edge there exists online prediction algorithm mistake bound times cut size size cut induced label partitioning graph vertices
+previous known bound routing problem trees vertices obtain improved prediction algorithm graphs high effective resistance
+contrast previous approaches move graph problem into problems vector space using graph laplacian rely analysis perceptron algorithm our proof purely combinatorial
+further more our approach directly generalizes case where labels not binary
+ introduction 
+interested online prediction problem graphs
+given connected graph labeling  unknown prediction algorithm each round   adversary asks label vertex  prediction algorithm provides answer  then receives correct label
+goal minimize number rounds algorithm makes mistake i e  rounds
+make our presentation clean work do not count mistake made first question
+problem been studied standard online learning tools perceptron algorithm
+herbster pontil wainer  herbster pontil use pseudoinverse graph laplacian kernel provide mistake bound depends size cut induced partition based real labeling vertices largest effective resistance between any pair vertices graph
+recently herbster exploits cluster structure labeling graph provides improved mistake bounds
+pelckmans suykens present combinatorial algorithm problem predicts label given vertex based known labels its neighbors
+they also prove bound number mistakes when labels adjacent vertices known
+however their bound very loose since does not count every mistakes their proof still based graph laplacian
+shall compare bound obtain previous bounds herbster et
+al  pelckmans suykens section
+work follows initiation pelckmans suykens
+show connection between prediction problem following online routing problem first introduced awerbuch azar their study online multicast routing
+given connected graph  algorithm receives sequence requests  where  each  where  route one unit flow some previous know where
+algorithm works online fashion i e  return route before receiving other requests  where
+given set routes define congestion incurred edge  defined number routes use
+performance algorithm measured maximum congestion incurred any edge
+prove section if there exists algorithm guarantee congestion incurred any edge will no greater than  there exists online prediction algorithm mistake bound where set edges joining pairs vertices different labels i e 
+section apply known congestion bound show mistake bound graph prediction problem compare bound obtained bounds previous results
+note our approach directly generalizes case when labels not binary i e  when labeling function maps arbitrary set labels same mistake bound

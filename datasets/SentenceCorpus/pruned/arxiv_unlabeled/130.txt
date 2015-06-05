@@ -1,0 +1,31 @@
+
+statistical learning theory studies hypothesis classes particularly those finite dimension
+fundamental interest sample number samples required learn level accuracy
+here consider learning over set all functions
+since bounds number samples let learning algorithm when seen sufficient samples learned
+first show learning setting indeed possible develop learning algorithm
+then show however sample complexity distribution
+due learning algorithm not due statistical nature problem
+introduction
+learn difficult classification example whether given image contains human whether image shows etc
+may first simple model small neural network
+if may other potentially more complex methods classification support vector different techniques apply certain data first etc
+statistical learning theory bound number samples needed learn level accuracy each above models e g \ neural networks support vector
+specifically bound learning model determine number samples use
+however if allow change model then overall learning algorithm not finite much statistical learning theory does not directly apply
+much time complexity model cannot structural risk explicitly complex models
+alternative approach one paper simply consider single learning model all possible classification methods
+consider learning model all
+since there no bounds independent distribution target concept number samples needed learn
+yet still level accuracy
+rather than number samples natural allow learning algorithm when seen many samples based training samples seen up now their
+since above learning model any practical classification term universal learning
+first show there learning algorithm our universal setting
+then order obtain bounds number training samples would needed consider sample complexity learning algorithm function unknown correct function i e \ target concept
+although correct unknown sample complexity measure could used compare learning algorithms target were learning algorithm requires samples than learning algorithm
+what sample size needed target function certain class could compare sample complexity universal over class e g \ finite
+however prove bound sample complexity any universal learning algorithm even function target concept
+depending distribution any bound will high probability
+bound due
+indeed show there learning procedure bound number samples function unknown target concept distribution
+our results learning algorithms universal setting must sense more samples than necessary statistical

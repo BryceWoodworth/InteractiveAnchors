@@ -1,0 +1,91 @@
+ 
+yeast two-hybrid screens important method mapping pairwise physical interactions between proteins
+fraction interactions detected independent screens very small outstanding challenge determine reason low overlap
+low overlap arise either high false-discovery rate high false-negative rate
+extend capture recapture theory provide first unified model false-positive false-negative rates two-hybrid screens
+analysis yeast worm fly data indicates 25 percent 45 percent reported interactions likely false positives
+membrane proteins higher false-discovery rates average signal transduction proteins lower rates
+overall false-negative rate ranges 75 percent worm 90 percent fly arises roughly 50 percent false-negative rate due statistical undersampling 55 percent 85 percent false-negative rate due proteins appear systematically lost assays
+finally statistical model selection conclusively rejects erd s-r nyi network model favor power law model yeast truncated power law worm fly degree distributions
+much genome sequencing coverage estimates were essential planning human genome sequencing project coverage estimates developed here will valuable guiding future proteomic screens
+all software datasets available datasets s1 s2 figures s1 s5 tables s1 s6 also available our web site link
+ introduction 
+maps pairwise protein protein interactions being generated increasing numbers two-hybrid method
+genome-scale two-hybrid screens now been conducted saccharomyces cerevisiae caenorhabditis elegans drosophila melanogaster
+more recently screens been reported herpesviruses human
+datasets stimulated large-scale analysis topology protein interaction networks
+limitations data both false positives false negatives continue make difficult infer network properties including distinctions basic difference between erd s-r nyi power law other network degree distributions 
+recent review points out challenges estimating false-positive rates false-negative rates completion full coverage protein interaction networks
+virtually every published method falls back estimate based intersections datasets
+false-positive rates methods large variance when assays little overlap indeed could not used analyze existing large-scale maps worm fly
+estimates false-negative rates based overlap datasets may even larger uncertainty
+finally global estimates false-positive false-negative rates say little about protein-specific properties including whether certain classes proteins behave well badly two-hybrid screens
+goal work develop apply statistical model two-hybrid pairwise interaction screens
+previous methods typically summarize presence absence interaction 1/0 binary variable possibly split off high-confidence core dataset
+method describe reaches back raw counts observed bait prey clones
+frees statistical method need external gold standard true-positive true-negative interactions even second dataset
+permits protein-specific predictions first time permit tests hypotheses some classes proteins more less likely nonspecific interactions
+finally estimates false-negative rates permit statistically grounded confidence intervals total number pairwise interactions present model organism proteomes
+flowchart two-hybrid screen orients discussion showing where true-positive interaction partners lost where false-positive spurious interactions may arise
+two-hybrid assay one protein fused binding domain yeast transcription factor second protein fused activation domain
+physical interactions between bait prey proteins reconstitute transcription factor activity
+due expense assay not every protein may selected made into bait prey construct
+furthermore some constructs may not functional at all due improper folding incompatibility two-hybrid system
+missing interactions important consider when estimating total number interactions proteome
+high-throughput two-hybrid screens used multiplexed pairwise tests either testing single bait versus pool preys pooling both baits preys
+unnormalized prey pools generated mrna extracted growing cells
+access clone collections pools normalized designing baits preys individually each protein protein domain then mixing preys equal proportion
+yeast screen considered here tested 62 normalized bait pools versus 62 normalized prey pools each pool having approximately 96 genes
+fly screen worm screen each tested one bait turn versus both normalized unnormalized pools
+testing occurs using mating transformation express both bait prey construct single yeast cell
+true-positive interactions drive reporter genes permit yeast cell grow selective media
+yeast cells whose bait prey constructs do not interact expected drop out during population expansion
+true positives may also lost during population expansion at least two reasons
+first mating transformation may lack enough cells ensure every combination tested
+second particular construct may domain-specific misfolding making functional some interactions but nonfunctional others
+true interactions not represented cells following population expansion systematic false negatives particular screen
+false negatives due insufficient mating/transformation due nonfunctional domains could principle discriminated repeating mating transformation step selective population expansion
+without additional step however losses during population expansion combine yield systematic false-negative rate termed 1 p syst p syst representing true-positive rate interacting pair survive population expansion
+some cells expressing noninteracting proteins may also survive population expansion final population cells will mixture true positives false positives
+figure 1 mass fraction true-positive cells 1 false-positive cells ratio false positives total number true negatives false-positive rate
+usually however ratio respect total number observed interactions defined false-discovery rate synonymous parameter 
+ongoing point contention two-hybrid screens possibility two proteins never interact vivo host organism might strong reproducible interaction vitro engineered two-hybrid system
+conversely proteins strong two-hybrid interaction might nevertheless fail interact vivo
+purposes work assume cases rare classify any pair proteins reproducible two-hybrid interaction true positive
+while total false-positive fraction may large represents sum over many different false-positive pairs
+most models including ours assume any particular false positive rare vanishing probability observing specific false-positive interaction more than once
+interactions detected pooled screens often require sequencing identify interacting partners although advanced pooling designs may improve deconvolution efficiency
+cost constraints limit number interactions sampled sequencing
+if number clones selected sequencing smaller than number true interaction partners bait some true partners will certainly lost
+limited sampling depth also truncates observed degree distribution baits
+false-negative rate due undersampling termed 1 p samp figure 1
+false-discovery rates typically been estimated comparing datasets suggesting up 50 percent false positives but analyses confound false-positive false-negative error sources
+estimated error rates large uncertainty because few interactions observed multiple datasets
+example comparing uetz ito two-hybrid datasets yeast reveals only 9.1 percent total interactions common comparing two-hybrid interactions mass spectrometry interactions reveals only 0.6 percent common
+similarly comparison two fly screens reveals few interactions common
+cross-species comparisons also revealed little overlap reported interactions although protein network evolution additional confounding factors
+efforts estimate true number interaction partners protein used contingency tables observing interaction multiple screens
+methods require all interactions true positives example excluding singleton observations reduce estimated interaction count
+notable exception previous work context mass spectrometry protein complexes used bayesian model infer global parameters screen-specific false-positive false-negative rates
+parameters then provided posterior estimates probability true interaction given results one more screens
+work important using number trials successes rather than single summary yes/no observation its probability model; serves motivation developing similar models more complicated two-hybrid sampling process involving strong protein-specific effects
+quantitative predictions amount work required identify some fraction true interactions would analogous formulas genome sequencing would useful planning new experiments
+new work presented here uses raw screening data estimate false-negative rate undersampling together false-positive rate
+schematic illustrates sampling process
+interactions sampled replacement two sets one representing true positives other true negatives
+observations number times each interaction sampled summarize three variables: n total number samples drawn; w number unique interactions within n samples; s number interactions observed exactly once
+observations estimate unknown values k total number true interaction partners f number false positives within sample n also estimate parameter representing fraction false positives mixture well parameters representing probability distribution k simplicity illustration suggests sampling interactions entire network; reality sampling process occurs separately each bait estimation k f performed separately each bait
+estimation problem akin estimating population sizes species counts capture recapture experiments estimating vocabulary size word counts estimating number distinct alleles at particular locus estimating number facts scientific literature
+classic capture recapture theory permits heterogeneous capturability rates here analogous different probabilities observing each true interaction partner bait
+canonical estimator simple form: w s 2/2k 2 where k 2 number partners observed exactly twice
+classic estimator fails two-hybrid setting because does not account false positives
+our knowledge false positives never been discussed capture recapture setting
+false positives will vastly inflate interaction count adding number singleton observations s total observed count w standard estimator high variance when number observations small yielding small value denominator k 2
+estimator fails converge when each partner observed only once yielding n w s k 2 0 
+present front-to-back statistical model both false-positive false-negative error rates two-hybrid screens
+glossary model terms provided
+overall approach start estimating parameters mixture model true positives false positives following population expansion
+permits us estimate bait-specific false-discovery rates false-negative rates due undersampling
+then back-calculate false-negative rate due systematic effects
+putting results together yields overall estimate false-negative rate screen basis comparing interaction lists produced different efforts
+along way examine issues our model able address quantitatively: selecting best model protein degree distribution; correlating false-discovery rates bait properties sticky promiscuous domains hydrophobic regions; determining relative performance prey libraries generated cdna libraries orfeome collections

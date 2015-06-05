@@ -1,0 +1,36 @@
+ 
+present method learning max-weight matching predictors bipartite graphs
+method consists performing maximum posteriori estimation exponential families sufficient statistics encode permutations data features
+although inference general hard show one very relevant application--web page ranking--exact inference efficient
+general model instances appropriate sampler readily available
+contrary existing max-margin matching models our approach statistically consistent addition experiments increasing sample sizes indicate superior improvement over models
+apply method graph matching computer vision well standard benchmark dataset learning web page ranking obtain state-of-the-art results particular improving max-margin variants
+drawback method respect max-margin alternatives its runtime large graphs comparatively high
+ introduction 
+maximum-weight bipartite matching problem henceforth `matching problem' fundamental problem combinatorial optimization
+problem finding `heaviest' perfect match weighted bipartite graph
+exact optimal solution found cubic time standard methods hungarian algorithm
+problem practical interest because nicely model real-world applications
+example computer vision crucial problem finding correspondence between sets image features often modeled matching problem
+ranking algorithms based matching framework  clustering algorithms
+when modeling problem one matching one central question choice weight matrix
+problem real applications typically observe edge feature vectors  not edge weights
+consider concrete example computer vision: difficult tell what `similarity score' between two image feature points but straightforward extract feature vectors e g sift associated those points
+setting natural ask whether could parameterize features use labeled matches order estimate parameters given graphs `similar' features their resulting max-weight matches also `similar'
+idea `parameterizing algorithms' then optimizing agreement data called structured estimation
+describe max-margin structured estimation formalisms problem
+max-margin structured estimators appealing they try minimize loss one really cares about `structured losses' hamming loss example
+however structured losses typically piecewise constant parameters eliminates any hope using smooth optimization directly
+max-margin estimators instead minimize surrogate loss easier optimize namely convex upper bound structured loss
+practice results often good but known convex relaxations produce estimators statistically inconsistent  i e algorithm general fails obtain best attainable model limit infinite training data
+inconsistency multiclass support vector machines well-known issue literature received careful examination recently
+motivated inconsistency issues max-margin structured estimators well well-known benefits having full probabilistic model paper present maximum posteriori map estimator matching problem
+observed data edge feature vectors labeled matches provided training
+then maximize conditional posterior likelihood matches given observed data
+build exponential family model where sufficient statistics mode distribution prediction solution max-weight matching problem
+resulting partition function p-complete compute exactly
+however show learning rank applications model instance tractable
+then compare performance our model instance against large number state-of-the-art ranking methods including dorm  approach only differs our model instance using max-margin instead map formulation
+show very competitive results standard webpage ranking datasets particular show our model performs better than par dorm
+intractable model instances show problem approximately solved using sampling provide experiments computer vision domain
+however fastest suitable sampler still quite slow large models case max-margin matching estimators like those likely preferable even spite their potential inferior accuracy

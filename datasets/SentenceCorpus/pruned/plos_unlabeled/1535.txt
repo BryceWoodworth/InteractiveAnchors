@@ -1,0 +1,72 @@
+
+much complexity biochemical networks proteins they molecules transcription factors
+protein each combination input molecules
+regulatory complexity increase number parameters required experimental data number protein interactions increases
+therefore biochemical models
+here propose framework intrinsic protein structure address regulatory complexity
+rather than proteins model their structure conformational changes dynamics
+regulation proteins through conformational changes often number parameters required data so reduce improve predictive power model
+our method detailed also molecular activity
+use our network examine how how change observed protein
+also develop model g functional predict rank order through receptor
+our should provide basis biochemical networks systems biology
+introduction
+goal biology understand structure function biochemical networks cellular decision-making
+one principle networks specific functions subset proteins network
+yet like even individual proteins perform multiple
+approach analysis system scales well size system its complexity
+indeed design systems other
+if molecular biology structures larger
+networks may role protein domains
+their function often depends interaction at one site structure at site via conformational change
+indeed increases ability network because proteins dynamic computational elements
+approach analysis design biochemical networks should therefore explicitly describe performed individual proteins
+complexity biochemical networks should also protein structure
+protein structure given protein often domains also present other proteins
+example many proteins contain domains many
+genetic networks transcription factors also often common domain
+protein domains both domain been characterized used but also necessary model molecular between pathways contain proteins similar structures
+protein interactions generate both regulatory complexity
+complexity number possible species system number proteins interactions system increases
+because number states increases its proteins well each other different residues
+example cellular known sites so potentially 2 states
+thus complete description system potentially requires large number distinct species reactions
+contrast regulatory complexity increase number parameters required describe regulatory interactions within system number interactions increase
+complexity because protein interactions depends state each state potentially requires unique set parameters interactions within other network molecules network
+number parameters
+complexity allows regulatory system
+examples include
+rather than explicitly each species reaction network model system according set rules
+each rule reaction all relevant biochemical parameters
+thus complex systems described because large number distinct reactions single rule
+algorithm may complete reaction network prior simulation if complexity too use alternative techniques system
+some rules also conditions when interaction occur hence regulatory network
+example rule may allow only kinase its
+describe complex biochemical systems but little number problems
+first using rules regulatory system does not address regulatory complexity
+consider g site g site
+binding multiple targets
+given one different one g different g proteins then principle require parameters describe how each each g protein
+thus number regulatory parameters scales number rules also scales because each parameter part rule distinct constraints
+proteins therefore require large number rules parameters their interactions
+second should function between systems but most not
+typically proteins define interactions using biochemical
+approaches regulation proteins rules conditions no apply when proteins different
+rules mechanism underlying regulation because they do not show explicitly how intrinsic structural properties proteins generate their functional properties
+contrast approach would regulatory proteins themselves
+changes rules would then required define how new set interaction activity
+if model protein domains components would also
+finally models generated methods should correct
+biochemical networks there often sets reactions into cycle
+many no free energy example when proteins multiple when several protein when multiple open states
+mathematical relationship between all reactions involved their must
+cannot therefore
+correct should model
+here present regulatory well complexity biochemical networks
+first describe our framework uses treatment only conformational state proteins
+also introduce our network
+use examine how make more
+then show how our framework common mechanisms regulatory properties protein conformational changes protein itself demonstrate how analysis multiple through protein
+next discuss how our approach regulatory complexity increases
+finally use our framework develop model g whose regulatory complexity scales instead greater predictive power
+while our major goal introduce new rather than its made models discuss available

@@ -1,0 +1,20 @@
+ 
+report experiment exploring sequential context effects strategy choices one-shot prisoner's dilemma pd game
+rapoport chammah shown some pds cooperative lead high cooperation rate whereas others uncooperative
+participants played very cooperative very uncooperative games against anonymous partners
+order games were played affected their cooperation rate producing perceptual contrast appeared only between trials but not between two separate sequences games
+findings suggest people may not stable perceptions absolute cooperativeness
+instead they judge cooperativeness each fresh game only relation previous game
+observed effects suggest principles underlying judgments about highly magnitudes cooperativeness may similar principles governing perception sensory magnitudes
+ introduction 
+most applications standard normative models whether individual strategic decision making make basic assumption each risky prospect game considered separately resulting choice should based only attributes particular prospect game
+validity related independence assumptions been challenged extensively past especially context individual decision making under risk
+thus allais first demonstrated behavior violating independence axiom expected utility theory here independence between mutually exclusive possible outcomes
+later regret theory showed how regret modify utility outcome results particular choice depending outcomes would resulted other choices choice set
+recent psychological theories individual decision making also been developed prospects judged relation one another stochastic difference model multialternative decision field theory componential-context model decision-by-sampling
+theories all common idea mere presence option choice set may change way another option judged more broadly preferences constructed afresh light salient options each situation recent past
+thus preference constructed rather than revealed
+attempt ground constructivist idea onto some fundamental properties perceptual system stewart chater stott reimers describe phenomenon called prospect relativity perceived value risky prospect e g p chance x relative other prospects presented
+similar effects were also found financial saving investment decision making under risk
+prospect relativity effects counter expected utility theory basic normative principle individual choice assumes perceived value each prospect should dependent only its own attributes
+stewart et al suggested phenomenon arises because way magnitudes define prospects defined phenomenon common origin similar psychophysical effects perception sensory magnitudes like brightness loudness

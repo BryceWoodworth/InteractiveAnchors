@@ -1,0 +1,51 @@
+ 
+understanding mechanisms cell function drug action major endeavor pharmaceutical industry
+drug effects governed intrinsic properties drug specific signaling transduction network host
+here describe unbiased phosphoproteomic-based approach identify drug effects monitoring drug-induced topology alterations
+our proposed method drug effects investigated under diverse stimulations signaling network
+starting generic pathway made logical gates build cell-type specific map constraining fit 13 key phopshoprotein signals under 55 experimental conditions
+fitting performed via integer linear program formulation solution standard ilp solvers; procedure drastically outperforms previous fitting schemes
+then knowing cell's topology monitor same key phosphoprotein signals under presence drug re-optimize specific map reveal drug-induced topology alterations
+prove our case make topology hepatocytic cell-line hepg2 evaluate effects 4 drugs: 3 selective inhibitors epidermal growth factor receptor non-selective drug
+confirm effects easily predictable drugs' main target but also uncover unanticipated effects due either drug promiscuity cell's specific topology
+interesting finding selective egfr inhibitor gefitinib inhibits signaling downstream interleukin-1alpha pathway; effect cannot extracted binding affinity-based approaches
+our method represents unbiased approach identify drug effects small medium size pathways scalable larger topologies any type signaling interventions
+method reveal drug effects pathways cornerstone identifying mechanisms drug's efficacy
+ introduction 
+target-based drug discovery predominant focus pharmaceutical industry
+primary objective selectively target protein within diseased cells order ameliorate undesired phenotype e.g unrestrained cell proliferation inflammatory cytokine release
+ideally other pathways within diseased cells well similar phenotypes other cell types should remain unaffected therapeutic approach
+however despite plethora new potential targets emerged sequencing human genome rather few proven effective clinic
+major limitation inability understand mechanisms drug actions either due complex signaling transduction networks cells due complicated profile drug potency selectivity
+finding drug's targets traditionally based high-throughput vitro assays using recombinant enzymes protein fragments
+main goal characterize drug's biochemical activity depict them drug-interaction maps
+most cases once target known vivo effect signaling pathway validated measuring drug's efficiency inhibit activity downstream protein
+however beyond measurement little know how rest signaling network affected
+addition vivo drug effects hardly calculated vitro assays several reasons: most kinase inhibitors promiscuous there discrepancy between vivo vitro binding affinities drugs there additional discrepancy between vivo binding affinities vivo inhibitor activity phosphorylation downstream signals
+address drug effects more physiological conditions novel genomic proteomic tools recently been developed
+genomic arena large-scale mrna analysis enhanced computational approaches drug target deconvolution been developed
+despite holistic advantages genomic approaches offer proteomic-based discovery step closer function cell
+towards goal affinity chromatography offers viable strategy in-vivo target identification
+approach utilizes solid support linked bait enrich cellular binding proteins identified mass spectrometry
+however experiments usually require large amounts starting protein biased toward more abundant proteins result several hits due nonspecific interactions
+order circumvent non-specific interaction problem another bait-based strategy uses quantitative ms dirty inhibitors baits immobilize kinome
+while approach significantly reduces non-specific interaction problem also limits target-searching space those kinases highest affinity bait
+more recently quantitative ms-based proteomics using silac technology extends search space all targets do not bind covalently drug
+however incorporation silac's isotopes requires 5 population doublings thus excludes application primary cells limited replication capabilities
+taken together all techniques listed above best case scenario list affinities all targets drug but no information provided whether binding affinity capable inhibiting transmission signal downstream protein how those preferential bindings collectively affect signaling network cell
+here describe significantly different approach identify drug effects where drugs evaluated alterations they cause signaling pathways
+instead identifying binding partners monitor pathway alterations following key phosphorylation events under several treatments cytokines
+workflow presented figure 1
+experimental front using bead-based multiplexed assays measure 13 key phosphorylation events under more than 50 different conditions generated combinatorial treatment stimuli selective inhibitors
+based signaling response a-priori set possible reactions create cell-type specific pathway using efficient optimization formulation known integer linear programming
+approach builds upon boolean optimization approach proposed
+ilp solved using standard commercial software packages guaranteed global optimality
+evaluate drug effects subject cells same stimuli presence drugs tract alterations same key phosphorylation events
+then reapply ilp formulation without a-priori assumption drug target monitor changes pathway topology without drug presence
+demonstrate our approach construct generic map optimize fit phosphoproteomic data transformed hepatocytic cell lines hepg2
+then identify effects four drugs: dual egfr/erbb-2 inhibitor lapatinib two potent egfr kinase inhibitors erlotinib gefitinib dirty raf kinase inhibitor sorafenib
+when our method applied those 4 drugs find their main target effect also uncover several unknown but equally active off-target effects
+case gefitinib find surprising inhibition cjun il1 pathway
+contrast previously developed techniques our method based actual effect phosphorylation events carefully spread into signaling network
+theoretically applied any type intracellular perturbations atp-based allosteric kinase inhibitors rnai shrna etc computational front our ilp-based approach performs faster more efficient than current algorithms pathway optimization identify main drug effects well unknown off-target effects areas pathways constrained between activated receptors measured phosphorylated proteins
+our fast unbiased characterization modes drug actions shed light into potential mechanisms drug's efficacy toxicity

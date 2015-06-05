@@ -1,0 +1,45 @@
+ 
+two ubiquitous aspects large-scale data analysis data often
+heavy-tailed properties diffusion-based spectral-based
+methods often used identify extract structure interest
+perhaps surprisingly popular distribution-independent methods those
+based vc dimension fail provide nontrivial results even
+simple learning problems binary classification two
+settings
+paper develop distribution-dependent learning methods
+used provide dimension-independent sample complexity bounds
+binary classification problem two popular settings
+particular provide bounds sample complexity maximum margin
+classifiers when magnitude entries feature vector decays
+according power law also when learning performed
+so-called diffusion maps kernel
+both results rely bounding annealed entropy gap-tolerant
+classifiers hilbert space
+provide bound demonstrate our proof technique
+generalizes case when margin measured respect more
+general banach space norms
+latter result potential interest cases where modeling
+relationship between data elements dot product hilbert space
+too restrictive
+ introduction 
+two ubiquitous aspects large-scale data analysis data often
+heavy-tailed properties diffusion-based spectral-based
+methods often used identify extract structure interest
+absence strong assumptions data
+popular distribution-independent methods those based vc
+dimension fail provide nontrivial results even simple learning
+problems binary classification two settings
+at root reason both situations data
+formally very high dimensional without additional regularity
+assumptions data there may small number ``very outlying''
+data points
+paper develop distribution-dependent learning methods
+used provide dimension-independent sample complexity bounds
+maximum margin version binary classification problem
+two popular settings
+both cases
+able obtain nearly optimal linear classification hyperplanes since
+distribution-dependent tools employ able control aggregate
+effect ``outlying'' data points
+particular our results will hold even though data may
+infinite-dimensional unbounded

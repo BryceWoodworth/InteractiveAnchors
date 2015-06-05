@@ -1,0 +1,36 @@
+ 
+consider least-square regression problem regularization block norm ie  sum euclidean norms over spaces dimensions larger than one
+problem referred group lasso extends usual regularization norm where all spaces dimension one where commonly referred lasso
+paper study asymptotic model consistency group lasso
+derive necessary sufficient conditions consistency group lasso under practical assumptions model misspecification
+when linear predictors euclidean norms replaced functions reproducing kernel hilbert norms problem usually referred multiple kernel learning commonly used learning heterogeneous data sources non linear variable selection
+using tools functional analysis particular covariance operators extend consistency results infinite dimensional case also propose adaptive scheme obtain consistent model estimate even when necessary condition required non adaptive scheme not satisfied
+ introduction 
+regularization emerged dominant theme machine learning statistics
+provides intuitive principled tool learning high-dimensional data
+regularization squared euclidean norms squared hilbertian norms been thoroughly studied various settings approximation theory statistics leading efficient practical algorithms based linear algebra very general theoretical consistency results
+recent years regularization non hilbertian norms generated considerable interest linear supervised learning where goal predict response linear function covariates; particular regularization norm equal sum absolute values method commonly referred lasso   allows perform variable selection
+however regularization non hilbertian norms cannot solved empirically simple linear algebra instead leads general convex optimization problems much early effort been dedicated algorithms solve optimization problem efficiently
+particular lars algorithm allows find entire regularization path i e  set solutions all values regularization parameters at cost single matrix inversion
+consequence optimality conditions regularization norm leads sparse solutions i e  loading vectors many zeros
+recent works looked precisely at model consistency lasso i e  if know data were generated sparse loading vector does lasso actually recover when number observed data points grows
+case fixed number covariates lasso does recover sparsity pattern if only if certain simple condition generating covariance matrices verified
+particular low correlation settings lasso indeed consistent
+however presence strong correlations lasso cannot consistent shedding light potential problems procedures variable selection
+adaptive versions where data-dependent weights added norm then allow keep consistency all situations
+related lasso-type procedure group lasso  where covariates assumed clustered groups instead summing absolute values each individual loading sum euclidean norms loadings each group used
+intuitively should drive all weights one group zero together  thus lead group selection
+\mysec{grouplasso} extend consistency results lasso group lasso showing similar correlation conditions necessary sufficient conditions consistency
+passage groups size one groups larger sizes leads however slightly weaker result not get single necessary sufficient condition \mysec{refined} show stronger result similar lasso not true soon one group dimension larger than one
+also our proofs relax assumptions usually made consistency results i e  model completely well-specified conditional expectation response linear covariates constant conditional variance
+context misspecification  common situation when applying methods ones presented paper simply prove convergence best linear predictor assumed sparse both terms loading vectors sparsity patterns
+group lasso essentially replaces groups size one groups size larger than one
+natural context allow size each group grow unbounded i e  replace sum euclidean norms sum appropriate hilbertian norms
+when hilbert spaces reproducing kernel hilbert spaces rkhs procedure turns out equivalent learn best convex combination set basis kernels where each kernel corresponds one hilbertian norm used regularization
+framework referred multiple kernel learning   applications kernel selection data fusion heterogeneous data sources non linear variable selection
+latter case multiple kernel learning exactly seen variable selection generalized additive model 
+extend consistency results group lasso non parametric case using covariance operators appropriate notions functional analysis
+notions allow carry out analysis entirely ``primal/input'' space while algorithm work ``dual/feature'' space avoid infinite dimensional optimization
+throughout paper will always go back forth between primal dual formulations primal formulation analysis dual formulation algorithms
+paper organized follows: \mysec{grouplasso} present consistency results group lasso while \mysec{mklsec} extend hilbert spaces
+finally present adaptive schemes \mysec{adaptive} illustrate our set results simulations synthetic examples \mysec{simulations}

@@ -1,0 +1,86 @@
+ 
+ensemble learning aims improve generalization ability using multiple base learners
+
+well-known construct good ensemble base learners should accurate well
+diverse
+paper unlabeled data exploited facilitate ensemble learning
+helping augment diversity among base learners
+specifically semi-supervised ensemble
+method named {\udeed} proposed
+unlike existing semi-supervised ensemble methods where
+error-prone pseudo-labels estimated unlabeled data enlarge labeled data
+improve accuracy {\udeed} works maximizing accuracies base learners labeled data while
+maximizing diversity among them unlabeled data
+experiments show {\udeed} effectively
+utilize unlabeled data ensemble learning highly competitive well-established
+semi-supervised ensemble methods
+ introduction 
+ensemble learning  number base learners trained then
+combined prediction achieve strong generalization ability
+numerous effective ensemble
+methods been proposed \textsc{boosting}  \textsc{bagging} 
+\textsc{stacking}  etc  most methods work under supervised setting
+where labels training examples known
+many real-world tasks however unlabeled
+training examples readily available while obtaining their labels would fairly expensive
+semi-supervised learning major paradigm exploit unlabeled data together
+labeled training data improve learning performance automatically without human
+intervention
+paper deals semi-supervised ensembles ensemble learning labeled
+unlabeled data
+contrast huge volume literatures ensemble learning
+semi-supervised learning only few work been devoted study semi-supervised
+ensembles
+indicated zhou  was caused different philosophies
+ensemble learning community semi-supervised learning community
+ensemble learning
+community believes able boost performance weak learners strong learners
+using multiple learners so there no need use unlabeled data; while semi-supervised
+learning community believes able boost performance weak learners strong
+learners exploiting unlabeled data so there no need use multiple learners
+however
+zhou indicated  there several important reasons why ensemble learning
+semi-supervised learning actually mutually beneficial among important one
+considering unlabeled data possible help augment diversity among base
+learners explained following paragraph
+well-known generalization error ensemble related average
+generalization error base learners diversity among base learners
+generally
+lower average generalization error higher average accuracy base learners
+higher diversity among base learners better ensemble
+previous
+ensemble methods work under supervised setting trying achieve high average accuracy
+high diversity using labeled training set
+noteworthy however pursuing high
+accuracy high diversity may suffer dilemma
+example two classifiers
+perfect performance labeled training set they would not diversity since there
+no difference between their predictions training examples
+thus increase diversity
+needs sacrifice accuracy one classifier
+however when unlabeled data might
+find two classifiers actually make different predictions unlabeled data
+would
+important ensemble design
+example given two pairs classifiers  if know all them 100 accuracy labeled training data then there
+will no difference taking either ensemble consisting ensemble consisting
+; however if find make same predictions unlabeled data
+while make different predictions some unlabeled data then will know
+ensemble consisting should better
+so contrast previous ensemble methods
+focus achieving both high accuracy high diversity using only labeled data use
+unlabeled data would open promising direction designing new ensemble methods
+paper propose {\udeed}  unlabeled data enhance ensemble diversity 
+approach
+experiments show using unlabeled data diversity augmentation {\udeed}
+achieves much better performance than its counterpart does not consider usefulness
+unlabeled data
+moreover {\udeed} also achieves highly comparable performance other
+state-of-the-art semi-supervised ensemble methods
+rest paper organized follows
+section briefly reviews related work
+semi-supervised ensembles
+section presents {\udeed}
+section
+reports our experimental results
+finally section concludes

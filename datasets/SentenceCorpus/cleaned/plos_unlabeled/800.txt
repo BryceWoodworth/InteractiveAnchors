@@ -1,0 +1,33 @@
+ 
+identification pathways involved structural transitions biomolecular systems often complicated transient nature conformations visited across energy barriers multiplicity paths accessible multidimensional energy landscape
+task becomes even more challenging exploring molecular systems order megadaltons
+coarse-grained models lend themselves analytical solutions appear only possible means approaching cases
+motivated utility elastic network models describing collective dynamics biomolecular systems growing theoretical experimental evidence support intrinsic accessibility functional substates introduce new method adaptive anisotropic network model exploring functional transitions
+application bacterial chaperonin groel comparisons experimental data results action minimization algorithm previous simulations support utility aanm computationally efficient yet physically plausible tool unraveling potential transition pathways sampled large complexes/assemblies
+important outcome assessment critical inter-residue interactions formed/broken near transition state most involve conserved residues
+ introduction 
+many proteins assume more than one functional conformation stabilized ligand binding changes environmental conditions
+typical example bacterial chaperonin groel widely studied atp-regulated molecular machine member heat shock protein hsp60 family
+groel assists unfolding refolding misfolded partially folded proteins
+composed two back-to-back stacked rings each containing seven subunits 60 kda
+each subunit turn composed three domains equatorial intermediate apical
+groel works together co-chaperonin groes
+activity groel-groes complex entails series allosteric transitions structure triggered atp binding hydrolysis described figure 1: absence nucleotide binding both rings assume closed state designated t/t state two rings
+cooperative binding seven atp molecules subunits one rings hereafter referred cis ring drives conformational change subunits open state thus leading r/t form cis/trans rings
+r/t form exposes number hydrophobic residues at apical domains cis ring subunits
+groups attract unfolded partially folded peptide encapsulated cylindrical chamber following attachment groes
+atp hydrolysis provides energy needed process substrate leads state r /t process terminated upon binding seven atp molecules adjoining ring hence term negative cooperative effect induced atp binding
+structure adp atp molecules bound respective cis trans rings favors opening groes cap release peptide adp molecules start new cycle time roles former cis trans rings being inverted
+interest understand molecular basis negative cooperative effect triggered upon binding seven atp molecules trans ring
+atp binding induces case structural change cap-binding region at distance 65
+understanding mechanism allosteric signaling fundamental importance because critical role chaperonins play preventing aggregation regulating folding vs degradation events
+several studies been published allosteric pathways dynamics groel since original determination adp-bound complex
+studies provide valuable insights into successive states involved chaperonin cycle
+elucidation allosteric transition mechanisms been challenge however both experimentally computationally due transient nature high energy conformers between states multiplicity pathways large size biomolecular system
+several computational methods been developed last two decades exploring structural transition pathways biomolecules
+include methods based minimizing path-dependent functionals stochastic path integration maxflux method identifying path maximum flux nudged elastic band method determination temperature-independent reaction coordinates action minimization
+other groups resorted targeted molecular dynamics simulations presence holonomic constraints monte carlo md-based methods sampling ensembles stochastic transition paths
+yet identification transition state accompanying conformational rearrangements large inaccessible systems order megadaltons like groel
+coarse-grained models methods appear only tractable tools cases
+perhaps most comprehensive computational study groel allosteric dynamics hyeon lorimer thirumalai where t r r transition been examined brownian dynamics simulations using state-dependent self-organized polymer model
+simulations performed subunit dimers heptamers provided valuable insights heterogeneity transition pathways kinetics salt bridges' formation/rupture at successive transitions t r r r 

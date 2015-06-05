@@ -1,0 +1,29 @@
+ 
+g-protein coupled receptors largest family proteins human genome involved many complex signal transduction pathways typically activated orthosteric ligand binding subject allosteric modulation
+dopaminergic receptors belonging class family g-protein coupled receptors known modulated sodium ions allosteric binding site although details sodium effects receptor not yet been described
+effort understand effects performed microsecond scale all-atom molecular dynamics simulations dopaminergic d 2 receptor finding sodium ions enter receptor extracellular side bind at deep allosteric site
+remarkably presence sodium ion at allosteric site induces conformational change rotamer toggle switch trp6.48 locks conformation identical one found partially inactive state crystallized human 2 adrenergic receptor
+study provides detailed quantitative information about binding sodium ions d 2 receptor reports possibly important sodium-induced conformational change modulation d 2 receptor function
+ introduction 
+g-protein coupled receptors highly sophisticated signal transduction machines able respond extracellular stimulus activating diverse intracellular signaling pathways
+recent research field unveiling complexity mechanisms involved far being understood detail
+among mechanisms allosteric modulation plays central role fine-tuning signaling
+unfortunately experimental study allosteric regulatory processes gpcrs difficult because contemporary techniques unable provide structural information sufficient spatial resolution time scales describing specific atomic-level aspects allosteric interactions
+scenario computational methods like molecular dynamics simulation used provide unique insight into some elusive aspects problem meeting aforementioned requirements terms both spatial resolution time scale needed
+present work describes application long md simulations exploring effect sodium ions class gpcrs mechanism involved their role allosteric modulators
+dopaminergic receptors gpcrs belonging class family been used drug targets treatment diverse central nervous system disorders
+allosteric modulation dopaminergic gpcr sodium ions been extensively studied experimentally confirmed receptor subtypes d 2 d 4
+been proposed sodium ions bind allosteric site transmembrane region located below orthosteric binding site
+high conservation asp2.50 among gpcrs suggests its structural importance gpcr function
+presumably negatively charged carboxylic group asp2.50 interacts via electrostatic interaction positively charged sodium ion
+indeed introduction uncharged residues position 2.50 produces sodium insensitivity d 2 d 4 demonstrating presence negative charge allosteric site essential maintaining sodium sensitivity
+neve et al proposed sodium binding site pyramidal hydrogen-bonding network formed asp2.50 ser3.39 asn7.45 ser7.46 sodium ion occupying centre
+however spite experimental information available molecular mechanism allosterically sodium-induced modulation gpcr activation remains unknown
+effort elucidate mechanism sodium-induced effect computationally investigated mobility sodium ions sodium-sensitive d 2 receptor
+all-atom molecular dynamics simulations d 2 receptor were performed analyze more than 6 s simulation data
+analysis comprises single 1.1 s long simulation one hundred 50 ns simulations biased metadynamics simulations compute accurate two-dimensional free energy profiles 
+simulation sodium ion's trajectory into d 2 receptor reveals sodium ion entrance extracellular side receptor followed its threading into pyramidal hydrogen-bonding network near allosteric binding site deep inside receptor
+most remarkably analysis all trajectories showed correlation between position sodium conformation trp6.48 side chain
+residue part so called rotamer switch set residues known undergo major conformational change upon gpcr activation
+kobilka co-workers propose based experimental data conformational state rotamer switch trp6.48 affected ligands orthosteric binding site linked particular receptor response
+our study shows dopaminergic receptors conformational state rotamer switch trp6.48 also modulated allosteric site sodium ions locking trp6.48 conformational state identical partially inactive structure experimentally derived 2 adrenergic receptor 

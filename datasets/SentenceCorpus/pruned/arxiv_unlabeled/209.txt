@@ -1,0 +1,44 @@
+
+study problem hidden state object over time measurements
+standard framework problem framework basis solutions bayesian algorithm its approximation
+however problem solutions they very model
+paper online learning introduce new framework framework
+provide efficient algorithm framework
+provide experimental results comparing our algorithm bayesian algorithm data
+our experiments show when there model our algorithm bayesian algorithm
+introduction
+study problem applications control
+given measurements over time problem estimate hidden state object
+do measurements multiple time prior knowledge about state dynamics goal produce estimates close true states possible
+most popular solutions problem their eg based framework problem
+state object at time given only vectors
+approach state measurements random variables
+represent our knowledge dynamics states using transition process our knowledge relationship between states observations process
+then given only observations goal estimate hidden state sequence
+likelihood each state sequence then using estimate either sequence probability maximum expected value state respect distribution bayesian algorithm
+practice one uses approximation bayesian algorithm
+problem framework practice very difficult determine distributions measurements
+moreover bayesian algorithm very model using model different model measurements lead large between estimated states true states
+address introduce framework
+our framework called framework given set state sequences state but instead observations generated } model set each mechanism observations
+how observations generated
+} proposed observations } measure quality using loss function depends only measurements not hidden true state
+algorithm its own taking average best according past observations
+theoretical provide loss generated online way algorithm close minimum loss measured according loss function algorithm
+analysis used online learning important note any sequence observations any probabilistic assumptions
+our next provide algorithm framework
+our algorithm based general online learning algorithm any loss function
+when loss function produce loss close minimum loss set
+directly apply derive sequential approximation show approximation efficient
+demonstrate robustness our algorithm perform simulations simple problem
+evaluate performance average distance between states estimated algorithms true hidden states
+our algorithm simple loss function
+our simulations show our algorithm bayesian algorithm under high noise wide range levels model
+note bayesian algorithm also framework
+particular if loss negative under some model then bayesian algorithm shown produce close minimum
+one may our solution follows same however point our paper one use loss functions different particular show using other loss functions better performance than bayesian algorithm its
+paper follows
+section 2 explain our model
+section present our algorithm
+section provide our some experiments compare our algorithm bayesian algorithm data experimental comparison our algorithm bayesian algorithm } section report our experiments discuss related work section } detailed bounds provided
+algorithm may more general interest hence been paper

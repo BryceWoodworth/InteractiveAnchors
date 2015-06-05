@@ -1,0 +1,30 @@
+
+associations appear four distinct tasks distinct algorithms
+past four tasks been using wide variety algorithms
+four classes however sample full range cannot algorithms each need approach
+propose range under
+limit paper our attention associations
+introduce machine learning algorithm pairs show solve questions questions questions questions cognitive
+introduction
+pair words another pair when between words first pair highly similar second pair
+two words context when they they when they they associated when they tend
+four distinct classes distinct algorithms but propose approach all four
+associations under
+when pair pair when they pair associated when they pair
+there past work associations but each four tasks been examined others
+far know algorithm proposed here first all four tasks using approach
+important algorithms range because algorithm each phenomenon very research strategy
+might contains all information need four tasks
+however take approach
+used answer questions accuracy but best approach accuracy
+another approach approach requires less human thus other
+section describe our algorithm
+use standard machine learning approach feature vectors based patterns large
+use support vector machine learn how feature vectors
+section four sets experiments
+apply our algorithm questions test questions test second practice questions set pairs similar associated both developed experiments cognitive
+discuss results experiments section
+accuracy algorithm other systems but algorithm able all four tasks no learning parameters particular task
+well although against algorithms developed single tasks
+related work examined section future work considered section
+section

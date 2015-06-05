@@ -1,0 +1,58 @@
+ 
+consider class fully stochastic fully distributed algorithms prove learn equilibria games
+indeed consider family stochastic distributed dynamics prove converge weakly sense weak convergence probabilistic processes towards their mean-field limit i
+e ordinary differential equation ode general case
+focus then class stochastic dynamics where ode turns out related multipopulation replicator dynamics
+%  well-known studied evolutionary game theory
+using facts known about convergence ode discuss convergence initial stochastic dynamics: general games there might non-convergence but when convergence ode holds considered stochastic algorithms converge towards nash equilibria
+games admitting lyapunov functions call lyapunov games stochastic dynamics converge
+prove any ordinal potential game hence any potential game lyapunov game multiaffine lyapunov function
+lyapunov games multiaffine lyapunov function prove lyapunov function super-martingale over stochastic dynamics
+leads way provide bounds their time convergence martingale arguments
+applies particular many classes games been considered literature including several load balancing game scenarios congestion games
+ introduction 
+consider scenario where agents learn their experiments small adjustments
+might example about choosing their telephone companies about their portfolio investments
+% will assume rational
+% assume agents rational
+interested understanding when whole market converge towards rational situations i e nash equilibria sense game theory
+natural expect dynamics adjustments stochastic fully distributed since expect agents adapt their strategies based their local knowledge market since agents often involved games where global hence local deterministic description whole global market not possible
+% also want avoid dynamics would suppose global knowledge market say several dynamics adjustments been considered recently algorithmic game theory literature
+up our knowledge been done mainly deterministic dynamics best-response based dynamics: computing best response requires global description market
+stochastic variations avoiding global description been considered
+however considered dynamics somehow rather ad-hoc order get efficient convergence time bounds still mainly best-response based
+want consider here more general dynamics discuss when one may expect convergence
+could lead consider any dynamics monotone respect utility players relation evolutionary game theory literature
+propose restrict here dynamics lead dynamics related possibly perturbed replicator dynamics
+somehow algorithmic game theory seen algorithmic version classical game theory our long term aim better understand algorithmic evolutionary game theory
+somehow could also say best-response dynamics seen strategies visit corners simplex mixed strategies interested long term objective learning methods could seen interior point methods find equilibria
+basic game theory framework
+let set players
+every player set pure strategies
+let cardinal
+mixed strategy corresponds probability distribution over pure strategies: pure strategy chosen probability 
+let simplex mixed strategies player
+any pure strategy considered mixed strategy  where vector denotes unit probability vector component unity hence corner
+let space all mixed strategies
+strategy profile specifies mixed pure strategies all players: corresponds mixed strategy played player
+following classical convention write often write abusively  where denotes vector strategies played all other players
+allow games whose payoffs may random: only assume whenever strategy profile known each player gets random cost expected value
+particular expected cost player playing pure strategy denoted
+some classes games
+several classes % deterministic games where players' costs based shared usage common set resources where each resource associated nondecreasing cost function denoted  been considered algorithmic game theory literature
+load balancing games  resources called machines players compete elements i e singleton subsets
+hence pure strategy space player having weight corresponds subset  pure strategy player some element
+cost player task under profile pure strategies assignment corresponds  where load machine :  say % defined sum weights tasks running
+congestion games  resources called edges players compete subsets
+hence pure strategy space player subset pure strategy player subset
+cost player under profile pure strategies corresponds where number % players use resource  say number
+weighted congestion games  weights associated players one takes instead
+task allocation games  load balancing games resources called machines players compete elements i e singleton subsets
+each resource machine assumed function takes input set tasks assigned outputs cost each participating player
+cost player under profile pure strategies then given
+functions considered speed scheduling policies associated costs corresponding completion time player task
+example spt lpt policies schedule jobs without preemption respectively order increasing decreasing weights processing times
+clearly load balancing games particular task allocation games load balancing games particular weighted congestion games
+load balancing game whose weights unitary particular congestion game
+ordinal potential games
+all classes games related ordinal potential games introduced : game ordinal potential game if there exists some function pure strategies all pure strategies    one

@@ -1,0 +1,29 @@
+
+many biological systems interactions describe between different genetic network stochastic
+study between using responses cells different
+experimental data show mean value response cell population described mathematical expression large range conditions
+stochastic theoretical model was developed empirical mean response
+moreover theoretical model predicts specific biological probability distribution responses cell population
+prediction was experimentally measurements at level
+computational approach used study other stochastic biological
+introduction
+complex biological systems out number components
+components dna sequence elements transcription factors etc concentration each component changes over time
+one way understand functions complex biological system construct quantitative model interactions present system
+interactions usually terms components interaction process
+example concentration molecules
+being interactions also stochastic
+process not probability rate
+what follows stochastic model response cells will developed
+just one example many ways molecular system
+general perspective structure molecular system different system under study then responses system measured
+experimental pairs input output signals describe system
+fundamental idea systems biology long field
+input signals applied through use signal
+input signal parameters change being its
+protein family protein highly
+protein molecular critical component complex genetic network effects
+since thus important complex system our goal was find if possible develop mathematical model regulation its expression cells
+our specific were determine average expression over time cell population after initial determine how physical parameters influence parameters determine mathematical model expression at level
+first describe process mathematical model experimental data
+then mathematical study model will

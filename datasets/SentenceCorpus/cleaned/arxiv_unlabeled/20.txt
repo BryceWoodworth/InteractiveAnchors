@@ -1,0 +1,36 @@
+ 
+paper interested optimal decisions partially observable universe
+our approach directly approximate optimal strategic tree depending observation
+approximation made means parameterized probabilistic law
+particular family hidden markov models input output considered model policy
+method optimizing parameters hmms proposed applied
+optimization based cross-entropic principle rare events simulation developed rubinstein
+ introduction 
+there different degrees difficulty planning control problems
+most problems planner start given state terminate required final state
+there several transition rules condition sequence decision
+example robot may required move room starting state room b final state; its decision could go forward  turn right turn left  cannot cross wall; conditions over decision
+first degree difficulty find at least one solution planning
+when states only partially known resulting actions not deterministic difficulty quite enhanced: planner take into account various observations
+now problem becomes much more complex when planning required optimal near-optimal
+example find shortest trajectory moves robot room room b
+there again different degrees difficulty depending problem deterministic not depending model future observations
+particular case markovian problem full observation hypothesis dynamic programming principle could efficiently applied markov decision process theory/mdp
+solution been extended case partial observation partially observable markov decision process/pomdp but solution generally not practicable owing huge dimension variables \\\\ reason different methods approximating problem been introduced
+example reinforcement learning methods able learn evaluation table decision conditionnally known universe states observation short range
+case range observation indeed limited time because exponential grow table learn
+recent works investigating case hierarchical rl order go beyond range limitation
+whatever methods generally based additivity hypothesis about reward
+another viewpoint based direct learning policy
+our approach kind
+particularly based cross-entropy optimisation algorithm developed rubinstein
+simulation method relies both probabilistic modelling policies paper models bayesian networks efficient robust iterative algorithm optimizing model parameters
+more precisely policy will modelled conditional probabilistic law i e decisions depending observations involving memories; typically hidden markov models used
+also implemented hierachical modelling policies means hierarchical hidden markov models \\\\ next section introduces some formalism gives quick description optimal planning partially observable universes
+proposed near-optimal planning method based direct approximation optimal decision tree
+third section introduces family hierarchical hidden markov models being use approximating decision trees
+fourth section describes method optimizing parameters hhmm order approximate optimal decision tree pomdp problem
+cross-entropy method described applied
+fifth section gives example application
+comparison reinforcement learning method q-learning made
+paper then concluded

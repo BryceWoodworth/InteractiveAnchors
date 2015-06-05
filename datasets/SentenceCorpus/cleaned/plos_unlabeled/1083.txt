@@ -1,0 +1,28 @@
+ 
+one most critical problems face study biological systems building accurate statistical descriptions them
+problem been particularly challenging because biological systems typically contain large numbers interacting elements precludes use standard brute force approaches
+recently though several groups reported there may alternate strategy
+reports show reliable statistical models built without knowledge all interactions system; instead pairwise interactions suffice
+findings however based analysis small subsystems
+here ask whether observations will generalize systems realistic size whether pairwise models will provide reliable descriptions true biological systems
+our results show most cases they will not
+reason there crossover predictive power pairwise models: if size subsystem below crossover point then results no predictive power large systems
+if size above crossover point then results may predictive power
+work thus provides general framework determining extent pairwise models used predict behavior large biological systems
+applied neural data size most systems studied so far below crossover point
+ introduction 
+many fundamental questions biology naturally treated probabilistic setting
+instance deciphering neural code requires knowledge probability observing patterns activity response stimuli ; determining features protein important correct folding requires knowledge probability particular sequence amino acids folds naturally ; determining patterns foraging animals their social individual behavior requires knowledge distribution food species over both space time 
+constructing probability distributions however hard
+there several reasons this: biological systems composed large numbers elements so exhibit huge number configurations fact exponentially large number ii elements typically interact each other making impossible view system collection independent entities iii because technological considerations descriptions biological systems built very little data
+example current technology neuroscience record simultaneously only about 100 neurons out approximately 100 billion human brain
+so not only faced problem estimating probability distributions high dimensional spaces must do based small fraction neurons network
+despite apparent difficulties recent work suggested situation may less bleak than seems accurate statistical description systems achieved without having examine all possible configurations
+one merely measure probability distribution over pairs elements use those build full distribution
+pairwise models potentially offer fundamental simplification number pairs quadratic number elements not exponential
+however support efficacy pairwise models necessarily come relatively small subsystems small enough true probability distribution could measured experimentally
+while studies provided key first step critical question remains: will results analysis small subsystems extrapolate large ones
+if pairwise model predicts probability distribution subset elements system will also predict probability distribution whole system
+here find biologically relevant class systems question answered quantitatively importantly generically independent many details biological system under consideration
+answer generally no
+paper explain both analytically simulations why case

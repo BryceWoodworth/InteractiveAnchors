@@ -1,0 +1,60 @@
+
+distinct
+studies functional relationships between spatial gene regulation
+question whether exist if so whether they
+issue through distribution
+investigated very populations at different their physiological environment at cells during cells
+developed new tools based processing new statistical approach based g distance functions used spatial statistics
+our original computational into account both size comparing each observed distribution against reference distribution estimated sampling over same
+similar data processing rules populations three studied biological systems despite differences number genome
+showed form significantly more patterns than expected under random situation constraints spatial spatial
+proposed technique should useful further spatial features wide range cell types
+introduction
+into distinct defined regions within distinct their
+complex relationships between spatial regulation genome function been previously described
+furthermore changes among most significant features development processes
+thus findings question whether exist if so whether
+investigate approaches required based image analysis computational biology spatial statistics
+spatial distributions several genomic domains been
+genetic individual usually distributed more than
+some studies report size could also influence
+may close those genes generally
+transcription sites well early assumed active more whereas at
+at level active genes widely different active transcription sites whereas generally associated gene
+changes genes been associated their relative their
+furthermore large some development processes natural
+however still remains difficult common rules due various
+indeed most data been limited sets elements cell cell their physiological environment cells
+little known about possible differences cells within their
+some studies compared primary cells versus cell cell versus versus studies suggested involved control
+addition data cell
+finally few studies quantitative measures been performed investigate spatial
+statistics used analyze data were based patterns elements genes
+been measured respect
+spatial between several elements been investigated spatial been through central example between
+alternative approaches based between elements been developed
+between small number elements like two pairs were used testing spatial
+spatial statistics tools distance functions been developed spatial point patterns been applied studies
+example been used analyze large numbers elements molecular rna
+all been used analyze spatial distribution
+spatial statistics data usually through sampling over single point process
+point process generally considered
+theoretical framework makes sense applications investigated phenomenon far observed region
+contrast analyses spatial patterns based whole domain interest observed
+furthermore one should not consider observed patterns point processes
+another difference data available analysis out sample
+recently distance functions been extended point patterns
+instance extended been used spatial patterns brain
+extended into account expected spatial point process
+estimate patterns first all observed points common system
+however type not possible due lack
+hence further required make spatial statistics tools appropriate spatial studies
+study develop approach analysis spatial
+spatial distributions were using distribution functions between arbitrary points within their
+analysis g was designed specifically patterns observed variable domains
+applied new approach distribution populations
+was chosen due its structural regulatory functions
+indeed usually transcription essential genome genetic information during cell
+often clusters
+studied cells at various three biological at cells during cells
+found random significantly more patterns than expected under complete cell populations existence rules possible

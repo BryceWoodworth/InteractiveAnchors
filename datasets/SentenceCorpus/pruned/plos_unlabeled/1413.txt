@@ -1,0 +1,62 @@
+
+idea been study protein protein interaction networks
+low their high
+was proposed local whereas global
+here show reported importance network connectivity fact subset them
+few central do not particularly low expression correlation idea between function
+was distribution show feature not always robust changes
+properties do not general
+however find significant between interaction functional similarity proteins
+suggest terms protein interaction networks not might more useful interactions rather than individual proteins
+introduction
+protein interaction networks data obtained via techniques yeast do not fact actual interactions occur depend physiological conditions
+instance expressed proteins also change over time
+thus specific active well their form might depend where when one network
+one way information use expression data experiments
+et al examined extent yeast their interaction
+they defined proteins degree at least where degree number
+based correlation expression over all they into two distinct those low those high
+they two types play different thought single functions performed group proteins all expressed at same time whereas described between groups perform functions active at different times under different conditions
+validity since been sequence there no issue
+two points distribution was observed general property data set
+different statistical tests suggested different
+however despite hypothesis been highly literature
+here following up work et al initial data suggest additional problems statistical was
+their results find observed suggest were more essential global connectivity was due very small number key rather than being property set
+more generally use perspective et al define structural context protein interaction networks
+our results there little correlation between expression structural
+more family was based taking into account differences expression addition also
+recent study et al existence along same human
+show their observation binary classification changes algorithm used expression data kernel function used distribution
+data does not fact any significant per test been observed et al yeast data
+question because was key part original paper particular because made et al human data
+however possible like may exist even distribution why also examine more general question whether network proteins related their properties interaction
+many networks some they into groups nodes relatively high
+known often distinct functional
+several studies recent years considered existence structure interaction networks
+algorithms been developed networks
+example concept graph used extent number within groups number would expected appropriate random network
+one standard techniques network into graph
+use idea structure take new approach problem classification basis network rather than basis expression data
+our biological nature should thus network
+network into set possible statistics measure connectivity each both within its own other
+one method relevant nodes metabolic network was procedure our protein interaction networks
+then examine extent up hypothesis finding little evidence support
+one might also about extent observed properties dependent particular network being
+several discussed at length about existing protein interaction data sets
+data been using multiple methods most
+recent paper et al examined properties interaction networks were derived different sources experimental bias might play key role properties observed given data set
+particular their findings suggest key interactions between protein so data sets may contain high whereas interactions within so networks highly their
+possible distribution interaction data sets used information was combined both sources
+here compare several yeast interaction data sets find both widely structural properties low level
+finally alternative suggest about networks measures rather than nodes
+other words one interactions between proteins rather than proteins themselves
+use measure known examine its relation protein functional
+here well find little evidence significant correlation expression
+however there seems strong relation between functional similarity proteins so role might some utility
+examined proposed protein interaction network into several different prior appear various changes data methods used
+observed differences network two types only small number particularly important
+results existing evidence against existence
+furthermore detailed analysis network novel perspective structure within context suggests more than simple
+proteins show variety characteristics appear along there does not exist clear correlation between their expression their interaction
+other hand relation functional proteins framework more notion both nodes might provide better framework understanding

@@ -1,0 +1,32 @@
+ 
+algorithm selection typically based models algorithm performance learned during separate offline training sequence prohibitively expensive
+recent work adopted online approach performance model iteratively updated used guide selection sequence problem instances
+resulting exploration-exploitation trade-off was represented bandit problem expert advice using existing solver game but required setting arbitrary bound algorithm runtimes thus invalidating optimal regret solver
+paper propose simpler framework representing algorithm selection bandit problem partial information unknown bound losses
+adapt existing solver game proving bound its expected regret holds also resulting algorithm selection technique
+present preliminary experiments set sat solvers mixed sat-unsat benchmark
+ introduction 
+decades research fields machine learning artificial intelligence brought us variety alternative algorithms solving many kinds problems
+algorithms often display variability performance quality computational cost depending particular problem instance being solved: other words there no single ``best'' algorithm
+while ``trial error'' approach still most popular attempts automate algorithm selection not new  grown form consistent dynamic field research area meta-learning
+many selection methods follow offline learning scheme availability large training set performance data different algorithms assumed
+data used learn model %can maps  problem  algorithm  pairs expected performance some probability distribution performance
+model later used select run each new problem instance only algorithm expected give best results
+while approach might sound reasonable actually ignores computational cost initial training phase: collecting representative sample performance data done via solving set training problem instances each instance solved repeatedly at least once each available algorithms more if algorithms randomized
+furthermore training instances assumed representative future ones model not updated after training
+other words there obvious trade-off between exploration algorithm performances different problem instances aimed at learning model exploitation best algorithm/problem combinations based model's predictions
+trade-off typically ignored offline algorithm selection size training set chosen heuristically
+our previous work  kept online view algorithm selection only input available meta-learner set algorithms unknown performance sequence problem instances solved
+rather than artificially subdividing problem set into training test set iteratively update model each time instance solved use guide algorithm selection next instance
+bandit problems offer solid theoretical framework dealing exploration-exploitation trade-off online setting
+one important obstacle straightforward application bandit problem solver algorithm selection most existing solvers assume bound losses available beforehand
+dealt issue heuristically fixing bound advance
+paper introduce modification existing bandit problem solver  allows deal unknown bound losses while retaining bound expected regret
+allows us propose simpler version algorithm selection framework \gambleta originally introduced
+result parameterless online algorithm selection method first our knowledge provable upper bound regret
+rest paper organized follows
+section describes tentative taxonomy algorithm selection methods along few examples literature
+section presents our framework representing algorithm selection bandit problem discussing introduction higher level selection among different algorithm selection techniques  time allocators 
+section introduces modified bandit problem solver unbounded loss games along its bound regret
+section describes experiments sat solvers
+section concludes paper

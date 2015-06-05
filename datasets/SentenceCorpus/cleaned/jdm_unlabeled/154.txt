@@ -1,0 +1,64 @@
+ 
+present maximization inventory consists three separate scales decision difficulty alternative search satisficing
+show items maximization inventory much better psychometric properties when compared original maximization scale
+satisficing scale new addition study maximization behavior demonstrate scale positively correlated positive adaptation whereas decision difficulty alternative search scales positively correlated nonproductive decisional behavior
+maximization inventory was then compared previous maximization scales while decision difficulty alternative search scales positively correlated similar previous constructs satisficing scale offers dimension entirely different maximization
+ introduction 
+one most interesting variables decision making research tendency toward maximizing versus satisficing
+based originally simon's theory bounded rationality schwartz suggested there may individual differences degree individual maximizer who attempts find absolute best solution versus satisficer who comfortable satisfactory good enough solution
+schwartz argued not only could tendencies influence outcomes decision but also maximizing could reduce psychological well-being
+example maximizers may worry unforeseen option will turn out best one consequence they will try collect much information possible when making even simplest decisions
+examine relationship between maximizing tendencies well-being mental health measures maximization behavior were developed
+first most widely used measure was number item maximization scale developed schwartz et al
+nenkov morrin ward schwartz hulland subsequently examined factor structure maximization scale found three factors they labeled alternative search decision difficulty high standards
+alternative search category consisted six items measuring tendency expend resources exploring all possible opportunities e g when i watch tv i channel surf often scanning through available options even while attempting watch one program
+
+decision difficulty category consisted four items representing degree difficulty experienced when making choices among abundant options e g i often find difficult shop gift friend
+
+high standards category consisted three items reflecting decision makers' tendency hold high standards themselves things general e g no matter what i do i highest standards myself
+
+contrast diab gillespie highhouse argued multidimensional nature maximization scale contradictory definition maximization tendency
+defining maximization tendency general tendency pursue identification optimal alternative diab et al developed maximization tendency scale
+maximization tendency scale was constructed using three high standards items maximization scale adding six new items mainly focusing goal maximizers optimize outcomes decisions
+all scale development satisficing-the theoretical opposite maximizing-has never been directly measured only rarely mentioned literature
+research scales schwartz's hypothesis concerning relationships well-being received differential support depending whether total scores subscales were used
+schwartz et al reported results several studies all supported hypothesized adverse relationships maximization psychological well-being
+their study number maximization was negatively correlated happiness optimism self esteem life satisfaction positively correlated depression regret perfectionism
+four additional studies showed maximization scale total scores were positively correlated depression negatively correlated subjective happiness
+schwartz et al explained maximizers tend engage extensive alternative search increase possibility finding best option but extensive search process may induce more anticipated regret decrease pleasure once choice been made
+related studies nenkov et al used number item measures each three factors
+they found scores high standards category were positively correlated optimism negatively correlated depression uncorrelated subjective happiness
+decision difficulty showed opposite pattern being negatively correlated subjective happiness optimism positively correlated depression
+lai concluded decision difficulty category key factor leading negative correlations well-being outcomes supports findings nenkov et al
+contrast diab et al found evidence suggesting high standards category was responsible relationship because smaller correlations were found when maladaptive personality traits were compared maximization tendency scale rather than maximization scale
+thus previous studies suggested maximization measures consist several components relationships well-being indices were heavily influenced method measurement
+clarify nature maximization construct degree its elements were related measures psychological well-being maximization scale maximization tendency scale were examined four studies conducted rim turner betz nygren
+rim et al concluded maximization scale measures three separate factors postulated its authors but only alternative search decisional difficulty factors both positively correlated each other negatively correlated indices well-being
+high standards correlated strongly maximization tendency scale consisting mainly high standards items was strongly correlated positive indices well-being e g optimism happiness functioning e g self-esteem self-efficacy
+high standards subscale maximization tendency scale were positively correlated analytical decision making style while alternative search decision difficulty subscales were positively correlated regret-based decision making style procrastination
+item-response theory analysis rim et al indicated serious weaknesses psychometric properties items existing scales
+addition their experimental study confirmed alternative search decision difficulty were positively correlated maximization behavior while high standards maximization tendency scale were not
+findings serious implications measurement maximization behavior
+first although high standards useful construct does not seem fit concept maximization postulated schwartz colleagues
+conceptually alternative search dimension seems closest construct maximizing originally postulated schwartz
+however similarity pattern correlations between decision difficulty scale alternative search scale criterion variables suggests similar consequences if not similar meanings
+thus propose items focusing behavioral aspects e g alternative search emotional features e g perceived decisional difficulty should included nomological network but items not closely aligned aspects should discarded e g high standards
+all previous classical test theory analyses item-response theory analyses conducted rim et al suggest poor psychometric properties
+former analyses most subscale alphas were below number number minimum usually considered acceptable research
+although may attributed length scales item-response theory analyses suggest items themselves not very discriminating
+also content some items may undermine content validity scale
+example maximization scale describes some maximization behaviors specific situations may not universal all respondents e g renting videos really difficult
+i'm always struggling pick best ones
+
+items too specific might confound degree maximization inexperience participant event
+new items reflect more general maximization tendencies e g buying car more specific than buying groceries may prove useful
+finally all alternative search decision difficulty items maximization scale stated same direction i e more searching greater perceived decision difficulty respectively means satisficing measured only indirectly presumed lower end maximization dimension
+direct examination satisficing construct would contribute understanding maximization behavior
+based previous research nature measurement correlates maximization behavior present series studies was designed develop evaluate new measures decision difficulty alternative search dimensions
+addition develop measure satisficing examine its relationships other maximizing dimensions indices well-being decision making styles
+study number use classical test theory factor analyses item-response theory determine best items each three scales larger item pool
+our goal was develop separate scales number  number items each collectively separate scales form maximization inventory intended measure maximization construct holistically
+after selecting best items each scale report values coefficient alpha each scale resulting factor structure estimated parameter values item-response theory analysis
+study number was designed investigate relationship between newly developed inventory measures well-being
+content new scales validated through their relationship criterion measures demonstrated rim et al
+study number examined relationships new scales two major maximization scales studied date-the maximization scale maximization tendency scale

@@ -1,0 +1,54 @@
+
+%
+sample over two
+while maximum classes concept classes general concept classes classes classes cannot without increasing
+two ways classes into maximum classes at most increase dimension via
+paper positive results latter approach first negative result through finite maximum classes
+simple space shown represent maximum classes corresponding result
+show across size dimension special case graph recent
+between finite maximum classes certain either space
+finally show maximum classes corresponding
+main result any finite maximum class
+some classes cannot into any maximum class dimension any constant
+involves graph corresponding across other
+well known
+introduction
+concept classes possible their given dimension
+classes particular interest their special structure all general sample known
+structure many upon paper
+introduced study defined pair given concept class sample examples concept consistent sample
+maximum shown
+classes dimension size become one problems within learning theory
+interest been its existence bounds classes basis practical machine learning methods understanding properties concept classes
+recently maximum classes without use
+they also their algorithm maximum classes
+discussed our previous work maximum classes
+also each natural open sets its standard into space
+maximum classes constant result maximum classes graphs
+special form maximum classes
+however there many cannot more detailed structure maximum classes than given
+paper approach direction simple maximum classes
+predicted maximum classes corresponding simple linear could across their corresponding cell
+first part show new form prove distinct
+while minimum degree graph unique maximum dimension
+explore simple show set maximum classes those represented simple linear
+classes
+existence maximum due whether classes positive explicitly
+present but classes there many maximum classes under appropriate conditions
+next prove all maximum classes represented simple
+previous work simple maximum classes
+close relationship between their suggests they could
+main problem open version paper show does all finite maximum classes
+show graph represented if only if strongly complex
+class
+note then graphs same size dimension
+moreover if graph then complex
+give simple example show there graphs but not strongly so not represented
+cannot without increase their sufficient all classes classes their
+classes into maximum classes
+present results following our minimum degree our new results
+explore examples classes but not classes not strongly but
+finally investigate properties maximum classes
+most maximum classes corresponding simple linear
+result study maximum classes related
+several open problems

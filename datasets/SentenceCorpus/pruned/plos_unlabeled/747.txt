@@ -1,0 +1,33 @@
+
+fundamental wide range cellular metabolic physiological behavioral
+although small number key genes been identified through molecular genetic studies past existence other key genes how they gene expression different still remains unknown
+here address questions all available data
+identified common genes showed wide range consistency across
+across human showed known key genes were compared human compared
+gene regulatory network was after analysis transcription factor data
+observed significant different genes
+analysis network structure revealed through identified central control genes through environmental signals
+our study our understanding structure design principle evolution gene regulatory networks involved
+introduction
+mechanism fundamental wide range species
+basic molecular mechanism been studied
+been shown negative feedback set key genes
+
+through many years molecular genetic studies at least key genes per family family been identified
+now proteins form complex transcription per family genes through their
+per family proteins form complex activity thus negative feedback
+other key genes also been shown important
+since there been series experiments at genes at level various species including human
+experiments usually identified genes gene expression
+however data further experiments they used experimental conditions sampling times etc indeed experiments so far not been compared
+few cases where two were studied single experiment genes between was very limited
+set common genes exists most cell types integration different datasets multiple could potentially identify common set genes
+comparison genes their patterns across different help us understand functions
+comparison across different species also molecular mechanisms lead their different behaviors
+because many known key genes transcription factors regulation must important role gene expression
+et al gene regulatory network genes elements based
+however gene regulatory network at system level based analysis been almost due transcription factor binding site prediction
+existence other elements associated
+other hand there large body experiments transcription factor available at
+experiment results sequence analysis identification functional transcription factor binding sites
+general analysis gene regulatory networks involved will improve our understanding how key genes genes will way more detailed quantitative modeling

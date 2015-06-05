@@ -1,0 +1,69 @@
+ 
+rise multi-drug resistant extensively drug resistant tuberculosis around world including industrialized nations poses great threat human health defines need develop new effective inexpensive anti-tubercular agents
+previously developed chemical systems biology approach identify off-targets major pharmaceuticals proteome-wide scale
+paper further demonstrate value approach through discovery existing commercially available drugs prescribed treatment parkinson's disease potential treat mdr xdr tuberculosis
+drugs entacapone tolcapone predicted bind enzyme inha directly inhibit substrate binding
+prediction validated vitro inha kinetic assays using tablets comtan whose active component entacapone
+minimal inhibition concentration entacapone mycobacterium tuberculosis approximately 260.0 m well below toxicity concentration determined vitro cytotoxicity model using human neuroblastoma cell line
+moreover kinetic assays indicate comtan inhibits inha activity 47.0 percent at entacapone concentration approximately 80 m thus active component comtan represents promising lead compound developing new class anti-tubercular therapeutics excellent safety profiles
+more generally protocol described paper included drug discovery pipeline effort discover novel drug leads desired safety profiles therefore accelerate development new drugs
+ introduction 
+tuberculosis caused bacterial pathogen mycobacterium tuberculosis leading cause mortality among infectious diseases
+been estimated world health organization almost one-third world's population around 2 billion people infected disease
+every year more than 8 million people develop active form disease subsequently claims lives nearly 2 million
+translates over 4,900 deaths per day more than 95 percent developing countries
+2002 who estimated if worldwide spread tuberculosis was left unchecked then disease would responsible approximately 36 million more deaths year 2020
+despite current global situation anti-tubercular drugs remained largely unchanged over last four decades
+widespread use agents time needed remove infection promoted emergence resistant m.tuberculosis strains
+multi-drug resistant tuberculosis defined resistance first-line drugs isoniazid rifampin
+effective treatment mdr-tb necessitates long-term use second-line drug combinations unfortunate consequence emergence extensively drug resistant tuberculosis m.tuberculosis strains resistant isoniazid plus rifampin well key second-line drugs ciprofloxacin moxifloxacin
+xdr-tb extremely difficult treat because only remaining drug classes exhibit very low potency high toxicity
+rise xdr-tb around world including industrialized nations imposes great threat human health therefore emphasizing need identify new anti-tubercular agents urgent priority 
+currently anti-infective therapeutics discovered developed either de novo strategies through extension available chemical compounds target protein families same similar structures functions
+de novo drug discovery involves use high throughput screening techniques identify new compounds both synthetic natural novel drugs
+unfortunately approach yielded very few successes field anti-infective drug discovery
+indeed progression early-stage biochemical hits robust lead compounds commonly unfruitful process
+identification both molecular targets essential survival pathogen compounds active intact cells challenging task
+even more formidable however requirement appropriate potency levels suitable pharmacokinetics order achieve efficacy small animal disease models
+challenges reflected high costs involved bringing new drugs market
+fact been estimated successful launch single new drug costs more than us 800 million 
+two alternative drug discovery strategies circumvent some challenges associated de novo drug discovery label extension piggy-back strategies both widely employed discovery novel therapeutics treat tropical diseases
+label extension fast-track approach involves extension indications existing treatment another disease
+some most important anti-parasitic drugs use today praziquantel schistosomiasis were derived label extension process
+major advantages label extension significant reductions cost time market achieved
+alternatively when molecular target present pathogen under investigation other commercial indications possible adopt piggy-back strategy utilizing identified chemical starting points
+examples approach include anti-malarial screening lead series cysteine protease inhibitors treatment osteoporosis histone deacetylase inhibitors use cancer chemotherapy 
+one main aims drug discovery develop safe effective therapeutic agents through optimization binding specific protein target
+way undesirable effects resulting side scatter pharmacology minimized
+however recent rapid completion numerous genome sequencing projects revealed proteins involved entirely different biochemical pathways even residing different tissues organs may possess functional binding pockets similar shapes physiochemical properties
+therefore chemical matter one target could considered basis leads entirely different target
+recent work large scale mapping polypharmacology interactions paolini et al revealed extent promiscuity drugs leads across proteome
+they discovered around 35 percent 276,122 active compounds their database had observed activity more than one target
+whilst majority promiscuous compounds were found active against targets within same gene family significant number had recorded activity across different gene families
+finding so many drugs interact more than one target provided rationale behind selective optimization side activities approach recently developed wermuth
+sosa approach involves use old drugs new pharmacological targets valuable concept considering finite number small molecules safely administered humans
+process itself involves screening limited number structurally diverse drug molecules then optimizing hits so they show stronger affinity new target weaker affinity original target
+way possible derive whole panel new active molecules single marketed drug
+since screened drug molecules already known safety bioavailability humans overall time cost drug discovery significantly reduced when compared de novo strategies
+developed novel computational strategy identify off-targets major pharmaceuticals proteome-wide scale
+our methodology extends scope sosa concept effectively systematically across gene families more likely successful achieving ultimate goal providing new drugs old ones
+our chemical systems biology approach proceeds follows:
+binding site commercially available drug extracted predicted 3d structure model target protein 
+off-targets similar ligand binding sites identified across proteome using efficient accurate functional site search algorithm 
+atomic interactions between putative off-targets drug evaluated using protein-ligand docking
+only those off-targets do not experience serious atomic clashes drug selected further analysis
+drug further optimized enhance its potency selectivity adme properties taking into account both primary target off-targets across genome
+our approach essentially explores complex protein-ligand interaction networks proteome-wide scale
+lead compound discovered all drug targets across different gene families
+moreover lead optimization focus compounds excellent safety profiles known clinical outcomes
+way our approach potential increase rate successful drug discovery development whilst reducing costs involved
+present study demonstrate efficiency efficacy our chemical systems biology approach through discovery safe chemical compounds potential treat mdr-tb xdr-tb
+identified compounds entacapone tolcapone
+drugs primarily target human catechol-o-methyltransferase involved breakdown catecholamine neurotransmitters dopamine
+they used adjuncts treat parkinson's disease increasing bioavailability primary drug levodopa substrate comt
+entacapone tolcapone predicted inhibit m.tuberculosis enoyl-acyl carrier protein reductase essential type ii fatty acid biosynthesis subsequent synthesis bacterial cell wall
+inha target anti-tubercular drugs isoniazid ethionamide
+similar newly developed direct inha inhibitors entacapone tolcapone require no enzymatic activation bind inha
+thus they may avoid commonly observed resistance mechanism isoniazid ethionamide exhibited many mdr strains
+our computational predictions been partially validated demonstrating entacapone drug tablet comtan inhibits growth m.tuberculosis at minimal inhibition concentration entacapone 260.0 m well below concentration leading neuroblastoma cellular toxicity
+direct inhibition inha entacapone further confirmed experimental enzyme kinetic assays comtan shown reduce inha activity up 47 percent at effective entacapone concentration 80 m since entacapone excellent safety profile few side effects shows potential drug lead development new class anti-tubercular therapeutics favorable adme/tox properties

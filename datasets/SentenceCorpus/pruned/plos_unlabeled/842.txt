@@ -1,0 +1,65 @@
+
+protein short two stable secondary structural proteins play critical role protein structure function
+protein between points without any remains open
+variety algorithms been developed problem approaches known protein structures
+however many approaches focus fixed end point condition constraints
+present work describe simple solution not only end point conditions but also constraints
+random initial each individual generated using simple distance chosen fast matching components amino
+method simple stable efficient
+very additional constraints those derived experiments into algorithm way making method more complex problems
+performance robustness algorithm demonstrated set protein length been used previous studies
+introduction
+protein structures their essential understanding function proteins biological processes they
+however due their conformational difficult determine their structure via experimental techniques
+result structures not protein data
+sequence structure protein also major modeling
+sequence good quality experimental structures generally obtain overall structure some degree question
+however errors could significant regions where sequences between target protein differ significantly
+our view problem protein between two fixed end points remains
+solution problem will not only experimental structure comparative modeling but also useful protein structure prediction phase space sampling importance local without system been demonstrated molecules
+complete solution protein problem usually involves two important components structure selection most through appropriate function
+current study problem
+variety algorithms been developed problem
+many methods construct protein database experimentally determined protein structures
+methods highly dependent size quality experimental data their performance growth
+more since number possible increases length approach limited relatively short
+not problem methods construct either existing structures structures molecular dynamics random sampling field optimization
+algorithms often include energy using classical treatment effects therefore tend
+several groups combined sampling approaches
+example through modeling environment conformational sampling obtained average prediction accuracy structures series
+performance was further through sampling algorithm new energy model was applied even environments
+alternative class methods determine structures all possible solutions set derived distance described work many other methods theory
+particular introduced very approach known close different through
+method been into protein design demonstrated its regions
+more recently into problem finding real degree demonstrated various
+review algorithms paper
+more information several recent
+computational modeling protein represented set points space
+must set constraints derived structure
+connectivity common require distance d between any pair i between certain bounds formula
+interactions introduce additional constraints do systems
+further constraints derived experimental techniques energy
+taken together constraints reduce search space order identify
+distance class methods aim specifically at constraints
+error function measures constraints
+methods involve four basic distance bounds random value each distance within bounds resulting distance matrix into set distance
+generated original lower bounds usually using procedure
+although process initial chosen may still higher prior error if random used
+although methods generate rather most practical applications need further some form energy
+since its first applications been applied wide range problems including structure conformational analysis modeling prediction
+recently new technique known stochastic been developed alternative
+random initial them individual at random towards specific
+procedure performed obtained
+method was developed reduction learning simple fast efficient applied molecular arbitrary complexity
+because evaluation error function measures all possible distance bound every step method fast scales size
+significantly more effective sampling full range conformational space compared other conformational search methods particularly when used conformational heuristic search towards more extended
+furthermore input problem many search algorithms
+proposed convergence into using those order
+random initial algorithm
+method able generate all constraints at time required
+approach simple robust allows additional constraints
+since constraints after process local
+furthermore because each random initial each new independent those generated previous resulting greater more effective sampling
+algorithm only involves distance relatively small efficient
+paper present new algorithm been conformational sampling small molecules protein problem
+provide detailed description algorithm its present comparative results set protein size been used previous studies

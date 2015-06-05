@@ -1,0 +1,47 @@
+ 
+increasing importance non-coding rna biology medicine led growing interest problem rna 3-d structure prediction
+case proteins rna 3-d structure prediction methods require two key ingredients: accurate energy function conformational sampling procedure
+both only partly solved problems
+here focus problem conformational sampling
+current state art solution based fragment assembly methods construct plausible conformations stringing together short fragments obtained experimental structures
+however discrete nature fragments necessitates use carefully tuned unphysical energy functions their non-probabilistic nature impairs unbiased sampling
+offer solution sampling problem removes important limitations: probabilistic model rna structure allows efficient sampling rna conformations continuous space associated probabilities
+show model captures several key features rna structure its rotameric nature distribution helix lengths
+furthermore model readily generates native-like 3-d conformations 9 out 10 test structures solely using coarse-grained base-pairing information
+conclusion method provides theoretical practical solution major bottleneck way routine prediction simulation rna structure dynamics atomic detail
+ introduction 
+non-coding rna crucial importance functioning living cell where plays key catalytic regulatory structural roles
+understanding exact mechanisms behind functions therefore great importance both biology medicine
+many cases understanding requires knowledge rna structure atomic detail
+however determining structure rna molecule experimentally typically time consuming expensive difficult task
+therefore algorithms rna structure prediction attracted much interest initially main focus predicting secondary structure
+many noticeable advances been made area secondary structure prediction; most recently introduction statistical sampling had important impact 
+past years increasing number relevant structures become available much progress been made understanding three dimensional structure rna
+conformational space rna been analyzed using methods inspired ramachandran plot proteins rna base pair interactions been accurately classified conformational space rna backbone been clustered into discrete recurring conformations
+new insights led several useful tools modeling rna 3-d structure significant advances atomic resolution prediction recently been reported 
+however routine prediction rna 3-d structure still remains important open problem growing gap between number known sequences determined structures problem becoming more more pronounced
+two key ingredients algorithms rna 3-d structure prediction namely accurate energy function conformational sampling procedure both only partly solved problems
+here focus latter problem
+current state art rna conformational sampling based fragment assembly methods construct plausible conformations stringing together short fragments obtained experimental structures
+methods led numerous important breakthroughs related fields protein rna 3-d structure prediction last ten years
+nonetheless fragment assembly methods not panacea
+one problems associated methods they inherently discretize continuous conformational space hence do not cover all relevant conformations
+problematic since resolution conformational search procedure imposes limits energy function; use fine-grained energy terms requires continuous adjustments rna's dihedral degrees freedom fragment assembly methods cannot provide
+other words shortcomings conformational sampling method need counteracted tweaking energy function
+furthermore full conformational detail great importance complete understanding rna catalysis binding dynamics 
+another fundamental problem fragment assembly methods their non-probabilistic nature makes their rigorous use framework statistical physics problematic
+particularly currently impossible ensure unbiased sampling markov chain monte carlo framework using fragment assembly proposal function
+other words using fragment library implies adding inherently unknown additional term energy function
+means unbiased simulation dynamics rna molecule under control all-atom empirical forcefield using fragment assembly methods currently impossible
+reasons developed new solution conformational sampling problem: probabilistic model called barnacle describes rna structure natural continuous space
+barnacle makes possible efficiently sample 3-d conformations rna-like short length scale
+model used purely proposal distribution but also energy term enforcing realistic local conformations
+imposing favorable long range interactions hydrogen bonding between bases lies outside scope local model task global energy function
+barnacle combines dynamic bayesian network suits sequential nature rna molecule directional statistics branch statistics concerned representation angular data
+model not only computationally attractive but also rigorously interpreted language statistical physics making attractive theoretical viewpoint well
+approach conceptually related probabilistic models protein structure recently proposed our group
+however model presented here clearly far trivial extension rna molecule many more degrees freedom than protein; rna backbone alone there 11 angles per residue opposed two proteins
+many degrees freedom combined limited number experimentally determined rna structures make particularly challenging statistical task very different strategy was required
+particular approach used proteins would case rna require use probability density function 7-dimensional hypertorus poses serious statistical computational obstacle
+below describe probabilistic model detail show captures crucial aspects local rna structure
+also demonstrate its usefulness context rna 3-d prediction end outlook possible applications

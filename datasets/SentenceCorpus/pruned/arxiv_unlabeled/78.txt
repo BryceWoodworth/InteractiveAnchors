@@ -1,0 +1,35 @@
+
+introduce approach stochastic systems rate theory use natural principle learning
+study two distinct cases optimal optimal estimation
+case probability distribution sequences known method approximate structure at level representation
+show limit model complexity exact stochastic system known
+one estimate amount information process
+more generally
+changes function approximation distinct scales structural
+cases finite data show how correct number underlying states found optimal estimation
+previously derived model complexity control term allows us correct effect statistical probability estimates
+introduction
+time series modeling long important history
+systems over new methods account many natural
+result now well known systems produce highly correlated time series not under statistical assumptions distributions
+one novel methods hidden structure processes key modeling prediction
+alternative modeling approaches computational introduced stochastic systems optimal predictor many system properties directly
+notion state introduced
+effective states those variables past its present information past predicts future
+following here investigate problem learning predictive models time series particular attention hidden variables
+do using information method together complexity control method discussed
+necessary learning finite data
+
+out relationship between computational information method
+here make mathematical times series new method
+time series prediction resulting method call optimal
+since effect theory use general optimal between model complexity approximation accuracy
+theory discussed
+
+show important limit prediction model complexity not underlying previously defined within framework computational
+shows effect hidden variables
+result structural models
+example one fundamental entropy rate original system
+extended optimal estimation
+when probabilities estimated finite data errors due statistical probability estimates must taken into account order
+demonstrate how work number example stochastic processes known structure

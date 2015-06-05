@@ -1,0 +1,56 @@
+ 
+increasing number cis-regulatory rna elements been found regulate gene expression post-transcriptionally various biological processes bacterial systems
+effective computational tools large-scale identification novel regulatory rnas strongly desired facilitate our exploration gene regulation mechanisms regulatory networks
+present new computational program named rssvm employs support vector machines efficient identification functional rna motifs random rna secondary structures
+rssvm uses set distinctive features represent common rna secondary structure structural alignment predicted rna sampler tool accurate common rna secondary structure prediction trained functional rnas variety bacterial rna motif/gene families covering wide range sequence identities
+when tested large number known random rna motifs rssvm shows significantly higher sensitivity than other leading rna identification programs while maintaining same false positive rate
+rssvm performs particularly well sets low sequence identities
+combination rna sampler rssvm provides new fast efficient pipeline large-scale discovery regulatory rna motifs
+applied rssvm multiple shewanella genomes identified putative regulatory rna motifs 5 untranslated regions s oneidensis important bacterial organism extraordinary respiratory metal reducing abilities great potential bioremediation alternative energy generation
+1002 sets 5 utrs orthologous operons identified 166 putative regulatory rna motifs including 17 19 known rna motifs rfam additional 21 rna motifs supported literature evidence 72 rna motifs overlapping predicted transcription terminators attenuators other candidate regulatory rna motifs
+our study provides list promising novel regulatory rna motifs potentially involved post-transcriptional gene regulation
+combined previous cis-regulatory dna motif study s oneidensis genome-wide discovery cis-regulatory rna motifs may offer more comprehensive views gene regulation at different level organism
+rssvm software predictions analysis results shewanella genomes available at link
+ introduction 
+rna remarkably versatile acting not only messengers transfer genetic information dna protein but also critical structural components catalytic enzymes cell
+more intriguingly non-coding rnas been found play important regulatory roles
+they mediate gene expression post-transcriptionally two ways: one serve trans-acting antisense rnas micrornas hybridize target mrnas silence their expression ; other form structural cis-elements mrnas riboswitches regulate gene expression mediating transcription termination translation initiation
+regulatory roles ncrnas make them promising drug targets efficient tools drug development gene therapy 
+past few years many cis-regulatory rna structural motifs been identified prokaryotes
+they often located 5 untranslated regions mrnas sense interact cognate factors including proteins rnas small metabolites even temperature changes mediate transcription attenuation translation initiation mrna stability
+functions regulatory rnas intrinsically tied their secondary structures mostly recognizable stem-loops pseudoknots
+moreover regulatory rnas often conserved during evolution: similar regulatory rna elements shared multiple co-regulated genes same metabolic pathway conserved orthologous genes across closely related species 
+experimental screenings cis-regulatory rnas highly labor time consuming
+demonstrated previous studies parallel way find good candidates computationally followed targeted experimental validation
+because functional regulatory rnas often evolutionarily conserved their secondary structures identify them finding significantly conserved rna secondary structures orthologous genes across closely related species
+accomplish need two tools: one accurately predict common rna secondary structures multiple related sequences other distinguish functional rna secondary structures random foldings rna sequences
+number algorithms been developed common rna secondary structure prediction rnaalifold dynalign comrna cmfinder foldalign
+recently published new algorithm called rna sampler predicting common rna secondary structures structural alignments multiple sequences
+both our study independent studies other researchers demonstrated rna sampler provides more accurate structure predictions generates better structural alignments sequences wide range identities than other leading software similar purposes
+moreover rna sampler runs fast feasible common rna secondary structure prediction genome scale
+studies shown single sequence rna secondary structure alone not sufficient distinguish functional rna random sequence
+however availability multiple rna sequences related species comparative genomics approaches provide additional power identify functional rna structures
+one strategy design scoring function predicted rna secondary structures examine difference between score distributions real structures randomly permutated structures employed rna identification pipeline based cmfinder comrna
+but one limitation approach user needs generate large number random sequence sets each set real sequences doing structure predictions permutated sequence sets usually time consuming
+besides difficult find score cutoff make call between functional random rnas
+another strategy train classification model based features distinguish common structures known functional rnas those random rnas then apply classification model newly predicted common rna structures determine whether they functional random rnas
+rna classification algorithms employing strategy include qrna rnaz dynalign libsvm
+qrna classifies pairwise sequence alignment posterior probabilities three probabilistic models rna coding null
+rnaz dynalign libsvm both employ support vector machines build classification models
+train classification model developer still needs generate large number random sequence sets negative training sets make structure predictions them but once classification model trained user directly utilize model identify functional rnas without need generate perform folding random sequences
+type sequences used train classification models essential their classification performance new sequences
+qrna dynalign libsvm only use trnas rrnas their training rna structures rnaz trained multiple rna gene/motif families rfam database but only uses sequence sets high identities
+avoid overfitting classification model specific classes rnas using training sets cover wide range sequence identities variety rna families more desirable
+addition training classification model using more accurately predicted rna common structures alignments advantageous more sensitive classification functional rnas random ones
+rnaz uses rnaalifold common rna structure prediction
+when using sequence alignments its input rnaalifold performs poorly predicting rna structures sequence sets low identities
+structure prediction accuracy rnaalifold may improved using structural alignments but rnaz might need re-trained use structural alignments
+paper present new svm based functional rna identifier named rssvm
+rssvm applies set features represent common rna secondary structures structural alignments generated rna sampler predicts rna structures more accurately than other approaches
+rssvm trained rna sets wide range sequence identities all bacterial rna motif/gene families rfam database
+rssvm more sensitive identifying real functional rnas than other leading rna classification programs including rnaz dynalign libsvm qrna at same false positive rate
+applied rssvm multiple shewanella genomes identify putative cis-regulatory rna motifs 5 utrs orthologous genes
+shewanella oneidensis facultative gram-negative proteobacterium
+extraordinary abilities use wide variety metals organic molecules electron acceptors respiration gives great potential applied bioremediation both metal organic pollutants
+complete genomic sequences shewanella oneidensis multiple other shewanella species provide good resources discovering cis-regulatory rnas using comparative genomics approaches
+combining recent predictions putative dna cis-regulatory motifs s oneidensis will more complete view gene regulation s oneidensis at different regulation levels

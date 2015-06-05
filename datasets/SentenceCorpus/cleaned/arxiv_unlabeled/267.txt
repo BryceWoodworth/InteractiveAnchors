@@ -1,0 +1,34 @@
+ 
+consider task opportunistic channel access primary system composed independent gilbert-elliot channels where secondary opportunistic user does not dispose priori information regarding statistical characteristics system
+shown problem may cast into framework model-based learning specific class partially observed markov decision processes pomdps introduce algorithm aimed at striking optimal tradeoff between exploration estimation exploitation requirements
+provide finite horizon regret bounds algorithm well numerical evaluation its performance single channel model well case stochastically identical channels
+ introduction 
+recent years opportunistic spectrum access cognitive radio been focus significant research efforts
+works propose improve spectral efficiency making smarter use large portion frequency bands remains unused
+licensed band cognitive radio goal share bands licensed primary users non primary users called secondary users cognitive users
+secondary users must carefully %sense primary users's presence adapt their own transmission identify available spectrum resources communicate avoiding disturb primary network
+opportunistic spectrum access thus potential significantly increasing spectral efficiency wireless networks
+paper focus opportunistic communication model previously considered  consists channels single secondary user searches idle channels temporarily unused primary users
+channels modeled gilbert-elliot channels: at each time slot channel either idle occupied availability channel evolves markovian way
+assuming secondary user only sense channels simultaneously  his main task choose channel sense at each time aiming maximise its expected long-term transmission efficiency
+under model channel allocation may interpreted planning task particular class partially observed markov decision process pomdp also called restless bandits
+works  assumed statistical information about primary users' traffic fully available secondary user
+practice however statistical characteristics traffic %(i e transition probabilities availabilty each channel not fixed priori must somehow estimated secondary user
+secondary user selects channels sense not faced simple parameter estimation problem but task closer reinforcement learning
+consider scenarios secondary user first carries out exploration phase statistical information regarding model gathered then follows exploitation phase  where optimal sensing policy based estimated parameters applied
+key issue reach proper balance between exploration exploitation
+issue been considered before who proposed asymptotic rule set length exploration phase but without precise evaluation performance approach
+lai et al also considered problem multiple secondary users case but simpler model where each channel modeled independent identically distributed source
+field reinforcement learning class problems known model-based reinforcement learning several approaches been proposed recently
+however none directly applies channel allocation model state channels only partially observed
+our contribution consists proposing strategy termed tiling algorithm  adaptively setting length exploration phase
+under strategy length exploration phase not fixed beforehand exploration phase terminated soon accumulated enough statistical evidence determine optimal sensing policy
+distinctive feature approach comes strong performance guarantees form finite-horizon regret bounds
+sake clarity strategy described general framework parametric pomdps
+remark channel access model corresponds specific example pomdp parameterized transition probabilities availability each channel
+approach relies restrictive assumption each possible parameter value solution planning problem fully known not applicable pomdps at large but well suited case channel allocation model
+provide detailed account use approach two simple instances opportunistic channel access model including case stochastically identical channels considered
+article organized follows
+channel allocation model formally described section
+section  tiling algorithm presented its performance terms finite-horizon regret bounds obtained
+application opportunistic channel access detailed section  both one channel model case stochastically identical channels

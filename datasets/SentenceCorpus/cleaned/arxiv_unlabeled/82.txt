@@ -1,0 +1,23 @@
+ 
+purpose note show how method maximum entropy mean mem may used improve parametric estimation when measurements corrupted large level noise
+method developed context concrete example: estimation parameter exponential distribution
+compare performance our method bayesian maximum likelihood approaches
+ introduction 
+suppose you want measure half-life decaying nucleus life-time some elementary particle some other random variable modeled exponential distribution describing say decay time life time process
+assume well noise measurement process modeled centered gaussian random variable whose variance may same order magnitude decay rate measured
+make things worse assume you only collect very few measurements
+if denotes realized value variable one only measure   where small mumbler say denotes additive measurement noise
+other words assume you know sample comes specific parametric distribution but contaminated additive noise
+what do
+one possible approach apply small sample statistical estimation procedures
+but designed problems where variability due only random nature quantity measured,and there no other noise measurement still another possibility one explore here apply maxentropic filtering method estimate both unknown variable noise level
+recast problem typical inverse problem consisting solving } where convex set  some  matrix depends how rephrase our problem
+could example consider following problem: find } our case  set could consider collection problems one every measurement then proceed carry estimation
+once solved generic problem  variations theme easy write down
+what important keep mind here output method filtered estimator itself estimator unknown parameter
+novelty then filter out noise 
+method maximum entropy mean rather well suited solving problems like 1
+see navaza 1986 early development dacunha-castele camboa 1990 full mathematical treatment
+below shall briefly review what method about then apply obtain estimator 
+section 3 obtain maxentropic estimator section 4 examine some its properties particular examine what results would if either noise level were small number measurements were large
+devote section 4 some simulations method compared bayesian maximum likelihood approaches

@@ -1,0 +1,27 @@
+
+data being generated effort represent brain expression all genes at cellular
+critical effort ability place data into common reference
+here developed computational method gene expression patterns context type data
+procedure been applied genes brain
+utility identify genes may related disease using expression search pattern
+addition transcription factor relative control quantitative comparison expression patterns
+method developed here complex data
+introduction
+gene expression provide important information about how genes biological processes at cellular molecular levels
+therefore gene expression at single cell
+common they generate numbers expression patterns presence proteins particular cell group cells within natural context
+however large limited per without efficient means compare gene protein expression patterns
+genomic sequence information expression patterns requires
+mean sites expression representation
+approach taken gene expression database gene expression patterns using terms
+provides relationships using tree
+terms model
+also provides tools directly into
+although hand effective method not efficient means datasets
+addition if future changes made may require review previously data
+here present novel approach uses modeling technique brain
+then major structures present brain define between structures provide representation small structures
+when technique method gene expression one large number gene expression patterns way allows expression patterns regions interest
+brain was selected because at many complex brain functions yet existing information underlying molecular mechanisms still relatively limited
+describe here generated using application our method
+then demonstrate utility approach two genes expressed genes potentially involved functional

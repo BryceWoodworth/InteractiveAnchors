@@ -1,0 +1,30 @@
+ 
+genome-scale study analysed various parameters influencing protein levels cells
+achieve goal model bacterium lactococcus lactis was grown at steady state continuous cultures at different growth rates proteomic transcriptomic data were thoroughly compared
+ratios mrna protein were highly variable among proteins but also given gene between different growth conditions
+modeling cellular processes combined data fitting modeling approach allowed both translation efficiencies degradation rates estimated each protein each growth condition
+estimated translational efficiencies degradation rates strongly differed between proteins were tested their biological significance through statistical correlations relevant parameters codon amino acid bias
+efficiencies degradation rates were not constant all growth conditions were inversely proportional growth rate indicating more efficient translation at low growth rate but antagonistic higher rate protein degradation
+estimated protein median half-lives ranged 23 224 min underlying importance protein degradation notably at low growth rates
+regulation intracellular protein level was analysed through regulatory coefficient calculations revealing complex control depending protein growth conditions
+modeling approach enabled translational efficiencies protein degradation rates estimated two biological parameters extremely difficult determine experimentally generally lacking bacteria
+method generic now extended other environments and/or other micro-organisms
+ introduction 
+era omics systems biology emerged availability genome-wide data different levels i.e genome transcriptome proteome metabolome
+approach aims at integrating omics data mainly through computational mathematical models so decipher biological systems whole
+integration transcriptomic proteomic results huge challenge itself
+literature usually exploits two approaches complementary tools does not often provide correct confrontation two datasets
+until now only few researchers mainly interested yeast physiology been working aspect results typically revealed modest correlations between those two datasets
+weak correlations between transcript protein levels consequence involvement post-transcriptional regulations translation control protein degradation evidenced brockmann et al
+translation regulations believed involved protein level control but generally studied at level controlling specific molecular mechanisms not at genome scale
+although polysome profile analysis allows translation efficiencies experimentally determined various transcripts simultaneously technique been only rarely used almost exclusively s cerevisiae
+protein stability also influence intracellular protein level correlation between transcript protein
+however protein stability rarely studied at genome scale data only available s cerevisiae
+finally rate protein disappearance due protein dilution cellular growth also potentially involved protein level modifications but physical phenomenon generally neglected
+more generally even if translation efficiency protein degradation dilution rate all influence protein levels parameters not usually studied simultaneously
+role each parameter whole cellular adaptation process not been elucidated not clearly known today parameter preponderant if control constant not when environmental conditions modified
+aim study was analyse control intracellular protein level taking into account all parameters control prokaryotic organism model lactic acid bacteria lactococcus lactis
+achieve purpose transcriptomic proteomic analyses were performed cells same culture
+transcriptomic data were already available corresponding proteome measurement was performed
+whole protein related processes including translation dilution rate protein degradation were modelled since biological data were obtained at steady state equations describing protein levels equilibrium were solved
+modeling approach allowed translation efficiency protein degradation estimated relative involvement all various parameters protein control analysed

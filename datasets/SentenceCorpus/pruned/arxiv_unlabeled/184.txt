@@ -1,0 +1,50 @@
+
+consider problem universal identification classes sources general
+performance measured terms while identification performance measured distance between true source estimated source
+provided sources at fast rate certain conditions shown metric there exist universal identification whose length where dimension certain class decision regions defined distributions furthermore each identify active source up distance probability one
+results several examples sources conditions terms learning density estimation universal vector dimension
+introduction
+well known source statistical modeling
+fact see 2 provides between probability distributions
+if one full knowledge source statistics then one design optimal source
+however practice source statistics known so one design universal perform within given class sources
+universal too shown modeling given family sources source statistics via estimation long data sequence use knowledge appropriate
+even settings e g class all sources universal amount probabilistic model source
+direction among others problem statistical modeling parameter estimation model identification via universal
+consider though relationship between modeling no so simple
+one hand having full knowledge source statistics optimal
+other hand some special cases e g
+sources measure
+sources measure not at all clear how statistical model source its via although shown recently empirical distribution source corresponding distribution problem source
+not problem when but there situations one would like source identify its statistics at same time
+instance adaptive control see eg parameters system estimated basis observation
+consider stochastic setting state sequence random process whose statistics finite set parameters
+via whose per use
+then given time objective design obtain estimates both parameters state sequence possible
+state problem general terms consider information source sequence random variables taking values
+process distribution not but known some class
+answer following two class respect given measure given structure e g all given rate all etc
+other words does there exist optimal each
+if answer question 1 positive way not only source but also identify its process distribution optimal
+previous work two questions context sources parameter space subset some finite
+shown under appropriate conditions measure source models there exist universal source identification whose between actual performance theoretical given function source estimation both length
+each source parameters estimated
+comparing convergence rate convergence rate optimal see there general identification
+furthermore constant hidden increases model class measured dimension certain class source associated sources
+main results
+assumption rather many relevant model classes e g sources markov hidden markov processes
+furthermore assumption parameter space may not always at least sense may not know
+paper both assumptions study existence performance universal identification sources condition when sources assumed model class being open subset some finite
+because parameter space not use performance functional between expected expected rate
+our result under certain conditions measure model class there exist universal source identification length between actual performance optimal performance at length well source estimation at where dimension certain class decision regions source process distributions
+result shows very terms both identification underlying model class dimension sequence
+model class learn performance our because use source parameters learned past data how current
+furthermore comparing rate at under our result whose universal not at identification see modeling some performance
+paper follows
+section basic related sources classes
+section conditions source model class contains our result
+result section
+next section give three examples source
+sources sources hidden markov processes framework paper under conditions
+section future research
+finally contains some results

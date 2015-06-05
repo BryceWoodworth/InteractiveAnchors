@@ -1,0 +1,31 @@
+ 
+examine how almost winning roulette affects subsequent betting behavior
+our main finding heterogeneity gambler behavior some gamblers less likely bet numbers were near misses prior spin other gamblers more likely bet near miss numbers
+using unique data set game rapid roulette model likelihood gambler betting near miss number while controlling favorite number bias likelihood number being near miss
+also find no evidence near misses roulette leads gamblers extending time spent gambling placing more bets
+ introduction 
+near-miss events occur wide variety domains including gambling sports natural disasters industrial accidents
+depending upon domain there differing definitions near miss
+within gaming literature reid defines near miss special kind failure reach goal one comes close being successful p number griffiths shortens failures close being successful p number harrigan interprets failure was close win p number
+harrigan notes some prefer term near win more logical description gambling event under consideration but term near miss prevails
+context industrial accidents dillon tinsley suggest event considered near-miss if outcome non-hazardous but if hazardous fatal outcome could occurred p number subsequent paper they offer definition successful outcomes chance plays critical role averting failure
+central definitions near miss belief associated feelings one almost won but didn't almost lost but didn't
+locke uses term aww schucks
+capture feeling almost winning add was close one
+capture feeling avoiding accident
+importance near-miss events they affect decisions made subsequent each event
+example there experimental evidence near misses lead gamblers play longer
+early research strickland grote showed subjects exposed high proportion winning symbols first two wheels three wheel slot machine tended gamble longer but result could not replicated reid under slightly different experimental conditions
+however subsequent studies found experimental evidence near misses slot machine games lead more games played increased playing time
+although most research near miss effect focused slot machine gambling some research examined near-miss effect other casino games
+dixon found subjects playing simulated roulette game rated losing outcomes closer winning both when they were close location winning number when they were numerically close winning number
+another study dixon et al found blackjack players rated non-bust losses close wins effect decreasing difference card values between player dealer increased
+while both studies found near miss effect non-slot machine games limitation studies was they were not designed study how near misses affect subsequent gambling behavior
+near misses also affect decision making away casino floor
+project management domain dillon tinsley provide evidence near-misses often viewed successes lead managers make subsequent riskier decisions
+specifically dillon tinsley provide experimental evidence managers who make decisions result near misses evaluated highly managers who make decisions result successes higher than those who fail without near miss
+further evidence suggests managers who experience near-miss events but do not experience failure will then subjectively assess probability future failure lower than objective probability failure leading managers choose riskier alternatives
+domain natural disasters dillon tinsley cronin provide evidence if house avoided flood damage hurricane near-miss then subjects were less likely buy flood insurance
+subjects were also less likely evacuate house had survived past hurricanes without damage
+explaining result dillon tinsley cronin write people did not update given probabilities they did not calculate new probabilities they simply felt differently about initial probabilities were given
+thus might said near-miss information changes people's frames reference p number

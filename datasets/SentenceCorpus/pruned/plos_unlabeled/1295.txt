@@ -1,0 +1,101 @@
+
+among new protein identified characterized using techniques
+also relevant
+found relevant
+family conserved structure despite low sequence
+therefore our search new combined recognition rules sequences including primary sequence pattern reduce sequence identify using structure
+used models each new understand features structure cell activation binding target binding reaction mechanism
+activity using yeast growth test
+where protein structure protein sequence data need our approach provides into
+introduction
+sequence data over genome available through genomes online database more than protein structures protein data
+while sequences represent large limited number possible estimated at researchers sequences structure
+single limited number functions between average
+therefore structure knowledge function
+researchers sequence structure data protein protein human including
+role many settings
+single target usually protein its activity
+many cells targets
+common targets factor 2 factor
+other targets include kinase motifs
+researchers use develop drug targets cancer cells after proteins into cells using membrane domains study cell biology understand reaction identify
+occur
+genomes them through gene
+several authors family
+examples include s
+into groups better family
+focus group into
+group primary sequences related through specific pattern
+pattern previous expression
+domain several regions
+describe them here n using previously introduced
+region present when example
+its recognition targets rather than general rule
+region b active site two early sequence
+
+also target specific during reaction turn together reaction
+region 1 at end sequence pattern
+important binding target
+region follows region 1
+region 2 follows sequence pattern
+active site
+after
+target
+et al suggested place during reaction
+region leading into pattern
+target
+having both out might recognition
+region binding when present
+researchers long reaction
+some suggest s mechanism but many now s mechanism
+et al recently specific version mechanism work
+reaction follows three form n second
+finally target makes second
+s widely group new given structure similarity consistent active site shown 1 2
+structure
+several exist domains receptor binding membrane domains
+b domains structures functions exist
+various
+
+often protein not true b domains
+contain b domains structural domain
+b domains not they proteins similar including
+group single where b domain contains both domain
+b domains form
+low overall sequence
+one key family new sequences known
+depending only amino sequence alignment techniques new
+instead use more structure information search because many primary sequences produce same
+researchers then sequences through recognition
+et al used identify new including
+more recently similar strategy potential new
+examples later characterized
+way protein but
+example sequences often search
+also since et al detailed data results family
+sequence structure detection tools during time
+et al proposed between conserved pattern corresponding secondary structure one way reduce sequence
+pattern function total sequence set smaller subset secondary structure prediction key active site present
+our family using new approach
+difference use rather than secondary structure prediction
+our genomic data pattern
+allows us new rank them their structure function
+often data studies simply present sequences but do not analyze those
+our aim rather than explicitly proteins domains residues discussed develop theoretical framework understanding new based per sequence
+our approach rather than studies
+here features patterns known explain how they new
+use methods structure cell activation binding target binding reaction mechanism
+computer approach several
+environment way study new
+often
+also within genomes researchers make sequences available than biochemical studies
+new might play role current also drug targets against
+our new study design family percent
+our approach
+use model study effects
+researchers yeast study
+yeast conserved cellular processes dna rna dynamics cell cycle control cell
+place genes under control test activity cells
+shows
+residues activity
+indeed studies identify new

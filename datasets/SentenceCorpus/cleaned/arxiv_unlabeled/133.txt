@@ -1,0 +1,12 @@
+ 
+method stable random projections tool efficiently computing distances using low memory where tuning parameter
+method boils down statistical estimation task various estimators been proposed based geometric mean  harmonic mean  fractional power etc
+study proposes optimal quantile estimator whose main operation selecting  considerably less expensive than taking fractional power main operation previous estimators
+our experiments report optimal quantile estimator nearly one order magnitude more computationally efficient than previous estimators
+large-scale learning tasks storing computing pairwise distances serious bottleneck estimator should desirable
+addition its computational advantages optimal quantile estimator exhibits nice theoretical properties
+more accurate than previous estimators when {symbol }
+derive its theoretical error bounds establish explicit i e  no hidden constants sample complexity bound
+ introduction 
+method stable random projections  efficient tool computing pairwise distances massive high-dimensional data provides promising mechanism tackle some challenges modern machine learning
+paper provide easy-to-implement algorithm stable random projections both statistically accurate computationally efficient

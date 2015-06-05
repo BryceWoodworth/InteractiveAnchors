@@ -1,0 +1,41 @@
+
+bayesian framework framework hypothesis testing parameter estimation sequence prediction classification regression
+but standard statistical choosing model class prior not always available particular complex situations
+bayesian framework unique universal choice model class prior
+i discuss how sense universal \ sequence prediction various problems bayesian sequence prediction
+i show model many strong total future bounds bounds contrast most classical continuous prior no problem \ universal problem
+even well actually better environments
+introduction
+given past what probability
+what correct answer test sequence
+given one predict
+years every how likely does not
+important problem forecasting sequence prediction
+finding prediction rules every particular new problem possible but
+what general theory prediction
+bayesian framework most consistent framework developed thus far
+bayesian set true data probability distribution
+prior belief environment observed data sequence rule confidence
+setting one directly predictive probability next without step true good useful model
+section paper prediction rather than model identification
+goal make predictions sense loss
+note classification regression special sequence prediction problems where sequence pairs given class function value predicted
+bayesian framework open how choose model class prior
+general should small but large contain true environment should prior subjective belief should objective if no prior knowledge available
+but bayesian framework
+unique universal solution problem consider single large universal class all problems
+corresponding universal prior towards simple environments way all other
+leads probability probability universal machine random input program most likely prediction
+many important results been universal distribution
+goal paper % provide how sense universal sequence prediction all problems bayesian sequence prediction % present some recent results
+% many could further developed
+i future more detailed
+section i review predictive performance results bayesian sequence prediction \ continuous model classes
+section classical objective universal prior terms complexity
+section \ section universal i show various properties universal prior class universal no problem contrast most classical continuous prior
+i also general total bounds section some universal some
+specific future bounds
+finally i show universal mixture better than classical continuous even environments
+section contains
+bounds good performance environments most prior universal evidence new new universal sequence prediction
+mathematical new results loss bound bounds

@@ -1,0 +1,70 @@
+
+binding proteins large family molecular play key role
+all central
+upon binding their large conformational change binding
+conformational change however intrinsic dynamics protein may also recognition
+recent experiments shown binding protein exists mixture open state state
+here describe simulations provide detailed transition between open states existence between two states
+find part protein called during
+residues region important role conformational change
+between open states size binding site
+study provides detailed description conformational space available understanding recognition related proteins
+introduction
+binding proteins major components cell involved
+use into
+differ they different design directly receptor
+addition several contain binding domains
+include g including
+many drug targets
+structures been called general mechanisms recognition been identified large variety amino
+also make them design properties
+binding protein part system efficient
+
+been subject study due its importance various biological pathways its utility protein expression
+protein into two domains c domain n domain
+two domains via short form region
+like other binding site between domains
+structures presence protein important conformational change open state presence effect better size
+conformational change been mechanism due its only when
+mechanism often describe recognition process
+binding site directly protein
+also possible protein exists mixture open
+case would play more role state mechanism described conformational selection population
+computer simulations studies often needed between two scenarios structures typically do not provide detailed information about available protein
+recently our understanding mechanism recognition studies only two possible open bound structure
+et al reported first measurements
+protein domain could studied
+measurements existence dynamic between major open state state
+because experimental rates could not either structure was possible structure exists
+transition between open state was determined involve region
+best between experimental data was obtained exists between major open state state percent time very small energy difference between two states
+between states was estimated between s
+theoretical point view between different could play important role recognition
+however remains using simulations detailed statistical analysis conformational dynamics proteins
+past development efficient simulation algorithms large number theoretical studies using molecular dynamics simulations intrinsic dynamics
+et al studied binding protein using simulations
+they observed large protein direction structure found open structure was more than structure
+et al general result comparative study different also showed different could different properties
+authors also observed rate presence could fast even though they also sampling events was
+et al performed simulations protein involved b
+using simulations each they were able both simulations larger simulations
+behavior protein was model
+observation molecular open state was other groups similar binding proteins binding proteins
+studied open form reported events during simulations
+taken together studies intrinsic
+recognition through mechanism structure very tendency along lead open structure
+simulation study protein was out et al
+using simulations both open states without authors could show structure state presence
+state was found open state when was
+conformational change was consistent experimental rate constant binding 1 2 1 s 1 suggests rate
+however simulations was too short any between open
+rate between two
+paper used molecular dynamics simulations show protein exists between open
+number methods been developed sampling conformational changes proteins including conformational
+however within framework study key advantage allows us study conformational behavior dynamics protein without using reaction
+previous studies been study dynamics proteins
+conformational space also been shown significantly improve theoretical prediction experimental dynamic
+paper show simulations allow study transition open state hidden
+provides first view transition between open states
+parameters simulations well experiments
+free energy used provide new into mechanism between open states

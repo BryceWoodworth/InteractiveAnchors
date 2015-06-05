@@ -1,0 +1,37 @@
+ 
+mature human brain organized into collection specialized functional networks flexibly interact support various cognitive functions
+studies development often attempt identify organizing principles guide maturation functional networks
+report combine resting state functional connectivity mri graph analysis community detection spring-embedding visualization techniques analyze four separate networks defined earlier studies
+previously reported find across development trend toward segregation between regions close anatomical space integration between selected regions distant space
+generalization earlier trends across multiple networks suggests general developmental principle changes functional connectivity would extend large-scale graph theoretic analyses large-scale brain networks
+communities children predominantly arranged anatomical proximity while communities adults predominantly reflect functional relationships defined adult fmri studies
+sum over development organization multiple functional networks shifts local anatomical emphasis children more distributed architecture young adults
+argue local distributed developmental characterization important implications understanding development neural systems underlying cognition
+further graph metrics similar child adult graphs both showing small-world like properties while community detection modularity optimization reveals stable communities within graphs clearly different between young children young adults
+observations suggest early school age children adults both relatively efficient systems may solve similar information processing problems divergent ways
+ introduction 
+mature human brain both structurally functionally specialized discrete areas cerebral cortex perform distinct types information processing
+areas organized into functional networks flexibly interact support various cognitive functions
+studies development often attempt identify organizing principles guide maturation functional networks
+
+major portion work investigating nature functional human brain development based results functional magnetic resonance imaging studies
+examining differences fmri activation profile particular brain region between children adolescents adults developmental trajectory region's involvement cognitive task outlined
+experiments been crucial our current understanding typical atypical brain development
+addition fmri activation studies relatively new increasingly utilized method resting state functional connectivity mri allows complementary examination functional relationships between regions across development
+resting state fcmri based discovery spontaneous low-frequency blood oxygen level dependent signal fluctuations sometimes distant but functionally-related grey matter regions show strong correlations at rest
+low frequency bold fluctuations appear relate spontaneous neural activity
+effect rs-fcmri evaluates regional interactions occur when subject not performing explicit task
+date rs-fcmri been used several domains examine systems-level organization motor memory attention task control systems 
+addition because rs-fcmri does not require active engagement behavioral task unburdens experimental design subject compliance training demands
+thus rs-fcmri becoming frequently used tool examining changes network structure disease aging across development 
+previous work regarding task-level control adults applied rs-fcmri set regions derived fmri meta-analysis included studies control-demanding tasks
+analysis revealed brain regions exhibiting different combinations control signals across many tasks grouped into distinct fronto-parietal cingulo-opercular functional networks
+based functional activation profiles regions characterized previous fmri study fronto-parietal network appears act shorter timescale initiating adjusting top-down control
+contrast cingulo-opercular network operates longer timescale providing set-initiation stable set-maintenance duration task blocks 
+along two task control networks set cerebellar regions showing error-related activity across tasks formed separate cerebellar network
+adults cerebellar network functionally connected both fronto-parietal cingulo-opercular networks
+functional connections may represent pathways involved task level control provide feedback information both control networks 
+another functional network one most prominent sets regions examined rs-fcmri default mode network
+default mode network was first characterized consistent decrease activity during goal-directed tasks compared baseline
+resting-state fcmri analyses repeatedly shown regions along associated medial temporal regions correlated at rest adults
+while distinct function default mode network often linked internally directed mental activity notion continues debated 

@@ -1,0 +1,18 @@
+
+one major behavioral decision research identify cognitive processes underlying judgment decision making
+compared previous methods process models more tested choices decision times confidence judgments
+maximum likelihood strategy classification method was developed statistical data analysis
+present article describe free data analysis under general provide practical application
+also provide function
+thus prior knowledge not necessary those using
+introduction
+been individuals make adaptive use different decision strategies application strategy might depend different factors characteristics effort accuracy learning
+some strategies might based
+others contrast might rely processes
+showed process methods might information search processes necessary processes
+furthermore taking into account processes many strategies make same choice predictions
+showed strategies make different choice predictions people more maximum likelihood strategy classification method compared strategy classification
+furthermore method also allows us between strategies make same choice predictions given decision time predictions
+experiment generate data application method three basic number choose dependent measures distributions those measures number choose set strategies number items between considered strategies derive predictions dependent measures
+then predictions strategies empirical data using strategy most likely behavior identified
+provided method data analysis

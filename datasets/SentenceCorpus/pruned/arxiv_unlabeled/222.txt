@@ -1,0 +1,39 @@
+
+given time series measurements objective source find time series independent measured components
+paper source time series required density function density functions individual components
+problem solution unique up
+shown constraints certain functions derived local
+data if only if they constraints if constraints sources explicitly data
+method using two single
+introduction
+often signals multiple physical stimuli but one another
+many situations necessary one more stimuli processing observed signals i e processing them without prior knowledge nature stimuli
+recent years there solution source problem special case signals source variables related
+however although often performed humans computational methods limited
+consider time series data where measurements
+1 determine if data independent source components } where 2 if case function
+other words problem find observed data system state space special source system components data independent
+let state space probability density function source system defined so total time source within at
+problem source components required independent sense their state space density functions individual components } every multiple solutions any one solution
+however well known criterion so much form problem multiple solutions source variables see
+issue instead i e state space
+first let space defined so total time source within at
+paper described problem was required density functions individual components } than state space
+see note both over all but latter cannot one
+fact shown strong problem unique solution up
+furthermore type statistical being almost all classical physical systems most signals interest
+previously demonstrated time series state space metric local correlation matrix
+performed metric system i e correlation at each point well its first second respect
+however although correct complete method problem practical if state space high data required order
+current paper shows how perform local instead its correlation
+approach because requires much less data accurate
+example experiment section new method two single after observation rather than observation required method
+method described paper significantly methods proposed other because uses criterion statistical instead state space
+addition there differences between proposed method ones
+first all technique paper statistical constraints data defined state space contrast statistical global conditions data time series its time
+furthermore many other methods function derived manner without algorithms without using probabilistic learning methods without neural network other means
+addition proposed method any function some other techniques only apply class functions
+next section how data into two source variables
+section method using two single
+work discussed section
+how method data arbitrary into source variables

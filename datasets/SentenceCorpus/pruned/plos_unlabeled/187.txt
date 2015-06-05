@@ -1,0 +1,35 @@
+
+while models regulation systems biological knowledge requires experimental work
+thus there need computational methods evaluate regulatory before difficult task experimental
+developed novel computational framework transcription factor binding site gene expression information evaluate whether regulatory model likely target given set genes
+our basic approach predict regulatory associated given gene set transcription factor binding site motifs within predicted
+model system examined experimentally demonstrated expression two genes cells cells
+was previously general regulation genes expressed cell population
+contrast present analyses suggest form regulatory only subset cell genes those whose gene expression specific genetic similar manner gene original model was based
+hypothesis experimentally new expression four expression cells
+introduction
+central structure genetic regulatory networks development methods whether set transcription factors given set genes
+although classical approaches allow identification key their approximate within genetic directly gene expression required experimental identification individual regulatory
+process several groups recently demonstrated computational approaches identify accuracy especially when computational known
+best made several groups genes expressed during system where years genetic identified
+most biological systems however set either unknown
+therefore order approaches identify component regulation novel biological systems additional computational methods needed identify component regulation
+address question systems developed initial statistical framework regulatory models
+model system examined regulation class genes regulatory model been previously datasets been generated
+cells signal combination within
+prior experimental work using gene single each provided detailed model integration three signaling pathways at pathways t cell factor against were demonstrated expression within
+additional was shown provided two
+thus single model regulation genes expressed was where signaling cues appropriate expression domain
+genetic analysis expression series gene expression been determined et al
+addition cells performed expression analyses pathways were genetic
+each genetic was predicted based example increase expression those genes expression
+expression were then combined into single was used predict additional genes
+et al performed over predicted genes their experiments genes
+present work expression data et al evaluate gene expression
+previous computational sequence identified additional gene expression transcription factor binding site motifs example was not unique
+however model could not those two examples therefore developed method motifs sequences genes
+approach term not only each but also all given set
+analysis apply all genes
+rather found three likely specific subset genes changes their gene expression response genetic used et al
+thus gene expression data our analysis allows initial model subset original subset genes
+test hypothesis four our

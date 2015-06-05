@@ -1,0 +1,37 @@
+ 
+suprachiasmatic nucleus hypothalamus multicellular system drives daily rhythms mammalian behavior physiology
+although gene regulatory network produces daily oscillations within individual neurons well characterized less known about electrophysiology scn cells how firing rate correlates circadian gene expression
+developed firing rate code model incorporate known electrophysiological properties scn pacemaker cells including circadian dependent changes membrane voltage ion conductances
+calcium dynamics were included model putative link between electrical firing gene expression
+individual ion currents exhibited oscillatory patterns matching experimental data both current levels phase relationships
+vip gaba neurotransmitters encode synaptic signals across scn were found play critical roles daily oscillations membrane excitability gene expression
+blocking various mechanisms intracellular calcium accumulation simulated pharmacological agents reproduced experimentally observed trends firing rate dynamics core-clock gene transcription
+intracellular calcium concentration was shown regulate diverse circadian processes firing frequency gene expression system periodicity
+model predicted direct relationship between firing frequency gene expression amplitudes demonstrated importance intracellular pathways single cell behavior provided novel multiscale framework captured characteristics scn at both electrophysiological gene regulatory levels
+ introduction 
+mammals many physiological behavioral responses subject internal time-keeping mechanisms biological clocks
+daily rhythms generated internal self-sustained oscillator located suprachiasmatic nucleus hypothalamus
+scn produces autonomous 24h cycles gene expression firing frequency synchronization multiple individual oscillatory signals across network
+single cell gene regulatory mechanism involves number interlocking positive negative feedback loops period gene occupies central position
+circadian modulation neural firing affects number electrophysiological properties cell membrane also fluctuate over course day 
+vitro studies scn slices cultures demonstrated diurnal modulation neural firing resting potential membrane resistance well daily oscillations number ionic currents include fast delayed rectifier potassium l-type calcium large-conductance ca 2 activated potassium channels
+although individual scn neurons contain molecular feedback loops drive rhythms membrane excitability synaptic transmission also play significant roles generating daily oscillations
+experimental studies drosophila demonstrated dependence core clock oscillations electrical activity electrical silencing resulted abolishment circadian oscillations free-running molecular clock
+mammalian organisms direct association between membrane excitability core-clock rhythms also been reported multiple studies providing evidence positive correlation between per gene transcription neural spike frequency output
+example activation gaba receptors via muscimol enhanced inhibitory postsynaptic currents leads lower firing rates suppression per1 mrna
+another example involves mice deficient vasoactive intenstinal peptide receptors known display lower amplitude oscillations both core clock genes neural firing 
+mechanisms single cells produce synchronized rhythms neural firing gene expression neuropeptide secretion postulated involve intracellular second messengers
+candidate second messenger regulates diverse cellular processes intracellular calcium
+cytosolic calcium known oscillate over course day preceding rhythms multiple-unit-activity recordings mean phase 4.5 hr
+variations intracellular calcium concentrations been demonstrated induce per1 gene expression activating ca 2 /calmodulin dependent kinase turn phosphorylates camp-response-element binding protein
+reduced ca 2 concentrations been shown abolish daily per1 mrna oscillations scn slices
+cytosolic ca 2 rhythms also affect neural firing frequency dampening ca 2 oscillations via blockade calcium release ryanodine-sensitive pools results decreased firing activity 
+our knowledge detailed cell models molecular descriptions gene expression neural firing coupled intracellular signaling pathways not currently available any circadian system
+recent study hodgkin-huxley type model scn neurons was developed shown reproduce significant amount experimentally observed electrophysiological behavior millisecond timescale
+while study facilitated formulation our electrophysiology model providing guidelines mathematical representation number relevant ionic currents our modeling study was distinct due its focus circadian timescale
+addition incorporating single-cell electrophysiological properties our model accounted circadian rhythmicity coupling electrophysiology daily oscillations core-clock gene expression calcium dynamics
+objective present study was model couplings between circadian gene-regulatory pathway cellular electrophysiology cytosolic calcium dynamics evaluate role extracellular synaptic stimuli firing rate behavior over circadian timescale
+role distinct intracellular pathways well directionality information flow along network nodes was evaluated analyzing single cell model behavior following introduction various external stimuli
+calcium dynamics adapted published model included contributions ip3 ryanodine stores well flux ca 2 out cell membrane
+our model demonstrated dependence membrane excitability synaptic input conveyed vip gaba predicted reduced neural firing per mrna oscillation amplitudes well shorter circadian periods reduced cytosolic ca 2 concentrations
+results suggest dual effect signaling pathways instigated vip calcium potentially operate coupling agents between gene regulatory network electrophysiology scn neurons

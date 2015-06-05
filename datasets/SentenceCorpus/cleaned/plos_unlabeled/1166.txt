@@ -1,0 +1,53 @@
+ 
+large-scale protein interaction networks typically been discerned using affinity purification followed mass spectrometry yeast two-hybrid techniques
+generally recognized y2h screens detect direct binary interactions while ap/ms method captures co-complex associations; however latter technique known yield prevalent false positives arising number effects including abundance
+describe novel approach compute propensity two proteins co-purify ap/ms data set thereby allowing us assess detected level interaction specificity analyzing corresponding distribution interaction scores
+find two recent ap/ms data sets yeast contain enrichments specific high-scoring associations compared commensurate random profiles curated direct physical interactions two prominent data bases consistently high scores
+our scored interaction data sets generally more comprehensive than those previous studies when compared against four diverse high-quality reference sets
+furthermore find our scored data sets more enriched curated direct physical associations than y2h sets
+high-confidence protein interaction network derived ap/ms data revealed highly modular show topology not result misrepresenting indirect associations direct interactions
+fact propose modularity y2h data sets may underrepresented they contain indirect associations significantly enriched false negatives
+ap/ms pin also found contain significant assortative mixing; however line previous study confirm y2h interaction data show weak disassortativeness thus revealing more clearly distinctive natures interaction detection methods
+expect our scored yeast data sets ideal further biological discovery our scoring system will prove useful other ap/ms data sets
+ introduction 
+insights into architectures mechanisms cellular processes obtained elucidation genome-wide protein interaction networks describe physical associations between component proteins
+maps interactomes exploited enhance many types biological discovery including protein function prediction inference disease genes identification condition-specific response modules
+yeast saccharomyces cerevisiae been routinely employed model system high-throughput studies pins been determined using number platforms including yeast two-hybrid screens affinity purification followed mass spectrometry protein-fragment complementation assays
+each approach perceives interactions distinct manner
+y2h pca techniques detect direct binary interactions although pca approach does not rely upon expression reporter gene required y2h screens while ap/ms techniques purify identify protein complexes
+reliability each technique been extensively debated literature comprehensive analyses resulted contrasting conclusions
+however generally accepted any measure reliability not absolute largely dependent nature pre-defined gold standard reference set
+additional complexity arises analysis interpretation ap/ms data set because there no standard well-defined system distinguish between direct indirect interactions present purified complex
+only information available individual purification its composition: tagged bait protein associated co-purified prey proteins
+furthermore constituent proteins identified complex ms methods different platforms often yield varying compositions identical purifications
+another concern compositions purifications influenced protein abundances  proteins having higher abundance more likely detected more purifications therefore inferred involved more interactions after tabulation all bait-prey pairs
+address issues number approaches analysis ap/ms data sets been employed
+techniques common goal discerning protein pairs appreciably co-purified relative some random background
+while each method determines scores representing likelihood observing two proteins together scores computed using different procedures: gavin et al calculate log-ratios observed co-occurrences relative expected ; krogan et al utilize combination machine learning algorithms ; collins et al implement supervised algorithm derived bayesian methods optimized empirically-derived parameters ; hart et al determine interaction probabilities based hypergeometric distributions
+qualities generated pins been found superior comparable data sets constructed straightforward tabulations bait-prey interactions
+evaluations were generally deduced direct comparisons against complexes manually curated munich information center protein sequences 
+recent study high-throughput y2h data sets explored characteristic strengths distributions functional interactions non-functional interactions order assess extent latter impedes formation functional protein complexes
+was conjectured overall impact upon biochemical efficiencies had evolved tolerable limit
+motivated use randomization techniques tool measure discover enrichments network motifs connectivity correlations complex networks developed shuffling-based approach assess levels interaction specificity detected ap/ms data sets
+system allows computation pair-wise protein co-occurrence significance scores comparing experimentally observed numbers those randomized realizations
+cs score two proteins provides statistical measure their propensity co-purify interact ap/ms data set
+approach requires no training set machine learning therefore applicable any ap/ms data set any species regardless whether any curated information exists not
+found ap/ms data sets contain significant enrichments specific high-scoring associations
+additionally showed high-quality direct physical interactions curated two prominent data bases significantly high cs scores
+therefore while ap/ms data sets contain prevalent non-specific transient associations our scoring analysis reveals there underlying preference proteins form selective discriminating associations
+our resultant scored interaction data sets were further assessed comparisons against four diverse high-quality reference data sets each representing unique manner interaction detection association mechanism and/or curation
+most references found accuracies our scored interaction sets were manifestly higher than those previous studies
+additionally our scored data sets only ones typically outperformed experimental y2h interaction sets
+high-confidence pin extracted ap/ms data gavin et al was revealed free abundance effects while those derived data krogan et al contained weak abundance biases
+therefore would appear high-quality ap/ms data sets interaction specificity not coupled protein abundance
+note converse recently been found true y2h interaction data sets 
+high-confidence pin derived data gavin et al was shown highly modular containing many localized densely-connected regions strikingly different commensurate random network
+also demonstrated observed high modularity not result misinterpreting indirect associations direct interactions; rather result direct physical associations
+furthermore suggest modularity y2h interaction data sets may underrepresented indirect associations pins significantly enriched manually-curated physical interactions i.e they likely false negatives
+high-confidence ap/ms pin shows assortative mixing meaning proteins having similar numbers total interactions prefer interact each other
+consequence assortativity high-degree proteins hubs prefer associate each other rather than proteins having very small numbers total interactions
+agreement previous study find consolidated y2h pin shows weak disassortative mixing while manually-curated set high-confidence physical binary interactions displays both equal measure assortative disassortative mixing
+therefore high-quality ap/ms data appear assortative while y2h interaction data appear disassortative
+expect our scored yeast data sets ideal further investigations involving biological discovery our procedure will prove useful analysis current future ap/ms data sets variety species
+compared our high-quality ap/ms interaction data sets those y2h screens perceived number novel insights regarding their substances network properties
+certainly their topologies contrasting must reflect their different methods interaction detection

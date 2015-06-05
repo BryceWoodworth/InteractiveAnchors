@@ -1,0 +1,26 @@
+
+while many models biological object recognition common set properties performance any one model depends strongly choice parameters particular model number per size etc since number parameters typically large computational cost one particular parameter set high space possible model
+thus when model approach biological visual systems whether because fundamental idea because correct not been at sufficient scale provided training
+here present approach parameter sets recent processing
+approaches molecular biology potential network parameter those show object recognition performance further analysis
+show approach significant gains performance across basic object recognition tasks variety systems literature
+scale available computational power argue approach potential both our understanding computational biological
+introduction
+study biological systems visual processing provides systems systems turn important new
+results been addition important theoretical empirical models among systems practical tests object recognition
+however while provided some properties visual system much still unknown
+even those properties most models experimental data provide little their key parameters
+result even most models represent just one many possible computational
+set computational difficult since performance model depends strongly its particular size number per etc because number parameters typically large computational cost one particular model high difficult explore space possible model
+at same time there no even correct set will work when small scale
+thus when model approach biological visual systems cannot if because they simply not together large scale
+result factors computational critical role what computational possible
+bound according however recently processing some classes computational problems
+particular new class processing over some key most visual models common
+other large quantitative performance new class potential effect changes how
+present work take advantage recent processing more explore range models including models larger more scale
+approaches molecular biology generated potential network parameter visual produced models using tasks core problem object recognition image variation
+models most were selected further analysis
+show approach significant gains performance variety basic object tasks into computational most important performance
+then into design models further evolutionary
+scale available computational power computational potential both new study biological

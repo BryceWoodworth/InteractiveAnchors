@@ -1,0 +1,44 @@
+
+much recent work focused inference various types biological networks gene regulation metabolic processes interactions etc
+common setting involves network set characterized multiple data sets protein sequence gene expression etc
+here between two inference direct inference based upon between nodes inference based upon between one pair nodes another pair nodes
+propose approach direct case into distance metric learning problem
+resulting convex optimization problem leads support vector machine algorithm particular kernel pairs call metric learning kernel
+demonstrate using several real biological networks direct approach often upon inference kernel
+introduction
+molecular systems biology various types networks
+include interaction networks metabolic networks gene regulatory signaling pathways genetic interaction networks
+while some networks experimental methods any network requires biochemical
+therefore prediction other available data protein sequences global network gene expression importance either up important pathways methods subject high levels noise
+network relevant data at least two ways
+consider network interactions derived some
+our confidence particular network increases if example two proteins same cellular similar evolutionary patterns
+generally type direct inference two genes proteins predicted if they some direct similarity each other available data
+alternative inference call inference upon between pairs genes proteins
+example above our confidence increases if find some other pair some
+note model two proteins might not similar one another
+example if goal regulatory network using time series expression data one would time series protein time compared regulatory protein
+therefore case learning phase would involve learning feature other pairs proteins
+most common application inference approach case interaction involves comparing amino sequences versus e g
+inference application machine learning problem each example task learn example between
+not therefore several machine learning algorithms been applied predict network properties protein pairs
+example context machine learning support vector kernel methods describe how individual proteins pairs proteins
+two pairs proteins similar each other when each protein pair similar one corresponding protein other pair
+practice defined kernel function pairs proteins kernel function individual proteins obtained initial feature space
+therefore call kernel shown below kernel } less attention been use machine learning approaches direct inference
+two et al et al who derive machine learning algorithms measure similarity direct approach learning examples pairs
+et al kernel correlation analysis proteins into feature space where expected presence interactions between protein pairs
+et al similarity approach problem distance metric learning while algorithm
+both direct inference approaches however two important
+first they based optimization function different objective finding distance metric pairs some threshold
+second methods only when known part network used training defined subset proteins network
+other words order apply methods must complete set one set proteins network
+setting
+practice our training data will generally known positive negative distributed target network
+paper propose convex learning direct inference both above
+show approach sense kernel between pairs proteins kernel between individual proteins
+therefore call our method metric learning kernel
+important property learn several data types particular importance various applications
+approach task two yeast network metabolic pathways network
+each case network variety genomic data including protein amino sequences gene expression levels over large set experiments protein cellular
+show approach always provides better prediction performance than approach

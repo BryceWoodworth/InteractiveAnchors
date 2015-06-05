@@ -1,0 +1,45 @@
+ 
+study problem estimating time delay between two signals representing delayed irregularly sampled noisy versions same underlying pattern
+propose demonstrate evolutionary algorithm hyper)parameter estimation kernel-based technique context astronomical problem namely estimating time delay between two gravitationally lensed signals distant quasar
+mixed types integer real used represent variables within evolutionary algorithm
+test algorithm several artificial data sets also real astronomical observations quasar q0957+561
+carrying out statistical analysis results present detailed comparison our method most popular methods time delay estimation astrophysics
+our method yields more accurate more stable time delay estimates: q0957+561 obtain 419 6 days between images b
+our methodology readily applied current state-of-the-art optical monitoring data astronomy but also applied other disciplines involving similar time series data
+ introduction 
+estimation time delay  delay between arrival times two signals originate same source but travel along different paths observer real-world problem astronomy
+time series analysed could instance represent repeated measurement over many months years flux radiation optical light radio waves very distant quasar very bright source light usually few billion light-years away
+some quasars appear set multiple nearby images sky due fact trajectory light coming source gets bent passes massive galaxy way ``lens'' result observer receives light various directions resulting detection several images
+phenomenon called gravitational lensing natural consequence prediction general theory relativity postulates massive objects distort space-time thus cause bending trajectories light rays passing near them
+quasars variable sources same sequence variations detected at different times different images according travel time along various paths
+time delay between signals depends mass lens thus most direct method measure distribution matter universe often dark
+scenario underlying pattern time emitted flux intensities quasar gets delayed corrupted all kinds noise processes
+example astronomical time series not only corrupted observational noise but they also typically irregularly sampled possibly large observational gaps missing data
+due practical limitations observation equipment availability weather conditions brightness moon among many other factors
+over hundred systems lensed quasars currently known about 10 been monitored long periods some cases measurement time delay been claimed
+here focus q0957+561 first multiply-imaged quasar discovered
+source pair images here referred b been monitored over twenty years despite numerous claims universally agreed value time delay system not emerged
+earlier paper presented analysis repeated radio observations along simulated data generated according properties observations  show kernel-based approach improve upon currently popular methods estimating time delays real astronomical data
+more common form observations however employs optical telescopes monitoring known multiply-imaged sources observations inherent problems require modification our previous approach
+here present largely modified approach outperforms optical datasets our previous appraoch well alternative approaches use astrophysics
+here introduce novel evolutionary algorithm ea estimate parameters model-based method time delay estimation
+ea uses fitness function mean squared error mse  given cross-validation observed data also performs novel regularisation procedure based singular value decomposition svd
+our population also represented mixed types integers reals
+contribution paper several directions: i evolutionary algorithm been introduced form novel hybridisation our kernel method ii principled automatic method been proposed estimate time delay kernel width svd regularisation parameters iii application ea driven model based formulation real-world problem iv carefully study statistical significance results different data
+our ea evolutionary optimisation technique presence uncertainties missing data mixed representation  through two linked populations each devoted one particular data type
+parameters optimise come kernel machine
+do parameter optimisation model selection at same time
+approach applied other problems not only time series gravitational lensing
+instance missing data problems cover those cases where instrumental equipment fails observations incorrectly recorded sociological factors involved etc
+therefore data unevenly sampled restricts use fourier analysis \s13 8
+problems noisy missing data occur almost all sciences where data availability influenced what easy feasible collect e g  see 
+compare performance our ea several ways: performance our method assessed against two most popular methods astrophysical literature  i e  {(a)} dispersion spectra method {(b)} scheme based structure function intrinsic variability source here referred prh method
+because true time delay observed fluxes quasars not known assess performance algorithms controlled series experiments where artificially generated data known delays used
+employ three kinds artificial data sets: large scale data  prh data wiener data outlined 
+justify our ea analogous non-evolutionary model-based approach k-v also employed paper
+our statistical analysis shows results our ea more accurate significant than state-of-the-art methods
+use our ea well 1+1)-es algorithm actual astronomical observations where twin images were observed over several years optical telescopes
+remainder paper organised follows: data under analysis described \s
+kernel approach outlined \s ea presented
+results our conclusions respectively
+finally our future work presented

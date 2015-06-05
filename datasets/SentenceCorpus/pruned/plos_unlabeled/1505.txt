@@ -1,0 +1,43 @@
+
+development approaches biology genetic whose behavior so gain into their structure function
+however most gene cell under control signals thus quantitative between experimental data mathematical model difficult
+biology been one quantitative models biological processes over cycle been few organisms
+most cases complex feedback been
+here present first modeling results
+two genes been shown play central role
+find their expression time model feedback
+best data under obtained when not cycle
+suggests specific time no effect when cycle
+property may strategy impact core type been considered when robustness
+introduction
+gene activity now allow us complex behavior regulatory networks underlying cell functions
+however understanding behavior even few molecular depends not only interaction network but also response times its
+mathematical description regulatory network thus necessary understand its behavior but
+state variables parameters subject large complexity actual network structure
+genetic usually not but larger network given gene involved different pathways
+thus important identify gene whose behavior model
+one strategy been construct networks design
+recent experiments shown quantitative obtained when needed detailed various biochemical processes
+another strategy study natural gene whose function makes them relatively stable
+biological processes cycle many organisms natural genetic most environmental
+experiments models become more complex single gene networks feedback
+here report good between mathematical model single feedback expression two central genes
+known one most groups
+very simple cellular only one one
+its small genome sequence revealed high very low gene
+cell cycle under control cell at end
+cell they different under constant conditions phase depend time
+very recently some been molecular et al
+since related been studied they genome higher genes found only two similar central genes
+two genes expression both under constant conditions
+functional analysis strategy showed important genes
+increased levels while lower levels
+furthermore was shown conserved sequence required activity
+whether work negative feedback could not study since rely more than simple negative feedback
+genes were core first model based where similar gene whose proteins
+however model did not well expression was extended experimental data
+current models feature several feedback
+us investigate whether feedback model where would relevant
+not only found model but data under obtained when no model parameter depends
+finding suggests not across cycle but only during specific time numerical simulations
+article propose conditions strategy natural

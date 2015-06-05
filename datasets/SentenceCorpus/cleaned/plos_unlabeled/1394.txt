@@ -1,0 +1,37 @@
+ 
+mechanisms stress tolerance sessile animals molluscs offer fundamental insights into adaptation organisms wide range environmental challenges
+one best studied processes at molecular level relevant stress tolerance heat shock response genus mytilus
+focus upstream region mytilus galloprovincialis hsp90 genes their structural functional associations using comparative genomics network inference
+sequence comparison region provides novel evidence transcription hsp90 regulated via dense region transcription factor binding sites also containing region similarity gamera family line-like repetitive sequences genus-specific element unknown function
+furthermore infer set gene networks tissue-specific expression data specifically extract hsp class-associated network 174 genes 2,226 associations exhibiting complex pattern expression across multiple tissue types
+our results suggest heat shock response genus mytilus regulated unexpectedly complex upstream region provide new directions use heat shock process biosensor system environmental monitoring
+ introduction 
+majority molluscan species go through two principal developmental phases larval embryo followed clumping structure when they permanently attached underwater substrate
+lifecycle common amongst marine invertebrates poses challenges adaptation tolerance wide range conditions at littoral zone including steep salinity temperature gradients
+key model organisms molluscan biology include species genus mytilus particular m edulis m galloprovincialis m californianus
+crucially latter species target organism genome sequencing project whose results eagerly expected community 
+mytilus species group provides ideal model both fundamental questions animal adaptation stress response well biotechnological applications primarily pollution biosensor
+its use extends into biomimetics particular protein-based medical adhesives potential applications fields dentistry
+moreover its relatively complex developmental structure higher taxonomic status invertebrate combined fact suffer mussel haemic neoplasia renders organism potential model human leukemia ideal biomarker pollution-induced disease
+context important understand mechanisms mussels tolerate cope environmental stress given their behavioral options highly restricted due sessile phase their lifecycle
+past comparisons between motility sessility higher organisms been primarily confined animals versus plants follow-up studies focusing comparisons between large animals e.g humans versus large plants e.g trees trade-offs tree body plan
+less attention been paid adaptations sessile animals particular intertidal invertebrates molecular mechanisms through they achieve tolerance stress
+one exception represented heat shock response key factor temperature adaptation been studied context certain extent specifically mytilus regard hsp70 hsp90 genes
+transcriptional regulation achieved either extensive repertoire paralogs transcription factors complex structure promoters
+analysis comprehensive datasets clearly demonstrated transcription factors transcription-associated proteins not universally distributed but highly taxon-specific relative tf gene content increases taxonomic scale
+comparisons been later extended follow-up studies analyzed tap complements their expansion rates plants
+thus now known one way plants sessile organisms par excellence achieve finer degree regulation expansion tf/tap complements gene content strategy
+yet unclear whether similar trends followed sessile animals since entire genome sequences those lacking so far limiting range comparative genome-wide studies performed
+far paralogs concerned recent studies focused heat shock response plants particular arabidopsis thaliana revealed process involves up 21 known tfs four heat shock protein families
+despite cursory resemblance mammals drosophila thermal sensing achieved unique repertoire genes including thermostat systems not exclusively involving heat shock proteins
+other words probably different reasons gene content strategy might prevail both model organisms plants motile invertebrates
+thus worth examining what mechanisms through stress response regulated sessile marine invertebrates general mytilus genus particular strategy dominates gene expression
+focus hsp90 family case study stress response sessile animals examine structure function hsp90 upstream region m galloprovincialis
+previously two distinct hsp90 genes same genomic organization been isolated m galloprovincialis herein called mghsp90 genes
+detailed sequence analysis revealed two genes contain nine exons exhibit great similarities both 5 non-coding coding regions but differ their 3 non-coding regions well three introns due presence repeated sequences
+5 non-coding region both genes contains non-translated exon multiple binding sites various transcription factors highly suggestive potential interactions factors hsp90 promoter subtle patterns gene regulation 
+comparative analysis hsp90 gene content across all taxa available sequence data clearly shown invertebrate genomes contain relatively small number hsp90 genes compared those vertebrates
+thus appears mytilus genome might contain relatively small number tfs and/or hsp90 genes raising question how expression hsp90 other heat shock genes regulated sessile invertebrates
+present work perform detailed analysis mghsp90 upstream region terms structure expression reveal presence previously undetected sequence elements unknown function
+based tissue-specific expression data also delineate potential associations mghsp90 another 174 genes involved complex pattern expression across tissues
+two discoveries discussed within context existing knowledge expected contribute towards deeper understanding heat shock response sessile organisms

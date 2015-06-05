@@ -1,0 +1,26 @@
+ 
+present streaming model large-scale classification context svm leveraging connections between learning computational geometry
+streaming model imposes constraint only single pass over data allowed
+svm known equivalent formulation terms minimum enclosing ball meb problem efficient algorithm based idea core sets exists cvm
+cvm learns approximate meb set points yields approximate solution corresponding svm instance
+however cvm works batch mode requiring multiple passes over data
+paper presents single-pass svm based minimum enclosing ball streaming data
+show meb updates streaming case easily adapted learn svm weight vector way similar using online stochastic gradient updates
+our algorithm performs polylogarithmic computation at each example requires very small constant storage
+experimental results show even restrictive settings learn efficiently just one pass get accuracies comparable other state-of-the-art svm solvers batch online
+also give analysis algorithm discuss some open issues possible extensions
+ introduction 
+learning streaming model poses restriction constrained both terms time well storage
+scenarios quite common example cases analyzing network traffic data when data arrives streamed fashion at very high rate
+streaming model also applies cases disk-resident large datasets cannot stored memory
+unfortunately standard learning algorithms do not scale well cases
+address scenarios propose applying stream model computation supervised learning problems
+stream model allowed only one pass small number passes over ordered data set polylogarithmic storage polylogarithmic computation per element
+spite severe limitations imposed streaming framework streaming algorithms been successfully employed many different domains
+many problems geometry adapted streaming setting since many learning problems equivalent geometric formulations streaming algorithms naturally motivate development efficient techniques solving approximating large-scale batch learning problems
+paper study application stream model problem maximum-margin classification context svms
+since support vector machine widely used classification framework believe success here will encourage further research into other frameworks
+svms known natural formulation terms minimum enclosing ball problem high dimensional space
+latter problem been extensively studied computational geometry literature admits natural streaming algorithms
+adapt algorithms classification setting provide some extensions outline some open issues
+our experiments show learn efficiently just one pass get competetive classification accuracies synthetic real datasets

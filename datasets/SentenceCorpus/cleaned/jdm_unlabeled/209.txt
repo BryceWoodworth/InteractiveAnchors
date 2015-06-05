@@ -1,0 +1,20 @@
+ 
+many judgment analysis studies employ multiple regression procedures estimate importance cues
+some studies test significance regression coefficients order decide whether not specific cues attended judge decision maker
+practice dubious because ignores type ii error
+purposes note number draw attention issue specifically appears studies self-insight number illustrate problem examples judgment literature number provide simple method calculating post-hoc power regression analyses order facilitate reporting type ii errors when regression models used
+ introduction 
+decades judgment analysts successfully used multiple regression model organizing cognitive principles underlying many types judgments variety contexts
+most often models depict individual judge decision maker combining multiple differentially weighted pieces information cues compensatory manner arrive at judgment
+further analyses portray those who acquired expertise judgment task applying their judgment model policy regular although less than perfect consistency
+ability linear regression models accurately reproduce expert judgments under various conditions been discussed detail
+if one accepts proposition people's judgments modeled though they multiple regression equations questions arise number how many available cues does individual use
+number how should number cues used determined
+too many researchers blindly apply statistical significance tests inform themin kind deterministic mannerwhether judges did did not attend specific cues
+if t-test calculated cue's weight significant then cue counted being attended judge
+relying p values way problem because values affected number cues number cases presented judge during task how well overall regression equation fits total set responses
+issue discussed note organized follows first examples judgment literature reviewed illustrate existence problem
+second notation commonly used judgment analysts when describing regression procedures introduced
+third using notation method calculating post-hoc power t-tests regression coefficients based noncentral t distribution described
+fourth method applied estimate number cases necessary statistical significance order illustrate how investigator's conclusions about number cues attended judgment task should informed considerations type ii error
+finally spss program performing calculations described provided appendix

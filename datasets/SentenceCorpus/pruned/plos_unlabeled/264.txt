@@ -1,0 +1,75 @@
+
+many exist distinct each other through
+general models describe systems difficult analyze because their state large
+reduced models been proposed but so far all them allow require reduced potentially assumption
+here suggest new reduction approach allows either reduced reduced used models without
+our approach general framework models
+our method introduction variables describe systems more than
+models expressed way natural way method us reduce size state space thus consider models many manner
+our method phenomenon propose potentially general mechanism could evolution space
+our framework class systems described reduced models
+computational even thus useful understanding evolution
+introduction
+
+one same disease may differ both their their like
+different same called
+if several exist population they each other two ways
+first type interaction may
+many one disease population
+because system upon first so second may population at
+place even between
+second type interaction specific different same full each other
+means one less certain other time after initial
+between similar
+since similarity usually recent common thus its evolution
+understanding dynamics at general theoretical level out difficult
+models been proposed during past years
+although models many they differ often resulting model predictions
+there little how best gain into evolution
+models either
+agent models recently become due increase computational
+since models however not designed do not type model here
+all models disease dynamics model introduced
+models also known models into individuals
+problem when classical framework multiple number state variables typically also parameters increases number
+not only computational but also attention fundamental even large number number state variables any population size
+most model therefore few individuals if they at effects must then not
+existing approaches modeling reduce number model
+usually only under certain sets assumptions may may not depending phenomenon
+thus important set assumptions under reduced models
+our work presented here goal
+full models been developed based assumption reduced able certain probability
+other hand all existing reduced models rely assumption reduced all not same probability but those become less than those who do not
+most likely between two
+discuss model section reduced assumption seems more
+study develop reduction approach applied under either assumptions models without
+our approach existing ones models approximate full models degree accuracy
+number variables needed resulting number n rather than when n large difference between n 2 2 n much more than latter
+if reduced assumed our approach model
+utility our approach reduced models general demonstrate its application phenomenon using reduced models able up
+whose evolution interaction pattern
+because human system produce against individuals gain against each they been
+results complex human population according individuals different
+selection thought evolution process known
+shown space
+et al first two most important
+moreover follows results et al temporal evolution along single space clusters corresponding different years well along first dimension
+observation tree single
+other words even though genetic during each only one
+number does not
+few recent studies model explain phenomenon models most studies consider space some behavior observed
+evolution one dimension space been necessary require space was relatively region along one
+recent study et al different approach sequence space
+authors explicitly showed may network structure space
+however open question properties space sufficient its evolution
+et al suggest one
+they argue distinct may intrinsic feature dynamics limited set types always present population thus genetic evolution
+here suggest alternative follows more view genetic evolution
+however problem instead assume relatively simple structure space
+our model what could space order long
+our work thus et al
+our space each changes local region system
+then investigate response depends two full against all previous
+respect our model related models studied
+show evolutionary our model follows even though space
+finding observed

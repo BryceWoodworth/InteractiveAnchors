@@ -1,0 +1,68 @@
+
+learning appropriate distance critical problem image classification
+work propose technique learning distance metric
+one primary learning metric matrix remains positive
+used but does not scale well
+instead based key observation any positive matrix into linear positive combination matrices
+thus uses positive matrices within efficient learning process
+resulting method does not require various types constraints
+experiments various datasets show proposed algorithm those methods terms classification accuracy time
+introduction
+been goal learn appropriate distance metric image classification problems using simple efficient algorithms
+distance essential many critical algorithms means clustering kernel regression example
+show work how metric learned among training data
+distance distance positive matrix
+therefore typically methods learning distance result
+discuss problem setting well learning matrix
+if let represent set points training data set constraints upon relative between points where measures distance between
+case distance
+distance between two vectors matrix
+learn matrix
+constraints those above often when known same class data points while different classes
+some cases comparison constraints much obtain than either class between data elements
+example at close assumed same person without individual identified
+search results search according allows natural into set constraints
+being development number methods learning distance rely upon
+approach number however now discuss reference problem learning matrix set constraints upon
+relevant work others
+proposed learn metric clustering using convex optimization
+two similarity set set
+algorithm distance between points set under distance between points similarity set
+component analysis large learn metric consistency large at different classes
+been shown performance among most distance metric learning algorithms
+work directly our work
+instead using loss use loss function order derive optimization procedure
+hence despite similar our algorithm optimization
+while more similar support vector our algorithm upon
+many cases difficult find global matrix
+technique convex optimization problem
+metric learning much existing work instead global
+not during learning
+standard approaches like point methods require usually requires where input dimension
+could many problems
+alternative
+algorithm 1 not 2 many parameters convergence
+particular program metric learning into sequence linear
+at each scales number therefore variables
+increases scale larger
+another problem all matrices during optimization
+when input dimension large memory required at
+our proposed algorithm both problems
+based observation any positive matrix into linear positive combination matrices propose learning matrix
+matrix
+proposed algorithm following 1 efficient
+most existing methods no required
+at each only its corresponding needed 2 various types constraints
+demonstrate learning metric comparison constraints like does not any parameter
+only know when
+contrast both parameters
+also like
+no optimization techniques involved
+do not need all
+proposed demonstrated various datasets
+paper matrix vector
+
+matrix two matrices
+between two vectors like means all
+use matrix positive
+matrix following 1 2 all

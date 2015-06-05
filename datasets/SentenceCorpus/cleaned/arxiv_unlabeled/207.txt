@@ -1,0 +1,51 @@
+ 
+large systems important agents learn act effectively but sophisticated multi-agent learning algorithms generally do not scale
+alternative approach find restricted classes games where simple efficient algorithms converge
+shown stage learning efficiently converges nash equilibria large anonymous games if best-reply dynamics converge
+two features identified improve convergence
+first rather than making learning more difficult more agents actually beneficial many settings
+second providing agents statistical information about behavior others significantly reduce number observations needed
+ introduction 
+designers distributed systems frequently unable determine how agent system should behave because optimal behavior depends user's preferences actions others
+natural approach agents use learning algorithm
+many multiagent learning algorithms been proposed including simple strategy update procedures fictitious play   multiagent versions q-learning   no-regret algorithms 
+however discuss section existing algorithms generally unsuitable large distributed systems
+distributed system each agent limited view actions other agents
+algorithms require knowing example strategy chosen every agent cannot implemented
+furthermore size distributed systems requires fast convergence
+users may use system short periods time conditions system change over time so practical algorithm system thousands millions users needs convergence rate sublinear number agents
+existing algorithms tend provide performance guarantees polynomial even exponential
+finally large number agents system guarantees there will noise
+agents will make mistakes will behave unexpectedly
+even if no agent changes his strategy there still noise agent payoffs
+example gossip protocol will match different agents round round; congestion underlying network may effect message delays between agents
+learning algorithm needs robust noise
+while finding algorithm satisfies requirements arbitrary games may difficult distributed systems characteristics make problem easier
+first they involve large number agents
+having more agents may seem make learning harder---after all there more possible interactions
+however advantage outcome action typically depends only weakly what other agents do
+makes outcomes robust noise
+having large number agents also make less useful agent try influence others; becomes better policy try learn optimal response
+contrast small number agents agent attempt guide learning agents into outcome beneficial him
+second distributed systems often anonymous  ; does not matter who does something but rather how many agents do
+example when there congestion link experience single agent does not depend who sending packets but how many being sent
+finally perhaps most importantly distributed system system designer controls game agents playing
+gives us somewhat different perspective than most work takes game given
+do not need solve hard problem finding efficient algorithm all games
+instead find algorithms work efficiently interesting classes games where us ``interesting'' means ``the type games system designer might wish agents play
+'' games should ``well behaved,'' since would strange design system where agent's decisions influence other agents pathological ways
+section show stage learning  robust implementable minimal information converges efficiently interesting class games
+algorithm agents divide rounds game into series stages
+each stage agent uses fixed strategy except he occasionally explores
+at end stage agent chooses his strategy next stage whatever strategy had highest average reward current stage
+prove under appropriate conditions large system stage learners will follow approximate best-reply dynamics despite errors exploration
+games where best-reply dynamics converge our theorem guarantees learners will play approximate nash equilibrium
+contrast previous results where convergence guarantee scales poorly number agents our theorem guarantees convergence finite amount time infinite number agents
+while assumption best-reply dynamics converge strong one many interesting games converge under best-reply dynamics including dominance solvable games games monotone best replies
+marden et al  observed convergence best-reply dynamics often property games humans design
+moreover convergence best-reply dynamics weaker assumption than common assumption made mechanism design literature games interest dominant strategies each agent strategy optimal no matter what other agents do
+simulation results presented section show convergence fast practice: system thousands agents converge few thousand rounds
+furthermore identify two factors determine rate quality convergence
+one number agents: having more agents makes noise systen more consistent so agents learn using fewer observations
+other giving agents statistical information about behavior other agents; speed convergence order magnitude
+indeed even noisy statistical information about agent behavior should relatively easy obtain disseminate significantly improve performance

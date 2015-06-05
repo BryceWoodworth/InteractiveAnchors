@@ -1,0 +1,45 @@
+
+protein kinase key role following
+experiments suggest synaptic changes events between states
+biochemical network involving its protein signaling been synaptic state form
+however still whether experimental lead corresponding between two states models network
+present detailed biochemical model protein signaling
+previously shown two stable states level exist at concentration high system highly state
+show here increased activity at 2 lead up state
+if protein activity at lower 2 levels than kinase activity
+finally shown system results outcomes response dependent
+shows protein network account both through due its synaptic changes
+introduction
+synaptic thought learning memory but mechanisms changes synaptic over time still
+experiments shown how synaptic increased neurons firing rate firing potential
+experiments models one several aspects
+however models us about biochemical mechanisms synaptic changes
+question mechanisms at biochemical level been another research work early work
+models at biochemical level describe reactions proteins density
+proteins form network positive feedback potentially provide several stable states two case means changes
+hence models similar binary two stable states up state high state low
+idea binary recent experiments
+one proposed positive feedback involves protein kinase system
+activation 2 binding its
+at domain occurs after binding active after
+turn long density bound state where multiple protein therefore potentially cell
+direct receptor active function
+network involving particularly terms learning memory since receptor dependent requires activation potentially expressed level number both
+however role remains
+finally there experimental evidence proteins associated activity
+multiple mechanisms expression likely present different regions focus here above been shown apply
+modeling studies shown system including associated pathways could range including level necessary changes
+models two states two stable levels protein given concentration highly state
+transition up state could large increase concentration
+however transition could only occurs under conditions example concentration below level
+furthermore not been considered how biochemical network models response experimental known synaptic been shown rely kinase activation
+et al experimental results using model system protein network but model does not exhibit
+other studies biochemical signal pathways including showed receptor activity synaptic function
+however were not investigated models they do not show
+paper consider model protein interactions associated through protein 1
+first study properties respect levels activity
+conditions system allows
+then demonstrate ability system perform response
+system pairs given time show short positive time up state short negative time lead up state
+demonstrate furthermore model experimental outcomes
+finally consider transition behavior response

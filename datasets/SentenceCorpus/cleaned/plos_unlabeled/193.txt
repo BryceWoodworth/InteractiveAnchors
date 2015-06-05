@@ -1,0 +1,51 @@
+ 
+critical our many daily choices between larger delayed rewards smaller more immediate rewards shape steepness function discounts rewards time
+although research artificial intelligence favors exponential discounting uncertain environments studies humans animals consistently shown hyperbolic discounting
+investigated how humans perform reward decision task temporal constraints each choice affects time remaining later trials delays vary at each trial
+demonstrated most our subjects adopted exponential discounting experiment
+further confirmed analytically exponential discounting decay rate comparable used our subjects maximized total reward gain our task
+our results suggest particular shape steepness temporal discounting determined task subject facing question notion hyperbolic reward discounting universal principle
+ introduction 
+limited amount time available before nighttime winter retirement need make large number choices maximize our total reward gain
+particular when choosing between larger but delayed reward smaller but more immediate reward compare values associated each reward choose reward associated larger value
+critical choices shape steepness reward values monotonically decrease function delay: rewards said discounted function delays 
+two main classes models characterize shape reward discounting been proposed: exponential hyperbolic
+although researchers artificial intelligence favor exponential discounting uncertain environments e.g all behavioral studies directly compared two types discounting animals humans concluded hyperbolic discounting better fits delayed reward choice data than does exponential discounting e.g 
+exponential discounting reward value v given by: formulawhere r reward magnitude d delay k 0 decay rate
+equation equivalently given by: formulawhere discount factor exp; note here large decay rate corresponds small discount factor vice versa
+because constant decay rate exponential discounting rational predicts constant preference
+typical human studies questionnaire-based: subjects asked make number choices between small immediate rewards larger rewards weeks months years future after thinking about consequences each alternative
+studies hyperbolic discounted reward value given by: formula
+animal studies animals trained make repeated reward choices experience both delays rewards
+assuming constant inter-trial interval if animal consistently makes choice gives same reward r after same delay d average reward rate hyperbolic function delay : formulawhere t sum all times except delay each trial v reward value
+because decreasing decay rate function delay hyperbolic discounting been termed irrational predicts preference reversal impulsive choice
+instance individual may prefer one apple today two apples tomorrow but at same time prefer two apples 51 days one apple 50 days
+hyperbolic discounting often presented struggle between oneself one's alter ego future similarly between myopic doer farsighted planner see
+what situations theoretically advantageous make delayed reward choices based exponential hyperbolic discounting
+exponential discounting maximizes total gain situations constant probability reward loss per unit time exact estimate time future reward delivery see
+because hyperbolic discounted value given equation 4 reward rate maximizes total gain situations constant delays at each trial 
+but does hyperbolic discounting maximize total gain foraging-like situations situations repeated forced choices varying delays rewards constant iti limited total time
+situations hyperbolic discounting model maximizes instantaneous reward rate
+but trials not independent each other hyperbolic discounting may not maximize average reward rate thus total gain
+instance relatively unfavorable trial long delays both rewards although hyperbolic discounting may favor large reward pursuing small more immediate reward may result smaller overall decrease average reward rate
+choosing small but less-delayed reward subject quickly move next more favorable trials
+thus hypothesize situations discounting strategy values rewards longer delays less than hyperbolic discounting exponential discounting does would maximize total gain
+steepness discounting specifies how far future delayed rewards should considered
+large decay rate biases individuals acquire small more immediate rewards
+individuals impulse-control disorders well heroin alcohol cigarette cocaine-addicted individuals steeper discounting functions than controls
+small decay rate promotes acquisition large more delayed rewards
+yet individuals must obtain some rewards time; instance animal must find food before starves before exhausted before winter arrives
+thus discount rate should carefully adjusted maximize total gain task situations repeated forced choices varying delays rewards limited total time 
+here designed task mimics animal foraging study whether humans could adopt discounting function whose shape steepness maximize total gain
+at each trial subjects had choose between smaller more immediate reward larger delayed reward varying experienced delays rewards fixed iti
+avoid subjects trying compute explicit reward ratios other objective measures reward discounting did not provide direct access delay
+instead subjects had select at each trial between one two squares made 100 small patches
+stimulus color coded monetary reward amount
+at each trial initial number black patches white stimulus indicated small delay d s initial number black patches yellow stimulus indicated large delay d l subject was then prompted choose one two stimuli: stimulus had been selected previous step showed more filled patches other stimulus was identical previous step
+stimuli were always displayed one time step
+chain events was repeated until either square was completely filled
+then display acquired reward was shown during iti 1.5 s 
+experiment total time was limited five sessions 210 s each separated 15 s give subject some rest time
+thus each subject had 700 steps available maximize total reward
+because subjects performed minimum one training session equal duration before experiment they were highly familiar task
+subjects were compensated total reward earned at end experiment

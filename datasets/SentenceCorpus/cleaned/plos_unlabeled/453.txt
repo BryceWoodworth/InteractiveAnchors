@@ -1,0 +1,77 @@
+ 
+become clear noncoding rnas play important roles cells emerging studies indicate there might large number unknown ncrnas mammalian genomes
+there exist computational methods used search ncrnas comparing sequences different genomes
+one main problem methods their computational complexity heuristics therefore employed
+two heuristics currently very popular: pre-folding pre-aligning
+however heuristics not ideal pre-aligning dependent sequence similarity may not present pre-folding ignores comparative information
+here pruning dynamical programming matrix presented alternative novel heuristic constraint
+all subalignments do not exceed length-dependent minimum score discarded matrix filled out thus giving advantage providing constraints dynamically
+been included new implementation foldalign algorithm pairwise local global structural alignment rna sequences
+shown time memory requirements dramatically lowered while overall performance maintained
+furthermore new divide conquer method introduced limit memory requirement during global alignment backtrack local alignment
+all branch points computed rna structure found used divide structure into smaller unbranched segments
+each segment then realigned backtracked normal fashion
+finally foldalign algorithm also been updated better memory implementation improved energy model
+improvements algorithm foldalign software package provides molecular biologist efficient user-friendly tool searching new ncrnas
+software package available download at link
+ introduction 
+noncoding rna genes regulatory structures been shown both highly abundant highly diverse parts genome
+one theory many ncrnas part rna-based regulatory systems
+recently several papers about large-scale searches vertebrate rna genes motifs using comparative genomics been published
+large-scale searches indicate there potentially many unknown structures still hidden genomes
+been shown alignment ncrnas requires information about secondary structure when sequence similarity below 60 percent
+reason compensating mutations change primary sequence without changing structure molecule
+sankoff algorithm simultaneously folding aligning rna sequences principle applied cope
+however resource requirements algorithm too high even few short sequences
+two sequences length l time complexity o memory complexity o heuristics therefore needed before algorithms folding aligning rna sequences become fast enough useful
+foldalign 1.0 was first simplified implementation sankoff algorithm
+contained simple scoring scheme separate substitution matrices base-paired single-stranded nucleotides
+had three constraints: length final alignment could not longer than nucleotides; maximum length difference between two subsequences being aligned was limited nucleotides could only align stem-loop structures
+second version algorithm uses combination substitutions lightweight energy model align two sequences
+foldalign 2.0 also uses constraints but align branched structures
+algorithm was used one large-scale searches vertebrate ncrnas 
+variants two types heuristics currently very popular namely pre-aligning pre-folding
+pre-aligning methods use sequence similarity limit search space requiring final alignment must contain pre-aligned nucleotides
+length pre-aligned subsequences varies short stretches called anchors full sequences
+methods require sequences fully aligned before structure predicted not strictly sankoff-based methods they separate alignment folding steps completely
+pre-folding uses single-sequence folding limit structures found comparative algorithms
+popular method pre-folding use base-pairing probabilities found single-sequence folding limit base pairs included conserved structure
+align-then-fold methods methods using pre-folding taken extreme where folding alignment steps completely separated
+one example combination rnacast rnaforester methods
+some methods use both pre-aligning pre-folding heuristics 
+currently implemented sankoff-based methods pairwise alignment secondary-structure prediction rna sequences split into two groups: energy-based methods probabilistic methods
+energy-based methods foldalign dynalign locarna scarna based minimization free energy
+free-energy minimization based physical model how different elements rna structure contribute free energy
+parameters partly found experimentally partly estimated multiple alignments
+probabilistic models usually based stochastic context free grammars ; see introduction
+methods include consan stemloc
+stochastic context free grammars parameters estimated multiple alignments
+each methods uses different kinds heuristics
+previous version foldalign uses banding limits alignment length local alignments limits number ways bifurcation calculated
+dynalign uses banding based pre-alignment using hidden markov model
+locarna limits number potential base pairs only using base pairs single-sequence base-pair probability above given cutoff
+scarna uses similar strategy but further decouples left right sides base pairs
+consan uses short stretches normal sequence alignments constrain folding
+stemloc uses n 1 best single-sequence predicted structures n 2 best normal-sequence alignments limit final combined alignment structure prediction
+paper dynamical pruning dynamic programming matrix introduced new heuristic foldalign algorithm
+all its simplicity dynamic pruning discards any subalignment does not score above length-dependent threshold
+similar one heuristics used blast
+advantage pruning method compared pre-aligning methods used when there not enough sequence similarity make necessary alignments
+advantage compared pre-folding methods none comparative information lost single-sequence folding step
+shown empirically pruning leads huge speed increase while algorithm retains its good performance
+speed increase makes studies like much more feasible
+method dynamical pruning simple general
+should therefore possible use many other methods available folding aligning rna sequences
+pruning feature dynamic programming method may used any algorithm using dynamic programming
+addition dynamical pruning foldalign software package been significantly updated
+constraint speeds up algorithm limiting calculation branch points now also used lower memory requirement during local-alignment stage
+during backtrack stage algorithm more information needed
+try limit memory consumption during stage extra pre-backtrack step used
+pre-backtrack step locates all branch points conserved structure then used divide structure into unbranched segments
+unbranched structures then realigned backtracked separately
+unbranched structures usually shorter than full branched structure memory consumption reduced
+use divide conquer method increases run time algorithm but not much since realignments segments unbranched
+addition algorithmic improvements energy model been improved well
+external single-strand nucleotides scored consistent way
+also more insert base pairs allowed
+improvements lead better structure predictions

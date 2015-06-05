@@ -1,0 +1,43 @@
+
+cells pattern formation results similar
+first step process cell cells become more at sites at will form
+paper describe stochastic model behavior cells
+model uses reaction process pattern formation distinct cells well size number generated
+representation same process cells represented extended objects change their
+authors model using experimental data study sensitivity changes key parameters
+simulations two distinct dynamic pattern involving patterns
+authors discuss pattern formation relation available experimental evidence system well their understanding during development
+introduction
+pattern formation depends interactions cells factors control
+most fundamental processes involve spatial into domains studied well
+cells well itself family local cells process involves
+cells first regions increased cell interactions then properties cell cell molecules
+follows at sites both
+certain processes cancer cells structures become more
+contrast example process cells out independent form structures
+others second include formation social into
+both continuous models been used previously analyze wide range pattern formation behaviors both using reaction
+models describe behaviors interactions individual biological organisms cells proteins etc they often applied events where small number elements large impact system
+previous study presented biological model cells derived
+model was based physical notion individual free point point at formation patterns observed cells
+simulations distribution relative size values when appropriate cell behavioral parameters were chosen patterns were robust against small values
+moreover patterns were when cell density expression molecular factors represented model were their system
+model each cells each core subset molecules they was represented single common
+motion cell was random but cell was also presence produced cells according set rules involving
+latter turn were produced according reaction network structure was suggested experiments
+ability model et al both quantitative aspects formation distribution suggested core genetic network cell behavioral mechanism biological might sufficient account pattern formation cell system corresponding features development
+however model biological several important ways
+cells small them less than cell
+those up their area but do not cells
+therefore situation model et al does not involve cells at particular sites cells
+representation cells common
+not simply molecular indeed form same linear scale cells molecular could considered molecules
+dynamics continuous represented same size cell
+whereas model et al made assumption cells their motion when they levels does not measurements cells actually increase their motion they finite probability
+despite model et al was unknown whether its aspects them more assumptions would lead results
+therefore designed more model each one
+cells new model extended objects change up into third dimension
+model cells less than cell without regions not upon
+finally two different size used cell molecular dynamics
+found not only does model experimental data model et al but additional features system well
+moreover potential dynamic properties process not seen simulations not being basis existing experimental data were simulations using new model therefore provided further empirical tests

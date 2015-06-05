@@ -1,0 +1,45 @@
+ 
+evolution shaping world around us
+at core every evolutionary process population reproducing individuals
+outcome evolutionary process depends population structure
+here provide general formula calculating evolutionary dynamics wide class structured populations
+class includes recently introduced games phenotype space evolutionary set theory
+there local interactions determining relative fitness individuals but require global updating means all individuals compete uniformly reproduction
+study competition two strategies context evolutionary game determine strategy favored limit weak selection
+derive intuitive formula structure coefficient provide method efficient numerical calculation
+ introduction 
+constant selection implies fitness individuals does not depend composition population
+general however success individuals affected what others doing
+then realm game theory evolutionary game theory
+latter study frequency dependent selection; fitness individuals typically assumed linear function frequencies strategies population
+population trying adapt dynamic fitness landscape; changes fitness landscape caused population moves over
+there also close relationship between evolutionary game theory ecology : success species ecosystem depends its own abundance abundance other species
+classical approach evolutionary game dynamics based deterministic differential equations describing infinitely large well-mixed populations
+well-mixed population any two individuals interact equally likely
+some recent approaches consider stochastic evolutionary dynamics populations finite size
+evolutionary game dynamics also affected population structure
+example well-mixed population typically opposes evolution cooperation while structured population promote
+there also long standing tradition studying spatial models ecology population genetics inclusive fitness theory 
+evolutionary graph theory extension spatial games normally studied regular lattices general graphs
+graph determines who meets whom reflects physical structure social networks
+payoff individuals derived local interactions their neighbors graph
+moreover individuals compete locally their neighbors reproduction
+two processes also described separate graphs 
+games phenotype space represent another type spatial model evolutionary dynamics motivated idea tag based cooperation
+addition behavioral strategies individuals express other phenotypic features serve markers identification
+one version model individuals interact only those who carry same phenotypic marker
+approach lead clustering phenotype space promote evolution cooperation 
+evolutionary set theory represents another type spatial model
+each individual belong several sets
+at particular time some sets many members while others empty
+individuals interact others same set thereby derive payoff
+individuals update their set memberships strategies global comparison others
+successful strategies spawn imitators successful sets attract more members
+therefore population structure described ever changing dynamical graph
+evolutionary dynamics set structured populations favor cooperators over defectors
+all three frameworks evolutionary graph theory games phenotype space evolutionary set theory fitness individuals consequence local interactions
+evolutionary graph theory there also local update rule: individuals learn their neighbors graph compete nearby individuals placing offspring
+evolutionary set theory however assumes global updating: individuals learn all others population adopt their strategies set memberships
+global updating also feature model games phenotype space
+approach presented paper requires global updating
+therefore our result holds evolutionary set theory games phenotype space but does not apply evolutionary graph theory

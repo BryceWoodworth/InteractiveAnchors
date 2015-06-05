@@ -1,0 +1,23 @@
+ 
+% given matrix low-rank consider problem reconstructing noisy observations small random subset its entries
+problem arises variety applications collaborative filtering `netflix problem' structure-from-motion positioning
+study low complexity algorithm introduced  based combination spectral techniques manifold optimization call here {optspace}
+prove performance guarantees order-optimal number circumstances
+ introduction 
+spectral techniques authentic workhorse machine learning statistics numerical analysis signal processing
+given matrix  its largest singular values---and associated singular vectors---`explain' most significant correlations underlying data source
+low-rank approximation further used low-complexity implementations number linear algebra algorithms
+many practical circumstances access only sparse subset entries matrix
+recently been discovered if matrix rank  unless too `structured' small random subset its entries allow reconstruct exactly
+result was first proved analyzing convex relaxation introduced
+tighter analysis same convex relaxation was carried out
+number iterative schemes solve convex optimization problem appeared soon thereafter
+alternative line work attacked same problem using combination spectral techniques manifold optimization: will refer their algorithm \optspace \optspace\ intrinsically low complexity most complex operation being computing singular values corresponding singular vectors sparse matrix
+performance guarantees proved comparable information theoretic lower bound: roughly random entries needed reconstruct exactly here assume order 
+related approach was also developed  although without performance guarantees matrix completion
+above results crucially rely assumption exactly rank matrix
+many applications interest assumption unrealistic therefore important investigate their robustness
+above approaches generalized when underlying data `well approximated' rank matrix
+question was addressed within convex relaxation approach
+present paper proves similar robustness result \optspace
+remarkably guarantees obtain order-optimal variety circumstances improve over analogous results

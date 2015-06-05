@@ -1,0 +1,39 @@
+ 
+most non-asymptotic theoretical work regression carried out square loss where estimators obtained through closed-form expressions
+paper use extend tools convex optimization literature namely self-concordant functions provide simple extensions theoretical results square loss logistic loss
+apply extension techniques logistic regression regularization norm regularization norm showing new results binary classification through logistic regression easily derived corresponding results least-squares regression
+ introduction 
+theoretical analysis statistical methods usually greatly simplified when estimators closed-form expressions
+methods based minimization certain functional m-estimation methods  true when function minimize quadratic i e  context regression square loss
+when loss used asymptotic non-asymptotic results may derived classical tools probability theory see eg  
+when function minimized m-estimation not amenable closed-form solutions local approximations then needed obtaining analyzing solution optimization problem
+asymptotic regime led interesting developments extensions results quadratic case eg  consistency asymptotic normality see eg  
+however situation different when one wishes derive non-asymptotic results i e  results where all constants problem explicit
+indeed order prove results sharp square loss much notation many assumptions introduced regarding second third derivatives; makes derived results much more complicated than ones closed-form estimators
+similar situation occurs convex optimization study newton's method obtaining solutions unconstrained optimization problems
+known locally quadratically convergent convex problems
+however its classical analysis requires cumbersome notations assumptions regarding second third-order derivatives~(see eg  
+situation was greatly enhanced introduction notion self-concordant functions  i e  functions whose third derivatives controlled their second derivatives
+tool analysis much more transparent
+while newton's method commonly used algorithm logistic regression~(see eg   leading iterative least-squares algorithms don't focus paper resolution optimization problems but statistical analysis associated global minimizers
+paper aim borrow tools convex optimization self-concordance analyze statistical properties logistic regression
+since logistic loss not itself self-concordant function introduce \mysec{self} new type functions different control third derivatives
+functions prove two types results: first provide lower upper taylor expansions i e  taylor expansions globally upper-bounding lower-bounding given function
+second prove results behavior newton's method similar ones self-concordant functions
+then apply them sections one-step newton iterate population solution corresponding problem i e  regularized logistic regression
+essentially shows analysis logistic regression done non-asymptotically using local quadratic approximation logistic loss without complex additional assumptions
+since approximation corresponds weighted least-squares problem results least-squares regression thus naturally extended
+order consider extensions make sure new results closely match corresponding ones least-squares regression derive appendix new bernstein-like concentration inequalities quadratic forms bounded random variables obtained general results u-statistics
+first apply \mysec{l2} extension technique regularization norm where consider two settings situation no assumptions regarding conditional distribution observations another one where model assumed well-specified derive asymptotic expansions generalization performance explicit bounds remainder terms
+\mysec{l1} consider regularization norm extend two known recent results square loss one model consistency one prediction efficiency
+main contribution paper make extensions simple possible allowing use non-asymptotic second-order taylor expansions \paragraph{notation }  denote norm  defined
+also denote its norm
+denote largest smallest eigenvalue symmetric matrix
+use notation resp
+ positive semi-definiteness matrix resp
+
+ denotes sign  defined if  if  if
+vector  denotes vector signs elements
+moreover given vector subset  denotes cardinal set  denotes vector elements indexed
+similarly matrix  denotes submatrix composed elements whose rows columns
+finally let denote general probability measures expectations

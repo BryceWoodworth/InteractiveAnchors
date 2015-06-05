@@ -1,0 +1,69 @@
+ 
+principal component analysis pca widely used technique data analysis dimension reduction numerous applications science engineering
+however standard pca suffers fact principal components pcs usually linear combinations all original variables thus often difficult interpret pcs
+alleviate drawback various sparse pca approaches were proposed literature
+despite success achieving sparsity some important properties enjoyed standard pca lost methods uncorrelation pcs orthogonality loading vectors
+also total explained variance they attempt maximize too optimistic
+paper propose new formulation sparse pca aiming at finding sparse nearly uncorrelated pcs orthogonal loading vectors while explaining much total variance possible
+also develop novel augmented lagrangian method solving class nonsmooth constrained optimization problems well suited our formulation sparse pca
+show converges feasible point moreover under some regularity assumptions converges stationary point
+additionally propose two nonmonotone gradient methods solving augmented lagrangian subproblems establish their global local convergence
+finally compare our sparse pca approach several existing methods synthetic random real data respectively
+computational results demonstrate sparse pcs produced our approach substantially outperform those other methods terms total explained variance correlation pcs orthogonality loading vectors \vskip14pt {key words:} sparse pca augmented lagrangian method nonmonotone gradient methods nonsmooth minimization \vskip14pt {ams 2000 subject classification:} 62h20 62h25 62h30 90c30 65k05
+ introduction 
+principal component analysis pca popular tool data processing dimension reduction
+been widely used numerous applications science engineering biology chemistry image processing machine learning so
+example pca recently been applied human face recognition handwritten zip code classification gene expression data analysis see 
+essence pca aims at finding few linear combinations original variables called principal components pcs point orthogonal directions capturing much variance variables possible
+well known pcs found via eigenvalue decomposition covariance matrix
+however typically unknown practice
+instead pcs approximately computed via singular value decomposition svd data matrix eigenvalue decomposition sample covariance matrix
+detail let dimensional random vector data matrix records observations
+without loss generality assume centered column means all
+then commonly used sample covariance matrix
+suppose eigenvalue decomposition then gives pcs columns corresponding loading vectors
+worth noting also obtained performing svd see example 
+clearly columns orthonormal vectors moreover diagonal
+thus immediately see if  corresponding pcs uncorrelated; otherwise they correlated each other see section details
+now describe several important properties pcs obtained standard pca when well estimated see also : 1  pcs sequentially capture maximum variance variables approximately thus encouraging minimal information loss much possible; 2  pcs nearly uncorrelated so explained variance different pcs small overlap; 3  pcs point orthogonal directions their loading vectors orthogonal each other
+practice typically first few pcs enough represent data thus great dimensionality reduction achieved
+spite popularity success pca due nice features pca obvious drawback pcs usually linear combinations all variables loadings typically nonzero
+makes often difficult interpret pcs especially when large
+indeed many applications original variables concrete physical meaning
+example biology each variable might represent expression level gene
+cases interpretation pcs would facilitated if they were composed only small number original variables namely each pc involved small number nonzero loadings
+thus imperative develop sparse pca techniques finding pcs sparse loadings while enjoying above three nice properties much possible
+sparse pca been active research topic more than decade
+first class approaches based ad-hoc methods post-processing pcs obtained standard pca mentioned above
+example jolliffe applied various rotation techniques standard pcs obtaining sparse loading vectors
+cadima jolliffe proposed simple thresholding approach artificially setting zero standard pcs' loadings absolute values smaller than threshold
+recent years optimization approaches been proposed finding sparse pcs
+they usually formulate sparse pca into optimization problem aiming at achieving sparsity loadings while maximizing explained variance much possible
+instance jolliffe et al \ proposed interesting algorithm called scotlass finding sparse orthogonal loading vectors sequentially maximizing approximate variance explained each pc under norm penalty loading vectors
+zou et al \ formulated sparse pca regression-type optimization problem imposed combination  norm penalties regression coefficients
+d'aspremont et al \ proposed method called dspca finding sparse pcs solving sequence semidefinite program relaxations sparse pca
+shen huang recently developed approach computing sparse pcs solving sequence rank-one matrix approximation problems under several sparsity-inducing penalties
+very recently journ\'ee et al \ formulated sparse pca nonconcave maximization problems  norm sparsity-inducing penalties
+they showed problems reduced into maximization convex function compact set they also proposed simple but computationally efficient gradient method finding stationary point latter problems
+additionally greedy methods were investigated sparse pca moghaddam et al \ d'aspremont et al \
+pcs obtained above methods usually sparse
+however aforementioned nice properties standard pcs lost some extent sparse pcs
+indeed likely correlation among sparse pcs not considered methods
+therefore their sparse pcs quite correlated each other
+also total explained variance methods attempt maximize too optimistic there may some overlap among individual variances sparse pcs
+finally loading vectors sparse pcs given methods lack orthogonality except scotlass
+paper propose new formulation sparse pca taking into account three nice properties standard pca maximal total explained variance uncorrelation pcs orthogonality loading vectors
+also explore connection formulation standard pca show viewed certain perturbation standard pca
+further propose novel augmented lagrangian method solving class nonsmooth constrained optimization problems well suited our formulation sparse pca
+method differs classical augmented lagrangian method that: i values augmented lagrangian functions at their approximate minimizers given method bounded above; ii magnitude penalty parameters outgrows lagrangian multipliers see section details
+show method converges feasible point moreover converges first-order stationary point under some regularity assumptions
+also propose two nonmonotone gradient methods minimizing class nonsmooth functions over closed convex set suitably applied subproblems arising our augmented lagrangian method
+further establish global convergence under local lipschitzian error bounds assumption  local linear rate convergence gradient methods
+finally compare sparse pca approach proposed paper several existing methods synthetic random real data respectively
+computational results demonstrate sparse pcs obtained our approach substantially outperform those other methods terms total explained variance correlation pcs orthogonality loading vectors
+rest paper organized follows
+section  propose new formulation sparse pca explore connection formulation standard pca
+section  then develop novel augmented lagrangian method class nonsmooth constrained problems propose two nonmonotone gradient methods minimizing class nonsmooth functions over closed convex set
+section  discuss applicability implementation details our augmented lagrangian method sparse pca
+sparse pca approach proposed paper then compared several existing methods synthetic random real data section
+finally present some concluding remarks section

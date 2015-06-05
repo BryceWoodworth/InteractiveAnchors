@@ -1,0 +1,54 @@
+ 
+when survey respondents rate quality life qol associated health condition they must not only evaluate health condition itself but must also interpret meaning rating scale order assign specific value
+way respondents approach task depends subjective interpretations resulting inconsistent results across populations tasks
+particular patients non-patients often give very different ratings health conditions discrepancy raises questions about objectivity either groups' evaluations
+study found perspective raters i e their own current health relative health conditions they rated influences way they distinguish between different health states vary severity
+consistent prospect theory mild severe lung disease scenario were rated quite differently lung disease patients whose own health falls between two scenarios whereas healthy non-patients whose own health was better than both scenarios rated two scenarios much more similar
+addition found context rating task influences way participants distinguish between mild severe scenarios
+both patients non-patients gave less distinct ratings two scenarios when each were presented isolation than when they were presented alongside other scenarios provided contextual information about possible range severity lung disease
+results raise continuing concerns about reliability validity subjective qol ratings ratings highly sensitive differences between respondent groups particulars rating task
+ introduction 
+imagine patient who suffers lung disease
+she suffers shortness breath only during heavy physical activity jogging three blocks
+scale number number what her quality life like
+how does her quality life compare more severely ill patient someone who suffers shortness breath even resting state
+respondent health survey may find extremely difficult come up rating health description like
+surely first person much healthier than second but how much healthier
+how different would their quality life number points number number
+specific numbers may seem quite arbitrary
+order rate health conditions survey respondents must not only evaluate how good bad condition they must then decide how translate evaluation into specific value unfamiliar rating scale
+because tasks subject individual interpretation specific values assigned given health state may depend who doing rating circumstances rating task leaving much confusion researchers policy makers trying make sense results
+uncertainty health ratings evident differences often observed between patients' non-patients' ratings health conditions
+patients typically rate their condition higher than non-patients so explanations discrepancy often focus either patients overvaluing their health condition non-patients undervaluing
+however discrepancy between patients' non-patients' ratings may actually reflect more complex perspective differences than straightforward under over-valuing health conditions either group
+kahneman tversky's prospect theory suggests individual's reference point critical determining how he she evaluates given state
+gains losses become more distant status quo they diminishing effect utility
+case health small changes health should produce relatively steep change quality life qol proportionally smaller impact larger changes health
+because patients non-patients different status-quo reference point they should different perceptions same health condition
+patient suffering moderately severe case lung disease milder case same disease would represent gain health generating steep improvement qol whereas severe case lung disease would represent loss health steep cost qol
+contrast person full health no lung disease both mild severe cases lung disease would represent loss health
+because increasing losses diminishing impact mild case would proportionally larger cost qol than more severe case
+figure number illustrates gain loss framing diminishing-return characteristic prospect theory predicts patients may actually give worse ratings severe conditions patients should perceive greater qol difference between mild severe health conditions than do non-patients
+if so may too simplistic say patients overvalue non-patients undervalue health condition another issue may complicate interpretation health state evaluations ratings may depend task context
+when rating single items isolation no context about how compares alternatives respondents tend give noncommittal ratings somewhere middle scale arguably leave room either side unknown future items
+however when multiple items rated respondents tend spread items somewhat evenly across rating scale essentially using items themselves impose meaning onto rating scale
+strategies suggest people may attending more relative position items than specific values associated scale
+evaluability hypothesis suggests respondents may draw heavily inter-item comparisons particularly when relevant attributes judgment unfamiliar difficult evaluate
+rating task presents multiple items simultaneously allows respondents take relative positioning into account when assigning values each item
+rather than dropping items somewhere middle lack more information respondents use relative comparison between items decide how place items scale
+study looks at how patients non-patients rate descriptions health conditions differ severity
+asked lung disease patients healthy non-patients evaluate quality life qol several scenarios describing different severity levels lung disease ranging mild severe
+based prospect theory predicted patients qol ratings should not uniformly higher than non-patients' ratings all lung disease scenarios
+rather predicted because most patients' status quo position lies between mildest most severe scenarios they should perceive wide distinction between two scenarios
+because non-patients view both scenarios loss they should perceive much smaller gap between them
+difference ratings between mild severe scenarios should larger patients than non-patients
+addition study looks at effect multiple-item context both patients' non-patients' ratings
+some our participants rated only single lung disease scenario isolation condition called no context condition because no information was provided about relative severity scenario compared other possible cases
+other participants rated multiple scenarios presented together each describing different level severity
+term context condition because task places each scenario within broader context conveys severity scenario relative other cases
+predicted items rated no context condition should grouped closer center rating scale relatively small differences between mild severe scenarios
+contrast items rated context condition should receive more distinct ratings greater difference between mild severe conditions
+also predicted greater effect rating context patients than non-patients
+virtue their own experience patients should bring some implicit context task largely unavailable non-patients
+patients more likely know something about possible range severity than do non-patients
+even when severity context not provided explicitly task anticipated patients would able draw information make those comparisons their own attenuating effect explicit information provided context condition

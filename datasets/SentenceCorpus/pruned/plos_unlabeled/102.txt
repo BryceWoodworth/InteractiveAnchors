@@ -1,0 +1,63 @@
+
+current develop computational approaches gene network regulatory relationships based multiple types functional genomic data
+find neural network models gene network structure global interaction data rna data
+test yeast cell cycle transcription network several genes rna
+were robust noise data variety
+they identified known major cell cycle factors at set based weights metric
+comparative analysis among multiple yeast species relationships weights analysis
+models properties biological gene networks other models do not
+take advantage patterns well presence factor binding associated specific expression they mutation biological they use full range factor binding values
+feature cell cycle suggested property might exist biological network
+occurs when regulatory explicitly one network relative others class genes network
+if correct predicts motifs will significantly class will through evolution
+analysis related real sites class genes
+introduction
+yeast expressed cell cycle dependent manner
+both yeast yeast into four groups each corresponding phase cycle
+large sets also seen cells transcription network fundamental property
+complete connectivity cell cycle transcription network not yet known any many components may over long evolutionary but some specific some their direct target genes
+experimental core components make yeast cycle especially good test case studies network structure function evolution
+underlying transcription network point cell cycle into its component regulatory factors their regulatory output patterns here form rna expression
+one way do multiple data types inference including interaction data studies rna expression patterns comparative genomic analysis
+because so they principle regulatory relationships not classical
+however scale complexity datasets require new methods rank while also experimental biological noise
+rna expression studies yeast identified genes number all yeast genes
+experimental design methods analysis wide range number genes but there core set
+yeast molecular genetic studies regulation critical rna expression some genes though does not additional mechanisms
+about transcription factors been associated direct control cell cycle expression patterns including assume both depending
+control
+yeast genes no cell cycle expression true group
+practical how well behavior network represented critical datasets
+case cells all cell cycle present phase yeast used most complete set global interaction data so far functional
+data further three smaller studies same basic design
+sets cell cycle many other transcription networks whose multiple states either global data
+important rna expression data every gene across cycle yeast also related yeast s
+combination highly rna expression data data used interactions cell cycle while evolutionary comparison s conserved fundamental network properties
+many prior yeast transcription network data were designed address global problem finding patterns across yeast using very large yeast rna dna data
+present work instead single cellular process its underlying gene network natural level between single gene at one networks cell
+model regulatory gene behavior neural networks global expression interaction data
+neural networks structural computational models long history pattern recognition
+general could effective task they some natural transcription networks including ability sparse interactions between target genes
+they previously been applied model relatively small gene though they not our knowledge been used problem network structure data
+simple would two additional known characteristics gene networks
+first factor binding over values data binding site numbers site mutation analyses
+quantitative differences biological transcription output expression lack temporal sequencing gene factors become available
+different world binding reduced simple call
+neural networks able use full range binding probabilities
+second give weight attention structural features specific factors particular target groups genes
+negative image information potentially important not used other methods applied
+ability use properties potential compared algorithms positive evidence binding require binding measurements into call
+been most used machine learning perform classification tasks goal network based training will used perform similar new data similar structure
+classical applications weights within network no particular interest long network classification task when new data
+used here different way structural models
+specifically use simple networks results interest weights what they suggest about importance individual transcription factors groups factors particular expression
+here were predict rna expression behavior genes during cell cycle based transcription factor binding pattern measured yeast factors determined
+resulting model then identify most important gene associations weights
+major known cell cycle expression at very model
+cell cycle were robust series mutations binding data specific factor was new family models were generated
+additional networks identified relationships biological network
+approach was also applied two additional independent cell cycle expression studies across data how networks might change under distinct cell
+analysis weights matrices resulting models shows neural take advantage information about specifically between factors expression patterns together expected positive other factors genes their correct expression
+us if there corresponding bias biological network against binding sites specific factors some expression suggested
+found case multiple yeast genomes relatively related also related yeast s
+conserved network property even though very few specific genes involved

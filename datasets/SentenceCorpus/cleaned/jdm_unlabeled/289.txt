@@ -1,0 +1,37 @@
+ 
+recent years numerous studies comparing intuition deliberation been published
+however relatively little known about cognitive processes underlying two decision modes
+two studies analyzed effects decision mode instructions processes information search integration using eye-tracking technology between-participants study number within-participants study number design
+our findings indicate instruction deliberate does not necessarily lead qualitatively different information processing compared instruction decide intuitively
+found no difference mean fixation duration distribution short medium long fixations
+short fixations particular prevailed under both decision mode instructions while long fixations indicating conscious calculation-based information processing were rarely observed
+instruction-induced deliberation led higher number fixations more complete information search more repeated information inspections
+interpret our findings support hypothesis intuitive deliberate decision modes share same basic processes supplemented additional operations deliberate decision mode
+ introduction 
+according commonly-held assumptions individuals sometimes make decisions deliberately sometimes rely their intuition gut feeling
+although distinction between two types information processing now widely accepted judgment decision making jdm research relatively little known about cognitive affective processes underlie them
+different models rely automatic processes might considered account intuition see glockner witteman press overview
+models range mainly cognitive evidence accumulation sampling network models more affect-based approaches
+furthermore many theories concern interplay between intuitive deliberate processes
+long tradition dual-process models postulates clear distinction between intuition deliberation
+kahneman frederick pointed out dual-process models come many flavors but all distinguish cognitive operations quick associative others slow rule-governed
+despite apparent consensus regarding basic properties intuition deliberation dual-process framework been criticized being not sufficiently specified
+second crucial critique concerns fact evidence dual-process theories predominantly based outcome measures while cognitive processes underlying intuition deliberation were mainly neglected
+furthermore theorizing dual-process theories inconsistent wealth models hard summarize according simple criteria
+one suggestion categorizing dual-process models into three classes according interplay two decision modes was made evans
+first class so-called pre-emptive theories characterized initial selection between two rather distinct kinds processes
+instance mode selection models might subsumed under class
+second class theories denoted parallel-competitive postulates parallel activation both processing modes kind competition among them might result conflicting responses
+assumption most strongly advocated sloman other authors hold view well present consistent evidence
+third class theories so-called default-interventionist models state intuitive processes always activated first default mode deliberate processes may intervene upon intuitive processes
+evans instance assumes heuristic processes generate default responses analytic processes might intervene scrutinize potentially correct initial response
+similar vein network models argue automatic processes build basis every decision only supplemented deliberate processes if necessary
+number hammond hamm grassia pearson had already suggested intuition deliberation not completely distinct categories cognitive processes between people switch
+rather they seen poles cognitive continuum task factors influence how far one moves toward one other pole
+present paper used eye-tracking technology analyze fine-grained level how instruction decide intuitively deliberately affects information search integration
+specifically tested whether decision mode instructions induce qualitatively different information integration processes
+try relate at first glance methodological question theoretical issue dual-processing models namely whether reasonable assume intuition deliberation distinct whether both might rely similar basic processes just supplemented additional processing steps
+proceed follows first discuss dual-process theories special focus whether they postulate more distinct more integrated processes
+second describe probabilistic inference tasks discuss related cue-weighting schemes
+third introduce core eye-tracking measure single fixation duration used investigate qualitative differences information processing
+fourth derive hypotheses both distinct integrated processes perspective

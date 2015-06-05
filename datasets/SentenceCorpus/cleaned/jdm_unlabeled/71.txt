@@ -1,0 +1,57 @@
+ 
+current paper investigate how feedback over decision outcomes may affect future decisions
+experimental study demonstrate if people receive feedback over outcomes they obtained factual outcomes outcomes they would obtained had they decided differently counterfactual outcomes they become regret-averse subsequent decisions
+effect not only observed when feedback evoked regret counterfactual outcomes being higher than factual outcomes but even when feedback evoked no regret factual outcomes being equal counterfactual outcomes
+findings suggest effect subsequent decisions at least partly due transfer comparison mind-set triggered prior choice
+ introduction 
+regret negative experience most us would want avoid
+stems comparing obtained decision outcome outcomes might been had one chosen differently
+research regret consistently shown anticipation regret motivation avoid regret drives many our decisions
+although literature regret distinguishes between experienced regret anticipated regret does acknowledge connection between two sense experience current regret may affect anticipation future regret
+agreement notion creyer ross found experienced regret bidding subsequently led more risk averse biddings
+more specifically led people subsequently prefer high probability low payoff options over low probability high payoff options
+also context consumer decision making cooke et al showed experienced regret over first decision influenced subsequent purchase decisions
+similar vein zeelenberg pieters showed experienced regret led consumers switch different product
+studies effect experienced regret subsequent decisions was domain-specific sense example regret purchasing specific product was found affect subsequent purchases same similar product
+more recently however raeva mittone schwarzbach found effects experienced regret might broader scope even extend decisions other domains
+their study regret over risky decision affected subsequent decisions intertemporal choice setting
+after playing gamble participants who learned they could obtained higher outcomes had they decided differently i e had they played another gamble showed stronger time preference
+time preference does not refer comparison between factual counterfactual outcomes not related traditional gamble paradigm thus pertains different domain than one participants experienced regret
+so how should explain findings
+domain-specific effects experienced regret subsequent choice most straightforward explanation would after experience regret decision-makers merely learn they should not repeat their mistake thus change their behavior i e once bitten twice shy
+would consistent most models emotion regulation more specifically regret regulation
+broader effects experienced regret however explanation terms learning may not suffice
+after all after experiencing regret risky setting does not directly follow one avoid making same mistake showing strong time preference
+note however even non-domain specific effects regret one could envisage carry-over process assuming not specific decision-related regret carries over subsequent decisions but rather more unspecified nature regret carries over
+experience regret may sensitize decision makers future experiences regret increase their motivation avoid anticipated regret
+rather than concluding they do not want make same mistake twice decision makers may reason they do not want experience same negative emotion twice
+explanation was favored raeva et al
+do not want dispute regret-specific explanations been put forward previous research
+however do want draw attention additional yet unexplored more general process may result experience regret experience regret may lead carry-over comparative mind-set
+one defining characteristics regret emotion results comparing what what could been
+when obtained outcomes what after making choice compare unfavorable outcomes one could obtained decision-makers will experience regret
+comparing decision outcomes therefore essential experience regret if you don't compare you don't regret
+current paper draw attention consequences making comparison
+particular suggest mere fact making comparative judgments about decision outcomes may already elicit comparative mind-set mind-set may carry-over subsequent decisions
+xu wyer recently demonstrated carry-over effect series studies purchase decisions
+example one their experiments they presented participants opportunity buy one out four types products chocolate bars potato chips chewing gum pens
+choose buy one products one needs compare products
+consistent their comparative mind-set idea participants' willingness purchase one products increased if previously they had completed task requiring them compare animals each other e g comparing elephants hippos
+other words evoked comparative mind-set animals task carried over product purchase task
+more general terms xu wyer p number described carry-over comparative mind-set once activated persist influence behaviors decisions other situations comparison processes might come into play
+agreement insights here suggest experience regret critically dependent comparison what what could been may evoke comparative mind-set comparative mind-set persists influence subsequent decision-making
+investigate possibility designed experiment participants made two successive decisions
+first presented participants decision task they would would not experience regret
+subsequently presented them different task matching task they had match two options terms attractiveness
+induce regret first task participants were presented situation they obtained low outcomes learned they would obtained higher outcomes had they chosen differently
+investigate idea that-at least part of-the effects induction regret may attributed invoked comparative mind-set also included several alternative inductions
+some presented our participants same low outcomes but did not inform them outcomes they could obtained had they chosen differently
+conditions participants thus obtained low outcomes but could not compare their outcomes what could been
+absence comparison decision outcomes people could therefore not regret their decision
+consistent bell who argued key identification regret factor decision making under uncertainty hypothesis may matter whether foregone lottery resolved not
+predicted phenomenon experimentation should concentrated
+indeed studies followed up advice found decision makers most likely anticipate regret when expecting feedback
+another condition however did inform participants about outcome they would obtained had they chosen differently but told them outcome would yielded exactly same outcome
+note condition crucial because condition too participants would experience no regret but no-regret would now result similar comparison process case conclusion there nothing regret also results comparison what what could been
+experimental setup allowed us investigate plausibility our general comparative mind-set explanation versus more specific explanations learning regret sensitivity explanations put forward prior research
+if effects experienced regret subsequent decisions would primarily result carry-over specific experience regret should find effects would observed only condition induced regret

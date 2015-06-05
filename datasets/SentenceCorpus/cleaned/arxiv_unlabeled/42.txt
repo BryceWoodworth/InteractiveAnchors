@@ -1,0 +1,49 @@
+ 
+recent advances machine learning make possible design efficient prediction algorithms data sets huge numbers parameters
+paper describes new technique ``hedging'' predictions output many algorithms including support vector machines kernel ridge regression kernel nearest neighbours many other state-of-the-art methods
+hedged predictions labels new objects include quantitative measures their own accuracy reliability
+measures provably valid under assumption randomness traditional machine learning: objects their labels assumed generated independently same probability distribution
+particular becomes possible control up statistical fluctuations number erroneous predictions selecting suitable confidence level
+validity being achieved automatically remaining goal hedged prediction efficiency: taking full account new objects' features other available information produce accurate predictions possible
+done successfully using powerful machinery modern machine learning
+ introduction 
+two main varieties problem prediction classification regression standard subjects statistics machine learning
+classical classification regression techniques deal successfully conventional small-scale low-dimensional data sets; however attempts apply techniques modern high-dimensional high-throughput data sets encounter serious conceptual computational difficulties
+several new techniques first all support vector machines other kernel methods been developed machine learning recently explicit goal dealing high-dimensional data sets large numbers objects
+typical drawback new techniques lack useful measures confidence their predictions
+example some tightest upper bounds popular pac theory probability error exceed~1 even relatively clean data sets   p 249
+paper describes efficient way ``hedge'' predictions produced new traditional machine-learning methods i e  complement them measures their accuracy reliability
+appropriately chosen not only measures valid informative but they also take full account special features object predicted
+call our algorithms producing hedged predictions ``conformal predictors''; they formally introduced section
+their most important property automatic validity under randomness assumption discussed shortly
+informally validity means conformal predictors never overrate accuracy reliability their predictions
+property stated sections  formalized terms finite data sequences without any recourse asymptotics
+claim validity conformal predictors depends assumption shared many other algorithms machine learning call assumption randomness: objects their labels assumed generated independently same probability distribution
+admittedly strong assumption areas machine learning emerging rely other assumptions markovian assumption reinforcement learning; see eg   dispense any stochastic assumptions altogether competitive on-line learning; see eg  
+however much weaker than assuming parametric statistical model sometimes complemented prior distribution parameter space customary statistical theory prediction
+taking into account strength guarantees proved under assumption does not appear overly restrictive
+so know conformal predictors tell truth
+clearly not enough: truth uninformative so useless
+will refer various measures informativeness conformal predictors their ``efficiency''
+conformal predictors provably valid efficiency only thing need worry about when designing conformal predictors solving specific problems
+virtually any classification regression algorithm transformed into conformal predictor so most arsenal methods modern machine learning brought bear design efficient conformal predictors
+start main part paper section  description idealized predictor based kolmogorov's algorithmic theory randomness
+``universal predictor'' produces best possible hedged predictions but unfortunately noncomputable
+however set ourselves task approximating universal predictor well possible
+section formally introduce notion conformal predictors state simple result about their validity
+section also briefly describe results computer experiments demonstrating methodology conformal prediction
+section consider example demonstrating how conformal predictors react violation our model stochastic mechanism generating data within framework randomness assumption
+if model coincides actual stochastic mechanism construct optimal conformal predictor turns out almost good bayes-optimal confidence predictor formal definitions will given later
+when stochastic mechanism significantly deviates model conformal predictions remain valid but their efficiency inevitably suffers
+bayes-optimal predictor starts producing very misleading results superficially look good when model correct
+section describe ``on-line'' setting problem prediction section contrast more standard ``batch'' setting
+notion validity introduced section applicable both settings but on-line setting strengthened: now prove percentage erroneous predictions will close high probability chosen confidence level
+batch setting stronger property validity conformal predictors remains empirical fact
+section also discuss limitations on-line setting introduce new settings intermediate between on-line batch
+large degree conformal predictors still enjoy stronger property validity intermediate settings
+section devoted discussion difference between two kinds inference empirical data induction transduction emphasized vladimir vapnik 
+conformal predictors belong transduction but combining them elements induction lead significant improvement their computational efficiency section 
+show how some popular methods machine learning used underlying algorithms hedged prediction
+do not give full description methods refer reader existing readily accessible descriptions
+paper however self-contained sense explain all features underlying algorithms used hedging their predictions
+hope information provide will enable reader apply our hedging techniques their favourite machine-learning methods

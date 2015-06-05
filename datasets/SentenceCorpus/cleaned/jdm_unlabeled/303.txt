@@ -1,0 +1,59 @@
+ 
+deliberation-without-attention effect occurs when better decisions made when people experience period distraction before decision than when they make decisions immediately when they spend time reflecting alternatives
+effect been explained claim people engage unconscious deliberation when distracted unconscious thought better suited complex decisions than conscious thought
+experiments number number number b study included dominant alternative failed find evidence effect
+experiment number removed dominant alternative manipulated mode thought within-subjects eliminate alternative explanations failed replication
+all experiments participants did not make better decisions after unconscious thought decisions were consistently better than chance when made immediately after encoding information
+encouraging people not think about complex decisions appears unwarranted
+ introduction 
+when making complex decision car purchase should one take time carefully consider information about each alternative should one review information stop thinking about wait best alternative become known
+benchmark prescriptive model decision making weighted additive wadd strategy suggests several steps making complex decisions number list important attributes number weigh each attribute number assess alternatives all attributes number multiply alternatives' scores each attribute attribute's weight number sum products each alternative number select alternative greatest sum
+unconscious thought theory proposes conscious thought incapable following steps complex decisions because its capacity limitations but unconscious thought able reach conclusions similar prescriptions wadd
+therefore utt claims complex decisions best encode all necessary information then stop consciously thinking about alternatives let unconscious arrive at decision
+evidence utt's claim comes series studies dijksterhuis colleagues
+studies participants given positive negative attributes few alternatives
+all alternatives same number attributes but one alternative most positive attributes one fewest positive attributes
+designated best worst alternatives respectively
+after information presented some participants instructed carefully consider information had been presented specified duration before deciding alternative best
+other participants distracted e g completing anagrams same duration before making decisions some experiments another group makes decisions immediately after presentation attributes
+three groups referred conscious thought unconscious thought immediate groups respectively
+people generally more likely select best alternative after unconscious thought than when decisions judgments made immediately after conscious thought
+finding referred deliberation-without-attention effect
+deliberation-without-attention effect been demonstrated complex e g number attributes per alternative but not simple e g number attributes per alternatives decisions
+effect occurs only when participants informed they will making decision judgment after some duration not when they given information no goal
+furthermore effect disappears when participants primed think themselves powerful
+dijksterhuis colleagues also suggested many decisions made unconsciously found evidence people more satisfied decisions made after period unconscious thought
+because importance implications findings e g people should stop consciously deliberating complex decisions others attempted replicate deliberation-without-attention effect but found little supporting evidence
+several studies employed methods similar dijksterhuis dijksterhuis et al failed find advantage unconscious thought
+payne samper bettman luce allowed some participants consciously deliberate long they needed found judgments made after self-paced conscious thought led judgments at least good sometimes better than judgments made after period unconscious thought
+runnion asked participants form impression four cars after acquisition phase found those unconscious condition did not form better memory-based judgments best car than conscious deliberators
+furthermore gonzales-vallejo lassiter bellezza lindberg criticized utt being inconsistent findings social cognitive psychology concluded clear evidence deliberation-without-attention effect lacking because problems dijksterhuis method
+one criticism dijksterhuis method concerns definition normatively best alternative
+dijksterhuis claims alternative most positive fewest negative attributes best choice
+illustrate problem definition consider following example suppose one deciding between two cars each three known attributes
+car cupholders sunroof but gets poor gas mileage while car b no cupholders sunroof but gets good gas mileage
+car two positive one negative attribute car b one positive two negative attributes
+according dijksterhuis' definition normativity one should choose car
+however person who weighs gas mileage more than sum weights cupholders sunroofs should select car b over car
+because weighing attributes idiosyncratic when positive negative attributes vary between alternatives difficult know alternative one ought select
+acker newell et al asked participants attributes were important their decisions so normativity could determined individual basis
+avoid problems attribute weighing gonzales-vallejo et al tested deliberation-without-attention effect using dominant alternative
+one alternative dominates another if better at least one attribute at least good every other attribute
+example if what good about car also present car b but car b also at least one positive attribute not possessed car then car b dominates car
+no matter how person weighs attributes irrational select judge better dominated alternative
+gonzales-vallejo et al found after period distraction participants could not select dominant alternative more often than chance
+however all participants engaged unconscious thought so performance could not compared immediate decisions those after period conscious thought
+despite failed replications deliberation-without-attention effect further tests warranted
+recent meta-analyses reported mean effect sizes g number favor unconscious thought when compared conscious thought g number favor unconscious thought when compared both conscious thought immediate judgments decisions
+new findings continue published showing advantage unconscious thought over conscious thought
+example dijksterhuis bos van der leij van baaren found soccer experts better at predicting outcome soccer matches after period unconscious thought than they when making predictions immediately after period conscious deliberation
+furthermore utt supporting findings influenced theories applied areas job design george press
+imperative utt continue tested supporting results continue replicated
+current set experiments participants were given four alternatives one dominated others except experiment number
+experiment number compared simple complex decisions made participants after conscious unconscious thought
+experiments number number b number participants judged four alternatives after receiving attributes each
+difference between judgments best worst alternatives participants who engaged unconscious thought was compared those participants who engaged conscious thought experiments number number b those who made immediate judgments experiments number number b number
+utt predicts participants who engage unconscious thought will select best car more often than chance more often than those who engage conscious thought experiment number
+furthermore participants who engage unconscious thought will rate best car significantly higher than worst car difference will greater than difference those who engage conscious thought experiments number number b make immediate judgments experiments number number b number
+order alternatives was also examined experiment number alternatives were not blocked experiments number number b number
+newell et al suggest if impressions about alternatives formed during presentation attributes there should recency effect information presented later should greater impact decisions than information presented earlier

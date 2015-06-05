@@ -1,0 +1,14 @@
+ 
+longstanding question molecular biology extent behavior macromolecules observed vitro accurately reflects their behavior vivo
+number sophisticated experimental techniques now allow behavior individual types macromolecule studied directly vivo; none however allow wide range molecule types observed simultaneously
+order tackle issue adopted computational perspective having selected model prokaryote escherichia coli test system assembled atomically detailed model its cytoplasmic environment includes 50 most abundant types macromolecules at experimentally measured concentrations
+brownian dynamics simulations cytoplasm model been calibrated reproduce translational diffusion coefficients green fluorescent protein observed vivo snapshots simulation trajectories been used compute cytoplasm's effects thermodynamics protein folding association aggregation events
+simulation model successfully describes relative thermodynamic stabilities proteins measured e coli shows effects additional commonly cited crowding effect must included attempts understand macromolecular behavior vivo
+ introduction 
+while reductionist biophysical studies continue contribute important insights into properties functions biological macromolecules research attention increasingly being directed at uncovering extent behavior observed vitro likely reflect occurring vivo
+physiological setting all biomolecules must inevitably experience non-specific unintended interactions intracellular milieu there good theoretical reasons expect even if interactions only steric nature significant alterations macromolecular folding association equilibria may result
+order allow macromolecules directly interrogated vivo therefore number important developments been made experimental fields hydrogen exchange nuclear magnetic resonance fluorescence spectroscopies 
+alternative use experimental techniques assemble molecular model intracellular environment silico use molecular simulation techniques explore its behavior; if model could shown realistic big if would important advantage allowing simultaneous direct observation all molecules system
+fact at least two simulation studies attempt model bacterial cytoplasm already been reported producing number intriguing results
+both previous studies however modeled all cytoplasmic molecules spheres perhaps anticipated therefore simulations include structurally detailed macromolecular models might lead additional insights
+pursuit strategy chosen gram-negative prokaryote escherichia coli test system combining quantitative proteomic high-resolution structural data build first structurally detailed molecular model bacterial cytoplasm

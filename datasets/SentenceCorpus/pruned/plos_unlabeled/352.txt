@@ -1,0 +1,43 @@
+
+important functional do not proteins
+present highly efficient computational motifs
+previous methods does not require alignment input rna motifs low sequence
+also rna prediction rna search quality rna motifs significantly
+here report results
+our motifs include most known elements found rna family database
+comparing our models models achieve high accuracy both prediction level secondary structure prediction
+not find evidence some them functional analyze several potential protein
+introduction
+recent novel suggest important functional regulatory impact gene transcription
+few years several groups performed computational predictions based comparative genomic analysis
+particular et al used approach novel genomes many now been experimentally
+similar studies been various groups
+more recent work extended large number known while novel
+some approaches similar search conserved secondary structures based sequence similarity
+typically use measures information between pairs alignment signal regions
+however signals methods mutations signals may alignment methods sequences
+even local may key structural signal making methods alignment quality especially sequences
+paper present novel computational prediction
+but does not require sequence
+previous methods three
+first sequences genes instead regions methods
+second predict rna motifs sequences using called very rna motifs low sequence robust long regions sequences
+finally rna prediction rna search
+every predicted genome database more then used model
+process model
+study apply elements
+because large number genomes sequence among species our approach
+our approach two key
+first efficient highly
+more efficient than later apply between so analysis
+thus even though use some algorithms larger problems
+rna prediction also gene context functional analysis biological evaluation
+second highly accurate finding especially rna elements
+demonstrate performance approach report our search results relatively model many known
+method low rates negative low rates known
+rna family database database elements b
+among our predictions lower our
+two other also represented among our predictions
+addition both secondary structure prediction identified family
+above percent percent sensitivity average family percent percent sensitivity secondary structure prediction
+many novel were also discussed below

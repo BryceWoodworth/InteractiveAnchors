@@ -1,0 +1,24 @@
+ 
+% paper describes methodology detecting anomalies sequentially observed potentially noisy data
+proposed approach consists two main elements: 1 filtering  assigning belief likelihood each successive measurement based upon our ability predict previous noisy observations 2 hedging  flagging potential anomalies comparing current belief against time-varying data-adaptive threshold
+threshold adjusted based available feedback end user
+our algorithms combine universal prediction recent work online convex programming do not require computing posterior distributions given all current observations involve simple primal-dual parameter updates
+at heart proposed approach lie exponential-family models used wide variety contexts applications yield methods achieve sublinear per-round regret against both static slowly varying product distributions marginals drawn same exponential family
+moreover regret against static distributions coincides minimax value corresponding online strongly convex game
+also prove bounds number mistakes made during hedging step relative best offline choice threshold access all estimated beliefs feedback signals
+validate theory synthetic data drawn time-varying distribution over binary vectors high dimensionality well enron email dataset \\ {keywords:} anomaly detection exponential families filtering individual sequences label-efficient prediction minimax regret online convex programming prediction limited feedback sequential probability assignment universal prediction
+ introduction 
+\parstart{i}{n this} paper explore performance online anomaly detection methods built sequential probability assignment dynamic thresholding based limited feedback
+assume sequentially monitor state some system interest
+at each time step observe possibly noise-corrupted version current state  need infer whether anomalous relative actual sequence past states
+inference encapsulated binary decision  either non-anomalous nominal behavior anomalous behavior
+after announcing our decision may occasionally receive feedback ``true'' state affairs use adjust future behavior decision-making mechanism
+our inference engine should make good use feedback whenever available improve its future performance
+one reasonable way do follows
+having observed but not  use observation assign ``beliefs" ``likelihoods" clean state
+let us denote likelihood assignment
+then if actually had access clean observation  could evaluate declare anomaly   if  where some positive threshold; otherwise would set no anomaly at time 
+approach based intuitive idea new observation should declared anomalous if very unlikely based our past knowledge namely 
+other words observations considered anomalous if they portion observation domain very low likelihood according best probability model assigned them basis previously seen observations fact anomaly detection algorithms based density level sets revolve around precisely kind reasoning  complication here however do not actually observe  but rather its noise-corrupted version
+thus settle instead estimate based compare estimate against
+if receive feedback at time differs our label  then adjust threshold appropriately

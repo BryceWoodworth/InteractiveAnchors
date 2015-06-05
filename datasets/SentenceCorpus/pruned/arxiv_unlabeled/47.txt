@@ -1,0 +1,46 @@
+
+well know classification used wide variety problems but limited applications time series forecasting context
+paper propose forecasting method specifically designed prediction application algorithm
+practical applications method also presented
+introduction
+time series forecasting problem many applications etc
+many methods designed time series forecasting perform well depending complexity problem rather but rather one
+due fact methods usually designed performance at short term their use at term being not
+furthermore they generally out prediction single value while real problem requires predicting vector future values one step
+example case some known could predict all values whole
+but forecasting vector requires either more complex models potential loss performance some vector components many distinct single value predicting models potential loss correlation information between various values
+methods able whole vector same each its components thus interest
+while prediction primary interest there some limit accuracy expected
+due information itself not possible forecasting methods
+indeed there no forecasting method used predicting at long term i e many time more difficult predicting at short term because information unknown future time those between known value one predict
+at some term all prediction methods will thus
+method presented paper not time accurate predictions could expected but rather about future evolution series
+mean some information interest even if does not mean accurate predictions
+example there bounds future values
+what average
+confidence future values large
+predicting many could way known sequence then using any prediction method
+however case loss information used even higher due lower known sequence
+furthermore solution does not allow general way introduce stochastic method key issue proposed method
+indeed about future evolution series through some statistics expected mean confidence etc several predictions should made order statistics
+predictions should stochastic prediction method able generate several
+method presented paper stochastic method results use random probability
+another method presented paper used predict values vectors same expected each component case vector prediction
+having at time series values prediction vector defined follows } where size vector predicted data process number past values influence future values noise vector
+past values vector called
+knowledge values time series means relation known many time past
+modeling problem then estimate function models time series whole set past
+idea method space
+seen way make possible local modeling each
+part method using
+obtained each class model corresponding class
+furthermore order take into account temporal series
+those vectors differences between two
+set also using
+those two their characterized simulations performed
+using procedure simulations then possible estimate distribution simulations global time series at long term
+though could chosen some other classical vector method only clustering property interest here choice perform two fact efficient fast compared other methods limited complexity they provide representation
+following paper first some basic about classification
+then introduce proposed forecasting method vector time series then vector ones
+next present some experimental results both vector
+method stability given

@@ -1,0 +1,77 @@
+ 
+trp-cage designed 20-residue polypeptide spite its size shares several features larger globular proteins
+although system been intensively investigated experimentally theoretically its folding mechanism not yet fully understood
+indeed some experiments suggest two-state behavior while others point presence intermediates
+work show results bias-exchange metadynamics simulation used constructing detailed thermodynamic kinetic model system
+model although constructed biased simulation quality similar those extracted analysis long unbiased molecular dynamics trajectories
+demonstrated careful benchmark approach smaller system solvated ace-ala 3-nme peptide
+trp-cage folding model predicts relaxation time 3100 ns observed experimentally due presence compact molten globule-like conformation
+state occupancy only 3 percent at 300 k but acts kinetic trap
+instead non-compact structures relax folded state sub-microsecond timescale
+model also predicts presence state at formula 4.4 nmr structure trp strongly interacts pro12
+state explain abnormal temperature dependence formula formula chemical shifts
+structures two most stable misfolded intermediates agreement nmr experiments unfolded protein
+our work shows using biased molecular dynamics trajectories possible construct model describing detail trp-cage folding kinetics thermodynamics agreement experimental data
+ introduction 
+understanding protein folding thermodynamics kinetics central issue molecular biology computer-aided modeling becoming increasingly useful also field
+direct comparison between simulations experiments requires both accurate description system possibility sample extensively configuration space
+order observe folding molecular dynamics necessary use very large computers worldwide distributed computing enhanced sampling technique 
+system almost ideal theoretical investigation trp-cage designed 20-residue miniprotein folds rapidly spontaneously globular structure
+nmr structure reveals compact hydrophobic core trp side chain buried
+secondary structure elements include short formula 3 10-helix polyproline ii helix at c-terminus
+folding mechanism system been studied several experimental techniques
+calorimetry circular dichroism spectroscopy fluorescence show cooperative two-state folding behavior transition midpoint at approximately 314 k relaxation time 3.1 s at 296 k
+uv-resonance raman reveals more complex unfolding behavior presence compact intermediate retains formula character hydrophobic core even more compact
+nmr experiments show substantially cooperative thermal unfolding but large negative chemical shift deviations formula formula suggest those residues might pack more tightly temperature raised
+also fluorescence correlation spectroscopy experiments cannot interpreted terms simple two-state folding formation molten-globule-like intermediate been proposed 
+atomistic modeling trp-cage folding been studied using several different approaches
+particular all-atom explicit-solvent description folding trp-cage been studied replica exchange molecular dynamics
+starting extended configuration structure formula root mean square deviation 2 nmr reference structure obtained after 100 ns simulation 40 replicas
+relatively high melting temperature 440 k predicted
+other studies suggested even if trp-cage rather small system achieving statistical convergence remd simulation may require much longer simulation times
+kinetics trp-cage folding was studied explicit solvent transition path sampling transition interface sampling
+folding trp-cage was also investigated two us using bias exchange metadynamics approach metadynamics potentials acting different collective variables exchanged among molecular dynamics simulations performed at same temperature
+using method possible explore simultaneously virtually unlimited number cvs
+since all md simulations performed at same temperature number replicas does not grow system size like remd approach ref
+
+using was possible reversibly fold trp-cage villin headpiece advillin headpiece together two their mutants insulin chain b using explicit solvent force field less than 100 nanoseconds simulation only eight replicas
+recently method was also used exploring mechanism enzyme reactions 
+atomistic simulations biological systems after exhaustive exploration achieved necessary extract trajectory relevant metastable conformations assign their occupation probability compute rates transitions among them
+several methods been developed scope
+methods big advantage reducing complex dynamics high-dimensional configuration space markov process describing transitions among finite number metastable states
+they suitable analyzing ergodic molecular dynamics trajectory but they cannot straightforwardly applied if system evolved under action external bias
+paper present method allows exploiting statistics accumulated bias exchange metadynamics run constructing detailed kinetic thermodynamic model complex process trp-cage folding
+approach presented here aims at extracting same information simulation one obtain analysis long ergodic md run several shorter runs
+method relies projection trajectory space defined set variables assumed describe relevant physics system
+variables not necessarily ones used simulation chosen formula
+once cvs selected rate model constructed following three steps:
+cluster analysis performed trajectories possibly extended cv space assigning each configuration explored during biased dynamics reference structure close cv space
+next equilibrium population each bin calculated simulations using weighted histogram analysis method exploiting metadynamics bias potentials
+finally kinetic model constructed assigning rates transitions among bins
+transition rates assumed form introduced ref
+namely depend exponentially free energy difference between bins prefactor determined diffusion matrix formula bins relative position
+only free parameter model formula free energies already assigned
+following ref
+formula estimated maximizing likelihood unbiased md trajectory 
+model constructed manner designed optimally reproduce long time scale dynamics system
+used example characterizing metastable misfolded intermediates folding process
+advantage using biased trajectories besides acceleration slow transitions greatly enhanced accuracy estimated free energy at transition state regions
+approach first illustrated ace-ala 3-nme peptide
+system simple enough allow benchmarking results against long standard md simulation
+system model capable reproducing excellent accuracy kinetics thermodynamics observed unbiased run
+same approach then applied trp-cage miniprotein
+model built allows describing folding process computing folding rates nmr spectra simulating t-jump experiment etc scenario emerges good agreement available experimental data
+kinetic monte carlo markov cluster analysis several metastable sets identified
+states except folded cluster considered misfolded intermediates folding process
+at 298 k two main clusters present population 58 percent 25 percent respectively
+most populated folded state its structural properties very close nmr ensemble
+second most populated cluster retains significant amount secondary structure but formula native state approximately 4.4
+cluster trp trapped hydrophobic pocket its distance pro12 gly11 reduced
+presence cluster thermal ensemble system explain some anomalies temperature behavior observed nmr uv-raman experiments
+structures most populated misfolded intermediates good agreement unfolded states distances reported ref
+
+using kinetic model fluorescence t-jump experiment also simulated
+agreement experimental results relaxation time 2.3 0.7 s found
+time primarily determined relaxation towards folded state compact molten globule-like structure acts kinetic trap
+relaxation times among all other clusters including transitions between fully unstructured states folded state all sub-microsecond time domain
+thus surprisingly relaxation time measured fluorescence may not directly related folding transition if one calls folding transition random coil native state

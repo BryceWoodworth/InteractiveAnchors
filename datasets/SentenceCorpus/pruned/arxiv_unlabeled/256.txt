@@ -1,0 +1,25 @@
+
+present framework learning multiple related tasks
+our framework form prior knowledge output tasks
+present learning results analyze conditions under learning possible
+present results learning recognition system our framework consistent over methods
+introduction
+when two systems same data certain constraints between their
+form prior knowledge
+propose framework uses information significantly performance one systems
+key idea perform only constraints
+our example paper task recognition
+consider hidden known structure below
+further consider four potential sequences without actual sequence correct
+seems because like should not part
+seems because there also include } not part
+because single should more than one two words
+problems seems
+fact hidden correct
+paper problem prior knowledge into system
+there between our proposed model both given section
+present model our approach perform simple yet analysis section
+analysis allows us define what good constraints
+use example using hidden markov models show method relationship between theory
+finally present results different data sets one comparing our method several section
+see many data sets less than one required performance using sequence algorithm

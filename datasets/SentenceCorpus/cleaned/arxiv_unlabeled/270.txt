@@ -1,0 +1,28 @@
+ 
+work describes method approximating matrix permanents efficiently using belief propagation
+formulate probability distribution whose partition function exactly permanent then use bethe free energy approximate partition function
+after deriving some speedups standard belief propagation resulting algorithm requires time per iteration
+finally demonstrate advantages using approximation
+ introduction 
+permanent scalar quantity computed matrix been active topic research well over century
+plays role cryptography statistical physics where fundamental ising dimer models
+while determinant matrix evaluated exactly sub-cubic time efficient methods computing permanent remained elusive
+since permanent p-complete efficient exact evaluations cannot found general
+best exact methods improve over brute force   include ryser's algorithm requires many arithmetic operations
+recently promising fully-polynomial randomized approximate schemes fpras emerged provide arbitrarily close approximations
+many methods build initial results broder who applied markov chain monte carlo popular tool machine learning statistics sampling perfect matchings approximate permanent
+recently significant progress produced fpras handle arbitrary matrices non-negative entries
+method uses markov chain monte carlo only requires polynomial order samples
+however while methods tight theoretical guarantees they carry expensive constant factors not mention relatively high polynomial running times discourage their usage practical applications
+particular experienced prominent algorithm slower than ryser's exact algorithm any feasible matrix size project only becomes faster around
+remains seen if other approximate inference methods brought bear permanent
+instance loopy belief propagation also recently gained prominence machine learning community
+method exact singly-connected networks trees
+certain special loopy graph cases including graphs single loop bipartite matching graphs bipartite multi-matching graphs  convergence bp been proven
+more general loopy graphs loopy bp still maintains some surprising empirical success
+theoretical understanding convergence loopy bp recently been improved noting certain general conditions its fixed points relating them minima bethe free energy
+article proposes belief propagation computing permanent investigates some theoretical experimental properties
+section  describe probability distribution parameterized matrix similar those described partition function exactly permanent
+section  discuss bethe free energy introduce belief propagation method finding suitable set pseudo-marginals bethe approximation
+section  report results experiments
+then conclude brief discussion

@@ -1,0 +1,17 @@
+ 
+many databases store data relational format different types entities information about links between entities
+field statistical-relational learning srl developed number new statistical models data
+paper focus learning class-level first-order dependencies model general database statistics over attributes linked objects links e g  percentage grades given computer science classes
+class-level statistical relationships important themselves they support applications like policy making strategic planning query optimization
+most current srl methods find class-level dependencies but their main task support instance-level predictions about attributes links specific entities
+focus only class-level prediction describe algorithms learning class-level models orders magnitude faster task
+our algorithms learn bayes nets relational structure leveraging efficiency single-table nonrelational bayes net learners
+evaluation our methods three data sets shows they computationally feasible realistic table sizes learned structures represent statistical information databases well
+after learning compiles database statistics into bayes net querying statistics via bayes net inference faster than sql queries does not depend size database
+ introduction 
+many real-world applications store data relational format different tables entities their links
+standard machine learning techniques applied data stored single table nonrelational propositional ``flat" format
+field statistical-relational learning srl aims extend machine learning algorithms relational data
+one major machine learning tasks use data build generative statistical model variables application domain
+single-table learning setting goal often represent predictive dependencies between attributes single individual e g  between intelligence ranking student
+srl setting goal often represent addition dependencies between attributes different individuals related linked each other e g  between intelligence student difficulty course given student registered course

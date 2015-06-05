@@ -1,0 +1,27 @@
+ 
+previous model-based analysis metabolic network geobacter sulfurreducens suggested existence several redundant pathways
+here identified eight sets redundant pathways included redundancy assimilation acetate conversion pyruvate into acetyl-coa
+equivalent pathways two other sub-optimal pathways were studied using 5 single-gene deletion mutants those pathways evaluation predictive capacity model
+growth phenotypes mutants were studied under 12 different conditions electron donor acceptor availability
+comparison model predictions resulting experimental phenotypes indicated pyruvate ferredoxin oxidoreductase only activity able convert pyruvate into acetyl-coa
+however results modeling showed two acetate activation pathways present not only active but needed due additional role acetyl-coa transferase tca cycle probably reflecting adaptation bacteria acetate utilization
+other cases data reconciliation suggested additional capacity constraints were confirmed biochemical assays
+results demonstrate need experimentally verify activity key enzymes when developing silico models microbial physiology based sequence-based reconstruction metabolic networks
+ introduction 
+geobacter species interest because their natural role carbon mineral cycling their ability remediate organic metal contaminants subsurface their capacity harvest electricity waste organic matter
+geobacter sulfurreducens most commonly investigated species genus because genetic system complete genome sequence whole genome microarrays genome-scale proteomics available
+furthermore functional genomics studies provided insight into mechanisms extracellular electron transport onto important electron acceptors fe oxides electrodes 
+g
+sulfurreducens use either acetate hydrogen sole electron donors fe reduction fumarate malate also used terminal electron acceptors
+understanding acetate metabolism geobacter species required because acetate secreted fermenting organisms dominant electron donor geobacteraceae soils sediments because recent studies shown addition acetate uranium-contaminated aquifers stimulate situ bioremediation uranium contamination geobacter species
+previous studies demonstrated geobacter species closely related desulfuromonas acetoxidans oxidize acetate via tca cycle
+however many other aspects acetate metabolism central metabolism general still poorly understood
+better understand physiology g sulfurreducens constraint-based genome-scale metabolic model was constructed used investigate unique physiology associated reduction extracellular electron acceptors fe
+genome-scale model enabled assessment impact global proton balance during fe reduction biomass energy yields successfully predicted lower biomass yields observed during growth mutant fumarate reductase had been deleted 
+furthermore network reconstruction revealed existence number redundant alternate pathways central metabolism g sulfurreducens
+recent genetic silico studies shown presence redundant metabolic pathways well isozymes enable metabolic networks withstand genetic perturbations
+experimental evidence alternate optimal pathways been observed e coli where four metabolic gene deletion mutants had significantly different metabolic flux distributions but similar overall growth rates
+hence systematic investigation role redundant pathways using silico models provide key insights into properties metabolic networks
+here report coupled computational experimental evaluation potential redundant pathways during acetate metabolism g sulfurreducens
+demonstrate need redundancy acetate assimilation pathways due coupling between tca cycle acetate activation acetyl-coa also inactivity some predicted alternatives pyruvate oxidation acetyl-coa
+also show using information constrain model its predictive capacity improved

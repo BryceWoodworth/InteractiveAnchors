@@ -1,0 +1,23 @@
+ 
+information distance parameter-free similarity measure based compression used pattern recognition data mining phylogeny clustering classification
+notion information distance extended pairs multiples finite lists
+study maximal overlap metricity universality minimal overlap additivity normalized information distance multiples
+use theoretical notion kolmogorov complexity practical purposes approximated length compressed version file involved using real-world compression program
+ introduction 
+pattern recognition learning data mining one obtains information objects containing information
+involves objective definition information single object information go one object another object pair objects information go one object any other object multiple objects shared information between objects
+classical notion kolmogorov complexity objective measure information single object information distance measures information between pair objects
+last notion spawned research theoretical direction among others
+research practical direction focused normalized information distance similarity metric arises normalizing information distance proper manner approximating kolmogorov complexity through real-world compressors  normalized information distance parameter-free feature-free alignment-free similarity measure had great impact applications
+variant compression distance been tested all time sequence databases used last decade major data mining conferences sigkdd sigmod icdm icde ssdb vldb pkdd pakdd
+conclusion method competitive all 51 other methods used superior heterogenous data clustering anomaly detection
+was shown method resistant noise
+theory found many applications pattern recognition phylogeny clustering classification
+objects represented computer files applications range weather forecasting software earthquake prediction music literature ocr bioinformatics internet
+objects only represented name objects like `red,' `einstein,' `three,' normalized information distance uses background information provided google any search engine produces aggregate page counts
+discovers `meaning' words phrases sense producing relative semantics
+applications run ontology semantics tourism web taxonomy multilingual questions question-answer systems
+more references either subject see textbook google scholar references
+however many applications interested shared information between many objects instead just pair objects
+example customer reviews gadgets blogs about public happenings newspaper articles about same occurrence interested most comprehensive one most specialized one
+thus want extend information distance measure pairs multiples

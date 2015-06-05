@@ -1,0 +1,44 @@
+ 
+much recent work bioinformatics focused inference various types biological networks representing gene regulation metabolic processes protein-protein interactions etc
+common setting involves inferring network edges supervised fashion set high-confidence edges possibly characterized multiple heterogeneous data sets protein sequence gene expression etc 
+here distinguish between two modes inference setting: direct inference based upon similarities between nodes joined edge indirect inference based upon similarities between one pair nodes another pair nodes
+propose supervised approach direct case translating into distance metric learning problem
+relaxation resulting convex optimization problem leads support vector machine svm algorithm particular kernel pairs call metric learning pairwise kernel
+demonstrate using several real biological networks direct approach often improves upon state-of-the-art svm indirect inference tensor product pairwise kernel
+ introduction 
+increasingly molecular systems biology concerned describing various types subcellular networks
+include protein-protein interaction networks metabolic networks gene regulatory signaling pathways genetic interaction networks
+while some networks partly deciphered high-throughput experimental methods fully constructing any network requires lengthy biochemical validation
+therefore automatic prediction edges other available data protein sequences global network topology gene expression profiles importance either speed up elucidation important pathways complement high-throughput methods subject high levels noise
+edges network inferred relevant data at least two complementary ways
+concreteness consider network protein-protein interactions derived some noisy high-throughput technology
+our confidence correctness particular edge  network increases if observe example two proteins localize same cellular compartment share similar evolutionary patterns
+generally type direct inference  two genes proteins predicted interact if they bear some direct similarity each other available data
+alternative mode inference call indirect inference  relies upon similarities between pairs genes proteins
+example above our confidence  increases if find some other high-confidence edge  pair resembles some meaningful fashion
+note model two connected proteins might not similar one another
+example if goal detect edges regulatory network using time series expression data one would expect time series regulated protein delayed time compared regulatory protein
+therefore case learning phase would involve learning feature other pairs regulatory/regulated proteins
+most common application indirect inference approach case protein-protein interaction involves comparing amino acid sequences versus e g  
+indirect inference amounts straightforward application machine learning paradigm problem edge inference: each edge example task learn example discriminate between ``true'' ``false'' edges
+not surprisingly therefore several machine learning algorithms been applied predict network edges properties protein pairs
+example context machine learning support vector machines svm kernel methods ben-hur noble describe how map embedding individual proteins onto embedding pairs proteins
+mapping defines two pairs proteins similar each other when each protein pair similar one corresponding protein other pair
+practice mapping defined deriving kernel function pairs proteins kernel function individual proteins obtained tensorization initial feature space
+therefore call pairwise kernel shown below tensor product pairwise kernel tppk): } less attention been paid use machine learning approaches direct inference paradigm
+two exceptions works yamanishi et al vert et al  who derive supervised machine learning algorithms optimize measure similarity underlies direct approach learning examples interacting non-interacting pairs
+yamanishi et al employ kernel canonical correlation analysis embed proteins into feature space where distances expected correlate presence absence interactions between protein pairs
+vert et al highlight similarity approach problem distance metric learning  while proposing algorithm purpose
+both direct inference approaches however suffer two important drawbacks
+first they based optimization proxy function slightly different objective embedding namely finding distance metric interacting/non-interacting pairs fall above/below some threshold
+second methods applicable only when known part network used training defined subset proteins network
+other words order apply methods must complete set high-confidence edges one set proteins infer edges rest network
+setting unrealistic
+practice our training data will generally consist known positive negative edges distributed throughout target network
+paper propose convex formulation supervised learning direct inference paradigm overcomes both limitations mentioned above
+show slight relaxation formulation bears surprising similarities supervised approach  sense amounts defining kernel between pairs proteins kernel between individual proteins
+therefore call our method metric learning pairwise kernel mlpk
+important property formulation svm possibility learn several data types simultaneously combining kernels particular importance various bioinformatics applications
+validate mlpk approach task reconstructing two yeast networks: network metabolic pathways co-complex network
+each case network inferred variety genomic proteomic data including protein amino acid sequences gene expression levels over large set experiments protein cellular localization
+show mlpk approach nearly always provides better prediction performance than state-of-the-art tppk approach

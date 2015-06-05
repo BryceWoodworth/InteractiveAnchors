@@ -1,0 +1,32 @@
+ 
+collective recognition heuristic simple forecasting heuristic bets fact people's recognition knowledge names proxy their competitiveness sports predicts better-known team player wins game
+present two studies predictive power recognition forecasting soccer games analyze previously published results
+performance collective recognition heuristic compared two benchmarks predictions based official rankings aggregated betting odds
+across three soccer two tennis tournaments predictions based recognition performed similar those based rankings when compared betting odds heuristic fared reasonably well
+forecasts based rankings-but not betting odds-were improved incorporating collective recognition information
+discuss use recognition forecasting sports conclude aggregating across individual ignorance spawns collective wisdom
+ introduction 
+thousands bookmakers accepting wagers sporting events around world today betting sports more popular than ever before
+example number bettors uk alone wagered number million british pounds soccer games-placing over number million bets total
+how should bettors bookmakers make forecasts about sporting events
+many different approaches been proposed
+one common denominator muster plenty knowledge-ranging various indicators strength individual players teams information about past outcomes wins losses-and then predict game scores e g number number game outcomes based knowledge
+knowledge about teams players seems indispensable rendering accurate forecasts-statistically informally
+indeed seems absurd assume one successfully predict tennis player will win match if one does not even know most names his her competitors tournament
+one
+surprisingly there mounting evidence contrary thomas carlyle's intuition collective wisdom individual ignorance genuinely exists
+instance recent study ranks tennis players performing wimbledon number tournament-based how often they were recognized number amateur tennis players-predicted match winners better than atp entry ranking
+wisdom ignorant crowds one among several examples sports surprising predictive power simple heuristics forgo exploitation ample amounts knowledge
+fact simple forecasting mechanisms compete even outperform more sophisticated ones no means new insight
+finding however been repeatedly met resistance not widely put use not yet made into popular textbooks example econometrics see hogarth press
+one reason may intuitive appeal accuracy-effort trade-off less information computation time one uses less accurate one's judgments will
+trade-off believed one few general laws human mind violations law seen odd exceptions
+domain forecasting sports events indeed difficult judge what simple forecasting strategies outperform more complex ones simply because dearth data
+recent review goldstein gigerenzer noted there need test relative performance heuristics experts complex forecasting methods more systematically over years rather than few arbitrary championships p number
+focusing predictive power collective recognition ignorance sports paper contributes literature four ways
+first presents two new studies predictive power recognition forecasting soccer games
+two studies will show what extent previous results replicated
+second compares predictive power recognition two studies previously published research against two benchmarks all tournaments predictions based official rankings e g fifa soccer aggregated betting odds
+third investigate whether forecasts based rankings betting odds improved incorporating collective recognition information
+fourth investigate performance recognition-based heuristic relies recognition individual names rather than category names e g names soccer players instead names soccer team itself
+last but not least let us emphasize our investigation collective recognition domain sports should not taken mean power collective recognition restricted domain

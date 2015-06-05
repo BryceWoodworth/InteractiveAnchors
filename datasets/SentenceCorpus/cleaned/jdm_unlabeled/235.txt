@@ -1,0 +1,61 @@
+ 
+article broad perspective incorporating elements time series theory presented conceptualizing data obtained multi-trial judgment experiments
+recent evidence suggests sequential context effects assimilation contrast commonly found psychophysical judgment tasks may present judgments magnitudes
+time series approach analyzing single-subject data developed applied expert prognostic judgments risk heart disease emphasis detecting possible sequential context effects
+results demonstrate sequential context effects do exist expert prognostic judgments
+contrast assimilation were produced cue series latter occurring more frequently
+experts also showed assimilation prior responses was independent cue series input
+time series analysis also revealed abrupt large trial-by-trial changes value cues receive most attention prognostic judgment tasks disrupt accuracy judgments
+findings suggest time series approach useful alternative ordinary least squares regression providing additional insights into cognitive processes operating during multi-cue judgment experiments
+ introduction 
+many judgment experiments may viewed involving two time series series stimuli presented experimenter series responses provided subject
+over years various theories human judgment been proposed
+one thing all theories common they been being developed using single-subject repeated measures experiments
+whether judgment data modeled using multiple regression typical judgment analysis paradigm often associated social judgment theory single-subject anova forms foundation information integration theory conjoint analysis fast frugal heuristics take best matching heuristic data obtained presenting subject series stimuli judged recording series responses
+idiographic designs analysis their ensuant data focus article
+contrast assimilation psychological processes involving sequential context judgments made
+variety psychophysical judgment paradigms employing large numbers trials e g absolute relative magnitude scaling tasks absolute relative identification tasks sequential context effects frequently observed
+assimilation occurs when response given stimulus intensity tends larger when immediately preceding stimulus greater intensity than current stimulus tends smaller when preceding stimulus intensity less than current stimulus
+contrast occurs when response given stimulus intensity tends smaller when immediately preceding stimulus greater intensity than current stimulus tends larger when preceding stimulus intensity less than current stimulus
+decarlo cross discuss various theoretical models psychophysical judgment been proposed explain sequential context effects magnitude scaling experiments show how evaluated using time series regression
+one class models referred relative judgment models subject portrayed comparing value current stimulus value stimulus preceding trial rather than some fixed internal reference
+stewart et al discuss relative judgment models absolute identification tasks
+another class models suggests sequential context effects result response heuristic tendency subject face uncertainty guess direction his her previous response
+point consideration sequential context effects may arise because internal representation current stimulus affected previous stimulus because tendency under uncertainty provide response based previous response
+question whether similar sequential context effects operate expert judgment tasks
+expert prognostic judgments clinician's estimate likelihood patient will suffer heart attack future based current signs symptoms been studied judgment researchers employing multiple regression analysis
+illustrate how sequential context effects might manifest themselves let us examine what could happen single dichotomous cue
+example consider clinician faced prognostic task estimating patient's risk coronary heart disease chd say cue question whether not patient diabetes
+situation described assimilation if judgment chd risk patient diabetes tends lower when immediately preceding patient does not diabetes judgment chd risk patient without diabetes tends higher when preceding patient diabetes
+alternatively situation described contrast if judgment chd risk patient diabetes tends higher when immediately preceding patient does not diabetes judgment chd risk patient without diabetes tends lower when preceding patient diabetes
+psychophysical judgment tasks magnitude scaling observed response provided subject interpreted estimate sensory magnitude associated given unidimensional stimulus intensity
+multi-cue judgment tasks where there not necessarily objective stimulus intensity scaled response provided subject may interpreted differently
+judgment tasks observed response may interpreted estimate integrated judgment along more subjective continuum patient-risk chd
+vlaev chater asked whether contrast assimilation observed psychophysical judgments would operate when people make estimates more magnitudes
+they examined estimates cooperativeness made series strategic choice decisions i e prisoner's dilemma games
+their experiment playing random sequence number cooperative uncooperative games produced greater mean differences cooperation rates number percent vs number percent when compared conditions composed number cooperative games followed number uncooperative games number percent vs number percent vice versa number percent vs number percent
+differences were analyzed using anova aggregated responses
+authors interpreted significant interaction support trial-by-trial local contrast effects
+current article investigates whether sequential context effects operate expert prognostic tasks but takes different theoretical analytical approach
+when sequential context effects associated cue multi-cue judgment task observed they here interpreted mean cue's influence represented its beta weight altered values cue takes over consecutive trials
+assimilation means when cue values trials t t number different cue's influence smaller than when cue values trials same
+contrast means when cue values trials t t number different cue's influence larger than when cue values trials same
+although interpretation may sound odd psychophysicist consistent traditional methods demonstrating sequential context effects
+example one way demonstrating effects plot mean response stimulus value current trial function differences between stimulus value current immediately preceding trial
+figure number example plot using data two clinicians who participated judgment task wherein they estimated number patients' risk chd based eight cues task will described detail below
+here focus diabetes cue illustration
+each subject's responses were analyzed separately converted standardized scores allow direct comparison
+subject number squares solid line shows assimilation mean rating risk current patient biased toward diabetes status prior patient
+subject number triangles dashed line shows contrast mean ratings biased away diabetes status prior patient
+each subject's responses were also analyzed separately using multiple regression diabetes was coded number if present number if absent
+table number shows some results
+first when responses all number trials were analyzed both subjects shows roughly same size partial beta weights diabetes cue
+when data categorized according values diabetes cue consecutive trials re-analyzed see how beta weight each subject changes when assimilation contrast takes place
+although regression analyses illustrate cue's influence changes when assimilation contrast take place approach flawed because its piecemeal nature data two subsets trials been analyzed separately
+better approach would analyze data all trials simultaneously
+time series analysis used test hypotheses sequential context effects operating series responses obtained single subject
+specific models constructed isolate sequential context effects produced cue stimulus series those operating independently judgment response series
+present article time series approach developed extending ideas discussed context psychophysical research cover multi-cue judgment tasks
+before preceding discuss application time series analysis broad perspective position time series theory methods psychological research needed
+next section attempt provide perspective
+following discourse illustrative application presented emphasis detecting possible sequential context effects operating expert prognostic judgments risk heart disease

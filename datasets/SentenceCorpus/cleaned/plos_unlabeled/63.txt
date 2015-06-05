@@ -1,0 +1,85 @@
+ 
+understanding intracellular molecular machinery responsible complex collective behavior multicellular populations exigent problem modern biology
+quorum sensing allows bacteria activate genetic programs cooperatively provides instructive tractable example illuminating causal relationships between molecular organization gene networks complex phenotypes they control
+work our knowledge first time present detailed model population-wide transition quorum sensing using example agrobacterium tumefaciens
+construct model describing ti plasmid quorum-sensing gene network demonstrate behaves off gene expression switch robust molecular noise activates plasmid conjugation program response increase autoinducer concentration
+intracellular model then incorporated into agent-based stochastic population model also describes bacterial motion cell division chemical communication
+simulating transition quorum sensing liquid medium biofilm explain experimentally observed gradual manifestation quorum-sensing phenotype showing transition individual model cells into state spread stochastically over broad range autoinducer concentrations
+at same time population-averaged values critical autoinducer concentration threshold population density shown robust variability between individual cells predictable specific particular growth conditions
+our modeling approach connects intracellular population scales quorum-sensing phenomenon provides plausible answers long-standing questions regarding ecological evolutionary significance phenomenon
+thus demonstrate transition quorum sensing requires much higher threshold cell density liquid medium than biofilm basis hypothesize agrobacterium quorum sensing serves detector biofilm formation
+ introduction 
+molecular networks integrate signal transduction gene expression into unified decision circuitry ultimately responsible realization all life activities biological cells including internal developmental programs responses environmental factors
+one main challenges systems biology uncover understand relationships between properties molecular circuits macroscopic cellular phenotypes controlled them
+particularly important phenotypes involving interaction cooperative action multiple cells
+mapping networks onto phenotypes still difficult accomplish multicellular eukaryotic organisms owing their staggering complexity
+less complex more experimentally accessible prokaryotic organisms became systems choice dissecting social behavior at genetic level
+phenomenon bacterial quorum sensing gives us particularly unique opportunity follow causal relationships molecular circuitry cooperative population dynamics
+qs refers ability bacterial populations collectively activate certain gene expression programs e.g toxin release antibiotic production once some critical population density been reached
+qs found vast variety bacterial species been extensively studied experimentally
+gram-negative bacteria qs phenomenon usually controlled small gene expression network functions environmentally activated off gene expression switch whose operation analogous radar
+at low cell density normally corresponds off switch state key transcription factor required expression proteins responsible phenotype suppressed
+at same time cell steadily produces small amount qs signaling molecule termed autoinducer freely diffuse out cell
+while population density low most autoinducer molecules washed out dispersed environment diffusion
+cell density grows more molecules autoinducer enter bacterium outside
+once certain cell quorum reached inbound autoinducer signal triggers transition qs network state resulting production transcription factor expression target genes
+transition both intracellular population-wide scales focus our study
+investigate phenomenon qs soil-dwelling plant pathogen agrobacterium tumefaciens causative agent crown gall disease
+bacteria species often harbor ti plasmids endow their hosts unique ability genetically modify susceptible plants through cross-kingdom dna transfer
+like many other soil bacteria agrobacterium chemotactic exudates released plant wounds capable catabolizing various nutrients leave injured plant roots
+once bacteria form physical contact surface wound ti plasmids offer their hosts extraordinary advantage over their plasmidless competitors
+fragment plasmid termed vir region injected into plant cell form virion-like complex stably incorporated into plant genome
+one imported genes responsible synthesis opines class low-molecular-weight nitrogen-rich metabolites utilized nutrient only bacteria harbor ti plasmid
+other transferred genes cause vigorous proliferation infected plant cells eventually results formation characteristic gall tumor
+once productive infection established ti plasmids attempt propagate themselves into plasmidless bacteria same related species means genetic conjugation
+been shown conjugal transfer ti plasmids requires qs phenomenon 
+functional significance qs control ti plasmid conjugation remains ecological evolutionary puzzle
+widely believed qs controls processes production toxins antibiotics either inefficient devoid adaptive value if not performed population scale
+thus fact establishment qs upstream initiation conjugation seems imply plasmids await critical density donors collectively begin transfer recipients
+since multiple donors cannot cooperate dna transfer necessity collective action does not seem relevant our case
+instead increase probability successful conjugation would appear beneficial exceed certain number recipients per donor
+however density plasmidless recipients cannot estimated using qs since they do not produce autoinducer
+seemingly paradoxical situation may imply our understanding biological function qs not yet complete
+indeed alternative function qs sensor volume enclosing bacteria also been proposed
+answer what bacteria really measure using qs each particular situation necessary consider ecologically relevant conditions bacterial growth 
+experimental approach problem often complicated technical difficulty work real ecosystems
+other hand mathematical modeling significantly aid complement experimental methods answering biological questions involve spatial temporal scales qs phenomenon
+some aspects either intracellular population dynamics been mathematically modeled gain insight into qs phenomenon pseudomonas aeruginosa vibrio fischeri
+however because lack detailed molecular information experimentally testable conclusions connections between intracellular population dynamics rarely been made
+here develop multi-level modeling approach describes both intracellular population-wide dynamics allows us follow connections between them explicitly
+although much been learned about molecular details agrobacterium qs network not always clear what functions they perform
+here construct detailed model qs network agrobacterium analyze both quantitatively qualitatively
+demonstrate network possesses properties off gene expression switch robust molecular noise
+further develop population-scale model incorporates bacterial motion cell division chemical communication while explicitly considering individual intracellular dynamics each cell
+allows us describe transition qs both cellular population scales quantitatively predict values critical autoinducer concentration threshold cell density functions various intracellular environmental parameters
+finally comparing feasibility transition qs homogeneous medium biofilm present hypothesis explaining ecological evolutionary roles qs regulation ti plasmid conjugal transfer
+all genes thought constitute qs network located ti plasmid itself
+entire qs network controlled upstream availability plant-produced opines ensure energetically expensive conjugation machinery activated only after establishment successful plant wound infection
+based chemical nature encoded opines ti plasmids divided into two major types consider only octopine type
+reconstructed layout qs network octopine-type ti plasmids published experimental data
+plasmid class octopine molecules imported through cell wall eventually cause activation transcription operon occ
+model assume octopine constitutively available at saturating concentration results maximal rate occ transcription
+last open reading frame operon codes qs transcription activator trar
+binding trar its cognate autoinducer thought occur only within narrow window time during trar mrna translation when newly formed protein chain tightly winds around single molecule agrobacterium autoinducer
+total engulfment aai molecule makes formation trar aai complex practically irreversible
+furthermore trar protein translated absence aai misfolded insoluble unable bind aai
+important consequence rate production trar depends concentrations trar mrna aai does not depend accumulation misfolded trar protein explicitly shown figure 1
+once formed trar quickly dimerizes form stable transcriptionally active trar dimer relatively short half-life 35 min
+trard capable activating number operons encode proteins necessary conjugation
+first open reading frame trb operon codes acyl-homoserine lactone synthetase trai utilizes two metabolites abundant bacterial cell create aai
+since our model considers transition qs mostly nutrient-rich stress-free conditions optimized growth medium assume substrates trai present excess their concentrations do not limit rate aai production
+both trar trai were shown expressed at some low constitutive rate even absence octopine
+trar trai couple constitutes classic qs positive feedback loop found many gram-negative bacteria
+additional feedback loops also involve other components qs network specific agrobacterium
+thus negative control qs provided antiactivator tram whose transcription directly activated trard
+tram effectively sequesters trard through formation very stable complex trard unable bind dna
+recently number authors reported like trar tram also forms dimer
+stoichiometry reaction between trar tram however remains controversial
+our model follow original hypothesis swiderska et al assumes complex consists one trard one monomer tram
+hypothesis partially supported chen et al who showed tram dimer must dissociate form complex trar
+under assumptions disregard dimerization tram not affecting network behavior
+additional positive feedback loop arises because trard activates transcription msh operon suboperon occ contains trar itself
+several lines evidence suggest active transporters facilitate traffic qs signaling molecules through cell wall number bacterial species including agrobacterium
+our model explore hypothesis aai imported environment active pump also under transcriptional control trard
+indeed msh operon contains five open reading frames encode putative abc-type importer whose function not completely understood but been hypothesized active transporter aai into cell
+taking into consideration uncertainty putative aai importer model denoted simply imp

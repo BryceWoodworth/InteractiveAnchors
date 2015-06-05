@@ -1,0 +1,31 @@
+
+classification method presented first then energy function
+outcome fixed independent number many
+methods applied context learning
+introduction
+field numbers interest classification because its structure
+amount work finding data representation e g \
+use more general numbers data was order able include case into without having larger number
+was applied special case data words over given where words defined length common initial part
+there clustering algorithm was described
+however question finding optimal data was not
+performance classical classification algorithms was compared
+was observed ones were often more efficient
+learning algorithms using neural networks described
+our main article will adaptation method data
+authors where described first
+their method find then group data
+next step more clusters obtained
+process class number
+data approach does not make first all general not because determined data arbitrary choice not lead
+hence first find direction energy reduction class number bound
+they energy
+result method classification given into its
+first all i e \ clusters energy below threshold value
+choice out useful % efficient
+first application some methods described here event history data described
+there classification algorithm performed different data order compare dynamics some
+after section describe classical method section
+section task setting corresponding algorithms
+issue choice section
+section adaptive learning method clusters large energy

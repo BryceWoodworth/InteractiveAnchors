@@ -1,0 +1,24 @@
+
+analysis datasets including species field populations so far application systems biology approaches
+if could our understanding how populations organisms environmental example
+here describe first application network inference approach metabolic information populations at different
+identified network whose activity was predictive environmental represented between molecular
+represented both known novel outcome pathways several aspects human
+at molecular level pathways were vegf
+more generally study important applied model molecular mechanisms adaptation wide range scenarios populations
+introduction
+responses organisms environment important both terms understanding its potential impact global health
+although computational systems been application systems biology approaches organisms general due limited sequence information relevant species
+moreover number samples information available often limited there may lack relevant physiological
+thus effective finding responses organisms model experiments but environment greater present complex responses will dependent upon natural life history other environmental factors
+relatively few studies upon
+although previously shown expression response genes could used environmental sampling sites different underlying little health outcomes molecular differences
+context molecular mechanisms responses data approach been so studies model organisms highly field studies
+novel network inference strategy based integration measurements populations environmental
+provides useful model network biology approach generally species way study mechanisms organisms environment
+our towards molecular networks populations environments including significantly
+study measurements samples characterized using analysis sampling sites
+previous studies shown both higher together levels dna at sites
+data integration was systems biology framework network sequence information integration datasets within framework network inference identification network predictive physiological responses
+networks identified demonstrate between human environmental effects well potentially novel adaptation mechanisms
+application network biology approaches other species environment therefore likely change our understanding how systems likely complex environments

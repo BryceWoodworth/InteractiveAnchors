@@ -1,0 +1,27 @@
+
+present algorithm solve complex prediction problems those occur natural computational biology complex problems into simple classification problems any binary classifier may applied
+current algorithms learning require both loss function feature functions over predicted structure able learn prediction functions any loss function any class features
+moreover strong natural theoretical good performance derived classification problems good performance prediction problem
+introduction
+prediction task learning function input domain output domain
+standard vector decision neural networks etc
+focus output domains case binary classification case regression
+problems elements complex structure
+best studied output domain sequences
+however even more complex domains space instance machine application space short application space possible elements database information application
+complexity features loss functions problems significantly sequence problems
+high level there four along prediction algorithms structure structure efficient learning possible loss different loss functions learning possible features feature functions learning possible data ability algorithm data sources data etc
+alternative prediction algorithms given section
+however give popular random field algorithm along follows
+inference any model tree typically approximation loss over any feature input possible but only output features model structure hidden variables
+prediction algorithm not limited models any loss function arbitrary features data
+all prediction problems into binary prediction problems binary classifier applied strong theoretical good binary classification performance good prediction performance
+simple applications standard prediction problems performance
+moreover apply more complex prediction problems achieve empirical performance
+paper following introduction
+core
+algorithm
+theoretical analysis
+comparison alternative techniques
+experimental results
+

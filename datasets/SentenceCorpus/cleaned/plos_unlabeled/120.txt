@@ -1,0 +1,40 @@
+ 
+one major goals structural genomics projects determine three-dimensional structure representative members many different fold families possible
+comparative modeling expected fill remaining gaps providing structural models homologs experimentally determined proteins
+however approach successful essential quality experimentally determined structures adequate
+attempt build homology model protein dynein light chain 2a found two potential templates both experimentally determined nuclear magnetic resonance structures originating structural genomics efforts
+despite their high sequence identity folds two structures markedly different
+urged us perform in-depth analyses both structure ensembles deposited experimental data results clearly identify one two models largely incorrect
+next analyzed quality large set recent nmr-derived structure ensembles originating both structural genomics projects individual structure determination groups
+unfortunately visual inspection structures exhibiting lower quality scores than dlc2a reveals seriously flawed dlc2a structure not isolated incident
+overall our results illustrate quality nmr structures cannot reliably evaluated using only traditional experimental input data overall quality indicators reference clearly demonstrate urgent need tight integration more sophisticated structure validation tools nmr structure determination projects
+contrast common methodologies where structures typically evaluated whole tools should preferentially operate per-residue basis
+ introduction 
+experimentally determined three-dimensional structures biomolecules form foundation structural bioinformatics any structural analysis would impossible without them
+two main techniques available biomolecular structure determination: x-ray crystallography nuclear magnetic resonance spectroscopy
+important realize all resulting structure models derived their underlying experimental data
+unfortunately any experiment thus any structure model will errors associated
+random errors depend precision experimental measurements propagated precision final models
+systematic errors mistakes often result errors interpretation experimental data relate directly accuracy final structure models
+example nmr spectroscopy errors introduced misassignment spectral signals; x-ray crystallography errors most likely made when protein structure positioned electron density 
+several studies shown not all experimentally determined biomolecular structure models equally high quality
+many different types errors identified protein structures ranging too tightly restrained bond lengths angles molecules exhibiting completely incorrect fold
+where former type errors often does not large consequences analysis structure typically easily remedied refinement proper force field latter renders structure model completely useless all practical purposes
+throughout years several errors been uncovered protein data bank often resulted replacement incorrect models improved ones
+typical example incorrectly folded structure model first crystal structure photoactive yellow protein
+structure was solved initially 1989 deposited under now obsolete pdb entry 1phy
+updated model released 6 y later showed original model electron density had been misinterpreted
+similar chain tracing problems led incorrect model dd-peptidase was corrected 10 y later when structure was solved again but now at higher resolution 
+also structures determined using nmr spectroscopy cases known where reevaluation experimental data often prompted publication corresponding structure resulted replacement structures pdb
+well-known example original nmr structure oligomerization domain p53
+dimer dimers difference orientation two dimers was observed between nmr crystal structure latter published shortly after nmr structure
+reexamination nuclear overhauser enhancement data led identification three misinterpreted peaks original p53 noe assignments inclusion several new noes resulting revision original pdb entry
+similar low number misinterpreted noe signals resulted largely incorrect fold anti factor asia
+case was not until second solution structure asia was published experimental data original asia structure were reexamined assignment errors were discovered 
+paper describe detailed analysis two recently released nmr structures protein dynein light chain 2a one human one mouse
+both structures originate large structural genomics initiatives: structure human dlc2a was determined northeast structural genomics consortium mouse variant was determined center eukaryotic structural genomics
+despite 96 percent sequence identity large structural differences observed between two ensembles; unexpected extremely unlikely result
+using deposited experimental data show only 1y4o structure ensemble correct
+subsequently analyze both ensembles using various structure data validation methods show erroneous structure ensemble could been identified prior deposition
+finally validate large set protein nmr structures were released pdb period 2003 2005 show dlc2a example does not stand its own but more errors magnitude found
+conclude some suggestions how future large errors identified during structure determination process using readily available validation software

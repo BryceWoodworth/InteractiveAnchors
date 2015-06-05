@@ -1,0 +1,31 @@
+ 
+cortico-basal ganglia-thalamocortical circuits severely disrupted dopamine depletion parkinson's disease leading pathologically exaggerated beta oscillations
+abnormal rhythms found several circuit nodes correlated movement impairments but their neural basis remains unclear
+here used dynamic causal modelling 6-hydroxydopamine-lesioned rat model pd examine effective connectivity underlying spectral abnormalities
+acquired auto-spectral cross-spectral measures beta oscillations local field potential recordings made simultaneously frontal cortex striatum external globus pallidus subthalamic nucleus used data optimise neurobiologically plausible models
+chronic dopamine depletion reorganised cortico-basal ganglia-thalamocortical circuit increased effective connectivity pathway cortex stn decreased connectivity stn gpe
+moreover contribution analysis parkinsonian circuit distinguished between pathogenic compensatory processes revealed how effective connectivity along indirect pathway acquired strategic importance underpins beta oscillations
+modelling excessive beta synchrony pd findings provide novel perspective how altered connectivity basal ganglia-thalamocortical circuits reflects balance between pathogenesis compensation predicts potential new therapeutic targets overcome dysfunctional oscillations
+ introduction 
+parkinson's disease degeneration midbrain dopamine neurons severely disrupts neuronal activity looping circuits formed cortico-basal ganglia thalamocortical connections  studies shown excessive oscillations at beta frequencies key pathophysiological feature parkinsonian circuits when recorded at level unit activity and/or local field potentials several key circuit nodes
+nodes include frontal cortex subthalamic nucleus external globus pallidus internal globus pallidus  suppression pathological beta-activity achieved dopamine replacement therapies surgical treatments e.g high-frequency deep brain stimulation stn; where prolonged attenuation after stimulation observed  bradykinesia rigidity primary motor impairments associated beta activity following dopamine replacement therapies improvements motor deficits correlate reductions beta power  moreover recent report shown stimulating stn at beta frequencies exacerbates motor impairments parkinsonian rodents  line similar findings pd patients 
+precisely how dopamine depletion leads abnormal beta power unknown
+recent work rodents revealed excessive beta-activity emerges cortex stn after chronic dopamine loss but not after acute dopamine receptor blockade  here examine whether changes effective connectivity between nodes cortico-basal ganglia-thalamocortical network account enhanced beta oscillations following chronic dopamine loss
+test hypothesis used dynamic causal modelling
+approach allows one characterise distributed neuronal architectures underlying spectral activity lfps
+dcm framework fitting differential equations brain imaging data making inferences about parameters models using bayesian approach
+range differential equation models been developed various imaging modalities output data features
+current library dcms includes dcm fmri dcm event related potentials dcm steady state responses
+current paper based dcm-ssr designed fit spectral data features 
+using spectral data recorded simultaneously multiple basal ganglia nuclei somatic sensory-motor cortex asked whether systematic changes re-entrant neural circuits produce excessive beta oscillations observed lfps recorded 6-hydroxydopamine lesioned rat model pd  inverted models using lfp data collected simultaneously electrodes implanted frontal cortex striatum gpe stn
+specifically used neural mass models characterise main projection cell types at each circuit node glutamatergic gabaergic
+neural mass models describe neuronal dynamics terms average neurophysiological states over populations neurons
+inference effective connectivity differences observed between parkinsonian control cases was based posteriori estimates connectivity synaptic parameters
+using estimates characterised sensitivity beta oscillations changes particular connection strengths identify candidate connections may represent therapeutic targets idiopathic pd
+measures functional connectivity been applied previously examine frequency-specific signal correlations between nodes cortico-basal ganglia-thalamocortical network
+measures highlighted excessive coupling between cortex stn between stn gpe animal models pd while functional connectivity effective connectivity measures share some technical aspects e.g likelihood models bayesian estimators  underlying concepts fundamentally different  distinction between functional connectivity effective connectivity emerged analysis electrophysiological time series: aertsen et al  used term effective connectivity define neuronal interactions could explain observed spike trains using minimum simple neuronal model
+what follows employ minimum model approach using key elements known cortico-basal-ganglia-thalamocortical interactions
+our model predicts output loop circuit vivo where assume observed responses caused interactions among neuronal populations sources known neurotransmitters directed connections
+starting point analyses effective connectivity paper end point classical functional connectivity analyses; namely observed cross-spectral densities
+other words place special emphasis explaining how functional connectivity emerges terms directed connections rest particular model neuronal interactions
+what follows illustrate approach when applied directed circuitry cortico-basal ganglia-thalamocortical system

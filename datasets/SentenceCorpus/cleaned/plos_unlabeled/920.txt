@@ -1,0 +1,38 @@
+ 
+allosteric proteins bind effector molecule at one site resulting functional change at second site
+hypothesize allosteric communication proteins relies upon networks quaternary tertiary motions
+argue cyclic topology networks necessary allosteric communication
+automated algorithm identifies rigid bodies displacement between inactive active structures constructs quaternary networks rigid bodies substrate effector ligands
+then integrate quaternary networks coarse-grained representation contact rearrangements form global communication networks
+gcn reveals allosteric communication among all substrate effector sites 15 18 multidomain multimeric proteins while tertiary quaternary networks exhibit communication only 4 3 proteins respectively
+furthermore 7 15 proteins connected gcn 50 percent more substrate-effector paths via gcn interdependent paths do not exist via either tertiary quaternary network
+substrate-effector pathways typically not linear but rather consist polycyclic networks rigid bodies clusters rearranging residue contacts
+results argue broad applicability allosteric communication based structural changes demonstrate utility gcn
+global communication networks may inform variety experiments allosteric proteins well design allostery into non-allosteric proteins
+ introduction 
+modern concept allostery began models monod et al koshland et al sought account allostery based upon gross properties transition between two well-defined end-states
+more recent thermodynamic models allostery characterize population shifts conformational ensembles more detail there experimental evidence alternate allosteric states simultaneously populated solution
+nonetheless mechanical chemical transitions individual molecules underlie thermodynamic properties allosteric proteins
+individual molecules energetic pathways spatially contiguous physically coupled structural changes and/or dynamic fluctuations must link substrate effector sites 
+crystal structures revealed most allosteric proteins complex systems both tertiary quaternary structural changes
+previously quantified allosteric communication through tertiary structure graphs residue-residue contacts form break rearrange transition between inactive active state structures
+network representations protein structure putative paths between residues distant three-dimensional space readily identified
+tertiary networks contact rearrangement networks identified substrate-effector paths 6 15 proteins tested indicated tertiary changes play significant but incomplete role allosteric communication
+work broaden crn approach toward more completely quantifying allosteric coupling mechanisms structure
+specifically develop network representation quaternary structural changes integrate representation crn
+seek infer information about allosteric coupling mechanism gross properties differences between inactive active structures
+our work resembles mwc knf approaches but differs investigations kinetic mechanism order events transition between inactive active structural regimes
+most current computational approaches large-scale protein dynamics predict motions and/or associated energetics applying structure theoretical models like elastic network potential functions
+while predictions address important problems most approaches do not predict allosteric pathways
+contrast problems will argue allosteric pathway identification facilitated network representation protein structural transition
+network representations protein structures previously been used illuminate dynamic and/or allosteric properties
+example large-scale fluctuations predicted normal mode analysis elastic network correlate known conformational changes
+addition rigid flexible regions protein structures been predicted network contact hydrogen bond constraints single protein structure
+furthermore residues important maintaining short paths contact network experimentally known mediate signaling proteins
+however allosteric communication pathways not previously been derived network representation quaternary structural transition
+paper develop hypothesis allosteric coupling via networks quaternary motions
+elucidate rigid bodies differences between inactive active crystal structures automatic algorithm form quaternary network rigid bodies based contacts between them
+toward broader representation allosteric communication mechanisms assess how communication through networks relates through contact rearrangement networks tertiary structure
+then integrate quaternary networks coarse-grained representation crns form global communication networks
+describe range topologies gcns several representative proteins allosteric benchmark set then assess substrate-effector communication via crns quaternary network gcn 18 dna-binding proteins enzymes classify each protein based respective tertiary quaternary contributions connectivity
+gcn analysis provides opportunity advance theory mechanical allosteric coupling proteins may guide drug design allosteric experiments simulations

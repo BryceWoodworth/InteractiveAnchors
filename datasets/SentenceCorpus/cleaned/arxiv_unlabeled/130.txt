@@ -1,0 +1,31 @@
+ 
+statistical learning theory chiefly studies restricted hypothesis classes particularly those finite vapnik-chervonenkis vc dimension
+fundamental quantity interest sample complexity: number samples required learn specified level accuracy
+here consider learning over set all computable labeling functions
+since vc-dimension infinite priori uniform bounds number samples impossible let learning algorithm decide when seen sufficient samples learned
+first show learning setting indeed possible develop learning algorithm
+then show however bounding sample complexity independently distribution impossible
+notably impossibility entirely due requirement learning algorithm computable not due statistical nature problem
+ introduction 
+suppose trying learn difficult classification problem: example determining whether given image contains human face whether mri image shows malignant tumor etc
+may first try train simple model small neural network
+if fails may move other potentially more complex methods classification support vector machines different kernels techniques apply certain transformations data first etc
+conventional statistical learning theory attempts bound number samples needed learn specified level accuracy each above models e g \ neural networks support vector machines
+specifically enough bound vc-dimension learning model determine number samples use
+however if allow ourselves change model then vc-dimension overall learning algorithm not finite much statistical learning theory does not directly apply
+accepting much time complexity model cannot priori bounded structural risk minimization explicitly considers hierarchy increasingly complex models
+alternative approach one follow paper simply consider single learning model includes all possible classification methods
+consider unrestricted learning model consisting all computable classifiers
+since vc-dimension clearly infinite there no uniform bounds independent distribution target concept number samples needed learn accurately
+yet still want guarantee desired level accuracy
+rather than deciding number samples priori natural allow learning algorithm decide when seen sufficiently many labeled samples based training samples seen up now their labels
+since above learning model includes any practical classification scheme term universal pac learning
+first show there computable learning algorithm our universal setting
+then order obtain bounds number training samples would needed consider measuring sample complexity learning algorithm function unknown correct labeling function i e \ target concept
+although correct labeling unknown sample complexity measure could used compare learning algorithms speculatively: ``if target labeling were learning algorithm requires fewer samples than learning algorithm "
+asking what largest sample size needed assuming target labeling function certain class could compare sample complexity universal learner learner over restricted class e g \ finite vc-dimension
+however prove impossible bound sample complexity any computable universal learning algorithm even function target concept
+depending distribution any bound will exceeded arbitrarily high probability
+impossibility distribution-independent bound entirely due computability requirement
+indeed show there uncomputable learning procedure bound number samples queried function unknown target concept independently distribution
+our results imply computable learning algorithms universal setting must ``waste samples" sense requiring more samples than necessary statistical reasons alone

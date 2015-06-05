@@ -1,0 +1,40 @@
+ 
+recent breakthrough bshouty et al  2005 obtained first passive-lear\-ning algorithm dnfs under uniform distribution
+they showed dnfs learnable random walk noise sensitivity models
+extend their results several directions
+first show thresholds parities natural class encompassing dnfs cannot learned efficiently noise sensitivity model using only statistical queries
+contrast show cyclic version random walk model allows learn efficiently polynomially weighted thresholds parities
+also extend algorithm bshouty et al case unions rectangles natural generalization dnfs
+ introduction 
+learning boolean formulae disjunctive normal form dnf been central problem computational learning theory literature since valiant's seminal paper pac learning
+ was shown dnfs learned using membership queries form active learning
+jackson's algorithm also known harmonic sieve \hs uses clever combination two fundamental techniques learning harmonic analysis boosting
+use harmonic analysis study boolean functions was introduced
+was subsequently used basis learning algorithm circuits
+harmonic analysis used \hs\ algorithm based parity-finding algorithm goldreich levin  was first applied learning problem kushilevitz mansour
+hypothesis boosting technique reduce classification error learning algorithm was introduced schapire
+boosting algorithm used \hs\ actually due freund
+recent breakthrough bshouty et al  obtained first passive learning algorithm dnfs
+their algorithm based modification \hs\ focuses low-degree fourier coefficients
+variant \hs called bounded sieve \bs was first obtained
+ \bs\ was used learn dnfs under uniform distribution two natural passive learning models
+first one random walk model where examples instead being iid  follow random walk boolean cube see also related work
+second model closely related noise sensitivity model where time examples come pairs second instance being noisy version first one
+results interesting they give learning algorithm dnfs case where observer no control over examples provided
+however problem learning dnfs under uniform distribution when examples iid
+still remains open
+known dnfs cannot learned more restrictive statistical query model introduced  where one ask only about statistics over random examples
+jackson also showed \hs\ applies thresholds parities top class express dnfs decision trees only polynomial increase size extended his algorithm non-boolean case unions rectangles generalization dnfs where 
+whether those classes functions learned random walk noise sensitivity models was left open
+our contribution threefold
+first show tops cannot learned noise sensitivity model using statistical queries sqs
+far know first example negative result ``second-order'' statistical queries i e queries pairs examples
+does not rule out possibility learning tops random walk model although provides evidence techniques cannot easily extended case
+other hand show simple variant random walk model where component updates follow fixed cycle allows learn tops efficiently
+seems first not-too-contrived passive model tops efficiently learnable respect uniform distribution
+actually one perform harmonic sieve cyclic random walk model also show model strictly weaker than active setting under standard cryptographic assumption
+finally extend techniques non-boolean domain use learn unions rectangles noise sensitivity random walk models
+last result turns out rather straightforward once proper analogues boolean case found
+section introduce learning models give brief review fourier analysis
+negative result learning tops derived section
+learning algorithms tops unions rectangles presented sections respectively

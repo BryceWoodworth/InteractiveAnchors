@@ -1,0 +1,25 @@
+
+finding functional dna binding sites transcription factors genome step understanding regulation
+binding sites typically short significant statistical many more known motifs occur genome than actually functional
+however information about structure may help identify functional sites
+particular been shown active regulatory regions usually dna those regions
+here describe novel discovery algorithm prior over dna sequence based view
+when sampling algorithm applied yeast identified correct found percent more cases our prior than used prior
+first information used improve discovery
+even though using only statistical model predict our results improve further experimental data available
+introduction
+finding functional dna binding sites transcription factors genome necessary step understanding regulation
+however despite binding data like gene expression finding functional binding sites remains difficult problem because binding sites most short sequences occur genome
+particular known motifs genome often do not appear bound
+one popular when dna form not all dna
+state dna
+along dna provide mechanism at potential binding sites
+indeed been shown functional binding sites at regulatory regions typically
+if genome under various conditions could increase search functional binding sites
+here describe method information into discovery algorithms
+our method should improve discovery most when data under various conditions
+data not available any at scale let under variety conditions
+because our method probabilistic even evidence
+example et al recently computational model based experimental binding data predicts probability each position yeast genome being bound predictions intrinsic dna sequence thus independent condition but were explain observed
+addition et al used average each yeast region
+show whether learned computational predictions average data significantly not only used prior but also discovery

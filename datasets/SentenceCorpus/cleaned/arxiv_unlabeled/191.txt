@@ -1,0 +1,32 @@
+ 
+walley's imprecise dirichlet model idm categorical iid \ data extends classical dirichlet model set priors
+overcomes several fundamental problems other approaches uncertainty suffer
+yet useful practice one needs efficient ways computing imprecise=robust sets intervals
+main objective work derive exact conservative approximate robust credible interval estimates under idm large class statistical estimators including entropy mutual information
+ introduction 
+work derives interval estimates under imprecise dirichlet model idm large class statistical estimators
+idm one considers iid \ process unknown chances outcome
+prior uncertainty about modeled set dirichlet priors  where% %  hyper-parameter typically chosen between 1 2
+sets probability distributions often called imprecise probabilities hence name idm model
+avoid term imprecise use robust instead capitalize imprecise
+idm overcomes several fundamental problems other approaches uncertainty suffer
+instance idm satisfies representation invariance principle symmetry principle mutually exclusive pure bayesian treatment proper prior
+counts form minimal sufficient statistic data size
+statistical estimators usually also depend chosen prior: so set priors leads set estimators
+instance expected chances lead robust interval estimate
+robust intervals variance mean variance linear-combinations also been derived
+bayesian estimators like expectations depend only through suppress i e \
+main objective work derive approximate conservative exact intervals general  expected also called predictive entropy expected mutual information particular
+results key building blocks applying idm
+walley suggests instance use inference problems decision problems  where some function
+one application inference robust tree-dependency structures  edges partially ordered based imprecise mutual information
+section gives brief introduction idm describes our problem setup
+section derive exact robust intervals concave functions  entropy
+section derives approximate robust intervals arbitrary
+section show how bounds elementary functions used get bounds composite function especially sums products functions
+results used section deriving robust intervals mutual information
+issue how set up idm models product spaces discussed section
+section addresses problem how combine bayesian credible intervals robust intervals idm
+conclusions given section
+appendix lists properties function occurs expressions expected entropy mutual information
+appendix contains table used notation

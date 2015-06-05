@@ -1,0 +1,47 @@
+
+approaches dynamics their while under neural control focused questions stability humans
+prior studies focused how central system generate motion
+however question whether properties particularly context tasks remains open
+through pair against common may produce significantly more power than when matching conditions between
+since further will occur at greater than natural frequency
+were optimal control methods model also through measurements pairs upon
+find increase power when compared at frequency higher than natural frequency
+observed behaviors context notion matching
+findings suggest central system strategies relation
+introduction
+power key performance organisms
+how fast how far limited power environmental
+therefore been interest
+many factors influence performance organisms including dynamics properties neural control influence
+approaches been proposed interaction all factors
+example between neural control been studied respect dynamic stability functions other tasks
+work dynamic relation between
+relation between only
+context most focused experimentally power output individual at range parameters finding power under motion
+however role interaction output not been
+central work system cannot determined manner without properties dynamics neural activation
+explicitly at cannot using standard testing including interaction manner
+been characterized under dynamic conditions both
+measurements almost technique
+approach length time means motion source
+at given phase stimulus resulting
+versus results area within being measure work
+similar measurements been literature various groups within various organisms between function its been made
+while measurements provide useful function experimental conditions do not conditions because motion single no interactions without effects activity
+measurements other hand all above effects principle but lack experimental conditions manner
+effect interaction critical
+interaction relation
+when group common pair common each part other its group
+because activation dependent neural control used effective observed each conditions power environmental
+notion matching systems where source provide optimal power
+context control matching groups work provide significantly higher than individual
+studied influence interaction both experimentally
+set up model problem system either single pair
+input system two well
+context problem investigated two hypothesis
+hypothesis 1 states power optimal frequency system greater than frequency
+direct contrast where optimal frequency occurs at
+hypothesis 2 states pair work together produce more power than cannot predicted without
+tested both experimentally
+our computational approach optimal control solutions maximization problem was based mathematical model problem
+experimental approach measurements against

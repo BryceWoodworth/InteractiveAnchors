@@ -1,0 +1,32 @@
+
+sequence states observations one most fundamental problems hidden markov models
+statistical problem model random field
+while task through matrix methods when underlying state space large
+paper several approximate algorithms address inference problem when state space large
+new algorithms based various matrix
+their studied simple model dna
+introduction
+hidden markov models statistics machine learning applications recognition biological sequence alignment pattern classification
+distribution over sequence states observations states form markov observations independent given sequence states
+} most fundamental task related problem sequence states observations
+distribution state sequence given observations theorem } where thought constant
+state sequence then estimated sequence most likely states maximum probability estimation } inference problem problem
+statistical point view distribution distribution one system variables energy function } at
+sequence observations thus field
+suggested using matrix algorithm
+present context also known algorithm
+algorithm complexity linear sequence length number states
+more complexity same matrix times vector
+while simple models few states complex models
+simple mechanism leading state space presence memory underlying markov each observation multiple states
+all cases model reduced standard via state space but state space memory length
+leads memory length
+paper several new algorithms problem
+our basic when memory length large matrix using mean field
+study proposed method model used dna
+case one underlying dna sequence signal base type at several
+effective memory length scales sequence length thus making matrix
+paper follows
+next section will define model study section dna
+section matrix algorithm several low complexity approximation
+after few bounds numerical results section

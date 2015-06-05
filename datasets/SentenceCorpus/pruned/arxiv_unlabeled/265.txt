@@ -1,0 +1,100 @@
+
+problem online algorithm makes sequence choices
+each set alternatives payoff associated alternative
+while case small strategy sets now recent work focused problems large strategy sets where one assume structure order make problem
+particular recent literature considered information similarity between
+consider similarity information setting natural basic problem where before each algorithm given context about payoffs
+directly one problems search
+particularly simple way represent similarity information setting via similarity distance between pairs bounds above difference between expected payoffs
+prior work similarity uses similarity space so each pair pair
+algorithms based structure payoffs context potentially
+present algorithms based adaptive take advantage payoffs context without performance
+central idea regions similarity space popular regions context space
+our results apply several other settings eg temporal change
+introduction
+problem will algorithm presented sequence trials
+each algorithm one alternative set alternatives based past history payoff associated alternative
+goal total payoff chosen
+setting been introduced studied since then research computer
+setting model issue sequential decision-making under uncertainty
+one standard way evaluate performance algorithm regret defined difference between expected payoff optimal algorithm
+now problem small finite set well eg see
+however if set large problem make further assumptions about problem instance
+algorithm find each algorithm there random
+problems large sets been active area past see section related literature
+common assume certain structure payoff functions
+assumptions type natural many applications often lead efficient learning algorithms
+particular work some information similarity between available
+paper consider similarity information setting natural basic problem where before each algorithm given context about payoffs
+directly problem one problems search
+one problem so possible payoffs
+then context information about
+furthermore assume similarity information available both context
+following work particularly simple way represent similarity information setting via similarity distance between pairs bound difference between corresponding payoffs similarity information } framework defined follows
+let context set set let set pairs
+each following events context revealed algorithm algorithm payoff reward revealed
+sequence context fixed before first does not depend choices algorithm
+stochastic payoffs each pair there distribution so independent sample
+payoffs distribution change
+present stochastic setting only whereas setting out later paper section payoff function defined independent random sample some fixed distribution over functions } general goal algorithm total payoff where time
+setting performance terms
+specifically goal regret best more than best used regret
+similarity information given algorithm metric space call similarity space following condition without loss
+similarity information
+special case similarity space where metric space context space metric space space } consider similarity information
+they suggest algorithm context space point call
+specifically algorithm instance some algorithm each point each
+time context space regret
+furthermore provides algorithm problem metric space similar space algorithm points
+time space regret
+two our setting similarity space simple algorithm call
+its regret even payoffs where dimension context space space } using potentially structure expected payoffs context
+central paper similarity space so algorithms take advantage problem expected payoffs context sense make later
+present two main results one stochastic payoffs one payoffs
+stochastic payoffs provide algorithm called regions context space regions space
+algorithms prior work algorithm context space space similarity space rather than one another
+develop context expected payoffs
+case
+obtain matching lower bounds using techniques
+lower bound very general every given similarity space every fixed value bound
+our stochastic setting specifically applied described above similarity information per
+first one across time each them across each time
+analysis bounds
+particular one main results
+second our setting stochastic problem where each some i e not available
+here
+corresponding result
+third following version paper been applied version problem change expected payoffs each eg small amount each
+fact significant constraints across time each across each time } setting our those
+our algorithm analysis more general setting where some pairs may moreover arbitrary metric pairs } apply problem change expected payoffs each eg small amount each
+setting problem context simply
+then expected payoff at time context metric provides bound temporal change
+term
+problem significant constraints both across time each across each best our knowledge models literature
+special cases include change per behavior random
+derive two examples show they optimal
+stochastic problem where each some i e not available
+each context set
+more so only pairs context distance
+moreover setting similarity information
+its analysis additional similarity information
+information algorithms algorithm } analysis over regret dynamic regret regret respect each best
+setting interest average dynamic regret typically independent time } furthermore consider dynamic problem state current expected payoff each independent motion
+problem special case where change motion
+improve analysis obtain those algorithms provide matching lower bound } setting provide algorithm adaptive context space thus advantage context
+develop
+case regret terms dimension context space
+our algorithm fact given algorithm present algorithm
+our depending what additional constraints known about payoffs one algorithm prior work corresponding version so regret bound into overall regret bound allows us prior work other basic version linear payoffs convex payoffs } } adaptive space similarity information been introduced
+paper further potential technique
+specifically technique adaptive similarity space different algorithm more analysis
+obtain algorithm optimal bounds
+moreover algorithm several other problems some results prior work
+one alternative approach context space instance algorithm each set
+out idea leads present payoffs being algorithm
+specific regret bound
+any regret bound algorithm would one its main ability expected payoffs paper } section related work section
+presented section
+lower bounds section
+some applications discussed section
+setting section

@@ -1,0 +1,19 @@
+ 
+one property networks received comparatively little attention hierarchy ie  property having vertices cluster together groups then join form groups groups so forth up through all levels organization network
+here give precise definition hierarchical structure give generic model generating arbitrary hierarchical structure random graph describe statistically principled way learn set hierarchical features most plausibly explain particular real-world network
+applying approach two example networks demonstrate its advantages interpretation network data annotation graphs edge vertex community properties generation generic null models further hypothesis testing
+ introduction 
+networks graphs provide useful mathematical representation broad variety complex systems world wide web internet social biochemical ecological systems
+last decade seen surge interest across sciences study networks including both empirical studies particular networked systems development new techniques models their analysis interpretation
+within mathematical sciences researchers focused statistical characterization network structure at times producing descriptive generative mechanisms simple structures
+approach scientists focused statistical summaries network structure path lengths  degree distributions  correlation coefficients  stands contrast example work networks social biological sciences where focus instead properties individual vertices groups
+more recently researchers both areas become more interested global organization networks
+one property real-world networks received comparatively little attention hierarchy  i e  observation networks often fractal-like structure vertices cluster together into groups then join form groups groups so forth lowest levels organization up level entire network
+paper offer precise definition notion hierarchy networks give generic model generating networks arbitrary hierarchical structure
+then describe approach learning models real network data based maximum likelihood methods markov chain monte carlo sampling
+addition inferring global structure graph data our method allows researcher annotate graph community structure edge strength vertex affiliation information
+at its heart our method works sampling hierarchical structures probability proportional likelihood they produce input graph
+allows us contemplate ensemble random graphs statistically similar original graph through measure various average network properties manner reminiscent bayesian model averaging
+particular search maximum likelihood hierarchical model particular graph then used null model further hypothesis testing derive consensus hierarchical structure ensemble sampled models where hierarchical features weighted their likelihood annotate edge absence edge ``surprising'' extent occurs low probability ensemble
+our knowledge method only one offers information about network
+moreover information easily represented human-readable format providing compact visualization important organizational features network will useful tool practitioners generating new hypotheses about organization networks

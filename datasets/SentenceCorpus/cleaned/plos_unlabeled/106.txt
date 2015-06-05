@@ -1,0 +1,72 @@
+ 
+determination factors influence protein conformational changes very important identification potentially amyloidogenic disordered regions polypeptide chains
+our work introduce new parameter mean packing density detect both amyloidogenic disordered regions protein sequence
+been shown regions strong expected packing density responsible amyloid formation
+our predictions consistent known disease-related amyloidogenic regions eight 12 amyloid-forming proteins peptides positions amyloidogenic regions been revealed experimentally
+our findings support concept mechanism amyloid fibril formation similar different peptides proteins
+moreover demonstrated regions weak expected packing density responsible appearance disordered regions
+our method been tested datasets globular proteins long disordered protein segments shows improved performance over other widely used methods
+thus demonstrate expected packing density useful value one predict both intrinsically disordered amyloidogenic regions protein based sequence alone
+our results important understanding structural characteristics protein folding misfolding
+ introduction 
+amyloid fibril formation associated increase structure content leads fibrillar aggregation
+however should noted increased level beta structure characteristic property several different types protein aggregates
+addition proteins observed amyloid diseases recent studies shown diverse proteins not related any amyloid disease aggregate into fibrils under destabilizing conditions
+normal proteins become toxic when they undergo fibrillation
+there no consensus about toxicity different states: small oligomers large oligomers protofilaments protofibrils filaments mature fibrils amorphous aggregates
+significant advancements recent research led discovery toxic species amyloid diseases may not fibrils themselves but rather pre-fibrillar aggregates
+possible mechanism toxicity synuclein protofibrils been demonstrated
+been shown protofibrils form elliptical pores like bacterial toxins puncture cell membranes resulting cell death
+therefore mechanism amyloid formation under intensive investigation
+recognition factors influence protein conformational changes misfolding one general fundamental problems solution will help us find effective treatments amyloid illnesses
+experimental observation not all proteins amyloidogenic specific continuous regions amyloid-forming proteins more amyloidogenic than others suggests there sequence propensity amyloid formation
+moreover observation some short peptides also form amyloids implies segments usually exposed environment nucleate transition native proteins into amyloid state suggests fibril formation sequence-specific
+mechanism amyloidogenesis natively folded proteins 2-microglobulin transthyretin partial unfolding observed believed prerequisite proteins' assembly into amyloid fibrils both vitro vivo
+been suggested residues enhanced flexibility solvent accessibility important initiation fibrillation
+means partial unfolding rigid native structure provide specific interface beginning fibrillation
+thus understand molecular mechanism amyloidosis necessary find factors induce partial unfolding proteins subsequent amyloid fibril formation at near physiological conditions
+some intrinsically disordered proteins involved amyloid diseases
+fact may indicate disorder necessary condition aggregation
+been shown very small change environment proteins often might cause their partial folding aggregation
+knowledge characteristics control process amyloid fibril formation important finding effective drugs treatment amyloid diseases
+uversky fink their review illustrate protein fibrillogenesis requires partially folded conformation 
+first high-resolution crystal amyloid fiber formed sequence-designed polypeptide been obtained
+recently atomic structure cross spine seven-residue peptide segment sup35 was determined
+double sheet each sheet formed parallel segments stacked register
+side chains protruding two sheets form dry tightly self-complementing steric zipper bonds sheets
+within each sheet every segment bound two neighboring segments through stacks both backbone side-chain hydrogen bonds
+there several computational methods predicting protein's propensity amyloid fibril formation
+work fernandez et al was shown concentration defects insufficient shielding hydrogen bonds water attack might yield aggregation-induced nucleus
+but analysis defects revealed extensive exposure hydrogen bonds water attack might necessary but not sufficient condition imply propensity organized aggregation 
+computational algorithm been suggested detects nonnative strand propensity sequences consideration relationships between protein local sequence secondary structure terms tertiary contacts
+algorithm detects sequences within protein favorable triggering amyloid fibril formation
+worthwhile emphasize here both algorithms prediction amyloidogenic properties polypeptide chains considered above applied only those proteins three-dimensional structure known
+based physico chemical properties aggregation sequences computational algorithm model was developed predicting aggregation rate broad range polypeptide chains
+model identifies aggregation sites within protein predicts parallel antiparallel organization sheets fibril
+should noted however overpredictions aggregation sites were not analyzed statistically
+other hand there method prediction amyloidogenic regions amino acid sequence alone
+after experimental investigation amyloidogenic properties model six-residue peptide its mutants authors obtained six-residue amyloidogenic pattern used pattern identification amyloidogenic fragments proteins
+amyloidogenic pattern been used validate premise amyloidogenicity protein indeed localized short protein stretches
+been demonstrated conversion soluble non-amyloidogenic protein into amyloidogenic-prone molecule triggered non-destabilizing six-residue amyloidogenic insertion particular structural environment
+recently new method identifying fibril-forming segments proteins been suggested
+method based threading six-residue peptides through known crystal structure amyloid fiber formed peptide sup35
+putative prediction accepted prediction if its energy evaluated rosettadesign lower than threshold energy
+should added molecular dynamics yield valuable information about structural changes arise at atomic level upon formation amyloid fibrils while information difficult obtain experimentally
+another interesting new method based sequence-specific interaction energies between pairs protein fragments calculated statistical analysis native folds globular proteins
+algorithm correctly predicts positions most aggregation-prone portions some polypeptide chains
+formation sufficient number interactions necessary compensate loss conformational entropy during protein folding process
+therefore structural uniqueness native proteins result balance between conformational entropy energy residue interactions
+seems disordered regions protein chain do not sufficient number interactions compensate loss conformational entropy results formation globular state
+other hand large increase energy interactions will lead loss unique structure because strengthening contact energy will speed up folding but also likely lead erroneous folds 
+been suggested lack rigid globular structure under physiological conditions might represent considerable functional advantage intrinsically disordered proteins their large plasticity allows them interact efficiently several different targets compared folded protein limited conformational flexibility
+been shown disordered regions involved dna binding other types molecular recognition
+large portion sequences intrinsically disordered proteins contain segments low complexity high predicted flexibility
+also been indicated combination low overall hydrophobicity large net charge represent structural feature intrinsically disordered proteins comparison small globular proteins
+there currently several widely used methods prediction disordered regions: globplot simple propensity-based approach evaluating tendency residues regular secondary structure; pondr vl3h able distinguish experimentally verified disordered proteins globular proteins various machine learning approaches; disopred definition disorder restrained regions missing x-ray structures but specifically recognized support vector machine disopred model; iupred assigns order/disorder status residues basis their ability form favorable pairwise contacts
+were first our knowledge who used number contacts per residue parameter distinguish folded intrinsically disordered proteins
+extended our method predict disordered regions made comparisons above-mentioned methods
+been demonstrated our method best among widely used methods sets proteins considered here
+despite considerable efforts understand mechanism still unclear what responsible amyloidogenic disordered regions
+goal work test our hypothesis about whether protein regions possess expected strong packing density responsible amyloidogenic properties proteins while regions weak packing density simultaneously responsible appearance disordered regions
+introduce new parameter namely mean packing density enables prediction both amyloidogenic intrinsically disordered regions protein sequence
+findings support concept occurrence amyloidogenic intrinsically disordered regions similar basis different peptides proteins

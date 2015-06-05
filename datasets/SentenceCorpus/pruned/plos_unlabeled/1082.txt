@@ -1,0 +1,42 @@
+
+detailed models single cells difficult real data
+recent techniques allow various variables data used significantly task
+data however current approaches detailed models not designed
+previous techniques take nature measurements into account
+sequential methods combination detailed description cell used data
+also provide alternative where neural estimated manner
+important parameters detailed models data via
+overall find robust technique data inference parameters noise
+introduction
+recent techniques allow measurements interest at high spatial temporal
+example allows observation individual action up tree
+techniques allow synaptic events individual
+data very detailed models single cells
+both parameter space nature observed data use statistical techniques
+here here use sequential methods standard approach hidden systems estimation data
+first step will do while detailed second step models cellular
+given nature detailed cellular models hand there long been strong robust methods
+need methods
+example provides integration number standard simulation large number search uses combination wide variety cost functions measure quality data
+however highly complex approaches while make optimal use structure present statistical problem new data techniques
+past been shown us others knowledge true number fundamental parameters estimation spatial distribution multiple synaptic input
+inference problem form linear regression single global all parameters given data
+approaches however at present take various noise sources situations explicitly into account
+here findings standard inference statistical situations more specifically approach will provide more robust solutions probabilistic approach will allow noise manner
+specifically approach issue observations data first then setting
+how accurate description cell used optimal variables 2 concentration
+then show how accurate model cell signals first using first step standard machine learning algorithm known
+step here out version our previous inference method assumed exact knowledge signals
+aim paper detailed models data
+first give models parameters those models how inference affected noise how standard machine learning techniques applied inference problem
+will terms measurements but later also consider measurements
+models allow temporal evolution formula formula formula specific membrane formula current evolution noise
+note important factor formula noise time formula
+formula will consider here three
+along
+active other membrane
+experimentally formula one particular current type formula its potential formula its formula formula membrane formula current experimentally into
+variable formula open typically given complex highly functions time
+example given formula formula themselves functions noise term
+practice noise either one work variable formula
+similar other variables free 2 concentration

@@ -1,0 +1,26 @@
+
+present model classification context between learning computational
+model only single over data
+known terms minimum problem efficient algorithm based idea core sets exists
+approximate set points approximate solution corresponding instance
+however multiple over data
+paper based minimum data
+show case learn weight vector way similar using online stochastic
+our algorithm at each example requires very small constant
+experimental results show even settings learn just one other online
+also give analysis algorithm discuss some open possible
+introduction
+learning model both terms time well
+scenarios common example cases network data when data at very high rate
+model also cases large datasets cannot memory
+standard learning algorithms do not scale well cases
+address scenarios propose model learning problems
+model only one small number over data set per
+framework algorithms been many different domains
+many problems setting since many learning problems algorithms development efficient techniques learning problems
+paper study application model problem classification context
+since support vector machine widely used classification framework here will further research into other
+known natural terms minimum problem high space
+latter problem been studied computational literature natural algorithms
+algorithms classification setting provide some some open
+our experiments show learn just one classification real datasets

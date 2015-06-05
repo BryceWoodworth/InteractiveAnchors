@@ -1,0 +1,50 @@
+ 
+knn one most popular classification methods but often fails work well inappropriate choice distance metric due presence numerous class-irrelevant features
+linear feature transformation methods been widely applied extract class-relevant information improve knn classification very limited many applications
+kernels been used learn powerful non-linear feature transformations but methods fail scale large datasets
+paper present scalable non-linear feature mapping method based deep neural network pretrained restricted boltzmann machines improving knn classification large-margin framework call dnet-knn
+dnet-knn used both classification supervised dimensionality reduction
+experimental results two benchmark handwritten digit datasets show dnet-knn much better performance than large-margin knn using linear mapping knn based deep autoencoder pretrained retricted boltzmann machines
+ introduction 
+knn one most popular classification methods due its simplicity reasonable effectiveness: doesn't require fitting model been shown good performance classifying many types data
+however good classification performance knn highly dependent metric used computing pairwise distances between data points
+practice often use euclidean distances similarity metric calculate k nearest neighbors data points interest
+classify high-dimensional data real applications often need learn choose good distance metric
+previous work metric learning learns global linear transformation matrix original feature space data points make similar data points stay closer while making dissimilar data points move farther apart using additional similarity label information
+ global linear transformation applied original feature space data points learn mahalanobis metrics requires all data points same class collapse one point
+making data points same class collapse one point unnecessary knn classification
+may produce poor performance when data points cannot essentially collapsed points often true some class containing multiple patterns
+information-theoretic based approach used learn linear transformations
+ global linear transformation learned directly improve knn classification achieve goal large margin
+method been shown yield significant improvement over knn classification but linear transformation often fails give good performance high-dimensional space pre-processing dimensionality reduction step pca often required success
+many situations linear transformation not powerful enough capture underlying class-specific data manifold; thus need resort more powerful non-linear transformations so each data point will stay closer its nearest neighbors having same class itself than any other data non-linearly transformed feature space
+kernel tricks been used kernelize some above methods order improve knn classification
+method extends work perform linear dimensionality reduction improve large-margin knn classification kernelized method
+however kernel-based approaches behave almost like template-based approaches
+if chosen kernel cannot well reflect true class-related structure data resulting performance will bad
+besides kernel-based approaches often difficulty handling large datasets
+might want achieve non-linear mappings learning directed multi-layer belief net deep autoencoder then perform knn classification using hidden distributed representations original input data
+however multi-layer belief net often suffers "explaining away" effect top hidden units become dependent conditional bottom visible units makes inference intractable; learning deep autoencoder backpropagation amost impossible because gradient backpropagated lower layers output often becomes very noisy meaningless
+fortunately recent research shown training deep generative model called deep belief net feasible pretraining deep net using type undirected graphical model called restricted boltzmann machine rbm
+rbms produce "complementary priors" make inference process deep belief net much easier deep net trained greedily layer layer using simple efficient learning rule rbm
+greedy layerwise pretraining strategy made learning models deep architures possible
+moreover greedy pretraining idea also been successfully applied initialize weights deep autoencoder learn very powerful non-linear mapping dimensionality reduction illustrated fig 1a 1b
+besides idea deep learning motivated researchers use powerful generative models deep architectures learn better discriminative models
+paper combining idea deep learning large-margin discriminative learning propose new knn classification supervised dimensionality reduction method called dnet-knn
+learns non-linear feature transformation directly achieve goal large-margin knn classification based deep encoder network pretrained rbms shown fig 2
+our approach mainly inspired work 
+given labels some all training data allows us learn non-linear feature mapping minimize invasions each data point's genuine neighborhood other impostor nearest neighbors favours knn classification directly
+previous researchers once used autoencoder deep autoencoder non-linear dimensionality reduction improve knn
+none approaches used objective function direct what use here improving knn classification
+approach discussed uses convolution net learn similarity metric discriminatively but was handcrafted
+our approach based general deep neural networks more flexible connection weight matrices between layers automatically learned data
+applied dnet-knn usps mnist handwritten digit datasets classification
+test error obtained mnist benchmark dataset  better than obtained deep belief net deep autoencoder svm
+addition our fine-tuning process very fast converges good local minimum within several iterations conjugate-gradient update
+our experimental results show that: 1 good generative model used pretraining stage improve discriminative learning; 2 pretraining generative models layerwise greedy way makes possible learn good discriminative model deep architecture; 3 pretraining rbms makes discriminative learning process much faster than without pretraining; 4 pretraining helps find much better local minimum than without pretraining
+conclusions consistent results previous research trials deep networks
+organize paper follows: section 2 introduce knn classification using linear transformations large-margin framework
+section 3 describe previous work rbm training models deep architectures
+section 4 present dnet-knn trains deep encoder network improving large-margin knn classification
+section 5 present our experimental results usps mnist handwritten digit datasets
+section 6 conclude paper some discussions propose possible extensions our current method

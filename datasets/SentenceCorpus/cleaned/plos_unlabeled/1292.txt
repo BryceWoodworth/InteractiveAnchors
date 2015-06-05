@@ -1,0 +1,25 @@
+ 
+computational efforts identify functional elements within genomes leverage comparative sequence information looking regions exhibit evidence selective constraint
+one way detecting constrained elements follow bottom-up approach computing constraint scores individual positions multiple alignment then defining constrained elements segments contiguous highly scoring nucleotide positions
+here present gerp new tool uses maximum likelihood evolutionary rate estimation position-specific scoring contrast previous bottom-up methods novel dynamic programming approach subsequently define constrained elements
+gerp evaluates richer set candidate element breakpoints ranks them based statistical significance eliminating need biased heuristic extension techniques
+using gerp identify over 1.3 million constrained elements spanning over 7 percent human genome
+predict higher fraction than earlier estimates largely due annotation longer constrained elements improves one one correspondence between predicted elements known functional sequences
+gerp efficient effective tool provide both nucleotide element-level constraint scores within deep multiple sequence alignments
+ introduction 
+identification annotation all functional elements human genome one main goals contemporary genetics general encode project particular
+comparative sequence analysis enabled multiple sequence alignments human genome dozens mammalian species become powerful tool pursuit goal sequence conservation due negative selection often strong signal biological function
+after constructing multiple sequence alignment one quantify evolutionary rates at level individual positions identify segments alignment show significantly elevated levels conservation
+several computational methods constrained element detection been developed most falling into one two broad categories: generative model-based approaches attempt explicitly model quantity distribution constraint within alignment bottom-up approaches first estimate constraint at individual positions then look clusters highly constrained positions
+widely used generative approach phastcons uses phylo-hidden markov model find most likely parse alignment into constrained neutral hidden states
+while hmms widely used modeling biological sequences they known drawbacks: transition probabilities imply specific geometric state duration distribution context phastcons means predicted constrained neutral segment length
+may bias resulting estimates element length total genomic fraction under constraint
+one leading bottom-up approaches gerp quantifies position-specific constraint terms rejected substitutions difference between neutral rate substitution observed rate estimated maximum likelihood heuristically extends contiguous segments constrained positions blast-like manner
+however gerp computationally slow because its maximum likelihood computation uses expectation maximization algorithm estimate new set branch lengths each position alignment; step also undesirable methodologically because involves estimating k real-valued parameters k nucleotides data
+furthermore extension heuristic used gerp may induce biases length predicted ces
+work present gerp novel bottom-up method constrained element detection like gerp uses rejected substitutions metric constraint
+gerp uses significantly faster more statistically robust maximum likelihood estimation procedure compute expected rates evolution results more than 100-fold reduction computation time
+addition introduce novel criterion grouping constrained positions into constrained elements using statistical significance guide assigning p-values our predictions
+apply dynamic programming approach globally predict set constrained elements ranked their p-values concomitant false positive rate estimate
+using gerp analyzed alignment human genome 33 other mammalian species identifying over 1.3 million constrained elements spanning over 7 percent human genome high confidence
+compared previous methods predict larger fraction human genome contained constrained elements due annotation many fewer but longer elements very low false positive rate

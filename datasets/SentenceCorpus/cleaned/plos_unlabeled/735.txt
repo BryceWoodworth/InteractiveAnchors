@@ -1,0 +1,56 @@
+ 
+one striking features evolution appearance novel structures organisms
+recently kirschner gerhart integrated discoveries evolution genetics developmental biology form theory facilitated variation
+key observation organisms designed random genetic changes channeled phenotypic directions potentially useful
+open question how fv spontaneously emerges during evolution
+here address means computer simulations two well-studied model systems logic circuits rna secondary structure
+find evolution fv enhanced environments change time time systematic way: varying environments made same set subgoals but different combinations
+find organisms evolve under varying goals not only remember their history but also generalize future environments exhibiting high adaptability novel goals
+rapid adaptation seen goals composed same subgoals novel combinations goals where one subgoals was never seen history organism
+mechanisms enhanced generation novelty analyzed way organisms store information their genomes about their past environments
+elements facilitated variation theory weak regulatory linkage modularity reduced pleiotropy mutations evolve spontaneously under conditions
+thus environments change systematic modular fashion seem promote facilitated variation allow evolution generalize novel conditions
+ introduction 
+origin ability generate novelty one main mysteries evolution
+pioneers evolutionary theory including baldwin simpson waddington suggested how useful novelty might enhanced physiological adaptations robustness developmental process
+early theories were limited lack knowledge molecular mechanisms development
+recent decades saw breakthroughs depth understanding molecular developmental biology
+many findings were unified theory facilitated variation presented kirschner gerhart addresses following question: how small random genetic changes converted into complex useful innovations
+order understand novelty evolution kirschner gerhart integrated observations molecular mechanisms show how current design organism helps determine nature degree future variation
+key observation organism its intrinsic construction biases both type amount its phenotypic variation response random genetic mutation
+other words organism seems built way small genetic mutations high chance yielding large phenotypic payoff
+understand fv important compare related concept evolvability
+biological system evolvable if readily acquire novel functions through genetic changes help organism survive reproduce future environments
+evolvability composed two aspects: variability: capacity generate new phenotypes fitness: fitness new phenotypes future environments
+most studies evolvability focused first aspect variability
+studies measured range diversity phenotypic variation generated given mutation usually without discerning between potentially useful phenotypes non-useful ones
+fv theory adds previous considerations focusing nature generated variation specifically organism's ability generate novel phenotypes potentially useful
+facilitated variation made possible certain features biological design
+one existence weak regulatory linkage where general non-instructive signals trigger large pre-prepared responses
+example changes growth hormone concentration at localized position trigger large useful changes shape limb driven conserved mechanisms growth bones muscles blood vessels nerves
+good example ease changing beak shapes any many possible mutations affect concentration single morphogenic factor
+weak regulatory linkage information about output pre-built into regulated system without instruction regulator only selects between states
+regulatory organization reduces constraints evolving new regulations generating complex potentially useful phenotypes
+additional feature important fv modular design seen example highly conserved body-plan embryo compartmental organization gene regulation signaling networks
+modularity helps relieve concern mutation might interfere many different parts organism
+properly designed modularity variation within each module generated without harming other modules 
+facilitated variation principle studied experimentally example generating mutants scanning types phenotypes generated
+example study mutants lac regulatory region indicated shape gene input function channeled directions and-like or-like functions rather than other possibilities 
+open question how does fv spontaneously evolve
+not clear how selection present environment lead designs increase probability useful changes future environments
+how does evolutionary theory account emergence special designs make easy generate novel useful variation
+key point our study observation environments nature do not vary randomly but rather seem common rules regularities
+specifically environmental goals faced organisms molecules may thought composed combination subgoals
+when environments change organisms encounter new goal still made same similar subgoals
+example level organism same subgoals digesting food avoiding predation reproducing must fulfilled each new environment but different nuances combinations
+level cells same subgoals adhesion signaling must fulfilled each tissue type but different input output signals
+level proteins same subgoals enzymatic activity binding other proteins regulatory input domains etc shared many proteins but different combinations each case
+one may thus propose many cases different possible environments share language modularity sense they all made certain combinations set subgoals
+thus test possibility under patterned varying environments organism learn over many generations language common environments encountered its past
+ask whether fv arises systematically varying environments measuring ability simple model systems adapt new previously unseen goals same language past goals
+employ two well-studied model systems: combinatorial logic circuits rna secondary structure
+find standard experiment setting goal remains constant over time leads highly optimized systems show little fv
+contrast fv readily generated under modularly varying goals goals change over time but share same subgoals
+find mvg evolution enhances ability generate novel phenotypes long novelty modular: phenotypes novel modules novel combinations modules
+show organisms under mvg store information about past goals their genomes evolve weak linkage allows small genetic changes unleash large phenotypic responses do not ruin modular structure organism
+our study thus suggests environments change systematic fashion promote evolution facilitated variation leave imprint evolvability properties organisms allowing them generalize new conditions same language past conditions

@@ -1,0 +1,19 @@
+ 
+classification problem described joint density  models ``bayesian similarity measure'' been shown optimal similarity measure nearest neighbor classification
+paper analyzes demonstrates several additional properties conditional distribution
+paper first shows reconstruct up class labels class posterior distribution given  gives procedure recovering class labels gives asymptotically bayes-optimal classification procedure
+also shows given optimal similarity measure how construct classifier outperforms nearest neighbor classifier achieves bayes-optimal classification rates
+paper then analyzes bayesian similarity framework where classifier faces number related classification tasks multitask learning illustrates reconstruction class posterior distribution not possible general
+finally paper identifies distinct class classification problems using shows using solve those problems bayes optimal solution
+ introduction 
+statistical models similarity become increasingly important recent work information retrieval  case-based reasoning  pattern recognition  computer vision
+particular interest bayesian similarity discriminatively trained model  will abbreviate
+models been demonstrated work well number pattern recognition visual object recognition problems
+easy see nearest neighbor classification using minimizes risk class labels differ therefore optimal 1-nearest neighbor classification
+however beyond observation there been several kinds analysis bayesian similarity
+first presented mahamud analysis considering single instance classification problem determined joint distribution class labels feature vectors
+authors also argue existence useful invariance properties bayesian similarity functions when those functions specific form
+second analysis based hierarchical bayesian framework presented breuel  effectively considers bayesian similarity context distribution related classification tasks
+paper analyzes relationship between bayesian similarity class posterior distribution both non-hierarchical hierarchical cases uses those results construct asymptotically bayes-optimal classification procedure using bayesian similarity
+also presents new statistical model kinds discrimination tasks described demonstrates bayesian similarity bayes-optimal solution those tasks
+implications results applications bayesian similarity will discussed at end

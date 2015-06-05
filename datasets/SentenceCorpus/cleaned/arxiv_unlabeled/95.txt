@@ -1,0 +1,31 @@
+ 
+%\baselineskip=18pt recent spectral clustering methods propular powerful technique data clustering
+methods need solve eigenproblem whose computational complexity  where number data samples
+paper non-eigenproblem based clustering method proposed deal clustering problem
+its performance comparable spectral clustering algorithms but more efficient computational complexity
+show transitive distance observed property called k-means duality our algorithm used handle data sets complex cluster shapes multi-scale clusters noise
+moreover no parameters except number clusters need set our algorithm
+ introduction 
+data clustering important technique many applications data mining image processing pattern recognition computer vision
+much effort been devoted research       
+basic principle assumption guides design clustering algorithm is: consistency : data within same cluster closed each other while data belonging different clusters relatively far away
+according principle hierarchy approach begins trivial clustering scheme where every sample cluster then iteratively finds closest most similar pairs clusters merges them into larger clusters
+technique totally depends local structure data without optimizing global function
+easily observed disadvantage approach often fails when data set consists multi-scale clusters
+besides above consistency assumption methods like k-means em also assume data set some kind underlying structures hyperellipsoid-shaped gaussian distribution thus any two clusters separated hyperplanes
+case commonly-used euclidean distance suitable clustering purpose
+introduction kernels many recent methods like spectral clustering  consider clusters data set may more complex shapes other than compact sample clouds
+general case kernel-based techniques used achieve reasonable distance measure among samples
+ eigenvectors distance matrix play key role clustering
+overcome problems multi-scale clusters  zelnik-manor perona proposed self-tuning spectral clustering local scale data structure eigenvectors distance matrix considered
+impressive results been demonstrated spectral clustering regarded most promising clustering technique
+however most current kernel related clustering methods including spectral clustering unified kernel k-means framework  need solve eigenproblem suffering high computational cost when data set large
+paper tackle clustering problem where clusters complex shapes
+using transitive distance measure observed property called k-means duality show if consistency condition satisfied clusters arbitrary shapes mapped new space where clusters more compact easier clustered k-means algorithm
+comparable performance spectral algorithms our algorithm does not need solve eigenproblem more efficient computational complexity than spectral algorithms whose complexities  where number samples data set
+rest paper structured follows
+section discuss transitive distance measure through graph model data set
+section duality k-means algorithm proposed its application our clustering algorithm explained
+section describes our algorithm presents scheme reduce computational complexity
+section shows experimental results some synthetic data sets benchmark data sets together comparisons k-means algorithm spectral algorithms
+conclusions given section

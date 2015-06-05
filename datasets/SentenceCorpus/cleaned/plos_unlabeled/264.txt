@@ -1,0 +1,75 @@
+ 
+many pathogens exist phenotypically distinct strains interact each other through competition hosts
+general models describe multi-strain systems extremely difficult analyze because their state spaces enormously large
+reduced models been proposed but so far all them necessarily allow coinfections require immunity mediated solely reduced infectivity potentially problematic assumption
+here suggest new state-space reduction approach allows immunity mediated either reduced infectivity reduced susceptibility naturally used models without coinfections
+our approach utilizes general framework status-based models
+cornerstone our method introduction immunity variables describe multi-strain systems more naturally than traditional tracking susceptible infected hosts
+models expressed way approximated natural way truncation method akin moment closure allowing us sharply reduce size state space thus consider models many strains tractable manner
+applying our method phenomenon antigenic drift influenza propose potentially general mechanism could constrain viral evolution one-dimensional manifold two-dimensional trait space
+our framework broadens class multi-strain systems adequately described reduced models
+permits computational even analytical investigation thus serves useful tool understanding evolution ecology multi-strain pathogens
+ introduction 
+microbial pathogens tremendously diverse
+pathogens cause one same disease may differ remarkably both their genotype their phenotype like hiv/aids influenza malaria meningitis
+phenotypically different variants same pathogen called strains
+if several strains exist host population they interact each other two ways
+first type interaction may referred ecological interference
+many infectious diseases host infected one strain removed duration disease population hosts susceptible pathogen
+because immune system host becomes activated upon infection first strain so hard second strain enter and/or replicate host infected host may physically removed susceptible population dying staying at home
+ecological interference takes place even between unrelated pathogens 
+second type interaction referred cross-immunity interference specific different strains same pathogen: confer full partial immunity each other
+means host infected one strain becomes substantially less susceptible certain other strains pathogen prolonged period time after initial infection cleared
+cross-immunity highest between phenotypically similar strains
+since phenotypic similarity usually implies recent common ancestry pathogen's ecology thus intrinsically entangled its evolution
+understanding dynamics multi-strain pathogens at general theoretical level turns out extremely difficult
+numerous models been proposed during past twenty years
+although models share many similarities they substantially differ particulars often resulting conflicting model predictions
+consequence there little agreement how best gain insights into ecology evolution multi-strain pathogens
+models multi-strain pathogens either equation agent-based
+agent individual-based models recently become increasingly elaborate interesting largely due increase computational capabilities
+since models however not designed analytical tractability do not dwell type model here
+virtually all equation-based models disease dynamics traced back compartment model introduced kermack mckendrick 1927
+models also known sir models reflecting host population's partitioning into susceptible infected recovered individuals
+problem arises immediately when attempting extend classical sir framework multiple strains number state variables typically also parameters increases exponentially number strains
+presents not only computational challenges but also draws attention fundamental conceptual difficulty: even moderately large number strains resultant number state variables quickly surpasses any realistic host population size
+most compartments model therefore consist few individuals if they occupied at all: effects demographic stochasticity must then not neglected
+avoid complication existing approaches modeling multi-strain pathogens attempted reduce number model compartments
+usually reductions valid only under certain sets assumptions may may not adequate depending modeled phenomenon
+thus important expand set assumptions under reduced models applicable
+our work presented here contributes goal
+traditionally full models been developed based assumption reduced susceptibility implies immune hosts able block off infection completely certain probability
+other hand all existing reduced models rely assumption reduced infectivity implies all hosts immune not get infected same probability but those possess immunity become less infectious than those who do not
+reality most likely lies somewhere between two abstractions
+nevertheless discuss model section reduced susceptibility assumption seems more plausible
+study develop state-space reduction approach applied under either assumptions models without coinfections
+our approach differs existing ones produces collection models approximate full models desired degree accuracy
+number variables needed resulting approximations grows algebraically number n strains rather than exponentially: when n large difference between e.g n 2 2 n enormous former growing much more slowly than latter
+if coinfections reduced infectivity assumed our approach produces model equivalent gog grenfell 
+illustrate utility our approach reduced models general demonstrate its application phenomenon drift influenza using reduced models able simulate up 400 strains
+influenza multi-strain pathogen whose epidemiology evolution display intricate interaction pattern
+because human immune system produce protective antibodies against influenza's surface glycoprotein hemagglutinin individuals gain lifelong immunity against each strain virus they been infected
+results complex partitioning human host population according immunity individuals different influenza strains
+ensuing frequency-dependent selection thought drive evolution influenza giving rise process known antigenic drift
+lapedes farber shown antigenic space influenza approximately five-dimensional
+subsequently smith et al argued first two principal dimensions most important
+moreover follows results smith et al temporal evolution influenza's h3n2 subtype proceeds along single line antigenic space i.e antigenic clusters corresponding different years well separated along first principal dimension
+agrees observation phylogenetic tree subtype h3n2 possesses single trunk
+other words even though h3n2 subtype experiences substantial genetic diversity during each epidemic season only one progeny strain survives longer run
+accordingly number coexisting h3n2 strains does not grow year year
+few recent studies attempted model thereby explain phenomenon antigenic drift influenza apart individual-based models most studies consider one-dimensional strain space some sort traveling-wave behavior observed
+constrain evolution virus one dimension two-dimensional strain space been necessary require strain space was essentially unviable except relatively thin region along one axis 
+recent study koelle et al took different approach succeeded constraining diversity virus living high-dimensional sequence space
+authors explicitly mapped viral genotypes phenotypes showed single-trunk phylogeny influenza may consequence neutral network structure influenza genotype space
+however open question properties phenotype space sufficient constrain viral diversity course its evolution
+recker et al suggest one explanation
+they argue succession antigenically distinct variants may intrinsic feature dynamics limited set antigenic types always present host population thus decoupled genetic evolution virus
+here suggest alternative conceptual scenario follows more traditional view antigenic drift genetic evolution tightly connected
+however deliberately avoid problem mapping genotypes phenotypes instead assume relatively simple structure phenotype space rectangular lattice
+our model offers straightforward explanation what could happening phenotype space order diversity virus constrained long run
+our work thus complementary koelle et al
+our two-dimensional phenotype space each coordinate captures changes conformations epitope local region surface hemagglutinin molecule interacts immune system
+then investigate scenario immune response hosts depends two epitopes full immune protection gained against all strains sharing epitopic conformation previous infection
+respect our model closely related models studied gupta colleagues
+show evolutionary trajectory influenza virus our model follows line even though model's strain space two-dimensional
+finding agrees observed single-trunk phylogeny influenza's h3n2 subtype 

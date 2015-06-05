@@ -1,0 +1,41 @@
+
+paper used general stochastic processes framework derive first rate function models
+investigate particular case rate function results modeling number transmission process
+also into account population per individual transmission probability
+model both classical rate functions time series number
+also model both rate functions data sets
+two evidence our model rate may very well better description processes studied here
+first our model was selected best according two different information two different likelihood
+second evidence what model classical rate predicts solution model rate will either disease free depending initial conditions
+findings along computer simulations environmental clear environmental disease transmission dynamics
+introduction
+models involving formula formula formula individuals been proposed data sets
+well defined within mathematical research area study models
+models useful understanding observed patterns natural processes human
+here our attention formula formula models introduce while structural form rates
+two transmission mechanisms were two simple functional rates
+show so able clear environmental disease transmission dynamics
+rates functions critical modeling
+paper showed because there many choices form structure interactions there rate functional choose
+not literature mathematical analyses many functional
+however biological first rate functional not too common
+show study using first practice models data while testing biological
+thus despite amount available functional rates set models chosen data should those first
+study first show simple probabilistic setting stochastic process leads general form proposed previously later
+rate leads models different dynamics compared ones obtained using classical rate
+model either rate formula function time formula target thus limit
+target between two points
+either model target between point disease free when formula 1
+model classical rate mechanism does not depend initial conditions
+work show disease free model rate
+leads where two regions
+formula will either disease free solutions depending initial conditions
+furthermore after model selection show model rate leads significant over classical model same
+finally compared classical rates functions them two time series data sets
+using later function leads model both cases
+since were model use data two data set where effects expected less dynamics
+form contact rate function while including environmental models leads better understanding dynamics disease transmission
+depending model contact rate disease free either point
+first case if environmental noise may stable then
+if however stable at may end up
+interaction between different contact rate models was studied using computer simulations

@@ -1,0 +1,29 @@
+ 
+recently been observed different choices made about structurally identical risky decisions depending whether information about outcomes their probabilities learned description experience
+current evidence equivocal respect whether choice gap entirely artefact biased samples
+current experiment investigates whether representational bias exists at point encoding examining choice light decision makers' mental representations alternatives measured both verbal nonverbal judgment probes
+found when estimates were gauged nonverbal probe participants presented information description format opposed experience had greater tendency overestimate rare events underestimate common events
+choice gap however remained even when accounting judgment distortion effects sampling bias
+indeed participants' estimation outcome distribution did not mediate their subsequent choice
+appears experience-based choices may derive process does not explicitly use probability information
+ introduction 
+recent years quickly growing literature emerged contrasting two different formats choice  description experience  correspondence decisions observed each
+decision experience dfe one where possible outcomes estimates their probabilities learned through integration personal observation feedback environment
+typical example might decision where buy your morning coffee you make your way work
+contrast decision description dfd one where all possible outcomes their probabilities explicitly laid out outset
+typical example might decision bring umbrella work after hearing morning weather forecast chance precipitation
+surprisingly recent evidence found decisions made under two different formats choice diverge
+example hertwig barron weber erev presented six binary risky choice problems participants either described experienced format
+description format outcomes their probabilities were completely specified form choose between number certain b number probability number percent otherwise zero
+participants playing description-based choice task tended make decisions consistent prospect theory's four-fold pattern choice  risk-aversion gains risk-seeking losses when probabilities were moderate high but risk-seeking gains risk-aversion losses when probabilities were small
+example number percent participants preferred certain number decision above
+experience format participants were initially unaware outcomes their respective probabilities had learn information sampling two unlabelled buttons
+each sample presented randomly selected outcome taken underlying outcome distribution same structure problems presented description format
+participants were free sample often any order they liked until they were ready select one option play real
+strikingly participants playing experienced-based choice task tended make decisions opposite four-fold pattern choice
+example only number percent participants preferred certain number decision above
+apparent description-experience gap led some call development separate distinct theories risky choice
+fox hadar however argued conclusion unwarranted light reanalysis hertwig et al data
+specifically they found prospect theory could satisfactorily account patterns choice when based participants' experienced distribution outcomes due sampling errors was often different objective distribution sampled outcomes derived
+crux debate centres relative importance sampling bias
+issue led investigators employ number creative designs produced conflicting results

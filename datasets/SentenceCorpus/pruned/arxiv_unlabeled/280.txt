@@ -1,0 +1,61 @@
+
+paper problem finding one object database objects
+contrast most existing approaches only space objects through similarity
+given two reference objects object reference object object
+model behavior human making about similarity but not numerical values between objects
+using best obtain every object database other objects according their distance
+call position object rank respect
+difficulty using depends underlying space
+use two different underlying space property
+first one rank average difference t
+other objects more given section
+second one framework notion approximate more given section
+factor
+develop search algorithm data structure allows us high probability questions
+learning requires questions total need total
+also provide approximate search algorithm
+finally show lower bound average number questions search phase algorithms when all possible questions learning phase given
+also introduce functions same value objects based objects obtained similarity
+one application demonstrate one point function where only depends rank
+introduction
+consider situation where search database but do not know underlying relationships between objects
+particular may difficult may not
+situations common objects where human perception may involved
+taken different
+indeed between feature vectors might far similarity perceived humans
+either approximate classification may able determine relative object respect small number other objects
+humans ability compare objects make about most similar ones though they not numerical value similarity
+question how design search algorithms based binary similarity decisions type more like b than
+more aim design algorithm given object eg object similar object among objects database
+do so similarity given two reference objects object two reference objects most similar object
+measure performance all our algorithms terms number questions need
+database during learning phase use resulting search process
+do not make assumption space database objects metric space
+using one every object database other objects according their distance
+call position object rank respect
+relationship i e general
+several new questions any space described its relationships
+how much does fact rank some object t
+some other object rank t
+us about rank t
+
+paper introduce notion rank see section
+rank how related average
+framework introduced approximate another way relationships
+those us how similarity relationship give us notion
+if information use rank information estimate other
+paper will first investigate case where use hidden space input our algorithms
+develop existing bounds search based similarity see section
+also prove far know first lower bound average number questions asked search see section
+then section what if no hidden space known therefore cannot used input algorithms
+case cannot estimate limit if rank information
+develop algorithms space objects likely similar objects tendency together
+notion our
+introduce notion section
+one point very
+function itself does not require any space input
+however value choose depends rank
+general both rank use hidden space how space
+less more difficult search
+particular if rank relationship very some objects far every other object information about those objects matrix very sparse
+apply idea search but might useful other scenarios well

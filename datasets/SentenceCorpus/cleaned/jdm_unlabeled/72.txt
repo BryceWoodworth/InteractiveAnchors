@@ -1,0 +1,29 @@
+ 
+paper investigates boundaries recent result eliciting more than one estimate same person averaging lead accuracy gains judgment tasks
+first examines its generality analysing whether kind question being asked effect size potential gains
+experimental results show question type matters
+previous results reporting potential accuracy gains reproduced year-estimation questions extended questions about percentage shares
+other hand no gains found general numerical questions
+second part paper tests repeated judgment sampling's practical applicability asking judges provide third final answer basis their first two estimates
+experiment majority judges do not consistently average their first two answers
+result they do not realise potential accuracy gains averaging
+ introduction 
+imagine you been asked make quantitative judgment say somebody wants know when shakespeare's romeo juliet was first performed you might planning holiday alps wondering about elevation mont blanc
+effective strategy answer questions make estimate average second judge friend colleague just about anybody else
+what though if your colleague friend unavailable cannot give you second opinion
+recent research suggests you could improve your answer bringing yourself make second estimate applying averaging principle your own two estimates
+effectiveness suggestion however will depend both degree you able elicit two independent estimates yourself your willingness average them
+previous research focused method used elicit second estimate
+focus here lies type question being asked its interaction how successive estimates generated
+i report experimental results different sets questions aim more representative quantitative judgments
+i first reproduce previous results establish existence accuracy gains year-estimation questions what year were bacteria discovered
+
+while i find similar gains questions about percentage shares e g percentage spanish homes access internet
+i do not find evidence accuracy gains general numerical questions what distance kilometers between barcelona city hamburg germany
+what average depth mediterranean sea
+
+i then investigate whether difference explained degree answers various question types implicitly bounded but hypothesis not supported data
+second factor whether judges actually recognise potential gains averaging behave accordingly
+larrick soll argue people often do not understand properties benefits averaging procedures
+my experimental data provide further evidence only small minority judges consistently average their estimates
+often judges settle one their first two judgments final answer instead even extrapolate providing final answer lies outside range spanned their first two estimates

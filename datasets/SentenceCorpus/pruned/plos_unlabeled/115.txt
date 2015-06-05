@@ -1,0 +1,50 @@
+
+g protein about percent human genes family membrane proteins cell signal into cellular response
+although structural information function drug design there few experimentally determined structures
+address issue recently developed method generate structure predictions all human genome
+modeling approaches modeling does not require moreover often structures
+features essential modeling all human when close
+based confidence predicted models should correct
+models but predicted different structures
+due domains well database errors
+our modeling only protein data
+model global c region
+models several compared data consistent demonstrated
+structure clustering predicted models shows similar structures tend similar functional class even when their sequences
+results demonstrate robustness models functional analysis
+all predicted models available our site
+introduction
+g protein membrane proteins cell signals cells response stimuli 2 amino proteins many physiological functions through their interaction g proteins
+many involve making them important drug targets
+human estimated number corresponding about percent total number human genes
+however more than percent all target represent percent
+while knowledge structure important information understanding its function drug design structures been
+two major techniques used determine protein structures
+protein does not need information
+however high proteins yet no complete structure been method
+provide very information proteins but difficult
+fact only single membrane been
+significant number structures will experimentally very future
+situation use approaches drug design research into mechanisms control binding activation regulation signal
+demonstrated recent experiments methods structure protein its amino sequence been
+among three types structure prediction algorithms modeling models target sequence related structure provides most accurate models
+however its evolutionary relationship between target proteins
+example proteins greater than percent sequence their models tend close structure 1 their experiments
+when sequence below percent model accuracy because lack significant structure alignment errors
+here models provided often model based rather than structure sequence interest
+been significant problem
+among all human there only four sequences sequence greater than percent
+percent human average sequence percent comparative modeling
+recently developed algorithms
+test proteins protein data after having greater than percent sequence target two single domain proteins models c less than
+significant over modeling many models respect their
+additional structures modeling may provide best alternative structural information
+work predict structures all sequences human genome less than amino length
+only sequence given no other knowledge into our structure prediction approach
+because may occur ability most important advantage using modeling
+also distinct many other modeling methods only model regions predictions regions
+tests percent four more residues models global less than
+contrast using widely used modeling accuracy percent
+if one only accuracy itself then percent local less than average up residues below
+especially important modeling often critical
+therefore models over comparative modeling methods likely greater understanding signaling interactions

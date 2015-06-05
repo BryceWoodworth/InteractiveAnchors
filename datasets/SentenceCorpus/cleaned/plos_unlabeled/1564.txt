@@ -1,0 +1,26 @@
+ 
+protein folding dynamics often described diffusion free energy surface considered function one few reaction coordinates
+however growing number experiments models show when projected onto reaction coordinate protein dynamics sub-diffusive
+raises question whether conventionally used diffusive description dynamics adequate
+here numerically construct optimum reaction coordinate long equilibrium folding trajectory go model formula-repressor protein
+trajectory projected onto coordinate exhibits diffusive dynamics while dynamics same trajectory projected onto sub-optimal reaction coordinate sub-diffusive
+show higher free energy profile putative reaction coordinate more diffusive dynamics become when projected coordinate
+results suggest whether projected dynamics diffusive sub-diffusive depends chosen reaction coordinate
+protein folding described diffusion free energy surface function optimum reaction coordinate
+conversely conventional reaction coordinates even though they might based physical intuition often sub-optimal hence show sub-diffusive dynamics
+ introduction 
+free energy surface projected onto one small number coordinates often used describe equilibrium kinetic properties complex systems very large number degrees freedom
+studies protein folding important case where type projected surface been introduced coordinates number native contacts radius gyration been used
+protein folding then described diffusion projected free energy surface
+diffusive dynamics characterized means square displacement linearly growing time formula where d diffusion coefficient
+single reaction coordinate diffusive dynamics completely specified free energy profile i.e free energy function coordinate coordinate-dependent diffusion coefficient conveniently computed conventional cut based free energy profiles
+construction good reaction coordinate challenging
+many cases standard progress variables not good reaction coordinates because they do not preserve barriers fes thus may mask inherent complexity latter
+number methods construct good reaction coordinates been suggested 
+employing mori-zwanzig formalism one derive generalized langevin equations describe system dynamics projected reaction coordinates
+generalized langevin equation contains memory kernel leads non-markovian dynamics subdiffusion
+subdiffusion characterized mean square displacement growing slower than diffusion formula exponent formula
+completely specify dynamics case one compute memory kernel not trivial since requires solution multidimensional partial differential equation
+long-term memory correlation functions anomalous diffusion proteins was observed experimentally theoretically
+raises question whether folding dynamics proteins described simple diffusion projected free energy surface often done if one use more sophisticated descriptions e.g generalized langevin equations fractional fokker-plank equations multiscale state space networks
+here show if reaction coordinate properly optimized then dynamics projected onto coordinate diffusive while same dynamics projected onto sub-optimal coordinate sub-diffusive

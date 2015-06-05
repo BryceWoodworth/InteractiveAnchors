@@ -1,0 +1,44 @@
+ 
+using college student samples two studies were conducted validate chinese version domain-specific risk-taking dospert scale
+results replicated important findings reported weber et al chinese culture
+risk-taking risk perception were domain-specific whereas perceived-risk attitudes were relatively stable across domains supporting risk-return model risk taking
+results both exploratory factor analysis efa confirmatory factor analysis cfa showed ethical recreational health safety gambling domains were preserved chinese version dospert items social investment domains formed one factor
+result may explained weber hsee's cushion hypothesis
+other possible reasons cross-cultural difference factor structure were also discussed
+ introduction 
+significant past research been conducted understand people's differences their risk-taking behaviors often referred differences risk attitude
+according expected utility theory prospect theory risk attitude explained shape utility function
+model risk attitude-an individual's location continuum risk aversion risk seeking-is assumed personality trait
+based single trait view risk attitude researchers employed various methods measure
+some studies require participants choose between lotteries then compare participants' observed choices choices predicted expected value
+using probability equivalence method kogan wallach developed choice dilemma questionnaire asking respondents probability equivalents twelve choice dilemmas combined into single score represents risk attitude
+nonetheless according blais weber studies were questionable due two major problems
+firstly people may classified risk seeking risk averse depending method employed measure risk attitude
+secondly even same method may categorize individual into different groups across different situations domains
+problems suggest those measurements do not possess satisfactory predictive validity across range situations
+given obvious deficiency many risk attitude measurements recently some researchers claimed risk attitude should conceptualized risk-return framework risky choice treated domain-specific manner
+risk-return models assume risk taking reflect tradeoff between perceived risk fear expected return hope risk taking preference x expected benefit x b perceived risk x c where represents marginal effect expected benefit x risk taking preference b represents marginal effect perceived risk x risk taking preference c error term
+researchers found systematic situational group differences perceived risk expected benefit risky behaviors
+nevertheless people's perceived-risk attitude coefficient b-remains relatively stable across situations groups
+therefore differences perceived risk expected return risky choices seem play major part observed domain-specificity risk attitude
+risk return framework weber et al developed domain-specific risk-taking dospert scale order assess both conventional risk attitudes apparent risk taking i e risk taking preference formula above perceived-risk attitudes six domains namely social recreational gambling investment health safety ethical decisions
+conventional risk attitudes defined people's stated level risk taking perceived-risk attitude defined willingness engage risky behavior function its perceived risk
+therefore dospert scale measures both individuals' propensity engage risk activities their perceived risk expected return activities making possible study relationship between apparent risk taking risk perception thus perceived-risk attitude
+using scale weber et al demonstrated participants' degree risk taking differed across domains differences were primarily associated differences perceived risk expected return risky behaviors rather than differences perceived-risk attitude
+results provided strong support risk-return model risky choice
+researchers provided strong evidence dospert scale's reliability validity
+weber et al reported its initial psychometric properties including moderate reliability estimates satisfactory construct validity convergent discriminant validity respect constructs sensation seeking intolerance ambiguity social desirability
+geographically dospert been validated many other cultures german dutch italian spanish
+nonetheless date scale not been tested eastern cultures
+mentioned above items six content domains dospert were originally developed validated u s since substantial cultural differences exist between western societies eastern societies there need examine its psychometric properties eastern culture
+therefore order further examine cross-cultural validity dospert current paper validated scale chinese culture using university students china
+process looked similarities differences risk taking function culture then discuss possible explanations observed differences
+specifically conducted two studies address issues
+simplicity sake will refer our translated revised version scale dospert-c
+study number attempted identify factor structure dospert-c using exploratory factor-analytic procedure
+moreover examined reliability dospert-c
+also performed regression examine relationship between risk perception risk behavior
+mentioned above risk-return framework assumes involvement various determinants namely perceived risk expected benefit perceived-risk attitude
+however because logistical constraints expected benefit could not collected present study
+thus study's emphasis conventional risk attitudes perception risk perceived-risk attitude
+study number order provide further empirical support factor structure dospert-c conducted confimatory factor analysis

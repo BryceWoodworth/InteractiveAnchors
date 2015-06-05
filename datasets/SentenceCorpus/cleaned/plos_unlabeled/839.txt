@@ -1,0 +1,34 @@
+ 
+molecular chaperones essential elements protein quality control machinery governs translocation folding nascent polypeptides refolding degradation misfolded proteins activation wide range client proteins
+prokaryotic heat-shock protein dnak e coli representative ubiquitous hsp70 family specializes binding exposed hydrophobic regions unfolded polypeptides
+accurate prediction dnak binding sites e coli proteins essential prerequisite understand precise function chaperone properties its substrate proteins
+order map dnak binding sites protein sequences developed algorithm combines sequence information peptide binding experiments structural parameters homology modelling
+show combination significantly outperforms either single approach
+final predictor had matthews correlation coefficient 0.819 when assessed over 144 tested peptide sequences detect true positives true negatives
+test robustness learning set conducted simulated cross-validation where omit sequences learning sets calculate rate repredicting them
+resulted surprisingly good mcc 0.703
+algorithm was also able perform equally well blind test set binders non-binders there was no prior knowledge learning sets
+algorithm freely available at link
+ introduction 
+hsp70 molecular chaperones part quality control machinery functions assist protein folding
+members hsp70 family been implicated refolding misfolded proteins folding newly synthesized polypeptide chains disassembly larger aggregates translocation proteins organelles
+hsp70 molecules also enable cell survival during stress heat-shock conditions characterized increased concentration denatured polypeptides
+chaperones recognize bind misfolded aggregation-prone peptide stretches through exposed hydrophobic regions normally buried protein core
+exposed regions typical non-native proteins 
+hsp70 molecular chaperones consist two distinct domains n-terminal atpase domain c-terminal peptide binding domain
+hsp70 function dependent atp-regulated cycle substrate binding release
+atp bound substrate affinity low hsp70 resides open state ready receive suitable substrate
+once substrate bound atp hydrolyzed adp hsp70 undergoes conformational change high affinity state subsequently trapping substrate
+co-chaperone hsp40 binds hsp70 stimulates atpase function causing retention substrate
+hsp40 also recognizes hydrophobic stretches may serve substrate delivery chaperone hsp70
+upon exchange adp atp hsp70 returns low affinity state enabling binding another substrate providing another refolding cycle same substrate if necessary
+crystallisation archetypical well characterized e coli hsp70 dnak bound peptide reflects heptameric substrate binding motif requiring hydrophobic core region preferably basic flanking residues complement overall negatively charged dnak surface
+preference was later confirmed seminal work bukau co-workers binding studies dnak cellulose-based peptide libraries dnak binding profile was derived 
+contrary previous studies dnak binding motif profiling utilised only sequence information complement experimental binding information set peptides structural data homology modelling obtain accurate predictor
+similar dual based approaches already been shown successful predict other peptide signatures
+prediction binding endogenous antigenic peptides mhc class i molecules was aided adding structural information molecular models sequence data
+branetti et al used structural data various sh3/ligand complexes sequence information phage libraries predict preferred ligand binding different sh3 domains
+recently algorithm predict amylogenic regions protein sequences profited greatly combination sequence based data structural information amyloid fibers crystallographic studies 
+article introduce dual based method profiling dnak binding sequences
+combine sequence based information experimental binding assays structural information molecular modelling via foldx force field
+present dnak binding prediction algorithm under cross-validated conditions performs strikingly accurate

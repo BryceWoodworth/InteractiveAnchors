@@ -1,0 +1,37 @@
+
+system behavior
+although gene regulatory network within individual neurons well characterized less known about cells how firing rate gene expression
+developed firing rate model known properties cells including dependent changes membrane
+dynamics were model between firing gene expression
+individual patterns matching experimental data both current levels phase relationships
+synaptic signals across were found play critical membrane gene expression
+various mechanisms agents experimentally observed firing rate dynamics gene transcription
+concentration was shown processes firing frequency gene expression system
+model predicted direct relationship between firing frequency gene expression demonstrated importance pathways single cell behavior provided novel framework characteristics at both gene regulatory levels
+introduction
+many physiological behavioral responses subject mechanisms biological
+generated
+gene expression firing frequency multiple individual signals across network
+single cell gene regulatory mechanism involves number positive negative feedback gene central position
+neural firing number properties cell membrane also over
+studies demonstrated neural firing potential membrane well number include fast 2
+although individual neurons contain molecular feedback membrane synaptic transmission also play significant
+experimental studies demonstrated core activity molecular
+organisms direct between membrane also been reported multiple studies evidence positive correlation between per gene transcription neural frequency output
+example activation via leads lower firing rates
+another example involves known lower both core genes neural firing
+mechanisms single cells produce neural firing gene expression involve second
+second cellular processes
+known over mean phase
+been demonstrated gene expression 2 dependent kinase turn binding protein
+reduced 2 been shown
+2 also affect neural firing frequency 2 via results firing activity
+our knowledge detailed cell models molecular gene expression neural firing signaling pathways not available any system
+recent study type model neurons was developed shown significant amount experimentally observed behavior
+while study our model mathematical representation number relevant our modeling study was distinct due its focus
+addition properties our model gene expression dynamics
+objective present study was model between pathway cellular dynamics evaluate role synaptic stimuli firing rate behavior over
+role distinct pathways well information along network nodes was single cell model behavior following introduction various stimuli
+dynamics model well 2 out cell membrane
+our model demonstrated membrane synaptic input predicted reduced neural firing per well reduced 2
+results suggest effect signaling pathways potentially agents between gene regulatory network neurons

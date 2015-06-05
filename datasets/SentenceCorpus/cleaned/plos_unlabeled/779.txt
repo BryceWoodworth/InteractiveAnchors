@@ -1,0 +1,70 @@
+ 
+protein function mediated different amino acid residues both their positions types protein sequence
+some amino acids responsible stability overall shape protein playing indirect role protein function
+others play functionally important role part active binding sites protein
+given protein sequence residues their degree functional importance thought signature representing function protein
+developed combination knowledge biophysics-based function prediction approaches elucidate relationships between structural functional roles individual residues positions
+meta-functional signature collection continuous values representing functional significance each residue protein may used study proteins known function greater detail aid experimental characterization proteins unknown function
+demonstrate superior performance mfs predicting protein functional sites also present four real-world examples apply mfs wide range settings elucidate protein sequence structure function relationships
+our results indicate mfs approach combine multiple sources information also give biological interpretation each component greatly facilitates understanding characterization protein function
+ introduction 
+vast amounts sequence structural data being generated high-throughput technologies
+functional annotations uncharacterized sequences structures significantly lagging
+time cost experimental techniques required probe function all uncharacterized proteins prohibitive
+therefore computational means been increasingly useful popular predicting annotating functions huge amount sequence structure data 
+however protein function prediction itself difficult problem formulate since difficult define function
+various functional definition schemes been developed over years addressed various aspects protein function
+instead adopting existing functional definition scheme proposed probe role individual amino acid residues protein function regardless functional definition schemes used
+cases protein function represented simply series quantitative values each indicates functional importance corresponding amino acid residue protein sequence structure
+calculate quantitative values each residue used combined approach meta-functional signature takes into account individual scores various function prediction algorithms generates composite score each amino acid residue given protein
+currently our signature generation protocol consists following four types scores four different types information: sequence conservation evolutionary conservation structural stability amino acid type
+all scores generated via conceptually simple easily implementable algorithms their combined use outperforms sophisticated algorithms use only one source information
+sequence conservation one most utilized methods measuring functional importance individual amino acids
+amino acid residues more conservative variation patterns usually more important preservation protein function
+concept often used identify functional regions proteins building multiple alignments between target sequence all its sequence homologues then analyzing degree sequence conservation among each alignment site
+various measures sequence conservation been proposed over years differing complexity sophistication
+simplest measures sequence conservation entropy score its variants
+more complicated measures incorporate other information amino acid pairwise similarity physicochemical properties theoretical sequence profiles into scoring schemes
+al2co program package incorporates nine different scoring schemes but scores tend correlate each other
+recently was also shown jensen-shannon divergence measure improves predicting functionally important residues considering conservation sequentially neighboring sites further improves accuracy
+previously demonstrated relative entropy measure incorporates amino acid background frequencies better predict functional sites than simple entropy measures
+furthermore found incorporating amino acid frequencies estimated hidden markov models further improves performance relative entropy measure
+current study use sequence conservation measure derived hmms one component our meta-functional signature generation protocol
+addition sequence conservation also incorporate evolutionary conservation information meta-functional signature
+many studies shown use phylogenetic relationships among group evolutionarily related sequences help accurate prediction functional sites
+evolutionary trace method one first most successful methods analyzes residue variation patterns within between protein subfamilies multiple alignments maps important residues protein structure quantitatively ranks residue importance
+further development evolutionary trace method allows quantitative ranking residue importance combining use evolutionary information entropy measures
+similarly consurf method constructs phylogenetic relationships group similar sequences calculates conservation score bayesian maximum likelihood method maps conservation information protein surface
+further study soyer et al used site-specific evolutionary models assumed different substitution matrix each site detecting protein functional sites
+la et al used evolutionary relationships among sequence fragments infer protein functional sites
+del sol mesa et al presented several automated methods divide given protein family into subfamilies search residues determine specificity
+commonality among all methods sequence relationships analyzed based topology evolutionary tree thus providing additional level information instead relying multiple sequence alignments alone
+here propose novel method called state step ratio score measuring evolutionary conservation
+based given multiple alignments construct maximum parsimony tree analyze variation patterns root tree leaf tree create score each amino acid residue
+ssr score simple yet effective way measuring evolutionary conservation
+functional signature scores also derived biophysics-based methods using experimentally determined computationally predicted protein structures
+example recent study demonstrated destabilizing regions protein structures often used provide valuable information functional inference functional site identification
+given structure given position propose mutate wild-type residue 19 other amino acids calculate their structural stability scores turn used assign score each residue protein
+hence scores also serve component protein function prediction
+previously developed residue-specific all-atom probability discriminatory function compiles statistics database experimental structures score pick decoy structures more likely similar experimentally derived structures
+rapdf been optimized enhanced recent years protein structure prediction
+here further expanded rapdf score residue mutations per-residue basis
+each residue given protein was mutated one 19 alternative amino acids producing new structures were further optimized topology maximized stability
+our current mfs generation protocol used two rapdf based scoring functions measure how all mutated structures deviate each other how experimentally determined structure differs mutated structures represent potential impact stability position naturally occurring residue respectively
+scores separate residues conserved structure versus function
+additional component meta-functional signature information type amino acids histidine cysteine more likely located functional sites than other amino acids
+however prior probability functional site not explicitly modeled incorporated most current functional site prediction algorithms
+our mfs generation protocol used 19 binary variables represent amino acid identity each position given protein
+also examined whether explicit use amino acid information opposed implicit use could provide additional information better performance
+given complexity defining identifying protein functional sites clearly no single method will always work capture all protein functional site information
+therefore several groups begun incorporate information various sources especially structure-derived information give more accurate predictions
+work chelliah et al shown distinguishing structural functional constraints amino acid residues leads better prediction protein interaction sites
+shown considering both structural functional constraints protein evolution better identify functional sites signatures
+recently petrova et al showed integration seven selected sequence structure features into support vector machine framework improve identification catalytic sites
+furthermore fischer et al integrated sequence conservation amino acid distribution predicted secondary structure relative solvent accessibility into probability density framework showed at 20 percent sensitivity integrated method leads 10 percent increase precision over non-integrated methods predicting catalytic residues catalytic site atlas pdb site records
+youn et al investigated various features discriminating catalytic noncatalytic residues novel structural folds showed measure sequence conservation measure structural conservation degree uniqueness residue's structural environment solvent accessibility residue hydrophobicity best predictors catalytic sites
+other similar studies also incorporated dozens hundreds features into machine-learning framework catalytic site identification
+altogether previous work suggests great value using several complementary sequence structure components scoring catalytic sites
+unlike approaches were largely based machine-learning algorithms current study aim combine several sources information regarding sequence structure evolution type amino acids together via simple logistic regression model function prediction including both catalytic sites binding sites
+major advantage regression model each component associated biologically meaningful interpretation individual scores protein manually studied gain additional insights into different aspects protein function not available when many components thrown into sophisticated machine-learning framework
+compare mfs approach several other functional site prediction algorithms propose enhancements our approach exemplify wide definition function assessed mfs discuss how different components mfs used understand biological function via four real-world examples

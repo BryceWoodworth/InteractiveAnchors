@@ -1,0 +1,16 @@
+ 
+one major statistical methodological challenge judgment decision making research reliable identification individual decision strategies selection diagnostic tasks tasks predictions strategies differ sufficiently
+more strategies considered larger number dependent measures simultaneously taken into account strategy classification more complex selection most diagnostic tasks becomes
+suggest euclidian diagnostic task selection edts method standardized solution problem
+according edts experimental tasks selected maximize average difference between strategy predictions any multidimensional prediction space
+comprehensive model recovery simulation evaluate quantify influence diagnostic task selection identification rates strategy classification
+strategy classification edts shows superior performance comparison less diagnostic task selection algorithms representative sampling
+advantage edts particularly large if only few dependent measures considered
+also provide easy-to-use function free software package r allows generating predictions most commonly considered strategies specified set tasks evaluating diagnosticity those tasks via edts thus apply edts no prior programming knowledge necessary
+ introduction 
+identification individuals' decision strategies always challenged behavioral decision research
+there at least three traditional approaches
+structural modeling applies regression based approach identify relation between distal criterion variable proximal cues peoples' judgments process tracing methods example record information search use think aloud protocols trace decision process whereas comparative model fitting approaches investigate fit data predictions different models determine model decision strategy employed
+comparative model fitting particular gained popularity recent judgment decision making jdm research
+paper discuss problem diagnostic task selection when using strategy classification method
+suggest euclidian diagnostic task selection edts method standardized solution

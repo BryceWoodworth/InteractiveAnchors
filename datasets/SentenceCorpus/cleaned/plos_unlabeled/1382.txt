@@ -1,0 +1,33 @@
+ 
+transcriptional regulators recognize specific dna sequences
+because sequences embedded background genomic dna hard identify key cis-regulatory elements determine disparate patterns gene expression
+detection intra inter-species differences among sequences crucial understanding molecular basis both differential gene expression evolution
+here address problem investigating target promoters controlled dna-binding phop protein governs virulence mg 2 homeostasis several bacterial species
+phop particularly interesting; highly conserved different gamma/enterobacteria regulating not only ancestral genes but also governing expression dozens horizontally acquired genes differ species species
+our approach consists decomposing dna binding site sequences given regulator into families motifs using machine learning method inspired divide conquer strategy
+partitioning motif into sub-patterns computational advantages classification were produced resulting discovery new members regulon alleviating problem distinguishing functional sites chromatin immunoprecipitation dna microarray genome-wide analysis
+moreover found certain partitions were useful revealing biological properties binding site sequences including modular gains losses phop binding sites through evolutionary turnover events well conservation distant species
+high conservation phop submotifs within gamma/enterobacteria well regulatory protein recognizes them suggests major cause divergence between related species not due binding sites was previously suggested other regulators
+instead divergence may attributed fast evolution orthologous target genes and/or promoter architectures resulting interaction those binding sites rna polymerase
+ introduction 
+whole genome sequences well microarray chromatin inmunoprecipitation array hybridization data provide raw material characterization understanding underlying regulatory systems
+still challenging however discern sequence elements relevant differential gene expression those corresponding binding sites transcriptional factors rna polymerase when they embedded background genomic dna sequences do not play role gene expression
+raises question: how does single regulator distinguish promoter sequences when affinity major determinant differential expression
+also how does regulator evolve given there appears non-monotonic co-evolution regulators targets 
+methods look matching consensus pattern been successfully used identify bss promoters controlled particular tfs
+tools motif discovery designed find unknown relatively short sequence patterns located primarily promoter regions genomes
+because searches performed context short signals embedded high statistical noise current tools tend discard relevant number samples only weakly resemble consensus
+moreover strict cutoffs used methods while increasing specificity display lower sensitivity weak but still functional bss
+because consensus motif reflects single pattern derived averaging dna sequences often conceals sub-patterns might define distinct regulatory mechanisms
+overall use consensuses tends homogenize sequence motifs among promoters even across species hampers discovery key features distinguish co-regulated promoters within across species
+circumvent limitations consensus methods decomposed bs motifs into sub-patterns applying classical divide conquer strategy
+then compared different forms decomposed bs motifs tf into families motifs computational clustering perspective
+so doing extracted maximal amount useful genomic information through effective handling biological experimental variability inherent data then combined them into accurate multi-classifier predictor
+although there computational usefulness submotifs was not clear if families motifs were just computational artifact if they could provide insights into regulatory process carried out regulator its targets
+address problem evaluated ability submotifs characterize gene expression both within across genomes
+first used submotifs distinguish between functional non-functional bss genome-wide searches using combination chip-chip custom expression microarray experiments
+then determined evolutionary significance submotifs calculating their rate evolution mapping gain loss events along phylogenetic tree gamma/enterobacteria
+interspecies variation orthologous genes conservation regulatory protein well cis-features conforming promoter architecture allowed us evaluate major causes divergences between species 
+applied our approach analyze genes regulated phop/phoq two-component system mediates adaptation low mg 2 environments and/or virulence several bacteria species including escherichia coli species salmonella species shigella species erwinia species photorhabdus yersinia species
+two-component systems represent primary signal transduction paradigm prokaryotic organisms
+although proteins encoded systems often well conserved throughout different bacterial species regulators like phop differentially control expression many horizontally-acquired genes constitute one major sources genomic variation 

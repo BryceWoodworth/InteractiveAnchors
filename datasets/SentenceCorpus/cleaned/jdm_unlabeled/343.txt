@@ -1,0 +1,58 @@
+ 
+compared turkish english students' soccer forecasting english soccer matches
+although turkish students knew very little about english soccer they selected teams basis familiarity team its identified city their prediction success was surprisingly similar knowledgeable english students-consistent goldstein gigerenzer's characterization recognition heuristic
+turkish students made forecasts some matches additional information-the half-time scores
+further study where british students predicting matches foreign teams could choose whether not use half-time information found predictions could made recognition alone were influenced half-time information
+consider implications findings context goldstein gigerenzer's suggestion no other information reverse choice determined recognition recent more qualified statement indicating two processes recognition evaluation guide adaptive selection recognition heuristic
+ introduction 
+how does knowledge affect judgment decision-making
+while much judgment research considered role expertise goldstein gigerenzer made startling claim under certain circumstances ignorance benefit judges attempting make inferences their knowledge
+example goldstein gigerenzer asked both american german students bigger city san antonio san diego
+sixty-two percent americans correctly named san diego-but number percent german students were correct
+all german students had heard san diego but only about half had heard san antonio
+half german students would therefore able apply recognition heuristic-if you recognise one not other pick city you recognise
+people usually hear about bigger cities foreign countries before smaller ones-i e recognition correlates criterion being predicted-this cue will some validity
+because american students had heard both cities they couldn't utilise cue had rely other apparently less valid cues
+terms accuracy seems when comes using knowledge make inferences less sometimes mean more
+specifically when validity recognition cue exceeds validity knowledge applied when both items recognised less more effect predicted
+corroborate less more effect goldstein gigerenzer administered two quizzes number university chicago students-one about biggest number german cities one about biggest number american cities
+each quiz was comprised number randomly selected pairs biggest number cities country
+they found american students were slightly more accurate about german cities than american cities
+furthermore goldstein gigerenzer cited hoffrage who apparently found german students were slightly more accurate albeit non-significantly at making decisions about american cities than about german cities
+despite lifetime experience learning about cities one's native country seems one more accurate when making decisions about cities country considerably less familiar
+since initial experiments further research extended our understanding conditions when less-is-more effect may occur
+another experiment confirm recognition heuristic predicted inferences goldstein gigerenzer found subjects adhered predictions recognition heuristic number percent occasions was applicable concluded recognition heuristic captured vast majority inferences
+more general theoretical point goldstein gigerenzer drew demonstrations very simple one-reason heuristic using very limited knowledge make surprisingly accurate decisions
+even ignorance sometimes helpful because simple mental heuristic like recognition heuristic operates so take advantage structure information make good inferences
+particular recognition heuristic successful when ignorance specifically lack recognition systematically rather than randomly distributed when strongly correlated criterion
+particular interest us here goldstein gigerenzer's suggestion recognition heuristic uses noncompensatory rule
+even when other information about recognized alternative available never overrides weight placed simple recognition if one object recognized other not then inference determined no other information about recognized object searched therefore no other information reverse choice determined recognition
+consistent their suggestion recognition heuristic utilises non-compensatory decision rule goldstein gigerenzer reported evidence use recognition cue was unaffected presence other conflicting information
+give more detailed account their study general discussion but short they taught their respondents cities soccer teams were bigger than those without number percent possible city pairings
+yet when confronted choice between city they recognised knew did not soccer team one they did not recognise but might soccer team respondents chose recognised city number percent pairs
+thus additional diagnostic information about soccer teams city sizes had no measurable impact decisions where recognition heuristic was applicable
+number subsequently published studies clearly show recognition at least general sense plays role prediction including soccer matches
+studies did not test non-compensatory use recognition-critical distinguishing recognition heuristic similar but distinct proposals availability heuristic attribute judgment relative ease retrieval fluency heuristic assumes most fluently processed item highest criterion value
+nevertheless other studies challenged non-compensatory use recognition
+example newell shanks found two cue-learning experiments people did not place any special status recognition
+most their subjects learned use recognition-based information when was good predictor essentially ignore when was poor predictor
+they found little evidence recognition treated any differently other cues environment
+note although results show laboratory-induced recognition may overruled given information supplied experimenter they do not show natural pre-experimental recognition over-ruled information drawn memory
+their recent review research into recognition heuristic gigerenzer goldstein discuss what they identify misunderstanding number pp number  number emphasise studies focusing inferences given information experimentally induced recognition beyond domain recognition heuristic
+newell shanks's study others tested non-compensatory use recognition been criticised pachur broder marewski who argued most studies testing non-compensatory use recognition used experimental situations differ potentially critical ways situations goldstein gigerenzer formulated heuristic
+according pachur et al ideal test recognition heuristic uses natural cue knowledge rather than teaching same laboratory setting choices elicited-a failing even goldstein gigerenzer's test non-compensatory cue use-and natural pre-experimental recognition-a failing newell shanks's two cue-learning experiments
+moreover according pachur et al research should test cases where recognition good predictor criterion also preclude possibility knowledge other than cue knowledge could inform decisions-conclusive criterion knowledge e g knowing recognized city very small so guessing another unrecognized city bigger could allow decision makers make judgments without engaging inductive inference goldstein were theorizing about
+experiments presented here investigate how people use recognition exempt issues raised pachur et al although like goldstein gigerenzer do test impact information givens namely presented information rather than information drawn memory
+while issue was not referred goldstein gigerenzer was mentioned gigerenzer goldstein first introduced recognition heuristic
+further emphasized gigerenzer goldstein who identify presumption recognition heuristic applies inferences givens misconception describe tests recognition heuristic using inferences given information going beyond domain recognition heuristic
+although their own test impact conflicting information tested subjects' use given information experimenter-supplied cue validity did not provide what gigerenzer goldstein describe cue information about unrecognized objects-which may why goldstein gigerenzer made no reference notion their own test was beyond domain recognition heuristic
+indeed they concluded result supports hypothesis recognition heuristic was applied noncompensatory way p number
+our first study examined judgmental predictions two different groups subjects who like american german students studied goldstein gigerenzer would expected different knowledge domain
+study-conducted number long before read about recognition heuristic-was cited goldstein gigerenzer rather fortuitously must admit illustrated surprising benefit ignorance judgment
+studied turkish english students' predictions english soccer matches
+expected turkish subjects very little knowledge domain while british subjects would good deal knowledge
+although predicting soccer matches not quite same making inferences about city sizes were able test accuracy subjects' predictive inferences comparing forecasts outcomes games
+given turkish subjects' very limited knowledge english soccer envisaged relative familiarity names english cities towns often make up names soccer clubs might very often their only basis making forecasts
+so although did not recognition heuristic mind when designed study measured subjects' familiarity city names-including those they had no familiarity at all-in order examine relationship between variable their forecasts
+were also able study effect providing additional diagnostic information turkish subjects' judgments
+after they made their initial forecasts provided them half-time scores matches investigate whether their forecasts additional information reflected any integration additional information their judgment

@@ -1,0 +1,31 @@
+
+family transcription factor genes resulting different levels wide
+activation occurs order respect level however order activation does not binding sequences
+understand lack developed computational model activation transcription factor either increases rna binding either events associated transcription
+used model analyze data regulation activity
+model lack between order activation order activation only predicted using information about full interaction
+analysis further suggests without increasing binding activation even involve binding model activation
+findings consistent interactions between e
+find activation involving binding lower gene regulation therefore might advantage cells
+our model into predicting order activation us suggest activation might involve binding important gene regulation e
+introduction
+transcription factors control cellular protein binding dna frequency produced
+there transcription factors while most target only small number genes there several expression more genes
+taken together global transcription factors directly genes e their regulatory interactions important into genetic regulatory network
+because they so many genes global transcription factors also play large role cellular however into behavior limited lack quantitative information about how transcription factors target genes
+one important global transcription factor family protein genes resulting different levels wide
+effect at different due changes detailed sequence site its distance respect
+influence order increasing important functional e
+quantitative regulation at different recently expression under control determined relationship between concentration concentration examined expression function concentration
+found activation occurs order respect level cells response level environment
+also found only were at level
+contrast assumption found order activation does not binding sequences
+finding suggested interactions between rna play important role order activation but data did not what nature interactions might at various
+here developed computational model activity understand how interactions between transcription at examined previously three only ones provides important modeling
+model was specifically designed compare model increases binding but does not increase rate events more general model either increase binding either increase rate events
+each both model general model data at many points within region parameter space
+model why order activation does not binding
+all best general model was better than model
+comparison model full analysis suggest does not increase binding but does increase rate events at
+moreover analysis suggests activation involve binding associated low gene regulation
+discuss findings

@@ -1,0 +1,38 @@
+ 
+when incorporated into polypeptide chain proline differs all other naturally occurring amino acid residues two important respects
+dihedral angle pro constrained values close 65 pro lacks amide hydrogen
+consequently mutations result introduction pro significantly affect protein stability
+present work describe procedure accurately predict effect pro introduction protein thermodynamic stability
+seventy-seven 97 non-pro amino acid residues model protein ccdb were individually mutated pro vivo activity each mutant was characterized
+decision tree classify mutation perturbing nonperturbing was created correlating stereochemical properties mutants activity data
+stereochemical properties including main chain dihedral angle main chain amide h-bonds were determined 3d models mutant proteins built using modeller
+assessed performance decision tree large dataset 163 single-site pro mutations t4 lysozyme 74 nssnps 52 other pro substitutions literature
+overall accuracy algorithm was found 81 percent case ccdb 77 percent case lysozyme 76 percent case nssnps 71 percent case other pro substitution data
+accuracy pro scanning mutagenesis secondary structure assignment was also assessed found at best 69 percent
+our prediction procedure will useful annotating uncharacterized nssnps disease-associated proteins protein engineering design
+ introduction 
+proline unique among 20 naturally occurring amino acid residues
+one hand because pro lacks amide proton main chain amide n incapable forming h-bonds
+hence substituting residue involved main chain h-bond pro could destabilize protein
+property previously been exploited obtain information about residues involved secondary structure
+other hand rigid pyrrolidine ring constrains main chain dihedral angle narrow range values close 65
+also been observed pro restricts conformation residue preceding protein sequence
+ramachandran map pre-proline residue large excluded area between 40 50
+restricts conformation l regions
+there also small leg density region unique pre-proline residues
+hence pro potentially increase protein stability because decreases conformational entropy denatured state
+addition pro usually conserved proteins often plays important role protein structure function 
+previous studies pro mutants different proteins shown thermodynamic effects introducing pro depend various factors including residue position value original residue h-bonding amide group original residue electrostatic hydrophobic interactions original residue
+however not yet clear whether introduction pro at given position protein will perturbing nonperturbing effect thermodynamic stability protein
+aim present work generate algorithm based pro scanning mutagenesis data used predict perturbing/nonperturbing effect pro substitution at given position any globular protein
+also examine utility pro scanning mutagenesis infer protein secondary structure
+experimental system used study controller cell division death b protein 101 residue homodimeric protein encoded f plasmid
+protein does not contain any disulfides metal ions
+protein inhibitor dna gyrase potent cytotoxin escherichia coli
+transformation normal e.coli cells plasmid expressing wild-type ccdb gene results cell death
+if protein inactivated through mutation cells transformed mutant genes will survive
+work attempted replace each 101 amino acids homodimeric ccdb pro using high throughput mega-primer based site-directed mutagenesis
+total 77 mutants could generated
+mutant phenotype was assayed function expression level monitoring presence absence cell growth function inducer concentration
+based analysis ccdb pro scanning mutagenesis phenotypic data its correlation various structural parameters decision tree was created classify pro substitutions protein into perturbing nonperturbing mutations
+decision tree was further validated large phenotypic dataset 163 pro mutants t4 lysozyme at two different temperatures nonsynonymous single nucleotide polymorphism database pro substitutions associated various diseases pro substitutions extracted protherm database literature

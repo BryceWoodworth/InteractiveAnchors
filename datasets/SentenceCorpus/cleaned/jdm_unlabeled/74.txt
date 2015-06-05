@@ -1,0 +1,28 @@
+ 
+present concordant-ranks cr strategy decision makers use quickly find alternative proximate ideal alternative multi-attribute decision space
+cr implies decision makers prefer alternatives exhibit concordant ranks between attribute values attribute weights
+show situations where alternatives equal multi-attribute utility mau minimization weighted euclidean distance wed ideal alternative implies choice cr alternative
+two experiments participants chose among well evaluated alternatives were constructed equal mau
+experiment number four alternatives were designed way choice each alternative would consistent one particular choice strategy one was cr strategy
+experiment number participants were presented cr alternative number arbitrary alternatives
+both experiments participants tended choose cr alternative
+cr alternative was average evaluated more attractive than other alternatives
+addition measures wed between given alternatives ideal alternative large agreed preference order choices attractiveness evaluations different types alternatives
+findings indicate both choices attractiveness evaluations guided proximity alternatives ideal alternative
+ introduction 
+modern consumer society involves many decision situations one alternative needs chosen set several fairly attractive alternatives
+true large investments purchase car home but also everyday consumer choices deciding what eat
+all choice situations there might several alternatives cannot easily discarded
+indeed fundamental feature market economies offer several alternatives attractive at least some people some times depending their different tastes monetary constraints
+thus there markets attractive luxury cars attractive budget cars so
+usually decision makers find promising alternative serves candidate final choice may checked more less thoroughly differentiated other alternatives before making final choice
+they look through car ads browse website homes sale may quickly find promising alternative
+ability make quick choices helps consumer solve life puzzles because lack time fundamental feature modern consumer society
+present paper concerned strategies people use situations
+how do people quickly find most promising alternative out several fairly attractive alternatives difficult differentiate each other respect their overall attractiveness
+suggest situations individuals will choose alternative close their ideal alternative
+manifests itself using strategy call concordant-ranks strategy cr
+according strategy decision makers choose alternative there concordance between rank-order attribute values importance weights attributes provided overall attractiveness alternatives approximately equal
+study choices test validity cr strategy presented participants individually tailored alternatives choose each constructed approximately equal attractiveness
+assuming multi-attribute utility mau could used approximate indicator alternative attractiveness alternatives were constructed they were equal mau based attributes attribute weights participants generated themselves
+study focused how participants quickly find promising alternative i e tentative preliminary choice rather than how they build up complex argumentation structure justify final choice

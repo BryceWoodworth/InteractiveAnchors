@@ -1,0 +1,85 @@
+
+present novel framework modeling sequential data structure
+our model network matrix positive factor network
+data model linear subject constraints so observation data combination observations also network
+property modeling problems computational analysis since distinct sources environment often corresponding
+propose inference learning algorithms existing algorithms
+present target example provide results observation data properties their potential applications transcription source recognition
+show how target process characterized state transition model represented
+our results defined terms single target observation then used states multiple targets
+our results show quality target states observation noise increased
+also present results example features
+representation could useful transcription source applications
+also propose network modeling
+introduction
+present hidden variable framework modeling sequential data structure
+our framework applications where observed data linear combination underlying components
+provided able model underlying components full model will then any observed mixture components due property
+leads modeling representation since explain any number components
+thus our approach do not need explicitly modeling maximum number observed components their relative weights mixture signal
+approach consider problem computational analysis involves human various environmental etc
+recognition transcription specific examples problems
+when common first signal into image i e
+mixture sources often linear combination individual sources due representation sources
+example consider performed
+individual
+if one could construct model using our framework any individual note model would then observed data corresponding arbitrary linear individual
+if one could construct model under our framework single human including model model would then multiple people
+model would applications source recognition
+do not construct complex models paper however
+rather our primary objective here will construct models simple properties our approach yet complex show our approach learning training data at least
+results presented here will provide sufficient others our more them problems
+existing area research related our approach matrix its
+data modeling analysis matrix two matrices so error between under cost function
+was proposed positive matrix
+later developed robust simple rules
+various sparse also been recently proposed
+recently been applied many applications where representation data combination basis vectors seems
+applications include object modeling computer modeling signals various source applications
+basis provided itself not complex model structure
+been proposed make more
+extended model temporal time
+his also special case one our example models section
+any existing work literature allow general representation complex hidden variable models particularly sequential data models provided our approach however
+second existing area research related our approach probabilistic models particular dynamic bayesian networks probabilistic models sequential data
+note hidden markov model special case
+widely used recognition other sequential data modeling applications
+probabilistic models because they they represent complex model structure using modeling representation
+corresponding exact approximate inference learning algorithms complex difficult
+our objective paper present framework modeling data linear representation while also more hidden variable data models means variable probabilistic models framework
+will particularly models sequential data
+our framework full model several
+overall model then system vector matrix
+paper will particular system corresponding model positive factor network
+will dynamic positive factor network
+given observed subset model variables define inference values hidden subset variables learning model parameters system
+note our inference distinct probabilistic notion inference
+inference actual values hidden variables whereas probabilistic model inference probability distributions over hidden variables given values observed variables
+inference therefore more estimates hidden variables probabilistic model
+one could obtain probabilistic model model variables random vectors probability distributions consistent linear variable model
+let us call class models probabilistic
+exact inference generally model since hidden variables model not
+however one could consider algorithms approximate inference corresponding learning algorithm
+any existing algorithms approximate inference probabilistic
+possible our inference algorithm may also probabilistic but idea further paper
+rather paper our objective develop inference learning algorithms taking approach existing algorithms used way seems
+will performance proposed inference learning algorithms various example test data sets order sense utility approach applications
+propose general inference learning algorithms therefore potentially also various while constraints so variables appear multiple values
+our empirical results show proposed inference learning algorithms robust noise good convergence properties
+existing algorithms inference learning algorithms advantage being even relatively large networks
+constraints also model existing sparse algorithms
+note algorithms inference learning should knowledge linear basic graph theory do not require probability theory
+similar existing algorithms our algorithms highly take advantage potentially also processing
+more research will needed determine how well our approach will scale very large complex networks
+paper following structure
+section present basic model
+section present example how used represent transition model present empirical results
+section present example using model sequential data structure present empirical results expression example
+section present target example provide results observation data properties their potential applications transcription source recognition
+show how target process characterized state transition model represented
+our results defined terms single target observation then used states multiple targets observed data
+section present results example features
+representation could useful transcription source applications
+section propose modeling sequence words transition model features
+also propose rules numerical stability
+resulting rules presented

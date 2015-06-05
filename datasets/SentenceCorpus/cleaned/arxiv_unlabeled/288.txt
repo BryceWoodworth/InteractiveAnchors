@@ -1,0 +1,19 @@
+ 
+suppose signal realized driving sparse signal through arbitrary unknown stable discrete-linear time invariant system  namely  where impulse response operator
+types processes arise naturally reflection seismology
+paper interested several problems: blind-deconvolution: recover both filter sparse signal noisy measurements b compressive sensing: compressible conventional sense compressed sensing
+namely reconstructed sparse set measurements
+develop novel minimization methods solve both cases establish sufficient conditions exact recovery case when unknown system auto-regressive i e all pole known order
+compressed sensing/sampling setting turns out both reconstructed measurements under certain technical conditions support structure
+our main idea pass through linear time invariant system collect sequential measurements
+filter chosen suitably namely its associated toeplitz matrix satisfies rip property
+develop novel lp optimization algorithm show both unknown filter sparse input reliably estimated
+ introduction 
+paper focus blind de-convolution problems filtered sparse processes
+specifically sparse input filtered unknown infinite impulse response iir discrete time stable linear filter resulting output y(t  x(t  n(t t  0,\,1,\,\ldots,n u(t h x(t u(t h h h h z h \ell_1 h u h u x(t x(t u(t h z o(k\log^3(n gh h hu x 3 \alpha_1=0 9,\,\alpha_2=0 7 \alpha_3=0 2 x u(t)=x(t)-x(t-1 x h u x=hu h x g g(t g*h u  gu g g u h h h u(t u(t u(t \ell_1 1\% 10\% \ell_1 u \ell_1 \ell_1 1\% 10\% h u h h^{\perp} p g * h  h * g \ell_1 u p m o(m+p o(mp \ell_1$ minimization algorithm main result paper theorem  stated section
+proof theorem found section
+help reader understand main idea proof first consider very simple case section provides proof general case
+section addresses blind-deconvolution problem regarded noisy version our problem
+use lasso solve problem detailed proof provided section
+section  extend our techniques two related problem namely decoding arma process decoding non-causal ar process
+finally simulation results shown section

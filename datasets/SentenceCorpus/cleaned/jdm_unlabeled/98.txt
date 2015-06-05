@@ -1,0 +1,13 @@
+ 
+although mechanical turk recently become popular among social scientists source experimental data doubts may linger about quality data provided subjects recruited online labor markets
+address potential concerns presenting new demographic data about mechanical turk subject population reviewing strengths mechanical turk relative other online offline methods recruiting subjects comparing magnitude effects obtained using mechanical turk traditional subject pools
+further discuss some additional benefits possibility longitudinal cross cultural prescreening designs offer some advice how best manage common subject pool
+ introduction 
+mechanical turk started number service crowd-source labor intensive tasks now being used source subjects experimental research
+however combination unfamiliarity what online labor markets how use them uncertainty about demographic characteristics their participants concerns about data quality sample may make some researchers wary using mechanical turk collect data
+address concerns report demographic characteristics mechanical turk workers highlight some unique practical methodological strengths mechanical turk source research subjects compare classic judgment decision making effects population more traditional subject populations
+article organized follows
+section number introduce main features mechanical turk demonstrate population mechanical turk at least representative u s population traditional subject pools
+further show shifting include more international participants
+section number review logic underlying concerns collecting data using mechanical turk present strengths potentials mechanical turk relative other online offline methods recruiting subjects
+section number present results comparative study involving classic experiments judgment decision-making found no differences magnitude effects obtained using mechanical turk using traditional subject pools

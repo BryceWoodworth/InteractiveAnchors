@@ -1,0 +1,60 @@
+
+into many distinct
+during neural development dependent expression patterns several genes
+along play particularly strong role
+however our understanding regulatory interactions between genes lead their particular spatial patterns
+therefore used computational model interactions between genes determine interactions interactions occur networks expression patterns observed experimentally
+model expression levels nature expression data available
+gene expression patterns all formula possible networks genes interest
+found only formula networks were able experimentally observed expression patterns
+networks all certain interactions interactions including
+many higher order interactions also networks our good performance
+while there was structure networks perform well analysis probability each interaction interactions most likely present gene network area development
+found general interactions much more likely than ones but not critical correct network
+overall our model design gene network area development makes novel predictions tested experimentally
+introduction
+complex but structure
+into several distinct different gene expression specific patterns input output
+but how does functional
+there strong evidence both genetic mechanisms play role development process also
+genetic component spatial expression some genes prior well fact expression some genes early development changes area position
+other hand hence activity area size area
+results current model process where initial spatial patterns gene expression provide
+activity then more complex gene expression turn further area specific
+paper how patterns gene expression form early development
+experiments identified many genes expressed critical
+although occurs field most experiments focus hence here along
+expressed at
+after expression four transcription factors expressed across
+four research target because their expression could provide unique system information
+expression each four area
+furthermore during development expression each genes up expression some other genes set along
+large experiments given network regulatory interactions between genes
+however only one interactions been directly demonstrated no analysis been performed at systems level
+known able form regulatory networks spatial development role better known
+feedback feature spatial patterns expression genes network
+since expression other genes local differences expression set method spatial patterns growth expression cues more complex patterns gene expression
+genes form regulatory network many feedback principle spatial patterns
+interactions critical correct interest field but current experimental approaches limited their ability importance each particular interaction
+computational gene regulatory networks necessary because their complex difficult understand
+addition several other
+many interactions between genes represented like seen
+because simple presence many feedback makes about overall complex systems
+more description than would test current model potential give greater understanding many other regulatory networks
+found mathematical computational models making assumptions therefore greater
+computational experiments also performed relative experiments useful thought experiments then tested experimentally
+way computational experiments each other so both manner
+here use approach model regulatory network
+approach variables genes proteins take only two values one gene protein activity being below above some threshold effect
+while continuous models more they many free parameters experimental data computational investigate
+contrast models used when only expression interaction data available case
+models at each point time state variable depends state its at previous time step
+set regulatory relationships between variables how system time
+number free parameters while still network dynamics predictions
+our model use only two spatial one another
+expression levels after shown
+more than two expression levels more than two spatial would more but would result number parameters experimental data
+having only two expression levels only two allows us large number networks would more complex model
+paper dynamics all possible networks different interactions between show only formula networks able expression patterns observed experimentally
+analysis identify structural elements common best networks well elements appear networks perform well
+results important underlying gene network suggest potential future experimental

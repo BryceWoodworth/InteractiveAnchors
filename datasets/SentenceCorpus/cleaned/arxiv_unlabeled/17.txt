@@ -1,0 +1,39 @@
+ 
+fundamental problem artificial intelligence nobody really knows what intelligence
+problem especially acute when need consider artificial systems significantly different humans
+paper approach problem following way: take number well known informal definitions human intelligence been given experts extract their essential features
+then mathematically formalised produce general measure intelligence arbitrary machines
+believe measure formally captures concept machine intelligence broadest reasonable sense
+ introduction 
+most us think recognise intelligence when see but not really sure how precisely define measure
+informally judge intelligence others relying our past experiences dealing people
+naturally naive approach highly subjective imprecise
+more principled approach would use one many standard intelligence tests available
+contrary popular wisdom tests when correctly applied professional deliver statistically consistent results considerable power predict future performance individuals many mentally demanding tasks
+however while tests work well humans if wish measure intelligence other things perhaps monkey new machine learning algorithm they clearly inappropriate
+one response problem might develop specific kinds tests specific kinds entities; just intelligence tests children differ intelligence tests adults
+while works well when testing humans different ages comes undone when need measure intelligence entities profoundly different each other terms their cognitive capacities speed senses environments they operate so
+measure intelligence diverse systems meaningful way must step back specifics particular systems establish underlying fundamentals what really trying measure
+need establish notion intelligence goes beyond specifics particular kinds systems
+difficulty doing readily apparent
+consider example memory numerical computation tasks appear some intelligence tests were once regarded defining hallmarks human intelligence
+now know tasks absolutely trivial machine thus do not test machine's intelligence
+indeed even mentally demanding task playing chess been largely reduced brute force search
+technology advances our concept what intelligence continues evolve
+how then develop concept intelligence applicable all kinds systems
+any proposed definition must encompass essence human intelligence well other possibilities consistent way
+should not limited any particular set senses environments goals nor should limited any specific kind hardware silicon biological neurons
+should based principles sufficiently fundamental so unlikely alter over time
+furthermore intelligence measure should ideally formally expressed objective practically realisable
+paper approaches problem following way
+section consider range definitions human intelligence been put forward well known psychologists
+extract most common essential features use them create informal definition intelligence
+section then introduces framework use construct our formal measure intelligence
+framework formally defined section
+section use our developed formalism produce formal definition intelligence
+section closes short summary
+preliminary sketch ideas paper appeared poster
+shown intelligence measure presented here fact variant intelligence order relation appears theory aixi provably optimal universal agent
+long journal version paper being written give proposed measure machine intelligence its relation other tests much more comprehensive treatment
+naturally expect bold initiative met resistance
+however hope reader will appreciate value our approach: formally precise definition put forward aim better our understanding what notoriously subjective slippery concept

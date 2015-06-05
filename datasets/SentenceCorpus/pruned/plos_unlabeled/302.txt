@@ -1,0 +1,67 @@
+
+dependent learning rule synaptic function relative
+when presented similar known effect high synaptic weights early while
+here use learning rule neural network visual pathway shows when network presented natural visual features
+those features patterns both present highly robust object recognition demonstrated various classification tasks
+taken together results show temporal may key understanding processing visual system lead fast responses
+introduction
+temporal constraints major models object recognition
+when two human subjects make where there target little
+if allow system underlying visual processing less
+recent showed over time small only about after stimulus contain accurate information about nature visual stimulus
+processing depends ability visual system learn visual manner
+how learning occurs major theoretical
+here simple network two key features
+first when visual stimulus neurons various system most strongly neurons firing first mechanism been shown image information
+second neurons at later system dependent known effect high synaptic weights early
+demonstrate when system presented natural neurons will become patterns present input while their leading both fast responses
+process occurs way but then show features able support
+our network family networks
+its model object recognition model itself well natural
+like them model increasing complexity observed along pathway use simple cells gain their linear while complex cells gain
+our network does not only rely uses neurons temporal domain
+at each time first respect stimulus key variable variable contains information indeed out neurons
+when presented image first cells simple cells four more strongly cell
+response stimulus contrast between stimulus
+been shown how cells so our model cells
+also limit number at between cells through at given corresponding one only corresponding best matching
+note mechanisms temporal domain using
+then through network neurons
+note within framework maximum complex cells simply first given group
+low threshold synaptic all neurons group
+one one limit activity at most one per only initial
+before new image every potential
+process various input image
+there one pathway each processing scale
+results cells various field
+then cells take maximum response cells over all scales leading position scale responses
+paper how set synaptic leading visual features whose brain may
+learning rule function temporal between before one whereas its other way
+amount depends delay between two when close together effects few
+note because neurons before those part firing
+here used rule where weight does not depend delay between time whole
+also use 1 bounds
+several authors studied effect
+here demonstrate ability statistical terms firing patterns within visual despite their very high natural
+visual stimuli presented resulting through where used
+use
+random weight matrix present first visual stimuli
+cells all each other
+if no cell its threshold process next image
+each first its threshold
+mechanism other cells firing
+thus rule
+its weight matrix change weights at all scales
+allows system learn patterns despite changes position size training examples
+also use local between different when cell at given position scale all other cells firing later at same scale within firing position
+only used learning phase all cells learning same pattern
+instead cell population each cell learn distinct pattern so whole
+if stimuli visual features common process will them
+some cells will convergence synaptic weights end up being either close 1
+during convergence process control
+those through true even presence activity
+preference key point since our framework most regions image been shown most
+during learning
+after convergence responses become visual features complexity similar features used work
+features now defined clusters among
+statistical among one each distinct pattern

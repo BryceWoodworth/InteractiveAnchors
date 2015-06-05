@@ -1,0 +1,99 @@
+
+been widely used linear signal neural responses along pathway
+their statistical attributes stimuli usually mechanisms models
+here apply efficient principle been used understand early visual processing order provide computational understanding
+according principle result optimal between information brain cost neural required represent information
+both terms depend statistical properties noise them
+should therefore depend input power assumed increase input
+derive optimal when signal noise
+under they should local predicted being input input correlation range frequency time
+predictions physiological observations
+our prediction how should determined input power could tested since depends stimulus
+efficient principle discussed
+introduction
+response input signals neurons pathway typically frequency formula particular response
+at least cases formula responses often phase field often used describe properties
+function formula sensitivity at response formula frequency formula given stimulus
+more specifically stimulus power formula input at frequency formula at time formula average level formula
+if let formula response at time formula then formula best linear relationship between formula formula stimulus paper formula input although some authors also include average input power formula
+though formula not full description input since features phase only relevant input far
+note if use formula neural response its activity level then both formula formula mean
+will use paper
+studies temporal dimension called field
+1
+regions its frequency response
+example if formula at frequency formula time formula then frequency formula should input formula frequency formula
+will also formula field kernel function input neural responses all same similar
+typically estimated using correlation methods
+however there signal along pathway
+indeed neural responses though linear power function
+there two when represented
+one formula when applied linear approximation formula better predictions neural responses
+however does not seen linear
+paper more complex dependent stimulus used estimate them
+example when stimuli rather than when stimuli rather than noise
+also more when increases
+stimulus example type neurons field region
+system become further
+despite concept still widely used not only because provides description neurons given stimulus but also because predict neural responses novel stimuli well long stimuli same stimulus used estimate first place
+predictions been obtained responses neurons
+they also been obtained responses neurons when stimulus more dynamic
+if linear neural include performed also possible predict sources neurons based linear neural input
+linear models many complex particularly not limited being just
+been suggested some neurons process objects highly manner object component while components same region frequency space object components some low over high contrast
+strong processes long since models responses
+paper understand computational rather than perspective why should depend stimulus ways observed
+more specifically paper cases neural responses identify understand computational goal given stimulus finding metric according optimal
+would provide how measured should depend stimulus
+paper does not address what linear mechanisms could optimal whether how processes adaptation stimulus
+existing computational models neurons including ones notion cells perform independent component analysis provide efficient using cannot explain observed stimulus
+attention temporal properties observed temporal level noise input environment
+particular temporal field being being low increase noise
+they using simple model adaptation more efficient input information
+study efficient understand its other input characteristics
+work understand temporal characteristics adaptation changes noise signal input statistics
+explicitly principle efficient states neural should neural responses much information possible central system subject neural cost information
+principle been proposed applied visual system understand early visual pathway
+will techniques derive explain results paper
+make initial necessary some assumptions
+first assume statistical characteristics stimulus do not change more than at so stimulus being far optimal
+when assumption does not us when not optimal when one before visual change
+second mathematical assume linear model approximate neural responses well
+know above assumption often does not particularly neurons
+paper optimal cases future studies
+third derive solution optimal assume input statistics stimulus being higher order input only representation original
+although known natural far case may only limited impact input measured amount information original input
+understand how should increase visual made
+large data about visual world
+however input data visual via only smaller data rate
+thus been proposed early visual processes use efficient strategy much information possible given limited other words data data reduced data limited
+possible since very strong between visual at points time space
+data rate
+one way input formula into different representation formula neural responses would then much smaller data rate than formula yet essential input information
+often visual field
+instance cells help spatial
+they do making cells spatial contrast input so responses visual whose input their
+responses cells much less correlated than those making their representation much more efficient
+one efficient hypothesis optimal field should depend statistical properties correlation structure input
+been used explain adaptation changes input statistics visual field characteristics regions neurons properties neurons
+system information also reduced along pathway
+although reduction was only investigated neural responses rather than leading neural responses suggested one early processes
+more efficient
+input contains signal formula noise formula
+input formula linear function formula into also contains additional noise formula introduced process
+when input multiple many different cells formula vector many components indeed formula
+output formula vector neural population responses many neurons
+output formula formula
+therefore formula matrix its formula formula models field output formula effective weights input formula output formula
+particular example when input neurons output neurons cells formula effective formula cell formula formula describe linear field cell
+consider problem finding optimal formula information formula about formula information formula between formula formula subject given cost neural depends responses way will describe
+therefore optimal formula should objective formula parameter whose value particular between information
+neural various sources metabolic energy cost neural cost higher rates neural firing
+been model neural cost formula average over stimulus
+been shown formula provides most efficient according formula following properties
+at high formula formula difference between correlated thus information
+hence example conditions cells spatial spatial contrast input
+contrast at low formula out input noise instead
+neural cost noise
+hence example conditions when considered being low cells their regions their
+will apply framework understand their adaptation stimulus

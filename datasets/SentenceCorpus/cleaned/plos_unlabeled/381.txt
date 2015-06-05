@@ -1,0 +1,45 @@
+ 
+computational methods discovery sequence elements enriched target set compared background set fundamental molecular biology research
+one example discovery transcription factor binding motifs inferred chip chip measurements
+several major challenges sequence motif discovery still require consideration: need principled approach partitioning data into target background sets; lack rigorous models exact p-value measuring motif enrichment; need appropriate framework accounting motif multiplicity; tendency many existing methods report presumably significant motifs even when applied randomly generated data
+paper present statistical framework discovering enriched sequence elements ranked lists resolves four issues
+demonstrate implementation framework software application termed drim identifies sequence motifs lists ranked dna sequences
+applied drim chip chip cpg methylation data obtained following results
+identification 50 novel putative transcription factor binding sites yeast chip chip data
+biological function some them was further investigated gain new insights transcription regulation networks yeast
+example our discoveries enable elucidation network tf aro80
+another finding concerns systematic tf binding enhancement sequences containing ca repeats
+discovery novel motifs human cancer cpg methylation data
+remarkably most motifs similar dna sequence elements bound polycomb complex promotes histone methylation
+our findings thus support model histone methylation cpg methylation mechanistically linked
+overall demonstrate statistical framework embodied drim software tool highly effective identifying regulatory sequence elements variety applications ranging expression chip chip cpg methylation data
+drim publicly available at link
+ introduction 
+paper examines problem discovering interesting sequence motifs biological sequence data
+widely accepted more formal definition task is: given target set background set sequences identify sequence motifs enriched target set compared background set
+purpose paper extend formulation make more flexible so enable determination target background set data driven manner
+discovery sequences attributes enriched target set compared background set become increasingly useful wide range applications molecular biology research
+example discovery dna sequence motifs overabundant set promoter regions co-expressed genes suggest explanation co-expression
+another example discovery dna sequences enriched set promoter regions certain transcription factor binds strongly inferred chromatin immuno-precipitation microarray measurements
+same principle may extended many other applications discovery genomic elements enriched set highly methylated cpg island sequences 
+due its importance task discovering enriched dna subsequences capturing their corresponding motif profile gained much attention literature
+any approach motif discovery must address several fundamental issues
+first issue way motifs represented
+there several strategies motif representation: using k-mer iupac symbols where each represents fixed set possible nucleotides at single position using position weight matrix specifies probability observing each nucleotide at each motif position
+both representations assume base position independence
+alternatively higher order representations capture positional dependencies been proposed
+while representations circumvent position independence assumption they more vulnerable overfitting lack data determining model parameters
+method described paper uses k-mer model symbols above iupac
+second issue devising motif scoring scheme
+many strategies scoring motifs been suggested literature
+one simple yet powerful approach uses hypergeometric distribution identifying enriched motif kernels set sequences then expanding motifs using em algorithm
+framework described paper natural extension approach
+ymf exhaustive search algorithm associates each motif z-score
+alignace uses gibbs sampling algorithm finding global sequence alignments produces map score
+score internal metric used determine significance alignment
+meme uses expectation maximization strategy outputs log-likelihood relative entropy associated each motif
+once scoring scheme devised defined motif search space scanned motifs significantly high scores identified
+determine statistical significance obtained scores many methods resort simulations ad hoc thresholds
+several excellent reviews narrate different strategies motif detection use quantitative benchmarking compare their performance
+related aspect motif discovery outside scope paper focuses properties clusters modules tf binding sites
+examples approaches search combinatorial patterns modules underlying tf binding gene expression include 

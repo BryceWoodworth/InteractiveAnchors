@@ -1,0 +1,16 @@
+ 
+propose analyze new vantage point learning mixtures gaussians: namely pac-style model learning probability distributions introduced kearns~et~al 
+here task construct hypothesis mixture gaussians statistically indistinguishable actual mixture generating data; specifically kl~divergence should at most
+scenario give time algorithm learns class mixtures any constant number axis-aligned gaussians
+our algorithm makes no assumptions about separation between means gaussians nor does any dependence minimum mixing weight
+contrast learning results known ``clustering'' model where assumptions unavoidable
+our algorithm relies method moments subalgorithm developed discrete mixture-learning problem
+ introduction 
+kearns et al \ introduced elegant natural model learning unknown probability distributions
+framework given class probability distributions over access random data sampled unknown distribution belongs goal output hypothesis distribution high confidence close measured kullback-leibler kl divergence standard measure distance between probability distributions see section details distance measure
+learning algorithm should run time
+model well-motivated its close analogy valiant's classical probably approximately correct pac framework learning boolean functions
+several notable results both positive negative been obtained learning kearns et al \ framework  see eg 
+here briefly survey some positive results been obtained learning various types mixture distributions recall given distributions mixing weights sum 1 draw corresponding mixture distribution obtained first selecting probability then making draw  kearns et al \ gave efficient algorithm learning certain mixtures hamming balls ; product distributions over each coordinate mean either some fixed over all mixture components
+subsequently freund mansour independently cryan et al  gave efficient algorithms learning mixture two arbitrary product distributions over
+recently feldman et al  gave time algorithm learns mixture any many arbitrary product distributions over discrete domain any

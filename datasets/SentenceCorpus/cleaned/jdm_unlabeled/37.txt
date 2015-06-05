@@ -1,0 +1,47 @@
+ 
+research judgment decision making generally ignores distinction between factual subjective feelings ownership tacitly assuming two correspond closely
+present research suggests assumption might usefully reexamined
+two experiments endowment effect examine role subjective ownership independently manipulating factual ownership i e what participants were told about ownership physical possession object
+allowed us disentangle effects two factors typically confounded
+found significant effect possession but not factual ownership monetary valuation object
+moreover effect was mediated participants' feelings ownership were enhanced physical possession object
+thus endowment effect did not rely factual ownership per se but was result subjective feelings ownership induced possession object
+feelings ownership appeared lead individuals include object into their endowment shift their reference point accordingly
+potential implications directions future research discussed
+ introduction 
+thaler presented half students class cornell university coffee mugs then allowed them trade their less fortunate classmates
+surprisingly little trading occurred
+those holding mugs set their minimum selling prices too high those without mugs set their maximum offers too low many trades clear
+apparently briefly owning coffee mug raised its value owner sufficiently price beyond reach most non-owners
+thaler coined term endowment effect describe result goods included one's endowmentthat goods one ownsare valued more highly than identical goods not held endowment
+non-owner's potential gain acquisition was apparently smaller than owner's potential loss sale
+effect since been widely replicated
+endowment effect commonly interpreted result loss aversion core ingredient prospect theory
+losses outcomes below some reference point weighted substantially more than gains outcomes above reference point evaluation choice options
+if one initially owns object prospect losing seen relatively large loss
+if one does not prospect acquiring seen relatively small gain
+hence small volume trading thaler's study endowment shifted reference points thus assessment what loss what gain
+more recently researchers started examine more detail psychological mechanisms driving effect
+example strahilevitz loewenstein found valuation object increase duration ownership possibly due increased adaptation psychological accustoming new material situation
+novemsky kahneman present evidence loss aversion thus endowment effect found goods owned consumption but not goods owned exchange thus given up intended rather than losses endowment
+carmon ariely report findings suggesting endowment effects explained result buyers sellers having different cognitive perspectives exchange
+results suggest there more endowment effect than simple factual ownership object
+present research try elucidate further what leads development sense endowment subsequently higher monetary valuations
+concept ownership one's endowment goods appears involve two elements legal entitlement subjective ownership
+elements may imperfectly correlated
+one may feel some sense ownership items one does not own e g borrowed bicycle behave owner might e g resenting owner's demand its return
+conversely one may feel little ownership items one does fact own e g newly-bought computer require some period experience use before feeling full ownership
+pierce kostova dirks propose elaborate psychological model based extensive literature review antecedents experiences consequences psychological subjective ownership
+research suggests subjective feelings ownership more complex than simple legal entitlement
+pierce et al model feelings ownership induced controlling entity e g through possession becoming familiar e g through actual imagined use investing self into e g through identification
+thaler most studies endowment effect two elements ownership confounded
+seems clear students who received mugs understood they legally owned them could if they wished sell them others
+they also were given physical possession mugs could inspect control them
+extent elements led feelings subjective ownership unclear
+possession alone even absence factual ownership induce feelings ownership
+indeed because immediate control provides over entity possession might more psychologically salient stronger effect feelings ownership object thus its monetary evaluation than does factual ownership
+following two experiments examine relative contributions factual subjective ownership endowment effect separately manipulating factual ownership possession object
+design allows examining whether endowment effect driven factual ownership number possession number both
+expect possession will induce stronger feelings ownership than pure factual ownership
+arguing subjective sense endowmentrather than legal entitlementthat leads shift reference point makes not having object feel like loss rather than foregone gain
+result possession will lead higher monetary evaluation whereas factual ownership itself will not

@@ -1,0 +1,30 @@
+
+study various parameters protein levels cells
+achieve goal model was at state continuous at different growth rates data were compared
+protein were highly variable among proteins but also given gene between different growth conditions
+modeling cellular processes combined data modeling approach both rates estimated each protein each growth condition
+estimated rates strongly between proteins were tested their biological through statistical relevant parameters amino bias
+rates were not constant all growth conditions were growth rate more efficient at low growth rate but higher rate protein
+estimated protein underlying importance protein at low growth rates
+regulation protein level was through regulatory complex control depending protein growth conditions
+modeling approach protein rates estimated two biological parameters difficult determine experimentally generally
+method now extended other environments other
+introduction
+systems biology data different levels genome
+approach at data through computational mathematical models so biological systems whole
+integration results itself
+literature usually two approaches tools does not often provide correct two datasets
+now only few researchers yeast been results typically revealed between those two datasets
+between protein levels control protein et al
+involved protein level control but generally studied at level specific molecular mechanisms not at genome scale
+although analysis allows experimentally determined various technique been only used almost s
+protein stability also influence protein level correlation between protein
+however protein stability studied at genome scale data only available s
+finally rate protein due protein cellular growth also potentially involved protein level but physical phenomenon generally
+more generally even if protein rate all influence protein levels parameters not usually studied
+role each parameter whole cellular adaptation process not been not known parameter if control constant not when environmental conditions
+aim study was control protein level taking into account all parameters control model
+achieve analyses were performed cells same
+data were available corresponding was performed
+whole protein related processes including rate protein were since biological data were obtained at state protein levels were
+modeling approach protein estimated relative all various parameters protein control

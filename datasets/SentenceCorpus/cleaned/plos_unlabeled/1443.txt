@@ -1,0 +1,49 @@
+ 
+most cellular processes depend intracellular locations random collisions individual protein molecules
+model processes developed algorithms simulate diffusion membrane interactions reactions individual molecules implemented smoldyn program
+compared popular mcell chemcell simulators found smoldyn was many cases more accurate more computationally efficient easier use
+using smoldyn modeled pheromone response system signaling among yeast cells opposite mating type
+model showed secreted bar1 protease might help cell identify fittest mating partner sharpening pheromone concentration gradient
+model involved about 200,000 protein molecules about 7000 cubic microns volume about 75 minutes simulated time; took about 10 hours run
+over next several years faster computers become available smoldyn will allow researchers model explore systems size entire bacterial smaller eukaryotic cells
+ introduction 
+one hurdle computational modeling cellular systems lack adequate tools
+if one assumes molecules inside cells well-mixed they behave deterministically then one model chemical reactions cells use operate differential equations
+however assumptions frequently inadequate
+firstly most cellular processes depend at least some extent intracellular spatial organization
+example cell signaling systems transmit signals across significant distances within subcellular compartments across intracellular membranes nuclear envelope
+also cell division systems segregate one cell into two regulate partition molecular components
+secondly many cellular outputs exhibit substantial random variation must arise random differences molecular collisions
+examples range random switching swimming escherichia coli bacteria between so-called running tumbling states cell-to-cell variation operation cell signaling systems
+more generally stochastic behavior likely affect outcomes essentially all cellular processes
+representation complexity requires algorithms programs model cellular processes spatial accuracy model chemical reactions they operate stochastic detail 
+computational biologists pursued four main approaches simulating biochemical systems spatial stochastic detail
+differ how they represent space time molecules turn affects classes biological systems they simulate appropriately
+spatial gillespie method based gillespie's stochastic simulation algorithms
+divides simulation volume into coarse lattice subvolumes each contains many molecules interest
+method computationally efficient because tracks total number individual classes molecules per subvolume rather than individual molecules
+however lattice structure uses divide space into subvolumes does not work well realistic membrane shapes require special treatment
+microscopic lattice method subdivides space into much finer lattice so each volume contain zero one molecule
+method molecules diffuse hopping between sites react molecules neighboring sites
+naturally lends itself studies oligomerization complex formation effects macromolecular crowding reactions
+not found wide use studying cell-sized processes due facts high computational demands specific lattice structures affect simulated reaction rates differently although recent techniques may circumvent challenges
+particle-based methods primary focus article most widely used spatial stochastic methods
+represent individual molecules point-like particles diffuse continuous space over fixed time steps; molecules react when they collide
+fact models use continuous space makes realistic membrane geometries relatively easy represent avoids lattice-based artifacts offers high spatial resolution
+need track individual molecules however imposes high computational demands so particle-based methods about factor two slower than spatial gillespie methods
+finally green's function reaction dynamics methods enable especially accurate particle-based simulation
+gfrd methods step simulation exact time one individual reaction exact time next
+makes methods ideal systems long delays between individual reactions but very computationally intensive most cellular processes 
+dominant particle based simulators chemcell mcell smoldyn
+programs many common features but differ other features quantitative accuracy their simulations
+three chemcell fewest features but particularly easy use only simulator supports both spatial non-spatial simulations
+mcell oldest program been used most produces highest quality graphics number features make particularly well suited simulating cellular processes involved synaptic transmission
+smoldyn relative newcomer but yields most accurate results runs fastest
+smoldyn also number attributes listed table 2 below make well suited modeling wide range cellular processes
+article focuses latest version smoldyn smoldyn 2.1
+smoldyn 1.0 embodied several algorithms were based smoluchowski reaction dynamics
+subsequent versions were used investigate spatial version classic lotka-volterra chemical oscillator diffusion hair cell membranes protein sequestration dendritic spines diffusion obstructed spaces intracellular signaling e coli chemotaxis
+smoldyn 2.1 preserves original focuses accuracy efficiency but offers significantly improved functionality
+particular represent realistic membrane geometries simulate diffusion membrane-bound molecules accurately simulate wide variety molecule-membrane interactions
+make general simulator possible smoldyn 2.1 also supports spatial compartments rule-based reaction network generation molecules excluded volume conformational spread interactions over fifty run-time commands system manipulation observation
+anticipate smoldyn will particularly useful investigating cellular systems signaling division metabolic systems studying basic biophysical phenomena effects macromolecular crowding molecular diffusion helping quantify microscopy data diffusion rates investigated frap 

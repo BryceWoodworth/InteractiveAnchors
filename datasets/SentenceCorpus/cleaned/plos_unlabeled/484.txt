@@ -1,0 +1,37 @@
+ 
+lightness illusions fundamental human perception yet why see them still focus much research
+here address question modelling not human physiology perception directly typically case but our natural visual world need robust behaviour
+artificial neural networks were trained predict reflectance surfaces synthetic ecology consisting 3-d dead-leaves scenes under non-uniform illumination
+networks learned solve task accurately robustly given only ambiguous sense data
+addition direct consequence their experience networks also made systematic errors their behaviour commensurate human illusions includes brightness contrast assimilation although assimilation only emerged when virtual ecology included 3-d opposed 2-d scenes
+subtle variations illusions also found human perception were observed asymmetry brightness contrast
+data suggest illusions arise humans because natural stimuli ambiguous ambiguity resolved empirically encoding statistical relationship between images scenes past visual experience
+since resolving stimulus ambiguity challenge faced all visual systems corollary findings human illusions must experienced all visual animals regardless their particular neural machinery
+data also provide more formal definition illusion: condition true source stimulus differs what its most likely source
+illusions not fundamentally different non-illusory percepts all being direct manifestations statistical relationship between images scenes
+ introduction 
+understanding how generate accurate perceptions surfaces often best informed understanding why sometimes do not
+thus illusions lightness essential tools vision research
+many natural environments light levels vary across space over time
+important able perceive surfaces independently varying light intensity order forage predate successfully example
+number models lightness perception been proposed but most fail deal complex stimuli only demonstrate narrow range behaviours
+instance one well-known heuristic model predicts human lightness perceptions first subdividing stimuli into multiple local frameworks based instance junction analysis co-planarity well other classic gestalt factors
+then within each framework ratio patch's intensity maximum intensity patch's local framework used predict reflectance combining bright white large white area rule
+rules well-defined effective simple stimuli but application rule not been studied more complex images
+indeed hard see how model could applied even moderately complex stimuli much less natural scenes under spatially heterogeneous illumination without extremely complex edge-classification rules yet undefined
+furthermore human-based heuristics provide little insight into physiological and/or computational principles vision relevant all visual animals
+more computational approaches other hand less descriptive more quantitative make fewer assumptions
+example artificial neural networks been trained extract scene information object shape movement simple synthetic images ; statistical approach using gibbs sampling markov random fields been used separate reflectance illumination simple images
+most models however unable explain brightness contrast assimilation simultaneously without recourse one more adjustable weighting factors
+one approach blakeslee mccourt filter model
+applying set filters model produces results correspond closely psychophysical results wide range illusory stimuli
+same model however fails predict asymmetry brightness contrast where darker surrounds cause larger illusions than equally lighter surrounds discuss later
+while asymmetries not captured odog model presently implemented permitting different gain parameters applied outputs independent on-channels off-channels would constitute logical first step toward accommodating differences
+also important stress model does not attempt predict reflectance surfaces only perceived brightness stimulus therefore unable explain lightness constancy more natural scenes under spatially heterogeneous illumination
+related machine vision work includes separation luminance changes into those caused shading those caused paint surface using filters mixture gaussians ; localised mixture experts set multiscale filters been used extract intrinsic components image including de-noising
+however studies do not attempt explain human perception lightness illusions
+thus explanations why how see lightness illusions remain incomplete
+here take different approach rationalising human illusions extension lightness perception generally
+rather than modelling human perception known primate physiology typical most models instead model empirical process vision resolves most fundamental challenge visual ecology: inherent ambiguity visual stimuli
+make no assumptions about particular physiology cognition but instead model process development/learning stimuli feedback environment
+analogous experiential learning any animal whose behaviour guided visually must learn resolve perceptual ambiguity order survive

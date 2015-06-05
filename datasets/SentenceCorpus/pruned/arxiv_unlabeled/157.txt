@@ -1,0 +1,116 @@
+
+algorithm together its
+been main technique learning hidden markov
+models data
+present learning
+algorithm based matrix
+higher order statistics different
+its associated approaches
+described
+algorithm estimation number states
+matrix
+algorithm improve learned parameters
+numerical
+examples provided well
+introduction
+hidden markov models been used model
+stochastic systems variety applications
+biology
+
+following parameters
+structure see
+
+example will use following
+
+
+number states markov underlying
+
+state space
+state process at time
+number distinct generated
+
+set possible observation process at time
+
+
+
+
+probabilities
+t
+
+
+
+1
+
+present algorithm learning single
+multiple observation sequences
+approach
+learning algorithm
+been extended variety ways others
+
+recently novel approach approximation
+problem was proposed et al
+
+approach based stochastic
+technique positive
+certain matrix observation
+probabilities used hidden markov
+probability matrices
+his used
+recently developed matrix
+algorithms those stochastic
+techniques algorithm
+
+were although
+work did not stochastic techniques
+algorithms both were developed after
+methods based stochastic techniques including
+one presented here different
+based methods algorithms use input observation
+sequence probabilities observation
+
+approaches use system
+methods while our algorithm
+
+
+states
+defined classes produce same
+
+state probability
+distribution over future observations
+following
+derive our result manner more
+relation approaches
+
+at level our algorithm follows
+first
+estimate matrix observation high order
+statistics
+matrix natural matrix
+
+terms probability distribution future observations given
+current state underlying markov
+estimated
+probability distributions used directly estimate
+transition probabilities
+estimated parameters used turn
+matrix factors well underlying higher order
+correlation matrix data generated estimated
+
+present simple example exact
+but does not any
+fact
+comparing factors
+factors estimated parameters
+
+comparison not possible other approaches
+
+important point out optimal matrix
+positive matrix known
+general case so practice one
+only optimal
+will show through
+examples
+transition probability estimation
+overall model estimation
+provided
+below

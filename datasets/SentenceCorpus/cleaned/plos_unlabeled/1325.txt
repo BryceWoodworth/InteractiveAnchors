@@ -1,0 +1,34 @@
+ 
+relationship between apolipoprotein e aggregation processes amyloid peptide been shown crucial alzheimer's disease
+presence apoe4 isoform considered contributing risk factor ad
+however detailed molecular properties apoe4 interacting peptide unknown although various mechanisms been proposed explain physiological pathological role relationship
+here computer simulations been used investigate process interaction n-terminal domain human apoe isoforms
+molecular docking combined molecular dynamics simulations been undertaken determine peptide binding sites relative stability binding each apoe isoforms
+our results show several apoe isoforms investigated only apoe4 presents misfolded intermediate when bound moreover initial helix used peptide model structure also becomes unstructured due interaction apoe4
+structural changes appear related rearrangement salt bridge network apoe4 propose model
+seems plausible apoe4 its partially unfolded state incapable performing clearance thereby promoting amyloid forming processes
+hence proposed model used identify potential drug binding sites apoe4-a complex where interaction between two molecules inhibited
+ introduction 
+alzheimer's disease one most common neurodegenerative diseases at present time
+disease characterized formation neurofibrillary tangles plaques brain leading neuronal dysfunction neuronal loss finally death
+main component plaques amyloid peptide 39 43 amino acids long hydrophobic peptide generated cleavage amyloid precursor accumulates form soluble non-soluble aggregates
+connection between apolipoprotein e ad well established
+structurally apoe 299 residues protein n-terminal domain involved binding heparin low density lipoprotein receptors ldlr-related proteins
+c-terminal domain been related heparin lipid binding
+three main isoforms been described human apoe i.e apoe2 apoe3 apoe4
+standard variant apoe3 while apoe2 defective receptor binding causing apoe 2/ 2 homozygotic individuals higher predisposition diseases related high amounts cholesterol triglycerides
+apoe4 receptor binding affinity remains unaffected but apoe 4/ 4 homozygotic individuals higher risk coronary heart disease significantly greater risk developing ad
+around 80 percent all ad cases related genetic variance at apoe locus 
+only difference between apoe isoforms found residues 112 158 where cys112/cys158 corresponds apoe2 cys112/arg158 apoe3 arg112/arg158 apoe4
+presence cysteines at positions confers oligomerization properties apoe
+indeed apoe2 apoe3 able form disulfide-linked homo hetero-oligomers due presence respectively two one cys residue
+apoe4 lacks possibility strong disulfide linking; however unclear whether weaker interactions could promote oligomerization apoe4
+cys/arg substitution apoe4 also molecular impact terms intra-protein polar contacts: orientation arg61 different apoe4 compared apoe3; orientation arg61 towards c-terminal domain facilitates salt bridge between arg61 glu255
+electrostatic interaction between arg61 glu255 promotes n c-domain interaction packs structure tighter seems crucial interaction apoe4 triglyceride-rich lipoproteins
+interaction between arg61 glu255 absent apoe3 leading more open structure preferential binding phospholipid-rich high-density lipoproteins
+chemical thermal denaturation experiments shown most unstable structure belongs apoe4 displays partially unfolded intermediate containing some structure may related fact apoe4 enhances deposition 
+although different mechanisms been proposed explain physiological pathological relationship between apoe peptide details interaction between apoe at molecular level unknown
+detailed knowledge however important understanding pathological mechanisms ad may also help identify potential therapeutic target sites where interaction between apoe4 blocked
+present study using molecular docking simulations based global minimum energy investigate interaction process n-terminal domain different apoe isoforms order determine potential peptide binding sites apoe
+next step molecular dynamics calculations undertaken explore conformational dynamics apoe under interaction evaluate stability each apoe-a complexes
+analysis statistics electrostatic interactions three apoe isoforms present model explaining role apoe interaction its relevance ad

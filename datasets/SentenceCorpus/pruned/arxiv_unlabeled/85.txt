@@ -1,0 +1,21 @@
+
+data analysis new complex data considered like example data functional data data data
+
+
+context classical data analysis knowledge discovery based not used because input not vectors
+paper present application real world data using
+end propose data classification data
+introduction
+introduced neural network method both clustering properties
+considered algorithm high data space lower dimension generally 2 called
+input data into clusters while their
+its most similar algorithm dynamic clustering method without therefore without
+data analysis new complex data considered most data data structure data distributions functional data etc data etc
+context classical data analysis based not used because input not vectors
+order solve problem several methods considered depending type data example functional data
+however those methods not general adaptation every data analysis algorithm resulting data needed
+based notion concept not many complex data
+paper propose adaptation data alternative solution
+our goal algorithm allow its measures rather than data
+end take work
+apply method only each type data necessary so complex data

@@ -1,0 +1,64 @@
+
+least been its properties
+shown paper solution addition its robustness solution robust optimization problem
+two important
+first robustness provides physical property noise
+allows selection particular also convex optimization problems obtained different uncertainty sets
+robustness itself used different properties solution
+particular shown robustness solution why solution sparse
+analysis well specific results obtained differ standard results different
+furthermore shown robust optimization related kernel density estimation based approach consistent given using robustness directly
+finally theorem stability each other hence not stable presented
+introduction
+paper consider linear regression problems error
+problem find vector so norm given matrix vector
+perspective each training sample corresponding target value observed sample
+each feature objective find set weights so feature values target value
+well known least error lead solutions
+many regularization methods been proposed sensitivity
+among them regularization two widely known algorithms
+methods norm certain regularization term regularization
+addition also known tendency sparse solutions
+recently much attention its ability sparse solutions when sampling occurs far below rate also its ability pattern probability one number observations increases there literature subject
+first result paper solution robustness solution robust optimization problem
+itself solution robust least problem development results
+there authors propose alternative approach sensitivity linear regression robust version regression problem i e observations under some unknown but
+most research area either case where case where norm matrix
+robust optimization approaches solution properties particular solution does not solve any previously robust optimization problems
+contrast investigate robust regression problem where uncertainty set defined constraints
+noise model interest when values features obtained some known
+another situation interest where features
+define uncertainty sets section below
+if variation across features constraints
+solution solution robust least problem two important
+first robustness provides physical property noise
+allows more selection particular different uncertainty sets construct also convex optimization problems
+most significantly robustness strong property itself used different properties solution
+show robustness solution explain why solution sparse
+analysis well specific results obtain differ standard results different setting
+results obtained depend fact additional features larger than least error reduction
+contrast fact robust solution optimal solution under
+our results show solution if corresponding feature relevant under all
+addition also use robustness directly prove consistency
+main well paper
+section robust regression problem independent show problem norm regularization term
+hence provide robustness perspective
+% choosing regularization parameter
+robust regression loss functions arbitrary norm section
+also consider uncertainty sets require different features conditions
+used robust solution obtain solutions additional properties
+call features
+section present new results robust regression problem independent
+provides new
+our approach new analysis also furthermore allows one obtain results more general loss functions loss
+next kernel density estimation section
+allows us consistency statistical learning using new robustness tools introduce
+along our results power robustness also different properties solution
+finally prove section theorem algorithm cannot stable
+use represent matrices represent vectors
+vectors represented vectors
+vector its
+paper used observation matrix
+use hence
+convex function any its at
+vector length each

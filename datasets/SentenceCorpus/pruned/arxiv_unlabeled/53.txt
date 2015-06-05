@@ -1,0 +1,20 @@
+
+studies support distribution underlying set
+observations
+relation information shown via theorem combination generalization bound based
+statistical convex given statistical learning information support vector
+introduction
+given set observations
+random vector fixed but unknown distribution question values random variable take given
+predictive one often other characteristics distribution than eg one often more than its prediction
+environmental one typically behavior i e value its related environmental variables
+main classical see eg p information two random variables
+classical result extended towards setting learning theory where random variables arbitrary fixed distribution
+information probabilistic derived using classical
+described relationship other results information eg using information matrix based assumptions eg distribution free context
+i support derived extended setting its theoretical properties derived relation method convex made shown how estimate linear program
+while studied literature eg regression argue question setting statistical learning theory pattern recognition support vector see
+main difference existing literature classical regression other predictor methods no made underlying mean regression regression risk point prediction dependent variable pattern recognition
+here target instead change distribution
+one i what extent estimated support i e does actual support what probability actual support i e what probability new sample occur estimated } section main result relation convex
+practical perspective section provides further how optimal estimate found linear program

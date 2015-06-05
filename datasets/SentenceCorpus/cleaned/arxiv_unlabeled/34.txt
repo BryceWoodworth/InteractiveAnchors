@@ -1,0 +1,18 @@
+ 
+canonical correlation analysis technique extract common features pair multivariate data
+complex situations however does not extract useful features because its linearity
+other hand kernel method used support vector machine efficient approach improve linear method
+paper investigate effectiveness applying kernel method canonical correlation analysis \\ {keyword:} multivariate analysis multimodal data kernel method regularization
+ introduction 
+paper deals method extract common features multiple information sources
+instance let us consider task learning pattern recognition object given using image its name given speech
+newly given image system required answer its name speech newly given speech system answer corresponding image
+task considered regression problem image speech vice versa
+however since dimensionalities images speeches generally very large regression analysis many not work effectively
+order solve problem useful map inputs into low dimensional feature space then solve regression problem
+canonical correlation analysis cca been used purpose
+cca finds linear transformation pair multi-variates correlation coefficient maximized
+information theoretical point view transformation maximizes mutual information between extracted features
+however if there nonlinear relation between variates cca does not always extract useful features
+other hand support vector machines svm attracted lot attention its state-of-art performance pattern recognition kernel trick used svm applicable not only classification but also other linear techniques example kernel regression kernel pca paper apply kernel method cca
+since kernel method likely overfit data incorporate some regularization technique avoid overfitting

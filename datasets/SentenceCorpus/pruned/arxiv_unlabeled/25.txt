@@ -1,0 +1,9 @@
+
+paper introduce class prediction strategies construct prediction algorithm well best continuous strategy
+make assumptions but no stochastic assumptions about environment
+particular no assumption made about environment considered strategies only means they do not depend explicitly argue natural consider only strategies even highly environments
+introduction
+paper area learning theory been prediction prediction prediction individual sequences universal see review
+there many techniques known paper based algorithm but possible some other techniques could used instead
+section give main state our main results their given
+section discuss notion section

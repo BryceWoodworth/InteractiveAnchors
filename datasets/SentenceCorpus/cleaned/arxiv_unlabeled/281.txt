@@ -1,0 +1,39 @@
+ 
+describe median flats mkf algorithm simple online method hybrid linear modeling ie  approximating data mixture flats
+algorithm simultaneously partitions data into clusters while finding their corresponding best approximating flats so cumulative error minimized
+current implementation restricts flats dimensional linear subspaces
+requires negligible amount storage its complexity when modeling data consisting points dimensional linear subspaces order  where number iterations required convergence empirically order 
+since online algorithm data supplied incrementally incrementally produce corresponding output
+performance algorithm carefully evaluated using synthetic real data
+ introduction 
+many common data sets modeled mixtures flats i e  affine subspaces
+example feature vectors different moving objects video sequence lie different affine subspaces see eg   similarly images different faces under different illuminating conditions different linear subspaces each subspace corresponding distinct face
+data give rise problem hybrid linear modeling i e  modeling data mixture flats
+different kinds algorithms been suggested problem utilizing different mathematical theories
+example generalized principal component analysis gpca based algebraic geometry agglomerative lossy compression alc uses information theory spectral curvature clustering scc uses multi-way clustering methods well multiscale geometric analysis
+other hand there also some heuristic approaches eg  subspace separation local subspace affinity lsa
+probably most straightforward method all flats kf algorithm any its variants
+flats algorithm aims partition given data set into subsets  each well approximated its best fit flat
+more formally given parameters  algorithm tries minimize objective function \sum_{i=1}^k \min_{d-\text{flats } l_i} \sum_{\bx_j \cx_i} \dist^2(\bx_j,l_i)\
+practice minimization function performed iteratively means algorithm
+after initialization flats example they may chosen randomly one repeats following two steps until convergence: 1 assign clusters according minimal distances flats determined at previous stage 2 compute least squares flats newly obtained clusters principal component analysis pca
+procedure very fast guaranteed converge at least local minimum
+however practice local minimum converges often significantly worse than global minimum
+result flats algorithm not accurate more recent hybrid linear modeling algorithms even case underlying linear subspaces opposed general affine subspaces often fails when either sufficiently large e g   there large component outliers
+paper two goals
+first one show order significantly improve robustness outliers noise flats algorithm sufficient replace its objective function eq \eqref{eq:objective_kflats} \sum_{i=1}^k \min_{d-\text{flats } l_i} \sum_{\bx_j \cx_i} \dist(\bx_j,l_i)\ replacing average average
+second goal establish online algorithm purpose so data supplied incrementally one point at time incrementally produce corresponding output
+believe online procedure very different than flats also beneficial standard settings moderate-size data not streaming
+indeed possible strategy will converge more often global minimum error than straightforward generalization flats assuming accurate algorithm computing best flats
+order address those goals propose median flats mkf algorithm
+chose name since special case where well-known medians algorithm see eg   approximates minimum same energy function
+mkf algorithm employs stochastic gradient descent strategy order provide online approximation best flats
+its current implementation only applies setting underlying linear subspaces not general affine ones
+numerical experiments synthetic real data indicate superior performance mkf algorithm various instances
+particular outperforms some standard algorithms cases large outlier component relatively large intrinsic dimension flats
+even hopkins 155 database motion segmentation  requires small intrinsic dimensions little noise few outliers mkf performs very well particular better than flats
+speculate because iterative process mkf converges more often global minimum than flats
+rest paper organized follows
+section introduce mkf algorithm
+section carefully tests algorithm both artificial data synthetic hybrid linear models real data motion segmentation video sequences
+section concludes brief discussion mentions possibilities future work

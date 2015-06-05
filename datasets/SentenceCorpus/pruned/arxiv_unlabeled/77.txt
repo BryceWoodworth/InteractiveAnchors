@@ -1,0 +1,21 @@
+
+method forecasting applied problem prediction binary outcomes
+out forecasting not only algorithm but also case whose depends paper prediction continuous
+introduction
+there many known techniques prediction following see eg see eg related potential methods see eg related recently developed technique forecasting see eg
+forecasting probability see eg measure universal
+see general review prediction
+paper technique forecasting prediction simple case binary outcomes goal prediction free agents called who choose any predictions at each step
+will performance type } where number constant depending loss over first loss over first see
+been shown theorem algorithm general loss functions short optimal value constant goal result was based results theorem 1 theorem 1 large number theorem paper forecasting also same performance
+whether goal depends loss function used performance
+necessary sufficient condition loss function should see
+first consider two specific most important examples loss loss function loss function
+those two they do not require
+section general result arbitrary loss functions
+state theorem form needed paper
+technique forecasting also who their depend continuous manner paper prediction
+not clear at all
+result similar results theorem more detailed comparison will given
+useful game theory where known prediction small regret
+more example useful humans tend give too i e close 1 therefore useful human would predictions less ones according expected

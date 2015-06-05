@@ -1,0 +1,44 @@
+
+many real world applications data cannot represented vectors
+those situations one possible solution rely measures comparison between observations
+been data described only through their matrix
+algorithm provides both linear clustering vector data
+algorithm high cost makes difficult use data sets
+paper propose new algorithm provides important reduction theoretical cost without its outcome results same ones obtained original algorithm
+moreover introduce methods result very short times
+theoretical cost model real world data clustering problem
+also demonstrate proposed methods reduce factor up time fast algorithm over standard
+introduction
+available data analysis methods based vector model observations described fixed number real values i e vectors fixed finite vector space
+many real world data strongly model
+common instance variable size data
+they natural example online recognition where representation length because conditions
+other data instance strongly numerical complex they very difficult represent vector space
+while work been classical data analysis methods data tree graph neural based processing data also } well data size there still strong need efficient data analysis methods applied any type data
+way design methods rely one one comparison between observations
+general possible define similarity measure between arbitrary data long comparing them
+general data analysis algorithms based between observations more complex than their vector but they universal therefore applied any data
+moreover they allow one rely specific rather than vector representation data general observations
+many algorithms been use between data
+clustering field algorithm been data under
+more recently approaches based been used propose another class principle
+following taken several adaptation data been proposed
+proposed probabilistic used directly data
+been also used
+present paper focus adaptation proposed where was applied protein sequence clustering problem well clustering problems
+generalization called also known considered method
+were applied time series data data
+major its time very high especially when compared standard vector
+well known algorithm number input data
+number see section
+propose paper several basic algorithm allow much
+nature algorithm cannot because data described number one one
+standard algorithm cost where number observations number clusters algorithm produce whereas our lead cost
+moreover specific strategy actual even more
+important property all our obtained algorithm same results standard algorithm
+paper follows
+section adaptation data obtain theoretical cost
+section describe our proposed new algorithm well techniques its time practice
+finally evaluate algorithm section
+evaluation theoretical cost model shows methods reduce time
+evaluation data real world data clustering problem

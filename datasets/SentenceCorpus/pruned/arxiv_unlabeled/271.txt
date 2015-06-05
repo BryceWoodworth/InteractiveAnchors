@@ -1,0 +1,45 @@
+
+study problem time delay between two signals same underlying pattern
+propose demonstrate evolutionary algorithm estimation technique context problem time delay between two signals
+types real used represent variables within evolutionary algorithm
+test algorithm several data sets also real observations
+out statistical analysis results present detailed comparison our method most popular methods time delay estimation
+our method more accurate more stable time delay obtain between b
+our applied current data but also applied other involving similar time series data
+introduction
+estimation time delay delay between times two signals same source but along different problem
+time series could instance represent over many years very very source usually few
+some appear set multiple due fact source way result various resulting detection several
+phenomenon called natural prediction general theory objects thus them
+variable sources same sequence at different times different according time along various
+time delay between signals depends thus most direct method measure distribution often
+underlying pattern time all noise processes
+example time series not only noise but they also typically large data
+due practical observation conditions among many other factors
+over systems known about been long some cases time delay been
+here focus first
+source pair here b been over years despite value time delay system not
+paper presented analysis observations along data generated according properties observations show approach improve upon popular methods time real data
+more common form observations however known sources observations problems require our previous approach
+here present approach datasets our previous well alternative approaches use
+here introduce novel evolutionary algorithm estimate parameters method time delay estimation
+uses function mean error given observed data also novel procedure based value
+our population also represented types
+paper several i evolutionary algorithm been introduced form novel our kernel method method been proposed estimate time delay kernel parameters application model based problem study statistical results different data
+our evolutionary technique presence data representation through two populations each one particular data type
+parameters kernel machine
+do parameter model selection at same time
+approach applied other problems not only time series
+instance data problems those cases where observations factors involved etc
+therefore data use analysis
+problems data occur almost all where data what e g see
+compare performance our several performance our method against two most popular methods literature i e method based structure function intrinsic source here method
+because true time delay observed not known performance algorithms series experiments where generated data known used
+three data large scale data data data
+our approach also paper
+our statistical analysis shows results our more accurate significant than methods
+use our well algorithm actual observations where were observed over several years
+paper data under analysis described
+kernel approach presented
+results our
+finally our future work presented

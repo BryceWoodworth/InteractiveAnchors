@@ -1,0 +1,59 @@
+ 
+accurate modelling biological systems requires deeper more complete knowledge about molecular components their functional associations than currently
+traditionally new knowledge protein associations generated experiments played central role systems modelling contrast generally less trusted bio-computational predictions
+however will not achieve realistic modelling complex molecular systems if current experimental designs lead biased screenings real protein networks leave large functionally important areas poorly characterised
+assess likelihood built comprehensive network models yeast human proteomes using meta-statistical integration diverse computationally predicted protein association datasets
+compared predicted networks against combined experimental datasets seven biological resources at different level statistical significance
+eukaryotic predicted networks resemble all topological noise features experimentally inferred networks both species also show observation not due random behaviour
+addition topology predicted networks contains information true protein associations beyond constitutive first order binary predictions
+also observe most reliable predicted protein associations experimentally uncharacterised our models constituting hidden dark matter networks analogy astronomical systems
+some dark matter shows enrichment particular functions contains key functional elements protein networks hubs associated important functional areas like regulation ras protein signal transduction human cells
+thus characterising large functionally important dark matter elusive established experimental designs may crucial modelling biological systems
+any case predictions provide valuable guide experimentally elusive regions
+ introduction 
+many features biological systems cannot inferred simple sum their components but rather emerge network properties
+organisms comprise systems highly integrated networks accelerating networks all components integrated coordinated time space
+given complexity gaps our current knowledge prevent us modelling complete living organisms
+therefore development bio-computational approaches identifying new protein functions protein-protein functional associations play important role systems biology 
+scarce knowledge biological systems further compounded experimental error
+common different high-throughput experimental approaches applied same biological system yield different outcomes resulting protein networks different topological biological properties
+however errors not restricted high-throughput analysis
+example been demonstrated high-throughput yeast two-hybrid interactions human proteins more precise than literature-curated interactions supported single publication 
+there been great deal work analysing biological networks across different species giving insights into how networks evolve
+however many publications yielded disparate sometimes contradictory conclusions
+observation poor overlap protein networks across species divergence amongst organisms suggest fast evolution
+significant variation subunit compositions functional modules also been observed protein networks across species
+however contrast observations recent work using combined protein-protein interaction data suggests high conservation protein networks between yeast human
+approach based data combination stresses importance integrating different data sources reduce bias associated errors functional prediction increase coverage network modelling been demonstrated numerous studies 
+increasing accuracy networks integrating different protein interaction data relies intuitive principle combining multiple independent sources evidence gives greater confidence than single source
+any genome wide computational analyses expect prediction errors randomly distributed amongst large sample true negative interactions
+hence unlikely two independent prediction methods will both identify same false positive data large interactomes like yeast human
+general expect precision increase proportionally number independent approaches supporting same evidence
+available list well-known integration methods specifically designed integrate diverse protein-protein interaction ppi datasets chose fisher method order predictor independent experimental data used validate
+fisher integration method not trained supervised method example naive bayes svm methods
+fisher method presumes gaussian random distribution prediction datasets' scores null hypothesis fisher integrated score calculation based information theory statistics
+therefore fisher integration score completely independent experimental datasets used study validate compare predictions
+work significantly increase prediction power binary protein functional associations yeast human proteomes integrating different individual prediction methods using fisher integration method
+three different untrained methods implemented: geco ; hippi ; coda run two protein domain classifications cath pfam
+four different prediction datasets obtained methods were integrated using simple integration fisher's method examples untrained methods
+similarly ab-initio prediction datasets string were also integrated using fisher integration compared against integrated prediction datasets our methods
+results fisher integration our prediction datasets were benchmarked compared against individual prediction methods results integrated string methods
+all cases demonstrate increased performance integrated approach fisher integration geco hippi codacath codapfam datasets yielding best results
+protein pairs identified significant fisher integration p-values were used build protein network model yeast human proteomes referred predictogram
+additionally all protein-protein associations several major biological databases including reactome kegg go funcat intact mint hrpd were retrieved combined into network referred knowledgegram
+implemented other pioneering studies built predicted experimental models further comparison
+different network topology parameters were calculated compared between kg pg models two test species homo sapiens sacharomyces cerevisae
+observe how networks change cut-off confidence score predictions varied
+results pg kg network comparison demonstrate pg networks resemble kg networks many major topological features model substantial fraction real protein network associations previously observed some bacterial predicted networks 
+there been frequent observations low overlaps between different experimental high-throughput approaches
+our comparison pg kg models also show intersection between two models small majority predictions pg novel predictions
+however overlap between pg kg significantly higher than expected random both species supporting correspondence between pg kg screenings ppi space
+pg kg data overlap significantly larger yeast than human pointing better functional characterization yeast ppi network presence larger dark areas human ppi network still hidden current experimental knowledge
+suggest novel prediction set may valuable estimation relative differences dark matter uncharacterised protein-protein associations between both specie show dark matter contains key elements hubs important functional roles cell
+analogy dark matter protein network models refers predicted protein-protein associations whose existence not yet been experimentally verified
+study suggest dark matter involves functional associations difficult characterise current experimental assays making any network modelling organisms highly incomplete therefore inaccurate
+results divided into four main sections predicted experimental ppi models human yeast compared
+first section analyses performance single integrated methods predicting protein associations determines correlation between prediction scores degree accuracy noise predictions
+second chapter compares topological network features predicted experimental ppi models at equivalent levels accuracy noise
+third section searches functional differences between predicted experimental models looking specific functional areas appear illuminated prediction methods but elusive experimental approaches
+whilst final fourth section explores whether predicted ppi network graphs contain additional context-based information protein associations beyond sets predicted protein pairs used build networks

@@ -1,0 +1,17 @@
+
+prove optimal kernel proposed recently graphs more generally basic data space fact not always positive
+introduction
+let set function any any through because they only data through hence through kernel
+allows example perform classification regression graphs statistical methods positive kernel graphs defined
+activity focused design specific positive specific data graphs applications natural processing
+applications computational proposed recently kernel graphs more generally data into
+kernel called optimal kernel measures similarity between two data points optimal matching between both points
+natural notion similarity between graphs algorithm
+however show below general not positive suggests special may needed before using kernel methods
+should out not being positive not issue use kernel practice
+first may fact positive when particular set data used practical experiment
+second other positive kernel been shown very useful efficient combination kernel methods
+third kernel methods developed variety strategies limit possible kernel methods when positive used matrix kernel values set positive matrices before processing
+good results reported several indeed method
+hence our note not use optimal kernel context kernel methods
+instead some cases negative may appear matrix specific may needed error

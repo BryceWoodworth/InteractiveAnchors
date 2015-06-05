@@ -1,0 +1,36 @@
+
+belief local algorithm find estimate probability distribution
+while been wide variety applications there relatively few theoretical convergence general graphs may many short
+even provide exact
+paper investigate problem using find maximum weight matching arbitrary graph weights
+first probability distribution whose optimal matching then
+matching also program there
+not always
+paper show if then always too correct answer
+if then does not
+provides exact performance optimization technique
+also since known graphs our results other recent results using find graphs
+introduction
+algorithms like belief its been shown very effective many problems wide range
+algorithms were designed exact inference i e probability distributions
+their application general graphs involves their local rules general graph
+case however there no either convergence general
+understanding performance algorithms general graphs remains active research area
+show graphs at most one cycle
+show problems algorithm correct means upon convergence but does not always find correct
+show random graphs associated
+shows if then optimal relatively large
+paper consider problem using find maximum weight matching arbitrary graph arbitrary weights
+problem program natural
+paper prove following if then always too correct answer
+if then does not
+were first investigate matching problem
+they showed if graph then always correct answer
+recently result been extended graphs
+since always graphs first part our results their results correct generalization arbitrary graphs since case function structure well weights
+would like point out three features our provides necessary sufficient condition arbitrary problem
+there very few classes problems there performance
+data dependent based not only graph structure but also weights particular instance
+classes problems making terms both understanding development new algorithms
+between linear been several authors exact relationship general remains
+particular would investigate results relationship between

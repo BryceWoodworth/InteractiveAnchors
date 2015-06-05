@@ -1,0 +1,18 @@
+ 
+study priori semimeasure sets random infinite sequences where family probability distributions depending real parameter
+case when computable probability distribution effectively strictly consistent estimator exists show levin's priory semimeasure set all random sequences positive if only if parameter computable real number
+bernoulli family  show priory semimeasure set  where set all random sequences union taken over all non-random  positive
+ introduction 
+use algorithmic randomness theory analyze ``the size'' sets infinite sequences random respect parametric families probability distributions
+let parametric family probability distributions  where real number given effectively strictly consistent estimator exists family
+bernoulli family real parameter example family
+theorem shows levin's priory semimeasure set all random sequences positive if only if parameter value computable real number
+say property infinite sequences no ``empirical meaning'' if levin's priory semimeasure set all sequences possessing property
+respect model biased coin ``a prespecified'' probability head meaningless when noncomputable real number; noncomputable parameters empirical meaning only their totality i e  elements some uncountable sets
+example random sequences noncomputable generated bayesian mixture using computable prior
+case evidently semicomputable semimeasure set all sequences random respect mixture positive
+give appendix simple proof our previous result formulated theorem says levin's priory semimeasure set all infinite binary sequences non-equivalent turing martin-l\"of random sequences positive
+particular sequences non-random respect each computable probability distribution
+use result prove theorem
+theorem shows probabilistic machine constructed probability close outputs random bernoulli sequence parameter not random respect each computable probability distribution
+result interpreted bayesian statistical approach insufficient cover all possible ``meaningful'' cases random sequences

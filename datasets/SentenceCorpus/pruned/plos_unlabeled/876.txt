@@ -1,0 +1,20 @@
+
+cells loss genes
+detection expressed genes at early could identification genes either
+previous methods expressed genes comparing different cell types would include large genes rather than process
+demonstrate through use biological novel statistical approach gene expression data obtained without prior cell types expressed genes at early
+proposed method analyze cells identified then experimentally novel
+statistical approach statistical test generally analyze other processes
+introduction
+cellular process less cell more cell type characterized expression pattern subset genes during process
+search genes widely almost every process although approach still
+current practice cell types measure gene expression each cell type then identify expressed genes
+methods require expression data both cell types available
+methods time cell types example many genes shown expression
+set expressed genes may include class early genes early cell well genes whose
+however set expressed genes will also include second larger class genes gene expression not important regulation process but genes simply cell types
+sample comparison not designed two classes expressed genes result large expressed genes usually do not provide direct mechanisms
+early genes cell types at early turn cell types at early identification early genes
+however available study new process
+demonstrate common belief early genes average expression mixture cell types provided biological been measured statistical test based been used
+provide theoretical statistical method two experiments

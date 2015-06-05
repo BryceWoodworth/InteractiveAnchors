@@ -1,0 +1,28 @@
+
+paper propose algorithm learning markov decision processes
+initial model algorithm empirical model way always follows policy respect its model
+only algorithm model
+prove i fixed point approximate value number when agent makes decisions respect solution all relevant algorithm also
+our best knowledge first algorithm properties
+extended version contains main theorem
+version paper
+introduction
+markov decision processes practical ways sequential decision ways solve them
+when environment unknown all effective learning methods apply some form learning agent unknown should assume high rewards order
+initial model principle its model
+more often state space model more agent unknown regions explore them search some
+algorithm simple will not make any effort but always follows optimal policy respect its model
+show paper simple even sufficient effective learning
+algorithm initial model learning algorithm
+there important difference however way model
+every time model corresponding value function not various dynamic algorithms like value solve model any required accuracy time
+situation less all known algorithms may take time eg approximate policy using version
+if require time do paper search practical algorithm then solutions
+only known example value will base our learning method
+error its solution term depending only quality function
+our analysis algorithm will techniques learning like
+however convergence rely so they
+so able show solution time high probability
+introduce basic section then section review existing work special our method
+describe algorithm
+paper short analysis

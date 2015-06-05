@@ -1,0 +1,39 @@
+ 
+even post-genomic era identification candidate genes within loci associated human genetic diseases very demanding task because critical region may typically contain hundreds positional candidates
+since genes implicated similar phenotypes tend share very similar expression profiles high throughput gene expression data may represent very important resource identify best candidates sequencing
+however so far gene coexpression not been used very successfully prioritize positional candidates
+show possible reliably identify disease-relevant relationships among genes massive microarray datasets concentrating only genes sharing similar expression profiles both human mouse
+moreover show systematically integration human-mouse conserved coexpression phenotype similarity map allows efficient identification disease genes large genomic regions
+finally using approach 850 omim loci characterized unknown molecular basis propose high-probability candidates 81 genetic diseases
+our results demonstrate conserved coexpression even at human-mouse phylogenetic distance represents very strong criterion predict disease-relevant relationships among human genes
+ introduction 
+last two decades positional cloning been remarkably successful identification genes involved human disorders
+more recently our ability map genetic disease loci strikingly increased due availability entire genome sequence
+nevertheless once disease locus been mapped identification mutation responsible phenotype still represents very demanding task because mapped region may typically contain hundreds candidates
+accordingly many phenotypes mapped genome linkage analysis not yet associated any validated disease gene
+therefore definition strategies pinpoint most likely targets sequenced patients critical importance
+many different strategies been proposed prioritize genes located critical map intervals
+some methods so far developed rely observation disease genes tend share common global properties deduced directly absolute comparative sequence analysis
+however most available prioritization strategies based widely accepted idea genes proteins living organisms deploy their functions part sophisticated functional modules based complex series physical metabolic regulatory interactions
+although principle been extensively used even pre-genome era identify critical players many different biological phenomena present availability genome-scale information gene function protein-protein interactions gene expression different experimental models allows unprecedented opportunities approaching prioritization problem greater efficiency
+theory use functional gene annotations would represent most straightforward approach candidate prioritization
+however although strategy may very useful selected cases at present stage clear limitations either because overlooks non-annotated genes because not evident how annotated functions candidates relate disease phenotype
+therefore computational methods less biased toward already consolidated knowledge may strong advantages 
+particular protein-protein interaction maps gene coexpression data microarray experiments represent extremely rich sources potentially relevant information
+recently direct integration very heterogeneous human interactome text mining-based map phenotype similarity allowed prediction high confidence candidates within large disease-associated loci 
+although approach highly efficient clearly not exhaustive because very close functional relationships between genes proteins possible absence direct molecular binding
+addition protein-protein interaction space currently under-sampled many genuine biological interactions not yet been identified experiments
+conversely high-throughput experiments known result large fraction false positives
+consistently low overlap protein-protein interactions between large-scale experiments even when same proteins considered testament problems
+finally many known protein-protein interactions been ascertained through low-throughput experiments thus strongly biased towards better-studied proteins 
+since genes involved same functions tend show very similar expression profiles coexpression analysis could very powerful approach inferring functional relationships may correlate similar disease phenotypes
+accordingly global analyses shown genes highly coexpressed across microarray experiments display very similar functional annotation
+however notable exceptions so far coexpression criterion not been employed very successfully prediction genetic disease candidates been used purpose only combination other independent evidence 
+noisy nature high-throughput gene expression datasets may represent one possible explanations shortcoming
+moreover even when coexpression two genes reproducibly observed under high number experimental conditions does not necessarily imply genes functionally related
+instance extensive meta analysis microarray data across different species revealed neighboring genes more likely coexpressed than genes encoded distant genomic regions even if they not functionally related any obvious manner 
+phylogenetic conservation been previously proposed very strong criterion identify functionally relevant coexpression links among genes
+indeed significant coexpression two more orthologous genes very likely due selective advantage strongly suggesting functional relation
+therefore conserved coexpression could much stronger criterion than single species coexpression relate genes involved similar disease phenotypes
+report show conserved coexpression phenome analysis effectively integrated produce accurate predictions human disease genes
+using approach were able select small number strong candidates 81 human diseases corresponding wide spectrum different phenotypes

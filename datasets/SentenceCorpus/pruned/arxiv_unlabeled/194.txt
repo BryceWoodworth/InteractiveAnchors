@@ -1,0 +1,28 @@
+
+research learning produced algorithms optimal decision making under uncertainty within two main types
+first bayesian framework where increased computational time
+because resulting task form dynamic problem belief tree number states
+second type relatively simple algorithm shown small regret within framework
+paper lower bound high probability bound optimal value function nodes bayesian belief tree similar bounds
+bounds then used more efficient strategies tree
+resulting algorithms compared algorithm well algorithm problems
+introduction
+recent work bayesian methods markov decision processes known markov decision processes well latter case been proposed
+all methods computational problems most domains interest
+sources
+there may no representation current belief
+especially true
+under uncertainty requires model form tree where current pair all possible pairs
+tree large very fast particularly case continuous observations actions
+work second problem consider algorithms tree
+since bayesian methods require tree performed view whole problem
+setting problems there exist optimal simple methods
+methods recently been extended tree search
+work take advantage special structure belief order design algorithms nodes
+sense tree problem bayesian methods also optimal problem develop tree algorithms solve problem
+furthermore able derive lower bounds value nodes help limit amount search
+developed tested setting algorithms exist
+section within work related work
+section tree problems some useful bounds
+bounds used algorithms detailed section then section
+further

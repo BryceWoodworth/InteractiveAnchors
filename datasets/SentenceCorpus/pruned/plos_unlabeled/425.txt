@@ -1,0 +1,23 @@
+
+independent groups reported studies identify expressed genes
+limited among genes makes difficult determine if any exhibit patterns expression
+data all found two sources observed use different expression pattern detection algorithms underlying variation among datasets
+improve upon methods developed new analysis involves all existing data application statistical three classes various previously described fast based technique
+statistical tests were used derive measures all tests
+find application our method most significantly procedure significantly discovery rate relative observed among results original while statistical power
+identify set previously found one more original well novel set not found any original studies
+introduce novel analysis method observed among original
+based statistical our results results our initial experiments predict many our found genes suggest they may lead new into pathways through mechanisms behavioral
+introduction
+most organisms exhibit behavior occur
+biological via expression core set genes
+feature many genes conserved across wide evolutionary expression their
+several studies identify novel genes
+based model genes exhibit expression
+identify yet there lack among identified genes
+reported expression patterns
+given importance transcription function studies identify existing find exhibit expression
+our analyses suggest statistical all available data lead discovery rate
+addition find data quality algorithm choice play essential any particular analysis
+introduce novel procedure well previously techniques identify core set expressed high statistical
+our not found original

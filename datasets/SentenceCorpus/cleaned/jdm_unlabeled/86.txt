@@ -1,0 +1,37 @@
+ 
+make hundreds decisions every day many them extremely quickly without much explicit deliberation
+motivates two important open questions what minimum time required make choices above chance accuracy
+what impact additional decision-making time choice accuracy
+investigated questions four experiments subjects made binary food choices using saccadic manual responses under either speed accuracy instructions
+subjects were able make above chance decisions little number ms choose their preferred food item over number percent trials at average speeds number ms
+further slowing down their responses either asking them explicitly confident about their choices respond hand movements generated about number percent increase accuracy
+together results suggest consumers make accurate every-day choices akin those made grocery store at significantly faster speeds than previously reported
+ introduction 
+make hundreds decisions every day many them extremely quickly without much explicit deliberation
+consider example trip local grocery store
+while unfamiliar high-stakes purchases often involve careful comparisons casual observation suggests many others made at speeds seem inconsistent careful deliberation
+motivates important open question psychology neurobiology decision-making well domain consumer research what fastest speeds at human brain capable identifying most valuable options
+previous work computational neurobiological basis decision-making provides some clues
+multiple studies shown drift-diffusion-model its variants provide computational description how choices made able provide good quantitative descriptions how accuracy response times vary underlying parameters choice problem
+all models predict speed-accuracy tradeoff been observed data
+however literature not experimentally measured fastest speeds at value-based decisions made
+examination previous decision-making studies also suggest decisions made quickly but provide few clues about how fast decisions made when speed goal perhaps due external constraints
+example krajbich armel rangel hungry subjects made real choices between pairs food stimuli displayed computer screen reaction times rt ranged number number seconds easiest choices number number most difficult ones
+reaction times number ms range been reported various other choice studies
+studies examining more complex choices those involving six twelve options reported reaction times number  number seconds range
+however work psychophysics perceptual judgments suggests brain may able carry out decisions computations much faster
+thorpe fize marlot showed subjects could categorize natural scenes according whether not they contain animal using go no-go task median rt number ms go trials differential erp activity number ms
+vanrullen thorpe found subjects could distinguish between animals vehicles go no-go task at similarly fast speeds mean rt number ms animals number ms vehicles minimum rt number ms animals number ms vehicles measured earliest above-chance responses differential erp activity detected number ms both tasks
+further kirchner thorpe used novel saccadic choice paradigm show pair natural scenes flashed left right hemifields could compared presence one more animals median rt number ms minimum rt number ms
+utilizing similar paradigm bannerman milders de gelder sahraie showed subjects could distinguish fearful facial expression body posture neutral one less than number ms mean rt
+similarly forced-choice saccades identify human faces performed above chance initiated mean reaction time number ms minimum rt number ms
+finally recently showed individuals make magnitude comparisons between two single-digit numbers high accuracy number ms average able perform above chance little number ms
+note case simple choice all experiments subjects had recognize stimuli their location analyze stimuli make discrimination judgment then indicate outcome judgment through motor response
+thus given similar computational demands natural hypothesize brain should able make accurate simple choices at much faster speeds than those been reported literature
+conducted four experiments designed address two basic questions what minimum computation time required make choices above chance accuracy
+what impact additional computational time choice accuracy
+important difficulty answering questions reaction time measures standard choice paradigms overestimate amount time takes make decision i e compute compare values since they include time requires perceive stimuli deploy choice
+here use paradigm vision psychophysics was developed studies described above allows us minimize aforementioned measurement problems
+determining minimum computation times at consumers make choices above chance level well impact additional time choice accuracy important two reasons
+first since significant fraction decisions seems made at speeds provides insight into general quality human decision-making
+increased popularity new technologies decisions made click mouse further increases importance question

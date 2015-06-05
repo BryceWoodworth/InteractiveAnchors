@@ -1,0 +1,42 @@
+
+method developed
+practical principle events
+method probability event means family probabilistic models
+method been extended optimization optimal event event
+rather good when function optimization
+now two conditions needed good convergence method
+first necessary family models optimal events
+also function should
+paper consider case model family stochastic functions
+will shown simple examples could when
+alternative method investigated compared random examples order issue
+introduction
+method been developed
+simulation events
+algorithm importance sampling event based family sampling
+importance sampling obtained samples samples events parameters sampling its distance selection importance
+optimal events related objective events method been extended optimization problems method been many problems
+however method make some assumptions
+first been made context
+simulation family should contain support first condition cannot case stochastic problem
+second condition
+but there some cases where not possible all solutions family
+indeed solutions may not typically case some dynamic problems example strategy tree against computer
+both optimal observation
+paper point out simple examples necessary convergence classical method
+questions does algorithm solve stochastic problems } selection within may not work without rather good estimation objective functional
+selection possible answer
+assume family does not contain all solutions
+algorithm will stochastic approximation optimal solution
+approximation best possible within family
+our answer question not negative
+but some usually will question
+paper some questions
+case stochastic optimization tests simple random examples order compare convergence various methods global next section principle method
+section will consider case where optimal solution not sampling family
+proposed studied
+section stochastic problems considered
+two simple investigated thus some convergence
+different then compared method several random examples
+particular method sample selection proposed possible alternative stochastic problems
+section

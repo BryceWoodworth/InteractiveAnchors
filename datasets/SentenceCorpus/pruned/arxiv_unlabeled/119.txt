@@ -1,0 +1,31 @@
+
+paper problem existing distance
+following features paper
+three popular component do not kernel order improve their classification
+alternative framework called presented
+new framework gains several over standard framework eg no mathematical no required kernel framework problems etc
+while just assumptions previous related here
+both kernel context distance learning
+previous always apply methods kernel investigate two approaches construct appropriate kernel given
+finally numerical results various datasets presented
+introduction
+recently many distance
+recently proposed designed so they class problems where data one class form where classical component analysis analysis cannot
+therefore new usually classical experiments reported recent
+since learning distance learning linear learn one important all distance
+research distance learning just recently several open 1 some efficient do not 2 kernel standard method not sense new mathematical derived new not existing algorithms theorem however our knowledge there no theorem context distance learning problem how efficient kernel function been previous best kernel via method
+paper following key three popular recently proposed component analysis large order improve their classification respect algorithm
+framework presented alternative choice framework
+contrast kernel does not require derive new mathematical
+also original available not required kernel version original
+moreover new framework problems provides way up
+two context distance learning
+our both
+moreover algorithms learning distance any space also algorithms reduction
+problem efficient kernel selection
+investigate kernel alignment method proposed previous see whether appropriate distance not
+investigate simple method combination base
+theoretical result provided support simple approach
+kernel based our two approaches require much time when comparing standard approach
+classifier there some about distance
+provide experiments datasets prove

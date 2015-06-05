@@ -1,0 +1,20 @@
+ 
+grammar inference deals determining preferable simple models/grammars consistent set observations
+there large body research grammar inference within theory formal languages
+however there surprisingly little known grammar inference graph grammars
+paper take further step direction work within framework node label controlled nlc graph grammars
+specifically characterize given set disjoint isomorphic subgraphs graph  whether not there nlc graph grammar rule generate subgraphs obtain
+generalizes previous results assuming set isomorphic subgraphs disjoint instead non-touching
+leads naturally consider more involved ``non-confluent'' graph grammar rules
+ introduction 
+grammar inference also called grammar induction general line research where one concerned determining ``simple'' grammar consistent given set possible impossible outcomes
+hence one ``goes back'' derivation: instead determining generative power grammar one determines grammar given generated output
+topic well-studied formal languages especially respect context-free languages see eg  however relatively little known graph grammars
+topic inference graph grammars considered uses their so-called subdue scheme developed
+rigorous approach grammar inference within framework node label controlled nlc graph grammars  natural well-studied class graph grammars initiated
+there characterized given set non-touching isomorphic graphs graph  whether not there graph grammar consisting one rule able generate graphs obtain
+continue research generalize result case where graphs disjoint instead non-touching
+generalization requires one deal number issues
+most notably one deal non-confluency issues: generated graph depends order touching subgraphs generated \addconf{due space constraints proofs results omitted but found extended version
+
+paper }

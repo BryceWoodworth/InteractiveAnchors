@@ -1,0 +1,10 @@
+ 
+develop abc-logitboost  based prior work abc-boost robust logitboost
+our extensive experiments variety datasets demonstrate considerable improvement abc-logitboost over logitboost abc-mart
+ introduction 
+boosting algorithms become very successful machine learning
+study revisits logitboost under framework adaptive base class boost abc-boost  multi-class classification
+denote training dataset  where number feature vectors samples th feature vector th class label where multi-class classification
+both logitboost mart multiple additive regression trees algorithms viewed generalizations logistic regression model assumes class probabilities while traditional logistic regression assumes  logitboost mart adopt flexible ``additive model,'' function terms: where  base learner typically regression tree
+parameters  learned data maximum likelihood equivalent minimizing negative log-likelihood loss where if otherwise
+identifiability ``sum-to-zero'' constraint  usually adopted

@@ -1,0 +1,64 @@
+ 
+lasso regularized least squares been explored extensively its remarkable sparsity properties
+shown paper solution lasso addition its sparsity robustness properties: solution robust optimization problem
+two important consequences
+first robustness provides connection regularizer physical property namely protection noise
+allows principled selection regularizer particular generalizations lasso also yield convex optimization problems obtained considering different uncertainty sets
+secondly robustness itself used avenue exploring different properties solution
+particular shown robustness solution explains why solution sparse
+analysis well specific results obtained differ standard sparsity results providing different geometric intuition
+furthermore shown robust optimization formulation related kernel density estimation based approach proof lasso consistent given using robustness directly
+finally theorem saying sparsity algorithmic stability contradict each other hence lasso not stable presented
+ introduction 
+paper consider linear regression problems least-square error
+problem find vector so norm residual minimized given matrix vector
+learning/regression perspective each row regarded training sample corresponding element target value observed sample
+each column corresponds feature objective find set weights so weighted sum feature values approximates target value
+well known minimizing least squared error lead sensitive solutions
+many regularization methods been proposed decrease sensitivity
+among them tikhonov regularization lasso two widely known cited algorithms
+methods minimize weighted sum residual norm certain regularization term tikhonov regularization lasso
+addition providing regularity lasso also known tendency select sparse solutions
+recently attracted much attention its ability reconstruct sparse solutions when sampling occurs far below nyquist rate also its ability recover sparsity pattern exactly probability one asymptotically number observations increases there extensive literature subject refer reader references therein
+first result paper solution lasso robustness properties: solution robust optimization problem
+itself interpretation lasso solution robust least squares problem development line results
+there authors propose alternative approach reducing sensitivity linear regression considering robust version regression problem i e  minimizing worst-case residual observations under some unknown but bounded disturbance
+most research area considers either case where disturbance row-wise uncoupled  case where frobenius norm disturbance matrix bounded
+none robust optimization approaches produces solution sparsity properties particular solution lasso does not solve any previously formulated robust optimization problems
+contrast investigate robust regression problem where uncertainty set defined feature-wise constraints
+noise model interest when values features obtained some noisy pre-processing steps magnitudes noises known bounded
+another situation interest where features meaningfully coupled
+define coupled uncoupled disturbances uncertainty sets precisely section below
+intuitively disturbance feature-wise coupled if variation disturbance across features satisfy joint constraints uncoupled otherwise
+considering solution lasso solution robust least squares problem two important consequences
+first robustness provides connection regularizer physical property namely protection noise
+allows more principled selection regularizer particular considering different uncertainty sets construct generalizations lasso also yield convex optimization problems
+secondly perhaps most significantly robustness strong property itself used avenue investigating different properties solution
+show robustness solution explain why solution sparse
+analysis well specific results obtain differ standard sparsity results providing different geometric intuition extending beyond least-squares setting
+sparsity results obtained lasso ultimately depend fact introducing additional features incurs larger penalty than least squares error reduction
+contrast exploit fact robust solution definition optimal solution under worst-case perturbation
+our results show essentially coefficient solution nonzero if corresponding feature relevant under all allowable perturbations
+addition sparsity also use robustness directly prove consistency lasso
+briefly list main contributions well organization paper
+section formulate robust regression problem feature-wise independent disturbances show formulation equivalent least-square problem weighted norm regularization term
+hence provide interpretation lasso robustness perspective
+% helpful choosing regularization parameter
+generalize robust regression formulation loss functions arbitrary norm section
+also consider uncertainty sets require disturbances different features satisfy joint conditions
+used mitigate conservativeness robust solution obtain solutions additional properties
+%we call features ``coupled''
+section present new sparsity results robust regression problem feature-wise independent disturbances
+provides new robustness-based explanation sparsity lasso
+our approach gives new analysis also geometric intuition furthermore allows one obtain sparsity results more general loss functions beyond squared loss
+next relate lasso kernel density estimation section
+allows us re-prove consistency statistical learning setup using new robustness tools formulation introduce
+along our results sparsity illustrates power robustness explaining also exploring different properties solution
+finally prove section ``no-free-lunch'' theorem stating algorithm encourages sparsity cannot stable {notation}
+use capital letters represent matrices boldface letters represent column vectors
+row vectors represented transpose column vectors
+vector  denotes its element
+throughout paper used denote column row observation matrix  respectively
+use denote element  hence element  element
+convex function  represents any its sub-gradients evaluated at
+vector length each element equals denoted

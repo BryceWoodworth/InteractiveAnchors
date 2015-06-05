@@ -1,0 +1,26 @@
+
+activity states observed several after stimulus basis memory
+one possible mechanisms activity synaptic
+recent experimental study revealed between cells exhibit various synaptic
+here analyze effect synaptic dynamics states neural networks
+show different synaptic result different network dynamics respect states
+analysis framework neural networks extended represent stimuli
+introduction
+memory us stimulus few after thus information over time
+neurons memory tasks activity after stimulus
+activity states considered memory
+activity either during learning task
+studies revealed effects
+effect synaptic expressed synaptic following firing
+several theoretical studies investigated effects synaptic existence stability states
+et al recently performed experiments investigate synaptic one where activity observed
+they found area exhibit various synaptic three different classes identified
+while synaptic was recently factor network there yet no study its effect dynamics neural networks transition states after stimulus
+consider neural network been learning several stimuli
+assume network set populations each certain stimulus
+via learning synaptic within population form stable activity state
+recent experimental results assume neurons within each population differ dynamic properties their thus exhibit different temporal response same stimuli
+firing then lead further synaptic within population neurons similar synaptic dynamics more strongly one another than ones synaptic dynamics
+thus consider network several populations each into different synaptic dynamics
+populations via both dynamic generate dynamics response stimuli
+since synaptic dynamics differ between them different temporal input could result greater computational power network

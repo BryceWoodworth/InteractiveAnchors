@@ -1,0 +1,53 @@
+ 
+% < trailing '%' backward compatibility
+sty file given sample probability measure support submanifold euclidean space one construct neighborhood graph seen approximation submanifold
+graph laplacian graph used several machine learning methods like semi-supervised learning dimensionality reduction clustering
+paper determine pointwise limit three different graph laplacians used literature sample size increases neighborhood size approaches zero
+show uniform measure submanifold all graph laplacians same limit up constants
+however case non-uniform measure submanifold only so called random walk graph laplacian converges weighted laplace-beltrami operator
+ introduction 
+recent years methods based graph laplacians become increasingly popular machine learning
+they been used semi-supervised learning  spectral clustering dimensionality reduction
+their popularity mainly due following properties laplacian will discussed more detail later section: laplacian generator diffusion process label propagation semi-supervised learning eigenvectors laplacian special geometric properties motivation spectral clustering laplacian induces adaptive regularization functional adapts density geometric structure data semi-supervised learning classification
+if data lies neighborhood graph built random sample seen approximation continuous structure
+particular if data support low-dimensional submanifold neighborhood graph discrete approximation submanifold
+machine learning interested intrinsic properties objects submanifold
+approximation laplace-beltrami operator via graph laplacian very important one since numerous applications will discuss later
+approximations laplace-beltrami operator related objects been studied certain special deterministic graphs
+easiest case grid
+numerics standard approximate laplacian finite-differences schemes grid
+seen special instances graph laplacian
+there convergence decreasing grid-size follows easily argument using taylor expansions
+another more involved example work  where graph generated packing manifold equivalence certain properties random walks graph brownian motion manifold been established
+connection between random walks graph laplacian becomes obvious noting graph laplacian well laplace-beltrami operator generators diffusion process graph manifold respectively
+convergence discrete approximation laplace beltrami operator triangulation 2d-surface was shown
+however unclear whether approximation described there written graph laplacian whether result generalized higher dimensions
+case where graph generated randomly only first results been proved so far
+first work large sample limit graph laplacians been done
+there authors studied convergence regularization functional induced graph laplacian using law large numbers statistics
+second step taking limit neighborhoodsize  they got effective limit operator
+their result recently been generalized submanifold case uniform convergence over space h\"older-functions
+ neighborhoodsize was kept fixed while large sample limit graph laplacian was considered
+setting authors showed strong convergence results graph laplacians certain integral operators imply convergence eigenvalues eigenfunctions
+thereby showing consistency spectral clustering fixed neighborhood size
+contrast previous work paper will consider large sample limit limit neighborhood size approaches zero simultaneously certain class neighbhorhood graphs
+main emphasis lies case where data generating measure support submanifold
+bias term difference between continuous counterpart graph laplacian laplacian itself been studied first compact submanifolds without boundary gaussian kernel uniform data generating measure was then generalized general isotropic weights general probability measures
+additionally lafon showed use data-dependent weights graph allows control influence density
+they all show bias term converges pointwise if neighborhood size goes zero
+convergence graph laplacian towards continuous averaging operators was left open
+part was first studied
+convergence was shown so called unnormalized graph laplacian case uniform probability measure compact manifold without boundary using gaussian kernel weights whereas pointwise convergence was shown random walk graph laplacian case general probability measures non-compact manifolds boundary using general isotropic data-dependent weights
+more recently extended pointwise convergence unnormalized graph laplacian shown uniform convergence compact submanifolds without boundary giving explicit rates
+ see also  rate convergence given been improved setting uniform measure
+paper will study three most often used graph laplacians machine learning literature show their pointwise convergence general setting  will particular consider case where using data-dependent weights graph control influence density limit operator
+section introduce basic framework necessary define graph laplacians general directed weighted graphs then simplify general case undirected graphs
+particular define three graph laplacians used machine learning so far call normalized unnormalized random walk laplacian
+section introduce neighborhood graphs studied paper followed introduction so called weighted laplace-beltrami operator will turn out limit operator general
+also study properties limit operator provide insights why how operator used semi-supervised learning clustering regression
+then finally present main convergence result all three graph laplacians give conditions neighborhood size function sample size necessary convergence
+section illustrate main result studying difference between three graph laplacians effects different data-dependent weights limit operator
+section prove main result
+introduce framework studying non-compact manifolds boundary provide necessary assumptions submanifold  data generating measure kernel used defining weights edges
+would like note theorems given section contain slightly stronger results than ones presented section
+reader who not familiar differential geometry will find brief introduction basic material used paper appendix

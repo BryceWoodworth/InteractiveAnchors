@@ -1,0 +1,43 @@
+ 
+adp-glucose pyrophosphorylase key allosteric enzyme involved higher plant starch biosynthesis composed pairs large small subunits
+current evidence indicates two subunit types play distinct roles enzyme function
+recently heterotetrameric structure potato agpase been modeled
+current study applied molecular mechanics generalized born surface area method identified critical amino acids potato agpase ls ss subunits interact each other during native heterotetrameric structure formation
+further shown role ls amino acids subunit-subunit interaction yeast two-hybrid bacterial complementation assay native gel
+comparison computational results experiments indicated backbone energy contribution interface residues more important identifying critical residues
+found lateral interaction ls-ss much stronger than longitudinal one mainly mediated hydrophobic interactions
+study will not only enhance our understanding interaction between ss ls agpase but will also enable us engineer proteins obtain better assembled variants agpase used improvement plant yield
+ introduction 
+adp-glucose pyrophosphorylase key regulatory allosteric enzyme involved starch biosynthesis higher plants
+catalyzes rate limiting reversible reaction controls carbon-flux glucan pathway converting glucose-1-phosphate atp adp-glucose pyrophosphate using mg 2 cofactor
+regulation almost all agpases depends 3-phosphoglyceric acid inorganic phosphate ratio
+while 3-pga functions main stimulator pi inhibits activity enzyme
+plant agpases consist pairs small large subunits thereby constituting heterotetrameric structure
+two subunits encoded two distinct genes
+potato tuber agpase sequence identity between different subunits 53 percent suggesting common ancestral gene
+molecular weights tetrameric agpases range 200 240 kda depending tissue plant species
+specifically molecular weights ls ss potato tuber agpase 51 kda 50 kda respectively
+was found ss ls different roles enzyme functionality
+ss was shown both catalytic regulatory functions whereas ls mainly responsible regulating allosteric properties ss
+results were also supported studies showed ls was incapable assembling into catalytically active oligomeric structure whereas ss was able form homotetramer catalytic properties
+however ss homotetramer showed defective properties terms catalysis regulation
+required higher concentrations 3-pga activation was more sensitive pi inhibition
+results suggested ls was essential enzyme function efficiently
+alternatively recent studies indicated ls may bind substrates glucose-1 phosphate atp
+binding ls substrates may allow ls interact cooperatively catalytic ss binding substrates effectors turn influence net catalysis
+addition specific regions both ls ss were found important subunit association enzyme stability
+also using chimeric maize/potato small subunits cross et al found polymorphic motif ss critical subunit interaction
+they concluded 55-amino acid region between residues 322 376 directly interacts ls significantly contributes overall enzyme stability
+recently crystal structure ss was found homotetrameric form jin et al
+neither ls nor heterotetrameric agpase structure been solved yet
+due difficulty obtaining agpase stable form
+however critical elucidate native heterotetrameric agpase structure identify key residues taking place subunit-subunit interactions obtain more detailed picture enzyme
+understanding structure hot spot residues subunit interface will enable us manipulate native enzyme get stable form utilized improving yield crops
+feasibility approach been shown previously
+modeled ls structure potato tuber agpase proposed model heterotetrameric agpase
+study extended our previous work examining our agpase model identify important residues mediating interactions between ls ss both computational experimental techniques
+based molecular mechanics generalized born surface area method two distinct ls domains involved ls-ss subunit interaction
+residues potato agpase ls asn 97 pro 327 ile 330 ile 335 ile 339 ile 340 his 342 involved lateral interaction potato agpase ss whereas residues arg 45 arg 88 arg 92 trp 135 involved longitudinal interaction potato agpase ss
+effect mutations interactions ls ss potato agpase were further characterized vivo using bacterial complementation yeast two-hybrid methods
+also experimental results indicated backbone g binding energy interface amino acids decisive parameter subunit-subunit interaction rather than side chain g binding total g binding energies
+study will highlight important structural aspects agpase structure provide insights further attempts engineer more functional form enzyme

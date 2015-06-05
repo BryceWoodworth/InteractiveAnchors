@@ -1,0 +1,55 @@
+ 
+show how text news articles used predict intraday price movements financial assets using support vector machines
+multiple kernel learning used combine equity returns text predictive features increase classification performance develop analytic center cutting plane method solve kernel learning problem efficiently
+observe while direction returns not predictable using either text returns their size text features producing significantly better performance than historical returns alone
+ introduction 
+asset pricing models often describe arrival novel information jump process but characteristics underlying jump process only coarsely if at all related underlying source information
+similarly time series models arch garch been developed forecast volatility using asset returns data but methods also ignore one key source market volatility: financial news
+our objective here show text classification techniques allow much more refined analysis impact news asset prices
+empirical studies examine stock return predictability traced back among others who showed there no significant autocorrelation daily returns thirty stocks dow-jones industrial average
+similar studies were conducted  who find significant autocorrelation squared absolute returns i e volatility
+effects also observed intraday volatility patterns demonstrated absolute returns
+findings tend demonstrate given solely historical stock returns future stock returns not predictable while volatility
+impact news articles also been studied extensively
+example studied price fluctuations interest rate foreign exchange futures markets following macroeconomic announcements showed prices mostly adjusted within one minute major announcements
+aggregated daily announcements dow jones \& company into single variable found no correlation market absolute returns weak correlation firm-specific absolute returns
+however aggregated intraday news concerning companies listed australian stock exchange into exogenous variable garch model found significant predictive power
+findings attributed conditioning volatility news
+results were further improved restricting type news articles included
+most common techniques forecasting volatility often based autoregressive conditional heteroskedasticity arch generalized arch garch models mentioned above
+example intraday volatility foreign exchange equity markets modeled ma-garch arch
+see survey arch garch models various other applications
+machine learning techniques neural networks support vector machines also been used forecast volatility
+neural networks used forecast implied volatility options sp100 index support vector machines used forecast volatility sp500 index using daily returns
+here show information press releases used predict intraday abnormal returns relatively high accuracy
+consistent  however direction returns not found predictable
+form text classification problem where press releases labeled positive if absolute return jumps at some fixed time after news made public
+support vector machines svm used solve classification problem using both equity returns word frequencies press releases
+furthermore use multiple kernel learning mkl optimally combine equity returns text predictive features increase classification performance
+text classification well-studied problem machine learning  among many others show svm significantly outperform classic methods naive bayes
+initially naive bayes classifiers were used do three-class classification index using daily returns labels
+news taken several sources reuters wall street journal
+five-class classification naive bayes classifiers used classify intraday price trends when articles published at yahoo
+finance website
+support vector machines were also used classify intraday price trends using reuters articles do four-class classification stock returns using press releases prnewswire
+text classification also been used directly predict volatility see survey trading systems use text
+recently used svm predict if articles bloomberg service followed abnormally large volatility; articles deemed important then aggregated into variable used garch model similar
+use support vector regression svr forecast stock return volatility based text sec mandated 10-k reports
+they found reports published after sarbanes-oxley act 2002 improved forecasts over baseline methods did not use text
+generating trading rules genetic programming gp another way incorporate text financial trading systems
+trading rules created using gp foreign exchange markets based technical indicators extended combine technical indicators non-publicly available information
+ensemble methods were used top gp create rules based headlines posted yahoo internet message boards
+our contribution here twofold
+first abnormal returns predicted using text classification techniques similar
+given press release predict whether not abnormal return will occur next minutes using text past absolute returns
+algorithm uses text predict whether returns jump up 3\% down 3\% remain within bounds ``unclear'' within 15 minutes press release
+they consider nine months subset eight years press releases used here
+our experiments analyze predictability absolute returns at many horizons demonstrate significant initial intraday predictability decreases throughout trading day
+second optimally combine text information asset price time series significantly enhance classification performance using multiple kernel learning mkl
+use analytic center cutting plane method accpm solve resulting mkl problem
+accpm particularly efficient problems where objective function gradient hard evaluate but whose feasible set simple enough so analytic centers computed efficiently
+furthermore because does not suffer conditioning issues accpm achieve higher precision targets than other first-order methods
+rest paper organized follows
+section details text classification problem solve here provides predictability results using using either text absolute returns features
+section describes multiple kernel learning framework details analytic center cutting plane algorithm used solve resulting optimization problem
+finally use mkl enhance prediction performance

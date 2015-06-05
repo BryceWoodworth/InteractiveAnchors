@@ -1,0 +1,31 @@
+
+cells complex intrinsic dynamics
+they exhibit via network interactions involved high frequency activity
+properties cells measured their phase response
+change phase stimulus function its temporal position within widely used predict responses more complex stimulus patterns
+significant during firing lead low over trials
+show using experiments simulations way sampling current
+introduce approach bias
+using our new approach show cell change depending firing frequency cell
+at high firing rates cells exhibit
+at low firing rates cell independent phase neurons
+results cells at low firing rates integration cells depends their firing rate
+introduction
+cells exhibit wide range
+they intrinsic neural firing highly synaptic input at rate
+they also exhibit intrinsic their responses
+addition interactions between firing cells result activity high frequency may temporal patterns network
+hence firing cells highly time thus they represent targets systems analysis
+phase response study dynamics at cellular level
+effect firing phase used predict response more complex patterns
+type stability network properties
+cell therefore essential step explore their dynamic their mechanisms construct models cells determine their role information processing at network level
+obtained directly membrane potential short current synaptic via methods
+using direct method obtained current while neurons firing action
+phase phase measured using current reference paper
+show using experiments simulations present cells bias
+bias results loss current region call
+introduce method bias using all reference one at time
+obtained method
+note our study both using same experimental firing cells current
+using method show cell changes depending firing rate

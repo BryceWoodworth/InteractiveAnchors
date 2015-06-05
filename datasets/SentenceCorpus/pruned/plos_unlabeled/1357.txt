@@ -1,0 +1,75 @@
+
+widely cellular function structure molecular networks
+common view network group nodes network
+many algorithms identify functional networks groups proteins
+here present alternative approach independent any prior what actually
+manner proteins into functional if they similar ways other proteins according their functional
+may well result but only if network structure actually
+applied our method human protein reference database found representation network terms at least global scale does not represent structure because finding independent groups proteins
+contrast into functional able structure much better also into account between even allows based interactions between proteins same functional role
+example case proteins could group nodes
+when experimental methods groups identified differences our method able experimental bias data too
+example data were highly one particular group
+thus there more structure networks than finding significantly improve function prediction algorithms
+introduction
+biological function
+genes make proteins proteins form cells cells form form organisms organisms form populations populations form
+while higher levels well genetic been one
+development experimental techniques interactions well data make data available key towards understanding function cellular network
+data now allow functional within networks computational approaches protein function
+recent review et al current methods network based prediction methods protein function
+proteins must function
+hence protein function protein interaction network
+basic underlying assumption all methods functional interaction strong common function
+et al two basic approaches network based function direct methods seen local methods principle second network methods first network into according some then proteins based known other proteins
+so instead one could
+latter approach function prediction concept what considered network
+most researchers consider sets proteins highly but only network
+methods at level very small scale particular protein
+concept group proteins also useful larger scales
+some researchers sense universal principle small form larger
+but view describe protein interactions
+recently whether clusters protein interaction networks biological information at all suggested simple network growth model based gene would produce observed structural evolutionary without biological
+will not far biological information network structure but rather argue against model group nodes network functional all scales network
+consider first example protein
+indeed they proteins together experimentally together
+only large scale analysis protein revealed they more dynamic than previously assumed
+many proteins not only found single but
+information about proteins will when only groups proteins
+second example consider proteins like signal
+they tend many different proteins well their
+still only do different each other
+thus functional class will not identified when
+here whether features not algorithms also present overall structure cellular network
+if case methods only would not able identify them
+group proteins into functional if they similar ways other proteins according their functional
+role may well proteins class other proteins class but does not
+other words do not structure network our analysis but rather find structural representation best data
+using functional role generate image graph original network only interactions among classes proteins thus view network
+case protein interaction network studied here found evidence global scale do not represent global structure
+found groups proteins specifically other groups proteins
+furthermore even identified groups proteins only within themselves but similar patterns interaction other proteins
+thus approaches only network might not sufficient represent all characteristics cellular networks
+our findings suggest groups proteins universal principle
+cases does clustering network into not its original
+consider network 1 there four known types proteins network
+type formula may some biological process involving proteins four proteins type formula
+another biological process formula involves further proteins finally four proteins type formula
+not all nodes same type same set
+some nodes same type do not any common nodes their type more common nodes different type
+shows example direct methods functional may limited their accuracy
+clustering network into cannot full structure network
+nodes type b will because they not at all
+structure example network however simple image graph nodes
+nodes image graph types nodes network
+nodes type formula other nodes type formula nodes type formula
+nodes type formula nodes types formula formula so
+concept types nodes their relation other types nodes known social
+structure recognition networks then seen finding best image graph network
+context clustering into functional means network image graph nodes
+nodes into classes obtained matrix corresponding nodes same class
+nodes same class random
+leads structure matrix corresponding image graph sparse corresponding image graph
+structure recognition networks therefore also called modeling together structural long history social
+our further will image graphs only nodes 1 b image graphs due structure along matrix they
+will call all other image graphs image graphs

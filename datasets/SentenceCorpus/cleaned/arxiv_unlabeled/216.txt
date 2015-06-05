@@ -1,0 +1,12 @@
+ 
+consider problem estimating conditional probability label time  where number possible labels
+analyze natural reduction problem set binary regression problems organized tree structure proving regret bound scales depth tree
+motivated analysis propose first online algorithm provably constructs logarithmic depth tree set labels solve problem
+test algorithm empirically showing works succesfully dataset roughly labels
+ introduction 
+central question paper how efficiently estimate conditional probability label given observation
+virtually all approaches solving problem require time
+commonly used one-against-all approach tries predict probability label versus all other labels each  requires time per training example
+another common approach learn scoring function convert into conditional probability estimate according  where normalization factor
+motivation dealing computational difficulty usual one---we want capability solve otherwise unsolvable problems
+example one our experiments involves probabilistic prediction problem roughly labels examples where any solution intractable

@@ -1,0 +1,71 @@
+
+study algorithms new perspective
+show problems norm loss all entropy maximization problems
+at problems algorithms show algorithms terms better distribution at same time
+also prove norm average instead minimum
+also us develop based optimization algorithms
+show they exhibit almost classification results standard algorithms but much convergence rates
+therefore needed using our proposed optimization technique
+introduction
+research since first practical algorithm was introduced
+machine learning much effort understanding how algorithm
+however up there still questions about
+one given set training examples binary being either
+algorithm convex linear combination base achieve much better classification accuracy than individual base classifier
+do so there two unknown variables
+first one base
+needed produce base
+second one positive weights associated each base classifier
+one first most popular algorithms classification
+later various algorithms been
+example cost function function regression
+instead uses loss
+authors consider algorithms model framework
+showed large solution
+however recently out does not maximum solution
+theory associated support vector was minimum all training examples
+optimization problem linear program
+observed does not perform well most cases although usually larger minimum
+more often generalization performance
+other words higher minimum would not lower test error
+also same his algorithm minimum optimal but terms generalization
+experiments theory into
+recently experiments complexity
+they found minimum indeed larger but overall distribution typically better
+minimum important but not always at other factors
+they also average instead minimum may result better algorithms
+recent theoretical work shown important role distribution generalization error combined
+usually better classification accuracy than also better constraints all training examples must
+required determine optimal value parameter
+showed between algorithms
+given
+show work norm loss all entropy maximization problems
+previous work like between techniques entropy maximization based
+they did not show algorithms actually entropy show
+derive general based optimization framework used arbitrary convex loss functions
+other words design loss
+our major derive algorithms show most them entropy maximization problems
+authors may consider algorithms average rather than minimum
+prove actually norm average instead minimum
+important result sense provides alternative theoretical consistent theory empirical observations made
+propose directly cost function
+experiments our theoretical analysis
+furthermore based derive design based optimization techniques learning
+show new algorithms almost results standard algorithms but much convergence rates
+therefore needed
+following used
+typically use vectors lower case
+use matrices
+all vectors vectors
+two vectors
+expressed using means all
+vectors each being
+length will clear context
+means
+domain function
+paper follows
+section several algorithms
+their corresponding derived section
+our main results also presented section
+section then present numerical experiments various aspects our new algorithms obtained section
+paper section

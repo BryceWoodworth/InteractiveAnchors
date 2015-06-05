@@ -1,0 +1,19 @@
+
+one property networks little attention property having together groups then form groups groups so up through all levels network
+here give structure give model arbitrary structure random graph describe way learn set features most explain particular network
+approach two example networks demonstrate its network data graphs properties models further hypothesis testing
+introduction
+networks graphs provide useful mathematical representation variety complex systems world wide social biochemical systems
+seen interest across study networks including both empirical studies particular systems development new techniques models their analysis
+within mathematical researchers focused statistical network structure at times mechanisms simple structures
+approach focused statistical network structure degree distributions correlation contrast example work networks social biological where focus instead properties individual groups
+more recently researchers both become more global networks
+one property networks little attention i e observation networks often structure together into groups then form groups groups so levels up level network
+paper notion networks give model networks arbitrary structure
+then describe approach learning models real network data based maximum likelihood methods markov sampling
+addition global structure graph data our method allows graph structure information
+at its our method sampling structures probability likelihood they produce input graph
+allows us random graphs similar original graph through measure various average network properties manner bayesian model
+particular search maximum likelihood model particular graph then used model further hypothesis testing derive structure models where features their likelihood extent occurs low probability
+our knowledge method only one information about network
+moreover information represented important features network will useful new about networks

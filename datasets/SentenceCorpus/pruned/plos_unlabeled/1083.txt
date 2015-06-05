@@ -1,0 +1,28 @@
+
+one most critical problems study biological systems accurate statistical them
+problem been particularly because biological systems typically contain large numbers elements use standard approaches
+recently though several groups reported there may strategy
+show statistical models without knowledge all interactions instead interactions
+findings however based analysis small
+here whether observations will systems size whether models will provide true biological systems
+our results show most cases they will not
+there predictive power if size below point then results no predictive power large systems
+if size above point then results may predictive power
+work thus provides general framework extent models used predict behavior large biological systems
+applied neural data size most systems studied so far below point
+introduction
+many fundamental questions biology probabilistic setting
+instance neural requires knowledge probability patterns activity response stimuli features protein important correct requires knowledge probability particular sequence amino patterns their social individual behavior requires knowledge distribution species over both space time
+probability distributions however
+there several biological systems large numbers elements so exhibit number fact large number elements typically each other making view system independent because biological systems very little data
+example current only about neurons out human brain
+so not only problem probability distributions high must do based small neurons network
+despite recent work suggested situation may less than seems accurate statistical description systems without having examine all possible
+one measure probability distribution over pairs elements use those full distribution
+models potentially fundamental number pairs number elements not
+however support models relatively small small true probability distribution could measured experimentally
+while studies provided key first step critical question will results analysis small large ones
+if model predicts probability distribution subset elements system will also predict probability distribution whole system
+here find relevant class systems question independent many biological system under
+answer generally no
+paper explain both simulations why case

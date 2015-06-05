@@ -1,0 +1,42 @@
+ 
+comparison elastic network model predictions experimental data provided important insights dominant role network inter-residue contacts defining global dynamics proteins
+most studies focused interpreting mean-square fluctuations residues deriving most collective softest modes motions known insensitive structural energetic details
+however increasing structural data position perform more critical assessment structure-dynamics relations proteins gain deeper understanding major determinants not only mean-square fluctuations lowest frequency modes but covariance cross-correlations between residue fluctuations shapes higher modes
+systematic study large set nmr-determined proteins analyzed using novel method based entropy maximization demonstrate next level refinement elastic network model description proteins ought take into consideration properties contact order secondary structure types interacting residues whereas types amino acids do not play critical role
+most importantly optimal description observed cross-correlations requires inclusion destabilizing opposed exclusively stabilizing interactions stipulating functional significance local frustration imparting native-like dynamics
+study provides us deeper understanding structural basis experimentally observed behavior opens way development more accurate models exploring protein dynamics
+ introduction 
+associated each protein fold set intrinsically accessible global motions arise solely 3-dimensional geometry fold involve entire architecture
+number systems been shown intrinsic motions play important role protein function facilitating events recognition binding catalysis allosteric regulation
+time scales cooperative motions usually beyond reach conventional md simulations
+they modeled instead coarse-grained techniques omit finer details atomic interactions
+elastic network model example coarse-grained model enjoyed considerable success predicting global dynamics proteins other macromolecules
+central idea behind enm vicinity minimum potential energy landscape biomolecular system approximated sum pairwise harmonic potentials stabilize native contacts
+simplest enm gaussian network model each node network identified amino acid each edge spring provides linear restoring force deviations minimum-energy structure
+system's dynamics therefore expressed terms normal modes vibration many-bodied system about its equilibrium state; dynamical information about protein expectation values residue fluctuations cross-correlations uniquely defined network topology
+few prevalent methods used constructing enms but most at their hearts two underlying assumptions: springs all at their rest lengths equilibrium conformation force constants decrease distance between nodes among other variables
+earliest models anisotropic network model force constants were taken uniform all nodes separated distance less than specified cutoff distance zero greater distances
+parallel models were proposed force constants decay exponentially inverse power distance where stronger interactions assigned sequentially adjacent residues
+although modifications lead modest improvements agreement between enm predictions certain experimental data there still no clear best method assigning force constants enm
+common approach assessing performance enms estimating their force constants been compare enm-derived autocorrelations residue motions corresponding x-ray crystallographic b-factors mean-square fluctuations residue coordinates observed between nmr models
+because slow modes largest amplitudes often focus study been narrow band slowest modes
+enm slow modes indeed been shown agree well those predicted detailed atomic-level force fields experimentally determined dynamics
+however majority dynamical information conveyed enm contained residue cross-correlations information been largely overlooked during comparisons enm results experimental data
+further subtle complex dynamics structures lie beneath gross global motions ignored when only slowest modes considered
+mid high-frequency modes predicted relatively lower confidence enms but modes may important coordinating finer motions molecule while slower modes orchestrate its global rearrangements
+finally while enm-based studies shown network topology dominant factor defines collective modes especially those low frequency regime there may other structural properties not accounted enms but may provide more realistic description equilibrium dynamics if accurately modeled
+here examine ensembles structural models determined nmr 68 proteins evaluate each ensemble covariance deviations residue-positions their mean values
+present technique optimizing enm force constants within pre-defined network topology so provide most accurate representation experimentally observed covariance data
+our method based concept entropy maximization: briefly when inferring form unknown probability distribution one least reliant form missing data maximizes system's entropy subject constraints imposed available data
+method been applied variety biological problems including neural networks gene interaction networks protein folding 
+resulting auto cross-correlations residue fluctuations used build enm-based model optimal force constants
+shown when constraints maximization pair correlations probability distribution takes gaussian form
+further only terms contribute probability distribution those correspond pairs correlations explicitly considered constraints entropy maximization
+terms enm means given network topology there exists unique set force constants exactly reproduces experimentally observed cross correlations between all pairs interacting residues along their autocorrelations 
+notably our technique captures physical significance factors sequence separation spatial distance been empirically found influence force constant strengths
+sequence separation expressed terms contact order i.e number residues along sequence between two residues connected spring enm
+further our analysis benchmarked against test set 41 nmr ensembles proteins suggests additional factors including hydrogen bond formation secondary structure type should also incorporated enms more accurate description experimental data
+also identifies factors little consequence insofar collective dynamics near equilibrium conditions concerned
+amino acid specificity turns out one them; diffuse overlapping distributions ofcs obtained different types amino acids precluding assignment residue-specific ofcs
+modified version gnm mgnm accounts factors proposed verified perform better than existing models especially reproducing cross-correlations
+finally study highlights importance higher modes role frustration protein dynamics implications discussed regard model development protein design

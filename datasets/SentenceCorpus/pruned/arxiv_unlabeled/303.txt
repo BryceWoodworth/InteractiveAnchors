@@ -1,0 +1,83 @@
+
+consider positive matrix
+problem
+over
+complete graph
+problem known likely complexity
+function model problem allows exact
+representation terms minimum
+free energy functional over stochastic matrix
+also fixed point algorithm belief type
+our main result expression exact function terms matrix
+where expression explicitly terms
+give two formula direct one based free energy
+alternative one graph function approaches
+matrix belief provide two lower bounds one estimate term
+two lower bounds based theorem relation between
+introduction
+problem matrix many
+statistics data analysis
+example intrinsic parameter learning
+used two
+
+however problem
+time system size
+therefore when size matrix large one ways approximate
+
+very significant was
+problem
+time
+high probability within small relative error
+however complexity making applications
+task finding probabilistic algorithm
+more
+paper where belief algorithm was suggested efficient heuristic good but not quality approximate
+family algorithms
+introduced context
+generally any model
+any graph without suggests algorithm
+efficient heuristic function finding maximum
+likelihood solution model defined sparse graphs
+however
+general cases one would not work well thus making heuristic results
+even though not view existence efficient algorithms version problem
+also via algorithm
+questions understanding performance what
+does well what
+also
+heuristics
+approach potentially question was recently suggested general framework
+
+between function binary its estimate terms finite series each term associated all degree larger than one graph
+each term series well estimate function expressed terms stochastic matrix probabilities matching pairs matching
+matrix minimum free energy also fixed point algorithm
+first term resulting one
+all one
+exact expression
+other words key understanding between
+approximate estimate exact result
+section section
+will give introduction free energy
+approach problem results }
+paper develop approach describe quality
+approximation matrix i our natural point analysis solution itself section
+matrix
+dependent parameter find
+solution observed only at where defined
+at derive alternative representation section
+two
+first term function second term matrix binary matrices
+our main result theorem our paper follows
+also present yet another alternative theorem using formula graph section two lower bounds
+lower bound based theorem applied
+lower bound respect
+i e lower bound derived via
+application theorem original
+another
+lower bound theorem
+note follows
+example discussed two lower bounds latter
+at small while
+large region section bound based application
+formula
+possible future approach discussed section

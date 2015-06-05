@@ -1,0 +1,69 @@
+ 
+economic games involving allocation resources been useful tool study decision making both psychologists economists
+two experiments involving repeated-trials game over twenty opportunities undergraduates made choices distribute resources between themselves unseen passive other either optimally themselves but non-competitively equally but non-optimally least optimally but competitively
+surprisingly whether participants were told anonymous other was another student computer did not matter
+using terms game player course session was associated increased frequency competitive behavior
+males were more optimal than females gender-by-incentive interaction was found first experiment
+agreement prior research participants whose resources were backed monetary incentive acted most optimally
+overall equality was modal strategy employed although clear motivational context affects allocation resources
+ introduction 
+imagine being repeatedly given choice between receiving number number
+obvious choice take number every time
+now imagine choice comes following strings attached if you select number yourself then anonymous other will receive number but if you take number anonymous other will instead receive number
+while consistently choosing number number option still optimal choice optimal mean choice yields maximum amount chooser might bothersome know unknown person receiving more than you doing nothing
+when repeated choice was posed members our lab not all them elected take optimal path
+one our colleagues insisted he would select number number option every time stating i'd want make sure i more than other guy
+person was well worth sacrifice couple dollars ensure having relative advantage over stranger
+another stated she would take unusual path alternating between options trial trial i'd get number then number while he'd get number then number so we'd both end up same amount number eachafter every other trial
+person had calculated while strategy would not yield maximal amounts either party would reduce any discrepancy earnings between them
+third noted his decisions may differ depending how situation was framed
+intent paper investigate patterns distributional choices made people simple economic situation described above assess if what extent certain contextual variations affect decisions
+popular economic games examine how participants allocate resources
+example two commonly studied games ultimatum game dictator game
+ug one student proposes distribution resources example if number number him number other player
+if other player accepts number number split becomes reality
+if he rejects offer neither gets anything no negotiation possible
+dg whatever proposing participant proposes becomes reality second player passive
+also instructive ask participants choose between two possible fixed allocations resources between themselves another player
+report two studies assessing college students' allocation resources themselves another player where allocations involve points either without monetary value
+half participants told other player person half other player computer
+according computers social actors casa model social rules applying human-human interaction apply equally human-computer interaction implying participants sharing game might treat computer players same way human players
+was uncertain if equality would seen our experiments though due fact participants sharing game do not directly interact recipient rather their choices act upon other much same way proposers' decisions act upon recipients dg
+no way does recipient act upon allocator either game
+contrast participants computers casa experiments always performed some sort two-way interaction each other whether participants were told computer was running program was acting medium through another person was communicating
+predicted lack personality part computer our experiments would influence our participants choose optimally i e maximize one's earnings regardless how much how little other gains process more often when paired computer recipient
+half participants points earned monetary value others they do not
+manipulation assesses question sometimes contentious between economists psychologists whether comparable results obtained without monetary incentive
+finally although all our participants see their own cumulative scores throughout game half participants one our experiments see other player's cumulative score well factor might increase competitive flavor task therefore increase choice smaller outcome
+messick mcclintock previously found there no significant difference between two display conditions but their results involved game both participants had equal decision-making power
+although van lange de bruin otten joireman assert people generally exhibit stable preference patterns de dreu mccusker fantino colleagues argued contextual variables do affect persons' behavior choice situations
+present study asks whether distribution sharing game strategies affected economic context game played
+corollary question concerns extent strategies relatively stable they might if reflective fundamental personality characteristics
+ask how choice affected monetary incentive other central aspects game gender participants whether other player designated being another person computer whether competitive aspects game made more salient
+addition sharing game paradigm pits competing predictions two leading types social preference theories against each other
+theories inequality aversion state economic situations people tend act minimize difference between their own others' payoffs
+theories would predict sharing game allocators choose so reduce eliminate difference between players' totals ideally accomplished alternating between payoff choices each pair trials
+other hand charness rabin's theory reciprocal fairness would predict players would consistently choose optimal option so maximize social welfare
+issue whether not financial incentives affect decisions economic games been discussed extensively
+hertwig ortmann noted use real financial incentives opposed hypothetical financial incentives often distinguished between research economists psychologists respectively economists generally pay participants basis clearly defined performance criteria psychologists usually pay flat fee grant fixed amount course credit
+fantino stolarz-fantino noted several experiments their laboratory failed find performance differences function real vs hypothetical incentives
+subsequently stolarz-fantino fantino zizzo wen found no effect immediate financial incentives performance conjunction fallacy task
+camerer hogarth report performance certain types economic game experiments helped financial incentives while performance other types economic games not
+sharing game bears similarity dictator game one participant sole decision maker respect how resources allocated
+their survey dictator game experiments used hypothetical varying amounts real money reinforcers camerer hogarth reported if our sharing game participants similar goal wishing appear generous then expect them behave competitively less often when points not backed real money
+addition hertwig ortmann call learning more about specific conditions under payoffs improve do not matter impair task performance
+theoretical perspective appears important further clarify conditions under financial incentives affect performance hertwig ortmann argued
+also important pragmatic standpoint if certain studies economic games produce same results hypothetical real incentives then great deal human participant money may saved
+sharing game task used present experiments shares characteristic popular prisoner's dilemma game both games constrain choices participants present them conflicting options
+regard sharing game differs popular ug dg any given choice participant must choose between getting more oneself still more other participant less oneself still less other participant
+choices ug particularly dg relatively unconstrained
+sharing game forces participant choose between outcome optimal both participants one competitive giving relative but non-optimal advantage allocator
+equitable choice absent
+however trials arranged so possible participants respond equitably over trials
+thus mentioned above participants behaving according inequality aversion theories may expected alternate choices thereby maintaining equal payoffs both participants
+distribution choices should permit characterization participants' choices optimal equitable competitive
+possible effects other variables monetary incentive whether other participant person computer should enable us determine extent distributions choices stable influenced variables
+would participants allocate resources optimally task always selecting larger payoff themselves other player
+if not how would frequency non-optimal choices choosing smaller payoff affected each three variables nature other player monetary incentive display other player's cumulative score
+would participants who do not consistently choose optimally consistently choose competitive outcome lower payoffs participant receiving larger share
+would they equalize payoffs two players

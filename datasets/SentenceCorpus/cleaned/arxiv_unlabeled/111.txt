@@ -1,0 +1,45 @@
+ 
+present general approach collaborative filtering cf using spectral regularization learn linear operators ``users'' set possibly desired ``objects''
+recent low-rank type matrix completion approaches cf shown special cases
+however unlike existing regularization based cf methods our approach used also incorporate information attributes users objects---a limitation existing regularization based cf methods
+provide novel representer theorems use develop new estimation methods
+then provide learning algorithms based low-rank decompositions test them standard cf dataset
+experiments indicate advantages generalizing existing regularization based cf methods incorporate related information about users objects
+finally show certain multi-task learning methods also seen special cases our proposed approach
+ introduction 
+collaborative filtering cf refers task predicting preferences given ``user'' some ``objects'' e g  books music products people etc  based his/her previously revealed preferences---typically form purchases ratings---as well revealed preferences other users
+book recommender system example one would like suggest new books someone based what she other users recently purchased rated
+ultimate goal cf infer preferences users order offer them new objects
+number cf methods been developed past
+recently there been interest cf using regularization based methods
+work adds literature developing novel general approach developing regularization based cf methods
+recent regularization based cf methods assume only data available revealed preferences where no other information background information objects users given
+case one may formulate problem inferring contents partially observed preference matrix : each row represents user each column represents object e g  books movies entries matrix represent given user's rating given object
+when only information available set observed user/object ratings unknown entries matrix must inferred known ones  there typically very few relative size matrix
+make useful predictions within setting regularization based cf methods make certain assumptions about relatedness objects users
+most common assumption preferences decomposed into small number factors both users objects resulting search low-rank matrix approximates partially observed matrix preferences
+rank constraint interpreted regularization hypothesis space
+since rank constraint gives rise non-convex set matrices associated optimization problem will difficult non-convex problem only heuristic algorithms exist
+alternative formulation proposed  suggests penalizing predicted matrix its trace norm  i e  sum its singular values
+added benefit trace norm regularization sufficiently large regularization parameter final solution will low-rank
+however key limitation current regularization based cf methods they do not take advantage information attributes users e g  gender age objects e g  book's author genre often available
+intuitively information might useful guide inference preferences particular users objects very few known ratings
+example at extreme users objects no prior ratings not considered standard cf formulation while their attributes alone could provide some basic preference inference
+main contribution paper develop general framework specific algorithms also based novel representer theorems more general cf setting where other information attributes users and/or objects may available
+more precisely show cf while typically seen problem matrix completion thought more generally estimating linear operator space users space objects
+equivalently viewed learning bilinear form between users objects
+then develop spectral regularization based methods learn linear operators
+when dealing operators rather than matrices one may also work infinite dimension allowing one consider arbitrary feature space possibly induced some kernel function
+among key theoretical contributions paper new representer theorems allowing us develop new general methods learn finitely many parameters even when working infinite dimensional user/object feature space
+representer theorems generalize classical representer theorem minimization empirical loss penalized norm reproducing kernel hilbert space rkhs more general penalty functions function classes
+also show appropriate choice kernels both users objects may consider number existing machine learning methods special cases our general framework
+particular show several cf methods rank constrained optimization trace-norm regularization those based frobenius norm regularization all cast special cases spectral regularization operator spaces
+moreover particular choices kernels lead specific sub-cases regular matrix completion multitask learning
+specific application collaborative filtering presence attributes show our generalization sub-cases leads better predictive performance
+outline paper follows
+section review notion compact operator hilbert space show how cast collaborative filtering problem within framework
+then introduce spectral regularization discuss how rank constraint trace norm regularization frobenius norm regularization all special cases spectral regularization
+section show how our general framework encompasses many existing methods proper choices loss function kernels spectral regularizer
+section provide three representer theorems operator estimation spectral regularization allow efficient learning algorithms
+finally section present number algorithms describe several techniques improve efficiency
+test algorithms section synthetic examples widely used movie database

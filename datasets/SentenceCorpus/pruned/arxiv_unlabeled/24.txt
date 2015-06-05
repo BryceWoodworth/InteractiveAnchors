@@ -1,0 +1,35 @@
+
+standard approach pattern classification estimate distributions classes then apply classifier estimates distributions order examples
+one might better our estimates class distributions better resulting classifier will
+paper make observation risk bounds classifier terms quality estimates class distributions
+show how estimates distributions their distance true distribution bound increase negative likelihood risk terms bounds
+give but method estimated distribution good under metric into distribution good under
+introduction
+consider general approach pattern classification elements each class first used probabilistic model via some learning method
+resulting models each class then used instance chosen one associated model
+example uses approach protein sequences via training probabilistic tree model et al each sequence class
+indeed even where technique being used gain into process generated two more data sets still out associated classifier since rate provides quantitative measure accuracy estimated distributions
+work further related algorithms learning classes probabilistic finite state objective learning been estimation true underlying distribution over output target distribution represented hypothesis
+natural probability hypothesis would generate at random
+one might better estimates class distributions better should associated classifier
+paper make observation
+give bounds risk associated classifier terms quality estimated distributions
+results our interest relative distribution using variation distance defined next section
+been shown how learn class using time set parameters expected length output
+show how learn class respect variation distance bound independent length output
+furthermore shown necessary criterion variation distance order achieve
+show here leads still classifier
+study problem learning probability distributions using via classes probabilistic
+their criterion input distribution hypothesis should almost i e within close possible
+study negative loss function context learning stochastic rules i e rules domain probability distribution over range
+show here if two more class distributions sense then resulting stochastic rule distribution over given sense
+show if instead class distributions well estimated using variation distance then associated classifier may not good negative likelihood risk but will rate close optimal
+result general class classification where distributions may i e rate may positive
+also variable one might positive cost more than negative show more general loss function still provided likelihood
+result show more generally follows ability learn class distributions setting et al
+study problem learning various classes probability distributions respect variation distance setting
+respect than respect variation distance
+furthermore usually used example due property when respect sample empirical likelihood sample
+algorithm respect variation distance one respect technique when domain parameter learning problem
+paper give related rule version learning problem where use variation distance
+however distribution does not efficient representation requires probabilities used target limited

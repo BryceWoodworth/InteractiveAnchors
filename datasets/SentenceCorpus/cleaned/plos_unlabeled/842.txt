@@ -1,0 +1,65 @@
+ 
+protein loops flexible short segments connecting two stable secondary structural units proteins play critical role protein structure function
+constructing chemically sensible conformations protein loops seamlessly bridge gap between anchor points without introducing any steric collisions remains open challenge
+variety algorithms been developed tackle loop closure problem ranging inverse kinematics knowledge-based approaches utilize pre-existing fragments extracted known protein structures
+however many approaches focus generation conformations mainly satisfy fixed end point condition leaving steric constraints resolved subsequent post-processing steps
+present work describe simple solution simultaneously satisfies not only end point steric conditions but also chirality planarity constraints
+starting random initial atomic coordinates each individual conformation generated independently using simple alternating scheme pairwise distance adjustments randomly chosen atoms followed fast geometric matching conformationally rigid components constituent amino acids
+method conceptually simple numerically stable computationally efficient
+very importantly additional constraints those derived nmr experiments hydrogen bonds salt bridges incorporated into algorithm straightforward inexpensive way making method ideal solving more complex multi-loop problems
+remarkable performance robustness algorithm demonstrated set protein loops length 4 8 12 been used previous studies
+ introduction 
+characterization protein loop structures their motions essential understanding function proteins biological processes they mediate
+however due their conformational flexibility notoriously difficult uniquely determine their structure via traditional experimental techniques x-ray scattering nuclear magnetic resonance
+result structures missing loops not uncommon protein data bank
+sequence structure variability protein loops also presents major challenge homology modeling
+moderate sequence identity good quality experimental template structures generally feasible obtain overall tertiary structure some acceptable degree detail loop question
+however errors could significant loop regions where sequences between target template protein differ significantly
+our view loop closure problem namely construction protein fragment closes gap between two fixed end points remains unsolved
+satisfactory solution problem will not only benefit experimental structure determination comparative modeling but also useful de novo protein structure prediction phase space sampling importance local moves without changing rest system been repeatedly demonstrated chain molecules 
+complete solution protein loop reconstruction problem usually involves two important components buildup loop structure selection most promising candidates through appropriate scoring function
+current study addresses former problem
+variety algorithms been developed tackle loop closure problem
+many methods construct protein loops reusing representative loop blocks database experimentally determined protein structures
+naturally methods highly dependent size quality experimental data their performance improved substantially rapid growth pdb
+more importantly since number possible conformations increases exponentially length approach limited relatively short loops
+not problem ab initio methods construct loops either distorting existing structures relaxing distorted non-physical structures molecular dynamics simulated annealing gradient minimization random tweaking discrete dihedral angle sampling self-consistent field optimization
+algorithms often include energy calculations using classical force fields implicit explicit treatment solvent effects therefore tend computationally expensive
+several groups combined knowledge-based sampling approaches sometimes considerable success
+example through modeling crystal environment careful refinements extensive conformational sampling plop obtained average prediction accuracy 0.84 1.63 rmsd crystal structures series 8 11-residue loops
+performance plop was further improved zhu coauthors through improved sampling algorithm new energy model was successfully applied even loops inexact environments 
+alternative class methods determine proper loop structures identifying all possible solutions set algebraic equations derived distance geometry described pioneering work go sheraga many other analytical methods adopted kinematic theory
+particular canutescu dunbrack introduced very attractive approach known cyclic coordinate descent close loops different lengths through iterative adjustment dihedral angles
+method been incorporated into well-known de novo protein design package rosetta demonstrated its strength generating conformations loop regions
+more recently coutsias coauthors cast determination loop conformations six torsions into problem finding real roots 16 th degree single-variable polynomial demonstrated efficiency applicability various loops
+thorough review loop closure algorithms beyond scope paper
+more information reader referred several recent articles 
+computational modeling protein loop conveniently represented set connected points three-dimensional cartesian space
+chemically sensible conformation must satisfy set geometric constraints derived loop's covalent structure
+connectivity common covalent bond lengths angles require distance d ij between any pair atoms i j falls between certain bounds formula
+non-bonded interactions introduce additional constraints do planarity conjugated systems chirality stereocenters
+further supplemented external constraints derived experimental techniques 2d nmr fluorescent resonance energy transfer
+taken together constraints greatly reduce search space needs sampled order identify loop's accessible conformations
+distance geometry class methods aim specifically at generating conformations satisfy geometric constraints
+dg attempts minimize error function measures violation geometric constraints
+dg methods involve four basic steps: generating interatomic distance bounds assigning random value each distance within respective bounds converting resulting distance matrix into starting set cartesian coordinates refining coordinates minimizing distance constraint violations
+ensure reasonable conformations generated original upper lower bounds usually refined using iterative triangular smoothing procedure
+although process improves initial guess randomly chosen distances may still inconsistent valid 3-dimensional geometry necessitating expensive metrization schemes higher dimensional embeddings prior error refinement lengthy refinement procedures if random starting coordinates used
+although dg methods generate sensible starting geometries geometries rather crude most practical applications need further refined some form energy minimization
+since its first chemical applications 1978 crippen havel dg been applied wide range problems including nmr structure determination conformational analysis homology modeling ab initio fold prediction 
+recently new self-organizing technique known stochastic proximity embedding been developed extremely attractive alternative conventional dg embedding procedures
+spe starts random initial atomic positions gradually refines them repeatedly selecting individual constraint at random updating respective atomic coordinates towards satisfying specific constraint
+procedure performed repeatedly until reasonable conformation obtained
+method was originally developed dimensionality reduction nonlinear manifold learning simple fast efficient applied molecular topologies arbitrary complexity
+because avoids explicit evaluation error function measures all possible interatomic distance bound violations every refinement step method extremely fast scales linearly size molecule
+spe significantly more effective sampling full range conformational space compared other conformational search methods particularly when used conjunction conformational boosting heuristic biasing search towards more extended compact geometries
+furthermore spe insensitive permuted input problem plagues many systematic search algorithms 
+zhu agrafiotis subsequently proposed improved variant spe referred self-organizing superimposition accelerates convergence decomposing molecule into rigid fragments using pre-computed conformations those fragments order enforce desired geometry
+starting completely random initial coordinates sos algorithm repeatedly superimposes templates adjust positions atoms thereby gradually refining conformation molecule
+coupled pair-wise atomic adjustments resolve steric clashes method able generate conformations satisfy all geometric constraints at fraction time required spe
+approach conceptually simple mathematically straightforward numerically robust allows additional constraints readily incorporated
+since rigid fragments pre-computed planarity chirality constraints automatically satisfied after template superimposition process local geometry naturally restored
+furthermore because each embedding starts completely random initial atomic coordinates each new conformation independent those generated previous runs resulting greater diversity more effective sampling
+algorithm only involves pairwise distance adjustments superimposition relatively small fragments impressively efficient
+paper present new variant sos algorithm been adapted conformational sampling small molecules tailored protein loop closure problem
+remaining sections provide detailed description modified sos algorithm its implementation present comparative results set protein loops residue size 4 8 12 been used previous validation studies

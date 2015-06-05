@@ -1,0 +1,19 @@
+
+classification problem described density models similarity been shown optimal similarity measure classification
+paper several additional properties distribution
+paper first shows up class class distribution given procedure class classification procedure
+also shows given optimal similarity measure how construct classifier classifier classification rates
+paper then bayesian similarity framework where classifier number related classification tasks learning class distribution not possible general
+finally paper distinct class classification problems using shows using solve those problems optimal solution
+introduction
+statistical models similarity become important recent work information pattern recognition computer
+particular interest bayesian similarity model will
+models been demonstrated work well number pattern recognition visual object recognition problems
+see classification using risk class differ therefore optimal classification
+however observation there been several analysis bayesian similarity
+first presented analysis single instance classification problem determined distribution class feature vectors
+authors also argue existence useful properties bayesian similarity functions when those functions specific form
+second analysis based bayesian framework presented bayesian similarity context distribution related classification tasks
+paper relationship between bayesian similarity class distribution both cases uses those results construct classification procedure using bayesian similarity
+also new statistical model tasks described bayesian similarity solution those tasks
+results applications bayesian similarity will discussed at end

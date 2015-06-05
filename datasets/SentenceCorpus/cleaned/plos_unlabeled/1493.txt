@@ -1,0 +1,59 @@
+ 
+combinatorial regulation gene expression ubiquitous eukaryotes multiple inputs converging regulatory control elements
+dynamic properties elements determine functionality genetic networks regulating differentiation development
+here propose method quantitatively characterize regulatory output distant enhancers biophysical approach recursively determines free energies protein-protein protein-dna interactions experimental analysis transcriptional reporter libraries
+apply method model scl-gata2-fli1 triad network module important cell fate specification hematopoietic stem cells
+show triad module inherently bistable irreversible transitions response physiologically relevant signals notch bmp4 gata1 use model predict sensitivity network mutations
+also show triad acts low-pass filter switching between steady states only response signals persist longer than minimum duration threshold
+found auto-regulation loops connecting slow-degrading scl gata2 fli1 crucial low-pass filtering property
+taken together our analysis not only reveals new insights into hematopoietic stem cell regulatory network functionality but also provides novel widely applicable strategy incorporate experimental measurements into dynamical network models
+ introduction 
+appropriate spatiotemporal control gene expression central metazoan development
+
+combinatorial interactions regulatory proteins regulatory regions dna basal transcriptional machinery form building blocks complex gene regulatory networks
+availability whole genome sequences well advanced bioinformatics high-throughput experimental techniques vastly accelerated identification candidate regulatory sequences
+however experiments uncover and/or validate underlying connectivity grns remain both costly time consuming
+consequently our understanding functionality grns even most studied model organisms remains superficial
+moreover simply cataloguing ever increasing numbers interactions between grn components not sufficient deduce underlying network architecture function individual modules
+unraveling dynamical properties grns will key understanding their functionality
+throughout development cells progress through succession differentiation steps stem cells via immature progenitors fully differentiated mature cells each subtypes associated unique regulatory state grn
+therefore essential understand dynamical properties various regulatory states grns transitions between them their interplay intercellular signaling
+unlikely goal achieved solely using experimental approaches
+however development dynamical models grns offers great potential interpret existing experimental data order gain new mechanistic insights
+various computational approaches been used regulatory network analysis past
+boolean models provide qualitative information about network behavior existence steady states network robustness most useful large networks when experimental information scarce
+however examine dynamical aspects continuous ordinary differential equation models more appropriate
+models constructed phenomenological descriptions gene regulation form hill functions based more detailed biophysical mechanisms derived using statistical thermodynamics approach
+phenomenological models useful understanding general dynamics network topology
+they most effective small medium sized networks also predictive cellular behavior
+models based thermodynamics advantage including hypothesis about biophysics system
+most parameters models direct biochemical interpretation
+unfortunately lack knowledge about specific biochemical parameters usually makes difficult relate results models experimental information about gene expression
+nevertheless modeling approach been shown useful understanding certain bacterial gene regulation modules studying effects nucleosome dynamics eukaryotic gene regulation 
+hematopoietic system long served powerful model study specification subsequent differentiation stem cells
+sophisticated cell purification protocols coupled powerful functional assays allowed very detailed reconstruction differentiation pathways leading early mesoderm via hemangioblasts hematopoietic stem cells multiple mature hematopoietic lineages
+transcriptional regulators long been recognized key hematopoietic regulators but wider networks within they operate remain ill defined
+detailed molecular characterization regulatory elements active during early stages hsc development identified specific connections between major regulators led definition combinatorial regulatory codes specific hsc enhancers
+moreover studies identified substantial degree cross-talk positive feedback connectivity major hsc trs
+particular triad hsc trs forms regulatory module appears lie at core hsc grn
+module consists three transcription factor proteins well three regulatory elements through they connected via cross-regulatory autoregulatory interactions
+details regulatory interactions triad shown figure 1b; only significant binding sites enhancers shown simplicity
+gata2-3 fli1 12 enhancers contain multiple gata2 fli1 scl binding motifs
+scl 19 enhancer contains ets gata binding motifs
+scl gata2 fli1 all essential normal hematopoiesis mice suggesting triad important sub-circuit kernel grn governs hematopoiesis
+triad architecture very dense regulatory connections possesses multiple direct indirect positive feedback loops
+network topologies rare prokaryotes but been identified other stem cell systems nanog-oct4-sox2 triad embryonic stem cell grn
+observations suggest triad design may associated stem cell behavior
+idea prompted further investigation combinatorial control triad trs
+generation enhancer library wild type mutant enhancers allowed construction different combinations binding motifs each enhancer
+wild type mutant enhancers were sub-cloned into sv minimal promoter lacz reporter vector tested using stable transfection hematopoietic progenitor cell lines
+analysis produced results those schematically illustrated figure 1c
+been suggested dense connectivity positive feedback loops within stem cell grn modules play important roles stabilizing stem cell phenotype
+however dynamical nature how self-enforcing circuit may initiated indeed exited remains unclear
+paper construct mathematical model scl-gata2-fli1 triad module characterize its dynamical properties using continuous ode modeling approaches
+first propose thermodynamic method estimating free energies different configurations enhancer regions measurements transcriptional reporter libraries
+method together proposed biochemical mechanism distant transcriptional enhancement significantly reduces dimensionality network parameter space
+measurements protein lifetimes provide experimentally informed timescales model transient behavior network
+analyze network response physiologically relevant signals notch bmp4 gata1 show network behaves irreversible bistable switch response signals
+our model also predicts results various mutations enhancer sequences shows triad module ignore transient differentiation signals shorter than threshold duration
+combination bistable switch short signal filtering not only provides new mechanistic insights how scl-gata2-fli1 triad may function control hsc specification differentiation but also suggests possibly more general role network architecture development other major organ systems

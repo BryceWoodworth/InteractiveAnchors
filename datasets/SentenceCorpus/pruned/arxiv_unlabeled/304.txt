@@ -1,0 +1,24 @@
+
+% paper observed potentially data
+proposed approach two main 1 belief likelihood each based upon our ability predict previous observations 2 potential comparing current belief against threshold
+threshold based available feedback end
+our algorithms universal prediction recent work online convex do not require distributions given all current observations involve simple parameter
+at proposed approach models used wide variety applications methods achieve regret against both distributions same family
+moreover regret against distributions value corresponding online strongly convex game
+also prove bounds number made during step relative best choice threshold all estimated feedback signals
+theory data distribution over binary vectors high well detection individual sequences prediction regret online convex prediction limited feedback sequential probability universal prediction
+introduction
+paper explore performance online detection methods sequential probability dynamic based limited feedback
+assume state some system interest
+at each time step version current state need whether relative actual sequence past states
+inference binary decision either behavior behavior
+after our decision may feedback state use future behavior decision-making mechanism
+our inference should make good use feedback available improve its future performance
+one way do follows
+having observed but not use observation state
+let us likelihood
+then if actually had observation could evaluate if where some positive would set no at time
+approach based idea new observation should if very based our past knowledge
+other words observations considered if they observation domain very low likelihood according best probability model them basis previously seen observations fact detection algorithms based density level sets here however do not actually but rather its version
+thus instead estimate based compare estimate against
+if feedback at time our then threshold

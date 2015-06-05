@@ -1,0 +1,51 @@
+
+signal output receptor dynamic function activity receptor activity proteins their interactions
+may signaling but may also upon stimulus without significantly output when receptor active
+further some themselves how g proteins at same time they g protein
+multiple protein protein associations regulatory effects allow complex behaviors system do not assumptions subject analysis
+developed model g protein signaling analysis both independent g protein binding regulation receptor
+parameters model global set measurements receptor g c 1 were
+provide multiple tests parameter set consistent results few previous measurements
+results activity receptor activity before activity receptor receptor g protein negative when g protein bound either binding continuous binding receptor g protein during thus further receptor receptor binding site g protein but effect g protein
+simulation how activity upon but still allow high signal output while receptor active
+analysis through distinct reaction pathways specific cycle presence receptor remains bound g protein cycle during phase
+analysis behaviors them specific regulatory described above
+work also analysis signaling networks scale
+introduction
+g signaling variety dynamic behaviors despite their use single relatively simple biochemical mechanism
+signal proteins
+may through
+bound over both activation cells variable effect
+activation rates upon addition thus range
+g proteins signals cycle binding bound state g active bound
+rates activation effects signal output at state interactions g g proteins multiple other proteins
+effect depends individual proteins their their own regulatory
+regulatory g protein been difficult quantitative understanding how they control signal output
+while some signals particularly g cells real time been reactions cycle protein protein binding
+recently developed but still do not provide complete multiple events often do not provide data
+quantitative biochemical using systems provided biochemical data but not described regulatory interactions so important
+quantitative understanding dynamic behavior g protein remains
+computational modeling used about complex biochemical systems including g protein signaling
+quantitative models potentially information individual reactions behavior complex system use data test validity proposed mechanism
+work example provided consistent examples approaches g protein signaling
+g yeast response also been focus significant modeling because its
+at least one case simple model pathway discovery novel mechanism feedback regulation model
+however modeling g protein often been parameters chosen few reactions model output experimental result
+g protein itself been into arbitrary function concentration receptor regulation allow analysis event 2 protein even more transcription
+major problem quantitative models g protein been accurate parameters many processes known occur
+include both cycle reactions multiple interactions reactions
+problem significant because local protein at membrane proteins both unknown either cells during dynamic signaling
+study used proteins g c 1 at into first
+estimated formation according their individual
+second major problem modeling signaling through g protein difficulty correct even values rate reactions model
+despite their small size model single g protein will contain multiple parameters not individual measurements
+parameters may widely among different most approaches
+if all most relevant parameters not available interest then large must produced allow parameters data
+even numerical process values parameters both central problems modeling signaling systems
+extended several approaches difficulty model large number parameters using amount data
+present complex model signal output g protein model contains many regulatory interactions g protein signaling
+used data support strategy argue most parameters statistical data help individual parameters
+parameter set shows receptor both binding activity
+further model strongly activity binding receptor g protein cycle thus further activity
+protein binding direct interaction was suggested mechanism how upon without signaling
+simulation signal output how mechanisms control signal

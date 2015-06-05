@@ -1,0 +1,46 @@
+
+while statistics hypothesis testing properties true sampling distribution machine learning performance learning algorithms future data primary issue
+paper general principle best predictive performance
+predictive point estimation simple hypothesis testing mixture model selection others special cases
+will methods new ones
+variation estimation
+one particular feature
+introduction
+consider data some distribution unknown
+likelihood function contain complete statistical information sample
+often information various communication computational mathematical etc
+parameter estimation hypothesis testing model complexity selection all ways information different ways context
+might either single point e g \ mean stochastic model selection convex set e g \ confidence finite set points mixture models sample points mean matrix approximation more general density estimation few other ways
+i methods increasing order complexity
+paper set estimation multiple point estimation hypothesis testing special cases hypothesis identification seems what will estimation testing simple complex but not density estimation
+will set estimation at end
+there many properties any hypothesis identification principle should
+should lead good predictions what models defined make sense also \ data representation work simple work classes work estimation testing model selection reduce special cases existing other methods
+here first will show resulting principle many other items
+address problem good predictive performance
+if true parameter then best prediction future observations
+if know but prior belief about its distribution predictive distribution based past observations likelihood over weight best bayesian predictor often cannot use full discussed above but predict hypothesis i e \ use prediction
+better prediction where measure some distance function
+since assumed unknown average over them
+predictive hypothesis identification losses t \ some hypothesis class
+our general point estimation simple hypothesis testing mixture model complexity selection others
+general idea inference predictive performance not new
+indeed context model complexity selection machine learning empirical test set generalization see
+there also number statistics predictive see
+most them distribution free methods based some form measure often focus model selection
+predictive likelihood including future observations
+full decision based leads loss depending expected loss been studied but context hypothesis identification
+natural estimation prediction action predictive distribution between parameter estimation optimal decision making
+natural but i seen
+indeed above no work
+main paper investigate predictive losses above particular their i e \ best predictor
+section global assumptions simple example
+also shows
+section states possible distance loss functions their section i study exact properties sufficient statistics
+limit related
+section large sample sequential
+results used
+section contains
+paper example will general results main paper introduce demonstrate how difficult problem show how known certain
+latter provides additional support previous their range
+general treatment not

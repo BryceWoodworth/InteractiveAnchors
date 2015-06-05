@@ -1,0 +1,12 @@
+
+loss function convex prediction construct prediction strategy universal class markov prediction strategies not continuous
+
+introduction
+paper area research known universal prediction individual sequences see goal wide class prediction strategies
+previous prediction strategies important classes markov continuous prediction strategies
+paper consider against strategies
+our main results existence prediction strategies markov strategies
+idea transition continuous general classes was space functions most
+idea was allow small not only along but also along when
+was so space p allows us apply one algorithms prediction algorithm paper construct universal algorithm
+section give main state our main results their given

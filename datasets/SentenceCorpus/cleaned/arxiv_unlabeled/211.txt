@@ -1,0 +1,24 @@
+ 
+many reinforcement learning exploration techniques overly optimistic try explore every state
+exploration impossible environments unlimited number states
+i propose use simulated exploration optimistic model discover promising paths real exploration
+reduces needs real exploration
+ introduction 
+reinforcement learning agent collects rewards environment
+environment not known advance
+agent explore learn where go
+reward could received when taking action state
+agent aims maximize her long-term reward environment
+she should not miss any state important reward shorter path
+there many existing exploration techniques optimistic face uncertainty
+their optimism assumes greater reward will obtained when taking unknown action
+problem how do exploration environments unlimited number states
+environments not possible try every action every possible state
+i study new way do exploration environments unlimited number states
+i use simulated exploration incentive real exploration
+simulated exploration proposes promising paths explore
+i describe how use kind exploration section
+my experiments section demonstrate how simulated exploration reduced needed amount real exploration
+i also discuss when possible
+many works touched related problems
+they inspired me i discuss them section

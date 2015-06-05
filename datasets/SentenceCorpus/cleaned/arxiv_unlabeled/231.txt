@@ -1,0 +1,28 @@
+ 
+paper propose algorithm polynomial-time reinforcement learning factored markov decision processes fmdps
+factored optimistic initial model foim algorithm maintains empirical model fmdp conventional way always follows greedy policy respect its model
+only trick algorithm model initialized optimistically
+prove suitable initialization i foim converges fixed point approximate value iteration avi); ii number steps when agent makes non-near-optimal decisions respect solution avi polynomial all relevant quantities; iii per-step costs algorithm also polynomial
+our best knowledge foim first algorithm properties
+extended version contains rigorous proofs main theorem
+version paper appeared icml'09
+ introduction 
+factored markov decision processes fmdps practical ways compactly formulate sequential decision problems---provided ways solve them
+when environment unknown all effective reinforcement learning methods apply some form ``optimism face uncertainty'' principle: whenever learning agent faces unknown should assume high rewards order encourage exploration
+factored optimistic initial model foim takes principle extreme: its model initialized overly optimistic
+more often visited areas state space model gradually gets more realistic inspiring agent head unknown regions explore them search some imaginary ``garden eden''
+working algorithm simple extreme: will not make any explicit effort balance exploration exploitation but always follows greedy optimal policy respect its model
+show paper simple even simplistic trick sufficient effective fmdp learning
+algorithm extension oim  optimistic initial model   sample-efficient learning algorithm flat mdps
+there important difference however way model solved
+every time model updated corresponding value function needs re-calculated updated flat mdps not problem: various dynamic programming-based algorithms like value iteration solve model any required accuracy polynomial time
+situation less bright generating near-optimal fmdp solutions: all currently known algorithms may take exponential time eg approximate policy iteration using decision-tree representations policies solving exponential-size flattened version fmdp
+if require polynomial running time do paper search practical algorithm then accept sub-optimal solutions
+only known example polynomial-time fmdp planner factored value iteration fvi  will serve base planner our learning method
+planner guaranteed converge error its solution bounded term depending only quality function approximators
+our analysis algorithm will follow established techniques analyzing sample-efficient reinforcement learning like works flat mdps fmdps
+however listed proofs convergence rely critically access near-optimal planner so they generalized suitably
+doing so able show foim converges bounded-error solution polynomial time high probability
+introduce basic concepts notations section  then section review existing work special emphasis immediate ancestors our method
+sections describe blocks foim foim algorithm respectively
+finish paper short analysis discussion

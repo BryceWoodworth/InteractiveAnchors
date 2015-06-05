@@ -1,0 +1,47 @@
+ 
+propose novel non-parametric adaptive anomaly detection algorithm high dimensional data based score functions derived nearest neighbor graphs point nominal data
+anomalies declared whenever score test sample falls below  supposed desired false alarm level
+resulting anomaly detector shown asymptotically optimal uniformly most powerful specified false alarm level  case when anomaly density mixture nominal known density
+our algorithm computationally efficient being linear dimension quadratic data size
+does not require choosing complicated tuning parameters function approximation classes adapt local structure local change dimensionality
+demonstrate algorithm both artificial real data sets high dimensional feature spaces
+ introduction 
+anomaly detection involves detecting statistically significant deviations test data nominal distribution
+typical applications nominal distribution unknown generally cannot reliably estimated nominal training data due combination factors limited data size high dimensionality
+propose adaptive non-parametric method anomaly detection based score functions maps data samples interval
+our score function derived k-nearest neighbor graph k-nng point nominal data
+anomaly declared whenever score test sample falls below desired false alarm error
+efficacy our method rests upon its close connection multivariate p-values
+statistical hypothesis testing p-value any transformation feature space interval induces uniform distribution nominal data
+when test samples p-values smaller than declared anomalies false alarm error less than
+develop novel notion p-values based measures level sets likelihood ratio functions
+our notion provides characterization optimal anomaly detector uniformly most powerful specified false alarm level case when anomaly density mixture nominal known density
+show our score function asymptotically consistent namely converges our multivariate p-value data length approaches infinity
+anomaly detection been extensively studied
+also referred novelty detection  outlier detection  one-class classification single-class classification literature
+approaches anomaly detection grouped into several categories
+parametric approaches nominal densities assumed come parameterized family generalized likelihood ratio tests used detecting deviations nominal
+difficult use parametric approaches when distribution unknown data limited
+k-nearest neighbor k-nn anomaly detection approach presented
+there anomaly declared whenever distance k-th nearest neighbor test sample falls outside threshold
+comparison our anomaly detector utilizes global information available entire k-nn graph detect deviations nominal
+addition provable optimality properties
+learning theoretic approaches attempt find decision regions based nominal data separate nominal instances their outliers
+include one-class svm sch lkopf et
+al
+where basic idea map training data into kernel space separate them origin maximum margin
+other algorithms along line research include support vector data description  linear programming approach  single class minimax probability machine
+while approaches provide impressive computationally efficient solutions real data generally difficult precisely relate tuning parameter choices desired false alarm probability
+scott nowak derive decision regions based minimum volume mv sets does provide type i type ii error control
+they approximate appropriate function classes level sets unknown nominal multivariate density training samples
+related work hero based geometric entropic minimization gem detects outliers comparing test samples most concentrated subset points training sample
+most concentrated set point minimum spanning tree(mst point nominal data converges asymptotically minimum entropy set also mv set
+nevertheless computing mst point data generally intractable
+overcome computational limitations proposes heuristic greedy algorithms based leave-one out k-nn graph while inspired mst algorithm no longer provably optimal
+our approach related latter techniques namely mv sets gem approach
+develop score functions k-nng turn out empirical estimates volume mv sets containing test point
+volume real number sufficient statistic ensuring optimal guarantees
+way avoid explicit high-dimensional level set computation
+yet our algorithms lead statistically optimal solutions ability control false alarm miss error probabilities
+main features our anomaly detector summarized 1 like our algorithm scales linearly dimension quadratic data size applied high dimensional feature spaces 2 like our algorithm provably optimal uniformly most powerful specified false alarm level  case anomaly density mixture nominal any other density not necessarily uniform 3 do not require assumptions linearity smoothness continuity densities convexity level sets
+furthermore our algorithm adapts inherent manifold structure local dimensionality nominal density 4 like unlike other learning theoretic approaches do not require choosing complex tuning parameters function approximation classes

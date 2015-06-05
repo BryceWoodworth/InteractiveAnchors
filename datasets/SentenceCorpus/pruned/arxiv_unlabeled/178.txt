@@ -1,0 +1,40 @@
+
+general learning agents cycle through sequences observations actions rewards
+other hand learning small finite state markov decision processes
+so far performed human state representation out observations \ reduce agent framework
+before search need objective criterion
+main article develop criterion
+i also various into one learning algorithm
+more dynamic bayesian networks developed article evolutionary algorithms selection selection
+introduction
+general agents perform well wide range environments
+among approaches learning most directly same goal
+general agent environment rewards
+objective much reward possible
+most if not all problems framework
+environmental class finite state markov decision processes well
+continuous states function approximation others been considered but algorithms much more
+any case work still state representation out observations
+even if potentially useful been found usually not clear one will turn out better situations where know model
+into unknown environment
+while image features potentially useful cannot know ones will actually useful
+before representation need objective criterion
+at any point time if criterion effective only depend agents past experience
+main article develop criterion
+unknown environment experience
+so data past experience at hand cannot generate samples since model not given need learned itself there no
+regression classification maximum likelihood been used model selection
+far how apply them
+do not about observations but rewards
+rewards depend states but states arbitrary sense they functions data
+indeed our derived cost function cannot length
+detailed later suggested model could % practical % way open problem learning % idea based based length % arbitrary features % alternative learning algorithms yet developed
+% article binary % % if
+% i generally if no particular
+any type i define % vector % where over full range length dimension size
+% estimate
+probability over states rewards
+i do not between random variables leads
+more specifically number states % any state % current time % any time
+% further order not at several i over initial conditions special cases where
+also

@@ -1,0 +1,49 @@
+
+most cellular processes depend random individual protein molecules
+model processes developed algorithms membrane interactions reactions individual molecules program
+compared popular found was many cases more accurate more efficient use
+using response system signaling among yeast cells type
+model showed might help cell identify concentration
+model involved about protein molecules about about about
+over next several years become available will allow researchers model explore systems size smaller cells
+introduction
+one computational modeling cellular systems lack tools
+if one molecules cells they then one model reactions cells use
+however assumptions
+most cellular processes depend at least some extent spatial
+example cell signaling systems signals across significant within across
+also cell systems one cell into two molecular components
+many cellular exhibit random variation must random differences molecular
+examples range random between states variation cell signaling systems
+more generally stochastic behavior likely affect outcomes all cellular processes
+representation complexity requires algorithms model cellular processes spatial accuracy model reactions they stochastic
+computational four main approaches biochemical systems spatial stochastic
+differ how they represent space time molecules turn classes biological systems they
+spatial method based stochastic simulation algorithms
+simulation into each contains many molecules interest
+method efficient because total number individual classes molecules per rather than individual molecules
+however structure uses space into does not work well membrane require special treatment
+method space into much so each contain one
+method molecules between sites molecules sites
+itself studies complex formation effects reactions
+not found wide use processes due high computational specific structures affect reaction rates although recent techniques may
+methods primary focus article most widely used spatial stochastic methods
+represent individual molecules continuous space over fixed time molecules when they
+fact models use continuous space makes membrane relatively represent high spatial
+need individual molecules however high computational so methods about factor two than spatial methods
+finally function reaction dynamics methods especially accurate simulation
+methods step simulation exact time one individual reaction exact time next
+makes methods systems long between individual reactions but very most cellular processes
+based
+many common features but differ other features quantitative accuracy their simulations
+three features but particularly use only both spatial simulations
+program been used most quality number features make particularly well cellular processes involved synaptic transmission
+relative but most accurate results
+also number attributes 2 below make well modeling wide range cellular processes
+article version
+several algorithms were based reaction dynamics
+were used investigate spatial version cell protein signaling e
+original accuracy but significantly
+particular represent membrane molecules wide variety interactions
+make general possible also spatial reaction network molecules conformational interactions over system observation
+will particularly useful cellular systems signaling metabolic systems basic effects molecular data rates investigated

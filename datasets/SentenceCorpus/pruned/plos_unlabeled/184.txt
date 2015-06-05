@@ -1,0 +1,42 @@
+
+sequences rna protein
+sequences relative stability between rate
+thus accurate sequences our understanding how its cellular
+individual model new metric relative identify both potential sequences binding between
+genomes identified genes out where binding region expected sequence
+1 genes
+additional analysis bias 1 genes used not furthermore 1 genes whose sequence was associated free energy less than were within
+most likely sequence genes
+way new metric provides method gene sequence
+strong 1 genes appear their sequences
+thus our metric provides new way explore role
+introduction
+end rna observed part sequence was several
+they combined observation previously experimental evidence suggested between region was sufficient stable structure could position during
+also since been sequence
+theory was experimentally et al
+since two different approaches been used identify position sequences sequence similarity free energy
+methods based sequence similarity include sequences at least three long
+identification errors approach several
+threshold similarity does not exist actual sequences sites significant but low degree similarity sequence
+lack number observations gene sequences appear themselves into two those sequences those without
+sequence techniques exact sequence problem because its affect
+second approach using free energy based proposed mechanism binding sequence analysis
+occurs between sequence significant effect
+formation between basis results more stable structure lower free energy than sequences
+one model degree stability rna secondary structure change energy
+method free energy been identify sequences g values region
+all studies observed negative g whose sequence
+second approach both identify sequence its exact having g value
+however exact sequence dependent algorithm position
+further free energy analysis through into region genes new metric relative
+metric binding across region relative us binding involves well sequences
+also independent length property allows comparison binding between species
+sequences could explore lack any region
+lack any other sequence motifs could
+one hypothesis been
+thus there search highly conserved sequences been observed many
+study use metric identify g genes species test its means improve existing tools sequences
+genes where binding place one at 1
+genes strong binding
+then determine if genes were

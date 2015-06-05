@@ -1,0 +1,81 @@
+ 
+suppose given two probability measures set one-way infinite finite-alphabet sequences consider question when one measures predicts other when conditional probabilities converge certain sense when one measures chosen generate sequence
+question may considered refinement problem sequence prediction its most general formulation: given class probability measures does there exist measure predicts all measures class
+address problem find some conditions local absolute continuity sufficient prediction generalize several different notions known sufficient prediction
+also formulate some open questions outline direction finding conditions classes measures prediction possible
+ introduction 
+let sequence  letters some finite alphabet generated some probability measure
+having observed first letters want predict what probability next letter being  each
+task motivated numerous applications  weather forecasting stock market prediction data compression
+if measure known completely then best forecasts one make st outcome sequence conditional probabilities given
+other hand immediately apparent if nothing known about distribution generating sequence then no prediction possible since any predictor there measure errs gives inadequate probability forecasts every step
+thus one restrict attention some class measures
+laplace was perhaps first address question sequence prediction his motivation being follows: suppose know sun risen every day 5000 years what probability will rise tomorrow
+he suggested assume probability sun rises same every day trials independent each other
+thus laplace considered task sequence prediction when true generating measure belongs family bernoulli iid \ measures binary alphabet
+predicting measure suggested laplace was where number 1s
+conditional probabilities laplace's measure converge true conditional probabilities almost surely under any bernoulli iid measure
+approach generalizes problem predicting any finite-memory e g \ markovian measure
+moreover measure was constructed predicting arbitrary stationary measure
+conditional probabilities converge true ones average  where average taken over time steps cesaro sense almost surely any stationary measure
+however was shown same work there no measure conditional probabilities converge true ones s \ every stationary
+thus see already problem predicting outcomes stationary measure two criteria prediction arise: prediction average cesaro sense prediction each step solution exists only former problem
+but what if measure generating sequence not stationary
+different assumption one make measure generating sequence computable
+solomonoff suggested measure predicting any computable probability measure
+key observation here class all computable probability measures countable; let us denote
+bayesian predictor countable class measures constructed follows: any measurable set where weights positive sum one
+best predictor measure measure itself
+bayesian predictor simply takes weighted average predictors all measures class  countable classes possible
+was shown solomonoff conditional probabilities converge conditional probabilities almost surely any computable measure
+fact special case more general though without convergence rate result blackwell dubins states if measure absolutely continuous respect measure then converges total variation almost surely
+convergence total variation means prediction very strong sense convergence conditional probabilities arbitrary events not just next outcome prediction arbitrary fast growing horizon
+since every measurable set every  each absolutely continuous respect
+thus problem sequence prediction certain classes measures class all stationary measures class all computable measures was often addressed literature
+although mentioned classes measures sufficiently interesting often hard decide applications assumptions does problem at hand comply; not mention practical issues predicting measure all computable measures necessarily non-computable itself
+moreover able generalize solutions sequence prediction problem problems active learning where outcomes sequence may depend actions predictor one understand better under conditions problem sequence prediction solvable
+particular active learning stationarity assumption does not seem applicable since predictions non-stationary although say markov assumption often applicable extensively studied
+thus formulate following general questions start address present work: classes measures sequence prediction possible
+under conditions does measure predict measure
+seen questions many facets particular there many criteria prediction considered almost sure convergence conditional probabilities convergence average etc
+extensive literature sequence prediction questions their full generality not received much attention
+one line research exhibits kind generality consists extending result blackwell dubins mentioned above states if absolutely continuous respect  then predicts total variation distance
+question whether given class measures prior ``meta''-measure over class measures conditional probabilities bayesian mixture class w r t
+converge true probabilities weakly merge terminology  almost any measure
+question considered solved since authors provide necessary sufficient conditions measure given mixture class w r t
+under prediction possible
+major difference general questions posed above do not wish assume measure our class measures
+large non-parametric classes measures may not intuitive measure over natural; rather question whether ``natural'' measure used prediction exists
+address general questions posed start following observation
+was mentioned bayesian mixture countable class measures   any any measurable set  where constant
+condition stronger than assumption absolute continuity sufficient prediction very strong sense
+since willing satisfied prediction weaker sense e g \ convergence conditional probabilities let us make weaker assumption: say measure dominates measure coefficients if \rho(x_1,\dots,x_n \;\geq\; c_n \mu(x_1,\dots,x_n all \paranodot{the first concrete question} pose under what conditions does  imply predicts
+observe if any then any measure locally absolutely continuous respect measure restricted first trials absolutely continuous w r t
+each  moreover any measure some constants found satisfy 
+example if bernoulli iid \ measure parameter any other measure then  trivially satisfied
+thus know if then predicts very strong sense whereas exponentially decreasing not enough prediction
+perhaps somewhat surprisingly will show dominance any subexponentially decreasing coefficients sufficient prediction weak sense convergence expected averages
+dominance any polynomially decreasing coefficients also coefficients decreasing example  sufficient almost sure prediction average i e \ cesaro sense
+however prediction every step negative result: any dominance coefficients go zero there exists pair measures satisfy but does not predict sense almost sure convergence probabilities
+thus situation similar predicting any stationary measure: prediction possible average but not every step
+note also laplace's measure shown dominates any iid \ measure linearly decreasing coefficients ; generalization predicting all measures memory given  dominates them polynomially decreasing coefficients
+thus dominance decreasing coefficients generalizes sense predicting countable classes measures where dominance constant absolute continuity via local absolute continuity predicting iid \ finite-memory measures
+another way look generalizations follows
+bayes mixture  being sum countably many measures predictors possesses some their predicting properties
+general predictive properties preserved under summation
+particular if two predictors two classes measures interested question whether predictor union two classes
+answer question would improve our understanding how far class measures predicting measure exists extended without losing property \paranodot{{thus,} second question} consider following: suppose measure predicts some weak sense let some other measure e g \ predictor different class measures
+does measure still predict
+ask prediction quality criteria does idea taking bayesian sum generalize
+absolute continuity preserved under summation along it's strong prediction ability
+was mentioned prediction weak sense convergence expected averages conditional probabilities preserved under summation
+here find several stronger notions prediction not preserved under summation
+thus address following two questions
+dominance decreasing coefficients sufficient prediction some sense under some conditions coefficients
+if measure predicts measure some sense does measure also predict same sense where arbitrary measure
+considering different criteria prediction s \ convergence conditional probabilities s \ convergence averages etc  above two questions obtain not two but many different questions some answer positive some negative yet some left open
+paper organized follows
+section introduces necessary notation measures divergence probability measures
+section addresses question whether dominance decreasing coefficients sufficient prediction while section consider question summing predictor arbitrary measure
+both sections also propose some open questions directions future research
+section discuss some interesting special cases questions considered also some related problems

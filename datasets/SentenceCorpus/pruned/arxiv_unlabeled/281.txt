@@ -1,0 +1,39 @@
+
+describe algorithm simple online method linear modeling data mixture
+algorithm data into clusters while finding their corresponding best so error
+current linear
+requires amount its complexity when modeling data points linear order where number required convergence order
+since online algorithm data produce corresponding output
+performance algorithm using real data
+introduction
+many common data sets i e
+example feature vectors different objects sequence different see eg different under different conditions different linear each corresponding distinct
+data give problem linear modeling i e modeling data mixture
+different algorithms been suggested problem different mathematical theories
+example component analysis based uses information theory clustering uses clustering methods well analysis
+other hand there also some heuristic approaches eg local
+most method all algorithm any its
+algorithm given data set into each well its best
+more given parameters algorithm objective function }
+practice function performed means algorithm
+after example they may chosen one following two 1 clusters according determined at previous 2 least obtained clusters component analysis
+procedure very fast at least local minimum
+however practice local minimum often significantly than global minimum
+result algorithm not accurate more recent linear modeling algorithms even case underlying linear general often when either large e g there large component
+paper two
+first one show order significantly improve robustness noise algorithm sufficient its objective function } average average
+second goal online algorithm so data one point at time produce corresponding output
+online procedure very different than also standard settings data not
+indeed possible strategy will more often global minimum error than generalization accurate algorithm best
+order address those propose algorithm
+since special case where algorithm see eg minimum same energy function
+algorithm stochastic strategy order provide online approximation best
+its current only setting underlying linear not general ones
+numerical experiments real data performance algorithm various
+particular some standard algorithms cases large component relatively large intrinsic dimension
+even database motion requires small intrinsic little noise few very well particular better than
+because process more often global minimum than
+paper follows
+section introduce algorithm
+section tests algorithm both data linear models real data motion sequences
+section future work

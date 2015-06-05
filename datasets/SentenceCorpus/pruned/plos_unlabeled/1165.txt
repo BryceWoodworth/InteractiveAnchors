@@ -1,0 +1,27 @@
+
+large efficient dna
+dna binding at between two
+based set structures different binding states conformational transition pathway binding process using molecular dynamics method corresponding energy using linear response approximation version protein method
+simulation results suggest process binding initial interaction binding at three pairs interactions across
+binding process similar binding model reported
+simulation also shows transition mechanism 2 form complex during binding large conformational changes
+simulation study binding process conformational changes context leads model been proposed previously
+introduction
+family energy binding changes turn dna
+large efficient well protein family
+high structures different binding states been previously reported including states
+three structures motion during conformational binding
+along central
+despite studies above detailed conformational corresponding associated binding process unknown computational approach using molecular dynamics molecular dynamics
+molecular dynamics molecular system under conformational changes
+however current computational size studied system time scale simulation
+studies larger more complex systems molecular dynamics been used simulation additional physical potential reduce mean between current structure structure
+transition pathways between two known protein
+combination methods been widely applied dynamics studies various systems signal transition pathway system complex human receptor
+here whole transition pathway used accurate conformational change certain key time
+order understand aspects conformational changes binding process associated conformational changes
+first state binding original structure
+then used approach transition pathway state bound state examined binding process conformational transition
+results suggest through process before being
+binding along binding pathway were using linear response approximation version protein method method binding free significantly than methods accuracy
+addition simulation results conformational transition pathway previously observed structures

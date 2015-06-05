@@ -1,0 +1,34 @@
+
+molecular essential elements protein quality control proteins activation wide range proteins
+protein e family binding regions
+accurate prediction binding sites e proteins essential understand function properties its proteins
+order binding sites protein sequences developed algorithm sequence information binding experiments structural parameters
+show combination significantly either single approach
+predictor had correlation when over tested sequences true true
+test robustness learning set where sequences learning sets rate them
+good
+algorithm was also able perform well test set there was no prior knowledge learning sets
+algorithm available at
+introduction
+molecular part quality control functions protein
+family been proteins larger proteins
+molecules also cell during conditions characterized increased concentration
+through regions protein core
+regions proteins
+molecular two distinct domains domain binding domain
+function dependent cycle binding
+bound low open state
+bound conformational change high state
+function
+also may
+upon low state binding another another cycle same if necessary
+well characterized e bound binding core region basic residues overall
+preference was later work binding studies binding was derived
+previous studies binding only sequence information experimental binding information set structural data obtain accurate predictor
+similar based approaches been shown predict other
+prediction binding class i molecules was structural information molecular models sequence data
+et al used structural data various sequence information predict binding different domains
+recently algorithm predict regions protein sequences combination sequence based data structural information studies
+article introduce based method binding sequences
+sequence based information experimental binding structural information molecular via field
+present binding prediction algorithm under conditions accurate

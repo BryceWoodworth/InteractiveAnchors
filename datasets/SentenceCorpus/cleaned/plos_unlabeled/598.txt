@@ -1,0 +1,31 @@
+ 
+protein identification using mass spectrometry indispensable computational tool life sciences
+dramatic increase use proteomic strategies understand biology living systems generates ongoing need more effective efficient accurate computational methods protein identification
+wide range computational methods each various implementations available complement different proteomic approaches
+solid knowledge range algorithms available more critically accuracy effectiveness techniques essential ensure many proteins possible within any particular experiment correctly identified
+here undertake systematic review currently available methods algorithms interpreting managing analyzing biological data associated protein identification
+summarize advances computational solutions they responded corresponding advances mass spectrometry hardware
+evolution scoring algorithms metrics automated protein identification also discussed focus relative performance different techniques
+also consider relative advantages limitations different techniques particular biological contexts
+finally present our perspective future developments area computational protein identification considering most recent literature new promising approaches problem well identifying areas yet explored potential application methods other areas computational biology
+ introduction 
+proteomics relatively new but rapidly maturing discipline within life science research understanding biology organism via large-scale study proteins expressed organism
+there already vast body literature applying proteomics many different areas clinical biochemical interest study pathogenesis development prevention treatment wide range diseases 
+protein identification key essential step field proteomics
+examination patterns protein expression alone course lead important discoveries including example classification samples basis particular pattern
+however without identifying proteins known critically involved system under investigation not possible delve into biological explanation patterns develop hypotheses underlying biology system interest
+thus while protein identification may often overlooked taken granted remains key initial step elucidating biology organism studying its protein expression
+our ability maximize benefit proteomics life science research often dependent our ability accurately quickly completely identify full complement proteins found our samples interest
+exponential growth dna sequence protein databases coupled similar growth machine throughput critical nature protein identification proteomics process seen explosion interest protein identification
+example both number proportion national center biotechnology articles containing phrase protein identification seen exponential growth past decade
+mass spectrometry emerged primary tool protein identification cornerstone proteomics
+while was first used almost century ago use mass spectrometry biological applications dates 1950s its use peptide identification dates 1960s
+accuracy speed sample weight range seen improvements spanning many orders magnitude recent decades making mass spectrometry one greatest scientific success stories twentieth century
+no fewer than five nobel laureates been awarded distinction their pioneering work mass spectrometry
+speed accuracy machines make them amenable high-throughput applications required not just proteomics but also many other areas life sciences resulting rapid developments hardware software data management last decade
+when consider use mass spectrometers protein identification rapid developments lead bewildering number instrument configurations analysis algorithms data formats
+mass spectrometry often critically important number research pipelines
+biologists computational biologists especially often expected meaningfully manage interpret mass spectrometry data requiring understanding most up-to-date methods available maximize true protein identifications minimize false identifications their particular application
+insight into protein identification algorithms important because often results may ambiguous biases chosen make problem computationally tractable radically affect result
+despite improvements mass spectrometry hardware reliability modern protein identification software several studies involving range mass spectrometers datasets identification algorithms shown each case fewer than half proteins complex proteomic sample identified
+given critical role protein identification proteomic analysis review aims explore apparent upper limit effectiveness current protein identification algorithms give relevant background information practical suggestions computational biologists life scientists so best possible protein identifications realized

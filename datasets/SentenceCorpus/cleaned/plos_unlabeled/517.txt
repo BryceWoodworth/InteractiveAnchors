@@ -1,0 +1,51 @@
+ 
+signal output receptor g-protein effector modules dynamic function nucleotide exchange activity receptor gtpase-accelerating activity gtpase-activating proteins their interactions
+gaps may inhibit steady-state signaling but may also accelerate deactivation upon removal stimulus without significantly inhibiting output when receptor active
+further some effectors themselves gaps unclear how effectors stimulated g proteins at same time they accelerate g protein deactivation
+multiple combinations protein protein associations interacting regulatory effects allow complex behaviors system do not permit usual simplifying assumptions traditional enzyme kinetics uniquely subject systems-level analysis
+developed kinetic model g protein signaling permits analysis both interactive independent g protein binding regulation receptor gap
+evaluated parameters model global least-squares fitting diverse set steady-state gtpase measurements m1 muscarinic receptor g q phospholipase c 1 module gtpase activities were varied 10 4-fold
+provide multiple tests validate fitted parameter set consistent results few previous pre-steady-state kinetic measurements
+results indicate gap potentiates gdp/gtp exchange activity receptor activity never before reported; exchange activity receptor biased toward replacement gdp gtp; receptor gap bind g protein negative cooperativity when g protein bound either gtp gdp promoting rapid gap binding dissociation; gap indirectly stabilizes continuous binding receptor g protein during steady-state gtpase hydrolysis thus further enhancing receptor activity; receptor accelerates gdp/gtp exchange primarily opening otherwise closed nucleotide binding site g protein but minimal effect affinity g protein nucleotide
+model-based simulation explains how gap activity accelerate deactivation 10-fold upon removal agonist but still allow high signal output while receptor active
+analysis gtpase flux through distinct reaction pathways consequent accumulation specific gtpase cycle intermediates indicate presence gap receptor remains bound g protein throughout gtpase cycle gap binds primarily during gtp-bound phase
+analysis explains behaviors relates them specific regulatory phenomena described above
+work also demonstrates applicability appropriately data-constrained system-level analysis signaling networks scale
+ introduction 
+g protein-mediated signaling modules display variety dynamic input-output behaviors despite their use single relatively simple biochemical mechanism
+signal amplification ratio effector proteins activated agonist-bound receptors vary unity hundreds
+activating ligands may bind receptors affinities ranging picomolar through millimolar
+gaps accelerate hydrolysis bound gtp over 2000-fold accelerate both activation deactivation cells variable inhibitory effect
+activation deactivation rates upon addition removal agonist thus range 10 ms minutes
+heterotrimeric g proteins convey signals traversing cycle gtp binding hydrolysis: gtp bound state g subunit active deactivation caused hydrolysis bound gtp gdp
+rates activation deactivation consequent effects signal output at steady state regulated interactions g subunit receptors g subunits gtpase-activating proteins multiple other proteins
+net effect inputs depends identities individual proteins their concentrations their own regulatory controls
+regulatory inputs g protein modules interactive been difficult establish quantitative understanding how they cooperate control signal output
+while some signals particularly g protein-gated channels monitored accurately cells real time been harder quantitate intermediary reactions gtpase cycle protein protein binding dissociation
+recently developed optical sensors promising but still do not provide complete simultaneous coverage multiple events often do not provide absolute data
+conversely quantitative biochemical assays using vitro reconstituted systems provided absolute biochemical data but not adequately described simultaneous regulatory interactions so important
+consequently quantitative understanding dynamic behavior intact g protein module remains elusive
+computational modeling used frequently clarify mechanistic thinking about complex biochemical systems including g protein signaling
+quantitative models potentially combine information individual reactions simulate behavior complex system use system-level data test validity proposed mechanism
+work linderman colleagues example provided consistent examples approaches g protein signaling
+g protein-mediated yeast pheromone response also been focus significant modeling efforts because its presumed paucity off-pathway inputs
+at least one case failure simple model pathway motivated discovery novel mechanism feedback regulation subsequent refinement model
+however modeling g protein modules often been descriptive parameters arbitrarily chosen few reactions model output mimics experimental result
+alternatively inner workings g protein module itself been condensed into arbitrary function agonist concentration receptor regulation allow analysis downstream event ca 2 release protein phosphorylation even more distal transcription
+major problem developing quantitative models g protein modules been accurate assignment parameters many processes known occur
+include both gtpase cycle reactions multiple protein-protein interactions govern reactions
+problem significant because local protein concentrations at plasma membrane regulated association proteins both unknown either resting cells during dynamic signaling
+study used purified proteins heterotrimeric g q m1 muscarinic acetylcholine receptors phospholipase c 1 reconstituted at uniform controllable concentrations into unilamellar phospholipid vesicles overcome first limitation
+estimated formation multi-protein complexes according their individual activities
+second major problem modeling signaling through g protein modules difficulty assigning correct even plausible values rate equilibrium constants reactions included model
+despite their apparently small size informative model single g protein module will contain multiple parameters not readily accessible individual measurements
+parameters may vary widely among different modules prohibits most literature-mining approaches
+if all most relevant parameters not individually available module interest then adequately large diverse dataset must produced allow parameters fit data
+last even presumably adequate dataset numerical fitting process extracts values parameters subsequent validation fit both central problems modeling signaling systems
+adapted extended several approaches deal difficulty fitting model fairly large number parameters using modest amount data
+present modestly complex model signal output g protein model contains many salient regulatory interactions characterize g protein signaling
+used steady-state gtpase data support metropolis-monte carlo fitting strategy argue most parameters reasonably assigned statistical data help qualify fits individual parameters
+resultant parameter set shows receptor accelerates both gdp dissociation gtp binding gaps potentiate receptor's nucleotide exchange catalyst activity
+further model argues strongly gap activity indirectly favors continued binding receptor g protein throughout gtpase cycle thus further potentiating receptor's activity
+indirect stabilization receptor-g protein binding referred kinetic scaffolding distinguish direct interaction was suggested mechanism how gap accelerate deactivation upon removal agonist without substantially inhibiting signaling
+model-based simulation signal output describes how gaps combine mechanisms independently control signal amplitude kinetics

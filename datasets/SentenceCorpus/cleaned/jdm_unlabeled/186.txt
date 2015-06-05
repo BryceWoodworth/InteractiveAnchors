@@ -1,0 +1,37 @@
+ 
+study employs discrete choice experiment dce health-care sector test loss aversion theory derived reference-dependent preferences absolute subjective value deviation reference point generally greater when deviation represents loss than when same-sized change perceived gain
+far known paper first use dce test loss aversion theory
+dce highly suitable tool testing because estimates marginal valuations attributes based deviations reference point constant scenario
+moreover loss aversion examined each attribute separately
+another advantage dce applied non-traded goods non-tangible attributes
+health-care event used empirical illustration loss aversion theory tested within context preference structures maternity-ward attributes estimated using data gathered number observations made sample number women who had recently given birth
+seven hypotheses presented tested
+overall significant support behavioral loss aversion theories was found
+ introduction 
+person's valuation benefit outcome choice often determined intrinsic consumption utility outcome itself combined its contrast reference point
+most noteworthy manifestation reference-dependent preferences loss aversion absolute subjective value change endowment generally greater when deviation reference point represents loss than when same-sized change perceived gain
+most systematic general theory kind probably tversky kahneman's reference-dependence model builds kahneman tversky's prospect theory
+significance loss aversion highlighted camerer's review practical implications prospect theory seven out ten examples derived loss aversion hypothesis
+recently koszegi rabin presented extended model reference-dependent preferences loss aversion claimed more generally applicable
+numerous studies present evidence supporting loss aversion hypothesis
+they include hartman et al hardie et al andreoni benartzi thaler camerer et al myagkov plott bowman et al jullien salanie genesove mayer
+there also several studies looking at loss aversion medical domain
+they include stalmeier bezembinder robinson et al bleichrodt pinto van osh et al
+what reference point used individual evaluate gains positive deviations versus losses negative deviations
+majority empirical studies examined traded goods reference point was endowment commodity under consideration
+expectations were mentioned other researchers candidates reference point shalev used expectations his game-theoretic model koszegi rabin assumed person's reference point her rational expectations held recent past about outcomes
+they specified rule endogenous derivation point within framework equilibrium utility-maximizing model
+van osch et al argued goals aspirations influence reference point health domain
+combining qualitative quantitative data they provided evidence reference point life-year certainty equivalent ce gambles explored psychology behind reference point
+empirical study takes new different approach determination reference point testing loss aversion hypothesis
+discrete choice experiments dces used estimation preference structure multi-dimensional consumption good service establishing relative importance different attributes provision good service under discussion vis-a-vis constant reference bundle
+follows employment dce also facilitates testing loss aversion hypothesis each attribute separately
+decomposition into attribute-specific components adds richness insight not obvious people loss averse regarding all kinds attributes there most probably different degrees loss aversion compared across attributes
+far known first published study employs dces test attribute-specific loss aversion derived reference-dependent preferences
+empirical illustration presented paper relates dce was conducted among number women who had recently given birth
+their preferences five maternity-ward attributes number beds hospital room attitude staff toward patient medical staff's professionalism information transfer staff patients travel time residence hospital were estimated loss aversion was tested each attributes separately
+main results study were loss aversion hypothesis was confirmed four five hospital attributes investigated
+results were less conclusive travel time residence hospital
+following section describes dce method employed estimation
+third section presents econometric model followed hypotheses derived loss aversion theory
+preference structures used test outlined hypotheses presented section number

@@ -1,0 +1,23 @@
+ 
+point clouds sets points two three dimensions
+most kernel methods learning sets points not yet dealt specific geometrical invariances practical constraints associated point clouds computer vision graphics
+paper present extensions graph kernels point clouds allow use kernel methods objects shapes line drawings any three-dimensional point clouds
+order design rich numerically efficient kernels few free parameters possible use kernels between covariance matrices their factorizations graphical models
+derive polynomial time dynamic programming recursions present applications recognition handwritten digits chinese characters few training examples
+ introduction 
+recent years kernels structured data been designed many domains bioinformatics  speech processing  text processing computer vision
+they provide elegant way including known priori information using directly natural topological structure objects
+using priori knowledge through structured kernels proved beneficial because allows reduce number training examples re-use existing data representations already well developed experts those domains
+paper propose kernel between point clouds applications classification line drawings handwritten digits chinese characters  shapes
+natural geometrical structure point clouds hard represent few real-valued features  particular because required local global invariances rotation scaling and/or translation b lack pre-established registrations point clouds i e  points one cloud not matched points another cloud c noise occlusion impose only portions two point clouds ought compared
+following one leading principles designing kernels between structured data propose look at all possible partial matches between two point clouds
+more precisely assume each point cloud graph structure most often neighborhood graph consider recently introduced graph kernels 
+intuitively kernels consider all possible subgraphs compare count matching subgraphs
+however set subgraphs even set paths exponential size cannot efficiently described recursively; so larger sets substructures commonly used eg  walks tree-walks
+shown \mysec{graphkernels} choosing appropriate substructures fully factorized local kernels efficient dynamic programming implementations allow sum over exponential number substructures polynomial time
+kernel thus provides efficient elegant way considering very large feature spaces see eg  
+however context computer vision substructures correspond matched sets points dealing local invariances imposes use local kernel cannot readily expressed product separate terms each pair points usual dynamic programming approaches cannot then applied
+main contribution paper design local kernel not fully factorized but instead factorized according graph underlying substructure
+naturally done through graphical models design positive kernels covariance matrices factorize graphical models \mysec{gm}
+novel local kernel derive new polynomial time dynamic programming recursions \mysec{recursions}
+\mysec{simulations} present simulations handwritten character recognition

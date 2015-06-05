@@ -1,0 +1,16 @@
+
+consider task learning classifier feature space set classes when features into independent feature sets
+show fact used represent original learning task terms 1 learning classifier 2 learning distribution feature set
+fact learning because task samples
+present experimental evaluation idea two real world applications
+introduction
+learning occur when large data relatively small sample accurate
+high cost data data many application domains interest learning recent years
+show feature leads simple learning algorithm
+when feature set into two independent sets show original learning problem terms problem learning predictor one other
+latter class variable
+since predictor learned only samples effective algorithm results
+next section present simple yet result our learning algorithm call learning based
+present examples approach present special case our approach used applications section
+then examine related previous work our algorithm among previous approaches learning
+present empirical evaluation two real world applications where required assumptions our algorithm

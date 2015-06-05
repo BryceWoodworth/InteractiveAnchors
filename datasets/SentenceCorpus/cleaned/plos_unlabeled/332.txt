@@ -1,0 +1,46 @@
+ 
+muscle force emerges myosin binding actin
+actomyosin binding depends upon myofilament geometry kinetics thin-filament ca 2 activation kinetics cross-bridge cycling
+binding occurs within compliant network protein filaments where there mechanical coupling between myosins along thick-filament backbone between actin monomers along thin filament
+mechanical coupling precludes using ordinary differential equation models when examining effects lattice geometry kinetics compliance force production
+study uses two stochastically driven spatially explicit models predict levels cross-bridge binding force thin-filament ca 2 activation atp utilization
+one model incorporates 2-to-1 ratio thin thick filaments vertebrate striated muscle while other comprises only one thick one thin filament
+simulations comparing models show multi-filament predictions force fractional cross-bridge binding cross-bridge turnover more consistent published experimental values
+furthermore values predicted multi-filament model greater than those values predicted two-filament model
+increases larger than relative increase potential inter-filament interactions multi-filament model versus two-filament model
+amplification coordinated cross-bridge binding cycling indicates mechanism cooperativity depends sarcomere lattice geometry specifically ratio arrangement myofilaments
+ introduction 
+muscle contraction initiated ca 2 binding troponin subsequent movement tropomyosin thin filament enabling myosin cyclically attach detach actin
+underlying process myriad factors contribute magnitude time course force production
+factors include geometry filaments sarcomere mechanical properties filaments cross-bridges kinetics thin-filament activation ca 2 kinetics cross-bridge cycling
+because contractile proteins interact highly structured compliant lattice mechanical coupling exists between myosins along thick-filament backbone between actin monomers regulatory proteins along thin filament between thick thin filaments following cross-bridge formation
+thus kinetic processes responsible contraction linked at molecular level
+considerable evidence shows ca 2 cross-bridge binding at one location sarcomere influence processes at proximal regions sarcomere implying coupled kinetics thin-filament activation cross-bridge cycling determine level force generated striated muscle
+most models do not explicitly consider spatial properties muscle may influence contraction
+muscle contraction models containing both spatial temporal variables some provide either spatial predictions steady-state conditions temporal predictions cross-bridge thin-filament state without any spatial detail
+contrast few recent spatially explicit models predict both spatial temporal behavior some simulations indicating elasticity myofilament lattice contributes coordination between cross-bridges enhances cross-bridge binding
+cross-bridge induced cross-bridge recruitment becomes potential mechanism cooperativity results realignment between compliant myofilaments following myosin binding actin
+previous spatially explicit models lacked ca 2 regulatory cycle spatially coordinated ca 2 activation along thin filament physiological ratio thick thin filaments
+thin-filament components particularly important contraction because regions activated ca 2 binding troponin largely determine spatial distribution bound cross-bridges
+current study adopts spatially explicit model regulatory proteins along thin filament contrast prior studies
+additions enable investigating how force controlled two coupled spatial temporal processes: ca 2 binding activate thin filament subsequent myosin binding proximal activated region thin filament
+spatial temporal aspects contraction may profoundly influenced coupled behavior between myosins throughout compliant myofilament lattice nearly 70 percent muscle compliance resides thick thin filaments
+significant compliance implies cross-bridges do not operate independently while generating force
+moreover recent measurements improve estimates about cross-bridge rate functions depending distortion load suggesting extent realignment between compliant thick thin filaments may affect kinetics cross-bridge cycling
+within compliant system however consequences sarcomere lattice structure cross-bridge dynamics remain unclear
+study compares multiple models identical thin-filament cross-bridge kinetics but different model geometries examine consequences sarcomere lattice structure ca 2 regulated contraction
+consistent previous models motions forces occur solely along longitudinal axis filaments current models
+one-dimensional assumption permits system linear equations describe force-generating interactions between filaments
+at core each model three-state cross-bridge cycle coupled three-state thin-filament regulatory model control actomyosin binding through ca 2 sensitive kinetics
+initial model comparisons occurred between four different models
+geometric options only one multi-filament model yields predictions were consistent range published values muscle contraction
+therefore focus comparing multi-filament model two-filament model 
+throughout study specifically consider contraction absence cooperative kinetic feedback between thin-filament activation cross-bridge binding
+thus any differences simulation predictions between multi-filament two-filament models depend solely differences between model geometry
+simulation results show additional inter-filament interactions multi-filament model lead greater fractional binding cross-bridges force production cross-bridge turnover compared two-filament model
+importantly increases larger than predicted normalizing additional filaments multi-filament model
+results indicate there mechanism cooperativity dependent upon sarcomere lattice structure
+specifically multi-filament lattice structure further coordinates cross-bridge binding enhance cross-bridge recruitment turnover without any requirements cooperative feedback mechanisms attributed thin-filament activation
+additional studies investigating other mechanisms cooperativity acting via kinetic feedback pathways amplify thin-filament activation cross-bridge binding ongoing our lab others
+findings current study however imply certain lattice geometries facilitate greater cross-bridge binding turnover may important mechanism cooperativity contributing muscle performance
+earlier aspects work been published previously 

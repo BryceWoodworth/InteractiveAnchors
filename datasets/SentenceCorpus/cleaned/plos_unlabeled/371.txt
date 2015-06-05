@@ -1,0 +1,40 @@
+ 
+advances computational identification functional noncoding polymorphisms will aid cataloging novel determinants health identifying genetic variants explain human evolution
+date however development evaluation techniques been limited availability known regulatory polymorphisms
+attempted address assembling literature computationally tractable set regulatory polymorphisms within oreganno database
+further used 104 regulatory single-nucleotide polymorphisms set 951 polymorphisms unknown function 2-kb 152-bp noncoding upstream regions genes investigate discriminatory potential 23 properties related gene regulation population genetics
+among most important properties detected region distance transcription start site local repetitive content sequence conservation minor derived allele frequencies presence cpg island
+further used entire set properties evaluate their collective performance detecting regulatory polymorphisms
+using 10-fold cross-validation approach were able achieve sensitivity specificity 0.82 0.71 respectively show performance strongly influenced distance transcription start site
+ introduction 
+our ability identify molecular mechanisms responsible specific genetic traits within our population will enhanced our imminent ability decipher each individual's genome
+evident recent advances sequencing genotyping technologies allow increasing number variants sampled association linkage contribute growing number sources variation their frequencies public databases each year
+new variants identified each becomes molecular window into our past present future each aids tracing our genetic heritage charting footsteps our common evolution possesses potential predict disease drug susceptibilities ideally acting early-warning system preventative medical practice
+however our ability catalog genotypes far outstripped our ability implicate them phenotypes
+currently more than 6 million unique single-nucleotide polymorphisms included version 126 dbsnp ; snps only very small fraction been associated phenotype using genetic association linkage analysis
+because association studies costly time-consuming dependent frequency genotype sampled population
+furthermore many snps not necessarily expected function
+select candidates functional validation computational methods been developed identify snps alter protein-coding structure genes
+types computational methods tend prioritize putative functional snps identifying those snps alter protein's amino acid sequence located within well-conserved regions functional protein domains alter biochemical structure protein
+however very few methods identify regulatory snps alter expression genes
+rsnps been implicated etiology several human diseases including cancer depression systemic lupus erythematosus perinatal hiv-1 transmission response type 1 interferons
+work aims extend computer-based techniques identify particular class functional variants within core promoter regions human genes
+conventional computational approaches rsnp classification predominantly relied allele-specific differences scoring transcription factor weight matrices supplied databases transfac jaspar
+snps located within matrix positions possessing high information content assumed more likely functional
+support hypothesis date however been restricted single-case examples
+furthermore recent study failed detect significant weight matrix signals 65 percent regulatory polymorphisms
+however prevailing hypothesis computational regulatory element prediction been majority predictions using unrestricted application matrix-based approaches false positives
+extending technique using phylogenetic footprinting between mouse human was demonstrated ten snps show significant allele-specific differences jaspar predictions seven also demonstrated electrophoretic mobility shift differences
+however only two seven had marked effect reporter gene assays
+conservation alone also been demonstrated poor discriminant function study regulatory polymorphisms eukaryotic promoter database promoters where zero ten experimentally validated regulatory variants were conserved binding sites 
+substantial challenge developing strategies identifying functional noncoding variants been shortage characterized regulatory variants
+few studies successfully identified causative variant after susceptibility haplotype identified
+address problem assembled largest openly available collection functional regulatory polymorphisms within oreganno database
+dataset examined several features snps they relate polymorphisms unknown function within promoter regions associated genes
+our hypothesis using combination regulatory population genetics properties discriminative efficacy individual properties evaluated significant predictors rsnp function chosen
+within our assayed set found best discriminants distance transcription start site local repetitive density content sequence conservation minor allele frequency derived allele frequency cpg island presence
+notably unrestricted application matrix-based approach demonstrated one least effective classifiers
+used dataset rsnps their properties train support vector machine classifier
+two approaches were used train classifier: one properties all rsnps were compared all ufsnps one each property value positive snps ufsnps within associated gene were compared average values each property within gene
+all approach designed determine if there any properties important across test set while group approach designed determine if there important directional shifts values within promoter may discriminate functional snps ufsnps
+10-fold cross-validated test svm achieves receiver operating characteristic value 0.83 0.05 all analysis 0.78 0.04 group analysis 

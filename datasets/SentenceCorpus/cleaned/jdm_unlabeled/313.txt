@@ -1,0 +1,12 @@
+ 
+calibration probability confidence judgments concerns association between judgments some estimate correct probabilities events
+researchers rely estimates using relative frequencies computed aggregating data over observations
+show approach creates conceptual problems may result confounding explanatory variables unstable estimates
+circumvent problems propose using probability estimates obtained statistical models-specifically mixed models binary data-in analysis calibration
+illustrate methodology re-analyzing data published study comparing results approach those based relative frequencies
+model-based estimates avoid problems confounding variables provided more precise estimates resulting better inferences
+ introduction 
+there substantial literature about quality probability confidence judgments
+specific property probability judgments-their calibration-has been accepted common standard validity empirical literature
+judgments said calibrated if p number percent all events assigned subjective probability p materialize
+paper focuses some conceptual methodological problems associated standard calibration analyses

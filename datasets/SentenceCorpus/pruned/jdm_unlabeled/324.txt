@@ -1,0 +1,16 @@
+
+one major statistical judgment decision making research identification individual decision strategies selection tasks tasks predictions strategies differ
+more strategies considered larger number dependent measures taken into account strategy classification more complex selection most tasks
+suggest task selection method solution problem
+according experimental tasks selected average difference between strategy predictions any prediction space
+model simulation evaluate influence task selection identification rates strategy classification
+strategy classification shows performance comparison less task selection algorithms sampling
+advantage particularly large if only few dependent measures considered
+also provide function free allows predictions most considered strategies set tasks those tasks via thus apply no prior knowledge necessary
+introduction
+identification decision strategies always behavioral decision research
+there at least three approaches
+structural modeling regression based approach identify relation between criterion variable cues judgments process methods example information search use decision process whereas comparative model approaches investigate data predictions different models determine model decision strategy
+comparative model particular recent judgment decision making research
+paper discuss problem task selection when using strategy classification method
+suggest task selection method solution

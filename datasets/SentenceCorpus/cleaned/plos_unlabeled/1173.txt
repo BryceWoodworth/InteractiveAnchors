@@ -1,0 +1,31 @@
+ 
+mechanism cortical folding pattern formation not fully understood
+current models represent scenarios describe pattern formation through local interactions one recent model intermediate progenitor model
+intermediate progenitor model describes local chemically driven scenario where increase intermediate progenitor cells subventricular zone correlates gyral formation
+here present mathematical model uses features ip model further captures global characteristics cortical pattern formation
+prolate spheroidal surface used approximate ventricular zone
+prolate spheroidal harmonics applied turing reaction-diffusion system providing chemically based framework cortical folding
+our model reveals direct correlation between pattern formation size shape lateral ventricle
+additionally placement directionality sulci relationship between domain scaling cortical pattern elaboration explained
+significance model elucidates consistency cortical patterns among individuals within species addresses inter-species variability based global characteristics provides critical piece puzzle cortical pattern formation
+ introduction 
+cerebral cortical patterns fascinated scientists centuries their beauty complexity
+numerous groups relate malformations sulcal patterns different diseases humans autism attention deficit/hyperactivity disorder
+though many advances occurred cortical development sulcogenesis understanding how sulci form what factors determine placement sulci still limited
+cerebral cortex across species displays variety shapes sizes also wide array sulcal patterning
+studying evolutionary development sulcal patterns might provide clues about cortical development taking place humans
+major advance determining how sulcal patterns form was introduction axonal tension hypothesis
+hypothesis describes mechanically-based scenario where axonal tension created developing corticocortical connections strongly interconnected regions pulls together gyral walls creates folding pattern
+hypothesis furthered concept variability between folding patterns among individuals genetically driven not just consequence random mechanical buckling confined cortex
+other mechanochemical models also been proposed explain morphogenesis central nervous system 
+recently been suggested cortical pattern arise based regional patterns intermediate progenitor cells subventricular zone
+intermediate progenitor model builds upon intermediate progenitor cell hypothesis states during development cortex certain radial glial cells ventricular zone activated create ip cells travel svz
+ip cells amplify amount neurons created given radial column
+furthermore subset ip cells creates local amplification neurons upper cortical layers surrounded areas non-amplification resulting wedge shape cortex
+wedge shape representative gyrus
+new hypothesis still being debated if correct could scenario chemically-based pattern formation cortex
+here relatively simple believe elegant chemically-driven mathematical model proposed explain how ip cell subsets distributed spatially temporally developing cortex
+our model call global intermediate progenitor model uses turing reaction-diffusion system containing activator inhibitor prolate spheroidal surface determine regional areas activation production ip cells
+gip model allows determination placement initial sulci underlying observed complex cortical patterns
+also demonstrates initial folds arising sulcal pattern governed global shape lateral ventricle
+dependency global shape provides critical piece puzzle cortical development

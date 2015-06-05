@@ -1,0 +1,29 @@
+ 
+previous studies multi-instance learning typically treated instances bags independently identically distributed
+instances bag however rarely independent real tasks better performance expected if instances treated non iid
+way exploits relations among instances
+paper propose two simple yet effective methods
+first method explicitly map every bag undirected graph design graph kernel distinguishing positive negative bags
+second method implicitly construct graphs deriving affinity matrices propose efficient graph kernel considering clique information
+effectiveness proposed methods validated experiments
+ introduction 
+multi-instance learning  each training example bag instances
+bag positive if contains at least one positive instance negative otherwise
+although labels training bags known however labels instances bags unknown
+goal construct learner classify unseen bags
+multi-instance learning been found useful diverse domains image categorization  image retrieval  text categorization  computer security  face detection  computer-aided medical diagnosis  etc
+prominent advantage multi-instance learning mainly lies fact many real objects inherent structures adopting multi-instance representation able represent objects more naturally capture more information than simply using flat single-instance representation
+example suppose partition image into several parts
+contrast representing whole image single-instance if represent each part instance then partition information captured multi-instance representation; if partition meaningful e g  each part corresponds region saliency additional information captured multi-instance representation may helpful make learning task easier deal
+obviously not good idea apply multi-instance learning techniques everywhere since if single-instance representation sufficient using multi-instance representation just gilds lily
+even tasks where objects inherent structures should keep mind power multi-instance representation exists its ability capturing some structure information
+however zhou xu indicated previous studies multi-instance learning typically treated instances bags independently identically distributed; neglects fact relations among instances convey important structure information
+considering above image task again treating different image parts inter-correlated samples evidently more meaningful than treating them unrelated samples
+actually instances bag rarely independent better performance expected if instances treated non iid
+way exploits relations among instances
+paper propose two multi-instance learning methods do not treat instances iid
+samples
+our basic idea regard each bag entity processed whole regard instances inter-correlated components entity
+experiments show our proposed methods achieve performances highly competitive state-of-the-art multi-instance learning methods
+rest paper organized follows
+briefly review related work section 2 propose new methods section 3 report our experiments section 4 conclude paper finally section 5

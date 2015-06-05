@@ -1,0 +1,21 @@
+ 
+describe approach domain adaptation appropriate exactly case when one enough ``target'' data do slightly better than just using only ``source'' data
+our approach incredibly simple easy implement preprocessing step 10 lines perl  outperforms state-of-the-art approaches range datasets
+moreover trivially extended multi-domain adaptation problem where one data variety different domains
+ introduction 
+task domain adaptation develop learning algorithms easily ported one domain another---say newswire biomedical documents
+problem particularly interesting nlp because often situation large collection labeled data one ``source'' domain say newswire but truly desire model performs well second ``target'' domain
+approach present paper based idea transforming domain adaptation learning problem into standard supervised learning problem any standard algorithm may applied eg  maxent svms etc 
+our transformation incredibly simple: augment feature space both source target data use result input standard learning algorithm
+there roughly two varieties domain adaptation problem been addressed literature: fully supervised case semi-supervised case
+fully supervised case models following scenario
+access large annotated corpus data source domain
+addition spend little money annotate small corpus target domain
+want leverage both annotated datasets obtain model performs well target domain
+semi-supervised case similar but instead having small annotated target corpus large but unannotated target corpus
+paper focus exclusively fully supervised case
+one particularly nice property our approach incredibly easy implement: appendix provides line character perl script performing complete transformation available at \url{http://hal3
+name/easyadapt
+pl
+gz}
+addition simplicity our algorithm performs well some cases better than current state art techniques

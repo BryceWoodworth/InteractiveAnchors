@@ -1,0 +1,49 @@
+
+fundamental problem understanding how memory ability information at like networks
+most likely mechanism network effort
+yet despite almost work networks not
+particular there still two questions
+first how networks exhibit firing observed experimentally during memory tasks
+second how many under conditions
+here answer both questions neural network each other
+using analysis derive description networks
+description follows firing exist only if number neurons involved memory large
+same analysis also shows number network scales number result been suggested simple models but shown ones
+both predictions using simulations large networks neurons
+introduction
+critical component any cognitive system memory mechanism information about past events information at later times
+without mechanism even simple tasks whether after report would
+although not known how information neural systems very natural way through networks
+networks events world stable patterns activity brain so at pattern activity at current time other brain know about what past
+there now experimental evidence networks temporal
+theoretical well how networks could networks at least principle
+all needed increase among neurons
+if increase large then each active without input thus events past
+while basic theory networks been known some time past principle understanding how could networks been difficult
+because original model several important neurons did not when memory was neurons much higher than observed experimentally memory tasks there was no state no state all neurons at low rates
+most problems been
+first was was synaptic using neurons either then setting any weights
+second network low firing rate was appropriate
+third problem no was either making stochastic input
+there still two fundamental open questions
+one how understand highly firing observed experimentally memory tasks question important because firing thought play critical role both how fast out ability networks perform statistical inference
+though because out synaptic neurons number per
+because high connectivity observed mean synaptic much larger than neurons should
+moreover out et al even models produce firing neurons neurons still tend more than neurons experiments
+several studies problem either directly
+most them however did not investigate network parameters its size
+so although parameters were found activity was not clear how those parameters should scale size network increased values
+two did investigate firing was possible only if small neurons was involved each only if level was very small
+although there been no direct measurements level during activity at least our knowledge experiments temporal suggest much larger than one used models
+should point out though model et al only one neurons at least neurons
+second open question what networks
+how many different single network
+critical understanding highly memory observed
+simple models answer shown work number classical network about times number neurons
+more networks answer also known
+however even more studies biological at least one connectivity was all all rather than sparse neurons were binary there was no firing rate state was higher than observed experimentally level was very small
+here answer both show networks neurons how firing
+our analysis uses relatively standard techniques requires only one neurons network
+given assumption first show neurons only if level above some threshold although feature our model neurons more than neurons
+then show maximum number our network number per result consistent models discussed above
+predictions simulations networks neurons

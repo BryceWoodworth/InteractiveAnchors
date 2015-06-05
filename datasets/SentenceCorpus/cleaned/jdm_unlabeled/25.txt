@@ -1,0 +1,30 @@
+ 
+principle loss aversion thought explain wide range anomalous phenomena involving tradeoffs between losses gains
+article i show anomalies loss aversion was introduced explainthe risky bet premium endowment effect status-quo biasare characterized not only loss gain tradeoff but tradeoff between status-quo change propensity towards status-quo latter tradeoff sufficient explain phenomena
+moreover i show two basic psychological principles number motives drive behavior number preferences tend fuzzy ill-definedimply existence robust fundamental propensity sort
+thus loss aversion principle rendered superfluous account phenomena was introduced explain
+ introduction 
+research shown people tend evaluate outcomes not terms their impact individual's resulting state wealth but terms changes reference state
+moreover evidence been interpreted imply people loss averse negative changes i e losses reference state thought loom larger than positive changes i e gains equivalent magnitude
+principle named loss aversion commonly considered most robust important finding behavioral decision theory been widely hailed cited seemingly ubiquitous phenomenon
+seeming ubiquity evident economics finance literature where loss aversion been cited inter alia account equity premium puzzle disposition effect inability risk-aversion based wealth explain people's unwillingness accept small even bets
+marketing literature loss aversion similarly been cited widely account inter alia endowment effect compromise effect observed asymmetry price elasticity demand
+principle loss aversion was first introduced kahneman tversky account finding experimental subjects required premium over expected value accept bet offering even chance gain loss risky bet premium
+subsequently principle was extended context riskless choice thaler coined term endowment effect refer finding randomly assigned owners object appear value object more than randomly assigned non-owners object
+instance one well-known series endowment effect experiments kahneman knetsch thaler found randomly assigned owners mug required significantly more money part their possession around number than randomly assigned buyers were willing pay acquire around number
+kahneman et al tversky kahneman attributed result loss aversion owners' loss mug loomed larger than buyers' gain mug
+status quo bias individuals' tendency prefer remain at status-quois similarly attributed loss aversion assumed loss status-quo option looms larger than gain alternative option
+instance one empirical demonstration status-quo bias samuelson zeckhauser showed individuals participating hypothetical investment choice task were more likely choose invest inheritance particular investment option out four when option was presented status-quo i e when they were informed money inheritance was already invested option
+remarkably principle so pervasive principle loss aversion not derived any theory behavior more basic psychological principles but ad hoc principle introduced account range phenomena involving tradeoffs between losses gains anomalous context classical choice paradigm
+absence accepted psychological theory account loss aversion led paradoxical situation loss aversion cited explanation phenomena associated loss gain tradeoffs e g endowment effect status-quo bias risky bet premium circuitously same phenomena cited evidence existence loss aversion
+not say loss aversion lacks potentially plausible psychological basis
+indeed number researchers attempted uncover underlying psychological mechanism could explain loss gain asymmetry
+posited psychological mechanisms loss aversion include proposition hedonic impact losses greater than gains people's locus attention tends focused losses more than gains andthrough studies either animals fmrithat loss gain asymmetry cognitively hard-wired
+common feature attempts uncover psychological mechanism loss aversion premise fundamental loss gain asymmetry fact exists asymmetry reflected phenomena purports explain
+contrast present research i do not attempt explain existence loss gain asymmetry but challenge notion reference-dependent asymmetry necessary explain phenomena at all
+particular i recognize phenomena most commonly cited evidence loss aversionthe status-quo bias endowment effect risky bet premiumare characterized not only loss gain tradeoff but tradeoff between status-quo change propensity towards status quo latter tradeoff sufficient explain phenomena
+moreover i show two basic psychological principles number motives drive behavior number preferences tend fuzzy ill-definedimply existence robust fundamental propensity sort
+thus propensity remain at status-quoi e inertiais not simply alternative account loss aversion phenomena but one renders introduction loss aversion principle superfluous
+remainder article organized follows first i discuss implication nature behavior preferences propensity remain at status-quo
+subsequently i compare inertia account loss aversion account status-quo bias endowment effect risky bet premium
+i conclude argument existence basic behavioral tendency favor status-quo over change renders loss aversion principle superfluous account phenomena was introduced explain principle should therefore abandoned

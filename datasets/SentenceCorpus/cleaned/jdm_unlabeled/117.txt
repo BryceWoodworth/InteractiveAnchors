@@ -1,0 +1,20 @@
+ 
+three experiments tested if individuals show violations transitivity choices between risky gambles linked designs
+binary gambles varied probability win higher better prize value higher prize value lower prize
+each design varied two factors third fixed
+designs linked using same values different designs
+linked designs allow one determine if lexicographic semiorder model describe violations transitivity more than one design using same parameters
+addition two experiments tested interactive independence critical property implied all lexicographic semiorder models
+very few people showed systematic violations transitivity only one person out number showed violations transitivity two designs could linked lexicographic semiorder
+however person violated interactive independence did majority other participants
+most individuals showed systematic violations assumptions stochastic independence stationarity choice responses
+means investigators should evaluate models respect response patterns response combinations rather than focusing entirely choice proportions
+ introduction 
+descriptive theories risky decision making divided into two groups those satisfy transitivity preference those do not
+transitivity preference assumption if person prefers b prefers b c then person should prefer c apart random error
+use x number b denote preference so property denoted follows x number b b b x number b c x number d number x number b c
+theories represent each gamble single number automatically imply transitivity
+theories assume x number b b x number d number ua greater than ub where ua ub numerical values utilities two gambles
+expected utility theory eu cumulative prospect theory cpt transfer attention exchange model tax well many other theories fall class theories satisfy transitivity
+theories represent choice terms contrasts between components alternatives however need not satisfy transitivity preference
+theories violate transitivity include family lexicographic semiorder ls models priority heuristic regret theory rt stochastic difference model sdm others

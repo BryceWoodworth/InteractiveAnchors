@@ -1,0 +1,42 @@
+
+%
+propose method approximate inference methods influence model
+method arbitrary factor graphs provided size markov not too large
+alternative idea introduced recently
+its form assumption no present method variation method approximation uses factors clusters
+other hand using estimates effect obtained some approximate inference algorithm method usually significantly better results than approximate inference algorithm directly without
+indeed often error error approximate inference method used estimate effect
+compare different method other approximate inference methods variety models including networks approach generally most accurate results
+introduction
+recent years much research been field approximate inference models
+one obtain accurate probabilities complex probability distributions defined over many variables using limited time memory
+research large number approximate inference methods
+sampling methods most methods algorithms mean field statistical belief also known algorithm belief directly related approximation used statistical variation method other approximation methods related approximation generalization approximation using larger special case
+results other region based approximation methods one use belief algorithm algorithms convergence
+belief exact results if model tree more generally if each component tree
+if model does contain still accurate results using little time
+however if influence large approximate large errors quality results may not
+one way correct influence short increase size approximation using clusters many possible
+however choosing good set clusters highly general method will only work if clusters do not many other words if do not many
+another method certain extent does exact inference base tree model no other interactions
+part base tree one additional factor good results if model base tree case very sparse models
+however two more interactions not part base tree similar way
+hence models over usually
+article propose method into account all model approximate way therefore more accurate results many cases
+our method variation introduced
+basic idea first estimate distributions all variables improve estimates out errors using certain consistency constraints
+distribution some variable probability distribution its markov all its variables model all factors involving variable been
+factors all variable part
+allows approximate inference algorithm estimate terms effective interactions between variables markov
+then influence factors taken into account accurate probability distributions original model
+even more accuracy obtained certain consistency between distributions results errors some extent
+error algorithm generalization case approximation general
+indeed assumption no present distributions results
+other hand using better estimates effective interactions distributions accurate results
+although basic idea underlying our method very similar described alternative propose here two
+most directly arbitrary factor graphs whereas original method only been rather special case models binary variables factors eg \ many bayesian networks
+furthermore our more robust also results relatively strong interactions will shown
+article follows
+first explain theory our proposed method discuss differences original method
+then report numerical experiments quality approximation time where compare other approximate inference methods
+finally discuss results state

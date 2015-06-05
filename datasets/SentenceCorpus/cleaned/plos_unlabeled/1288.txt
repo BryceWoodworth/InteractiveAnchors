@@ -1,0 +1,33 @@
+ 
+computational methods attempting identify instances cis-regulatory modules genome face challenging problem searching potentially interacting transcription factor binding sites while knowledge specific interactions involved remains limited
+without comprehensive comparison their performance reliability accuracy tools remains unclear
+faced large number different tools address problem summarized categorized them based search strategy input data requirements
+twelve representative methods were chosen applied predict crms drosophila crm database redfly across human encode regions
+our results show optimal choice method varies depending species composition sequences question
+when discriminating crms non-coding regions those methods considering evolutionary conservation stronger predictive power than methods designed run single genome
+different crm representations search strategies rely different crm properties different methods complement one another
+example some favour homotypical clusters binding sites while others perform best short crms
+furthermore most methods appear sensitive composition structure genome they applied
+analyze principal features distinguish methods performed well identify weaknesses leading poor performance provide guide users
+also propose key considerations development evaluation future crm-prediction methods
+ introduction 
+cis-acting transcriptional regulation involves sequence-specific binding transcription factors dna
+most cases multiple transcription factors control transcription single transcription start site cooperatively
+limited repertoire transcription factors performs complex regulatory step through various spatial temporal interactions between themselves their binding sites
+genome-wide scale transcription factor binding interactions clustered distinct modules rather than distributed evenly
+modules called cis-regulatory modules
+dna sequences promoters enhancers silencers others examples modules
+appropriate transcription factors compete bind elements act activators repressors
+generally crm ranges few hundred basepairs long few thousand basepairs long; several transcription factors bind each transcription factors multiple binding sites 
+berman et al demonstrated feasibility identifying crms sequence analysis
+they scanned drosophila genome clusters potential binding sites five gap gene transcription factors known together regulate early drosophila embryo
+they found more than third dense clusters binding sites correspond crms regulating early embryo gene expressions characteristic genes regulated maternal gap transcription factors
+similarly exploiting property many crms contain clusters similar transcription factor binding sites schroeder et al computationally predicted crms over genomic regions genes interest gap mixed maternal-gap transcription factors identified both known novel crms within segmentation gene network
+recent study confirmed importance crm functions revealed how subtle changes original arrangement module elements affect its function
+gompel et al found modifications cis-regulatory elements pigmentation gene yellow cause wing pigmentation spot appear drosophila biarmipes similar seen drosophila melanogaster thus showing mutations crms generate novelty between species
+later study they showed creation destruction distinct regulatory elements same gene lead same morphological change
+williams et al investigated genetic switch whereby hox protein abd-b controls bab expression sexually dimorphic trait drosophila
+they discovered functional difference case lies not only creation destruction binding sites but also their orientations spacings
+there also evidence showing disruption cooperations within specific crm lead malformation disease
+one example given kleinjan et al
+deletion any distal regulatory elements pax6 changes its expression level causes congenital eye malformation aniridia brain defects human

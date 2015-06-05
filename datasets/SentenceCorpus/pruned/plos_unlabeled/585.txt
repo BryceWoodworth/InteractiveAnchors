@@ -1,0 +1,34 @@
+
+studies evolution new loss stability thus between new functions stability
+however since most mutations one should how mutations new functions relative all other mutations
+applied g analyze effects mutations evolution different
+stability effects type mutations were compared g changes all possible point mutations same
+found mutations functions almost average mutation
+although their stability effects not key residues mutations binding thus new place larger stability than mutations evolutionary changes
+how effects functional mutations adaptation
+our analysis also many mutations appear evolution no role new function effects may effects mutations
+thus evolution new both nature dependent effect mutations regions protein its function
+introduction
+protein domains structure function dependent its stability
+evolutionary processes they adaptive involve mutations may affect protein function stability
+example mutation new function but stability will not become fixed
+relationship between effects function stability therefore our understanding not only evolutionary dynamics proteins but also novel
+particularly structural residues active sites
+point view overall protein stability active site number
+functional residues generally like
+key residues often
+key increase stability activity
+observations generally principle was later extended between new functions stability
+however discussed below there exists fundamental difference between mutations key residues well mutations evolutionary new functions
+new functions via mutations typically increasing rates
+changes involve active site its even second third residues while key residues
+shown below mutations key residues typically involve into within type new function mutations far more
+observed et al most mutations new functions been
+however new functions should view fact their function most mutations
+indeed g distributions all possible mutations series proteins using experimentally algorithm about percent mutations percent significantly
+other hand mutations changes occur at first sequence mutations much less average g
+thus better understanding how new functions protein stability requires comparison mutations new protein functions all other possible mutations protein well mutations changes
+investigated large set mutations were found new evolution experiments
+applied g values mutations compared type g values mutations all possible point mutations same proteins
+while values prediction limited accuracy they do distributions g values large set proteins mutations whole predictions show correlation experimental data
+thus values individual mutations experimental values observed likely relevant

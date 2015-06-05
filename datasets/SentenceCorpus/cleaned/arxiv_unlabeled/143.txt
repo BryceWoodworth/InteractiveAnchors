@@ -1,0 +1,131 @@
+ 
+paper propose miml  multi-instance multi-label learning 
+framework where example described multiple instances associated
+multiple class labels
+compared traditional learning frameworks miml
+framework more convenient natural representing complicated objects
+multiple semantic meanings
+learn miml examples propose
+\textsc{mimlboost} \textsc{mimlsvm} algorithms based simple degeneration
+strategy experiments show solving problems involving complicated objects
+multiple semantic meanings miml framework lead good performance
+considering degeneration process may lose information propose
+\textsc{d-mimlsvm} algorithm tackles miml problems directly regularization
+framework
+moreover show even when do not access real objects
+thus cannot capture more information real objects using miml
+representation miml still useful
+propose \textsc{insdif}
+\textsc{subcod} algorithms \textsc{insdif} works transforming single-instances into
+miml representation learning while \textsc{subcod} works transforming
+single-label examples into miml representation learning
+experiments show
+some tasks they able achieve better performance than learning
+single-instances single-label examples directly
+ introduction 
+traditional supervised learning  object represented instance
+i e  feature vector associated class label
+formally let
+denote instance space feature space set class labels
+task learn function given data set
+ where instance known label
+although formalization prevailing successful there many real-world
+problems do not fit framework well
+particular each object
+framework belongs only one concept therefore corresponding instance
+associated single class label
+however many real-world objects complicated
+may belong multiple concepts simultaneously
+example image belong
+several classes simultaneously eg  grasslands  lions 
+africa  etc ; text document classified several categories if
+viewed different aspects eg  scientific novel  jules verne's
+writing even books traveling ; web page recognized
+news page  sports page  soccer page  etc
+specific real
+task maybe only one multiple concepts right semantic meaning
+
+example image retrieval when user interested image lions s/he may
+only interested concept lions instead other concepts
+grasslands africa associated image
+difficulty here
+caused those objects involve multiple concepts
+choose right semantic meaning objects specific scenario fundamental difficulty many tasks
+contrast starting large universe all possible concepts involved task may helpful get subset concepts associated concerned object at first then make choice small subset later
+however getting subset concepts assigning proper class labels objects still challenging task
+notice alternative representing object single instance
+many cases possible represent complicated object using set instances
+example multiple patches extracted image where each patch
+described instance thus image represented set instances;
+multiple sections extracted document where each section described
+instance thus document represented set instances; multiple
+links extracted web page where each link described instance
+thus web page represented set instances
+using multiple instances
+represent those complicated objects may helpful because some inherent patterns
+closely related some labels may become explicit clearer
+paper propose miml  multi-instance multi-label learning 
+framework where example described multiple instances associated
+multiple class labels
+compared traditional learning frameworks miml framework more convenient
+natural representing complicated objects
+exploit advantages miml
+representation new learning algorithms needed
+propose \textsc{mimlboost}
+algorithm \textsc{mimlsvm} algorithm based simple degeneration strategy
+experiments show solving problems involving complicated objects multiple
+semantic meanings under miml framework lead good performance
+considering
+degeneration process may lose information also propose
+\textsc{d-mimlsvm} i e  direct \textsc{mimlsvm} algorithm tackles miml
+problems directly regularization framework
+experiments show ``direct''
+algorithm outperforms ``indirect'' \textsc{mimlsvm} algorithm
+some practical tasks do not access real objects themselves
+real images real web pages; instead given observational data where
+each real object already been represented single instance
+thus cases
+cannot capture more information real objects using miml representation
+even situation however miml still useful
+propose \textsc{insdif}
+i e  instance differentiation algorithm transforms single-instances into miml
+examples learning
+algorithm able achieve better performance than
+learning single-instances directly some tasks
+not strange because
+object associated multiple class labels if described only single
+instance information corresponding labels mixed thus difficult
+learning; if transform single-instance into set instances some
+proper ways mixed information might detached some extent thus less
+difficult learning
+miml also helpful learning single-label objects
+propose
+\textsc{subcod} i e  sub-concept discovery algorithm works discovering
+sub-concepts target concept at first then transforming data into miml
+examples learning
+algorithm able achieve better performance than
+learning single-label examples directly some tasks
+also not strange
+because label corresponding high-level complicated concept may quite
+difficult learn concept directly since many different lower-level concepts
+mixed; if transform single-label into set labels corresponding some
+sub-concepts relatively clearer easier learning learn
+labels at first then derive high-level complicated label based them
+less difficulty
+rest paper organized follows
+section review
+some related work
+section propose miml framework
+
+section propose \textsc{mimlboost} \textsc{mimlsvm}
+algorithms apply them tasks where objects represented miml examples
+section present \textsc{d-mimlsvm} algorithm compare
+``indirect'' \textsc{mimlsvm} algorithm
+sections
+ study usefulness miml when do not access real
+objects
+concretely section propose \textsc{insdif}
+algorithm show using miml better than learning single-instances
+directly; section propose \textsc{subcod} algorithm
+show using miml better than learning single-label examples directly
+finally conclude paper section

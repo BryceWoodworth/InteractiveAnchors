@@ -1,0 +1,32 @@
+ 
+prediction complex notion different predictors people computer programs probabilistic theories pursue very different goals
+paper i will review some popular kinds prediction argue theory competitive on-line learning benefit kinds prediction now foreign
+standard goal predictor learning theory incur small loss given loss function measuring discrepancy between predictions actual outcomes
+competitive on-line learning concentrates ``relative'' version goal: predictor perform almost well best strategies given benchmark class prediction strategies
+predictions interpreted decisions made ``small'' decision maker i e  one whose decisions do not affect future outcomes
+predictions probability forecasts  considered foundations probability statements rather than decisions; loss function replaced procedure testing forecasts
+two main approaches foundations probability measure-theoretic formulated kolmogorov game-theoretic developed von mises ville); former now dominant mathematical probability theory but latter appears better adapted uses learning theory discussed paper
+important achievement kolmogorov's school foundations probability was construction universal testing procedure realization levin 1976 there exists forecasting strategy produces ideal forecasts
+levin's ideal forecasting strategy however not computable
+its more practical versions obtained results game-theoretic probability theory
+wide class forecasting protocols shown any computable game-theoretic law probability there exists computable forecasting strategy produces ideal forecasts far law probability concerned
+choosing suitable laws probability ensure forecasts agree reality requisite ways
+probability forecasts known agree reality used making good decisions: most straightforward procedure select decisions optimal under forecasts principle minimum expected loss
+gives inter alia  powerful tool competitive on-line learning; i will describe its use designing prediction algorithms satisfy property universal consistency its more practical versions
+conclusion paper i will discuss some limitations competitive on-line learning possible directions further research \thispagestyle{empty} \iffullthe changes i made compared : ``talk'' replaced ``paper'' throughout
+still refers ``outcomes'' rather than ``observations'' ``data'' main part paper \blueend
+ introduction 
+paper based my invited talk at 19th annual conference learning theory pittsburgh pa june 24 2006
+recent years colt invited talks tended aim at establishing connections between traditional concerns learning community work done other communities game theory statistics information theory optimization
+following tradition i will argue some ideas foundations probability fruitfully applied competitive on-line learning
+paper i will use following informal taxonomy predictions reminiscent shafer's  figure 2 taxonomy probabilities): d-predictions mere decisions
+they never true false but good bad
+their quality typically evaluated loss function s-predictions statements about reality
+they tested if found inadequate rejected false f-predictions frequentist predictions intermediate between d-pre\-dic\-tions s-predictions
+they successful if they match fre\-quen\-cies various observed events
+traditionally learning theory general competitive on-line learning particular consider d-predictions
+i will start section  simple asymptotic result about d-predictions: there exists universally consistent on-line prediction algorithm randomized if loss function not required convex prediction
+section devoted s-prediction section f-prediction
+will see s-prediction more fundamental than serve tool f-prediction
+section explains how f-prediction so indirectly s-prediction relevant d-prediction
+section i will prove result section about universal consistency well its non-asymptotic version

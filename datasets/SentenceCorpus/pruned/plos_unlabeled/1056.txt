@@ -1,0 +1,39 @@
+
+many important protein protein interactions binding short one protein large another
+recent provided examples new binding proteins structure available but where no structure protein complex known
+address present approach predict binding sites protein
+known particular protein method predicts binding sites accuracy approach means also used predict whether not predicted will
+used known protein derive preferences form spatial position specific matrices describe environment proteins each type amino bound
+then binding protein sites each amino present search amino sites constraints sequence
+method performed well experimental data binding sites several recently interactions including proteins domains domains domain
+method associated statistics predicting binding sites critical events biology
+introduction
+protein protein interactions all cellular processes including signaling dna
+interactions how they
+what most often interactions involving large those however many important protein interactions particularly those related events like binding domain one protein short another
+often disordered including many disordered interaction thus explain many functional regions
+regions binding common protein domain often sequence pattern linear key features binding
+instance domains motifs domains motifs domains
+since they generally more than interactions involving larger protein interactions also represent important new class drug targets there number small molecules designed target them
+discovery new motifs interactions been interest recent years
+several techniques been developed new known
+instance been applied new many proteins domains including domains
+several computational approaches also been developed use protein known structure find additional likely recently probabilistic interaction networks been used predict regions corresponding kinase
+common all approaches they rely prior knowledge type binding domain often require further knowledge binding site protein
+they thus generally only effective finding new known cannot directly new protein interaction types
+protein protein only widely used technique applied problem generally however approach limited application than residues high degree one must consider when residues need known only available
+moreover methods very conformational changes require very structures perform well
+new protein interaction types experimentally because difficult know regions larger proteins binding experiments binding
+address several computational methods been developed new protein pairs using principle sequence proteins common
+methods together much work focused understanding interactions identified predicted new interactions particular protein domain
+however provide information about where protein
+suggest further experiments help design interaction
+structures protein all interactions will require time become available though increase structural data single proteins means very often structures available at least part protein
+there thus between proteins known structure known predicted particular available would understanding mechanism discovery additional
+here present method predicting binding site protein
+used protein known structure protein data define spatial position specific matrices preferences how each amino protein
+three position specific matrices been used past predict protein quality structural models predict function proteins based position specific matrices new protein structure identify protein
+however best our knowledge they not been used predict interactions way
+new protein pair identify binding sites predicted sites each protein according distance constraints
+developed statistics determine confidence prediction estimate whether not
+when applied obtained sensitivity us apply approach several new interactions interaction membrane protein 1 factor receptor domain protein binding sites further

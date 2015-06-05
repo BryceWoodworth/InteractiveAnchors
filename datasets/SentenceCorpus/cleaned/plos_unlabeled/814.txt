@@ -1,0 +1,41 @@
+ 
+halobacterium salinarum bioenergetically flexible halophilic microorganism generate energy respiration photosynthesis fermentation arginine
+previous study using genome-scale metabolic model shown archaeon unexpectedly degrades essential amino acids under aerobic conditions behavior lead termination growth earlier than necessary
+here further integratively investigate energy generation nutrient utilization biomass production using extended methodology accounts dynamically changing transport patterns including those arise interactions among supplied metabolites
+moreover widen scope our analysis include phototrophic conditions explore interplay between different bioenergetic modes
+surprisingly found cells also degrade essential amino acids even during phototropy when energy should already abundant
+also found under both conditions considerable amounts nutrients were taken up were neither incorporated into biomass nor used respiratory substrates implying considerable production accumulation several metabolites medium
+some likely products forms overflow metabolism
+addition our results also show arginine fermentation contrary what typically assumed occurs simultaneously respiration photosynthesis contribute energy levels comparable primary bioenergetic modes if not more
+findings portray picture organism takes approach toward growth favors here now even at cost longer-term concerns
+believe seemingly greedy behavior exhibited actually consists adaptations organism its natural environments where nutrients not only irregularly available but may altogether absent extended periods may span several years
+setting probably predisposed cells grow much possible when conditions become favorable
+ introduction 
+halobacterium salinarum halophilic archaeon thrives extremely saline environments salt concentrations reaching 4 m higher
+organism perhaps most well known its retinal-protein bacteriorhodopsin light-driven proton pump
+br only known nonchlorophyll structure allows photosynthesis
+currently being developed applications optical security optical data storage holography
+accordingly h salinarum's photosynthetic capabilities its most well-studied aspects
+example 3d structure br been resolved its complete catalytic cycle elucidated at molecular level
+however despite focus br photosynthesis not only means h salinarum generate energy
+respiration well fermentation arginine other mechanisms utilized organism
+bioenergetic flexibility makes archaeon good model system investigating interplay between different energy production modes
+h salinarum also one few reported organisms use potassium gradients long term energy storage battery-like manner 
+metabolic network organism reconstructed genomic biochemical physiological data
+network consists known hypothesized reactions take place within organism considered genome-scale when most all genes known metabolic function included
+previous study reconstructed proposed network halobacterium salinarum
+addition immediate information gained metabolic reconstructions networks analyzed gain insights emergent system properties through use appropriate computational methods
+respect constraints-based framework emerged important convenient tool modeling systems because does not require detailed information typically required full kinetic models
+rather constraints-based models require only generally available physicochemical information stoichiometry reversibility energy balance when available reaction velocities 
+one methods available under constraints-based framework flux balance analysis
+essentially fba uses linear optimization find flux distribution maximizes particular objective function e.g growth rate atp production
+been shown optimality principles within limits under defined conditions describe operation metabolic networks including prediction internal fluxes
+extensions fba include hybrid models introduce some degree dynamics through integration time-variant input rates static model 
+our aim study two-fold
+first set out investigate interplay between energy generation nutrient utilization biomass production under different bioenergetic modes
+second also analyzed relationships between different energy producing mechanisms respiration photosynthesis fermentation themselves typically examined individually
+achieve used genome-scale metabolic network connects different aspects
+our results include several findings contrary assumptions typically made; particularly respect utilization nutrients how bioenergetic modes operate
+more methodological perspective also sought out extend existing framework hybrid genome-scale metabolic models handle biological systems where nutrient utilization growth rates vary time
+changes nutrient consumption example result differences between growth phases arise interactions between supplied metabolites
+demonstrate extended methodology not only accounts dynamics but several instances actually led identification underlying causes

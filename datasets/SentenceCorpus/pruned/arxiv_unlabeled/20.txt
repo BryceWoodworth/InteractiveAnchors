@@ -1,0 +1,36 @@
+
+paper optimal decisions
+our approach directly approximate optimal tree depending observation
+approximation made means probabilistic
+particular family hidden markov models input output considered model policy
+method parameters proposed applied
+optimization based principle events simulation developed
+introduction
+there different difficulty control problems
+most problems given state required state
+there several transition rules condition sequence decision
+example may required state b its decision could turn turn cannot conditions over decision
+first degree difficulty find at least one solution
+when states only known resulting actions not difficulty take into account various observations
+now problem much more complex when required optimal
+example find b
+there different difficulty depending problem not depending model future observations
+particular case problem full observation hypothesis dynamic principle could applied markov decision process
+solution been extended case observation markov decision but solution generally not dimension variables different methods problem been introduced
+example learning methods able learn evaluation decision known states observation short range
+case range observation indeed limited time because learn
+recent case order range
+methods generally based hypothesis about reward
+another based direct learning policy
+our approach
+particularly based algorithm developed
+simulation method both probabilistic paper models bayesian networks efficient robust algorithm model parameters
+more policy will probabilistic i e decisions depending observations involving typically hidden markov models used
+also means hidden markov models next section some description optimal
+proposed method based direct approximation optimal decision tree
+third section family hidden markov models being use decision
+section method parameters order approximate optimal decision tree problem
+method described applied
+section example application
+comparison learning method made
+paper then

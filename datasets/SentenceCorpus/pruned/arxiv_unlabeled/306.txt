@@ -1,0 +1,11 @@
+
+% pattern recognition tasks model selection typically classification error rate set development data subject human some other means
+context processing systems other practical applications however development data typically difficult obtain
+article alternative framework model selection data using each model generate
+errors result shown results robust statistics turn provide likelihood tests test case
+approach then experimentally using recognition system between using data only potentially contain words under test
+results provide evidence utility approach suggest may also find use other applications machine learning
+introduction
+article simple framework use development data model selection system optimization context processing
+within long role both training criterion objective function system development
+turn more instance now common practice model compared those universal model part many processing systems

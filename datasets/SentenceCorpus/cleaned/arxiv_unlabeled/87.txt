@@ -1,0 +1,41 @@
+ 
+combining mutual information criterion forward feature selection strategy offers good trade-off between optimality selected feature subset computation time
+however requires set parameter(s mutual information estimator determine when halt forward procedure
+two choices difficult make because dimensionality subset increases estimation mutual information becomes less less reliable
+paper proposes use resampling methods k-fold cross-validation permutation test address both issues
+resampling methods bring information about variance estimator information then used automatically set parameter calculate threshold stop forward procedure
+procedure illustrated synthetic dataset well real-world examples
+ introduction 
+feature selection consists choosing among set input features variables subset features maximum prediction power output
+more formally let us consider random input vector continuous random output variable predicted
+task feature selection consists finding features most relevant predict value
+selecting features important practice especially when distance-based methods like k-nearest neighbors k-nn radial basis function networks rbfn support vector machines svm depending kernel considered
+methods indeed quite sensitive irrelevant inputs: their performances tend decrease when useless variables added data
+when data high-dimensional i e initial number variables large exhaustive search optimal feature set course intractable
+cases furthermore most methods `work backwards' eliminating useless features perform badly
+backward elimination procedure instance pruning methods multilayer perceptron  svm-based feature selection  weighting methods like generalized relevance learning vector quantization algorithm require building model all initial features
+high-dimensional data will often lead large computation times overfitting convergence problems more generally issues related curse dimensionality
+approaches furthermore bound specific prediction model
+contrast forward feature selection procedure applied using any model begins small feature subsets
+procedure furthermore simple often efficient
+nevertheless when data high-dimensional becomes difficult perform forward search using prediction model directly
+because every candidate feature subset prediction model must fit involving resampling techniques grid searching optimal structural parameters
+cheaper alternative estimate relevance each candidate subset statistical information-theoretic measure without using prediction model itself
+combined use forward feature search information-theoretic-based relevance criterion generally considered good option when nonlinear effects prevent using correlation coefficient
+context mutual information estimated using nearest neighbour-based approach been shown effective
+nevertheless approach just like most feature selection methodologies faces two difficulties
+first one generic all feature selection methods lies optimal choice number features select
+most time number features select chosen priori so maximize relevance criterion
+former approach leaves no room optimization while latter may very sensitive estimation relevance criterion
+second difficulty concerns choice parameter(s estimation relevance criterion
+indeed most criteria except maybe correlation coefficient at least one structural parameter like number units kernel width prediction model number neighbours number bins nonparametric relevance estimator etc
+often result selection highly depends value those parameter(s
+aim paper provide automatic procedure choose two above-mentioned important parameters i e number features select forward search structural parameter(s relevance criterion estimation
+procedure will detailed situation where mutual information used relevance criterion estimated through nearest neighbours
+resampling methods will used obtain automatic choice
+those methods increase computational cost forward search but provide meaningful information about quality estimations setting parameters: will shown permutation test used automatically stop forward procedure combination permutation k-fold resampling allows choosing optimal number neighbors estimation mutual information
+remaining paper organized follows
+section introduces mutual information permutation test k-fold resampling briefly reviews how they used together
+section illustrates challenges choosing number neighbours mutual information estimation number features select forward search
+section then presents proposed approach
+performances method real-world data reported section

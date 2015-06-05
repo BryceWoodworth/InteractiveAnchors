@@ -1,0 +1,73 @@
+ 
+metabolic rate heart rate lifespan many other physiological properties vary body mass systematic interrelated ways
+present empirical data suggest scaling relationships take form power laws exponents simple multiples one quarter
+compelling explanation observation was put forward decade ago west brown enquist
+their framework elucidates link between metabolic rate body mass focusing dynamics structure resource distribution networks cardiovascular system case mammals
+within framework wbe model based eight assumptions derives well-known observed scaling exponent 3/4
+paper clarify result only holds limit infinite network size actual exponent predicted model depends sizes organisms being studied
+failure clarify explore nature approximation led debates about wbe model were at cross purposes
+compute analytical expressions finite-size corrections 3/4 exponent resulting spectrum scaling exponents function absolute network size
+when accounting corrections over size range spanning eight orders magnitude observed mammals wbe model predicts scaling exponent 0.81 seemingly at odds data
+then proceed study sensitivity scaling exponent respect variations several assumptions underlie wbe model always context finite-size corrections
+here too trends derive model seem at odds trends detectable empirical data
+our work illustrates utility wbe framework reasoning about allometric scaling while at same time suggesting current canonical model may need amendments bring its predictions fully line available datasets
+ introduction 
+whole-organism metabolic rate b scales body mass m across species formulawhere b 0 normalization constant allometric scaling exponent typically measured very close 3/4
+empirical regularity expressed equation 1 3/4 known kleiber's law 
+many other biological rates times scale simple multiples 1/4
+example cellular mass-specific metabolic rates heart respiratory rates ontogenetic growth rates scale m 1/4 whereas blood circulation time development time lifespan scale close m 1/4
+quarter-power scaling also observed ecology evolution
+occurrence quarter-power scaling at diverse levels biological organization suggests all rates closely linked
+metabolic rate seems most fundamental because rate at energy materials taken up environment transformed biochemical reactions allocated maintenance growth reproduction
+series papers starting 1997 west brown enquist published model account 3/4-power scaling metabolic rate body mass across species
+broad theory biological allometry developed wbe collaborators attributes quarter-power scaling near-optimal fractal-like designs resource distribution networks exchange surfaces
+there some evidence designs realized at molecular organelle cellular organismal levels wide variety plants animals 
+intensifying controversy surrounded wbe model since its original publication even extending debate about quality analysis data
+one most frequently raised objections wbe model cannot predict scaling exponents metabolic rate deviate 3/4 even though potential deviations was appreciated wbe themselves
+if criticism were true wbe could not principle explain data taxa whose scaling exponents been reported above below 3/4 deviations 3/4 been observed small mammals
+likewise wbe model would unable account scaling maximal metabolic rate body mass appears exponent 0.88
+important note actual nature maximal metabolic rate scaling however not without its own controversy; see argument maximal metabolic rate scales closer 3/4 when body temperature taken into consideration
+much work aimed at answering criticisms relied alteration wbe model itself
+enquist collaborators account different scaling exponents among taxonomic groups emphasizing differences normalization constant b 0 equation 1 deviations wbe assumptions regarding network geometry
+while results suggestive remains unclear whether not wbe predict exponents significantly different 3/4 measurable deviations pure power law even absence any variation b 0 networks following exactly geometry required theory
+although wbe been frequently tested applied remarkable no theoretical work been published provides more detailed predictions original theory
+also work aimed at extending wbe relaxing modifying some its assumptions hardly been complete; many variations network structure might important far-reaching consequences once properly analyzed
+what set out do present contribution
+show misunderstanding original model led claim wbe only predict 3/4 exponent
+because many predictions tests original model derived leading-order approximations
+paper derive more precise predictions tests
+purpose stating our conclusions succinctly refer wbe framework approach explaining allometric scaling phenomena terms resource distribution networks wbe model instance wbe framework employs particular parameters specifying geometry dynamics networks
+our main findings are: 1
+3/4 exponent only holds exactly limit organisms infinite size
+2
+finite-sized organisms show wbe model does not predict pure power-law but rather curvilinear relationship between logarithm metabolic rate logarithm body mass 3
+although wbe recognized finite size effects would produce deviations pure 3/4 power scaling small mammals infinite size limit constitutes idealization magnitude importance finite-size effects were unclear
+show when emulating current practice calculating scaling exponent straight line regressed curvilinear relationship over entire range body masses exponent predicted wbe model differ significantly 3/4 without any modifications its assumptions framework
+4
+when realistic parameter values employed construct network find exponent resulting finite-size corrections comes at 0.81 significantly higher than 3/4 figure based current data analysis
+5
+our data analysis indeed detects curvilinearity relationship between logarithm metabolic rate logarithm body mass however curvilinearity opposite what observe wbe model
+implies wbe model needs amendment and/or data analysis needs reassessment
+beyond finite-size corrections examine original assumptions wbe two ways
+first vary predicted switch-over point above vascular network architecture preserves total cross-sectional area vessels at branchings below increases total cross-sectional area at branchings
+two regimes translate into different ratios daughter parent radii at vessel branch points
+second allow network branching ratios differ large small vessels
+analyze sensitivity scaling exponent respect each changes context networks finite size
+approach similar spirit price et al who relaxed network geometry other assumptions wbe context plants
+supplementary online material text s1 also argue data analysis should account log-normal distribution body mass abundance thus correcting fact there more small mammals than large ones
+despite differences structure hydrodynamics vascular systems plants animals detailed models each yield scaling exponent 3/4 leading-order
+present paper focus wbe model cardiovascular system mammals
+all our assumptions derivations calculations should interpreted within context
+finite-size corrections departures basic wbe assumptions important context plants well shown recent studies enquist collaborators 
+final analysis led seemingly incongruent conclusions many critiques wbe framework misguided exact predictions wbe model not fully supported empirical data
+former means wbe framework remains once properly understood powerful perspective elucidating allometric scaling principles
+latter means wbe model must become more respectful biological detail whereupon may yield predictions more closely match empirical data
+our work explores how details added model what effects they
+paper organized follows
+sake self-contained presentation start systematic overview assumptions both explicit implicit underlying wbe theory
+text s1 provide detailed exposition hydrodynamic derivations model rests upon
+calculations not original but they not appeared full extent before literature
+while nothing section assumptions wbe model novel there seems no single go place wbe literature lays out all components wbe theory
+our paper then proceeds brief derivation exact rather than approximate relationship between metabolic rate body mass then calculate exact predictions scaling exponents networks finite size revisit certain assumptions theory
+section comparison empirical data compare our results trends detectable empirical data
+put forward our conclusions discussion section

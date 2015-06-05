@@ -1,0 +1,45 @@
+ 
+solomonoff's central result induction prediction universal semimeasure converges rapidly probability 1 true sequence generating predictor  if latter computable
+hence eligible universal sequence predictor case unknown
+despite some nearby results proofs literature stronger result convergence all martin-l{\"o}f random sequences remained open
+convergence result would particularly interesting natural since randomness defined terms itself
+show there universal semimeasures do not converge all random sequences ie \ give partial negative answer open problem
+also provide positive answer some non-universal semimeasures
+define incomputable measure mixture over all computable measures enumerable semimeasure mixture over all enumerable nearly-measures
+show converges all random sequences
+hellinger distance measuring closeness two distributions plays central role
+ introduction 
+sequence prediction task defined predict next observed sequence
+key concept attack general prediction problems occam's razor less extent epicurus' principle multiple explanations
+former/latter may interpreted keep simplest/all theories consistent observations use theories predict
+solomonoff formalized combined both principles his universal priori semimeasure assigns high/low probability simple/complex environments  hence implementing occam epicurus
+formally represented mixture all enumerable semimeasures
+characterization levin universal enumerable semimeasure sense multiplicatively dominates all enumerable semimeasures
+solomonoff's central result if probability observing at time  given past observations computable function then universal predictor converges rapidly  probability 1 w p 1 optimal/true/informed predictor  hence represents universal predictor case unknown ``true'' distribution
+convergence w p 1 tells us close sufficiently large almost all sequences
+says nothing about whether convergence true any particular sequence measure 0
+martin-l{\"o}f m l  randomness standard notion randomness individual sequences
+m l random sequence passes all thinkable effective randomness tests eg \ law large numbers law iterated logarithm etc
+particular set all random sequences measure 1
+natural ask whether converges difference ratio individually all m l random sequences
+clearly solomonoff's result shows convergence may at most fail set sequences measure zero
+convergence result m l random sequences would particularly interesting natural context since m l randomness defined terms itself
+despite several attempts solve problem  remained open
+paper construct m l random sequence show existence universal semimeasure does not converge sequence hence answering open question negatively some
+remains open whether there exist other universal semimeasures probably particularly interesting additional structure properties m l convergence holds
+main positive contribution work construction non-universal enumerable semimeasure m l converges desired
+intermediate step consider incomputable measure  defined mixture over all computable measures
+show m l convergence predictor
+hellinger distance measuring closeness two predictive distributions plays central role work
+paper organized follows: section give basic notation results strings numbers sets functions asymptotics computability concepts prefix kolmogorov complexity define discuss concepts universal enumerable semi)measures
+section summarizes solomonoff's g\'acs' results predictive convergence probability 1
+both results derived bound expected hellinger sum
+present improved bound expected exponentiated hellinger sum implies very strong assertions convergence rate
+section investigate whether convergence all martin-l{\"o}f random sequences hold
+construct m l random sequence some universal semimeasures do not converge
+give non-constructive constructive proof different virtue
+section present our main positive result
+derive finite bound hellinger sum between  exponential randomness deficiency sequence double exponential complexity
+implies predictor m l converges
+finally section show non-universal asymptotically m l converges  summarize computability measure dominance properties   
+section contains discussion outlook

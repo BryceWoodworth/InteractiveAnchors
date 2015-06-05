@@ -1,0 +1,67 @@
+ 
+spike timing dependent plasticity learning rule modifies synaptic strength function relative timing pre postsynaptic spikes
+when neuron repeatedly presented similar inputs stdp known effect concentrating high synaptic weights afferents systematically fire early while postsynaptic spike latencies decrease
+here use learning rule asynchronous feedforward spiking neural network mimics ventral visual pathway shows when network presented natural images selectivity intermediate-complexity visual features emerges
+those features correspond prototypical patterns both salient consistently present images highly informative enable robust object recognition demonstrated various classification tasks
+taken together results show temporal codes may key understanding phenomenal processing speed achieved visual system stdp lead fast selective responses
+ introduction 
+temporal constraints pose major challenge models object recognition cortex
+when two images simultaneously flashed left right fixation human subjects make reliable saccades side where there target animal little 120 130 ms
+if allow 20 30 ms motor delays oculomotor system implies underlying visual processing done 100 ms less
+monkeys recent recordings inferotemporal cortex showed spike counts over time bins small 12.5 ms only about 100 ms after stimulus onset contain remarkably accurate information about nature visual stimulus
+sort rapid processing presumably depends ability visual system learn recognize familiar visual forms unsupervised manner
+exactly how learning occurs constitutes major challenge theoretical neuroscience
+here explored capacity simple feedforward network architectures two key features
+first when stimulated flashed visual stimulus neurons various layers system fire asynchronously most strongly activated neurons firing first mechanism been shown efficiently encode image information
+second neurons at later stages system implement spike timing dependent plasticity known effect concentrating high synaptic weights afferents systematically fire early
+demonstrate when hierarchical system repeatedly presented natural images intermediate-level neurons will naturally become selective patterns reliably present input while their latencies decrease leading both fast informative responses
+process occurs entirely unsupervised way but then show intermediate features able support categorization
+our network belongs family feedforward hierarchical convolutional networks
+precise its architecture inspired serre wolf poggio's model object recognition model itself extends hmax performs remarkably well natural images
+like them attempt model increasing complexity invariance observed along ventral pathway use four-layer hierarchy simple cells gain their selectivity linear sum operation while complex cells gain invariance nonlinear max pooling operation 
+nevertheless our network does not only rely static nonlinearities: uses spiking neurons operates temporal domain
+at each stage time first spike respect stimulus onset supposed key variable variable contains information indeed read out processed downstream neurons
+when presented image first layer's s1 cells emulating v1 simple cells detect edges four preferred orientations more strongly cell activated earlier fires
+intensity latency conversion accordance recordings v1 showing response latency decreases stimulus contrast proximity between stimulus orientation cell's preferred orientation
+already been shown how orientation selectivity emerge v1 applying stdp spike trains coming retinal off-center cells so started our model v1 orientation-selective cells
+also limit number spikes at stage introducing competition between s1 cells through one-winner-take-all mechanism: at given location corresponding one cortical column only spike corresponding best matching orientation propagated
+note k-winner-take-all mechanisms easy implement temporal domain using inhibitory gaba interneurons 
+s1 spikes then propagated asynchronously through feedforward network integrate-and-fire neurons
+note within time-to-first-spike framework maximum operation complex cells simply consists propagating first spike emitted given group afferents
+done efficiently integrate-and-fire neuron low threshold synaptic connections all neurons group
+images processed one one limit activity at most one spike per neuron only initial spike wave propagated
+before presenting new image every neuron's potential reset zero
+process various scaled versions input image
+there one s1 c1 s2 pathway each processing scale
+results s2 cells various receptive field sizes
+then c2 cells take maximum response s2 cells over all positions scales leading position scale invariant responses
+paper explains how stdp set c1 s2 synaptic connections leading intermediate-complexity visual features whose equivalent brain may v4
+stdp learning rule modifies strength neuron's synapses function precise temporal relations between pre postsynaptic spikes: excitatory synapse receiving spike before postsynaptic one emitted potentiated whereas its strength weakened other way around
+amount modification depends delay between two events: maximal when pre postsynaptic spikes close together effects gradually decrease disappear intervals excess few tens milliseconds
+note stdp agreement hebb's postulate because presynaptic neurons fired slightly before postsynaptic neuron those took part firing
+here used simplified stdp rule where weight modification does not depend delay between pre postsynaptic spikes time window supposed cover whole spike wave
+also use 0 1 soft bounds ensuring synapses remain excitatory
+several authors studied effect stdp poisson spike trains
+here demonstrate stdp's remarkable ability detect statistical regularities terms earliest firing afferent patterns within visual spike trains despite their very high dimensionality inherent natural images
+visual stimuli presented sequentially resulting spike waves propagated through s2 layer where stdp used
+use restricted receptive fields weight-sharing
+starting random weight matrix present first visual stimuli
+duplicated cells all integrating spike train compete each other
+if no cell reaches its threshold nothing happens process next image
+otherwise each prototype first duplicate reach its threshold winner
+one-winner-take-all mechanism prevents other duplicated cells firing
+winner thus fires stdp rule triggered
+its weight matrix updated change weights duplicated at all positions scales
+allows system learn patterns despite changes position size training examples
+also use local inhibition between different prototype cells: when cell fires at given position scale prevents all other cells firing later at same scale within s/2 s/2 square neighborhood firing position
+competition only used learning phase prevents all cells learning same pattern
+instead cell population self-organizes each cell trying learn distinct pattern so cover whole variability inputs
+if stimuli visual features common stdp process will extract them
+some cells will observe convergence synaptic weights end up being either close 0 1
+during convergence process synapses compete control timing postsynaptic spikes
+winning synapses those through earliest spikes arrive true even presence jitter spontaneous activity
+preference earliest spikes key point since earliest spikes correspond our framework most salient regions image been shown most informative
+during learning postsynaptic spike latency decreases
+after convergence responses become selective visual features intermediate complexity similar features used earlier work
+features now defined clusters afferents consistently among earliest fire
+stdp detects kinds statistical regularities among spike trains creates one unit each distinct pattern

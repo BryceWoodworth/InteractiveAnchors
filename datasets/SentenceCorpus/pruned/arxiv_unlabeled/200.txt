@@ -1,0 +1,44 @@
+
+paper general problem domain adaptation variety applications where distribution sample available test data
+previous work introduce novel distance between distributions distance adaptation problems arbitrary loss functions
+give complexity bounds distance finite samples different loss functions
+using distance derive novel generalization bounds domain adaptation wide family loss functions
+also present series novel adaptation bounds large classes algorithms including support vector kernel regression based empirical
+our analysis problem empirical various loss functions also give novel algorithms
+report results experiments demonstrate our algorithms domain adaptation
+introduction
+standard model other theoretical models learning training test assumed same distribution
+natural assumption since when training test distributions differ there no generalization
+however practice there several scenarios where two distributions more similar learning more effective
+one domain adaptation main our analysis
+problem domain adaptation variety applications natural processing processing computer many other
+often little no data available target domain but data source domain similar target well large data target domain at
+domain adaptation problem then source target data derive hypothesis well target domain
+number different adaptation techniques been introduced past just other similar work context specific applications
+example standard technique used statistical modeling other models based maximum adaptation uses source data prior knowledge estimate model parameters
+similar techniques other more ones been used training maximum entropy models modeling models
+first theoretical analysis domain adaptation problem was presented who generalization bounds adaptation classification tasks
+most significant work was application distance between distributions distance particularly relevant problem domain adaptation estimated finite samples finite dimension previously shown
+work was later extended who also bound error rate hypothesis derived combination source data sets specific case empirical risk
+theoretical study domain adaptation was presented where analysis related but distinct case adaptation multiple sources where target mixture source distributions
+paper novel theoretical analysis problem domain adaptation
+work several ways
+introduce novel distance distance comparing distributions adaptation
+distance distance classification but used compare distributions more general tasks including regression other loss functions
+out advantage distance estimated finite samples when set regions used finite
+prove same distance fact give bounds based complexity
+give new generalization bounds domain adaptation point out some their comparing them previous bounds
+further properties distance derive complexity learning bounds
+also present series novel results large classes algorithms including support vector kernel regression
+compare loss hypothesis algorithms when sample target domain distribution versus hypothesis selected algorithms when training sample source distribution
+show difference losses term depends directly empirical distance source target distributions
+learning bounds idea empirical source distribution another distribution same support but respect target empirical distribution loss each point
+analyze problem distribution both classification loss regression
+show how problem linear program loss derive specific efficient algorithm solve dimension one
+also give algorithm problem case loss program
+finally report results experiments our analysis algorithms
+section describe learning domain adaptation introduce complexity needed our results
+section distance its properties
+section our generalization bounds our theoretical algorithms
+section our algorithms
+section results our experiments

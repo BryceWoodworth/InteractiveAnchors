@@ -1,0 +1,32 @@
+ 
+given finite set words independently drawn according fixed unknown distribution law called stochastic language  usual goal grammatical inference infer estimate some class probabilistic models probabilistic automata pa
+here study class rational stochastic languages  consists stochastic languages generated multiplicity automata ma strictly includes class stochastic languages generated pa
+rational stochastic languages minimal normal representation may very concise whose parameters efficiently estimated stochastic samples
+design efficient inference algorithm dees aims at building minimal normal representation target
+despite fact no recursively enumerable class ma computes exactly  show dees strongly identifies limit
+study intermediary ma output dees show they compute rational series converge absolutely one used provide stochastic languages closely estimate target
+ introduction 
+probabilistic grammatical inference supposed data arise form finite set words  built predefinite alphabet  independently drawn according fixed unknown distribution law called stochastic language
+then usual goal try infer estimate distribution law some class probabilistic models probabilistic automata pa same expressivity hidden markov models hmm
+pa identifiable limit
+however our knowledge there exists no efficient inference algorithm able deal whole class stochastic languages generated pa
+most previous works use restricted subclasses pa probabilistic deterministic automata pda
+other hand probabilistic automata particular cases multiplicity automata  stochastic languages generated multiplicity automata special cases rational languages call rational stochastic languages
+ma been used grammatical inference variant exact learning model angluin but not probabilistic grammatical inference
+let us design  class rational stochastic languages over semiring
+when  exactly class stochastic languages generated pa parameters
+but when  obtain strictly greater classes provide several advantages at least one drawback: elements may significantly smaller representation clearly advantage learning perspective; elements minimal normal representation while normal representations do not exist pa; parameters minimal representations directly related probabilities some natural events form  efficiently estimated stochastic samples; lastly when field rational series over form vector space efficient linear algebra techniques used deal rational stochastic languages
+however class presents serious drawback : there exists no recursively enumerable subset ma exactly generates
+moreover class representations unstable: arbitrarily close ma generates stochastic language may find ma whose associated rational series takes negative values not absolutely convergent: global weight may unbounded not absolutely defined
+however show strongly identifiable limit: design algorithm dees any target given access infinite sample drawn according  will converge finite but unbounded number steps minimal normal representation
+moreover dees efficient: runs within polynomial time size input computes minimal number parameters classical statistical rates convergence
+however before converging target dees output ma close target but do not compute stochastic languages
+question is: what kind guarantees do intermediary hypotheses how use them probabilistic inference purpose
+show since algorithm aims at building minimal normal representation target intermediary hypotheses output dees nice property: they absolutely converge 1 i e
+consequence defined without ambiguity any  shown tends 0 learning proceeds
+given any series  efficiently compute stochastic language  not rational but property any word
+our conclusion despite fact no recursively enumerable class ma represents class rational stochastic languages ma used efficiently infer stochastic languages
+classical notions stochastic languages rational series multiplicity automata recalled section
+study example shows representation rational stochastic languages ma real parameters may very concise
+introduce our inference algorithm dees section show strongly indentifiable limit
+study properties ma output dees section show they define absolutely convergent rational series used compute stochastic languages estimates target

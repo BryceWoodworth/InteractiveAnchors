@@ -1,0 +1,63 @@
+ 
+paper uses proprietary data blackjack table las vegas analyze how expectation regret affects peoples' decisions during gambles
+even among group people who choose participate risk-taking activity find strong evidence economically significant omission bias number percent mistakes at table caused playing too conservatively resulting substantial monetary losses
+behavior equally prevalent among large-stakes gamblers does not change face more complicated strategic decisions
+ introduction 
+much modern economics built premise people maximize their expected utility wealth when making decisions under uncertainty
+contrast psychologists argue people often act not so much maximize their expected utility but instead minimize their expected regret  people make choices minimize their expected feeling remorse when action turns out badly compared other alternatives
+some decision environments lead people suboptimally favor inaction over action inducing what known omission bias
+inaction plays salient role wide range decisions
+example people reticent vaccinate children potentially lethal vaccine even when risk pales comparison incidence death caused primary disease
+staggering number us households fail rebalance their stock portfolios when optimal do so
+many us workers under-participate their retirement plans despite presence employer-matching programs
+shoppers often reluctant make purchases when discounts randomly offered market
+calibrating impact expected regret omission bias challenging outside experimental setting because requires parameterizing complex set beliefs controlling risk aversion
+paper study expected regret omission bias analyzing actual play at blackjack table las vegas
+blackjack two important features make attractive purpose
+first setting aside issue card counting easy categorize optimal play every conceivable situation document departures optimal play unambiguous way
+because there well-publicized solution game known basic strategy been widely accessible card players since number s
+indeed many card playing guides offer steps learning basic strategy
+second more importantly blackjack players place bets game before they make strategic decisions
+therefore all but few situations bet essentially sunk cost once play begins optimal strategy independent player's level risk aversion
+fact allows us identify role regret avoidance inaction independent risk aversion
+data consist over number number hands played over number number rounds actual play las vegas casino
+data our study were obtained pilot study bally mp number card chip recognition system originally designed mindplay intelligent games
+mp number system optically based tracks all bets choices during play capturing data covert non-intrusive way
+allows us record essential features game manner leaves natural play game unaltered
+using novel data source find strong evidence omission bias present ex ante choices card players make
+when blackjack players make mistakes they four times more likely make error failing act than they make error taking unnecessary i e suboptimal action
+relevant null hypothesis zero omission bias would errors commission omission occurring proportion how often players were optimally required stand take card under basic strategy
+even if focus areas strategy space heavily favor action optimal strategy leading high number passive mistakes under null reject null zero omission bias high degree confidence
+economic magnitude omission bias large
+aggregate players single-hand deals who followed basic strategy won number number percent time very close theoretical win rate reported blackjack guides
+deviators won only number number percent time statistically significantly lower
+total about number number changed hands during pilot study
+players followed basic strategy won total over number number while they lost only about number number following basic strategy
+contrast only number number was won over number number lost hands deviated basic strategy
+passive mistakes lost over number every dollar won while aggressive mistakes lost only about number number every dollar won
+therefore passive mistakes not only more common they more costly
+consider alternative explanations other than omission bias choices observe
+first explanation card counters responsible deviations basic strategy
+explore possibility systematically examine deviations basic strategy find no evidence deviations vary count manner prescribed card counting strategies
+should also note probably unlikely explanation since win rates among basic strategy deviators so low economic losses so high
+second limited cognitive ability driving our results
+indeed may some players find difficult remember optimal choice all situations
+control account strategic difficulty certain situations e g playing hands soft versus hard totals
+idea here if cognitive limitations make omission bias more prevalent then should more pronounced among more difficult hands
+find though omission bias not more pronounced among hands higher order thinking required
+third possible explanation players derive utility continued play thus reluctant take additional card if doing so might exclude them participating rest round
+test possibility account position player at table number players seated at table
+at large tables find no evidence passive mistakes cluster disproportionately more among those who high seat order at table
+admittedly does not completely rule out consideration staying live hand however staying live does represent another source expected regret
+indeed if people were willing sacrifice expected winnings because they would feel remorse if they did not continue game when they busted would further support our argument expected regret impacts strategic decisions
+analysis paper replicates extends work keren wagenaar who used game blackjack laboratory understanding player's attitudes about game
+they observed complete history play number subjects amsterdam casino conducted personal interviews many players learn their self-perceptions how they make decisions
+while they collected rich data set provided many insights our analysis distinct focus omission bias alternative explanations result
+casino indeed opportune place study other aspects human behavior decision making
+sundali croson studied hot hand bias gambler's fallacy analyzing videotapes individuals who play roulette casino reno nevada
+public entertainment also been convenient venue study though many instances difficult disentangle regret avoidance risk aversion cognitive limitations
+example tenorio cason derive subgame perfect nash equilibrium game segment television show price right document systematic deviations optimal strategy
+deviations indeed consistent omission bias risk aversion cognitive limitations but determining one responsible observed behavior generally difficult
+rest paper organized follows
+section review rules blackjack discuss basic strategy describe data were collected used analysis
+section explore main findings

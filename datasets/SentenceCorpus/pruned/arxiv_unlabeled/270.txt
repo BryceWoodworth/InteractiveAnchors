@@ -1,0 +1,28 @@
+
+work method matrix using belief
+probability distribution whose function then use free energy approximate function
+after some standard belief resulting algorithm requires time per
+finally demonstrate using approximation
+introduction
+matrix been active research well over
+role statistical where fundamental models
+while matrix time efficient methods
+since efficient exact cannot found general
+best exact methods improve over include algorithm requires many
+recently approximate provide close
+many methods initial results who applied markov popular machine learning statistics sampling approximate
+recently significant produced arbitrary matrices
+method uses markov only requires order samples
+however while methods theoretical they constant factors not relatively high times their practical applications
+particular algorithm than exact algorithm any matrix size only
+remains seen if other approximate inference methods
+instance belief also recently machine learning
+method exact networks
+certain special graph cases including graphs single matching graphs graphs convergence been
+more general graphs still some empirical
+theoretical understanding convergence recently been certain general conditions its fixed points them free energy
+article belief some theoretical experimental properties
+section describe probability distribution matrix similar those described function
+section discuss free energy introduce belief method finding set approximation
+section report results experiments
+then

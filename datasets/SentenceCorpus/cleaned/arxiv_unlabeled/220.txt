@@ -1,0 +1,35 @@
+ 
+study regret optimal strategies online convex optimization games
+using von neumann's minimax theorem show optimal regret adversarial setting closely related behavior empirical minimization algorithm stochastic process setting: equal maximum over joint distributions adversary's action sequence difference between sum minimal expected losses minimal empirical loss
+show optimal regret natural geometric interpretation since viewed gap jensen's inequality concave functional---the minimizer over player's actions expected loss---defined set probability distributions
+use expression obtain upper lower bounds regret optimal strategy variety online learning problems
+our method provides upper bounds without need construct learning algorithm; lower bounds provide explicit optimal strategies adversary
+ introduction 
+within theory learning two particular topics gained significant popularity over past 20 years: statistical learning online adversarial learning
+papers former typically study generalization bounds convergence rates complexity measures function classes---all under assumption examples drawn typically iid
+manner some underlying distribution
+working under assumption statistical learning finds its roots statistics probability theory high-dimensional geometry one argue main questions now relatively well-understood
+online learning while having its origins early 90's recently became popular area research once again
+one might argue assumptions lack thereof make online learning attractive
+indeed often assumed observed data generated maliciously rather than being drawn some fixed distribution
+moreover contrast ``batch learning'' flavor statistical learning sequential nature online problem lets adversary change its strategy middle interaction
+no surprise adversarial learning seems quite bit more difficult than its statistical cousin
+worst case adversarial analysis does provide realistic modeling learning scenarios network security applications email spam detection network routing etc  largely responsible renewed interest area
+upon review central results adversarial online learning---most found recent book cesa-bianchi lugosi one cannot help but notice frequent similarities between guarantees performance online algorithms analogous guarantees under stochastic assumptions
+however discerning explicit link remained elusive
+vovk notices phenomenon: ``for some important problems adversarial bounds on-line competitive learning theory only tiny amount worse than average-case bounds some stochastic strategies nature
+'' paper attempt build bridge between adversarial online learning statistical learning
+using von neumann's minimax theorem show optimal regret algorithm online convex optimization exactly difference between sum minimal expected losses minimal empirical loss under adversarial choice stochastic process generating data
+leads upper lower bounds optimal regret exhibit several similarities results statistical learning
+online convex optimization game proceeds rounds
+at each rounds player learner predicts vector some convex set adversary responds convex function determines player's loss at chosen point
+order emphasize relationship stochastic setting denote player's choice adversary's choice
+note differs instance notation
+suppose convex compact class functions constitutes set player's choices
+adversary draws his choices closed compact set
+also define continuous bounded loss function assume convex second argument
+denote associated loss class
+let set all probability distributions
+denote sequence
+denote joint distribution bold-face its conditional marginal distributions  respectively
+online convex optimization interaction described follows \frameitblack{ {online convex optimization oco game } \setlength{sep}{-1pt}  at each time step  player chooses adversary chooses player observes suffers loss } objective player minimize {regret} $ turns out many online learning scenarios realized instances oco including prediction expert advice data compression sequential investment forecasting side information see example 

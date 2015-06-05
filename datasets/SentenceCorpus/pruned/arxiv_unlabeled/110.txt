@@ -1,0 +1,60 @@
+
+propose novel model dimension reduction probabilistic component analysis
+different matrices at different space using markov random field type prior
+made recent sampling distributions
+introduction
+component analysis statistical technique dimension reduction
+often used data analysis objective understanding structure data
+represent high data points called variables used data etc
+also used step before regression clustering
+context however typically does not performance due analysis
+original high data where
+note used so vector
+assume data so
+one common taking linear combination components where
+} where
+take so linear
+given optimal linear given
+good representation original
+thus aim
+shown associated its called first component
+define components respect total error where components
+linear procedure since based linear combination components
+several been proposed
+most one statistical literature proposed
+defined each point all data points whose point
+thus defined through data points
+although computational makes difficult approach higher
+other approaches including neural networks kernel been proposed
+probabilistic models probabilistic approach
+advantage probabilistic modeling including mechanism density modeling degree new data point observations
+model defined through observation } linear relationship between variable data points matrix not
+
+note assume data observation model should parameter
+mean prior likelihood over after over shown when noise level maximum likelihood will } where matrix value
+thus natural
+mixture used model structure data
+after over distribution if data not
+mixture models distribution mixture components each component observation model if observation mixture component
+thus mixture each mixture component defined different linear while clustering defined original space
+over still same using distribution
+maximization over performed using algorithm taking mixture data
+experiments showed model wide
+also note when using data point must also mixture component more each mixture observation
+information cannot variable
+another approach probabilistic based processes been proposed
+same observation model but instead over over independent prior resulting distribution where matrix variables
+one another kernel matrix achieve
+regression problem unknown need found optimization likelihood
+computational complexity process approach number data points although approximation algorithm designed reduce complexity
+propose novel bayesian approach both
+model based observation model similar but two differences
+first linear defined through matrix instead
+second linear our model dependent corresponding variable
+linear different space related markov random field prior over space matrices makes model
+model estimated sampling distribution both space space
+computational each sampling number data points
+paper next section present model discuss sampling estimation procedure
+since might not distribution some also provided
+some experiments out section using both data data
+section some possible model

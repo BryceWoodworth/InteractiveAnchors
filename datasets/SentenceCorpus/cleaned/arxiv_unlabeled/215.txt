@@ -1,0 +1,71 @@
+ 
+given random binary sequence random variables  instance one generated markov source order each state represented bits
+let probability assume constant respect due stationarity
+consider learner based parametric model instance markov model order  who trains sample sequence randomly drawn source
+test learner's performance giving sequence generated source check its predictions every bit error occurs at time if prediction differs true bit value
+denote sequence errors where error bit at time equals according whether event error occurs not respectively
+consider subsequence corresponds errors predicting  ie  consists bits only at times paper compute upper bound deviation frequency s showing dependence  
+ introduction 
+basic theory finite markov chains since matrix stochastic i e  sum elements any row equals  then stationary joint probability distribution *} not necessarily unique
+keep notation simple use denote also any marginal distribution derived stationary joint distribution
+instance
+henceforth all random binary sequences assumed drawn according probability distribution
+thus any satisfying probability string expressed } let us denote } stationary probability event at time
+data generation : henceforth assume source reached stationarity produces data sequence respect
+consider learner's model
+its set parameters true unknown probability values transitions between states where probability values assigned according source distribution
+denote them instance suppose consider two states
+corresponding transition probability based learner estimates where state  denotes number times appears denotes number times there transition state
+instance if  then
+thus frequency state-transitions
+note   dependent random variables since markov chain may visit each state random number times they must satisfy
+after training learner tested remaining bits data
+makes binary prediction  based maximum posteriori probability defined follows: suppose current state then prediction } where defined state obtained type-1 transition i e  if then
+corresponding true probability value denoted
+note  may expressed alternatively } claim   independent random variables when conditioned vector
+now prove claim will used section
+let us denote    particular sequence states corresponding sequence
+show dependence will sometimes write
+then  *} since at every bit there only two types transitions then not every sequence possible
+instance if then state sequence valid but not valid
+denote set valid state sequences
+now show if then conditioned  any other state sequence visits same states same number times perhaps different order must same probability
+any state denote random variable whose value number type-1 transitions state sequence random states
+define number type-1 transitions state sequence
+since all state transitions either type-0 type-1 then } where was defined above
+let non-negative integer parameter define random variable
+associate conditional probability function parameter random variable then right side  equals } fixed value event {}`` '' equivalent event {}`` ''
+hence alternatively right side  expressed } right side  product probability functions random variables
+so conditioned event corresponds valid state sequence  event generated source markov chain equivalent event its corresponding state sequence transition frequencies independently take particular values prescribed
+claim proved
+also follows average independent bernoulli trials success taken type-1 transition state 
+distributed according binomial distribution parameters
+now summarize problem setting under main result paper holds
+problem setting : let positive integers
+let stationary probability distribution based finite ergodic reversible markov chain probability-transition matrix second largest eigenvalue
+all probability values measured according
+denote
+after reaching stationarity source generates binary sequence repeatedly drawing according
+denote
+let data-sequence obtained randomly drawing according
+let learner's model markov order  denote probability making type-1 transition state
+learner uses first bits  estimate 
+let denote number times state appears 
+after training learner's decision at state output if else output
+denote probability binomial random variable parameters   larger smaller than given smaller larger than  respectively
+let
+let
+using learner tested incrementally remaining bits data predicts output bit bit if  else
+denote sequence mistakes where if  otherwise
+denote   subsequence time instants corresponding predictions 
+note also subsequence input sequence hence effectively learner acts selection rule picks certain bits
+let *} assume learner's model order satisfies now state main result paper
+before presenting proof make following remarks effect training sequence length
+increases class possible learnt models hypothesis class decreases size thereby decreasing bound deviation error sequence
+effect learner's model order opposite
+see increases hypothesis class increases size
+effect length error sequence
+clearly longer subsequence less chance its frequency 1s deviate mean
+effect inter-dependence between states source model
+dependence increases decreases increases possible deviation size
+decreases bits sequence become less dependent decreases

@@ -1,0 +1,63 @@
+
+study evolution under biological basis
+evolutionary game theoretical model selection show natural selection mutation lead robust simple social norm call
+under good individual help individual leads good whereas help good individual one leads
+strategies direct lack where idea often associated evolutionary
+introduction
+many biological systems interactions their
+humans other species form large social groups among
+general assumption strong individuals ones who most natural selection
+being case how possible evolution
+resulting work if b another individual cost c
+context several mechanisms been explain evolution but only recently evolutionary model been developed unique aspects human
+means had been investigated context
+more recently many studies been how under
+indeed according provides mechanism us humans all other species
+moreover recently may provided human evolution
+game any two at most each other one role potential other potential help
+each experience many but same direct being
+another individual given may increase may change others help future interactions
+however new depends social norm used action
+previous studies models recently among other factors actions based require cognitive even when individuals making binary only world assumed most recent studies
+furthermore stable information
+high cognitive interactions also rely mechanisms
+indeed interactions between individuals usually moral
+introduced via feedback mechanism
+despite high levels observed been found detailed account feedback history does not improve compared only most recent
+other words practice shows simple mechanisms high levels
+view previous explain basis results obtained so far context
+let us consider world set each under influence single norm common all individuals
+each individual game all other
+action will depend individual strategy whether will provide help do depending
+means result every interaction made available through observation model introduced
+allows any individual know current without all past interactions
+other hand requires way information population
+seems important although recent mechanisms rely
+since either good there 2 possible strategies
+other hand number possible depends their associated order
+all action taken
+one also new
+so increasing complexity shown 2 features those here
+any individual same norm turn question how each
+do not address issue here
+however associated one may assume through process
+moreover likely common norm overall
+however if were different different individuals observation model would not requires judgments made
+norm order n there possible each associated binary length 2 n consider new make judgment involving action well previous action
+introduce following evolutionary dynamics each during one all individuals each other via game
+when individuals they their strategy another individual same chosen payoff
+most individuals each higher
+since different under influence different overall each will well strategies each
+individual selection each
+small probability associated selection between
+after each norm will change norm detailed methods section
+consider different between different types selection group selection based average global payoff each well selection resulting terms games game extended game
+perform computer simulations evolutionary dynamics sets each
+information statistical analysis
+frequency 1 each
+if its frequency percent
+no occurs instead 1
+analyze simulations same value b frequency 1 1
+if 1 if 1 assume
+our procedure though provides simple means biological evolution where genes complex networks yet
+process would more appropriate will future work

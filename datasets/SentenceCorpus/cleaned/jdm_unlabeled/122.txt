@@ -1,0 +1,45 @@
+ 
+decision makers often ambiguity averse preferring options subjectively known probabilities options unknown probabilities
+ellsberg paradox best-known example phenomenon
+ambiguity generally been studied domain risky choice many theories ambiguity aversion deal ambiguity only context
+however ambiguity aversion may occur other contexts
+present experiment examine effects ambiguity intertemporal choice
+subjects imagine they expecting package must choose between two delivery options
+some delivery times exact
+others ambiguous delivery possible over range dates
+problem was structurally identical ellsberg paradox
+subjects showed same pattern responses traditional ellsberg paradox each delivery service preferred when was unambiguous option
+ambiguity aversion not specific risk but also occur other domains
+ introduction 
+when faced decision logical first question what will happen if i do
+will investment make money
+if i get treatment will i get better
+frequently not questions answered certainty
+thus second question concerns probabilities what chances investment will make money
+if i get treatment what probability i will get better
+often questions cannot answered any degree certainty either
+while sometimes make subjectively good estimates probabilities various outcomes at other times must make decisions under ambiguity decisions feel lack knowledge required subjective estimate probability
+many real-world decisions ambiguous
+apply expected utility theory eut normative theory risky choice ambiguous situations decision makers must produce subjective estimate absent probabilities regardless whether they feel they sufficient information do so
+according expected utility theory decision maker should evaluate gamble multiplying probability each outcome numerical measure goodness outcome utility
+sum resulting numbers expected utility gamble decision maker should choose gamble value higher
+because derived defensible axioms because no other system will result better aggregate outcomes over time eut considered normative theory decision making
+initially was assumed addition being normative eut also described actual decisions
+however challenges soon arose suggestion eut descriptive theory choice
+one earliest objections was made ellsberg who proposed what now known ellsberg paradox according eut decision maker should choose same outcome both gamble pairs
+do otherwise would violate sure-thing principle states changing outcome common two gambles should not change decision maker's preference between them
+if decision maker prefers red gamble black gamble pair one implies decision maker thinks there more red balls than black balls
+however if there more red balls than black balls there must more total red yellow balls than total black yellow balls decision maker should prefer red gamble black gamble pair two well
+symmetrical argument demonstrates decision makers who prefer black gamble pair two should prefer black gamble pair one
+adding common outcome winning number if yellow ball drawn should not change whether decision-maker prefers bet red black ball
+however ellsberg found decision makers prefer red gamble first pair but prefer black gamble second pair
+pattern choices violates sure-thing principle thus inconsistent eut
+instead decision maker shows pattern choices displaying ambiguity aversion-in each pair preferring gamble known number balls gambling unknown number
+subsequent experiments confirmed ellsberg's intuition both about pattern choices shown ellsberg paradox about ambiguity aversion more generally
+ellsberg discussed ambiguity strictly terms risky choice subsequent work generally followed lead ambiguity defined unknown probability probability decision maker feels she does not enough information make subjective estimate
+however seems possible ambiguity aversion may more general phenomenon not constrained risky choice
+specifically analogous phenomena may occur realm intertemporal choice choices made about outcomes occur at different times
+wide variety real-world decisions described intertemporal choices including saving investment decisions preventive health behaviors
+example investor must choose between spending small amount money now saving money larger amount money later
+many cases length time will pass before receiving outcome cannot estimated any degree accuracy equivalent ambiguous probabilities risky choice
+present experiment examines whether effects ambiguity domain delay similar effects ambiguity risky choice

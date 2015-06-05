@@ -1,0 +1,28 @@
+
+process training support vector methods set selection important technique some were into field
+improve set selection propose new model set selection sequential methods
+model % set without
+some properties given simple experiments demonstrate proposed method general than existing methods
+introduction
+past few years there been interest support vector because they generalization performance wide range problems
+key work training solve optimization problem
+where vector all ones bound all variables kernel function
+effects been taken into training
+most optimization methods whole vector each method only subset per
+each variable into its
+then variables values variables
+method leads small each
+case sequential set only two elements
+comparative tests against other algorithms often much better properties
+since only few components per difficult problems method convergence
+better method set selection reduce number hence important research issue
+some methods were proposed solve problem reduce time training
+paper proposed propose new model set
+model without
+another selected they will not tested selected during following set selection
+experiments demonstrate new model general than existing methods
+paper following
+section give literature review method existing set selection both discussed
+new method set selection then presented section
+section experiments corresponding analysis given
+finally section paper

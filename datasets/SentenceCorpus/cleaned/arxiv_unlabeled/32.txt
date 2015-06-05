@@ -1,0 +1,48 @@
+ 
+approach classification problem machine learning based building local classification rules developed
+local rules considered projections global classification rules event want classify
+massive global optimization algorithm used optimization quality criterion
+algorithm polynomial complexity typical case used find all high--quality local rules
+other distinctive feature algorithm integration attributes levels selection ordered attributes rules searching original conflicting rules resolution strategy
+algorithm practical; was tested number data sets uci repository comparison other predicting techniques presented
+ introduction 
+extraction structural information raw data problem great interest both fundamental applied studies
+paper will focus one specific example problem  classification
+goal predict class particular event
+problem was approached number different disciplines including statistical data analysis  machine learning  fuzzy logic  operations research data mining
+result variety learning techniques was developed
+result learning represented number different forms
+form interested working set rules
+should stressed some other forms decision trees fuzzy models many others equivalent set rules
+set rules any other form equivalent often preferred form knowledge representation because allows simple answer question ``what was learned
+'' specific set rules was learned data
+algorithm produces only answer often impossible understand what was really learned why specific answer was produced two mentioned knowledge representations differ follows: case result rule learned knowledge represented language richer than one used describe dataset; case result value learned knowledge represented same language one used describe dataset  model--based techniques developed  take training data input produce set rules statements equivalent rules classify any event
+lazy instance--based techniques developed  return result tailored specific event want classify
+techniques events similar given one usually found first then prediction based found instances made
+interesting attempt combine model based lazy instance based learning was presented
+greedy lazy model--based approach classification was developed result was rule tailored specific observation
+while approach gives simple rule answer often much easier understand than complex rules set often works faster classification single event it--as every greedy algorithm--is not guaranteed find best rule because algorithm may not reach global maximum quality criterion sub--optimal rule may returned
+work approach based brute force rule--space scanning was developed
+was used finding ``nuggets'' knowledge data each nugget rule high degree correctness
+contrast greedy type algorithms massive search algorithms guaranteed find best rule(s
+our early work presented approach combined massive model--based rule search approach lazy instance--based learning
+work were also interested ``nuggets'' knowledge but only those were applicable instance wanted classify
+result was set rules were applicable classification given event
+one may think about rules projection global classification rules set given instance event
+current paper approach taken next level practical algorithm applicable variety problems presented
+number significant improvements been made since early version
+current algorithm includes following new features: 1
+highly optimized rule--space scanning allows problems significant number attributes solved; 2
+integration levels selection procedure ordered continuous literal attributes rule search algorithm; 3
+information about dependent attributes directly included into tree search algorithm thus significantly reducing computational complexity; 4
+original conflicting rules resolution strategy was especially built work automatically generated rules
+create practical algorithm three aspects  logical statistical computational complexity need addressed
+section formulate problem discuss logical formulas represent rules interested finding
+section discuss statistical quality criterion used evaluation rule quality specify criteria use work
+also present conflicting rules resolution strategy automatically generated rules
+at end section sketch algorithm presented
+section discuss selection attributes analysis; should stressed some attributes they built section not independent fact known advance
+section discuss computational complexity issues; approach includes information about dependence attributes into algorithm proposed
+section discuss error estimation
+section present data analysis results compare our results results c4 5r8
+section discussion presented

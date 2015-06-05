@@ -1,0 +1,18 @@
+ 
+one major challenge behavioral decision research identify cognitive processes underlying judgment decision making
+glockner argued compared previous methods process models more efficiently tested simultaneously analyzing choices decision times confidence judgments
+multiple-measure maximum likelihood mm-ml strategy classification method was developed purpose implemented ready-to-use routine stata commercial package statistical data analysis
+present article describe implementation mm-ml r free package data analysis under gnu general public license provide practical guide application
+also provide mm-ml easy-to-use r function
+thus prior knowledge r programming not necessary those interested using mm-ml
+ introduction 
+been repeatedly argued individuals make adaptive use different decision strategies application respective strategy might depend different factors participants' characteristics effort accuracy trade-offs learning experiences presentation format situational forces
+some strategies might entirely based deliberate computations
+others contrast might partially rely automatic-intuitive processes
+glockner betsch showed classic process tracing methods mouselab might hinder information search processes necessary applying automatic processes
+furthermore taking into account intuitive-automatic processes many strategies make essentially same choice predictions
+glockner showed considering strategies make different choice predictions people more efficiently classified applying multiple-measure maximum likelihood strategy classification method mm-ml compared relying choice-based strategy classification alone
+furthermore mm-ml method also allows us differentiate between strategies make same choice predictions given decision time predictions aid discrimination
+preparing experiment generate data application mm-ml method comprises three basic steps number choose dependent measures specify distributions those measures number choose set strategies number select items differentiate between considered strategies derive predictions dependent measures
+then fit predictions strategies individuals' empirical data calculated using mm-ml strategy most likely accounting individuals' behavior identified
+glockner provided implementation mm-ml method stata  commercial package data analysis

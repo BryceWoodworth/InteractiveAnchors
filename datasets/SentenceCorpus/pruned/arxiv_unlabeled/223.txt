@@ -1,0 +1,43 @@
+
+paper uses notion stability derive novel generalization bounds several regression algorithms both using solutions
+our analysis compare stability algorithms suggests several existing algorithms might not stable but technique make them stable } also shows number widely used regression algorithms fact
+finally results experiments local regression our stability bounds model selection one algorithms particular local used algorithm
+introduction
+problem inference was introduced
+many learning problems information computational biology natural processing other domains inference problem
+setting learning algorithm both training set standard setting set test points
+objective predict test points
+no other test points will considered
+setting variety applications
+often there more points than ones they not been due cost
+use algorithms data during training improve learning performance
+paper regression problems predicting nodes fixed known graph computational biology associated known information search tasks
+several algorithms been specific setting regression
+several other algorithms introduced classification fact regression ones their objective function based loss example
+generalization bounds regression all loss functions classification bounds when applied classification
+present novel generalization bounds regression
+since they bounds often than bounds based general complexity measures
+our analysis based notion stability our learning bounds stability bounds given setting regression classification bounds
+section give inference learning including description two related settings
+also introduce cost stability used following
+standard concentration bounds bound cannot applied regression setting since points not but without finite set
+instead section concentration bound bound case random variables without
+bound than much more
+concentration bound used derive general regression stability bound section
+shows paper
+section very general family algorithms local regression algorithms generalization algorithm
+general bounds stability algorithms uses them derive learning bounds algorithms
+stability analysis section based notion cost stability based
+section analyze general class optimization algorithms number recent algorithms
+optimization problems algorithms solution
+use give stability analysis algorithms
+our analysis shows general algorithms may not stable
+fact section prove lower bound stability algorithms under some assumptions
+section class regularization optimization algorithms graphs better stability properties than ones just
+graph algorithm
+section give stability analysis novel generalization bounds algorithm more general than those given
+section shows algorithms based graph fact special algorithms regularization term terms norm kernel space
+used derive cost stability analysis novel learning bounds graph algorithm terms second graph
+much results other regularization optimization algorithms
+discussed section where particular how similar constraints algorithms derive new stable algorithms
+finally section shows results experiments local regression our stability bounds model selection particular local used algorithm provides our bounds analysis

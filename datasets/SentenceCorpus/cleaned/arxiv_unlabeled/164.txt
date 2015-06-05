@@ -1,0 +1,18 @@
+ 
+exploration-exploitation dilemma been intriguing unsolved problem within framework reinforcement learning ``optimism face uncertainty'' model building play central roles advanced exploration methods
+here integrate several concepts obtain fast simple algorithm
+show proposed algorithm finds near-optimal policy polynomial time give experimental evidence robust efficient compared its ascendants
+ introduction 
+reinforcement learning rl art maximizing long-term rewards stochastic unknown environment
+construction rl algorithms choice exploration strategy central significance
+shall examine problem exploration markov decision process mdp framework
+while simple methods like greedy boltzmann exploration commonly used known their behavior extremely poor
+recently number efficient exploration algorithms been published some them formal proofs efficiency also exist
+review methods section
+combining ideas several sources construct new algorithm efficient exploration
+new algorithm optimistic initial model \ourmethod described section
+section show many advanced algorithms including ours treated unified way
+use fact sketch proof \ourmethod\ finds near-optimal policy polynomial time high probability
+section provides experimental comparison between \ourmethod\ number other methods some benchmark problems
+our results summarized section
+rest section review necessary preliminaries markov decision processes exploration task

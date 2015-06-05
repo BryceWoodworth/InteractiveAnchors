@@ -1,0 +1,32 @@
+
+scenarios involve interaction between at least two agents who must how objects using words
+here consider models two types learning learning individuals determine common across all observed uses learning there strong feedback between individuals about words
+despite differences between learning show they same communication accuracy large result classical problem objects words
+introduction
+how group agents major open issue evolution research area
+addition dynamics one computational mathematical modeling most some type threshold phenomenon
+cannot without parameter space models
+there two main research investigate
+first approach work who natural selection main design principle explain complex structure evolutionary algorithms
+key here communication ability individual results average increase number
+second research will paper based view evolution so through learning during
+if there fact about must learned active interaction between
+issue whether ability learn due some learning mechanism ability unique humans still
+problem address here there simply no individuals so not so biological rather than
+will use many produced research see eg study different learning strategies
+perspective there two
+first learning based idea one way determine find common across all observed uses
+hence learning place through statistical sampling
+since no feedback about its learning
+second known generally involves active agents learning process cues provide feedback
+learning been applied design system communication game experiments
+despite empirical evidence most part learning
+perspective very too since issue signaling no signaling involved learning process requires only observation some elements e g theory
+many different computational two been proposed literature
+example learning whereas
+however statistical analysis learning algorithm problem single object study effects parameters those models been usually limited time evolution some measure communication accuracy population
+although at first learning may one less context not any comparison between two learning scenarios
+fact show limit very large learning
+paper study models learning main two classical
+here between objects words rather than between structures
+more complete would involve first i e then see eg

@@ -1,0 +1,36 @@
+ 
+neural field model presented captures essential non-linear characteristics activity dynamics across several millimeters visual cortex response local flashed moving stimuli
+account physiological data obtained voltage-sensitive dye imaging reports mesoscopic population activity at high spatio-temporal resolution
+stimulation included single flashed square single flashed bar line-motion paradigm psychophysical studies showed flashing square briefly before bar produces sensation illusory motion within bar moving squares controls
+consider two-layer neural field model describing excitatory inhibitory layer neurons coupled system non-linear integro-differential equations
+under assumption aggregated activity both layers reflected vsd imaging our phenomenological model quantitatively accounts observed spatio-temporal activity patterns
+moreover model generalizes novel similar stimuli matches activity evoked moving squares different speeds
+our results indicate feedback higher brain areas not required produce motion patterns case illusory line-motion paradigm
+physiological interpretation model suggests considerable fraction vsd signal may due inhibitory activity supporting notion balanced intra-layer cortical interactions between inhibitory excitatory populations play major role shaping dynamic stimulus representations early visual cortex
+ introduction 
+visual cortical activity does not exclusively mirror visual input but rather reflects contribution additional recurrent processes involving lateral local feedback couplings
+understanding cortical processing requires theoretical understanding underlying activity dynamics attained modeling at various levels abstraction
+naturally chosen level should match level at neuronal recordings made
+activity patterns observed using voltage-sensitive dye imaging reflect population activity at mesoscopic level
+suggests application mean-field models large numbers neurons averaged
+moreover interested relation neuronal dynamics spatial dimensions cortical sheet
+neural field models efficacy synaptic coupling depends notion distance between neurons ensembles neurons therefore our preferred choice
+here show minimalistic multiple-layer nf models simulate mean vsd data space time high accuracy
+model functional description vsd-recorded dynamics
+thus first place phenomenological
+however its interpretation biological terms allows link its structure parameters neuronal functional architecture
+imaging data model showed: two stationary stimuli presented rapid succession produce pattern signals propagation activity across bar's retinotopic representation early visual cortex
+ii obtained pattern was different activity when bar was flashed alone did not match simple superposition activities evoked individually-presented square bar stimuli
+iii rather observed propagation wave front activity was also found when square stimulus moved physically visual space 
+based vsd imaging data hypothesized two-layer neural field model account findings i iii
+if so would imply feedback higher brain areas not principal requirement produce motion patterns across primary visual cortex upon presentation square bar flashed rapid succession 
+voltage sensitive dye imaging measures relative fluorescence changes linearly correlated changes membrane potentials
+technique currently allows recording vivo cortical activity at sub well suprathreshold level at least 10 ms temporal resolution spatial resolution 50 formulam across several millimeters cortex
+hence well suited capture real-time dynamics millions neurons at once
+however signal does not distinguish between excitatory inhibitory contributions overall activity
+therefore our model explicitly assumes vsd signal reflects mixture activity excitatory inhibitory neuronal populations thus contrasts studies interpret vsd data mainly reflecting excitatory activity
+expect gain insights about relative contributions excitatory inhibitory activities vsd signal because model allows separate inspection its inhibitory excitatory layers
+following first describe underlying data its preprocessing our model structure our parameter identification procedure
+then present results including model fit comparison further simplified models model prediction regarding similar yet novel stimuli results standard linear stability analysis homogeneous solution model
+then follow discussion findings relation alternative modeling approaches physiological interpretation our model role excitation inhibition model
+finally consider our results context hypotheses concerning cortical representation motion origin line-motion illusion

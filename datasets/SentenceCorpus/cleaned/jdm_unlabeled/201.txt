@@ -1,0 +1,51 @@
+ 
+patients suffering behavioral variant frontotemporal dementia ftd-b often exaggerate their abilities
+those errors judgment limited domains patients under-perform do ftd-b patients overestimate their abilities other domains
+overconfidence ftd-b patients domain-specific domain-general
+address question asked patients at early stages ftd-b judge their performance two domains attention perception they exhibit relatively spared abilities
+both domains ftd-b patients overestimated their performance relative patients dementia alzheimer type dat healthy elderly subjects
+results consistent domain-general deficit metacognitive judgment
+discuss findings relation regression mean accounts overconfidence role emotions metacognitive judgments
+ introduction 
+how good you at multitasking
+how good you at remembering people's names
+judgments people make about their own cognitive abilities vary greatly one person another
+judgments about self also systematically biased relative judgments made others about us
+often regard ourselves more competent than others better than what justified our actual performance
+discouraging observations might people learn improve at most cognitive tasks
+learning occurs not only at task level  get better at playing piano  but also at meta-level  become more attuned judging just how good at playing piano
+examples illustrate several aspects what known cognitive developmental literatures metacognition knowledge people possess about their own cognitive abilities including beliefs about their own performance specific tasks
+some psychologists argued metacognitive judgment secondary actual performance
+according view knowledge skills required perform tasks certain domain also required judging one's ability domain
+one corollary view metacognitive judgment domain-specific person who good at remembering things bad at understanding how others feel will relatively aware his good memory skills but relatively unaware his poor empathy skills
+despite its intuitive appeal view been challenged confounding metacognitive judgment level performance
+because subjective estimates performance never perfectly correlated actual performance judgments performance will regress toward mean participants who perform worst given domain will tend overestimate their ability domain while those performing best will tend underestimate
+other words relation between actual performance subjective judgment may reflect statistical artifact rather than genuine relation between cognitive meta-cognitive levels
+although biased beliefs about one's own skills norm biases often exacerbated psychiatric neurological disorders
+denial deficit reduced self-awareness loss insight anosognosia all clinical terms broadly refer same phenomenon patient's distorted assessment her own skills
+patient populations provide excellent opportunity test domain-specificity metacognitive judgment certain abilities become severely affected disease while others remain relatively unaffected
+thus possible ask whether metacognitive judgments become distorted only affected domains distortion generalizes judgments spared domains
+answer question so far been mixed
+consistent domain-specificity hypothesis some studies reported cases patients hemiplegia who deny their paralysis but acknowledge limitations other domains
+there also evidence failures awareness cluster around symptoms
+example study denial dementia alzheimer's type dat factor analysis questionnaire data revealed two independent factors cognitive denial related length disease severity cognitive deficits behavioral denial related behavioral disinhibition inappropriate emotional displays
+contrast other studies reported findings consistent domain-general deficit showing metacognitive errors extend beyond specific domain impairment
+example patients probable dat been reported overestimate their performance not only memory but also visuo-spatial tasks
+furthermore denial dat seems correlate more strongly frontal lobe deficit than memory problems despite latter being more typical dat
+although denial deficit prevalent clinical setting may help us understand over-optimism healthy adults until not long ago research denial deficit had proceeded independently experimentally based literature metacognitive judgment
+recently clinical experimental traditions become better integrated clinical researchers begun rely more heavily experimental paradigms
+experimental designs useful comparing patients' judgments their performance their actual performance task
+furthermore asking patient predict performance before task estimate after task possible assess metacognitive monitoring i e whether metacognitive judgment improves after experiencing task
+experimental designs applied domains other than one primary clinical concern
+feature becomes important when testing domain generality metacognitive judgment
+patient populations our study consisted patients behavioral variant frontotemporal dementia ftd-b patients early dementia alzheimer type dat
+although ftd-b insidious onset gradual progression its clinical presentation bears close resemblance cases orbitofrontal damage caused traumatic brain injury famous case phineas gage
+ftd-b patients often described their spouses unable unwilling take other people's feelings into account when deciding how act
+they often exhibit inappropriate social behavior changes personality poor decision making
+at early stages disease many ftd-b patients deny having difficulties seem unconcerned about them
+denial been documented social emotional domains but needs explored further domains relatively spared performance
+contrast ftd-b patients early stages dat their social skills relatively spared
+deficit dat primarily episodic memory
+at early stages dat patients tend aware their deficit but awareness declines disease progresses
+after describing ftd-b's denial deficit semi-structured interviews report two experiments examined whether ftd-b patients overestimate their performance relative dat patients healthy adults
+pre post-test judgments performance were obtained attention task experiment number stroop task perception task experiment number change blindness task

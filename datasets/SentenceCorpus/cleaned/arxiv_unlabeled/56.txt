@@ -1,0 +1,19 @@
+ 
+reinforcement learning means learning policy---a mapping observations into actions---based feedback environment
+learning viewed browsing set policies while evaluating them trial through interaction environment
+present application gradient ascent algorithm reinforcement learning complex domain packet routing network communication compare performance algorithm other routing methods benchmark problem
+ introduction 
+successful telecommunication requires efficient resource allocation achieved developing adaptive control policies
+reinforcement learning {rl} presents natural framework development policies trial error process interaction environment
+work apply {rl} algorithm network routing
+effective network routing means selecting optimal communication paths
+modeled multi-agent {rl} problem
+sense learning optimal control network routing could thought learning some traditional {rl} episodic task like maze searching pole balancing but repeating trials many times parallel interaction among trials
+under interpretation individual router agent makes its routing decisions according individual policy
+parameters policy adjusted according some measure global performance network while control determined local observations
+nodes do not any information regarding topology network their position
+initialization each node well learning algorithm follows identical every other node independent structure network
+there no notion orientation space other semantics actions
+our approach allows us update local policies while avoiding necessity centralized control global knowledge networks structure
+only global information required learning algorithm network utility expressed reward signal distributed once epoch dependent average routing time
+learning multi-agent system biologically plausible could thought neural network each neuron only performs simple computations based locally available quantities

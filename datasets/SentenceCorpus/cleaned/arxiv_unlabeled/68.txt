@@ -1,0 +1,55 @@
+ 
+conformal prediction uses past experience determine precise levels confidence new predictions
+given error probability  together method makes prediction label  produces set labels typically containing  also contains probability
+conformal prediction applied any method producing : nearest-neighbor method support-vector machine ridge regression etc
+conformal prediction designed on-line setting labels predicted successively each one being revealed before next predicted
+most novel valuable feature conformal prediction if successive examples sampled independently same distribution then successive predictions will right time even though they based accumulating dataset rather than independent datasets
+addition model under successive examples sampled independently other on-line compression models also use conformal prediction
+widely used gaussian linear model one
+tutorial presents self-contained account theory conformal prediction works through several numerical examples
+more comprehensive treatment topic provided algorithmic learning random world  vladimir vovk alex gammerman glenn shafer springer 2005
+ introduction 
+how good your prediction
+if you predicting label new object how confident you
+if label number how close do you think
+machine learning questions usually answered fairly rough way past experience
+expect new predictions fare about well past predictions
+conformal prediction uses past experience determine precise levels confidence predictions
+given method making prediction  conformal prediction produces prediction region set contains probability at least
+typically also contains prediction
+call point prediction  call region prediction
+case regression where number typically interval around
+case classification where limited number possible values may consist few values ideal case just one
+conformal prediction used any method point prediction classification regression including support-vector machines decision trees boosting neural networks bayesian prediction
+starting method point prediction construct nonconformity measure  measures how unusual example looks relative previous examples conformal algorithm turns nonconformity measure into prediction regions
+given nonconformity measure conformal algorithm produces prediction region every probability error
+region  prediction region ; contains probability at least
+regions different nested: when  so lower level confidence than 
+if contains only single label ideal outcome case classification may ask how small made before must enlarge adding second label; corresponding value confidence assert predicted label
+explain in~\s conformal algorithm designed on-line setting predict labels objects successively seeing each label after predicted before predict next one
+our prediction th label may use observed features th object preceding examples
+size prediction region may also depend details
+readers most interested implementing conformal algorithm may wish turn directly elementary examples and~and then turn back earlier more general material needed
+explain \s on-line picture leads new concept validity prediction confidence
+classically method finding prediction regions was considered valid if had probability containing label predicted because law large numbers would then correct time when repeatedly applied independent datasets
+but on-line picture repeatedly apply method not independent datasets but accumulating dataset
+after using predict  use predict  so
+on-line method valid predictions must correct
+under minimal assumptions conformal prediction valid new powerful sense
+one setting where conformal prediction valid new on-line sense one examples sampled independently constant population---i e  fixed but unknown probability distribution
+also valid under slightly weaker assumption examples probabilistically exchangeable see \s under other on-line compression models including widely used gaussian linear model see \s
+validity conformal prediction under models demonstrated appendix
+addition validity method producing prediction regions also interested its efficiency
+efficient if prediction region usually relatively small therefore informative
+classification would like see 95\% prediction region so small contains only single predicted label
+regression would like see very narrow interval around predicted number
+claim 95\% confidence 95\% conformal prediction region valid under exchangeability no matter what probability distribution examples follow no matter what nonconformity measure used construct conformal prediction region
+but efficiency conformal prediction will depend nonconformity measure
+if think know  may choose nonconformity measure will efficient if right
+if prior probabilities  may use prior probabilities construct point predictor nonconformity measure
+regression case might use mean posterior distribution given first examples ; classification case might use label greatest posterior probability
+strategy first guaranteeing validity under relatively weak assumption then seeking efficiency under stronger assumptions conforms advice long given john tukey others
+conformal prediction studied detail algorithmic learning random world  vovk gammerman shafer
+recent exposition gammerman vovk emphasizes connections theory randomness bayesian methods induction
+article emphasize on-line concept validity meaning exchangeability generalization other on-line compression models
+leave aside many important topics treated algorithmic learning random world  including extensions beyond on-line picture

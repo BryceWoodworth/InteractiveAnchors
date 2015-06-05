@@ -1,0 +1,16 @@
+ 
+consider task learning classifier feature space set classes  when features partitioned into class-conditionally independent feature sets
+show surprising fact class-conditional independence used represent original learning task terms 1 learning classifier 2 learning class-conditional distribution feature set
+fact exploited semi-supervised learning because former task accomplished purely unlabeled samples
+present experimental evaluation idea two real world applications
+ introduction 
+semi-supervised learning said occur when learner exploits presumably large quantity unlabeled data supplement relatively small labeled sample accurate induction
+high cost labeled data simultaneous plenitude unlabeled data many application domains led considerable interest semi-supervised learning recent years
+show somewhat surprising consequence class-conditional feature independence leads simple semi-supervised learning algorithm
+when feature set partitioned into two class-conditionally independent sets show original learning problem reformulated terms problem learning predictor one partitions other
+latter partition acts surrogate class variable
+since predictor learned only unlabeled samples effective semi-supervised algorithm results
+next section present simple yet interesting result our semi-supervised learning algorithm call surrogate learning  based
+present examples clarify intuition behind approach present special case our approach used applications section
+then examine related ideas previous work situate our algorithm among previous approaches semi-supervised learning
+present empirical evaluation two real world applications where required assumptions our algorithm satisfied

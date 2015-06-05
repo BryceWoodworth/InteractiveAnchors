@@ -1,0 +1,28 @@
+ 
+exact lengths linker dnas connecting adjacent nucleosomes specify intrinsic three-dimensional structures eukaryotic chromatin fibers
+some studies suggest linker dna lengths preferentially occur at certain quantized values differing one another integral multiples dna helical repeat 10 bp; however studies literature inconsistent
+here investigate linker dna length distributions yeast saccharomyces cerevisiae genome using two novel methods: fourier analysis genomic dinucleotide periodicities adjacent experimentally mapped nucleosomes duration hidden markov model applied experimentally defined dinucleosomes
+both methods reveal linker dna lengths yeast preferentially periodic at dna helical repeat obeying forms 10n 5 bp
+10 bp periodicity implies ordered superhelical intrinsic structure average chromatin fiber yeast
+ introduction 
+eukaryotic genomic dna exists vivo hierarchically compacted protein-dna complex called chromatin
+first level compaction 147 bp lengths dna wrapped 1 3/4 superhelical turns around protein spools forming nucleosomes
+consecutive nucleosomes separated short stretches unwrapped linker dna
+most chromatin vivo further folded into shorter wider fibers 30 nm diameter
+despite much effort structure 30 nm fiber remains unresolved 
+here report analysis relative locations nucleosomes along dna sheds new light chromatin fiber structure
+connection arises helical symmetry dna itself
+each base pair increase separation between two consecutive nucleosomes moves them apart 0.34 nm along dna  potentially minor change relative 30 nm fiber's width
+however because 10.2 10.5 bp per turn helical symmetry dna 0.34 nm translation coupled 35 rotation about dna helix axis rotating second nucleosome entirely different location space creating entirely different intrinsic chromatin structure
+vivo attractive nucleosome-nucleosome interactions might overwhelm intrinsic structure chromatin fiber impose particular folded structure independent exact linker dna lengths
+case changes fiber's intrinsic structure would manifested instead changes folded fiber's stability
+because high torsional stiffness dna short lengths linker dnas changes stability would great energetic significance
+while steps one several bp profoundly alter intrinsic fiber structure steps 10 11 n bp do not: instead next nucleosome rotates n complete turns around dna helix axis ending up rotationally near where began but translated along dna 3.4 3.7 n nm
+if linker dna lengths varied randomly about average value resulting intrinsic chromatin structure would random flight chain
+but if linker dna segments instead were equal length modulo dna helical repeat would define intrinsically ordered superhelical structure chromatin fiber detailed intrinsic structure highly depending phase offset d 0 linker dnas length 10n d 0 bp
+there many hints literature 10 bp-periodicity lengths linker dnas ; however results inconsistent
+early analysis oligonucleosome dna lengths suggested linker dnas yeast s cerevisiae preferentially occur lengths 10n 5 bp while those human hela chicken erythrocyte cells no periodicity
+analogous studies rat liver chromatin first did not but later did reveal periodic linker dna lengths again form 10n 5 bp
+later genome-wide correlation analyses aa tt dinucleotides similarly yielded variable results suggesting preferences form 10n 5 10.6n 8 bp yeast 10.6n 8 caenorhabditis elegans drosophila melanogaster 10n 8 human k562 cells 
+conflicting conclusions existing studies motivated us develop two new independent computational methods new experimental data define probability distribution linker dna lengths yeast
+our results both approaches show linker dna lengths yeast indeed preferentially periodic implying yeast genome encodes intrinsically ordered three-dimensional structure its average chromatin fiber

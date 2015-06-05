@@ -1,0 +1,33 @@
+
+discuss online learning when decision tasks
+tasks related actions taken decision certain constraints
+give natural examples then discuss general class constraints introduce efficient ways actions problem
+discuss problem model various ways including global losses sets tasks
+introduction
+learning recently attention see
+learning problems one several tasks related some sense
+relationship tasks been different ways literature
+our setting decision action each given tasks manner each tasks game will use game task some constraints actions
+example consider several its
+choose
+loss does not would been best
+basic suggest given similar should not very different so
+additional may limit further set may
+after out responses observed at least new selected
+model situations many games vector actions selected at time previously given set
+set determined constraints discussed above
+goal decision total regret across many games through time perform long almost well best constant vector actions
+problem several games been considered who studies convergence but does not address issue computational when large number games
+learning problems were also studied
+latter reference consider regret however some constraints
+measure total loss losses each game but assume all tasks performed at each assumption however section where consider global losses more general than losses main additional difficulty decision subset vectors actions
+previous models were only considered comparison class but not way decision
+problem framework regret see
+main construct strategy many games small regret strategy computational complexity
+show various natural examples computational problem may reduced online problem associated graph efficient algorithms exist however propose specific more effective results extended case goal decision perform well best strategy change vector actions taken set at limited number times
+also consider version problem when decision instead losses all actions all games only losses chosen actions
+finally also consider cases when there many tasks real numbers
+cases decision function certain class functions
+show examples natural cases consider many tasks discuss computational related theory exact simulation markov
+average because when compared its most likely algorithms they better performance especially case feedback
+two out usually same order

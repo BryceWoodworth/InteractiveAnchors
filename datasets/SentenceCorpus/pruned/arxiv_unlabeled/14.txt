@@ -1,0 +1,38 @@
+
+adaptation rule vector algorithms convergence generated sequence depends existence properties function called energy function defined
+our aim investigate conditions existence function class algorithms initial algorithms
+results presented here previous studies including
+our work shows energy function not always potential but at least limit series potential functions call
+also shows large number existing vector algorithms developed neural networks into
+framework define way study convergence all corresponding adaptation rules at theorem direction
+also demonstrate energy function but not potential general
+energy function associated not potential general
+introduction
+vector theory set order following function called } where probability density defined
+focus stochastic approaches where at each time step probability density function according using adaptation } where adaptation step using parameter generally over time taken 1 without general results function particular each vector algorithm
+here focus functions
+main field vector whether adaptation rule not stochastic along energy function i e whether energy function not potential
+one hand if energy function potential then convergence their adaptation rule minimum energy function well particular stochastic optimization framework paper
+example energy function associated algorithm stochastic version algorithm et al potential long continuous
+other hand if energy function not potential then very few known about convergence corresponding adaptation rule
+example several results shown continuous density corresponding vector adaptation rule algorithm does not stochastic along global energy function convergence although being observed practice out very difficult prove not most been out rule
+all vector algorithms study paper algorithm will see section
+know algorithms practice value their energy functions they associated not
+however theoretical study their convergence not available so they heuristics
+among all algorithms particular attention
+been its authors associated global potential general hence adaptation rule
+propose not true
+shows study convergence all algorithms still its present work
+paper propose framework all algorithms
+study framework demonstrate energy function associated algorithms not potential general
+also demonstrate energy function class functions potential functions special case
+energy functions within class called
+results obtain do not depend probability density function give first step why all algorithms shown framework practice their associated energy function whether they not
+framework should open up further general study convergence properties all algorithms contains at
+section 2 present framework study
+section define function series potential define concept cellular series
+section give main theorem states energy function framework
+consider show not always
+discuss convergence corresponding adaptation rule
+section show most common vector algorithms framework
+at section

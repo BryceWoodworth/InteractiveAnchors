@@ -1,0 +1,35 @@
+ 
+introduce approach inferring causal architecture stochastic dynamical systems extends rate distortion theory use causal shielding---a natural principle learning
+study two distinct cases causal inference: optimal causal filtering optimal causal estimation
+filtering corresponds ideal case probability distribution measurement sequences known giving principled method approximate system's causal structure at desired level representation
+show limit model complexity constraint relaxed filtering finds exact causal architecture stochastic dynamical system known causal-state partition
+one estimate amount historical information process stores
+more generally causal filtering finds graded model-complexity hierarchy approximations causal architecture
+abrupt changes hierarchy function approximation capture distinct scales structural organization
+nonideal cases finite data show how correct number underlying causal states found optimal causal estimation
+previously derived model complexity control term allows us correct effect statistical fluctuations probability estimates thereby avoid over-fitting
+ introduction 
+time series modeling long important history science engineering
+advances dynamical systems over last half century led new methods attempt account inherent nonlinearity many natural phenomena
+result now well known nonlinear systems produce highly correlated time series not adequately modeled under typical statistical assumptions linearity independence identical distributions
+one consequence exploited novel state-space reconstruction methods  discovering hidden structure processes key successful modeling prediction
+attempt unify alternative nonlinear modeling approaches computational mechanics introduced minimal representation---the \em---for stochastic dynamical systems optimal predictor many system properties directly calculated
+building notion state introduced ref
+ system's effective states those variables causally shield system's past its future---capturing present information past predicts future
+following lines here investigate problem learning predictive models time series particular attention paid discovering hidden variables
+do using information bottleneck method ib together complexity control method discussed ref
+ necessary learning finite data
+ref
+lays out relationship between computational mechanics information bottleneck method
+here make mathematical connection times series introducing new method
+adapt ib time series prediction resulting method call optimal causal filtering ocf
+since ocf effect extends rate-distortion theory use causal shielding general achieves optimal balance between model complexity approximation accuracy
+implications trade-offs automated theory building discussed ref
+
+show important limit prediction paramount model complexity not restricted ocf reconstructs underlying process's causal architecture previously defined within framework computational mechanics
+shows effect ocf captures source's hidden variables organization
+result gives structural meaning inferred models
+example one calculate fundamental invariants---such symmetries entropy rate stored information---of original system
+handle finite-data fluctuations ocf extended optimal causal estimation oce
+when probabilities estimated finite data errors due statistical fluctuations probability estimates must taken into account order avoid over-fitting
+demonstrate how ocf oci work number example stochastic processes known nontrivial correlational structure

@@ -1,0 +1,17 @@
+ 
+prove optimal assignment kernel proposed recently attempt embed labeled graphs more generally tuples basic data hilbert space fact not always positive definite
+ introduction 
+let set symmetric function satisfies any any : k \inph{\cdot,\cdot}{\hcal} \phi:\xcal\rightarrowsymbol x,x'\insymbol k$ through  because they only access data through inner products hence through kernel
+``kernel trick'' allows example perform supervised classification regression strings graphs state-of-the-art statistical methods soon positive definite kernel strings graphs defined
+unsurprisingly triggered lot activity focused design specific positive definite kernels specific data strings graphs applications bioinformatics natural language processing
+motivated applications computational chemistry proposed recently kernel labeled graphs more generally structured data decomposed into subparts
+kernel called optimal assignment kernel  measures similarity between two data points performing optimal matching between subparts both points
+translates natural notion similarity between graphs efficiently computed hungarian algorithm
+however show below general not positive definite suggests special care may needed before using kernel methods
+should pointed out not being positive definite not necessarily big issue use kernel practice
+first may fact positive definite when restricted particular set data used practical experiment
+second other non positive definite kernels sigmoid kernel been shown very useful efficient combination kernel methods
+third practitioners kernel methods developed variety strategies limit possible dysfunction kernel methods when non positive definite kernels used projecting gram matrix pairwise kernel values set positive semidefinite matrices before processing
+good results reported several chemoinformatics benchmark indeed confirm usefulness method
+hence our message note certainly not criticize use optimal assignment kernel context kernel methods
+instead wish warn some cases negative eigenvalues may appear gram matrix specific care may needed simultaneously contribute limitation error propagation scientific litterature

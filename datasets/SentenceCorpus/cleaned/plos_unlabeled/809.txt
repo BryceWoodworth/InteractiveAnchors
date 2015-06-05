@@ -1,0 +1,34 @@
+ 
+developed multi-scale biophysical electromechanics model rat left ventricle at room temperature
+model been applied investigate relative roles cellular scale length dependent regulators tension generation transduction work cell whole organ pump function
+specifically role length dependent ca 2 sensitivity tension filament overlap tension dependence velocity dependence tension tension dependent binding ca 2 troponin c metrics efficient transduction work stress strain homogeneity were predicted performing simulations absence each feedback mechanisms
+length dependent ca 50 filament overlap make up frank-starling law were found two dominant regulators efficient transduction work
+analyzing fiber velocity field absence frank-starling mechanisms showed decreased efficiency transduction work absence filament overlap effects was caused increased post systolic shortening whereas decreased efficiency absence length dependent ca 50 was caused inversion regional distribution strain
+ introduction 
+contraction heart fundamental whole organ phenomenon driven cellular mechanisms
+each beat myocytes heart generate tension relax
+local cellular scale tension transduced into coordinated global whole heart deformation resulting effective organized efficient system level pump function
+fundamental achieving efficient transudation work integration organ tissue cellular scale mechanisms
+however while efficiency important heart role relative importance underlying mechanisms responsible achieving efficient transduction work cell organ remains unclear
+healthy heart structural heterogeneities morphology electrophysiology metabolic neural mechanisms provide stable physiological framework facilitates coordinated contraction resulting etw
+however over shorter time scales sub cellular mechanisms most likely candidates regulating etw face dynamic variation cardiac demand
+specifically sarcomeres themselves contain tension deformation feedback mechanisms regulate development active tension based local tension strain strain rate
+provide regulatory process modulate deformation tension signals experienced cell into coordinated global response 
+four major tdf mechanisms length dependent changes ca 2 sensitivity filament overlap tension dependent binding ca 2 troponin c velocity dependent cross bridge kinetics
+tdf mechanisms 1 2 characterised length dependent changes steady state force ca 2 relationship routinely described hill curve
+length dependent changes ca 50 measured decreased concentration ca 2 required produce half maximal activation muscle increases length
+length dependent changes filament overlap result active tension increasing muscle increases length
+ca 2 binding tnc acts switch activating tension generation
+crossbridges bind generate tension they increase affinity ca 2 tnc causing more ca 2 bind results generation more tension
+velocity dependence tension described transient stable component
+transient component characterised multiphase tension response step changes length stable component characterised tension during contraction at constant velocity
+general velocity contraction increases active tension decreases
+four mechanisms provide both positive negative feedback tension development fundamental functioning heart yet their relative roles if any etw not been investigated
+part due experimental challenges studying subcellular function whole heart preparations modelling challenges performing biophysical whole organ coupled electromechanics simulations
+recent advances computer power coupling methods now allow simulation strongly coupled multi-scale electromechanical models left ventricle
+models contain explicit biophysical representations cellular electrophysiology ca 2 dynamics tension generation deformation multiple feedback loops operate between each systems
+study analyse transduction local cellular scale work into whole organ pressure-volume work heart using computational modelling
+using definitions hill positive negative work propose new metric quantify etw during each phase contraction cycle ratio positive work total work
+isolate quantify role tdf transduction cellular work into whole organ pump function over heart beat developed model rat left ventricle at room temperature incorporates tdf mechanisms
+model contains biophysical electromechanical rat myocyte model transversely isotropic constitutive law heterogeneous fiber orientation
+comparing etw over each phase heart beat absence each tdf mechanisms aim quantify effect each tdf mechanisms

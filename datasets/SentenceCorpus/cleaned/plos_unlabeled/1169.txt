@@ -1,0 +1,51 @@
+ 
+autoregulation transcription factors cross-antagonism between lineage-specific transcription factors recurrent theme cell differentiation
+equally prevalent event frequently overlooked lineage commitment models upregulation lineage-specific receptors often through lineage-specific transcription factors
+here use minimal model combines cell-extrinsic cell-intrinsic elements regulation order understand how both instructive stochastic events inform cell commitment decisions hematopoiesis
+our results suggest cytokine-mediated positive receptor feedback induce switch-like response external stimuli during multilineage differentiation providing robustness both bipotent committed states while protecting progenitors noise-induced differentiation decommitment
+our model provides support both instructive stochastic theories commitment: cell fates ultimately driven lineage-specific transcription factors but cytokine signaling strongly bias lineage commitment regulating inherently noisy cell-fate decisions complex pertinent behaviors ligand-mediated ultrasensitivity robust multistability
+simulations further suggest kinetics differentiation mature cell state depend starting progenitor state well route commitment chosen
+lastly our model shows good agreement lineage-specific receptor expression kinetics microarray experiments provides computational framework integrate both classical alternative commitment paths hematopoiesis been observed experimentally
+ introduction 
+multipotent stem cells ability both self-renew differentiate thus sustaining stem cell pool giving rise mature specialized cells respectively
+hematopoietic stem cell located adult bone marrow well characterized served popular model system understanding self-renewal lineage commitment differentiation
+hscs responsible producing entire repertoire blood cells through process hematopoiesis
+during hematopoiesis hscs lose capacity self-renew differentiate into common myeloid progenitors common lymphoid progenitors
+multipotent progenitors undergo further lineage-restricted differentiation give rise mature cells via bipotent progenitors
+addition classical commitment paradigm hematopoiesis alternative pathways emerging
+example also been observed hscs multipotent progenitors bypass canonical intermediate states during commitment
+exact molecular events direct lineage commitment at stem cell stage at multipotent progenitor level remain elusive but well appreciated lineage-specific transcription factors cytokine receptors play critical roles
+lineage-specific transcription factors been identified master regulators commitment differentiation
+they drive expression pertinent lineage-specific genes thereby initiating phenotypic change progenitor cell down specific differentiation path
+developmental potency multipotent progenitor reflected co-expression multiple lineage-specific transcription factors at low levels phenomenon known transcriptional priming
+promiscuous gene expression pattern progenitor cell necessitates during cell differentiation specific transcription factor upregulated chiefly positive autoregulation other lineage transcription factors downregulated primarily through cross-antagonism 
+addition lineage-specific transcription factors cell differentiation also believed tightly regulated cytokines
+cytokines signal via their cognate receptors whose cytoplasmic domains activate various pathways involved survival proliferation differentiation
+been extensively debated whether cell fate during differentiation stochastic instructive process
+stochastic theory claims differential expression lineage-specific transcription factors due intrinsic noise progenitor cells dictates commitment decision whereas instructive theory argues absolute dependence lineage-specific cytokine receptor signals during differentiation shows cell-fate decisions regulated extrinsic growth factor cues
+underlying question evoked both theories whether cytokines provide instructive cues select lineage-committed progenitors providing permissive survival proliferation signals
+instructive model does not account occurrence certain mature cell types even when their lineage-specific receptors knocked out
+predetermined distribution heterogeneous progenitor population into mature cells suggested stochastic model fails explain how specific cell types enriched during stress how homeostasis restored after infections therapy
+recent landmark study utilizing bioimaging techniques at single-cell level suggests there validity both theories
+authors showed lineage-specific cytokines strongly instruct lineage choice although differentiation was still possible absence lineage-specific cytokines
+more comprehensive understanding lineage commitment may emerge analyzing biochemical associations coordinate cell-extrinsic cell-intrinsic events
+promiscuous gene expression pattern during differentiation observed not only lineage-specific transcription factors but also lineage-specific receptors
+critical commitment signal during differentiation upregulation transcription factor aids expressing lineage-specific genes; however need upregulate lineage-specific receptor event also integral commitment still unclear
+particularly confounding since low number lineage-specific receptors present progenitor cell sufficient providing permissive survival cues
+during lineage commitment expression cytokine receptor mirrors expression transcription factor often due presence transcription factor binding domains promoter region receptor gene
+advantage regulating lineage-specific receptor expression through lineage-specific transcription factor not apparent
+recent biochemical evidence also suggests cytokines provide signals functionally activate lineage-specific transcription factors through post-translational modifications also regulate expression transcription factors during cell differentiation 
+cell differentiation believed all-or-none switch-like event rather than gradual transition precursor cell stable mature cell
+mathematical modeling analysis been successfully used provide insights into biological networks give rise switch-like behaviors
+typically networks involved lineage specification seem engender cellular memory through nonintuitive behaviors bistable response profiles
+components generate bistability toggling system between two stable steady states include nonlinear feedback loops external noise multi-site covalent modifications
+previous lineage commitment models suggested transcriptionally primed multipotent progenitors capable exhibiting bistability purely via cell intrinsic events autoregulation cross-antagonism but models assumed existence cooperative positive feedback loops achieve bistability do not consider role extracellular cues
+while cooperativity widely recognized biological mechanism may play important role lineage commitment alternative mechanisms generate similar switch-like behavior networks where cooperativity not been observed
+example previously shown cytokine-regulated positive feedback receptor generate robust bistability stimulus without cooperativity deterministic model unilineage commitment
+furthermore even networks cooperativity receptor-mediated feedback may provide additional robustness system behavior perhaps more importantly offer external mode regulation cell-fates
+here present minimal model integrates bidirectional regulation between lineage-specific cytokines transcription factors previously explored autofeedback loops cross-antagonism understand interplay between cell-extrinsic cell-intrinsic factors fate decisions hematopoietic progenitors
+our model shows strength cross-antagonism critical determinant achieving multistability
+analyzed network exhibits bilayer memory respect external stimuli provide robustness both bipotent committed states
+model suggests noise network enable stochastic switching between stable states; however distribution uncommitted population among various states during differentiation still strongly biased external cues
+furthermore modeling framework captures both classical alternative modes lineage commitment seen hematopoiesis
+although discrete cell fates likely represent high-dimensional attractors our minimal model may provide initial step towards understanding how extrinsic factors integrate intrinsic factors may elucidate new mechanisms underlie cell-fate decisions

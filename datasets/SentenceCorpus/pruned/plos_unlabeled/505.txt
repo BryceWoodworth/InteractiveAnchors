@@ -1,0 +1,52 @@
+
+sequencing key technique genome structural variation scale
+technique particularly useful common cancer produce novel genes
+address question how much sequencing required them using both theoretical models simulation
+derive formula probability gene exists cancer genome given sequences genome
+use formula gene probabilities several cancer samples find able predict genes samples relatively small number large size
+further demonstrate how ability genes depends distribution gene evaluate how different parameters sequencing strategy impact detection gene detection even presence errors suggest
+results will useful future cancer sequencing particularly studies many cancer genomes sequencing
+introduction
+cancer disease selection mutations
+mutations range single changes
+while many mutations been cancer cells via gene techniques there now interest using genome sequencing provide understanding mutations cancer genomes
+cancer genome one sequencing sequencing phase point mutations regions
+approach genome including
+novel genes observed
+example gene results many patients
+drug gene treatment patients search other genes might provide drug targets
+recently was generally their resulting genes only few events were across all types including
+view been discovery between gene several protein family cancer cancer
+studies question what other
+one strategy identification genes other large scale sequencing other genomic dna samples
+resulting pairs reference human genome sequence
+if then genomic suggested
+strategy was described end sequence approach later used genetic structural variation
+approach sequencing short identified
+present dna sequencing
+example genome will able produce length while system applied each end size selected dna many
+similar strategies sequencing also been described
+whole genome sequencing approaches allow all potential genes other
+approach several over protein cancer studies
+first discovery genes using expression sequencing depends genes being under specific cellular conditions present sample at time
+conditions might different than those cells during development
+second at dna sequence level gene due genomic thus less
+finally genome sequencing identify more regulatory result when one gene region another gene case gene
+paper address number theoretical practical cancer genome using sequencing approaches
+where pair reference genome cancer genome
+particular idea examine ability genes
+specifically if end sequences cancer genome does lead formation gene
+sequencing will answer question but requires additional may most sequencing do not genome later analysis
+derive formula probability between pair genomic regions given set all empirical distribution
+probabilities useful experiments genes
+test experiment cancer pairs genes were found
+however our analysis revealed only pairs genes high probability were tested experimentally
+high sequencing strategies important experimental design questions using understand cancer genome
+sequencing more probability genes
+however even sequencing would practical cost effective sequence genomes samples
+thus important probability genes least amount sequencing
+probability depends multiple factors including number length length genes possible errors
+here derive several experimental design both current sequencing
+our probability simulations demonstrate even current obtain high probability detection very low number
+example more than percent all sequencing less than
+potentially greater than percent probability less than single machine

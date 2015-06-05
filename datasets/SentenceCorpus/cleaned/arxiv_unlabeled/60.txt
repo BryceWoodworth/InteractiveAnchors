@@ -1,0 +1,30 @@
+ 
+paper uncovers explores close relationship between monte carlo optimization parametrized integral mco parametric machine-learning pl `blackbox' `oracle'-based optimization bo
+make four contributions
+first prove mco mathematically identical broad class pl problems
+identity potentially provides new application domain all broadly applicable pl techniques: mco
+second introduce immediate sampling new version probability collectives pc algorithm blackbox optimization
+immediate sampling transforms original bo problem into mco problem
+accordingly combining first two contributions apply all pl techniques bo
+our third contribution validate way improving bo demonstrating cross-validation bagging improve immediate sampling
+finally conventional mc mco procedures ignore relationship between sample point locations associated values integrand; only values integrand at those locations considered
+demonstrate one exploit sample location information using pl techniques example forming fit sample locations associated values integrand
+provides additional way apply pl techniques improve mco
+ introduction 
+paper uncovers explores some aspects close relationship between monte carlo optimization parametrized integral mco parametric machine learning pl `blackbox' `oracle-based' optimization bo
+make four primary contributions
+first establish mathematical identity equating mco pl
+identity potentially provides new application domain all broadly-applicable pl techniques viz  mco
+our second contribution introduction immediate sampling
+new version probability collectives pc approach blackbox optimization
+pc encompasses estimation distribution algorithms edas cross entropy ce method special cases
+however pc broader more fully motivated
+means uncovers overcomes formal shortcomings those other approaches
+immediate sampling version pc original bo problem transformed into mco problem
+light our first contribution means apply pl immediate sampling
+way pl techniques  including cross-validation bagging boosting active learning stacking others  applied blackbox optimization
+our third contribution experimentally explore power identity between mco pl
+experiments demonstrate cross-validation bagging improve performance immediate sampling blackbox optimization
+particular experiments show cross-validation used adaptively set `annealing schedule' blackbox optimization using immediate sampling {\it{without any extra calls oracle}}
+some cases show adaptively formed annealing schedule results better optimization performance than any exponential annealing schedule {} finally conventional mc mco procedures ignore relationship between sample point locations associated values integrand only values integrand at sample locations considered algorithms  end exploring ways use pl techniques exploit information sample locations instance bayesian fitting surface sample locations associated values integrand
+constitutes yet another way applying pl mco general therefore bo particular

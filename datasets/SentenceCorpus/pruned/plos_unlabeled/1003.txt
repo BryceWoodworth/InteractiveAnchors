@@ -1,0 +1,47 @@
+
+increasing importance rna biology interest problem rna structure prediction
+case proteins rna structure prediction methods require two key accurate energy function conformational sampling procedure
+both only problems
+here focus problem conformational sampling
+current state solution based methods construct together short obtained experimental structures
+however nature use energy functions their nature sampling
+solution sampling problem important probabilistic model rna structure allows efficient sampling rna continuous space associated probabilities
+show model several key features rna structure its nature distribution
+furthermore model out test structures using information
+method provides theoretical practical solution major way prediction simulation rna structure dynamics
+introduction
+rna importance cell where key regulatory structural
+understanding exact mechanisms functions therefore importance both biology
+many cases understanding requires knowledge rna structure
+however structure rna experimentally typically time difficult task
+therefore algorithms rna structure prediction much interest main focus predicting secondary structure
+many been made area secondary structure most recently introduction statistical sampling had important impact
+past years increasing number relevant structures become available much been made understanding three structure rna
+conformational space rna been using methods proteins rna base pair interactions been conformational space rna been into
+new several useful tools modeling rna structure significant prediction recently been reported
+however prediction rna structure still remains important open problem between number known sequences determined structures problem more more
+two key algorithms rna structure prediction accurate energy function conformational sampling procedure both only problems
+here focus latter problem
+current state rna conformational sampling based methods construct together short obtained experimental structures
+methods important related protein rna structure prediction years
+methods not
+one problems associated methods they continuous conformational space hence do not all relevant
+since conformational search procedure energy use energy terms requires continuous methods cannot provide
+other words conformational sampling method need energy function
+furthermore full conformational importance complete understanding rna binding dynamics
+another fundamental problem methods their nature makes their use framework statistical
+particularly sampling markov framework using function
+other words using unknown additional term energy function
+means simulation dynamics rna under control empirical using methods
+developed new solution conformational sampling probabilistic model called rna structure natural continuous space
+makes possible sample short length scale
+model used distribution but also energy term local
+long range interactions between local model task global energy function
+dynamic bayesian network sequential nature rna statistics statistics representation data
+model not only but also statistical making theoretical well
+approach related probabilistic models protein structure recently proposed our group
+however model presented here far rna many more than rna there per two proteins
+many combined limited number experimentally determined rna structures make particularly statistical task very different strategy was required
+particular approach used proteins would case rna require use probability density function statistical computational
+below describe probabilistic model show aspects local rna structure
+also demonstrate its context rna prediction end possible applications

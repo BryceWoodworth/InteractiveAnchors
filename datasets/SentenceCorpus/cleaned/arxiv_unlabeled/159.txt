@@ -1,0 +1,103 @@
+ 
+multi-armed bandit problem online algorithm chooses set strategies sequence trials so maximize total payoff chosen strategies
+while performance bandit algorithms small finite strategy set quite well understood bandit problems large strategy sets still topic very active investigation motivated practical applications online auctions web advertisement
+goal research identify broad natural classes strategy sets payoff functions enable design efficient solutions
+work study very general setting multi-armed bandit problem strategies form metric space payoff function satisfies lipschitz condition respect metric
+refer problem lipschitz mab problem
+present solution multi-armed problem setting
+every metric space define isometry invariant bounds below performance lipschitz mab algorithms  present algorithm comes arbitrarily close meeting bound
+furthermore our technique gives even better results benign payoff functions
+ introduction 
+\newcommand{\willcite}[1][cite]{{[#1]}} multi-armed bandit problem online algorithm must choose set strategies sequence trials so maximize total payoff chosen strategies
+problems principal theoretical tool modeling exploration/exploitation tradeoffs inherent sequential decision-making under uncertainty
+studied intensively last three decades  bandit problems having increasingly visible impact computer science because their diverse applications including online auctions adaptive routing theory learning games
+performance multi-armed bandit algorithm often evaluated terms its regret  defined gap between expected payoff algorithm optimal strategy
+while performance bandit algorithms small finite strategy set quite well understood bandit problems exponentially infinitely large strategy sets still topic very active investigation
+absent any assumptions about strategies their payoffs bandit problems large strategy sets allow no non-trivial solutions  any multi-armed bandit algorithm performs badly some inputs random guessing
+but most applications natural assume structured class payoff functions often enables design efficient learning algorithms
+paper consider broad natural class problems structure induced metric space strategies
+while bandit problems been studied few specific metric spaces one-dimensional interval   case general metric spaces not been treated before despite being extremely natural setting bandit problems
+motivating example consider problem faced website choosing database thousands banner ads display users aim maximizing click-through rate ads displayed matching ads users' characterizations web content they currently watching
+independently experimenting each advertisement infeasible at least highly inefficient since number ads too large
+instead advertisements usually organized into taxonomy based metadata category product being advertised allows similarity measure defined
+website then attempt optimize its learning algorithm generalizing experiments one ad make inferences about performance similar ads
+abstractly bandit problem following form: there strategy set  unknown payoff function satisfying set predefined constraints form some
+each period algorithm chooses point observes independent random sample payoff distribution whose expectation
+moment's thought reveals problem regarded bandit problem metric space
+specifically if defined infimum over all finite sequences  quantity  then metric constraints may summarized stating lipschitz function lipschitz constant  metric space
+refer problem lipschitz mab problem  refer ordered triple instance lipschitz mab problem \xhdr{prior work } while our work first treat lipschitz mab problem general metric spaces special cases problem implicit prior work continuum-armed bandit problem  corresponds space under metric   experimental work ``bandits taxonomies''  corresponds case tree metric
+before describing our results greater detail helpful put them context recounting nearly optimal bounds one-dimensional continuum-armed bandit problem problem first formulated r agrawal 1995 recently solved up logarithmic factors various authors
+following theorem throughout paper regret multi-armed bandit algorithm running instance defined function measures difference between its expected payoff at time quantity
+latter quantity expected payoff always playing strategy if strategy exists \omit{ %%%%%%%%%%%% any  there algorithm lipschitz mab problem whose regret any instance satisfies any there does not exist algorithm lipschitz mab problem satisfies every every instance } %%%%%%%%%%%%%%%% fact if time horizon known advance upper bound theorem achieved extremely na\"{i}ve algorithm simply uses optimal armed bandit algorithm \textsc{ucb1} algorithm  choose strategies set  suitable choice parameter
+while regret bound theorem essentially optimal lipschitz mab problem  strikingly odd achieved simple algorithm
+particular algorithm approximates strategy set fixed mesh does not refine mesh gains information about location optimal strategy
+moreover metric contains seemingly useful proximity information but algorithm ignores information after choosing its initial mesh
+really best algorithm
+closer examination lower bound proof raises further reasons suspicion: based contrived highly singular payoff function alternates between being constant some distance scales being very steep other much smaller distance scales create multi-scale ``needle haystack'' phenomenon nearly obliterates usefulness proximity information contained metric
+expect algorithms do better when payoff function more benign
+lipschitz mab problem  question was answered affirmatively some classes instances algorithms tuned specific classes \omit{ %%%%%%%%%%%%%%%%%%%%%%% lipschitz mab problem  question was answered affirmatively cope even stronger affirmative answer was provided auer et
+al 
+example special case main result shows if payoff function twice differentiable finitely many maxima each having nonzero second derivative then regret achieved modifying na\"{i}ve algorithm described above sample uniformly at random interval instead deterministically playing
+our theorem stated below reveals similar phenomenon general metric spaces: possible define algorithms whose regret outperforms per-metric optimal algorithm when input instance sufficiently benign } %%%%%%%%%%%%%%%%%%%%%%%%%% \xhdr{our results techniques } paper consider lipschitz mab problem arbitrary metric spaces
+concerned following two main questions motivated discussion above: i what best possible bound regret given metric space ii one take advantage benign payoff functions
+paper give complete solution i describing every metric space family algorithms come arbitrarily close achieving best possible regret bound
+also give satisfactory answer ii); our solution arbitrarily close optimal terms zooming dimension defined below
+fact our algorithm i extension algorithmic technique used solve ii \omit{ %%%%%%%%%%%%%%%%%%%% our main technical contribution new algorithm zooming algorithm  combines upper confidence bound technique used earlier bandit algorithms \textsc{ucb1} novel adaptive refinement step uses past history zoom regions near apparent maxima explore denser mesh strategies regions
+algorithm key ingredient our design optimal bandit algorithm every metric space
+moreover show zooming algorithm perform significantly better benign problem instances
+every instance define parameter called zooming dimension often significantly smaller than  bound algorithm's performance terms zooming dimension problem instance
+since zooming algorithm self-tuning achieves bound without requiring prior knowledge zooming dimension } %%%%%%%%%%%%%%%%%%%%%%% our main technical contribution new algorithm zooming algorithm  combines upper confidence bound technique used earlier bandit algorithms \textsc{ucb1} novel adaptive refinement step uses past history zoom regions near apparent maxima explore denser mesh strategies regions
+algorithm key ingredient our design optimal bandit algorithm every metric space
+moreover show zooming algorithm perform significantly better benign problem instances
+every instance define parameter called zooming dimension  use bound algorithm's performance way often significantly stronger than corresponding per-metric bound
+note zooming algorithm self-tuning  i e achieves bound without requiring prior knowledge zooming dimension
+state our theorem per-metric optimal solution i need sketch few definitions arise naturally one tries extend lower bound general metric spaces
+let us say subset metric space covering dimension if covered sets diameter all
+point local covering dimension if open neighborhood covering dimension
+space max-min-covering dimension if no subspace whose local covering dimension uniformly bounded below number greater than \omit{ %%%%%%%%%%%%%%% metric spaces highly homogeneous sense any two \eps-balls isometric one another theorem follows easily refinement techniques introduced ; particular upper bound achieved using generalization na\"{i}ve algorithm described earlier } %%%%%%%%%%%%%%% general bounded above covering dimension
+metric spaces highly homogeneous sense any two \eps-balls isometric one another two dimensions equal upper bound theorem achieved using generalization na\"{i}ve algorithm described earlier
+difficulty theorem lies dealing inhomogeneities metric space
+important treat problem at level generality because some most natural applications lipschitz mab problem eg web advertising problem described earlier based highly inhomogeneous metric spaces web taxonomies unreasonable expect different categories at same level topic hierarchy roughly same number descendants  algorithm theorem combines zooming algorithm described earlier delicate transfinite construction over closed subsets consisting ``fat points'' whose local covering dimension exceeds given threshold
+lower bound craft new dimensionality notion max-min-covering dimension introduced above captures inhomogeneity metric space connect notion transfinite construction underlies algorithm
+``benign'' input instances provide better performance guarantee zooming algorithm
+lower bounds theorems based contrived highly singular ``needle haystack'' instances set near-optimal strategies astronomically larger than set precisely optimal strategies
+accordingly quantify tractability problem instance terms number near-optimal strategies
+define zooming dimension instance smallest following covering property holds: every require only sets diameter cover set strategies whose payoff falls short maximum amount between
+zooming dimension significantly smaller than max-min-covering dimension \omit{ve algorithm theorem performs poorly compared zooming algorithm }} let us illustrate point two examples where simplicity max-min-covering dimension equal covering dimension \omit{ %%% first if euclidean metric unit interval twice-differentiable function negative second derivative at optimal strategy  then zooming dimension only whereas covering dimension } %%% first example consider metric space consisting high-dimensional part low-dimensional part
+concreteness consider rooted tree two top-level branches complete infinite ary trees
+assign edge weights exponentially decreasing distance root let resulting shortest-path metric leaf set
+if there unique optimal strategy lies low-dimensional part then zooming dimension bounded above covering dimension  whereas ``global'' covering dimension
+second example let homogeneous high-dimensional metric eg euclidean metric unit cube payoff function some subset
+then zooming dimension equal covering dimension  eg if finite point set { %%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+standard metric 
+
+
+than local covering dimension at point where maximized } %%%%%%%%%%%%%%%% \xhdr{discussion } stating theorems above been imprecise about specifying model computation
+particular ignored thorny issue how provide algorithm input containing metric space may infinite number points
+simplest way interpret our theorems ignore implementation details interpret ``algorithm'' mean decision rule i e possibly randomized function mapping history past observations strategy played current period
+all our theorems valid under interpretation but they also made into precise algorithmic results provided algorithm given appropriate oracle access metric space
+most cases our algorithms require only covering oracle takes finite collection open balls either declares they cover outputs uncovered point
+refer setting \standardmab
+example zooming algorithm uses only covering oracle  requires only one oracle query per round at most balls round 
+however per-metric optimal algorithm theorem uses more complicated oracles defer definition oracles section \omit{ %%%%%% algorithm very efficient requiring only operations total including oracle queries choose its first strategies \bobbynote{prove bound "body" } } %%%%% while our definitions results so far been tailored lipschitz mab problem infinite metrics some them extended finite case well
+particular zooming algorithm obtain sharp results meaningful both finite infinite metrics using more precise non-asymptotic version zooming dimension
+extending notions theorem finite case open question \omit{ while our definitions results so far been tailored lipschitz mab problem infinite metrics they extended finite case well
+particular zooming algorithm obtain sharp results meaningful both finite infinite metrics using more precise non-asymptotic version zooming dimension
+extending notions theorem finite case feasible but more complicated; leave full version } %%% \xhdr{extensions } provide number extensions elaborate our analysis zooming algorithm
+first provide sharper bounds several examples reward playing each strategy plus independent noise known ``benign" shape
+second upgrade zooming algorithm so satisfies guarantee theorem enjoys better guarantee if maximal reward exactly 1
+third apply result version where some target set not revealed algorithm
+fourth relax some assumptions analysis zooming algorithm use generalization analyze version some known function
+finally extend our analysis reward distributions supported those unbounded support finite absolute third moment \omit{ some our initial motivation project came online advertizing scenario described introduction
+follow motivation further appendix consider multi-round game each round adversary selects webpage algorithm selects ad places webpage
+assume lipschitz condition product webpages ads space give algorithm whose regret dimension defined section upper-bounded terms essentially covering dimension
+although algorithm based ``na\"{i}ve'' algorithm theorem adversarial aspect problem creates considerable technical challenges
+future work hope pursue more refined guarantees style section } \omit{ %%%%%%%%% ideally would desirable matching lower bound constituting per-instance optimality guarantee zooming algorithm some other algorithm
+goal when stated form plainly unachievable
+any given instance  if point where achieves its maximum then algorithm always plays strategy zero regret
+nevertheless one might hope subtler characterization per-instance optimality eg asserting no algorithm outperform one instance without performing significantly worse than highly similar instances
+while been unable prove guarantees zooming algorithm question per-instance optimality attractive topic further investigation } %%%%%%%%%%%%%%%%% \xhdr{follow-up work } metric spaces whose max-min-covering dimension exactly 0 paper provides upper bound any  but no matching lower bound
+characterizing optimal regret metric spaces remained open question
+following publication conference version question been settled  revealing following dichotomy: every metric space optimal regret lipschitz mab algorithm either bounded above any  bounded below any  depending whether completion metric space compact countable

@@ -1,0 +1,37 @@
+
+paper propose method play
+define set observation action
+actions extended multiple action may effect
+decision agent represented policy
+learning apply method recent global optimization algorithm
+learned better than policy average human
+argue learning because i policy space combination individual actions thus search towards low complexity solutions found if they exist
+based new theoretical framework found
+introduction
+during two learning state been
+large variety algorithms including based direct policy search methods
+basic properties many algorithms relatively well e g conditions convergence complexity effect various parameters etc although there still important open questions
+there also test problems like various tasks etc algorithms been demonstrated number applications also
+however there still need more applications place major
+games including set classical games games computer games etc test environments learning
+games human therefore they means explore what still
+furthermore most games well into they sequential decision problems where each decision effect
+many cases hidden information random events unknown environment known unknown account part difficulty game
+focus learning idea
+they also testing new decision space most cases so finding good strategy task
+there another advantage games test rules games fixed so task i e rules environment so they proposed algorithm reduced compared eg various tasks
+been many classical games including
+other hand computer games into only recently there not very many learn them tools
+eg game strategy game
+games also point view they different aspects human instead wide most computer games need strategies but many observations considered both observation space action space
+investigate game
+game its own but also several important questions will section
+will show approach more than either learning strategy
+will provide actions observations task learn how them into good policy
+will apply because they include human
+learning will apply method recently developed general optimization algorithm
+next section game related literature
+also investigate questions upon game learning task
+give short description optimization method
+section describe learning experiments section present our results
+finally section discuss our approach its other problems

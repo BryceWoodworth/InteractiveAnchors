@@ -1,0 +1,27 @@
+ 
+paper develops tests independence stationarity choice data collected small samples
+method builds approach smith batchelder
+technique intended distinguish cases where person systematically changing true preferences one group trials another cases person following random preference mixture model independently identically distributed sampling each trial
+preference reversals counted between all pairs repetitions
+variance preference reversals between all pairs repetitions then calculated
+distribution statistic simulated monte carlo procedure data randomly permuted statistic recalculated each simulated sample
+second test computes correlation between mean number preference reversals difference between replicates also simulated monte carlo
+data regenwetter dana davis-stober reanalyzed method
+eight number subjects showed significant deviations independence assumptions one both tests significantly more than expected chance
+ introduction 
+regenwetter dana davis-stober proposed solution problem testing whether choice data satisfy violate transitivity preference
+their probabilistic choice model assumes given trial response represented if were random sample mixture transitive preferences
+model was used analyze replication tversky's study had reported systematic violations transitivity preference
+reanalysis via iid mixture model new data concluded transitivity retained
+birnbaum agreed much their paper including their conclusions evidence against transitivity weak but criticized method part because assumes responses same person repeated choices independent identically distributed iid
+if assumption violated method regenwetter et al might lead wrong conclusions regarding tests structural properties
+further violations assumptions analyzed more detailed analysis individual responses choice problems rather than focusing averaged binary choice proportions
+true error model rival probabilistic representation also used test structural properties transitivity mixture models iid will violated when person mixture true preferences changes true preferences during course study
+birnbaum showed how regenwetter et al method might lead wrong conclusions when iid violated hypothetical data described methods testing between two rival stochastic models choice
+methods allow tests assumptions regenwetter et al approach against violations would occur if person were change preferences during study
+he described conventional statistical tests require conventional sized samples
+hypothetical examples illustrated cases method regenwetter et al might lead conclusion transitivity was satisfied even when more detailed analysis showed data contained systematic violations both iid transitivity
+methods described birnbaum test independence would require large numbers trials however might difficult impractical implement
+experiment tversky regenwetter et al replicated does not sufficient data allow full analyses proposed birnbaum
+regenwetter dana davis-stober guo argued would difficult collect enough data provide complete test all iid assumptions proposed birnbaum
+nevertheless note shows building approach smith batchelder possible test iid assumptions even small studies regenwetter et al

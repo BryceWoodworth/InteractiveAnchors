@@ -1,0 +1,20 @@
+ 
+paper proposes new message passing algorithm cycle-free factor graphs
+proposed "entropy message passing"  emp  algorithm may viewed sum-product message passing over entropy semiring previously appeared automata theory
+primary use emp compute entropy model
+however emp also used compute expressions appear expectation maximization gradient descent algorithms
+ introduction 
+efficient marginalization multivariate function important many areas including signal processing artificial intelligence digital communications
+when cycle-free factor graph representation function available then exact marginals computed sum-product message passing factor graph 
+fact number well-known algorithms special cases sum-product message passing
+"sum" "product" sum-product message passing may belong arbitrary commutative semiring 
+paper propose use entropy semiring resulting algorithm will called "entropy message passing"  emp 
+entropy semiring was introduced cortes et al compute relative entropy between probabilistic automata
+paper translate ideas into language factor graphs message passing algorithms
+primary use emp compute entropy model cycle-free factor graph fixed observations
+main prior work subject hernando et al ; again main point present paper clarify generalize prior work reformulating terms sum-product message passing
+however emp also used compute expressions appear expectation maximization gradient ascent algorithms  ; connection appears new
+paper structured follows
+section ii review sum-product message passing over commutative semiring
+section iii introduce entropy semiring
+emp algorithm described section iv mentioned applications described section v

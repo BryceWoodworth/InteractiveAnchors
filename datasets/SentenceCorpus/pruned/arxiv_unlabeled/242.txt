@@ -1,0 +1,40 @@
+
+many learning structure hidden variables now being used information
+however several learning used not but statistical models hence their generalization performance still unknown
+problems previous new statistical learning estimate generalization loss training loss functional condition true distribution learning machine
+paper prove same even if true distribution not model
+also prove proposed case information criterion
+therefore proposed always without any condition unknown true distribution
+introduction
+learning being used information
+however several learning used example neural networks hidden markov models normal reduced rank structure hidden variables result parameter probability distribution not
+learning was out maximum likelihood not subject normal distribution distribution not any distribution
+hence statistical methods model selection hypothesis test optimization not learning
+other words not yet theoretical learning hidden structures random samples
+statistical learning theory study problem learning generalization based several assumptions
+let true probability density function learning machine represented probability density function parameter
+paper examine following two assumptions 1 first condition
+true distribution learning machine if there parameter
+if called 2 second condition
+true distribution learning machine if parameter loss function } unique if matrix positive
+if true distribution not learning machine then
+study neural networks normal both conditions important
+fact if learning machine compared true distribution then true distribution
+if learning machine too simple approximate true distribution then true distribution
+practical applications need method determine optimal learning machine therefore general formula generalization loss estimated training loss without conditions
+previous studied case when true distribution new us estimate generalization loss training loss functional
+since new arbitrary set true distribution learning machine distribution they called states statistical estimation
+however not been whether they not case
+paper study case when true distribution prove same states also
+moreover show case states information criterion maximum likelihood method
+here was derived model selection criterion case when true distribution not statistical model
+network information criterion was arbitrary loss function case
+if true distribution learning machine whereas states average generalization losses
+therefore states version maximum likelihood method case method cases
+paper
+section 2 framework learning results previous
+section show main results paper
+section some used main results
+given
+section prove main
+section discuss paper

@@ -1,0 +1,60 @@
+ 
+de novo computational design synthetic gene circuits achieve well-defined target functions hard task
+existing brute-force approaches run optimization algorithms structure kinetic parameter values network
+however more direct rational methods automatic circuit design lacking
+focusing digital synthetic gene circuits developed methodology corresponding tool silico automatic design
+given truth table specifies circuit's input output relations our algorithm generates ranks several possible circuit schemes without need any optimization
+logic behavior reproduced action regulatory factors chemicals promoters ribosome binding sites biological boolean gates
+simulations circuits up four inputs show faithful unequivocal truth table representation even under parametric perturbations stochastic noise
+comparison already implemented circuits addition reveals potential simpler designs same function
+therefore expect method help both devising new circuits simplifying existing solutions
+ introduction 
+central concept synthetic biology rational design synthetic gene circuits means modularized standard parts dna traits well-defined functions
+field aims at adapting methods ideas part composability abstraction hierarchy engineering biology
+several computational tools embracing concepts been developed
+moreover some tools permit realize circuits drag drop way typical electronics
+nevertheless de novo design circuits able reproduce target function not easy task its automation represents major challenge synthetic biology
+previously fran ois hakim showed small networks characterized desired behavior obtained evolutionary optimization set independent circuits
+similar optimization-based tools like genetdes optcircuit use simulated annealing mixed integer dynamic optimization respectively
+approaches yielded interesting circuit designs but they several inherent limitations
+computational complexity requires very simplified models do not represent basic parts but lump functionalities entire genes
+similarly brute-force optimization only cope rather small networks requires dual optimization circuit structure kinetic parameter values
+hence more direct rational design methods desired
+here instead looking general solution automatic design challenge focus digital circuits
+circuits employ boolean logic where input output signals take only two values: 0 1
+simplest case boolean gate uses two input signals compute single logical output
+more complex digital circuits convert formula inputs into single output
+both cases input-output relation represented truth table where each entry specifies one possible formula combinations input signal values corresponding binary output
+biology digital circuits important several reasons
+first logical gates those determined action two different activators promoter abundant natural systems
+they often found association feed-forward loop motifs provide more complicated functionalities sign sensitive delays pulse generation
+more complex networks several ffls interacting basic boolean gates control sporulation b subtilis well neuronal system c elegans
+analysis possible implementations logical gates could thus help further our understanding natural biological networks
+synthetic biology secondly complex digital circuits required construction biosensors molecular computers
+biosensors should respond well-defined external cues may specified truth table
+more inputs sensed better ability biosensor discriminate between similar environmental conditions
+biosensors could integrated instance into bioreactors production biofuels
+furthermore they could play important role disease treatment anderson et al implemented biosensor mimics logical gate control bacterial invasion tumor cells response signals tumor environment
+even more complex biosensors could work molecular computers perform diagnosis basis sensed substances release drugs if necessary 
+motivated two aspects several synthetic gene circuits implement boolean logic been realized experimentally past years
+most circuits rely transcriptional control schemes
+fact well known bacterial promoters display logic behavior when controlled two transcription factors
+more complex boolean promoters been engineered instance mammalian cells
+however number repressors activators generally used synthetic biology low rational engineering transcription factors complex process 
+alternatively boolean gates achieved nature mechanisms translation control like base-pairing between antisense small-rnas mrna structural mrna modifications due binding chemical effectors riboswitches ribozymes
+complex rna structures made two modules: aptamer where chemical binds actuator either undergoes structural modifications riboswitch gets spliced ribozyme consequence chemical binding
+both riboswitches ribozymes either repress activate translation
+furthermore tandem riboswitch where single actuator under control two aptamers been observed b clausii
+two distinct inputs represents natural boolean gate located mrna
+taking structures models similar synthetic rna constructs been engineered recently
+particular win smolke built complex ribozymes establish most common two-input boolean gates
+importantly design small rnas easy compared design transcription factors
+despite individual successes synthetic biology fundamentally lacks tools concepts automatic computational design
+logical circuits suitable starting points automatic design because target function defined easily truth table
+here combine approaches electrical circuit design our previous model circuit design composable parts develop method automatic design digital synthetic gene circuits
+implemented add-on process modeling tool promot
+circuits use set standard biological parts boolean gates whose kinetic parameters take appropriate default values without invoking any optimization algorithms
+addition previously developed building blocks two-operator-containing promoters consider externally controllable ribosome binding sites
+method requires only truth table directly produce several possible circuit designs process up four different inputs yield unique pre-defined output signal
+design alternatives ranked according complexity score reflects efforts practical implementation
+simulations single gates networks different complexity confirm validity our approach highlighting accurate representation truth table robustness designed circuits

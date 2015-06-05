@@ -1,0 +1,45 @@
+
+depending cell cellular conditions
+how cell among cell still
+understanding processes important since they many including cancer
+using present mathematical model cell decision most consistent literature
+model provides view between b pathway pathway response signals
+type simulations demonstrate robust cellular responses receptor
+model simulations protein prediction effects novel
+experiments outcomes following at different suggest experimental approaches further model particular cell types
+also propose reduced model decision process
+analysis specific predictions between three pathways well role protein novel
+our type simulations provide novel cells
+model analysis our understanding how cell decision made
+moreover our current model used data literature
+novel experiments
+introduction
+cell yet lead activation pathway b mechanism cell signals
+mechanism involves sequence biochemical changes resulting cellular its
+physiological process cell development cancer cells
+contrast results membrane
+long seen cell also involved cancer cells
+regulatory network cell pathways could help identify how under conditions cell between different types cellular
+moreover could suggest ways when yet cells
+decision process involves several pathways well multiple positive negative regulatory
+mathematical provides approach understand complex systems
+models cell control usually focus one pathway only intrinsic pathways
+few studies both pathways some show concentration specific components decision between while other studies investigate between specific cell types along role key components pathways but no mathematical models including available yet
+moreover still lack models how cellular conditions determine choice between how what extent between
+our study at cell decision process
+three main considered cell
+although pathways leading three highly first describe them include each pathway
+description does not but rather at most processes cell decision
+only pathway considered here
+upon their presence specific complex
+leads activation
+type cells intrinsic pathway also dna directly through events
+protein then membrane
+there family interaction proteins
+results membrane factors
+c
+presence complex activation activation
+specific targets major biochemical changes
+during where able
+also positive activation
+type i cells directly

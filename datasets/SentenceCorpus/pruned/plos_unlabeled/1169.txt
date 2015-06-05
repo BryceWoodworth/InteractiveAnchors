@@ -1,0 +1,51 @@
+
+transcription factors between transcription factors cell
+event models often through transcription factors
+here use model elements regulation order understand how both stochastic events cell decisions
+our results suggest positive receptor feedback response stimuli during robustness both states while
+our model provides support both stochastic theories cell transcription factors but signaling strongly bias decisions complex behaviors robust
+simulations further suggest cell state depend state well chosen
+our model shows good receptor expression experiments provides computational framework both classical alternative been observed experimentally
+introduction
+cells ability both thus cell cells
+cell well characterized popular model system understanding
+cells through process
+during into common common
+further give cells via
+addition classical alternative pathways
+example also been observed states during
+exact molecular events direct at cell at level but well transcription factors play critical
+transcription factors been identified
+they expression genes change cell specific
+multiple transcription factors at low levels phenomenon known
+gene expression pattern cell during cell specific transcription factor positive other transcription factors through
+addition transcription factors cell also
+signal via their whose domains various pathways involved
+been whether cell during stochastic process
+stochastic theory expression transcription factors due intrinsic noise cells decision whereas theory receptor signals during shows decisions growth factor cues
+underlying question both theories whether provide cues signals
+model does not account certain cell types even when their out
+distribution population into cells suggested stochastic model explain how specific cell types during how after
+recent study techniques at level suggests there validity both theories
+authors showed strongly choice although was still possible
+more understanding may biochemical associations events
+gene expression pattern during observed not only transcription factors but also
+critical signal during transcription factor however need receptor event also still
+particularly since low number present cell sufficient cues
+during expression receptor expression transcription factor often due presence transcription factor binding domains region receptor gene
+advantage receptor expression through transcription factor not
+recent biochemical evidence also suggests provide signals transcription factors through also expression transcription factors during cell
+cell event rather than transition cell stable cell
+mathematical modeling analysis been used provide into biological networks give behaviors
+typically networks involved cellular memory through behaviors response
+components generate system between two stable states include feedback noise
+previous models suggested via cell intrinsic events but models assumed existence positive feedback achieve do not consider role cues
+while widely biological mechanism may play important role alternative mechanisms generate similar behavior networks where not been observed
+example previously shown positive feedback receptor generate robust stimulus without model
+furthermore even networks feedback may provide additional robustness system behavior more regulation
+here present model regulation between transcription factors previously understand between factors decisions
+our model shows critical
+network memory respect stimuli provide robustness both states
+model suggests noise network stochastic between stable however distribution population among various states during still strongly cues
+furthermore modeling framework both classical alternative seen
+although cell likely represent our model may provide initial step towards understanding how factors intrinsic factors may new mechanisms decisions

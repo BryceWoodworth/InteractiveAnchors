@@ -1,0 +1,50 @@
+ 
+g protein coupled receptors encoded about 5 percent human genes comprise largest family integral membrane proteins act cell surface receptors responsible transduction endogenous signal into cellular response
+although tertiary structural information crucial function annotation drug design there few experimentally determined gpcr structures
+address issue employ recently developed threading assembly refinement method generate structure predictions all 907 putative gpcrs human genome
+unlike traditional homology modeling approaches tasser modeling does not require solved homologous template structures; moreover often refines structures closer native
+features essential comprehensive modeling all human gpcrs when close homologous templates absent
+based benchmarked confidence score approximately 820 predicted models should correct folds
+majority gpcr models share characteristic seven-transmembrane helix topology but 45 orfs predicted different structures
+due gpcr fragments predominantly extracellular intracellular domains well database annotation errors
+our preliminary validation includes automated modeling bovine rhodopsin only solved gpcr protein data bank
+homologous templates excluded final model built tasser global c root-mean-squared deviation native 4.6 root-mean-squared deviation transmembrane helix region 2.1
+models several representative gpcrs compared mutagenesis affinity labeling data consistent agreement demonstrated
+structure clustering predicted models shows gpcrs similar structures tend belong similar functional class even when their sequences diverse
+results demonstrate usefulness robustness silico models gpcr functional analysis
+all predicted gpcr models freely available noncommercial users our web site 
+ introduction 
+g protein coupled receptors integral membrane proteins embedded cell surface transmit signals cells response stimuli light ca 2 odorants amino acids nucleotides peptides proteins mediate many physiological functions through their interaction heterotrimeric g proteins
+many diseases involve malfunction receptors making them important drug targets
+human estimated number gpcrs approximately 948 corresponding about 5 percent total number human genes
+however more than 45 percent all modern drugs target gpcrs; represent around 25 percent 100 top-selling drugs worldwide 
+while knowledge protein's structure furnishes important information understanding its function drug design progress solving gpcr structures been slow
+nuclear magnetic resonance spectroscopy x-ray crystallography two major techniques used determine protein structures
+nmr spectroscopy advantages protein does not need crystallized dynamical information extracted
+however high concentrations dissolved proteins needed; yet no complete gpcr structure been solved method
+x-ray crystallography provide very precise atomic information globular proteins but gpcrs extremely difficult crystallize
+fact only single gpcr bovine rhodopsin rod outer segment membrane been solved
+unlikely significant number high-resolution gpcr structures will experimentally solved very near future
+situation limits use structure-based approaches drug design restricts research into mechanisms control ligand binding gpcrs activation regulation gpcrs signal transduction mediated gpcrs 
+fortunately demonstrated recent casp experiments computer-based methods deducing three-dimensional structure protein its amino acid sequence been increasingly successful
+among three types structure prediction algorithms homology modeling threading ab initio folding cm builds models aligning target sequence evolutionarily related template structure provides most accurate models
+however its success largely dictated evolutionary relationship between target template proteins
+example proteins greater than 50 percent sequence identity their templates cm models tend quite close native structure 1 root-mean-squared-deviation native their backbone atoms comparable low-resolution x-ray nmr experiments
+when sequence identity drops below 30 percent termed twilight zone cm model accuracy sharply decreases because lack significant structure match substantial alignment errors
+here models provided cm often closer template model based rather than native structure sequence interest
+been significant unsolved problem
+among all registered human gpcrs there only four sequences sequence identity bovine rh greater than 30 percent
+ninety-nine percent human gpcrs average sequence identity bovine rh 19.5 percent lie outside traditional comparative modeling regimen 
+recently developed threading assembly refinement methodology combines threading ab initio algorithms span homologous nonhomologous regimens
+large-scale comprehensive benchmark test 2,234 representative proteins protein data bank after excluding templates having greater than 30 percent sequence identity target two thirds single domain proteins folded models c rmsd native less than 6.5
+significant advance over traditional homology modeling many models improved respect their threading templates 
+absence additional gpcr crystal structures computer-based modeling may provide best alternative obtaining structural information
+work exploit tasser predict tertiary structures all 907 gpcr sequences human genome less than 500 amino acids length
+only sequence given gpcr passed tasser no other extrinsic knowledge incorporated into our structure prediction approach
+because rearrangements tm helices rh may occur nonhomologous gpcrs ability refine templates most important advantage using tasser comprehensive gpcr modeling
+also distinct many other gpcr modeling methods only attempt model tm helical regions tasser generates reasonable predictions loop regions
+benchmark tests 39 percent loops four more residues tasser models global rmsd less than 3 native
+contrast using widely used homology modeling tool modeller percentage loops accuracy 12 percent
+if one considers only accuracy loop conformation itself then 89 percent tasser-generated loops local rmsd less than 3 average rmsd loops up 50 residues below 4
+especially important gpcr modeling extracellular loops often critical determining ligand specificity
+therefore full-length tasser models offer substantial advantages over traditional comparative modeling methods likely greater aid understanding ligand signaling interactions gpcrs

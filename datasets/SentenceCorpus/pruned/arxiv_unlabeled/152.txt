@@ -1,0 +1,27 @@
+
+learning several related tasks considered appropriate information across tasks each task may others
+context learning linear functions classification regression including information about weight vectors associated tasks how they expected related each other
+paper assume tasks into groups unknown tasks within group similar weight vectors
+design new norm assumption without prior knowledge tasks into groups resulting new convex optimization learning
+show simulations examples binding our approach convex methods learning well related convex methods same problem
+introduction
+regularization machine learning statistics learning data
+particular regularization been studied various settings leading efficient practical algorithms based linear very good theoretical understanding see eg
+recent years regularization also generated interest inference linear functions classification regression
+indeed both make problem various knowledge problem
+example norm values some components widely used estimate sparse functions while various defined various patterns
+while most recent work focused properties simple take approach paper
+given prior knowledge how design norm will
+more consider problem learning recently very research direction various applications
+learning several related inference tasks considered appropriate information across tasks each one may others
+when linear functions estimated each task associated weight vector common strategy design learning algorithm some prior hypothesis about how tasks related each other into constraints different weight vectors
+example constraints typically weight vectors different tasks at no information between tasks size different vectors i e amount regularization b unknown similarity between different weight vectors c unknown
+paper consider different prior hypothesis could more relevant some hypothesis different tasks fact into different groups weight vectors tasks within group similar each other
+key difference where similar hypothesis studied assume groups known sense our goal both identify clusters use them learning
+important situation hypothesis case where most tasks indeed related each other but few tasks very different case may better similarity constraints only subset tasks thus rather than all tasks
+another situation interest when one natural tasks into clusters when one model preferences there few general types similar preferences within each type although one does not know types
+performance if hypothesis out correct also approach able identify structure among tasks inference step eg identify groups interest further understanding structure problem
+order hypothesis into algorithm general strategy above design norm over set weights used regularization classical inference algorithms
+construct first tasks into clusters known
+then objective function inference algorithm over set strategy useful other multiple kernel learning
+optimization problem over set being propose convex problem results efficient algorithm

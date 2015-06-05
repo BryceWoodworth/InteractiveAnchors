@@ -1,0 +1,30 @@
+ 
+sensor network practice communication among sensors subject to: signal-to-noise ratio~(snr usually main factor determining probability error communication failure link
+probabilities then proxy snr under links operate
+paper studies problem designing topology ie  assigning probabilities reliable communication among sensors link failures maximize rate convergence average consensus when link communication costs taken into account there overall communication budget constraint
+consider problem address number preliminary issues: results formulate topology design subject random link failures communication cost constraint constrained convex optimization problem apply semidefinite programming techniques
+show extensive numerical study optimal design improves significantly convergence speed consensus algorithm achieve asymptotic performance non-random network at fraction communication cost
+ introduction 
+consider design optimal topology i e  communication configuration sensor network maximizes convergence rate average consensus
+average consensus distributed algorithm been considered tsitsiklis his phd thesis  see also  found application recently several areas subject active research e
+g
+topology design sensor networks not received much attention literature
+references consider restrict classes random graphs particular small-world topologies
+more general question designing topology maximizes convergence rate under constraint number network links was considered our previous work  where reduced average consensus problem distributed inference sensor networks; see also
+realistic networks operate under stress: model non-deterministic network topology random field
+specifically assume following: designing network topology corresponds then paper extends our preliminary convergence results  networks random links
+recent paper adopts similar model analyzes convergence properties using ergodicity stochastic matrices
+consensus randomized network also relates gossip algorithms  where only single pair randomly selected sensors allowed communicate at each iteration communication exchanged nodes averaged
+our randomized consensus use multiple randomly selected links at each iteration contradistinction  design optimal topology i e  optimal weight not simple average optimal probabilities edge utilization recognizing communication entails costs there communication cost constraint
+other recent work evolving topologies includes considers continuous time consensus networks switching topologies communication delays studies distributed consensus when network complete graph identical link failure probabilities all links
+outline paper
+section summarizes spectral graph theory concepts like graph laplacian graph algebraic connectivity
+% laplacian
+section formulates problem distributed average consensus random link failures
+sections derive necessary sufficient conditions convergence mean state mss convergence s convergence terms average terms  where
+section presents bounds mss convergence rate
+section addresses topology design random networks communication cost constraints
+formulate first version problem randomized distributed consensus communication cost constraint rccc then alternate version show convex constrained optimization problem apply semidefinite programming~(sdp techniques
+section studies performance topologies found solving numerically sdp optimization
+show designs improve significantly convergence rate example factor  when compared geometric networks networks where sensors communicate every other sensor within fixed radius they achieve practically asymptotic performance nonrandom network at fraction eg  50~\% communication cost per iteration
+section concludes paper

@@ -1,0 +1,44 @@
+ 
+many real world applications data cannot accurately represented vectors
+those situations one possible solution rely dissimilarity measures enable sensible comparison between observations
+kohonen's self-organizing map som been adapted data described only through their dissimilarity matrix
+algorithm provides both non linear projection clustering non vector data
+unfortunately algorithm suffers high cost makes quite difficult use voluminous data sets
+paper propose new algorithm provides important reduction theoretical cost dissimilarity som without changing its outcome results exactly same ones obtained original algorithm
+moreover introduce implementation methods result very short running times
+improvements deduced theoretical cost model validated simulated real world data word list clustering problem
+also demonstrate proposed implementation methods reduce factor up 3 running time fast algorithm over standard implementation
+ introduction 
+vast majority currently available data analysis methods based vector model observations described fixed number real values i e  vectors fixed finite dimensional vector space
+unfortunately many real world data depart strongly model
+quite common instance variable size data
+they natural example online handwriting recognition where representation character drawn user vary length because drawing conditions
+other data texts instance strongly non numerical complex internal structure: they very difficult represent accurately vector space
+while lot work been done adapt classical data analysis methods structured data tree graph neural based unsupervised processing structured data also } well data varying size there still strong need efficient flexible data analysis methods applied any type data
+way design methods rely one one comparison between observations
+general possible define similarity dissimilarity measure between arbitrary data long comparing them meaningful
+general data analysis algorithms based solely dis)similarities between observations more complex than their vector counterparts but they universal therefore applied any kind data
+moreover they allow one rely specific dis)similarities constructed experts rather than vector representation data induces general unwanted distortion observations
+many algorithms been adapted use solely dissimilarities between data
+clustering field k-means algorithm been adapted dissimilarity data under name partitioning around medoids
+more recently approaches based deterministic annealing been used propose another class extensions k-means principle
+following path taken k-means several adaptation kohonen's self-organizing map dissimilarity data been proposed
+proposed probabilistic formulation som used directly dissimilarity data
+deterministic annealing schemes been also used som
+present paper focus adaptation proposed  where was applied successfully protein sequence clustering visualization problem well string clustering problems
+generalization called dissimilarity som dsom also known median som considered som formulation pam method
+variants dsom were applied temperature time series  spectrometric data web usage data
+major drawback dsom its running time very high especially when compared standard vector som
+well known som algorithm behaves linearly number input data
+contrary dsom behaves quadratically number see section 
+propose paper several modifications basic algorithm allow much faster implementation
+quadratic nature algorithm cannot avoided essentially because dissimilarity data intrinsically described quadratic number one one dissimilarities
+nevertheless standard dsom algorithm cost proportional  where number observations number clusters algorithm produce whereas our modifications lead cost proportional
+moreover specific implementation strategy reduces actual computation burden even more
+important property all our modifications obtained algorithm produces exactly same results standard dsom algorithm
+paper organized follows
+section recall som adaptation dissimilarity data obtain theoretical cost dsom
+section  describe our proposed new algorithm well implementation techniques decrease its running time practice
+finally evaluate algorithm section
+evaluation validates theoretical cost model shows implementation methods reduce running time
+evaluation conducted simulated data real world data word list clustering problem

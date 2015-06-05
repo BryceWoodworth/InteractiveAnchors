@@ -1,0 +1,16 @@
+ 
+variety regularized optimization problems machine learning algorithms computing entire solution path been developed recently
+most methods quadratic programs parameterized single parameter example support vector machine svm
+solution path algorithms do not only compute solution one particular value regularization parameter but entire path solutions making selection optimal parameter much easier
+been assumed piecewise linear solution paths only linear complexity ie \ linearly many bends
+prove support vector machine complexity exponential number training points worst case
+more strongly construct single instance input points dimensions svm at least many distinct subsets support vectors % occur regularization parameter changes
+ introduction 
+regularization methods support vector machines svm related kernel methods % become very successful standard tools many optimization classification regression tasks variety areas example signal processing statistics biology computer vision computer graphics well data mining
+regularization methods common they convex usually quadratic optimization problems containing special parameter their objective function called regularization parameter representing tradeoff between two optimization objectives
+machine learning two terms usually model complexity regularization term accuracy training data loss term other words tradeoff between good generalization performance over-fitting
+parameterized quadratic programming problems been studied extensively both optimization machine learning resulting many algorithms able not only compute solutions at single value parameter but along whole solution path parameter varies
+many variants known solution paths piecewise linear functions parameter however complexity paths remained unknown
+here prove complexity solution path svms simple instances parameterized quadratic programs indeed exponential worst case
+furthermore our example shows exponentially many distinct subsets support vectors optimal solution occur regularization parameter changes
+here ``exponentially many'' valid both terms number input points also dimension space containing points

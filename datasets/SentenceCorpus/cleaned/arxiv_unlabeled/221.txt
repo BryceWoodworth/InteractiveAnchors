@@ -1,0 +1,49 @@
+ 
+given iid \ data unknown distribution consider problem predicting future items
+adaptive way estimate probability density recursively subdivide domain appropriate data-dependent granularity
+bayesian inference one assigns data-independent prior probability ``subdivide'' leads prior over infinite(ly many trees
+derive exact fast simple inference algorithm prior data evidence predictive distribution effective model dimension moments other quantities
+prove asymptotic convergence consistency results illustrate behavior our model some prototypical functions
+ introduction 
+consider problem inference iid \ data  particular unknown distribution data sampled
+case continuous domain means inferring probability density data
+without structural assumption  hard impossible since finite amount data never sufficient uniquely select density model infinite-dimensional space densities model class
+parametric estimation one assumes belongs finite-dimensional family
+two-dimensional family gaussians characterized mean variance prototypical figure 
+maximum likelihood ml estimate distribution maximizes data likelihood
+maximum likelihood overfits if family too large especially if infinite-dimensional
+remedy penalize complex distributions assigning prior 2nd order probability densities
+maximizing model posterior map proportional likelihood times prior prevents overfitting
+full bayesian procedure keeps complete posterior inference
+typically summaries like mean variance posterior reported } \paranodot{how choose prior } finite small compact low-dimensional spaces uniform prior often works map reduces ml
+non-parametric case one typically devises hierarchy finite-dimensional model classes increasing dimension
+selecting dimension maximal posterior often works well due bayes factor phenomenon : case true model low-dimensional higher-dimensional complex model classes automatically penalized since they contain fewer ``good'' models
+full bayesian treatment one would assign prior probability e g \  dimension mix over dimension
+probably simplest oldest model interval domain divide interval uniformly into bins assume constant distribution within each bin take frequency estimate probability each bin figure  dirichlet posterior bayesian inference
+there heuristics choosing number bins function data size
+simplicity easy computability bin model very appealing practitioners
+drawbacks distributions discontinuous its restriction one dimension at most low dimension: curse dimensionality uniform more generally fixed discretization heuristic choice number bins
+present full bayesian solution problems except non-continuity problem
+our model regarded extension polya trees
+there plenty alternative bayesian models overcome some all limitations
+examples % continuous dirichlet process mixtures  % bernstein polynomials  % bayesian field theory  % randomized polya trees  % bayesian bins boundary averaging  % bayesian kernel density estimation % other mixture models  universal priors  % but exact analytical solutions infeasible
+% markov chain monte carlo sampling  % expectation maximization algorithms  % variational methods  % efficient map m(d)l approximations  % kernel density estimation % often used obtain approximate numerical solutions but computation time and/or global convergence remain critical issues
+there course also plenty non-bayesian density estimators; see references general density tree estimation particular
+idea model class discussed paper very simple: some e g \ equal probability chose either uniform split domain two parts equal volume assign prior each part recursively i e \ each part again either uniform split
+finitely many splits piecewise constant function infinitely many splits virtually any distribution
+while prior over neutral about uniform versus split will see posterior favors split if only if data clearly indicates non-uniformity
+method full bayesian non-heuristic tree approach adaptive binning present very simple fast algorithm computing all  quantities interest
+note not arguing our model performs better practice than more advanced models above
+main distinguishing feature our model allows fast exact analytical solution
+it's likely use building block complex problems where computation time bayesian integration major issues
+any case if/since polya tree model deserves attention also our model should
+section introduce our model compare polya trees
+also discuss some example domains like intervals strings volumes classification tasks
+% section derives recursions posterior data evidence
+% section proves convergence/consistency
+% section introduce further quantities interest including effective model dimension tree size height cell volume moments present recursions them
+% proper case infinite trees discussed section  where analytically solve infinite recursion at data separation level
+% section collects everything together presents algorithm
+% section numerically illustrate behavior our model some prototypical functions
+% section contains brief summary conclusions outlook including natural generalizations our model
+% see program code

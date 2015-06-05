@@ -1,0 +1,52 @@
+
+kinase structural mechanisms dynamics amino kinase family
+given conformational dynamics may importance mechanisms most motion
+here present results normal analysis using network model representation shows conformational mechanisms binding strongly intrinsic dynamics form
+further potential mechanisms within using markov model network communication
+comparative analysis dynamics family strongly suggests motion associated signal highly conserved among family support sequence structure dynamics function
+introduction
+many recent studies both experimental computational point ability proteins under state conditions conformational changes usually their biological function
+proteins via their binding population form
+multiple structures given protein different now possible identify changes structure assumed given protein upon binding different observed those protein prior binding
+observations suggest intrinsic dynamics interactions
+contrast model where change
+instead model where selection those upon binding
+yet choice between intrinsic dynamics between dynamics function still depend particular systems study
+experiments provide evidence example existence between time scales conformational low frequency appear potentially reaction rates
+other hand other studies point different time scales events control binding events
+furthermore while intrinsic dynamics form observed mechanism may also structural local scale at binding site
+given dynamics potential functional structure proteins basis their would expected relevant features
+importance respect clear understanding their relationship binding if any into functional mechanisms protein
+protein dynamics means simulations models methods
+simulations molecular dynamics describe conformational system over range
+small proteins main do not allow accurate sampling usually biological interest
+approaches other hand lack but provide into global
+among them network models found wide use normal analyses
+describe protein network nodes usually identified spatial c
+constant nodes network model
+despite description protein studies shown predicted describe well experimentally observed conformational changes provide into potential mechanisms function performed more detailed models
+recent studies et al point conformational space described obtained provided long sample
+present study amino kinase family
+family following basis sequence structural kinase kinase kinase kinase
+studied family proposed among likely give similar mechanism binding
+most widely studied family taking into account large amount structural information
+indeed structural family its dynamics mechanisms family perform their function
+step
+through produce
+activity may taking into account potential target
+many organisms step
+cases feedback end recent studies mechanism
+other hand
+its mechanism been most characterized among
+particular studies provided into its mechanisms binding
+residues each being into
+each makes binding site whereas
+reaction place at between two domains within each
+studies show no evidence between structure provides stability only been evolutionary selected perform function
+structures bound state two types functional structures either too active site let whereas structure more open active site
+suggests conformational likely upon binding since all structure whether bound not
+complex ability solution without active site
+therefore must able open close other structural elements
+aim present study
+given interest knowledge mechanism potential role dynamics function analyze here motion
+using family what extent motion other family

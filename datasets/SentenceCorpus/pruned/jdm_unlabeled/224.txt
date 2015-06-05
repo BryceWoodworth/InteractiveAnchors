@@ -1,0 +1,18 @@
+
+standard preference models research assume people all attributes available options derive decision while there evidence use heuristics
+recently algorithm been developed model heuristics preference data
+compare predictive approach standard analysis online study task
+model derived algorithm was better at predicting compared data but overall lower predictive accuracy data than model estimated analysis
+however participants was better predicted strategies
+new algorithm will not standard tools preferences but study individual differences choice processes
+introduction
+how do choose
+how many attributes do they consider how do they process them form preference
+questions theoretical well practical interest
+into processes people while making decisions will lead better decision theories
+at same time more decision models predicting actions example choice processes
+research decision models based idea utility maximization expressed use models derived analysis preferences
+at same time judgment decision making researchers propose alternative decision heuristics provide more human decision making evidence their use
+recently field judgment decision making been new algorithm decision processes preference data developed et al
+aim together two research comparing predictive performance decision processes new algorithm models estimated full analysis standard research
+derive theoretical framework adaptive decision making about when approach should test them empirical study

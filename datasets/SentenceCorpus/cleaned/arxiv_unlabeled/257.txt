@@ -1,0 +1,27 @@
+ 
+present \searn algorithm integrating \textsc{sear}ch l\textsc{earn}ing solve complex structured prediction problems those occur natural language speech computational biology vision \searn\ meta-algorithm transforms complex problems into simple classification problems any binary classifier may applied
+unlike current algorithms structured learning require decomposition both loss function feature functions over predicted structure \searn\ able learn prediction functions any loss function any class features
+moreover \searn\ comes strong natural theoretical guarantee: good performance derived classification problems implies good performance structured prediction problem
+ introduction 
+prediction task learning function maps inputs input domain outputs output domain
+standard algorithms---support vector machines decision trees neural networks etc
+focus ``simple'' output domains case binary classification case univariate regression
+interested problems elements complex internal structure
+simplest best studied output domain labeled sequences
+however interested even more complex domains space english sentences instance machine translation application space short documents perhaps automatic document summarization application space possible assignments elements database information extraction/data mining application
+structured complexity features loss functions problems significantly exceeds sequence labeling problems
+high level there four dimensions along structured prediction algorithms vary: structure varieties structure efficient learning possible loss different loss functions learning possible features generality feature functions learning possible data ability algorithm cope imperfect data sources missing data etc 
+in-depth discussion alternative structured prediction algorithms given section
+however give flavor popular conditional random field algorithm viewed along dimensions follows
+structure: inference crf tractable any graphical model bounded tree width; loss: crf typically optimizes log-loss approximation 0/1 loss over entire structure; features: any feature input possible but only output features obey graphical model structure allowed; data: em cope hidden variables
+prefer structured prediction algorithm not limited models bounded treewidth applicable any loss function handle arbitrary features cope imperfect data
+somewhat surprisingly \searn\ meets nearly all requirements transforming structured prediction problems into binary prediction problems vanilla binary classifier applied \searn\ comes strong theoretical guarantee: good binary classification performance implies good structured prediction performance
+simple applications \searn\ standard structured prediction problems yield tractable state-of-the-art performance
+moreover apply \searn\ more complex non-standard structured prediction problems achieve excellent empirical performance
+paper following outline: introduction
+core definitions
+\searn\ algorithm
+theoretical analysis
+comparison alternative techniques
+experimental results
+discussion

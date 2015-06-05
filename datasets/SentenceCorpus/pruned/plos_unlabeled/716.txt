@@ -1,0 +1,37 @@
+
+neural networks neurons may exhibit complex dynamic behavior including solutions phase space
+investigate conditions under behaviors occur space defined connectivity membrane
+using techniques further derive low description neural population dynamics show various dynamic behaviors network well reduced system
+examples networks neurons discussed
+introduction
+information processing associated higher brain functions out large scale neural networks
+significant theoretical computational been over years understand behavior networks
+while any modeling most relevant physical characteristics networks certain hypothesis usually order complexity problem
+particular computational models large scale networks make use assumption
+population neurons exhibit similar behavior
+large scale network then defined their
+order describe dynamics further assumptions
+instance neurons may nature their may temporal their activity considered dynamics large network
+small neural network properties will show very well dynamics neural model
+amount work been understanding behavior neural networks when some assumptions
+many studies consider either network connectivity give special attention state network
+among first one may consider studies who introduced order parameter degree function frequency distribution
+more generally et al derived stability stability condition state arbitrary network
+recently et al derive similar conditions connectivity well
+another direction behavior networks involves state along
+approaches only when state not very strong
+other hand there exists another class approaches based mean field theory
+mean field approaches neural activity since their basic assumption given network hence
+other behaviors far phase instance also require current approaches
+first do so include higher mean field network dynamics phase space
+latter approach et al identified network behavior but been limited situations networks models
+while true strong assumptions common network modeling assumptions network dynamics usually made limit network dynamics small range
+reduced small scale network model large scale network simulation dynamic
+here less importance find reduced description neural rather more population model able major dynamic behaviors parameter observed total population neurons
+here also include more dynamics behavior since novel small scale network level may occur need reduced population model
+paper approach et al towards more network including networks well more models behavior
+our reduced neural population models not only account correct mean field original networks but also most important temporal features its dynamics
+way complex scale become available simulations large scale neural networks at low computational cost
+first main features dynamic behavior neural population both
+then using techniques derive low representation network dynamics show main features neural behavior well dynamics few
+two different models network neurons network neurons discussed

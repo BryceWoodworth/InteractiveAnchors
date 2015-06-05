@@ -1,0 +1,35 @@
+
+fundamental
+example frequency signal where time been active area research theoretical computer data
+when task i e using
+when however design small space i e low memory system
+proposed frequency data where
+if data model at time evaluation model special case
+data practice
+underlying technique stable random when simple when small sample complexity should low function
+show sample complexity number } where } }
+other words small instead
+case very important
+now one obtain good data using very small
+statistical inference using method use very close 1
+another example might usually small
+thus will total value future taking account effect interest
+finally our another algorithm norm } distance }
+norm statistical
+distance useful machine learning practice data
+introduction
+paper % } among most fundamental almost every field
+} time
+} more general
+when } total number
+when } signal
+if actually power underlying signal } }
+here signal example data
+literature frequency data defined data important among many data
+fact general up high data high data among problems data research
+because elements mechanism requires system
+not always when large only need approximate answer
+example may if
+total number
+new frequency data where using low memory
+underlying technique based what call stable random

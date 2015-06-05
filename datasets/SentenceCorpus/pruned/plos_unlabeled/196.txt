@@ -1,0 +1,77 @@
+
+underlying energy cellular network
+energy yeast network towards global minimum experimentally measured reaction rates
+robust against random
+robustness physical point view
+versus quantitative measure robustness network
+seen possible principle natural selection at cellular network level
+provides optimal criterion network design
+our approach general applied other cellular networks
+introduction
+underlying mechanism cellular networks understand their biological function
+underlying nature cellular networks been genetic techniques
+cellular networks been found generally robust perform their biological functions against environmental
+there increasing numbers studies global structures networks recently properties networks been found
+highly nodes network essential network together might play important role robustness network
+however there so far very few studies why network should robust perform biological function physical point view
+theoretical models cellular networks often been set rate
+local
+global properties one often change parameters
+parameter space
+global robustness therefore see approach
+here will explore nature networks another problem terms potential function potential energy
+if potential energy cellular network known global properties
+fact global properties when interaction system
+set normal rate cellular networks being proteins being reaction rate one cannot general potential energy function
+however reaction network only average concentration level
+cell statistical finite number molecules provide source intrinsic noise highly environments cell provide source noise networks
+both noise play important properties network
+general one should study reaction network conditions model cellular environments more
+one also study properties reaction networks under environments
+potential state network exists general
+network problem terms potential energy function potential energy issue global stability robustness much address
+fact paper study global robustness problem directly properties potential network
+explore nature underlying potential cellular networks will study yeast network
+one most important functions cell growth
+therefore understand cell cycle its underlying process
+cell during development usually into several s
+most cells control mechanisms over dna make events cell cycle out
+there usually three before new before process before
+recently many underlying mechanisms revealed genetic techniques mutations gene
+been found control been protein major events cell cycle
+example activation cells at both further
+during other
+although molecular interactions known mechanisms still
+1 relationship between cell cycle
+step 1
+may
+form
+at some point after formation
+then form active
+principle activation may protein kinase
+when sufficient been but active step
+complex subject
+finally cycle itself
+mathematical models cell cycle been set underlying biochemical processes
+models been applied yeast cycle many physiological behaviors
+fixed points
+since signal changes regulatory networks cell cycle described dynamics out fixed points
+although detailed simulations give some towards due parameter space search difficult global universal properties cycle networks
+current study address issue
+will develop global energy theory cell cycle network
+approach good two
+approach only most important factors so analysis out relatively some global properties
+other hand statistical approach very useful when data
+there many possible states network corresponding different patterns activation protein states
+each low energy states
+phase states should global energy since end cycle
+new cycle network signal next phase
+dynamics cell cycle described state space one another
+search not random but since random search time
+direction provided towards phase
+therefore towards state what call state
+at end phase network high energy states at
+cell cycle then follows through state space way several finally phase before being another cycle
+will study global stability underlying potential yeast network
+aim paper provide framework study at cell network
+at paper show potential yeast cell cycle robust against rates environmental through noise

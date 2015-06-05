@@ -1,0 +1,39 @@
+
+hidden markov models one most fundamental widely used statistical tools modeling time series
+general learning data under assumptions typically search heuristics local
+prove under natural condition bounds value parameters there efficient correct algorithm learning
+sample complexity algorithm does not explicitly depend number distinct depends through properties underlying
+makes algorithm particularly settings large number observations those natural processing where space observation words
+algorithm also simple only value matrix
+introduction
+hidden markov models statistical model time series widely applications including recognition natural processing genomic sequence modeling
+model hidden state according some dynamics observations at particular time depend only hidden state at time
+learning problem estimate model only observation samples underlying distribution
+thus far learning algorithms been local search heuristics algorithm
+not practical algorithms heuristics general learning problem been shown under assumptions
+results those likely practical applications
+situation many ways learning mixture distributions samples underlying distribution
+there general problem also
+however much recent been made when certain assumptions made respect component mixture distributions eg
+assumptions high probability given point distribution one determine mixture component generated point
+fact there often only clustering when condition
+much theoretical work here focused how small still efficient algorithm model
+present simple efficient algorithm learning under certain natural condition
+provide two results learning
+first approximate distribution over observation sequences length here quality approximation measured total variation distance
+increases approximation quality
+our second result distribution over future observation some history observations
+show error i e any observations prior time error predicting outcome
+our algorithm thought learning do not explicitly transition observation models
+however our model does hidden state representation fact related used hidden state
+condition require condition both observation matrix transition matrix
+require observation distributions distinct hidden states distinct value conditions observation matrix
+thought being than condition clustering observation distributions one observation do not information determine hidden state was generated clustering literature
+also condition correlation between observations
+both conditions many practical applications
+furthermore given our analysis our algorithm assumptions should possible
+algorithm present both sample computational complexity
+algorithm its core value correlation matrix between past future observations
+correlation analysis between past future observations
+sample complexity results present do not explicitly depend number distinct rather they depend number through properties
+makes algorithm particularly settings large number observations those where space observations words

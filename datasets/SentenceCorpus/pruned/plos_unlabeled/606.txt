@@ -1,0 +1,45 @@
+
+both membrane active firing dynamics but relative importance interactions between features
+recent modeling studies shown different active similar firing patterns but how might
+introduce novel application mathematical sensitivity analysis how length area influence firing effects directly against those active parameters
+method was applied model neurons area
+neurons exhibit likely activity simple model memory
+introduce sensitivity defined local sensitivity analyses firing rate gain each parameter performed across parameter space
+over sensitivity all parameters most revealed intrinsic most model output
+found domains where different groups parameters had interactions within each group firing behaviors within each specific domain
+application our method its models were general features will lead understanding how functional
+significantly predict active how many them will given structural change will resulting normal function
+our method analyze any computational model
+thus sensitivity quantitative predictions they provide give new into mechanisms any biological system
+introduction
+recent studies demonstrated neurons networks functional specific levels neural activity over long time scales
+although combination within individual neurons same class widely output neurons even network whole remains stable
+some function despite changes
+computational models been used explore processes underlying demonstrated many parameters across parameter space similar firing patterns
+also seems under global features including distribution conserved across different classes neurons making local features length numbers
+computational models not yet how might functional
+critical firing dynamics signal processing
+influence processing further active distributed
+previous computational studies identified parameters general firing patterns but not how different parameters influence individual models across parameter space
+moreover few studies dynamics firing patterns despite role 2 membrane potential synaptic transmission signaling
+memory representation recent event necessary future task performance one function thought computational
+neural activity memory been observed brain
+neurons area exhibit likely mechanism activity long after its stimulus
+experiments suggest intrinsic properties individual cells activity
+properties area neurons intrinsic differences active similar firing patterns
+test like introduce novel application mathematical sensitivity analysis effects different classes parameters like active model output
+allows us compare effects each parameters models across parameter space produce similar output mechanisms
+sensitivity analysis been used widely biological signaling models understand relationship between model input output but its use within computational been limited
+sensitivity analysis performed single optimal model general sensitivity parameter space how each parameter model output
+large number parameters their interactions techniques over parameter space models
+approaches explore sensitivity provide global parameter while how intrinsic properties individual neurons influence their firing patterns
+method compare parameters any computational model
+our method defined three basic its sensitivity small models across parameter sensitivity local identify global
+our method use reduced model
+later demonstrate our sensitivity analysis method applied models include more
+our analysis identified over sensitivity even all parameters most
+at same time found domains across space different groups parameters even ones had
+together results mechanisms both across parameter space
+show how used predict between parameters target activity levels area cells
+mechanisms exist many systems where function conserved despite structure synaptic input membrane may some changes associated
+sensitivity provide new into mechanisms functional brain analysis any biological system

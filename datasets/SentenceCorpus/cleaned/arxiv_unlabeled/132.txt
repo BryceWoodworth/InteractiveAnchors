@@ -1,0 +1,35 @@
+ 
+games prediction expert advice considered paper
+present some modification kalai vempala algorithm following perturbed leader case unrestrictedly large one-step gains
+show general case cumulative gain any probabilistic prediction algorithm much worse than gain some expert pool
+nevertheless give lower bound cumulative gain general case construct universal algorithm optimal performance; also prove case when one-step gains experts pool ``limited deviations'' performance our algorithm close performance best expert
+ introduction 
+experts algorithms used online prediction repeated decision making repeated game playing
+any algorithm based ``pool experts''
+at any step  each expert gives its recommendation
+``master decision'' performed
+after losses rewards assigned each expert environment adversary
+master algorithm also receives some loss reward depending master decision
+goal master algorithm perform almost well best expert hindsight long run
+prediction expert advice considered paper proceeds follows
+asked perform sequential actions at times
+at each time step  observe results actions experts form their gains losses steps
+after at beginning step learner makes decision follow one experts say expert
+at end step learner receives same gain loss expert at step
+use notations definitions
+let cumulative loss expert at time
+given   at time  natural idea solve expert problem ``to follow leader'' i e select expert performed best past
+following simple example kalai vempala shows learner perform much worse than each expert: let current losses two experts steps
+``follow leader'' algorithm always chooses wrong prediction
+method following perturbed leader was discovered hannan
+kalai vempala rediscovered method published simple proof main result hannan
+they called algorithm type fpl following perturbed leader
+hutter poland presented further developments fpl algorithm countable class experts arbitrary weights adaptive learning rate
+fpl algorithm outputs prediction expert minimizes \xi_t^i i=1,m t=1,2,symbol p(t)=e^{-t} n i t 0s^i_t1 t b_t s_tb_t t s^i_t i 0s^i_t1$ seems too restrictive
+appendix consider some applications results sections paper
+define two financial experts learning fractional brownian motion whose one-step gains at any step not restricted advance
+application at bottom our special interest zero-sum games unbounded gains section
+paper present some modification kalai vempala algorithm case unrestrictedly large one-step gains not bounded advance
+show general case cumulative gain any probabilistic prediction algorithm much worse than gain some expert pool
+nevertheless give lower bound cumulative gain any probabilistic algorithm general case prove our universal algorithm optimal performance; also prove case when one-step gains experts pool ``limited deviations'' particular when they bounded performance our algorithm close performance best expert
+result some improvement results mentioned above

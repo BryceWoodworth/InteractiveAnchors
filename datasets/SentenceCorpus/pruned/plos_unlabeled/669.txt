@@ -1,0 +1,58 @@
+
+cells variety molecular patterns through their
+response activation program regulatory network
+complex network significant requires integration multiple experimental data types
+work network underlying activation
+expression transcription factor binding site were used network associations between transcription factor genes clusters target genes
+correlation was used analyze temporal expression data order identify potential network
+novel statistical test was developed correlation
+several associations resulting network were using experiments
+network known into control activation
+our analysis identified novel may role activation
+introduction
+dynamic cellular processes response signaling event complex regulatory networks
+networks typically involve large number transcription factors different order produce particular cellular response
+cell type system variety responses
+system first against play role distinct molecular patterns rna
+signals first through molecules then through signal pathways
+pathways program over genes genes expressed type
+network underlying activation exhibit many distinct associated functions
+response also dynamic characterized temporal gene activation each distinct sets gene functions likely different
+network underlying activation key their functions would our understanding response potentially new development
+computational analysis experimental data useful inference regulatory interaction networks identification potential experimental
+expression measurements been used dynamic networks yeast influence networks cell
+context primary computational control underlying activation program not difficult measure several
+first control within networks general key genes particular
+second many subject activation dynamic control
+third genetic perform large scale model expression difficult due tendency vector
+finally few regulatory interactions been through experiments primary not available single standard
+therefore context regulation expression data sets computational inference useful potential regulatory interactions rather than inference predicting control specific target genes
+described above order regulatory interactions system necessary include additional sources evidence network model selection
+computational sequences clusters genes known transcription factor binding site motifs particularly when combined global expression data
+recently et al used combination expression clustering sequence motifs construct initial network stimulus
+their work identified two novel but clustering was based expression single stimulus limited biological few time points
+moreover clusters without expression dynamics provides only limited underlying network
+many motifs often multiple making difficult identification
+furthermore because tendency motifs difficult determine among set motifs associated most relevant regulation target
+core transcription factors expressed cell regulation second genes
+genes key analysis dynamic expression data data
+work using computational data integration identify set core expressed form statistical associations clusters genes they may
+clusters based temporal activation sense associations dynamic network
+achieve used novel computational approach statistical inference based expression data across stimuli
+our approach involved four
+set genes was identified were expressed under at least one experiment
+genes were based their expression across wide range conditions genes based similarity their
+gene were used identify functional within gene clusters
+sequences genes within each were motifs each at least one expressed identify possible associations between gene clusters
+across different studies dynamic expression genes target genes were compared order identify possible between expressed genes clusters
+several techniques been developed specifically model inference expression data dynamic bayesian networks model selection
+however complexity model classes makes difficult apply them network underlying specific cellular limited expression
+here potential regulatory influence expression data using correlation been used biochemical interaction networks well networks
+advantage time delay between expression expression target gene
+contrast standard methods identify genes method uses temporal expression determine whether time between two correlated genes consistent interaction
+developed novel method identify optimal time each gene pair used prior probability distribution time possible interactions
+evidence evidence obtained correlation analysis expression data were able identify network significant associations between genes clusters
+overall percent expressed genes network
+network provided into temporal response into may key activation
+finally analysis identified potential was not previously known play role activation
+experimental network two were binding elements using were genes four out predicted target clusters at significantly higher than expected random set genes

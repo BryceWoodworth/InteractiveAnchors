@@ -1,0 +1,29 @@
+ 
+two most influential models delay discounting research been exponential e hyperbolic h models
+develop new methodology design binary choice questions exponential hyperbolic discount rates purposefully manipulated make their rate parameters orthogonal pearson's r number negatively correlated r  number positively correlated r number hold one rate constant while allowing other vary
+then extend method similarly contrast different versions hyperboloid model
+arithmetic discounting model based differences between present future rewards rather than their ratios may easily made orthogonal any other pair models
+our procedure makes possible design choice stimuli precisely vary relationship between different discount rates
+however additional control over correlation between different discount rate parameters may require researcher either restrict range those rate parameters take expand range times participant must wait future rewards
+ introduction 
+few exceptions people prefer receive reward now rather than at later date people also prefer receive larger rewards than smaller rewards
+but when choice offered between smaller reward now versus larger reward later then two rules behavior conflict
+people must find some way resolving conflict make their choice
+firms must also choose between outcomes at different times future now
+classical economics accountancy finance all agree single normative method should done value all future gains terms their present value
+if sum money p present value will grow future amount f following risk-free process continuously compounded interest then p said present value future payment f said discounted p continuous compounding exponential model growth normative model known exponential discounting
+however people consistently depart normative model two distinct ways
+first people not exponential discounters they discount more heavily than exponential short term less heavily than exponential long term
+important implication decreasing impatience people will make inconsistent preference reversals simply due passage time
+researchers suggested form people's behavioral discounting better modeled hyperbolic discounting whose mathematics reflects processes simple interest
+second departure people far more likely choose present payoffs relative future payoffs than they should
+seen through lens exponential model impulsivity favor present reward p implies people demand wildly high level interest get them choose future reward f-often order magnitude greater than any bank would offer
+therefore form people's discounting non-exponential size their discounting unreasonable
+also been found magnitude p f not just their ratios may affect people's choices finding implied killeen's additive utility model discounting arithmetic discounting special case killeen's model underlying behavioral model underpinned analogy excess wages required waiting f rather than analogies simple compound interest
+using simulation studies navarro pitt myung shown how psychological models may difficult distinguish each other so deciding model better captures people's decision making remains equivocal despite scrutiny many empirical studies
+exponential hyperbolic models delay discounting could taken one intrinsically confusable pair-after all how distinguishable models simple interest compound interest really
+section number our analysis two frequently used research designs seems support view rate parameters three different delay discounting models all highly inter-correlated
+interestingly navarro et al suggest good way improve separation between models improve experimental design they achieve their simulations information integration models noting models make different predictions if trials added only visual only auditory stimuli presented
+similar purposeful approach evident glockner betsch who search decision tasks diagnostic between competing models risky choice
+similarly present article develops tools separation may improved between different models delay discounting designs even constructed exponential discounting hyperbolic discounting make opposite predictions see sections number number
+navarro myung pitt kim see part their research agenda encouraging researchers explore landscape their favorite computational model cognition

@@ -1,0 +1,49 @@
+
+certain theories suggest should difficult disease under individual at high levels
+there been examples consistent theory
+other hand was despite many
+previous modeling studies between disease dynamics individual behavior assumed population
+comparison here transmission through random contact network
+individuals choose whether based based
+when size small rational behavior results through
+size increases threshold through through whole population resulting large number
+outcome convergence between optimal outcomes whereas latter their observed most models individual behavior assume
+similar effects observed extended model using natural history assumptions
+work significant differences between behavior dynamics populations versus continuous populations
+work also shows how disease populations where primary control mechanism may depend whether disease only few close social larger subset population
+introduction
+analyses often should difficult disease under policy without other
+increases disease due
+risk individuals while individual risk due remains constant
+hence individual also reduced increases
+should true principle even disease very high case rates long risk small
+effect similar also been game theoretical analyses disease dynamics
+game theoretical been shown threshold not if risk because small group individuals achieve higher payoff strategy
+behavior been suggested possible policy more recently
+recent work rule instance finding cases multiple when when
+only disease been although than before
+was particularly
+often had widely
+instance was some states but others
+even when were less individuals often without individual financial
+if theories correct cannot generally under how was despite some
+most if not all previous mathematical models analyze between optimal strategies under considered populations without spatial social contact structure where populations large approximation apply
+also true models more generally including those study dynamics at level problem
+previous analyses populations generally considered individuals likely their own they general
+however models certain situations been widely differences between predictions models models where transmission take place contact network
+present context assumption good approximation highly through
+however assumption seems less through close contact
+despite few widely reported cases transmission also through close contact typically requires contact
+here show disease dynamics under policy introduction social contact structure
+analyze social contact network model where each individual each close contact through may
+individuals whether not based upon their expected payoffs versus not
+assume free individuals situation many major well situation under who program
+first study contact network general disease history
+at parameter values small using only
+size increases while risk constant threshold size
+above threshold population both size large number
+hence limit large size model dynamics similar those models
+because constant size increases how disease transmission network
+smaller close contact larger do not require close contact transmission
+out similar disease history properties similar results
+analysis importance populations modeling behavior close contact provides framework previous theoretical predictions under empirical fact global local many other through

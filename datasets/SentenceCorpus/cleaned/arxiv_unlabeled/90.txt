@@ -1,0 +1,16 @@
+ 
+regularization sum singular values also referred trace norm  popular technique estimating low rank rectangular matrices
+paper extend some consistency results lasso provide necessary sufficient conditions rank consistency trace norm minimization square loss
+also provide adaptive version rank consistent even when necessary condition non adaptive version not fulfilled
+ introduction 
+recent years regularization various non euclidean norms seen considerable interest
+particular context linear supervised learning norms norm may induce sparse loading vectors i e  loading vectors low cardinality norm
+regularization schemes also known lasso least-square regression come efficient path following algorithms
+moreover recent work studied conditions under procedures consistently estimate sparsity pattern loading vector
+when learning rectangular matrices rank natural extension cardinality sum singular values also known trace norm nuclear norm natural extension norm; indeed norm convex envelope norm unit ball i e  largest lower bounding convex function  trace norm convex envelope rank over unit ball spectral norm
+practice leads low rank solutions seen recent increased interest context collaborative filtering  multi-task learning classification multiple classes
+paper consider rank consistency trace norm regularization square loss i e  if data were actually generated low-rank matrix will matrix its rank consistently estimated
+\mysec{consistency} provide necessary sufficient conditions rank consistency extensions corresponding results lasso group lasso
+do so under two sets sampling assumptions detailed \mysec{assumptions}: full iid assumption non iid assumption natural context collaborative filtering
+lasso group lasso necessary condition implies procedures do not always estimate rank correctly; following adaptive version lasso group lasso  design adaptive version achieve consistency rank consistency no consistency conditions
+finally \mysec{algorithms} present smoothing approach convex optimization trace norm while \mysec{simulations} show simulations toy examples illustrate consistency results

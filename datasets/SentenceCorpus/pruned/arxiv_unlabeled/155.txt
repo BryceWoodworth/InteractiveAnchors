@@ -1,0 +1,42 @@
+
+paper statistical concept prediction arbitrary probability density functions feature level distributions provides probabilities continuous random variables
+advantage probability density function into level distribution classification detection direct manner
+introduction
+prediction will degree confidence contain future pattern recognition feature vectors
+concept its clear stochastic
+usually too example distributions
+clear case more than one feature vectors exist would better prediction regions
+even more situation feature
+lack why prediction used pattern recognition
+actually because prediction regions would very useful example recognition detection
+instead prediction other methods used
+they into two approaches methods introduce class combination classifier
+if method i propose here detection first probability
+before into i will give short related
+simple methods rely concept point example
+those points there less than points within distance
+propose method choose threshold based upon
+idea consider set points their
+here also threshold necessary but now statistical distance distribution choice
+more recent article based idea who apply per point
+although idea simple methods low
+furthermore they make only assumptions about underlying distribution
+another algorithms related detection robust regression
+detection here more means end because goal influence estimation regression function
+means case sufficient
+example apply control influence point parameter estimation process regression function
+weights introduced estimated based assumption noise distributed
+often sufficient example most signals
+algorithm but far
+method also one
+idea second very different
+at first seems use because need estimation their parameters samples
+usually only samples available
+idea samples random
+possible classifier
+example apply neural network
+other also possible example
+applied classifier probabilistic methods need measure degree generated sample point
+example use simple prediction
+both solve same find appropriate level set density
+i will show problem choice level possible statistical concept prediction prediction regions

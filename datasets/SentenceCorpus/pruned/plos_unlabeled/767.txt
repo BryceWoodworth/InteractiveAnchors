@@ -1,0 +1,73 @@
+
+metabolic rate rate many other physiological properties body ways
+present empirical data suggest relationships take form power simple one
+observation was
+their framework between metabolic rate body dynamics structure distribution networks system case
+within framework model based assumptions observed
+paper result only limit network size actual predicted model depends organisms being studied
+explore nature approximation about model were at
+resulting function network size
+when over size range observed model predicts at data
+then study sensitivity respect several assumptions model always context
+here too derive model at empirical data
+our work utility framework about while at same time current model may need its predictions available datasets
+introduction
+metabolic rate b scales body across species b constant typically measured very close
+empirical expressed 1 known
+many other biological rates times scale simple
+example cellular metabolic rates rates growth rates scale whereas time development time scale close
+also observed evolution
+at levels biological suggests all rates
+metabolic rate seems most fundamental because rate at energy taken up environment biochemical reactions growth
+series model account metabolic rate body across species
+theory biological developed attributes distribution networks
+there some evidence at molecular cellular levels wide variety
+model since its original even about quality analysis data
+one most model cannot predict metabolic rate even though potential was themselves
+if were true could not principle explain data whose been reported above below been observed small
+model would account metabolic rate body
+important note actual nature metabolic rate however not without its own see metabolic rate scales when body taken into
+much work at model itself
+account different among groups differences constant b 1 assumptions network
+while results remains whether not predict significantly different power even any variation b networks following required theory
+although been tested applied no theoretical work been provides more detailed predictions original theory
+also work at some its assumptions been many network structure might important
+what set out do present
+show original model only predict
+because many predictions tests original model derived
+paper derive more predictions tests
+our framework approach terms distribution networks model instance framework particular parameters dynamics networks
+our main findings 1
+only limit organisms size
+2
+organisms show model does not predict but rather relationship between metabolic rate body
+although finite size effects would produce power small size limit importance effects were
+show when current practice relationship over range body predicted model differ significantly without any its assumptions framework
+
+when parameter values construct network find resulting at significantly higher than based current data analysis
+
+our data analysis indeed relationship between metabolic rate body however what model
+model data analysis
+examine original assumptions two ways
+first predicted point above network total area at below increases total area at
+two into different at points
+second allow network differ large small
+analyze sensitivity respect each changes context networks finite size
+approach similar et al who network other assumptions context
+online also argue data analysis should account distribution body thus fact there more small than large ones
+despite differences structure systems detailed models each
+present paper focus model system
+all our assumptions should within context
+basic assumptions important context well shown recent studies
+analysis many framework exact predictions model not empirical data
+means framework remains perspective
+latter means model must become more biological may predictions more empirical data
+our work how model what effects they
+paper follows
+assumptions both underlying theory
+provide detailed model upon
+not original but they not full extent before literature
+while section assumptions model novel there seems no single place literature out all components theory
+our paper then exact rather than approximate relationship between metabolic rate body then exact predictions networks finite size certain assumptions theory
+section comparison empirical data compare our results empirical data
+our section

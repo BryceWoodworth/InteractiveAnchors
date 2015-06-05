@@ -1,0 +1,27 @@
+ 
+one most utilized data mining tasks search association rules
+association rules represent %probabilistically significant relationships between items transactions
+extend concept association rule represent much broader class associations refer entity-relationship rules
+semantically entity-relationship rules express associations between properties related objects
+syntactically rules based broad subclass safe domain relational calculus queries
+propose new definition support confidence entity-relationship rules frequency entity-relationship queries
+prove definition frequency satisfies standard probability axioms apriori property
+ introduction 
+one goals data mining discover interesting relationships data
+association rules express relationships hold sufficient frequency but not always
+example may case not all managers earn over \ pq p q q p p q p q pq p q fr(pq)$
+our definition frequency er queries generalizes previous work defining association rules multi-relational setting
+discusses extending itemset rules negations motivates usefulness extension
+query extension approach system presents special class entity-relationship rules allows conjunctions nonnegated statements existential quantification
+our concept er rules %allows features addition negations universal quantification nested quantifiers nested boolean combinations
+thus one contribution paper extended rule format
+characteristic distinguishes our approach previous work previous approaches assume given target table defines base set tuples evaluating support query
+contrast start query define natural base set tuples evaluating support query
+think approach dynamically generating entity sets given query rather than evaluating queries respect fixed entity set
+thus second main contribution paper new definition support rules our extended format
+paper organized follows
+first review basic relational database concepts relational schema domain relational calculus
+then introduce concept entity query define frequency query class queries
+definition provides basis notion entity-relationship rule defining support entity-relationship rule
+compare entity-relationship queries frequent itemsets rule language system
+final section establishes sevveral important formal properties query frequencies define them shows they satisfy apriori property frequency conjunction no greater than frequency its conjuncts

@@ -1,0 +1,29 @@
+ 
+many biological systems interactions describe coupling between different units genetic network nonlinear stochastic
+study interplay between stochasticity nonlinearity using responses chinese hamster ovary mammalian cells different temperature shocks
+experimental data show mean value response cell population described mathematical expression valid large range heat shock conditions
+nonlinear stochastic theoretical model was developed explains empirical law mean response
+moreover theoretical model predicts specific biological probability distribution responses cell population
+prediction was experimentally confirmed measurements at single-cell level
+computational approach used study other nonlinear stochastic biological phenomena
+ introduction 
+complex biological systems built out huge number components
+components diverse: dna sequence elements mrna transcription factors etc concentration each component changes over time
+one way understand functions complex biological system construct quantitative model interactions present system
+interactions usually nonlinear terms concentrations components participate interaction process
+example concentration dimer proportional product concentrations molecules dimerise
+besides being nonlinear interactions also stochastic
+production process molecule not deterministic governed probability rate production
+what follows nonlinear stochastic model response heat shocks cho mammalian cells will developed
+heat stress just one example many ways molecular system perturbed
+general perspective structure molecular system uncovered imposing different perturbations system under study then responses system measured
+experimental collection pairs input output signals laws describe system uncovered
+fundamental idea systems synthetic biology long proved successful field electronics
+input signals applied through use signal generators
+input signal easy manipulate heat pulse parameters change being pulse temperature its duration
+members stress protein family heat shock protein 70 highly responsive temperature variations
+protein molecular chaperone critical component complex genetic network enables organism respond deleterious effects stress
+since hsp70 thus important regulator complex system our goal was find if possible develop mathematical model regulation its expression mammalian cells exposed heat shock
+our specific objectives were determine equation representing average expression hsp70 over time cell population after initial heat shock determine how physical parameters heat shock influence parameters equation determine mathematical model describes expression hsp70 at single-cell level
+first describe process inferring mathematical model experimental data
+then mathematical study model will follow

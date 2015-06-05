@@ -1,0 +1,55 @@
+ 
+study problem decision-theoretic online learning dtol
+motivated practical applications focus dtol when number actions very large
+previous algorithms learning framework tunable learning rate parameter barrier using online-learning practical applications not understood how set parameter optimally particularly when number actions large
+paper offer clean solution proposing novel completely parameter-free algorithm dtol
+introduce new notion regret more natural applications large number actions
+show our algorithm achieves good performance respect new notion regret; addition also achieves performance close best bounds achieved previous algorithms optimally-tuned parameters according previous notions regret
+ introduction 
+paper consider problem decision-theoretic online learning dtol proposed freund schapire
+dtol variant problem prediction expert advice
+problem learner must assign probabilities fixed set actions sequence rounds
+after each assignment each action incurs loss value ; learner incurs loss equal expected loss actions round where expectation computed according learner's current probability assignment
+regret learner action difference between learner's cumulative loss cumulative loss action
+goal learner achieve any sequence losses low regret action lowest cumulative loss best action
+dtol general framework captures many learning problems interest
+example consider tracking hidden state object continuous state space noisy observations
+look at tracking dtol framework set each action path sequence states over state space
+loss action at time distance between observation at time state action at time  goal learner predict path loss close action lowest cumulative loss
+most popular solution dtol problem hedge algorithm
+hedge each action assigned probability depends cumulative loss action parameter  also called learning rate
+appropriately setting learning rate function iteration number actions hedge achieve regret upper-bounded  each iteration  where number actions
+bound regret optimal there lower-bound
+paper motivated practical applications tracking consider dtol regime where \changeto{  number actions,}{the number actions } very large
+major barrier using online-learning practical problems when large not understood how set learning rate
+suggest setting fixed function number actions
+however lead poor performance illustrate example section degradation performance particularly exacerbated grows larger
+one way address simultaneously running multiple copies hedge multiple values learning rate choosing output copy performs best online way
+however solution impractical real applications particularly already very large more details about solutions please see section  paper take step towards making online learning more practical proposing novel completely adaptive algorithm dtol
+our algorithm called normalhedge
+normalhedge very simple easy implement each round simply involves single line search followed updating weights all actions
+second issue using online-learning problems tracking where very large regret best action not effective measure performance
+problems tracking one expects lot actions close action lowest loss
+actions also low loss measuring performance respect small group actions perform well extremely reasonable  see example figure
+paper address issue introducing new notion regret more natural practical applications
+order cumulative losses all actions lowest highest define regret learner top quantile difference between cumulative loss learner th element sorted list } prove normalhedge regret top quantile actions at most holds simultaneously all
+if set  get regret best action upper-bounded  only slightly worse than bound achieved hedge optimally-tuned parameters
+notice our regret bound term involving no dependence
+contrast hedge cannot achieve regret-bound nature uniformly all details how hedge modified perform our new notion regret see section
+normalhedge works assigning each action potential; actions lower cumulative loss than algorithm assigned potential  where regret action adaptive scale parameter adjusted one round next depending loss-sequences
+actions higher cumulative loss than algorithm assigned potential
+weight assigned action each round then proportional derivative its potential
+one also interpret hedge potential-based algorithm under interpretation potential assigned hedge action proportional \changeto{this potential used hedge other related algorithms differs significantly one use }{this potential used hedge differs significantly one use } although other potential-based methods been considered context online learning  our potential function very novel best our knowledge not been studied prior work
+our proof techniques also different previous potential-based methods
+another useful property normalhedge hedge does not possess assigns zero weight any action whose cumulative loss larger than cumulative loss algorithm itself
+other words non-zero weights assigned only actions perform better than algorithm
+most applications\changeto{ dtol}{,} expect small set actions perform significantly better than most actions \changeto{as regret hedging algorithm guaranteed small means algorithm will perform better than most actions will therefore assign them zero probability }{the regret algorithm guaranteed small means algorithm will perform better than most actions thus assign them zero probability } proposed more recent solutions dtol regret hedge best action upper bounded function  loss best action function variations losses
+bounds sharper than bounds respect
+our analysis fact our knowledge any analysis based potential functions style  do not directly yield kinds bounds
+therefore leave open question finding adaptive algorithm dtol regret upper-bounded function depends loss best action
+rest paper organized follows
+section 2 provide normalhedge
+section 3 provide example illustrates suboptimality standard online learning algorithms when parameter not set properly
+section 4 discuss related work
+section 5 present some outlines proof
+proof details supplementary materials

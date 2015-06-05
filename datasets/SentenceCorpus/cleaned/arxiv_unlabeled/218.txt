@@ -1,0 +1,14 @@
+ 
+wide variety regularization methods algorithms computing entire solution path been developed recently
+solution path algorithms do not only compute solution one particular value regularization parameter but entire path solutions making selection optimal parameter much easier
+most currently used algorithms not robust sense they cannot deal general degenerate input
+here present new robust generic method parametric quadratic programming
+our algorithm directly applies nearly all machine learning applications where so far every application required its own different algorithm
+illustrate usefulness our method applying very low rank problem could not solved existing path tracking methods namely compute part-worth values choice based conjoint analysis popular technique market research estimate consumers preferences class parameterized options
+ introduction 
+study combinatorial algorithm solve parameterized quadratic programs i e  compute whole solution path
+unlike other methods employed machine learning our algorithm deal singular objective function matrices without perturbing input
+regularization methods resulting parametrized quadratic programs successfully been applied many optimization classification regression tasks variety areas example signal processing statistics biology surface reconstruction information retrieval
+will briefly review some applications here will also study another application namely choice based conjoint analysis more detail
+conjoint analysis comprises popular family techniques mostly used market research assess consumers' preferences set options specified multiple parameters see overview recent developments
+will show regularization approach analysis preference data leads parameterized quadratic program sparse low rank positive semi-definite matrix describing quadratic term objective function

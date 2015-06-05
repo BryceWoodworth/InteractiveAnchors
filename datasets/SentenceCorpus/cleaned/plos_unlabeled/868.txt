@@ -1,0 +1,41 @@
+ 
+transitive inference class inclusion variety other inferential abilities strikingly similar developmental profiles all acquired around age five
+yet little known about reasons correspondence
+category theory was invented formal means establishing commonalities between various mathematical structures
+use category theory show transitive inference class inclusion involve dual mathematical structures called product coproduct
+other inferential tasks similar developmental profiles including matrix completion cardinality dimensional changed card sorting balance-scale theory mind also involve structures
+contrast products not involved behaviours exhibited younger children tasks simplified versions within their ability
+results point fundamental cognitive principle under development during childhood capacity compute products categorical sense
+ introduction 
+children acquire various reasoning skills over remarkably similar periods development
+transitive inference class inclusion two behaviours among suite inferential abilities strikingly similar developmental profiles all acquired around age five years
+example older children infer if john taller than mary mary taller than sue then john taller than sue
+form reasoning called transitive inference
+older children also understand grocery store will contain more fruit than apples
+number items belonging superclass greater than number items any one its subclasses
+form reasoning called class inclusion
+two types inference appear little common
+transitive inference typically involves physical relationships between objects while class inclusion involves relative sizes object classes
+nonetheless explicit tests other inferences range age groups revealed success was attained about median age five years 
+since piaget decades research revealed important clues regarding development inference yet little known about reasons underlying correspondences
+common theme two recent proposals computing relational information
+regard relational complexity theory correspondence between commonly acquired cognitive behaviours based maximum arity relations must processed
+regard cognitive complexity control theory correspondence based common depth relation hierarchies
+although relational approach cognitive behaviour formal basis relational algebra certain assumptions must made about units analysis
+tasks diverse procedure content transitive inference class inclusion difficult see how analysis one task leads naturally other
+relational complexity theory transitive inference considered involve integration two binary relations between task elements into ordered triple ternary relation; whereas class inclusion regarded integration three binary relations between three sets elements into ternary relation
+cognitive complexity control theory transitive inference involves relations over items; whereas class inclusion involves relations over sets items
+theoretical difficulty symptomatic general problem cognitive science where basic components cognition unknown
+absence detailed knowledge cognitive modelers been forced assume particular representational format
+approach however does not lend itself current problem because elements transitive inference class inclusion tasks do not share common basis
+understandably then sorts behaviours tended studied detailed isolation narrowing scope identifying general principles
+category theory was born out desire establish formal commonalities between various mathematical structures since been applied analysis computational structures computer science
+seminal insight was shift objects primary focus analysis their transformations
+contrast instance sets defined terms objects they contain set theory against sets defined terms morphisms map them category theory
+insight motivates our categorical approach analysis inference our way around current impasse
+cognitive science several authors used category theory conceptual analysis space time though know only one other application modeled empirical data
+since our application category theory cognitive behaviour novel first introduce basic category theory constructs needed our subsequent analysis transitive inference class inclusion other paradigms
+analysis begins brief introduction sort data our approach intended explain primarily concerns contrasts between younger older children relative age five correlations across paradigms
+finally extend our categorical approach more complex levels inference
+our main point despite apparent lack resemblance all tasks formally connected via categorical product defined below
+significance result opens door entirely new approach identifying general principles particularly regard development inferential abilities less likely revealed standard modeling methods

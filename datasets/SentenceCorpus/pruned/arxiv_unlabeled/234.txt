@@ -1,0 +1,44 @@
+
+problem learning adaptation attention recent years
+been suggested dynamics agent learning studied using population biology
+most existing studies so far been limited strategy small number available actions
+many cases however choices available agents better characterized continuous
+paper suggests generalization framework allows study adaptive dynamics learning agents continuous strategy
+instead probability vectors strategies now characterized probability measures over continuous variables
+result case system describe evolution individual agent strategies
+derive set functional state dynamics examine their solutions several games our results using simulations
+introduction
+notion agents learn environment other agents central concept distributed
+particular systems where multiple agents learn each other
+learning problem attention due number important applications
+among existing approaches learning algorithms become popular due their
+although does not same convergence case been shown work well practice recent see
+analysis complex system where learning individual agents each other via reward mechanism
+thus know what possible behaviors those
+specifically one usually whether particular game structure those state called fixed points between many states
+while question very difficult most general settings there been some limited specific scenarios
+particular been simple finite number actions learning dynamics examined using so called population biology
+if one particular biological each strategy then adaptive learning strategies settings dynamics population where species according their relative population
+framework been used study various features adaptive dynamics learning agents
+few e g see most existing studies so far focused action limited full analysis learning dynamics games very few actions
+other hand many practical scenarios interactions between agents better characterized continuous possible choices
+instance modeling continuous rather than variable more natural
+situations strategies represented probability density functions defined over continuous set actions
+all decisions made over subset
+however using continuous approximation makes dynamics more mathematical analysis
+paper consider simple learning agents play games
+agents use mechanism through single parameter
+reward functions agents assumed functions continuous variables instead agent strategies represented probability distribution over those variables
+contrast finite strategy where learning dynamics set dynamics games described each agent across different
+behavior those define state agent strategies
+shown general state strategy dynamics do not game
+limited agents due
+particular mechanism studied here results term payoff function rate
+thus when one rate relative importance term one able
+furthermore games allow state solution any rate
+because distribution term
+example game if provided section
+paper next section provide relevant literature
+section introduce our model derive continuous strategy set functional describe state strategy
+section framework several examples games provide some detailed results general payoffs
+finally paper our results possible future section

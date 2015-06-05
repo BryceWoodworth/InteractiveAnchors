@@ -1,0 +1,30 @@
+ 
+article treats problem learning dictionary providing sparse representations given signal class via minimisation
+problem also seen factorising matrix training signals into dictionary matrix coefficient matrix  sparse
+exact question studied here when dictionary coefficient pair recovered local minimum nonconvex criterion input
+first general dictionaries coefficient matrices algebraic conditions ensuring local identifiability derived then specialised case when dictionary basis
+finally assuming random bernoulli-gaussian sparse model coefficient matrix shown sufficiently incoherent bases locally identifiable high probability
+perhaps surprising result typically sufficient number training samples grows up logarithmic factor only linearly signal dimension ie  contrast previous approaches requiring combinatorially many samples
+ introduction 
+many signal processing tasks denoising compression efficiently performed if one knows sparse representation signals interest
+moreover huge body recent results sparse representations highlighted their impact inverse linear problems blind source separation localisation well compressed sampling starting point see eg \\ any publications one will  more likely than not  find statement starting 'given dictionary signal having sparse approximation/representation \ldots' points exactly remaining problem: all applications sparse representations rely signal dictionary sparse linear expansions built efficiently approximate signals class interest; success heavily depends good fit between data class dictionary \\ many signal classes good dictionaries  time-frequency time-scale dictionaries  known but new data classes may require construction new dictionaries fit new types data features
+analytic construction dictionaries wavelets curvelets stems deep mathematical tools harmonic analysis
+may however difficult time consuming develop complex mathematical theory each time new class data requires different type dictionary met
+alternative approach dictionary learning aims at infering dictionary set training data
+dictionary learning also known sparse coding  potential 'industrialising' sparse representation techniques new data classes \\ article treats theoretical dictionary learning problem expressed factorisation problem consists identifying matrix set observed training vectors  knowing  some unknown collection coefficient vectors certain statistical properties \\ considering extensive literature available sparse decomposition problem after early work   surprisingly little work been dedicated theoretical dictionary learning so far
+there exist several dictionary learning algorithms see eg  but only recently people started consider also theoretical aspects problem
+origins research into what now called dictionary learning found field independent component analysis ica
+there many identifiability results available however rely asymptotic statistical properties under statistical independence non-gaussianity assumptions \\ contrast georgiev theis cichocki  well aharon elad bruckstein  described more geometric identifiability conditions sparse coefficients training data ideal overcomplete dictionary
+yet conditions hold size training set seems required grow exponentially fast number atoms  provably good identification algorithms combinatorial
+moreover algorithms identifiability analysis not robust 'outliers' i e  training samples where fails sufficiently sparse
+applications other hand concerned relatively large-dimensional data e g  even  but limited availability training data  not much larger than say  well limited computational resources \\ article study possibility designing provably good non-combinatorial dictionary learning algorithms robust outliers limited availability training samples
+inspired recent proofs good properties minimisation sparse signal decomposition given dictionary investigate properties based dictionary learning
+our ultimate goal described details section characterise properties set training samples should satisfy guarantee ideal dictionary only local minimum criterion opening up possibility replacing combinatorial learning algorithms efficient numerical descent techniques
+first step investigate conditions under ideal dictionary local minimum criterion \\ {main results } first describe proposed setting section characterise local minima cost function section
+discuss geometrical interpretation characterisation section
+then using concentration measure prove section perhaps surprising result when if samples  typical draw bernoulli-gaussian random distribution generate large proportion outliers  then any sufficiently incoherent basis matrix   local minimum cost function therefore 'locally identifiable'
+constant depends parameter bernoulli-gaussian distribution drives sparsity training set \\ number training samples surprisingly small considering training samples provide real parameters while basis matrix essentially parameterised independent real parameters \\ considered matrix identification setting should noted not convex cost function
+admits several local minima hence local identifiability only implies upon good initial conditions numerical optimisation schemes performing optimisation will recover desired matrix
+however empirical experiments low dimension   shown section indicate typical draws bernoulli-gaussian training samples  matrix fact only local minimum criterion up natural indeterminacies problem column permutation
+if empirical observation could turned into theorem general dimension under bernoulli-gaussian sparse model would imply typically: minimisation good identification principle ; b any decent descent algorithm good identification algorithm
+makros

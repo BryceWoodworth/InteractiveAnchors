@@ -1,0 +1,63 @@
+
+solve multiple learning tasks distributed datasets described
+each associated individual learning task associated examples
+goal perform information multiple datasets while individual data
+role data information common database
+information database used all solve their individual learning task so each all datasets without actually having data others
+proposed framework based regularization theory kernel methods uses class effect
+new method through system
+introduction
+solution learning tasks analysis multiple datasets increasing attention different under various
+indeed information provided data specific task may bias others
+datasets solve multiple learning tasks approach known machine learning literature learning learning learn
+context analysis process general learning multiple tasks important research
+many theoretical experimental results support when relationships exist between tasks learning better than learning
+theoretical results include setting generalization bounds notion learning multiple tasks data setting
+importance datasets especially
+experiments few training examples typically available specific subject due constraints
+makes models experimental data
+problem population method been studied applied since
+population methods based knowledge subjects different population similar individuals so data one subject may respect others
+population approaches family statistical methods
+methods measurements different subjects combined learn individual features physiological responses drug
+population methods been applied also other
+classical approaches systems whose unknown parameters determined means optimization algorithms
+other strategies include bayesian estimation stochastic simulation population methods
+information different but related datasets also analysis where goal learn preferences both information information related see eg
+analysis determine features influence decisions
+approaches estimate preferences become standard many systems social networks under systems see eg
+systems include
+more recently problem been machine learning bayesian networks algorithms mixture models networks maximum matrix
+machine learning literature context much attention been given years techniques kernel methods processes
+approaches having their mathematical regularization theory problems statistical learning theory bayesian estimation
+kernel allows estimation functions defined sets arbitrary sources data
+been recently extended setting
+general framework solve learning problems using kernel methods regularization been proposed theory kernel functions
+many applications social network data processing systems processing examples required
+learning find their natural application data problems involving very large datasets therefore required scale well number tasks examples
+algorithm solve regression problems been proposed
+learning problem context bayesian estimation see eg within processes functions used model
+one key features algorithm between tasks order reduce computational complexity
+however algorithm structure tasks not able address information
+paper learning distributed datasets using
+our tasks their individual database examples
+role examples different order their
+when new example associated any task available algorithm
+while different tasks presented paper process examples any order different learning tasks
+information database whose available each its own estimate all other datasets
+particular attention especially systems see eg
+first require each specific cannot other data
+addition individual datasets cannot database
+two active ones
+active its data thus estimate
+only information database without its data
+regularization problem bias term considered kernel used relationships between tasks
+specific model its been demonstrated several
+paper follows
+learning kernel methods presented section class also introduced
+section efficient algorithm learning described regularization problem section
+section rather general described able solve online learning distributed datasets
+algorithm derived discussed while algorithm both active derived
+section system test our algorithm
+section end paper
+contains

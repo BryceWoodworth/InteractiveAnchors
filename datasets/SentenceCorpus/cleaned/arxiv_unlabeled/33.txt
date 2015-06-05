@@ -1,0 +1,27 @@
+ 
+competitive on-line prediction also known universal prediction individual sequences strand learning theory avoiding making any stochastic assumptions about way observations generated
+predictor's goal compete benchmark class prediction rules often proper banach function space \iffullalso popular various discrete classes finite-state automata \blueendmetric entropy provides unifying framework competitive on-line prediction: numerous known upper bounds metric entropy various compact sets function spaces readily imply bounds performance on-line prediction strategies
+paper discusses strengths limitations direct approach competitive on-line prediction via metric entropy including comparisons other approaches
+ introduction 
+typical result competitive on-line prediction says given benchmark class prediction strategies there prediction strategy performs almost well best prediction strategies benchmark class
+simplicity paper performance prediction strategy will measured cumulative squared distance between its predictions true observations assumed real occasionally complex numbers
+different methods competitive on-line predictions gradient descent following perturbed leader strong weak aggregating algorithms defensive forecasting etc \ tend their narrow ``area expertise'': each works well benchmark classes specific ``size'' but not readily applicable classes different size
+paper will apply simple general method based metric entropy benchmark classes wide range sizes
+typically method does not give optimal results but its results often not much worse than those given specialized methods especially benchmark classes not too massive
+since method almost universally applicable sheds new light known results
+another disadvantage metric entropy method not clear how implement efficiently whereas many other methods computationally very efficient
+therefore results obtained method only first step should looking other prediction strategies both computationally more efficient having better performance guarantees
+start \s stating simple asymptotic result about existence universal prediction strategy class continuous prediction rules
+performance universal strategy long run good performance any continuous prediction rule but do not attempt estimate rate at former approaches latter
+topic following section \s where establish general results about performance guarantees based metric entropy
+example simplest case where benchmark class compact set performance guarantees become weaker metric entropy becomes larger
+core paper organized according types metric compacts pointed out kolmogorov tikhomirov \s3
+type i compacts metric entropy order ; case corresponds finite-dimensional benchmark classes treated \s
+type ii typical order  contains various classes analytic functions dealt \s
+key deals perhaps most important case order ; includes eg  besov classes
+classes type iv considered \s metric entropy grows even faster
+\s\s benchmark class always given
+ask question how prediction strategies competitive against various benchmark classes compare each other
+previous section \s prepares ground \iffullin standard methods used deduce implications results preceding sections statistical learning theory \blueendthe concluding section \s lists several directions further research
+there no real novelty paper; i just apply known results about metric entropy competitive on-line prediction
+i hope will useful survey

@@ -1,0 +1,28 @@
+ 
+process training support vector machines~(svms decomposition methods working set selection important technique some exciting schemes were employed into field
+improve working set selection propose new model working set selection sequential minimal optimization~(smo decomposition methods
+model selects % working set without reselection
+some properties given simple proof experiments demonstrate proposed method general faster than existing methods
+ introduction 
+past few years there been huge interest support vector machines~(svms because they excellent generalization performance wide range problems
+key work training svms solve follow quadratic optimization problem
+where vector all ones upper bound all variables  kernel function
+notable effects been taken into training svms
+unlike most optimization methods update whole vector each iteration decomposition method modifies only subset per iteration
+each iteration variable indices split into "working set": its complement
+then sub-problem variables  solved thereby leaving values remaining variables unchanged
+method leads small sub-problem minimized each iteration
+extreme case sequential minimal optimization~(smo  restricts working set only two elements
+comparative tests against other algorithms done platt  indicates smo often much faster better scaling properties
+since only few components updated per iteration difficult problems decomposition method suffers slow convergence
+better method working set selection reduce number iterations hence important research issue
+some methods were proposed solve problem reduce time training svms
+paper %we proposed propose new model select working set
+model specially selects without reselection
+another word once selected they will not tested selected during following working set selection
+experiments demonstrate new model general faster than existing methods
+paper organized following
+section ii give literature review smo decomposition method existing working set selection both discussed
+new method working set selection then presented section iii
+section iv experiments corresponding analysis given
+finally section v concludes paper

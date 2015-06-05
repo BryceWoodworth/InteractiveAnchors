@@ -1,0 +1,26 @@
+
+proteins active perform range different functions
+experimental approaches may now provide limited information about conformational changes along motion pathways proteins
+there therefore need computational approaches prior information into motion prediction
+paper present general designed integration prior information into motion algorithm random
+each suggested motion pathway sequence arbitrary number prior information constraints
+constraints derived experimental data about motion
+prior information very significantly search typically conformational space leading reduction time
+allow use energy functions conformational sampling framework into accurate types structural modeling
+suggested framework effective molecular dynamics normal analysis other techniques predicting motion proteins
+applied our framework three different model systems
+show limited set experimentally constraints may bias simulations distance constraints
+particular our analysis mechanisms protein domain role different residues motion
+introduction
+understanding protein structural explore molecular
+two structures were first time structural into motion protein were its image
+finding way classical model binding proteins
+proteins known multiple together their suggested molecular motion
+number increases structures protein data
+fundamental protein functions signal regulation
+motion protein structures essential understanding their function particular understanding control mechanisms allow protein
+understanding relation between protein sequence protein motion allow design dynamic proteins our knowledge about transition states provide
+accurate prediction protein motion also help address other computational
+instance normal analysis motion predictions used efficient introduction into
+experimental knowledge been limited fact structures stable proteins sense dynamic
+while high experimental data molecular motion still single energy well methods now provide detailed experimental data molecular motion distance constraints measurements motion

@@ -1,0 +1,24 @@
+ 
+bounds risk play crucial role statistical learning theory
+they usually involve capacity measure model studied vc dimension one its extensions
+classification ``vc dimensions'' exist models taking values 
+introduce generalizations appropriate missing case one models values
+provides us new guaranteed risk m-svms appears superior existing one
+ introduction 
+vapnik's statistical learning theory deals three types problems: pattern recognition regression estimation density estimation
+however theory bounds primarily been developed computation dichotomies only
+central theory notion ``capacity'' classes functions
+case binary classifiers measure capacity famous vapnik-chervonenkis vc dimension
+extensions also been proposed real-valued bi-class models multi-class models taking theirs values set categories
+strangely enough no generalized vc dimension was available so far category classifiers taking their values
+was all more unsatisfactory many classifiers exhibit property multi-layer perceptrons multi-class support vector machines m-svms
+paper scale-sensitive dimensions introduced fill gap
+generalization sauer's lemma given relates covering numbers appearing standard guaranteed risk large margin multi-category discriminant models one dimensions margin natarajan dimension
+latter dimension then bounded above architecture shared all m-svms proposed so far
+provides us sharper bound their sample complexity
+organization paper follows
+section introduces basic bound risk large margin multi-category discriminant models
+section scale-sensitive dimensions defined generalized sauer lemma formulated
+upper bound margin natarajan dimension m-svms then described section
+lack space proofs omitted
+they found

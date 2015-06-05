@@ -1,0 +1,39 @@
+ 
+epidemic spread infectious diseases ubiquitous often considerable impact public health economic wealth
+large variability spatio-temporal patterns epidemics prohibits simple interventions requires detailed analysis each epidemic respect its infectious agent corresponding routes transmission
+facilitate analysis introduce mathematical framework links epidemic patterns topology dynamics underlying transmission network
+evolution both disease prevalence transmission network topology derived closed set partial differential equations infections without allowing recovery
+predictions excellent agreement complementarily conducted agent-based simulations
+capacity new method demonstrated several case studies hiv epidemics synthetic populations: allows us monitor evolution contact behavior among healthy infected individuals contributions different disease stages spreading epidemic
+gives both direction test bed targeted intervention strategies epidemic control
+conclusion mathematical framework provides capable toolbox analysis epidemics first principles
+allows fast silico modeling  manipulation  epidemics especially powerful if complemented adequate empirical data parameterization
+ introduction 
+despite huge efforts improve public health spread infectious diseases still ubiquitous at beginning 21st century there considerable variability epidemic patterns between locations
+although recent influenza pandemic been global challenge there nonetheless been differences its timing northern southern hemisphere due seasonal effects
+another prominent example epidemic variability prevalence sexually transmitted diseases specifically hiv infections
+although hiv endemic many populations at low levels restricted high-risk groups become highly endemic other parts world
+consequence spread infectious diseases cannot understood globally but understood only result several local factors climate hygiene conditions population density structure cultural habits mobility
+epidemic models aim capture mechanisms link factors emergent epidemics promote understanding underlying dynamic processes prerequisite intervention strategies
+useful abstraction context regard individuals may infected nodes network links potentially infectious contacts among individuals
+major remaining challenge modern epidemiology link variability transmission networks corresponding emergent epidemics
+models flexible adapted specific epidemic situations best meet challenges
+because focus interplay between transmission network topology epidemics will restrict ourselves diseases caused agents lead either immunity death their host i.e infection occur only once
+epidemics described susceptible-infected-recovered sir models
+refer mathematically closely related case where infection eventually leads death host sid model
+original classical sir model assumes mass-action type dynamic consequence describes epidemics homogeneous well-mixed populations
+because generally not good approximation real world situations current epidemic models strive integrated approach considers both information about course disease relevant transmission network
+models vary their assumptions attention detail computational costs consequence their fields application
+compartmental sir models consider different contact patterns sub-populations link them via contact matrix providing coarse-grained but often adequate representation
+network-based sir models consider distribution each individual's number infectious contacts formula transmission network
+models allow study transmission networks strong heterogeneity number contacts among individuals some cases also means they consider correlations way contacts made clustering
+although approaches focus static networks recent approach considers networks arbitrary degree distributions transient contacts allows derivation temporal evolution number susceptible infected nodes closed set equations
+finally pair models very general approach studying sir epidemics heterogeneous networks
+they provide large amount flexibility considering way contacts made maintained but trade-off they quickly become very computationally demanding 
+assumption often implicitly made epidemic models epidemic sweeps through population at much shorter time scales than time scale background demographic processes i.e natural birth death processes neglected
+good approximation cases yearly influenza epidemics but hardly adequate hiv epidemics span decades
+compensate limitation integrated demographic background processes into recent network epidemic models
+hiv mind case study focus disease epidemics lead death after infection susceptible individuals possibly after undergoing several stages disease
+addition earlier work our approach also allows depth study interplay between epidemic spreading structure dynamics underlying transmission network
+strictly speaking all approaches discussed only predict mean behavior epidemics within limit infinite host population
+however our comparisons finite size agent-based simulations show good computationally efficient approximation already moderate population sizes

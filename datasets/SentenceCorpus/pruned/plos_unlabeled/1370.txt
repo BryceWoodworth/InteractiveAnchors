@@ -1,0 +1,43 @@
+
+many protein functions directly conformational changes
+cells transition rates between different may affected
+recently developed new approach modeling effects representation test proteins
+here approach applied study how transition rates between open yeast protein kinase dna
+each protein molecular dynamics simulations open states
+open then used changes potential two states
+difference change between two states finally predicts effects population two states
+found reduce open population various
+presence percent population reduced percent percent percent percent
+three proteins percent
+expected four proteins effects those larger conformational changes between open states
+larger proteins also tend experience effects than smaller ones comparing
+mean along reaction transition rates also affected
+quantitative results will expected effects protein changes cells
+introduction
+protein dynamics critical between structure function
+important protein dynamics sampling alternative
+conformational changes binding
+structures same proteins at different functional states available
+structures provide conformational changes
+example kinase significant conformational transition open form form
+main differences between two occur domains core domain relatively
+other examples conformational include proteins signal across cell
+protein conformational changes been out under conditions
+however environments where proteins perform their biological functions space cell membrane
+example contains about estimated over percent total
+cell membrane proteins similar level total area
+how cellular environments affect transition rates between different proteins still
+one will significantly energy conformational changes more structures over more open ones
+effects been experimentally
+molecular dynamics simulations also been out investigate energy number proteins under context either conformational change transition
+up conformational sampling proteins studies were represented at level
+recently developed approach modeling proteins under
+approach test protein
+simulation then used change potential if they solution
+change potential reaction then influence energy
+approach been applied study effects protein binding stability
+latter application been shown approach results those obtained direct simulations protein presence
+here apply approach investigate impact yeast protein dna
+biological functions proteins 1
+find reduce population various mean along reaction hence transition rates affected
+biological results discussed below

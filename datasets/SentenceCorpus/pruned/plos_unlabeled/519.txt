@@ -1,0 +1,70 @@
+
+patterns activity necessary development visual
+patterns primary visual many develop properties similar those but without training visual experience
+previous models demonstrated how responses through mechanisms specific development prior visual experience using cues simple activity additional constraints
+argue patterns may better part learning strategy activity both before during visual experience
+activity models show how visual system may able efficient its natural environment prior visual experience same strategy upon natural experience
+patterns generated through simple local interactions contain same relevant statistical properties
+efficient patterns sparse natural neurons structure same found early visual cells
+address statistical properties activity how system may activity prior during natural experience how efficient our natural world
+introduction
+nature learned literature early visual development
+variety studies shown visual system requires experience
+other hand many able see at primary visual even before
+might properties found at properties dependent visual experience learned
+however may limit our understanding visual development
+particular focus issue form learning occurs before patterns activity generated
+well known activity necessary development visual system
+point paper discuss statistical aspects activity may sufficient development much same way visual experience visual system
+propose learning approach system later between nature
+several studies shown early visual development neurons active correlated their patterns activity
+later patterns were many one example shown
+experiments since then them them their properties shown how they necessary development
+several models been proposed
+two most recent models cells activity general about mechanism
+neurons while cells if cells local area also
+rules formation models formation been able complex those
+although activity been well studied many exhibit neural activity
+visual system both activity during development
+effects connectivity been formation
+activity also known occur system necessary development
+similar mechanisms also found
+perspective been shown neural activity necessary many effects synaptic
+activity development its ability affect various aspects neural connectivity understanding general role activity early visual development likely
+primary visual been known cells strongly later experiments simple cells description much like function shown
+cell specific visual space where relatively visual image will cell
+note what instead why
+according efficient hypothesis role early visual system statistical visual
+hypothesis one way understand visual system develop analyze visual natural
+was using sparse independent components analysis set natural etc
+derived found simple cells see
+one results developed visual world
+paper make there computational existence patterns functional strategy early visual system development both prior experience
+addition molecular cues visual training patterns activity during development similar manner how visual statistical patterns found natural
+many statistical structure models rely between assumption other functional activity
+however many efficient models applied natural sparse rely statistics
+fact often first step process known process at least part considered function cells
+although activity patterns known relevant argue field may also rely statistics thus between models sparse efficient activity
+will demonstrate simple patterns activity used training visual
+patterns use only activity available demonstrated 1 specific examples our generated patterns
+visual our pattern technique also general properties parameters current models
+strongly note however not model but what essential features relevant activity
+more paper statistical nature produced activity than its including whether activity one particular area part larger system
+example comparison activity more direct influence field formation
+remains active at activation while activity do not significantly time
+activity been experimentally characterized but far less than activity thus our paper
+our patterns generated using site models its relation physiological models detailed section
+models common study critical models model been used neural networks understanding neurons useful understanding models development
+models example been neural networks since network
+recent work also shown models entropy neural firing upon natural
+although pattern technique use similar networks been shown relevant demonstrate statistical properties
+main goal paper show how same adaptive efficient algorithm applied both natural well activity
+show certain patterns relevant statistics network provides useful property
+patterns independent how they were generated simply used existence possible training role activity
+first will show our generated patterns known patterns activity
+will then compare various methods learning how both natural activity patterns used produce
+will also demonstrate how significant field properties occur even at threshold scale learning even model
+finally one main points paper expressed relevant statistics simple
+there statistics still present after
+sparse independent efficient algorithms rely statistics found natural also present particular structure activity patterns
+will present how fact points same adaptive strategy may then present both before during visual experience

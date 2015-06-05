@@ -1,0 +1,37 @@
+
+develop concept b c classification present
+original t algorithm been very applications
+binary classification
+classification several data sets
+introduction
+classification basic task machine learning
+training data set feature vectors samples class
+here number classes
+task predict class
+study classification
+many classification algorithms based one most significant machine learning
+t algorithm especially applications practice
+example method developed
+used underlying learning algorithm based
+method also used underlying learning procedure
+study b c classification
+present
+based following two key classification popular loss functions classes usually assume only values classes needed
+therefore choose base class derive algorithms only classes
+at each step although base class not explicitly will training classes due
+thus choose base class performance
+idea loss function using base class may not at all
+binary classification loss function considered so only need algorithm one instead class
+classification loss function also
+particular algorithm was derived explicitly over base classes
+loss function our same
+all three algorithms assume
+however obtain different first second loss function
+see section
+terms our proposed original algorithm only few
+since known algorithm much our work empirical
+our experiment results available data sets will demonstrate could
+also both training testing time may when small
+data sets applications often large e g several samples
+available data sets e g however small
+our study data set large observations first review original algorithm functional

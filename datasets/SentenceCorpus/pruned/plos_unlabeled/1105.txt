@@ -1,0 +1,42 @@
+
+experimental work shown t cells system specifically molecules presented able between potential stimuli based parameters t cell
+molecules presented among similar question how t cells make decision certain but not others within cell
+theoretical study investigate role between t cell receptor
+show signaling state individual during events t cells able based both their rates
+demonstrate t cell receptor but not receptor clustering important show signaling signals high concentration
+our main results use relatively simple model based
+however show all our results when use detailed t cell receptor signaling model
+discuss our results context existing models recent experimental work propose new experiments test our findings
+introduction
+t cells adaptive system use their t cell form specific bound
+t cells estimates individual t cell only 1 single if specific
+experiments demonstrated t cells specific few 1 similar
+also been demonstrated single amino presented t cell response
+sensitivity been s characteristics detection t cells
+observation t cells do not specific suggests decision occurs within
+t search specific unique t interactions
+decision signal formation stable between t cell second phase signaling
+experiments mathematical modeling been used understand t cell activation
+during signaling phase binding many single been increase t cell sensitivity
+binding expected because between range 1 s
+other hand t cell been model
+model series binding associated activation motifs signaling molecules occur upon binding signaling events require
+signal only after several taken place
+model t cells able between different threshold rate constant
+binding between sensitivity optimal formula efficient t cell activation effect been experimentally observed
+t cell activation models others usually number over whole cell after relatively long interaction
+several studies reported between constant but not formula t cell activation measured after formula
+however t cells been observed less than at least t cells stable contact not required detection
+models do not predict short time scales part because signals generated high binding found signals generated low high
+moreover early t cell response determined parameter formula t at short times
+more likely formula important t cell activation during phase signaling well after initial decision
+paper investigate mechanism during early phase signaling
+specifically examine role t cells make decisions
+explicitly within existing membrane reactions find very little effect models
+simple signal at allows individual multiple events
+model now both rate
+sensitivity leads finding t cell between than would predicted model
+further show but not clustering important achieve events
+addition show signal at does not allow high generate signals
+finally show our general when our model detailed model signaling
+propose t cells based formula formula via threshold allows t cell responses specific

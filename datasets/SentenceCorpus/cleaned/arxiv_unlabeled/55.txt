@@ -1,0 +1,61 @@
+ 
+work motivated necessity automate discovery structure vast ever-growing collection relational data commonly represented graphs example genomic networks
+novel algorithm dubbed graphitour  structure induction lossless graph compression presented illustrated clear broadly known case nested structure dna molecule
+work extends graphs some well established approaches grammatical inference previously applied only strings
+bottom-up graph compression problem related maximum cardinality non-bipartite maximum cardinality matching problem
+algorithm accepts variety graph types including directed graphs graphs labeled nodes arcs
+resulting structure could used representation classification graphs
+ introduction 
+explosive growth relational data example data about genes drug molecules proteins their functions interactions necessitates efficient mathematical algorithms software tools extract meaningful generalizations
+there large body literature subject coming variety disciplines theoretical computer science computational chemistry
+however one fundametal issue so far remained unaddressed
+given multi-level nested network relations complex molecule protein-protein interaction network how its structure inferred first principles
+paper meant fill surprising gap automated data processing
+let us illustrate purpose method through description dna molecular structure way most us learned textbook class
+dna molecule double chain made four kinds nucleotides: t g c; each composed two parts: one part---backbone---is identical among all nucleotides neglecting difference between ribose 2'-deoxyribose another---heterocyclic base---is nucleotide-specific; backbone consists sugar phosphate; heterocyclic bases c,t-pyrimidines; a,g-purines all contain pyrimidine ring; components further reduced individual atoms covalent bonds
+way description not unique may altered according desired level detail but crucially hieararchical description whole structure built identifiable repetitive subcomponents
+picture beautiful multi-level hierarchy emerged after years bio-chemical discovery scientists who gradually applied their natural abstraction generalization abilities
+hence structural elements hierarchy also make functional sense bio-chemical point view } properties hierarchical description formally well-studied applied other scientific domains linguistics computer science
+viewed result rule-driven generative process combines finite set undecomposable elements terminal symbols into novel complex objects non-terminal symbols  combined turn produce next level description
+rules symbols process operates determined grammar process itself termed grammatical derivation
+case dna molecule above chemical elements correspond terminal symbols
+they assembled into non-terminal symbols i e compounds according some set production rules defined chemical properties
+now imagine receiving alternative description same object stripped off any domain knowledge context simply enormous list objects binary relations objects corresponding thousands atoms covalent bonds
+list would remain completely incomprehensible human mind along any repetitive hierarchical structure present
+discovering hierarchy nested elements without any prior knowledge kind size frequency constitutes formidable challenge
+remarkably precisely challenge undertaken contemporary scientists trying make sense data mounting up small fragments like protein interaction networks regulatory metabolic pathways small molecule repositories homology networks etc
+our goal able approach tasks automated fashion
+figure illustrates kind induction describe paper trivial example
+will use running example throughout paper leaving more rigorous mathematical formulation out purpose clarity wider accessibility
+left graph contains repetitive structure
+let us imagine moment human researcher not smart enough comprehend 6-node graph find explanatory layout
+thus would want automatically translate graph into graph grammar right
+graph grammar consist two productions
+first expands starting representation---a degenerate graph single node "s"---into graph connecting two nodes same type "s1"
+second additionally defines node "s1" fully connected triple } formal description relational data kind known graphs while hierarchical nested structures kind described graph grammars
+outside scope paper survey vast literature field graph grammars; please refer book g
+rozenberg extensive overview
+suffices say field mostly concerned transformation graphs parsing i e explaining away graph according some known graph grammar rather than inducing grammar raw data
+closest work related ideas presented here due d
+cook l
+holder their colleagues e g see several follow-up papers
+their work however not concerned inducing structure given graph data
+rather they induce flat context-free grammar possibly recursion not only capable but also bound generate objects not included original data
+thus their approach defies relation compression exploited here
+moreover authors present negative result running their {subdue} algorithm just kind biological data successfully use paper
+another remotely similar work stolke application inducing hidden markov models
+there many other works attempting induce structure relational data compress graphs but none seem relate closely method considered here
+our method builds parallels between understanding compression
+indeed understand some phenomenon raw data means find some repetitive pattern hierarchical structure turn could exploited re-encode data compact way
+work extends graphs some well established approaches grammatical inference previously applied only strings
+two methods particularly worth mentioning context grammar induction sequences sequitour  {adios}
+also take inspiration wealth sequence compression algorithms often unknowingly run daily all computer users form archival software like pkzip unix expand mac os x
+% winzip windows
+let us briefly convey intuition behind algorithms many surveyed lehman shelat
+although quite different detail all algorithms share common principles very similar compression ratio computational complexity bounds
+first one remember all compression/discovery algorithms bound heuristics since finding best compression related so-called kolmogorov complexity provably hard
+heuristics turn related mdl minimum description length principle work way described table } naturally difference how exactly statistics used pick substring will substituted new compound
+some cases greedy strategy used see eg apostolico \& lonardi  i e substitution will maximally reduce size encoding at current step picked; other cases simple first-come-first-served principle used any repetition immediately eliminated see eg nevill-manning \& witten 
+extending methods graph structure turns out non-trivial several reasons
+first maintaining lexicon strings looking up entries quite different graphs
+second directly extending greedy approach fails due inherent non-linear entity interactions graph

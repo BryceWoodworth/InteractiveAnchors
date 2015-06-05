@@ -1,0 +1,48 @@
+ 
+propose randomized algorithm training support vector machines(svms large datasets
+using ideas random projections show combinatorial dimension svms high probability
+estimate combinatorial dimension used derive iterative algorithm called randsvm at each step calls existing solver train svms randomly chosen subset size
+algorithm probabilistic guarantees capable training svms kernels both classification regression problems
+experiments done synthetic real life data sets demonstrate algorithm scales up existing svm learners without loss accuracy \keywords{support vector machines randomized algorithms random projections} \subclass{68w20 90c25 90c06 90c90 }
+ introduction 
+consider training data set where data points labels
+problem learning linear classifier  where linear function when scalar understood estimating
+over years support vector machines(svms emerged powerful tools estimating functions
+paper concentrate developing randomized algorithms learning svms large datasets
+detailed review svm classification svm regression please see
+develop notation briefly discuss problem training linear classifiers
+svm formulation linearly separable datasets given } where  euclidean norm
+formulation very interesting geometric underpinnings 
+understood computing distance between convex hulls sets
+linearly non-separable datasets following formulation \\ c-svm-1: \\ } will called  again due  used
+formulation do not elegant geometric interpretation like separable case but one consider c-svms computing distance between two reduced convex hulls 
+both formulations instances optimization problem(aop 
+aop defined follows: every aop combinatorial dimension associated it; combinatorial dimension captures notion number free variables aop
+aop solved randomized algorithm selecting subsets size greater than combinatorial dimension problem
+wish exploit property aops design randomized algorithms svms
+idea develop iterative algorithm where each step one needs solve svm formulation small subset training data
+crucial idea size subset tied combinatorial dimension svm formulation
+end note at optimality given } both separable non-separable case
+using variables one define set support vectors~(svs } defines
+set may not unique though
+combinatorial dimension svms given minimum number svs required define
+more formally } where cardinality set
+parameter does not change number examples  often much less than
+apriori value not known but linearly separable classification problems following holds:
+follows observation computes distance between 2 non-overlapping convex hulls
+when problem not linearly separable reduced convex hull interpretation leads very crude upper bound much larger than
+idea iterating over randomly sampled subsets size greater than  training svms was first explored   resulting algorithm was called randsvm
+randsvm procedure iterates over subsets size proportional  shown algorithm
+however authors noted randsvm not practical because following reasons
+linear classifiers sample size too large case high dimensional data sets
+non-linear svms  dimension feature space usually unknown when using kernels
+even case one obtain very crude upper-bound reduced convex hull approach but not really useful number obtained very large \end{algorithm} work overcomes above problems using ideas random projections randomized algorithms
+mentioned authors randsvm biggest bottleneck their algorithm value too large
+main contribution work using ideas random projections conjecture if randsvm solved using equal  then solution obtained close optimal high probability(theorem particularly linearly separable almost separable data sets
+almost separable data sets those become linearly separable when small number properly chosen data points deleted them
+second contribution algorithm using ideas randomized algorithms linear programming(lp solves svm problem using samples size linear
+work also shows theory applied non-linear kernels
+formulation naturally applies regression problems
+paper organized follows: section introduces previous work section presents improved algorithm classification almost linearly separable data
+section presents improved algorithm tube regression formulation
+present our results conclusions section 

@@ -1,0 +1,9 @@
+
+examine complexity learning distributions produced sources
+show how prior techniques learning hidden markov models model find state number samples identify distribution but problem learning noise open question computational learning theory
+introduction
+recent work introduced model simple systems
+model simple system observed classical stochastic process sequence outcomes how underlying markov process sequence observations hidden markov model
+perspective natural what learned about simple system sequence outcomes
+work consider question whether not learn distribution outcomes number observations
+state two first section show possible learn distribution over measurements binary processes many observations but then show section under standard assumption learn functions presence classification noise also learn output distribution also binary

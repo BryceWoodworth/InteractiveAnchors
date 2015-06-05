@@ -1,0 +1,60 @@
+ 
+propose novel model nonlinear dimension reduction motivated probabilistic formulation principal component analysis
+nonlinearity achieved specifying different transformation matrices at different locations latent space smoothing transformation using markov random field type prior
+computation made feasible recent advances sampling von mises-fisher distributions
+ introduction 
+\parstart{p}{rincipal} component analysis pca old statistical technique unsupervised dimension reduction
+often used exploratory data analysis objective understanding structure data
+pca aims represent high dimensional data points low-dimensional representers commonly called latent variables used visualization data compression etc
+sometimes pca also used preprocessing step before regression clustering
+context however pca typically does not satisfying performance due ignorance subsequent analysis
+denote original high dimensional data  where
+note superscript used denote transposition so column vector
+assume data already centered so
+one common definition pca taking linear combination components : where weighting coefficient th covariate
+written } where
+take so  represents projection onto linear subspace spanned
+given  optimal linear reconstruction given
+want good representation original
+thus aim minimize
+shown minimizing eigenvector associated its largest eigenvalue called first principal component denoted
+similarly define principal components minimizer respect total squared reconstruction error  where   projection onto subspace spanned columns  principal components
+pca linear procedure since reconstruction based linear combination principal components
+several nonlinear extensions been proposed
+most famous one statistical literature principal curves proposed
+principal curve defined curve each point curve center all data points whose projection onto curve point
+thus visually principal curve defined curve passes through ``middle" data points
+although conceptually appealing computational constraint makes difficult extend approach higher dimensions
+other approaches including neural networks  kernel embedding  generative topographic mapping been proposed
+absence probabilistic models traditional pca motivated probabilistic pca ppca approach adopted
+advantage probabilistic modeling multifold including providing mechanism density modeling determination degree novelty new data point naturally incorporating incomplete observations
+ generative model defined through observation equation: } stated linear relationship between latent variable data points matrix not constrained orthogonal columns priori iid
+noises
+note assume data already centered otherwise observation model should changed shift parameter
+ppca put zero mean unit covariance gaussian prior  likelihood maximized over after marginalizing over : shown when noise level goes zero maximum likelihood estimator will converge } where matrix comes singular value decomposition
+thus ppca natural extension traditional pca
+extends ppca mixture ppca used model nonlinear structure data
+ppca after marginalizing over  distribution becomes if data not centered
+mixture ppca models marginal distribution mixture components each component observation model if th observation comes th mixture component
+thus mixture ppca each mixture component defined different linear transformation while clustering defined original dimensional space
+marginalization over still same using unit covariance gaussian distribution
+maximization over performed using em algorithm taking mixture indicators missing data
+experiments showed model wide applicability
+also note when using reconstruct data point  must also store mixture component responsible generating  more preferably posterior responsibility each mixture th observation
+piece information cannot recovered latent variable alone
+another approach probabilistic nonlinear pca based gaussian processes been proposed
+starts same observation model  but instead marginalizing over  marginalizes over putting independent spherical gaussian prior columns  resulting marginal distribution  where th column matrix latent variables
+author noticed one replace another kernel matrix achieve nonlinearity
+conceptually regarded multivariate nonparametric regression problem unknown need found optimization likelihood
+computational complexity gaussian process approach cubic number data points  although approximation algorithm designed reduce complexity
+contribution propose novel bayesian approach nonlinear pca puts priors both
+model based observation model similar  but two differences
+first linear transformation defined through orthonormal matrix instead roughly corresponds ppca
+second linear transformation our model dependent corresponding latent variable
+linear transformations different parts latent space related putting markov random field prior over space orthonormal matrices makes model identifiable
+model estimated gibbs sampling explores posterior distribution both latent space transformation space
+computational burden each iteration gibbs sampling square number data points
+rest paper organized follows: next section present baysian model discuss gibbs sampling estimation procedure
+since think readers might not familiar von mises-fisher distribution some background material also provided
+some experiments carried out section 3 using both simulated manifold data handwritten digits data
+conclude section 4 some thoughts possible extensions model

@@ -1,0 +1,41 @@
+ 
+paper introduces new approach solve sensor management problems
+classically sensor management problems well formalized partially-observed markov decision processes pompd
+original approach developped here consists deriving optimal parameterized policy based stochastic gradient estimation
+assume work possible learn optimal policy off-line simulation  using models environement sensor(s
+learned policy then used manage sensor(s
+order approximate gradient stochastic context introduce new method approximate gradient based infinitesimal approximation ipa
+effectiveness general framework illustrated managing electronically scanned array radar
+ introduction 
+years after years complexity performances many sensors increased leading more more complex sensor(s)-based systems supply decision centers increasing amount data
+number types agility sensors along increased quality data far outstrip ability human manage them: often difficult compare how much information gained way given management scheme
+results necessity derive unmanned sensing platforms capacity adapt their environment
+problem often refered sensor(s management problem
+more simple situations operational context may lead works sensor(s management like radar  infrared sensor case
+general definition problem could then : sensor management effective use available sensing database capabilities meet mission goals
+many applications deal military applications,a classical one being detect track tp identify smart targets smart target change its way moving its way sensing when detects under analysis several sensors
+questions then following at each time: how must group sensors how long direction functioning mode
+increasing complexity targets detected tracked identified makes management even more difficult led development researches definition optimal sensor management scheme targets sensors treated altogether complex dynamic system
+sensor management become very popular last years many approaches found litterature
+authors use modelling detection process electronically scanned array esa radar propose management scheme during detection step
+information-based approach use manage set sensors
+theorical point view sensor management modelled partially observable markov decision process pomdp
+whatever underlying application sensor management problem consists choosing at each time action within set available actions
+choice generally based density state vector describing environment system variables system itself
+generally assumed state at least part state markovian
+moreover most applications only access partial information state must estimated measurements
+estimation process often derived within bayesian framework where use state-dynamics observation models as: } } where   respectively stands state noise measurements noise state-dynamics measurement function
+generally time varying functions
+control problem consists finding scheduling policy i e select given past possible futures
+however control problem may theorical solution generally untractable practice
+however few works propose optimal solution frame pomdps like
+beside several works been carried out find sub-optimal policies like instance myopic policies
+reinforcement learning q-learning also been used propose solution  
+propose paper look policy within class parametrized policy learn means learn optimal value
+funding our work approach described assume possible learn policy simulation using models overall system
+once optimal parameter been found used manage sensor(s
+frame work being detection localization targets show last part paper how may applied management esa radar
+section described modelling sensor management problem using pomdp approach
+section derive algorithm learn parameter policy
+section show how method may used tasking esa radar
+finally section exhibits firts simulations results

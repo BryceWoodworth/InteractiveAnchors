@@ -1,0 +1,36 @@
+ 
+new method presented extraction population firing-rate models both thalamocortical intracortical signal transfer based stimulus-evoked data simultaneous thalamic single-electrode cortical recordings using linear multielectrodes rat barrel system
+time-dependent population firing rates granular supragranular infragranular populations barrel column thalamic population homologous barreloid extracted high-frequency portion recorded extracellular signals
+extracted firing rates turn used identify population firing-rate models formulated integral equations exponentially decaying coupling kernels allowing straightforward transformation more common firing-rate formulation terms differential equations
+optimal model structures model parameters identified minimizing deviation between model firing rates experimentally extracted population firing rates
+thalamocortical transfer experimental data favor model fast feedforward excitation thalamus layer-4 laminar population combined slower inhibitory process due feedforward and/or recurrent connections mixed linear-parabolic activation functions
+extracted firing rates various cortical laminar populations found exhibit strong temporal correlations present experimental paradigm simple feedforward population firing-rate models combined linear mixed linear-parabolic activation function found provide excellent fits data
+identified thalamocortical intracortical network models thus found qualitatively very different
+while thalamocortical circuit optimally stimulated rapid changes thalamic firing rate intracortical circuits low-pass respond most strongly slowly varying inputs cortical layer-4 population
+ introduction 
+following pioneering work 1970s e.g wilson cowan amari substantial effort been put into investigation neural network models particularly form firing-rate neural field models
+some firing-rate network models particular early visual system been developed account particular physiological data
+however strongly interconnected cortical networks few mechanistic network models directly accounting specific neurobiological data been identified
+instead most work been done generic network models focused investigation generic features generation stability localized bumps oscillatory patterns traveling waves pulses other coherent structures reviews see ermentrout coombes 
+here present new method identification specific population firing-rate network models extracellular recordings apply method extract network models thalamocortical intracortical signal processing based stimulus-evoked data simultaneous single-electrode multielectrode extracellular recordings rat somatosensory system analyze interpret identified firing-rate models using techniques dynamical systems analysis
+our study reveals large differences transfer function between thalamus layer 4 barrel column compared between cortical layers thus sheds direct light how whisker stimuli encoded population firing-activity somatosensory system
+derivation biologically realistic cortical neural-network models generally been hampered lack relevant experimental data constrain test models
+single electrodes generally only measure firing activity individual neurons not joint activity populations cells typically predicted population firing-rate models
+kyriazi simons pinto et al thus developed models somatosensory thalamocortical signal transformation based pooled data single-unit recordings numerous animals
+contrast multielectrode arrays provide convenient powerful technology obtaining simultaneous recordings all layers cerebral cortex at one more cortical locations
+signal at each low-impedance electrode contact represents weighted sum potential generated synaptic currents action potentials neurons within radius few hundred micrometers contact where weighting factors depend shape position neurons well electrical properties conductive medium 
+present paper describe new method extraction population firing-rate models both thalamocortical intracortical transfer basis data simultaneous thalamic single-electrode cortical recordings using linear multielectrodes rat barrel system
+so called laminar population analysis einevoll et al jointly modeled low-frequency high-frequency parts stimulus-evoked laminar electrode data estimate laminar organization cortical populations barrel column time-dependent population firing rates lfp signatures following firing particular population
+postfiring population lfp signatures were further used estimate synaptic connection patterns between various populations using both current source density estimation techniques new lfp template-fitting technique 
+here use stimulus-evoked time-dependent firing rates cortical populations estimated using lpa combination single-electrode recordings firing activity homologous barreloid vpm identify population firing-rate models
+models formulated nonlinear volterra integral equations exponentially decaying coupling kernels allowing mapping systems sets differential equations more common mathematical representation firing-rate models 
+population responses were found increase monotonically both increasing amplitude velocity whisker flick
+stimulus set varying both whisker-flicking amplitude rise time was found provide rich variety thalamic cortical responses thus well suited distinguishing between candidate models
+optimal model structure corresponding model parameters estimated minimizing mean-square deviation between population firing rates predicted models experimentally extracted population firing rates
+first focus estimation mathematical models signal transfer between thalamus layer-4 population population receiving dominant thalamic input
+thalamocortical transfer our experimental data favors model fast feedforward excitation slower predominantly inhibitory process mediated combination recurrent feedforward interactions mixed linear-parabolic activation function
+identified thalamocortical circuits seen band-pass property frequency domain largest responses layer-4 population obtained thalamic firing rates frequencies around twenty hz
+very different population firing-rate models identified intracortical circuits i.e spread population activity layer 4 supragranular infragranular layers
+present experimental paradigm extracted firing rates various cortical laminar populations found exhibit strong temporal correlations simple feedforward models linear mixed linear-parabolic activation function found account excellently data
+functional properties identified thalamocortical intracortical network models thus qualitatively very different: while thalamocortical circuit optimally stimulated rapid changes thalamic firing rate intracortical circuits low-pass respond strongest slowly varying inputs
+preliminary results project were presented earlier poster format 

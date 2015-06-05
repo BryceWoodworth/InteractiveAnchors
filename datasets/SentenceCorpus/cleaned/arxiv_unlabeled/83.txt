@@ -1,0 +1,41 @@
+ 
+bayesian framework well-studied successful framework inductive reasoning includes hypothesis testing confirmation parameter estimation sequence prediction classification regression
+but standard statistical guidelines choosing model class prior not always available fail particular complex situations
+solomonoff completed bayesian framework providing rigorous unique formal universal choice model class prior
+i discuss breadth how sense universal non iid \ sequence prediction solves various philosophical problems traditional bayesian sequence prediction
+i show solomonoff's model possesses many desirable properties: strong total future bounds weak instantaneous bounds contrast most classical continuous prior densities no zero p(oste)rior problem ie \ confirm universal hypotheses reparametrization regrouping invariant avoids old-evidence updating problem
+even performs well actually better non-computable environments \ifjournal
+ introduction 
+given weather past what probability rain tomorrow
+what correct answer iq test asking continue sequence 1,4,9,16
+given historic stock-charts one predict quotes tomorrow
+assuming sun rose 5000 years every day how likely doomsday sun does not rise tomorrow
+instances important problem induction time-series forecasting sequence prediction
+finding prediction rules every particular new problem possible but cumbersome prone disagreement contradiction
+what desirable formal general theory prediction
+bayesian framework most consistent successful framework developed thus far
+bayesian considers set environments\eqbr=hypotheses\eqbr=models includes true data generating probability distribution
+one's prior belief environment observed data sequence  bayes' rule yields one's posterior confidence
+prequential transductive setting one directly determines predictive probability next without intermediate step identifying true good causal useful model
+exception section  paper concentrates prediction rather than model identification
+ultimate goal make ``good'' predictions sense maximizing one's profit minimizing one's loss
+note classification regression regarded special sequence prediction problems where sequence pairs given class label function value shall predicted
+bayesian framework leaves open how choose model class prior
+general guidelines should small but large enough contain true environment  should reflect one's prior subjective belief should non-informative neutral objective if no prior knowledge available
+but informal ambiguous considerations outside formal bayesian framework
+solomonoff's rigorous essentially unique formal universal solution problem consider single large universal class suitable all induction problems
+corresponding universal prior biased towards simple environments way dominates superior all other priors
+leads priori probability equivalent probability universal turing machine random input tape outputs  shortest program computing produces most likely continuation prediction
+many interesting important deep results been proven solomonoff's universal distribution
+motivation goal paper % provide broad discussion how sense universal sequence prediction solves all kinds philosophical problems bayesian sequence prediction % present some recent results
+% many arguments ideas could further developed
+i hope exposition stimulates future more detailed investigation
+section  i review excellent predictive decision-theoretic performance results bayesian sequence prediction generic non iid \ countable continuous model classes
+section critically reviews classical principles indifference symmetry minimax obtaining objective priors introduces universal prior inspired occam's razor quantified terms kolmogorov complexity
+section iid \  section universal  i show various desirable properties universal prior class non-zero p(oste)rior confirmation universal hypotheses reparametrization regrouping invariance no old-evidence updating problem contrast most classical continuous prior densities
+i also complement general total bounds section some universal some iid
+specific instantaneous future bounds
+finally i show universal mixture performs better than classical continuous mixtures even uncomputable environments
+section contains critique summary conclusions
+reparametrization regrouping invariance weak instantaneous bounds good performance non-computable environments most discussion zero prior universal hypotheses old evidence new new light universal sequence prediction
+technical mathematical non-trivial new results hellinger-like loss bound \req{lbnd} instantaneous bounds \req{iiidbnd} \req{imbnd}

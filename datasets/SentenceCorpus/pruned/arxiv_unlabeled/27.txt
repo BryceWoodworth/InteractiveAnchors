@@ -1,0 +1,19 @@
+
+simple result problem regression loss class continuous prediction strategies prediction not only at least well any continuous strategy but also property loss any continuous strategy determined how leading strategy
+more specifically any class prediction strategies kernel space construct leading strategy sense loss any prediction strategy whose norm not too large determined how leading strategy
+result extended loss functions given rules
+introduction
+function class prediction strategies
+well known under some there exists prediction also called almost well best strategies whose norm not too large see eg
+prediction paper loss any prediction strategy whose norm not too large loss leading strategy between predictions output two prediction strategies
+therefore leading strategy standard prediction strategies whose norm not too prediction strategy small loss degree its predictions leading predictions only way leading strategy practical point view strategies much more than leading strategies although existence leading strategies very fact simple result existence leading strategies problem regression loss function class continuous prediction strategies
+state version result introduce several general used paper
+following two two loss functions given rules
+prediction typically making any stochastic assumptions about way observations generated but consider comparison case where observations generated
+section contains most related literature although there paper
+some given found full version paper
+
+section % general possible further research
+there many techniques strategies strong algorithms following forecasting just few
+paper will use forecasting proposed based much work
+strategies using forecasting properties required leading other hand not clear whether leading strategies using other techniques

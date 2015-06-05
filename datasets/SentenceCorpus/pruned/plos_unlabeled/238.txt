@@ -1,0 +1,26 @@
+
+algorithms make
+applications rely use data critical quality individual data
+using large set almost produced tested algorithms human evaluation provided system
+performance our best our human
+our hypothesis were use larger number human evaluate any given could would perform classification at least average individual human
+our analysis predicted accuracy involving term
+introduction
+information uses methods structure
+way computational processing human
+special case applications represented research classes between molecules cells structures
+current tools information produce results
+although even results useful highly most applications ability rank confidence quality their
+focus about molecular interactions small protein b protein b gene c protein d small e
+several studies examined aspects quality
+example et al et al different confidence values different associated
+et al proposed quality value each about molecular interactions although researchers did not suggested system practice
+independent study used between biological terms given
+our present analysis applied several techniques large training set examples design work human who output program
+our goal design used any system developed molecular biology
+study our training data thus our approach relationships specific system
+relationships represented our results will prove useful other
+our approach
+first generated large training set were our system then correct human
+second used tools work human
+third training set into so could evaluate performance differences among several approaches

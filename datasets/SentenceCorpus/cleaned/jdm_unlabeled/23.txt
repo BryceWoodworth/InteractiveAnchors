@@ -1,0 +1,58 @@
+ 
+using cognitive task mental calculation perceptual-motor task stylized golf putting examined differential proficiency using cws index several other quantitative measures performance
+cws index coherence criterion looks only at internal properties data without incorporating external standard
+experiment number college students n number carried out number  number digit addition multiplication problems under time pressure
+experiment number experienced golfers n number also college students putted toward target nine different locations
+within each experiment analyzed same responses using different methods
+arithmetic tasks accuracy information mean absolute deviation correct answer mad using coherence criterion was available golf accuracy information using correspondence criterion mean deviation target also mad was available
+ranked performances participants according each measure then compared orders using spearman's rs
+mental calculation cws order correlated moderately rs number mad
+however different coherence criterion degree model fit did not correlate either cws accuracy
+putting ranking generated cws correlated number generated mad
+consensual answers were also available both experiments rankings they generated correlated highly those mad
+coherence vs correspondence distinction did not map well onto criteria performance evaluation
+ introduction 
+evaluate work plumber therapist surgeon necessary assess on-the-job performance
+while all professionals their creative moments most fields ability perform practiced task consistently well hallmark expert
+performance assessment also key determining whether training program technical innovation worthwhile
+ideally assessment objective rather than matter opinion
+quantitative assessment performance attends measurable aspects work typically bottom line outcome labor
+how many leaks were stopped
+how many patients were cured
+outcome measures capture what hammond refers correspondence competence they focus directly consequences
+outcomes also compared theory-based standards example updating opinions should governed bayes's theorem
+hammond refers type standard coherence criterion
+two types criteria optimality compare performance gold standard compelling benchmark against measure behavior
+indeed some researchers argue performance measured meaningfully only when gold standard been agreed upon
+just hammond hoped correspondence-coherence distinction would help clarify debates about proper way evaluate scientific theory paper invoke distinction hope clarifying debates about how assess performance
+many professional domains gold standards simply not available
+what outcome reflects quality film review grade assigned instructor sentence imposed magistrate
+weiss shanteau responded challenge gold standards elusive constructing empirical index referred cws does not incorporate ground truth
+they suggested proficiency evaluative skill at its core
+whatever task one must attend relevant aspects situation decide what do
+viewing evaluation akin what measuring instrument does weiss shanteau identified two necessary properties expert judgment discrimination responding differently different stimuli consistency responding similarly similar stimuli
+cws index presented equation number combines two properties ratio format
+ratio large when judge discriminates effectively reduced when judge inconsistent
+weiss shanteau stressed two properties not conceptually independent
+easy enough adopt strategy trades off one property at expense other but achieving both at same time requires accurate evaluation stimuli essence expert judgment number when they originally proposed cws index weiss shanteau were intentionally non-committal about measures discrimination inconsistency
+trade-off implied ratio definition heart concept any measures reflect two properties will do
+applications generate numerical data including present ones discrimination inconsistency been operationalized using terms familiar analysis variance
+experimental design suitable cws analysis may simple presentation each several stimuli more than once
+discrimination means different stimuli responded differently
+accordingly discrimination captured mean square between stimuli
+inconsistency implies given stimulus presented multiple times inspires different responses various occasions
+inconsistency captured mean square between replications
+cws approach resembles coherence criterion examines purely internal properties behavior
+however differs other coherence criteria while proficient performance inexorably generates high values cws there no theory specifying optimal behavior
+our view performance ought tied external world experts should follow prescriptive model their task
+however not always possible evaluator know best answers applicable model often unknown well
+absence optimal answers does not diminish practical importance having capability evaluate members large class professionals who provide opinions about status achievements people
+more popular approach evaluating subjective domains compare someone's responses those other people
+opinions often converge toward truth
+consensual answers often been proposed surrogates correct answers although logic doing so been criticized
+gist criticism simply people may agree poor answers
+one may view consensus coherence criterion postulating there exists across people common latent structure underlying their opinions
+current project employed tasks there were indisputably optimal responses namely mental calculation golf putting
+accuracy arithmetic calculation customarily assessed using coherence criterion correct answers dictated logical rules mathematics
+accuracy putt usually assessed using correspondence criterion how close ball gets its target
+goal present research was shed light cws's ability capture subjective domains examining objective domains

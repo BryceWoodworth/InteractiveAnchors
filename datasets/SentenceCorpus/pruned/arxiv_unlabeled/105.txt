@@ -1,0 +1,27 @@
+
+paper propose novel algorithm value approximate solution markov decision processes
+approximate value algorithm two ways
+one so does not increase thus convergence
+other sample many samples large state space
+way complexity our algorithm size description length
+prove algorithm
+also derive bound difference between our approximate solution optimal one also error introduced sampling
+analyze various respect their complexity their convergence when combined approximate value markov decision process value
+introduction
+markov decision processes useful sequential decision problems wide algorithms choose
+subject problem state variables size even though many practical problems
+may us because they more representation
+framework one several components
+known parameters there three basic solution methods value policy linear see
+out methods linear generally considered less effective than others
+so all effective algorithms our best knowledge use linear one way another
+furthermore value algorithm known when function approximation used case too
+paper propose approximate value algorithm
+algorithm direct value algorithm
+furthermore like linear decision
+prove algorithm always fixed point requires time fixed accuracy
+bound distance optimal solution also given
+section review basic markov decision processes including classical value algorithm its combination linear function approximation
+also give sufficient condition convergence approximate value several examples interest
+section results previous section review related section
+section

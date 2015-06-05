@@ -1,0 +1,13 @@
+
+give maximum relative entropy inference two entropy
+limit
+what sense prior distribution given distribution over all each other
+then apply our relationship between entropy concentration maximum entropy inference due others
+introduction
+maximum entropy principle principle inference
+been applied statistical machine learning problems protein modeling prediction
+one its some would concentration
+here version phenomenon words case prior distribution over domain at hand available related limit theorem
+provide strong generalization both concentration phenomenon limit theorem
+section results section used existing some would maximum entropy due
+way provide results two most maximum entropy principle

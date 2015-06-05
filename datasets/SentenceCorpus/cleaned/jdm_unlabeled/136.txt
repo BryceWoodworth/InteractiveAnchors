@@ -1,0 +1,52 @@
+ 
+paper examines effect information processing styles adherence bias judgments particularly reverse biases i e when two choice questions comprise identical normative components set different situations yield seemingly opposite behavioral biases
+found consistent evidence negative correlation between rational score adherence reverse biases well overall biases all three pairs reverse biases tested
+further effect rational thinking was more pronounced high experiential individuals high-rational high-experiential participants committed fewer biases than all other participants
+results lend weight our claim low-rational individuals who more sensitive context more prone utilize some attribute provided information when uncalled but at same time tend ignore give too little weight when crucial factor normative decision process
+ introduction 
+one our colleagues recently complained he finds jdm field rather confusing
+his view each time new behavioral irregularity found jdm researchers classify their findings new heuristic
+case point when people exhibit belief positive recency researchers tend assume they fallen prey hot-hand effect
+when individuals exhibit belief negative recency they said victim gambler's fallacy
+what learned biases lead opposite behavioral directions
+do they reflect signal noise
+behavioral traps genuine flip sides coin everyday life
+how do individual differences shape direction particular bias
+different individuals prone biases different directions
+paper addresses puzzle examining effect information processing style adherence rate reverse biases said occur when two choice questions made up identical normative components set different situation yield seemingly opposite behavioral biases
+typically two imperfectly correlated attributes involved number people affected choice option proportion people affected
+each two attributes normatively relevant one one judgment
+two biases involve some attention normatively irrelevant attribute each case
+reverse biases define them thus different situation discussed baron illustrated ratio bias opposite directions hot-hand vs gambler's fallacy action vs omission bias
+cases biases opposite directions occur same task example some people favor harms caused omission over lesser harms caused action while few others favor harms action over lesser harms omission
+demonstration opposite biases requires methods statistical analysis individuals
+existence individual differences utilization heuristic thinking been demonstrated variety judgmental biases
+include risk perception risk seeking avoidance binary guessing variance heuristic thinking
+however traditional studies heuristic thinking biases mainly use group-level statistics confirm hypothesis number participants exhibiting cognitive biases each group cannot due chance
+suggest individual who adheres one direction bias not less prone exhibit its reverse bias
+specifically argue individual differences information processing styles together contextual factors play important role determining adherence rate biases general will thus affect both directions reverse biases
+previous research shown relation several measures information processing thinking style judgments
+example shiloh soltan sharabi reported systematic individual differences participants' normative-statistical vs heuristic responses
+normative-statistical responses were found positively correlated rational thinking style negatively experiential thinking style
+smith levin identified need cognition moderator framing effects i e way information presented
+people who low need cognition were more affected framing effects
+shiloh koren zakay found compensatory decision-making style need closure were correlated complexity representation decision task
+moreover individual differences information processing styles may work concert several contextual factors drive decision process
+example two factors according stanovich west performance errors reflect momentary fairly random lapses ancillary processes lack attention memory distortions alternative task construal where participants perceive interpret task way differs one implied normative point view experimenter's perspective
+thus way people process information dependent their individual processing style but also contextual factors change priority assigned different types attributes
+same vein kahneman frederick proposed attribute substitution processing information model explain variety biases
+according model attempt simplify decision process individuals replace consideration complex attributes although might crucial choice at hand considerations simpler attributes may correlated more relevant ones
+implication substitution process behavioral biases often result focusing irrelevant attributes ignoring crucial normative attributes
+example when individuals required assess risk level investment portfolio they often tend ignore crucial normative attributes data about real statistical correlation between funds rely instead irrelevant attributes comes more readily mind difference between funds' names
+thus subtle manipulations contextual factors change priority given each attribute move judgmental process biased direction
+based notions argue individual information processing styles likely determine attributes contextual aspects will emphasized judgmental process ones will used substitutes
+regarding rational information processing style picture seems rather clear
+based previous research individuals who low rational thinking assumed more prone commit different types judgmental biases
+since people also more affected framing i e way information presented they more prone use alternative construal tasks
+consequently they expected show seemingly opposite behavioral biases when identical normative components set different situation
+however picture much less clear when consider experiential thinking
+while biased behavior often considered result low tendency rational thinking high tendency experiential thinking replaces relevant attributes irrelevant attributes recent data suggest some situations highly intuitive thinking leads well adjusted judgments take into account different attributes according their importance rather quickly
+more recent studies may shed light interplay between rational experiential systems
+specifically highly rational participants tend engage active information search often leads selection more relevant attributes during decision process
+nevertheless experiential weighting integrating utilizes most relevant attributes via high rational thinking may bear added value lead less biased decisions individuals high experiential thinking
+thus another goal current paper examine proposed connection between experiential thinking judgment contrast more traditional account argues experiential thinking leads more biased judgments

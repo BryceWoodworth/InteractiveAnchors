@@ -1,0 +1,38 @@
+
+when into all other amino residues two important
+values close
+mutations result introduction significantly affect protein stability
+present work describe procedure predict effect introduction protein stability
+amino residues model protein were activity each was characterized
+decision tree mutation was properties activity data
+properties including main main were determined models proteins using
+performance decision tree large mutations other literature
+overall accuracy algorithm was found percent case percent case percent case percent case other data
+accuracy secondary structure was also found at best percent
+our prediction procedure will useful proteins protein design
+introduction
+unique among amino residues
+one hand because main n
+hence involved main could protein
+property previously been obtain information about residues involved secondary structure
+other hand main range values close
+also been observed protein sequence
+large area between
+regions
+there also small density region unique residues
+hence potentially increase protein stability because conformational entropy state
+addition usually conserved proteins often important role protein structure function
+previous studies different proteins shown effects depend various factors including position value original group original interactions original
+however not yet clear whether introduction at given position protein will effect stability protein
+aim present work generate algorithm based data used predict effect at given position any protein
+also examine utility protein secondary structure
+experimental system used study cell b protein protein
+protein does not contain any
+protein dna
+normal cells gene results cell
+if protein through mutation cells genes will
+work each amino using high based
+total could generated
+was function expression level presence cell growth function concentration
+based analysis data its correlation various structural parameters decision tree was protein into mutations
+decision tree was further large at two different single database associated various database literature

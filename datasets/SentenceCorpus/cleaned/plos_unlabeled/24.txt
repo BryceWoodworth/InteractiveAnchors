@@ -1,0 +1,39 @@
+ 
+electroreceptive fish detect nearby objects processing information contained pattern electric currents through skin
+distribution local transepidermal voltage current density sensory surface fish's skin electric image surrounding environment
+article reports model study quantitative effect conductance internal tissues skin electric image generation gnathonemus petersii
+using realistic modelling calculated electric image metal object simulated fish having different combinations internal tissues skin conductances
+object perturbs electric field if were distribution electric sources
+equivalent distribution electric sources referred object's imprimence
+high conductivity fish body lowers load resistance given object's imprimence increasing electric image
+also funnels current generated electric organ way field imprimence objects vicinity rostral electric fovea enhanced
+regarding skin conductance our results show actual value optimal range transcutaneous voltage modulation nearby objects
+result suggests voltage answer long-standing question whether current voltage effective stimulus electroreceptors
+our analysis shows fish body should conceived object interacts nearby objects conditioning electric image
+concept imprimence extended other sensory systems facilitating identification features common different perceptual systems
+ introduction 
+electroreceptive fish detect nearby objects processing information contained pattern electric currents through skin
+weakly electric fish currents result self-generated field produced electric organ discharge
+local transepidermal voltage current density effective stimulus electroreceptors
+distribution voltage current sensory surface fish's skin electric image surrounding environment
+image brain constructs representation external world
+therefore understand electrolocation necessary know image-generation strategy used electrolocating animals
+theoretical analysis image generation yielded realistic models predict acceptable accuracy electrosensory stimulus
+one general conclusion previous reports skin conductance conductivity difference between internal tissues fish water main factors shaping electric image: seminal paper lissmann machin started long-lasting controversy about roles factors
+lissmann machin argued if fish approximately same conductivity water does not appreciably distort perturbing field potential distribution around fish due perturbing field calculated
+however several reports indicated internal conductivity freshwater fish high respect surrounding water high conductance internal tissues critical enhancing local eod field well generating centre-surround opposition pattern characterizes electric images coded primary afferents 
+experimental studies pulse gymnotids confirmed theoretical predictions showing high conductivity fish body funnels self-generated current perioral region where electrosensory fovea been described basis electroreceptor density variety central representation
+funnelling effect enhances stimulus at foveal region
+addition two different types skin been described some electric fish family mormyridae: low-conductance mormyromast epithelium where electroreceptors present high-conductance non-mormyromast epithelium where electroreceptors absent
+mormyromast epithelium found head front gills well along dorsum back along ventral surface trunk
+non-mormyromast epithelium found along sides trunk
+heterogeneity skin conductance introduces another factor shaping physical electric images
+article describes realistic modelling study effect internal skin conductance electric image generation g petersii
+calculated electric image metal object simulated fish having different magnitudes conductances internal tissues skin
+while high conductivity fish body enhances electric image combination mechanisms skin conductance appears optimize transcutaneous voltage modulation nearby objects
+contrast transcutaneous current increases monotonically skin conductivity
+results suggest transcutaneous voltage critical proximal stimulus electroreceptors
+generalize two concepts: object perturbing field imprimence introduced early electroreception research other sensory systems
+object perturbs electric field if were adding new field basal one
+perturbing field considered equivalent certain distribution electric sources
+distribution referred object's imprimence

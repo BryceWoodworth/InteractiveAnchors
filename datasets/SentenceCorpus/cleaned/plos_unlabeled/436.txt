@@ -1,0 +1,32 @@
+ 
+selective attention important filter complex environments where distractions compete signals
+attention increases both gamma-band power cortical local field potentials spike-field coherence within receptive field attended object
+however mechanisms gamma-band activity enhances if at all encoding input signals not well understood
+propose gamma oscillations induce binomial-like spike-count statistics across noisy neural populations
+using simplified models spiking neurons show how discrimination static signals based population spike-count response improved gamma induced binomial statistics
+results give important mechanistic link between neural correlates attention discrimination tasks where attention known enhance performance
+further they show how rhythmicity spike responses enhance coding schemes not temporally sensitive
+ introduction 
+past work both human animal subjects focused neural correlates attention
+attention raises firing rate input output gain orientation-selective neurons visual cortex shifts response curves so physiologically relevant stimuli fall high-gain region
+also when attended stimuli overlap recorded receptive field gamma-band frequency components local field potentials single-unit spike responses increase
+gamma oscillations field potential likely reflect correlated network activity supported simulations spiking neurons inhibitory recurrent excitatory inhibitory coupling
+attention thought influence cholingergic neuromodulation presumably affects synchrony interneuron networks involved gamma oscillations
+well-known correlated network discharge effectively drives postsynaptic cells making gamma-band activity signature efficient signal propagation
+would allow attended objects increase downstream responses compared nonattended objects
+contrast assess role gamma oscillations signal coding neural populations participating gamma oscillatory dynamics
+tasks where attention improves performance typically involve discrimination between different signals visual cues different colors shapes orientations
+although there large number studies exploring how gamma rhythms generated networks spiking neurons mechanisms gamma oscillations modify signal discrimination elusive three aspects
+first relation between gain modulation gamma oscillations both attention-dependent unclear
+second temporal relation between network gamma rhythm time course driving signal often unclear
+third gamma-induced synchronous firing may deleterious coding due increased variability population activity 
+popular framework neural coding number spikes produced single neuron population neurons carries information about driving signal
+however vivo spike trains often show spike count fano factor close even exceeds unity
+trial-to-trial variability deleterious code performance degrades putative spike-count based signal-discrimination schemes
+certain situations fano factors much less than 1 observed visual cortex auditory cortex salamander retina
+extreme case if neuron fires high probability response relevant input signal rarely fires otherwise then signal estimated spike count small error
+addition spike-timing reliability neuron robustly emits just single spike during steep upstroke input seldom fires elsewhere also supportive binary spiking
+study model essence gamma frequency modulation simple rhythmic forcing population uncoupled spiking neurons
+show gamma oscillations endow population spike counts binomial-like statistics improve signal discrimination over range stimuli through reduced spike-count variability
+way propose connection between gamma oscillations enhanced task performance found behavioral experiments
+our results both distinct complementary previously described influences rhythmic network behavior temporal coding schemes improving spike precision providing clock phase-based code 

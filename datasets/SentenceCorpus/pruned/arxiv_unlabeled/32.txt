@@ -1,0 +1,48 @@
+
+approach classification problem machine learning based local classification rules developed
+local rules considered global classification rules event
+global optimization algorithm used optimization quality criterion
+algorithm complexity case used find all local rules
+other feature algorithm integration attributes levels selection attributes rules original rules strategy
+algorithm was tested number data sets comparison other predicting techniques presented
+introduction
+structural information data problem interest both fundamental applied studies
+paper will focus one specific example problem classification
+goal predict class particular event
+problem was number different including statistical data analysis machine learning research data
+result variety learning techniques was developed
+result learning represented number different
+form set rules
+should some other decision models many others set rules
+set rules any other form often form knowledge representation because allows simple answer question was learned
+specific set rules was learned data
+algorithm only answer often understand what was learned why specific answer was produced two knowledge differ case result rule learned knowledge represented than one used describe case result value learned knowledge represented same one used describe techniques developed take training data input produce set rules rules any event
+techniques developed result specific event
+techniques events similar given one usually found first then prediction based found made
+model based instance based learning was presented
+approach classification was developed result was rule specific observation
+while approach simple rule answer often much understand than complex rules set often classification single event every not find best rule because algorithm may not global maximum quality criterion rule may
+work approach based was developed
+was used finding knowledge data each rule high degree
+contrast type algorithms search algorithms find best
+our early work presented approach combined rule search approach learning
+work were also knowledge but only those were instance
+result was set rules were classification given event
+one may about rules global classification rules set given instance event
+current paper approach taken next level practical algorithm variety problems presented
+number significant been made since early version
+current algorithm following new 1
+highly allows problems significant number attributes 2
+integration levels selection procedure continuous attributes rule search
+information about dependent attributes directly into tree search algorithm thus significantly computational
+original rules strategy was especially work generated rules
+practical algorithm three aspects statistical computational complexity need
+section problem discuss represent rules finding
+section discuss statistical quality criterion used evaluation rule quality use work
+also present rules strategy generated rules
+at end section algorithm presented
+section discuss selection attributes should some attributes they section not independent fact known
+section discuss computational complexity approach information about attributes into algorithm proposed
+section discuss error estimation
+section present data analysis results compare our results results
+section presented

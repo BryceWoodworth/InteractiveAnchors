@@ -1,0 +1,37 @@
+ 
+paper propose method learns play pac-man
+define set high-level observation action modules
+actions temporally extended multiple action modules may effect concurrently
+decision agent represented rule-based policy
+learning apply cross-entropy method recent global optimization algorithm
+learned policies reached better score than hand-crafted policy neared score average human players
+argue learning successful mainly because i policy space includes combination individual actions thus sufficiently rich ii search biased towards low-complexity policies low complexity solutions found quickly if they exist
+based principles formulate new theoretical framework found appendix supporting material
+ introduction 
+during last two decades reinforcement learning reached mature state been laid solid foundations
+large variety algorithms including value-function based direct policy search hybrid methods
+basic properties many algorithms relatively well understood e g conditions convergence complexity effect various parameters etc  although needless say there still lots important open questions
+there also plenty test problems like various maze-navigation tasks pole-balancing car hill etc  capabilities rl algorithms been demonstrated number successful large-scale rl applications also growing steadily
+however there still sore need more successful applications validate place rl major branch artificial intelligence
+think games including diverse set classical board games card games modern computer games etc  ideal test environments reinforcement learning
+games intended interesting challenging human intelligence therefore they ideal means explore what artificial intelligence still missing
+furthermore most games fit well into rl paradigm: they goal-oriented sequential decision problems where each decision long-term effect
+many cases hidden information random events unknown environment known unknown players account part difficulty playing game
+circumstances focus reinforcement learning idea
+they also attractive testing new methods: decision space huge most cases so finding good strategy challenging task
+there another great advantage games test problems: rules games fixed so danger `tailoring task algorithm'  i e  tweak rules and/or environment so they meet capabilities proposed rl algorithm  reduced compared eg  various maze navigation tasks
+rl been tried many classical games including checkers  backgammon  chess
+other hand modern computer games got into spotlight only recently there not very many successful attempts learn them ai tools
+notable exceptions eg  role-playing game baldur's gate  real-time strategy game wargus  possibly tetris
+games also interesting point view rl they catch different aspects human intelligence: instead deep wide logical deduction chains most modern computer games need short-term strategies but many observations considered parallel both observation space action space huge
+spirit decided investigate arcade game pac-man
+game interesting its own largely unsolved but also imposes several important questions rl will overview section
+will show hybrid approach more successful than either tabula rasa learning hand-coded strategy alone
+will provide hand-coded high-level actions observations task rl learn how combine them into good policy
+will apply rule-based policies because they easy interpret easy include human domain-knowledge
+learning will apply cross-entropy method recently developed general optimization algorithm
+next section overview pac-man game related literature
+also investigate emerging questions upon casting game reinforcement learning task
+sections give short description rule-based policies cross-entropy optimization method respectively
+section describe details learning experiments section present our results
+finally section summarize discuss our approach emphasis its implications other rl problems

@@ -1,0 +1,52 @@
+ 
+paper compares behavior individuals playing classic two-person deterministic prisoner's dilemma pd game choice data obtained repeated interdependent security prisoner's dilemma games varying probabilities loss ability learn not learn about actions one's counterpart area recent interest experimental economics
+novel data set series controlled laboratory experiments analyzed using bayesian hierarchical methods first application methods research domain
+find individuals much more likely cooperative when payoffs deterministic than when outcomes probabilistic
+key factor explaining difference subjects stochastic pd game respond not just what their counterparts did but also whether not they suffered loss
+findings interpreted context behavioral theories commitment altruism reciprocity
+work provides linkage between bayesian statistics experimental economics consumer psychology
+ introduction 
+interdependent security ids games social multi-player games stochastic payoffs where each player must decide whether not mitigate her own risks
+more specifically each player knows even if she fully protects herself investing risk-reducing measure she may still subject indirect losses being contaminated one other players who chose not invest
+heal kunreuther shown there wide variety significant current problems fit into ids framework ranging investing airline port security protecting oneself against disease through vaccinations individual users incurring software security costs when connected network divisions firms undertaking risky investments could cause entire firm become insolvent bankrupt current financial crisis
+kunreuther heal shown ids games either multiple nash equilibria just single nash equilibrium
+nash equilibrium both players' strategies best response each other's strategies
+paper presents results analysis controlled laboratory experiments involving two players ids game where there single nash equilibrium
+if both players invest risk-reducing measure there no chance either will suffer loss
+however if either both players do not invest protective measure then there some likelihood hence stochastic part both individuals will suffer loss
+furthermore dominant strategy both players if they risk neutral i e neither risk averse nor risk seeking not invest protective measure despite fact had they taken step their expected values would been higher than if they had not
+ids game viewed stochastic prisoner's dilemma spd game area increased interest experimental economics
+standard deterministic prisoner's dilemma game two prisoners face dilemma testifying prosecution against each other admitting their own crime remaining silent nash equilibrium strategy each prisoner testify against each other even though both would better off if they agreed cooperate each other remaining silent
+ids game investing risk-mitigating measure analogous cooperating classic prisoner's dilemma game
+our experiment subjects were assigned play one three types prisoner's dilemma games i standard deterministic prisoner's game ii full feedback stochastic prisoner's dilemma game based ids model where players receive feedback about their counterparts' actions payoffs each round iii partial feedback stochastic prisoner's dilemma game where players receive feedback only about their counterparts' payoffs but not their actions
+subjects were randomly paired play ten prisoner's dilemma games their assigned type against each other called repeated prisoner's dilemma game supergame
+deterministic prisoner's dilemma game there considerable evidence controlled experiments if players play repeated prisoner's dilemma games against each other i e supergame cooperation emerge even though they would likely defect single period game
+each subject our experiment played multiple number  number supergames same type i e deterministic stochastic full feedback stochastic partial feedback randomly chosen counterparts
+more details our experimental design provided section number
+our interest research area both substantive methodological
+substantive perspective would like compare behavior individuals standard deterministic prisoner's dilemma dpd multi-period supergame their behavior spd supergame based ids model
+our interest determining whether stochastic payoffs weaken cooperation how feedback affects cooperation
+specifically compare behavior full feedback stochastic game where each player learns about both her counterpart's actions payoffs behavior partial feedback game where each player only learns about her counterpart's payoffs
+partial feedback game player may may not able infer her counterpart's action based payoffs received both players so ability pin loss counterpart may obscured
+behavior partial feedback game considerable interest today where each decision maker knows only what happened her but unclear cause
+social dilemmas each individual receives higher payoff making socially defecting choice e g polluting environment than pursuing socially cooperative choice no matter what other individuals society do
+furthermore all individuals better off if they all cooperate than if they all defect
+methodological perspective utilize bayesian hierarchical model understand more fully factors influence individuals invest socially beneficial protective measures over time whether there significant differences behavior when payoffs deterministic versus stochastic
+best our knowledge first time bayesian hierarchical methods been applied analysis repeated prisoner's dilemma game experiments
+scientific perspective analysis enables us understand more fully how different treatments controlled experimental design affect distribution individual-level parameters e g individual's likelihood retaliating against counterpart
+there several attractive features utilizing bayesian hierarchical models analyzing repeated prisoner's dilemma game experiments
+they include ability perform exact small-sample inference where sample sizes likely small incorporate within-person dependence repeated-measures data understand drivers heterogeneity tying covariates subjects context their decisions their individual-level parameters
+classic advantages bayesian methods ones particularly salient relevant analysis repeated prisoner's dilemma game experiments
+foreshadow results our detailed analysis summarize key findings paper follows
+two person prisoner's dilemma game individuals much more likely cooperative when payoffs deterministic dpd game than spd games where outcomes stochastic
+key factor behind difference subjects spd games respond not just what their counterparts did but also whether not they suffered loss
+when person does not invest but his her counterpart does individual less likely reciprocate counterpart's investment next period if he she does not suffer loss
+comparing two aforementioned spd games one full feedback counterpart's behavior other only partial feedback counterpart's behavior overall amount cooperation investment was similar
+however found pattern cooperation was different two types games
+particular when subjects partial feedback game could learn their counterpart's actions implicitly they were less likely reciprocate their counterparts' behavior than analogous situations full feedback game where subjects learned their counterparts' behavior explicitly
+remainder paper proceeds follows
+section number provides brief summary theoretical empirical studies prisoners' social dilemmas focus recent experiments noisy stochastic environment
+section number describe general formulation interdependent security ids two-player game showing under what conditions takes form stochastic prisoner's dilemma game
+after characterizing our experimental design set controlled laboratory experiments section number then specify set between-treatment hypotheses test them using regression analysis section number
+section number build bayesian hierarchical model enables us test hypotheses respect within-subject behavior
+section number summarizes findings discusses their prescriptive implications suggests areas future research

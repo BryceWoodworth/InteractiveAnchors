@@ -1,0 +1,20 @@
+ 
+dendrite morphology neuron's anatomical fingerprint neuroscientist's asset unveiling organizational principles brain
+however genetic program encoding morphological identity single dendrite remains mystery
+order obtain formal understanding dendritic branching studied distributions morphological parameters group four individually identifiable neurons fly visual system
+found parameters relating branching topology were similar throughout all cells
+only parameters relating area covered dendrite were cell type specific
+areas artificial dendrites were grown based optimization principles minimizing amount wiring maximizing synaptic democracy
+although same branching rule was used all cells yielded dendritic structures virtually indistinguishable their real counterparts
+principles derived fully-automated model-based neuron reconstruction procedure validating artificial branching rule
+conclusion suggest genetic program implementing neuronal branching could constant all cells whereas one responsible dendrite spanning field should cell specific
+ introduction 
+dendrite morphology most prominent feature nerve cells typically used neuroanatomists discriminate classify them
+tree-like ramifications represent input region neurons fulfil role complex computational unit
+typically dendritic arborizations analyzed descriptive way e.g enumerating local global branching parameters
+very little known about general rule leading their distinct appearance partly due wide variety among different neurons
+insects same neurons across individuals rather invariant their anatomy constant their function
+lobula plate tangential cells fly visual system uniquely identifiable therefore ideal subjects investigating basic rule constraining dendrite formation
+they integrate local motion information over array retinotopically arranged columnar elements
+accordingly their planar dendritic trees cover area corresponding their distinct primary receptive fields
+paper isolate potential fundamental principles may lead morphological identity individual lptcs

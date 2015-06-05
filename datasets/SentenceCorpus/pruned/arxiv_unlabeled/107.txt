@@ -1,0 +1,62 @@
+
+concept information exists also problems no underlying stochastic model information representation instance information algorithm genome
+introduced notion entropy information binary about unknown value variable
+current paper following what relationship between information about description complexity
+there notion cost information
+there how efficient information
+answer questions extended new concept information similar approximation theory introduced
+information any input source eg general both single common formula
+application space binary functions considered
+introduction
+measure information
+considered three approaches
+probabilistic approach entropy stochastic settings where represented random variable
+setting entropy object information one object about another well defined
+here necessary view object finite binary stochastic process
+while often been used instance measure information some markov process not modeling finite objects provides natural universal representation information states what real there example how much information
+
+
+
+some probability distribution set
+other hand must assume individual form random sequence stochastic out over distance several
+questions introduce notion information finite binary
+defined length program
+been later developed into complexity field
+approach investigated another stochastic measure information object
+here taken any finite space objects
+where all taken respect
+if value known then much entropy
+let general finite domain consider set all values pairs
+entropy defined where \ some } \
+consider based defined then entropy given defined
+information about
+may view information set about another set
+case let domain set pairs information defined
+will representation information between sets
+
+many applications input only information about unknown value
+instance problems involve analysis algorithms classes structures sets binary vectors functions finite domain search made some optimal set based only information
+one area statistical pattern recognition where unknown target i e pattern classifier based information finite sample some
+information particular set form possible
+example let positive consider domain
+let set all binary functions
+power set family all sets
+all properties sets i e property set whose elements
+property set
+know unknown target function
+any information about may expressed reduce search space
+been problem value general learning see
+framework may basis
+let possible properties object represent unknown target may any
+information then represented certain properties sets contain target
+input some subset certain property
+principle should value information about unknown value
+however its current form not general since requires target fixed set knowledge
+see set property
+consider all property
+hence may first consider but some useful information now consider two properties corresponding sets
+most sets small while sets large
+property more than since knowledge set should take average less additional information particular set known order
+if above let then both properties
+provides information associated possible sets
+structural information cannot represented

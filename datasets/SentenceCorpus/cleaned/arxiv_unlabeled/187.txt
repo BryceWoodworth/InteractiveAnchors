@@ -1,0 +1,13 @@
+ 
+let matrix rank  assume uniformly random subset its entries observed
+describe efficient algorithm reconstructs observed entries relative root mean square error *} further if sufficiently unstructured then reconstructed exactly entries
+settles case bounded rank question left open cand{\`e}s recht improves over guarantees their reconstruction algorithm
+complexity our algorithm  opens way its use massive data sets
+process proving statements obtain generalization celebrated result friedman-kahn-szemer\'edi feige-ofek spectrum sparse random matrices
+ introduction 
+imagine each customers watches rates subset movies available through movie rental service
+yields dataset customer-movie pairs each pair rating
+objective collaborative filtering predict rating missing pairs way provide targeted suggestions
+made public dataset  challenged research community predict missing ratings root mean square error below } general question address here is: under conditions do known ratings provide sufficient information infer unknown ones
+inference problem solved efficiently
+second question particularly important view massive size actual data sets

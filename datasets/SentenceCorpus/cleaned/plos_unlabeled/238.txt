@@ -1,0 +1,26 @@
+ 
+text-mining algorithms make mistakes extracting facts natural-language texts
+biomedical applications rely use text-mined data critical assess quality individual facts resolve data conflicts inconsistencies
+using large set almost 100,000 manually produced evaluations implemented tested collection algorithms mimic human evaluation facts provided automated information-extraction system
+performance our best automated classifiers closely approached our human evaluators
+our hypothesis were use larger number human experts evaluate any given sentence could implement artificial-intelligence curator would perform classification job at least accurately average individual human evaluator
+illustrated our analysis visualizing predicted accuracy text-mined relations involving term cocaine
+ introduction 
+information extraction uses computer-aided methods recover structure meaning locked natural-language texts
+assertions uncovered way amenable computational processing approximates human reasoning
+special case biomedical applications texts represented books research articles extracted meaning comprises diverse classes facts relations between molecules cells anatomical structures maladies
+unfortunately current tools information extraction produce imperfect noisy results
+although even imperfect results useful highly desirable most applications ability rank text-derived facts confidence quality their extraction
+focus automatically extracted statements about molecular interactions small molecule binds protein b protein b activates gene c protein d phosphorylates small molecule e
+several earlier studies examined aspects evaluating quality text-mined facts
+example sekimizu et al ono et al attempted attribute different confidence values different verbs associated extracted relations activate regulate inhibit
+thomas et al proposed attach quality value each extracted statement about molecular interactions although researchers did not implement suggested scoring system practice
+independent study blaschke valencia used word-distances between biological terms given sentence indicator precision extracted facts
+our present analysis applied several machine-learning techniques large training set 98,679 manually evaluated examples design tool mimics work human curator who manually cleans output information-extraction program
+our goal design tool used any information-extraction system developed molecular biology
+study our training data came geneways project thus our approach biased toward relationships captured specific system
+believe spectrum relationships represented geneways ontology sufficiently broad our results will prove useful other information-extraction projects
+our approach followed path supervised machine-learning
+first generated large training set facts were originally gathered our information-extraction system then manually labeled correct incorrect team human curators
+second used battery machine-learning tools imitate computationally work human evaluators
+third split training set into ten parts so could evaluate significance performance differences among several competing machine-learning approaches

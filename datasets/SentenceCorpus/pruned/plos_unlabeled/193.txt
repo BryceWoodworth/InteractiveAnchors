@@ -1,0 +1,51 @@
+
+critical our many choices between larger rewards smaller more rewards function rewards time
+although research environments studies humans shown
+investigated how humans perform reward decision task temporal constraints each choice time later trials at each
+demonstrated most our subjects experiment
+further rate used our subjects total reward gain our task
+our results suggest particular temporal determined task subject question notion reward universal principle
+introduction
+limited amount time available before need make large number choices our total reward gain
+particular when choosing between larger but reward smaller but more reward compare values associated each reward choose reward associated larger value
+critical choices reward values function rewards function
+two main classes models reward been
+although researchers environments all behavioral studies directly compared two types humans better reward choice data than does
+reward value given reward d delay rate
+given factor note here large rate small factor
+because constant rate rational predicts constant preference
+human studies subjects asked make number choices between small rewards larger rewards years future after about each alternative
+studies reward value given formula
+studies make reward choices experience both rewards
+constant if makes choice same reward after same delay d average reward rate function delay t all times delay each reward value
+because rate function delay been predicts preference choice
+instance individual may one two but at same time two one
+often presented between future between see
+what situations make reward choices based
+total gain situations constant probability reward loss per time exact estimate time future reward see
+because value given reward rate total gain situations constant at each
+but does total gain situations situations choices rewards constant limited total time
+situations model reward rate
+but trials not independent each other may not average reward rate thus total gain
+instance relatively long both rewards although may large reward small more reward may result smaller overall average reward rate
+choosing small but reward subject next more trials
+thus situations strategy values rewards less than does would total gain
+how far future rewards should considered
+large rate biases individuals small more rewards
+individuals well individuals functions than
+small rate large more rewards
+yet individuals must obtain some rewards instance must find before before before
+thus rate should total gain task situations choices rewards limited total time
+here designed task study whether humans could function whose total gain
+at each subjects had choose between smaller more reward larger reward rewards fixed
+subjects reward other objective measures reward did not provide direct delay
+instead subjects had at each between one two made small
+stimulus reward amount
+at each initial number stimulus small delay d s initial number stimulus large delay d subject was then choose one two stimulus had been selected previous step showed more other stimulus was previous step
+stimuli were always one time step
+events was either was
+then reward was shown during s
+experiment total time was limited s each s give subject some time
+thus each subject had available total reward
+because subjects performed minimum one training before experiment they were highly task
+subjects were total reward at end experiment

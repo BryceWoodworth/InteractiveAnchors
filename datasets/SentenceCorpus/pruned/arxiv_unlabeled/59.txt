@@ -1,0 +1,39 @@
+
+regression important type learning properties both classification regression
+here describe simple effective approach neural network learn
+our approach generalization method regression
+several datasets our method neural network classification method
+compared regression methods using processes support vector performance
+moreover neural learning both online very large training datasets making predictions
+features make useful data processing tasks information protein
+introduction
+regression learning important problem learning property both classification metric regression
+learning task regression data points into set finite
+example rates performance using b c d e b c d e
+regression different classification due order
+contrast metric regression response variables regression finite
+research regression statistics methods machine learning research et al et al et al
+attention recent years due its potential applications many domains information et al et al et al image et al protein
+number machine learning methods been developed address regression problem et al including its generalization neural network et al et al process et al large classifier support vector machine et al et al classifier algorithm et al et al classification et al regression et al et al bayesian et al binary classification approach original regression problem into set binary optimization cost functions et al
+most methods into two approach et al et al et al approach
+full relation into order constraints
+latter learn multiple data into
+approaches also under general extended binary classification framework
+regression methods different
+approach binary algorithm situation fast online algorithm
+however like standard method its accuracy when data while kernel version problem
+one class accurate classifier approaches et al into number data points constraints structural risk
+thus not applied size datasets data points without some preference
+may also noise due pairs
+other class classifier methods support vector regression finding real data into
+size optimization problem linear number training examples
+however like support vector machine used classification prediction when solution not sparse makes not appropriate tasks
+another approach process method also difficulty large training datasets problem prediction some situations
+here describe new neural network approach regression neural network learning both online training very large et al data good performance prediction
+our method considered generalization learning into neural network regression
+our method also related linear models e g model regression
+neural network method et al pairs examples learn order our method individual data points uses multiple output nodes estimate probabilities
+thus our method into approach
+learning our method neural networks using et al
+same datasets our method performance better than standard classification neural networks methods using support vector processes
+addition our method learn very large datasets make predictions

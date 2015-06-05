@@ -1,0 +1,42 @@
+ 
+introduce reduced-rank hidden markov model rr-hmm generalization hmms model smooth state evolution linear dynamical systems ldss well non-log-concave predictive distributions continuous-observation hmms
+rr-hmms assume dimensional latent state discrete observations transition matrix rank
+implies dynamics evolve dimensional subspace while shape set predictive distributions determined
+latent state belief represented dimensional state vector inference carried out entirely  making rr-hmms computationally efficient state hmms yet more expressive
+learn rr-hmms relax assumptions recently proposed spectral learning algorithm hmms apply learn dimensional observable representations rank rr-hmms
+algorithm consistent free local optima extend its performance guarantees cover rr-hmm case
+show how algorithm used conjunction kernel density estimator efficiently model high-dimensional multivariate continuous data
+also relax assumption single observations sufficient disambiguate state extend algorithm accordingly
+experiments synthetic data toy video well difficult robot vision modeling problem yield accurate models compare favorably standard alternatives simulation quality prediction capability
+ introduction 
+models stochastic discrete-time dynamical systems important applications wide range fields
+hidden markov models hmms gaussian linear dynamical systems ldss two examples latent variable models dynamical systems assume sequential data points noisy incomplete observations latent state evolves over time
+hmms model latent state discrete variable represent belief discrete distribution over states
+ldss other hand model latent state set real-valued variables restricted linear transition observation functions employ gaussian belief distribution
+distributional assumptions hmms ldss also result important differences evolution their belief over time
+discrete state hmms good modeling systems mutually exclusive states completely different observation signatures
+joint predictive distribution over observations allowed non-log-concave when predicting simulating future leading what call competitive inhibition between states see figure below example
+competitive inhibition denotes ability model's predictive distribution place probability mass observations while disallowing mixtures those observations
+conversely gaussian joint predictive distribution over observations ldss log-concave thus does not exhibit competitive inhibition
+however ldss naturally model smooth state evolution  hmms particularly bad at
+dichotomy between two models hinders our ability compactly model systems exhibit both competitive inhibition smooth state evolution
+present reduced-rank hidden markov model rr-hmm smoothly evolving dynamical model ability represent nonconvex predictive distributions relating discrete-state continuous-state models
+hmms approximate smooth state evolution tiling state space very large number low-observation-variance discrete states specific transition structure
+however inference learning model highly inefficient due large number parameters due fact existing hmm learning algorithms expectation maximization em  prone local minima
+rr-hmms allow us reap many benefits large-state-space hmms without incurring associated inefficiency during inference learning
+indeed show all inference operations rr-hmm carried out low-dimensional space where dynamics evolve decoupling their computational cost number hidden states
+makes rank  rr-hmms any number states computationally efficient  state hmms but much more expressive
+though rr-hmm itself novel its low-dimensional representation related existing models predictive state representations psrs  observable operator models ooms  generalized hmms  weighted automata  well representation ldss learned using subspace identification
+other related models algorithms discussed further section
+learn rr-hmms data adapt recently proposed spectral learning algorithm hsu kakade zhang henceforth referred hkz learns observable representations hmms using matrix decomposition regression empirically estimated observation probability matrices past future observations
+observable representation hmm allows us model sequences series operators without knowing underlying stochastic transition observation matrices
+hkz algorithm free local optima asymptotically unbiased finite-sample bound error joint probability estimates resulting model
+however original algorithm its bounds assume 1 transition model full-rank 2 single observations informative about entire latent state i e \@ step observability
+show how generalize hkz bounds low-rank transition matrix case derive tighter bounds depend instead  allowing us learn rank rr-hmms arbitrarily large time where number samples
+also describe test method circumventing step observability condition combining observations make them more informative
+version learning algorithm learn general psrs though our error bounds don't yet generalize case
+experiments show our learning algorithm recover underlying rr-hmm variety synthetic domains
+also demonstrate rr-hmms able compactly model smooth evolution competitive inhibition clock pendulum video well real-world mobile robot vision data captured office building
+robot vision data fact most real-world multivariate time series data exhibits smoothly evolving dynamics requiring multimodal predictive beliefs rr-hmms particularly suited
+compare performance rr-hmms ldss hmms simulation prediction tasks
+proofs details regarding examples appendix

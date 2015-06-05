@@ -1,0 +1,38 @@
+ 
+cell polarity general cellular process seen various cell types migrating neutrophils dictyostelium cells
+rho small gtpases been shown regulate cell polarity; however its mechanism emergence yet clarified
+first developed reaction diffusion model rho gtpases exhibits switch-like reversible response gradient extracellular signals exclusive accumulation cdc42 rac rhoa at maximal minimal intensity signal respectively tracking changes signal gradient polarized peak
+previous cell polarity models proposed subramanian narang show similar behaviors our rho gtpase model despite difference molecular networks
+led us compare models found models commonly share instability mass conservation components
+based common properties developed conceptual models mass conserved reaction diffusion system diffusion driven instability
+conceptual models retained similar behaviors cell polarity rho gtpase model
+using models numerically analytically found multiple polarized peaks unstable resulting single stable peak sensitivity toward changes signal gradient specifically restricted at polarized peak
+although molecular networks may differ one cell type another behaviors cell polarity migrating cells seem similar suggesting there should fundamental principle
+thus propose mass conserved reaction diffusion system diffusion-driven instability one principles cell polarity
+ introduction 
+eukaryotic cells neutrophils dictyostelium cells respond temporal spatial gradients extracellular signals directional movements
+process known chemotaxis fundamental cellular process
+migrating cell specific molecular events take place at front back edges
+spatially distinctive molecular accumulation inside cells known cell polarity
+front back polarity usually one axis uniqueness important property because migrating cell two fronts could not move effectively
+another behavior front back polarity higher sensitivity front gradient extracellular signals
+would also important because direction movement should controlled at front edge
+many molecules involved chemotaxis mammalian cells been identified
+some molecules including phosphoinositide 3-kinase phosphatidylinositol 3,4,5-triphosphate cdc42 rac f-actin specifically localized at front whereas others including phosphatase tensin homologue deleted chromosome 10 rhoa at back migrating cells
+rho family small gtpases particular play central role chemotaxis establishing cell polarity
+however mechanism generating spatial accumulation rho gtpases cell polarity yet clarified
+many mathematical models account gradient sensing signal amplification cell polarity been proposed
+local excitation global inhibition model been proposed explain spatial gradient sensing
+some models involve positive feedback loops amplified accumulation signaling molecules
+reaction diffusion model includes local self-enhancement long-range antagonistic effects been proposed directional sensitivity
+most reported models cell polarity involve detailed parameters concentrations rate constants been constructed many parameters equations
+although detailed models at least partially successful reproducing experimental observations cell polarity theoretical essence underlying cell polarity not been explicitly demonstrated; thus simple conceptual model used analytical study needed extract common principles cell polarity
+although reported models consist distinct molecular species networks should especially emphasized many them able exhibit similar behaviors cell polarity regardless their different frameworks
+fact indicates common principle should underlie models conceptual model suitable extracting common principles cell polarity
+because rho small gtpases key regulators cell polarity first developed reaction diffusion model rho gtpases basis earlier model examine spatial properties rho gtpases
+found interaction rho gtpases per se generate specific spatial accumulation rho gtpases our model shows important behaviors cell polarity
+also found our model exhibits behaviors similar model narang subramanian based molecular networks different ours
+suggests common principles should underlie both models
+found mass conservation components diffusion-driven instability commonly conserved narang subramanian models our model
+based common properties established conceptual models mass conserved reaction diffusion system found properties account critical behaviors cell polarity
+results strongly suggest mass conservation components diffusion-driven instability one fundamental principles cell polarity

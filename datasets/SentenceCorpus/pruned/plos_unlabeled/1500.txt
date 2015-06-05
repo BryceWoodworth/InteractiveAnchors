@@ -1,0 +1,46 @@
+
+state certain cells when environment
+into dynamics genetic cellular behavior
+like many biological behaviors into stochastic event
+case cellular noise cell state into
+work present novel numerical method analysis stochastic biochemical events use study dynamics
+finite state solution develop efficient numerical tools probability
+propose new approach sensitivity analysis stochastic events robustness properties regulatory genetic
+also propose numerical method expected time cell
+although study focused example our approach applied wide range stochastic biological systems
+introduction
+ability cell usually dna
+under environments some cells while other cells
+probabilistic event dna
+been shown among group cells only chosen
+modeling noise model phenomenon understanding underlying biological
+few cells high concentration key genes including genes systems
+pattern system regulatory system
+response development
+essential sufficient generate expression pattern
+specifically concentration must certain threshold positive feedback
+different experimental studies activation only needed factor occur expression protein
+et
+al discuss factors determine required threshold activation other transcription factors lower threshold
+although many proteins involved regulation there two main proteins play major role
+s et al propose model noise describe dynamics regulation
+use reduced order stochastic model presented develop stochastic model
+probability expected time requires probabilities first time
+problem first time been studied literature stochastic difference some special cases
+detailed treatment see
+researchers usually use simulations distribution first time when
+propose work alternative approach makes possible states system will time
+main idea here regions state space over into states
+technique useful distribution first time way dimension state space over system
+paper
+first provides new method exact probabilities biological where behaviors study here occur
+second shows how probabilities state respect parameters
+third expected time cell its state
+all methods used analyze any biological system between two states while while state
+paper reactions model
+then generate our proposed stochastic model
+evolution probability density different states
+using stochastic simulation algorithm show how solution using finite state method
+then sensitivity analysis effect various system parameters probability cell
+analysis shows our proposed numerical method different transcription rates etc cellular
+finally analyze parameters expected time cell

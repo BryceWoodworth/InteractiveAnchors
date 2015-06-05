@@ -1,0 +1,94 @@
+ 
+classic algorithms needleman wunsch smith waterman find maximum posteriori probability alignment pair hidden markov model
+process large genomes undergone complex genome rearrangements almost all existing whole genome alignment methods apply fast heuristics divide genomes into small pieces suitable needleman wunsch alignment
+alignment methods standard practice fix parameters produce single alignment subsequent analysis biologists
+number alignment programs applied whole genome scale continues increase so does disagreement their results
+alignments produced different programs vary greatly especially non-coding regions eukaryotic genomes where biologically correct alignment hard find
+parametric alignment one possible remedy
+methodology resolves issue robustness changes parameters finding all optimal alignments all possible parameters phmm
+our main result construction whole genome parametric alignment drosophila melanogaster drosophila pseudoobscura
+alignment draws existing heuristics dividing whole genomes into small pieces alignment relies advances made computing convex polytopes allow us parametrically align non-coding regions using biologically realistic models
+demonstrate utility our parametric alignment biological inference showing cis-regulatory elements more conserved between drosophila melanogaster drosophila pseudoobscura than previously thought
+also show how whole genome parametric alignment used quantitatively assess dependence branch length estimates alignment parameters
+ introduction 
+needleman wunsch pairwise sequence alignment known sensitive parameter choices
+illustrate problem consider eighth intron drosophila melanogaster cg9935-ra gene located chr4:660,462 660,522
+intron 61 base pairs long 60 base pair ortholog drosophila pseudoobscura
+ortholog located at contig8094 contig5509:4,876 4,935 august 2003 freeze 1 assembly produced baylor genome sequencing center
+using basic 3-parameter scoring scheme two orthologous introns following optimal alignment when parameters set m 5 x 5 s 5:
+however if change parameters m 5 x 6 s 4 then following alignment optimal:
+note relatively small change parameters produces very different alignment introns
+problem exacerbated more complex scoring schemes central issue whole genome alignments produced programs mavid blastz/multiz
+indeed although whole genome alignment systems use many heuristics rapidly identifying alignable regions subsequently aligning them they all rely needleman wunsch algorithm at some level
+dependence parameters becomes even more crucial issue multiple alignment more than two sequences
+parametric alignment was introduced waterman eggert lander further developed gusfield et al fernandez-baca et al approach overcoming difficulties selecting parameters needleman wunsch alignment
+see review algebraic perspective
+parametric alignment amounts partitioning space parameters into regions
+parameters same region lead same optimal alignments
+enumerating all regions non-trivial problem computational geometry
+solve problem whole genome scale up five free parameters
+our approach parametric alignment rests idea score alignment specified short list numbers derived alignment
+instance given standard three-parameter scoring scheme summarize each alignment number m matches number x mismatches number s spaces alignment
+triple called alignment summary
+example consider above pair orthologous drosophila introns
+first alignment alignment summary while second alignment alignment summary 
+remarkably even though number all alignments two sequences very large number alignment summaries arise needleman wunsch alignment very small
+specifically example above where two sequences lengths 61 60 total number alignments 1,511,912,317,060,120,757,519,610,968,109,962,170,434,175,129 1.5 10 46
+there only 13 alignment summaries highest score some choice parameters m,x,s biologically reasonable choices i.e when require m x 2s x only six 13 summaries optimal
+six summaries account total 8,362 optimal alignments 
+note basic model discussed above only d 2 free parameters because pair sequences lengths l,l all summaries satisfy
+relation holds l l six summaries table 1
+figure 1 shows alignment polygon defined section alignment polytopes coordinates 
+general two dna sequences lengths l l number optimal alignment summaries bounded above polynomial l l degree d/ where d number free parameters model
+d 2 degree 0.667 so number optimal alignment summaries sublinear growth relative sequence lengths
+even d 5 growth exponent d/ only 3.333
+means all optimal alignment summaries computed large scale models few parameters
+growth exponent d/ was derived gusfield et al d 2 fernandez-baca at al pachter-sturmfels general d table 1 computed using software xparal
+software works d 2 d 3 generates representation all optimal alignments respect all reasonable choices parameters
+although xparal convenient graphical interface seems program not been widely used biologists perhaps because not designed high throughput data analysis number free parameters restricted d 3
+paper demonstrate parametric sequence alignment made practical whole-genome scale argue computing output table 1 very useful comparative genomics applications where reliable alignments essential
+end introduce mathematical point view based organizing principle convexity was absent earlier studies
+our advances rely new algorithms quite different what implemented xparal perform well practice even if number d free parameters greater than three
+convexity organizing principle reveals needles haystack
+our example haystack consists more than 10 46 alignments needles 8,362 optimal alignments
+summaries optimal alignments vertices alignment polytope
+alignment polytope convex hull summaries all alignments
+background convex hulls how compute alignment polytopes provided section genomes polytopes
+thus parametric alignment two dna sequences relative some chosen pair hidden markov model means constructing alignment polytope two sequences
+dimension alignment polytope d number free model parameters
+d 2 polytope convex polygon shown figure 1 pair introns above
+basic model insufficient genomics applications
+more realistic phmms sequence alignment include gap penalties
+consider three models
+symmetries scoring matrices models derived those evolutionary models known jukes cantor kimura-2 kimura-3
+models reviewed section models alignment summaries robustness cones
+our contribution construction whole genome parametric alignment all four models d melanogaster d pseudoobscura
+our methods computational results described next section
+three biological applications presented section polytopes biology
+discussion follows discussion section
+our main computational result construction whole genome parametric alignment two drosophila genomes
+result depended number innovations
+adapting existing orthology mapping methods were able divide genomes into 1,999,817 pairs reliably orthologous segments among identified 877,982 pairs alignment uncertain
+computed alignment polytopes dimensions two three four each 877,982 sequence pairs dimension five subset them
+methods explained section alignment polytopes
+vertices polytopes represent optimal alignment summaries robustness cones
+concepts introduced section models alignment summaries robustness cones
+computational results presented section computational results
+orthology mapping problem pair genomes identify all orthologous segments between two genomes
+orthologous segments if selected so not contain genome rearrangements then globally aligned each other
+strategy frequently used whole genome alignment adapted our parametric alignment computation
+mercator orthology mapping program suitable multiple genomes was developed dewey et al
+applied program d melanogaster d pseudoobscura genomes identify pieces parametric alignment
+mercator strategy identifying orthologous segments follows
+exon annotations each genome translated into amino acid sequences then compared each other using blat
+annotations based reference gene sets ab initio predictions
+resulting exon hits then used build graph whose vertices correspond exons edge between two exons if there good hit
+greedy algorithm then used select edges graph correspond runs exons consistent order orientation
+mercator orthology map d melanogaster d pseudoobscura 2,731 segments
+however order obtain map suitable parametric alignment further subdivision segments was necessary
+subdivision was accomplished additional step identifying fixing exact matches length at least 10 bp 
+derived 1,116,792 constraints four possible types: exact matching non-coding sequences ungapped high scoring aligned coding sequences segment pairs between two other constraints where one segments length zero so non-trivial segment must gapped single nucleotide mismatches squeezed between other constraints
+then removed all segments where sequences contained letter n process resulted 877,982 pairs segments parametric alignment
+lengths d melanogaster segments range one 80,676 base pairs
+median length 42 bp mean length 99 bp
+all 90.4 percent d melanogaster genome 88.7 percent d pseudoobscura genome were aligned our method

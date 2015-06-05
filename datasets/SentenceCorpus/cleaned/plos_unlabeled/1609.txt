@@ -1,0 +1,70 @@
+ 
+periplasmic binding proteins large family molecular transporters play key role nutrient uptake chemotaxis gram-negative bacteria
+all pbps characteristic two-domain architecture central interdomain ligand-binding cleft
+upon binding their respective ligands pbps undergo large conformational change effectively closes binding cleft
+conformational change traditionally viewed ligand induced-fit process; however intrinsic dynamics protein may also crucial ligand recognition
+recent nmr paramagnetic relaxation enhancement experiments shown maltose binding protein  prototypical member pbp superfamily  exists rapidly exchanging mixture comprising open state minor partially closed state
+here describe accelerated md simulations provide detailed picture transition between open partially closed states confirm existence dynamical equilibrium between two states apo mbp
+find flexible part protein called balancing interface motif displaced during transformation
+continuum electrostatic calculations indicate repacking non-polar residues near hinge region plays important role driving conformational change
+oscillations between open partially closed states create variations shape size binding site
+study provides detailed description conformational space available ligand-free mbp implications understanding ligand recognition allostery related proteins
+ introduction 
+periplasmic binding proteins major components bacterial cell envelope involved nutrient uptake chemotaxis
+gram-negative bacteria use pbps transport ligands into cytosol association membrane-bound atp-binding cassette transporter
+gram-positive bacteria differ they employ slightly different design pbps motif directly attached membrane-anchored receptor
+addition several mammalian receptors contain extracellular ligand binding domains homologous pbps
+include glutamate/glycine-gated ion channels nmda receptor; g protein-coupled receptors including metabotropic glutamate gaba-b calcium sensing pheromone receptors; atrial natriuretic peptide-guanylate cyclase receptors
+many receptors promising drug targets
+structures pbps been called gold mine studying general mechanisms protein-ligand recognition pbps been identified transport large variety substrates including: carbohydrates amino acids vitamins peptides metal ions
+affinity pbps diverse substrates also make them ideal templates design diverse vitro vivo biosensors tailored properties 
+maltose binding protein part maltose/maltodextrin system escherichia coli responsible uptake efficient catabolism maltodextrins
+mbp prototypical member pbp superfamily
+been subject extensive study due its importance various biological pathways its utility affinity tag protein expression purification
+protein folds into two domains roughly equal size: c terminal domain n terminal domain
+two domains connected via short helix two-stranded sheet form interdomain hinge region
+like other pbps binding site mbp located interdomain cleft between domains
+x-ray structures mbp solved presence absence ligand indicate protein undergoes important conformational change open closed state presence ligand effect better stabilize ligand reducing size cleft
+conformational change been dubbed venus fly-trap mechanism due its resemblance traps carnivorous plant closes only when stimulated prey
+induced-fit mechanism often invoked describe ligand recognition process
+scenario ligand participates remodeling binding site interacting directly protein
+alternatively also possible apo protein already exists mixture open closed conformations
+case ligand would play more passive role shifting equilibrium toward closed state mechanism traditionally described conformational selection population shift
+computer simulations nmr studies often needed distinguish between two scenarios x-ray structures typically do not provide detailed information about ensemble conformations available ligand-free protein 
+until recently bulk our understanding mechanism substrate recognition mbp came crystallographic studies indicated only two possible conformations ligand-free open ligand bound closed structure
+2007 tang et al reported first nmr paramagnetic relaxation enhancement measurements apo mbp
+attaching spin label ntd ctd apo protein domain hinge-bending motions could studied
+measurements indicated existence dynamic equilibrium between major open state minor partially closed state
+because experimental pre rates mbp could not explained either x-ray crystal structure apo-state nor ligand-bound closed-state was possible postulate partially closed structure exists
+transition between open partially closed state was determined involve rotation around hinge region
+best agreement between computed experimental pre residual dipolar coupling data was obtained considering substrate-free mbp exists equilibrium between major open state minor semi-closed state populated 5 percent time corresponds very small energy difference between two states
+time-scale exchange between states was estimated between 20 ns 20 s 
+theoretical point view understood pre-existing equilibrium between different pbp conformations could play important role facilitating ligand recognition
+however remains considerable challenge access using fully atomistic md simulations detailed statistical analysis slow conformational dynamics proteins mediated hinge-bending motions
+past decade development increasingly efficient simulation algorithms led large number theoretical studies using molecular dynamics simulations probe intrinsic dynamics pbps
+2003 pang et al studied glutamine binding protein using 5 ns md simulations
+they observed large vibrations apo protein direction closed structure found open apo structure was more flexible than closed structure
+subsequently pang et al confirmed general result performing comparative study different pbps also showed different pbps could display slightly different dynamical properties
+authors also observed opening closure rate presence substrate could fast even though they also noted obtaining converged sampling opening closure events was challenging nanosecond time-scale
+2006 kandt et al performed longer md simulations btuf protein involved vitamin b 12 uptake
+using 12 simulations 30 50 ns each they were able observe initiation opening closing motions both apo holo simulations larger motions apo simulations
+behavior protein was interpreted compatible venus fly-trap model
+observation enhanced molecular flexibility open state was confirmed other groups similar pbps iron binding proteins fhud fite heme binding proteins shut phut
+2009 loeffler kitao studied glnbp open liganded form reported closing events occurring during simulations
+taken together md studies pbps helped characterize intrinsic flexibility ligand-free pbps nanosecond time-scale
+consensus opinion calculations ligand recognition proceeds through venus flytrap mechanism apo pbps structure very flexible tendency oscillate along modes lead open closed structure
+2005 simulation study mbp protein was carried out stockner et al
+using 4 md simulations 30 ns started both open closed states without substrate authors could show ligand-free mbp structure naturally evolves toward closed state presence substrate
+similarly closed state was found evolve toward open state when substrate was removed
+rapid time-scale conformational change was consistent experimental rate constant sugar binding 1 2 10 7 m 1 s 1 suggests rate closure around 30 50 ns
+however time-scale simulations was too short observe any pre-existing equilibrium apo mbp between open partially closed conformer
+explained presumed slow exchange rate between two conformations apo mbp
+paper used accelerated molecular dynamics simulations mbp show apo protein exists dynamical equilibrium between open semi-closed conformation
+number methods been developed enhance sampling slow conformational changes proteins including targeted md conformational flooding
+however within framework study key advantage amd allows us study conformational behavior dynamics protein without using pre-defined reaction coordinate
+previous studies amd been successfully employed study slow time-scale dynamics proteins hiv-protease ubiquitin ikba h-ras
+enhanced conformational space sampled amd also been shown significantly improve theoretical prediction experimental nmr observables residual dipolar couplings scalar j-couplings chemical shifts sensitive dynamic averaging micro millisecond time-scale
+paper show amd simulations successfully allow study transition open state apo mbp hidden semi-closed conformation
+provides first atomistic view transition between open partially closed states pbp
+nmr parameters computed simulations agree well experiments
+free energy calculations continuum electrostatics calculations used provide new insights into mechanism energetics exchange between open semi-closed states apo mbp

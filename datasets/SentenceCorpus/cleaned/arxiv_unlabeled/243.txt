@@ -1,0 +1,16 @@
+ 
+problem classifying sonar signals rocks mines first studied gorman sejnowski become benchmark against many learning algorithms been tested
+discovered both training set test set benchmark linearly separable although different hyperplanes
+moreover complete set learning test patterns together also linearly separable
+give weights separate sets may used compare results found other algorithms
+ introduction 
+become current practice test performance learning algorithms \textsl{realistic} benchmark problems
+underlying difficulty tests general problems not well caracterized making thus impossible decide whether better solution one already found exists
+sonar signals classification benchmark introduced gorman et al widely used test machine learning algorithms
+problem classifier discriminate if given sonar return was produced metal cylinder cylindrically shaped rock same environment
+benchmark contains 208 preprocessed sonar spectra defined real values their corresponding class
+among patterns usually used determine classifier parameters through procedure called learning
+then classifier used class remaining patterns fraction misclassified patterns used estimate generalization error produced learning algorithm
+applied monoplane neural incremental learning algorithm benchmark
+algorithm hidden units included one after other until number training errors vanishes
+each hidden unit simple binary perceptron trained learning algorithm minimerror

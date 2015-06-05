@@ -1,0 +1,77 @@
+ 
+uncovered underlying energy landscape cellular network
+discovered energy landscape yeast cell-cycle network funneled towards global minimum experimentally measured inferred inherent chemical reaction rates
+funneled landscape quite robust against random perturbations
+naturally explains robustness physical point view
+ratio slope versus roughness landscape becomes quantitative measure robustness network
+funneled landscape seen possible realization darwinian principle natural selection at cellular network level
+provides optimal criterion network connections design
+our approach general applied other cellular networks
+ introduction 
+post-genome era crucial uncover underlying mechanism cellular networks understand their biological function
+underlying nature cellular networks been explored genetic techniques
+cellular networks been found generally quite robust perform their biological functions against environmental perturbations
+there increasing numbers studies global topological structures networks recently scale-free properties hierarchical architectures networks been found
+hubs highly connected nodes network essential keeping network together might play important role robustness network
+however there so far very few studies why network should robust perform biological function physical point view 
+theoretical models cellular networks often been formulated set chemical rate equations
+dynamical descriptions inherently local
+probe global properties one often change parameters
+parameter space huge
+global robustness therefore hard see approach
+here will explore nature networks another angle formulate problem terms potential function potential energy landscape
+if potential energy landscape cellular network known global properties explored
+analogy fact global thermodynamic properties explored when knowing inherent interaction potentials system
+set normal chemical rate equations describing cellular networks f x being concentrations proteins f being chemical reaction rate flux one cannot general write right-hand side equations gradient potential energy function
+however typical chemical reaction network equations only approximations average concentration level
+cell statistical fluctuations coming finite number molecules provide source intrinsic internal noise fluctuations highly dynamical inhomogeneous environments interior cell provide source external noise networks
+both internal external noise play important roles determining properties network
+general one should study chemical reaction network equations noisy conditions model cellular environments more realistically
+one also study steady-state properties chemical reaction equation networks under noisy environments
+generalized potential steady state network exists general
+once network problem formulated terms generalized potential energy function potential energy landscape issue global stability robustness much easier address
+fact purpose paper study global robustness problem directly properties potential landscape network
+explore nature underlying potential landscape cellular networks will study yeast cell-cycle network
+one most important functions cell reproduction growth
+therefore crucial understand cell cycle its underlying process
+cell cycles during development usually divided into several phases: g0/g1 s g2 m phases
+most eukaryotic cells elaborate control mechanisms over dna synthesis mitosis make sure crucial events cell cycle carried out properly precisely
+physiologically there usually three checkpoints controlling coordination: g0/g1 before new round division g2 before mitotic process begins m before segregation
+recently many underlying controlling mechanisms revealed genetic techniques mutations gene knockouts
+been found control been centered around cyclin-dependent protein kinases trigger major events eukaryotic cell cycle
+example activation cyclin/cdk dimer drives cells at both g1 g2 checkpoints further progress
+during other phases checkpoints cdk/cyclin activated
+although molecular interactions regulating cdk activities known mechanisms checkpoint controls still uncertain 
+figure 1 coarse-grained relationship between cyclin cdc2 cell cycle illustrated
+step 1 cyclin synthesized de novo
+newly synthesized cyclin may unstable
+cyclin combines cdc2-p form pre-mpf
+at some point after heterodimer formation cyclin subunit phosphorylated
+cdc2 subunit then dephosphorylated form active mpf
+principle activation mpf may opposed protein kinase
+nuclear division triggered when sufficient quantity mpf been activated but concurrently active mpf destroyed step 6
+breakdown mpf complex releases phosphorylated cyclin subject rapid proteolysis
+finally cdc2 subunit phosphorylated cycle repeats itself
+mathematical models cell cycle controls been formulated set ordinary first-order differential equations mimicking underlying biochemical processes
+models been applied budding yeast cycle explained many qualitative physiological behaviors
+checkpoints viewed fixed points
+since intracellular intercellular signal transduction induces changes regulatory networks cell cycle described mimicked dynamics out fixed points
+although detailed simulations give some insights towards issues due limitation parameter space search difficult perceive global universal properties cycle networks
+purpose current study address issue
+will develop global energy landscape theory cell cycle network
+statistical-based approach good two reasons
+coarse-grained approach captures only most important factors so analysis carried out relatively easily revealing some global properties
+other hand statistical approach very useful informative when data rapidly accumulating
+picture there many possible states network corresponding different patterns activation inhibition protein states
+each checkpoint viewed basin attractions globally low energy states
+g0/g1 phase states should lowest global energy since end cycle
+initiate new cycle network receive signal activate pump next phase proceed
+dynamics cell cycle described dynamical motions landscape state space one basin another
+kinetic search not entirely random but directed since random search takes cosmological time
+direction gradient landscape provided tilting towards g0/g1 phase
+landscape therefore becomes funneled towards g0/g1 state bottom funnel what call native state
+at end g0/g1 phase network pumped high energy excited states at top funnel
+cell cycle then follows cascades through configurational state space directed way passing several checkpoints finally reaching bottom funnel g0/g1 phase again before being pumped again another cycle
+will study global stability exploring underlying potential landscape yeast cell-cycle network
+aim paper provide framework tool study at cell network globally
+at conclusion paper show potential landscape budding yeast cell cycle funneled robust against perturbation kinetic rates environmental disturbances through noise

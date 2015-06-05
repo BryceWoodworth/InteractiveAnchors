@@ -1,0 +1,24 @@
+ 
+current study examines construct validity maximization scale maximization tendency scale well nomological net maximizing construct
+find both scales maximizing suffer psychometrically especially their proposed dimensionality
+using confirmatory factor analysis item response theory irt identify remove three problematic items mts six problematic items ms
+additionally find ms appears measuring difficulty restlessness search best alternative whereas mts more focused search best option regardless choice difficulty
+then examined revised scales relation other psychological constructs nomological net maximizing found maximizers may not unhappy but generally distressed decision-making context
+finally suggest future maximizng research use revised form mts seems us most consistent original concept maximizing satisficing
+ introduction 
+conceptualization measurement maximizing construct received considerable attention last ten years
+traditional economic models choice theorized individuals pursue maximization goal decision-making contexts
+however evaluation existing data economic models simon stated evidently organisms adapt well enough 'satisfice' they do not general 'optimize'
+building research schwartz et al attempted define psychological effects maximizing those who pursue maximizing goals
+specifically they theorized environments lot choice individuals maximizing goal would likely unhappy regret their decisions
+schwartz et al developed number item measure maximization maximization scale ms found scores ms correlated positively depression perfectionism regret correlated negatively happiness life satisfaction optimism self-esteem
+since development scale there been considerable debate about validity measure development alternative measures
+diab et al developed new maximization scale maximizing tendency scale mts found mts did not correlate constructs depression life satisfaction neuroticism
+however their scale did correlate positively regret
+nenkov et al modified ms created number item scale was found better psychometric characteristics than original number item scale
+lai also developed new scale maximizing found correlated positively optimism need cognition but correlation between her measure maximizing regret was inconsistent across samples
+finally rim et al examined both ms mts using item response theory irt found both scales had weakness measuring maximizing construct
+they also found mts was not unidimensional proposed diab et al
+however rim et al did not discuss removing problematic items
+purpose current study examine both ms mts using exploratory confirmatory factor analysis then use polytomous irt resolve problems found scales
+addition test whether solutions answer question whether maximizers happy unhappy

@@ -1,0 +1,54 @@
+
+networks used study human like
+comparison networks between species potential common mechanisms conserved between human species well those evolutionary
+developed approach relationships across expression datasets multiple species
+simulation results showed method robust against noise
+when applied human networks our method existing methods gene pairs biological functions
+identified network conserved across species signaling main biological processes represented study gene sets levels
+further developed test network differences among multiple datasets demonstrated genes interactions tend under positive selection evolution
+finally identified been play different role type 2 between human
+taken together our approach novel step gene networks multiple large scale datasets not only common information but also differences
+introduction
+expression other high us study complex human molecular species any given system
+now gene expression data into networks functional relationships among genes between genes disease
+analysis networks used study any long samples population setting
+given populations used study human manner important understand mechanisms conserved between human species especially better predictions drug targets identified human populations
+addition mechanisms differ between humans help improve design studies involve models
+statistical data results set studies
+used examine differences between molecular studies out populations different species
+gene network relationship between gene pairs usually measured correlation different correlation correlation information
+therefore problem comparing relationships across multiple datasets context correlation various methods been introduced
+one method formula test combined correlation obtained individual datasets formula
+under general conditions follows formula distribution formula under hypothesis no correlation making possible combined
+another widely used method involves average common metric derived correlation individual datasets
+then used test over individual measures statistical
+datasets type typically accuracy effect size they provide function individual sample
+mean effect size its statistical mean effect size
+effect size both correlation into standard normal metric using then average
+depending whether effect assumed not multiple datasets fixed effect well random effect models
+fixed effect models effect size population fixed but unknown constant therefore assumed same all datasets
+random effect models effect may assumed random sample all population effect
+introduced single method based correlation
+one important feature type method effect estimated provides way difference correlation across multiple datasets
+provided review methods their applications
+networks datasets those different species one central issue often assume every gene pair unique true effect size across species
+although random effect models provide more way species variation still distribution population effect
+problem method was introduced identification conserved human yeast
+method correlation expression between every gene pair were each then according their all other genes
+probabilistic test based order statistics was then applied evaluate probability particular across different organisms
+advantage method because method based statistics makes no assumption underlying distribution correlation across multiple effect size defined any given gene all other genes considered
+however method also several including loss power general given results cannot represented same individual datasets given there no concept mean effect size
+individual methods presented methods section
+their
+paper develop method datasets generated across multiple species
+our method nature assumptions distribution effect size than approach while better statistical power than method
+also effect size gene allows mean effect size leads test differences correlation structures among distinct datasets
+most network alignment algorithms approaches our method does not rely networks individual datasets but instead development statistics test directly relationship between every gene pair
+simulation results showed our method robust against
+when applied human species networks demonstrate our method existing methods gene pairs conserved among three species
+our method also leads identification genes represent core functions been conserved evolution
+both highly less study genes levels found conserved way mechanisms levels
+application our test leads identification single two experimental populations whose genetic only respect gene
+further demonstrate genes involved human specific interactions tend under positive selection evolution
+finally identified been play different role type 2 between human
+taken together our approach novel step gene networks multiple large scale datasets not only conserved information but also differences

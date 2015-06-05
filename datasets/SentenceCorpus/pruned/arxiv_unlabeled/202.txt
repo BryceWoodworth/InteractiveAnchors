@@ -1,0 +1,41 @@
+
+problem matrix subset its often analysis data sets underlying factor model applications computer control
+most recent work had been focused efficient algorithms exact approximate matrix lower bounds number known high probability
+related problem both mathematical point view distance problem points space given subset their
+theory basic questions given set
+basic tools theory determine matrix where play role play theory
+observation leads efficient algorithm testing both local global unique
+our analysis new matrix call matrix matrix
+introduction
+real matrix
+matrix number ways arbitrary values
+order question any value must matrix certain class matrices
+popular class matrices matrices limited rank problem matrix subset its attention
+problem up variety settings
+one problem where only small subset one would like their preference
+data matrix all may because only few factors preferences
+problem also computer problem structure motion well many other data analysis machine learning control other problems factor model
+algorithms been proposed over years see eg
+many algorithms rank convex set positive matrices solve convex optimization problem using
+recently using techniques if pattern random then convex norm norm values vector high probability exact most matrices rank long number observed where some function
+even more recently bound also provided efficient algorithm
+recent results do not provide however solution more practical case pattern
+given specific pattern would algorithm determine rank matrix
+prior any existing algorithms important know if indeed unique
+theory see eg propose efficient algorithm whether not possible complete matrix matrix rank
+our proposed algorithm does not complete matrix but only if unique possible
+introduce new matrix call matrix matrix theory
+rank matrix property call
+matrix large sparse its rank determined using methods
+theory will also make between local global
+between many results theory
+our algorithm testing local based similar algorithm testing local was suggested whereas our algorithm testing global based recent global testing algorithm who
+due large body existing work theory some future
+paper follows
+section contains results theory our algorithms based
+section analyze problem particular case positive matrices present algorithms testing local global matrices
+section analysis more common problem general matrices corresponding algorithms provided
+section patterns either
+particular present simple matrices rank cases
+section results numerical simulations tested performance our algorithms while theoretical bounds matrices random patterns
+finally section

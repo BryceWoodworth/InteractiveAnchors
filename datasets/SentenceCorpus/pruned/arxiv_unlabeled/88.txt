@@ -1,0 +1,18 @@
+
+% show game prediction find optimal learning rate function
+resulting prediction algorithm applied predict results
+theoretical performance out rather data sets especially case more data
+introduction
+prediction was introduced see eg been applied various loss see recent review
+especially important class loss functions ones loss made small best loss constant depending number
+known optimal constant proposed use
+there several important loss functions been shown optimal constant been found
+examples case binary observations loss function loss function
+loss function whose been along its important loss function
+paper loss function
+binary case its was demonstrated
+there two natural result could observations real numbers regression standard problem statistics observations take values finite set leads defined below standard way quality predictions other applied see eg
+loss function case observations real numbers was demonstrated et al algorithm was
+case classification been framework prediction
+paper
+its short version

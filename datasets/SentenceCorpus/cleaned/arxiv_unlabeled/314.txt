@@ -1,0 +1,104 @@
+ 
+% problem sequence prediction following setting
+sequence discrete-valued observations generated according some unknown probabilistic law measure
+after observing each outcome required give conditional probabilities next observation
+measure belongs arbitrary but known class stochastic process measures
+interested predictors whose conditional probabilities converge some sense ``true'' conditional probabilities if any chosen generate sequence
+contribution work characterizing families predictors exist providing specific simple form look solution
+show if any predictor works then there exists bayesian predictor whose prior discrete works too
+also find several sufficient necessary conditions existence predictor terms topological characterizations family  well terms local behaviour measures  some cases lead procedures constructing predictors
+should emphasized framework completely general: stochastic processes considered not required iid  stationary belong any parametric countable family
+ introduction 
+given sequence observations  where finite set want predict what probabilities observing each  more generally probabilities observing different  before revealed after process continues
+assumed sequence generated some unknown stochastic process  probability measure space one-way infinite sequences
+goal predictor whose predicted probabilities converge certain sense correct ones conditional probabilities
+general goal impossible achieve if nothing known about measure generating sequence
+other words one cannot predictor whose error goes zero any measure
+problem becomes tractable if assume measure generating data belongs some known class
+questions addressed work part following general problem: given arbitrary set measures how find predictor performs well when data generated any  whether possible find predictor at all
+example generic property class allows construction predictor countable
+clearly condition very strong
+example important applications point view class measures predictors known class all stationary measures
+general question however very far being answered
+contribution work solving question first provide specific form look predictor
+more precisely show if predictor predicts every exists then predictor also obtained weighted sum countably many elements
+result also viewed justification bayesian approach sequence prediction: if there exists predictor predicts well every measure class then there exists bayesian predictor rather simple prior property too
+respect important note result obtained about bayesian predictor pointwise holds every  stretches far beyond set its prior concentrated
+next derive some characterizations families predictor exist
+first analyze what furnished notion separability when suitable topology found: find sufficient but not always necessary condition
+then derive some sufficient conditions existence predictor based local truncated first observation behaviour measures class
+necessary conditions cannot obtained way demonstrate but sufficient conditions along rates convergence construction predictors found
+{motivation} studying predictors arbitrary classes processes two-fold
+first all prediction basic ingredient constructing intelligent systems
+indeed order able find optimal behaviour unknown environment intelligent agent must able at very least predict how environment going behave more precise how relevant parts environment going behave
+since response environment may general depend actions agent response necessarily non-stationary explorative agents
+therefore one cannot readily use prediction methods developed stationary environments but rather find predictors classes processes appear possible response environment
+apart problem prediction itself numerous applications diverse fields data compression market analysis bioinformatics many others
+seems clear prediction methods constructed one application cannot expected optimal when applied another
+therefore important question how develop specific prediction algorithms each domains {prior work}
+was mentioned if class measures countable if represented  then there exists predictor performs well any
+predictor obtained bayesian mixture  where summable positive real weights very strong predictive properties; particular predicts every total variation distance follows result
+total variation distance measures difference predicted true conditional probabilities all future events not only probabilities next observations but also observations arbitrary far off future see formal definitions below
+context sequence prediction measure was first studied
+since then idea taking convex combination finite countable class measures predictors obtain predictor permeates most research sequential prediction see example  more general learning problems
+practice clear one hand countable models not sufficient since already class bernoulli iid
+processes where probability 0 not countable
+other hand prediction total variation too strong require; predicting probabilities next observation may sufficient maybe even not every step but cesaro sense
+key observation here predictor may good predictor not only when data generated one processes   but when comes much larger class
+let us consider point more detail
+fix simplicity
+laplace predictor } predicts any bernoulli iid process: although convergence total variation distance conditional probabilities does not hold predicted probabilities next outcome converge correct ones
+moreover generalizing laplace predictor predictor constructed class all order markov measures any given
+was found  combination good predictor not only set all finite-memory processes but also any measure coming much larger class: all stationary measures
+here prediction possible only cesaro sense more precisely predicts every stationary process expected time-average kullback-leibler divergence see definitions below
+laplace predictor itself obtained bayes mixture over all bernoulli iid
+measures uniform prior parameter probability 0
+however was observed easy see same asymptotic predictive properties possessed bayes mixture countably supported prior dense e g taking where ranges over all bernoulli iid
+measures rational probability 0
+given  set order markov processes parametrized finitely many valued parameters
+taking dense subset values parameters mixture corresponding measures results predictor class order markov processes
+mixing over all  yields  predictor class all stationary processes
+thus mentioned classes processes predictor obtained bayes mixture countably many measures class
+additional reason why kind analysis interesting because difficulties arising trying construct bayesian predictors classes processes not easily parametrized
+indeed natural way obtain predictor class stochastic processes take bayesian mixture class
+do one needs define structure probability space
+if class well parametrized case set all bernoulli iid
+process then one integrate respect parametrization
+general when problem lacks natural parametrization although one define structure probability space set all stochastic process measures many different ways results one obtain will then probability 1 respect prior distribution see example 
+pointwise consistency cannot assured see eg  case meaning some well-defined bayesian predictors not consistent some large subset
+results prior probability 1 hard interpret if one not sure structure probability space defined set indeed natural one problem at hand whereas if one does natural parametrization then usually results every value parameter obtained case bernoulli iid
+processes mentioned above
+results present work show when predictor exists indeed given bayesian predictor predicts every not almost every measure class while its support only countable set
+related question formulated question about two individual measures rather than about class measures predictor
+namely one ask under conditions one stochastic process predicts another
+was shown if one measure absolutely continuous respect another than latter predicts former conditional probabilities converge very strong sense
+weaker form convergence probabilities particular convergence expected average kl divergence obtained under weaker assumptions {the results } first show if there predictor performs well every measure coming class processes then predictor also obtained convex combination some some 
+holds if prediction quality measured either total variation distance expected average kl divergence: one measure performance very strong other rather weak
+analysis total variation case relies fact if predicts total variation distance then absolutely continuous respect  so converges positive number probability 1 positive probability
+however if settle weaker measure performance expected average kl divergence measures typically singular respect predictor
+nevertheless since predicts show decreases subexponentially high probability expectation); then use ratio analogue density each time step  find convex combination countably many measures desired predictive properties each
+combining predictors all results predictor predicts every average kl divergence
+proof techniques developed potential used solving other questions concerning sequence prediction particular general question how find predictor arbitrary class measures
+then exhibit some sufficient conditions class  under predictor all measures exists
+important note none conditions relies parametrization any kind
+conditions presented two types: conditions asymptotic behaviour measures  their local restricted first observations behaviour
+conditions first type concern separability respect total variation distance expected average kl divergence
+show case total variation separability necessary sufficient condition existence predictor whereas case expected average kl divergence sufficient but not necessary
+conditions second kind concern ``capacity'' sets   where measure restricted first observations
+intuitively if small some sense then prediction possible
+measure capacity two ways
+first way find maximum probability given each sequence some measure class then take sum over
+denoting obtained quantity  one show grows polynomially some important classes processes iid
+markov processes
+show general if grows subexponentially then predictor exists predicts any measure expected average kl divergence
+other hand exponentially growing not sufficient prediction
+more refined way measure capacity using concept channel capacity information theory was developed closely related problem finding optimal codes class sources
+extend corresponding results information theory show sublinear growth channel capacity sufficient existence predictor sense expected average divergence
+moreover obtained bounds divergence optimal up additive logarithmic term
+rest paper organized follows
+section introduces notation definitions
+section show if any predictor works than there bayesian one works while section provide several characterizations predictable classes processes
+section concerned separability while section analyzes conditions based local behaviour measures
+finally section provides outlook discussion
+running examples illustrate results each section use countable classes measures family all bernoulli iid
+processes all stationary processes

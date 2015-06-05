@@ -1,0 +1,38 @@
+ 
+understanding principles governing axonal dendritic branching essential unravelling functionality single neurons way they connect
+nevertheless no formalism yet been described capture general features neuronal branching
+here propose formalism derived expression dendritic arborizations locally optimized graphs
+inspired ram n y cajal's laws conservation cytoplasm conduction time neural circuitry show graphical representation used optimize variables
+approach allows us generate synthetic branching geometries replicate morphological features any tested neuron
+essential structure neuronal tree thereby captured density profile its spanning field single parameter balancing factor weighing costs material conduction time
+balancing factor determines neuron's electrotonic compartmentalization
+additions rule when required construction process directly attributed developmental processes neuron's computational role within its neural circuit
+simulations presented here implemented open-source software package trees toolbox provides general set tools analyzing manipulating generating dendritic structure including tool create synthetic members any particular cell group approach model-based supervised automatic morphological reconstruction fluorescent image stacks
+approaches provide new insights into constraints governing dendritic architectures
+they also provide novel framework modelling analyzing neuronal branching structures constructing realistic synthetic neural networks
+ introduction 
+neuronal circuits composed large variety branched structures axons dendrites forming highly entangled web reminiscent stochastic fractal
+despite apparent chaos more than century ago ram n y cajal was able extract order neuroanatomical complexity formulating fundamental anatomical principles nerve cell organization
+cajal described three biological laws neuronal architecture : optimization principles conservation space cytoplasm conduction time neural circuitry
+principles helped him classify his observations allowed him postulate wide variety theories functionality directionality signal flow various brain areas
+meantime many ideas been substantiated applying more rigorous statistical analysis: circuitry connectivity considerations well simple wire-packing constraints been shown determine statistics dendritic morphology
+also been shown mathematically specific organization architecture many parts brain reflect selection pressure reduce wiring costs circuitry 
+parallel development compartmental modelling techniques based theories wilfrid rall highlighted importance neuron's precise branching morphology its electrophysiological properties shown dendrites play important role computations performed inputs cell
+fact requirements highly selective connectivity coherent topographic mapping sophisticated computation signal compartmentalization at level single cell network could all contribute observed intricacy brain wiring
+two lines investigation raise question whether computation plays determining role shaping morphological appearance neuronal branching structures
+alternatively simple laws material conduction time preservation ram n y cajal could more influence
+using computational techniques become possible construct synthetic neuronal structures silico governed simulation physical biological constraints
+two recent papers derived growth algorithm building dendritic arborisations following closely constraints previously described ram n y cajal
+algorithm builds tree structures minimize total amount wiring path root all points tree corresponding material conduction time conservation respectively
+synthetic insect dendrite morphologies were faithfully reproduced terms their visual appearance their branching parameters way
+here explore algorithm's general applicability its potential describe any type dendritic branching
+if algorithm sufficient accurately mimic essential structure neuronal circuitry resolve relative importance computation wiring constraints shaping neuronal morphology
+then claim ram n y cajal's laws sufficient shaping neuronal morphology
+specific computation will then only play subordinate role determining neuron's branching pattern
+show here while cajal's laws do represent strict constraint neuronal branching neuronal morphology certain freedom operate within constraints
+firstly adjusting balance between two wiring costs dendrite efficiently set its electrotonic compartmentalization quantity attributable computation
+secondly density profile spanning field dendrite grows determines its shape dramatically
+thirdly few weaker constraints suppression multifurcations addition spatial jitter sequential growth sub-regions dendrite helpful reproducing dendritic branching patterns particular preparations
+additional constraints might shed light further functional computational developmental network determinants certain dendritic structures more will follow when applying our method many more preparations
+moreover simple principles presented study used efficiently edit visualize analyze neuronal trees
+finally approaches allow one generate highly realistic synthetic branched structures automatically reconstruct neuronal branching microscopy image stacks

@@ -1,0 +1,39 @@
+ 
+given points dimensional euclidean space minimum enclosing ball meb problem find ball smallest radius contains all points
+give approximation algorithm producing enclosing ball whose radius at most away optimum where upper bound norm points
+improves existing results using coresets  yield greedy algorithm
+finding minimum enclosing convex polytope mecp related problem wherein convex polytope fixed shape given aim find smallest magnification polytope encloses given points
+problem present approximation algorithm where number faces polytope
+our algorithms borrow heavily convex duality recently developed techniques non-smooth optimization contrast existing methods rely geometric arguments
+particular specialize excessive gap framework obtain our results
+ introduction 
+given set points  minimum enclosing ball meb ball smallest radius contains all points
+problem finding meb arises application areas diverse data mining learning statistics computer graphics computational geometry
+therefore efficient algorithms problem not only theoretical interest but also wide practical applicability
+exact algorithms finding meb typically exponential dependence
+example algorithm runs time makes inadmissible many practical applications; case linear svms data may million more dimensions
+therefore there been significant interest finding approximation algorithms problem
+state art approximation algorithms meb problem extensively use concept coresets
+given  coreset property if smallest enclosing ball containing expanded factor  then resulting ball also contains
+therefore locating coreset equivalent finding approximation algorithm meb problem
+approximation guarantees algorithms multiplicative
+briefly coreset built incrementally greedy fashion
+at every iteration meb current candidate coreset built
+if every point lies ball current solution then algorithm stops otherwise most violated point point furthest away current meb included candidate coreset iterations continue
+best known algorithms family running time
+contrast present new algorithm derived casting problem finding meb convex but non-smooth optimization problem
+specializing general framework  our algorithm able achieve running time where upper bound norm points
+also approximation guarantees our algorithm additive  given tolerance denoting optimal radius  our algorithm produces function whose value lies between
+although two types approximation guarantees seem different simple argument section  show our algorithm also yields traditional scale-invariant multiplicative approximation effort
+extend our analysis closely related minimum enclosing convex polytope mecp problem present new algorithm
+before given set points  task here find smallest polytope given fixed shape encloses points
+our setting translations magnifications allowed but rotations not allowed
+present approximation algorithm where denotes number faces polytope
+apply our algorithms two problems interest machine learning namely finding maximum margin hyperplane computing distance polytope origin
+coreset algorithm first problem was proposed while second one was studied
+both cases our algorithms require fewer number iterations yield better computational complexity bounds
+our paper structured follows: section introduce notation briefly review some results convex duality present general framework
+section address meb problem section mecp problem present our algorithms their analysis
+discuss some applications our results machine learning problems section
+paper then concludes discussion outlook future section
+technical proofs found appendix  while preliminary experimental evaluation found appendix

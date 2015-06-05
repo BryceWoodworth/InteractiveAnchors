@@ -1,0 +1,115 @@
+
+problem classical problem one given information bounds difference expected payoff between certain pairs strategies
+classical results et al regret bound problem finite metric
+recent results problems their lower bounds many metric
+universal
+prove answer every metric space optimal regret algorithm either above any below any
+does not between finite metric instead depends whether metric space
+our lower bound techniques online learning classical sets theorem
+also consider version problem problem show problem similar
+give matching lower bounds regret problem metric
+bounds form where depends metric space
+introduce novel notion problem
+finally show both problems become sense no algorithm regret if only if metric space
+introduction
+problems been studied more than years setting common sequential decision making
+stochastic problem algorithm must choose fixed set strategies each time random payoff whose distribution depends strategy selected
+performance algorithms terms regret difference expected payoff between choices always one fixed strategy
+addition their many applications range experimental design online another feature algorithms they efficient terms growth rate problems algorithms whose regret at time scales been known more than two work extended work
+many applications problems especially computer applications online adaptive require strategy sets very large even
+strategy sets bound does not apply while very large finite sets large constant
+indeed without making any assumptions about strategies their payoffs problems large strategy sets allow no solutions any algorithm some random
+study problems strategy set large but one given information form payoffs
+problems become subject study recent years eg
+problem version stochastic problem information bounds difference expected payoff between certain pairs strategies
+models situations where decision some similarity information about strategies similar strategies obtain similar payoffs
+similarity information may metric space structure strategy set constraints expected payoff function function constant metric space
+% constant
+problem was introduced et al
+work studied problem few specific metric real
+prior work considered regret function time focused metric space
+various lower bounds form were where depends metric space
+particular if metric space standard metric then there exists algorithm regret bound up factors
+more generally arbitrary metric space one define there exists algorithm regret up factors if see
+following
+although algorithms regret known most metric existing work provides no examples metric algorithms regret bound although bound all finite
+fact most metric been studied known lower bounds form where therefore natural regret best possible metric space
+there metric one achieve regret
+there any metric space best possible regret between
+% any metric space } make above issue more let us following
+questions above following
+regret bound best possible even problems lower bound
+thus our bound problems metric best possible bound between
+furthermore show metric turn our attention version problem
+any problem there exists corresponding problem after each payoffs all strategies revealed
+settings been studied online learning literature under best problems
+particular finite set strategies one achieve constant regret when payoffs
+over time
+addition full feedback one could also consider version payoffs revealed some but not all strategies
+specifically define feedback where each algorithm two payoff
+after payoffs revealed both strategies
+will setting special case setting
+version problem called problem defined problem instance where metric space probability measure set payoff functions expected payoff function function
+each algorithm presented
+sample
+metric structure known algorithm measure not
+show problem similar one theorem
+bound feedback lower bound full feedback thus issue what means algorithm feedback many strategies
+between metric problem very those
+let us consider end metric problem
+obtain problem if only if metric space not
+moreover our bound setting whereas lower bound full feedback
+consider
+view lower bound matching bounds
+et al observed bounds every metric space finite problem their algorithm version therefore natural whether there exist metric optimal regret problem between
+question matching lower bounds terms novel notion problem
+lower bound theorem version problem instance further property each function itself function
+term version full feedback
+fact version obtain matching bound end consider metric space all probability distributions under distance
+introduce novel notion better complexity regret algorithm allows very analysis } any metric space there exist parameters any not any
+depending metric space take any value
+there exist metric } any metric space there exists problem any not any } } introduce several new techniques most important appear two main results theorem theorem } } main paper online learning requires novel techniques
+particular essential two main results theorem theorem
+there identify simple property result another property lower bound
+classical notion
+work but particular given here new best our knowledge
+metric three result metric space lower bound metric space following together two properties
+follows classical
+provide making our
+reduce problem complete metric show problem given metric space if only if
+same true problem direction
+then main results lower bound theorem metric space } define algorithm function history past observations strategy current
+algorithm defined function observation history strategy current case feedback model pair strategies observation history either sequence elements full feedback model sequence feedback model
+potentially issue metric space
+our results issue metric space via
+moreover main result requires
+also provide result wide family metric including example metric finite number limit points more
+metric finite rank notion work } algorithms stochastic problem regret form two types depending whether constant depend problem instance
+instance whereas algorithm only where number
+lower bound version show any algorithm given time there exists problem instance whose regret large at time whereas version one much more any algorithm there exists problem instance whose regret large often
+paper focus stochastic problem considered paper several other been studied literature research computer see } stochastic problem considered paper several other been studied literature see
+early work focused bayesian bayesian payoffs known goal payoff over
+instance markov decision process each represented markov rewards states transition
+more state also changes when according another transition matrix
+theoretical computer literature recent work
+bayesian given one optimal states actions
+bayesian probabilistic model problem makes no stochastic assumptions
+instead makes very assumption payoffs chosen but not its random
+stochastic problem goal regret
+any fixed finite number best possible regret setting
+strategy sets one often linear problem strategies convex subset each payoffs form linear function more generally convex function } open question whether problem above
+version problem but best our knowledge only known result algorithm
+one could define stochastic version linear problem expected payoffs form fixed linear function special case problem
+however view not likely because problem payoff one payoffs whereas prior work linear problem about
+bayesian problems limited similarity information not clear how model information because bayesian setting similarity between represented via correlated rather than metric space must all payoffs before first adaptive choices made algorithm all previous } paper } section
+present two main results
+lower bound section results section
+metric
+result metric theorem section
+result via metric finite rank section
+result section
+very high dimension including discussed
+some
+reduce problem complete metric
+all our lower bounds
+provide

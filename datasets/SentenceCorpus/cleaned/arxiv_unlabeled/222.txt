@@ -1,0 +1,39 @@
+ 
+given time series multicomponent measurements  usual objective nonlinear blind source separation bss find ``source" time series  comprised statistically independent combinations measured components
+paper source time series required density function equal product density functions individual components
+formulation bss problem solution unique up permutations component-wise transformations
+separability shown impose constraints certain locally invariant scalar functions  derived local higher-order correlations data's velocity
+data separable if only if they satisfy constraints if constraints satisfied sources explicitly constructed data
+method illustrated using separate two speech-like sounds recorded single microphone
+ introduction 
+sensory devices often receive signals multiple physical stimuli evolve simultaneously but unrelated one another
+many situations necessary create separate representations one more stimuli blindly processing observed signals i e  processing them without prior knowledge nature stimuli
+recent years there considerable progress solution ``blind source separation" bss problem special case signals source variables linearly related
+however although nonlinear bss often performed effortlessly humans computational methods doing quite limited
+consider time series data  where multiplet measurements  
+usual objectives nonlinear bss are: 1 determine if data instantaneous mixtures statistically independent source components } where possibly nonlinear invertible mixing function; 2 if case compute mixing function
+other words problem find coordinate transformation transforms observed data measurement-defined coordinate system   state space special source coordinate system   components transformed data statistically independent
+let state space probability density function pdf source coordinate system defined so fraction total time source trajectory located within volume element at location
+usual formulation bss problem source components required statistically independent sense their state space pdf product density functions individual components } every formulation bss multiple solutions created permutations component-wise transformations any one solution
+however well known criterion  so weak suffers much worse non-uniqueness problem: namely form bss problem multiple solutions created transformations mix source variables see references therein
+issue non-uniqueness circumvented considering data's trajectory   instead i e  state space
+first let pdf space defined so fraction total time location velocity source trajectory within volume element at location
+earlier paper described formulation bss problem pdf was required product density functions individual components } separability stronger requirement than separability state space
+see note  recovered integrating both sides  over all velocities but latter equation cannot deduced former one
+fact shown  strong enough guarantee bss problem unique solution up permutations component-wise transformations
+furthermore type statistical independence virtue being satisfied almost all classical physical systems composed non-interacting subsystems generators most signals interest
+author previously demonstrated pdf time series induces riemannian geometry state space metric equal local second-order correlation matrix data's velocity
+nonlinear bss performed computing metric coordinate system i e  computing second-order correlation at each point  well its first second derivatives respect
+however although mathematically correct complete method solving nonlinear bss problem suffers practical difficulty: namely if dimensionality state space high great deal data required cover densely enough order calculate derivatives accurately
+current paper shows how perform nonlinear bss computing higher-order local correlations data's velocity instead computing derivatives its second-order correlation
+approach advantageous because requires much less data accurate computation
+example synthetic speech separation experiment section iii new method separate two synthetic utterances recorded single microphone after minutes observation rather than hours observation required differential geometric method
+method described paper differs significantly methods proposed other investigators because uses criterion statistical independence  instead state space
+addition there technical differences between proposed method conventional ones
+first all technique paper exploits statistical constraints data locally defined state space contrast usual criteria statistical independence global conditions data time series its time derivatives
+furthermore unlike many other methods  mixing function derived constructive deterministic non-parametric manner without employing iterative algorithms without using probabilistic learning methods without parameterizing neural network architecture other means
+addition proposed method handle any differentiable mixing function unlike some other techniques only apply restricted class mixing functions
+next section describes how separate two-dimensional data into two one-dimensional source variables
+section iii illustrates method using separate two simultaneous speech-like sounds recorded single microphone
+implications work discussed last section
+appendix describes how method generalized separate data arbitrary dimensionality into possibly multidimensional source variables

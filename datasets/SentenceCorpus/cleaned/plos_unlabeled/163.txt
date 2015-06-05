@@ -1,0 +1,22 @@
+ 
+developed software program weights integrates specific properties genes pathogen so they may ranked drug targets
+applied software produce three prioritized drug target lists mycobacterium tuberculosis causative agent tuberculosis disease new drug desperately needed
+each list based individual criterion
+first list prioritizes metabolic drug targets uniqueness their roles m tuberculosis metabolome their similarity known druggable protein classes
+second list prioritizes targets would specifically impair m tuberculosis weighting heavily those closely conserved within actinobacteria class but lack close homology host gut flora
+m tuberculosis survive asymptomatically its host many years adapting dormant state referred persistence
+final list aims prioritize potential targets involved maintaining persistence m tuberculosis
+rankings current candidate proposed drug targets highlighted respect lists
+some features were found more accurate than others prioritizing studied targets
+also shown targets prioritized using evolutionary programming optimize weights each desired property
+demonstrate approach prioritizing persistence targets
+ introduction 
+cost research development pharmaceutical industry been rising steeply steadily last decade but amount time required bring new product market remains around ten fifteen years
+problem been labeled innovation gap necessitates investment inexpensive technologies shorten length time spent drug discovery
+target identification stage first step drug discovery process provide foundation years dedicated research pharmaceutical industry
+all other steps drug discovery stage complicated fact identified drug target must satisfy variety criteria permit progression next stage
+important factors context include homology between target host ; activity target diseased state ; essentiality target pathogen's growth survival 
+values some selection criteria found easily querying publicly available bioinformatics resources including metabolic pathway databases kegg protein classification sets cogs databases druggable proteins 
+traditional prioritization approaches literature searches mental integration multiple criteria quickly become overwhelming researcher
+more effective alternative computational integration over different criteria create ranking function
+article describe application assessdrugtarget ranks genes genome according given set weighted criteria

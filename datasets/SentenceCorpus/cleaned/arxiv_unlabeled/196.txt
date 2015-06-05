@@ -1,0 +1,37 @@
+ 
+recently different works proposed new way mine patterns databases pathological size
+example experiments genome biology usually provide databases thousands attributes genes but only tens objects experiments
+case mining ``transposed'' database runs through smaller search space galois connection allows infer closed patterns original database
+focus here constrained pattern mining those unusual databases give theoretical framework database constraint transposition
+discuss properties constraint transposition look into classical constraints
+then address problem generating closed patterns original database satisfying constraint starting those mined ``transposed'' database
+finally show how generate all patterns satisfying constraint closed ones
+ introduction 
+frequent pattern mining now well mastered but patterns like association rules reveal too numerous experts very expensive compute
+they filtered constrained
+however mining constraining done jointly pushing constraint order avoid combinatorial explosion
+mining under complex constraint become today hot topic subject numerous works e g  
+moreover new domains interested our applications data schemes vary consequently
+genome biology biological experiments very expensive time consuming
+therefore only small number experiments processed
+however thanks new devices biochips experiments provide measurements activity thousands genes
+leads databases lots columns genes few rows experiments
+numerous works present efficient algorithms mine patterns satisfying user defined constraint large databases
+constraint combine minimum maximum frequency threshold together other syntactical constraints
+algorithms designed databases up several millions rows
+however their complexity exponential number columns thus they not suited databases too many columns like those encountered genome biology
+recently two propositions were done solve problem: instead mining original database algorithms work ``transposed'' database i e  columns original database become rows ``transposed'' database rows becomes columns indeed same database but different representation
+therefore ``transposed'' database significantly less columns than original one
+carpenter algorithm specifically designed mining frequent closed patterns our proposition uses classical algorithm mining closed patterns monotonic anti-monotonic constraint
+both approaches use transposition principle however problem mining under constraints not fully studied specially complex constraints i e  conjunction disjunction simple constraints
+paper study problem theoretical point view
+our aim use classical algorithms constrained pattern mining algorithms closed patterns mining algorithms ``transposed'' database use their output regenerate patterns original database instead directly mining original database
+there several interesting questions will therefore try answer: what kind information gathered ``transposed'' database patterns original database
+possible ``transpose'' constraints i e  given database constraint possible find ``transposed'' constraint mining ``transposed'' database ``transposed'' constraint gives information about patterns satisfy original constraint original database
+how regenerate closed patterns original database patterns extracted ``transposed'' database
+how generate all itemsets satisfying constraint using extracted closed patterns
+questions will addressed respectively sec  
+organization paper follows: start sec  recalling some usual definitions related pattern mining galois connection
+then show sec  how transpose usual complex constraints
+section complete discussion about mining constrained closed patterns using ``transposed'' database sec  show how use compute all i e  not only closed patterns satisfying constraint
+finally sec  short conclusion

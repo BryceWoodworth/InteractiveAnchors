@@ -1,0 +1,43 @@
+ 
+many neurons epochs they fire action potentials approximately periodic fashion
+see what effects noise relatively small amplitude repetitive activity recently examined response hodgkin-huxley space-clamped system noise mean variance applied current vary near bifurcation periodic firing
+article concerned more realistic neuron model includes spatial extent
+employing hodgkin-huxley partial differential equation system deterministic component input current restricted small segment whereas stochastic component extends over region may may not overlap deterministic component
+mean values below near above critical values repetitive spiking effects weak noise increasing strength ascertained simulation
+point model small amplitude noise near critical value dampens spiking activity leads minimum noise level increases
+was case both additive noise conductance-based noise
+uniform noise along whole neuron only marginally more effective silencing cell than noise occurs near region excitation
+fact found if signal noise overlap spatial extent then weak noise may inhibit spiking
+if however signal noise applied disjoint intervals then noise no effect spiking activity no matter how large its region application though trajectories naturally altered slightly noise
+effects could not discerned point model important real neuron behavior
+interference spike train does nevertheless occur when noise amplitude larger even when noise signal do not overlap being due instigation secondary noise-induced wave phenomena rather than switching system one attractor another 
+ introduction 
+rhythmic almost regular periodic neuronal spiking found many parts central nervous system including example thalamic relay cells dopaminergic neurons respiratory neurons locus coeruleus neurons dorsal raphe serotonergic neurons
+periodic behavior also found activity neuronal populations
+since stochasticity prominent component neuronal activity at all levels interest see what effects noise may repetitive activity neurons
+there many kinds neuronal model could used immediate dichotomy being provided hodgkin's defining classes type 1 type 2 neurons
+chosen first examine behavior classic type 2 neural model its full spatial version been employed recent studies reliability
+methods use easily extended more complicated models 
+deterministic spatial hodgkin-huxley system consisting cable partial differential equation membrane voltage three auxiliary differential equations describing sodium potassium conductances one most successful mathematical models physiology
+corresponding system ordinary differential equations been subject very large number studies analyses example references
+most neuronal modeling studies aside some use software packages ignore spatial extent altogether many those include spatial extent do not include soma hardly ever axon because inclusion all three major neuronal components soma axon dendrites makes complicated system equations boundary conditions
+recent study spike propagation myelinated fibres used multi-compartmental stochastic hodgkin-huxley model demonstrated facilatory effect noise there were optimal channel densities at nodes most efficient signal transmission
+reality if solutions statistical properties found simulation stochastic cable models including nonlinear model hodgkin huxley not much more complicated than corresponding point models although more computing time required
+other hand apparent disadvantage spatial models more parameters must specified many at best only approximately estimated
+original hh-system action potential formation propagation squid axon contained only sodium ions potassium ions leak currents distribution corresponding ion channels was assumed uniform
+ionic current wasformulaand various channel densities did not vary distance
+however there two reasons why basic model been modified modeling more complex cells
+firstly ion channel densities do depend position secondly neurons especially those mammalian central nervous system often receive many thousands synaptic inputs many different sources each source different spatial distribution pattern soma-dendritic surface
+thus spatial models motoneurons cortical pyramidal cells also used same components ionic current hh-system but channel densities vary over soma-dendritic axonal surface
+most central neurons many dendritic trunks axon each branches many times
+article focus cable model one space dimension most accurate nerve cylinder usually uniform diameter
+thus first instance our approach useful investigate properties single axonal dendritic segments
+simple geometry nevertheless used gain some insight into properties neurons complex anatomy appealing methods mapping neuronal branching structure cylinder thus reducing multi-segment problem solving cable equation one space dimension
+thus single-segment cable models relevance neurons branching dendritic axonal trees
+recent studies hh-system ordinary differential equations stochastic input revealed new interesting phenomena character opposite stochastic resonance
+latter there noise level at some response variable achieves maximum
+particular space-clamped hh system at mean input current densities near critical value repetitive firing was found small amount noise could strongly inhibit spiking
+furthermore there occurred given mean current densities minimum firing rate noise level increased zero
+properties related noise-induced delays firing found single hh neurons periodic input current networks neurons
+interest see if kinds phenomena extend spatial hh-system where addition many possibilities spatial distribution mean input noise
+will demonstrate spatial hh system exhibits quite similar but more complex behavior than ode system

@@ -1,0 +1,34 @@
+
+biological function proteins associated formation
+experimental structure at however
+computational methods structure prediction particularly yet their limited receptor them not predicting if large conformational changes receptor upon binding involved
+accurate receptor models state however drug design
+hence if only structure available distinct drug design limited
+present method predict structure based structure structure
+method applied cases proteins structural up upon binding
+all cases receptor models within target were predicted binding were obtained cases complex models
+presented expected structure modeling drug design cases where structures not available
+introduction
+interactions between proteins small molecules involved many biochemical
+into processes detailed knowledge about structure how close
+moreover almost all
+receptor complex structures critical understanding biological function structure based drug design
+however structure difficult
+structures usually obtained either common problem even when conditions well might not complex
+particularly conformational receptor associated binding structure
+when structures protein not available drug design highly
+several studies showed usually results factor compared even when structural difference between both small
+therefore development at certain degree receptor either using structures instead single receptor modeling certain structure also small
+receptor molecular been shown both factors ability predict correct binding particularly cases when receptor structure been different usually case when novel
+however degree thus far limited either small thus highly similar drug design
+particularly conformational transition upon binding structure based drug design
+although might not several experimental techniques exist conformational changes
+many cases where proteins domain upon binding they different bound state corresponding change studied either where more correlation time
+provide information modeling structures well into protein dynamics
+here present method predict structure proteins large conformational change upon binding
+requires known experimental data
+here apply information more than structure
+developed simulation conformational sampling molecular dynamics simulations applied proteins
+cases where both bound known order able predicted receptor
+conformational changes involved range binding site differ between
+cases predict receptor close cases predict binding close state our method predictions involving large conformational

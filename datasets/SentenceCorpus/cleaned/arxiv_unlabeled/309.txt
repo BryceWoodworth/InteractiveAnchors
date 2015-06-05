@@ -1,0 +1,36 @@
+ 
+images segmented first using classifier predict affinity graph reflects degree image pixels must grouped together then partitioning graph yield segmentation
+machine learning been applied affinity classifier produce affinity graphs good sense minimizing edge misclassification rates
+however error measure only indirectly related quality segmentations produced ultimately partitioning affinity graph
+present first machine learning algorithm training classifier produce affinity graphs good sense producing segmentations directly minimize rand index well known segmentation performance measure
+rand index measures segmentation performance quantifying classification connectivity image pixel pairs after segmentation
+using simple graph partitioning algorithm finding connected components thresholded affinity graph able train affinity classifier directly minimize rand index segmentations resulting graph partitioning
+our learning algorithm corresponds learning maximin affinities between image pixel pairs predictive pixel-pair connectivity
+ introduction 
+supervised learning emerged serious contender field image segmentation ever since creation training sets images {}``ground truth'' segmentations provided humans berkeley segmentation dataset
+supervised learning requires 1 parametrized algorithm map images segmentations 2 objective function quantifies performance segmentation algorithm relative ground truth 3 means searching parameter space segmentation algorithm optimum objective function
+supervised learning method presented here segmentation algorithm consists parametrized classifier predicts weights nearest neighbor affinity graph over image pixels followed graph partitioner thresholds affinity graph finds its connected components
+our objective function rand index  recently been proposed quantitative measure segmentation performance
+{}``soften'' thresholding classifier output adjust parameters classifier gradient learning based rand index
+because maximin edges affinity graph play key role our learning method call maximin affinity learning image segmentation  malis
+minimax path edge standard concepts graph theory maximin opposite-sign sibling minimax
+hence our work viewed machine learning application graph theoretic concepts
+malis focuses improving classifier output at maximin edges because classifying edges incorrectly leads genuine segmentation errors splitting merging segments
+best our knowledge malis first supervised learning method based optimizing genuine measure segmentation performance
+idea training classifier predict weights affinity graph not novel
+affinity classifiers were previously trained minimize number misclassified affinity edges
+not same optimizing segmentations produced partitioning affinity graph
+there been attempts train affinity classifiers produce good segmentations when partitioned normalized cuts
+but approaches do not optimize genuine measure segmentation performance rand index
+work bach jordan closest our work
+however they only minimize upper bound renormalized version rand index
+both approaches require many approximations make learning tractable
+other related work classifiers been trained optimize performance at detecting image pixels belong object boundaries
+our classifier also viewed boundary detector since nearest neighbor affinity graph essentially same boundary map up sign inversion
+however combine our classifier graph partitioner produce segmentations
+classifier parameters not trained optimize performance at boundary detection but optimize performance at segmentation measured rand index
+there also methods supervised learning image labeling using markov conditional random fields
+but image labeling more similar multi-class pixel classification rather than image segmentation latter task may require distinguishing between multiple objects single image all same label
+cases where probabilistic random field models been used image parsing segmentation models either been simplistic tractability reasons been trained piecemeal
+instance tu et al separately train low-level discriminative modules based boosting classifier train high-level modules their algorithm model joint distribution image labeling
+models never been trained minimize rand index

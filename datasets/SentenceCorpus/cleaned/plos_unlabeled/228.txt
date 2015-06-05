@@ -1,0 +1,40 @@
+ 
+arabidopsis tandemly arrayed genes comprise 10 percent genes genome
+duplicated genes represent rich template genetic innovation but little known evolutionary forces governing their generation maintenance
+here compare organization evolution tags between arabidopsis rice two plant genomes diverged 150 million years ago
+tags two genomes similar number respects including proportion genes tandemly arrayed number genes within array number tandem arrays dearth tags relative single copy genes centromeric regions
+analysis recombination rates along rice chromosomes confirms positive correlation between occurrence tags recombination rate found arabidopsis
+tags also biased functionally relative duplicated nontandemly arrayed genes
+both genomes tags enriched genes encode membrane proteins function abiotic biotic stress but underrepresented genes involved transcription dna rna binding functions
+speculate observations reflect evolutionary trend successful tandem duplication involves genes either at end biochemical pathways flexible steps pathway fluctuation copy number unlikely affect downstream genes
+despite differences age distribution tandem arrays striking similarities between rice arabidopsis indicate similar mechanisms tag generation maintenance
+ introduction 
+genomes arabidopsis thaliana oryza sativa contain substantial proportions duplicated chromosomal segments presumably reflecting ancient polyploidy events
+arabidopsis example there been at least three paleopolyploid events most recent occurring 25 million years ago
+duplicated chromosomal regions retain 25 percent their genes duplicates remaining duplicate pairs having lost one copy deletion pseudogenization
+surprisingly process gene loss nonrandom respect function because genes retained duplicates enriched functions related transcription signal transduction development
+like arabidopsis rice also history extensive duplication up 60 percent genome apparently duplicated paleopolyploid events up 50 percent genes retained duplicates duplicated chromosomal segments 
+although there been numerous studies identify genes duplicated via paleopolyploidy one important source duplication plant genomes not been studied great detail: tandemly arrayed genes
+tags gene family members tightly clustered chromosome they frequent plant genomes
+thaliana tags comprise almost many genes those duplicated paleopolyploid events
+they also represent broad functional component genome ranging genes encode secondary metabolites disease resistance genes regulatory genes 
+evolution organization tags been studied arabidopsis
+tags underrepresented centromeric regions relative non-tag genes their prevalence relative non-tag genes positively correlated recombination rates along chromosomes
+evolutionary processes contributing correlation unclear
+correlation could reflect generation tags via recombination-mediated processes unequal crossing-over could produced indirectly interplay among selection recombination gene gain gene loss
+also unclear whether tag organization arabidopsis representative other plant genomes
+tags also likely differ dispersed gene families their process divergence
+close physical proximity tags facilitates gene conversion recently demonstrated both yeast arabidopsis
+one practical ramification synonymous distance between tags cannot easily used proxy time duplication event gave rise two genes
+instead ks provides insight into either age duplication event age homogenizing gene conversion events
+nonetheless careful study ks values among clustered genes could uncover clues tag maintenance diversification
+completion rice genome sequence provides first opportunity compare structure evolution tags between two plant genomes arabidopsis rice
+two species diverged 150 million years ago but similar they relatively small genomes reproduce predominantly selfing
+genomic analyses rice sequence already revealed some properties tags i.e tags compose between 16 percent 29 percent rice genes preponderance tandemly duplicated genes differentiated relatively low ks values
+nonetheless tags rice not been studied comparative context nor context genomic features chromosomal location recombination
+paper address several basic questions about organization evolution function tags
+first does number distribution tags differ substantially between rice arabidopsis
+second tags more frequent high recombination regions rice they arabidopsis
+third do two species exhibit clear similarities differences distribution ks among tags
+fourth do genes tags represent functional biases relative non-tag genes
+finally infer any general mechanisms contribute similarities differences between distribution tags arabidopsis rice genomes

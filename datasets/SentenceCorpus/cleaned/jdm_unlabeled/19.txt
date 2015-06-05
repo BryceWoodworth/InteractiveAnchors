@@ -1,0 +1,35 @@
+ 
+i show how coherence correspondence distinction inform conversation about decision methods engineering design
+some engineers argue application multi-attribute utility theory while others argue what they call heuristics
+clarify differences among methods i first ask whether each method aims at achieving coherence correspondence
+analyzing statements design literature i argue utility theory aims at achieving coherence heuristics aim at achieving correspondence
+second i ask if achieving coherence always implies achieving correspondence
+important provide answer because while design objective correspondence difficult assess coherence easier assess used surrogate
+i argue coherence does not always imply correspondence design also case problems studied judgment decision-making research
+uncovering conditions under coherence implies does not imply correspondence topic where engineering design judgment decision-making research might connect
+ introduction 
+kenneth hammond pointed out method evaluated both according its internal consistency coherence its external performance correspondence
+important keep distinction mind when comparing decision methods because one method could achieving coherence while another method could achieving correspondence
+example take-the-best heuristic violates criterion coherence transitivity satisfied linear regression while under some conditions take-the-best outperforms regression criterion correspondence predictive accuracy
+article i show how coherence correspondence distinction inform conversation about decision methods within field had minimal overlap jdm judgment decision making field engineering design
+number national science foundation nsf engineering design program director george hazelrigg wrote increasingly recognized engineering design decision-intensive process p number
+nsf since number sponsored numerous workshops decision-based design
+accreditation board engineering technology also defines engineering design decision-making process
+what decisions do design engineers make
+design engineers choose among alternative concepts
+design concept technical specification artifact detailed enough so engineer predict reasonably accurately how artifact will function
+example concept chair would specify material used build each chair part geometrical relationships among parts
+there typically many attributes design concepts evaluated
+examples attributes chair concept durability comfort production cost
+hereafter i refer design concepts simply designs
+some engineers argue application multi-attribute utility theory choosing among designs while others argue what they call heuristics stuart pugh's convergence process
+debate large ignored coherence correspondence distinction
+i ask two questions use distinction inform debate
+first question whether each method aims at achieving coherence correspondence both
+analyzing published statements design literature i argue multi-attribute utility theory aims at achieving coherence while pugh convergence process aims at achieving correspondence
+second question if achieving coherence always implies achieving correspondence
+important answer because while design objective decision-making correspondence difficult assess coherence easier assess used surrogate
+surrogate coherence useful inferring objective correspondence relationship between two must known
+i argue coherence does not always imply correspondence design also case decision problems studied jdm
+i conclude study conditions under coherence implies does not imply correspondence topic where design jdm research might connect
+before asking answering two questions i review two methods making decisions prominent place engineering design theory practice

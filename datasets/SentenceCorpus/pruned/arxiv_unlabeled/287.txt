@@ -1,0 +1,36 @@
+
+methods previously been proposed problem finding associations data even items
+while methods do not results they more efficient than approaches rely exact
+however many similarity measures no methods been known
+paper show how wide variety measures simple sampling method
+method also find rules
+demonstrate our method exact methods when threshold above average average support not too low
+our method particularly good when contain many items
+experiments standard significant real data sets much larger than theoretical
+time over order significant space observed
+introduction
+central task data finding associations binary relation
+typically where there sequence now each set items
+goal find patterns who more likely also
+there no way whether indeed seems depend factors not
+result number measures paper some most common measures including
+addition rules related similarity measure
+general similarity measures
+limit problem binary associations i e patterns involving pairs items
+there large literature finding patterns involving larger sets taking into account time rules etc
+while some our results extended larger sets will binary case
+previous methods rely one following pairs particular means number each pair each similarity every pair items estimated comparing
+our approach different both approaches generally performance
+some sense directly result set pairs items similarity measure above some threshold
+our method based means output may contain there may
+however errors reduced any level at some cost our experimental results negative probability less than
+method sampling main paper different previous approaches involve sampling
+main focus many previous been space number over data set since been main
+time also consider time
+items contains pairs if not small effort all pairs compared cost set
+true particular if data able data at rate more than per second
+one been used reduce space but also time require high support i e define most items simply because they do not occur they below support
+however observed means potentially useful associations e g between genes not reported
+paper consider problem finding associations support
+support still used reduce size data set before our algorithms applied
+following first discuss need time data then relationship between our related

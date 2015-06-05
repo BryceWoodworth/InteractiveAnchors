@@ -1,0 +1,19 @@
+
+learning means learning observations into feedback environment
+learning set while them through interaction environment
+present application algorithm learning complex domain network communication compare performance algorithm other methods problem
+introduction
+requires efficient adaptive control
+learning natural framework development error process interaction environment
+work apply algorithm network
+effective network means optimal communication
+problem
+sense learning optimal control network could thought learning some task like but trials many times interaction among trials
+under individual agent makes its decisions according individual policy
+parameters policy according some measure global performance network while control determined local observations
+nodes do not any information network their position
+each well learning algorithm follows every other independent structure network
+there no notion space other actions
+our approach allows us local while control global knowledge networks structure
+only global information required learning algorithm network utility expressed reward signal distributed dependent average time
+learning system could thought neural network each only simple based available

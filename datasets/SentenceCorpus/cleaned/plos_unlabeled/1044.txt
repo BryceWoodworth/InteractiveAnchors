@@ -1,0 +1,76 @@
+ 
+hsp90 molecular chaperone essential protein folding activation normal homeostasis stress response
+atp binding hydrolysis facilitate hsp90 conformational changes required client activation
+hsp90 plays important role disease states particularly cancer where chaperoning mutated overexpressed oncoproteins important function
+recent studies illuminated mechanisms related chaperone function
+however atomic resolution view hsp90 conformational dynamics determined presence different binding partners critical define communication pathways between remote residues different domains intimately affecting chaperone cycle
+here present computational analysis signal propagation long-range communication pathways hsp90
+carried out molecular dynamics simulations full-length hsp90 dimer combined essential dynamics correlation analysis signal propagation model
+all-atom md simulations timescales 70 ns been performed complexes natural substrates atp adp unliganded dimer
+elucidate mechanisms signal propagation determine hot spots involved interdomain communication pathways nucleotide-binding site c-terminal domain interface
+comprehensive computational analysis hsp90 communication pathways dynamics at atomic resolution revealed role nucleotide effecting conformational changes elucidating mechanisms signal propagation
+functionally important residues secondary structure elements emerge effective mediators communication between nucleotide-binding site c-terminal interface
+furthermore show specific interdomain signal propagation pathways may activated function ligand
+our results support conformational selection model hsp90 mechanism whereby protein may exist dynamic equilibrium between different conformational states available energy landscape binding specific partner bias equilibrium toward functionally relevant complexes
+ introduction 
+heat shock protein 90 essential atpase directed molecular chaperone required folding quality control maturation trafficking client proteins
+hsp90 represents fundamental hub protein interaction networks key roles many cellular functions
+hsp90 oversees correct maturation activation trafficking among specialized cellular compartments wide range client proteins
+functions clients range signal transduction regulatory mechanisms immune response
+client proteins typically include numerous kinases transcription factors other proteins serve nodal points integrating cellular responses multiple signals
+given its role at intersection fundamental cellular pathways becoming increasingly clear hsp90 deregulation associated many pathologies ranging cancer protein folding disorders neurological diseases
+because role disease development pharmacological suppression hsp90 activity become area very intense research molecular oncology particular
+targeted suppression hsp90 atpase activity small molecule inhibitor benzoquinone ansamycin antibiotic 17-allylamino-17-demethoxygeldanamycin some its derivatives shown promising anticancer activity preclinical models recently completed safety evaluation humans
+further clinical trials also been initiated other small molecules also used drug combinations various cancer types 
+hsp90 operates dimer complex cycle driven atp binding hydrolysis atp/adp exchange
+initial structural efforts concentrated isolated individual domains human yeast hsp90 er homologue grp94 escherichia coli homologue htpg
+crystal structures larger constructs also been reported
+first x-ray crystal structures full-length hsp90 yeast bound atp mimic amppnp revealed homodimeric structure individual protomers twisted parallel arrangement
+each protomer turn characterized modular architecture three well-defined domains: n-terminal regulatory domain responsible atp binding middle domain completes atpase site necessary atp hydrolysis binds client proteins c-terminal dimerization domain required dimerization
+same global topology shared atp-bound states e.coli homolog htpg endoplasmatic reticulum paralog grp94
+interestingly crystal structures full-length constructs htpg grp94 complex either adp apo state showed substantially different conformations
+htpg apo state adopted open structure each three domains exposed hydrophobic surface area while adp-bound form hydrophobic surfaces clustered form more compact state 
+structural biochemical studies solution state hsp90 its complexes using small angle x-ray scattering provided first experimental evidence highly dynamic stochastic nature hsp90 whereby equilibrium between different conformational states molecular chaperone readily shifted recruit hsp90 conformation suitable efficient cdc37 co-chaperone recognition
+more recent solution structure data obtained using saxs single particle cryo-electron microscopy modeling approaches showed apo-hsp90 dimer may equilibrium among different open extended states still preserving constitutive dimerization provided ctds nucleotide binding may shift equilibrium towards compact conformations
+particular saxs data revealed adp-bound compact state htpg equilibrium extended state could significantly populated absence crystal packing effects
+contrast crystal structures amppnp adp-bound forms er-paralog grp94 showed there relatively little difference conformation between two nucleotide bound states crystal representing extended structures
+recent studies based mutation analysis cross-linking electron microscopy suggested different compact states accessed grp94 presence atp
+studies indicated upon binding specific partner functional states hsp90 recruited using intrinsic conformational flexibility hsp90
+although exact mechanism coupling between atp-binding/hydrolysis client protein folding still unclear combination x-ray structural observations biochemical data supports picture chaperone undergoes conformational rearrangements bringing two ntds close association atp-bound state but not adp-bound apo states
+defines conformational cycle involves constitutive dimerization through ctds transient atp-dependent dimerization ntds molecular clamp mechanism
+terms intrinsic protein dynamics mechanism conformational coupling atpase cycle involves tense structurally rigid conformational state hsp90 upon atp binding whereas subsequent hydrolysis adp leads more relaxed structurally flexible state hsp90
+finally nucleotide-free form dimer moves open state
+crystal structures full-length dimer also highlight remarkable flexibility atp-lid segment composed two helices intervening loop located immediately adjacent atp binding site
+lid displaced its position isolated hsp90 ntd structure folds over nucleotide pocket interact bound atp yielding closed conformation indicating its possible importance progression chaperone cycle
+studies reminiscent results h/d exchange mass spectrometry investigations human hsp90 solution showed co-chaperone inhibitor binding ntd induce conformational changes at hsp90 domain-domain interfaces
+moreover frey coworkers shown kinetic equilibrium binding constants depend intrinsic conformational equilibrium hsp90 obtained different species reflecting differential affinity reactivity towards atp
+kinetic analysis atpase cycle suggested during atpase cycle grp94 may predominantly open state
+contrast yeast hsp90 open state only populated 20 percent closed structure observed presence nucleotides
+hence conformational transitions during atpase cycle structurally similar different hsp90 proteins while energetic balance between individual steps may species-dependent manifested differences binding kinetics
+overall solution data suggested molecular mechanism hsp90 chaperone cycle more adequately described stochastic process atp binding shift intrinsic conformational equilibrium hsp90 between open apo state adp-bound compact atp-bound closed protein state seen different crystal structures
+most recent structural studies apo nucleotide-bound conformations e coli yeast human hsp90 homologs further supported existence universal three-state conformational cycle hsp90 consisting open-apo atp-closed adp-compact nucleotide-stabilized states whereby intrinsic conformational equilibrium between states highly-species dependent
+according results evolutionary pressure may act through thermodynamic stabilization functionally relevant hsp90 conformations recruited conformational equilibrium ensure adequate response presence organism-specific co-chaperones protein clients
+importantly atp adp binding shift conformational equilibrium far away apo state e coli yeast hsp90 whereas conformational equilibrium human hsp90 largely dominated open form even presence nucleotide binding
+strikingly study shown nucleotide binding provides only small stabilization energy thereby biasing rather than determining occupancy different conformational states existing dynamic equilibrium
+overall intrinsic conformational flexibility hsp90 critical molecular chaperon cycle including structural adaptation diversity co-chaperones client proteins
+different steps cycle accompanied binding different co-chaperone proteins specific functions
+hop co-chaperone instance arrests atp hydrolysis binds simultaneously hsp70 molecular chaperone coupling two systems
+hop binding hsp90 involves interactions at both m-domains ctd domains stabilizing conformation incompetent atp hydrolysis n-terminal dimerization
+contrast stress-regulated co-chaperone aha1 substantially increases atpase rates increasing hsp90 chaperone activities
+case binding other co-chaperones cpr6 sba1 was shown atp-binding hydrolysis required ensure productive complex formation: interestingly sba1 binds ntd while cpr6 binds ctd
+observations suggest role nucleotide selecting stabilizing different conformations hsp90 related specific different functions chaperone cycle 
+crystallographic cryo-em saxs three-dimensional single-particle reconstruction studies applied isolated hsp90 domains full hsp90 dimer different species provided wealth novel insights into molecular mechanism function hsp90
+however there still number important unresolved problems concerning atomic resolution understanding interplay between ligand binding global functional motions molecular chaperone
+recently performed computational studies hsp90 conformational dynamics analyzed at atomic resolution effects ligand binding energy landscape hsp90 ntd all-atom md simulations
+md simulations hsp90 ntd been carried out apo protein hsp90 complexes its natural ligands atp adp small molecule inhibitors peptides
+simulations clarified role atp-lid dynamics differences local conformational changes global flexibility well functional interplay between protein rigidity entropy collective motions depending interacting binding partners
+found energy landscape apo hsp90 ntd may populated structurally different conformational states featuring local conformational switching atp-lid accessible longer time scales
+results study suggested plausible molecular model understanding mechanisms modulation molecular chaperone activities binding partners
+according model structural plasticity hsp90 ntd exploited molecular chaperone machinery modulate enhanced structural rigidity during atp binding increased protein flexibility consequence inhibitor binding
+
+molecular basis signal propagation mechanisms inter-domain communication pathways hsp90 function binding ligands cannot inferred directly crystallographic studies
+result computational approaches instrumental revealing atomic details inter-domain communication pathways between nucleotide binding site distant ctd may involved governing chaperone equilibrium between major conformational states
+work embarked comprehensive computational analysis hsp90 dynamics binding provides important insights into our understanding hsp90 molecular mechanisms function at atomic resolution
+describe large-scale md simulations study conformational motions inter-domain communication pathways full-length yeast hsp90 three different complexes: atp adp apo form
+support experimental hypotheses our results provide atomic models cross-talk between n c-terminal binding sites may induce allosteric regulation complex molecular chaperone machinery
+results our study suggest low-resolution features communication pathways hsp90 complexes may determined inherent topological architecture chaperone yet specific signal communication pathways likely selected activated based nature binding partner

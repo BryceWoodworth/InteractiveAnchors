@@ -1,0 +1,38 @@
+ 
+deleterious mutations considered major impediment adaptation there straightforward expectations rate at they accumulate function population size mutation rate
+simulation model evolving population asexually replicating rna molecules initially deleterious mutations accumulated at rates nearly equal initially beneficial mutations without impeding evolutionary progress
+mutation rate was increased within moderate range deleterious mutation accumulation mean fitness improvement both increased
+fixation rates were higher than predicted many population-genetic models
+seemingly paradoxical result was resolved part observation during time fixation selection coefficient initially deleterious mutations reversed confer selective advantage
+significantly more than half fixations initially deleterious mutations involved fitness reversals
+fitness reversals had substantial effect total fitness genome thus contributed its success population
+despite relative importance fitness reversals however probabilities fixation both initially beneficial initially deleterious mutations were exceedingly small 
+ introduction 
+modern evolutionary theory recognizes deleterious mutations may reduce fitness retard adaptation
+accumulation deleterious mutations expected affect rate course many biological processes sexual selection development cancer senescence
+theoretical work underlying predictions makes important assumption: fitness effect deleterious mutation constant until mutation disappears fixes
+standard infinite population experiencing combination natural selection random mutation deleterious mutations should not fix but accumulate level perfectly balanced mutation selection
+some processes lead deleterious mutations fixing infinite populations however
+example eigen's quasispecies model high rates mutation overwhelm selection shift mutation selection balance deleterious mutations accumulate exceedingly high levels
+finite populations several processes may also allow deleterious mutation fixation
+best studied random genetic drift stochastic fixation deleterious mutations relatively small populations
+additionally if recombination rare population size finite then deleterious mutations hitchhike fixation independently acting beneficial mutations 
+fixation deleterious mutations certainly reduces fitness populations
+may possible however fitness effect initially deleterious mutation change over time
+particular compensatory mutations may evolve reduce negative impact deleterious mutations extreme cases resulting fitness may even higher than fitness ancestor deleterious mutation arose
+compensatory mutations may appear before deleterious mutation fixed
+metaphorically speaking while fixed deleterious mutations generally expected bad they may stepping stones distant adaptive peaks
+evolutionary geneticists long considered mutations ameliorate compensate deleterious effect prior mutation
+literature subject however focuses almost exclusively compensatory mutations occurring after fixation initial deleterious mutation therefore does not address likelihood initial mutation will fix first place
+one possible explanation emphasis convenience both mathematical experimental
+greatly simplify evolutionary dynamics population-genetic models adaptation typically assume selection much stronger than mutation: strong selection weak mutation
+under assumption deleterious mutation will disappear fix before secondary mutations arise genome thus fitness effect deleterious mutation remains unchanged throughout its evolutionary trajectory either fixation loss 
+if mutation rate relatively large however additional mutations may arise genome carrying initially deleterious mutation before fixes lost
+secondary mutations change genetic background thus potentially change fitness effect initial deleterious mutation
+background selection literature frequently considered scenario good mutation driven extinction bad mutations
+our interest however process involving epistasis between mutations results amelioration deleterious effect ultimately fixation initially bad mutation
+although process seems been largely ignored population genetics literature one notable study kimura shows mutations at two linked alleles singly deleterious but jointly neutral both fix relatively rapidly even large populations
+there also been recent interest ability populations escape local optima via less fit intermediate genotypes 
+here use computational model asexually replicating rna molecules study fixation deleterious mutations
+first observe initially deleterious mutations fix at far greater rate than expected evolving asexual population some populations achieve high mean fitness despite rapidly accumulating deleterious mutations
+then reconcile paradox systematically characterizing processes leading fixation include random genetic drift hitchhiking upon independently acting beneficial mutations fitness-effect reversals upon secondary mutations

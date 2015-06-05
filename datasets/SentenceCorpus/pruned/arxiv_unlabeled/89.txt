@@ -1,0 +1,27 @@
+
+one most data tasks search rules
+rules represent significant relationships between items
+concept rule represent much class associations rules
+rules associations between properties related objects
+rules based domain
+propose new support confidence rules frequency
+prove frequency standard probability property
+introduction
+one data relationships data
+rules relationships sufficient frequency but not always
+example may case not all over \ p p p p p
+our frequency previous work rules setting
+rules
+approach system special class rules allows
+our concept rules features addition universal
+thus one paper extended rule
+our approach previous work previous approaches assume given target base set support
+contrast define natural base set support
+approach sets given rather than respect fixed set
+thus second main paper new support rules our extended
+paper follows
+first review basic database domain
+then introduce concept define frequency class
+provides basis notion rule support rule
+compare rule system
+section important properties define them shows they property frequency no greater than frequency its

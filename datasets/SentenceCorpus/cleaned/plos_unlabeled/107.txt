@@ -1,0 +1,63 @@
+ 
+study evolution cooperation under indirect reciprocity believed constitute biological basis morality
+employ evolutionary game theoretical model multilevel selection show natural selection mutation lead emergence robust simple social norm call stern-judging
+under stern-judging helping good individual refusing help bad individual leads good reputation whereas refusing help good individual helping bad one leads bad reputation
+similarly tit-for-tat win-stay-lose-shift simplest ubiquitous strategies direct reciprocity lack ambiguity stern-judging where implacable punishment compensated prompt forgiving supports idea simplicity often associated evolutionary success
+ introduction 
+many biological systems employ cooperative interactions their organization
+humans unlike other animal species form large social groups cooperation among non-kin widespread
+contrasts general assumption strong selfish individuals ones who benefit most natural selection
+being case how possible unselfish behaviour survived evolution
+adopting terminology resulting seminal work hamilton trivers wilson act altruistic if confers benefit b another individual spite accruing cost c altruist
+context several mechanisms been invoked explain evolution altruism but only recently evolutionary model indirect reciprocity been developed nowak sigmund remarkable simplicity addressed unique aspects human sociality trust gossip reputation
+means community enforcement indirect reciprocity had been investigated earlier context economics notably sugden kandori
+more recently many studies been devoted investigating how altruism evolve under indirect reciprocity
+indeed according alexander indirect reciprocity presumably provides mechanism distinguishes us humans all other living species earth
+moreover recently argued indirect reciprocity may provided selective challenge driving cerebral expansion human evolution
+indirect reciprocity game any two players supposed interact at most once each other one role potential donor other potential receiver help
+each player experience many rounds but never same partner twice direct retaliation being unfeasible
+helping another individual given player may increase her reputation may change predisposition others help her future interactions
+however her new reputation depends social norm used her peers assess her action donor
+previous studies reputation-based models cooperation reviewed recently indicate cooperation outweighs defection whenever among other factors assessment actions based norms require considerable cognitive capacities even when individuals capable making binary assessments only world black white assumed most recent studies
+furthermore stable cooperation hinges availability reliable reputation information
+high cognitive capacity contrasts technology-based interactions e-trade also rely reputation-based mechanisms cooperation
+indeed anonymous one-shot interactions between individuals loosely connected geographically dispersed usually dominate e-trade raising issues trust-building moral hazard
+reputation e-trade introduced via feedback mechanism announces ratings sellers
+despite success high levels cooperation observed e-trade been found publicizing detailed account seller's feedback history does not improve cooperation compared publicizing only seller's most recent rating
+other words practice shows simple reputation-based mechanisms capable promoting high levels cooperation
+view previous discussion hard explain success e-trade basis results obtained so far reputation-based cooperation context indirect reciprocity
+let us consider world black white consisting set tribes each tribe lives under influence single norm common all individuals
+each individual engages once indirect reciprocity game all other tribe inhabitants
+her action donor will depend her individual strategy dictates whether she will provide help refuse do depending her recipient's reputation
+reputations public: means result every interaction made available everyone through indirect observation model introduced
+allows any individual know current status co-player without observing all her past interactions
+other hand requires way spread information entire population
+consistently language seems important cooperation promoter although recent mechanisms reputation-spreading rely electronic databases
+since reputations either good bad there 2 4 16 possible strategies
+other hand number possible norms depends their associated order
+simplest so-called first-order norms all matters action taken donor
+second-order norms reputation one players also contributes decide new reputation donor
+so increasing layers complexity shown figure 2 illustrates features third-order norms those shall employ here
+any individual tribe shares same norm turn raises question how each inhabitant acquired
+do not address issue here
+however inasmuch indirect reciprocity associated community enforcement one may assume simplicity norms acquired through educational process
+moreover likely common norm contributes overall cohesiveness identity tribe
+noteworthy however if norms were different different individuals indirect observation model would not valid requires trust judgments made co-inhabitants
+norm order n there possible norms each associated binary string length 2 n consider third-order norms : assessing donor's new reputation observer make contextual judgment involving donor's action well her recipient's reputations scored previous action
+introduce following evolutionary dynamics each tribe: during one generation all individuals interact once each other via indirect reciprocity game
+when individuals reproduce they replace their strategy another individual same tribe chosen proportional her accumulated payoff
+most successful individuals each tribe higher reproductive success
+since different tribes under influence different norms overall fitness each tribe will vary tribe tribe well plethora successful strategies thrive each tribe
+describes individual selection each tribe
+tribes engage pairwise conflicts small probability associated selection between tribes
+after each conflict norm defeated tribe will change toward norm victor tribe detailed methods section
+consider different forms conflict between tribes reflect different types inter-tribe selection mechanisms: group selection based average global payoff each tribe well selection resulting inter-tribe conflicts modeled terms games display game war attrition extended hawk dove game
+perform extensive computer simulations evolutionary dynamics sets 64 tribes each 64 inhabitants
+once stationary regime reached collect information subsequent statistical analysis
+compute frequency occurrence bits 1 0 each 8-bit locations
+bit said fixate if its frequency occurrence exceeds equals 98 percent
+otherwise no fixation occurs denote x instead 1 0
+analyze 500 simulations same value b subsequently computing frequency occurrence 1 0 x bits 1 0 x respectively
+if 1 0 x final bit 1; if 0 1 x final bit 0; otherwise assume indeterminate denote
+noteworthy our bit-by-bit selection/transmission procedure though artificial provides simple means mimicking biological evolution where genes interconnected complex networks yet evolve independently
+certainly co-evolutionary process would more appropriate will explored future work

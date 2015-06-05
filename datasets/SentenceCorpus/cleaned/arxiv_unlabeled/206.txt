@@ -1,0 +1,36 @@
+ 
+collecting large labeled data sets laborious expensive task whose scaling up requires division labeling workload between many teachers
+when number classes large miscorrespondences between labels given different teachers likely occur extreme case may reach total inconsistency
+study describe how globally consistent labels obtained despite absence teacher coordination discuss possible efficiency process terms human labor
+define notion label efficiency measuring ratio between number globally consistent labels obtained number labels provided distributed teachers
+show efficiency depends critically ratio between number data instances seen single teacher number classes
+suggest several algorithms distributed labeling problem analyze their efficiency function
+addition provide upper bound label efficiency case completely uncoordinated teachers show efficiency approaches ratio between number labels each teacher provides number classes drops i e 
+ introduction 
+applications machine learning mature larger training sets required both terms number training instances number classes considered
+recent years witnessed trend example vision related tasks object class recognition detection
+specifically object class recognition current data sets caltech-256 include tens thousands images hundreds classes
+collecting consistent data sets size intensive expensive task
+scaling up naturally leads distributed labeling scenario labels provided large number weakly coordinated teachers
+example label-me system labels contributed dozens researchers while esp game labels supplied thousands uncoordinated players
+turn toward distributed labeling several practical considerations emerge may disrupt data integrity
+general while reasonable believe single teacher relatively self-consistent though not completely error-free not case multiple uncoordinated teachers
+different teachers may differences their labeling systems due several causes
+first different teachers may use different words describe same item class
+example one teacher may use word ``truck'' while other uses ``lorry'' describe same class
+conversely same word may used two teachers describe two totally different classes hence one teacher may use ``greyhound'' describe breed dog while other uses describe c-2 navy aircraft
+similar problems occur when different teachers label data different abstraction levels so one generalizes over all dogs while other discriminates between poodle labrador etc
+finally teachers often do not agree exact demarcation concepts so chair carved stone may labeled ``chair'' one teacher while other describes ``a rock''
+all phenomena become increasingly pronounced number classes increased thus their neglect essentially leads severe decrease label purity consequently learning performance
+paper study cost obtaining globally consistent labels while focusing specific distributed labeling scenario only some difficulties described above present
+enforce distributed nature problem assume large data set examples labeled set uncoordinated teachers where each teacher agrees label at most data points
+while there one-to-one correspondence between classes used different teachers assume their labeling systems entirely uncoordinated so class labeled ``duck'' one teacher may labeled ``goat'' another
+later stages paper relax assumption consider case partial consistency exists between different teachers
+both scenarios realistic various problem domains
+consider example security system label large set face images including thousands different people
+since teachers not familiar persons labeled names they give classes entirely un-coordinated
+case partial consistency exemplified distributed labeling flower images: layman easily distinguish between many different kinds flowers but name only few
+difficulties ``one-to-many'' label correspondence between teachers concept demarcation disagreements not met our current analysis focuses preliminary difficulties distributed labeling
+another related scenario our analysis extended relatively easily case initial data labeled uncoordinated teachers right start
+consider example task unifying images labeled site like flickr% into meaningful large training data set
+our suggested algorithms analysis apply case minor modifications

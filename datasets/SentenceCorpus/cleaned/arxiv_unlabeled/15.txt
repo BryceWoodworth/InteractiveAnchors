@@ -1,0 +1,48 @@
+ 
+consider semi-supervised classification when part available data unlabeled
+unlabeled data useful classification problem when make assumption relating behavior regression function marginal distribution
+seeger proposed well-known cluster assumption reasonable one
+propose mathematical formulation assumption method based density level sets estimation takes advantage achieve fast rates convergence both number unlabeled examples number labeled examples
+ introduction 
+\setcounter{equation}{0} semi-supervised classification been growing interest over past few years many methods been proposed
+methods try give answer question: ``how improve classification accuracy using unlabeled data together labeled data
+''
+unlabeled data used different ways depending assumptions model
+there two types assumptions
+first one consists assuming set potential classifiers want aggregate them
+case unlabeled data used measure compatibility between classifiers reduces complexity resulting classifier see eg   
+second approach one use here
+assumes data contains clusters homogeneous labels unlabeled observations used identify clusters
+so-called cluster assumption
+idea put practice several ways giving rise various methods
+simplest one presented here: estimate clusters then label each cluster uniformly
+most methods use hartigan's definition clusters namely connected components density level sets
+however they use parametric usually mixture model estimate underlying density far reality
+moreover no generalization error bounds available methods
+same spirit propose methods learn distance using unlabeled data order intra-cluster distances smaller than inter-clusters distances
+whole family graph-based methods aims also at using unlabeled data learn distances between points
+edges graphs reflect proximity between points
+detailed survey graph methods refer
+finally mention kernel methods where unlabeled data used build kernel
+recalling kernel measures proximity between points methods also viewed learning distance using unlabeled data see   
+cluster assumption interpreted another way i e  requirement decision boundary lie low density regions
+interpretation been widely used learning since used design standard algorithms boosting  svm   closely related kernel methods mentioned above
+algorithms greater penalization given decision boundaries cross cluster
+more details see eg   
+although most methods make sometimes implicitly cluster assumption no formulation probabilistic terms been provided so far
+formulation propose paper remains very close its original text formulation allows derive generalization error bounds
+also discuss what cannot done using unlabeled data
+one conclusions considering whole excess-risk too ambitious need concentrate smaller part observe improvement semi-supervised classification over standard classification
+outline paper
+after describing model formulate cluster assumption discuss why how improve classification performance next section
+section study population case when marginal density known get idea our target
+indeed population case corresponds some way case when amount unlabeled data infinite
+section contains main result: propose algorithm derive rates convergence thresholded excess-risk measure performance
+exemple consistent density level set estimators given section
+section devoted discussion choice possible improvements
+proofs results gathered section
+notation
+throughout paper denote positive constants
+write complement set
+two sequences paper will  write if there exists constant write if some constants
+thus if   any

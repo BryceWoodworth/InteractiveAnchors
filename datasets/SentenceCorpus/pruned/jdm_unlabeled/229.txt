@@ -1,0 +1,41 @@
+
+when participants experiments asked estimate identify stimuli differ single physical dimension their judgments local experimental context presented judgment made previous
+been suggested similar sequential effects occur more judgments
+three experiments asked participants sequence items
+experiment number judgments were towards previous response but true value previous contrast pattern found research
+experiments number number b feedback participants found feedback reduced effect previous judgment effect previous true contrast
+finally all three experiments found judgments were towards range phenomenon known regression effect
+results suggest most point reference current judgment
+findings our understanding judgment process local context effects practical importance situations bias may accuracy judgments
+introduction
+when people make basic judgments about example their responses context stimuli presented given size large when most experiment smaller size but small when most larger
+long been known more complex real world situations
+thus perceived moral depends upon scenarios presented judgment even when participants explicitly context
+studies therefore demonstrated importance what may global experimental context set stimuli judgments useful more complex judgment tasks
+yet judgments also local context stimuli presented past few trials number authors provided evidence same more complex decisions too
+current article idea sequential effects complex judgment task using tools experimental research
+judgments events few trials been
+approach regression model current judgment dependent variable current stimulus stimuli responses trials sequence
+particular use following regression model where p value stimulus presented current p value stimulus previous value judgment made previous
+been applied data large number experiments
+experiments presented sequence stimuli differ one physical differ asked form some judgment nature judgment depends task
+estimation experiments asked number his subjective each either respect standard scale
+matching experiments asked one dimension so another dimension
+judgment experiments asked each stimulus into one several
+identification experiments each stimulus given unique example stimuli number number asked stimulus presented each
+been used study sequential effects all
+results depend experimental task but general pattern robust response current towards judgment made previous but stimulus presented
+there response but contrast stimulus
+sequential effects been given various many assume there some previous stimulus previous judgment point reference when current stimulus
+even when participants asked stimuli respect they use most recently events framework judgment
+many tasks structural similarity estimation judgment people sequence stimuli
+however stimuli very different
+used very simple difficult memory indeed our processing stimuli limited about number items contrast our identify many complex objects
+stimuli may observed sequential effects form accurate may people towards use recent items reference
+when people make judgments about complex items when judgments type they very may sequential effects people use only stable scales judgment
+indeed many models sequential effects judgment make assumptions explicitly tasks not extended other situations
+current article whether pattern sequential seen tasks situations people make judgments about complex objects
+three experiments asked participants various items
+task because well important our sequences explicitly their cost
+task was also because us use complex stimuli require judgments about property does not simple physical presented judgment
+experiment number whether judgments exhibit sequential type seen experiments

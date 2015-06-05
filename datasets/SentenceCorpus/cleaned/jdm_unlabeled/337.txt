@@ -1,0 +1,33 @@
+ 
+recognition heuristic models adaptive use dominant role recognition knowledge judgment under uncertainty
+several predictions heuristic makes empirical tests predominantly focused proposed noncompensatory processing recognition
+some authors emphasized heuristic needs scrutinized based precise tests exclusive use recognition
+although precise tests clear merits i critically evaluate value tests they currently employed
+first i argue using precise measures exclusive use recognition go beyond showing recognition heuristic-like every model-cannot capture reality completely
+second i illustrate how precise tests based response times lead unsubstantiated conclusions if fact recognition heuristic does not model recognition judgment itself ignored
+finally i highlight two key but so far neglected aspects recognition heuristic connection between recognition memory recognition heuristic b mechanisms underlying adaptive use recognition
+ introduction 
+his essays french philosopher michel de montaigne suggested good memory not necessarily coupled good decision making
+fact he seems imply decisions sometimes even benefit deficits memory
+how could possible
+one answer because structures mind often reflect meaningful regularities world blanks memory exploited making inferences about world
+notion judgments feed dynamics memory been taken up several models decision making
+instance tversky kahneman proposed ease instances occurrences brought mind ecologically valid clue p number about world availability heuristic based ease might operate when people judge probability frequency
+more recently goldstein gigerenzer described recognition heuristic model how people recruit recognition memory when making inferences more generally
+contrast availability heuristic recognition heuristic clearly specified computational model precise search stopping decision rules
+moreover recognition heuristic was proposed adaptive mental tool specific boundary conditions
+recognition heuristic makes several testable predictions about recognition its use decision making
+first recognition heuristic assumed ecologically rational i e exploiting regularity environment recognition should frequently correlated quantities world
+second people's use recognition heuristic should sensitive structure environment
+third recognition heuristic predicts recognition processed noncompensatory fashion-that recognition should supersede further cue knowledge
+finally heuristic predicts under certain conditions counterintuitive less-is-more effect where recognizing fewer objects lead more accurate inferences than recognizing more objects
+precise definition recognition heuristic its assumed role adaptive mental tool made attractive study object
+maybe not surprisingly not all empirical investigations found evidence supporting heuristic
+several predictions heuristic makes seems fair say assumed noncompensatory processing recognition received greatest attention so far-and generated strongest objection
+some authors emphasized need precise tests recognition heuristic developed precise measures exclusive use recognition arguing precise models deserve precise measures b conducted precise tests information processing recognition-based inference based response times
+following i discuss value precise tests they currently used argue they done little advance our understanding recognition-based inference
+addition i highlight two key issues underlying use recognition decision making seem been neglected result strong focus testing noncompensatory processing recognition
+first need better understand relationship between recognition studied memory literature recognition memory tapped recognition heuristic
+second i summarize proposals how people might adaptively adjust their reliance recognition across different situations
+importantly i do not argue developments precise measures demonstrations recognition heuristic's failure predict data should ignored
+rather i call more constructive way use findings refining models memory-based decision making

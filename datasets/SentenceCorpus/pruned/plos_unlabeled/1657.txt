@@ -1,0 +1,60 @@
+
+computational design gene achieve target functions task
+existing approaches optimization algorithms structure parameter values network
+however more direct rational methods design
+gene developed corresponding design
+given input output our algorithm several possible without need any optimization
+behavior action regulatory factors binding sites biological
+simulations up four show representation even under stochastic noise
+comparison addition potential same function
+therefore method help both new existing solutions
+introduction
+central concept biology rational design gene means standard dna functions
+field at methods part biology
+several computational tools been developed
+moreover some tools way
+design able target function not task its major biology
+previously showed small networks characterized behavior obtained evolutionary optimization set independent
+similar tools like use dynamic optimization
+approaches but they several
+computational complexity requires very models do not represent basic but genes
+optimization only rather small networks requires optimization structure parameter values
+hence more direct rational design methods
+here instead general solution design focus
+where input output signals take only two 1
+case uses two input signals single output
+more complex formula into single output
+both cases relation represented where each one possible formula input signal values corresponding binary output
+biology important several
+first those determined action two different natural systems
+they often found motifs provide more
+more complex networks several basic control b well system c
+analysis possible could thus help further our understanding natural biological networks
+biology complex required molecular
+should cues may
+more better ability between similar environmental conditions
+could instance into
+furthermore they could play important role disease treatment et al control cells response signals environment
+even more complex could work molecular perform basis if necessary
+two aspects several gene been experimentally past years
+most rely control
+fact well known behavior when two transcription factors
+more complex been instance cells
+however number generally used biology low rational transcription factors complex process
+nature mechanisms control like between structural due binding
+complex rna structures made two where either structural binding
+both either
+furthermore where single under control two been observed b
+two distinct natural
+taking structures models similar rna been recently
+particular complex most common
+design small compared design transcription factors
+despite individual biology tools computational design
+points design because target function defined
+here approaches design our previous model design develop method design gene
+process modeling
+use set standard biological whose parameters take appropriate values without any optimization algorithms
+addition previously developed consider binding sites
+method requires only directly produce several possible process up four different unique output signal
+design alternatives according complexity practical
+simulations single networks different complexity validity our approach accurate representation robustness designed

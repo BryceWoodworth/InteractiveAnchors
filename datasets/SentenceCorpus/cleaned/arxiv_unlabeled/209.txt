@@ -1,0 +1,44 @@
+ 
+study tracking problem namely estimating hidden state object over time unreliable noisy measurements
+standard framework tracking problem generative framework basis solutions bayesian algorithm its approximation particle filters
+however problem solutions they very sensitive model mismatches
+paper motivated online learning introduce new framework  explanatory framework  tracking
+provide efficient tracking algorithm framework
+provide experimental results comparing our algorithm bayesian algorithm simulated data
+our experiments show when there slight model mismatches our algorithm vastly outperforms bayesian algorithm
+ introduction 
+study tracking problem numerous applications ai control finance
+tracking given noisy measurements over time problem estimate hidden state object
+challenge do reliably combining measurements multiple time steps prior knowledge about state dynamics goal tracking produce estimates close true states possible
+most popular solutions tracking problem kalman filter  particle filter  their numerous extensions variations  eg   based generative framework tracking problem
+suppose want track state object at time  given only measurement vectors \changeto{at time}{for times}
+generative approach think state measurements random variables
+represent our knowledge regarding dynamics states using transition process our knowledge regarding noisy relationship between states observations measurement process
+then given only observations goal tracking estimate hidden state sequence
+done calculating likelihood each state sequence then using estimate either sequence highest posterior probability maximum posteriori map expected value state respect posterior distribution bayesian algorithm
+practice one uses particle filters approximation bayesian algorithm
+problem generative framework practice very difficult precisely determine distributions measurements
+moreover bayesian algorithm very sensitive model mismatches \changeto{and}{so} using model slightly different model generating measurements lead large divergence between estimated states true states
+address introduce online-learning-based framework tracking
+our framework called framework given set state sequences paths state space; but instead assuming observations \changeto{generated}{ generated } measurement model \changeto{ path set }{a path set} think each path mechanism explaining observations
+emphasize done regardless how observations generated
+suppose \changeto{that the}{a} path \changeto{ }{ } proposed explanation observations \changeto{ }{ } \changeto{then we}{we} measure quality \explanatory\ path using predefined loss function  depends only measurements not hidden true state
+tracking algorithm selects its own \explanatory\ path taking weighted average best \explanatory\ paths according past observations
+theoretical guarantee provide loss \explanatory\ path generated online way tracking algorithm close \explanatory\ path minimum \changeto{loss where}{such loss; here,} loss measured according loss function supplied algorithm
+guarantees analogous competitive analysis used online learning  important note guarantees hold uniformly any sequence observations regardless any probabilistic assumptions
+our next contribution provide online-learning-based algorithm tracking \explanatory\ framework
+our algorithm based \nhedge  general online learning algorithm \nhedge\ instantiated any loss function
+when supplied bounded loss function guaranteed produce path loss close path minimum loss set candidate paths
+inefficient directly apply \nhedge\ tracking derive sequential \changeto{monte-carlo-based}{monte carlo} approximation \nhedge show approximation efficient
+demonstrate robustness our tracking algorithm perform simulations simple one-dimensional tracking problem
+evaluate tracking performance measuring average distance between states estimated algorithms true hidden states
+instantiate our algorithm simple clipping loss function
+our simulations show our algorithm consistently outperforms bayesian algorithm under high measurement noise wide range levels model mismatch
+note bayesian algorithm also interpreted \explanatory\ framework
+particular if loss path negative log-likelihood log-loss under some measurement model then bayesian algorithm shown produce path log-loss close path minimum log-loss
+one may tempted think our tracking solution follows same approach; however point our paper one use loss functions different log-loss particular show scenario \changeto{where}{in which} using other loss functions produces better tracking performance than bayesian algorithm its approximations
+rest paper organized follows
+section 2 explain detail our explanatory model tracking
+section 3 present \changeto{normalhedge }{normalhedge our tracking algorithm based}
+section 4 provide our \changeto{actual tracking algorithm}{tracking algorithm} \changeto{section 5 presents some experiments compare our algorithm bayesian algorithm simulated data }{section 5 presents experimental comparison our algorithm bayesian algorithm } \changeto{finally section 6 report our experiments face-tracking }{finally discuss related work section 6 } detailed bounds proofs normalhedge provided supplementary material
+feel algorithm normalhedge may more general interest hence details normalhedge been submitted nips companion paper

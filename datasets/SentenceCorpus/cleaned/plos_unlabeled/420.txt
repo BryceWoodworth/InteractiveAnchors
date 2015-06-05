@@ -1,0 +1,49 @@
+ 
+membrane fusion critical biological processes viral infection endocrine hormone secretion neurotransmission yet precise mechanistic details fusion process remain unknown
+current experimental computational model systems approximate complex physiological membrane environment fusion using one few protein lipid species
+here report results computational model system fusion ratio lipid components was systematically varied using thousands simulations up microsecond length predict effects lipid composition both fusion kinetics mechanism
+our simulations increased phosphatidylcholine content vesicles causes increased activation energies formation initial stalk-like intermediate fusion hemifusion intermediates accordance previous continuum-mechanics theoretical treatments
+also use our large simulation dataset quantitatively compare mechanism vesicles fuse at different lipid compositions showing significant difference fusion kinetics mechanism at different compositions simulated
+physiological membranes different compositions inner outer leaflets examine effect asymmetry well effect membrane curvature fusion
+predicted effects lipid composition fusion mechanism both underscore way experimental model system construction may affect observed mechanism fusion illustrate potential mechanism cellular regulation fusion process altering membrane composition
+ introduction 
+membrane fusion plays key role cellular function allowing processes diverse neurotransmitter release secretion peptide hormones infection enveloped viruses
+fusion also critical allowing intracellular transport
+cellular membranes participating fusion reactions contain complex mixtures lipids proteins
+composition potentially organization mixtures both variable closely regulated cell 
+variety experimental computational model systems been used gain insight into basic physical properties underlying membrane fusion
+model systems necessity much simpler nature than physiologic context fusion containing one few lipid species omitting simplifying protein environment
+designing interpreting model systems fusion important consider how variations lipid mixtures chosen may affect results
+investigating how changes lipid composition affect kinetics mechanism fusion also provides fundamental insight illuminating aspects fusion robust small perturbations model system used highly model-dependent
+experimental data lipid vesicle fusion indicate variation lipid composition plays important role determining fusogenicity
+much initial work concentrated effects fusion lipids prefer either positive negative membrane curvature
+perhaps most extensively characterized association between increased fusogenicity increased fraction phosphatidylethanolamine lipid headgroup thought promote negative membrane curvature
+plasma membranes fusogenic contexts ratio phosphatidylcholine pe headgroups measured at between 0.9 2.0
+presence pe been identified critical factor fusion many systems used develop structural models fusion intermediates contain substantially higher proportion pe than physiologic levels
+similarly theoretical treatments proposed fusion intermediates suggest pe important energetic favorability stalk-like state been proposed early fusion intermediate
+other lipid species likely play additional modulatory role fusion pc:pe ratio physiological membranes also varies independently inner outer leaflets
+work examine effect pc:pe ratio first-order approximation lipid composition effects; first treat uniform composition inner outer membrane leaflets then examine asymmetric compositions
+membrane curvature long been believed important modulator fusion process
+simply conceived curvature strain highly curved membrane provide driving force reduces energetic barrier fusion process
+most physiological fusion occurs between membranes relatively large radius curvature even concave relative fusion site
+however local curvature at site fusion been subject much discussion several theories positing membrane protrusion high local curvature at site fusion
+recent experimental evidence suggests synaptotagmin one neuronal fusion proteins preferentially binds curved membranes induces tubulation model membranes diameter 17.5 nm accelerates vesicle fusion rates 
+important finding provides more direct evidence highly curved membrane structures simulate here may play important role physiological fusion induction curvature may major function fusion protein apparatus
+possibility physiological fusion may involve highly curved membranes raises questions what degree curvature required fusion how curvature may differentially affect formation stability fusion intermediates
+here report initial results regard; refer reader forthcoming work lee schick more extensive investigation phenomenon field-theoretic perspective 
+because structures detailed kinetics fusion intermediates difficult observe experimentally computational simulations fusion play important role generating detailed structural kinetic models fusion consistent available experimental data
+coarse-grained simulations allow substantial increase computational tractability at expense some fidelity experiment; degree fidelity varies particular approximations made constructing model
+lipid model developed marrink mark provides quantitative approximation experimentally observable lipid parameters area per head group diffusion bilayer width represents good compromise between computational tractability level atomistic detail
+initial results reported membrane fusion model demonstrate fusogenicity 15 nm vesicles composed either pure palmitoyloleoyl-pe dipalmitoyl-pc:dipalmitoyl-pe mixture also observing faster fusion pore formation dppc:dppe mixture than pure pope
+simulated pure dppc vesicles were not observed form fusion pores
+subsequent work used marrink-mark coarse-grained model systematically predict intermediates kinetics fusion small pope vesicles
+our simulations suggested branching fusion pathway vesicles first react form stalk-like intermediate but then either rapidly form fusion pore stalk-like state fuse via intermediate expanded hemifusion diaphragm metastable microsecond timescale
+previous theoretical work suggested two pathways alternative hypotheses; predicted pathways may coexist within single system
+our initial report predicted pure pope vesicles react via both pathways but primarily undergo fusion via late-hemifused intermediate using indirect pathway
+now extend model address how more complex mixtures lipids may affect reaction mechanism kinetics fusion
+physiologic membrane fusion takes place membranes consisting complex likely inhomogeneous mixture multiple lipid species proteins
+experimental computational model systems fusion far simpler containing well-defined lipid mixtures; case computational studies single-component membranes routinely used
+given gap complexity between model systems used mechanistic studies fusion physiologic situation they meant reproduce wish understand how fusion mechanisms properties depend membrane composition
+therefore performed thousands simulations vesicle fusion at different lipid compositions systematically predict how membrane fusion kinetics intermediates depend lipid composition
+molecular-dynamics approach yields similar results those recently obtained using self-consistent field theory methods
+our molecular-dynamics analyses field-theoretic results schick coworkers prior continuum-mechanics work kozlov expand computational models more complex membrane compositions better approximate experimental models physiologic scenarios

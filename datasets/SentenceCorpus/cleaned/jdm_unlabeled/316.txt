@@ -1,0 +1,45 @@
+ 
+present classification methodology jointly assigns decision maker best-fitting decision strategy set choice data well best-fitting stochastic specification decision strategy
+our methodology utilizes normalized maximum likelihood model selection criterion compare multiple possibly non-nested stochastic specifications candidate strategies
+addition single strategy error stochastic specifications consider mixture specifications i e strategies comprised probability distribution over multiple strategies
+way our approach generalizes classification framework broder schiffer
+apply our methodology existing dataset find some decision makers best fit single strategy varying levels error while others best described using mixture specification over multiple strategies
+ introduction 
+within decision making literature there exist many interesting decision theories both normative descriptive defined deterministically
+theories hereafter termed decision strategies not defined terms random variables therefore do not explicitly account fluctuations choice decision maker dm
+yet many researchers observed dms not deterministically consistent their observed choices across repeated comparisons same stimuli set choice type
+variability choice does not disappear over repeated experimental sessions same subject nor attributed entirely random responses learning experience effects
+many researchers suggested different methods incorporating stochastic specification deterministic decision strategies accommodate variability choice
+perhaps simplest stochastic specification add fixed level error dm's responses
+trembling hand stochastic specification assumes dm follows single strategy imperfectly some probability incorrectly selecting choice alternative not truly preferred
+other specifications class thurstonian fechnerian models treat preference deterministic model choice adding random variable representing noise
+another class stochastic specifications those incorporate multiple decision strategies choice modeled sampling process over set strategies
+there course many variations combinations above specifications well
+further complicating matters choice stochastic specification use not innocuous one
+hey recently argued different specifications lead different conclusions same set decision strategies urged should not silent about noise when evaluating decision strategies
+article present new strategy classification framework evaluates set candidate strategies over multiple types stochastic specification
+consider single strategy error specifications well probabilistic mixtures strategies using modern model selection criteria directly compare different models one another retaining optimal strategy-specification pair set observed choice data
+thus our framework assigns not only best-fitting strategyies dm's choices but also best-fitting stochastic specification
+illustrate our classification framework simulation study considers three different decision strategies over four types stochastic specification
+also apply our framework existing empirical data set collected test transitivity preference axiom
+throughout article will concerned classification strategies dms using outcome-based choice data perspective often referred comparative model fitting
+how one carry out strategy classification via choice data
+at most basic level researcher could classify strategies simply counting number times strategy was accordance observed data thereby ignoring problem stochastic specification altogether
+however accordance rate approach lead significant biases strategy classification
+hilbig demonstrates how practices lead theoretical confoundings uninterpretable data
+regenwetter et al provides critique related practice evaluating strategies modal pair-wise majority
+more recent approaches leveraged statistical models carry out strategy classification
+broder schiffer developed methodology built binomial multinomial statistical framework models dms utilizing single strategy some fixed probability making error
+under framework strategy classification likelihood-based carried out calculating comparing bayes factor scores
+basic approach been successfully applied memory-based multiattribute choice decision making under risk paradigms
+glockner generalizes approach incorporating any number additional measures decision time confidence data into likelihood function allow theories identical predictions at choice level distinguished see also bergert nosofsky glockner
+approaches share similar assumption all dms utilize same stochastic specification
+tackle problem dms following different stochastic specifications loomes et al adapted non-nested likelihood ratio test evaluate set candidate strategies under various stochastic specifications
+comprehensive set studies they found dms were best fit variety stochastic specifications mixture specification strategies consistent expected utility yielding excellent fit many dms
+non-nested likelihood ratio test however asymptotic test may lack statistical power when applied small samples
+nor does non-nested likelihood ratio test provide explicit measure model complexity
+article generalize strategy classification framework broder schiffer considering multiple stochastic specifications decision strategies including probabilistic mixtures multiple strategies
+while many specifications possible under our framework will restrict ourselves three specifications described table number applications article
+specifications were chosen their theoretical relevance tversky data set section number well showcase generality our approach
+apply latest operationalization minimum description length principle normalized maximum likelihood carry out model selection among all strategy-specification pairs
+normalized maximum likelihood information-theoretic model selection criteria evaluates models based upon ratio model's goodness-of-fit its complexity adhering occam's razor favoring simplest model provides good account data

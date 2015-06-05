@@ -1,0 +1,42 @@
+ 
+prokaryotes shine dalgarno sequences nucleotides upstream start codons messenger rnas complementary ribosomal rna facilitate initiation protein synthesis
+location sd sequences relative start codons stability hybridization between mrna rrna correlate rate synthesis
+thus accurate characterization sd sequences enhances our understanding how organism's transcriptome relates its cellular proteome
+implemented individual nearest neighbor hydrogen bond model oligo oligo hybridization created new metric relative spacing identify both location hybridization potential sd sequences simulating binding between mrnas single-stranded 16s rrna 3 tails
+18 prokaryote genomes identified 2,420 genes out 58,550 where strongest binding translation initiation region included start codon deviating expected location sd sequence five ten bases upstream
+designated rs 1 genes
+additional analysis uncovered unusual bias start codon majority rs 1 genes used gug not aug furthermore 624 rs 1 genes whose sd sequence was associated free energy release less than 8.4 kcal/mol 384 were within 12 nucleotides upstream in-frame initiation codons
+most likely explanation unexpected location sd sequence 384 genes mis-annotation start codon
+way new rs metric provides improved method gene sequence annotation
+remaining strong rs 1 genes appear their sd sequences unexpected location includes start codon
+thus our rs metric provides new way explore role rrna mrna nucleotide hybridization translation initiation
+ introduction 
+1974 shine dalgarno sequenced 3 end escherichia coli's 16s ribosomal rna observed part sequence 5 accucc 3 was complementary motif 5 ggaggu 3 located 5 initiation codons several messenger rnas
+they combined observation previously published experimental evidence suggested complementarity between 3 tail 16s rrna region 5 start codon mrna was sufficient create stable double-stranded structure could position ribosome correctly mrna during translation initiation
+motif mrnas 5 ggaggu 3 variations also complementary parts 3 16s rrna tail since been referred shine dalgarno sequence
+shine dalgarno's theory was bolstered steitz jakes 1975 eventually experimentally verified 1987 hui de boer jacob et al 
+since shine dalgarno's publication two different approaches been used identify position sd sequences prokaryotes: sequence similarity free energy calculations
+methods based sequence similarity include searching upstream start codons sub-strings sd sequences at least three nucleotides long
+identification errors arise approach several reasons
+threshold similarity does not exist clearly delineate actual sd sequences spurious sites significant but low degree similarity sd sequence
+lack certainty led number observations gene sequences appear partition themselves into two categories: those obvious sd sequences those without
+inability sequence techniques pinpoint exact location sd sequence poses problem because its location believed affect translation initiation 
+second approach using free energy calculations based thermodynamic considerations proposed mechanism 30s binding mrna overcomes limitations sequence analysis
+watson crick hybridization occurs between 3 terminal single-stranded nucleotides 16s rrna sd sequence mrna significant effect translation
+formation hydrogen bonds between aligned complementary nucleotides basis watson crick hybridization results more stable double-stranded structure lower free energy than participating single-stranded sequences
+one long-standing implementation model mfold quantifies degree hybridization stability rna secondary structure calculating change energy
+method estimating free energy been adapted identify sd sequences repeatedly calculating g values progressive alignments rrna tail mrna region upstream start codon
+all studies observed trough negative g upstream start codon whose location largely coincident sd consensus sequence
+second approach both identify sd sequence pinpoint its exact location having minimal g value
+however exact location sd sequence dependent nucleotide indexing scheme algorithm i.e nucleotide designated 0 position
+normalize indexing further extend free energy analysis through start codon into coding region genes created new metric relative spacing
+metric localizes binding across entire translation initiation region relative rrna tail enabling us characterize binding involves start codon well sequences downstream
+rs also independent length rrna tail property allows comparison binding locations between species
+examining sequences downstream start codons could explore mrnas lack any upstream region leaderless mrnas
+lack any 5 untranslated leader mrnas prompted searches other sequence motifs could interact 16s rrna
+one downstream box hypothesis been disproved
+thus there continued search explanation highly conserved sequences 3 initiation codon been observed many leaderless mrnas 
+study use rs metric identify positions minimal g troughs genes 18 species prokaryotes test its usefulness means improve existing annotation tools i.e identifying sd sequences
+observe 2,420 genes where strongest binding entire tir takes place one nucleotide downstream start codon at rs 1
+624 genes unusually strong binding
+then determine if 624 genes were mis-annotated conclude 384

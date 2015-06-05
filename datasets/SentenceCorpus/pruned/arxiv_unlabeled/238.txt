@@ -1,0 +1,44 @@
+
+present novel approach learning dynamic models leads new set tools problems difficult
+provide theory new approach consistent models long range structure apply approach motion data results standard alternatives
+introduction
+notion hidden states many models world hidden markov models states continuous states
+shows general dynamic model observation hidden state
+system characterized state transition probability state observation probability
+method predicting future events under dynamic model distribution over hidden state based all observations up time
+using prediction future events through over hidden state based dynamic models wide range applications time series forecasting control processing
+some detailed dynamic models application examples found
+clear using hidden state dynamic model information observation relatively small hidden state
+therefore order predict future do not use all previous observations but only its state representation
+principle may contain finite history length
+although only first order higher order representation form standard } both transition observation functions linear
+there algorithms learn linear dynamic models
+example addition classical approach was recently shown global learning certain hidden markov models time
+moreover linear models rule simple
+therefore model parameters estimated models applied prediction
+however many real problems system dynamics cannot
+problems often necessary into dynamic model
+standard approach problem through probability modeling where prior knowledge required define state representation together transition observation probabilities
+model parameters learned using probabilistic methods
+when learned model applied prediction necessary using formula
+systems generally difficult because become more complex e g many mixture components mixture model increases
+computational difficulty significant dynamic systems practical problems
+approach address computational difficulty through approximation methods
+example approach one uses finite number samples represent distribution samples then observations
+another approach mixture approximate may also mixture
+although number mixture components needed represent practice one use fixed number mixture components approximate distribution
+leads following even if approximation family finite how one design good approximate inference method find good quality approximation
+use complex techniques required design approximation makes apply dynamic models many practical problems
+paper alternative approach where different representation linear dynamic model call sufficient representation
+shown one underlying state representation using prediction methods not probabilistic
+allows us model dynamic behaviors many available learning algorithms neural networks support vector simple
+compared approach several distinct does not require us design any state representation probability model using prior knowledge
+instead representation choice underlying learning algorithm may power learn arbitrary representation
+prior knowledge simply input features learning algorithms significantly modeling
+does not require us up any specific representation corresponding approximate bayesian inference
+instead issue part learning process
+representation choice underlying learning algorithm
+sense our optimal representation approximation corresponding rules within power underlying algorithm
+possible obtain performance our algorithm terms learning performance underlying algorithm
+performance latter been investigated statistical learning theory literature
+results thus applied obtain theoretical results our methods learning dynamic models

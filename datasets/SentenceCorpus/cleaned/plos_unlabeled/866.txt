@@ -1,0 +1,56 @@
+ 
+evolution cooperation described terms simple two-person interactions received considerable attention recent years where several key results were obtained
+among those now well established web social interaction networks promotes emergence cooperation when modeled terms symmetric two-person games
+up until now however impacts heterogeneity social interactions into emergence cooperation not been fully explored other aspects remain investigated
+here carry out study employing simplest example prisoner's dilemma game benefits collected participants may proportional costs expended
+show heterogeneous nature social network naturally induces symmetry breaking game contributions made cooperators may become contingent social context individual embedded
+new numerical mean-field analysis reveals prisoner's dilemmas networks no longer constitute defector dominance dilemma instead individuals engage effectively general coordination game
+find symmetry breaking induced population structure profoundly affects evolutionary dynamics cooperation dramatically enhancing feasibility cooperators: cooperation blooms when each cooperator contributes same cost equally shared among plethora games she participates
+work provides clear evidence while individual rational reasoning may hinder cooperative actions intricate nature social interactions may effectively transform local dilemma cooperation into global coordination problem
+ introduction 
+portuguese no exception: like any other language many proverbs popular sayings
+one them states something like: i already contributed charity concerning originally situations individuals faced decision offering contribution common venture expression above meaning no
+interestingly amount given never stated
+turns out quite often confronted situations act giving more important than amount given
+let us keep charity event some celebrities invited participate
+typically their appearance given maximal audience they shown contributing seemingly large amount money charity's cause
+offer aimed at stimulating contribution many same charity indeed mechanism celebrity participation charities common presumably effective
+but what relevance amount contributed celebrity
+certainly impressive many despite being most likely small contribution both face celebrity's wealth also what concerns overall amount accumulated
+but does induce hopefully large number contributions anonymous charity participants who feel compelled contribute given fact their role model contributed
+other words majority copies act giving but certainly not amount given
+nowadays web-signed petitions also examples collective decisions often benefit fact some well-known people adhere petition's cause
+besides those who fully aware agree cause there also those who sign petition simply because they admire someone who signed petition again copying attitude
+many other examples real life could provided along similar lines trivia fads stock markets humanitarian causes up salvation planet earth
+theoretical perspective many situations provide beautiful examples public goods games often hard dissociate reputation building social norms moral principles
+intricate interplay reflects many-body nature multi-level complexity interactions among social atoms 
+simplest pgg involves two persons
+both opportunity contribute cost c common pool
+cooperator one who contributes; otherwise she defector
+total amount multiplied enhancement factor f equally shared between two participants
+hence player i using strategy s i gets payoff formula game leading following payoff matrixformula
+formula ds dominate unconditionally
+f 2 no strategy favored well mixed populations ; yet formula better play c despite fact mixed pair d collects higher payoff than c formula game example famous symmetric one-shot two-person prisoner's dilemma many central results been obtained over years particular context evolutionary game theory : 1992 been explicitly shown population structure matters despite its importance being recognized already darwin albeit form group selection
+clearly makes difference whether everybody equally likely interact anybody else population not
+2004 learnt evolutionary game theory finite populations may behave very differently infinite populations even absence any population structure evolutionarily stable strategies becoming population size dependent
+2005 learnt heterogeneous population structures play important role evolution cooperation under prisoner's other social dilemmas result spawned number investigations
+2006 mathematical condition was obtained cs become advantageous populations structured along links homogeneous networks subsequently confirmed making use inclusive fitness methods limited subset game payoff matrices
+result valid limit weak selection also unraveled important feature evolutionary game theoretical studies: outcome cooperation depends evolutionary dynamics adopted dictating how individual strategy evolves generation generation
+furthermore evolutionary game dynamics populations structured along multiple networks been explored well mechanisms favor cooperation under adaptive population structures been identified both non-repeated repeated games
+results consubstantiate keep stimulating enormous amount research work
+common all studies settings underlying social dilemma: conventional view every c pays fixed cost c per game providing same benefit b partner
+however if what matters act giving not amount given then there no reason assume everybody contributes same cost c each game
+depending amount each individual contribution overall result evolutionary dynamics may change
+two person game introduced above provides not only ideal ground introduce diversity contributions but also intuitive coupling between game dynamics social embedding: first individual contributes cost c 1 if playing c nothing otherwise
+hence player i now gets following payoff game:formulareflecting symmetry breaking induced possibly different contributions different cooperating individuals
+poses natural question: who will acquire evolutionary edge under conditions
+often amount each individual contributes correlated social context she actually embedded
+modern communities grounded complex social networks investment cooperation some individuals play radically different roles interact more more often than others
+empirical studies demonstrated social networks share both small-world properties heterogeneous distribution connectivities
+heterogeneous communities where different individuals may embedded very different social environments indeed hard imagine every c will always provide same amount every game interaction hence reducing problem standard two-person prisoner's dilemma studied so far
+context n-person games played prototypical social networks been found diversity contributions greatly favors cooperation
+however similar relation between two-body many-body interactions physical sciences n-person public goods games intrinsic complexity cannot anticipated two-person games: words late william hamilton theory many person games may seem stand two-person games relation sea-sickness headache 
+here besides conventional scenario every c contributes same cost c each game she participates shall also explore limit every c contributes same overall amount c however amount shared between all games she participates defined social network players embedded
+instance c may interpreted availability amount resources each individual dedicate all her commitments
+hence contribution each game will depend now social context each c heterogeneity will foster symmetry breaking pair-wise interactions two individuals may contribute different amounts same game
+sense cooperation will identified act giving no longer amount given

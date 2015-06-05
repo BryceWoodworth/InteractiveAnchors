@@ -1,0 +1,40 @@
+ 
+trans/cis prolyl isomerisation involved several biological processes including development numerous diseases
+hiv-1 capsid protein process takes place uncoating recruitment virion catalyzed cyclophilin here use metadynamics simulations investigate isomerization ca's model substrate hagpia water its target protein cypa
+our results allow us propose novel mechanistic hypothesis finally consistent all available molecular biology data
+ introduction 
+proline trans/cis isomerization takes part several fundamental biological processes including protein folding immune response ion channel gating cellular signalling
+process also associated development variety diseases including hiv-1 infection carcinogenesis alzheimer's catalyzed prolyl isomerase enzymes 
+best characterized isomerization vivo vitro occurs uncoating recruitment human hiv-1 capsid protein virions catalyzed cyclophilin isomerase
+at structural level cypa features helices flanking beta-barrel while ca made several helices connected loops
+x-ray structure complex targeted proline-containing backbone unit accommodated hydrophobic pocket cypa
+although backbone unit trans conformation x-ray structure nmr studies shown 45 percent conformers cis ca-cypa r55a aqueous solution
+rather significant population cis conformers could arise not only replacement r55 ala but also crystal packing forces different temperature conditions along different hydration ionic strength two experiments
+free energy calculations further support hypothesis cypa promotes significant population cis conformation
+thus cis population likely increase substantially water where 10 percent complex aqueous solution
+vitro kinetic measurements show cypa decreases isomerization free energy barrier modified substrate fragments solution 7 kcal/mol
+free energy calculations based either classical quantum-mechanical/molecular mechanics 6 aminoacids long substrate fragment point similar trend
+addition they suggest h-bonding between backbone unit targeted glycine-proline peptidyl bond n102@cypa well van der waals interactions between substrate cypa hydrophobic pocket stabilize transition state
+hypotheses consistent decrease k cat/k m associated polymorphism cyclophilins 102 position f60a f113a h126q cypa mutants
+nmr studies along computations further suggested motions several cypa residues linked enzymatic activity
+free energy calculations characterized network protein vibrations cypa associated its isomerase activity: flexible loops surface connected active site network hydrogen bonds 
+spite great progress describing catalytic process key mechanistic issues need addressed
+kinetic studies suggested overall process involves trans cis forms solution complex protein
+however studies so far consider mostly ts stabilization
+most importantly current proposed mechanism cannot explain plethora molecular biology data
+studies show residues not involved ts stabilization proposed mechanisms important function their mutations cause decrease k cat/k m indeed k cat/k m passes 1.6 10 7 m 1 s 1 wild type 1.6 10 4 m 1 s 1 mutating fully conserved r55 residue ala
+although mutation was proposed originally destroy h-bond stabilizing uniquely ts h-bond was subsequently ruled out computational works so far no functional role been ascribed r55
+addition h54q mutation along i57v polymorphism causes decrease k cat/k m although residues not involved ts stabilization 
+here use molecular simulations address issues
+calculate free energy associated isomerisation 6 aminoacids long substrate fragment water complex cypa
+free energy calculated function two reaction coordinates been suggested describe best energetics process well other pairs different coordinates cross-check our results
+use here metadynamics already been employed predict energetics protein/peptide interactions
+potential used effective one
+choice allows very efficient sampling because its relatively small computational cost
+spite its limitations force field expected relatively accurate describe equilibrium conformations key aspect our problem
+accuracy force field minima transition states assessed comparing our results first principle quantum chemistry calculations
+based comparison find force-field biases energetics minima negligible whereas their influence barriers more significant
+therefore here free energy differences between minima used predict relative populations equilibrium conformations whilst calculated barriers only compared at qualitative level discriminate most likely cis/trans isomerisation path
+enzyme turns out dramatically stabilize populations one specific cis conformer relative trans ones instead far most stable aqueous solution
+addition lowers free energy barrier specific one way isomerization trans cis
+findings allow us propose mechanistic hypothesis isomerization process consistent all available experimental data

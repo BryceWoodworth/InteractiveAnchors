@@ -1,0 +1,44 @@
+ 
+paper addresses general problem domain adaptation arises variety applications where distribution labeled sample available somewhat differs test data
+building previous work \emcite{bendavid} introduce novel distance between distributions discrepancy distance  tailored adaptation problems arbitrary loss functions
+give rademacher complexity bounds estimating discrepancy distance finite samples different loss functions
+using distance derive novel generalization bounds domain adaptation wide family loss functions
+also present series novel adaptation bounds large classes regularization-based algorithms including support vector machines kernel ridge regression based empirical discrepancy
+motivates our analysis problem minimizing empirical discrepancy various loss functions also give novel algorithms
+report results preliminary experiments demonstrate benefits our discrepancy minimization algorithms domain adaptation
+ introduction 
+standard pac model other theoretical models learning training test instances assumed drawn same distribution
+natural assumption since when training test distributions substantially differ there no hope generalization
+however practice there several crucial scenarios where two distributions more similar learning more effective
+one scenario domain adaptation  main topic our analysis
+problem domain adaptation arises variety applications natural language processing  speech processing  computer vision  many other areas
+quite often little no labeled data available target domain  but labeled data source domain somewhat similar target well large amounts unlabeled data target domain at one's disposal
+domain adaptation problem then consists leveraging source labeled target unlabeled data derive hypothesis performing well target domain
+number different adaptation techniques been introduced past publications just mentioned other similar work context specific applications
+example standard technique used statistical language modeling other generative models part-of-speech tagging parsing based maximum posteriori adaptation uses source data prior knowledge estimate model parameters
+similar techniques other more refined ones been used training maximum entropy models language modeling conditional models
+first theoretical analysis domain adaptation problem was presented \emcite{bendavid} who gave vc-dimension-based generalization bounds adaptation classification tasks
+perhaps most significant contribution work was definition application distance between distributions distance particularly relevant problem domain adaptation estimated finite samples finite vc dimension previously shown \emcite{kifer}
+work was later extended \emcite{blitzer} who also gave bound error rate hypothesis derived weighted combination source data sets specific case empirical risk minimization
+theoretical study domain adaptation was presented \emcite{nips09} where analysis deals related but distinct case adaptation multiple sources where target mixture source distributions
+paper presents novel theoretical algorithmic analysis problem domain adaptation
+builds work \emcite{bendavid} extends several ways
+introduce novel distance discrepancy distance  tailored comparing distributions adaptation
+distance coincides distance 0-1 classification but used compare distributions more general tasks including regression other loss functions
+already pointed out crucial advantage distance estimated finite samples when set regions used finite vc-dimension
+prove same holds discrepancy distance fact give data-dependent versions statement sharper bounds based rademacher complexity
+give new generalization bounds domain adaptation point out some their benefits comparing them previous bounds
+further combine properties discrepancy distance derive data-dependent rademacher complexity learning bounds
+also present series novel results large classes regularization-based algorithms including support vector machines svms kernel ridge regression krr
+compare pointwise loss hypothesis returned algorithms when trained sample drawn target domain distribution versus hypothesis selected algorithms when training sample drawn source distribution
+show difference pointwise losses bounded term depends directly empirical discrepancy distance source target distributions
+learning bounds motivate idea replacing empirical source distribution another distribution same support but smallest discrepancy respect target empirical distribution viewed reweighting loss each labeled point
+analyze problem determining distribution minimizing discrepancy both 0-1 classification square loss regression
+show how problem cast linear program lp 0-1 loss derive specific efficient combinatorial algorithm solve dimension one
+also give polynomial-time algorithm solving problem case square loss proving cast semi-definite program sdp
+finally report results preliminary experiments showing benefits our analysis discrepancy minimization algorithms
+section describe learning set-up domain adaptation introduce notation rademacher complexity concepts needed presentation our results
+section introduces discrepancy distance analyzes its properties
+section presents our generalization bounds our theoretical guarantees regularization-based algorithms
+section describes analyzes our discrepancy minimization algorithms
+section reports results our preliminary experiments

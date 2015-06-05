@@ -1,0 +1,77 @@
+
+article i will show how several observed biases human probabilistic good heuristics making environment where probabilities associated them
+previous results show weight functions observed stochastic bayesian point view
+will review those results see bayesian methods should also used part other known biases
+means although observed errors still errors under conditions they demonstrated they percent solution real life problems
+heuristics allow fast bayesian inference would evolutionary advantage since they would give us efficient way making decisions
+introduction
+well known fact humans make when presented probabilistic problems
+was observed when choice between different people make their choices way not decision theory
+several describe behavior exist literature including theory theory number models
+all models use idea when probabilistic people probabilistic values using function use values order gamble would provide maximum expected
+exact all involved values associated each aspects each model but models people do not use exact known probabilistic values when making their decisions
+there also models based different approaches decision sampling model
+decision sampling people make their decision making values them describe many characteristics human well
+recently strong evidence models describe human behavior better than theory
+several tests shown people simple decision rules
+if presented two possible outcomes example number percent number one outcome number percent same number another possible result should make no difference if both outcomes were combined into one single number percent number
+property called been observed not always
+other strong decision theory experiments people should stochastic
+stochastic when there two available possible gains one them good other one at least one gain more
+per example given g number number number number number number g number number number number number number number number number g g since first outcome same second outcome g into two g same more than g depending
+only rational choice here g but tests show people do not always simple rule
+since models theory theory both stochastic weight models predict those better description real behavior
+weight models each given different weight so outcome will given more weight
+allows those basic
+however although weight models good models how problem understanding why way do not them
+theory predicts very simple strong makes sense why people would make
+recently why humans make was still not clear
+evolutionary suggested makes no sense humans would their made probability therefore there must some those biases
+was also suggested since our had observed instead probability values observed biases might if people were presented data form observed theorem problem
+experiment idea
+however other studies those shown frequency improve only under some
+if those not frequency either no effect might even probability tested subjects
+other hand heuristics biases point view given our limited errors should expected best one humans would use heuristics efficient but error
+fact they shown decision problems there simple heuristics do good
+but since many involved experiments not too difficult perform question our probabilistic still needed
+if using heuristics perform probabilistic understanding when good heuristic why tests important question
+number idea people should simply use observed instead probability values bayesian point view
+our should well uncertainty their own observations but make complete what would if our therefore our own were actually more than simple
+if they had brain although using rules way bayesian inference instead evaluation they would better make decisions therefore would been good adaptation
+other words our who were would better than any possible who consider uncertainty their analysis
+would lead those
+another learn those heuristics up them provide better
+but even if dynamics our heuristics good learning should lead us bayesian answer than one
+so makes sense if humans actually than current literature them
+evidence idea our bayesian exists
+et al shown observed bayesian models those models provide optimal inference
+tests human cognitive judgments about seems suggest our provide very good prediction real statistics
+recent work i proposed adaptive probability theory
+biases human probabilistic actually approximation bayesian inference
+if one people all probability values if they were even when they not make some assumptions about sample size where those probabilities would been observed follows observed functions obtained
+here i will review those results also show were introduced explain functions explain other observed biases
+i will show some those biases result make environment where probabilities associated them
+functions theory whole class models use functions describe our behavior predicted bayesian point view
+even observed theory stochastic need weight models described also predicted using
+i will propose bayesian methods should used part number other biases
+finally note what point view needed
+usually involves theories should describe set data making predictions those theories testing them experiments
+decision theory however requires work
+because other decision theory us how should
+does not describe real behavior since based assumptions about what best choice not about how real people
+its testing against other decision strategies long provides optimal decisions theory correct even if does not predict behavior any agents
+means certain actions sense they far optimal decisions even though they real actions real people
+decision theory means not every model actually predict behavior
+given observed behavior understanding what makes way also
+where
+its main show behavior based analysis decision problem follows theory
+assumptions analysis might therefore observed behavior would not optimal
+means our common sense not
+however if well most real life problems either good adaptation well learned
+make between theories
+means work sense understand problems our way they do
+while based theory was designed observed biases
+means does not best actual description real behavior although might
+even if other theories weight models decision sampling actually describe way our work long their predictions will show actual behavior predicted those theories approximation optimal decisions
+tests show if actually best description not will see suggests new experiments problem base rate order understand better our
+but main goal show real behavior does well

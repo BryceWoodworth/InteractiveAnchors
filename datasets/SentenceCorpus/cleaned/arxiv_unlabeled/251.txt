@@ -1,0 +1,31 @@
+ 
+paper present two classes bayesian approaches two-sample problem
+our first class methods extends bayesian t-test include all parametric models exponential family their conjugate priors
+our second class methods uses dirichlet process mixtures dpm conjugate-exponential distributions flexible nonparametric priors over unknown distributions
+%on synthetic examples real medical datasets show our tests competitive best state-of-the-art methods task even outperforming them average medical datasets
+ introduction 
+paper tackle so-called two-sample problem: associated test called two-sample test
+tests encountered various disciplines life sciences social sciences: medical studies one may want find out if two classes patients show different behaviour response drug susceptibility disease
+microarray analysis one may compare measurements different weeks labs platforms find out if they follow same distribution before integrating them into one dataset order increase sample size
+neurosciences one may want compare measurements brain signals under different external stimuli check whether brain activity affected stimuli
+social sciences one may want compare whether behavior group people eg when they graduate marry die different across countries generations
+financial sciences one could example compare set transactions performed at stock exchange during different weeks find out if there change activity financial markets
+while question been studied detail classic statistics univariate data there less work multivariate data review section 
+only machine learning approach problem kernel method  using means two samples universal reproducing kernel hilbert space its test statistics but created lots interest subject follow-on studies
+here approach two-sample problem bayesian perspective
+classic bayesian formulation problem would terms bayes factor represents likelihood ratio data were generated according hypothesis same distribution hypothesis different distributions
+however how exactly define two hypotheses crucial question many answers been given bayesian literature hypotheses tailored specific problem application domain; one example bayesian t-tests used microarray data analysis
+our goal paper define two general classes two-sample tests represent precise formulation two-sample problem but not tailored specific application
+they designed offer attractive middle ground between general idea using bayes factors specialised hypotheses testing problems studied literature
+detail define class nonparametric bayesian two sample tests based dirichlet process mixture models
+use dirichlet process mixtures flexible nonparametric modelling general unknown distributions long history statistics
+however although two-sample problem depends crucially testing whether data come one two unknown distributions bayesian approaches based nonparametric density models not been explored date
+here propose explore non-parametric method using classic dirichlet process mixture
+best our knowledge only work remotely related bayesian test parametric versus nonparametric model data berger guglielmi
+addresses different but related question since assumes parametric null hypothesis
+also define parametric bayesian two-sample test where model data member exponential family
+test generalizes bayesian t-test  who assume samples gaussian
+paper structured follows
+section will review existing approaches two-sample problem multivariate data highlight some differences between frequentist bayesian hypothesis testing
+section outline common core our two bayesian two-sample test before providing details parametric test section non-parametric test section
+%in section will evaluate performance our tests comparing state-of-the-art methods field

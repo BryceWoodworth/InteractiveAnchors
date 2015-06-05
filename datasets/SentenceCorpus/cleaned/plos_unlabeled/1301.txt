@@ -1,0 +1,50 @@
+ 
+yeast successfully adapts environmental stress altering physiology fine-tuning metabolism
+fine-tuning achieved through regulation both gene expression protein activity shaped various physiological requirements
+requirements impose sustained evolutionary pressure ultimately selects specific gene expression profile generating suitable adaptive response each environmental change
+although some requirements stress specific likely others common various situations
+hypothesize evolutionary pressure minimizing biosynthetic costs might left signatures physicochemical properties proteins whose gene expression fine-tuned during adaptive responses
+test hypothesis analyze existing yeast transcriptomic data responses investigate how several properties proteins correlate changes gene expression
+our results reveal signatures consistent selective pressure economy protein synthesis during adaptive response yeast various types stress
+signatures differentiate two groups adaptive responses respect how cells manage expenditure protein biosynthesis
+one group significant trends towards downregulation large proteins upregulation small ones observed
+other group find no trends
+results consistent resource limitation being important evolution first group stress responses
+ introduction 
+unicellular organisms sensitive environmental challenges
+their internal milieu acts buffer against changes mounting adaptive response involving modifications at different cellular levels
+appropriate adaptive responses require intracellular signaling changes conformation activity proteins changes transcription translation genes etc
+many cellular modifications characterize any adaptive response due need acquiring new protein functionalities while shutting down other protein functionalities not required new conditions
+changes ultimately fine tune mechanisms processes allow cell function appropriately survive under changing environments
+fine tuning shaped various functional requirements physiological constraints
+functional requirements result specific demands imposed cell survival environment
+other hand physiological constraints defined limits within cell physically capable changing activity its component parts meet functional requirements
+global point view adaptive responses seen multi-optimization problem because cells evolved appropriate responses cope different types stress while optimizing different parts its metabolism each those responses
+example cells simultaneously increase concentration specific metabolites proteins while decreasing concentration other components prevent increase concentration unneeded metabolites
+increase could strain cell solubility capacity increase spurious reactivity dangerous levels
+other functional constraints likely provide sustained evolutionary pressures ultimately select specific gene expression profile leads suitable adaptive responses
+arguments mind thus important identify functional requirements quantitative physiological constraints may significantly shape adaptive responses
+among others minimization energetic expenditure plays important role cells growing exponentially rich medium
+several signatures consistent minimization metabolic cost already been identified properties set proteins expressed when cells growing rich media 
+example genes coding proteins highly abundant under basal conditions pattern synonymous codon usage well adapted relative abundance synonymous trnas yeast s cerevisiae escherichia coli 
+another signature found genes highly expressed under basal conditions sequence bias minimizes transcriptional translational costs
+minimization metabolic cost further observed relative amino acid composition abundant proteins under same conditions
+proteins enriched metabolically cheaper amino acids 
+final example general signature codon bias long genes
+bias probability missense errors reduced during translation
+biases suggest reducing overall costs metabolism whenever possible may significantly increase cellular fitness
+view consistent observation small changes gene expression affecting levels protein synthesis influence fitness specific e coli strains 
+body results strongly supports notion metabolic cost acts selective pressure shaping properties cells growing rich medium absence environmental stresses
+thus one might ask if minimization metabolic cost also important factor evolution adaptive responses stress conditions
+predictable evolutionary pressure might leave stronger signatures adaptive responses require use higher atp amounts cell adaptation heat weak organic acids nacl
+three cases been reported atp concentrations decrease due high energy demand 
+given protein synthesis one costliest biosynthetic efforts cell minimization metabolic cost might biased properties proteins whose expression change during adaptation
+therefore here ask following questions
+there signature consistent selective pressure minimizing metabolic cost proteins synthesis during adaptive responses stress
+one find general signatures physicochemical properties proteins expression patterns genes involved adaptive response different environmental challenges
+if so what physiological constraints consistent those signatures
+address questions investigating how value several properties proteins related changes gene expression levels during various environmental changes
+find genes whose expression upregulated during different types adaptive responses tend code proteins small while genes whose expression downregulated during same responses tend code proteins large
+signature consistent selective pressure minimizing metabolic cost proteins synthesis
+more significant adaptive responses where changes gene expression levels affect large fraction genome
+our knowledge first general global signature been identified properties proteins involved adaptive responses stress

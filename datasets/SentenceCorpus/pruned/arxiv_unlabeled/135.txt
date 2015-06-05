@@ -1,0 +1,18 @@
+
+study sets random sequences where family probability distributions depending real parameter
+case when probability distribution consistent exists show set all random sequences positive if only if parameter real number
+family show set where set all random sequences taken over all positive
+introduction
+use theory analyze sets sequences random respect probability distributions
+let family probability distributions where real number given consistent exists family
+family real parameter example family
+theorem shows set all random sequences positive if only if parameter value real number
+property sequences no if set all sequences property
+respect model probability when real parameters empirical only their i e elements some sets
+example random sequences generated bayesian mixture using prior
+case set all sequences random respect mixture positive
+give simple our previous result theorem set all binary sequences random sequences positive
+particular sequences respect each probability distribution
+use result prove theorem
+theorem shows probabilistic machine probability close random sequence parameter not random respect each probability distribution
+result bayesian statistical approach all possible cases random sequences

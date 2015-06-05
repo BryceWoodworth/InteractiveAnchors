@@ -1,0 +1,19 @@
+
+present model common case multiple relevant single
+using terms not information short
+show approximate inference possible large data sets results system
+furthermore show how technique modeling framework
+introduction
+describe algorithm common case there many relevant given
+given relevant our algorithm functions itself following what about relevant them relevant seen statistical exact question
+key multiple relevant known question
+not
+two problems standard
+standard without known relevant some need
+case application underlying will multiple relevant given
+both tasks well even when underlying model
+idea known relevant known information where been shown tasks
+perspective our work two ways
+first seen application task see
+second more seen method manner
+method modeling framework

@@ -1,0 +1,33 @@
+ 
+recent studies identified uncertainty effect ue whereby risky prospects e g binary lottery offers either number number gift certificate valued less than their worst possible outcome number certificate
+effect been proposed result direct risk-aversion posits mere uncertainty lottery directly decreases its value
+however effect may also driven potential disappointment inherent not receiving better two outcomes disappointment aversion mere fact risky prospect referred lottery
+results two experiments do not support either two alternatives
+specifically results experiment number indicate ue observed even when values two lottery outcomes similar even identical
+experiment number further replicates ue context word lottery never used company promotional
+results consistent direct risk-aversion mechanism suggest ue obtains across number different contexts
+ introduction 
+recent studies identified following peculiar effect individuals willing pay significantly less binary lottery offers either number number gift certificate equal probability than they number gift certificate alone
+uncertainty effect ue not only counterintuitive also presents important challenge current theories risk-aversion arrive at risk-aversion indirectly through shape utility function predict risky prospects should valued no lower than value their worst possible outcome
+indeed although disutility gambling been alluded literature generally been avoided formal models because implies unpalatable patterns violation internality
+first paper demonstrate ue did so across number different contexts both hypothetical real suggesting effect does not arise incidental features particular paradigm
+specifically ue was replicated non-monetary outcomes e g number minutes one willing work boring task studies using choice rather than willingness pay wtp e g number sure vs number number lottery offering either number number gift certificate real world situations actual goods
+ruling out number plausible alternative explanations authors interpret ue resulting direct risk-aversion mechanism posits uncertainty per se directly decreases utility risky prospects
+other words mere uncertainty about outcome one will receive makes lottery less valuable
+support direct risk-aversion mechanism simonsohn built original finding gneezy et al ruling out two additional alternative explanations ue
+first simonsohn found ue was observed even when participants certainty condition number sure were aware better outcome number rules out possibility mere awareness better outcome may devalue worse one
+second he demonstrated majority participants understood instructions ue was not caused few who did not rules out possibility effect observed simply because participants misunderstand task
+basis simonsohn similarly concluded aversion uncertainty per se i e direct risk-aversion likely responsible ue
+there however at least two remaining alternative explanations ue been unaddressed previous research
+first involves disappointment aversion people may value lotteries less because potential disappointment inherent not receiving better two outcomes
+example number won lottery may seem worse than number guaranteed because individual knows they did not receive number
+thus ue may result discrepancy values between better worse outcomes rather than uncertainty lottery itself
+alternative explanation distinguished experimentally direct risk-aversion mechanism manipulating value better outcome
+according bell's loomes sugden's models disappointment amount disappointment should zero when both outcomes equivalent increase monotonically their difference
+consequently if ue driven anticipated disappointment inherent not receiving better two outcomes effect should eliminated at least attenuated when lottery outcomes equivalent their perceived value e g lottery one two bookstore gift certificates each worth number
+if however ue arises solely mere uncertainty about outcome one will receive then effect should persist despite equivalent values
+alternative was examined experiment number
+second plausible explanation ue may participants willing pay less lottery because they just general aversion term lottery
+might case because some people consider activities immoral against their beliefs
+moreover lotteries state lotto typically low-probability gambles expected value less than price entry into lottery
+result participants may suspicious term lottery because real world offers typically signal prospects negative expected value

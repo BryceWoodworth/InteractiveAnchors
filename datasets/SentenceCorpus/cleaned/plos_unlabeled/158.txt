@@ -1,0 +1,28 @@
+ 
+identification classification genes pseudogenes duplicated regions still constitutes challenge standard automated genome annotation procedures
+using integrated homology orthology analysis independent current gene annotation identified 9,484 9,017 gene duplicates human mouse respectively
+basis integrity their coding regions classified them into functional inactive duplicates allowing us define first consistent comprehensive collection 1,811 human 1,581 mouse unprocessed pseudogenes
+furthermore total 14,172 human mouse duplicates predicted functional genes many 420 not included current reference gene databases therefore correspond likely novel mammalian genes
+some correspond partial duplicates less than half length original source genes yet they conserved syntenic among different mammalian lineages
+genes unprocessed pseudogenes obtained here will enable further studies mechanisms involved gene duplication well fate duplicated genes
+ introduction 
+gene duplication major source biological innovation diversity provides necessary conditions appearance new more specialized protein functions
+eukaryotic genomes there two major mechanisms through coding gene regions duplicate: retrotransposition non-homologous recombination
+whereas retrotransposition lead rare occasions functional mrna copy usually results processed pseudogenes
+present study focuses gene copies other hand arose through non-homologous recombination produces intact genes copies
+generally agreed after gene duplications there period functional redundancy consequently partial relaxation their associated selective constraints
+allows each copy accept higher level sequence modification therefore explore new more specialized roles long basic ancestral function not compromised
+although situation eventually lead formation novel genes generally believed normally ends silencing one copies accumulation lethal mutations preservation other same basic ancestral function
+non-functional paralogs then expected accumulate mutations at neutral rate degenerate unprocessed pseudogenes
+similarly apart duplicated exons lead alternatively spliced isoforms incomplete duplications genes neither transcribed nor translated into complete functional proteins also expected undergo neutral degeneration right after their formation occurs vast majority processed pseudogenes
+currently silencing genes after duplication poorly understood
+its frequency been indirectly inferred either through theoretical approaches study functional genes exclusively without taking into account population dead gene copies probably due lack consistent annotation regions public databases
+not only identification unprocessed pseudogenes but also overall identification classification independent gene copies within regions underwent several rounds tandem duplications not completely solved exemplified detailed analysis particular region human chromosome 2
+previous global analyses dead gene copies mammals focused mainly retrotransposed pseudogenes appear far more abundant easier detect than unprocessed pseudogenes
+already attempted define collections unprocessed pseudogenes context genome-wide identification intergenic pseudogenes several sequenced genomes
+estimated number regions fluctuated significantly within mammals: between 3,000 4,500 per genome
+however basis our recent more detailed analysis finished human chromosomes 2 4 estimate human genome might actually contain no more than 2,000 unprocessed pseudogenes because previous sets were somewhat inflated misclassified retrotranscribed pseudogenes
+addition large-scale approximations several hundred unprocessed pseudogenes also been identified during annotation single human chromosomes detailed studies focused particular gene families genomic regions
+despite all efforts considerable fraction human mouse unprocessed pseudogenes likely unannotated incorrectly classified owing difficulties analyzing complex regions multiple copies genes
+using filtering procedures performed available assemblies human mouse genomes carried out consistent comprehensive search gene duplicates independent previous gene annotations
+distinguished potentially active non-functional copies order construct first reliable set unprocessed pseudogenes

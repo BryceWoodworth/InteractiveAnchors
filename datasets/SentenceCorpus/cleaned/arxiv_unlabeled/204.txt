@@ -1,0 +1,27 @@
+ 
+present multiplicative updates solving hard soft margin support vector machines svm non-negative kernels
+they follow natural extension updates non-negative matrix factorization
+no additional parameter setting choosing learning rate required
+experiments demonstrate rapid convergence good classifiers
+analyze rates asymptotic convergence updates establish tight bounds
+test performance several datasets using various non-negative kernels report equivalent generalization errors standard svm
+ introduction 
+support vector machines svm now routinely used many classification problems machine learning due their ease use ability generalize
+basic case input data corresponding two groups mapped into higher dimensional space where maximum-margin hyperplane computed separate them
+``kernel trick'' used ensure mapping into higher dimensional space never explicitly calculated
+formulated non-negative quadratic programming nqp problem there efficient algorithms solve
+svm trained using variants gradient descent method applied nqp
+although methods quite efficient  their drawback requirement setting learning rate
+subset selection methods alternative approach solving svm nqp problem
+at high level they work splitting arguments quadratic function at each iteration into two sets: fixed set where arguments held constant working set variables being optimized current iteration
+methods  though efficient space time still require heuristic exchange arguments between working fixed sets
+alternative algorithm solving general nqp problem been applied svm
+algorithm called m\textsuperscript{3} uses multiplicative updates iteratively converge solution
+does not require any heuristics setting learning rate choosing how split argument set
+paper reformulate dual svm problem demonstrate connection non-negative matrix factorization nmf algorithm
+nmf employs multiplicative updates very successful practice due its independence learning rate parameter low computational complexity ease implementation
+new formulation allows us devise multiplicative updates solving svm non-negative kernels output value kernel function greater equal zero
+requirement non-negative kernel not very restrictive since their set includes many popular kernels gaussian polynomial even degree etc
+new updates possess all good properties nmf algorithm independence hyper-parameters low computational complexity ease implementation
+furthermore new algorithm converges faster than previous multiplicative solution svm problem both asymptotically proof provided practice
+also show how solve svm problem soft margin using new algorithm

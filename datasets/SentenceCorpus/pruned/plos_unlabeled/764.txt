@@ -1,0 +1,44 @@
+
+use efficient
+due its metabolic genetic potential environmental applications
+address both metabolic p its uses particular developed present here model p
+network analysis structure metabolic network identification knowledge essential metabolic functions gene
+analysis were used analyze properties potential model
+analyses identification under various conditions key features growth distribution network robustness gene
+model was data continuous cell data distributions specifically generated
+was predicted percent cases
+analyses revealed metabolic network structure main factor accuracy predictions whereas influence
+finally model metabolic strategies improve class useful whose not cell
+model into relationships provides framework explore its potential
+introduction
+one best studied species
+species wide potential able produce range
+features along their genetic expression make particularly
+p been produce
+furthermore p been variety other processes including into biochemical formation
+however most applications still due lack knowledge relationships under conditions relevant environmental
+effort towards critical knowledge genomes several been being series studies specific aspects their genomic behavior under various
+sequencing p p research generally provided means investigate metabolic potential p species development new applications
+whole genome analysis revealed among other features genetic play role those relevant
+however despite clear our understanding p through sequencing effort relationship between cannot predicted simply gene functions genes found genome work still needed before genome into metabolic model value predicting cell
+modeling only approach modeling metabolic network at
+model all reactions known along set constraints each reaction system
+major advantage approach model does not require knowledge reactions
+models define global metabolic space network structural properties distribution potential provide framework through metabolic cell
+through various analysis techniques models help predict cellular given particular environmental conditions
+analysis one technique optimization objective while all reactions achieve set consistent output objective function
+when chosen objective output correlated growth model become predictive growth
+analysis techniques including been metabolic features variety organisms few cases thus far they been used
+however all previous applications approach was used design biochemical studies only directly objective function used underlying problem
+major methods predict any reaction not directly chosen objective
+since pathways most value application processes useful predictor output
+other analysis methods pathways analysis related pathways but due numerical methods they could not used so far predict at
+address both metabolic p use p developed present here metabolic network analysis its network properties through modeling potential model
+based genomic biochemical physiological knowledge
+model function reactions upon modeling framework
+only percent reactions network
+process several genes
+model was continuous experiments specifically generated set
+influence values outcome analysis simulations metabolic predict reaction identify different determine necessary gene reaction sets growth
+finally means approach model generate possible p class whose would used growth
+thus provides modeling framework metabolic p will complex relationships its will help p

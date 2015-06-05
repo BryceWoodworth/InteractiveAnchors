@@ -1,0 +1,77 @@
+
+when people learn make decisions experience additional relevant information should improve their performance
+contrast find additional information about rewards i e what could at each point making different choice ability make choices gains
+reward information local options e g biases choice options e g
+consistent standard mechanism processes information about rewards
+contrast related using do not systems explain performance
+find individual group data well characterized single mechanism information about rewards
+introduction
+when often important
+well behavioral domains
+ability small rewards order larger future rewards effective both humans
+report examine impact information about outcomes human decision-making behavior situations short rewards
+outcomes rewards could been obtained had one made choices
+our task aspects tasks people choices outcomes determined past choices well current choices
+study found ability e g one order more outcomes e g two after delay predictive number key
+several studies suggest most effective strategy attention stimuli during
+specifically who direct their attention smaller reward better able gains them gains
+systems framework one popular theory performance delay studies
+according theory level systems
+system fast stimuli
+contrast system
+between two systems either support delay
+e g whether reward factors e g whether attention focused reward rewards system
+rewards become more one more likely control system lead delay
+one previous studies they involve options do not occur situations
+participants explicitly when larger rewards will
+real world people given information about actions
+example consider between short
+at each choice point new training thus increasing future output instead order thus future new
+choices influence state environment future
+here choices not known future time points
+optimal choice must some extent learned through decision space our example increasing resulting training
+present work optimal choice behavior dynamic task choices more representation many short life
+whereas choices decisions many decisions often past outcomes current situation determined past choices
+experimental proposed ability rewards dynamic choice environments
+consider task reward structure number
+current state decision environment whereas reward either choice
+every state one option option always higher reward than other option option
+state environment defined number choices made over trials
+making larger choices over time current state environment thus increasing rewards both choices
+choices larger rewards affect future rewards above example whereas options less lead larger future rewards new training
+dynamic choice environment i e global rewards requires larger i e local rewards option making choices
+literature examined factors ability learn choice strategy similar environments
+report consider dynamic decision making tasks people learn about rewards resulting both chosen i e options
+example may able both actual result further cost would
+although neural signal rewards distinct directly rewards been identified both humans how reward signals behavior
+behavioral research human decision making some into how knowledge rewards affect choice behavior
+settings where rewards change over time rewards support optimal choice when rewards optimal choice when rewards
+further sensitivity rewards over time settings
+present work research dynamic decision-making environments
+tasks been used examine effects rewards information rewards actions dynamic tasks upon past choice behavior
+rewards present determined recent history choices
+consider particular form sequential short rewards
+task strategy rewards not at
+thus computational described greater below past decisions better rewards present
+when short rewards rewards local option e g bias choice option e g training
+our predictions dynamic decision tasks consistent findings studies find attention reward increases likelihood gain but larger reward
+investigate information presented about rewards after each choice task above see number
+example after choice might shown number points were actually well number points could been had made choice
+our hypothesis information will larger payoff decision space leading behavior long
+our results find more information i e about payoffs makes less likely will
+result standard learning mechanism single systems
+according systems view greater rewards associated option should increase control over choice leading consistent selection option
+mechanism result without two systems different computational properties
+models learn their interactions environment gains making use reward signal provides information about actions
+framework been used model human decision-making behavior well firing patterns neurons
+our model i e reward signal action not taken decision space because tasks where short rewards necessary optimal choice strategy
+components account provides simple account choice behavior related tasks
+rule out effect rewards does not additional information but rather local option include additional condition rewards provided
+would demonstrate reward information biases choice does not participants information optimal choice behavior
+demonstrate control condition rewards
+condition when option chosen rewards option appear greater than rewards order belief option
+when option chosen rewards option appear smaller than reward order belief option
+example who at they had was actually was
+short actual feedback chosen option but information about option option
+if additional information about rewards does not participants should find participants provided information about rewards should make more optimal choices than participants not provided rewards
+other words predict more less when local information gains but more more when local information gains

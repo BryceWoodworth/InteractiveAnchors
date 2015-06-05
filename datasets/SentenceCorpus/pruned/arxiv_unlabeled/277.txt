@@ -1,0 +1,39 @@
+
+given points space minimum problem find contains all points
+give approximation algorithm whose at most where bound norm points
+existing results using algorithm
+finding minimum convex related problem convex fixed given aim find given points
+problem present approximation algorithm where number
+our algorithms convex recently developed techniques optimization contrast existing methods rely
+particular framework obtain our results
+introduction
+given set points minimum contains all points
+problem finding application data learning statistics computer computational
+therefore efficient algorithms problem not only theoretical interest but also wide practical
+exact algorithms finding typically
+example algorithm time makes many practical case linear data may more
+therefore there been significant interest finding approximation algorithms problem
+state approximation algorithms problem use concept
+given property if factor then resulting also contains
+therefore finding approximation algorithm problem
+approximation algorithms
+
+at every current
+if every point current solution then algorithm most point point current
+best known algorithms family time
+contrast present new algorithm derived problem finding convex but optimization problem
+general framework our algorithm able achieve time where bound norm points
+also approximation our algorithm given optimal our algorithm function whose value between
+although two types approximation different simple section show our algorithm also approximation effort
+our analysis related minimum convex problem present new algorithm
+before given set points task here find given fixed points
+our setting but not
+present approximation algorithm where number
+apply our algorithms two problems interest machine learning finding maximum distance
+algorithm first problem was proposed while second one was studied
+both cases our algorithms require number better computational complexity bounds
+our paper section introduce review some results convex present general framework
+section address problem section problem present our algorithms their analysis
+discuss some applications our results machine learning problems section
+paper then future section
+found while experimental evaluation found

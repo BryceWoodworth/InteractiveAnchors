@@ -1,0 +1,103 @@
+
+problem online algorithm set strategies sequence trials so total payoff chosen strategies
+while performance algorithms small finite strategy set well problems large strategy sets still very active practical applications online
+goal research identify natural classes strategy sets payoff functions design efficient solutions
+work study very general setting problem strategies form metric space payoff function condition respect metric
+problem problem
+present solution problem setting
+every metric space define bounds below performance algorithms present algorithm close bound
+furthermore our technique even better results payoff functions
+introduction
+problem online algorithm must choose set strategies sequence trials so total payoff chosen strategies
+problems theoretical modeling sequential decision-making under uncertainty
+studied three problems having impact computer because their applications including online adaptive theory learning games
+performance algorithm often terms its regret defined between expected payoff algorithm optimal strategy
+while performance algorithms small finite strategy set well problems large strategy sets still very active
+any assumptions about strategies their payoffs problems large strategy sets allow no solutions any algorithm some random
+but most applications natural assume class payoff functions often design efficient learning algorithms
+paper consider natural class problems structure metric space strategies
+while problems been studied few specific metric case general metric not been before despite being natural setting problems
+example consider problem choosing database aim rate matching they
+each at least highly since number too large
+instead usually into based being allows similarity measure defined
+then its learning algorithm experiments one make about performance similar
+problem following there strategy set unknown payoff function set constraints form some
+each algorithm point independent random sample payoff distribution whose
+thought problem problem metric space
+specifically if defined over all finite sequences then metric constraints may function constant metric space
+problem problem instance problem work } while our work first problem general metric special cases problem prior work problem space under metric experimental work case tree metric
+before our results greater them context optimal bounds problem problem first recently up factors various authors
+following theorem paper regret algorithm instance defined function measures difference between its expected payoff at time
+latter expected payoff always strategy if strategy exists any there algorithm problem whose regret any instance any there does not exist algorithm problem every every instance } fact if time known bound theorem algorithm simply uses optimal algorithm algorithm choose strategies set choice parameter
+while regret bound theorem optimal problem simple algorithm
+particular algorithm strategy set fixed does not gains information about optimal strategy
+moreover metric contains useful information but algorithm information after choosing its initial
+best algorithm
+lower bound further based highly payoff function between being constant some distance scales being very other much smaller distance scales phenomenon information metric
+algorithms do better when payoff function more
+problem question was some classes algorithms specific classes problem question was even answer was provided et
+al
+example special case main result shows if payoff function many each having second then regret algorithm described above sample at random instead
+our theorem below similar phenomenon general metric possible define algorithms whose regret optimal algorithm when input instance } results techniques } paper consider problem arbitrary metric
+following two main questions i what best possible bound regret given metric space one take advantage payoff functions
+paper give complete solution i every metric space family algorithms close best possible regret bound
+also give answer our solution close optimal terms dimension defined below
+fact our algorithm i technique used solve our main new algorithm algorithm confidence bound technique used algorithms novel adaptive step uses past history regions explore strategies regions
+algorithm key our design optimal algorithm every metric space
+moreover show algorithm perform significantly better problem
+every instance define parameter called dimension often significantly smaller than bound performance terms dimension problem instance
+since algorithm bound without prior knowledge dimension } our main new algorithm algorithm confidence bound technique used algorithms novel adaptive step uses past history regions explore strategies regions
+algorithm key our design optimal algorithm every metric space
+moreover show algorithm perform significantly better problem
+every instance define parameter called dimension use bound performance way often significantly than corresponding bound
+note algorithm i e bound without prior knowledge dimension
+state our theorem optimal solution i need few one lower bound general metric
+let us subset metric space dimension if sets all
+point local dimension if open dimension
+space dimension if no whose local dimension below number greater than metric highly sense any two one another theorem follows techniques introduced particular bound using generalization algorithm described } general above dimension
+metric highly sense any two one another two bound theorem using generalization algorithm described
+difficulty theorem metric space
+important problem at level because some most natural applications problem eg problem described based highly metric different at same level same number algorithm theorem algorithm described over whose local dimension given threshold
+lower bound new notion dimension introduced above metric space notion algorithm
+input provide better performance algorithm
+lower bounds based highly set strategies larger than set optimal strategies
+problem instance terms number strategies
+define dimension instance following property every require only sets set strategies whose payoff short maximum amount between
+dimension significantly smaller than dimension algorithm theorem compared algorithm let us point two examples where dimension dimension first if metric function negative second at optimal strategy then dimension only whereas dimension } first example consider metric space part part
+consider tree two complete
+weights distance let resulting metric set
+if there unique optimal strategy part then dimension above dimension whereas dimension
+second example let metric eg metric payoff function some subset
+then dimension dimension eg if finite point set
+
+
+standard metric
+
+
+than local dimension at point where } } above been about model
+particular issue how provide algorithm input metric space may number points
+way our mean decision rule i e function history past observations strategy current
+all our under but they also made into results provided algorithm given appropriate metric space
+most cases our algorithms require only finite open either they point
+setting
+example algorithm uses only requires only one per at most
+however optimal algorithm theorem uses more section algorithm very efficient only total including choose its first strategies bound } } while our results so far been problem some them extended finite case well
+particular algorithm obtain results both finite using more version dimension
+theorem finite case open question while our results so far been problem they extended finite case well
+particular algorithm obtain results both finite using more version dimension
+theorem finite case but more full version } } provide number our analysis algorithm
+first provide bounds several examples reward each strategy independent noise known
+second algorithm so theorem better if reward 1
+third apply result version where some target set not revealed algorithm
+some assumptions analysis algorithm use generalization analyze version some known function
+finally our analysis reward distributions those support finite third some our initial online described introduction
+further consider game each algorithm
+assume condition space give algorithm whose regret dimension defined section terms dimension
+although algorithm based algorithm theorem problem
+future work more section } would matching lower bound algorithm some other algorithm
+goal when form
+any given instance if point where its maximum then algorithm always strategy regret
+one might eg no algorithm one instance without significantly than highly similar
+while been prove algorithm question further } work } metric whose dimension paper provides bound any but no matching lower bound
+optimal regret metric open question
+following version question been following every metric space optimal regret algorithm either above any below any depending whether metric space

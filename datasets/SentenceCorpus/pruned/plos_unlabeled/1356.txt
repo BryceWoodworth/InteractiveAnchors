@@ -1,0 +1,62 @@
+
+effects likely observation than
+however specific role parameters
+here use computational modeling approach experimentally measured effects physiological targets
+then study effects cell dynamics computational models
+model predicts changes action potential at different cycle consistent observed
+model predicts at physiological
+model suggests increased when levels high while
+simulations predict effects observed mechanisms
+simulations also effects not sufficient explain increased risk
+our results suggest effects sufficient account some aspects specific
+introduction
+past studies suggested independent risk factor dependent
+since differences appear time effects been
+studies found no difference but versus under
+long reported had higher risk first event between years
+moreover findings observed more than percent occur
+known one way functional physiological changes via regulation
+may then into
+receptor transcription factor binding region genes leading regulation gene expression
+example d been found receptor
+genomic action requires several before effects observed
+addition genomic pathway may activation protein kinase leading transcription factor activation well activation membrane bound
+recent studies demonstrated may also activity directly via pathway
+kinase leads no activation
+no leads residues underlying current
+2 current no via dependent pathway
+regulation i i leads action potential
+level reported however levels
+than likely role
+through cycle
+reported level phase phase
+was recently shown et al increases i current through no pathways i
+result effects
+recently experiments suggested effects against
+experiments show had compared
+also experiments shown
+effects result human gene underlying current directly binding current
+showed increases rate current
+they also showed presence more
+group proposed may increasing sensitivity via interaction
+because concentration not constant through cycle but rather phase level 1 phase effects sensitivity within range may through cycle
+although studies shown effects question whether normal sufficient account during cycle not known
+effects physiological well
+some studies do report dynamic during cycle related changes risk
+other studies also suggest importance increases risk
+other data not found during specific cycle
+et al found does not significantly change through cycle however c reduced phase after
+study during cycle observed c did not during cycle but c was more phase application
+both experimental data suggest both than more likely develop dependent
+especially increased risk response
+major specifically determine relationship between since system complex
+order risk particular parameter case relevant specific effect must studied without other system
+computational approach
+present study focus effects targets
+use models effects measured experimentally then test changes specifically within complex cellular
+use model make predictions about effects physiological specific parameters
+some recent experimental studies functional effects function range higher than physiological concentration
+critical because via effects 2 current
+although high may relevant during recent study showed at 1 did not significant effects i i
+our model simulations observed through cycle both cell
+simulations also predict effects

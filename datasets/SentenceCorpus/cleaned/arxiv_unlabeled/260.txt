@@ -1,0 +1,19 @@
+ 
+dirichlet process dp mixture models provide flexible bayesian framework density estimation
+unfortunately their flexibility comes at cost: inference dp mixture models computationally expensive even when conjugate distributions used
+common case when one seeks only maximum posteriori assignment data points clusters show search algorithms provide practical alternative expensive mcmc variational techniques
+when true posterior sample desired solution found search serve good initializer mcmc
+experimental results show using techniques possible apply dp mixture models very large data sets
+ introduction 
+dirichlet process dp mixture models provide flexible bayesian solution nonparametric density estimation
+their flexibility derives fact one need not specify number mixture components priori
+practice dp mixture models been used problems genomics  relational learning  data mining vision
+despite successes flexibility dp mixture models comes at high computational cost
+standard algorithms based mcmc those described \namecite{neal98dpmm} computationally expensive take long time converge stationary distribution
+variational techniques attractive alternative but difficult implement remain slow
+paper show standard search algorithms a* beam search provide attractive alternative expensive techniques
+our algorithms allows one apply dp mixture models very large data sets
+like variational approaches dp mixture models focus conjugate distributions exponential family
+unlike mcmc techniques produce samples cluster assignments corresponding posterior our search-based techniques will only find approximate map cluster assignment
+do not believe strong limitation: practice applications cited above all use mcmc techniques draw sample then simply choose sample single assignment highest posterior probability
+if one needs samples posterior then solution found our methods could initialize mcmc

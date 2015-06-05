@@ -1,0 +1,42 @@
+ 
+recognition heuristic suggests when applicable probabilistic inferences based noncompensatory examination whether object recognized not
+overall findings processes underlie fast frugal heuristic somewhat mixed many studies expressed need considering more compensatory integration recognition information
+regardless mechanism involved clear recognition strong influence choices finding might explained fact recognition cues arouse affect thus receive more attention than cognitive cues
+test assumption investigated whether recognition results direct affective signal measuring physiological arousal i e peripheral arterial tone established city-size task
+found recognition cities does not directly result increased physiological arousal
+moreover results show physiological arousal increased increasing inconsistency between recognition information additional cue information
+findings support predictions derived compensatory parallel constraint satisfaction model rather than predictions noncompensatory models
+additional results concerning confidence ratings response times choice proportions further demonstrated recognition information other cognitive cues integrated compensatory manner
+ introduction 
+imagine business trip city you never visited before
+your meetings end later than you had expected you decide spend night
+you make few phone calls find two hotels vacancies both at similar rate
+you know nothing else about hotels however you do recognize name one them
+hotel would you choose
+according goldstein gigerenzer kinds probabilistic inferences could resolved recognition information alone
+more specifically according gigerenzer colleagues individuals equipped several tools i e fast frugal heuristics exploit structure environment some rely solely one piece information at time road reaching decision
+recognition heuristic rh simplest one most prototypical tools toolbox suggests probabilistic inferences about specific criterion e g two cities more populated made basis recognition alone so recognized objects e g name city will chosen over unrecognized ones
+indeed been shown repeatedly people actually prefer recognized objects over unrecognized ones behavior may lead rather accurate inferences
+nevertheless several studies challenge claim recognition information used noncompensatory manner predicted rh
+example oppenheimer broder eichler richter spath additional information been found affect proportion choices followed recognition
+while been argued several studies suffer methodological limitations their findings nonetheless highlight need considering more compensatory integration recognition information
+moreover studies rh focused mainly choice behavior
+yet since choice predictions made different models often overlap difficult draw clear conclusions concerning underlying cognitive processes
+several recent studies attempted address problem example testing hypotheses concerning process measures decision time additionally investigating confidence glockner broder press
+yet additional research needed disentangle role recognition information decision making well examine cognitive processes underlying its use inferences choice behavior
+achieve goals investigated nature processes underlying use recognition information probabilistic inferences using physiological arousal choice proportions decision times confidence dependent measures
+derived concurring predictions basis noncompensatory perspective juxtapose contradicting predictions derived compensatory model
+specifically investigate whether recognition leads increased physiological arousal dominates other cognitive information suggested affect-based noncompensatory models
+been argued recognition information like other affective signals might generated automatically may override cognitive information
+thus examined whether recognition information affectively encoded during decision process
+tested rh against compensatory parallel constraint satisfaction pcs model decision making
+pcs model was selected because been shown account well decision times confidence glockner broder press recognition tasks because makes specific predictions concerning physiological arousal
+pcs model assumes information integration based automatic-intuitive processes  akin perception  consistent interpretations decision tasks constructed
+available information taken into account according its importance advantages emerging preferred option highlighted systematic information distortions
+formalized pcs model includes four possible steps
+first when presented decision task related information activated form mental representation task
+second automatic processes pcs lead maximization consistency automatically highlighting information supporting favored alternative at same time suppressing contradicting information
+result consistent representation available information formed
+third decision maker evaluates choice alternatives if one alternative clearly dominates other i e if there enough information favor alternative alternative chosen
+however if information consistency fails reach certain threshold decision maker takes forth step deliberate construction processes activated change structure network e g changing pattern information search assigning different weights different pieces information
+among other things pcs model supported research shows unconscious modifications available information occur during decision processes

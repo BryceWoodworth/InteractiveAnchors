@@ -1,0 +1,35 @@
+
+environmental may negative effect human health
+better understanding molecular mechanism needed determine risk
+present high confidence human network upon integration systems biology
+computational systems biology model between thus predicting may risk factors human health
+network used identify potential associations between proteins
+examples shown associated cancer cancer potential protein targets
+associations through recent studies power our approach data other data types
+introduction
+humans via but few sources
+potential effect environmental human health major
+example been widely
+humans used treatment
+many affect multiple targets may affect same proteins environmental
+mechanism action small molecules often not associated effects through example interactions
+there thus need improve our understanding underlying mechanism action biological pathways they evaluate impact small molecules human health
+essential step towards effect human health identify all possible molecular targets given
+various approaches been recently identify novel protein using structural similarity
+example et al applied network analysis their targets
+authors identified molecular targets receptor receptor receptor
+recent studies demonstrated could based upon their effect expression
+et al showed genomic could used common mechanism action discovery unknown action
+despite networks remains major issue human health
+analysis environmental similar gene expression still
+recent information activity response small more available
+provide necessary data develop computational systems biology models predict both high level associations more detailed associations
+paper present method disease identify potential molecular targets based integration data structures interaction data disease information functional
+core our procedure derived target concept defined previously
+but instead only binding activity extended concept gene expression
+if two proteins affected two then both proteins space
+our approach not only statistical model but true biological system network associations between human proteins defined network
+our network comparison two high confidence interaction networks functional clusters network generated
+revealed both known well many novel between proteins
+provide literature support some associations between receptor target well between found
+approach data other data types

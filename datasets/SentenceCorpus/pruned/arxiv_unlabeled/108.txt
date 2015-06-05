@@ -1,0 +1,19 @@
+
+consider class binary functions finite
+define sample finite subset sample \ \ where
+let space all samples consider sets wide samples defined \ \ through application result density sets estimate obtained growth function class number possible obtained all fixed samples
+estimate
+introduction
+any expression function value true
+let any fixed positive define space all samples size
+consider sets wide samples i e sets
+will sets functions may
+any fixed parameter define } words all sets corresponding binary functions wide at least
+aim paper complexity class
+since domain then so hence one cannot simply measure its
+instead apply standard measure complexity family sets general domain class
+any subset let where
+growth function see instance defined measures rate number obtained finite set increases function case also called
+since simple sets above then consider finite samples instead finite sample above
+will define its component sets i e any given finite let use possible value
+measure complexity growth function i e

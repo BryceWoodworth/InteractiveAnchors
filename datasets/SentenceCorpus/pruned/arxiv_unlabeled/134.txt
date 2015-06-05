@@ -1,0 +1,36 @@
+
+many applications machine learning data require data matrix
+data all
+fact even all memory may also
+efficient small space algorithms exist example based method stable random not directly paper simple method
+
+
+first where even into 2 at different
+then apply normal random approximate linear
+propose two strategies random
+basic strategy requires only one matrix but more difficult analyze while alternative strategy requires matrices but its theoretical analysis much
+terms accuracy at least basic strategy always more accurate than alternative strategy if data common
+introduction
+study simple method data matrix where even using random
+while many previous work random focused method stable random all
+work using random least some special cases
+machine learning algorithms often instead original data
+application would using distance
+distance also basic loss functions quality measure
+widely used e g support vector often
+here parameter
+common take distance distance distance but principle any values possible
+fact if there efficient mechanism then learning algorithms many values best performance
+data learning applications phenomenon
+example all memory at cost when even just
+data even just whole data matrix
+applications involve learning data algorithms been active research direction
+one used strategy current practice all
+data reduction algorithms sampling methods also popular
+while there been studies useful too
+example because normal distribution determined its first two mean identify components data higher particular i e
+thus critical example field independent component analysis
+therefore use distance when lower order not data
+family stable distributions limited hence not directly using stable distributions
+theoretical there been many studies some also e g comparing two long vectors
+those small space algorithms exist only

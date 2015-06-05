@@ -1,0 +1,35 @@
+
+goal information improve classification accuracy strongly goal information payoffs
+two environments were identified through computer optimization
+three experiments investigated people's search behavior environments
+experiments number number used probabilistic task environmental probabilities
+search task subjects could only single feature before making classification decision
+reward structure
+payoffs either accuracy rewards associated two payoff function different rewards associated each
+experiment number feedback true people later feature whether not would improve rewards
+experiment number reward structure was used during learning
+subjects feature when payoffs were search task
+however if payoffs accuracy subjects feature was reward accuracy
+feature would been most useful under payoff structure
+experiment number found if words numbers used environmental probabilities reward accuracy predicts search
+findings taking into account people's processes during learning current models information search
+introduction
+when when choosing many other situations one must make decisions without having all relevant information
+there widely strategies useful
+what people's information search
+situations where no particular apply statistical optimal experimental design models provide one framework value alternative
+variety experiments suggest models also provide description human behavior situations no payoffs
+but many instance when whether whether contains whether should particular correct decisions apply
+classification decisions
+instance potential should if risk greater than some threshold
+threshold should less than number percent would threshold overall classification accuracy
+there information search different correct decisions
+may best strategy allow true state nature possible take payoffs into account only actual classification decision
+
+our theoretical analyses simulations must considered when information test question make not only when making classification decisions
+other words many highly tests given reward structures
+what extent does people's behavior associated different correct decisions
+address three experiments using probabilistic learning
+identify investigate situations goal information number correct classification decisions should principle lead different search behavior than appropriate reward given particular reward structure
+environmental reward structure payoffs each correct classification decision each classification decision
+examine whether people's behavior reward structures whether people may use probability gain their search decisions even when not adaptive do so

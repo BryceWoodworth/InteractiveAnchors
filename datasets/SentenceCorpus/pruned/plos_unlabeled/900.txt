@@ -1,0 +1,44 @@
+
+cells exhibit
+cell involves interactions well global signal
+many genetic molecular components underlying process been experimentally identified recently model suggested observed terms interactions involving membrane bound proteins
+among key open questions understanding effect role global signal
+our understanding physical systems
+here understand order
+end develop representation underlying molecular processes define phase model provides global view parameters
+show dynamics two growth local process alignment small large scales
+discuss response various types signals show global order signal provided during early phase process
+finally define discuss some experimental predictions model
+introduction
+addition their within cells phenomenon called cell
+growth direction small cell
+where cells form all point direction
+series recent experiments show several key proteins including proteins proteins cell direction within each cell pattern protein
+other experiments show local depends signaling
+first activity large cells
+observations
+1 second do not all point direction yet their strongly correlated between cells across pattern
+thus experimental evidence suggests interaction between cells their
+local need not point addition there global signal out direction
+yet clear molecular pathway remains now unknown
+patterns recent evidence suggest field related presence pathway
+observations between behavior studied well terms statistical relatively simple models
+models each site assume different
+properties influence interaction between their influence tend direction
+typically exhibit two high phase where disordered low phase where interactions over leading arbitrary direction
+state even small field effect itself field yet dynamics leading global alignment
+essential statistical disordered states exist class models discussed general context classification different function few parameters
+study between interaction influence introduced molecular interactions
+statistical define phase different behavior space most relevant parameters
+then address role global signal dynamics global alignment
+molecular model formation was recently proposed
+was shown number experimental findings
+model involves parameters were set
+here alternative approach instead more more complex models develop model smaller number smaller number parameters
+instead particular set parameters data explore behavior model function parameters quantitative features different
+model identify several essential required obtain pattern
+our model important properties although does not all molecular
+after essential model obtain phase its state properties
+then consider dynamics local presence global signal
+show global alignment global signal provided present at dynamics
+finally discuss experimental predictions out model tools required test predictions

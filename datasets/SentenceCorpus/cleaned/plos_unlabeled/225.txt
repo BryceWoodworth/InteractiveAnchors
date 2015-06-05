@@ -1,0 +1,24 @@
+ 
+our investigation knotted structures protein data bank reveals most complicated knot discovered date
+suggest occurrence knot human ubiquitin hydrolase might related role enzyme protein degradation
+while knots usually preserved among homologues also identify exception transcarbamylase
+allows us exemplify function knots proteins suggest how they may been created
+ introduction 
+although knots abundant complex globular homopolymers they rare simple proteins
+sixteen methyltransferases bacteria viruses combined into / knot superfamily several isozymes carbonic anhydrase known knotted
+apart two folds only few insular knots been reported some were derived incomplete structures
+most part knotted proteins contain simple trefoil knots represented three essential crossings projection onto plane
+only three proteins were identified four projected crossings 
+report provide first comprehensive review knots proteins considers all entries protein data bank not just subset
+allows us examine knots homologous proteins
+our analysis reveals several new knots all enzymes
+particular discovered most complicated knot found date human ubiquitin hydrolase suggest its entangled topology protects against being pulled into proteasome
+also noticed knots usually preserved among structural homologues
+sequence similarity appears strong indicator preservation topology although differences between knotted unknotted structures sometimes subtle
+interestingly also identified novel knot transcarbamylase not present homologues known structure
+show presence knot alters functionality protein suggest how knot may been created first place
+mathematically knots rigorously defined closed loops
+fortunately both n c-termini open proteins typically accessible surface connected unambiguously: reduce protein its c  backbone draw two lines outward starting at termini direction connection line between center mass backbone respective ends
+lines joined big loop structure topologically classified determination its alexander polynomial
+applying method protein data bank version january 3 2006 found 273 knotted structures 32,853 entries contain proteins
+knots formed disulfide hydrogen bonds were not included study

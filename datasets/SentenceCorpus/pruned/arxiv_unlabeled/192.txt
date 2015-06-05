@@ -1,0 +1,28 @@
+
+belief algorithm inference models
+known when correct estimate random vector simple sufficient conditions its convergence been
+paper develop algorithm convergence
+our method correct estimate even cases where standard would not
+further solutions linear systems
+our applications since algorithm solution linear systems fundamental problem computer
+case study discuss linear detection problem
+show using our new able convergence linear detection algorithm cases where would
+able increase significantly number
+introduction
+belief algorithm efficient distributed algorithm inference over model
+also problem systems linear one fundamental problems computer large number algorithm applications
+example algorithm applied signal processing detection linear social networks support vector furthermore was recently shown some existing algorithms specific algorithm including local probability detection algorithm others
+two general sufficient conditions convergence graphs
+see also studies specific settings
+work propose novel convergence algorithm any model information matrix matrix even when known sufficient convergence conditions do not
+prove our correct solution
+furthermore consider how method may used solve solution general linear systems
+specific application discuss detection algorithm
+using our able show convergence practical settings where original algorithm did not significantly higher number each cell
+paper follows
+section problem model
+section introduction algorithm
+section our novel positive matrices
+section solution general linear systems
+provide experimental results our linear detection context section
+section

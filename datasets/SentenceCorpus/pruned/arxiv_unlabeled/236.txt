@@ -1,0 +1,53 @@
+
+problem matrix sampling its much attention recently
+problem matrix problem main objective design efficient algorithm matrix only small number its
+although task general recently shown under assumption rank matrix using after one its
+paper propose alternative approach much more efficient larger class matrices significantly smaller number
+specifically first introduce class stable matrices show all those assumption
+then propose basis algorithm show stable rank matrix after its
+our sampling bound only factor limit optimal
+moreover algorithm very algorithm
+more our algorithm will provide exact input matrix time
+contrast algorithm only provide approximate one time
+introduction
+fundamental problem many matrix certain properties some information
+typically problem global structure small number local observations
+instance consider following estimation } statistics machine learning often interest find maximum likelihood estimate matrix random vector
+estimate used study relationship among variables give some performance certain systems
+usually information available estimation
+instance may number independent samples according distribution well some structural constraints e g certain values matrix structure some its values etc
+thus estimation problem matrix so structural constraints certain likelihood function } see given points distance between any two points
+however problem given subset find points called where fixed those out but see eg
+problem many different network see eg molecular see e
+g problem matrix distance matrix certain rank structure motion } fundamental problem computer structure object its motion over time
+problem known structure motion problem literature finding approximation certain matrix see eg
+however due presence matrix often
+when one into account problem matrix one certain rank see eg systems } although task predicting preferences
+problem various systems been developed over years see eg
+those systems matrix preferences where items
+when subset items preferences those items those preferences will then corresponding matrix
+if not considered particular then corresponding matrix will
+now order predict preferences items one will complete matrix so certain performance measure each utility
+note all examples above take information given us
+particular cannot instance unknown matrix examine
+result problem e g there may not unique even any solution given
+indeed important issue
+however not address paper see eg related work
+instead take different approach consider aspects problem
+specifically let rank matrix
+known
+no information about other than its rank available
+however any many order complete
+if all then will able
+thus natural whether only small number still able efficient manner
+being theoretical problem does practical applications
+instance network setting problem needed order network
+out if number required small then will able network just few distance measurements small program
+idea what should aim let us first determine available rank matrix
+will give us lower bound number need order exact
+towards end consider value where matrix
+there
+now must all previous must length
+thus there there
+same there
+hence

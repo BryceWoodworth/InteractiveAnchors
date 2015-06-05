@@ -1,0 +1,69 @@
+
+drug world including human health need develop new effective agents
+previously developed systems biology approach identify major scale
+paper further demonstrate value approach through discovery existing available treatment disease potential
+predicted directly binding
+prediction using whose active component
+concentration well below concentration determined model using human cell
+moreover activity percent at concentration thus active component lead new class
+more generally described paper drug discovery effort novel drug leads therefore development new
+introduction
+leading among
+been estimated world health almost population 2 people disease
+every more than people develop active form disease 2
+over per more than percent
+who estimated if was then disease would more
+despite current global situation over four
+use agents time needed
+defined
+effective treatment use drug drug well key
+difficult because only drug classes exhibit very low high
+world including human health therefore need identify new agents
+developed either strategies through available target protein same similar structures functions
+drug discovery involves use high techniques identify new both natural novel
+approach very few field drug discovery
+indeed biochemical robust lead process
+identification both molecular targets essential active cells task
+even more however appropriate levels order achieve small disease models
+high involved new
+fact been estimated single new drug more than us
+two alternative drug discovery strategies some associated drug discovery strategies both widely discovery novel
+approach involves existing treatment another disease
+some most important use were derived process
+major significant cost time
+when molecular target present under other possible strategy identified points
+examples approach include lead series treatment use cancer
+one main drug discovery develop effective agents through optimization binding specific protein target
+way effects resulting
+however recent genome sequencing revealed proteins involved different biochemical pathways even different may functional binding similar properties
+therefore one target could considered basis leads different target
+recent work large scale interactions et al revealed extent leads across
+they percent active their database had observed activity more than one target
+were found active against targets within same gene family significant number had activity across different gene
+finding so many more than one target provided optimization approach recently developed
+approach involves use new targets concept finite number small molecules humans
+process itself involves limited number drug molecules then so they show new target original target
+way possible derive whole new active molecules single drug
+since drug molecules known humans overall time cost drug discovery significantly reduced when compared strategies
+developed novel computational strategy identify major scale
+our concept across gene more likely goal new ones
+our systems biology approach
+binding site available drug predicted structure model target protein
+similar binding sites identified across using efficient accurate functional site search algorithm
+interactions between drug using
+only those do not experience drug selected further analysis
+drug further its properties taking into account both primary target across genome
+our approach complex interaction networks scale
+lead all drug targets across different gene
+moreover lead optimization focus known outcomes
+way our approach potential increase rate drug discovery development involved
+present study demonstrate our systems biology approach through discovery potential
+identified
+target human involved
+they used disease increasing primary drug
+predicted protein essential type cell
+target
+similar developed direct require no activation
+thus they may observed mechanism many
+our computational predictions been drug growth at concentration well below concentration leading cellular
+direct further experimental shown reduce activity up percent at effective concentration since few effects shows potential drug lead development new class properties

@@ -1,0 +1,47 @@
+
+long after new been learned few words seems other words
+learning effect been demonstrated both humans neural network models
+specifically previous work linear networks learn set associations then them all finally some associations show performance associations
+here prove associations performance effect call negative learning
+difference between learning negative learning presented here due particular method used
+specifically if weight vectors then learning observed
+however here if weight values simply towards then negative learning observed
+biological perspective systems networks used here suggests evolution may selected physiological mechanisms involve using form synaptic rather than synaptic because synaptic but not synaptic learning
+introduction
+idea structural changes formation new
+more recently proposed when cell b part firing some growth process metabolic change place one both cells one cells firing b increased
+now widely learning involves some form adaptation body evidence suggests adaptation associated observed systems
+increase synaptic occurs presence activity specific single
+one adaptation information specific distributed many synaptic therefore distributed representation each
+participants learned
+after participants subset
+performance
+however whereas some associations shows evidence some studies not found not all studies
+may because many studies performed investigate general phenomenon use wide variety different some others recognition performance example
+however within one relevant effect known
+occurs when subject part set previously learned items found reduce items
+however showed learned words was better if cues subset words their learned than if cue words were other
+case seems improve performance but only if each part spatial position was learned
+consistent effect reported using procedure but no network models
+if brain information distributed then each many associations
+therefore some associations should affect other associations learned at about same time
+above previous work shown some associations does not other associations but them
+effect also been demonstrated neural network models where evolution adaptive behaviors
+some associations other associations addition noise weights could result effect small random changes weights
+contrast here prove if weights towards so weights towards then some associations other associations
+used examine here same used follows
+first learn set n 1 n 2 associations 1 2 two 1 2 n 1 n 2 associations
+after all learned associations been measure performance error subset 1
+finally only subset 2 then performance subset 1
+occurs if subset 2 performance 1
+order common network n weights assumed n n 1 n 2 number weights each output not less than number n 1 n 2 learned associations
+using class linear network models described below up n associations learned
+below network one output
+however apply networks multiple output because n each output considered distinct network case our results applied network associated each output
+each input vector corresponding target value d network weight vector response input vector define performance error input vectors 1 d 1 d i i output response input vector i t d t 1
+two 1 2 n 1 n 2 associations
+let network weight vector after 1 2 learned
+when 1 2 network weight vector changes 1 performance error 1 e e finally 2 new weight vector 2 performance error 1 e e learning if performance error 1 less after 2 than was before 2
+given weight vectors 1 2 matrix input vectors vector d also simply
+previous work assumed vector distribution
+here assume instead weight vector 1 given some so making optimal weight vector towards factor 1

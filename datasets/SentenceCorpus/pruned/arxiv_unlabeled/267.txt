@@ -1,0 +1,34 @@
+
+consider task primary system independent where secondary does not information statistical characteristics system
+shown problem may into framework learning specific class observed markov decision processes introduce algorithm at optimal between estimation
+provide finite regret bounds algorithm well numerical evaluation its performance single model well case
+introduction
+recent years cognitive been focus significant research
+propose improve making use large frequency remains
+cognitive goal primary primary called secondary cognitive
+secondary must primary presence their own transmission identify available primary network
+thus potential significantly increasing networks
+paper focus communication model previously considered single secondary primary
+at each time either way
+secondary only sense his main task choose sense at each time its expected transmission
+under model may task particular class observed markov decision process also called
+assumed statistical information about primary available secondary
+practice however statistical characteristics e transition probabilities each not fixed must estimated secondary
+secondary sense not simple parameter estimation problem but task learning
+consider scenarios secondary first out phase statistical information model then follows phase where optimal policy based estimated parameters applied
+key issue between
+issue been considered before who proposed rule set length phase but without evaluation performance approach
+et al also considered problem multiple secondary case but model where each independent distributed source
+field learning class problems known learning several approaches been proposed recently
+however directly model state only observed
+our strategy algorithm setting length phase
+under strategy length phase not fixed phase statistical evidence determine optimal policy
+feature approach strong performance form regret bounds
+strategy described general framework
+model specific example transition probabilities each
+approach assumption each possible parameter value solution problem known not at large but well case model
+provide detailed account use approach two simple model including case considered
+article follows
+model described section
+section algorithm presented its performance terms regret bounds obtained
+application detailed section both one model case

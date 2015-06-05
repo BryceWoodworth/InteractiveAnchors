@@ -1,0 +1,10 @@
+
+prove existence average distance points convex set
+corresponding existence result optimal algorithm learning when data target functions distribution
+introduction
+let measure metric let convex
+will show function defined % its global minimum at unique point
+while existence minimum seems difficult prove
+similar problem been considered
+define so integration finite
+since problem rather likely above result exists literature just been able find

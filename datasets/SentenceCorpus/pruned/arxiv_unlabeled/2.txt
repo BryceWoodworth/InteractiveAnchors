@@ -1,0 +1,21 @@
+
+problem universal source modeling context sources
+show measures any family
+real vector sources continuous appropriate conditions universal parameter estimation give estimates convergence rates between active source estimated source
+also present examples sources universal modeling
+introduction
+universal data single optimal performance all sources within given family
+suggests good universal should accurate model source statistics long data sequence knowledge its
+been made
+under his data binary representation each source two 1 estimate source parameters 2 data resulting where length
+paper idea vector
+sources values some finite
+specifically let
+source distribution some class continuous distributions where subset some
+measures our main result theorem states if class certain conditions then there exists sequence optimal each source class exact identification active source respect distance defined where over all
+rate where length while active source identified up almost
+also describe our measures certain condition present two examples conditions theorem
+while most existing universal rely identification active source e g through large numbers clustering our model mechanism data then appropriate data basis model
+ability model data may prove useful applications where parameter could represent evidence aim data way evidence later high version
+another key feature our approach use theory order universal class sources certain decision regions associated sources
+way estimates thought method types finite

@@ -1,0 +1,29 @@
+ 
+introduce algorithmic information theory  also known theory kolmogorov complexity
+explain main concepts quantitative approach defining `information'
+discuss extent kolmogorov's shannon's information theory common purpose where they fundamentally different
+indicate how recent developments within theory allow one formally distinguish between `structural' meaningful `random' information\/ measured kolmogorov structure function  leads mathematical formalization occam's razor inductive inference
+end discussing some philosophical implications theory
+ introduction 
+how should measure amount information about phenomenon given us observation concerning phenomenon
+both `classical' shannon information theory see chapter  algorithmic information theory start idea amount measured minimum number bits needed describe observation
+but whereas shannon's theory considers description methods optimal relative some given probability distribution kolmogorov's algorithmic theory takes different nonprobabilistic approach: any computer program first computes prints string representing observation then terminates viewed valid description
+amount information string then defined size measured bits shortest\/ computer program outputs string then terminates
+similar definition given infinite strings but case program produces element after element forever
+thus long sequence 1's } contains little information because program size about bits outputs it:  3 1415
+
+
+\pi$ forever
+definition would appear make amount information string other object depend particular programming language used
+fortunately shown all reasonable choices programming languages lead quantification amount `absolute' information individual objects invariant up additive constant
+call quantity `kolmogorov complexity' object
+while regular strings small kolmogorov complexity random strings kolmogorov complexity about equal their own length
+measuring complexity information terms program size turned out very powerful idea applications areas theoretical computer science logic probability theory statistics physics \paragraph{this chapter} kolmogorov complexity was introduced independently different motivations r j solomonoff born 1926 n kolmogorov 1903--1987 g
+chaitin born 1943 1960/1964 1965 1966 respectively
+during last forty years subject developed into major mature area research
+here give brief overview subject geared towards audience specifically interested philosophy information
+exception recent work kolmogorov structure function parts discussion philosophical implications all material discuss here also found standard textbook
+chapter structured follows: start introductory section define kolmogorov complexity list its most important properties
+do much simplified yet formally correct manner avoiding both technicalities all questions motivation why definition not another one 
+followed section provides informal overview more technical topics discussed later chapter sections
+final section discusses theory's philosophical implications well section discusses connection inductive inference less technical again should perhaps glossed over before delving into technicalities sections
