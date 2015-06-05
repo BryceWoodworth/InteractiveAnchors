@@ -81,11 +81,11 @@ def _recalculate(num_topics, vocab_size):
     vocab, priors, Q, H = preprocess(vocab_size)
     print("Preprocessed and found Q in %d seconds." % (time.time() - start))
     inter = time.time()
-    S = anchor_selection(Q, num_topics)
+    S, indices = anchor_selection(Q, num_topics)
     print("Found anchor words in %d seconds." % (time.time() - inter))
     A, C = recover(Q, S, priors)
-    print("Recovered A in %d seconds." % (time.time() - start))
-    return vocab, priors, Q, H, S, A, C
+    print("Recovered A in %d seconds.\n" % (time.time() - start))
+    return vocab, priors, Q, H, S, indices, A, C
 
 
 def _recalculate2(num_topics, vocab_size):
@@ -95,28 +95,28 @@ def _recalculate2(num_topics, vocab_size):
     vocab, priors, Q, H = preprocess2(vocab_size)
     print("Preprocessed and found Q in %d seconds." % (time.time() - start))
     inter = time.time()
-    S = anchor_selection(Q, num_topics)
+    S, indices = anchor_selection(Q, num_topics)
     print("Found anchor words in %d seconds." % (time.time() - inter))
     A, C = recover(Q, S, priors)
-    print("Recovered A in %d seconds." % (time.time() - start))
-    return vocab, priors, Q, H, S, A, C
+    print("Recovered A in %d seconds.\n" % (time.time() - start))
+    return vocab, priors, Q, H, S, indices, A, C
 
 
 def preprocess2(vocab_size):
     path = "datasets/NIPS/"
-    stopfile = "anchor-word-recovery/stopwords.txt"
-    return word_bag_reduce(path + "docword.nips.txt", path + "vocab.nips.txt", "/usr/share/dict/words", vocab_size, stopwords=stopfile)
+    return word_bag_reduce(path + "docword.nips.txt", path + "vocab.nips.txt", "/usr/share/dict/words", vocab_size,
+                           stopwords=(path+"stopwords.txt"))
 
 
 if __name__ == '__main__':
     try:
-        num_topics_nips, vocab_size_nips, vocab_nips, priors_nips, Q_nips, H_nips, S_nips, A_nips, C_nips = pickle.load(open('saved/NIPS.p', 'rb'))
+        num_topics_nips, vocab_size_nips, vocab_nips, priors_nips, Q_nips, H_nips, S_nips, ind_nips, A_nips, C_nips = pickle.load(open('saved/NIPS.p', 'rb'))
         nips_saved = True
     except FileNotFoundError:
         nips_saved = False
 
     try:
-        num_topics_tri, vocab_size_tri, vocab_tri, priors_tri, Q_tri, H_tri, S_tri, A_tri, C_tri = pickle.load(open('saved/tri.p', 'rb'))
+        num_topics_tri, vocab_size_tri, vocab_tri, priors_tri, Q_tri, H_tri, S_tri, ind_tri, A_tri, C_tri = pickle.load(open('saved/tri.p', 'rb'))
         tri_saved = True
     except FileNotFoundError:
         tri_saved = False
@@ -135,8 +135,8 @@ if __name__ == '__main__':
                                  "Would you like to use this save? (y/N):\n" % (vocab_size_tri, num_topics_tri))
                 response = response.lower()
                 if response == 'y' or response == 'yes':
-                    num_topics, vocab_size, vocab, priors, Q, H, S, A, C = num_topics_tri, vocab_size_tri, vocab_tri, \
-                                                                           priors_tri, Q_tri, H_tri, S_tri, A_tri, C_tri
+                    num_topics, vocab_size, vocab, priors, Q, H, S, indices, A, C = num_topics_tri, vocab_size_tri, vocab_tri, \
+                                                                                    priors_tri, Q_tri, H_tri, S_tri, ind_tri, A_tri, C_tri
                     save_loaded = True
             break
 
@@ -146,8 +146,8 @@ if __name__ == '__main__':
                                  "Would you like to use this save? (y/N):\n" % (vocab_size_nips, num_topics_nips))
                 response = response.lower()
                 if response == 'y' or response == 'yes':
-                    num_topics, vocab_size, vocab, priors, Q, H, S, A, C = num_topics_nips, vocab_size_nips, vocab_nips,\
-                                                                           priors_nips, Q_nips, H_nips, S_nips, A_nips, C_nips
+                    num_topics, vocab_size, vocab, priors, Q, H, S, indices, A, C = num_topics_nips, vocab_size_nips, vocab_nips,\
+                                                                                    priors_nips, Q_nips, H_nips, S_nips, ind_nips, A_nips, C_nips
                     save_loaded = True
             break
 
@@ -180,16 +180,16 @@ if __name__ == '__main__':
 
     if not save_loaded:
         if dataset == '0':
-            vocab, priors, Q, H, S, A, C = _recalculate(num_topics, vocab_size)
-            pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, A, C), open('saved/tri.p', 'wb'))
+            vocab, priors, Q, H, S, indices, A, C = _recalculate(num_topics, vocab_size)
+            pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, indices, A, C), open('saved/tri.p', 'wb'))
         elif dataset == '1':
-            vocab, priors, Q, H, S, A, C = _recalculate2(num_topics, vocab_size)
-            pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, A, C), open('saved/NIPS.p', 'wb'))
+            vocab, priors, Q, H, S, indices, A, C = _recalculate2(num_topics, vocab_size)
+            pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, indices, A, C), open('saved/NIPS.p', 'wb'))
 
 
     # Print out some helpful information about the discovered topics
     print("Anchor Words:")
-    print(list(map(lambda x: vocab[x], S)))
+    print(list(map(lambda x: vocab[x], indices)))
     print()
     print("Key: words are given as '<word> - (<P(word | topic)>, <P(topic | word)>, <prior P(word)>)'")
 
@@ -204,13 +204,13 @@ if __name__ == '__main__':
     order = map(lambda x: x[0], sorted(zip(range(len(tops)), coherences), key=lambda x: x[1]))
 
     for i in order:
-        print("Topic " + str(i+1) + ": anchor='%s', P(topic)=%.5f, coherence=%.2f" % (vocab[S[i]], topic_priors[i], coherences[i]))
+        print("Topic " + str(i+1) + ": anchor='%s', P(topic)=%.5f, coherence=%.2f" % (vocab[indices[i]], topic_priors[i], coherences[i]))
         print(list(map(lambda x: vocab[x[0]] + " - (%.5f, %.5f, %.5f)" % (x[1], C[x[0], i], priors[x[0]]), tops[i])))
         print()
 
     print("Anchor word distances:")
     for anchor1 in S:
-        dists = [numpy.linalg.norm(Q[anchor1] - Q[anchor2]) for anchor2 in S]
+        dists = [numpy.linalg.norm(anchor1 - anchor2) for anchor2 in S]
         print(', '.join([('%.3f' % dist) for dist in dists]))
     print()
 

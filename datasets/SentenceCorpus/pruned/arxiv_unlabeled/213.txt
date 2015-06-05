@@ -45,7 +45,7 @@ section will discuss further problems
 paper propose new detection local factor datasets
 uses relative distance object its measure how much objects their
 higher degree object more likely object
-addition properties including its lower bound probability provide choosing size
+addition properties including its lower bound probability provide size
 order parameter setting applications technique our approach
 perform various experiments both datasets compare our detection performance
 experimental results our proposed significant detection datasets

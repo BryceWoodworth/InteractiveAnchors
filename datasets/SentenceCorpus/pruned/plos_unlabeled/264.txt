@@ -1,6 +1,6 @@
 
 many exist distinct each other through
-general models describe systems difficult analyze because their state large
+general models describe systems difficult analyze because their state spaces large
 reduced models been proposed but so far all them allow require reduced potentially assumption
 here suggest new reduction approach allows either reduced reduced used models without
 our approach general framework models

@@ -19,7 +19,7 @@ selection methods differ several aspects
 methods more general selection may many weights
 however methods usually factors variables large number original features
 even if their prediction properties good they usually fact variables terms original features case
-selection methods based principle choosing small number variables among original ones leading
+selection methods based principle small number variables among original ones leading
 selection methods obtain prediction same level ones
 work variable selection methods
 however if whole procedure features prediction model them linear will lead than widely used least latter prediction

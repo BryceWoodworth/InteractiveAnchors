@@ -25,7 +25,7 @@ section derive exact robust functions entropy
 section approximate robust arbitrary
 section show how bounds functions used bounds function especially functions
 results used section robust information
-issue how set up models discussed section
+issue how set up models spaces discussed section
 section problem how bayesian robust
 given section
 properties function occurs expected entropy information

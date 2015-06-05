@@ -1,7 +1,7 @@
 
 problem considered under various models
 given graph whose weights change arbitrary way decision choose each game between two loss chosen defined weights its small possible
-setting problem after choosing decision only weights those chosen
+setting problem after decision only weights those chosen
 problem algorithm given whose average loss best sequence weights depends only number graph
 algorithm linear complexity number number
 efficient setting also given decision about weights corresponding chosen at total time

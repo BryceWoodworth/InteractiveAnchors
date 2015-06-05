@@ -17,7 +17,7 @@ belief exact results if model tree more generally if each component tree
 if model does contain still accurate results using little time
 however if influence large approximate large errors quality results may not
 one way correct influence short increase size approximation using clusters many possible
-however choosing good set clusters highly general method will only work if clusters do not many other words if do not many
+however good set clusters highly general method will only work if clusters do not many other words if do not many
 another method certain extent does exact inference base tree model no other interactions
 part base tree one additional factor good results if model base tree case very sparse models
 however two more interactions not part base tree similar way

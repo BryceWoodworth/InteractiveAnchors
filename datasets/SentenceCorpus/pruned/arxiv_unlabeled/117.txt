@@ -6,7 +6,7 @@ our problem convex relatively large problems using methods
 compare performance our technique other methods several standard data sets
 introduction
 support vector become central binary classification problems
-critical step support vector machine classification choosing kernel matrix measures similarity between data points must positive because matrix data points kernel space
+critical step support vector machine classification kernel matrix measures similarity between data points must positive because matrix data points kernel space
 positive condition kernel matrices also known condition machine learning literature
 classification problem then program
 here present algorithm classification using i e kernel matrices using similarity measures not positive

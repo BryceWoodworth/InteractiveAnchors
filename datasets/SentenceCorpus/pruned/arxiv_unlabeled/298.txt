@@ -3,8 +3,8 @@ propose novel adaptive detection algorithm high data based functions derived gra
 test sample below level
 resulting shown optimal most level case when density mixture known density
 our algorithm efficient being linear dimension data size
-does not require choosing parameters function approximation classes local structure local change
-demonstrate algorithm both real data sets high feature
+does not require parameters function approximation classes local structure local change
+demonstrate algorithm both real data sets high feature spaces
 introduction
 detection involves significant test data distribution
 applications distribution unknown generally cannot estimated training data due combination factors limited data size high
@@ -43,5 +43,5 @@ develop functions turn out empirical estimates sets test point
 real number sufficient optimal
 way level set
 yet our algorithms lead optimal solutions ability control error probabilities
-main features our 1 like our algorithm scales dimension data size applied high feature 2 like our algorithm optimal most level case density mixture any other density not do not require assumptions level sets
-furthermore our algorithm structure local density like other learning approaches do not require choosing complex parameters function approximation classes
+main features our 1 like our algorithm scales dimension data size applied high feature spaces 2 like our algorithm optimal most level case density mixture any other density not do not require assumptions level sets
+furthermore our algorithm structure local density like other learning approaches do not require complex parameters function approximation classes

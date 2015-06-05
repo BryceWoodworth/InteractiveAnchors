@@ -23,8 +23,8 @@ interest been its existence bounds classes basis practical machine learning meth
 recently maximum classes without use
 they also their algorithm maximum classes
 discussed our previous work maximum classes
-also each natural open sets its standard into space
-maximum classes constant result maximum classes graphs
+also spaces each natural open sets its standard into space
+maximum classes spaces constant result maximum classes graphs
 special form maximum classes
 however there many cannot more detailed structure maximum classes than given
 paper approach direction simple maximum classes
@@ -33,7 +33,7 @@ first part show new form prove distinct
 while minimum degree graph unique maximum dimension
 explore simple show set maximum classes those represented simple linear
 classes
-existence maximum due whether classes positive explicitly
+existence maximum due whether classes positive spaces explicitly
 present but classes there many maximum classes under appropriate conditions
 next prove all maximum classes represented simple
 previous work simple maximum classes

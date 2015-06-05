@@ -15,12 +15,12 @@ maximum likelihood if family too large especially if
 complex distributions prior order probability
 model likelihood times prior
 full bayesian procedure complete inference
-typically like mean reported } choose prior } finite small prior often
+typically like mean reported } choose prior } finite small spaces prior often
 case one typically model classes increasing dimension
 dimension often well due factor phenomenon case true model complex model classes since they contain models
 full bayesian treatment one would prior probability e g \ dimension over dimension
 model domain into assume constant distribution within each take frequency estimate probability each bayesian inference
-there heuristics choosing number function data size
+there heuristics number function data size
 model very
 distributions its one dimension at most low more generally fixed heuristic choice number
 present full bayesian solution problems problem

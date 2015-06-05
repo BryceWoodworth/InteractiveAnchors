@@ -3,7 +3,7 @@ risk spatial distribution required health policy local global scales
 generated statistical framework robust uncertainty their utility
 many settings require measures over large regions mean within region populations under different levels risk
 existing approaches provide local uncertainty predictions at each but not been uncertainty over large due series fundamental computational constraints
-here authors present new efficient algorithm generate first time necessary simulation values across very large prediction needed global scale
+here authors present new efficient algorithm generate first time necessary simulation values across very large prediction spaces needed global scale
 new approach model p robust estimates mean at any level spatial
 model used provide estimates populations at risk under three along measures uncertainty
 previously computational study how approaches at disease extended provide measures appropriate

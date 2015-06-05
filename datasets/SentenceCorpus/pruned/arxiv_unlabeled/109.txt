@@ -15,9 +15,9 @@ objective consider number features thus total data size individuals sample accor
 describe function features
 paper use
 first describe general mixture model use paper
-same model was previously used probability over set
+same model was previously used probability spaces over set
 further components features independent
-hence probability distribution features each populations
+hence probability spaces distribution features each populations
 moreover input algorithm mixture samples points algorithm determine each data point was chosen
 general do not assume revealed but do require some bounds their relative
 important parameter probability measure between any two distributions

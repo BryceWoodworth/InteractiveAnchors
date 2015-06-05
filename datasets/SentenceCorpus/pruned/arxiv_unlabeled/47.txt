@@ -37,9 +37,9 @@ obtained each class model corresponding class
 furthermore order take into account temporal series
 those vectors differences between two
 set also using
-those two their characterized simulations performed
+those two spaces their characterized simulations performed
 using procedure simulations then possible estimate distribution simulations global time series at long term
-though could chosen some other classical vector method only clustering property interest here choice perform two fact efficient fast compared other methods limited complexity they provide representation
+though could chosen some other classical vector method only clustering property interest here choice perform two spaces fact efficient fast compared other methods limited complexity they provide representation
 following paper first some basic about classification
 then introduce proposed forecasting method vector time series then vector ones
 next present some experimental results both vector

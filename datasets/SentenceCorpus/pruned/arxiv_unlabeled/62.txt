@@ -37,6 +37,6 @@ furthermore directly binary regression problems
 most other feature selection methods only either binary classification regression
 methods usually using strategy
 still methods classification regression cases at same time
-other hand all cases choosing different also many existing methods special cases
+other hand all cases different also many existing methods special cases
 
 therefore our introduction

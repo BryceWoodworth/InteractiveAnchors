@@ -2,7 +2,7 @@
 address problem learning
 memory algorithm allow general over
 demonstrate our approach our algorithm real
-algorithm novel unique environment directly without using computer model step b does not require input space c continuous d
+algorithm novel unique environment directly without using computer model step b does not require input space c continuous spaces d
 together allows learning much less experience compared previous methods
 introduction
 will require algorithms learn direct experience obtained visual input
@@ -18,11 +18,11 @@ if instead use fixed number effect using variable arbitrary important state spac
 use approach appropriate metric needed determine provide most relevant information what do given situation
 structure space learning algorithm must also fact provide sufficient information determine where problem what action best take
 some form memory needed identify underlying environment states only
-paper present algorithm called continuous sequence memory algorithm state sequence memory more general case
+paper present algorithm called continuous sequence memory algorithm state spaces sequence memory more general case
 like all data environment but uses continuous metric history allows used real environments without prior space
 important work amount knowledge about structure environment available
 typically learning simulation then resulting policy real
 accurate model real environment only when simple used while models make policy difficult
 must learn directly real world
-furthermore since data real world algorithm should efficient state space without amount required different state space case even most approaches even metric state
+furthermore since data real world algorithm should efficient state space without amount required different state space case even most approaches even metric state spaces
 next section section our experiments section our results future our research

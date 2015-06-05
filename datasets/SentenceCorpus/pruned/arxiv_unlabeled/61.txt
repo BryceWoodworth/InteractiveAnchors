@@ -9,7 +9,7 @@ suggests good universal should probabilistic model source long data sequence bas
 been made data via 1 estimate source parameters 2 data model
 where length dimension parameter space
 recently extended
-sources parameter
+sources parameter spaces
 shown under appropriate conditions there exist universal source identification whose source estimation both length
 each parameters estimated
 moreover constant hidden increases model class measured dimension certain class decision regions source

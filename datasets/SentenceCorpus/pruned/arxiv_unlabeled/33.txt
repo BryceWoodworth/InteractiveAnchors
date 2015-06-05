@@ -1,6 +1,6 @@
 
 prediction also known universal prediction individual sequences learning theory making any stochastic assumptions about way observations generated
-goal class prediction rules often function space popular various classes entropy provides framework known bounds metric entropy various sets function bounds performance prediction strategies
+goal class prediction rules often function space popular various classes entropy provides framework known bounds metric entropy various sets function spaces bounds performance prediction strategies
 paper direct approach prediction via metric entropy including other approaches
 introduction
 result prediction given class prediction strategies there prediction strategy almost well best prediction strategies class

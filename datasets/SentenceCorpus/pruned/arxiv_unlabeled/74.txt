@@ -1,6 +1,6 @@
 
-consider regression problem regularization norm over larger than one
-problem group regularization norm where all dimension one where
+consider regression problem regularization norm over spaces larger than one
+problem group regularization norm where all spaces dimension one where
 paper study model consistency group
 derive necessary sufficient conditions consistency group under practical assumptions model
 when linear functions kernel problem usually multiple kernel learning used learning data sources linear variable selection
@@ -26,11 +26,11 @@ also our assumptions usually made consistency results i e model response linear 
 context common situation when methods ones presented paper simply prove convergence best linear predictor assumed sparse both terms vectors patterns
 group groups size one groups size larger than one
 natural context allow size each group i e appropriate
-when kernel procedure out learn best convex combination set basis where each kernel one norm used regularization
+when spaces kernel spaces procedure out learn best convex combination set basis where each kernel one norm used regularization
 framework multiple kernel learning applications kernel selection data data sources linear variable selection
 latter case multiple kernel learning seen variable selection model
 consistency results group case using appropriate functional analysis
 allow out analysis space while algorithm work space optimization
 paper will always between analysis algorithms
-paper present consistency results group while
+paper present consistency results group while spaces
 finally present adaptive our set results simulations examples

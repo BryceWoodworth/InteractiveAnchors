@@ -1,5 +1,5 @@
 
-consider prediction problems large output under assumption output target vectors small support
+consider prediction problems large output spaces under assumption output target vectors small support
 develop general theory popular error output using
 method simple reduction regression problems binary regression problems
 show number need only total number possible making approach more efficient than others
@@ -29,7 +29,7 @@ most approach reduction but too when number possible large especially if applied
 when structure space eg class efficient learning prediction methods often possible
 here focus different type structure output not previous work
 moreover our method general take advantage eg group when available
-recently heuristics been proposed structure large output some degree
+recently heuristics been proposed structure large output spaces some degree
 previously our work most related class output method prediction was first introduced shown useful experimentally
 relative work approach prediction provide bounds regret error design
 loss based approach suggests so loss

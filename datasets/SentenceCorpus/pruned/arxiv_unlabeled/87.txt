@@ -6,7 +6,7 @@ paper use methods test address both
 methods information about information then used set parameter threshold procedure
 procedure well examples
 introduction
-feature selection choosing among set input features variables subset features maximum prediction power output
+feature selection among set input features variables subset features maximum prediction power output
 more let us consider random input vector continuous random output variable predicted
 task feature selection finding features most relevant predict value
 features important practice especially when methods like basis function networks support vector depending kernel considered
@@ -33,9 +33,9 @@ often result selection highly depends value those
 aim paper provide procedure choose two important parameters i e number features search structural criterion estimation
 procedure will detailed situation where information used criterion estimated through
 methods will used obtain choice
-those methods increase computational cost search but provide information about quality setting will shown test used procedure combination allows choosing optimal number estimation information
+those methods increase computational cost search but provide information about quality setting will shown test used procedure combination allows optimal number estimation information
 paper follows
 section information test how they used together
-section choosing number information estimation number features search
+section number information estimation number features search
 section then proposed approach
 method data reported section

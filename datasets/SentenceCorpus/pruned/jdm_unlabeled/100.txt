@@ -15,10 +15,10 @@ some situations
 one situation where changes utility options available future not taken into account when making decision same way situations others not taken into account when individuals make decisions
 lead exhibit increasing average rate example increased practice also positive effects how other life exhibit average rate use increased use also effects perceived rewards other life
 experiment reported participants were presented binary choice task using payoff similar those shown number
-payoff each choice was determined previous choices was each option where choosing optimal option would lead lower payoff but would increase payoff both options over each next trials leading higher overall payoff
-choosing optimal option would lead higher payoff but would payoff over next trials relative optimal option
-choosing option leads payoff although any single option would give number points
-authors found most participants did not learn their choosing instead option payoff
+payoff each choice was determined previous choices was each option where optimal option would lead lower payoff but would increase payoff both options over each next trials leading higher overall payoff
+optimal option would lead higher payoff but would payoff over next trials relative optimal option
+option leads payoff although any single option would give number points
+authors found most participants did not learn their instead option payoff
 suggested choices made according principle global rate
 not new do not take into account although past models generally used time theoretical preferences
 validity was who found patients were more likely choose than control participants may than others taking into account full their decisions
@@ -27,7 +27,7 @@ same area studies using task related various including
 suggests at level could effective if method were found improve decisions tasks involving
 series experiments without participants choose
 reduce participants choose between two options
-they found however end their experiment participants were still choosing levels authors their data suggested participants would at level was
+they found however end their experiment participants were still levels authors their data suggested participants would at level was
 two experiments also understanding payoff how participants could their payoffs
 found choices were only but levels
 provided similar but found no corresponding at all
@@ -36,7 +36,7 @@ suggests choices game not stable decision-making bias but rather due learn payof
 experiments choices either affect number points number choices end experiment
 however so both number points number choices end experiment were affected choices
 two outcomes each decision so effects were through number points each number choices end experiment at rates depending upon history choices
-other words choosing high payoffs through experiment but experiment further payoffs
+other words high payoffs through experiment but experiment further payoffs
 each decision made outcomes each decision more so participants learned choose much than previous experiments
 also task understand payoff
 nature outcomes choices made may not so into simple

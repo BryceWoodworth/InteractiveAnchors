@@ -18,7 +18,7 @@ call maximum mean
 quality depends class functions define
 one hand must so population if only if
 other hand test consistent empirical estimate its sample size increases
-use universal kernel our function classes since will shown both properties also review classical distributions based different function classes
+use universal kernel spaces our function classes since will shown both properties also review classical distributions based different function classes
 more practical note computational cost when compared other given points cost time
 also propose less efficient algorithm computational cost performance at given computational cost at larger data
 define three statistical tests based

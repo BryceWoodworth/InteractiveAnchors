@@ -10,7 +10,7 @@ important probability was universal testing procedure there exists forecasting s
 forecasting strategy however not
 its more practical obtained results probability theory
 wide class forecasting shown any probability there exists forecasting strategy far probability
-choosing probability ways
+probability ways
 probability known used making good most procedure decisions optimal under principle minimum expected loss
 i will describe its use prediction algorithms property universal consistency its more practical
 paper i will discuss some learning possible further research changes i made compared

@@ -22,5 +22,5 @@ both rank norm regularization based prior hypothesis about nature preferences
 rank based hypothesis preferences limited number factors describe objects
 norm preferences between similar similar objects where similarity terms kernel pairs
 main work propose framework both one hand between approach approaches other hand
-particular framework matrix learning classical over
+particular framework matrix learning classical over spaces
 show experiment resulting algorithm lead significant over other methods

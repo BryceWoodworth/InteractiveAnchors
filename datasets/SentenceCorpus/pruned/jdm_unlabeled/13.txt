@@ -12,7 +12,7 @@ short empirical research heuristic
 fast heuristic was introduced provide alternative proposed strategies judgment decision making research
 according models rational decision requires integration all available information about all alternatives
 integration become complex information cues probabilistic
-however were able show simulation binary cue choosing best alternative out two very simple when available cues sequential order validity probability cue will lead correct decision given between alternatives direction first cue
+however were able show simulation binary cue best alternative out two very simple when available cues sequential order validity probability cue will lead correct decision given between alternatives direction first cue
 stimulus environment they used their population size number features being present not simple search rule rule decision rule decisions same quality computational integration set cue information
 information search after having found first cue therefore been called decision making
 term was chosen clear contrast models integration all available information usually not how information was

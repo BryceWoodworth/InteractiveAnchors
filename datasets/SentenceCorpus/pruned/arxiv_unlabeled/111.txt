@@ -33,7 +33,7 @@ when rather than matrices one may also work dimension one consider arbitrary fea
 among key theoretical paper new us develop new general methods learn many parameters even when feature space
 classical theorem empirical loss norm kernel space more general functions function classes
 also show appropriate choice both objects may consider number existing machine learning methods special cases our general framework
-particular show several methods rank optimization regularization those based norm regularization all special cases regularization
+particular show several methods rank optimization regularization those based norm regularization all special cases regularization spaces
 moreover particular choices lead specific matrix learning
 specific application presence attributes show our generalization leads better predictive performance
 paper follows

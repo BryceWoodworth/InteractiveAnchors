@@ -18,8 +18,8 @@ paper study
 show simple regret respect family probability
 distributions if only if regret
 
-based able prove metric
-metric
+based able prove metric spaces
+metric spaces
 
 respect family all probability distributions continuous functions
 introduction

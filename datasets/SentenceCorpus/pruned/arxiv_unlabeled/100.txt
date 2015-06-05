@@ -14,8 +14,8 @@ following one leading between data propose at all possible between two point
 more assume each point graph structure most often graph consider recently introduced graph
 consider all possible compare matching
 however set even set size cannot described so larger sets used eg
-shown choosing appropriate local efficient dynamic allow over number time
-kernel thus provides efficient way very large feature see eg
+shown appropriate local efficient dynamic allow over number time
+kernel thus provides efficient way very large feature spaces see eg
 however context computer sets points local use local kernel cannot expressed terms each pair points dynamic approaches cannot then applied
 main paper design local kernel not but instead according graph underlying
 through models design positive matrices models

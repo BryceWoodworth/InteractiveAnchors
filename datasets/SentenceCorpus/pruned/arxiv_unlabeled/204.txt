@@ -1,7 +1,7 @@
 
 present support vector
 they natural matrix
-no additional parameter setting choosing learning rate required
+no additional parameter setting learning rate required
 experiments demonstrate convergence good
 analyze rates convergence bounds
 test performance several datasets using various report generalization errors standard
@@ -17,7 +17,7 @@ at high level they work function at each into two fixed set where constant set v
 methods though efficient space time still require heuristic between fixed sets
 alternative algorithm general problem been applied
 algorithm called uses solution
-does not require any heuristics setting learning rate choosing how set
+does not require any heuristics setting learning rate how set
 paper problem demonstrate matrix algorithm
 very practice due its learning rate parameter low computational complexity
 new allows us output value kernel function greater

@@ -1,12 +1,12 @@
 
-paper statistical concept prediction arbitrary probability density functions feature level distributions provides probabilities continuous random variables
+paper statistical concept prediction arbitrary probability density functions feature spaces level distributions provides probabilities continuous random variables
 advantage probability density function into level distribution classification detection direct manner
 introduction
 prediction will degree confidence contain future pattern recognition feature vectors
 concept its clear stochastic
 usually too example distributions
 clear case more than one feature vectors exist would better prediction regions
-even more situation feature
+even more situation feature spaces
 lack why prediction used pattern recognition
 actually because prediction regions would very useful example recognition detection
 instead prediction other methods used

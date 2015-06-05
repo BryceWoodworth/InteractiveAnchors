@@ -18,7 +18,7 @@ further when expected performance gain additional examples comparing cost more
 one main development methods bayesian framework
 while due nature problem there potential show experimentally times obtain close optimal times
 also use order address lack method comparing different active learning algorithms under conditions similar
-comparison method choosing times test set needed
+comparison method times test set needed
 rules active learning algorithms allows us compare active learning algorithms range different
 paper follows
 section proposed cost function when while section related work

@@ -14,7 +14,7 @@ understanding solution object recognition requires recognition systems aim our o
 computational approaches important because they provide experimentally because recognition system particularly effective measure understanding object recognition
 however major recognition performance models
 systems should able do what our own visual systems but how evaluate goal
-practice choosing image set against test performance
+practice image set against test performance
 although popular recent approach study use natural part because they problems real world
 example computational image set standard testing natural object recognition performance
 set large number into object additional

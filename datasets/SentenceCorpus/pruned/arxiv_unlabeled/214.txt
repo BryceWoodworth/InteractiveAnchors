@@ -20,7 +20,7 @@ become very popular years many approaches found
 authors use detection process propose during detection step
 approach use set
 point view markov decision process
-underlying application problem choosing at each time action within set available actions
+underlying application problem at each time action within set available actions
 choice generally based density state vector environment system variables system itself
 generally assumed state at least part state
 moreover most applications only information state must estimated measurements

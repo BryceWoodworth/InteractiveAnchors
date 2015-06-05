@@ -16,8 +16,8 @@ while performance algorithms small finite strategy set well problems large strat
 any assumptions about strategies their payoffs problems large strategy sets allow no solutions any algorithm some random
 but most applications natural assume class payoff functions often design efficient learning algorithms
 paper consider natural class problems structure metric space strategies
-while problems been studied few specific metric case general metric not been before despite being natural setting problems
-example consider problem choosing database aim rate matching they
+while problems been studied few specific metric spaces case general metric spaces not been before despite being natural setting problems
+example consider problem database aim rate matching they
 each at least highly since number too large
 instead usually into based being allows similarity measure defined
 then its learning algorithm experiments one make about performance similar
@@ -25,20 +25,20 @@ problem following there strategy set unknown payoff function set constraints for
 each algorithm point independent random sample payoff distribution whose
 thought problem problem metric space
 specifically if defined over all finite sequences then metric constraints may function constant metric space
-problem problem instance problem work } while our work first problem general metric special cases problem prior work problem space under metric experimental work case tree metric
+problem problem instance problem work } while our work first problem general metric spaces special cases problem prior work problem space under metric experimental work case tree metric
 before our results greater them context optimal bounds problem problem first recently up factors various authors
 following theorem paper regret algorithm instance defined function measures difference between its expected payoff at time
 latter expected payoff always strategy if strategy exists any there algorithm problem whose regret any instance any there does not exist algorithm problem every every instance } fact if time known bound theorem algorithm simply uses optimal algorithm algorithm choose strategies set choice parameter
 while regret bound theorem optimal problem simple algorithm
 particular algorithm strategy set fixed does not gains information about optimal strategy
-moreover metric contains useful information but algorithm information after choosing its initial
+moreover metric contains useful information but algorithm information after its initial
 best algorithm
 lower bound further based highly payoff function between being constant some distance scales being very other much smaller distance scales phenomenon information metric
 algorithms do better when payoff function more
 problem question was some classes algorithms specific classes problem question was even answer was provided et
 al
 example special case main result shows if payoff function many each having second then regret algorithm described above sample at random instead
-our theorem below similar phenomenon general metric possible define algorithms whose regret optimal algorithm when input instance } results techniques } paper consider problem arbitrary metric
+our theorem below similar phenomenon general metric possible define algorithms whose regret optimal algorithm when input instance } results techniques } paper consider problem arbitrary metric spaces
 following two main questions i what best possible bound regret given metric space one take advantage payoff functions
 paper give complete solution i every metric space family algorithms close best possible regret bound
 also give answer our solution close optimal terms dimension defined below
@@ -51,13 +51,13 @@ algorithm key our design optimal algorithm every metric space
 moreover show algorithm perform significantly better problem
 every instance define parameter called dimension use bound performance way often significantly than corresponding bound
 note algorithm i e bound without prior knowledge dimension
-state our theorem optimal solution i need few one lower bound general metric
+state our theorem optimal solution i need few one lower bound general metric spaces
 let us subset metric space dimension if sets all
 point local dimension if open dimension
-space dimension if no whose local dimension below number greater than metric highly sense any two one another theorem follows techniques introduced particular bound using generalization algorithm described } general above dimension
-metric highly sense any two one another two bound theorem using generalization algorithm described
+space dimension if no whose local dimension below number greater than metric spaces highly sense any two one another theorem follows techniques introduced particular bound using generalization algorithm described } general above dimension
+metric spaces highly sense any two one another two bound theorem using generalization algorithm described
 difficulty theorem metric space
-important problem at level because some most natural applications problem eg problem described based highly metric different at same level same number algorithm theorem algorithm described over whose local dimension given threshold
+important problem at level because some most natural applications problem eg problem described based highly metric spaces different at same level same number algorithm theorem algorithm described over whose local dimension given threshold
 lower bound new notion dimension introduced above metric space notion algorithm
 input provide better performance algorithm
 lower bounds based highly set strategies larger than set optimal strategies
@@ -98,6 +98,6 @@ future work more section } would matching lower bound algorithm some other algor
 goal when form
 any given instance if point where its maximum then algorithm always strategy regret
 one might eg no algorithm one instance without significantly than highly similar
-while been prove algorithm question further } work } metric whose dimension paper provides bound any but no matching lower bound
-optimal regret metric open question
+while been prove algorithm question further } work } metric spaces whose dimension paper provides bound any but no matching lower bound
+optimal regret metric spaces open question
 following version question been following every metric space optimal regret algorithm either above any below any depending whether metric space

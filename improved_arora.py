@@ -36,8 +36,7 @@ def anchor_selection(Q, k):
     epsilon: an error bound
 
     Output:
-    A list of indexes that correlate to the row number of
-    anchor words in Q.
+    A numpy array of the rows of Q corresponding to anchor words
 
     NOTE: Right now this does not take advantage of the FJLT
     algorithm for random projection.
@@ -60,15 +59,34 @@ def anchor_selection(Q, k):
         selection, anchor = _farthest_span(anchors, Q, anchor_indices)
         anchor_indices.append(selection)
         anchors.append(anchor)
-    return anchor_indices
+
+    anchors = numpy.asarray([Q[i] for i in anchor_indices])
+    return anchors, anchor_indices
 
 
 def exponentiated_gradients(targets, convex, epsilon=1e-7, max_iters=10000, max_steps = 20, starting_step=1, decay=2.0, c1=1e-4, c2=0.75, num_threads=4):
     """Finds the best reconstruction of target as a convex combination
     of other vectors.
 
-    currently changing too much to bother keeping comments up to date until I find something that
-    works well."""
+    Inputs:
+    targets:    The matrix of values to reconstruct
+    convex:     The matrix of the convex set we are reconstructing with
+    epsilon:    A bound on the convergence
+    max_iters:  The maximal number of gradient steps made for a given row before giving up
+    max_steps:  The maximal number of trials in the line search before giving up
+    starting_step:  The size of the first trial step in the line search
+    decay:      The ratio by which line search is modified
+    c1:         The sufficient decrease parameter for line search
+    c2:         The curvature parameter for line search
+    num_threads:    The number of threads to use (currently unused)
+
+    Outputs:
+    The reconstruction weights
+    The number of converged rows
+    The total number of iterations run
+    The average number of steps per iteration
+    The maximal number of steps for any iteration
+    """
     assert 0 < c1 < c2 < 1
 
     numpy.seterr(all='raise', under='ignore')
@@ -189,9 +207,7 @@ def recover(Q, S, priors):
     Returns: word-topic matrix A
     """
 
-    anchors = numpy.asarray([Q[i] for i in S])
-    C, converged, total_iters, avg_steps, max_num_steps = exponentiated_gradients(Q, anchors)
-    print(converged, total_iters, avg_steps, max_num_steps)
+    C, converged, total_iters, avg_steps, max_num_steps = exponentiated_gradients(Q, S)
     A = numpy.empty_like(C)
 
     denoms = [0] * A.shape[1]

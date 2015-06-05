@@ -12,7 +12,7 @@ leads way provide bounds their time convergence
 particular many classes games been considered literature including several game scenarios games
 introduction
 consider where agents learn their experiments small
-might example about choosing their about their
+might example about their about their
 % will assume rational
 % assume agents rational
 understanding when whole towards rational situations i e sense game theory

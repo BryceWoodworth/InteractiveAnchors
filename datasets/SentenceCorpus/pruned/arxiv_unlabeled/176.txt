@@ -32,7 +32,7 @@ machine learning literature context much attention been given years techniques k
 approaches having their mathematical regularization theory problems statistical learning theory bayesian estimation
 kernel allows estimation functions defined sets arbitrary sources data
 been recently extended setting
-general framework solve learning problems using kernel methods regularization been proposed theory kernel functions
+general framework solve learning problems using kernel methods regularization been proposed theory kernel spaces functions
 many applications social network data processing systems processing examples required
 learning find their natural application data problems involving very large datasets therefore required scale well number tasks examples
 algorithm solve regression problems been proposed

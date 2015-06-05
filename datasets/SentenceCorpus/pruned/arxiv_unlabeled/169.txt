@@ -43,7 +43,7 @@ addition also use robustness directly prove consistency
 main well paper
 section robust regression problem independent show problem norm regularization term
 hence provide robustness perspective
-% choosing regularization parameter
+% regularization parameter
 robust regression loss functions arbitrary norm section
 also consider uncertainty sets require different features conditions
 used robust solution obtain solutions additional properties

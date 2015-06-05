@@ -16,7 +16,7 @@ problem having observed what likelihood all
 more computer problem learning where predicting future necessary policy
 see section other applications
 let class models over sequences t \ their unknown true sampling distribution
-our main result will arbitrary but simple introduction let us finite
+our main result will arbitrary spaces but simple introduction let us finite
 case define probability data sequence
 possible eg \ using
 since optimal among all

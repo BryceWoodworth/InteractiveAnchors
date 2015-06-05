@@ -21,7 +21,7 @@ those problems many methods been proposed recent years
 temporal methods been solve problems dynamic up learning
 different learning combined
 example presented new model representation generalization based standard
-adaptation inference systems problems large continuous state also proposed
+adaptation inference systems problems large spaces continuous state spaces also proposed
 many specific also related methods practice
 all more work needed achieve new necessary explore more effective representation methods learning mechanisms
 paper explore some using theory propose novel learning method

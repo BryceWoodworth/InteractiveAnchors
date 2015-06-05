@@ -1,5 +1,5 @@
 
-consider problem choosing density estimate set distributions distance unknown distribution
+consider problem density estimate set distributions distance unknown distribution
 analyze two algorithms minimum distance estimate
 estimate requires than minimum distance estimate but than latter
 focus computational density estimation

@@ -1,13 +1,13 @@
 
 problem classical problem one given information bounds difference expected payoff between certain pairs strategies
-classical results et al regret bound problem finite metric
-recent results problems their lower bounds many metric
+classical results et al regret bound problem finite metric spaces
+recent results problems their lower bounds many metric spaces
 universal
 prove answer every metric space optimal regret algorithm either above any below any
 does not between finite metric instead depends whether metric space
 our lower bound techniques online learning classical sets theorem
 also consider version problem problem show problem similar
-give matching lower bounds regret problem metric
+give matching lower bounds regret problem metric spaces
 bounds form where depends metric space
 introduce novel notion problem
 finally show both problems become sense no algorithm regret if only if metric space
@@ -26,20 +26,20 @@ models situations where decision some similarity information about strategies si
 similarity information may metric space structure strategy set constraints expected payoff function function constant metric space
 % constant
 problem was introduced et al
-work studied problem few specific metric real
+work studied problem few specific metric spaces real
 prior work considered regret function time focused metric space
 various lower bounds form were where depends metric space
 particular if metric space standard metric then there exists algorithm regret bound up factors
 more generally arbitrary metric space one define there exists algorithm regret up factors if see
 following
-although algorithms regret known most metric existing work provides no examples metric algorithms regret bound although bound all finite
-fact most metric been studied known lower bounds form where therefore natural regret best possible metric space
-there metric one achieve regret
+although algorithms regret known most metric spaces existing work provides no examples metric spaces algorithms regret bound although bound all finite
+fact most metric spaces been studied known lower bounds form where therefore natural regret best possible metric space
+there metric spaces one achieve regret
 there any metric space best possible regret between
 % any metric space } make above issue more let us following
 questions above following
 regret bound best possible even problems lower bound
-thus our bound problems metric best possible bound between
+thus our bound problems metric spaces best possible bound spaces between
 furthermore show metric turn our attention version problem
 any problem there exists corresponding problem after each payoffs all strategies revealed
 settings been studied online learning literature under best problems
@@ -55,36 +55,36 @@ sample
 metric structure known algorithm measure not
 show problem similar one theorem
 bound feedback lower bound full feedback thus issue what means algorithm feedback many strategies
-between metric problem very those
-let us consider end metric problem
+between metric spaces problem very those
+let us consider end metric spaces problem
 obtain problem if only if metric space not
 moreover our bound setting whereas lower bound full feedback
 consider
 view lower bound matching bounds
-et al observed bounds every metric space finite problem their algorithm version therefore natural whether there exist metric optimal regret problem between
+et al observed bounds every metric space finite problem their algorithm version therefore natural whether there exist metric spaces optimal regret problem between
 question matching lower bounds terms novel notion problem
 lower bound theorem version problem instance further property each function itself function
 term version full feedback
-fact version obtain matching bound end consider metric space all probability distributions under distance
-introduce novel notion better complexity regret algorithm allows very analysis } any metric space there exist parameters any not any
+fact version obtain matching bound end consider metric spaces space all probability distributions under distance
+introduce novel notion better complexity spaces regret algorithm allows very analysis } any metric space there exist parameters any not any
 depending metric space take any value
-there exist metric } any metric space there exists problem any not any } } introduce several new techniques most important appear two main results theorem theorem } } main paper online learning requires novel techniques
+there exist metric spaces } any metric space there exists problem any not any } } introduce several new techniques most important appear two main results theorem theorem } } main paper online learning requires novel techniques
 particular essential two main results theorem theorem
 there identify simple property result another property lower bound
-classical notion
+spaces classical notion
 work but particular given here new best our knowledge
-metric three result metric space lower bound metric space following together two properties
+metric spaces three result metric space lower bound metric space following together two properties
 follows classical
 provide making our
-reduce problem complete metric show problem given metric space if only if
+reduce problem complete metric spaces show problem given metric space if only if
 same true problem direction
 then main results lower bound theorem metric space } define algorithm function history past observations strategy current
 algorithm defined function observation history strategy current case feedback model pair strategies observation history either sequence elements full feedback model sequence feedback model
 potentially issue metric space
 our results issue metric space via
 moreover main result requires
-also provide result wide family metric including example metric finite number limit points more
-metric finite rank notion work } algorithms stochastic problem regret form two types depending whether constant depend problem instance
+also provide result wide family metric spaces including example metric spaces finite number limit points more
+metric spaces finite rank notion work } algorithms stochastic problem regret form two types depending whether constant depend problem instance
 instance whereas algorithm only where number
 lower bound version show any algorithm given time there exists problem instance whose regret large at time whereas version one much more any algorithm there exists problem instance whose regret large often
 paper focus stochastic problem considered paper several other been studied literature research computer see } stochastic problem considered paper several other been studied literature see
@@ -104,12 +104,12 @@ however view not likely because problem payoff one payoffs whereas prior work li
 bayesian problems limited similarity information not clear how model information because bayesian setting similarity between represented via correlated rather than metric space must all payoffs before first adaptive choices made algorithm all previous } paper } section
 present two main results
 lower bound section results section
-metric
-result metric theorem section
-result via metric finite rank section
+metric spaces
+result metric spaces theorem section
+result via metric spaces finite rank section
 result section
 very high dimension including discussed
 some
-reduce problem complete metric
+reduce problem complete metric spaces
 all our lower bounds
 provide

@@ -45,7 +45,7 @@ article introduction model
 treatment many see section at end particular
 section also provides original information theory sequential decision theory
 theory sequential decisions very general form called model actions may depend arbitrary past events
-discuss parameters including size agent their universal choice
+discuss parameters including size spaces agent their universal choice
 
 how sense possible at all been subject long
 principle multiple probability theory
@@ -69,7 +69,7 @@ problem construct model still any other time length algorithm
 time order
 solution requires universal machine within theory system
 finally discuss some general interest
-various including actions choice treatment information agents
+various including actions choice spaces treatment information agents
 further research including approximation knowledge training
 also include some number
 

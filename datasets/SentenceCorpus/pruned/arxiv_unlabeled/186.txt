@@ -4,7 +4,7 @@ if information matrix at true distribution then been unknown what estimate about
 paper study regression problem prove limit theorem shows relation between regression problem two real threshold
 obtained theorem important application statistics because us estimate generalization error training error without any knowledge true probability distribution
 introduction
-let natural numbers real
+let natural numbers real spaces
 assume probability space random variable subject probability density function where probability density function constant function norm
 function called regression function
 assume set random variables subject same probability distribution

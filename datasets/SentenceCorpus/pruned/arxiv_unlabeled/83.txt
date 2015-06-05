@@ -1,6 +1,6 @@
 
 bayesian framework framework hypothesis testing parameter estimation sequence prediction classification regression
-but standard statistical choosing model class prior not always available particular complex situations
+but standard statistical model class prior not always available particular complex situations
 bayesian framework unique universal choice model class prior
 i discuss how sense universal \ sequence prediction various problems bayesian sequence prediction
 i show model many strong total future bounds bounds contrast most classical continuous prior no problem \ universal problem

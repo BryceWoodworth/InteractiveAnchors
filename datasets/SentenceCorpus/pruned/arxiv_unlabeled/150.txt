@@ -8,7 +8,7 @@ context study more general theorem larger class
 provide necessary sufficient condition class matrix them some examples practical importance
 our analysis uses basic matrix theory especially useful notion matrix function }
 introduction
-regularization important learning examples long history variety
+regularization spaces important learning examples long history variety
 been studied different statistics optimal estimation recently been focus attention machine learning theory see example
 regularization optimization problem involving error term
 important role solutions certain properties
@@ -18,7 +18,7 @@ interest paper will determine conditions under
 first paper describe property should order give theorem
 out property simple expressed function space norm
 thus show condition been known sufficient also necessary
-second paper context focus class problems matrix structure important role
+second paper context spaces focus class problems matrix structure important role
 problems recently several machine learning applications show version theorem class significantly larger than context
 see matrix important context matrix parameters different regression tasks certain across tasks
 general consider problems framework regularization
@@ -30,14 +30,14 @@ error function measures error data
 typically functions
 example regression common choice would errors
 function called certain properties vector small norm chosen based available prior information about target vector
-some measure smaller norm function
+some spaces spaces measure smaller norm function
 framework several learning algorithms regression support vector many more see
 important practical approach observation certain choices parameters not
 specifically when space norm theorem there exists solution linear combination input vectors where some real
 result simple prove at least see example
 also known any function norm
 several other results about representation form also recent years
-moreover theorem been important machine learning particularly within context learning kernel see
+moreover theorem been important machine learning particularly within context learning kernel spaces see
 our first objective paper derive necessary sufficient conditions
 even though one regularization problems more study problems problems form \
 thus paper section how regularization

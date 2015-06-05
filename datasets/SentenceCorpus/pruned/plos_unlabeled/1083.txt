@@ -16,7 +16,7 @@ instance neural requires knowledge probability patterns activity response stimul
 probability distributions however
 there several biological systems large numbers elements so exhibit number fact large number elements typically each other making view system independent because biological systems very little data
 example current only about neurons out human brain
-so not only problem probability distributions high must do based small neurons network
+so not only problem probability distributions high spaces must do based small neurons network
 despite recent work suggested situation may less than seems accurate statistical description systems without having examine all possible
 one measure probability distribution over pairs elements use those full distribution
 models potentially fundamental number pairs number elements not

@@ -1,20 +1,20 @@
 
-learning positive allow use large potentially feature computational cost only depends number observations
+learning positive allow use large potentially feature spaces computational cost only depends number observations
 usually through predictor functions
 paper explore norm norm
 assume kernel into large individual basis show then possible perform kernel selection through multiple kernel learning framework time number selected
 framework applied linear variable our simulations datasets datasets show large feature space through leads predictive performance
 introduction
 two kernel methods been theoretical machine learning framework
-using appropriate regularization consider large potentially feature while within feature space no larger than number observations
+using appropriate regularization consider large potentially feature spaces while within feature space no larger than number observations
 kernel design specific data types algorithms many learning tasks see eg
 regularization norm also interest recent years
 while early work focused efficient algorithms solve convex optimization problems recent research at model selection properties predictive performance methods linear case within multiple kernel learning framework
 paper aim between two research use feature space
-indeed feature large estimated predictor function require only small number features situation where
+indeed feature spaces large estimated predictor function require only small number features situation where
 leads two natural questions answer 1 perform optimization very large feature space cost size input space 2 does lead better predictive performance feature selection
 more consider positive kernel expressed large positive basis local
-situation where large feature space smaller feature aim do selection among many may through multiple kernel learning
+situation where large feature space smaller feature spaces aim do selection among many may through multiple kernel learning
 one major difficulty however number smaller usually dimension input space multiple kernel learning directly would
 order selection make assumption small graph
 following consider specific combination will our specific kernel framework able use design optimization algorithm complexity number selected

@@ -36,7 +36,7 @@ regression framework best set weights cues if one had data knowledge they would 
 then consider weights would cues various decision heuristics if they were estimates
 within framework prove results respect measure statistical called risk defined section number measures how close heuristic weights expected best weights
 measure particularly useful because within single sample set weights best weights more new samples
-advantage problem within framework linear model results range situations including choosing between more than two options binary continuous recognition evaluate any single variable rule not just
+advantage problem within framework linear model results range situations including between more than two options binary continuous recognition evaluate any single variable rule not just
 show under certain conditions greater weight single variable relative all others form optimization maximum value risk over all choices decision rules
 number cues large strategy rule large weight single cue weights all others
 use term describe effect single predictor cue more weight than any other predictor cue according optimal strategy

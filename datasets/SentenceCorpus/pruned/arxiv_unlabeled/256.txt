@@ -1,6 +1,6 @@
 
 present framework learning multiple related tasks
-our framework form prior knowledge output tasks
+our framework form prior knowledge output spaces tasks
 present learning results analyze conditions under learning possible
 present results learning recognition system our framework consistent over methods
 introduction

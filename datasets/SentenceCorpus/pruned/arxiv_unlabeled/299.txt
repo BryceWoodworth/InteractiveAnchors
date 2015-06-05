@@ -27,7 +27,7 @@ important advantage our method proposed optimization algorithm very large data s
 but most loss function efficient learning linear kernel space
 result kernel learning methods our method i e applied data
 later paper our result other convex loss functions learning give conditions able evaluate learned kernel functions
-our result theorem kernel where optimal parameters expressed terms training data
+our result theorem kernel spaces where optimal parameters expressed terms training data
 our case even though matrix may represented terms data points making possible learned kernel function value over arbitrary points
 finally apply our algorithm number learning problems including ones domains computer
 existing techniques learn linear distance kernel functions over domains show resulting functions lead over techniques variety problems

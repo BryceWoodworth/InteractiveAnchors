@@ -1,5 +1,5 @@
 
-less more effect occurs when agent greater probability choosing better than more agent who more items
+less more effect occurs when agent greater probability better than more agent who more items
 define probability correct choice made basis recognition probability correct choice made when both items via additional cues
 they occurs if greater than greater than number number constant number items n
 fact shown parameters generally remains constant n them simple functions n
@@ -9,12 +9,12 @@ major findings presented here follows occur when less than occur when greater th
 primary results advantage recognition cue depends not only cue but also order items learned
 turn suggests research area should more dynamic focus learning memory processes effects information
 introduction
-choosing between two items agent who one but not other may use recognition cue make choice whereas one who both items must use other cues one who must
-less more effect occurs when agent greater probability choosing better than more agent who more items
+between two items agent who one but not other may use recognition cue make choice whereas one who both items must use other cues one who must
+less more effect occurs when agent greater probability better than more agent who more items
 paper provides some new mathematical results understanding when occur results
 many researchers validity recognition heuristic report high rates
 reported number percent rate
-found number percent their number percent their samples used recognition heuristic choosing
+found number percent their number percent their samples used recognition heuristic
 reported number percent setting
 found recognition heuristic number percent their study more than four other mechanisms
 finally observed additional cue knowledge increased recognition heuristic over cases where recognition object did not any other knowledge
@@ -33,10 +33,10 @@ however assume constant number items n
 fact parameters remains constant n them simple function n
 see indeed assumption not
 see how various assumption lead presence
-approach problem between probability choosing between pairs items using knowledge cue probability choosing between any pair items using knowledge cue i e knowledge cue validity
+approach problem between probability between pairs items using knowledge cue probability between any pair items using knowledge cue i e knowledge cue validity
 i will demonstrate occur when less than
 number number items number
-shows rank each outcome cue rank shows their knowledge cue used choosing between two items
+shows rank each outcome cue rank shows their knowledge cue used between two items
 paper i will knowledge cue no
 first let us determine
 number number correct choices number
@@ -49,7 +49,7 @@ example first number so using cue compare other number items would choose first
 contrast third number so would make only number correct choice comparing its those items actually
 d shows corresponding number choices
 there c number correct d number choices resulting cue validity number number number number
-two number probability choosing between pairs items using knowledge cue c c d number number number number
+two number probability between pairs items using knowledge cue c c d number number number number
 note not
 example fact probability making correct choice between pairs number items not same probability making correct choice when all number items
 moreover both depending order items learned i e become

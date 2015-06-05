@@ -28,7 +28,7 @@ parameters same region lead same optimal
 all regions problem computational
 solve problem whole genome scale up free parameters
 our approach alignment idea alignment short numbers derived alignment
-instance given standard each alignment number number number s alignment
+instance given standard each alignment number number number s spaces alignment
 called alignment
 example consider above pair
 first alignment alignment while second alignment alignment

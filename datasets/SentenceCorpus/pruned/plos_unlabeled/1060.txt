@@ -13,7 +13,7 @@ one most important features perception usually associated
 hence number models perception based upon temporal analysis neural activity stimulus
 most models form activity using integration time
 models been able predict reported wide range complex stimuli
-however choosing appropriate integration time been previous models been able explain wide range time scales data
+however appropriate integration time been previous models been able explain wide range time scales data
 data show certain conditions system information over time scales several while at same time being able changes only few
 temporal perception also been detection performance function frequency rate main being system limited ability process
 between temporal integration not perception but general temporal processing

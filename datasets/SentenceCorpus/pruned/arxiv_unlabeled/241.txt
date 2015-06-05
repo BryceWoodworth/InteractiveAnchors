@@ -9,7 +9,7 @@ basic probability rule called probability using density matrix clustering other 
 combined maximization probabilistic modeling approach detection estimation theory
 proposed markov random field using density matrix applied image
 bayesian framework based density matrix also been proposed
-proposed density between two probability
+proposed density between two probability spaces
 et al rule case where prior was density matrix bayesian probability density matrices rules between
 typically derived generalization theory special case when density matrices been
 full distributions over model parameters probabilistic models eg remains difficult bayesian well classical bayesian

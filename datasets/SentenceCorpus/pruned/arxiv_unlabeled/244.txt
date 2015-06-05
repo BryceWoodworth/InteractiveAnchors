@@ -26,5 +26,5 @@ solutions form up new
 then described process
 how evolution
 global solution found time evolution over
-genetic algorithms often used global search search
+genetic algorithms often used global search search spaces
 makes genetic algorithm good classifier

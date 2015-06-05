@@ -16,7 +16,7 @@ simple like
 many problems some features highly correlated
 but if number features number measured data even simple linear model will lead problem more parameters than
 other related more common situations when dimension data space high even if many data available learning
-example data analysis tools use between data any distance i e most tools fact between two random close points between two random far ones tend same value average
+example data analysis tools use between data any distance i e most tools fact spaces between two random close points between two random far ones tend same value average
 data analysis tools must address two ways them
 one develop tools able model data number effective parameters lower than dimension space
 example into

@@ -24,7 +24,7 @@ paper practical applications consider where number number actions } very large
 major using practical problems when large not how set learning rate
 suggest setting fixed function number actions
 however lead performance example section performance particularly larger
-one way address multiple multiple values learning rate choosing output best online way
+one way address multiple multiple values learning rate output best online way
 however solution real applications particularly very large more about solutions see section paper take step towards making online learning more practical novel adaptive algorithm
 our algorithm called
 very simple each simply involves single search weights all actions

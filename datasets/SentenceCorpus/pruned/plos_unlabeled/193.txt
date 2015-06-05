@@ -7,7 +7,7 @@ further rate used our subjects total reward gain our task
 our results suggest particular temporal determined task subject question notion reward universal principle
 introduction
 limited amount time available before need make large number choices our total reward gain
-particular when choosing between larger but reward smaller but more reward compare values associated each reward choose reward associated larger value
+particular when between larger but reward smaller but more reward compare values associated each reward choose reward associated larger value
 critical choices reward values function rewards function
 two main classes models reward been
 although researchers environments all behavioral studies directly compared two types humans better reward choice data than does
@@ -28,7 +28,7 @@ but does total gain situations situations choices rewards constant limited total
 situations model reward rate
 but trials not independent each other may not average reward rate thus total gain
 instance relatively long both rewards although may large reward small more reward may result smaller overall average reward rate
-choosing small but reward subject next more trials
+small but reward subject next more trials
 thus situations strategy values rewards less than does would total gain
 how far future rewards should considered
 large rate biases individuals small more rewards

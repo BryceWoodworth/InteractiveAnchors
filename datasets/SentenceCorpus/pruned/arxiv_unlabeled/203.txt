@@ -14,7 +14,7 @@ prediction framework does not make any assumptions about process
 performance compared performance several other called
 at each step each his prediction then his own prediction based predictions at step predictions outcomes at all previous losses
 there many algorithms review see
-practical applications algorithms prediction choosing loss function often problem
+practical applications algorithms prediction loss function often problem
 task may no natural measure loss concept prediction outcome better
 thus one among several common loss functions example loss idea least methods loss information theory
 similar issue when themselves prediction algorithms some losses
@@ -27,4 +27,4 @@ all rules particular loss functions similar each other sense another framework o
 some known results case loss functions
 simple possible binary outcomes predictions finite number
 our results loss functions only
-however results more general settings outcomes arbitrary prediction many etc \ where methods work
+however results more general settings outcomes arbitrary prediction spaces many etc \ where methods work

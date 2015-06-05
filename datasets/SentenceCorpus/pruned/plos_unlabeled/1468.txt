@@ -52,7 +52,7 @@ furthermore known large class systems biology models parameter values distribute
 been suggested factor makes parameter estimation difficult
 similar results search exact individual values parameters task most cases
 however also known even if estimation process not able any parameter values models still able significant quantitative predictions
-present results parameter estimation procedure applied large parameter sparse data provides evaluation statistical estimates
+present results parameter estimation procedure applied large parameter spaces sparse data provides evaluation statistical estimates
 achieve goal introduce extended algorithm together measure accuracy estimation process based formula test
 furthermore show how techniques together also used address problem model selection one most model given process among
 feature approach ability use information about statistics noise order estimated parameters consistent available experimental data

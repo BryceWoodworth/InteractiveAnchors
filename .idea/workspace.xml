@@ -2,9 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac0edaf-24e1-4f94-a9f4-a818c9a5b510" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_vals.p" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_vals2.p" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preprocessor.py" afterPath="$PROJECT_DIR$/preprocessor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved/NIPS.p" afterPath="$PROJECT_DIR$/saved/NIPS.p" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved/tri.p" afterPath="$PROJECT_DIR$/saved/tri.p" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/100.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/100.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/105.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/105.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1060.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1060.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1083.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1083.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/109.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/109.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/111.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/111.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/111.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/111.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/114.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/114.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/117.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/117.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1190.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/124.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/124.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/127.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/127.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/13.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/138.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/138.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/139.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/139.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/140.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/144.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/144.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1443.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1443.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1468.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/1468.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/149.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/149.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/150.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/152.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/152.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/154.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/154.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/155.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/155.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/159.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/159.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/159.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/159.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/165.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/165.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/166.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/166.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/169.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/169.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/171.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/171.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/176.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/176.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/179.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/179.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/181.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/181.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/183.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/183.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/186.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/186.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/189.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/189.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/19.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/19.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/191.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/191.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/193.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/193.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/197.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/197.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/203.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/203.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/204.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/204.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/208.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/208.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/213.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/213.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/214.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/214.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/22.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/22.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/221.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/221.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/221.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/221.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/230.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/234.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/234.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/234.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/234.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/241.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/241.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/244.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/244.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/248.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/248.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/252.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/252.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/256.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/256.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/256.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/256.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/263.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/263.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/264.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/264.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/273.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/273.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/273.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/273.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/276.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/276.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/276.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/276.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/278.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/278.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/282.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/282.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/284.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/284.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/296.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/296.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/297.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/297.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/298.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/298.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/299.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/299.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/300.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/300.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/302.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/302.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/305.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/305.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/312.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/312.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/320.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/320.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/322.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/322.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/328.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/328.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/329.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/329.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/33.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/33.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/330.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/330.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/339.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/339.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/38.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/38.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/42.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/42.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/43.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/43.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/44.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/44.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/45.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/45.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/47.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/47.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/47.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/47.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/50.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/52.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/52.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/56.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/56.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/57.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/58.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/58.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/59.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/59.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/61.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/61.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/616.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/plos_unlabeled/616.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/62.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/62.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/74.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/74.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/76.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/76.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/76.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/76.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/79.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/79.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/8.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/81.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/81.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/83.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/83.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/86.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/86.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/87.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/87.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/99.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/arxiv_unlabeled/99.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/99.txt" afterPath="$PROJECT_DIR$/datasets/SentenceCorpus/pruned/jdm_unlabeled/99.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/improved_arora.py" afterPath="$PROJECT_DIR$/improved_arora.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_arora_test.py" afterPath="$PROJECT_DIR$/run_arora_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/preprocessor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="3492" max-vertical-offset="4770">
-              <caret line="230" column="4" selection-start-line="230" selection-start-column="4" selection-end-line="230" selection-end-column="4" />
+              <caret line="227" column="25" selection-start-line="227" selection-start-column="25" selection-end-line="227" selection-end-column="25" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -45,8 +155,8 @@
       <file leaf-file-name="improved_arora.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/improved_arora.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="6192">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="6480">
+              <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,8 +165,8 @@
       <file leaf-file-name="run_arora_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_arora_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1006993" vertical-offset="1854" max-vertical-offset="3996">
-              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+            <state vertical-scroll-proportion="-0.6967742" vertical-offset="2970" max-vertical-offset="3996">
+              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
                 <element signature="e#32#41#0" expanded="true" />
               </folding>
@@ -72,18 +182,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/improved_arora.py" />
         <option value="$PROJECT_DIR$/gibbs.py" />
-        <option value="$PROJECT_DIR$/run_arora_test.py" />
         <option value="$PROJECT_DIR$/preprocessor.py" />
+        <option value="$PROJECT_DIR$/improved_arora.py" />
+        <option value="$PROJECT_DIR$/run_arora_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -308,8 +418,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10862445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -318,7 +428,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22395833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32291666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -362,6 +472,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3492" max-vertical-offset="4770">
+          <caret line="230" column="4" selection-start-line="230" selection-start-column="4" selection-end-line="230" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/improved_arora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6444">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_arora_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2664" max-vertical-offset="3996">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="e#32#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="4770">
@@ -425,28 +563,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/improved_arora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6192">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3492" max-vertical-offset="4770">
-          <caret line="230" column="4" selection-start-line="230" selection-start-column="4" selection-end-line="230" selection-end-column="4" />
+          <caret line="227" column="25" selection-start-line="227" selection-start-column="25" selection-end-line="227" selection-end-column="25" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/improved_arora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3456" max-vertical-offset="6480">
+          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_arora_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1006993" vertical-offset="1854" max-vertical-offset="3996">
-          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        <state vertical-scroll-proportion="-0.6967742" vertical-offset="2970" max-vertical-offset="3996">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
             <element signature="e#32#41#0" expanded="true" />
           </folding>

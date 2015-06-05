@@ -7,7 +7,7 @@ result no learning algorithm our task achieve learning rates independent data di
 introduction
 while theory machine learning understanding many aspects learning our theoretical understanding learning
 practical importance various learning tasks state our current knowledge does not provide close mathematical performance classification prediction theory
-paper make small step direction one specific learning task detection linear data distributions over
+paper make small step direction one specific learning task detection linear data distributions over spaces
 consider following unknown data distribution over find density through distribution
 assume underlying data distribution continuous density function data available finite
 samples distribution
