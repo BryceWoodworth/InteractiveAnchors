@@ -5,7 +5,7 @@ import time
 import numpy
 import pickle
 from preprocessor import *
-from improved_arora import *
+from interactive_anchor import *
 
 
 def preprocess(vocab_size):
@@ -109,6 +109,11 @@ def preprocess2(vocab_size):
 
 
 if __name__ == '__main__':
+    # The number of top words to calculate for use in coherence
+    topwords = 20
+    # The number of top words to display
+    topwords_disp = 5
+
     try:
         num_topics_nips, vocab_size_nips, vocab_nips, priors_nips, Q_nips, H_nips, S_nips, ind_nips, A_nips, C_nips = pickle.load(open('saved/NIPS.p', 'rb'))
         nips_saved = True
@@ -186,31 +191,94 @@ if __name__ == '__main__':
             vocab, priors, Q, H, S, indices, A, C = _recalculate2(num_topics, vocab_size)
             pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, indices, A, C), open('saved/NIPS.p', 'wb'))
 
+    while True:
+        # Print out some helpful information about the discovered topics
+        print("Key: words are given as '<word> - (<P(word | topic)>, <P(topic | word)>, <prior P(word)>)'")  # TODO update
 
-    # Print out some helpful information about the discovered topics
-    print("Anchor Words:")
-    print(list(map(lambda x: vocab[x], indices)))
-    print()
-    print("Key: words are given as '<word> - (<P(word | topic)>, <P(topic | word)>, <prior P(word)>)'")
+        topic_priors = numpy.zeros(A.shape[1])
+        for i in range(len(topic_priors)):
+            for word in range(A.shape[0]):
+                # Solve by marginalizing over words and applying product rule
+                topic_priors[i] += priors[word] * C[word, i]
 
-    topic_priors = numpy.zeros(A.shape[1])
-    for i in range(len(topic_priors)):
-        for word in range(A.shape[0]):
-            # Solve by marginalizing over words and applying product rule
-            topic_priors[i] += priors[word] * C[word, i]
+        tops = top_words(A, num_words=topwords)
+        top_anchors = top_words(C, num_words=topwords)
+        coherences = calculate_coherences(tops, H)
+        order = map(lambda x: x[0], sorted(zip(range(len(tops)), coherences), key=lambda x: x[1]))
 
-    tops = top_words(A, num_words=20)
-    coherences = calculate_coherences(tops, H)
-    order = map(lambda x: x[0], sorted(zip(range(len(tops)), coherences), key=lambda x: x[1]))
+        for i in order:
+            print("Topic " + str(i+1) + ": anchor='%s', P(topic)=%.5f, coherence=%.2f" % (vocab[indices[i]], topic_priors[i], coherences[i]))
+            # print(list(map(lambda x: vocab[x[0]] + " - (%.5f, %.5f, %.5f)" % (x[1], C[x[0], i], priors[x[0]]), tops[i][:topwords_disp])))
+            print(list(map(lambda x: vocab[x[0]] + " - (%.5f)" % (C[x[0], i]), top_anchors[i][:topwords_disp])))
+            print()
 
-    for i in order:
-        print("Topic " + str(i+1) + ": anchor='%s', P(topic)=%.5f, coherence=%.2f" % (vocab[indices[i]], topic_priors[i], coherences[i]))
-        print(list(map(lambda x: vocab[x[0]] + " - (%.5f, %.5f, %.5f)" % (x[1], C[x[0], i], priors[x[0]]), tops[i])))
+        print("Anchor word distances:")
+        for anchor1 in S:
+            dists = [numpy.linalg.norm(anchor1 - anchor2) for anchor2 in S]
+            print(', '.join([('%.3f' % dist) for dist in dists]))
         print()
 
-    print("Anchor word distances:")
-    for anchor1 in S:
-        dists = [numpy.linalg.norm(anchor1 - anchor2) for anchor2 in S]
-        print(', '.join([('%.3f' % dist) for dist in dists]))
-    print()
+        while True:
+            # Prompt the user for an edit
+            print("Edit key: Hit enter for no edits\n"
+                  "Topic numbers must be surrounded by brackets, e.g. [4] for topic 4\n"
+                  "Actions: merge, mate, split, delete\n"
+                  "merge: Combines two topics into a single topic, removing them\n"
+                  "     merge [3] [4]\n"
+                  "mate: Combines two topics into a new topic, leaving the original two\n"
+                  "     mate [3] [4]\n"
+                  "split: Splits a topic into two topics based on the given words\n"
+                  "     split [3] word1 word2\n"
+                  "     it is also possible to specify only one word, with the other taken as the original anchor\n"
+                  "     split [3] word1\n"
+                  "delete: Deletes the given topic\n"
+                  "     delete [3]\n")
+            edit = input("Request an edit if you would like to make one:\n")
+            if edit == '':
+                exit("Thank you for testing this interactive topic-modeling algorithm.")
+            edits = edit.split()
+            # TODO: improve incorrect input detection
+            for i in range(1, len(edits)):
+                if edits[i].startswith('[') and edits[i].endswith(']'):
+                    try:
+                        edits[i] = int(edits[i][1:-1])
+                    except ValueError:
+                        print("Invalid input.")
+                        continue
 
+            if edits[0] == 'merge' and len(edits) == 3:
+                S = merge(S, int(edits[1])-1, int(edits[2])-1)
+            elif edits[0] == 'mate' and len(edits) == 3:
+                S = mate(S, int(edits[1])-1, int(edits[2])-1)
+            # elif edits[0] == 'split' and (len(edits) == 3 or len(edits) == 4):
+            # elif edits[0] == 'delete' and len(edits) == 2:
+            else:
+                print("Invalid input.")
+                continue
+
+            # Only S will change across interactivity
+            A, C = recover(Q, S, priors)
+
+            # Recalculate and display information
+            topic_priors = numpy.zeros(A.shape[1])
+            for i in range(len(topic_priors)):
+                for word in range(A.shape[0]):
+                    # Solve by marginalizing over words and applying product rule
+                    topic_priors[i] += priors[word] * C[word, i]
+
+            tops = top_words(A, num_words=topwords)
+            top_anchors = top_words(C, num_words=topwords)
+            coherences = calculate_coherences(tops, H)
+            order = map(lambda x: x[0], sorted(zip(range(len(tops)), coherences), key=lambda x: x[1]))
+
+            for i in order:
+                print("Topic " + str(i+1) + ": P(topic)=%.5f, coherence=%.2f" % (topic_priors[i], coherences[i]))
+                # print(list(map(lambda x: vocab[x[0]] + " - (%.5f, %.5f, %.5f)" % (x[1], C[x[0], i], priors[x[0]]), tops[i][:topwords_disp])))
+                print(list(map(lambda x: vocab[x[0]] + " - (%.5f)" % (C[x[0], i]), top_anchors[i][:topwords_disp])))
+                print()
+
+            print("Anchor word distances:")
+            for anchor1 in S:
+                dists = [numpy.linalg.norm(anchor1 - anchor2) for anchor2 in S]
+                print(', '.join([('%.3f' % dist) for dist in dists]))
+            print()

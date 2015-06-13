@@ -64,6 +64,7 @@ def anchor_selection(Q, k):
     return anchors, anchor_indices
 
 
+# TODO: add multicore support
 def exponentiated_gradients(targets, convex, epsilon=1e-7, max_iters=10000, max_steps = 20, starting_step=1, decay=2.0, c1=1e-4, c2=0.75, num_threads=4):
     """Finds the best reconstruction of target as a convex combination
     of other vectors.
@@ -263,6 +264,37 @@ def calculate_coherences(top_words, term_by_doc):
                 freq = len(list(filter(lambda x: x[top_word_2] >= 1, columns)))
                 coherences[topic] += log((co_freq + 1) / freq)
     return coherences
+
+
+# TODO: docstrings
+# Currently both merge and mate use averaging
+def merge(S, topic1, topic2):
+    """Adds a new anchor to S that is a combination of topic1 and topic2, removing both"""
+    maxsize = S.shape[0]
+    assert topic1 < maxsize and topic2 < maxsize
+    merged = _merge_average(S[topic1], S[topic2])
+    S = numpy.append(numpy.delete(S, [topic1, topic2], axis=0), [merged], axis=0)
+    return S
+
+
+def mate(S, topic1, topic2):
+    """Adds a new anchor to S that is a combination of topic1 and topic2, leaving all 3"""
+    maxsize = S.shape[0]
+    assert topic1 < maxsize and topic2 < maxsize
+    merged = _merge_average(S[topic1], S[topic2])
+    S = numpy.append(S, [merged], axis=0)
+    return S
+
+
+def _merge_average(v1, v2):
+    """Helper function that merges two distributions"""
+    return (v1 + v2) / 2
+
+def _merge_multiply(v1, v2):
+    """Helper function that merges two distributions"""
+    tmp = numpy.multiply(v1, v2)
+    # renormalize
+    return tmp / numpy.sum(tmp)
 
 
 def profile_exponentiated(convex=None, num_trials=1, target_size = 1000, c1=[10**i for i in range(-17, -13)],
