@@ -7,7 +7,9 @@ import numpy.random
 import time
 from math import log
 from numpy.core.umath_tests import inner1d
-
+from scipy.optimize import linprog
+from sklearn import random_projection
+from sklearn.cluster import KMeans
 
 def _farthest_span(span, options, chosen):
     farthest = -1
@@ -31,9 +33,8 @@ def anchor_selection(Q, k):
     This algorithm assumes that there are at least k anchor words and
     that the rest of the rows in Q lie (almost) in their convex hull.
     Input:
-    Q: the row-normalized word co-occurence matrix,
+    Q: the row-normalized word co-occurrence matrix,
     k: the number of anchor words to find
-    epsilon: an error bound
 
     Output:
     A numpy array of the rows of Q corresponding to anchor words
@@ -64,8 +65,118 @@ def anchor_selection(Q, k):
     return anchors, anchor_indices
 
 
+# TODO: is projecting onto the number of topics the right choice?
+def extremal_anchors(Q, k, proj):
+    """Finds anchor words form the given word-word correlation matrix.
+    Finds anchor words by first doing a random projection and ruling out
+    any points that lie in the convex hull of other points (as they cannot
+    themselves be part of the convex hull). Then we run K-Means to cluster
+    into k clusters and pick one anchor word per cluster. The primary benefit
+    of using this function is that it gives access to cluster information
+    that can be used in an interactive setting to manipulate the selected anchor
+    words.
+    Input:
+    Q: the row-normalized word co-occurrence matrix,
+    k: the number of anchor words to find,
+    proj: the number of dimensions to use in the random projection
+
+    Output:
+    A numpy array of the rows of Q corresponding to anchor words,
+    and their indices.
+    """
+    # random projection
+    GRP = random_projection.GaussianRandomProjection(n_components=proj)
+    Q_red = GRP.fit_transform(Q).transpose()
+
+    # renormalize
+    sums = numpy.sum(Q_red, axis=0, keepdims=True)
+    Q_red /= sums
+
+    # add a row of 1's at the bottom to keep the mixing weights a simplex
+    Q_red = numpy.vstack((Q_red, numpy.ones(Q.shape[0])))
+
+    # use an empty optimization function since we only need a feasible point
+    c = numpy.zeros(Q.shape[0]-1)
+
+    extremal_count = 0
+    extremal_pts = None
+    indices = []
+
+    for i in range(Q.shape[0]):
+        # check if the i'th column lies in the convex hull of others
+        A = numpy.hstack((Q_red[:, :i], Q_red[:, i+1:]))
+        target = Q_red[:, i]
+        if not linprog(c, A_eq=A, b_eq=target).success:
+            extremal_count += 1
+            indices.append(i)
+            if extremal_pts is None:
+                extremal_pts = [Q_red[:, i]]
+            else:
+                extremal_pts = numpy.concatenate((extremal_pts, [Q_red[:, i]]), axis=0)
+
+    # Now that we have our candidate extremal points, cluster with K-Means
+    #return time.time() - start_time, extremal_count, zip(indices, extremal_pts)
+
+    # TODO: handle case where we have fewer extremal points than topics
+    clusterer = KMeans(n_clusters=k)
+    # TODO: give access to the clusters for use in interactivity
+    labels = clusterer.fit_predict(extremal_pts)
+    centroids = clusterer.cluster_centers_
+    # for each cluster, compute the starting anchor word by picking
+    # the word with the largest minimal distance to another cluster centroid
+    # TODO: this is an important step, is this the best way?
+    anchors = numpy.array([(-1, float("inf")) for _ in range(k)])
+    for (index, point, label) in zip(indices, extremal_pts, labels):
+        min_dist = float("inf")
+        for i in range(k):
+            if i != label:  # don't consider the centroid we belong to
+                dist = numpy.linalg.norm(point - centroids[i])
+                if dist < min_dist:
+                    min_dist = dist
+
+        if min_dist < anchors[label][1]:
+            anchors[label] = (index, min_dist)
+
+    # extract the found anchors from the Q matrix and return them
+    anchor_indices, _ = zip(*anchors)
+    return Q[anchor_indices], anchor_indices
+
+# TODO: evaluate this as a means to add a sparse solution
+#kernel_terms = [None, None, None]
+#def l2_loss(targets, convex, weight, test_weight=None):
+#    """
+#    :param targets:         the matrix of values to reconstruct
+#    :param convex:          the matrix of the convex set we are reconstructing with
+#    :param weight:          the current estimate to optimize
+#    :param test_weight:     the estimate to check in line search
+#    :return:                the gradient, and if we pass in an i, an objective for that i
+#
+#    Preconditions:  Should never set i or weight_update on the first call
+#                    if weight_update is set, i should be too
+#    """
+#    if kernel_terms[0] is None:
+#        kernel_terms[0] = inner1d(targets, targets)
+#        kernel_terms[1] = -2 * numpy.dot(targets, numpy.transpose(convex))
+#        kernel_terms[2] = numpy.dot(convex, numpy.transpose(convex))
+#
+#    if test_weight is None:
+#        grad = kernel_terms[1][i] + numpy.dot(2 * kernel_terms[2], weight)
+#
+#        objective = kernel_terms[0][i] + numpy.dot(weight, kernel_terms[1][i]) + \
+#                    numpy.dot(weight, numpy.transpose(numpy.dot(kernel_terms[2], weight)))
+#
+#    else:
+#        weighted_kernel_term_3 = numpy.dot(kernel_terms[2], test_weight)
+#        grad = kernel_terms[3][i] + (2 * weighted_kernel_term_3)
+#
+#        objective = kernel_terms[0][i] + numpy.dot(test_weight, kernel_terms[1][i]) + \
+#                         numpy.dot(test_weight, weighted_kernel_term_3.transpose())
+#
+#    return grad, objective
+
+
 # TODO: add multicore support
-def exponentiated_gradients(targets, convex, epsilon=1e-7, max_iters=10000, max_steps = 20, starting_step=1, decay=2.0, c1=1e-4, c2=0.75, num_threads=4):
+def exponentiated_gradients(targets, convex, epsilon=1e-7, max_iters=10000, max_steps=20, starting_step=1, decay=2.0, c1=1e-4, c2=0.75, num_threads=4):
     """Finds the best reconstruction of target as a convex combination
     of other vectors.
 
@@ -131,7 +242,6 @@ def exponentiated_gradients(targets, convex, epsilon=1e-7, max_iters=10000, max_
                 max_step = -1 * MAX_CHANGE / numpy.min(grad)
             else:
                 max_step = float('inf')
-
 
             # Perform line search to find a step length that meets the Wolfe criteria
             for steps in range(1, max_steps+1):
@@ -373,14 +483,4 @@ def profile_exponentiated(convex=None, num_trials=1, target_size = 1000, c1=[10*
 
 
 if __name__ == '__main__':
-    Q = numpy.array([[1.0, 3, 2, 4, 1, 0], [0.0, 0, 1, 4, 1, 2], [5.0, 2, 0, 1, 2, 1],
-                    [2.0, 1, 2, 2, 0, 1], [3.0, 0, 0, 0, 1, 0], [0.0, 0, 1, 1, 3, 2], [1.1, 1, 2, 1, 0, 1]])
-
     profile_exponentiated(filename="exponentiated_results_1000.txt")
-
-
-    #S = anchor_selection(Q, 3)
-    #anchors = [Q[i] for i in S]
-    #print(S)
-    #recover(Q, S)
-
