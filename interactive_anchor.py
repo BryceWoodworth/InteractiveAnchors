@@ -139,6 +139,7 @@ def extremal_anchors(Q, k, proj):
 
     # extract the found anchors from the Q matrix and return them
     anchor_indices, _ = zip(*anchors)
+    anchor_indices = [int(x) for x in anchor_indices]
     return Q[anchor_indices], anchor_indices
 
 # TODO: evaluate this as a means to add a sparse solution

@@ -74,28 +74,36 @@ def preprocess(vocab_size):
     return vocab, priors, Qbar, H
 
 
-def _recalculate(num_topics, vocab_size):
+def _recalculate(num_topics, vocab_size, extremal=False):
     """Simply runs the algorithm to recalculate the desired values"""
     print("\nBeginning preprocessing.")
     start = time.time()
     vocab, priors, Q, H = preprocess(vocab_size)
     print("Preprocessed and found Q in %d seconds." % (time.time() - start))
     inter = time.time()
-    S, indices = anchor_selection(Q, num_topics)
+    if extremal:
+        # TODO: is setting proj=num_topics the best way?
+        S, indices = extremal_anchors(Q, num_topics, num_topics)
+    else:
+        S, indices = anchor_selection(Q, num_topics)
     print("Found anchor words in %d seconds." % (time.time() - inter))
     A, C = recover(Q, S, priors)
     print("Recovered A in %d seconds.\n" % (time.time() - start))
     return vocab, priors, Q, H, S, indices, A, C
 
 
-def _recalculate2(num_topics, vocab_size):
+def _recalculate2(num_topics, vocab_size, extremal=False):
     """Simply runs the algorithm to recalculate the desired values"""
     print("\nBeginning preprocessing.")
     start = time.time()
     vocab, priors, Q, H = preprocess2(vocab_size)
     print("Preprocessed and found Q in %d seconds." % (time.time() - start))
     inter = time.time()
-    S, indices = anchor_selection(Q, num_topics)
+    if extremal:
+        # TODO: proj=num_anchors?
+        S, indices = extremal_anchors(Q, num_topics, num_topics)
+    else:
+        S, indices = anchor_selection(Q, num_topics)
     print("Found anchor words in %d seconds." % (time.time() - inter))
     A, C = recover(Q, S, priors)
     print("Recovered A in %d seconds.\n" % (time.time() - start))
@@ -183,12 +191,19 @@ if __name__ == '__main__':
             except ValueError:
                 print("invalid input")
 
+    extremal = False
+    if not save_loaded:
+        user_extremal = input('Would you like to try the extremal anchor selection algorithm? (y/N): ')
+        user_extremal = user_extremal.lower()
+        if user_extremal == 'y' or user_extremal == 'yes':
+            extremal = True
+
     if not save_loaded:
         if dataset == '0':
-            vocab, priors, Q, H, S, indices, A, C = _recalculate(num_topics, vocab_size)
+            vocab, priors, Q, H, S, indices, A, C = _recalculate(num_topics, vocab_size, extremal)
             pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, indices, A, C), open('saved/tri.p', 'wb'))
         elif dataset == '1':
-            vocab, priors, Q, H, S, indices, A, C = _recalculate2(num_topics, vocab_size)
+            vocab, priors, Q, H, S, indices, A, C = _recalculate2(num_topics, vocab_size, extremal)
             pickle.dump((num_topics, vocab_size, vocab, priors, Q, H, S, indices, A, C), open('saved/NIPS.p', 'wb'))
 
     while True:
@@ -208,7 +223,7 @@ if __name__ == '__main__':
 
         for i in order:
             print("Topic " + str(i+1) + ": anchor='%s', P(topic)=%.5f, coherence=%.2f" % (vocab[indices[i]], topic_priors[i], coherences[i]))
-            # print(list(map(lambda x: vocab[x[0]] + " - (%.5f, %.5f, %.5f)" % (x[1], C[x[0], i], priors[x[0]]), tops[i][:topwords_disp])))
+            print(list(map(lambda x: vocab[x[0]] + " - (%.5f, %.5f, %.5f)" % (x[1], C[x[0], i], priors[x[0]]), tops[i][:topwords_disp])))
             print(list(map(lambda x: vocab[x[0]] + " - (%.5f)" % (C[x[0], i]), top_anchors[i][:topwords_disp])))
             print()
 
